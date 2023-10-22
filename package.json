@@ -1,6 +1,7 @@
 {
   "name": "tester",
   "module": "index.ts",
+
   "type": "module",
   "dependencies": {
     "@types/node": "^20.8.7",

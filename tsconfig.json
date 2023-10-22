@@ -1,33 +1,15 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
-    "allowJs": true,
-    "allowSyntheticDefaultImports": true,
-    "composite": true,
-    "downlevelIteration": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "react",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext",
-      "WebWorker"
-    ],
-    "module": "esnext",
-    "moduleDetection": "force",
-    "moduleResolution": "bundler",
-    "noEmit": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true,
     "paths": {
       "#@/*": [
         "./src/*"
       ]
     },
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "esnext"
+    "lib": ["esnext", "DOM", "DOM.Iterable", "WebWorker"],
+    "esModuleInterop": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
