@@ -1,21 +1,4 @@
-const server = Bun.serve(
-  {
-    port: 5050,
-    fetch(
-      req 
-    ) {
-      return new Response(
-        'Bun!' 
-      );
-    },
-  } 
-);
-
-console.log(
-  `Listening on http://localhost:${ server.port } ...` 
-);
-
-import { Thenable } from './src/models/thenable';
+import { Thenable } from '#@/models/thenable';
 
 async function f () {
   const thener = new Thenable(
