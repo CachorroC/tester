@@ -1,5 +1,5 @@
-import { DemandaRaw, IntDemanda, IntDemandaPrueba, Juzgado, TipoProceso, TipoProcesoRaw } from '../types/carpetas';
-import { Despachos } from '../despachos';
+import { Despachos } from '../data/despachos';
+import { DemandaRaw, IntDemanda, Juzgado, TipoProceso,  } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
 
 function vencimientoPagareFixer(
@@ -317,4 +317,6 @@ export class Demanda implements IntDemanda {
   vencimientoPagare: Date[];
   expediente: string | null;
   juzgados: Juzgado[];
+
+
 }

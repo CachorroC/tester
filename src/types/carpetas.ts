@@ -121,7 +121,7 @@ export interface IntDeudor {
   primerNombre: string;
   segundoNombre: string | null;
   primerApellido: string;
-  segundoApellido: string | null;
+  segundoApellido: string | null | string[];
   tel: IntTel;
 }
 

@@ -4,14 +4,17 @@
 //
 //   const consultaNumeroRadicacion = Convert.toConsultaNumeroRadicacion(json);
 
+import { intActuacion } from './actuaciones';
 
-export interface ConsultaNumeroRadicacion {
+
+export interface  Data{
   StatusCode:   number;
   Message:      Message | string;
   procesos?: intProceso[];
+   actuaciones?: intActuacion[];
 }
 
-export interface Data{
+export interface ConsultaNumeroRadicacion{
   tipoConsulta: string;
   procesos: intProceso[];
   parametros: Parametros;
@@ -19,7 +22,8 @@ export interface Data{
 }
 
 
-export type Message = 'OK' | 'El parametro "NumeroRadicacion" ha de contener 23 digitos.';
+export type Message = 'OK' | 'El parametro "NumeroRadicacion" ha de contener 23 digitos.' | 'Object reference not set to an instance of an object.'
+  | 'No se pueden ver actuaciones de un proceso privado';
 
 export interface Paginacion {
     cantidadRegistros: number;

@@ -3,11 +3,6 @@
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,
-    "paths": {
-      "#@/*": [
-        "./src/*"
-      ]
-    },
     "lib": ["esnext", "DOM", "DOM.Iterable", "WebWorker"],
     "esModuleInterop": true
   },
