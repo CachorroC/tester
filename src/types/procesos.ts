@@ -48,8 +48,8 @@ export interface intProceso {
     idProceso:            number;
     idConexion:           number;
     llaveProceso:         string;
-    fechaProceso:         Date | null;
-    fechaUltimaActuacion: Date | null;
+    fechaProceso:         Date |string | null;
+    fechaUltimaActuacion: Date | string |null;
     despacho:             string;
     departamento:         Departamento;
     sujetosProcesales:    string;

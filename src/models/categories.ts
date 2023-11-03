@@ -669,6 +669,7 @@ export function categoryAssignment(
 
   return {
     ...carpeta,
-    category: 'sin Especificar'
+    category: 'Bancolombia'
   };
+
 }

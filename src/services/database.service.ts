@@ -1,10 +1,11 @@
 //* External Dependencies
 
 import { Collection, Db, MongoClient } from 'mongodb';
+import { IntCarpeta } from '../types/carpetas';
 
 //* Global Variables
 
-export const collections: { games?: Collection } = {};
+export const collections: { carpetas?: Collection<IntCarpeta> } = {};
 
 //* Initialize Connection
 
@@ -19,21 +20,12 @@ export async function connectToDatabase () {
     'RyS'
   );
 
-  const gamesCollection: Collection = db.collection(
-    'Pruebas'
+  const gamesCollection: Collection<IntCarpeta> = db.collection<IntCarpeta>(
+    'Carpetas'
+  );
+  collections.carpetas = gamesCollection;
+  console.log(
+    `Successfully connected to database: ${ db.databaseName } and collection: ${ gamesCollection.collectionName }`
   );
   return gamesCollection;
-
 }
-
-connectToDatabase()
-  .then(
-    (
-      cc
-    ) =>
-    {
-      console.log(cc.find().toArray());
-      return cc.find()
-        .toArray();
-    }
-  );

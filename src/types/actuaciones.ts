@@ -4,6 +4,8 @@
 //
 //   const consultaActuacion = Convert.toConsultaActuacion(json);
 
+import { Data } from './procesos';
+
 
 export type Message =
   | 'OK'

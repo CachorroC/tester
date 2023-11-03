@@ -1,0 +1,150 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Carpeta {
+  id                      Int           @id @default(autoincrement())
+  numero                  Int           @unique
+  llaveProceso            String?       @unique
+  nombre                  String
+  category                String?       @default("Bancolombia")
+  deudor                  Json
+  demanda                 Json
+  idProcesos              Int[]
+  departamento            Departamento?
+  capitalAdeudado         Decimal?      @default(1000000) @db.Money
+  entregaGarantiasAbogado DateTime?     @default(now()) @db.Date
+  tipoProceso             String?       @default("SINGULAR")
+  etapaProcesal           String?       @default("Reparto")
+  fechaPresentacion       DateTime?     @db.Date
+  mandamientoPago         DateTime?     @db.Date
+  municipio               String?
+  obligaciones            String[]
+  radicado                String?
+  vencimientoPagare       DateTime[]    @db.Date
+  juzgados                Juzgado[]
+  Nota                    Nota[]
+  Tarea                   Tarea[]
+  procesos                Proceso[]
+  actuaciones             Actuacion[]
+}
+
+model Nota {
+  text          String
+  id            Int      @id @unique @default(autoincrement())
+  date          DateTime
+  createdAt     DateTime @default(now())
+  pathname      String?
+  carpetaNumero Int?
+  carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [id])
+}
+
+model Tarea {
+  id           Int        @id @unique @default(autoincrement())
+  creationDate DateTime   @default(now()) @db.Date
+  dueDate      DateTime?  @db.Date
+  Carpeta      Carpeta?   @relation(fields: [carpetaId], references: [id])
+  carpetaId    Int?
+  text         String
+  isComplete   Boolean
+  subTareas    SubTarea[]
+}
+
+model SubTarea {
+  text       String    @id
+  date       DateTime?
+  isComplete Boolean
+  Tarea      Tarea?    @relation(fields: [tareaId], references: [id])
+  tareaId    Int?
+}
+
+model Actuacion {
+  createdAt        DateTime  @default(now())
+  idRegActuacion   Int       @id @db.Oid
+  llaveProceso     String
+  consActuacion    Int
+  fechaActuacion   DateTime  @db.Date
+  actuacion        String
+  anotacion        String?
+  fechaInicial     DateTime? @db.Date
+  fechaRegistro    DateTime  @db.Date
+  fechaFinal       DateTime? @db.Date
+  codRegla         String
+  conDocumentos    Boolean
+  cant             Int
+  Carpeta          Carpeta?  @relation(fields: [carpetaId], references: [id])
+  carpetaId        Int?
+  Proceso          Proceso?  @relation(fields: [procesoIdProceso], references: [idProceso])
+  procesoIdProceso Int?
+}
+
+model Demanda {
+  id                      Int          @id @default(autoincrement())
+  departamento            Departamento
+  capitalAdeudado         Decimal?     @db.Money
+  entregaGarantiasAbogado DateTime     @default(now()) @db.Date
+  tipoProceso             TipoProceso  @default(SINGULAR)
+  etapaProcesal           String?
+  fechaPresentacion       DateTime?    @db.Date
+  mandamientoPago         DateTime?    @db.Date
+  municipio               String?
+  obligacion              String[]
+  radicado                String?
+  vencimientoPagare       DateTime[]   @db.Date
+  expediente              String?
+}
+
+model Juzgado {
+  id        Int
+  tipo      String
+  url       String   @id
+  Carpeta   Carpeta? @relation(fields: [carpetaId], references: [id])
+  carpetaId Int?
+}
+
+model Proceso {
+  idProceso            Int         @unique
+  idConexion           Int
+  llaveProceso         String      @id
+  fechaProceso         DateTime?
+  fechaUltimaActuacion DateTime?
+  despacho             String
+  departamento         String
+  sujetosProcesales    String
+  esPrivado            Boolean
+  cantFilas            Int
+  actuaciones          Actuacion[]
+  Carpeta              Carpeta?    @relation(fields: [carpetaId], references: [id])
+  carpetaId            Int?
+}
+
+enum Category {
+  Terminados
+  LiosJuridicos
+  Bancolombia
+  Reintegra
+  Insolvencia
+}
+
+enum Departamento {
+  BOGOTA
+  CUNDINAMARCA
+  META
+  ANTIOQUIA
+  ATLANTICO
+}
+
+enum TipoProceso {
+  HIPOTECARIO
+  PRENDARIO
+  SINGULAR
+  ACUMULADO
+}

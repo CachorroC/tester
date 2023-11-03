@@ -1,12 +1,15 @@
+
+import { PrismaClient, Prisma } from '@prisma/client';
 import { Despachos } from '../data/despachos';
 import { ConsultaActuacion, intActuacion } from '../types/actuaciones';
-import { Juzgado, Category, TipoProceso, IntDeudor, CarpetaRaw, Codeudor } from '../types/carpetas';
+import { Juzgado, Category, TipoProceso, IntDeudor, CarpetaRaw, Codeudor, IntCarpeta } from '../types/carpetas';
 import { ConsultaNumeroRadicacion, Data, Message, intProceso } from '../types/procesos';
 import { Demanda } from './demanda';
 import { Deudor } from './deudor';
 
-export
-class NewJuzgado implements Juzgado {
+const prisma = new PrismaClient();
+
+export class NewJuzgado implements Juzgado {
   constructor(
     proceso: intProceso
   ) {
@@ -78,13 +81,12 @@ class NewJuzgado implements Juzgado {
 }
 
 
-export class CarpetaJudicial  {
+export class CarpetaJudicial implements IntCarpeta {
+  [ x: string ]: string | number | null | number[] | Demanda | Date | Date[] | undefined | unknown;
   numero: number;
-  _llaveProceso: string | null;
-  procesos?: intProceso[];
-  idProcesos?: number[];
+  llaveProceso: string | null;
 
-
+  idProcesos: number[] | null;
   demanda: {
     despachos?: string[];
     capitalAdeudado: number | null;
@@ -99,17 +101,19 @@ export class CarpetaJudicial  {
   radicado: string | null;
   vencimientoPagare: Date[];
   expediente: string | null;
-  juzgados?: NewJuzgado[];
+  juzgados: NewJuzgado[];
   sujetosProcesales?: string[];
   };
   fecha?: Date;
   ultimaActuacion?: intActuacion;
-  actuaciones?: { [ k: string ]: intActuacion; };
   category: Category;
   tipoProceso: TipoProceso;
   deudor: IntDeudor;
   codeudor?: Codeudor;
   cc: number;
+  procesos?: intProceso[];
+
+  actuaciones?: intActuacion[];
   constructor(
     {
       llaveProceso,
@@ -120,7 +124,8 @@ export class CarpetaJudicial  {
       numero
     }: CarpetaRaw,
   ) {
-    this._llaveProceso = llaveProceso
+    this.idProcesos = null;
+    this.llaveProceso = llaveProceso
       ? llaveProceso
       : null;
     this.numero = numero;
@@ -139,18 +144,8 @@ export class CarpetaJudicial  {
       deudor.cedula
     );
   }
-  set llaveProceso (
-    llave: string | null
-  ) {
-    if ( !llave || llave.length < 23 ) {
-      return;
-    }
 
-    this._llaveProceso = llave;
-  }
-  get llaveProceso () {
-    return this._llaveProceso;
-  }
+
   get nombre() {
     const nombres
           = this.deudor.primerNombre
@@ -166,6 +161,59 @@ export class CarpetaJudicial  {
 
     return rawName;
   }
+
+  hasKey () {
+    if ( this.llaveProceso === null ) {
+      return false;
+    } else if ( typeof this.llaveProceso === 'string' ) {
+      return true;
+    }
+
+    return false;
+
+  }
+  //SECTION createCarpeta
+  createCarpeta () {
+    const newCarpeta: Prisma.CarpetaCreateInput = {
+      numero                 : this.numero,
+      nombre                 : this.nombre,
+      capitalAdeudado        : this.demanda.capitalAdeudado,
+      entregaGarantiasAbogado: this.demanda.entregaGarantiasAbogado,
+      tipoProceso            : this.tipoProceso,
+      etapaProcesal          : this.demanda.etapaProcesal,
+      fechaPresentacion      : this.demanda.fechaPresentacion,
+      mandamientoPago        : this.demanda.mandamientoPago,
+      llaveProceso           : this.llaveProceso,
+      category               : this.category,
+      radicado               : this.demanda.radicado,
+      vencimientoPagare      : this.demanda.vencimientoPagare,
+      obligaciones           : this.demanda.obligacion.map(
+        (
+          o
+        ) => {
+          return String(
+            o
+          );
+        }
+      ),
+      idProcesos: this.idProcesos
+        ? this.idProcesos
+        : [],
+      deudor: JSON.stringify(
+        this.deudor
+      ),
+      demanda: JSON.stringify(
+        this.demanda
+      ),
+
+    };
+
+    return prisma.carpeta.create(
+      {
+        data: newCarpeta
+      }
+    );
+  }
   async consultaProcesos () {
     try {
       const idProcesosSet = new Set<number>();
@@ -176,16 +224,16 @@ export class CarpetaJudicial  {
 
       const juzgadosSet = new Set<Juzgado>();
 
-      if ( !this._llaveProceso ) {
+      if ( !this.llaveProceso ) {
         throw new Error(
           'aún no se le ha asignado un número de expediente a esta carpeta.'
         );
 
       }
-      /*
+
       await sleep(
         this.numero
-      ); */
+      );
 
       const request = await  fetch(
         `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ this.llaveProceso }&SoloActivos=false&pagina=1`
@@ -204,7 +252,36 @@ export class CarpetaJudicial  {
         procesos  : json.procesos
       };
 
+      const prismaProcesos = await prisma.proceso.createMany(
+        {
+          data: json.procesos.map(
+            (
+              proceso
+            ) => {
+              return {
+                ...proceso,
+                fechaProceso: proceso.fechaProceso
+                  ?  new Date(
+                    proceso.fechaProceso
+                  )
+                  : null,
+                fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                  ? new Date(
+                    proceso.fechaUltimaActuacion
+                  )
+                  : null
+              };
+            }
+          )
+        }
+      );
+      console.log(
+        prismaProcesos.count
+      );
+
       for ( const proceso of json.procesos ) {
+
+
         if ( proceso.esPrivado ) {
           continue;
         }
@@ -248,7 +325,7 @@ export class CarpetaJudicial  {
 
       if ( error instanceof Error ) {
         console.log(
-          `Expediente: ${ this._llaveProceso }: error en la conexion network del fetchProceso ${ error.name } : ${ error.message }`,
+          `Expediente: ${ this.llaveProceso }: error en la conexion network del fetchProceso ${ error.name } : ${ error.message }`,
         );
 
         return {
@@ -258,7 +335,7 @@ export class CarpetaJudicial  {
       }
 
       console.log(
-        `Expediente: ${ this._llaveProceso }: : error en la conexion network del fetchProceso  =>  ${ error }`,
+        `Expediente: ${ this.llaveProceso }: : error en la conexion network del fetchProceso  =>  ${ error }`,
       );
 
       return {
@@ -274,7 +351,7 @@ export class CarpetaJudicial  {
     try {
       const actuacionesMap = new Map<number, intActuacion>();
 
-      const actuacionesSet = new Set();
+      const actuacionesSet = new Set<intActuacion>();
 
       if ( !this.idProcesos || this.idProcesos.length === 0 ) {
         throw new Error(
@@ -312,8 +389,15 @@ export class CarpetaJudicial  {
         const [
           ultimaActuacion
         ] = actuaciones;
-        actuacionesSet.add(
-          actuaciones.flat()
+
+        actuaciones.forEach(
+          (
+            actuacion
+          ) => {
+            actuacionesSet.add(
+              actuacion
+            );
+          }
         );
 
         actuacionesMap.set(
@@ -342,8 +426,8 @@ export class CarpetaJudicial  {
 
       }
 
-      this.actuaciones =  Object.fromEntries(
-        actuacionesMap.entries()
+      this.actuaciones =  Array.from(
+        actuacionesSet
       );
 
       if ( actuacionesMap.size > 0 ) {
@@ -368,7 +452,7 @@ export class CarpetaJudicial  {
 
       if ( error instanceof Error ) {
         console.log(
-          `Expediente: ${ this._llaveProceso }: error en la conexion network del fetchProceso ${ error.name } : ${ error.message }`,
+          `Expediente: ${ this.llaveProceso }: error en la conexion network del fetchProceso ${ error.name } : ${ error.message }`,
         );
 
         return {
@@ -378,7 +462,7 @@ export class CarpetaJudicial  {
       }
 
       console.log(
-        `Expediente: ${ this._llaveProceso }: : error en la conexion network del fetchProceso  =>  ${ error }`,
+        `Expediente: ${ this.llaveProceso }: : error en la conexion network del fetchProceso  =>  ${ error }`,
       );
 
       return {
