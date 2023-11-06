@@ -15,6 +15,7 @@ import { ConsultaNumeroRadicacion,
   intProceso, } from '../types/procesos';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
+import { connectToDatabase } from '../services/database.service';
 
 const prisma = new PrismaClient();
 
@@ -150,15 +151,6 @@ export class CarpetaJudicial implements IntCarpeta {
     );
   }
 
-  hasKey() {
-    if ( this.llaveProceso === null ) {
-      return false;
-    } else if ( typeof this.llaveProceso === 'string' ) {
-      return true;
-    }
-
-    return false;
-  }
   //SECTION createCarpeta
   async createCarpeta() {
     try {
@@ -172,8 +164,6 @@ export class CarpetaJudicial implements IntCarpeta {
           : [],
       };
 
-
-
       const creatorCarpeta = await prisma.carpeta.create(
         {
           data: newCarpeta,
@@ -182,6 +172,7 @@ export class CarpetaJudicial implements IntCarpeta {
       console.log(
         creatorCarpeta
       );
+
       return;
     } catch ( error ) {
       if ( error instanceof Prisma.PrismaClientValidationError ) {
@@ -463,9 +454,7 @@ export class CarpetaJudicial implements IntCarpeta {
           ? this.fecha.getTime()
           : null;
 
-        if ( savedDate === incomingDate ) {
-          continue;
-        } else if ( !savedDate || savedDate < incomingDate ) {
+        if ( !savedDate || savedDate < incomingDate ) {
           this.fecha = new Date(
             ultimaActuacion.fechaActuacion
           );

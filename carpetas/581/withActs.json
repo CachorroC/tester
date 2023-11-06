@@ -1,0 +1,194 @@
+{
+  "thener": {
+    "idProcesos": [
+      132789600
+    ],
+    "llaveProceso": "11001400303320230105600",
+    "numero": 581,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 52760611,
+      "direccion": "carrera 145 144 c 72 torre 7 apartamento 904 conjunto residencial almenara p.h  de la ciudad de bogotá",
+      "email": "angelicagodoygutierrez@gmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3116509661
+      },
+      "primerNombre": "angelica",
+      "segundoNombre": "godoy",
+      "primerApellido": "gutierrez",
+      "segundoApellido": [
+        "y",
+        "edison",
+        "andres",
+        "tuta",
+        "forero"
+      ]
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
+      "expediente": "11001400303320230105600",
+      "capitalAdeudado": 51081164,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "22273 320177358",
+        2470088213
+      ],
+      "radicado": "2023 - 01056",
+      "vencimientoPagare": [
+        "2034-12-09T05:00:00.000Z",
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 80798225,
+      "direccion": "Carrera 145 144 C 72 TR 7 AP 904 Conjunto Residencial Almenara P.H",
+      "nombre": "edison andres tuta forero",
+      "telefono": "CELULAR 3116509661"
+    },
+    "cc": 52760611,
+    "procesos": [
+      {
+        "idProceso": 132789600,
+        "idConexion": 259,
+        "llaveProceso": "11001400303320230105600",
+        "fechaProceso": "2023-08-28T00:00:00",
+        "fechaUltimaActuacion": "2023-10-11T00:00:00",
+        "despacho": "JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandante: AECSA SA | Demandado: EDISON ANDRES TUTA FORERO | Demandado: ANGELICA GODOY GUTIERREZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2023-10-11T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 1900880330,
+      "llaveProceso": "11001400303320230105600",
+      "consActuacion": 6,
+      "fechaActuacion": "2023-10-11T00:00:00",
+      "actuacion": "Al despacho",
+      "anotacion": "Ingresa al despacho el presente proceso 110014003033-2023-01056-00 con términos de inadmisión fenecidos desde el 4 de octubre de 2023, a las 5:00 p.m. y escrito de subsanación allegado en tiempo.  ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-10-11T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 1900880330,
+        "llaveProceso": "11001400303320230105600",
+        "consActuacion": 6,
+        "fechaActuacion": "2023-10-11T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": "Ingresa al despacho el presente proceso 110014003033-2023-01056-00 con términos de inadmisión fenecidos desde el 4 de octubre de 2023, a las 5:00 p.m. y escrito de subsanación allegado en tiempo.  ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-10-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 1888902810,
+        "llaveProceso": "11001400303320230105600",
+        "consActuacion": 5,
+        "fechaActuacion": "2023-09-29T00:00:00",
+        "actuacion": "Recepción memorial",
+        "anotacion": "SUBSANACION ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-09-29T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 1884245940,
+        "llaveProceso": "11001400303320230105600",
+        "consActuacion": 4,
+        "fechaActuacion": "2023-09-26T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 26/09/2023 a las 17:02:02.",
+        "fechaInicial": "2023-09-27T00:00:00",
+        "fechaFinal": "2023-09-27T00:00:00",
+        "fechaRegistro": "2023-09-26T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 1884245930,
+        "llaveProceso": "11001400303320230105600",
+        "consActuacion": 3,
+        "fechaActuacion": "2023-09-26T00:00:00",
+        "actuacion": "Auto inadmite demanda",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-09-26T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 1860392250,
+        "llaveProceso": "11001400303320230105600",
+        "consActuacion": 2,
+        "fechaActuacion": "2023-08-28T00:00:00",
+        "actuacion": "Al Despacho Por Reparto",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-08-28T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 1860392240,
+        "llaveProceso": "11001400303320230105600",
+        "consActuacion": 1,
+        "fechaActuacion": "2023-08-28T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 28/08/2023 a las 16:54:46",
+        "fechaInicial": "2023-08-28T00:00:00",
+        "fechaFinal": "2023-08-28T00:00:00",
+        "fechaRegistro": "2023-08-28T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 1900880330,
+        "llaveProceso": "11001400303320230105600",
+        "consActuacion": 6,
+        "fechaActuacion": "2023-10-11T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": "Ingresa al despacho el presente proceso 110014003033-2023-01056-00 con términos de inadmisión fenecidos desde el 4 de octubre de 2023, a las 5:00 p.m. y escrito de subsanación allegado en tiempo.  ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-10-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      }
+    ]
+  }
+}

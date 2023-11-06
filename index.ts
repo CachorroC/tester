@@ -3,6 +3,8 @@ import Carpetas from './src/data/carpetas';
 import { CarpetaJudicial } from './src/models/thenable';
 import { categoryAssignment } from './src/models/categories';
 import { Prisma, PrismaClient } from '@prisma/client';
+import { IntCarpeta } from './src/types/carpetas';
+import { connectToDatabase } from './src/services/database.service';
 
 //NOTE 1: Define a type that includes the relation to `Post`
 const userWithPosts = Prisma.validator<Prisma.CarpetaDefaultArgs>()(
@@ -53,9 +55,9 @@ async function f() {
       rawCarpeta
     );
 
-    /*    if ( carpeta.category === 'Terminados' ) {
+    if ( carpeta.category === 'Terminados' ) {
       continue;
-    } */
+    }
 
     const thener = new CarpetaJudicial(
       carpeta
@@ -100,9 +102,14 @@ async function f() {
       )
     );
 
-    if ( !withProcesos.procesos || withProcesos.procesos.length === 0 ) {
+    if ( !thener.procesos || thener.procesos.length === 0 ) {
       newCarpetasMap.set(
         carpeta.numero, thener
+      );
+      await updateMongoCarpeta(
+        {
+          carpeta: thener
+        }
       );
       continue;
     }
@@ -121,11 +128,16 @@ async function f() {
     );
 
     if (
-      !withActuaciones.actuaciones
-      || withActuaciones.actuaciones.length === 0
+      !thener.actuaciones
+      || thener.actuaciones.length === 0
     ) {
       newCarpetasMap.set(
         carpeta.numero, thener
+      );
+      await updateMongoCarpeta(
+        {
+          carpeta: thener
+        }
       );
       continue;
     }
@@ -133,7 +145,11 @@ async function f() {
     newCarpetasMap.set(
       carpeta.numero, thener
     );
-
+    await updateMongoCarpeta(
+      {
+        carpeta: thener
+      }
+    );
     continue;
   }
 
@@ -285,3 +301,48 @@ console.log(
   `iserterCarpetas =-=> ${ inserterCarpetas() }`
 );
 inserterCarpetas();
+
+
+
+
+export async function updateMongoCarpeta (
+  {
+    carpeta
+  }: { carpeta: IntCarpeta }
+) {
+  try {
+
+    const collection = await connectToDatabase();
+
+    const updateCarpeta = await collection.findOneAndUpdate(
+      {
+        numero: carpeta.numero
+      }, {
+        $set: carpeta
+      }, {
+        upsert        : true,
+        returnDocument: 'after'
+      }
+    );
+
+    if ( !updateCarpeta ) {
+      throw new Error(
+        'no hay ninguna carpeta devuelta de la actualizacion en mongodb'
+      );
+
+    }
+
+    return {
+      ...updateCarpeta,
+      _id: updateCarpeta._id.toString()
+    };
+
+  } catch ( error ) {
+    console.log(
+      JSON.stringify(
+        error
+      )
+    );
+    return null;
+  }
+}

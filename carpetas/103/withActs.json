@@ -1,0 +1,91 @@
+{
+  "thener": {
+    "idProcesos": [
+      51619370,
+      81869501
+    ],
+    "llaveProceso": "11001400308220170068000",
+    "numero": 103,
+    "tipoProceso": "SINGULAR",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 16831314,
+      "direccion": "carrera 74 no. 25 g-69",
+      "email": "kikearango@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3216066052
+      },
+      "primerNombre": "eduardo",
+      "segundoNombre": "enrique",
+      "primerApellido": "arango",
+      "segundoApellido": "chacon"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+      "mandamientoPago": "2017-07-17T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+      "expediente": "11001400308220170068000",
+      "capitalAdeudado": 43921469,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "1800088189//377813488630162",
+        "4513071987853655//5303715363121332"
+      ],
+      "radicado": "2017-00680",
+      "vencimientoPagare": [
+        "2019-05-13T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 16831314,
+    "procesos": [
+      {
+        "idProceso": 51619370,
+        "idConexion": 259,
+        "llaveProceso": "11001400308220170068000",
+        "fechaProceso": "2019-01-29T00:00:00",
+        "fechaUltimaActuacion": "2023-11-02T00:00:00",
+        "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: EDUARDO ENRIQUE ARANGO CHACON ",
+        "esPrivado": false,
+        "cantFilas": -1
+      },
+      {
+        "idProceso": 81869501,
+        "idConexion": 320,
+        "llaveProceso": "11001400308220170068000",
+        "fechaProceso": "2017-06-16T00:00:00",
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante/accionante: Banco Bancolombia SA | Demandado/indiciado/causante: EDUARDO ENRIQUE ARANGO CHACON    | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2023-11-02T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 1926205500,
+      "llaveProceso": "11001400308220170068000",
+      "consActuacion": 84,
+      "fechaActuacion": "2023-11-02T00:00:00",
+      "actuacion": "Constancia secretarial",
+      "anotacion": "OFICIOS FIRMADOS PASA A BARANDA//FELIPE LEON//HIBRIDO\r\n",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-11-02T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 84
+    }
+  },
+  "withActs": {
+    "StatusCode": 500,
+    "Message": "Object reference not set to an instance of an object."
+  }
+}

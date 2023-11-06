@@ -1,0 +1,210 @@
+{
+  "thener": {
+    "idProcesos": [
+      1829856154
+    ],
+    "llaveProceso": "11001400305520230074600",
+    "numero": 573,
+    "tipoProceso": "SINGULAR",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 52327261,
+      "direccion": "cr 104 no 13d 77 cs 241 conjunto residencial sabanagrande 1",
+      "email": "galvis-almanza@hotmail.com",
+      "tel": {
+        "fijo": 4152969,
+        "celular": 3203369576
+      },
+      "primerNombre": "sandra",
+      "segundoNombre": "patricia",
+      "primerApellido": "galvis",
+      "segundoApellido": "almanza"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+      "expediente": "11001400305520230074600",
+      "capitalAdeudado": 55099216,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        4020084965,
+        100260717
+      ],
+      "radicado": "2023 - 001310",
+      "vencimientoPagare": [
+        null,
+        null,
+        "2026-04-08T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 52327261,
+    "procesos": [
+      {
+        "idProceso": 1829856154,
+        "idConexion": 263,
+        "llaveProceso": "11001400305520230074600",
+        "fechaProceso": "2023-08-09T00:00:00",
+        "fechaUltimaActuacion": "2023-09-11T00:00:00",
+        "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JAIME ENRIQUE QUINTERO MENDOZA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2023-09-11T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 1127170784,
+      "llaveProceso": "11001400305520230074600",
+      "consActuacion": 8,
+      "fechaActuacion": "2023-09-11T00:00:00",
+      "actuacion": "Constancia secretarial",
+      "anotacion": "SE ENVIAN OFICIOS",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-09-11T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 1127170784,
+        "llaveProceso": "11001400305520230074600",
+        "consActuacion": 8,
+        "fechaActuacion": "2023-09-11T00:00:00",
+        "actuacion": "Constancia secretarial",
+        "anotacion": "SE ENVIAN OFICIOS",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-09-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 1125576004,
+        "llaveProceso": "11001400305520230074600",
+        "consActuacion": 7,
+        "fechaActuacion": "2023-08-31T00:00:00",
+        "actuacion": "Oficio Elaborado",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-08-31T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 1122261754,
+        "llaveProceso": "11001400305520230074600",
+        "consActuacion": 6,
+        "fechaActuacion": "2023-08-11T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 11/08/2023 a las 16:23:31.",
+        "fechaInicial": "2023-08-14T00:00:00",
+        "fechaFinal": "2023-08-14T00:00:00",
+        "fechaRegistro": "2023-08-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 1122261744,
+        "llaveProceso": "11001400305520230074600",
+        "consActuacion": 5,
+        "fechaActuacion": "2023-08-11T00:00:00",
+        "actuacion": "Auto decreta medida cautelar",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-08-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 1122261734,
+        "llaveProceso": "11001400305520230074600",
+        "consActuacion": 4,
+        "fechaActuacion": "2023-08-11T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 11/08/2023 a las 16:22:56.",
+        "fechaInicial": "2023-08-14T00:00:00",
+        "fechaFinal": "2023-08-14T00:00:00",
+        "fechaRegistro": "2023-08-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 1122261724,
+        "llaveProceso": "11001400305520230074600",
+        "consActuacion": 3,
+        "fechaActuacion": "2023-08-11T00:00:00",
+        "actuacion": "Auto libra mandamiento ejecutivo",
+        "anotacion": "PAGARÉ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-08-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 1121675574,
+        "llaveProceso": "11001400305520230074600",
+        "consActuacion": 2,
+        "fechaActuacion": "2023-08-09T00:00:00",
+        "actuacion": "Al Despacho Por Reparto",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-08-09T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 1121675564,
+        "llaveProceso": "11001400305520230074600",
+        "consActuacion": 1,
+        "fechaActuacion": "2023-08-09T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 09/08/2023 a las 12:48:09",
+        "fechaInicial": "2023-08-09T00:00:00",
+        "fechaFinal": "2023-08-09T00:00:00",
+        "fechaRegistro": "2023-08-09T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 1127170784,
+        "llaveProceso": "11001400305520230074600",
+        "consActuacion": 8,
+        "fechaActuacion": "2023-09-11T00:00:00",
+        "actuacion": "Constancia secretarial",
+        "anotacion": "SE ENVIAN OFICIOS",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-09-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      86374941
+    ],
+    "llaveProceso": "25754400300220170026500",
+    "numero": 208,
+    "tipoProceso": "PRENDARIO",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 80357801,
+      "direccion": "calle 34 # 1a - 40 casa 247",
+      "email": "jeovanyrojas@outlook.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "jeovany",
+      "primerApellido": "rojas",
+      "segundoApellido": "cruz",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+      "mandamientoPago": "2017-09-12T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+      "expediente": "25754400300220170026500",
+      "capitalAdeudado": 27819415,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "SOACHA",
+      "obligacion": [
+        12725973
+      ],
+      "radicado": "2017 - 00265",
+      "vencimientoPagare": [
+        "2020-08-15T00:00:00.000Z"
+      ],
+      "departamento": "CUNDINAMARCA"
+    },
+    "cc": 80357801,
+    "procesos": [
+      {
+        "idProceso": 86374941,
+        "idConexion": 320,
+        "llaveProceso": "25754400300220170026500",
+        "fechaProceso": "2017-08-31T00:00:00",
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE SOACHA ",
+        "departamento": "CUNDINAMARCA",
+        "sujetosProcesales": "Demandante/accionante: Banco Bancolombia SA | Demandado/indiciado/causante: JEOVANY  ROJAS CRUZ | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 500,
+    "Message": "Object reference not set to an instance of an object."
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "thener": {
+    "idProcesos": [
+      132964260
+    ],
+    "llaveProceso": "11001418904420230023900",
+    "numero": 580,
+    "tipoProceso": "SINGULAR",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 19488050,
+      "direccion": "transversal 78 no. 40j - 14 sur",
+      "email": "joseignaciogaleanoa@gmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3103052825
+      },
+      "primerNombre": "jose",
+      "segundoNombre": "ignacio",
+      "primerApellido": "galeano",
+      "segundoApellido": "alvarado"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
+      "expediente": "11001418904420230023900",
+      "capitalAdeudado": 42647591,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        790100533,
+        "790101375 Y 101380449 X T.C. AMERICAN 0377844056881358"
+      ],
+      "radicado": "2023 - 0239",
+      "vencimientoPagare": [
+        null,
+        null,
+        "2026-04-04T05:00:00.000Z",
+        "2026-05-08T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 19488050,
+    "procesos": [
+      {
+        "idProceso": 132964260,
+        "idConexion": 259,
+        "llaveProceso": "11001418904420230023900",
+        "fechaProceso": "2023-09-01T00:00:00",
+        "fechaUltimaActuacion": "2023-10-11T00:00:00",
+        "despacho": "JUZGADO 044 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: IGNACIO GALEANO ALVARADO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2023-10-11T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 1901987450,
+      "llaveProceso": "11001418904420230023900",
+      "consActuacion": 3,
+      "fechaActuacion": "2023-10-11T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 11/10/2023 a las 17:06:03.",
+      "fechaInicial": "2023-10-12T00:00:00",
+      "fechaFinal": "2023-10-12T00:00:00",
+      "fechaRegistro": "2023-10-11T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 3
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 1901987450,
+        "llaveProceso": "11001418904420230023900",
+        "consActuacion": 3,
+        "fechaActuacion": "2023-10-11T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 11/10/2023 a las 17:06:03.",
+        "fechaInicial": "2023-10-12T00:00:00",
+        "fechaFinal": "2023-10-12T00:00:00",
+        "fechaRegistro": "2023-10-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 3
+      },
+      {
+        "idRegActuacion": 1901987440,
+        "llaveProceso": "11001418904420230023900",
+        "consActuacion": 2,
+        "fechaActuacion": "2023-10-11T00:00:00",
+        "actuacion": "Auto inadmite demanda",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2023-10-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 3
+      },
+      {
+        "idRegActuacion": 1866917490,
+        "llaveProceso": "11001418904420230023900",
+        "consActuacion": 1,
+        "fechaActuacion": "2023-09-01T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 01/09/2023 a las 17:04:37",
+        "fechaInicial": "2023-09-01T00:00:00",
+        "fechaFinal": "2023-09-01T00:00:00",
+        "fechaRegistro": "2023-09-01T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 3
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 1901987450,
+        "llaveProceso": "11001418904420230023900",
+        "consActuacion": 3,
+        "fechaActuacion": "2023-10-11T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 11/10/2023 a las 17:06:03.",
+        "fechaInicial": "2023-10-12T00:00:00",
+        "fechaFinal": "2023-10-12T00:00:00",
+        "fechaRegistro": "2023-10-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 3
+      }
+    ]
+  }
+}

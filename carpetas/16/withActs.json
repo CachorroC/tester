@@ -1,0 +1,90 @@
+{
+  "thener": {
+    "idProcesos": [
+      50468620,
+      113956611
+    ],
+    "llaveProceso": "11001400300320170088400",
+    "numero": 16,
+    "tipoProceso": "PRENDARIO",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 1077969975,
+      "direccion": "carrera 77b no 68b - 19 barrio santa helenita",
+      "email": "yess_Id@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3212337597
+      },
+      "primerNombre": "yesid",
+      "primerApellido": "albeiro",
+      "segundoApellido": "ramos",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+      "mandamientoPago": "2017-06-02T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+      "expediente": "11001400300320170088400",
+      "capitalAdeudado": 33791309,
+      "etapaProcesal": "EMPLAZAMIENTO",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        2530444
+      ],
+      "radicado": "2017 - 00884",
+      "vencimientoPagare": [
+        "2020-05-04T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 1077969975,
+    "procesos": [
+      {
+        "idProceso": 50468620,
+        "idConexion": 259,
+        "llaveProceso": "11001400300320170088400",
+        "fechaProceso": "2017-05-26T00:00:00",
+        "fechaUltimaActuacion": "2023-10-17T00:00:00",
+        "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: YESID ALBEIRO RAMOS ",
+        "esPrivado": false,
+        "cantFilas": -1
+      },
+      {
+        "idProceso": 113956611,
+        "idConexion": 320,
+        "llaveProceso": "11001400300320170088400",
+        "fechaProceso": "2017-05-24T00:00:00",
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: YESID ALBEIRO RAMOS  (Emplazado) | Defensor Publico: MARIA HELENA SUAREZ GARCIA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2023-10-17T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 1908319300,
+      "llaveProceso": "11001400300320170088400",
+      "consActuacion": 101,
+      "fechaActuacion": "2023-10-17T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 17/10/2023 a las 08:18:23.",
+      "fechaInicial": "2023-10-18T00:00:00",
+      "fechaFinal": "2023-10-18T00:00:00",
+      "fechaRegistro": "2023-10-17T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 101
+    }
+  },
+  "withActs": {
+    "StatusCode": 500,
+    "Message": "Object reference not set to an instance of an object."
+  }
+}
