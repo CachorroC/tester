@@ -1,0 +1,50 @@
+{
+  "thener": {
+    "idProcesos": [],
+    "llaveProceso": "08001418901820230073500",
+    "numero": 561,
+    "tipoProceso": "SINGULAR",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 52278914,
+      "direccion": "carrera 87 no. 48 – 50 sur casa 26 conjunto residencial alameda de san josé ii",
+      "email": "lurodrig@corona.com.co jrodriguez2805@hotmail.com",
+      "tel": {
+        "fijo": 7848056,
+        "celular": 3153208374
+      },
+      "primerNombre": "luz",
+      "segundoNombre": "janneth",
+      "primerApellido": "rodriguez",
+      "segundoApellido": "moreno"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+      "expediente": "08001418901820230073500",
+      "capitalAdeudado": 36720537,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        6520089408,
+        "TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428"
+      ],
+      "radicado": "2023 - 00884",
+      "vencimientoPagare": [
+        "2026-02-03T05:00:00.000Z",
+        null,
+        null
+      ],
+      "departamento": "CUNDINAMARCA"
+    },
+    "cc": 52278914,
+    "procesos": []
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "PrismaClientKnownRequestError: \nInvalid `prisma.carpeta.update()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/models/thenable.ts:303:50\n\n  300   }\n  301 }\n  302 \n→ 303 const prismacarpeta = await prisma.carpeta.update(\nAn operation failed because it depends on one or more records that were required but not found. Record to update not found."
+  }
+}

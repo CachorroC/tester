@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      65700110
+    ],
+    "llaveProceso": "11001400306320170092400",
+    "numero": 294,
+    "tipoProceso": "PRENDARIO",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 79292743,
+      "direccion": "calle 86 a no 69 t -41  torre 1 apartamento 902",
+      "email": "hpulecio@cable.net.co",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "hernando",
+      "primerApellido": "pulecio",
+      "segundoApellido": "paredes",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-09-21T00:00:00.000Z",
+      "mandamientoPago": "2017-09-25T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+      "expediente": "11001400306320170092400",
+      "capitalAdeudado": 48498610,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12676248
+      ],
+      "radicado": "2017 - 00924",
+      "vencimientoPagare": [
+        "2020-09-13T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 79292743,
+    "procesos": [
+      {
+        "idProceso": 65700110,
+        "idConexion": 259,
+        "llaveProceso": "11001400306320170092400",
+        "fechaProceso": "2017-09-22T00:00:00",
+        "fechaUltimaActuacion": "2023-07-24T00:00:00",
+        "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HERNANDO PULECIO PAREDES ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

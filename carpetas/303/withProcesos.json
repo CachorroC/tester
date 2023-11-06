@@ -1,0 +1,69 @@
+{
+  "thener": {
+    "idProcesos": [
+      50778160
+    ],
+    "llaveProceso": "11001400303020170157900",
+    "numero": 303,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 1118532643,
+      "direccion": "carrera 16 no 66 a 16",
+      "email": "willintong950@gmail.com  rafaelalfonsocamachovelandia@gmail.com",
+      "tel": {
+        "fijo": 7170610,
+        "celular": 3202777672
+      },
+      "primerNombre": "rafael",
+      "segundoNombre": "alfonso",
+      "primerApellido": "camacho",
+      "segundoApellido": "velandia"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2017-10-12T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-09-16T00:00:00.000Z",
+      "expediente": "11001400303020170157900",
+      "capitalAdeudado": 12534383,
+      "etapaProcesal": "1.100140030302017e+22",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "2620088246 / 3777813457586759",
+        4594250105313477
+      ],
+      "radicado": "2017 - 01579",
+      "vencimientoPagare": [
+        "2020-07-14T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 74377064,
+      "direccion": "MANZANA A CASA 6 LA SALINA",
+      "nombre": "carlos andres rodriguez herrera",
+      "telefono": "F 2776196"
+    },
+    "cc": 1118532643,
+    "procesos": [
+      {
+        "idProceso": 50778160,
+        "idConexion": 259,
+        "llaveProceso": "11001400303020170157900",
+        "fechaProceso": "2017-10-13T00:00:00",
+        "fechaUltimaActuacion": "2022-05-11T00:00:00",
+        "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS ANDRES RODRIGUEZ HERRERA | Demandado: RAFAEL ALFONSO CACMACHO VELANDIA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

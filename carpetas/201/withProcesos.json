@@ -1,0 +1,69 @@
+{
+  "thener": {
+    "idProcesos": [
+      128433271
+    ],
+    "llaveProceso": "11001400307920170114200",
+    "numero": 201,
+    "tipoProceso": "SINGULAR",
+    "category": "Insolvencia",
+    "deudor": {
+      "cedula": 51733931,
+      "direccion": "calle 127d # 21 - 80 apto 105",
+      "email": "sebantialbeltransprieto@hotmail.com",
+      "tel": {
+        "fijo": 6256456,
+        "celular": 3108711046
+      },
+      "primerNombre": "piedad",
+      "segundoNombre": "maritza",
+      "primerApellido": "olga",
+      "segundoApellido": [
+        "rocio",
+        "prieto",
+        "vargas"
+      ]
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2017-09-04T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+      "expediente": "11001400307920170114200",
+      "capitalAdeudado": 27602952,
+      "etapaProcesal": "1.100140030792017e+22",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        377816483778266,
+        4513080485378479
+      ],
+      "radicado": "2017 - 01142",
+      "vencimientoPagare": [
+        null,
+        null,
+        "2020-06-03T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 51733931,
+    "procesos": [
+      {
+        "idProceso": 128433271,
+        "idConexion": 256,
+        "llaveProceso": "11001400307920170114200",
+        "fechaProceso": "2018-11-02T00:00:00",
+        "fechaUltimaActuacion": "2023-06-05T00:00:00",
+        "despacho": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: PIEDAD MARITZA OLGA ROCIO PRIETO VARGAS ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

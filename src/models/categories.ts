@@ -1,6 +1,5 @@
 import { TrulyCruda, CarpetaRaw } from '../types/carpetas';
 
-
 const carpetasBancolombia = [
   16,
   90,
@@ -63,7 +62,7 @@ const carpetasBancolombia = [
   589,
   590,
   591,
-  592
+  592,
 ];
 
 const carpetasReintegra = [
@@ -144,7 +143,7 @@ const carpetasReintegra = [
   542,
   543,
   546,
-  491
+  491,
 ];
 
 const carpetasTerminados = [
@@ -586,7 +585,7 @@ const carpetasTerminados = [
   550,
   560,
   154,
-  239
+  239,
 ];
 
 const carpetasInsolvencia = [
@@ -609,67 +608,61 @@ const carpetasLiosJuridicos = [
 ];
 
 export function categoryAssignment(
-  carpeta: TrulyCruda
+  carpeta: TrulyCruda 
 ): CarpetaRaw {
   const {
-    numero
+    numero 
   } = carpeta;
 
-  const numeroInBancolombia
-    = carpetasBancolombia.includes(
-      numero
-    );
+  const numeroInBancolombia = carpetasBancolombia.includes(
+    numero 
+  );
 
-  const numeroInReintegra
-    = carpetasReintegra.includes(
-      numero
-    );
+  const numeroInReintegra = carpetasReintegra.includes(
+    numero 
+  );
 
-  const numeroInTerminados
-    = carpetasTerminados.includes(
-      numero
-    );
+  const numeroInTerminados = carpetasTerminados.includes(
+    numero 
+  );
 
-  const numeroInInsolvencia
-    = carpetasInsolvencia.includes(
-      numero
-    );
+  const numeroInInsolvencia = carpetasInsolvencia.includes(
+    numero 
+  );
 
-  const numeroInLiosJuridicos
-    = carpetasLiosJuridicos.includes(
-      numero
-    );
+  const numeroInLiosJuridicos = carpetasLiosJuridicos.includes(
+    numero 
+  );
 
   if ( numeroInBancolombia ) {
     return {
       ...carpeta,
-      category: 'Bancolombia'
+      category: 'Bancolombia',
     };
   } else if ( numeroInReintegra ) {
     return {
       ...carpeta,
-      category: 'Reintegra'
+      category: 'Reintegra',
     };
   } else if ( numeroInLiosJuridicos ) {
     return {
       ...carpeta,
-      category: 'LiosJuridicos'
+      category: 'LiosJuridicos',
     };
   } else if ( numeroInInsolvencia ) {
     return {
       ...carpeta,
-      category: 'Insolvencia'
+      category: 'Insolvencia',
     };
   } else if ( numeroInTerminados ) {
     return {
       ...carpeta,
-      category: 'Terminados'
+      category: 'Terminados',
     };
   }
 
   return {
     ...carpeta,
-    category: 'Bancolombia'
+    category: 'Bancolombia',
   };
-
 }

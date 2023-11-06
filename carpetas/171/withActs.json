@@ -1,0 +1,60 @@
+{
+  "thener": {
+    "idProcesos": [],
+    "llaveProceso": "11001400308620170086300",
+    "numero": 171,
+    "tipoProceso": "PRENDARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 1024468871,
+      "direccion": "calle 59c sur # 87k - 64 apto 1016",
+      "email": "jlaura00@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "maritza",
+      "segundoNombre": "natali",
+      "primerApellido": "rodriguez",
+      "segundoApellido": "urrea"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+      "expediente": "11001400308620170086300",
+      "capitalAdeudado": 46042338,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12766386
+      ],
+      "radicado": "2017 - 00863",
+      "vencimientoPagare": [
+        "2017-08-14T00:00:00.000Z"
+      ],
+      "departamento": "CUNDINAMARCA"
+    },
+    "cc": 1024468871,
+    "procesos": [
+      {
+        "idProceso": 81888701,
+        "idConexion": 320,
+        "llaveProceso": "11001400308620170086300",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 404,
+    "Message": "Error: no hay idProcesos correspondientes para hacer la busqueda de este proceso."
+  }
+}

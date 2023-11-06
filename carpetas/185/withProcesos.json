@@ -1,0 +1,46 @@
+{
+  "thener": {
+    "idProcesos": [],
+    "llaveProceso": "25754400300320170028300",
+    "numero": 185,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 10294828,
+      "direccion": "carrera 4 este # 38 - 56",
+      "email": "willdany@hotmail.com",
+      "tel": {
+        "fijo": 3351000,
+        "celular": 3103397090
+      },
+      "primerNombre": "william",
+      "segundoNombre": "giovanni",
+      "primerApellido": "dorado",
+      "segundoApellido": "fernandez"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2017-08-28T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+      "expediente": "25754400300320170028300",
+      "capitalAdeudado": 4126227597,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "SOACHA",
+      "obligacion": [
+        20990158916
+      ],
+      "radicado": "2017 - 00283",
+      "vencimientoPagare": [],
+      "departamento": "CUNDINAMARCA"
+    },
+    "cc": 10294828,
+    "procesos": []
+  },
+  "withProcesos": {
+    "StatusCode": 200,
+    "Message": "OK",
+    "procesos": []
+  }
+}

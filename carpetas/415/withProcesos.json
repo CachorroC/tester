@@ -1,0 +1,67 @@
+{
+  "thener": {
+    "idProcesos": [
+      9342243
+    ],
+    "llaveProceso": "11001400304320180047400",
+    "numero": 415,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 1024479982,
+      "direccion": null,
+      "email": "CALLE 61 SUR No 20 D-60 INT11  APTO 501",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "ingrid",
+      "segundoNombre": "catherine",
+      "primerApellido": "tapias",
+      "segundoApellido": "rico"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2018-06-13T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400304320180047400",
+      "capitalAdeudado": 43,
+      "etapaProcesal": "43217",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        5303710076309980,
+        3378591161
+      ],
+      "radicado": "2018 - 00474",
+      "vencimientoPagare": [
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "direccion": 49996
+    },
+    "cc": 1024479982,
+    "procesos": [
+      {
+        "idProceso": 9342243,
+        "idConexion": 261,
+        "llaveProceso": "11001400304320180047400",
+        "fechaProceso": "2018-05-03T00:00:00",
+        "fechaUltimaActuacion": "2020-01-14T00:00:00",
+        "despacho": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: INGRID CATHERINE TAPIAS RICO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

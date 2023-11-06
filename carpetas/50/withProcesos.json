@@ -1,0 +1,63 @@
+{
+  "thener": {
+    "idProcesos": [
+      51259250
+    ],
+    "llaveProceso": "11001400303420180061400",
+    "numero": 50,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 52444244,
+      "direccion": "carrera 54 c no. 143 s-90",
+      "email": "gloriaaz@yahoo.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3212062887
+      },
+      "primerNombre": "gloria",
+      "segundoNombre": "astrid",
+      "primerApellido": "rodríguez",
+      "segundoApellido": "baquero"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2018-09-03T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+      "expediente": "11001400303420180061400",
+      "capitalAdeudado": 22309546,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "1800088260//377813230167802",
+        4513070115042991
+      ],
+      "radicado": "2018 - 00614",
+      "vencimientoPagare": [
+        "2019-06-01T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 52444244,
+    "procesos": [
+      {
+        "idProceso": 51259250,
+        "idConexion": 259,
+        "llaveProceso": "11001400303420180061400",
+        "fechaProceso": "2018-06-18T00:00:00",
+        "fechaUltimaActuacion": "2019-10-01T00:00:00",
+        "despacho": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA SA | Demandado: GLORIA ASTRID RODRIGUEZ BAQUERO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

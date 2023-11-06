@@ -1,0 +1,63 @@
+{
+  "thener": {
+    "idProcesos": [
+      28907104
+    ],
+    "llaveProceso": "11001310302120170047100",
+    "numero": 196,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 80130064,
+      "direccion": "transversal 5q  # 48p - 06 sur",
+      "email": "jairotibata@hotmail.com",
+      "tel": {
+        "fijo": 7677881,
+        "celular": 3157303099
+      },
+      "primerNombre": "jairo",
+      "primerApellido": "tibata",
+      "segundoApellido": null,
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2017-08-30T00:00:00.000Z",
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001310302120170047100",
+      "capitalAdeudado": 124710637,
+      "etapaProcesal": "1.100131030212017e+22",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        2330086807,
+        "200865 // 377813427489837 // 4513070249553475 // 5303710103729395"
+      ],
+      "radicado": "2017 - 00471",
+      "vencimientoPagare": [
+        "2037-03-15T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 80130064,
+    "procesos": [
+      {
+        "idProceso": 28907104,
+        "idConexion": 310,
+        "llaveProceso": "11001310302120170047100",
+        "fechaProceso": "2017-09-28T00:00:00",
+        "fechaUltimaActuacion": "2023-06-05T00:00:00",
+        "despacho": "JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S. A. | Demandado: JAIRO TIBATA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      11719343
+    ],
+    "llaveProceso": "11001400305220170080900",
+    "numero": 115,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 52174728,
+      "direccion": "carrera 80 # 41g - 09 sur",
+      "email": "jucana92@hotmail.com",
+      "tel": {
+        "fijo": 5741561,
+        "celular": 3212344417
+      },
+      "primerNombre": "silvia",
+      "segundoNombre": "maria",
+      "primerApellido": "valenzuela",
+      "segundoApellido": "velasquez"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-08-08T00:00:00.000Z",
+      "mandamientoPago": "2018-01-23T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+      "expediente": "11001400305220170080900",
+      "capitalAdeudado": 1783198906,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        129471
+      ],
+      "radicado": "2017 - 00809",
+      "vencimientoPagare": [
+        "2025-06-17T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 52174728,
+    "procesos": [
+      {
+        "idProceso": 11719343,
+        "idConexion": 261,
+        "llaveProceso": "11001400305220170080900",
+        "fechaProceso": "2017-08-09T00:00:00",
+        "fechaUltimaActuacion": "2019-10-15T00:00:00",
+        "despacho": "JUZGADO 052 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SILVIA MARIA VALENZUELA VELASQUEZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

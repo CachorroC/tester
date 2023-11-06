@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      9877173
+    ],
+    "llaveProceso": "11001400304520170108600",
+    "numero": 197,
+    "tipoProceso": "PRENDARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 79457880,
+      "direccion": "calle 106 # 8a - 19 casa 698",
+      "email": "mariojean1@yahoo.es",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "mario",
+      "segundoNombre": "jean",
+      "primerApellido": "pinzon",
+      "segundoApellido": "baron"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+      "mandamientoPago": "2017-09-21T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
+      "expediente": "11001400304520170108600",
+      "capitalAdeudado": 1698361912,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        11705210
+      ],
+      "radicado": "2017 - 01086",
+      "vencimientoPagare": [
+        "2017-08-23T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 79457880,
+    "procesos": [
+      {
+        "idProceso": 9877173,
+        "idConexion": 261,
+        "llaveProceso": "11001400304520170108600",
+        "fechaProceso": "2017-09-05T00:00:00",
+        "fechaUltimaActuacion": "2019-08-15T00:00:00",
+        "despacho": "JUZGADO 045 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIO JEAN PINZON BARON ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

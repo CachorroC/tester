@@ -1,0 +1,65 @@
+{
+  "thener": {
+    "idProcesos": [
+      132018670
+    ],
+    "llaveProceso": "11001400305920230031500",
+    "numero": 558,
+    "tipoProceso": "SINGULAR",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 52531016,
+      "direccion": "calle 18 n 86 55 etapa 1 torre 5 apartamento 403 conjunto residencial parque de ostente",
+      "email": "marcearias@yahoo.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3106736494
+      },
+      "primerNombre": "claudia",
+      "segundoNombre": "marcela",
+      "primerApellido": "arias",
+      "segundoApellido": "lópez"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+      "expediente": "11001400305920230031500",
+      "capitalAdeudado": 46537671,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        3880005183,
+        "PAGARE SIN NUMERO T. MASTER CARD 5303720122061696"
+      ],
+      "radicado": "2023 -  00315",
+      "vencimientoPagare": [
+        null,
+        null,
+        "2026-04-03T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 52531016,
+    "procesos": [
+      {
+        "idProceso": 132018670,
+        "idConexion": 259,
+        "llaveProceso": "11001400305920230031500",
+        "fechaProceso": "2023-08-02T00:00:00",
+        "fechaUltimaActuacion": "2023-09-25T00:00:00",
+        "despacho": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA  S.A. | Demandado: CLAUDIA MARCELA ARIAS LOPEZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

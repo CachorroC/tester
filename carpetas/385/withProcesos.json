@@ -1,0 +1,68 @@
+{
+  "thener": {
+    "idProcesos": [
+      50980350
+    ],
+    "llaveProceso": "11001400303520180007400",
+    "numero": 385,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 406547,
+      "direccion": "tranversal 11a # 9a - 13",
+      "email": null,
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "avelino",
+      "primerApellido": "sierra",
+      "segundoApellido": "sierra",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2018-01-30T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
+      "expediente": "11001400303520180007400",
+      "capitalAdeudado": 15344261,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        9450082795
+      ],
+      "radicado": "2018 - 00074",
+      "vencimientoPagare": [
+        "2019-07-29T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 406828,
+      "direccion": "CALLE 126 # 11G - 78",
+      "nombre": "jose carlos julio rincon sierra",
+      "telefono": 3143667
+    },
+    "cc": 406547,
+    "procesos": [
+      {
+        "idProceso": 50980350,
+        "idConexion": 259,
+        "llaveProceso": "11001400303520180007400",
+        "fechaProceso": "2018-01-31T00:00:00",
+        "fechaUltimaActuacion": "2023-07-26T00:00:00",
+        "despacho": "JUZGADO 035 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AVELINO SIERRA SIERRA | Demandado: JOSE CARLOS JULIO RINCO SIERRA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

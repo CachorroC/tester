@@ -1,10 +1,15 @@
+import { Juzgado, } from '@prisma/client';
 import { Despachos } from '../data/despachos';
-import { DemandaRaw, IntDemanda, Juzgado, TipoProceso,  } from '../types/carpetas';
+import { DemandaRaw,
+  IntDemanda,
+  TipoProceso, } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
 
+
+
 function vencimientoPagareFixer(
-  rawVencimientoPagare?: string | number
-): Date[] {
+  rawVencimientoPagare?: string | number,
+) {
   console.log(
     rawVencimientoPagare
   );
@@ -21,7 +26,7 @@ function vencimientoPagareFixer(
     stringPagare = rawVencimientoPagare;
   }
 
-  const pagaresDateSet = new Set<Date>();
+  const pagaresDateSet = new Set<Date|null>();
 
   const matcherPagare = stringPagare.split(
     '//'
@@ -31,8 +36,7 @@ function vencimientoPagareFixer(
   );
 
   for ( const pagare of matcherPagare ) {
-    const newPagareString = pagare
-      .trim()
+    const newPagareString = pagare.trim()
       .replace(
         '/', '-'
       );
@@ -70,8 +74,10 @@ function vencimientoPagareFixer(
       `la nueva fecha del pagaré arrojó: ${ stringDate.toDateString() }`
     ); */
 
-    if ( !stringDate || stringDate === null ) {
-      continue;
+    if ( !stringDate || stringDate.toString() === 'Invalid Date' ) {
+      pagaresDateSet.add(
+        null
+      );
     }
 
     pagaresDateSet.add(
@@ -100,8 +106,7 @@ function capitalBuilder(
   }
 
   const copTaker = moneyBuilder.replaceAll(
-    /\sCOP/gi,
-    ''
+    /\sCOP/gi, ''
   );
 
   const dotTaker = copTaker.replaceAll(
@@ -177,9 +182,7 @@ class NewJuzgado implements Juzgado {
 
         if ( indexOfDesp >= 0 ) {
           console.log(
-            `procesos despacho is in despachos ${
-              indexOfDesp + 1
-            }`
+            `procesos despacho is in despachos ${ indexOfDesp + 1 }`
           );
         }
 
@@ -214,9 +217,8 @@ class NewJuzgado implements Juzgado {
   url: string;
 }
 
-
-export class Demanda implements IntDemanda {
-  constructor(
+export class ClassDemanda implements IntDemanda {
+  constructor (
     {
       capitalAdeudado,
       entregaGarantiasAbogado,
@@ -227,15 +229,13 @@ export class Demanda implements IntDemanda {
       municipio,
       obligacion,
       radicado,
-      vencimientoPagare
+      vencimientoPagare,
     }: DemandaRaw,
     llaveProceso?: string,
   ) {
     const juzgadosSet: Juzgado[] = [];
 
-    const obligacionesSet = new Set<
-      string | number
-    >();
+    const obligacionesSet = new Set<string | number>();
 
     if ( obligacion ) {
       const {
@@ -255,7 +255,60 @@ export class Demanda implements IntDemanda {
       }
     }
 
+    const dateFechaPresentacion = fechaPresentacion
+      ? new Date(
+        fechaPresentacion
+      )
+      : null;
 
+    if ( !dateFechaPresentacion ) {
+      this.fechaPresentacion = null;
+    } else {
+      const isValidDate = dateFechaPresentacion.toString() !== 'Invalid Date';
+
+      if ( !isValidDate ) {
+        this.fechaPresentacion = null;
+      } else {
+        this.fechaPresentacion = dateFechaPresentacion;
+      }
+    }
+
+    const dateMandamientoPago = mandamientoPago
+      ? new Date(
+        mandamientoPago
+      )
+      : null;
+
+    if ( !dateMandamientoPago ) {
+      this.mandamientoPago = null;
+    } else {
+      const isValidDate = dateMandamientoPago.toString() !== 'Invalid Date';
+
+      if ( !isValidDate ) {
+        this.mandamientoPago = null;
+      } else {
+        this.mandamientoPago = dateMandamientoPago;
+      }
+    }
+
+    const dateEntregaGarantiasAbogado = entregaGarantiasAbogado
+      ? new Date(
+        entregaGarantiasAbogado
+      )
+      : null;
+
+    if ( !dateEntregaGarantiasAbogado ) {
+      this.entregaGarantiasAbogado = null;
+    } else {
+      const isValidDate
+        = dateEntregaGarantiasAbogado.toString() !== 'Invalid Date';
+
+      if ( !isValidDate ) {
+        this.entregaGarantiasAbogado = null;
+      } else {
+        this.entregaGarantiasAbogado = dateEntregaGarantiasAbogado;
+      }
+    }
 
     this.expediente = llaveProceso
       ? llaveProceso
@@ -264,46 +317,30 @@ export class Demanda implements IntDemanda {
     this.capitalAdeudado = capitalBuilder(
       capitalAdeudado
         ? capitalAdeudado
-        : 0
+        : 0,
     );
-    this.entregaGarantiasAbogado
-      = entregaGarantiasAbogado
-        ? new Date(
-          entregaGarantiasAbogado
-        )
-        : null;
     this.etapaProcesal = etapaProcesal
       ? `${ etapaProcesal }`
-      : null;
-    this.fechaPresentacion = fechaPresentacion
-      ? new Date(
-        fechaPresentacion
-      )
       : null;
     this.juzgados = juzgadosSet;
     this.municipio = municipio
       ? municipio
       : null;
-    this.mandamientoPago = mandamientoPago
-      ? new Date(
-        mandamientoPago
-      )
-      : null;
-
     this.obligacion = Array.from(
       obligacionesSet
     );
     this.radicado = radicado
       ? `${ radicado }`
       : null;
-    this.vencimientoPagare
-      = vencimientoPagareFixer(
-        vencimientoPagare
-      );
+    this.vencimientoPagare = vencimientoPagareFixer(
+      vencimientoPagare
+    );
     this.departamento = departamento
       ? departamento
       : null;
   }
+  vencimientoPagare: ( Date | null )[];
+  juzgados: Juzgado[];
   capitalAdeudado: number | null;
   departamento: string | null;
   entregaGarantiasAbogado: Date | null;
@@ -314,9 +351,33 @@ export class Demanda implements IntDemanda {
   municipio: string | null;
   obligacion: ( number | string )[];
   radicado: string | null;
-  vencimientoPagare: Date[];
   expediente: string | null;
-  juzgados: Juzgado[];
 
+
+  set despachos (
+    desp: string[]
+  ) {
+    if ( desp.length === 0 ) {
+      return;
+    }
+
+    this.despachos = desp;
+  }
+  get despachos () {
+    return this.despachos;
+  }
+
+  set sujetosProcesales (
+    suj: string[]
+  ) {
+    if ( suj.length === 0 ) {
+      return;
+    }
+
+    this.sujetosProcesales = suj;
+  }
+  get sujetosProcesales () {
+    return this.sujetosProcesales;
+  }
 
 }

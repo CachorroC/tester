@@ -1,0 +1,68 @@
+{
+  "thener": {
+    "idProcesos": [
+      50715970
+    ],
+    "llaveProceso": "11001400305920170087100",
+    "numero": 248,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 19475788,
+      "direccion": "calle 31 sur no 12-33",
+      "email": "hemacarblan@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3193196261
+      },
+      "primerNombre": "henry",
+      "primerApellido": "carranza",
+      "segundoApellido": "alba",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-09-14T00:00:00.000Z",
+      "mandamientoPago": "2017-10-04T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-09-07T00:00:00.000Z",
+      "expediente": "11001400305920170087100",
+      "capitalAdeudado": 4997106769,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        130619
+      ],
+      "radicado": "2017 - 00871",
+      "vencimientoPagare": [
+        "2017-04-22T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 1013592416,
+      "direccion": "CALLE 31 C SUR No 14A33",
+      "nombre": "felipe andres carranza blanco",
+      "telefono": "4786479 /3142987388"
+    },
+    "cc": 19475788,
+    "procesos": [
+      {
+        "idProceso": 50715970,
+        "idConexion": 259,
+        "llaveProceso": "11001400305920170087100",
+        "fechaProceso": "2017-09-19T00:00:00",
+        "fechaUltimaActuacion": "2017-11-22T00:00:00",
+        "despacho": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HENRY CARRANZA ALBA | Demandado: FELIPE ANDRES CARRANZA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

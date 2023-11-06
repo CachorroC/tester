@@ -11,30 +11,32 @@ datasource db {
 }
 
 model Carpeta {
-  id                      Int           @id @default(autoincrement())
-  numero                  Int           @unique
-  llaveProceso            String?       @unique
-  nombre                  String
-  category                String?       @default("Bancolombia")
-  deudor                  Json
-  demanda                 Json
-  idProcesos              Int[]
-  departamento            Departamento?
-  capitalAdeudado         Decimal?      @default(1000000) @db.Money
-  entregaGarantiasAbogado DateTime?     @default(now()) @db.Date
-  tipoProceso             String?       @default("SINGULAR")
-  etapaProcesal           String?       @default("Reparto")
-  fechaPresentacion       DateTime?     @db.Date
-  mandamientoPago         DateTime?     @db.Date
-  municipio               String?
-  obligaciones            String[]
-  radicado                String?
-  vencimientoPagare       DateTime[]    @db.Date
-  juzgados                Juzgado[]
-  Nota                    Nota[]
-  Tarea                   Tarea[]
-  procesos                Proceso[]
-  actuaciones             Actuacion[]
+  numero       Int         @id
+  llaveProceso String?     @unique
+  demandaId    Int?
+  nombre       String
+  idProcesos   Int[]
+  deudorCedula String?
+  category     Category    @default(SinEspecificar)
+  deudor       Deudor?     @relation(fields: [deudorCedula], references: [cedula])
+  demanda      Demanda?    @relation(fields: [demandaId], references: [id])
+  Nota         Nota[]
+  Tarea        Tarea[]
+  procesos     Proceso[]
+  actuaciones  Actuacion[]
+}
+
+model Deudor {
+  cedula          String    @id
+  primerNombre    String
+  segundoNombre   String?
+  primerApellido  String
+  segundoApellido String?
+  direccion       String?
+  email           String?
+  telCelular      Int?
+  telFijo         Int?
+  Carpeta         Carpeta[]
 }
 
 model Nota {
@@ -44,14 +46,14 @@ model Nota {
   createdAt     DateTime @default(now())
   pathname      String?
   carpetaNumero Int?
-  carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [id])
+  carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [numero])
 }
 
 model Tarea {
   id           Int        @id @unique @default(autoincrement())
   creationDate DateTime   @default(now()) @db.Date
   dueDate      DateTime?  @db.Date
-  Carpeta      Carpeta?   @relation(fields: [carpetaId], references: [id])
+  Carpeta      Carpeta?   @relation(fields: [carpetaId], references: [numero])
   carpetaId    Int?
   text         String
   isComplete   Boolean
@@ -80,50 +82,52 @@ model Actuacion {
   codRegla         String
   conDocumentos    Boolean
   cant             Int
-  Carpeta          Carpeta?  @relation(fields: [carpetaId], references: [id])
+  Carpeta          Carpeta?  @relation(fields: [carpetaId], references: [numero])
   carpetaId        Int?
   Proceso          Proceso?  @relation(fields: [procesoIdProceso], references: [idProceso])
   procesoIdProceso Int?
 }
 
 model Demanda {
-  id                      Int          @id @default(autoincrement())
-  departamento            Departamento
-  capitalAdeudado         Decimal?     @db.Money
-  entregaGarantiasAbogado DateTime     @default(now()) @db.Date
-  tipoProceso             TipoProceso  @default(SINGULAR)
+  id                      Int         @id @default(autoincrement())
+  departamento            String?
+  capitalAdeudado         Decimal?    @db.Money
+  entregaGarantiasAbogado DateTime    @default(now()) @db.Date
+  tipoProceso             TipoProceso @default(SINGULAR)
+  mandamientoPago         DateTime?   @db.Date
   etapaProcesal           String?
-  fechaPresentacion       DateTime?    @db.Date
-  mandamientoPago         DateTime?    @db.Date
+  fechaPresentacion       DateTime?   @db.Date
   municipio               String?
   obligacion              String[]
   radicado                String?
-  vencimientoPagare       DateTime[]   @db.Date
+  vencimientoPagare       DateTime[]  @db.Date
   expediente              String?
+  juzgados                Juzgado[]
+  carpetas                Carpeta[]
 }
 
 model Juzgado {
-  id        Int
-  tipo      String
-  url       String   @id
-  Carpeta   Carpeta? @relation(fields: [carpetaId], references: [id])
-  carpetaId Int?
+  id      Int
+  tipo    String    @id @unique
+  url     String
+  Proceso Proceso[]
+  demanda Demanda[]
 }
 
 model Proceso {
-  idProceso            Int         @unique
+  idProceso            Int         @id
   idConexion           Int
-  llaveProceso         String      @id
-  fechaProceso         DateTime?
-  fechaUltimaActuacion DateTime?
+  llaveProceso         String
+  fechaProceso         String?
+  fechaUltimaActuacion String?
   despacho             String
   departamento         String
   sujetosProcesales    String
   esPrivado            Boolean
   cantFilas            Int
   actuaciones          Actuacion[]
-  Carpeta              Carpeta?    @relation(fields: [carpetaId], references: [id])
-  carpetaId            Int?
+  Carpeta              Carpeta     @relation(fields: [llaveProceso], references: [llaveProceso])
+  Juzgado              Juzgado[]
 }
 
 enum Category {
@@ -132,6 +136,8 @@ enum Category {
   Bancolombia
   Reintegra
   Insolvencia
+  SinEspecificar
+  todos
 }
 
 enum Departamento {

@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      50880040
+    ],
+    "llaveProceso": "11001400306020170124100",
+    "numero": 72,
+    "tipoProceso": "PRENDARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 1030545462,
+      "direccion": "carrera 88 # 26 - 68",
+      "email": "1988fac@gmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "nestor",
+      "segundoNombre": "fabian",
+      "primerApellido": "espitia",
+      "segundoApellido": "fraile"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+      "mandamientoPago": "2017-12-14T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
+      "expediente": "11001400306020170124100",
+      "capitalAdeudado": 0,
+      "etapaProcesal": "SENTENCIA",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        2474005
+      ],
+      "radicado": "2017 - 01241",
+      "vencimientoPagare": [
+        "2017-06-07T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 1030545462,
+    "procesos": [
+      {
+        "idProceso": 50880040,
+        "idConexion": 259,
+        "llaveProceso": "11001400306020170124100",
+        "fechaProceso": "2017-11-30T00:00:00",
+        "fechaUltimaActuacion": "2023-04-25T00:00:00",
+        "despacho": "JUZGADO 060 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NESTOR FABIAN ESPITIA FRAILE ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

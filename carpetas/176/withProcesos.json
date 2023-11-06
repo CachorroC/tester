@@ -1,0 +1,75 @@
+{
+  "thener": {
+    "idProcesos": [
+      112783650
+    ],
+    "llaveProceso": "11001400300420170080100",
+    "numero": 176,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 79787268,
+      "direccion": "calle 26 # 103 - 09",
+      "email": "ingedibutec@gmail.com",
+      "tel": {
+        "fijo": 7562457,
+        "celular": 3182221747
+      },
+      "primerNombre": "jhon",
+      "segundoNombre": "fredy",
+      "primerApellido": "murillo",
+      "segundoApellido": "daza"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+      "mandamientoPago": "2017-09-28T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
+      "expediente": "11001400300420170080100",
+      "capitalAdeudado": 2021182893,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        113835,
+        377813623621787
+      ],
+      "radicado": "2017 - 00801",
+      "vencimientoPagare": [
+        "2023-11-27T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 79787268,
+    "procesos": [
+      {
+        "idProceso": 112783650,
+        "idConexion": 259,
+        "llaveProceso": "11001400300420170080100",
+        "fechaProceso": "2017-08-08T00:00:00",
+        "fechaUltimaActuacion": "2021-12-10T00:00:00",
+        "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NILCY ELENA BORJA SALCEDO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      },
+      {
+        "idProceso": 81628051,
+        "idConexion": 320,
+        "llaveProceso": "11001400300420170080100",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

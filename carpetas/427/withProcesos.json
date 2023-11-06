@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      86157021
+    ],
+    "llaveProceso": "25126408900220180004800",
+    "numero": 427,
+    "tipoProceso": "PRENDARIO",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 1069738339,
+      "direccion": "vereda la 22 kilometro 30 (cajica) // vereda subia norte parte baja finca el rincon lote 2 (granada- cund): vereda subia norte parte baja finca el rincon lote 2 (granada - cund)",
+      "email": null,
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "juan",
+      "segundoNombre": "camilo",
+      "primerApellido": "chingate",
+      "segundoApellido": "penagos"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2018-02-01T00:00:00.000Z",
+      "mandamientoPago": "2018-02-26T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
+      "expediente": "25126408900220180004800",
+      "capitalAdeudado": 21049112,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "CAJICA",
+      "obligacion": [
+        12730779
+      ],
+      "radicado": "2018 - 00048",
+      "vencimientoPagare": [
+        "2021-01-16T00:00:00.000Z"
+      ],
+      "departamento": "CUNDINAMARCA"
+    },
+    "cc": 1069738339,
+    "procesos": [
+      {
+        "idProceso": 86157021,
+        "idConexion": 320,
+        "llaveProceso": "25126408900220180004800",
+        "fechaProceso": "2018-02-02T00:00:00",
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 002 PROMISCUO MUNICIPAL DE CAJICÁ ",
+        "departamento": "CUNDINAMARCA",
+        "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: JUAN CAMILO CHINGATE PENAGOS (Emplazado) | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

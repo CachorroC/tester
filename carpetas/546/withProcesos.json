@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      50780430
+    ],
+    "llaveProceso": "11001400300220170100200",
+    "numero": 546,
+    "tipoProceso": "PRENDARIO",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 1116782267,
+      "direccion": "diagonal 2 no 79 f -04",
+      "email": "juanotero1989@gmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3005941798
+      },
+      "primerNombre": "jogli",
+      "segundoNombre": "joaquin",
+      "primerApellido": "otero",
+      "segundoApellido": "vargas"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-10-12T00:00:00.000Z",
+      "mandamientoPago": "2017-11-27T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-10-06T00:00:00.000Z",
+      "expediente": "11001400300220170100200",
+      "capitalAdeudado": 41372568,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12541235
+      ],
+      "radicado": "2017 - 01002",
+      "vencimientoPagare": [
+        "2020-10-04T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 1116782267,
+    "procesos": [
+      {
+        "idProceso": 50780430,
+        "idConexion": 259,
+        "llaveProceso": "11001400300220170100200",
+        "fechaProceso": "2017-10-17T00:00:00",
+        "fechaUltimaActuacion": "2023-03-14T00:00:00",
+        "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOGLI JOAQUIN OTERO VARGAS ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

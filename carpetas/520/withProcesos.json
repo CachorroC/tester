@@ -1,0 +1,63 @@
+{
+  "thener": {
+    "idProcesos": [
+      51718410
+    ],
+    "llaveProceso": "11001400307320190028700",
+    "numero": 520,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 92554673,
+      "direccion": "carrera 123 no 130c- 56  torre 52 apto 201",
+      "email": "farapaeos@gmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "rafael",
+      "segundoNombre": "adolfo",
+      "primerApellido": "paez",
+      "segundoApellido": "ortega"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400307320190028700",
+      "capitalAdeudado": 1387197656,
+      "etapaProcesal": "1.100141890552019e+22",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        5470086745
+      ],
+      "radicado": "2019 - 00287",
+      "vencimientoPagare": [
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 92554673,
+    "procesos": [
+      {
+        "idProceso": 51718410,
+        "idConexion": 259,
+        "llaveProceso": "11001400307320190028700",
+        "fechaProceso": "2019-02-27T00:00:00",
+        "fechaUltimaActuacion": "2021-07-01T00:00:00",
+        "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RAFAEL ADOLFO PAEZ ORTEGA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

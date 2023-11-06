@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      50465740
+    ],
+    "llaveProceso": "11001400301420170066700",
+    "numero": 8,
+    "tipoProceso": "PRENDARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 79642493,
+      "direccion": "calle 118 no. 18-65 apto 504 anaya el parque bogota",
+      "email": null,
+      "tel": {
+        "fijo": null,
+        "celular": 3106980002
+      },
+      "primerNombre": "jose",
+      "segundoNombre": "wilson",
+      "primerApellido": "rojas",
+      "segundoApellido": "valdes"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+      "expediente": "11001400301420170066700",
+      "capitalAdeudado": 25758912,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        2008124
+      ],
+      "radicado": "2017 - 00667",
+      "vencimientoPagare": [
+        "2020-04-20T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 79642493,
+    "procesos": [
+      {
+        "idProceso": 50465740,
+        "idConexion": 259,
+        "llaveProceso": "11001400301420170066700",
+        "fechaProceso": "2017-05-25T00:00:00",
+        "fechaUltimaActuacion": "2017-08-16T00:00:00",
+        "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE  WILSON ROJAS VALDES ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

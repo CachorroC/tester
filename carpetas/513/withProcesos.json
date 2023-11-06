@@ -1,0 +1,66 @@
+{
+  "thener": {
+    "idProcesos": [
+      65707550
+    ],
+    "llaveProceso": "11001400304420190016500",
+    "numero": 513,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 80865782,
+      "direccion": null,
+      "email": "CALLE 64 C No 105 D- 36 PISO 3",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "erik",
+      "segundoNombre": "ricardo",
+      "primerApellido": "pinto",
+      "segundoApellido": "rodriguez"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400304420190016500",
+      "capitalAdeudado": null,
+      "etapaProcesal": "01-02-2019",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "40.290.738"
+      ],
+      "radicado": "2019 - 00165",
+      "vencimientoPagare": [
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "direccion": "19-01-2022"
+    },
+    "cc": 80865782,
+    "procesos": [
+      {
+        "idProceso": 65707550,
+        "idConexion": 259,
+        "llaveProceso": "11001400304420190016500",
+        "fechaProceso": "2019-02-04T00:00:00",
+        "fechaUltimaActuacion": "2019-11-20T00:00:00",
+        "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ERIK RICARDO PINTO RODRIGUEZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "thener": {
+    "idProcesos": [
+      50667490
+    ],
+    "llaveProceso": "11001400307320170113500",
+    "numero": 151,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 88227428,
+      "direccion": "calle 180 # 12a - 16 int 3 apt 202 etapa 3 // calle 137 # 91 - 40 int 5 apto 404",
+      "email": "higuitac@gmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "andres",
+      "segundoNombre": "felipe",
+      "primerApellido": "higuita",
+      "segundoApellido": "cardona"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+      "mandamientoPago": "2017-09-11T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+      "expediente": "11001400307320170113500",
+      "capitalAdeudado": 0,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "2273320123786.",
+        337815690656158
+      ],
+      "radicado": "2017 - 01135",
+      "vencimientoPagare": [],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 88227428,
+    "procesos": [
+      {
+        "idProceso": 50667490,
+        "idConexion": 259,
+        "llaveProceso": "11001400307320170113500",
+        "fechaProceso": "2017-08-29T00:00:00",
+        "fechaUltimaActuacion": "2018-04-06T00:00:00",
+        "despacho": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANDRES FELIPE HIGUITA CARDONA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

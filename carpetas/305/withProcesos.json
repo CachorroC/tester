@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      51701110
+    ],
+    "llaveProceso": "11001400308220170125600",
+    "numero": 305,
+    "tipoProceso": "PRENDARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 19479861,
+      "direccion": "diagonal 5 d bis no 44 a -45",
+      "email": "serinconr@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "fernando",
+      "primerApellido": "rincon",
+      "segundoApellido": "rodriguez",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2017-10-17T00:00:00.000Z",
+      "expediente": "11001400308220170125600",
+      "capitalAdeudado": 11961381,
+      "etapaProcesal": "1.100140030822017e+22",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12048231
+      ],
+      "radicado": "2017 - 01256",
+      "vencimientoPagare": [
+        "2020-10-11T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 19479861,
+    "procesos": [
+      {
+        "idProceso": 51701110,
+        "idConexion": 259,
+        "llaveProceso": "11001400308220170125600",
+        "fechaProceso": "2019-02-22T00:00:00",
+        "fechaUltimaActuacion": "2022-08-04T00:00:00",
+        "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FERNANDO RINCON RODRIGUEZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

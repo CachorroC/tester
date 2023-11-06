@@ -1,0 +1,71 @@
+{
+  "thener": {
+    "idProcesos": [
+      9334093
+    ],
+    "llaveProceso": "11001400304320170110600",
+    "numero": 238,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 7181490,
+      "direccion": null,
+      "email": "blamblemooo1@gmail.com",
+      "tel": {
+        "fijo": 2362747,
+        "celular": 3106289389
+      },
+      "primerNombre": "fredy",
+      "segundoNombre": "alexander",
+      "primerApellido": "ruda",
+      "segundoApellido": "arias"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+      "expediente": "11001400304320170110600",
+      "capitalAdeudado": 6043388409,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12541785,
+        186378
+      ],
+      "radicado": "2017 - 01106",
+      "vencimientoPagare": [
+        "2017-05-09T05:00:00.000Z",
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 1015446817,
+      "direccion": "CALLE 128 No 96 A-33",
+      "nombre": "lina paola ruda benitez",
+      "telefono": 3147198973
+    },
+    "cc": 7181490,
+    "procesos": [
+      {
+        "idProceso": 9334093,
+        "idConexion": 261,
+        "llaveProceso": "11001400304320170110600",
+        "fechaProceso": "2017-08-31T00:00:00",
+        "fechaUltimaActuacion": "2018-10-24T00:00:00",
+        "despacho": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: FINANZAUTO SA | Demandado: DANIEL MAURICIO MANRIQUE BETANCUR | Demandado: MARIA TERESA FAYAD GONZALEZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

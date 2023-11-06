@@ -1,0 +1,64 @@
+{
+  "thener": {
+    "idProcesos": [
+      50858060
+    ],
+    "llaveProceso": "11001400301220170140000",
+    "numero": 342,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 91240362,
+      "direccion": null,
+      "email": "CARRERA 87 No  17 - 59",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "gabriel",
+      "segundoNombre": "augusto",
+      "primerApellido": "castillo",
+      "segundoApellido": "castelblanco"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-12-13T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400301220170140000",
+      "capitalAdeudado": 43,
+      "etapaProcesal": "43059",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        5303720026675088,
+        "27.570.000.00"
+      ],
+      "radicado": "2017 - 01400",
+      "vencimientoPagare": [
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 91240362,
+    "procesos": [
+      {
+        "idProceso": 50858060,
+        "idConexion": 259,
+        "llaveProceso": "11001400301220170140000",
+        "fechaProceso": "2017-11-21T00:00:00",
+        "fechaUltimaActuacion": "2019-08-05T00:00:00",
+        "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GABRIEL AUGUSTO CASTILLO CASTEBLANCO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

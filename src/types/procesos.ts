@@ -6,55 +6,56 @@
 
 import { intActuacion } from './actuaciones';
 
-
-export interface  Data{
-  StatusCode:   number;
-  Message:      Message | string;
+export interface Data {
+  StatusCode: number;
+  Message: Message | string;
   procesos?: intProceso[];
-   actuaciones?: intActuacion[];
+  actuaciones?: intActuacion[];
 }
 
-export interface ConsultaNumeroRadicacion{
+export interface ConsultaNumeroRadicacion {
   tipoConsulta: string;
   procesos: intProceso[];
   parametros: Parametros;
   paginacion: Paginacion;
 }
 
-
-export type Message = 'OK' | 'El parametro "NumeroRadicacion" ha de contener 23 digitos.' | 'Object reference not set to an instance of an object.'
+export type Message =
+  | 'OK'
+  | 'El parametro "NumeroRadicacion" ha de contener 23 digitos.'
+  | 'Object reference not set to an instance of an object.'
   | 'No se pueden ver actuaciones de un proceso privado';
 
 export interface Paginacion {
-    cantidadRegistros: number;
-    registrosPagina:   number;
-    cantidadPaginas:   number;
-    pagina:            number;
-    paginas:           null;
+  cantidadRegistros: number;
+  registrosPagina: number;
+  cantidadPaginas: number;
+  pagina: number;
+  paginas: null;
 }
 
 export interface Parametros {
-    numero:               string;
-    nombre:               null;
-    tipoPersona:          null;
-    idSujeto:             null;
-    ponente:              null;
-    claseProceso:         null;
-    codificacionDespacho: null;
-    soloActivos:          boolean;
+  numero: string;
+  nombre: null;
+  tipoPersona: null;
+  idSujeto: null;
+  ponente: null;
+  claseProceso: null;
+  codificacionDespacho: null;
+  soloActivos: boolean;
 }
 
 export interface intProceso {
-    idProceso:            number;
-    idConexion:           number;
-    llaveProceso:         string;
-    fechaProceso:         Date |string | null;
-    fechaUltimaActuacion: Date | string |null;
-    despacho:             string;
-    departamento:         Departamento;
-    sujetosProcesales:    string;
-    esPrivado:            boolean;
-    cantFilas:            number;
+  idProceso: number;
+  idConexion: number;
+  llaveProceso: string;
+  fechaProceso: Date | string | null;
+  fechaUltimaActuacion: Date | string | null;
+  despacho: string;
+  departamento: Departamento;
+  sujetosProcesales: string;
+  esPrivado: boolean;
+  cantFilas: number;
 }
 
 export type Departamento = 'BOGOTÁ' | 'CUNDINAMARCA' | 'ANTIOQUIA' | 'META';
@@ -64,66 +65,66 @@ export type TipoConsulta = 'NumeroRadicacion';
 // Converts JSON strings to/from your types
 export class Convert {
   public static toConsultaNumeroRadicacion(
-    json: string
+    json: string,
   ): ConsultaNumeroRadicacion {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static consultaNumeroRadicacionToJson(
-    value: ConsultaNumeroRadicacion
+    value: ConsultaNumeroRadicacion,
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toPaginacion(
-    json: string
+    json: string 
   ): Paginacion {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static paginacionToJson(
-    value: Paginacion
+    value: Paginacion 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toParametros(
-    json: string
+    json: string 
   ): Parametros {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static parametrosToJson(
-    value: Parametros
+    value: Parametros 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toProceso(
-    json: string
+    json: string 
   ): intProceso {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static procesoToJson(
-    value: intProceso
+    value: intProceso 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 }

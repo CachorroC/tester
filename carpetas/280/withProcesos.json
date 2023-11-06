@@ -1,0 +1,63 @@
+{
+  "thener": {
+    "idProcesos": [
+      50875780
+    ],
+    "llaveProceso": "11001400300920170127900",
+    "numero": 280,
+    "tipoProceso": "SINGULAR",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 19447966,
+      "direccion": "cr 12b 24-37 sur",
+      "email": "jhernandosanchez@yahoo.es",
+      "tel": {
+        "fijo": 4789274,
+        "celular": 3125826241
+      },
+      "primerNombre": "jose",
+      "segundoNombre": "hernando",
+      "primerApellido": "sanchez",
+      "segundoApellido": "valbuena"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+      "mandamientoPago": "2017-12-12T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+      "expediente": "11001400300920170127900",
+      "capitalAdeudado": 11796195,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        8920084662
+      ],
+      "radicado": "2017 - 01279",
+      "vencimientoPagare": [
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 19447966,
+    "procesos": [
+      {
+        "idProceso": 50875780,
+        "idConexion": 259,
+        "llaveProceso": "11001400300920170127900",
+        "fechaProceso": "2017-11-28T00:00:00",
+        "fechaUltimaActuacion": "2022-01-26T00:00:00",
+        "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE HERNANDO SANCHEZ VALBUENA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

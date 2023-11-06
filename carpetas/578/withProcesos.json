@@ -1,0 +1,65 @@
+{
+  "thener": {
+    "idProcesos": [
+      132645230
+    ],
+    "llaveProceso": "11001418904120230021200",
+    "numero": 578,
+    "tipoProceso": "SINGULAR",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 35422519,
+      "direccion": "cl 4 16 10 ap 201 barrio algarra iii",
+      "email": "dicrisare@gmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3203172020
+      },
+      "primerNombre": "diana",
+      "segundoNombre": "cristina",
+      "primerApellido": "arevalo",
+      "segundoApellido": "arboleda"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
+      "expediente": "11001418904120230021200",
+      "capitalAdeudado": 140332319,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "ZIPAQUIRA",
+      "obligacion": [
+        3320096675,
+        "83942050 X T.C MASTER 5491580158404844 Y AMERICAN 377816059851588"
+      ],
+      "radicado": "2023 - 00442",
+      "vencimientoPagare": [
+        null,
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 35422519,
+    "procesos": [
+      {
+        "idProceso": 132645230,
+        "idConexion": 259,
+        "llaveProceso": "11001418904120230021200",
+        "fechaProceso": "2023-08-23T00:00:00",
+        "fechaUltimaActuacion": "2023-09-07T00:00:00",
+        "despacho": "JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: INDIRA MAYERLY FLOREZ CASTRO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

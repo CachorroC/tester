@@ -1,0 +1,65 @@
+{
+  "thener": {
+    "idProcesos": [
+      50682020
+    ],
+    "llaveProceso": "11001400300520170125500",
+    "numero": 216,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 51833717,
+      "direccion": null,
+      "email": "CARRERA 123 # 131 - 32",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "blanca",
+      "segundoNombre": "janeth",
+      "primerApellido": "pinzon",
+      "segundoApellido": "suarez"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-10-23T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400300520170125500",
+      "capitalAdeudado": 43,
+      "etapaProcesal": "42982",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        1340111261
+      ],
+      "radicado": "2017 - 01255",
+      "vencimientoPagare": [
+        "+096859-01-01T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "direccion": 44697
+    },
+    "cc": 51833717,
+    "procesos": [
+      {
+        "idProceso": 50682020,
+        "idConexion": 259,
+        "llaveProceso": "11001400300520170125500",
+        "fechaProceso": "2017-09-05T00:00:00",
+        "fechaUltimaActuacion": "2023-06-07T00:00:00",
+        "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA JANETH PINZON SUAREZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

@@ -8,35 +8,35 @@ import Game from '../models/game';
 export const gamesRouter = express.Router();
 
 gamesRouter.use(
-  express.json()
+  express.json() 
 );
 
 //? GET
 gamesRouter.get(
   '/', async (
-    _req: Request, res: Response
+    _req: Request, res: Response 
   ) => {
     try {
       const games = ( await collections.games.find(
-        {}
+        {} 
       )
         .toArray() ) as Game[];
 
       res.status(
-        200
+        200 
       )
         .send(
-          games
+          games 
         );
     } catch ( error ) {
       res.status(
-        500
+        500 
       )
         .send(
-          error.message
+          error.message 
         );
     }
-  }
+  } 
 );
 
 //? POST

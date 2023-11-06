@@ -1,0 +1,68 @@
+{
+  "thener": {
+    "idProcesos": [
+      10955643
+    ],
+    "llaveProceso": "11001400304920180019100",
+    "numero": 403,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 52361215,
+      "direccion": "diagonal 77 b no 123 a- 43 casa 173",
+      "email": "claudia.1120@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "claudia",
+      "segundoNombre": "yaneth",
+      "primerApellido": "valencia",
+      "segundoApellido": "aya"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400304920180019100",
+      "capitalAdeudado": 2760787844,
+      "etapaProcesal": "ADMISION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        141356
+      ],
+      "radicado": "2018-0191",
+      "vencimientoPagare": [
+        "2017-03-08T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 21046617,
+      "direccion": "CARRERA 89 B No 85 B-25",
+      "nombre": "bertha judith aya de valencia",
+      "telefono": "74881010 / 3202269928"
+    },
+    "cc": 52361215,
+    "procesos": [
+      {
+        "idProceso": 10955643,
+        "idConexion": 261,
+        "llaveProceso": "11001400304920180019100",
+        "fechaProceso": "2018-02-22T00:00:00",
+        "fechaUltimaActuacion": "2018-04-17T00:00:00",
+        "despacho": "JUZGADO 049 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CLAUDIA YANNET VALENCIA AYA | Demandado: BERTHA JUDITH AYA DE VALENCIA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

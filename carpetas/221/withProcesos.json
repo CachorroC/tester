@@ -1,0 +1,68 @@
+{
+  "thener": {
+    "idProcesos": [
+      50684250
+    ],
+    "llaveProceso": "11001400301320170115700",
+    "numero": 221,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 52192430,
+      "direccion": "carrera 81a # 54 - 32",
+      "email": null,
+      "tel": {
+        "fijo": 4506940,
+        "celular": 3103025587
+      },
+      "primerNombre": "beatriz",
+      "primerApellido": "helena",
+      "segundoApellido": "machado",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2017-09-04T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
+      "expediente": "11001400301320170115700",
+      "capitalAdeudado": 15864394,
+      "etapaProcesal": "1.100140030132017e+22",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990095881
+      ],
+      "radicado": "2017 - 01157",
+      "vencimientoPagare": [
+        "2022-04-19T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 5607979,
+      "direccion": "CARRERA 81A # 54 - 32",
+      "nombre": "hernando gonzalez garcia",
+      "telefono": "3063338 // 3142580589"
+    },
+    "cc": 52192430,
+    "procesos": [
+      {
+        "idProceso": 50684250,
+        "idConexion": 259,
+        "llaveProceso": "11001400301320170115700",
+        "fechaProceso": "2017-09-05T00:00:00",
+        "fechaUltimaActuacion": "2021-10-13T00:00:00",
+        "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S. A. HITOS  endosataria en propiedad del BANCO DAVIVIENDA S.A. | Demandado: HERNANDO GONZALEZ GARCIA | Demandado: BEATRIZ HELENA MACHADO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

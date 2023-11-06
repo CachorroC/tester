@@ -12,27 +12,27 @@ const router = new Router();
 const prisma = new PrismaClient();
 
 app.use(
-  koaBody()
+  koaBody() 
 );
 
 router.post(
   '/signup', async (
-    ctx
+    ctx 
   ) => {
     const {
-      name, email, posts
+      name, email, posts 
     } = ctx.request.body;
 
     const postData = posts
       ? posts.map(
         (
-          post: Prisma.CarpetaCreateInput
+          post: Prisma.CarpetaCreateInput 
         ) => {
           return {
             title  : post.title,
-            content: post.content || undefined
+            content: post.content || undefined,
           };
-        }
+        } 
       )
       : [];
 
@@ -45,20 +45,20 @@ router.post(
             create: postData,
           },
         },
-      }
+      } 
     );
 
     ctx.status = 201; // Created
     ctx.body = newUser;
-  }
+  } 
 );
 
 router.post(
   '/post', async (
-    ctx
+    ctx 
   ) => {
     const {
-      title, content, authorEmail: email
+      title, content, authorEmail: email 
     } = ctx.request.body;
 
     const newPost = await prisma.post.create(
@@ -68,23 +68,23 @@ router.post(
           content,
           author: {
             connect: {
-              email
-            }
+              email,
+            },
           },
         },
-      }
+      } 
     );
     ctx.status = 201; // Created
     ctx.body = newPost;
-  }
+  } 
 );
 
 router.put(
   '/post/:id/views', async (
-    ctx
+    ctx 
   ) => {
     const id = Number(
-      ctx.params.id
+      ctx.params.id 
     );
 
     try {
@@ -98,25 +98,25 @@ router.put(
               increment: 1,
             },
           },
-        }
+        } 
       );
 
       ctx.body = post;
     } catch {
       ctx.status = 404;
       ctx.body = {
-        error: `Post with ID ${ id } does not exist in the database`
+        error: `Post with ID ${ id } does not exist in the database`,
       };
     }
-  }
+  } 
 );
 
 router.put(
   '/publish/:id', async (
-    ctx
+    ctx 
   ) => {
     const id = Number(
-      ctx.params.id
+      ctx.params.id 
     );
 
     const postToUpdate = await prisma.post.findUnique(
@@ -124,13 +124,13 @@ router.put(
         where: {
           id,
         },
-      }
+      } 
     );
 
     if ( !postToUpdate ) {
       ctx.status = 404;
       ctx.body = {
-        error: `Post with ID ${ id } does not exist in the database`
+        error: `Post with ID ${ id } does not exist in the database`,
       };
       return;
     }
@@ -143,19 +143,19 @@ router.put(
         data: {
           published: !postToUpdate.published,
         },
-      }
+      } 
     );
 
     ctx.body = updatedPost;
-  }
+  } 
 );
 
 router.delete(
   '/post/:id', async (
-    ctx
+    ctx 
   ) => {
     const id = Number(
-      ctx.params.id
+      ctx.params.id 
     );
 
     try {
@@ -164,35 +164,35 @@ router.delete(
           where: {
             id,
           },
-        }
+        } 
       );
 
       ctx.body = deletedPost;
     } catch {
       ctx.status = 404;
       ctx.body = {
-        error: `Post with ID ${ id } does not exist in the database`
+        error: `Post with ID ${ id } does not exist in the database`,
       };
     }
-  }
+  } 
 );
 
 router.get(
   '/users', async (
-    ctx
+    ctx 
   ) => {
     const users = await prisma.user.findMany();
 
     ctx.body = users;
-  }
+  } 
 );
 
 router.get(
   '/user/:id/drafts', async (
-    ctx
+    ctx 
   ) => {
     const id = Number(
-      ctx.params.id
+      ctx.params.id 
     );
 
     const drafts = await prisma.user
@@ -201,26 +201,26 @@ router.get(
           where: {
             id,
           },
-        }
+        } 
       )
       .posts(
         {
           where: {
-            published: false
+            published: false,
           },
-        }
+        } 
       );
 
     ctx.body = drafts;
-  }
+  } 
 );
 
 router.get(
   '/post/:id', async (
-    ctx
+    ctx 
   ) => {
     const id = Number(
-      ctx.params.id
+      ctx.params.id 
     );
 
     const post = await prisma.post.findUnique(
@@ -228,19 +228,19 @@ router.get(
         where: {
           id,
         },
-      }
+      } 
     );
 
     ctx.body = post;
-  }
+  } 
 );
 
 router.get(
   '/feed', async (
-    ctx
+    ctx 
   ) => {
     const {
-      searchString, skip, take, orderBy
+      searchString, skip, take, orderBy 
     } = ctx.query;
 
     const or = searchString
@@ -248,13 +248,13 @@ router.get(
           OR: [
             {
               title: {
-                contains: searchString as string
-              }
+                contains: searchString as string,
+              },
             },
             {
               content: {
-                contains: searchString as string
-              }
+                contains: searchString as string,
+              },
             },
           ],
         }
@@ -267,28 +267,28 @@ router.get(
           ...or,
         },
         include: {
-          author: true
+          author: true,
         },
         take: Number(
-          take
+          take 
         ) || undefined,
         skip: Number(
-          skip
+          skip 
         ) || undefined,
         orderBy: {
           updatedAt: orderBy as Prisma.SortOrder,
         },
-      }
+      } 
     );
     ctx.body = posts;
-  }
+  } 
 );
 
 app.use(
-  router.routes()
+  router.routes() 
 )
   .use(
-    router.allowedMethods()
+    router.allowedMethods() 
   );
 
 app.listen(
@@ -296,7 +296,7 @@ app.listen(
     return console.log(
       `
 🚀 Server ready at: http://localhost:3000
-⭐️ See sample requests: http://pris.ly/e/ts/rest-koa#3-using-the-rest-api`
+⭐️ See sample requests: http://pris.ly/e/ts/rest-koa#3-using-the-rest-api`,
     );
-  },
+  } 
 );

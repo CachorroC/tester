@@ -1,0 +1,64 @@
+{
+  "thener": {
+    "idProcesos": [
+      50764880
+    ],
+    "llaveProceso": "11001400300120170130900",
+    "numero": 348,
+    "tipoProceso": "SINGULAR",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 41688661,
+      "direccion": "carrera 8 no 190 - 22 hoy carrera 31 no. 190-04",
+      "email": "anabeatrizcorredor@yahoo.es",
+      "tel": {
+        "fijo": 5101587,
+        "celular": 3106630177
+      },
+      "primerNombre": "ana",
+      "segundoNombre": "beatriz",
+      "primerApellido": "corredor",
+      "segundoApellido": "rivera"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-10-06T00:00:00.000Z",
+      "mandamientoPago": "2017-10-10T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-09-28T00:00:00.000Z",
+      "expediente": "11001400300120170130900",
+      "capitalAdeudado": 76735593,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        6260082762,
+        377813367146983
+      ],
+      "radicado": "2017 - 01309",
+      "vencimientoPagare": [
+        "2021-02-12T05:00:00.000Z",
+        "2020-03-09T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 41688661,
+    "procesos": [
+      {
+        "idProceso": 50764880,
+        "idConexion": 259,
+        "llaveProceso": "11001400300120170130900",
+        "fechaProceso": "2017-10-09T00:00:00",
+        "fechaUltimaActuacion": "2023-08-29T00:00:00",
+        "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANA BEATRIZ CORREDOR DE OSORIO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "thener": {
+    "idProcesos": [
+      39001450
+    ],
+    "llaveProceso": "11001400306820190100400",
+    "numero": 522,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 79359896,
+      "direccion": "calle 42 c no 78  a-17 sur",
+      "email": "dorapia@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "armando",
+      "primerApellido": "rodriguez",
+      "segundoApellido": "rodriguez",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
+      "expediente": "11001400306820190100400",
+      "capitalAdeudado": 2972304763,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990146891,
+        450091594
+      ],
+      "radicado": "2019 - 01004",
+      "vencimientoPagare": [
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 79359896,
+    "procesos": [
+      {
+        "idProceso": 39001450,
+        "idConexion": 262,
+        "llaveProceso": "11001400306820190100400",
+        "fechaProceso": "2019-06-04T00:00:00",
+        "fechaUltimaActuacion": "2022-06-03T00:00:00",
+        "despacho": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: ARMANDO RODRIGUEZ RODRIGUEZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

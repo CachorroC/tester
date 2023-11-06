@@ -1,0 +1,64 @@
+{
+  "thener": {
+    "idProcesos": [
+      50763460
+    ],
+    "llaveProceso": "11001400303320170147400",
+    "numero": 344,
+    "tipoProceso": "SINGULAR",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 79505982,
+      "direccion": "calle 168 no 8 g - 61 bloque  5 apartamento  102",
+      "email": "luissanchez69@live.com",
+      "tel": {
+        "fijo": 8003961,
+        "celular": 3174409073
+      },
+      "primerNombre": "luis",
+      "segundoNombre": "augusto",
+      "primerApellido": "sanchez",
+      "segundoApellido": "ortiz"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-10-06T00:00:00.000Z",
+      "mandamientoPago": "2017-10-17T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
+      "expediente": "11001400303320170147400",
+      "capitalAdeudado": 19977436,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "377815565830854  4513071889404813",
+        "5176409000345363    5306946666855816"
+      ],
+      "radicado": "2017 - 01474",
+      "vencimientoPagare": [
+        "2019-09-12T05:00:00.000Z",
+        "2020-05-03T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 79505982,
+    "procesos": [
+      {
+        "idProceso": 50763460,
+        "idConexion": 259,
+        "llaveProceso": "11001400303320170147400",
+        "fechaProceso": "2017-10-09T00:00:00",
+        "fechaUltimaActuacion": "2023-05-17T00:00:00",
+        "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS AUGUSTO SANCHEZ ORTIZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "thener": {
+    "idProcesos": [
+      121826111
+    ],
+    "llaveProceso": "25307400300320210053900",
+    "numero": 480,
+    "tipoProceso": "SINGULAR",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 39575032,
+      "direccion": "carrera 14 no 22-10  apartamento  202 girardot",
+      "email": "adriana.0806@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3152573448
+      },
+      "primerNombre": "adriana",
+      "primerApellido": "vanegas",
+      "segundoApellido": "peña",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "25307400300320210053900",
+      "capitalAdeudado": 17217066,
+      "etapaProcesal": "EJECUCION",
+      "juzgados": [],
+      "municipio": "GIRARDOT",
+      "obligacion": [
+        "AUDIOPRESTAMO",
+        5.30696068711907e+29
+      ],
+      "radicado": "2021 - 00539",
+      "vencimientoPagare": [
+        null,
+        null,
+        "2021-06-04T05:00:00.000Z"
+      ],
+      "departamento": "CUNDINAMARCA"
+    },
+    "cc": 39575032,
+    "procesos": [
+      {
+        "idProceso": 121826111,
+        "idConexion": 320,
+        "llaveProceso": "25307400300320210053900",
+        "fechaProceso": "2021-10-27T00:00:00",
+        "fechaUltimaActuacion": "2023-03-10T00:00:00",
+        "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE GIRARDOT ",
+        "departamento": "CUNDINAMARCA",
+        "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: adriana  vanegas peña | Defensor Privado: CARMEN CECILIA RAMIREZ MUÑOZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

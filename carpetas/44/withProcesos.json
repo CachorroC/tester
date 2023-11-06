@@ -1,0 +1,68 @@
+{
+  "thener": {
+    "idProcesos": [
+      50631800
+    ],
+    "llaveProceso": "11001400301220170088200",
+    "numero": 44,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 11188351,
+      "direccion": "carrera 80 no. 67-41 calle 66 no. 113-c- 45 apto 404 interior 4 sevilla real conjunto residencial",
+      "email": null,
+      "tel": {
+        "fijo": null,
+        "celular": 3124041113
+      },
+      "primerNombre": "jose",
+      "segundoNombre": "freddy",
+      "primerApellido": "vargas",
+      "segundoApellido": "ruiz"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+      "mandamientoPago": "2017-09-25T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+      "expediente": "11001400301220170088200",
+      "capitalAdeudado": 2078520,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        377813731599891
+      ],
+      "radicado": "2017 - 00882",
+      "vencimientoPagare": [
+        "2024-11-18T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 28168817,
+      "direccion": "CARRERA 80 No. 67-41",
+      "nombre": "martha murcia cardenas",
+      "telefono": "28168817//3102605021"
+    },
+    "cc": 11188351,
+    "procesos": [
+      {
+        "idProceso": 50631800,
+        "idConexion": 259,
+        "llaveProceso": "11001400301220170088200",
+        "fechaProceso": "2017-08-12T00:00:00",
+        "fechaUltimaActuacion": "2023-09-19T00:00:00",
+        "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARTHA MURCIA CARDENAS | Demandado: JOSE FREDY VARGAS RUIZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

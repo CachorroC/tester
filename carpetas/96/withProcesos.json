@@ -1,0 +1,63 @@
+{
+  "thener": {
+    "idProcesos": [
+      11998913
+    ],
+    "llaveProceso": "11001400305320170087100",
+    "numero": 96,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 52818959,
+      "direccion": "carrera 72 # 57b - 50",
+      "email": "bluemoontauro@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "yuranny",
+      "primerApellido": "polanco",
+      "segundoApellido": "cespedes",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+      "expediente": "11001400305320170087100",
+      "capitalAdeudado": 4602755256,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        160742,
+        377815863029282
+      ],
+      "radicado": "2017 - 00871",
+      "vencimientoPagare": [
+        "2033-01-30T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 52818959,
+    "procesos": [
+      {
+        "idProceso": 11998913,
+        "idConexion": 261,
+        "llaveProceso": "11001400305320170087100",
+        "fechaProceso": "2017-07-04T00:00:00",
+        "fechaUltimaActuacion": "2018-03-23T00:00:00",
+        "despacho": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: YURANNY POLANCO CESPEDES ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

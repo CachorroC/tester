@@ -4,8 +4,6 @@
 //
 //   const CarpetaRaw = Convert.toCarpetaRaw(json);
 
-
-
 export interface TrulyCruda {
   llaveProceso?: string;
   demanda: DemandaRaw;
@@ -17,7 +15,6 @@ export interface TrulyCruda {
 export interface CarpetaRaw extends TrulyCruda {
   category: Category;
 }
-
 
 export interface IntCarpeta {
   numero: number;
@@ -64,7 +61,7 @@ export type Category =
   | 'Bancolombia'
   | 'Reintegra'
   | 'Insolvencia'
-  | 'sin Especificar'
+  | 'SinEspecificar'
   | 'todos';
 
 export interface Codeudor {
@@ -125,8 +122,7 @@ export interface IntDeudor {
   tel: IntTel;
 }
 
-
-export interface IntTel{
+export interface IntTel {
   fijo: number | null;
   celular: number | null;
 }
@@ -142,11 +138,12 @@ export interface IntDemanda {
   municipio: string | null;
   obligacion: ( number | string )[];
   radicado: string | null;
-  vencimientoPagare: Date[] ;
+  vencimientoPagare: ( Date | null )[];
+  despachos: string[];
+  sujetosProcesales: string[];
   expediente: string | null;
-  juzgados: Juzgado[] ;
+  juzgados: Juzgado[];
 }
-
 
 export interface Juzgado {
   id: number;

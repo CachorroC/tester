@@ -1,0 +1,63 @@
+{
+  "thener": {
+    "idProcesos": [
+      65701460
+    ],
+    "llaveProceso": "11001400306320170129000",
+    "numero": 420,
+    "tipoProceso": "HMM PISO 1",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 52773230,
+      "direccion": "calle 42 no 78 h - 38 sur",
+      "email": "N / A",
+      "tel": {
+        "fijo": 3085025,
+        "celular": 3107706773
+      },
+      "primerNombre": "diana",
+      "segundoNombre": "patricia",
+      "primerApellido": "barreto",
+      "segundoApellido": "osma"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-12-12T05:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
+      "expediente": "11001400306320170129000",
+      "capitalAdeudado": 10382732,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "377813451010780 / 4513070410107739",
+        5.30371016595875e+29
+      ],
+      "radicado": "1.100140030632017e+22",
+      "vencimientoPagare": [
+        "2020-08-07T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 52773230,
+    "procesos": [
+      {
+        "idProceso": 65701460,
+        "idConexion": 259,
+        "llaveProceso": "11001400306320170129000",
+        "fechaProceso": "2017-12-13T00:00:00",
+        "fechaUltimaActuacion": "2023-10-26T00:00:00",
+        "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandante: BANCOLOMBIA | Demandado: DIANA PATRICIA BARRETO OSMA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

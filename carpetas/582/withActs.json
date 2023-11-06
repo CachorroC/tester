@@ -1,0 +1,60 @@
+{
+  "thener": {
+    "idProcesos": [],
+    "llaveProceso": "25430400300120230129500",
+    "numero": 582,
+    "tipoProceso": "SINGULAR",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 7228260,
+      "direccion": "calle 23 no. 12 - 50 bloque 14 apto 15 madrid (cundinamarca)",
+      "email": "duartepedroantonio@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3133073186
+      },
+      "primerNombre": "pedro",
+      "segundoNombre": "antonio",
+      "primerApellido": "duarte",
+      "segundoApellido": "vargas"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
+      "expediente": "25430400300120230129500",
+      "capitalAdeudado": 16827889,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "MADRID",
+      "obligacion": [
+        3830095609
+      ],
+      "radicado": "2023 - 01295",
+      "vencimientoPagare": [
+        "2026-03-06T00:00:00.000Z"
+      ],
+      "departamento": "CUNDINAMARCA"
+    },
+    "cc": 7228260,
+    "procesos": [
+      {
+        "idProceso": 160042431,
+        "idConexion": 320,
+        "llaveProceso": "25430400300120230129500",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
+        "departamento": "CUNDINAMARCA",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 404,
+    "Message": "Error: no hay idProcesos correspondientes para hacer la busqueda de este proceso."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "thener": {
+    "idProcesos": [
+      1805257424
+    ],
+    "llaveProceso": "11001310301120170033500",
+    "numero": 25,
+    "tipoProceso": "PRENDARIO",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 3197274,
+      "direccion": "cl 14 no. 10 - 45 bucaramanga",
+      "email": null,
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "omar",
+      "segundoNombre": "dario",
+      "primerApellido": "zea",
+      "segundoApellido": "galvis"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+      "mandamientoPago": "2017-08-14T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
+      "expediente": "11001310301120170033500",
+      "capitalAdeudado": 107818114,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12705806
+      ],
+      "radicado": "2017 - 00335",
+      "vencimientoPagare": [
+        "2020-05-10T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 3197274,
+    "procesos": [
+      {
+        "idProceso": 80553011,
+        "idConexion": 320,
+        "llaveProceso": "11001310301120170033500",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 011 CIVIL DEL CIRCUITO DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      },
+      {
+        "idProceso": 1805257424,
+        "idConexion": 310,
+        "llaveProceso": "11001310301120170033500",
+        "fechaProceso": "2017-05-31T00:00:00",
+        "fechaUltimaActuacion": "2023-03-10T00:00:00",
+        "despacho": "JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OMAR DARIO ZEA GALVIS ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

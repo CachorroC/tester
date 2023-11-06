@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      50921080
+    ],
+    "llaveProceso": "11001400307720170056800",
+    "numero": 140,
+    "tipoProceso": "PRENDARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 80933170,
+      "direccion": "carrera 8 # 13 - 34 sur bloque 6 apto 101",
+      "email": "Jfcomercializadorajb@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "jhon",
+      "segundoNombre": "faber",
+      "primerApellido": "forigua",
+      "segundoApellido": "garcia"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2017-06-29T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+      "expediente": "11001400307720170056800",
+      "capitalAdeudado": 38664283,
+      "etapaProcesal": "1.100140030772017e+22",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12480702
+      ],
+      "radicado": "2017 - 00568",
+      "vencimientoPagare": [
+        "2020-06-12T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 80933170,
+    "procesos": [
+      {
+        "idProceso": 50921080,
+        "idConexion": 259,
+        "llaveProceso": "11001400307720170056800",
+        "fechaProceso": "2017-12-18T00:00:00",
+        "fechaUltimaActuacion": "2023-09-01T00:00:00",
+        "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA | Demandado: JHON FABER FORIGUA GARCIA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

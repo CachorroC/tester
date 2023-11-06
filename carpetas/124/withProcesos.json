@@ -1,0 +1,61 @@
+{
+  "thener": {
+    "idProcesos": [
+      50643180
+    ],
+    "llaveProceso": "11001400303320170118000",
+    "numero": 124,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 40025572,
+      "direccion": "calle 181 # 17b 47 san antonio",
+      "email": "eariasseguros@hotmail.com",
+      "tel": {
+        "fijo": 6749599,
+        "celular": 3202092701
+      },
+      "primerNombre": "blanca",
+      "segundoNombre": "edelmira",
+      "primerApellido": "arias",
+      "segundoApellido": "melo"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-08-16T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2017-08-09T00:00:00.000Z",
+      "expediente": "11001400303320170118000",
+      "capitalAdeudado": 0,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        153313,
+        377815399826276
+      ],
+      "radicado": "2017 - 01180",
+      "vencimientoPagare": [],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 40025572,
+    "procesos": [
+      {
+        "idProceso": 50643180,
+        "idConexion": 259,
+        "llaveProceso": "11001400303320170118000",
+        "fechaProceso": "2017-08-17T00:00:00",
+        "fechaUltimaActuacion": "2018-03-24T00:00:00",
+        "despacho": "JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA EDELMIRA ARIAS MELO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

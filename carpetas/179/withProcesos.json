@@ -1,0 +1,68 @@
+{
+  "thener": {
+    "idProcesos": [
+      50760030
+    ],
+    "llaveProceso": "11001400301120170108400",
+    "numero": 179,
+    "tipoProceso": "SINGULAR",
+    "category": "Reintegra",
+    "deudor": {
+      "cedula": 12254068,
+      "direccion": "carrera 30 no.68 j-08 sur",
+      "email": "guillermogonzalez_tagua@hotmail.com",
+      "tel": {
+        "fijo": 5642974,
+        "celular": 3218180993
+      },
+      "primerNombre": "guillermo",
+      "primerApellido": "gonzalez",
+      "segundoApellido": "tagua",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+      "mandamientoPago": "2017-11-15T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+      "expediente": "11001400301120170108400",
+      "capitalAdeudado": 12687427,
+      "etapaProcesal": "EJECUCIÓN",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        5670085162
+      ],
+      "radicado": "2017 - 01084",
+      "vencimientoPagare": [
+        "2019-11-02T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 12254177,
+      "direccion": "DIAGONAL 68 J No.26-15 SUR",
+      "nombre": "javier gonzalez tagua",
+      "telefono": "5643632//3125598323"
+    },
+    "cc": 12254068,
+    "procesos": [
+      {
+        "idProceso": 50760030,
+        "idConexion": 259,
+        "llaveProceso": "11001400301120170108400",
+        "fechaProceso": "2017-10-06T00:00:00",
+        "fechaUltimaActuacion": "2023-07-26T00:00:00",
+        "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: JAVIER GONZALEZ TAGUA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

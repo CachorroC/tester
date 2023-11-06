@@ -1,0 +1,63 @@
+{
+  "thener": {
+    "idProcesos": [
+      51974830
+    ],
+    "llaveProceso": "11001400303620190049600",
+    "numero": 525,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 1030543356,
+      "direccion": "calle 48 sur 87-86 torre 16 apto 261",
+      "email": "magda.riascos.diaz@gmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "magda",
+      "segundoNombre": "lorena",
+      "primerApellido": "riascos",
+      "segundoApellido": "diaz"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2019-04-06T05:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400303620190049600",
+      "capitalAdeudado": 0,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990151954
+      ],
+      "radicado": "2019 - 00496",
+      "vencimientoPagare": [
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 1030543356,
+    "procesos": [
+      {
+        "idProceso": 51974830,
+        "idConexion": 259,
+        "llaveProceso": "11001400303620190049600",
+        "fechaProceso": "2019-06-05T00:00:00",
+        "fechaUltimaActuacion": "2020-10-30T00:00:00",
+        "despacho": "JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MAGDA LORENA RIASCOS DIAZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

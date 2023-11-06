@@ -1,0 +1,63 @@
+{
+  "thener": {
+    "idProcesos": [
+      65086550
+    ],
+    "llaveProceso": "11001400305520170081700",
+    "numero": 145,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 79714749,
+      "direccion": "calle 66a sur # 66 - 81 torre 16 apto 661",
+      "email": "joja1114@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "jhon",
+      "segundoNombre": "jaminton",
+      "primerApellido": "fuentes",
+      "segundoApellido": "carreño"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-08-22T00:00:00.000Z",
+      "mandamientoPago": "2017-09-28T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+      "expediente": "11001400305520170081700",
+      "capitalAdeudado": 5399581772,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        189023,
+        "4099835384362938 // 5303715821335466"
+      ],
+      "radicado": "2017 - 00817",
+      "vencimientoPagare": [
+        "2035-11-19T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 79714749,
+    "procesos": [
+      {
+        "idProceso": 65086550,
+        "idConexion": 259,
+        "llaveProceso": "11001400305520170081700",
+        "fechaProceso": "2017-08-28T00:00:00",
+        "fechaUltimaActuacion": "2022-11-10T00:00:00",
+        "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOHN HAMILTON FUENTES CARREÑO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "thener": {
+    "idProcesos": [
+      132102980
+    ],
+    "llaveProceso": "11001418901820230131100",
+    "numero": 554,
+    "tipoProceso": "SINGULAR",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 51976656,
+      "direccion": "carrera 102 no. 69 - 81 casa 5 conjunto residencial montes de tierra grata",
+      "email": "sandris73@hotmail.com",
+      "tel": {
+        "fijo": 2297973,
+        "celular": 3157352910
+      },
+      "primerNombre": "sandra",
+      "segundoNombre": "patricia",
+      "primerApellido": "alvarez",
+      "segundoApellido": "rodriguez"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+      "expediente": "11001418901820230131100",
+      "capitalAdeudado": 22111021,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        2150100545,
+        "377844028390801 y 4513080181283486"
+      ],
+      "radicado": "2023 - 01311",
+      "vencimientoPagare": [
+        null,
+        null,
+        "2026-04-07T05:00:00.000Z",
+        "2026-06-03T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 51976656,
+    "procesos": [
+      {
+        "idProceso": 132102980,
+        "idConexion": 259,
+        "llaveProceso": "11001418901820230131100",
+        "fechaProceso": "2023-08-04T00:00:00",
+        "fechaUltimaActuacion": "2023-10-09T00:00:00",
+        "despacho": "JUZGADO 018 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA ALVAREZ RODRIGUEZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

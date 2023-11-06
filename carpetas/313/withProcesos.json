@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      51463110
+    ],
+    "llaveProceso": "11001400307820170104900",
+    "numero": 313,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 80490307,
+      "direccion": "diagonal 68 sur no 37-69 int 136",
+      "email": "mauricioperez7314@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "mauricio",
+      "primerApellido": "perez",
+      "segundoApellido": "plazas",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2017-10-31T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-10-25T00:00:00.000Z",
+      "expediente": "11001400307820170104900",
+      "capitalAdeudado": 12521212,
+      "etapaProcesal": "1.1001400307820171e+22",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        3000093979
+      ],
+      "radicado": "2017 - 01049",
+      "vencimientoPagare": [
+        "2017-06-22T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 80490307,
+    "procesos": [
+      {
+        "idProceso": 51463110,
+        "idConexion": 259,
+        "llaveProceso": "11001400307820170104900",
+        "fechaProceso": "2018-10-26T00:00:00",
+        "fechaUltimaActuacion": "2022-09-01T00:00:00",
+        "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MAURICIO PEREZ PLAZAS ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

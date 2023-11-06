@@ -1,0 +1,62 @@
+{
+  "thener": {
+    "idProcesos": [
+      50684220
+    ],
+    "llaveProceso": "11001400300820170106000",
+    "numero": 203,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 80380775,
+      "direccion": "calle 92 bis sur # 3 - 61",
+      "email": "fantavillabon@hotmail.com",
+      "tel": {
+        "fijo": 7672705,
+        "celular": 3118264932
+      },
+      "primerNombre": "gonzalo",
+      "primerApellido": "villabon",
+      "segundoApellido": "martinez",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+      "mandamientoPago": "2017-09-11T00:00:00.000Z",
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400300820170106000",
+      "capitalAdeudado": 6080404855,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        179104
+      ],
+      "radicado": "2017 - 01060",
+      "vencimientoPagare": [
+        "2024-11-28T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 80380775,
+    "procesos": [
+      {
+        "idProceso": 50684220,
+        "idConexion": 259,
+        "llaveProceso": "11001400300820170106000",
+        "fechaProceso": "2017-09-05T00:00:00",
+        "fechaUltimaActuacion": "2019-07-17T00:00:00",
+        "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GONZALO VILLABON ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

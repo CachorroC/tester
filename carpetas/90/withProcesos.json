@@ -1,0 +1,79 @@
+{
+  "thener": {
+    "idProcesos": [
+      50521480,
+      81728891
+    ],
+    "llaveProceso": "11001400303420170083600",
+    "numero": 90,
+    "tipoProceso": "PRENDARIO",
+    "category": "Bancolombia",
+    "deudor": {
+      "cedula": 1032432802,
+      "direccion": "carrera 95 # 138 - 58",
+      "email": "orduzcrit2@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "luis",
+      "segundoNombre": "esneider",
+      "primerApellido": "orduz",
+      "segundoApellido": "farfan"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+      "mandamientoPago": "2017-07-10T00:00:00.000Z",
+      "entregaGarantiasAbogado": "1899-12-30T00:00:00.000Z",
+      "expediente": "11001400303420170083600",
+      "capitalAdeudado": 26515333,
+      "etapaProcesal": "EJECUCION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12330030
+      ],
+      "radicado": "2017 - 00836",
+      "vencimientoPagare": [
+        "2020-06-09T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 1015435620,
+      "nombre": "jesica paola guzman ospina"
+    },
+    "cc": 1032432802,
+    "procesos": [
+      {
+        "idProceso": 50521480,
+        "idConexion": 259,
+        "llaveProceso": "11001400303420170083600",
+        "fechaProceso": "2017-06-21T00:00:00",
+        "fechaUltimaActuacion": "2023-10-27T00:00:00",
+        "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS ESNEIDER ORDUZ FARFAN ",
+        "esPrivado": false,
+        "cantFilas": -1
+      },
+      {
+        "idProceso": 81728891,
+        "idConexion": 320,
+        "llaveProceso": "11001400303420170083600",
+        "fechaProceso": "2017-09-14T00:00:00",
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante/accionante: Banco Bancolombia SA | Demandado/indiciado/causante: LUIS ESNEIDER ORDUZ FARFAN | Defensor Privado: MARIA HELENA SUAREZ GARCIA | Tercero Vinculado: ACREEEDORES    (Emplazado) ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

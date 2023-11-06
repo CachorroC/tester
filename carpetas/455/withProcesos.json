@@ -1,0 +1,60 @@
+{
+  "thener": {
+    "idProcesos": [
+      9093813
+    ],
+    "llaveProceso": "11001400303820180083500",
+    "numero": 455,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 52434815,
+      "direccion": "calle 43 sur no 51f-23 piso 2",
+      "email": "yemargol@yahoo.es",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "yenny",
+      "segundoNombre": "marcela",
+      "primerApellido": "gomez",
+      "segundoApellido": "olarte"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2018-07-06T00:00:00.000Z",
+      "mandamientoPago": "2018-08-02T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2018-06-29T00:00:00.000Z",
+      "expediente": "11001400303820180083500",
+      "capitalAdeudado": 1499744800,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "AUDIOPRESTAMO"
+      ],
+      "radicado": "2018 - 00835",
+      "vencimientoPagare": [],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 52434815,
+    "procesos": [
+      {
+        "idProceso": 9093813,
+        "idConexion": 261,
+        "llaveProceso": "11001400303820180083500",
+        "fechaProceso": "2018-07-11T00:00:00",
+        "fechaUltimaActuacion": "2019-03-06T00:00:00",
+        "despacho": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: YENNY MARCELA GOMEZ OLARTE ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}

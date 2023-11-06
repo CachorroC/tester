@@ -1,0 +1,66 @@
+{
+  "thener": {
+    "idProcesos": [
+      51452530
+    ],
+    "llaveProceso": "11001400306720170126900",
+    "numero": 188,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 1019029250,
+      "direccion": null,
+      "email": "CARRERA 86 # 77A - 28",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "diego",
+      "segundoNombre": "armando",
+      "primerApellido": "arevalo",
+      "segundoApellido": "velandia"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2018-02-12T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400306720170126900",
+      "capitalAdeudado": 43,
+      "etapaProcesal": "42967",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        5303710467974930,
+        3166069017
+      ],
+      "radicado": "2017 - 01269",
+      "vencimientoPagare": [
+        "+170638-01-01T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "direccion": 47099
+    },
+    "cc": 1019029250,
+    "procesos": [
+      {
+        "idProceso": 51452530,
+        "idConexion": 259,
+        "llaveProceso": "11001400306720170126900",
+        "fechaProceso": "2018-10-19T00:00:00",
+        "fechaUltimaActuacion": "2020-02-18T00:00:00",
+        "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: DIEGO ARMANDO AREVALO VELANDIA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ]
+  },
+  "withProcesos": {
+    "StatusCode": 404,
+    "Message": "RangeError: Maximum call stack size exceeded"
+  }
+}
