@@ -1,4 +1,4 @@
-import { PrismaClient, Prisma } from '@prisma/client';
+
 import { Despachos } from '../data/despachos';
 import { ConsultaActuacion, intActuacion } from '../types/actuaciones';
 import { Juzgado,
@@ -15,12 +15,11 @@ import { ConsultaNumeroRadicacion,
   intProceso, } from '../types/procesos';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
-import { connectToDatabase } from '../services/database.service';
 
-const prisma = new PrismaClient();
 
 export class NewJuzgado implements Juzgado {
-  constructor(
+
+  constructor (
     proceso: intProceso
   ) {
     const matchedDespacho = Despachos.find(
@@ -103,7 +102,11 @@ export class CarpetaJudicial implements IntCarpeta {
   procesos?: intProceso[];
 
   actuaciones?: intActuacion[];
-  constructor(
+
+  [ x: string ]: unknown;
+
+  // SECTION constructor
+  constructor (
     {
       llaveProceso,
       codeudor,
@@ -133,7 +136,7 @@ export class CarpetaJudicial implements IntCarpeta {
       deudor.cedula
     );
   }
-
+  //!SECTION
   get nombre() {
 
     return `${ this.deudor.primerNombre } ${ this.deudor.segundoNombre } ${ this.deudor.primerApellido } ${ this.deudor.segundoApellido }`;
@@ -151,62 +154,17 @@ export class CarpetaJudicial implements IntCarpeta {
     );
   }
 
-  //SECTION createCarpeta
-  async createCarpeta() {
+  //SECTION consultaProcesos
+  async consultaProcesos () {
+    const idProcesosSet = new Set<number>();
+
+    const sujetosProcesalesSet = new Set<string>();
+
+    const despachosSet = new Set<string>();
+
+    const juzgadosSet = new Set<Juzgado>();
+
     try {
-      const newCarpeta: Prisma.CarpetaCreateInput = {
-        numero      : this.numero,
-        nombre      : this.nombre,
-        llaveProceso: this.llaveProceso,
-        category    : this.category,
-        idProcesos  : this.idProcesos
-          ? this.idProcesos
-          : [],
-      };
-
-      const creatorCarpeta = await prisma.carpeta.create(
-        {
-          data: newCarpeta,
-        }
-      );
-      console.log(
-        creatorCarpeta
-      );
-
-      return;
-    } catch ( error ) {
-      if ( error instanceof Prisma.PrismaClientValidationError ) {
-        console.log(
-          `${ this.numero } =-=> error en la validacion de createCarpeta(): ${ JSON.stringify(
-            error,
-            null,
-            2,
-          ) }`,
-        );
-        return;
-
-      }
-
-      console.log(
-        `${ this.numero } =-=> error en async createCarpeta inside the class CarpetaJudicial: ${ JSON.stringify(
-          error,
-          null,
-          2,
-        ) }`,
-      );
-      return;
-    }
-  }
-  async consultaProcesos() {
-    try {
-      const idProcesosSet = new Set<number>();
-
-      const sujetosProcesalesSet = new Set<string>();
-
-      const despachosSet = new Set<string>();
-
-      const juzgadosSet = new Set<Juzgado>();
-
       if ( !this.llaveProceso ) {
         throw new Error(
           'aún no se le ha asignado un número de expediente a esta this.',
@@ -268,105 +226,9 @@ export class CarpetaJudicial implements IntCarpeta {
         juzgadosSet
       );
 
-      for ( const prismaJuzgado of this.demanda.juzgados ) {
-        try {
-          const insertJuzgado = await prisma.juzgado.create(
-            {
-              data: prismaJuzgado,
-            }
-          );
-          console.log(
-            insertJuzgado
-          );
-          continue;
-        } catch ( er ) {
-          console.log(
-            `error al ingresar el juzgado ${
-              prismaJuzgado.url
-            } =-=> ${ JSON.stringify(
-              er, null, 2
-            ) }`,
-          );
-          continue;
-        }
-      }
 
-      const prismacarpeta = await prisma.carpeta.update(
-        {
-          where: {
-            numero: this.numero,
-          },
-          data: {
-            idProcesos: json.procesos.map(
-              (
-                prc
-              ) => {
-                return prc.idProceso;
-              }
-            ),
-          },
-        }
-      );
-      console.log(
-        prismacarpeta
-      );
+      return responseReturn;
 
-      for ( const prc of json.procesos ) {
-        try {
-          const prismaProceso = await prisma.proceso.upsert(
-            {
-              where: {
-                idProceso: prc.idProceso,
-              },
-              create: {
-                ...prc,
-
-                fechaProceso: prc.fechaProceso
-                  ? String(
-                    prc.fechaProceso
-                  )
-                  : null,
-                fechaUltimaActuacion: prc.fechaUltimaActuacion
-                  ? String(
-                    prc.fechaUltimaActuacion
-                  )
-                  : null,
-              },
-              update: {
-                ...prc,
-                fechaProceso: prc.fechaProceso
-                  ? String(
-                    prc.fechaProceso
-                  )
-                  : null,
-                fechaUltimaActuacion: prc.fechaUltimaActuacion
-                  ? String(
-                    prc.fechaUltimaActuacion
-                  )
-                  : null,
-
-              },
-            }
-          );
-          console.log(
-            prismaProceso
-          );
-          continue;
-        } catch ( e ) {
-          console.log(
-            `error al ingresar el proceso ${
-              prc.idProceso
-            } =-=> ${ JSON.stringify(
-              e, null, 2
-            ) }`,
-          );
-          continue;
-        }
-      }
-
-      return await Promise.resolve(
-        responseReturn
-      );
     } catch ( error ) {
       if ( error instanceof Error ) {
         console.log(
@@ -391,7 +253,8 @@ export class CarpetaJudicial implements IntCarpeta {
       };
     }
   }
-
+  //!SECTION
+  // SECTION consultaActuaciones
   async consultaActuaciones() {
     try {
       const actuacionesMap = new Map<number, intActuacion>();
@@ -466,73 +329,6 @@ export class CarpetaJudicial implements IntCarpeta {
         actuacionesSet
       );
 
-      for ( const act of Array.from(
-        actuacionesSet
-      ) ) {
-        try {
-          const prismaProceso = await prisma.actuacion.upsert(
-            {
-              where: {
-                idRegActuacion: act.idRegActuacion,
-              },
-              create: {
-                ...act,
-                carpetaId     : this.numero,
-                fechaActuacion: new Date(
-                  act.fechaActuacion
-                ),
-                fechaRegistro: new Date(
-                  act.fechaRegistro
-                ),
-                fechaFinal: act.fechaFinal
-                  ? new Date(
-                    act.fechaFinal
-                  )
-                  : null,
-                fechaInicial: act.fechaInicial
-                  ? new Date(
-                    act.fechaInicial
-                  )
-                  : null,
-              },
-              update: {
-                ...act,
-                carpetaId     : this.numero,
-                fechaActuacion: new Date(
-                  act.fechaActuacion
-                ),
-                fechaRegistro: new Date(
-                  act.fechaRegistro
-                ),
-                fechaFinal: act.fechaFinal
-                  ? new Date(
-                    act.fechaFinal
-                  )
-                  : null,
-                fechaInicial: act.fechaInicial
-                  ? new Date(
-                    act.fechaInicial
-                  )
-                  : null,
-              },
-            }
-          );
-          console.log(
-            prismaProceso
-          );
-          continue;
-        } catch ( e ) {
-          console.log(
-            `error al ingresar la actuacion ${
-              act.idRegActuacion
-            } =-=> ${ JSON.stringify(
-              e, null, 2
-            ) }`,
-          );
-          continue;
-        }
-      }
-
       if ( actuacionesMap.size > 0 ) {
         const responseReturn: Data = {
           StatusCode : 200,
@@ -571,16 +367,7 @@ export class CarpetaJudicial implements IntCarpeta {
       };
     }
   }
-    [x: string]:
-    | string
-    | number
-    | null
-    | number[]
-    | ClassDemanda
-    | Date
-    | Date[]
-    | undefined
-    | unknown;
+
 }
 
 export const sleep = (

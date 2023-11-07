@@ -1,0 +1,213 @@
+{
+  "thener": {
+    "idProcesos": [
+      50869770
+    ],
+    "llaveProceso": "11001400302120170175500",
+    "numero": 19,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 80001905,
+      "direccion": "calle 42 sur no 87 c -18  interior 2 apartamento 203",
+      "email": "eliacid@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "eliacid",
+      "primerApellido": "chaves",
+      "segundoApellido": "obando",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
+      "expediente": "11001400302120170175500",
+      "capitalAdeudado": 1539150811,
+      "etapaProcesal": null,
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        103560
+      ],
+      "radicado": "2017 - 01755",
+      "vencimientoPagare": [
+        "2022-12-06T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 52171586,
+      "direccion": "CARRERA 88 C No 42 - 20 SUR",
+      "nombre": "sandra patricia rodriiguez rodrriiguez",
+      "telefono": 4062058
+    },
+    "cc": 80001905,
+    "procesos": [
+      {
+        "idProceso": 50869770,
+        "idConexion": 259,
+        "llaveProceso": "11001400302120170175500",
+        "fechaProceso": "2017-11-24T00:00:00",
+        "fechaUltimaActuacion": "2018-02-01T00:00:00",
+        "despacho": "JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: ELIACID CHAVES OBANDO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2018-02-01T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 683021000,
+      "llaveProceso": "11001400302120170175500",
+      "consActuacion": 8,
+      "fechaActuacion": "2018-02-01T00:00:00",
+      "actuacion": "Retiro Demanda Rechazada",
+      "anotacion": "POR DIANA PATRICIA TRIANA SUAREZ.",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-02-01T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 683021000,
+        "llaveProceso": "11001400302120170175500",
+        "consActuacion": 8,
+        "fechaActuacion": "2018-02-01T00:00:00",
+        "actuacion": "Retiro Demanda Rechazada",
+        "anotacion": "POR DIANA PATRICIA TRIANA SUAREZ.",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-02-01T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 683020990,
+        "llaveProceso": "11001400302120170175500",
+        "consActuacion": 7,
+        "fechaActuacion": "2017-12-13T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 13/12/2017 a las 14:04:49.",
+        "fechaInicial": "2017-12-14T00:00:00",
+        "fechaFinal": "2017-12-14T00:00:00",
+        "fechaRegistro": "2017-12-13T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 683020980,
+        "llaveProceso": "11001400302120170175500",
+        "consActuacion": 6,
+        "fechaActuacion": "2017-12-13T00:00:00",
+        "actuacion": "Auto rechaza demanda",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-12-13T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 683020970,
+        "llaveProceso": "11001400302120170175500",
+        "consActuacion": 5,
+        "fechaActuacion": "2017-12-12T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-12-12T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 683020960,
+        "llaveProceso": "11001400302120170175500",
+        "consActuacion": 4,
+        "fechaActuacion": "2017-11-27T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 27/11/2017 a las 17:15:53.",
+        "fechaInicial": "2017-11-28T00:00:00",
+        "fechaFinal": "2017-11-28T00:00:00",
+        "fechaRegistro": "2017-11-27T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 683020950,
+        "llaveProceso": "11001400302120170175500",
+        "consActuacion": 3,
+        "fechaActuacion": "2017-11-27T00:00:00",
+        "actuacion": "Auto inadmite demanda",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-11-27T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 683020940,
+        "llaveProceso": "11001400302120170175500",
+        "consActuacion": 2,
+        "fechaActuacion": "2017-11-24T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-11-24T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 683020930,
+        "llaveProceso": "11001400302120170175500",
+        "consActuacion": 1,
+        "fechaActuacion": "2017-11-24T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 24/11/2017 a las 13:17:37",
+        "fechaInicial": "2017-11-24T00:00:00",
+        "fechaFinal": "2017-11-24T00:00:00",
+        "fechaRegistro": "2017-11-24T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 683021000,
+        "llaveProceso": "11001400302120170175500",
+        "consActuacion": 8,
+        "fechaActuacion": "2018-02-01T00:00:00",
+        "actuacion": "Retiro Demanda Rechazada",
+        "anotacion": "POR DIANA PATRICIA TRIANA SUAREZ.",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-02-01T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      }
+    ]
+  }
+}

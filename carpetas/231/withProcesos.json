@@ -53,7 +53,8 @@
     "procesos": []
   },
   "withProcesos": {
-    "StatusCode": 404,
-    "Message": "PrismaClientKnownRequestError: \nInvalid `prisma.carpeta.update()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/models/thenable.ts:303:50\n\n  300   }\n  301 }\n  302 \n→ 303 const prismacarpeta = await prisma.carpeta.update(\nAn operation failed because it depends on one or more records that were required but not found. Record to update not found."
+    "StatusCode": 200,
+    "Message": "OK",
+    "procesos": []
   }
 }

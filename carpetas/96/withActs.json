@@ -1,0 +1,208 @@
+{
+  "thener": {
+    "idProcesos": [
+      11998913
+    ],
+    "llaveProceso": "11001400305320170087100",
+    "numero": 96,
+    "tipoProceso": "SINGULAR",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 52818959,
+      "direccion": "carrera 72 # 57b - 50",
+      "email": "bluemoontauro@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "yuranny",
+      "primerApellido": "polanco",
+      "segundoApellido": "cespedes",
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+      "expediente": "11001400305320170087100",
+      "capitalAdeudado": 4602755256,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        160742,
+        377815863029282
+      ],
+      "radicado": "2017 - 00871",
+      "vencimientoPagare": [
+        "2033-01-30T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 52818959,
+    "procesos": [
+      {
+        "idProceso": 11998913,
+        "idConexion": 261,
+        "llaveProceso": "11001400305320170087100",
+        "fechaProceso": "2017-07-04T00:00:00",
+        "fechaUltimaActuacion": "2018-03-23T00:00:00",
+        "despacho": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: YURANNY POLANCO CESPEDES ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2018-03-23T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 155340263,
+      "llaveProceso": "11001400305320170087100",
+      "consActuacion": 8,
+      "fechaActuacion": "2018-03-23T00:00:00",
+      "actuacion": "Archivo Definitivo",
+      "anotacion": "PAQUETE 1069 T ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-03-23T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 155340263,
+        "llaveProceso": "11001400305320170087100",
+        "consActuacion": 8,
+        "fechaActuacion": "2018-03-23T00:00:00",
+        "actuacion": "Archivo Definitivo",
+        "anotacion": "PAQUETE 1069 T ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-03-23T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 155340253,
+        "llaveProceso": "11001400305320170087100",
+        "consActuacion": 7,
+        "fechaActuacion": "2017-09-26T00:00:00",
+        "actuacion": "Elaboración de oficios",
+        "anotacion": "COMPENSADA ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-09-26T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 155340243,
+        "llaveProceso": "11001400305320170087100",
+        "consActuacion": 6,
+        "fechaActuacion": "2017-09-19T00:00:00",
+        "actuacion": "Retiro de demanada",
+        "anotacion": "DEMANDA RETIRADA",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-09-19T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 155340233,
+        "llaveProceso": "11001400305320170087100",
+        "consActuacion": 5,
+        "fechaActuacion": "2017-08-18T00:00:00",
+        "actuacion": "Oficio Elaborado",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-08-18T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 155340223,
+        "llaveProceso": "11001400305320170087100",
+        "consActuacion": 4,
+        "fechaActuacion": "2017-07-19T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 19/07/2017 a las 16:40:48.",
+        "fechaInicial": "2017-07-21T00:00:00",
+        "fechaFinal": "2017-07-21T00:00:00",
+        "fechaRegistro": "2017-07-19T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 155340213,
+        "llaveProceso": "11001400305320170087100",
+        "consActuacion": 3,
+        "fechaActuacion": "2017-07-19T00:00:00",
+        "actuacion": "Auto libra mandamiento ejecutivo",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-07-19T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 155340203,
+        "llaveProceso": "11001400305320170087100",
+        "consActuacion": 2,
+        "fechaActuacion": "2017-07-05T00:00:00",
+        "actuacion": "Al Despacho Por Reparto",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-07-05T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      },
+      {
+        "idRegActuacion": 155340193,
+        "llaveProceso": "11001400305320170087100",
+        "consActuacion": 1,
+        "fechaActuacion": "2017-07-04T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 04/07/2017 a las 17:44:34",
+        "fechaInicial": "2017-07-04T00:00:00",
+        "fechaFinal": "2017-07-04T00:00:00",
+        "fechaRegistro": "2017-07-04T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 155340263,
+        "llaveProceso": "11001400305320170087100",
+        "consActuacion": 8,
+        "fechaActuacion": "2018-03-23T00:00:00",
+        "actuacion": "Archivo Definitivo",
+        "anotacion": "PAQUETE 1069 T ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-03-23T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 8
+      }
+    ]
+  }
+}

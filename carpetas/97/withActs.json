@@ -1,0 +1,121 @@
+{
+  "thener": {
+    "idProcesos": [
+      77695680
+    ],
+    "llaveProceso": "11001400308520160031900",
+    "numero": 97,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 19270589,
+      "direccion": "calle 52 a bis  no 35 b 41 sur",
+      "email": "conjuexeu@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "jose",
+      "segundoNombre": "alfredo",
+      "primerApellido": "riaño",
+      "segundoApellido": "maldonado"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": "2018-01-12T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-09-20T00:00:00.000Z",
+      "expediente": "11001400308520160031900",
+      "capitalAdeudado": 7986288623,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990137187
+      ],
+      "radicado": "2016 - 00319",
+      "vencimientoPagare": [],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 19270589,
+    "procesos": [
+      {
+        "idProceso": 77695680,
+        "idConexion": 259,
+        "llaveProceso": "11001400308520160031900",
+        "fechaProceso": "2020-06-24T00:00:00",
+        "fechaUltimaActuacion": "2020-10-27T00:00:00",
+        "despacho": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCO PICHINCHA | Demandado: JOSE ALFREDO RIAÑO MALDONADO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2020-10-27T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 996537750,
+      "llaveProceso": "11001400308520160031900",
+      "consActuacion": 2,
+      "fechaActuacion": "2020-10-27T00:00:00",
+      "actuacion": "Archivo Definitivo",
+      "anotacion": "Se envia a archivo definiivo Caja No. 02- 2020 ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2020-10-27T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 996537750,
+        "llaveProceso": "11001400308520160031900",
+        "consActuacion": 2,
+        "fechaActuacion": "2020-10-27T00:00:00",
+        "actuacion": "Archivo Definitivo",
+        "anotacion": "Se envia a archivo definiivo Caja No. 02- 2020 ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2020-10-27T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 2
+      },
+      {
+        "idRegActuacion": 976636660,
+        "llaveProceso": "11001400308520160031900",
+        "consActuacion": 1,
+        "fechaActuacion": "2020-06-24T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 24/06/2020 a las 13:24:27",
+        "fechaInicial": "2020-06-24T00:00:00",
+        "fechaFinal": "2020-06-24T00:00:00",
+        "fechaRegistro": "2020-06-24T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 2
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 996537750,
+        "llaveProceso": "11001400308520160031900",
+        "consActuacion": 2,
+        "fechaActuacion": "2020-10-27T00:00:00",
+        "actuacion": "Archivo Definitivo",
+        "anotacion": "Se envia a archivo definiivo Caja No. 02- 2020 ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2020-10-27T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 2
+      }
+    ]
+  }
+}

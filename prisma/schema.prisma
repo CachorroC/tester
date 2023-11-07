@@ -92,7 +92,7 @@ model Demanda {
   id                      Int         @id @default(autoincrement())
   departamento            String?
   capitalAdeudado         Decimal?    @db.Money
-  entregaGarantiasAbogado DateTime    @default(now()) @db.Date
+  entregaGarantiasAbogado DateTime?   @db.Date
   tipoProceso             TipoProceso @default(SINGULAR)
   mandamientoPago         DateTime?   @db.Date
   etapaProcesal           String?
@@ -118,8 +118,8 @@ model Proceso {
   idProceso            Int         @id
   idConexion           Int
   llaveProceso         String
-  fechaProceso         String?
-  fechaUltimaActuacion String?
+  fechaProceso         DateTime?   @db.Date
+  fechaUltimaActuacion DateTime?   @db.Date
   despacho             String
   departamento         String
   sujetosProcesales    String

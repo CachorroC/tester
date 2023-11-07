@@ -1,0 +1,325 @@
+{
+  "thener": {
+    "idProcesos": [
+      8833783
+    ],
+    "llaveProceso": "11001400303720180013200",
+    "numero": 399,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 79704579,
+      "direccion": "carrer pubichas casa 27 d exterior",
+      "email": "giogol5@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "giovanni",
+      "segundoNombre": "",
+      "primerApellido": "perdomo",
+      "segundoApellido": "quiroga"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2018-08-02T05:00:00.000Z",
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400303720180013200",
+      "capitalAdeudado": 4047737734,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        161174
+      ],
+      "radicado": "2018 - 00132",
+      "vencimientoPagare": [
+        "2033-12-02T05:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": 1030559747,
+      "direccion": "CARRERA 11 ESTE No 12 SUR-48",
+      "nombre": "angelica maria torres quiroga",
+      "telefono": 3372263
+    },
+    "cc": 79704579,
+    "procesos": [
+      {
+        "idProceso": 8833783,
+        "idConexion": 261,
+        "llaveProceso": "11001400303720180013200",
+        "fechaProceso": "2018-02-09T00:00:00",
+        "fechaUltimaActuacion": "2019-10-10T00:00:00",
+        "despacho": "JUZGADO 037 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GIOVANI PERDOMO QUIROGA | Demandado: ANGELICA MARIA TORRES QUIROGA ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2019-10-10T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 793442093,
+      "llaveProceso": "11001400303720180013200",
+      "consActuacion": 16,
+      "fechaActuacion": "2019-10-10T00:00:00",
+      "actuacion": "Archivo Definitivo",
+      "anotacion": "PROCESO TERMINADO  ARCHIVADO  PAQUETE  No. 598  DEL AÑO   2019",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2019-10-10T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 16
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 793442093,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 16,
+        "fechaActuacion": "2019-10-10T00:00:00",
+        "actuacion": "Archivo Definitivo",
+        "anotacion": "PROCESO TERMINADO  ARCHIVADO  PAQUETE  No. 598  DEL AÑO   2019",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2019-10-10T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713213,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 15,
+        "fechaActuacion": "2018-09-11T00:00:00",
+        "actuacion": "Constancia secretarial",
+        "anotacion": "DESGLOSE ELABORADO A DISPOSICION DE LA PARTE INTERESADA. QUEDA EN TERMINADOS PARA ARCHIVAR",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-09-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713203,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 14,
+        "fechaActuacion": "2018-08-31T00:00:00",
+        "actuacion": "Recepción memorial",
+        "anotacion": "SE AGREGA MEMORIAL SOLICITUD DE DESGLOSE. JMAC ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-08-31T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713193,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 13,
+        "fechaActuacion": "2018-07-31T00:00:00",
+        "actuacion": "Oficio Elaborado",
+        "anotacion": "OFICIO ELABORADO no 2805  JRG",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-07-31T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713183,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 12,
+        "fechaActuacion": "2018-07-16T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 16/07/2018 a las 12:52:34.",
+        "fechaInicial": "2018-07-17T00:00:00",
+        "fechaFinal": "2018-07-17T00:00:00",
+        "fechaRegistro": "2018-07-16T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713173,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 11,
+        "fechaActuacion": "2018-07-16T00:00:00",
+        "actuacion": "Auto termina proceso por Pago",
+        "anotacion": "DE LAS CUOTAS EN MORA",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-07-16T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713163,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 10,
+        "fechaActuacion": "2018-07-13T00:00:00",
+        "actuacion": "Memorial al despacho",
+        "anotacion": "SE AGREGA MEMORIAL CON SOLICITUD JRG",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-07-13T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713293,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 9,
+        "fechaActuacion": "2018-06-20T00:00:00",
+        "actuacion": "Memorial al despacho",
+        "anotacion": "SE AGREGA MEMORIAL APORTANDO 291 CGP. JMAC ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-06-20T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713283,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 8,
+        "fechaActuacion": "2018-05-31T00:00:00",
+        "actuacion": "Memorial al despacho",
+        "anotacion": "SE RECEPCIONO MEMORIAL DM ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-05-31T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713273,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 7,
+        "fechaActuacion": "2018-05-30T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": "CON INFORME SECRETARIAL  FOL 81 C.1",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-05-28T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713263,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 6,
+        "fechaActuacion": "2018-05-09T00:00:00",
+        "actuacion": "Diligencia de notificación personal (acta)",
+        "anotacion": "SE NOTIFICO EL DEMANDADO LV",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-05-09T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713253,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 5,
+        "fechaActuacion": "2018-05-09T00:00:00",
+        "actuacion": "Oficio Elaborado",
+        "anotacion": "OFICIO ELABORADO No 1537 INSTRUMENTOS EMBARGO JRG",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-05-09T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713243,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 4,
+        "fechaActuacion": "2018-04-26T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 26/04/2018 a las 13:55:47.",
+        "fechaInicial": "2018-04-27T00:00:00",
+        "fechaFinal": "2018-04-27T00:00:00",
+        "fechaRegistro": "2018-04-26T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713233,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 3,
+        "fechaActuacion": "2018-04-26T00:00:00",
+        "actuacion": "Auto libra mandamiento ejecutivo",
+        "anotacion": "HIPOTECARIO MENOR",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-04-26T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713223,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 2,
+        "fechaActuacion": "2018-02-13T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-02-09T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      },
+      {
+        "idRegActuacion": 94713153,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 1,
+        "fechaActuacion": "2018-02-09T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 09/02/2018 a las 15:38:21",
+        "fechaInicial": "2018-02-09T00:00:00",
+        "fechaFinal": "2018-02-09T00:00:00",
+        "fechaRegistro": "2018-02-09T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 793442093,
+        "llaveProceso": "11001400303720180013200",
+        "consActuacion": 16,
+        "fechaActuacion": "2019-10-10T00:00:00",
+        "actuacion": "Archivo Definitivo",
+        "anotacion": "PROCESO TERMINADO  ARCHIVADO  PAQUETE  No. 598  DEL AÑO   2019",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2019-10-10T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 16
+      }
+    ]
+  }
+}

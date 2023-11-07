@@ -2,34 +2,8 @@ import * as fs from 'fs/promises';
 import Carpetas from './src/data/carpetas';
 import { CarpetaJudicial } from './src/models/thenable';
 import { categoryAssignment } from './src/models/categories';
-import { Prisma, PrismaClient } from '@prisma/client';
 import { IntCarpeta } from './src/types/carpetas';
 import { connectToDatabase } from './src/services/database.service';
-
-//NOTE 1: Define a type that includes the relation to `Post`
-const userWithPosts = Prisma.validator<Prisma.CarpetaDefaultArgs>()(
-  {
-    include: {
-      procesos: true,
-    },
-  }
-);
-
-//NOTE 2: Define a type that only contains a subset of the scalar fields
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-const userPersonalData = Prisma.validator<Prisma.CarpetaDefaultArgs>()(
-  {
-    select: {
-      llaveProceso: true,
-      nombre      : true,
-    },
-  }
-);
-
-//NOTE 3: This type will include a user and all their posts
-export type CarpetaWithPosts = Prisma.CarpetaGetPayload<typeof userWithPosts>;
-
-const prisma = new PrismaClient();
 
 async function f() {
   const newCarpetasMap = new Map<number, CarpetaJudicial>();
@@ -73,7 +47,7 @@ async function f() {
         thener, null, 2
       )
     );
-    thener.createCarpeta();
+
 
     for ( const key in thener ) {
       if ( Object.prototype.hasOwnProperty.call(
@@ -106,11 +80,8 @@ async function f() {
       newCarpetasMap.set(
         carpeta.numero, thener
       );
-      await updateMongoCarpeta(
-        {
-          carpeta: thener
-        }
-      );
+
+
       continue;
     }
 
@@ -134,21 +105,12 @@ async function f() {
       newCarpetasMap.set(
         carpeta.numero, thener
       );
-      await updateMongoCarpeta(
-        {
-          carpeta: thener
-        }
-      );
+
       continue;
     }
 
     newCarpetasMap.set(
       carpeta.numero, thener
-    );
-    await updateMongoCarpeta(
-      {
-        carpeta: thener
-      }
     );
     continue;
   }
@@ -164,143 +126,55 @@ async function f() {
     ),
   );
 
+
   return resultArray;
 }
 
-async function inserterCarpetas() {
-  const carpetas = await f();
+async function insertManyCarpetas () {
+  const carpetasRaw = await f();
 
-  for ( const carpeta of carpetas ) {
-    const {
-      numero, nombre, category, llaveProceso, idProcesos,  procesos, actuaciones
-    } = carpeta;
+  const carpetas = [
+    ...carpetasRaw
+  ].sort(
+    (
+      a, b
+    ) => {
+      const x = a.numero;
 
+      const y = b.numero;
 
-
-    try {
-      let newCarpeta: Prisma.CarpetaCreateInput;
-
-      if ( llaveProceso === null ) {
-        newCarpeta = {
-          numero  : numero,
-          nombre  : nombre,
-          category: category,
-        };
-      } else if ( !procesos || procesos.length === 0 ) {
-        newCarpeta = {
-          numero      : numero,
-          nombre      : nombre,
-          llaveProceso: llaveProceso,
-          idProcesos  : idProcesos
-            ? idProcesos
-            : [],
-          category: category,
-        };
-      } else if ( !actuaciones || actuaciones.length === 0 ) {
-        newCarpeta = {
-          numero      : numero,
-          nombre      : nombre,
-          llaveProceso: llaveProceso,
-          idProcesos  : idProcesos
-            ? idProcesos
-            : [],
-          category: category,
-          procesos: {
-            createMany: {
-              data: procesos.map(
-                (
-                  proceso
-                ) => {
-                  return {
-                    ...proceso,
-                    fechaProceso: proceso.fechaProceso
-                      ? String(
-                        proceso.fechaProceso
-                      )
-                      : null,
-                    fechaUltimaActuacion: proceso.fechaUltimaActuacion
-                      ? String(
-                        proceso.fechaUltimaActuacion
-                      )
-                      : null,
-                  };
-                }
-              ),
-            },
-          },
-        };
-      } else {
-        newCarpeta = {
-          numero      : numero,
-          nombre      : nombre,
-          llaveProceso: llaveProceso,
-          category    : category,
-          idProcesos  : idProcesos
-            ? idProcesos
-            : [],
-          procesos: {
-            createMany: {
-              data: procesos.map(
-                (
-                  proceso
-                ) => {
-                  return {
-                    ...proceso,
-                    fechaProceso: proceso.fechaProceso
-                      ? String(
-                        proceso.fechaProceso
-                      )
-                      : null,
-                    fechaUltimaActuacion: proceso.fechaUltimaActuacion
-                      ? String(
-                        proceso.fechaUltimaActuacion
-                      )
-                      : null,
-                  };
-                }
-              ),
-            },
-          },
-          actuaciones: {
-            createMany: {
-              data: actuaciones,
-            },
-          },
-
-        };
+      if ( x < y ) {
+        return -1;
       }
 
-      const carpeteer = await prisma.carpeta.update(
-        {
-          where: {
-            numero: numero
-          },
-          data: newCarpeta
-        }
-      );
-      console.log(
-        `carpeteer =-=> ${ JSON.stringify(
-          carpeteer, null, 2
-        ) }`
-      );
-      continue;
-    } catch ( error ) {
-      console.log(
-        `error en el inserterCarpeta de ${ numero } =-=> ${ JSON.stringify(
-          error,
-          null,
-          2,
-        ) }`,
-      );
-      continue;
+      if ( x > y ) {
+        return 1;
+      }
+
+      return 0;
     }
-  }
+  );
+
+  const collection = await connectToDatabase();
+
+  const insertMany = await collection.insertMany(
+    carpetas
+  );
+  console.log(
+    insertMany
+  );
 }
 
-console.log(
-  `iserterCarpetas =-=> ${ inserterCarpetas() }`
-);
-inserterCarpetas();
+insertManyCarpetas()
+  .then(
+    ff => {
+
+      console.log(
+        ff
+      );
+      return ff;
+    }
+  );
 
 
 

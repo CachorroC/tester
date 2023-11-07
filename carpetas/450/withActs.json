@@ -1,0 +1,123 @@
+{
+  "thener": {
+    "idProcesos": [
+      51571520
+    ],
+    "llaveProceso": "11001400307820180064700",
+    "numero": 450,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 53133179,
+      "direccion": "calle 63 sur no 78 j-38 torre 4 apto 603",
+      "email": "kellyohamd@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "kelly",
+      "segundoNombre": "yohanna",
+      "primerApellido": "murcia",
+      "segundoApellido": "ducon"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2018-06-26T00:00:00.000Z",
+      "mandamientoPago": "2018-04-07T05:00:00.000Z",
+      "entregaGarantiasAbogado": "2018-06-19T00:00:00.000Z",
+      "expediente": "11001400307820180064700",
+      "capitalAdeudado": 2155020258,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990160362
+      ],
+      "radicado": "2018 - 00647",
+      "vencimientoPagare": [
+        "2021-01-22T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 53133179,
+    "procesos": [
+      {
+        "idProceso": 51571520,
+        "idConexion": 259,
+        "llaveProceso": "11001400307820180064700",
+        "fechaProceso": "2019-01-15T00:00:00",
+        "fechaUltimaActuacion": "2019-01-15T00:00:00",
+        "despacho": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: KELLY YOHANNA MURCIA DUCON ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2019-01-15T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 857051550,
+      "llaveProceso": "11001400307820180064700",
+      "consActuacion": 2,
+      "fechaActuacion": "2019-01-15T00:00:00",
+      "actuacion": "Constancia secretarial",
+      "anotacion": "SE ENTREGO DESGLOSE  ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2019-01-15T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 857051550,
+        "llaveProceso": "11001400307820180064700",
+        "consActuacion": 2,
+        "fechaActuacion": "2019-01-15T00:00:00",
+        "actuacion": "Constancia secretarial",
+        "anotacion": "SE ENTREGO DESGLOSE  ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2019-01-15T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 2
+      },
+      {
+        "idRegActuacion": 857051540,
+        "llaveProceso": "11001400307820180064700",
+        "consActuacion": 1,
+        "fechaActuacion": "2019-01-15T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 15/01/2019 a las 16:30:35",
+        "fechaInicial": "2019-01-15T00:00:00",
+        "fechaFinal": "2019-01-15T00:00:00",
+        "fechaRegistro": "2019-01-15T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 2
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 857051550,
+        "llaveProceso": "11001400307820180064700",
+        "consActuacion": 2,
+        "fechaActuacion": "2019-01-15T00:00:00",
+        "actuacion": "Constancia secretarial",
+        "anotacion": "SE ENTREGO DESGLOSE  ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2019-01-15T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 2
+      }
+    ]
+  }
+}

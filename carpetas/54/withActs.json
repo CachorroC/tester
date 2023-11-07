@@ -1,0 +1,235 @@
+{
+  "thener": {
+    "idProcesos": [
+      17941680
+    ],
+    "llaveProceso": "11001400306420170113800",
+    "numero": 54,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 38261511,
+      "direccion": "carrera 87d no. 48-03 sur//diagonal 49 no. 85-79 sur torre 10 apartamento 2",
+      "email": "olgagallego63@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3138615288
+      },
+      "primerNombre": "olga",
+      "primerApellido": "gallego",
+      "segundoApellido": null,
+      "segundoNombre": null
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": "2017-06-21T00:00:00.000Z",
+      "mandamientoPago": "2017-08-25T00:00:00.000Z",
+      "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+      "expediente": "11001400306420170113800",
+      "capitalAdeudado": 18400665,
+      "etapaProcesal": "NOTIFICACION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        320095437
+      ],
+      "radicado": "2017 - 01138",
+      "vencimientoPagare": [
+        "2022-04-02T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 38261511,
+    "procesos": [
+      {
+        "idProceso": 17941680,
+        "idConexion": 260,
+        "llaveProceso": "11001400306420170113800",
+        "fechaProceso": "2017-08-22T00:00:00",
+        "fechaUltimaActuacion": "2018-04-25T00:00:00",
+        "despacho": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OLGA GALLEGO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2018-04-25T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 265448180,
+      "llaveProceso": "11001400306420170113800",
+      "consActuacion": 10,
+      "fechaActuacion": "2018-04-25T00:00:00",
+      "actuacion": "Retiro de demanada",
+      "anotacion": "RETIRA DEMANDA DIANA TRIANA SUAREZ AUTORIZADA, SIN COMPENSACION",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-04-25T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 10
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 265448180,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 10,
+        "fechaActuacion": "2018-04-25T00:00:00",
+        "actuacion": "Retiro de demanada",
+        "anotacion": "RETIRA DEMANDA DIANA TRIANA SUAREZ AUTORIZADA, SIN COMPENSACION",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-04-25T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      },
+      {
+        "idRegActuacion": 265448170,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 9,
+        "fechaActuacion": "2017-10-05T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 05/10/2017 a las 09:21:15.",
+        "fechaInicial": "2017-10-06T00:00:00",
+        "fechaFinal": "2017-10-06T00:00:00",
+        "fechaRegistro": "2017-10-05T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      },
+      {
+        "idRegActuacion": 265448160,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 8,
+        "fechaActuacion": "2017-10-05T00:00:00",
+        "actuacion": "Auto de Trámite",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-10-05T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      },
+      {
+        "idRegActuacion": 265448150,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 7,
+        "fechaActuacion": "2017-09-29T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-09-29T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      },
+      {
+        "idRegActuacion": 265448140,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 6,
+        "fechaActuacion": "2017-09-12T00:00:00",
+        "actuacion": "Comunicación secretarial firmada",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-09-12T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      },
+      {
+        "idRegActuacion": 265448130,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 5,
+        "fechaActuacion": "2017-09-11T00:00:00",
+        "actuacion": "Oficio Elaborado",
+        "anotacion": "OFICIO No. 3396 REGISTRO",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-09-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      },
+      {
+        "idRegActuacion": 265448120,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 4,
+        "fechaActuacion": "2017-08-25T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 25/08/2017 a las 10:55:41.",
+        "fechaInicial": "2017-08-28T00:00:00",
+        "fechaFinal": "2017-08-28T00:00:00",
+        "fechaRegistro": "2017-08-25T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      },
+      {
+        "idRegActuacion": 265448110,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 3,
+        "fechaActuacion": "2017-08-25T00:00:00",
+        "actuacion": "Auto libra mandamiento ejecutivo",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-08-25T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      },
+      {
+        "idRegActuacion": 265448100,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 2,
+        "fechaActuacion": "2017-08-22T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2017-08-22T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      },
+      {
+        "idRegActuacion": 265448090,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 1,
+        "fechaActuacion": "2017-08-22T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 22/08/2017 a las 07:32:30",
+        "fechaInicial": "2017-08-22T00:00:00",
+        "fechaFinal": "2017-08-22T00:00:00",
+        "fechaRegistro": "2017-08-22T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 265448180,
+        "llaveProceso": "11001400306420170113800",
+        "consActuacion": 10,
+        "fechaActuacion": "2018-04-25T00:00:00",
+        "actuacion": "Retiro de demanada",
+        "anotacion": "RETIRA DEMANDA DIANA TRIANA SUAREZ AUTORIZADA, SIN COMPENSACION",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-04-25T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 10
+      }
+    ]
+  }
+}

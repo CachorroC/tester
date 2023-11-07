@@ -1,0 +1,172 @@
+{
+  "thener": {
+    "idProcesos": [
+      18852280
+    ],
+    "llaveProceso": "11001400306620190040900",
+    "numero": 460,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 79424825,
+      "direccion": "52205842",
+      "email": "DIAGONAL 31 No 24-63 SUR",
+      "tel": {
+        "fijo": null,
+        "celular": null
+      },
+      "primerNombre": "jorge",
+      "segundoNombre": "abdolonio",
+      "primerApellido": "guerrero",
+      "segundoApellido": "hernandez"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400306620190040900",
+      "capitalAdeudado": null,
+      "etapaProcesal": "43294",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "16.399.509.25"
+      ],
+      "radicado": "2019 - 00409",
+      "vencimientoPagare": [
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "codeudor": {
+      "cedula": "CLAUDIA JASMIN GOMEZ GUERRERO",
+      "direccion": 43168,
+      "nombre": 2028628,
+      "telefono": "DIAGONAL 31 No 24-63  SUR"
+    },
+    "cc": 79424825,
+    "procesos": [
+      {
+        "idProceso": 18852280,
+        "idConexion": 262,
+        "llaveProceso": "11001400306620190040900",
+        "fechaProceso": "2019-03-14T00:00:00",
+        "fechaUltimaActuacion": "2019-04-11T00:00:00",
+        "despacho": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JORGE ABDOLONIO GUERRERO HERNANDEZ | Demandado: CLAUDIA YASMIN GOMEZ GUERRERO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2019-04-11T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 920378870,
+      "llaveProceso": "11001400306620190040900",
+      "consActuacion": 5,
+      "fechaActuacion": "2019-04-11T00:00:00",
+      "actuacion": "Retiro demanda",
+      "anotacion": "RETIRA LA DEMANDA LA APODERADA DEMANDANTE ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2019-04-11T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 920378870,
+        "llaveProceso": "11001400306620190040900",
+        "consActuacion": 5,
+        "fechaActuacion": "2019-04-11T00:00:00",
+        "actuacion": "Retiro demanda",
+        "anotacion": "RETIRA LA DEMANDA LA APODERADA DEMANDANTE ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2019-04-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      },
+      {
+        "idRegActuacion": 920378860,
+        "llaveProceso": "11001400306620190040900",
+        "consActuacion": 4,
+        "fechaActuacion": "2019-04-02T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 02/04/2019 a las 09:05:01.",
+        "fechaInicial": "2019-04-03T00:00:00",
+        "fechaFinal": "2019-04-03T00:00:00",
+        "fechaRegistro": "2019-04-02T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      },
+      {
+        "idRegActuacion": 920378850,
+        "llaveProceso": "11001400306620190040900",
+        "consActuacion": 3,
+        "fechaActuacion": "2019-04-02T00:00:00",
+        "actuacion": "Auto inadmite demanda",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2019-04-02T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      },
+      {
+        "idRegActuacion": 920378840,
+        "llaveProceso": "11001400306620190040900",
+        "consActuacion": 2,
+        "fechaActuacion": "2019-03-15T00:00:00",
+        "actuacion": "Al Despacho Por Reparto",
+        "anotacion": "REPARTO",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2019-03-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      },
+      {
+        "idRegActuacion": 920378830,
+        "llaveProceso": "11001400306620190040900",
+        "consActuacion": 1,
+        "fechaActuacion": "2019-03-14T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 14/03/2019 a las 15:18:21",
+        "fechaInicial": "2019-03-14T00:00:00",
+        "fechaFinal": "2019-03-14T00:00:00",
+        "fechaRegistro": "2019-03-14T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 920378870,
+        "llaveProceso": "11001400306620190040900",
+        "consActuacion": 5,
+        "fechaActuacion": "2019-04-11T00:00:00",
+        "actuacion": "Retiro demanda",
+        "anotacion": "RETIRA LA DEMANDA LA APODERADA DEMANDANTE ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2019-04-11T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      }
+    ]
+  }
+}

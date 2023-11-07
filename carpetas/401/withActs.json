@@ -1,0 +1,183 @@
+{
+  "thener": {
+    "idProcesos": [
+      51025410
+    ],
+    "llaveProceso": "11001400302520180023700",
+    "numero": 401,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 52357813,
+      "direccion": "calle 50 sur no 87 d- 81",
+      "email": "dandraojeda_5@hotmail.com",
+      "tel": {
+        "fijo": 7232225,
+        "celular": 3112572775
+      },
+      "primerNombre": "sandra",
+      "segundoNombre": "patricia",
+      "primerApellido": "",
+      "segundoApellido": [
+        "ojeda",
+        "rodriguez"
+      ]
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400302520180023700",
+      "capitalAdeudado": 2663399729,
+      "etapaProcesal": "ADMISION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        142837
+      ],
+      "radicado": "2018-0237",
+      "vencimientoPagare": [
+        null,
+        null
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 52357813,
+    "procesos": [
+      {
+        "idProceso": 51025410,
+        "idConexion": 259,
+        "llaveProceso": "11001400302520180023700",
+        "fechaProceso": "2018-02-21T00:00:00",
+        "fechaUltimaActuacion": "2018-03-07T00:00:00",
+        "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA OJEDA RODRIGUEZ ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2018-03-07T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 707397900,
+      "llaveProceso": "11001400302520180023700",
+      "consActuacion": 6,
+      "fechaActuacion": "2018-03-07T00:00:00",
+      "actuacion": "Constancia secretarial",
+      "anotacion": "LAS PRESENTES DILIGENCIAS CORRESPODIERON POR REPARTO AL JUZGADO 67 CIVIL MUNICIPAL DE ESTA CIUDAD ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-03-07T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 707397900,
+        "llaveProceso": "11001400302520180023700",
+        "consActuacion": 6,
+        "fechaActuacion": "2018-03-07T00:00:00",
+        "actuacion": "Constancia secretarial",
+        "anotacion": "LAS PRESENTES DILIGENCIAS CORRESPODIERON POR REPARTO AL JUZGADO 67 CIVIL MUNICIPAL DE ESTA CIUDAD ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-03-07T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 707397890,
+        "llaveProceso": "11001400302520180023700",
+        "consActuacion": 5,
+        "fechaActuacion": "2018-02-28T00:00:00",
+        "actuacion": "Salida del proceso",
+        "anotacion": "ENVIADO A LA OFICINA DE REPARTO CON OFICIO N°. 0536 DEL 23/2/2018.",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-02-28T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 707397880,
+        "llaveProceso": "11001400302520180023700",
+        "consActuacion": 4,
+        "fechaActuacion": "2018-02-26T00:00:00",
+        "actuacion": "Oficio Elaborado",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-02-26T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 707397870,
+        "llaveProceso": "11001400302520180023700",
+        "consActuacion": 3,
+        "fechaActuacion": "2018-02-26T00:00:00",
+        "actuacion": "Auto de Trámite",
+        "anotacion": "Se ordena remitir las diligencias a la oficina de reparto para que sea asignada de manera equitativa y aleatoria entre los demás despachos civiles municipales de Bogotá. ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-02-26T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 707397860,
+        "llaveProceso": "11001400302520180023700",
+        "consActuacion": 2,
+        "fechaActuacion": "2018-02-22T00:00:00",
+        "actuacion": "Al Despacho Por Reparto",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-02-22T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      },
+      {
+        "idRegActuacion": 707397850,
+        "llaveProceso": "11001400302520180023700",
+        "consActuacion": 1,
+        "fechaActuacion": "2018-02-21T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 21/02/2018 a las 11:39:29",
+        "fechaInicial": "2018-02-21T00:00:00",
+        "fechaFinal": "2018-02-21T00:00:00",
+        "fechaRegistro": "2018-02-21T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 707397900,
+        "llaveProceso": "11001400302520180023700",
+        "consActuacion": 6,
+        "fechaActuacion": "2018-03-07T00:00:00",
+        "actuacion": "Constancia secretarial",
+        "anotacion": "LAS PRESENTES DILIGENCIAS CORRESPODIERON POR REPARTO AL JUZGADO 67 CIVIL MUNICIPAL DE ESTA CIUDAD ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-03-07T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 6
+      }
+    ]
+  }
+}

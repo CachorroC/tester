@@ -1,0 +1,165 @@
+{
+  "thener": {
+    "idProcesos": [
+      19431801
+    ],
+    "llaveProceso": "11001400304120180007500",
+    "numero": 381,
+    "tipoProceso": "HIPOTECARIO",
+    "category": "Terminados",
+    "deudor": {
+      "cedula": 1032396480,
+      "direccion": "carrera 81 b no 66 - 51 casa 139 terraza de castilla // trv 70 g # 63 - 52 sur apto 604 bl 5",
+      "email": "nimary20@hotmail.com",
+      "tel": {
+        "fijo": null,
+        "celular": 3203430311
+      },
+      "primerNombre": "nielcen",
+      "segundoNombre": "marisol",
+      "primerApellido": "marin",
+      "segundoApellido": "melo"
+    },
+    "demanda": {
+      "tipoProceso": "SINGULAR",
+      "fechaPresentacion": null,
+      "mandamientoPago": null,
+      "entregaGarantiasAbogado": null,
+      "expediente": "11001400304120180007500",
+      "capitalAdeudado": 2487827625,
+      "etapaProcesal": "ADMISION",
+      "juzgados": [],
+      "municipio": "BOGOTA",
+      "obligacion": [
+        155586
+      ],
+      "radicado": "2018 - 00075",
+      "vencimientoPagare": [
+        "2027-09-06T00:00:00.000Z"
+      ],
+      "departamento": "BOGOTÁ"
+    },
+    "cc": 1032396480,
+    "procesos": [
+      {
+        "idProceso": 19431801,
+        "idConexion": 256,
+        "llaveProceso": "11001400304120180007500",
+        "fechaProceso": "2018-01-25T00:00:00",
+        "fechaUltimaActuacion": "2018-04-06T00:00:00",
+        "despacho": "JUZGADO 041 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NIELCEN MARISOL MARIN MELO ",
+        "esPrivado": false,
+        "cantFilas": -1
+      }
+    ],
+    "fecha": "2018-04-06T05:00:00.000Z",
+    "ultimaActuacion": {
+      "idRegActuacion": 224371301,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 5,
+      "fechaActuacion": "2018-04-06T00:00:00",
+      "actuacion": "Retiro demanda",
+      "anotacion": "por la apoderada demandante María Helena Suarez Garcia",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-04-06T00:00:00",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5
+    },
+    "actuaciones": [
+      {
+        "idRegActuacion": 224371301,
+        "llaveProceso": "11001400304120180007500",
+        "consActuacion": 5,
+        "fechaActuacion": "2018-04-06T00:00:00",
+        "actuacion": "Retiro demanda",
+        "anotacion": "por la apoderada demandante María Helena Suarez Garcia",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-04-06T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      },
+      {
+        "idRegActuacion": 224371291,
+        "llaveProceso": "11001400304120180007500",
+        "consActuacion": 4,
+        "fechaActuacion": "2018-03-20T00:00:00",
+        "actuacion": "Fijacion estado",
+        "anotacion": "Actuación registrada el 20/03/2018 a las 09:36:17.",
+        "fechaInicial": "2018-03-21T00:00:00",
+        "fechaFinal": "2018-03-21T00:00:00",
+        "fechaRegistro": "2018-03-20T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      },
+      {
+        "idRegActuacion": 224371281,
+        "llaveProceso": "11001400304120180007500",
+        "consActuacion": 3,
+        "fechaActuacion": "2018-03-20T00:00:00",
+        "actuacion": "Auto inadmite demanda",
+        "anotacion": null,
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-03-20T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      },
+      {
+        "idRegActuacion": 224371271,
+        "llaveProceso": "11001400304120180007500",
+        "consActuacion": 2,
+        "fechaActuacion": "2018-01-25T00:00:00",
+        "actuacion": "Al despacho",
+        "anotacion": "POR REPARTO ",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-01-25T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      },
+      {
+        "idRegActuacion": 224371261,
+        "llaveProceso": "11001400304120180007500",
+        "consActuacion": 1,
+        "fechaActuacion": "2018-01-25T00:00:00",
+        "actuacion": " Radicación de Proceso",
+        "anotacion": "Actuación de  Radicación de Proceso  realizada el 25/01/2018 a las 15:43:26",
+        "fechaInicial": "2018-01-25T00:00:00",
+        "fechaFinal": "2018-01-25T00:00:00",
+        "fechaRegistro": "2018-01-25T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      }
+    ]
+  },
+  "withActs": {
+    "StatusCode": 200,
+    "Message": "ok",
+    "actuaciones": [
+      {
+        "idRegActuacion": 224371301,
+        "llaveProceso": "11001400304120180007500",
+        "consActuacion": 5,
+        "fechaActuacion": "2018-04-06T00:00:00",
+        "actuacion": "Retiro demanda",
+        "anotacion": "por la apoderada demandante María Helena Suarez Garcia",
+        "fechaInicial": null,
+        "fechaFinal": null,
+        "fechaRegistro": "2018-04-06T00:00:00",
+        "codRegla": "00                              ",
+        "conDocumentos": false,
+        "cant": 5
+      }
+    ]
+  }
+}
