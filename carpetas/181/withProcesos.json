@@ -1,6 +1,5 @@
 {
   "thener": {
-    "idProcesos": [],
     "llaveProceso": "11001418901020170011500",
     "numero": 181,
     "tipoProceso": "PRENDARIO",
@@ -38,6 +37,9 @@
       "departamento": "CUNDINAMARCA"
     },
     "cc": 1033783222,
+    "idProcesos": [
+      82132851
+    ],
     "procesos": [
       {
         "idProceso": 82132851,

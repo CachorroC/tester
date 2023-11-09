@@ -2,6 +2,7 @@
   "compilerOptions": {
     "sourceMap": true,
     "outDir": "dist",
+    "resolveJsonModule": true,
     "strict": true,
     "lib": ["esnext", "DOM", "DOM.Iterable", "WebWorker"],
     "esModuleInterop": true

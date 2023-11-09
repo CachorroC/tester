@@ -1,280 +1,74 @@
 {
-  "thener": {
-    "idProcesos": [
-      18597560
-    ],
-    "llaveProceso": "11001400307120180093600",
-    "numero": 482,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 52380535,
-      "direccion": "carrera 88d no 6d-27 torre 6 apto 618",
-      "email": "ccortes3500@gmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "claudia",
-      "segundoNombre": "janeth",
-      "primerApellido": "cortes",
-      "segundoApellido": "rosas"
+  "llaveProceso": "11001400307120180093600",
+  "numero": 482,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 52380535,
+    "direccion": "carrera 88d no 6d-27 torre 6 apto 618",
+    "email": "ccortes3500@gmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2018-08-10T05:00:00.000Z",
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400307120180093600",
-      "capitalAdeudado": 3532103375,
-      "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        20990114419
-      ],
-      "radicado": "2018 - 00936",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ"
-    },
-    "codeudor": {
-      "cedula": 80441668,
-      "nombre": "oscar castiblanco niño",
-      "telefono": 3568112
-    },
-    "cc": 52380535,
-    "procesos": [
-      {
-        "idProceso": 18597560,
-        "idConexion": 260,
-        "llaveProceso": "11001400307120180093600",
-        "fechaProceso": "2018-09-14T00:00:00",
-        "fechaUltimaActuacion": "2019-08-14T00:00:00",
-        "despacho": "JUZGADO 071 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CLAUDIA JANETH CORTES ROSAS ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2019-08-14T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 559135750,
-      "llaveProceso": "11001400307120180093600",
-      "consActuacion": 13,
-      "fechaActuacion": "2019-08-14T00:00:00",
-      "actuacion": "Constancia secretarial",
-      "anotacion": "SE PRACTICA DESGLOSE",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2019-08-14T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 13
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 559135750,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 13,
-        "fechaActuacion": "2019-08-14T00:00:00",
-        "actuacion": "Constancia secretarial",
-        "anotacion": "SE PRACTICA DESGLOSE",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-08-14T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 559135740,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 12,
-        "fechaActuacion": "2019-08-06T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 06/08/2019 a las 10:31:08.",
-        "fechaInicial": "2019-08-08T00:00:00",
-        "fechaFinal": "2019-08-08T00:00:00",
-        "fechaRegistro": "2019-08-06T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 559135730,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 11,
-        "fechaActuacion": "2019-08-06T00:00:00",
-        "actuacion": "Auto reconoce personería",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-08-06T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 557681260,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 10,
-        "fechaActuacion": "2019-07-29T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-07-29T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 267962680,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 9,
-        "fechaActuacion": "2019-02-13T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 13/02/2019 a las 14:22:32.",
-        "fechaInicial": "2019-02-14T00:00:00",
-        "fechaFinal": "2019-02-14T00:00:00",
-        "fechaRegistro": "2019-02-13T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 267962670,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 8,
-        "fechaActuacion": "2019-02-13T00:00:00",
-        "actuacion": "Auto termina proceso por Pago",
-        "anotacion": "TERMINA POR PAGO DE CUOTAS EN MORA",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-02-13T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 267962660,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 7,
-        "fechaActuacion": "2019-02-05T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-02-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 267962650,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 6,
-        "fechaActuacion": "2019-01-11T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "SOLICITUD TERMINACIÓN",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-01-14T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 267962640,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 5,
-        "fechaActuacion": "2018-10-16T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": "OFICIO 2574",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-10-16T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 267962630,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 4,
-        "fechaActuacion": "2018-10-08T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 08/10/2018 a las 12:34:39.",
-        "fechaInicial": "2018-10-09T00:00:00",
-        "fechaFinal": "2018-10-09T00:00:00",
-        "fechaRegistro": "2018-10-08T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 267962620,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 3,
-        "fechaActuacion": "2018-10-08T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": "Decreta medida cautelar",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-10-08T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 267962610,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 2,
-        "fechaActuacion": "2018-09-14T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-09-14T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      },
-      {
-        "idRegActuacion": 267962600,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 1,
-        "fechaActuacion": "2018-09-14T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 14/09/2018 a las 09:57:19",
-        "fechaInicial": "2018-09-14T00:00:00",
-        "fechaFinal": "2018-09-14T00:00:00",
-        "fechaRegistro": "2018-09-14T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      }
-    ]
+    "primerNombre": "claudia",
+    "segundoNombre": "janeth",
+    "primerApellido": "cortes",
+    "segundoApellido": "rosas"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 559135750,
-        "llaveProceso": "11001400307120180093600",
-        "consActuacion": 13,
-        "fechaActuacion": "2019-08-14T00:00:00",
-        "actuacion": "Constancia secretarial",
-        "anotacion": "SE PRACTICA DESGLOSE",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-08-14T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 13
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2018-08-10T05:00:00.000Z",
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400307120180093600",
+    "capitalAdeudado": 3532103375,
+    "etapaProcesal": "NOTIFICACION",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      20990114419
+    ],
+    "radicado": "2018 - 00936",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ"
+  },
+  "codeudor": {
+    "cedula": 80441668,
+    "nombre": "oscar castiblanco niño",
+    "telefono": 3568112
+  },
+  "cc": 52380535,
+  "idProcesos": [
+    18597560
+  ],
+  "procesos": [
+    {
+      "idProceso": 18597560,
+      "idConexion": 260,
+      "llaveProceso": "11001400307120180093600",
+      "fechaProceso": "2018-09-14T00:00:00",
+      "fechaUltimaActuacion": "2019-08-14T00:00:00",
+      "despacho": "JUZGADO 071 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CLAUDIA JANETH CORTES ROSAS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2019-08-14T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 559135750,
+    "llaveProceso": "11001400307120180093600",
+    "consActuacion": 13,
+    "fechaActuacion": "2019-08-14T00:00:00",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "SE PRACTICA DESGLOSE",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2019-08-14T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 13
   }
 }

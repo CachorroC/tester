@@ -1,8 +1,7 @@
 import * as fs from 'fs/promises';
 import Carpetas from './src/data/carpetas';
-import { CarpetaJudicial } from './src/models/thenable';
+import { CarpetaJudicial, sleep } from './src/models/thenable';
 import { categoryAssignment } from './src/models/categories';
-import { IntCarpeta } from './src/types/carpetas';
 import { connectToDatabase } from './src/services/database.service';
 
 async function f() {
@@ -14,10 +13,14 @@ async function f() {
     (
       a, b
     ) => {
-      if ( a.numero > b.numero ) {
-        return 1;
-      } else if ( a.numero < b.numero ) {
+      const x = a.numero;
+
+      const y = b.numero;
+
+      if ( x < y ) {
         return -1;
+      } else if ( x > y ) {
+        return 1;
       }
 
       return 0;
@@ -25,29 +28,31 @@ async function f() {
   );
 
   for ( const rawCarpeta of sortedCarpetas ) {
+
     const carpeta = categoryAssignment(
       rawCarpeta
     );
 
-    if ( carpeta.category === 'Terminados' ) {
+    /*  if ( carpeta.category === 'Terminados' ) {
       continue;
-    }
+    } */
+
 
     const thener = new CarpetaJudicial(
       carpeta
     );
+
     await fs.mkdir(
       `carpetas/${ thener.numero }/`, {
         recursive: true
       }
     );
 
-    fs.writeFile(
+    await fs.writeFile(
       `carpetas/${ thener.numero }/thenable.json`, JSON.stringify(
         thener, null, 2
       )
     );
-
 
     for ( const key in thener ) {
       if ( Object.prototype.hasOwnProperty.call(
@@ -62,6 +67,10 @@ async function f() {
         );
       }
     }
+
+    await sleep(
+      100
+    );
 
     const withProcesos = await thener.consultaProcesos();
 
@@ -81,33 +90,16 @@ async function f() {
         carpeta.numero, thener
       );
 
-
       continue;
     }
 
-    const withActuaciones = await thener.consultaActuaciones();
-
-    const idkFileWithActs = {
-      thener  : thener,
-      withActs: withActuaciones
-    };
+    await thener.consultaActuaciones();
 
     fs.writeFile(
       `carpetas/${ thener.numero }/withActs.json`, JSON.stringify(
-        idkFileWithActs, null, 2
+        thener, null, 2
       )
     );
-
-    if (
-      !thener.actuaciones
-      || thener.actuaciones.length === 0
-    ) {
-      newCarpetasMap.set(
-        carpeta.numero, thener
-      );
-
-      continue;
-    }
 
     newCarpetasMap.set(
       carpeta.numero, thener
@@ -157,12 +149,33 @@ async function insertManyCarpetas () {
 
   const collection = await connectToDatabase();
 
-  const insertMany = await collection.insertMany(
-    carpetas
-  );
-  console.log(
-    insertMany
-  );
+  for ( const carpeta of carpetas ) {
+    try {
+
+      const insertOne = await collection.updateOne(
+        {
+          numero: carpeta.numero
+        }, {
+          $set: carpeta
+        }, {
+          upsert: true
+        }
+      );
+      console.log(
+        JSON.stringify(
+          insertOne, null, 2
+        )
+      );
+    } catch ( error ) {
+      console.log(
+        JSON.stringify(
+          error, null, 2
+        )
+      );
+    }
+  }
+
+
 }
 
 insertManyCarpetas()
@@ -174,49 +187,12 @@ insertManyCarpetas()
       );
       return ff;
     }
-  );
-
-
-
-
-export async function updateMongoCarpeta (
-  {
-    carpeta
-  }: { carpeta: IntCarpeta }
-) {
-  try {
-
-    const collection = await connectToDatabase();
-
-    const updateCarpeta = await collection.findOneAndUpdate(
-      {
-        numero: carpeta.numero
-      }, {
-        $set: carpeta
-      }, {
-        upsert        : true,
-        returnDocument: 'after'
-      }
-    );
-
-    if ( !updateCarpeta ) {
-      throw new Error(
-        'no hay ninguna carpeta devuelta de la actualizacion en mongodb'
+  )
+  .finally(
+    () => {
+      console.log(
+        'finally'
       );
-
+      return;
     }
-
-    return {
-      ...updateCarpeta,
-      _id: updateCarpeta._id.toString()
-    };
-
-  } catch ( error ) {
-    console.log(
-      JSON.stringify(
-        error
-      )
-    );
-    return null;
-  }
-}
+  );

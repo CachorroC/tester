@@ -1,255 +1,77 @@
 {
-  "thener": {
-    "idProcesos": [
-      50718800
-    ],
-    "llaveProceso": "11001400302620170100600",
-    "numero": 244,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 80144827,
-      "direccion": "calle 62 a sur 87c -58",
-      "email": "pajulo8@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "ricardo",
-      "segundoNombre": "andres",
-      "primerApellido": "nocua",
-      "segundoApellido": "guatama"
+  "llaveProceso": "11001400302620170100600",
+  "numero": 244,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 80144827,
+    "direccion": "calle 62 a sur 87c -58",
+    "email": "pajulo8@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-      "mandamientoPago": "2017-10-10T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
-      "expediente": "11001400302620170100600",
-      "capitalAdeudado": 3780091106,
-      "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        161786
-      ],
-      "radicado": "2017 - 01006",
-      "vencimientoPagare": [
-        "2033-02-28T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "codeudor": {
-      "cedula": 1012324304,
-      "direccion": "CALLE 62A87C-58",
-      "nombre": "janeth eliana sarmiento gamba",
-      "telefono": 7839314
-    },
-    "cc": 80144827,
-    "procesos": [
-      {
-        "idProceso": 50718800,
-        "idConexion": 259,
-        "llaveProceso": "11001400302620170100600",
-        "fechaProceso": "2017-09-20T00:00:00",
-        "fechaUltimaActuacion": "2017-12-13T00:00:00",
-        "despacho": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RICARDO ANDRES NOCUA GUATAMA | Demandado: JANETH ELIANA SARMIENTO GAMBA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2017-12-13T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 713977140,
-      "llaveProceso": "11001400302620170100600",
-      "consActuacion": 11,
-      "fechaActuacion": "2017-12-13T00:00:00",
-      "actuacion": "Retiro demanda",
-      "anotacion": "retira demanda original y anexos sra. diana patricia triana suarez, c.c. 52.516.17, autorizada parte actora, dra maria helena suarez garcia, c.c. 51.612.208 y 128.130, s",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2017-12-13T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 11
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 713977140,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 11,
-        "fechaActuacion": "2017-12-13T00:00:00",
-        "actuacion": "Retiro demanda",
-        "anotacion": "retira demanda original y anexos sra. diana patricia triana suarez, c.c. 52.516.17, autorizada parte actora, dra maria helena suarez garcia, c.c. 51.612.208 y 128.130, s",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-12-13T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977130,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 10,
-        "fechaActuacion": "2017-12-05T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 05/12/2017 a las 15:47:38.",
-        "fechaInicial": "2017-12-06T00:00:00",
-        "fechaFinal": "2017-12-06T00:00:00",
-        "fechaRegistro": "2017-12-05T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977120,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 9,
-        "fechaActuacion": "2017-12-05T00:00:00",
-        "actuacion": "Auto resuelve retiro demanda",
-        "anotacion": "autoriza retiro",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-12-05T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977110,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 8,
-        "fechaActuacion": "2017-11-28T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "DEMANDANTE SOLICITA RETIRO DE DEMANDA",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-11-27T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977100,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 7,
-        "fechaActuacion": "2017-11-23T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "SOLICITUD DE ENTREGA DEMANDA",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-11-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977090,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 6,
-        "fechaActuacion": "2017-10-24T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "se allega direccion de R&S consultoria juridica especializada sas,  s",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-10-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977080,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 5,
-        "fechaActuacion": "2017-10-20T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": "oficio no. 5603/2017",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-10-20T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977070,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 4,
-        "fechaActuacion": "2017-10-10T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 10/10/2017 a las 16:23:26.",
-        "fechaInicial": "2017-10-11T00:00:00",
-        "fechaFinal": "2017-10-11T00:00:00",
-        "fechaRegistro": "2017-10-10T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977060,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 3,
-        "fechaActuacion": "2017-10-10T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": "Decreta medidas y reconoce personeria",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-10-10T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977050,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 2,
-        "fechaActuacion": "2017-09-21T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "PARA CALIFICAR",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-09-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      },
-      {
-        "idRegActuacion": 713977040,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 1,
-        "fechaActuacion": "2017-09-20T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 20/09/2017 a las 16:30:48",
-        "fechaInicial": "2017-09-20T00:00:00",
-        "fechaFinal": "2017-09-20T00:00:00",
-        "fechaRegistro": "2017-09-20T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      }
-    ]
+    "primerNombre": "ricardo",
+    "segundoNombre": "andres",
+    "primerApellido": "nocua",
+    "segundoApellido": "guatama"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 713977140,
-        "llaveProceso": "11001400302620170100600",
-        "consActuacion": 11,
-        "fechaActuacion": "2017-12-13T00:00:00",
-        "actuacion": "Retiro demanda",
-        "anotacion": "retira demanda original y anexos sra. diana patricia triana suarez, c.c. 52.516.17, autorizada parte actora, dra maria helena suarez garcia, c.c. 51.612.208 y 128.130, s",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-12-13T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 11
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
+    "expediente": "11001400302620170100600",
+    "capitalAdeudado": 3780091106,
+    "etapaProcesal": "NOTIFICACION",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      161786
+    ],
+    "radicado": "2017 - 01006",
+    "vencimientoPagare": [
+      "2033-02-28T00:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "codeudor": {
+    "cedula": 1012324304,
+    "direccion": "CALLE 62A87C-58",
+    "nombre": "janeth eliana sarmiento gamba",
+    "telefono": 7839314
+  },
+  "cc": 80144827,
+  "idProcesos": [
+    50718800
+  ],
+  "procesos": [
+    {
+      "idProceso": 50718800,
+      "idConexion": 259,
+      "llaveProceso": "11001400302620170100600",
+      "fechaProceso": "2017-09-20T00:00:00",
+      "fechaUltimaActuacion": "2017-12-13T00:00:00",
+      "despacho": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RICARDO ANDRES NOCUA GUATAMA | Demandado: JANETH ELIANA SARMIENTO GAMBA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2017-12-13T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 713977140,
+    "llaveProceso": "11001400302620170100600",
+    "consActuacion": 11,
+    "fechaActuacion": "2017-12-13T00:00:00",
+    "actuacion": "Retiro demanda",
+    "anotacion": "retira demanda original y anexos sra. diana patricia triana suarez, c.c. 52.516.17, autorizada parte actora, dra maria helena suarez garcia, c.c. 51.612.208 y 128.130, s",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-12-13T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 11
   }
 }

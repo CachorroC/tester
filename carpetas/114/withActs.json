@@ -1,110 +1,72 @@
 {
-  "thener": {
-    "idProcesos": [
-      86396721
-    ],
-    "llaveProceso": "25754418900220170075200",
-    "numero": 114,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79209455,
-      "direccion": "calle 11 # 52a - 14 soacha",
-      "email": "antoniocaicedo1972@gmail.com",
-      "tel": {
-        "fijo": 3213173,
-        "celular": 3128067314
-      },
-      "primerNombre": "jose",
-      "segundoNombre": "antonio",
-      "primerApellido": "caicedo",
-      "segundoApellido": "ruiz"
+  "llaveProceso": "25754418900220170075200",
+  "numero": 114,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79209455,
+    "direccion": "calle 11 # 52a - 14 soacha",
+    "email": "antoniocaicedo1972@gmail.com",
+    "tel": {
+      "fijo": 3213173,
+      "celular": 3128067314
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-08-11T00:00:00.000Z",
-      "mandamientoPago": "2017-08-24T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
-      "expediente": "25754418900220170075200",
-      "capitalAdeudado": 20501855,
-      "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
-      "municipio": "SOACHA",
-      "obligacion": [
-        "377813527966924/",
-        "000000020990112484."
-      ],
-      "radicado": "2017 - 00752",
-      "vencimientoPagare": [
-        "2023-11-15T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
-    },
-    "cc": 79209455,
-    "procesos": [
-      {
-        "idProceso": 86396721,
-        "idConexion": 320,
-        "llaveProceso": "25754418900220170075200",
-        "fechaProceso": "2019-08-22T00:00:00",
-        "fechaUltimaActuacion": "2019-08-22T00:00:00",
-        "despacho": "JUZGADO 002 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SOACHA ",
-        "departamento": "CUNDINAMARCA",
-        "sujetosProcesales": "Demandante/accionante: ALVARO  CARRILLO  | Demandado/indiciado/causante: ABUNDIO  BOHORQUEZ VILLAMIL | Demandado/indiciado/causante: ACREEDORES DE ABUNDIO BOHORQUEZ    (Emplazado) | Defensor Privado: sANDER SENEY SIERRA CORREDOR ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2019-08-22T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 910128311,
-      "llaveProceso": "25754418900220170075200",
-      "consActuacion": 8615264,
-      "fechaActuacion": "2019-08-22T00:00:00",
-      "actuacion": "AUTO EMPLAZA",
-      "anotacion": "EMPLAZAMIENTO DE LAS PERSONAS QUE TENGAN CRÉDITOS CON TÍTULOS DE EJECUCIÓN CONTRA ABUNDIO BOHÓRQUEZ.",
-      "fechaInicial": "2019-08-22T00:00:00",
-      "fechaFinal": "2019-09-12T00:00:00",
-      "fechaRegistro": "2019-08-22T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 1
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 910128311,
-        "llaveProceso": "25754418900220170075200",
-        "consActuacion": 8615264,
-        "fechaActuacion": "2019-08-22T00:00:00",
-        "actuacion": "AUTO EMPLAZA",
-        "anotacion": "EMPLAZAMIENTO DE LAS PERSONAS QUE TENGAN CRÉDITOS CON TÍTULOS DE EJECUCIÓN CONTRA ABUNDIO BOHÓRQUEZ.",
-        "fechaInicial": "2019-08-22T00:00:00",
-        "fechaFinal": "2019-09-12T00:00:00",
-        "fechaRegistro": "2019-08-22T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 1
-      }
-    ]
+    "primerNombre": "jose",
+    "segundoNombre": "antonio",
+    "primerApellido": "caicedo",
+    "segundoApellido": "ruiz"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 910128311,
-        "llaveProceso": "25754418900220170075200",
-        "consActuacion": 8615264,
-        "fechaActuacion": "2019-08-22T00:00:00",
-        "actuacion": "AUTO EMPLAZA",
-        "anotacion": "EMPLAZAMIENTO DE LAS PERSONAS QUE TENGAN CRÉDITOS CON TÍTULOS DE EJECUCIÓN CONTRA ABUNDIO BOHÓRQUEZ.",
-        "fechaInicial": "2019-08-22T00:00:00",
-        "fechaFinal": "2019-09-12T00:00:00",
-        "fechaRegistro": "2019-08-22T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 1
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "mandamientoPago": "2017-08-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "expediente": "25754418900220170075200",
+    "capitalAdeudado": 20501855,
+    "etapaProcesal": "NOTIFICACION",
+    "juzgados": [],
+    "municipio": "SOACHA",
+    "obligacion": [
+      "377813527966924/",
+      "000000020990112484."
+    ],
+    "radicado": "2017 - 00752",
+    "vencimientoPagare": [
+      "2023-11-15T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
+  },
+  "cc": 79209455,
+  "idProcesos": [
+    86396721
+  ],
+  "procesos": [
+    {
+      "idProceso": 86396721,
+      "idConexion": 320,
+      "llaveProceso": "25754418900220170075200",
+      "fechaProceso": "2019-08-22T00:00:00",
+      "fechaUltimaActuacion": "2019-08-22T00:00:00",
+      "despacho": "JUZGADO 002 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SOACHA ",
+      "departamento": "CUNDINAMARCA",
+      "sujetosProcesales": "Demandante/accionante: ALVARO  CARRILLO  | Demandado/indiciado/causante: ABUNDIO  BOHORQUEZ VILLAMIL | Demandado/indiciado/causante: ACREEDORES DE ABUNDIO BOHORQUEZ    (Emplazado) | Defensor Privado: sANDER SENEY SIERRA CORREDOR ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2019-08-22T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 910128311,
+    "llaveProceso": "25754418900220170075200",
+    "consActuacion": 8615264,
+    "fechaActuacion": "2019-08-22T00:00:00",
+    "actuacion": "AUTO EMPLAZA",
+    "anotacion": "EMPLAZAMIENTO DE LAS PERSONAS QUE TENGAN CRÉDITOS CON TÍTULOS DE EJECUCIÓN CONTRA ABUNDIO BOHÓRQUEZ.",
+    "fechaInicial": "2019-08-22T00:00:00",
+    "fechaFinal": "2019-09-12T00:00:00",
+    "fechaRegistro": "2019-08-22T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 1
   }
 }

@@ -1,234 +1,70 @@
 {
-  "thener": {
-    "idProcesos": [
-      51786190
-    ],
-    "llaveProceso": "11001418901420190019000",
-    "numero": 516,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79245905,
-      "direccion": "calle 116 a- 70g-48 apto 204",
-      "email": "asplucal@gmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "alvaro",
-      "segundoNombre": "luis",
-      "primerApellido": "asprilla",
-      "segundoApellido": "lucumi"
+  "llaveProceso": "11001418901420190019000",
+  "numero": 516,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79245905,
+    "direccion": "calle 116 a- 70g-48 apto 204",
+    "email": "asplucal@gmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2019-01-02T05:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2018-01-11T05:00:00.000Z",
-      "expediente": "11001418901420190019000",
-      "capitalAdeudado": 1680033738,
-      "etapaProcesal": "ADMISION",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        3778164677886080,
-        530372013262050
-      ],
-      "radicado": "2019 - 00190",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 79245905,
-    "procesos": [
-      {
-        "idProceso": 51786190,
-        "idConexion": 259,
-        "llaveProceso": "11001418901420190019000",
-        "fechaProceso": "2019-03-26T00:00:00",
-        "fechaUltimaActuacion": "2019-09-23T00:00:00",
-        "despacho": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALVARO LUIS ASPRILLA LUCUMI ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2019-09-23T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 565577340,
-      "llaveProceso": "11001418901420190019000",
-      "consActuacion": 10,
-      "fechaActuacion": "2019-09-23T00:00:00",
-      "actuacion": "Archivo Definitivo",
-      "anotacion": "CAJA 152 TERMINADOS ",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2019-09-23T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 10
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 565577340,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 10,
-        "fechaActuacion": "2019-09-23T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "CAJA 152 TERMINADOS ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-09-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 859492650,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 9,
-        "fechaActuacion": "2019-07-16T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": "1345 y 1346",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-07-15T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 859492640,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 8,
-        "fechaActuacion": "2019-07-09T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 09/07/2019 a las 07:43:17.",
-        "fechaInicial": "2019-07-10T00:00:00",
-        "fechaFinal": "2019-07-10T00:00:00",
-        "fechaRegistro": "2019-07-09T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 859492630,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 7,
-        "fechaActuacion": "2019-07-09T00:00:00",
-        "actuacion": "Auto termina proceso por Pago",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-07-09T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 859492620,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 6,
-        "fechaActuacion": "2019-07-04T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "SOLICITUD DE TERMINACIÓN",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-07-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 859492610,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 5,
-        "fechaActuacion": "2019-07-02T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "TERMINACION PROCESO",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-07-02T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 859492600,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 4,
-        "fechaActuacion": "2019-06-11T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": "1143",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-06-11T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 859492590,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 3,
-        "fechaActuacion": "2019-06-04T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 04/06/2019 a las 18:39:01.",
-        "fechaInicial": "2019-06-05T00:00:00",
-        "fechaFinal": "2019-06-05T00:00:00",
-        "fechaRegistro": "2019-06-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 859492580,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 2,
-        "fechaActuacion": "2019-06-04T00:00:00",
-        "actuacion": "Auto decreta medida cautelar",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-06-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 859492570,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 1,
-        "fechaActuacion": "2019-03-26T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 26/03/2019 a las 09:36:01",
-        "fechaInicial": "2019-03-26T00:00:00",
-        "fechaFinal": "2019-03-26T00:00:00",
-        "fechaRegistro": "2019-03-26T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      }
-    ]
+    "primerNombre": "alvaro",
+    "segundoNombre": "luis",
+    "primerApellido": "asprilla",
+    "segundoApellido": "lucumi"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 565577340,
-        "llaveProceso": "11001418901420190019000",
-        "consActuacion": 10,
-        "fechaActuacion": "2019-09-23T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "CAJA 152 TERMINADOS ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-09-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2019-01-02T05:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2018-01-11T05:00:00.000Z",
+    "expediente": "11001418901420190019000",
+    "capitalAdeudado": 1680033738,
+    "etapaProcesal": "ADMISION",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      3778164677886080,
+      530372013262050
+    ],
+    "radicado": "2019 - 00190",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 79245905,
+  "idProcesos": [
+    51786190
+  ],
+  "procesos": [
+    {
+      "idProceso": 51786190,
+      "idConexion": 259,
+      "llaveProceso": "11001418901420190019000",
+      "fechaProceso": "2019-03-26T00:00:00",
+      "fechaUltimaActuacion": "2019-09-23T00:00:00",
+      "despacho": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALVARO LUIS ASPRILLA LUCUMI ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2019-09-23T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 565577340,
+    "llaveProceso": "11001418901420190019000",
+    "consActuacion": 10,
+    "fechaActuacion": "2019-09-23T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 152 TERMINADOS ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2019-09-23T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10
   }
 }

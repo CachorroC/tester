@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      132789600
-    ],
     "llaveProceso": "11001400303320230105600",
     "numero": 581,
     "tipoProceso": "HIPOTECARIO",
@@ -55,6 +52,9 @@
       "telefono": "CELULAR 3116509661"
     },
     "cc": 52760611,
+    "idProcesos": [
+      132789600
+    ],
     "procesos": [
       {
         "idProceso": 132789600,

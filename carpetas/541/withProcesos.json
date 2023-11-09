@@ -1,9 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      52160520,
-      112967583
-    ],
     "llaveProceso": "11001400308220180096400",
     "numero": 541,
     "tipoProceso": "SINGULAR",
@@ -44,6 +40,10 @@
       "departamento": "ANTIOQUIA"
     },
     "cc": 79533771,
+    "idProcesos": [
+      52160520,
+      112967583
+    ],
     "procesos": [
       {
         "idProceso": 52160520,

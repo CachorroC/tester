@@ -1,179 +1,71 @@
 {
-  "thener": {
-    "idProcesos": [
-      51277500
-    ],
-    "llaveProceso": "11001400300520180071100",
-    "numero": 447,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79698506,
-      "direccion": "carrera 80 bis a no 70a-15",
-      "email": null,
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "carlos",
-      "segundoNombre": "antonio",
-      "primerApellido": "pacheco",
-      "segundoApellido": "torres"
+  "llaveProceso": "11001400300520180071100",
+  "numero": 447,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79698506,
+    "direccion": "carrera 80 bis a no 70a-15",
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
-      "expediente": "11001400300520180071100",
-      "capitalAdeudado": 1926050000,
-      "etapaProcesal": "ADMISION",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        1010082679
-      ],
-      "radicado": "2018 - 00711",
-      "vencimientoPagare": [
-        "2027-10-27T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 79698506,
-    "procesos": [
-      {
-        "idProceso": 51277500,
-        "idConexion": 259,
-        "llaveProceso": "11001400300520180071100",
-        "fechaProceso": "2018-06-27T00:00:00",
-        "fechaUltimaActuacion": "2018-09-06T00:00:00",
-        "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS ANTONIO PACHECO TORRES ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2018-09-06T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 582442800,
-      "llaveProceso": "11001400300520180071100",
-      "consActuacion": 6,
-      "fechaActuacion": "2018-09-06T00:00:00",
-      "actuacion": "Archivo Definitivo",
-      "anotacion": "RETIRADA  PAQ 33",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2018-09-06T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 582442800,
-        "llaveProceso": "11001400300520180071100",
-        "consActuacion": 6,
-        "fechaActuacion": "2018-09-06T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "RETIRADA  PAQ 33",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-09-06T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 582442790,
-        "llaveProceso": "11001400300520180071100",
-        "consActuacion": 5,
-        "fechaActuacion": "2018-07-11T00:00:00",
-        "actuacion": "Retiro demanda",
-        "anotacion": "RETIRA DEMANDA autorizada DTE",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-07-25T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 582442780,
-        "llaveProceso": "11001400300520180071100",
-        "consActuacion": 4,
-        "fechaActuacion": "2018-07-05T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 05/07/2018 a las 15:27:17.",
-        "fechaInicial": "2018-07-06T00:00:00",
-        "fechaFinal": "2018-07-06T00:00:00",
-        "fechaRegistro": "2018-07-05T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 582442770,
-        "llaveProceso": "11001400300520180071100",
-        "consActuacion": 3,
-        "fechaActuacion": "2018-07-05T00:00:00",
-        "actuacion": "Auto inadmite demanda",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-07-05T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 582442760,
-        "llaveProceso": "11001400300520180071100",
-        "consActuacion": 2,
-        "fechaActuacion": "2018-07-03T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "G C-2",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-07-03T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 582442750,
-        "llaveProceso": "11001400300520180071100",
-        "consActuacion": 1,
-        "fechaActuacion": "2018-06-27T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 27/06/2018 a las 10:41:50",
-        "fechaInicial": "2018-06-27T00:00:00",
-        "fechaFinal": "2018-06-27T00:00:00",
-        "fechaRegistro": "2018-06-27T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+    "primerNombre": "carlos",
+    "segundoNombre": "antonio",
+    "primerApellido": "pacheco",
+    "segundoApellido": "torres"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 582442800,
-        "llaveProceso": "11001400300520180071100",
-        "consActuacion": 6,
-        "fechaActuacion": "2018-09-06T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "RETIRADA  PAQ 33",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-09-06T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
+    "expediente": "11001400300520180071100",
+    "capitalAdeudado": 1926050000,
+    "etapaProcesal": "ADMISION",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      1010082679
+    ],
+    "radicado": "2018 - 00711",
+    "vencimientoPagare": [
+      "2027-10-27T00:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 79698506,
+  "idProcesos": [
+    51277500
+  ],
+  "procesos": [
+    {
+      "idProceso": 51277500,
+      "idConexion": 259,
+      "llaveProceso": "11001400300520180071100",
+      "fechaProceso": "2018-06-27T00:00:00",
+      "fechaUltimaActuacion": "2018-09-06T00:00:00",
+      "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS ANTONIO PACHECO TORRES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2018-09-06T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 582442800,
+    "llaveProceso": "11001400300520180071100",
+    "consActuacion": 6,
+    "fechaActuacion": "2018-09-06T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "RETIRADA  PAQ 33",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-09-06T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6
   }
 }

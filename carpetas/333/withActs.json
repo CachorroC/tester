@@ -1,179 +1,71 @@
 {
-  "thener": {
-    "idProcesos": [
-      17718250
-    ],
-    "llaveProceso": "11001400306320170131700",
-    "numero": 333,
-    "tipoProceso": "PRENDARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 52085839,
-      "direccion": "calle 55 no 78 -74  apartamento 1110",
-      "email": "ahidaguevara@gmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "ahida",
-      "segundoNombre": "lucero",
-      "primerApellido": "guevara",
-      "segundoApellido": "becerra"
+  "llaveProceso": "11001400306320170131700",
+  "numero": 333,
+  "tipoProceso": "PRENDARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 52085839,
+    "direccion": "calle 55 no 78 -74  apartamento 1110",
+    "email": "ahidaguevara@gmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2018-01-15T00:00:00.000Z",
-      "mandamientoPago": "2018-01-15T00:00:00.000Z",
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400306320170131700",
-      "capitalAdeudado": 1889842100,
-      "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        12710799
-      ],
-      "radicado": "2017 - 01317",
-      "vencimientoPagare": [
-        "2017-11-08T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 52085839,
-    "procesos": [
-      {
-        "idProceso": 17718250,
-        "idConexion": 260,
-        "llaveProceso": "11001400306320170131700",
-        "fechaProceso": "2017-12-18T00:00:00",
-        "fechaUltimaActuacion": "2018-05-16T00:00:00",
-        "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AHIDA LUCERO GUEVARA BECERRA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2018-05-16T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 266714170,
-      "llaveProceso": "11001400306320170131700",
-      "consActuacion": 6,
-      "fechaActuacion": "2018-05-16T00:00:00",
-      "actuacion": "Retiro de demanada",
-      "anotacion": "APODERADA AUTORIZA  PARA RETIRO DEMANDA",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2018-05-16T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 266714170,
-        "llaveProceso": "11001400306320170131700",
-        "consActuacion": 6,
-        "fechaActuacion": "2018-05-16T00:00:00",
-        "actuacion": "Retiro de demanada",
-        "anotacion": "APODERADA AUTORIZA  PARA RETIRO DEMANDA",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-05-16T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 266714160,
-        "llaveProceso": "11001400306320170131700",
-        "consActuacion": 5,
-        "fechaActuacion": "2018-01-22T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-01-19T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 266714150,
-        "llaveProceso": "11001400306320170131700",
-        "consActuacion": 4,
-        "fechaActuacion": "2018-01-15T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 15/01/2018 a las 15:35:45.",
-        "fechaInicial": "2018-01-16T00:00:00",
-        "fechaFinal": "2018-01-16T00:00:00",
-        "fechaRegistro": "2018-01-15T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 266714140,
-        "llaveProceso": "11001400306320170131700",
-        "consActuacion": 3,
-        "fechaActuacion": "2018-01-15T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-01-15T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 266714130,
-        "llaveProceso": "11001400306320170131700",
-        "consActuacion": 2,
-        "fechaActuacion": "2017-12-18T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-12-18T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 266714120,
-        "llaveProceso": "11001400306320170131700",
-        "consActuacion": 1,
-        "fechaActuacion": "2017-12-18T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 18/12/2017 a las 08:15:00",
-        "fechaInicial": "2017-12-18T00:00:00",
-        "fechaFinal": "2017-12-18T00:00:00",
-        "fechaRegistro": "2017-12-18T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+    "primerNombre": "ahida",
+    "segundoNombre": "lucero",
+    "primerApellido": "guevara",
+    "segundoApellido": "becerra"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 266714170,
-        "llaveProceso": "11001400306320170131700",
-        "consActuacion": 6,
-        "fechaActuacion": "2018-05-16T00:00:00",
-        "actuacion": "Retiro de demanada",
-        "anotacion": "APODERADA AUTORIZA  PARA RETIRO DEMANDA",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-05-16T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2018-01-15T00:00:00.000Z",
+    "mandamientoPago": "2018-01-15T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400306320170131700",
+    "capitalAdeudado": 1889842100,
+    "etapaProcesal": "NOTIFICACION",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12710799
+    ],
+    "radicado": "2017 - 01317",
+    "vencimientoPagare": [
+      "2017-11-08T00:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 52085839,
+  "idProcesos": [
+    17718250
+  ],
+  "procesos": [
+    {
+      "idProceso": 17718250,
+      "idConexion": 260,
+      "llaveProceso": "11001400306320170131700",
+      "fechaProceso": "2017-12-18T00:00:00",
+      "fechaUltimaActuacion": "2018-05-16T00:00:00",
+      "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AHIDA LUCERO GUEVARA BECERRA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2018-05-16T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 266714170,
+    "llaveProceso": "11001400306320170131700",
+    "consActuacion": 6,
+    "fechaActuacion": "2018-05-16T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": "APODERADA AUTORIZA  PARA RETIRO DEMANDA",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-05-16T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6
   }
 }

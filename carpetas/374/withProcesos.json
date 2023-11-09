@@ -1,6 +1,5 @@
 {
   "thener": {
-    "idProcesos": [],
     "llaveProceso": "11001400308620180006700",
     "numero": 374,
     "tipoProceso": "HIPOTECARIO",
@@ -44,6 +43,9 @@
       "telefono": 7326829
     },
     "cc": 80850549,
+    "idProcesos": [
+      81895161
+    ],
     "procesos": [
       {
         "idProceso": 81895161,

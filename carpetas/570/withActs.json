@@ -1,179 +1,71 @@
 {
-  "thener": {
-    "idProcesos": [
-      132240890
-    ],
-    "llaveProceso": "11001418907520230016700",
-    "numero": 570,
-    "tipoProceso": "SINGULAR",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 21386342,
-      "direccion": "av suba no. 136-80 bl b ap 502 cerros de suba – gratamira //kr 75 no. 65 - 78 ap 402 edificio montreal p.h. medellín // vereda potrerito ?",
-      "email": "martacospina@hotmail.com",
-      "tel": {
-        "fijo": 2977768,
-        "celular": 3163096532
-      },
-      "primerNombre": "martha",
-      "segundoNombre": "cecilia",
-      "primerApellido": "ospina",
-      "segundoApellido": "arenas"
+  "llaveProceso": "11001418907520230016700",
+  "numero": 570,
+  "tipoProceso": "SINGULAR",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 21386342,
+    "direccion": "av suba no. 136-80 bl b ap 502 cerros de suba – gratamira //kr 75 no. 65 - 78 ap 402 edificio montreal p.h. medellín // vereda potrerito ?",
+    "email": "martacospina@hotmail.com",
+    "tel": {
+      "fijo": 2977768,
+      "celular": 3163096532
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
-      "expediente": "11001418907520230016700",
-      "capitalAdeudado": 19170517,
-      "etapaProcesal": null,
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        3990086952
-      ],
-      "radicado": "2023 - 01465",
-      "vencimientoPagare": [
-        "2026-03-18T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 21386342,
-    "procesos": [
-      {
-        "idProceso": 132240890,
-        "idConexion": 259,
-        "llaveProceso": "11001418907520230016700",
-        "fechaProceso": "2023-08-09T00:00:00",
-        "fechaUltimaActuacion": "2023-09-22T00:00:00",
-        "despacho": "JUZGADO 075 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA PATRICIA SILVARA RODRIGUEZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2023-09-22T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1880990360,
-      "llaveProceso": "11001418907520230016700",
-      "consActuacion": 6,
-      "fechaActuacion": "2023-09-22T00:00:00",
-      "actuacion": "Fijacion estado",
-      "anotacion": "Actuación registrada el 22/09/2023 a las 18:26:58.",
-      "fechaInicial": "2023-09-25T00:00:00",
-      "fechaFinal": "2023-09-25T00:00:00",
-      "fechaRegistro": "2023-09-22T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 1880990360,
-        "llaveProceso": "11001418907520230016700",
-        "consActuacion": 6,
-        "fechaActuacion": "2023-09-22T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 22/09/2023 a las 18:26:58.",
-        "fechaInicial": "2023-09-25T00:00:00",
-        "fechaFinal": "2023-09-25T00:00:00",
-        "fechaRegistro": "2023-09-22T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1880990350,
-        "llaveProceso": "11001418907520230016700",
-        "consActuacion": 5,
-        "fechaActuacion": "2023-09-22T00:00:00",
-        "actuacion": "Auto decreta medida cautelar",
-        "anotacion": "Y ORDENA OFICIAR ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-22T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1880990340,
-        "llaveProceso": "11001418907520230016700",
-        "consActuacion": 4,
-        "fechaActuacion": "2023-09-22T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 22/09/2023 a las 18:26:27.",
-        "fechaInicial": "2023-09-25T00:00:00",
-        "fechaFinal": "2023-09-25T00:00:00",
-        "fechaRegistro": "2023-09-22T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1880990330,
-        "llaveProceso": "11001418907520230016700",
-        "consActuacion": 3,
-        "fechaActuacion": "2023-09-22T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": "Y RECONOCE PERSONERIA ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-22T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1841783240,
-        "llaveProceso": "11001418907520230016700",
-        "consActuacion": 2,
-        "fechaActuacion": "2023-08-11T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "DE REPARTO 08/09/2023",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-11T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1840069600,
-        "llaveProceso": "11001418907520230016700",
-        "consActuacion": 1,
-        "fechaActuacion": "2023-08-09T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 09/08/2023 a las 09:32:10",
-        "fechaInicial": "2023-08-09T00:00:00",
-        "fechaFinal": "2023-08-09T00:00:00",
-        "fechaRegistro": "2023-08-09T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+    "primerNombre": "martha",
+    "segundoNombre": "cecilia",
+    "primerApellido": "ospina",
+    "segundoApellido": "arenas"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 1880990360,
-        "llaveProceso": "11001418907520230016700",
-        "consActuacion": 6,
-        "fechaActuacion": "2023-09-22T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 22/09/2023 a las 18:26:58.",
-        "fechaInicial": "2023-09-25T00:00:00",
-        "fechaFinal": "2023-09-25T00:00:00",
-        "fechaRegistro": "2023-09-22T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "expediente": "11001418907520230016700",
+    "capitalAdeudado": 19170517,
+    "etapaProcesal": null,
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      3990086952
+    ],
+    "radicado": "2023 - 01465",
+    "vencimientoPagare": [
+      "2026-03-18T00:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 21386342,
+  "idProcesos": [
+    132240890
+  ],
+  "procesos": [
+    {
+      "idProceso": 132240890,
+      "idConexion": 259,
+      "llaveProceso": "11001418907520230016700",
+      "fechaProceso": "2023-08-09T00:00:00",
+      "fechaUltimaActuacion": "2023-09-22T00:00:00",
+      "despacho": "JUZGADO 075 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA PATRICIA SILVARA RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2023-09-22T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1880990360,
+    "llaveProceso": "11001418907520230016700",
+    "consActuacion": 6,
+    "fechaActuacion": "2023-09-22T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 22/09/2023 a las 18:26:58.",
+    "fechaInicial": "2023-09-25T00:00:00",
+    "fechaFinal": "2023-09-25T00:00:00",
+    "fechaRegistro": "2023-09-22T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6
   }
 }

@@ -20,7 +20,7 @@ export interface IntCarpeta {
   numero: number;
   cc: number;
   llaveProceso: string | null;
-  idProcesos: number[] | null;
+  idProcesos: number[] |null;
   category: Category;
   tipoProceso: TipoProceso;
   nombre: string;

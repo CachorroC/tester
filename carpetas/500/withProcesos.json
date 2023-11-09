@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      51154840
-    ],
     "llaveProceso": "11001400300620180045400",
     "numero": 500,
     "tipoProceso": "SINGULAR",
@@ -47,6 +44,10 @@
       "telefono": 2501533
     },
     "cc": null,
+    "idProcesos": [
+      51154840,
+      81649171
+    ],
     "procesos": [
       {
         "idProceso": 51154840,

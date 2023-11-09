@@ -1,91 +1,85 @@
 {
-  "thener": {
-    "idProcesos": [
-      51642990,
-      114399551
-    ],
-    "llaveProceso": "11001400301720190017900",
-    "numero": 514,
-    "tipoProceso": "SINGULAR",
-    "category": "Insolvencia",
-    "deudor": {
-      "cedula": 19496623,
-      "direccion": "carrera 68 no 100-51 apto 405",
-      "email": "terranova54@latinmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "manuel",
-      "segundoNombre": "alberto",
-      "primerApellido": "leon",
-      "segundoApellido": "calderon"
+  "llaveProceso": "11001400301720190017900",
+  "numero": 514,
+  "tipoProceso": "SINGULAR",
+  "category": "Insolvencia",
+  "deudor": {
+    "cedula": 19496623,
+    "direccion": "carrera 68 no 100-51 apto 405",
+    "email": "terranova54@latinmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2019-01-02T05:00:00.000Z",
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400301720190017900",
-      "capitalAdeudado": 46118717,
-      "etapaProcesal": "1,10E+38",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        7910080591,
-        4099830244266410
-      ],
-      "radicado": "2019 - 00179",
-      "vencimientoPagare": [
-        "2022-10-03T05:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 19496623,
-    "procesos": [
-      {
-        "idProceso": 51642990,
-        "idConexion": 259,
-        "llaveProceso": "11001400301720190017900",
-        "fechaProceso": "2019-02-06T00:00:00",
-        "fechaUltimaActuacion": "2021-11-26T00:00:00",
-        "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MANUEL ALBERTO LEON CALDERON ",
-        "esPrivado": false,
-        "cantFilas": -1
-      },
-      {
-        "idProceso": 114399551,
-        "idConexion": 320,
-        "llaveProceso": "11001400301720190017900",
-        "fechaProceso": "2019-02-01T00:00:00",
-        "fechaUltimaActuacion": null,
-        "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante/accionante: Banco de Colombia S.A | Demandado/indiciado/causante: mANUEL ALBERTO LEON CALDERON (Emplazado) | Defensor Privado: LAURA KATHERIN ANZOLA BENAVIDES ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2021-11-26T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1235836140,
-      "llaveProceso": "11001400301720190017900",
-      "consActuacion": 44,
-      "fechaActuacion": "2021-11-26T00:00:00",
-      "actuacion": "Fijacion estado",
-      "anotacion": "Actuación registrada el 26/11/2021 a las 13:20:56.",
-      "fechaInicial": "2021-11-29T00:00:00",
-      "fechaFinal": "2021-11-29T00:00:00",
-      "fechaRegistro": "2021-11-26T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 44
-    }
+    "primerNombre": "manuel",
+    "segundoNombre": "alberto",
+    "primerApellido": "leon",
+    "segundoApellido": "calderon"
   },
-  "withActs": {
-    "StatusCode": 500,
-    "Message": "Object reference not set to an instance of an object."
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2019-01-02T05:00:00.000Z",
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400301720190017900",
+    "capitalAdeudado": 46118717,
+    "etapaProcesal": "1,10E+38",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      7910080591,
+      4099830244266410
+    ],
+    "radicado": "2019 - 00179",
+    "vencimientoPagare": [
+      "2022-10-03T05:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 19496623,
+  "idProcesos": [
+    51642990,
+    114399551
+  ],
+  "procesos": [
+    {
+      "idProceso": 51642990,
+      "idConexion": 259,
+      "llaveProceso": "11001400301720190017900",
+      "fechaProceso": "2019-02-06T00:00:00",
+      "fechaUltimaActuacion": "2021-11-26T00:00:00",
+      "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MANUEL ALBERTO LEON CALDERON ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 114399551,
+      "idConexion": 320,
+      "llaveProceso": "11001400301720190017900",
+      "fechaProceso": "2019-02-01T00:00:00",
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante/accionante: Banco de Colombia S.A | Demandado/indiciado/causante: mANUEL ALBERTO LEON CALDERON (Emplazado) | Defensor Privado: LAURA KATHERIN ANZOLA BENAVIDES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2021-11-26T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1235836140,
+    "llaveProceso": "11001400301720190017900",
+    "consActuacion": 44,
+    "fechaActuacion": "2021-11-26T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 26/11/2021 a las 13:20:56.",
+    "fechaInicial": "2021-11-29T00:00:00",
+    "fechaFinal": "2021-11-29T00:00:00",
+    "fechaRegistro": "2021-11-26T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 44
   }
 }

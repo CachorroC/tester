@@ -1,9 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50468620,
-      113956611
-    ],
     "llaveProceso": "11001400300320170088400",
     "numero": 16,
     "tipoProceso": "PRENDARIO",
@@ -41,6 +37,10 @@
       "departamento": "BOGOTÁ"
     },
     "cc": 1077969975,
+    "idProcesos": [
+      50468620,
+      113956611
+    ],
     "procesos": [
       {
         "idProceso": 50468620,

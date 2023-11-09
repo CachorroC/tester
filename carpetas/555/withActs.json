@@ -1,207 +1,71 @@
 {
-  "thener": {
-    "idProcesos": [
-      132048330
-    ],
-    "llaveProceso": "11001400303220230090400",
-    "numero": 555,
-    "tipoProceso": "SINGULAR",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 53130409,
-      "direccion": "cl 55 bis 16 48 apartamento 702 edificio bangkok",
-      "email": "jsquiroga72@hotmail.com",
-      "tel": {
-        "fijo": 3917539,
-        "celular": 3506509064
-      },
-      "primerNombre": "jeimmy",
-      "segundoNombre": "soley",
-      "primerApellido": "quiroga",
-      "segundoApellido": "ramirez"
+  "llaveProceso": "11001400303220230090400",
+  "numero": 555,
+  "tipoProceso": "SINGULAR",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 53130409,
+    "direccion": "cl 55 bis 16 48 apartamento 702 edificio bangkok",
+    "email": "jsquiroga72@hotmail.com",
+    "tel": {
+      "fijo": 3917539,
+      "celular": 3506509064
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-      "expediente": "11001400303220230090400",
-      "capitalAdeudado": 80906224,
-      "etapaProcesal": null,
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        1920089307
-      ],
-      "radicado": "2023 - 00904",
-      "vencimientoPagare": [
-        "2026-03-04T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 53130409,
-    "procesos": [
-      {
-        "idProceso": 132048330,
-        "idConexion": 259,
-        "llaveProceso": "11001400303220230090400",
-        "fechaProceso": "2023-08-02T00:00:00",
-        "fechaUltimaActuacion": "2023-11-01T00:00:00",
-        "despacho": "JUZGADO 032 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JEIMMY SOLEY QUIROGA RAMIREZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2023-11-01T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1924426900,
-      "llaveProceso": "11001400303220230090400",
-      "consActuacion": 8,
-      "fechaActuacion": "2023-11-01T00:00:00",
-      "actuacion": "Entrega de oficios",
-      "anotacion": "CONSTANCIA ENTREGA OFICIO N.2921 N.D.B.S.",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-11-01T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 8
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 1924426900,
-        "llaveProceso": "11001400303220230090400",
-        "consActuacion": 8,
-        "fechaActuacion": "2023-11-01T00:00:00",
-        "actuacion": "Entrega de oficios",
-        "anotacion": "CONSTANCIA ENTREGA OFICIO N.2921 N.D.B.S.",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-11-01T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 1919008980,
-        "llaveProceso": "11001400303220230090400",
-        "consActuacion": 7,
-        "fechaActuacion": "2023-10-26T00:00:00",
-        "actuacion": "Telegrama",
-        "anotacion": "OFICIO 2921 REGISTRO ELABORADO// DISPONIBLE PARA SU RETIRO EN EL JUZGADO D.B.",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-10-26T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 1887348680,
-        "llaveProceso": "11001400303220230090400",
-        "consActuacion": 6,
-        "fechaActuacion": "2023-09-28T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 28/09/2023 a las 15:24:13.",
-        "fechaInicial": "2023-09-29T00:00:00",
-        "fechaFinal": "2023-09-29T00:00:00",
-        "fechaRegistro": "2023-09-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 1887348670,
-        "llaveProceso": "11001400303220230090400",
-        "consActuacion": 5,
-        "fechaActuacion": "2023-09-28T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 1887348660,
-        "llaveProceso": "11001400303220230090400",
-        "consActuacion": 4,
-        "fechaActuacion": "2023-09-28T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 28/09/2023 a las 15:23:58.",
-        "fechaInicial": "2023-09-29T00:00:00",
-        "fechaFinal": "2023-09-29T00:00:00",
-        "fechaRegistro": "2023-09-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 1887348650,
-        "llaveProceso": "11001400303220230090400",
-        "consActuacion": 3,
-        "fechaActuacion": "2023-09-28T00:00:00",
-        "actuacion": "Auto decreta medida cautelar",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 1837180590,
-        "llaveProceso": "11001400303220230090400",
-        "consActuacion": 2,
-        "fechaActuacion": "2023-08-04T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 1832779880,
-        "llaveProceso": "11001400303220230090400",
-        "consActuacion": 1,
-        "fechaActuacion": "2023-08-02T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 02/08/2023 a las 11:53:58",
-        "fechaInicial": "2023-08-02T00:00:00",
-        "fechaFinal": "2023-08-02T00:00:00",
-        "fechaRegistro": "2023-08-02T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      }
-    ]
+    "primerNombre": "jeimmy",
+    "segundoNombre": "soley",
+    "primerApellido": "quiroga",
+    "segundoApellido": "ramirez"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 1924426900,
-        "llaveProceso": "11001400303220230090400",
-        "consActuacion": 8,
-        "fechaActuacion": "2023-11-01T00:00:00",
-        "actuacion": "Entrega de oficios",
-        "anotacion": "CONSTANCIA ENTREGA OFICIO N.2921 N.D.B.S.",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-11-01T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "expediente": "11001400303220230090400",
+    "capitalAdeudado": 80906224,
+    "etapaProcesal": null,
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      1920089307
+    ],
+    "radicado": "2023 - 00904",
+    "vencimientoPagare": [
+      "2026-03-04T00:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 53130409,
+  "idProcesos": [
+    132048330
+  ],
+  "procesos": [
+    {
+      "idProceso": 132048330,
+      "idConexion": 259,
+      "llaveProceso": "11001400303220230090400",
+      "fechaProceso": "2023-08-02T00:00:00",
+      "fechaUltimaActuacion": "2023-11-01T00:00:00",
+      "despacho": "JUZGADO 032 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JEIMMY SOLEY QUIROGA RAMIREZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2023-11-01T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1924426900,
+    "llaveProceso": "11001400303220230090400",
+    "consActuacion": 8,
+    "fechaActuacion": "2023-11-01T00:00:00",
+    "actuacion": "Entrega de oficios",
+    "anotacion": "CONSTANCIA ENTREGA OFICIO N.2921 N.D.B.S.",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-01T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 8
   }
 }

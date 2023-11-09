@@ -1,182 +1,74 @@
 {
-  "thener": {
-    "idProcesos": [
-      132018670
-    ],
-    "llaveProceso": "11001400305920230031500",
-    "numero": 558,
-    "tipoProceso": "SINGULAR",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 52531016,
-      "direccion": "calle 18 n 86 55 etapa 1 torre 5 apartamento 403 conjunto residencial parque de ostente",
-      "email": "marcearias@yahoo.com",
-      "tel": {
-        "fijo": null,
-        "celular": 3106736494
-      },
-      "primerNombre": "claudia",
-      "segundoNombre": "marcela",
-      "primerApellido": "arias",
-      "segundoApellido": "lópez"
+  "llaveProceso": "11001400305920230031500",
+  "numero": 558,
+  "tipoProceso": "SINGULAR",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 52531016,
+    "direccion": "calle 18 n 86 55 etapa 1 torre 5 apartamento 403 conjunto residencial parque de ostente",
+    "email": "marcearias@yahoo.com",
+    "tel": {
+      "fijo": null,
+      "celular": 3106736494
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-      "expediente": "11001400305920230031500",
-      "capitalAdeudado": 46537671,
-      "etapaProcesal": null,
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        3880005183,
-        "PAGARE SIN NUMERO T. MASTER CARD 5303720122061696"
-      ],
-      "radicado": "2023 -  00315",
-      "vencimientoPagare": [
-        null,
-        null,
-        "2026-04-03T05:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 52531016,
-    "procesos": [
-      {
-        "idProceso": 132018670,
-        "idConexion": 259,
-        "llaveProceso": "11001400305920230031500",
-        "fechaProceso": "2023-08-02T00:00:00",
-        "fechaUltimaActuacion": "2023-09-25T00:00:00",
-        "despacho": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA  S.A. | Demandado: CLAUDIA MARCELA ARIAS LOPEZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2023-09-25T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1881358620,
-      "llaveProceso": "11001400305920230031500",
-      "consActuacion": 6,
-      "fechaActuacion": "2023-09-25T00:00:00",
-      "actuacion": "Fijacion estado",
-      "anotacion": "Actuación registrada el 25/09/2023 a las 09:05:10.",
-      "fechaInicial": "2023-09-26T00:00:00",
-      "fechaFinal": "2023-09-26T00:00:00",
-      "fechaRegistro": "2023-09-25T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 1881358620,
-        "llaveProceso": "11001400305920230031500",
-        "consActuacion": 6,
-        "fechaActuacion": "2023-09-25T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 25/09/2023 a las 09:05:10.",
-        "fechaInicial": "2023-09-26T00:00:00",
-        "fechaFinal": "2023-09-26T00:00:00",
-        "fechaRegistro": "2023-09-25T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1881358610,
-        "llaveProceso": "11001400305920230031500",
-        "consActuacion": 5,
-        "fechaActuacion": "2023-09-25T00:00:00",
-        "actuacion": "Auto decreta medida cautelar",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-25T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1881358600,
-        "llaveProceso": "11001400305920230031500",
-        "consActuacion": 4,
-        "fechaActuacion": "2023-09-25T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 25/09/2023 a las 09:04:48.",
-        "fechaInicial": "2023-09-26T00:00:00",
-        "fechaFinal": "2023-09-26T00:00:00",
-        "fechaRegistro": "2023-09-25T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1881358590,
-        "llaveProceso": "11001400305920230031500",
-        "consActuacion": 3,
-        "fechaActuacion": "2023-09-25T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-25T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1831766840,
-        "llaveProceso": "11001400305920230031500",
-        "consActuacion": 2,
-        "fechaActuacion": "2023-08-02T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-02T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 1831766830,
-        "llaveProceso": "11001400305920230031500",
-        "consActuacion": 1,
-        "fechaActuacion": "2023-08-02T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 02/08/2023 a las 16:08:53",
-        "fechaInicial": "2023-08-02T00:00:00",
-        "fechaFinal": "2023-08-02T00:00:00",
-        "fechaRegistro": "2023-08-02T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+    "primerNombre": "claudia",
+    "segundoNombre": "marcela",
+    "primerApellido": "arias",
+    "segundoApellido": "lópez"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 1881358620,
-        "llaveProceso": "11001400305920230031500",
-        "consActuacion": 6,
-        "fechaActuacion": "2023-09-25T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 25/09/2023 a las 09:05:10.",
-        "fechaInicial": "2023-09-26T00:00:00",
-        "fechaFinal": "2023-09-26T00:00:00",
-        "fechaRegistro": "2023-09-25T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "expediente": "11001400305920230031500",
+    "capitalAdeudado": 46537671,
+    "etapaProcesal": null,
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      3880005183,
+      "PAGARE SIN NUMERO T. MASTER CARD 5303720122061696"
+    ],
+    "radicado": "2023 -  00315",
+    "vencimientoPagare": [
+      null,
+      null,
+      "2026-04-03T05:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 52531016,
+  "idProcesos": [
+    132018670
+  ],
+  "procesos": [
+    {
+      "idProceso": 132018670,
+      "idConexion": 259,
+      "llaveProceso": "11001400305920230031500",
+      "fechaProceso": "2023-08-02T00:00:00",
+      "fechaUltimaActuacion": "2023-09-25T00:00:00",
+      "despacho": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA  S.A. | Demandado: CLAUDIA MARCELA ARIAS LOPEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2023-09-25T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1881358620,
+    "llaveProceso": "11001400305920230031500",
+    "consActuacion": 6,
+    "fechaActuacion": "2023-09-25T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 25/09/2023 a las 09:05:10.",
+    "fechaInicial": "2023-09-26T00:00:00",
+    "fechaFinal": "2023-09-26T00:00:00",
+    "fechaRegistro": "2023-09-25T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6
   }
 }

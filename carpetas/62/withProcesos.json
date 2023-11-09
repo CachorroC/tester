@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      51018210
-    ],
     "llaveProceso": "11001400306320180016800",
     "numero": 62,
     "tipoProceso": "HIPOTECARIO",
@@ -46,6 +43,9 @@
       "telefono": "7340105//304410804"
     },
     "cc": 80722943,
+    "idProcesos": [
+      51018210
+    ],
     "procesos": [
       {
         "idProceso": 51018210,
@@ -55,7 +55,7 @@
         "fechaUltimaActuacion": "2021-11-09T00:00:00",
         "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: LUIS EDUARDO CARRANZA BUSTOS | Demandado: YURANY VERGARA NAGLES ",
+        "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: YURANY VERGARA NAGLES | Demandado: LUIS EDUARDO CARRANZA BUSTOS ",
         "esPrivado": false,
         "cantFilas": -1
       }

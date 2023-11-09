@@ -1,60 +1,56 @@
 {
-  "thener": {
-    "idProcesos": [],
-    "llaveProceso": "11001418900320170090900",
-    "numero": 10,
-    "tipoProceso": "PRENDARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 52396019,
-      "direccion": "carrera 109a no. 148-91 bogota",
-      "email": null,
-      "tel": {
-        "fijo": null,
-        "celular": 3202705987
-      },
-      "primerNombre": "marina",
-      "primerApellido": "morales",
-      "segundoApellido": "hernandez",
-      "segundoNombre": null
+  "llaveProceso": "11001418900320170090900",
+  "numero": 10,
+  "tipoProceso": "PRENDARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 52396019,
+    "direccion": "carrera 109a no. 148-91 bogota",
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": 3202705987
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-05-24T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
-      "expediente": "11001418900320170090900",
-      "capitalAdeudado": 15946341,
-      "etapaProcesal": "ADMISION",
-      "juzgados": [],
-      "municipio": "SUBA",
-      "obligacion": [
-        2405037
-      ],
-      "radicado": "2017 - 00909",
-      "vencimientoPagare": [
-        "2020-04-26T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
-    },
-    "cc": 52396019,
-    "procesos": [
-      {
-        "idProceso": 82112341,
-        "idConexion": 320,
-        "llaveProceso": "11001418900320170090900",
-        "fechaProceso": null,
-        "fechaUltimaActuacion": null,
-        "despacho": "JUZGADO 003 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ - LOCALIDAD SUBA",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
-        "esPrivado": true,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "marina",
+    "primerApellido": "morales",
+    "segundoApellido": "hernandez",
+    "segundoNombre": null
   },
-  "withActs": {
-    "StatusCode": 404,
-    "Message": "Error: no hay idProcesos correspondientes para hacer la busqueda de este proceso."
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "expediente": "11001418900320170090900",
+    "capitalAdeudado": 15946341,
+    "etapaProcesal": "ADMISION",
+    "juzgados": [],
+    "municipio": "SUBA",
+    "obligacion": [
+      2405037
+    ],
+    "radicado": "2017 - 00909",
+    "vencimientoPagare": [
+      "2020-04-26T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
+  },
+  "cc": 52396019,
+  "idProcesos": [
+    82112341
+  ],
+  "procesos": [
+    {
+      "idProceso": 82112341,
+      "idConexion": 320,
+      "llaveProceso": "11001418900320170090900",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 003 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ - LOCALIDAD SUBA",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    }
+  ]
 }

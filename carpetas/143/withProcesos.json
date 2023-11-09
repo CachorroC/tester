@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50654580
-    ],
     "llaveProceso": "11001400303420170108900",
     "numero": 143,
     "tipoProceso": "SINGULAR",
@@ -46,6 +43,9 @@
       "telefono": 8136733
     },
     "cc": 1023904524,
+    "idProcesos": [
+      50654580
+    ],
     "procesos": [
       {
         "idProceso": 50654580,
@@ -55,7 +55,7 @@
         "fechaUltimaActuacion": "2019-03-07T00:00:00",
         "despacho": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE MANUEL  ARDILA | Demandado: PAOLA ANDREA RODRIGUEZ MORALES ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PAOLA ANDREA RODRIGUEZ MORALES | Demandado: JOSE MANUEL  ARDILA ",
         "esPrivado": false,
         "cantFilas": -1
       }

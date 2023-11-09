@@ -1,158 +1,78 @@
 {
-  "thener": {
-    "idProcesos": [
-      51500810
-    ],
-    "llaveProceso": "11001400307620180005200",
-    "numero": 376,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "LiosJuridicos",
-    "deudor": {
-      "cedula": 11203111,
-      "direccion": "calle 128 96a - 05 casa 3 multifamiliar arrayanes",
-      "email": "roberto.rico.ruiz@gmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "roberto",
-      "primerApellido": "rico",
-      "segundoApellido": "ruiz",
-      "segundoNombre": null
+  "llaveProceso": "11001400307620180005200",
+  "numero": 376,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "LiosJuridicos",
+  "deudor": {
+    "cedula": 11203111,
+    "direccion": "calle 128 96a - 05 casa 3 multifamiliar arrayanes",
+    "email": "roberto.rico.ruiz@gmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2018-08-22T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400307620180005200",
-      "capitalAdeudado": 2730845464,
-      "etapaProcesal": "EL 22-08-2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        118010,
-        "377813183474353 // 4513074148699942 / 5491579209500691"
-      ],
-      "radicado": "2018 - 00052",
-      "vencimientoPagare": [
-        "2019-04-29T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "codeudor": {
-      "cedula": 52804144,
-      "direccion": "CALLE 128 96A - 05",
-      "nombre": "doris garzon talero",
-      "telefono": 3491122
-    },
-    "cc": 11203111,
-    "procesos": [
-      {
-        "idProceso": 51500810,
-        "idConexion": 259,
-        "llaveProceso": "11001400307620180005200",
-        "fechaProceso": "2018-11-23T00:00:00",
-        "fechaUltimaActuacion": "2023-08-11T00:00:00",
-        "despacho": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DORIS GARZON TALERO | Demandado: ROBERTO RICO RUIZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2023-08-11T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1842023050,
-      "llaveProceso": "11001400307620180005200",
-      "consActuacion": 4,
-      "fechaActuacion": "2023-08-11T00:00:00",
-      "actuacion": "Recepción memorial",
-      "anotacion": "SolicitudActora-RtaEsc ARCHIVADO en el PAQUETE No. 207/18         11/08/23 - AAG\r\n",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-08-11T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 4
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 1842023050,
-        "llaveProceso": "11001400307620180005200",
-        "consActuacion": 4,
-        "fechaActuacion": "2023-08-11T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "SolicitudActora-RtaEsc ARCHIVADO en el PAQUETE No. 207/18         11/08/23 - AAG\r\n",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-11T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      },
-      {
-        "idRegActuacion": 1820436670,
-        "llaveProceso": "11001400307620180005200",
-        "consActuacion": 3,
-        "fechaActuacion": "2023-07-24T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "SOLICITUD LINK APODERADO PARTE ACTORA, SE REMITE LINK Y CONSTANCIA 15 06 2023 HAR",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-07-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      },
-      {
-        "idRegActuacion": 1778368160,
-        "llaveProceso": "11001400307620180005200",
-        "consActuacion": 2,
-        "fechaActuacion": "2023-06-15T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": "Oficio Elaborado y Entregado",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-06-15T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      },
-      {
-        "idRegActuacion": 856481100,
-        "llaveProceso": "11001400307620180005200",
-        "consActuacion": 1,
-        "fechaActuacion": "2018-11-23T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 23/11/2018 a las 12:02:19",
-        "fechaInicial": "2018-11-23T00:00:00",
-        "fechaFinal": "2018-11-23T00:00:00",
-        "fechaRegistro": "2018-11-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      }
-    ]
+    "primerNombre": "roberto",
+    "primerApellido": "rico",
+    "segundoApellido": "ruiz",
+    "segundoNombre": null
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 1842023050,
-        "llaveProceso": "11001400307620180005200",
-        "consActuacion": 4,
-        "fechaActuacion": "2023-08-11T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "SolicitudActora-RtaEsc ARCHIVADO en el PAQUETE No. 207/18         11/08/23 - AAG\r\n",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-11T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2018-08-22T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400307620180005200",
+    "capitalAdeudado": 2730845464,
+    "etapaProcesal": "EL 22-08-2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      118010,
+      "377813183474353 // 4513074148699942 / 5491579209500691"
+    ],
+    "radicado": "2018 - 00052",
+    "vencimientoPagare": [
+      "2019-04-29T00:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "codeudor": {
+    "cedula": 52804144,
+    "direccion": "CALLE 128 96A - 05",
+    "nombre": "doris garzon talero",
+    "telefono": 3491122
+  },
+  "cc": 11203111,
+  "idProcesos": [
+    51500810
+  ],
+  "procesos": [
+    {
+      "idProceso": 51500810,
+      "idConexion": 259,
+      "llaveProceso": "11001400307620180005200",
+      "fechaProceso": "2018-11-23T00:00:00",
+      "fechaUltimaActuacion": "2023-08-11T00:00:00",
+      "despacho": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DORIS GARZON TALERO | Demandado: ROBERTO RICO RUIZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2023-08-11T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1842023050,
+    "llaveProceso": "11001400307620180005200",
+    "consActuacion": 4,
+    "fechaActuacion": "2023-08-11T00:00:00",
+    "actuacion": "Recepción memorial",
+    "anotacion": "SolicitudActora-RtaEsc ARCHIVADO en el PAQUETE No. 207/18         11/08/23 - AAG\r\n",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-08-11T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 4
   }
 }

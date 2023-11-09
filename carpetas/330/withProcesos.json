@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      113385910
-    ],
     "llaveProceso": "11001400307020170121800",
     "numero": 330,
     "tipoProceso": "HIPOTECARIO",
@@ -46,6 +43,9 @@
       "telefono": 3144200
     },
     "cc": 80185084,
+    "idProcesos": [
+      113385910
+    ],
     "procesos": [
       {
         "idProceso": 113385910,
@@ -55,7 +55,7 @@
         "fechaUltimaActuacion": "2021-09-22T00:00:00",
         "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JACKELLIN GONZALEZ VARGAS | Demandado: NELSON ARBEY CANGREJO SUAREZ ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NELSON ARBEY CANGREJO SUAREZ | Demandado: JACKELLIN GONZALEZ VARGAS ",
         "esPrivado": false,
         "cantFilas": -1
       }

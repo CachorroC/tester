@@ -22,7 +22,7 @@ export async function connectToDatabase() {
 
   const gamesCollection: Collection<IntCarpeta>
     = db.collection<IntCarpeta>(
-      'PruebasNuevo'
+      'Carpetas'
     );
   collections.carpetas = gamesCollection;
   console.log(

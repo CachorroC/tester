@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50715970
-    ],
     "llaveProceso": "11001400305920170087100",
     "numero": 248,
     "tipoProceso": "HIPOTECARIO",
@@ -46,6 +43,9 @@
       "telefono": "4786479 /3142987388"
     },
     "cc": 19475788,
+    "idProcesos": [
+      50715970
+    ],
     "procesos": [
       {
         "idProceso": 50715970,
@@ -55,7 +55,7 @@
         "fechaUltimaActuacion": "2017-11-22T00:00:00",
         "despacho": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FELIPE ANDRES CARRANZA | Demandado: HENRY CARRANZA ALBA ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HENRY CARRANZA ALBA | Demandado: FELIPE ANDRES CARRANZA ",
         "esPrivado": false,
         "cantFilas": -1
       }

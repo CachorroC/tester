@@ -1,6 +1,5 @@
 {
   "thener": {
-    "idProcesos": null,
     "llaveProceso": "1100140030442017099800",
     "numero": 9,
     "tipoProceso": "SINGULAR",
@@ -39,7 +38,8 @@
       ],
       "departamento": "CUNDINAMARCA"
     },
-    "cc": 1020731500
+    "cc": 1020731500,
+    "idProcesos": null
   },
   "withProcesos": {
     "StatusCode": 404,

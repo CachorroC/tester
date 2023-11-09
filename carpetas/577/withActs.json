@@ -1,153 +1,73 @@
 {
-  "thener": {
-    "idProcesos": [
-      132581550
-    ],
-    "llaveProceso": "11001400300520230084300",
-    "numero": 577,
-    "tipoProceso": "SINGULAR",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 1068973010,
-      "direccion": "cl 26 a sur 12 l 21 piso 3o. barrio san josé sur",
-      "email": "mayeflor21@hotmail.com",
-      "tel": {
-        "fijo": 4074724,
-        "celular": 3506837545
-      },
-      "primerNombre": "indira",
-      "segundoNombre": "mayerly",
-      "primerApellido": "florez",
-      "segundoApellido": "castro"
+  "llaveProceso": "11001400300520230084300",
+  "numero": 577,
+  "tipoProceso": "SINGULAR",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 1068973010,
+    "direccion": "cl 26 a sur 12 l 21 piso 3o. barrio san josé sur",
+    "email": "mayeflor21@hotmail.com",
+    "tel": {
+      "fijo": 4074724,
+      "celular": 3506837545
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
-      "expediente": "11001400300520230084300",
-      "capitalAdeudado": 26690131,
-      "etapaProcesal": null,
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        6670095919,
-        "102800851 X T.C. MASTER 5303710105146382 Y T.C. AMERICAN 0377816042003354"
-      ],
-      "radicado": "2023 - 00212",
-      "vencimientoPagare": [
-        "2026-02-04T05:00:00.000Z",
-        "2026-07-04T05:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 1068973010,
-    "procesos": [
-      {
-        "idProceso": 132581550,
-        "idConexion": 259,
-        "llaveProceso": "11001400300520230084300",
-        "fechaProceso": "2023-08-22T00:00:00",
-        "fechaUltimaActuacion": "2023-10-24T00:00:00",
-        "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA | Demandado: JUAN CAMILO VELASQUEZ PEREIRA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2023-10-24T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1915865360,
-      "llaveProceso": "11001400300520230084300",
-      "consActuacion": 4,
-      "fechaActuacion": "2023-10-24T00:00:00",
-      "actuacion": "Fijacion estado",
-      "anotacion": "Actuación registrada el 24/10/2023 a las 16:45:06.",
-      "fechaInicial": "2023-10-25T00:00:00",
-      "fechaFinal": "2023-10-25T00:00:00",
-      "fechaRegistro": "2023-10-24T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 4
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 1915865360,
-        "llaveProceso": "11001400300520230084300",
-        "consActuacion": 4,
-        "fechaActuacion": "2023-10-24T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 24/10/2023 a las 16:45:06.",
-        "fechaInicial": "2023-10-25T00:00:00",
-        "fechaFinal": "2023-10-25T00:00:00",
-        "fechaRegistro": "2023-10-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      },
-      {
-        "idRegActuacion": 1915865350,
-        "llaveProceso": "11001400300520230084300",
-        "consActuacion": 3,
-        "fechaActuacion": "2023-10-24T00:00:00",
-        "actuacion": "Auto niega mandamiento ejecutivo",
-        "anotacion": "Por Ausencia del Titulo",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-10-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      },
-      {
-        "idRegActuacion": 1854161690,
-        "llaveProceso": "11001400300520230084300",
-        "consActuacion": 2,
-        "fechaActuacion": "2023-08-23T00:00:00",
-        "actuacion": "Al Despacho Por Reparto",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      },
-      {
-        "idRegActuacion": 1852976720,
-        "llaveProceso": "11001400300520230084300",
-        "consActuacion": 1,
-        "fechaActuacion": "2023-08-22T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 22/08/2023 a las 12:07:02",
-        "fechaInicial": "2023-08-22T00:00:00",
-        "fechaFinal": "2023-08-22T00:00:00",
-        "fechaRegistro": "2023-08-22T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      }
-    ]
+    "primerNombre": "indira",
+    "segundoNombre": "mayerly",
+    "primerApellido": "florez",
+    "segundoApellido": "castro"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 1915865360,
-        "llaveProceso": "11001400300520230084300",
-        "consActuacion": 4,
-        "fechaActuacion": "2023-10-24T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 24/10/2023 a las 16:45:06.",
-        "fechaInicial": "2023-10-25T00:00:00",
-        "fechaFinal": "2023-10-25T00:00:00",
-        "fechaRegistro": "2023-10-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 4
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
+    "expediente": "11001400300520230084300",
+    "capitalAdeudado": 26690131,
+    "etapaProcesal": null,
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      6670095919,
+      "102800851 X T.C. MASTER 5303710105146382 Y T.C. AMERICAN 0377816042003354"
+    ],
+    "radicado": "2023 - 00212",
+    "vencimientoPagare": [
+      "2026-02-04T05:00:00.000Z",
+      "2026-07-04T05:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 1068973010,
+  "idProcesos": [
+    132581550
+  ],
+  "procesos": [
+    {
+      "idProceso": 132581550,
+      "idConexion": 259,
+      "llaveProceso": "11001400300520230084300",
+      "fechaProceso": "2023-08-22T00:00:00",
+      "fechaUltimaActuacion": "2023-10-24T00:00:00",
+      "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA | Demandado: JUAN CAMILO VELASQUEZ PEREIRA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2023-10-24T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1915865360,
+    "llaveProceso": "11001400300520230084300",
+    "consActuacion": 4,
+    "fechaActuacion": "2023-10-24T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 24/10/2023 a las 16:45:06.",
+    "fechaInicial": "2023-10-25T00:00:00",
+    "fechaFinal": "2023-10-25T00:00:00",
+    "fechaRegistro": "2023-10-24T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 4
   }
 }

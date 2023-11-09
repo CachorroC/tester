@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50800110
-    ],
     "llaveProceso": "11001400303620170112500",
     "numero": 307,
     "tipoProceso": "HIPOTECARIO",
@@ -41,6 +38,9 @@
       "departamento": "BOGOTÁ"
     },
     "cc": 79309509,
+    "idProcesos": [
+      50800110
+    ],
     "procesos": [
       {
         "idProceso": 50800110,

@@ -1,193 +1,71 @@
 {
-  "thener": {
-    "idProcesos": [
-      132206000
-    ],
-    "llaveProceso": "11001400306320230162700",
-    "numero": 569,
-    "tipoProceso": "SINGULAR",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 52514115,
-      "direccion": "tv 96 b 20 d 70 casa 3",
-      "email": "dsilvarar28@gmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": 3203477527
-      },
-      "primerNombre": "diana",
-      "segundoNombre": "patricia",
-      "primerApellido": "silvara",
-      "segundoApellido": "rodriguez"
+  "llaveProceso": "11001400306320230162700",
+  "numero": 569,
+  "tipoProceso": "SINGULAR",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 52514115,
+    "direccion": "tv 96 b 20 d 70 casa 3",
+    "email": "dsilvarar28@gmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": 3203477527
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
-      "expediente": "11001400306320230162700",
-      "capitalAdeudado": 28820731,
-      "etapaProcesal": null,
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        2990086384
-      ],
-      "radicado": "2023 - 00167",
-      "vencimientoPagare": [
-        "2026-03-18T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 52514115,
-    "procesos": [
-      {
-        "idProceso": 132206000,
-        "idConexion": 260,
-        "llaveProceso": "11001400306320230162700",
-        "fechaProceso": "2023-08-09T00:00:00",
-        "fechaUltimaActuacion": "2023-09-26T00:00:00",
-        "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: LORENA GUISELLE CHAPARRO LEAL ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2023-09-26T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1884183180,
-      "llaveProceso": "11001400306320230162700",
-      "consActuacion": 7,
-      "fechaActuacion": "2023-09-26T00:00:00",
-      "actuacion": "Entrega de oficios",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-09-26T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 7
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 1884183180,
-        "llaveProceso": "11001400306320230162700",
-        "consActuacion": 7,
-        "fechaActuacion": "2023-09-26T00:00:00",
-        "actuacion": "Entrega de oficios",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-26T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 1860261470,
-        "llaveProceso": "11001400306320230162700",
-        "consActuacion": 6,
-        "fechaActuacion": "2023-08-28T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 28/08/2023 a las 15:41:24.",
-        "fechaInicial": "2023-08-29T00:00:00",
-        "fechaFinal": "2023-08-29T00:00:00",
-        "fechaRegistro": "2023-08-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 1860261460,
-        "llaveProceso": "11001400306320230162700",
-        "consActuacion": 5,
-        "fechaActuacion": "2023-08-28T00:00:00",
-        "actuacion": "Auto decreta medida cautelar",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 1860261450,
-        "llaveProceso": "11001400306320230162700",
-        "consActuacion": 4,
-        "fechaActuacion": "2023-08-28T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 28/08/2023 a las 15:41:10.",
-        "fechaInicial": "2023-08-29T00:00:00",
-        "fechaFinal": "2023-08-29T00:00:00",
-        "fechaRegistro": "2023-08-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 1860261440,
-        "llaveProceso": "11001400306320230162700",
-        "consActuacion": 3,
-        "fechaActuacion": "2023-08-28T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 1838817020,
-        "llaveProceso": "11001400306320230162700",
-        "consActuacion": 2,
-        "fechaActuacion": "2023-08-09T00:00:00",
-        "actuacion": "Al Despacho Por Reparto",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-09T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 1838817010,
-        "llaveProceso": "11001400306320230162700",
-        "consActuacion": 1,
-        "fechaActuacion": "2023-08-09T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 09/08/2023 a las 11:54:48",
-        "fechaInicial": "2023-08-09T00:00:00",
-        "fechaFinal": "2023-08-09T00:00:00",
-        "fechaRegistro": "2023-08-09T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      }
-    ]
+    "primerNombre": "diana",
+    "segundoNombre": "patricia",
+    "primerApellido": "silvara",
+    "segundoApellido": "rodriguez"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 1884183180,
-        "llaveProceso": "11001400306320230162700",
-        "consActuacion": 7,
-        "fechaActuacion": "2023-09-26T00:00:00",
-        "actuacion": "Entrega de oficios",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-26T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "expediente": "11001400306320230162700",
+    "capitalAdeudado": 28820731,
+    "etapaProcesal": null,
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2990086384
+    ],
+    "radicado": "2023 - 00167",
+    "vencimientoPagare": [
+      "2026-03-18T00:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 52514115,
+  "idProcesos": [
+    132206000
+  ],
+  "procesos": [
+    {
+      "idProceso": 132206000,
+      "idConexion": 260,
+      "llaveProceso": "11001400306320230162700",
+      "fechaProceso": "2023-08-09T00:00:00",
+      "fechaUltimaActuacion": "2023-09-26T00:00:00",
+      "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: LORENA GUISELLE CHAPARRO LEAL ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2023-09-26T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1884183180,
+    "llaveProceso": "11001400306320230162700",
+    "consActuacion": 7,
+    "fechaActuacion": "2023-09-26T00:00:00",
+    "actuacion": "Entrega de oficios",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-09-26T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 7
   }
 }

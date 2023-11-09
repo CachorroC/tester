@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50801260
-    ],
     "llaveProceso": "11001400307320170141100",
     "numero": 304,
     "tipoProceso": "SINGULAR",
@@ -40,6 +37,9 @@
       "departamento": "BOGOTÁ"
     },
     "cc": 79892240,
+    "idProcesos": [
+      50801260
+    ],
     "procesos": [
       {
         "idProceso": 50801260,

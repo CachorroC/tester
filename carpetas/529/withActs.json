@@ -1,271 +1,79 @@
 {
-  "thener": {
-    "idProcesos": [
-      66898433
-    ],
-    "llaveProceso": "11001400305220190110300",
-    "numero": 529,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 2976219,
-      "direccion": "carrera 39 b no 20t-1 apto 303",
-      "email": "gcontreras@intecq.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "gonzalo",
-      "primerApellido": "contreras",
-      "segundoApellido": "poveda",
-      "segundoNombre": null
+  "llaveProceso": "11001400305220190110300",
+  "numero": 529,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 2976219,
+    "direccion": "carrera 39 b no 20t-1 apto 303",
+    "email": "gcontreras@intecq.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400305220190110300",
-      "capitalAdeudado": 3542453922,
-      "etapaProcesal": null,
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        20990171776,
-        "AUDIOPRESTAMO"
-      ],
-      "radicado": "2019 - 01103",
-      "vencimientoPagare": [
-        null,
-        null
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "codeudor": {
-      "cedula": 35402673,
-      "direccion": "TRANS 60 No 119-30 apto 418 t 5",
-      "nombre": "susana contreras poveda",
-      "telefono": 8060779
-    },
-    "cc": 2976219,
-    "procesos": [
-      {
-        "idProceso": 66898433,
-        "idConexion": 261,
-        "llaveProceso": "11001400305220190110300",
-        "fechaProceso": "2019-11-26T00:00:00",
-        "fechaUltimaActuacion": "2020-02-06T00:00:00",
-        "despacho": "JUZGADO 052 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SUSANA CONTRERAS POVEDA | Demandado: GONZALO CONTRERAS  POVEDA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2020-02-06T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 895745473,
-      "llaveProceso": "11001400305220190110300",
-      "consActuacion": 12,
-      "fechaActuacion": "2020-02-06T00:00:00",
-      "actuacion": "Retiro de demanada",
-      "anotacion": "renuncia a terminos y retira apoderada demandante ",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2020-02-06T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 12
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 895745473,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 12,
-        "fechaActuacion": "2020-02-06T00:00:00",
-        "actuacion": "Retiro de demanada",
-        "anotacion": "renuncia a terminos y retira apoderada demandante ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2020-02-06T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 894580873,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 11,
-        "fechaActuacion": "2020-01-31T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 31/01/2020 a las 14:30:36.",
-        "fechaInicial": "2020-02-03T00:00:00",
-        "fechaFinal": "2020-02-03T00:00:00",
-        "fechaRegistro": "2020-01-31T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 894580863,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 10,
-        "fechaActuacion": "2020-01-31T00:00:00",
-        "actuacion": "Auto rechaza demanda",
-        "anotacion": "POR NO SUBSANAR.",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2020-01-31T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 893025103,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 9,
-        "fechaActuacion": "2020-01-27T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "SIN SUBSANAR.",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2020-01-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 886333993,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 8,
-        "fechaActuacion": "2020-01-15T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 15/01/2020 a las 11:21:17.",
-        "fechaInicial": "2020-01-16T00:00:00",
-        "fechaFinal": "2020-01-16T00:00:00",
-        "fechaRegistro": "2020-01-15T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 886333983,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 7,
-        "fechaActuacion": "2020-01-15T00:00:00",
-        "actuacion": "Auto inadmite demanda",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2020-01-15T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 843644673,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 6,
-        "fechaActuacion": "2019-12-18T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "SUBSANACIÓN.",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-12-18T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 843464713,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 5,
-        "fechaActuacion": "2019-12-13T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "SUBSANACION ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-12-13T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 841592803,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 4,
-        "fechaActuacion": "2019-12-05T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 05/12/2019 a las 08:24:52.",
-        "fechaInicial": "2019-12-06T00:00:00",
-        "fechaFinal": "2019-12-06T00:00:00",
-        "fechaRegistro": "2019-12-05T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 841592793,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 3,
-        "fechaActuacion": "2019-12-05T00:00:00",
-        "actuacion": "Auto inadmite demanda",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-12-05T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 838670823,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 2,
-        "fechaActuacion": "2019-11-27T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "CALIFICAR.",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-11-26T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      },
-      {
-        "idRegActuacion": 838260823,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 1,
-        "fechaActuacion": "2019-11-26T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 26/11/2019 a las 09:56:46",
-        "fechaInicial": "2019-11-26T00:00:00",
-        "fechaFinal": "2019-11-26T00:00:00",
-        "fechaRegistro": "2019-11-26T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      }
-    ]
+    "primerNombre": "gonzalo",
+    "primerApellido": "contreras",
+    "segundoApellido": "poveda",
+    "segundoNombre": null
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 895745473,
-        "llaveProceso": "11001400305220190110300",
-        "consActuacion": 12,
-        "fechaActuacion": "2020-02-06T00:00:00",
-        "actuacion": "Retiro de demanada",
-        "anotacion": "renuncia a terminos y retira apoderada demandante ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2020-02-06T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 12
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400305220190110300",
+    "capitalAdeudado": 3542453922,
+    "etapaProcesal": null,
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      20990171776,
+      "AUDIOPRESTAMO"
+    ],
+    "radicado": "2019 - 01103",
+    "vencimientoPagare": [
+      null,
+      null
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "codeudor": {
+    "cedula": 35402673,
+    "direccion": "TRANS 60 No 119-30 apto 418 t 5",
+    "nombre": "susana contreras poveda",
+    "telefono": 8060779
+  },
+  "cc": 2976219,
+  "idProcesos": [
+    66898433
+  ],
+  "procesos": [
+    {
+      "idProceso": 66898433,
+      "idConexion": 261,
+      "llaveProceso": "11001400305220190110300",
+      "fechaProceso": "2019-11-26T00:00:00",
+      "fechaUltimaActuacion": "2020-02-06T00:00:00",
+      "despacho": "JUZGADO 052 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SUSANA CONTRERAS POVEDA | Demandado: GONZALO CONTRERAS  POVEDA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2020-02-06T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 895745473,
+    "llaveProceso": "11001400305220190110300",
+    "consActuacion": 12,
+    "fechaActuacion": "2020-02-06T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": "renuncia a terminos y retira apoderada demandante ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2020-02-06T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 12
   }
 }

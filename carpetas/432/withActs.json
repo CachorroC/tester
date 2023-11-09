@@ -1,346 +1,85 @@
 {
-  "thener": {
-    "idProcesos": [
-      51914550
-    ],
-    "llaveProceso": "11001400308120180058300",
-    "numero": 432,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 52757086,
-      "direccion": "carrera 5 n bis no 49-31 sur",
-      "email": "yannisf25@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "lilia",
-      "segundoNombre": "yanira",
-      "primerApellido": "diaz",
-      "segundoApellido": "caro"
+  "llaveProceso": "11001400308120180058300",
+  "numero": 432,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 52757086,
+    "direccion": "carrera 5 n bis no 49-31 sur",
+    "email": "yannisf25@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2018-05-09T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2018-04-27T00:00:00.000Z",
-      "expediente": "11001400308120180058300",
-      "capitalAdeudado": 30053475,
-      "etapaProcesal": null,
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        530091199,
-        377813482999910
-      ],
-      "radicado": "2018 - 00583",
-      "vencimientoPagare": [
-        "2023-04-05T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 52757086,
-    "procesos": [
-      {
-        "idProceso": 51914550,
-        "idConexion": 259,
-        "llaveProceso": "11001400308120180058300",
-        "fechaProceso": "2019-05-16T00:00:00",
-        "fechaUltimaActuacion": "2020-02-03T00:00:00",
-        "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LILIA YANIRA DIAZ CARO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      },
-      {
-        "idProceso": 81863401,
-        "idConexion": 320,
-        "llaveProceso": "11001400308120180058300",
-        "fechaProceso": null,
-        "fechaUltimaActuacion": null,
-        "despacho": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
-        "esPrivado": true,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2020-02-03T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 952412530,
-      "llaveProceso": "11001400308120180058300",
-      "consActuacion": 17,
-      "fechaActuacion": "2020-02-03T00:00:00",
-      "actuacion": "Archivo Definitivo",
-      "anotacion": "Proceso se envia para archivo defenitivo caja 287//karenmm//",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2020-02-03T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 17
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 952412530,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 17,
-        "fechaActuacion": "2020-02-03T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "Proceso se envia para archivo defenitivo caja 287//karenmm//",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2020-02-03T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 565437130,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 16,
-        "fechaActuacion": "2019-09-24T00:00:00",
-        "actuacion": "Constancia secretarial",
-        "anotacion": "\r\n SE  RECEPCIONA EL EXPEDIENTE  EN AREA  DE  ESTADOS CON 2CD.  STEFANNY ORTIZ\r\n\r\n",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-09-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 565437120,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 15,
-        "fechaActuacion": "2019-09-24T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 24/09/2019 a las 17:02:53.",
-        "fechaInicial": "2019-09-25T00:00:00",
-        "fechaFinal": "2019-09-25T00:00:00",
-        "fechaRegistro": "2019-09-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 565437110,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 14,
-        "fechaActuacion": "2019-09-24T00:00:00",
-        "actuacion": "Auto estese a lo dispuesto en auto anterior",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-09-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635650,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 13,
-        "fechaActuacion": "2019-09-11T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "PARA LO PERTINENTE  CD. 2  STEFANNY  ORTIZ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-09-11T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635640,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 12,
-        "fechaActuacion": "2019-09-10T00:00:00",
-        "actuacion": "Constancia secretarial",
-        "anotacion": "SE ENTREGA OFICIOS N°51344  A LA PARTE DEMANDADA LILIA YANIRA DIAZ CARO //TATIANA M.",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-09-10T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635630,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 11,
-        "fechaActuacion": "2019-09-10T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "Radicado No. 8158-2019, No. Reloj Radicador: 46307, Entidad o Señor(a): LILOIA YANIRA DIAZ CARO - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Terminaciones",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-09-10T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635620,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 10,
-        "fechaActuacion": "2019-09-02T00:00:00",
-        "actuacion": "Constancia secretarial",
-        "anotacion": "OFICIO FIRMADO PASA A LETRA-ANA MURILLO\r\n",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-09-02T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635610,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 9,
-        "fechaActuacion": "2019-08-28T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": "OFICIO 51344 DESEMBARGO// JOSE CASTELLANOS",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-08-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635600,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 8,
-        "fechaActuacion": "2019-08-21T00:00:00",
-        "actuacion": "Constancia secretarial",
-        "anotacion": "SE RECIBE DEL DESPACHO EL PROCESO CON 2 CUADERNOS // CLAUDIA ESCOBAR",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-08-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635590,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 7,
-        "fechaActuacion": "2019-08-21T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 21/08/2019 a las 09:48:15.",
-        "fechaInicial": "2019-08-22T00:00:00",
-        "fechaFinal": "2019-08-22T00:00:00",
-        "fechaRegistro": "2019-08-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635580,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 6,
-        "fechaActuacion": "2019-08-21T00:00:00",
-        "actuacion": "Auto termina proceso por Pago",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-08-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635570,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 5,
-        "fechaActuacion": "2019-08-06T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "PARA LO PERTINENTE //  2CD //YADIRA RODRIGUEZ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-08-06T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635560,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 4,
-        "fechaActuacion": "2019-08-01T00:00:00",
-        "actuacion": "Recepción memorial",
-        "anotacion": "Radicado No. 6843-2019, No. Reloj Radicador: 40378, Entidad o Señor(a): JUZGADO OCHENTA Y UNO CIVIL MUNICIPAL DE BOGOTA - LEONARDO LARROTA MEZA - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Terminaciones",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-08-01T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635550,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 3,
-        "fechaActuacion": "2019-05-27T00:00:00",
-        "actuacion": "A la Oficina de Ejecución por Reparto",
-        "anotacion": null,
-        "fechaInicial": "2019-05-27T00:00:00",
-        "fechaFinal": null,
-        "fechaRegistro": "2019-05-27T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635540,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 2,
-        "fechaActuacion": "2019-05-21T00:00:00",
-        "actuacion": "Remite Oficina de Ejecución",
-        "anotacion": "Remite oficina de ejecucion",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-05-16T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      },
-      {
-        "idRegActuacion": 857635530,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 1,
-        "fechaActuacion": "2019-05-16T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 16/05/2019 a las 09:36:30",
-        "fechaInicial": "2019-05-16T00:00:00",
-        "fechaFinal": "2019-05-16T00:00:00",
-        "fechaRegistro": "2019-05-16T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      }
-    ]
+    "primerNombre": "lilia",
+    "segundoNombre": "yanira",
+    "primerApellido": "diaz",
+    "segundoApellido": "caro"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 952412530,
-        "llaveProceso": "11001400308120180058300",
-        "consActuacion": 17,
-        "fechaActuacion": "2020-02-03T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "Proceso se envia para archivo defenitivo caja 287//karenmm//",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2020-02-03T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 17
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2018-05-09T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-04-27T00:00:00.000Z",
+    "expediente": "11001400308120180058300",
+    "capitalAdeudado": 30053475,
+    "etapaProcesal": null,
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      530091199,
+      377813482999910
+    ],
+    "radicado": "2018 - 00583",
+    "vencimientoPagare": [
+      "2023-04-05T00:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 52757086,
+  "idProcesos": [
+    51914550,
+    81863401
+  ],
+  "procesos": [
+    {
+      "idProceso": 51914550,
+      "idConexion": 259,
+      "llaveProceso": "11001400308120180058300",
+      "fechaProceso": "2019-05-16T00:00:00",
+      "fechaUltimaActuacion": "2020-02-03T00:00:00",
+      "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LILIA YANIRA DIAZ CARO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    },
+    {
+      "idProceso": 81863401,
+      "idConexion": 320,
+      "llaveProceso": "11001400308120180058300",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2020-02-03T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 952412530,
+    "llaveProceso": "11001400308120180058300",
+    "consActuacion": 17,
+    "fechaActuacion": "2020-02-03T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "Proceso se envia para archivo defenitivo caja 287//karenmm//",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2020-02-03T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 17
   }
 }

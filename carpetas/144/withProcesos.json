@@ -1,9 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50652400,
-      81647161
-    ],
     "llaveProceso": "11001400302620170087200",
     "numero": 144,
     "tipoProceso": "SINGULAR",
@@ -46,6 +42,10 @@
       "nombre": "jhon eder chacon gonzalez"
     },
     "cc": 52581513,
+    "idProcesos": [
+      50652400,
+      81647161
+    ],
     "procesos": [
       {
         "idProceso": 50652400,

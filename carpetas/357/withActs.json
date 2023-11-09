@@ -1,180 +1,72 @@
 {
-  "thener": {
-    "idProcesos": [
-      17054094
-    ],
-    "llaveProceso": "11001400305520170137800",
-    "numero": 357,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 1012330386,
-      "direccion": "calle 79 sur no 77 l- 72 int 59",
-      "email": "disayuri@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "diana",
-      "segundoNombre": "sayuri",
-      "primerApellido": "rodriguez",
-      "segundoApellido": "garcia"
+  "llaveProceso": "11001400305520170137800",
+  "numero": 357,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 1012330386,
+    "direccion": "calle 79 sur no 77 l- 72 int 59",
+    "email": "disayuri@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-12-12T05:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
-      "expediente": "11001400305520170137800",
-      "capitalAdeudado": 2214964128,
-      "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        146999
-      ],
-      "radicado": "2017 - 01378",
-      "vencimientoPagare": [
-        null,
-        null
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 1012330386,
-    "procesos": [
-      {
-        "idProceso": 17054094,
-        "idConexion": 263,
-        "llaveProceso": "11001400305520170137800",
-        "fechaProceso": "2017-12-14T00:00:00",
-        "fechaUltimaActuacion": "2018-05-16T00:00:00",
-        "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA SAYURI RODRIGUEZ GARCIA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2018-05-16T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 93354554,
-      "llaveProceso": "11001400305520170137800",
-      "consActuacion": 6,
-      "fechaActuacion": "2018-05-16T00:00:00",
-      "actuacion": "Archivo Definitivo",
-      "anotacion": "CAJA 481-2018",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2018-05-16T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 93354554,
-        "llaveProceso": "11001400305520170137800",
-        "consActuacion": 6,
-        "fechaActuacion": "2018-05-16T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "CAJA 481-2018",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-05-16T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 93354544,
-        "llaveProceso": "11001400305520170137800",
-        "consActuacion": 5,
-        "fechaActuacion": "2018-03-08T00:00:00",
-        "actuacion": "Retiro demanda admitida - Art.88",
-        "anotacion": "RETIRADA POR  DIANA TRIANA CAJA 481 DEL 2018",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-03-12T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 93354534,
-        "llaveProceso": "11001400305520170137800",
-        "consActuacion": 4,
-        "fechaActuacion": "2018-02-21T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 21/02/2018 a las 09:36:18.",
-        "fechaInicial": "2018-02-22T00:00:00",
-        "fechaFinal": "2018-02-22T00:00:00",
-        "fechaRegistro": "2018-02-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 93354524,
-        "llaveProceso": "11001400305520170137800",
-        "consActuacion": 3,
-        "fechaActuacion": "2018-02-21T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": "19.02.2018 LIBRA MANDAMIENTO DE PAGO, DECRETA embargo  (OFICIAR)",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-02-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 93354514,
-        "llaveProceso": "11001400305520170137800",
-        "consActuacion": 2,
-        "fechaActuacion": "2017-12-15T00:00:00",
-        "actuacion": "Al Despacho Por Reparto",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-12-15T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      },
-      {
-        "idRegActuacion": 93354504,
-        "llaveProceso": "11001400305520170137800",
-        "consActuacion": 1,
-        "fechaActuacion": "2017-12-14T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 14/12/2017 a las 11:27:45",
-        "fechaInicial": "2017-12-14T00:00:00",
-        "fechaFinal": "2017-12-14T00:00:00",
-        "fechaRegistro": "2017-12-14T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+    "primerNombre": "diana",
+    "segundoNombre": "sayuri",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "garcia"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 93354554,
-        "llaveProceso": "11001400305520170137800",
-        "consActuacion": 6,
-        "fechaActuacion": "2018-05-16T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "CAJA 481-2018",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2018-05-16T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 6
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-12-12T05:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
+    "expediente": "11001400305520170137800",
+    "capitalAdeudado": 2214964128,
+    "etapaProcesal": "NOTIFICACION",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      146999
+    ],
+    "radicado": "2017 - 01378",
+    "vencimientoPagare": [
+      null,
+      null
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 1012330386,
+  "idProcesos": [
+    17054094
+  ],
+  "procesos": [
+    {
+      "idProceso": 17054094,
+      "idConexion": 263,
+      "llaveProceso": "11001400305520170137800",
+      "fechaProceso": "2017-12-14T00:00:00",
+      "fechaUltimaActuacion": "2018-05-16T00:00:00",
+      "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA SAYURI RODRIGUEZ GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2018-05-16T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 93354554,
+    "llaveProceso": "11001400305520170137800",
+    "consActuacion": 6,
+    "fechaActuacion": "2018-05-16T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 481-2018",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-05-16T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6
   }
 }

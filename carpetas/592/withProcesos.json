@@ -1,6 +1,5 @@
 {
   "thener": {
-    "idProcesos": null,
     "llaveProceso": null,
     "numero": 592,
     "tipoProceso": "HIPOTECARIO",
@@ -49,7 +48,8 @@
       "nombre": "viviana martinez arias",
       "telefono": "F 4575011 CELULAR 3209005114"
     },
-    "cc": 79888775
+    "cc": 79888775,
+    "idProcesos": null
   },
   "withProcesos": {
     "StatusCode": 404,

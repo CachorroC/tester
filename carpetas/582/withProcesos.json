@@ -1,6 +1,5 @@
 {
   "thener": {
-    "idProcesos": [],
     "llaveProceso": "25430400300120230129500",
     "numero": 582,
     "tipoProceso": "SINGULAR",
@@ -38,6 +37,9 @@
       "departamento": "CUNDINAMARCA"
     },
     "cc": 7228260,
+    "idProcesos": [
+      160042431
+    ],
     "procesos": [
       {
         "idProceso": 160042431,

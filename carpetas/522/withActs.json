@@ -1,195 +1,73 @@
 {
-  "thener": {
-    "idProcesos": [
-      39001450
-    ],
-    "llaveProceso": "11001400306820190100400",
-    "numero": 522,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79359896,
-      "direccion": "calle 42 c no 78  a-17 sur",
-      "email": "dorapia@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "armando",
-      "primerApellido": "rodriguez",
-      "segundoApellido": "rodriguez",
-      "segundoNombre": null
+  "llaveProceso": "11001400306820190100400",
+  "numero": 522,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79359896,
+    "direccion": "calle 42 c no 78  a-17 sur",
+    "email": "dorapia@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
-      "expediente": "11001400306820190100400",
-      "capitalAdeudado": 2972304763,
-      "etapaProcesal": null,
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        20990146891,
-        450091594
-      ],
-      "radicado": "2019 - 01004",
-      "vencimientoPagare": [
-        null,
-        null
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 79359896,
-    "procesos": [
-      {
-        "idProceso": 39001450,
-        "idConexion": 262,
-        "llaveProceso": "11001400306820190100400",
-        "fechaProceso": "2019-06-04T00:00:00",
-        "fechaUltimaActuacion": "2022-06-03T00:00:00",
-        "despacho": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: ARMANDO RODRIGUEZ RODRIGUEZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2022-06-03T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1303040130,
-      "llaveProceso": "11001400306820190100400",
-      "consActuacion": 7,
-      "fechaActuacion": "2022-06-03T00:00:00",
-      "actuacion": "Archivo Definitivo",
-      "anotacion": "CAJA 955- ARCHIVO 22 DE FEBRERO DEL 2022",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2022-06-03T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 7
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 1303040130,
-        "llaveProceso": "11001400306820190100400",
-        "consActuacion": 7,
-        "fechaActuacion": "2022-06-03T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "CAJA 955- ARCHIVO 22 DE FEBRERO DEL 2022",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2022-06-03T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 559231420,
-        "llaveProceso": "11001400306820190100400",
-        "consActuacion": 6,
-        "fechaActuacion": "2019-08-05T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "CAJA 956",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-08-05T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 555956130,
-        "llaveProceso": "11001400306820190100400",
-        "consActuacion": 5,
-        "fechaActuacion": "2019-07-22T00:00:00",
-        "actuacion": "Retiro demanda",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-07-22T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 552213370,
-        "llaveProceso": "11001400306820190100400",
-        "consActuacion": 4,
-        "fechaActuacion": "2019-07-04T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 04/07/2019 a las 14:11:25.",
-        "fechaInicial": "2019-07-05T00:00:00",
-        "fechaFinal": "2019-07-05T00:00:00",
-        "fechaRegistro": "2019-07-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 552213360,
-        "llaveProceso": "11001400306820190100400",
-        "consActuacion": 3,
-        "fechaActuacion": "2019-07-04T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-07-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 368473180,
-        "llaveProceso": "11001400306820190100400",
-        "consActuacion": 2,
-        "fechaActuacion": "2019-06-06T00:00:00",
-        "actuacion": "Al Despacho Por Reparto",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2019-06-06T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      },
-      {
-        "idRegActuacion": 367918050,
-        "llaveProceso": "11001400306820190100400",
-        "consActuacion": 1,
-        "fechaActuacion": "2019-06-04T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 04/06/2019 a las 07:44:14",
-        "fechaInicial": "2019-06-04T00:00:00",
-        "fechaFinal": "2019-06-04T00:00:00",
-        "fechaRegistro": "2019-06-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      }
-    ]
+    "primerNombre": "armando",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "rodriguez",
+    "segundoNombre": null
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 1303040130,
-        "llaveProceso": "11001400306820190100400",
-        "consActuacion": 7,
-        "fechaActuacion": "2022-06-03T00:00:00",
-        "actuacion": "Archivo Definitivo",
-        "anotacion": "CAJA 955- ARCHIVO 22 DE FEBRERO DEL 2022",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2022-06-03T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 7
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
+    "expediente": "11001400306820190100400",
+    "capitalAdeudado": 2972304763,
+    "etapaProcesal": null,
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      20990146891,
+      450091594
+    ],
+    "radicado": "2019 - 01004",
+    "vencimientoPagare": [
+      null,
+      null
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 79359896,
+  "idProcesos": [
+    39001450
+  ],
+  "procesos": [
+    {
+      "idProceso": 39001450,
+      "idConexion": 262,
+      "llaveProceso": "11001400306820190100400",
+      "fechaProceso": "2019-06-04T00:00:00",
+      "fechaUltimaActuacion": "2022-06-03T00:00:00",
+      "despacho": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: ARMANDO RODRIGUEZ RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2022-06-03T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1303040130,
+    "llaveProceso": "11001400306820190100400",
+    "consActuacion": 7,
+    "fechaActuacion": "2022-06-03T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 955- ARCHIVO 22 DE FEBRERO DEL 2022",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2022-06-03T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 7
   }
 }

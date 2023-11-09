@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      19209750
-    ],
     "llaveProceso": "11001400306820170105100",
     "numero": 132,
     "tipoProceso": "HIPOTECARIO",
@@ -45,6 +42,9 @@
       "telefono": 8023973
     },
     "cc": 80049317,
+    "idProcesos": [
+      19209750
+    ],
     "procesos": [
       {
         "idProceso": 19209750,
@@ -54,7 +54,7 @@
         "fechaUltimaActuacion": "2018-06-18T00:00:00",
         "despacho": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: RUBIN EMILCE ROJAS CALDERON | Demandado: JOVANI EMILIO RESTREPO RAMIREZ ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JOVANI EMILIO RESTREPO RAMIREZ | Demandado: RUBIN EMILCE ROJAS CALDERON ",
         "esPrivado": false,
         "cantFilas": -1
       }

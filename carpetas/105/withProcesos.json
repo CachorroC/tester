@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50593940
-    ],
     "llaveProceso": "11001400300720170111300",
     "numero": 105,
     "tipoProceso": "SINGULAR",
@@ -49,6 +46,9 @@
       "nombre": "hernando estelio roldan upegui"
     },
     "cc": 15319344,
+    "idProcesos": [
+      50593940
+    ],
     "procesos": [
       {
         "idProceso": 50593940,
@@ -58,7 +58,7 @@
         "fechaUltimaActuacion": "2021-04-30T00:00:00",
         "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FERNANDO ESTELIO ROLDAN UPEGUI | Demandado: ESTELIO DE JESUS ROLDAN POZO ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ESTELIO DE JESUS ROLDAN POZO | Demandado: FERNANDO ESTELIO ROLDAN UPEGUI ",
         "esPrivado": false,
         "cantFilas": -1
       }

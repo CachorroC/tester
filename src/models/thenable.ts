@@ -89,8 +89,6 @@ export class CarpetaJudicial implements IntCarpeta {
 
   numero: number;
   llaveProceso: string | null;
-
-  idProcesos: number[] | null;
   demanda: IntDemanda;
   fecha?: Date;
   ultimaActuacion?: intActuacion;
@@ -101,7 +99,6 @@ export class CarpetaJudicial implements IntCarpeta {
   cc: number;
   procesos?: intProceso[];
 
-  actuaciones?: intActuacion[];
 
   [ x: string ]: unknown;
 
@@ -116,7 +113,7 @@ export class CarpetaJudicial implements IntCarpeta {
       numero,
     }: CarpetaRaw
   ) {
-    this.idProcesos = null;
+
     this.llaveProceso = llaveProceso
       ? llaveProceso
       : null;
@@ -135,8 +132,11 @@ export class CarpetaJudicial implements IntCarpeta {
     this.cc = Number(
       deudor.cedula
     );
+    this.idProcesos = null;
   }
+  idProcesos: number[] | null;
   //!SECTION
+
   get nombre() {
 
     return `${ this.deudor.primerNombre } ${ this.deudor.segundoNombre } ${ this.deudor.primerApellido } ${ this.deudor.segundoApellido }`;
@@ -211,8 +211,12 @@ export class CarpetaJudicial implements IntCarpeta {
       }
 
       this.procesos = json.procesos;
-      this.idProcesos = Array.from(
-        idProcesosSet
+      this.idProcesos = json.procesos.map(
+        (
+          prc
+        ) => {
+          return prc.idProceso;
+        }
       );
 
       this.demanda.despachos = Array.from(
@@ -325,9 +329,6 @@ export class CarpetaJudicial implements IntCarpeta {
         }
       }
 
-      this.actuaciones = Array.from(
-        actuacionesSet
-      );
 
       if ( actuacionesMap.size > 0 ) {
         const responseReturn: Data = {

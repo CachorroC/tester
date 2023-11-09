@@ -1,239 +1,75 @@
 {
-  "thener": {
-    "idProcesos": [
-      132102980
-    ],
-    "llaveProceso": "11001418901820230131100",
-    "numero": 554,
-    "tipoProceso": "SINGULAR",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 51976656,
-      "direccion": "carrera 102 no. 69 - 81 casa 5 conjunto residencial montes de tierra grata",
-      "email": "sandris73@hotmail.com",
-      "tel": {
-        "fijo": 2297973,
-        "celular": 3157352910
-      },
-      "primerNombre": "sandra",
-      "segundoNombre": "patricia",
-      "primerApellido": "alvarez",
-      "segundoApellido": "rodriguez"
+  "llaveProceso": "11001418901820230131100",
+  "numero": 554,
+  "tipoProceso": "SINGULAR",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 51976656,
+    "direccion": "carrera 102 no. 69 - 81 casa 5 conjunto residencial montes de tierra grata",
+    "email": "sandris73@hotmail.com",
+    "tel": {
+      "fijo": 2297973,
+      "celular": 3157352910
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-      "expediente": "11001418901820230131100",
-      "capitalAdeudado": 22111021,
-      "etapaProcesal": null,
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        2150100545,
-        "377844028390801 y 4513080181283486"
-      ],
-      "radicado": "2023 - 01311",
-      "vencimientoPagare": [
-        null,
-        null,
-        "2026-04-07T05:00:00.000Z",
-        "2026-06-03T05:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 51976656,
-    "procesos": [
-      {
-        "idProceso": 132102980,
-        "idConexion": 259,
-        "llaveProceso": "11001418901820230131100",
-        "fechaProceso": "2023-08-04T00:00:00",
-        "fechaUltimaActuacion": "2023-10-09T00:00:00",
-        "despacho": "JUZGADO 018 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA ALVAREZ RODRIGUEZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2023-10-09T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1897883780,
-      "llaveProceso": "11001418901820230131100",
-      "consActuacion": 10,
-      "fechaActuacion": "2023-10-09T00:00:00",
-      "actuacion": "Oficio Elaborado",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-10-09T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 10
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 1897883780,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 10,
-        "fechaActuacion": "2023-10-09T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-10-09T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 1879141660,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 9,
-        "fechaActuacion": "2023-09-13T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 21/09/2023 a las 15:32:22.",
-        "fechaInicial": "2023-09-22T00:00:00",
-        "fechaFinal": "2023-09-22T00:00:00",
-        "fechaRegistro": "2023-09-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 1879141650,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 8,
-        "fechaActuacion": "2023-09-13T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 1879141640,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 7,
-        "fechaActuacion": "2023-09-13T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 21/09/2023 a las 15:31:58.",
-        "fechaInicial": "2023-09-22T00:00:00",
-        "fechaFinal": "2023-09-22T00:00:00",
-        "fechaRegistro": "2023-09-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 1879141630,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 6,
-        "fechaActuacion": "2023-09-13T00:00:00",
-        "actuacion": "Auto decreta medida cautelar",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-21T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 1868593300,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 5,
-        "fechaActuacion": "2023-09-04T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-09-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 1855104180,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 4,
-        "fechaActuacion": "2023-08-23T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 23/08/2023 a las 15:16:27.",
-        "fechaInicial": "2023-08-24T00:00:00",
-        "fechaFinal": "2023-08-24T00:00:00",
-        "fechaRegistro": "2023-08-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 1855104170,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 3,
-        "fechaActuacion": "2023-08-23T00:00:00",
-        "actuacion": "Auto inadmite demanda",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-23T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 1842493530,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 2,
-        "fechaActuacion": "2023-08-11T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-08-11T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      },
-      {
-        "idRegActuacion": 1834915640,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 1,
-        "fechaActuacion": "2023-08-04T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 04/08/2023 a las 16:05:47",
-        "fechaInicial": "2023-08-04T00:00:00",
-        "fechaFinal": "2023-08-04T00:00:00",
-        "fechaRegistro": "2023-08-04T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      }
-    ]
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "alvarez",
+    "segundoApellido": "rodriguez"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 1897883780,
-        "llaveProceso": "11001418901820230131100",
-        "consActuacion": 10,
-        "fechaActuacion": "2023-10-09T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2023-10-09T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 10
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "expediente": "11001418901820230131100",
+    "capitalAdeudado": 22111021,
+    "etapaProcesal": null,
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2150100545,
+      "377844028390801 y 4513080181283486"
+    ],
+    "radicado": "2023 - 01311",
+    "vencimientoPagare": [
+      null,
+      null,
+      "2026-04-07T05:00:00.000Z",
+      "2026-06-03T05:00:00.000Z"
+    ],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 51976656,
+  "idProcesos": [
+    132102980
+  ],
+  "procesos": [
+    {
+      "idProceso": 132102980,
+      "idConexion": 259,
+      "llaveProceso": "11001418901820230131100",
+      "fechaProceso": "2023-08-04T00:00:00",
+      "fechaUltimaActuacion": "2023-10-09T00:00:00",
+      "despacho": "JUZGADO 018 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA ALVAREZ RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2023-10-09T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1897883780,
+    "llaveProceso": "11001418901820230131100",
+    "consActuacion": 10,
+    "fechaActuacion": "2023-10-09T00:00:00",
+    "actuacion": "Oficio Elaborado",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-10-09T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10
   }
 }

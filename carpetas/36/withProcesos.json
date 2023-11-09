@@ -1,6 +1,5 @@
 {
   "thener": {
-    "idProcesos": null,
     "llaveProceso": " 11001400306620170089200",
     "numero": 36,
     "tipoProceso": "HIPOTECARIO",
@@ -37,7 +36,8 @@
       ],
       "departamento": "CUNDINAMARCA"
     },
-    "cc": 52314251
+    "cc": 52314251,
+    "idProcesos": null
   },
   "withProcesos": {
     "StatusCode": 404,

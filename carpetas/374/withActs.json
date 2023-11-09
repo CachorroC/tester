@@ -1,66 +1,62 @@
 {
-  "thener": {
-    "idProcesos": [],
-    "llaveProceso": "11001400308620180006700",
-    "numero": 374,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 80850549,
-      "direccion": "calle 2 sur 16 - 36 manzana 104 // carrera 96 d 6 - 55 cada 81 et 1",
-      "email": "jjhoan_27@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "jhoan",
-      "segundoNombre": "antonio",
-      "primerApellido": "barajas",
-      "segundoApellido": "montenegro"
+  "llaveProceso": "11001400308620180006700",
+  "numero": 374,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 80850549,
+    "direccion": "calle 2 sur 16 - 36 manzana 104 // carrera 96 d 6 - 55 cada 81 et 1",
+    "email": "jjhoan_27@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400308620180006700",
-      "capitalAdeudado": 2700610092,
-      "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        121543
-      ],
-      "radicado": "2018 - 00067",
-      "vencimientoPagare": [
-        "2024-08-26T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
-    },
-    "codeudor": {
-      "cedula": 52936062,
-      "direccion": "CARRERA 96 D # 6 - 55 CASA 81 ESTAPA 1",
-      "nombre": "elizabeth yaya sierra",
-      "telefono": 7326829
-    },
-    "cc": 80850549,
-    "procesos": [
-      {
-        "idProceso": 81895161,
-        "idConexion": 320,
-        "llaveProceso": "11001400308620180006700",
-        "fechaProceso": null,
-        "fechaUltimaActuacion": null,
-        "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
-        "esPrivado": true,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "jhoan",
+    "segundoNombre": "antonio",
+    "primerApellido": "barajas",
+    "segundoApellido": "montenegro"
   },
-  "withActs": {
-    "StatusCode": 404,
-    "Message": "Error: no hay idProcesos correspondientes para hacer la busqueda de este proceso."
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400308620180006700",
+    "capitalAdeudado": 2700610092,
+    "etapaProcesal": "NOTIFICACION",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      121543
+    ],
+    "radicado": "2018 - 00067",
+    "vencimientoPagare": [
+      "2024-08-26T00:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA"
+  },
+  "codeudor": {
+    "cedula": 52936062,
+    "direccion": "CARRERA 96 D # 6 - 55 CASA 81 ESTAPA 1",
+    "nombre": "elizabeth yaya sierra",
+    "telefono": 7326829
+  },
+  "cc": 80850549,
+  "idProcesos": [
+    81895161
+  ],
+  "procesos": [
+    {
+      "idProceso": 81895161,
+      "idConexion": 320,
+      "llaveProceso": "11001400308620180006700",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    }
+  ]
 }

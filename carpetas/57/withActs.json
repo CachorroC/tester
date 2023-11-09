@@ -1,206 +1,70 @@
 {
-  "thener": {
-    "idProcesos": [
-      50512320
-    ],
-    "llaveProceso": "11001400302820170051200",
-    "numero": 57,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 39556705,
-      "direccion": "avda 80 no. 60-95  rio interior 3 apto 11",
-      "email": "ceciliaaponte@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": 3102279518
-      },
-      "primerNombre": "carmen",
-      "segundoNombre": "cecilia",
-      "primerApellido": "aponte",
-      "segundoApellido": "zambrano"
+  "llaveProceso": "11001400302820170051200",
+  "numero": 57,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 39556705,
+    "direccion": "avda 80 no. 60-95  rio interior 3 apto 11",
+    "email": "ceciliaaponte@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": 3102279518
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-06-15T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-      "expediente": "11001400302820170051200",
-      "capitalAdeudado": 28250394,
-      "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
-      "municipio": "BOGOTA",
-      "obligacion": [
-        "710084822//377813215734547",
-        "4513072329336110//5303713387599294"
-      ],
-      "radicado": "2017 - 00512",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ"
-    },
-    "cc": 39556705,
-    "procesos": [
-      {
-        "idProceso": 50512320,
-        "idConexion": 259,
-        "llaveProceso": "11001400302820170051200",
-        "fechaProceso": "2017-06-16T00:00:00",
-        "fechaUltimaActuacion": "2017-09-01T00:00:00",
-        "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARMEN CECILIA APONTE ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ],
-    "fecha": "2017-09-01T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 725401850,
-      "llaveProceso": "11001400302820170051200",
-      "consActuacion": 8,
-      "fechaActuacion": "2017-09-01T00:00:00",
-      "actuacion": "Retiro demanda admitida - Art.88",
-      "anotacion": "RETIRADA POR LA APODERADA DE LA PARTE ACTORA ",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2017-09-01T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 8
-    },
-    "actuaciones": [
-      {
-        "idRegActuacion": 725401850,
-        "llaveProceso": "11001400302820170051200",
-        "consActuacion": 8,
-        "fechaActuacion": "2017-09-01T00:00:00",
-        "actuacion": "Retiro demanda admitida - Art.88",
-        "anotacion": "RETIRADA POR LA APODERADA DE LA PARTE ACTORA ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-09-01T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 725401840,
-        "llaveProceso": "11001400302820170051200",
-        "consActuacion": 7,
-        "fechaActuacion": "2017-07-24T00:00:00",
-        "actuacion": "Oficio Elaborado",
-        "anotacion": "OFICIO No: 1372 EMBARGO ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-07-24T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 725401830,
-        "llaveProceso": "11001400302820170051200",
-        "consActuacion": 6,
-        "fechaActuacion": "2017-06-28T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 28/06/2017 a las 16:23:57.",
-        "fechaInicial": "2017-06-29T00:00:00",
-        "fechaFinal": "2017-06-29T00:00:00",
-        "fechaRegistro": "2017-06-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 725401820,
-        "llaveProceso": "11001400302820170051200",
-        "consActuacion": 5,
-        "fechaActuacion": "2017-06-28T00:00:00",
-        "actuacion": "Auto decreta medida cautelar",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-06-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 725401810,
-        "llaveProceso": "11001400302820170051200",
-        "consActuacion": 4,
-        "fechaActuacion": "2017-06-28T00:00:00",
-        "actuacion": "Fijacion estado",
-        "anotacion": "Actuación registrada el 28/06/2017 a las 16:22:49.",
-        "fechaInicial": "2017-06-29T00:00:00",
-        "fechaFinal": "2017-06-29T00:00:00",
-        "fechaRegistro": "2017-06-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 725401800,
-        "llaveProceso": "11001400302820170051200",
-        "consActuacion": 3,
-        "fechaActuacion": "2017-06-28T00:00:00",
-        "actuacion": "Auto libra mandamiento ejecutivo",
-        "anotacion": null,
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-06-28T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 725401790,
-        "llaveProceso": "11001400302820170051200",
-        "consActuacion": 2,
-        "fechaActuacion": "2017-06-20T00:00:00",
-        "actuacion": "Al despacho",
-        "anotacion": "PARA CALIFICAR",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-06-20T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      },
-      {
-        "idRegActuacion": 725401780,
-        "llaveProceso": "11001400302820170051200",
-        "consActuacion": 1,
-        "fechaActuacion": "2017-06-16T00:00:00",
-        "actuacion": " Radicación de Proceso",
-        "anotacion": "Actuación de  Radicación de Proceso  realizada el 16/06/2017 a las 16:03:14",
-        "fechaInicial": "2017-06-16T00:00:00",
-        "fechaFinal": "2017-06-16T00:00:00",
-        "fechaRegistro": "2017-06-16T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      }
-    ]
+    "primerNombre": "carmen",
+    "segundoNombre": "cecilia",
+    "primerApellido": "aponte",
+    "segundoApellido": "zambrano"
   },
-  "withActs": {
-    "StatusCode": 200,
-    "Message": "ok",
-    "actuaciones": [
-      {
-        "idRegActuacion": 725401850,
-        "llaveProceso": "11001400302820170051200",
-        "consActuacion": 8,
-        "fechaActuacion": "2017-09-01T00:00:00",
-        "actuacion": "Retiro demanda admitida - Art.88",
-        "anotacion": "RETIRADA POR LA APODERADA DE LA PARTE ACTORA ",
-        "fechaInicial": null,
-        "fechaFinal": null,
-        "fechaRegistro": "2017-09-01T00:00:00",
-        "codRegla": "00                              ",
-        "conDocumentos": false,
-        "cant": 8
-      }
-    ]
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-06-15T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "expediente": "11001400302820170051200",
+    "capitalAdeudado": 28250394,
+    "etapaProcesal": "NOTIFICACION",
+    "juzgados": [],
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "710084822//377813215734547",
+      "4513072329336110//5303713387599294"
+    ],
+    "radicado": "2017 - 00512",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ"
+  },
+  "cc": 39556705,
+  "idProcesos": [
+    50512320
+  ],
+  "procesos": [
+    {
+      "idProceso": 50512320,
+      "idConexion": 259,
+      "llaveProceso": "11001400302820170051200",
+      "fechaProceso": "2017-06-16T00:00:00",
+      "fechaUltimaActuacion": "2017-09-01T00:00:00",
+      "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARMEN CECILIA APONTE ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "fecha": "2017-09-01T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 725401850,
+    "llaveProceso": "11001400302820170051200",
+    "consActuacion": 8,
+    "fechaActuacion": "2017-09-01T00:00:00",
+    "actuacion": "Retiro demanda admitida - Art.88",
+    "anotacion": "RETIRADA POR LA APODERADA DE LA PARTE ACTORA ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-09-01T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 8
   }
 }

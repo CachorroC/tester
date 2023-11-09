@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50518680
-    ],
     "llaveProceso": "11001400304520170077400",
     "numero": 110,
     "tipoProceso": "SINGULAR",
@@ -46,6 +43,9 @@
       "telefono": "3142888137(1) 3107509193 (2)"
     },
     "cc": 46677093,
+    "idProcesos": [
+      50518680
+    ],
     "procesos": [
       {
         "idProceso": 50518680,
@@ -55,7 +55,7 @@
         "fechaUltimaActuacion": "2022-11-10T00:00:00",
         "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JORGE ALBEIRO RONCANCIO BENITEZ | Demandado: MARLENE RONANCIOIO BENITEZ | Demandado: VICTOR MANUEL PERILLA CASTAÑEDA ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: MARLENE RONANCIOIO BENITEZ | Demandado: VICTOR MANUEL PERILLA CASTAÑEDA | Demandado: JORGE ALBEIRO RONCANCIO BENITEZ ",
         "esPrivado": false,
         "cantFilas": -1
       }

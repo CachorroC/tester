@@ -1,6 +1,5 @@
 {
   "thener": {
-    "idProcesos": null,
     "llaveProceso": "2590400300220170063100",
     "numero": 262,
     "tipoProceso": "SINGULAR",
@@ -43,7 +42,8 @@
       "direccion": "DIAGONAL 1C No 25 B - 18  FUSAGASUFA",
       "nombre": "rafael antonio moreno franco"
     },
-    "cc": 1069737167
+    "cc": 1069737167,
+    "idProcesos": null
   },
   "withProcesos": {
     "StatusCode": 404,

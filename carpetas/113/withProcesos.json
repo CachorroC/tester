@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50883240
-    ],
     "llaveProceso": "11001400303020170181700",
     "numero": 113,
     "tipoProceso": "HIPOTECARIO",
@@ -46,6 +43,9 @@
       "telefono": 6210515
     },
     "cc": 53178044,
+    "idProcesos": [
+      50883240
+    ],
     "procesos": [
       {
         "idProceso": 50883240,
@@ -55,7 +55,7 @@
         "fechaUltimaActuacion": "2019-09-25T00:00:00",
         "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A HITOS | Demandado: SANDRA BIBIANA URREGO MAYORGA | Demandado: MIRIAN MAYORGA ",
+        "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A HITOS | Demandado: MIRIAN MAYORGA | Demandado: SANDRA BIBIANA URREGO MAYORGA ",
         "esPrivado": false,
         "cantFilas": -1
       }

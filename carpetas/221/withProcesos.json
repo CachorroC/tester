@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50684250
-    ],
     "llaveProceso": "11001400301320170115700",
     "numero": 221,
     "tipoProceso": "HIPOTECARIO",
@@ -46,6 +43,9 @@
       "telefono": "3063338 // 3142580589"
     },
     "cc": 52192430,
+    "idProcesos": [
+      50684250
+    ],
     "procesos": [
       {
         "idProceso": 50684250,
@@ -55,7 +55,7 @@
         "fechaUltimaActuacion": "2021-10-13T00:00:00",
         "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S. A. HITOS  endosataria en propiedad del BANCO DAVIVIENDA S.A. | Demandado: BEATRIZ HELENA MACHADO | Demandado: HERNANDO GONZALEZ GARCIA ",
+        "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S. A. HITOS  endosataria en propiedad del BANCO DAVIVIENDA S.A. | Demandado: HERNANDO GONZALEZ GARCIA | Demandado: BEATRIZ HELENA MACHADO ",
         "esPrivado": false,
         "cantFilas": -1
       }

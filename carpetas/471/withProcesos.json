@@ -1,6 +1,5 @@
 {
   "thener": {
-    "idProcesos": null,
     "llaveProceso": "1100140030152018007100",
     "numero": 471,
     "tipoProceso": "HIPOTECARIO",
@@ -44,7 +43,8 @@
       "nombre": "adriana mireya aguilar",
       "telefono": 3166997083
     },
-    "cc": 80742720
+    "cc": 80742720,
+    "idProcesos": null
   },
   "withProcesos": {
     "StatusCode": 404,

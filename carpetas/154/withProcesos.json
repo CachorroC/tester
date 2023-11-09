@@ -1,8 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      50688820
-    ],
     "llaveProceso": "11001400303620170084100",
     "numero": 154,
     "tipoProceso": "SINGULAR",
@@ -49,6 +46,9 @@
       "telefono": 3143903
     },
     "cc": 79840930,
+    "idProcesos": [
+      50688820
+    ],
     "procesos": [
       {
         "idProceso": 50688820,
@@ -58,7 +58,7 @@
         "fechaUltimaActuacion": "2023-08-16T00:00:00",
         "despacho": "JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ELDORA ANDREA TRIANA SILVA | Demandado: GABRIEL EDUARDO MEJIA LADINO ",
+        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GABRIEL EDUARDO MEJIA LADINO | Demandado: ELDORA ANDREA TRIANA SILVA ",
         "esPrivado": false,
         "cantFilas": -1
       }

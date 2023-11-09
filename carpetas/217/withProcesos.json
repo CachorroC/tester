@@ -1,9 +1,5 @@
 {
   "thener": {
-    "idProcesos": [
-      51315290,
-      57718874
-    ],
     "llaveProceso": "11001310303720170045300",
     "numero": 217,
     "tipoProceso": "HIPOTECARIO",
@@ -40,6 +36,10 @@
       "departamento": "BOGOTÁ"
     },
     "cc": 52328942,
+    "idProcesos": [
+      51315290,
+      57718874
+    ],
     "procesos": [
       {
         "idProceso": 51315290,

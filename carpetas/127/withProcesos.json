@@ -1,6 +1,5 @@
 {
   "thener": {
-    "idProcesos": null,
     "llaveProceso": "110014003080201E+22",
     "numero": 127,
     "tipoProceso": "PRENDARIO",
@@ -47,7 +46,8 @@
       "cedula": 79481751,
       "nombre": "edgar efren parra"
     },
-    "cc": 41610065
+    "cc": 41610065,
+    "idProcesos": null
   },
   "withProcesos": {
     "StatusCode": 404,
