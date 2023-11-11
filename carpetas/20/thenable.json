@@ -14,11 +14,7 @@
     "primerNombre": "andres",
     "segundoNombre": "mauricio",
     "primerApellido": "fernandez",
-    "segundoApellido": [
-      "de",
-      "soto",
-      "dominguez"
-    ]
+    "segundoApellido": ["de", "soto", "dominguez"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -29,13 +25,9 @@
     "capitalAdeudado": 58957417,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [
-      2551197
-    ],
+    "obligacion": [2551197],
     "radicado": "2017 - 00483",
-    "vencimientoPagare": [
-      "2020-04-25T00:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2020-04-25T00:00:00.000Z"],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

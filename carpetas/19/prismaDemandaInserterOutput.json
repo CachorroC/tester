@@ -1,1 +1,20 @@
-{"StatusCode":200,"Message":"ok","data":{"id":474,"departamento":"BOGOTÁ","capitalAdeudado":"1539150811","entregaGarantiasAbogado":"2017-09-19T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":null,"fechaPresentacion":null,"municipio":"BOGOTA","obligacion":["103560"],"radicado":"2017 - 01755","vencimientoPagare":["2022-12-06T00:00:00.000Z"],"expediente":"11001400302120170175500","carpetaNumero":19}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 474,
+    "departamento": "BOGOTÁ",
+    "capitalAdeudado": "1539150811",
+    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": ["103560"],
+    "radicado": "2017 - 01755",
+    "vencimientoPagare": ["2022-12-06T00:00:00.000Z"],
+    "expediente": "11001400302120170175500",
+    "carpetaNumero": 19
+  }
+}

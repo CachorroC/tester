@@ -20,7 +20,7 @@ export class PrismaCarpeta implements Carpeta {
       llaveProceso,
       idProcesos,
       category,
-    }: IntCarpeta
+    }: IntCarpeta 
   ) {
     this.numero = numero;
     this.nombre = nombre;
@@ -37,7 +37,7 @@ export class PrismaDeudor implements Deudor {
   primerNombre: string;
   primerApellido: string;
   segundoNombre: string | null;
-  segundoApellido: string  | null;
+  segundoApellido: string | null;
   id!: number;
   cedula: string;
   direccion: string | null;
@@ -61,7 +61,7 @@ export class PrismaDeudor implements Deudor {
     this.primerNombre = primerNombre;
     this.segundoNombre = segundoNombre;
     this.primerApellido = primerApellido;
-    this.segundoApellido =segundoApellido
+    this.segundoApellido = segundoApellido
       ? typeof segundoApellido === 'string'
         ? segundoApellido
         : segundoApellido.toString()
@@ -72,16 +72,15 @@ export class PrismaDeudor implements Deudor {
     this.telFijo = tel.fijo;
     this.carpetaNumero = carpetaNumero;
     this.cedula = String(
-      cedula
+      cedula 
     );
-
   }
 
   get nombre() {
     return `${ this.primerNombre } ${ this.segundoNombre } ${ this.primerApellido } ${ this.segundoApellido }`;
   }
   set nombre(
-    nom
+    nom 
   ) {
     [
       this.primerNombre,
@@ -89,7 +88,7 @@ export class PrismaDeudor implements Deudor {
       this.primerApellido,
       this.segundoApellido,
     ] = nom.split(
-      ' '
+      ' ' 
     );
   }
 }
@@ -142,24 +141,24 @@ export class PrismaDemanda implements Demanda {
     );
     this.obligacion = obligacion.map(
       (
-        obl
+        obl 
       ) => {
         return String(
-          obl
+          obl 
         );
-      }
+      } 
     );
     this.departamento = departamento;
     this.vencimientoPagare = vencimientoPagare.map(
       (
-        venc
+        venc 
       ) => {
         if ( !venc || venc === null ) {
           return new Date();
         }
 
         return venc;
-      }
+      } 
     );
   }
 }

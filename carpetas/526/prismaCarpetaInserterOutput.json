@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":201,"numero":526,"llaveProceso":"25175400300120190030400","nombre":"cristian david gutierrez rodriguez","idProcesos":[],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 201,
+    "numero": 526,
+    "llaveProceso": "25175400300120190030400",
+    "nombre": "cristian david gutierrez rodriguez",
+    "idProcesos": [],
+    "category": "Terminados"
+  }
+}

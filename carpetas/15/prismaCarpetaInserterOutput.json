@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":246,"numero":15,"llaveProceso":"11001400307220170065400","nombre":"silvia susana sierra castañeda","idProcesos":[50468310],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 246,
+    "numero": 15,
+    "llaveProceso": "11001400307220170065400",
+    "nombre": "silvia susana sierra castañeda",
+    "idProcesos": [50468310],
+    "category": "Terminados"
+  }
+}

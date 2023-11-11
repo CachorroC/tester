@@ -8,15 +8,15 @@ import { Prisma, PrismaClient } from '@prisma/client';
 const client = new PrismaClient();
 
 export async function insertCarpetaInPrisma(
-  carpeta: IntCarpeta
+  carpeta: IntCarpeta 
 ) {
   const {
-    numero, procesos, ultimaActuacion
+    numero, procesos, ultimaActuacion 
   } = carpeta;
 
   try {
     const newPrismaCarpeta = new PrismaCarpeta(
-      carpeta
+      carpeta 
     );
     let newCarpeta: Prisma.CarpetaCreateInput;
 
@@ -29,34 +29,34 @@ export async function insertCarpetaInPrisma(
           createMany: {
             data: procesos.map(
               (
-                proceso
+                proceso 
               ) => {
                 return {
                   ...proceso,
                   fechaProceso: proceso.fechaProceso
                     ? new Date(
-                      proceso.fechaProceso
+                      proceso.fechaProceso 
                     )
                     : null,
                   fechaUltimaActuacion: proceso.fechaUltimaActuacion
                     ? new Date(
-                      proceso.fechaUltimaActuacion
+                      proceso.fechaUltimaActuacion 
                     )
                     : null,
                 };
-              }
+              } 
             ),
           },
         },
         juzgados: {
           create: procesos.map(
             (
-              proceso
+              proceso 
             ) => {
               return new NewJuzgado(
-                proceso
+                proceso 
               );
-            }
+            } 
           ),
         },
       };
@@ -67,22 +67,22 @@ export async function insertCarpetaInPrisma(
           createMany: {
             data: procesos.map(
               (
-                proceso
+                proceso 
               ) => {
                 return {
                   ...proceso,
                   fechaProceso: proceso.fechaProceso
                     ? new Date(
-                      proceso.fechaProceso
+                      proceso.fechaProceso 
                     )
                     : null,
                   fechaUltimaActuacion: proceso.fechaUltimaActuacion
                     ? new Date(
-                      proceso.fechaUltimaActuacion
+                      proceso.fechaUltimaActuacion 
                     )
-                    : null
+                    : null,
                 };
-              }
+              } 
             ),
           },
         },
@@ -90,31 +90,28 @@ export async function insertCarpetaInPrisma(
           create: {
             ...ultimaActuacion,
             fechaActuacion: new Date(
-              ultimaActuacion.fechaActuacion
+              ultimaActuacion.fechaActuacion 
             ),
             fechaRegistro: new Date(
-              ultimaActuacion.fechaRegistro
+              ultimaActuacion.fechaRegistro 
             ),
             fechaInicial: ultimaActuacion.fechaInicial
               ? new Date(
-                ultimaActuacion.fechaInicial
+                ultimaActuacion.fechaInicial 
               )
               : null,
             fechaFinal: ultimaActuacion.fechaFinal
               ? new Date(
-                ultimaActuacion.fechaFinal
+                ultimaActuacion.fechaFinal 
               )
               : null,
             anotacion: ultimaActuacion.anotacion
               ? ultimaActuacion.anotacion
-              : null
-          }
-        }
-
-
+              : null,
+          },
+        },
       };
     }
-
 
     const createCarpeta = await client.carpeta.upsert(
       {
@@ -123,7 +120,7 @@ export async function insertCarpetaInPrisma(
         },
         create: newPrismaCarpeta,
         update: newCarpeta,
-      }
+      } 
     );
     return {
       StatusCode: 200,
@@ -139,7 +136,7 @@ export async function insertCarpetaInPrisma(
               `${ numero } ==> Unique constraint failed on the ${
                 e.message
               } ${ JSON.stringify(
-                e.meta, null, 2
+                e.meta, null, 2 
               ) }`,
             );
             return {
@@ -169,7 +166,7 @@ export async function insertCarpetaInPrisma(
               `${ numero } ==> code: ${ e.code } message: ${
                 e.message
               } meta: ${ JSON.stringify(
-                e.meta, null, 2
+                e.meta, null, 2 
               ) }`,
             );
             return {
@@ -185,22 +182,22 @@ export async function insertCarpetaInPrisma(
       StatusCode: 400,
       Message   : `error at ${ e }`,
       data      : JSON.stringify(
-        e, null, 2
+        e, null, 2 
       ),
     };
   }
 }
 
 export async function insertDemandaInPrisma(
-  carpeta: IntCarpeta
+  carpeta: IntCarpeta 
 ) {
   const {
-    numero, demanda
+    numero, demanda 
   } = carpeta;
 
   try {
     const newPrismaDemanda = new PrismaDemanda(
-      demanda, numero
+      demanda, numero 
     );
 
     const createDemanda = await client.demanda.upsert(
@@ -210,7 +207,7 @@ export async function insertDemandaInPrisma(
         },
         create: newPrismaDemanda,
         update: newPrismaDemanda,
-      }
+      } 
     );
     return {
       StatusCode: 200,
@@ -226,7 +223,7 @@ export async function insertDemandaInPrisma(
               `${ numero } ==> Unique constraint failed on the ${
                 e.message
               } ${ JSON.stringify(
-                e.meta, null, 2
+                e.meta, null, 2 
               ) }`,
             );
             return {
@@ -256,7 +253,7 @@ export async function insertDemandaInPrisma(
               `${ numero } ==> code: ${ e.code } message: ${
                 e.message
               } meta: ${ JSON.stringify(
-                e.meta, null, 2
+                e.meta, null, 2 
               ) }`,
             );
             return {
@@ -272,22 +269,22 @@ export async function insertDemandaInPrisma(
       StatusCode: 400,
       Message   : `error at ${ e }`,
       data      : JSON.stringify(
-        e, null, 2
+        e, null, 2 
       ),
     };
   }
 }
 
 export async function insertDeudorInPrisma(
-  carpeta: IntCarpeta
+  carpeta: IntCarpeta 
 ) {
   const {
-    numero, deudor
+    numero, deudor 
   } = carpeta;
 
   try {
     const newPrismaDeudor = new PrismaDeudor(
-      deudor, numero
+      deudor, numero 
     );
 
     const createDeudor = await client.demanda.upsert(
@@ -297,7 +294,7 @@ export async function insertDeudorInPrisma(
         },
         create: newPrismaDeudor,
         update: newPrismaDeudor,
-      }
+      } 
     );
     return {
       StatusCode: 200,
@@ -313,7 +310,7 @@ export async function insertDeudorInPrisma(
               `${ numero } ==> Unique constraint failed on the ${
                 e.message
               } ${ JSON.stringify(
-                e.meta, null, 2
+                e.meta, null, 2 
               ) }`,
             );
             return {
@@ -343,7 +340,7 @@ export async function insertDeudorInPrisma(
               `${ numero } ==> code: ${ e.code } message: ${
                 e.message
               } meta: ${ JSON.stringify(
-                e.meta, null, 2
+                e.meta, null, 2 
               ) }`,
             );
             return {
@@ -359,7 +356,7 @@ export async function insertDeudorInPrisma(
       StatusCode: 400,
       Message   : `error at ${ e }`,
       data      : JSON.stringify(
-        e, null, 2
+        e, null, 2 
       ),
     };
   }

@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":756,"numero":532,"llaveProceso":"11001400306820200102100","nombre":"dimoin null colombia s.a.s.","idProcesos":[112628300],"category":"Bancolombia"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 756,
+    "numero": 532,
+    "llaveProceso": "11001400306820200102100",
+    "nombre": "dimoin null colombia s.a.s.",
+    "idProcesos": [112628300],
+    "category": "Bancolombia"
+  }
+}

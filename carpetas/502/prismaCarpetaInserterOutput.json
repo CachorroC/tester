@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":727,"numero":502,"llaveProceso":"11001418901620190108500","nombre":"angelica nathaly rozo franco","idProcesos":[86958040],"category":"Reintegra"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 727,
+    "numero": 502,
+    "llaveProceso": "11001418901620190108500",
+    "nombre": "angelica nathaly rozo franco",
+    "idProcesos": [86958040],
+    "category": "Reintegra"
+  }
+}

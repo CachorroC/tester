@@ -14,10 +14,7 @@
     "primerNombre": "adriana",
     "segundoNombre": "del",
     "primerApellido": "pilar",
-    "segundoApellido": [
-      "alfonso",
-      "baquero"
-    ]
+    "segundoApellido": ["alfonso", "baquero"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -28,20 +25,14 @@
     "capitalAdeudado": 1348750639,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": [
-      11895200
-    ],
+    "obligacion": [11895200],
     "radicado": "2017 - 00850",
-    "vencimientoPagare": [
-      "2017-08-16T00:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2017-08-16T00:00:00.000Z"],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 52475256,
-  "idProcesos": [
-    50666880
-  ],
+  "idProcesos": [50666880],
   "procesos": [
     {
       "idProceso": 50666880,

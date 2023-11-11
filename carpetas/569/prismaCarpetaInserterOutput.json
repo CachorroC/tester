@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":793,"numero":569,"llaveProceso":"11001400306320230162700","nombre":"diana patricia silvara rodriguez","idProcesos":[132206000],"category":"Bancolombia"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 793,
+    "numero": 569,
+    "llaveProceso": "11001400306320230162700",
+    "nombre": "diana patricia silvara rodriguez",
+    "idProcesos": [132206000],
+    "category": "Bancolombia"
+  }
+}

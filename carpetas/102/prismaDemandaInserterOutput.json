@@ -1,1 +1,20 @@
-{"StatusCode":200,"Message":"ok","data":{"id":94,"departamento":"CUNDINAMARCA","capitalAdeudado":"50000000","entregaGarantiasAbogado":"2017-06-12T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":"2017-11-07T00:00:00.000Z","etapaProcesal":"EJECUCIÓN","fechaPresentacion":null,"municipio":"MESITAS","obligacion":["7300080586"],"radicado":"2017-00239","vencimientoPagare":["2019-07-05T00:00:00.000Z"],"expediente":"25245408900120170023900","carpetaNumero":102}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 94,
+    "departamento": "CUNDINAMARCA",
+    "capitalAdeudado": "50000000",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-07T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": null,
+    "municipio": "MESITAS",
+    "obligacion": ["7300080586"],
+    "radicado": "2017-00239",
+    "vencimientoPagare": ["2019-07-05T00:00:00.000Z"],
+    "expediente": "25245408900120170023900",
+    "carpetaNumero": 102
+  }
+}

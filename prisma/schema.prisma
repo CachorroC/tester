@@ -29,6 +29,7 @@ model Carpeta {
 model Deudor {
   id            Int     @id @default(autoincrement())
   cedula        String
+  nombre String?
   primerNombre String
   primerApellido String
   segundoNombre String?

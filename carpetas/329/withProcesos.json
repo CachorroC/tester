@@ -15,10 +15,7 @@
       "primerNombre": "reinaldo",
       "segundoNombre": "adrian",
       "primerApellido": "melendez",
-      "segundoApellido": [
-        "",
-        "varon"
-      ]
+      "segundoApellido": ["", "varon"]
     },
     "demanda": {
       "tipoProceso": "SINGULAR",
@@ -29,13 +26,9 @@
       "capitalAdeudado": 13537828,
       "etapaProcesal": "1.1001400308520171e+22",
       "municipio": "BOGOTA",
-      "obligacion": [
-        79669
-      ],
+      "obligacion": [79669],
       "radicado": "2017 - 01596",
-      "vencimientoPagare": [
-        "2020-02-11T00:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-02-11T00:00:00.000Z"],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -46,9 +39,7 @@
       "telefono": "F 2287430"
     },
     "cc": 10180062,
-    "idProcesos": [
-      65614470
-    ],
+    "idProcesos": [65614470],
     "procesos": [
       {
         "idProceso": 65614470,

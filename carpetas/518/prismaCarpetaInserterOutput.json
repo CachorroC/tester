@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":198,"numero":518,"llaveProceso":"11001418900920190016200","nombre":"jorge ivan avendaño vanegas","idProcesos":[],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 198,
+    "numero": 518,
+    "llaveProceso": "11001418900920190016200",
+    "nombre": "jorge ivan avendaño vanegas",
+    "idProcesos": [],
+    "category": "Terminados"
+  }
+}

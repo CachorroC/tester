@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":307,"numero":79,"llaveProceso":"11001400303320170089200","nombre":"cristina null castaño castillo","idProcesos":[50514570],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 307,
+    "numero": 79,
+    "llaveProceso": "11001400303320170089200",
+    "nombre": "cristina null castaño castillo",
+    "idProcesos": [50514570],
+    "category": "Terminados"
+  }
+}

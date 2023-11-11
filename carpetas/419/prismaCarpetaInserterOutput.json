@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":142,"numero":419,"llaveProceso":"25175410300120180023700","nombre":"alvaro hernan ruiz hernandez","idProcesos":[],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 142,
+    "numero": 419,
+    "llaveProceso": "25175410300120180023700",
+    "nombre": "alvaro hernan ruiz hernandez",
+    "idProcesos": [],
+    "category": "Terminados"
+  }
+}

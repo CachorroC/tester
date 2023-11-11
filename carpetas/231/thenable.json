@@ -14,11 +14,7 @@
     "primerNombre": "diana",
     "segundoNombre": "marcela",
     "primerApellido": "ipuz",
-    "segundoApellido": [
-      "suarez",
-      "y",
-      "otro"
-    ]
+    "segundoApellido": ["suarez", "y", "otro"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -29,15 +25,9 @@
     "capitalAdeudado": 0,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [
-      44518,
-      145608
-    ],
+    "obligacion": [44518, 145608],
     "radicado": "2017 - 00089",
-    "vencimientoPagare": [
-      null,
-      null
-    ],
+    "vencimientoPagare": [null, null],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

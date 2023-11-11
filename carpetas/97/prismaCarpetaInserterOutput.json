@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":325,"numero":97,"llaveProceso":"11001400308520160031900","nombre":"jose alfredo riaño maldonado","idProcesos":[77695680],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 325,
+    "numero": 97,
+    "llaveProceso": "11001400308520160031900",
+    "nombre": "jose alfredo riaño maldonado",
+    "idProcesos": [77695680],
+    "category": "Terminados"
+  }
+}

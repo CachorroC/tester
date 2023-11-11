@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":294,"numero":66,"llaveProceso":"11001400301920170070200","nombre":"sandra patricia suarez galvis","idProcesos":[50593320],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 294,
+    "numero": 66,
+    "llaveProceso": "11001400301920170070200",
+    "nombre": "sandra patricia suarez galvis",
+    "idProcesos": [50593320],
+    "category": "Terminados"
+  }
+}

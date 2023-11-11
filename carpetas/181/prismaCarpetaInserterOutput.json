@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":62,"numero":181,"llaveProceso":"11001418901020170011500","nombre":"leonardo alirio garcia guerrero","idProcesos":[82132851],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 62,
+    "numero": 181,
+    "llaveProceso": "11001418901020170011500",
+    "nombre": "leonardo alirio garcia guerrero",
+    "idProcesos": [82132851],
+    "category": "Terminados"
+  }
+}

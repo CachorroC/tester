@@ -1,1 +1,20 @@
-{"StatusCode":200,"Message":"ok","data":{"id":797,"departamento":"BOGOTÁ","capitalAdeudado":"2586316423","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"NOTIFICACION","fechaPresentacion":"2018-05-02T00:00:00.000Z","municipio":"BOGOTA","obligacion":["165720"],"radicado":"2018 - 00299","vencimientoPagare":["2033-08-07T00:00:00.000Z"],"expediente":"11001400305120180029900","carpetaNumero":394}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 797,
+    "departamento": "BOGOTÁ",
+    "capitalAdeudado": "2586316423",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-05-02T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": ["165720"],
+    "radicado": "2018 - 00299",
+    "vencimientoPagare": ["2033-08-07T00:00:00.000Z"],
+    "expediente": "11001400305120180029900",
+    "carpetaNumero": 394
+  }
+}

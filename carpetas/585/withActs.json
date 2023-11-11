@@ -14,10 +14,7 @@
     "primerNombre": "maria",
     "segundoNombre": "georgina",
     "primerApellido": "forero",
-    "segundoApellido": [
-      "de",
-      "mendoza"
-    ]
+    "segundoApellido": ["de", "mendoza"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -33,19 +30,12 @@
       "377816195788645 X TC AMERICAN // 4099843107499631 X T.C. VISA"
     ],
     "radicado": "2023-399",
-    "vencimientoPagare": [
-      null,
-      null,
-      null,
-      "2026-07-05T05:00:00.000Z"
-    ],
+    "vencimientoPagare": [null, null, null, "2026-07-05T05:00:00.000Z"],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 41336003,
-  "idProcesos": [
-    133932120
-  ],
+  "idProcesos": [133932120],
   "procesos": [
     {
       "idProceso": 133932120,

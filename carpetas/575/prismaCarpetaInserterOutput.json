@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":221,"numero":575,"llaveProceso":"11001418900520230134200","nombre":"javier alejandro carrera siachoque","idProcesos":[],"category":"Bancolombia"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 221,
+    "numero": 575,
+    "llaveProceso": "11001418900520230134200",
+    "nombre": "javier alejandro carrera siachoque",
+    "idProcesos": [],
+    "category": "Bancolombia"
+  }
+}

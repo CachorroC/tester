@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":607,"numero":381,"llaveProceso":"11001400304120180007500","nombre":"nielcen marisol marin melo","idProcesos":[19431801],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 607,
+    "numero": 381,
+    "llaveProceso": "11001400304120180007500",
+    "nombre": "nielcen marisol marin melo",
+    "idProcesos": [19431801],
+    "category": "Terminados"
+  }
+}

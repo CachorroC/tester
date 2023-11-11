@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":520,"numero":294,"llaveProceso":"11001400306320170092400","nombre":"hernando null pulecio paredes","idProcesos":[65700110],"category":"Reintegra"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 520,
+    "numero": 294,
+    "llaveProceso": "11001400306320170092400",
+    "nombre": "hernando null pulecio paredes",
+    "idProcesos": [65700110],
+    "category": "Reintegra"
+  }
+}

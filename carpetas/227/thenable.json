@@ -14,10 +14,7 @@
     "primerNombre": "rosa",
     "segundoNombre": "elena",
     "primerApellido": "martinez",
-    "segundoApellido": [
-      "de",
-      "duitama"
-    ]
+    "segundoApellido": ["de", "duitama"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -28,13 +25,9 @@
     "capitalAdeudado": 18546821,
     "etapaProcesal": "1.100140030152017e+22",
     "municipio": "BOGOTA",
-    "obligacion": [
-      12499205
-    ],
+    "obligacion": [12499205],
     "radicado": "2017 - 01249",
-    "vencimientoPagare": [
-      "2020-08-30T00:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2020-08-30T00:00:00.000Z"],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

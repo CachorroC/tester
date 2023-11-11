@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":22,"numero":36,"llaveProceso":" 11001400306620170089200","nombre":"sandra patricia agudelo montagut","idProcesos":[],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 22,
+    "numero": 36,
+    "llaveProceso": " 11001400306620170089200",
+    "nombre": "sandra patricia agudelo montagut",
+    "idProcesos": [],
+    "category": "Terminados"
+  }
+}

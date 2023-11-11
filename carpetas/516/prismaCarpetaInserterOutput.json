@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":740,"numero":516,"llaveProceso":"11001418901420190019000","nombre":"alvaro luis asprilla lucumi","idProcesos":[51786190],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 740,
+    "numero": 516,
+    "llaveProceso": "11001418901420190019000",
+    "nombre": "alvaro luis asprilla lucumi",
+    "idProcesos": [51786190],
+    "category": "Terminados"
+  }
+}

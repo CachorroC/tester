@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":139,"numero":412,"llaveProceso":"25754418900220180036400","nombre":"fabio nelson perez cristiano","idProcesos":[],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 139,
+    "numero": 412,
+    "llaveProceso": "25754418900220180036400",
+    "nombre": "fabio nelson perez cristiano",
+    "idProcesos": [],
+    "category": "Terminados"
+  }
+}

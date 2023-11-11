@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":298,"numero":70,"llaveProceso":"11001400308520170108400","nombre":"cesar null augusto arias","idProcesos":[65640840],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 298,
+    "numero": 70,
+    "llaveProceso": "11001400308520170108400",
+    "nombre": "cesar null augusto arias",
+    "idProcesos": [65640840],
+    "category": "Terminados"
+  }
+}

@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":547,"numero":321,"llaveProceso":"11001400301620170136700","nombre":"adela null barajas moreno","idProcesos":[50907660],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 547,
+    "numero": 321,
+    "llaveProceso": "11001400301620170136700",
+    "nombre": "adela null barajas moreno",
+    "idProcesos": [50907660],
+    "category": "Terminados"
+  }
+}

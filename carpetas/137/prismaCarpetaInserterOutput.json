@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":364,"numero":137,"llaveProceso":"11001400304720170171300","nombre":"edna milena muñoz sanchez","idProcesos":[10410303],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 364,
+    "numero": 137,
+    "llaveProceso": "11001400304720170171300",
+    "nombre": "edna milena muñoz sanchez",
+    "idProcesos": [10410303],
+    "category": "Terminados"
+  }
+}

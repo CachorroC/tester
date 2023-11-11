@@ -1,1 +1,12 @@
-{"StatusCode":200,"Message":"ok","data":{"id":151,"numero":439,"llaveProceso":"25899400300320180055500","nombre":"miguel esneyder devia cepeda","idProcesos":[],"category":"Terminados"}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 151,
+    "numero": 439,
+    "llaveProceso": "25899400300320180055500",
+    "nombre": "miguel esneyder devia cepeda",
+    "idProcesos": [],
+    "category": "Terminados"
+  }
+}
