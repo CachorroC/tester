@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400301220170102100",
-    "numero": 255,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 23946115,
-      "direccion": "diagonal 136 bis # 3 - 80 sur",
-      "email": null,
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "yeimi",
-      "segundoNombre": "zoraida",
-      "primerApellido": "perez",
-      "segundoApellido": "acevedo"
+  "llaveProceso": "11001400301220170102100",
+  "numero": 255,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 23946115,
+    "direccion": "diagonal 136 bis # 3 - 80 sur",
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2017-09-05T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
-      "expediente": "11001400301220170102100",
-      "capitalAdeudado": 15311681,
-      "etapaProcesal": "1.100140030122017e+22",
-      "municipio": "BOGOTA",
-      "obligacion": [940082843],
-      "radicado": "2017 - 01021",
-      "vencimientoPagare": ["2019-07-19T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 1002415012,
-      "direccion": "CALLE 136 # 14 - 22 SUR",
-      "nombre": "pablo andres perez acevedo",
-      "telefono": "7708676 // 3142983369"
-    },
-    "cc": 23946115,
-    "idProcesos": [50692560, 73154161],
-    "procesos": [
-      {
-        "idProceso": 50692560,
-        "idConexion": 259,
-        "llaveProceso": "11001400301220170102100",
-        "fechaProceso": "2017-09-08T00:00:00",
-        "fechaUltimaActuacion": "2022-11-02T00:00:00",
-        "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: YEIMY ZORAIDA PEREZ ACEVEDO | Demandado: PABLO ANDRES PEREZ ACEVEDO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "yeimi",
+    "segundoNombre": "zoraida",
+    "primerApellido": "perez",
+    "segundoApellido": "acevedo"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2017-09-05T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
+    "expediente": "11001400301220170102100",
+    "capitalAdeudado": 15311681,
+    "etapaProcesal": "1.100140030122017e+22",
+    "municipio": "BOGOTA",
+    "obligacion": [940082843],
+    "radicado": "2017 - 01021",
+    "vencimientoPagare": ["2019-07-19T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 1002415012,
+    "direccion": "CALLE 136 # 14 - 22 SUR",
+    "nombre": "pablo andres perez acevedo",
+    "telefono": "7708676 // 3142983369"
+  },
+  "cc": 23946115,
+  "idProcesos": [50692560, 73154161],
+  "procesos": [
+    {
+      "idProceso": 50692560,
+      "idConexion": 259,
+      "llaveProceso": "11001400301220170102100",
+      "fechaProceso": "2017-09-08T00:00:00",
+      "fechaUltimaActuacion": "2022-11-02T00:00:00",
+      "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: YEIMY ZORAIDA PEREZ ACEVEDO | Demandado: PABLO ANDRES PEREZ ACEVEDO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

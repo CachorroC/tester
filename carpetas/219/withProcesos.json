@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400307220170107500",
-    "numero": 219,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 80921416,
-      "direccion": "carrera 99a # 61a - 19 casa 61",
-      "email": "layton_blas@live.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "blas",
-      "primerApellido": "laiton",
-      "segundoApellido": "patiño",
-      "segundoNombre": null
+  "llaveProceso": "11001400307220170107500",
+  "numero": 219,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 80921416,
+    "direccion": "carrera 99a # 61a - 19 casa 61",
+    "email": "layton_blas@live.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-09-11T00:00:00.000Z",
-      "mandamientoPago": "2017-09-18T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
-      "expediente": "11001400307220170107500",
-      "capitalAdeudado": 5089180553,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [25214],
-      "radicado": "2017 - 01075",
-      "vencimientoPagare": ["2032-07-19T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 80921416,
-    "idProcesos": [50704760],
-    "procesos": [
-      {
-        "idProceso": 50704760,
-        "idConexion": 259,
-        "llaveProceso": "11001400307220170107500",
-        "fechaProceso": "2017-09-13T00:00:00",
-        "fechaUltimaActuacion": "2020-09-01T00:00:00",
-        "despacho": "JUZGADO 072 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLAS  LAITON PATIÑO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "blas",
+    "segundoNombre": "laiton",
+    "primerApellido": "patiño",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-09-11T00:00:00.000Z",
+    "mandamientoPago": "2017-09-18T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
+    "expediente": "11001400307220170107500",
+    "capitalAdeudado": 5089180553,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [25214],
+    "radicado": "2017 - 01075",
+    "vencimientoPagare": ["2032-07-19T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 80921416,
+  "idProcesos": [50704760],
+  "procesos": [
+    {
+      "idProceso": 50704760,
+      "idConexion": 259,
+      "llaveProceso": "11001400307220170107500",
+      "fechaProceso": "2017-09-13T00:00:00",
+      "fechaUltimaActuacion": "2020-09-01T00:00:00",
+      "despacho": "JUZGADO 072 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLAS  LAITON PATIÑO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

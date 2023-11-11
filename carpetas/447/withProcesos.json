@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400300520180071100",
-    "numero": 447,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79698506,
-      "direccion": "carrera 80 bis a no 70a-15",
-      "email": null,
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "carlos",
-      "segundoNombre": "antonio",
-      "primerApellido": "pacheco",
-      "segundoApellido": "torres"
+  "llaveProceso": "11001400300520180071100",
+  "numero": 447,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79698506,
+    "direccion": "carrera 80 bis a no 70a-15",
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
-      "expediente": "11001400300520180071100",
-      "capitalAdeudado": 1926050000,
-      "etapaProcesal": "ADMISION",
-      "municipio": "BOGOTA",
-      "obligacion": [1010082679],
-      "radicado": "2018 - 00711",
-      "vencimientoPagare": ["2027-10-27T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 79698506,
-    "idProcesos": [51277500],
-    "procesos": [
-      {
-        "idProceso": 51277500,
-        "idConexion": 259,
-        "llaveProceso": "11001400300520180071100",
-        "fechaProceso": "2018-06-27T00:00:00",
-        "fechaUltimaActuacion": "2018-09-06T00:00:00",
-        "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS ANTONIO PACHECO TORRES ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "carlos",
+    "segundoNombre": "antonio",
+    "primerApellido": "pacheco",
+    "segundoApellido": "torres"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
+    "expediente": "11001400300520180071100",
+    "capitalAdeudado": 1926050000,
+    "etapaProcesal": "ADMISION",
+    "municipio": "BOGOTA",
+    "obligacion": [1010082679],
+    "radicado": "2018 - 00711",
+    "vencimientoPagare": ["2027-10-27T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 79698506,
+  "idProcesos": [51277500],
+  "procesos": [
+    {
+      "idProceso": 51277500,
+      "idConexion": 259,
+      "llaveProceso": "11001400300520180071100",
+      "fechaProceso": "2018-06-27T00:00:00",
+      "fechaUltimaActuacion": "2018-09-06T00:00:00",
+      "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS ANTONIO PACHECO TORRES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

@@ -1,5 +1,12 @@
 {
-  "StatusCode": 202,
-  "Message": "\nInvalid `client.carpeta.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:119:48\n\n  116 }\n  117 \n  118 \n→ 119 const createCarpeta = await client.carpeta.upsert(\nUnique constraint failed on the fields: (`llaveProceso`)",
-  "data": { "target": ["llaveProceso"] }
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 231,
+    "numero": 231,
+    "llaveProceso": "11001418900920170008900",
+    "nombre": "diana marcela ipuz suarez,y,otro",
+    "idProcesos": [],
+    "category": "Terminados"
+  }
 }

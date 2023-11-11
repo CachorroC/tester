@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400301920170087200",
-    "numero": 168,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 21046826,
-      "direccion": "carrera 7 # 71 - 24",
-      "email": "sergio830@hotmail.com",
-      "tel": {
-        "fijo": 6861327,
-        "celular": 3164673352
-      },
-      "primerNombre": "maria",
-      "segundoNombre": "stella",
-      "primerApellido": "hernandez",
-      "segundoApellido": "beltran"
+  "llaveProceso": "11001400301920170087200",
+  "numero": 168,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 21046826,
+    "direccion": "carrera 7 # 71 - 24",
+    "email": "sergio830@hotmail.com",
+    "tel": {
+      "fijo": 6861327,
+      "celular": 3164673352
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-      "mandamientoPago": "2017-09-26T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
-      "expediente": "11001400301920170087200",
-      "capitalAdeudado": 1814179196,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [116942],
-      "radicado": "2017 - 00872",
-      "vencimientoPagare": ["2024-03-24T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 53067291,
-      "direccion": "CARRERA 102B # 140A - 45 SEGUNDO PISO",
-      "nombre": "cindy mabel alvarado hernandez",
-      "telefono": 8033725
-    },
-    "cc": 21046826,
-    "idProcesos": [50667300],
-    "procesos": [
-      {
-        "idProceso": 50667300,
-        "idConexion": 259,
-        "llaveProceso": "11001400301920170087200",
-        "fechaProceso": "2017-08-29T00:00:00",
-        "fechaUltimaActuacion": "2018-09-04T00:00:00",
-        "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CINDY MABEL ALVARADO HERNANDEZ | Demandado: MARIA STELLA HERNANDEZ BELTRAN ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "maria",
+    "segundoNombre": "stella",
+    "primerApellido": "hernandez",
+    "segundoApellido": "beltran"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "mandamientoPago": "2017-09-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "expediente": "11001400301920170087200",
+    "capitalAdeudado": 1814179196,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [116942],
+    "radicado": "2017 - 00872",
+    "vencimientoPagare": ["2024-03-24T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 53067291,
+    "direccion": "CARRERA 102B # 140A - 45 SEGUNDO PISO",
+    "nombre": "cindy mabel alvarado hernandez",
+    "telefono": 8033725
+  },
+  "cc": 21046826,
+  "idProcesos": [50667300],
+  "procesos": [
+    {
+      "idProceso": 50667300,
+      "idConexion": 259,
+      "llaveProceso": "11001400301920170087200",
+      "fechaProceso": "2017-08-29T00:00:00",
+      "fechaUltimaActuacion": "2018-09-04T00:00:00",
+      "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CINDY MABEL ALVARADO HERNANDEZ | Demandado: MARIA STELLA HERNANDEZ BELTRAN ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

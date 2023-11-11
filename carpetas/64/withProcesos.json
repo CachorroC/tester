@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400302920170055700",
-    "numero": 64,
-    "tipoProceso": "PRENDARIO",
-    "category": "Insolvencia",
-    "deudor": {
-      "cedula": 79891952,
-      "direccion": "carrera 13 a no. 150-25 int 3 apto 203",
-      "email": "rafael.cadena@signsas.com",
-      "tel": {
-        "fijo": 3157900,
-        "celular": 3157900006
-      },
-      "primerNombre": "rafael",
-      "segundoNombre": "ernesto",
-      "primerApellido": "cadena",
-      "segundoApellido": "parga"
+  "llaveProceso": "11001400302920170055700",
+  "numero": 64,
+  "tipoProceso": "PRENDARIO",
+  "category": "Insolvencia",
+  "deudor": {
+    "cedula": 79891952,
+    "direccion": "carrera 13 a no. 150-25 int 3 apto 203",
+    "email": "rafael.cadena@signsas.com",
+    "tel": {
+      "fijo": 3157900,
+      "celular": 3157900006
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2017-06-15T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-      "expediente": "11001400302920170055700",
-      "capitalAdeudado": 32926699,
-      "etapaProcesal": "1.100140030292017e+22",
-      "municipio": "BOGOTA",
-      "obligacion": [125348220],
-      "radicado": "2017 - 00557",
-      "vencimientoPagare": ["2017-10-22T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 79891952,
-    "idProcesos": [50517510],
-    "procesos": [
-      {
-        "idProceso": 50517510,
-        "idConexion": 259,
-        "llaveProceso": "11001400302920170055700",
-        "fechaProceso": "2017-06-20T00:00:00",
-        "fechaUltimaActuacion": "2018-02-22T00:00:00",
-        "despacho": "JUZGADO 029 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RAFAEL ERNESTO CADENA PARGA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "rafael",
+    "segundoNombre": "ernesto",
+    "primerApellido": "cadena",
+    "segundoApellido": "parga"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2017-06-15T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "expediente": "11001400302920170055700",
+    "capitalAdeudado": 32926699,
+    "etapaProcesal": "1.100140030292017e+22",
+    "municipio": "BOGOTA",
+    "obligacion": [125348220],
+    "radicado": "2017 - 00557",
+    "vencimientoPagare": ["2017-10-22T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 79891952,
+  "idProcesos": [50517510],
+  "procesos": [
+    {
+      "idProceso": 50517510,
+      "idConexion": 259,
+      "llaveProceso": "11001400302920170055700",
+      "fechaProceso": "2017-06-20T00:00:00",
+      "fechaUltimaActuacion": "2018-02-22T00:00:00",
+      "despacho": "JUZGADO 029 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RAFAEL ERNESTO CADENA PARGA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

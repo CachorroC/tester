@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400305120180085000",
-    "numero": 537,
-    "tipoProceso": "SINGULAR",
-    "category": "Reintegra",
-    "deudor": {
-      "cedula": 52155023,
-      "direccion": "calle 86a no 95a-15 apto 108",
-      "email": "mediconta@gmail.com",
-      "tel": {
-        "fijo": 5360278,
-        "celular": 3108540511
-      },
-      "primerNombre": "sandra",
-      "segundoNombre": "",
-      "primerApellido": "liliana",
-      "segundoApellido": ["cruz", "beltran"]
+  "llaveProceso": "11001400305120180085000",
+  "numero": 537,
+  "tipoProceso": "SINGULAR",
+  "category": "Reintegra",
+  "deudor": {
+    "cedula": 52155023,
+    "direccion": "calle 86a no 95a-15 apto 108",
+    "email": "mediconta@gmail.com",
+    "tel": {
+      "fijo": 5360278,
+      "celular": 3108540511
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2018-07-06T00:00:00.000Z",
-      "mandamientoPago": "2018-07-24T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2018-06-28T00:00:00.000Z",
-      "expediente": "11001400305120180085000",
-      "capitalAdeudado": 20353079,
-      "etapaProcesal": "EJECUCIÓN",
-      "municipio": "BOGOTA",
-      "obligacion": [2270085292, 3.77813194946666e29],
-      "radicado": "2018 - 00850",
-      "vencimientoPagare": ["2022-02-02T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 52155023,
-    "idProcesos": [89137980],
-    "procesos": [
-      {
-        "idProceso": 89137980,
-        "idConexion": 259,
-        "llaveProceso": "11001400305120180085000",
-        "fechaProceso": "2018-07-16T00:00:00",
-        "fechaUltimaActuacion": "2023-07-10T00:00:00",
-        "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA LILIANA CRUZ BELTRAN ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "sandra",
+    "segundoNombre": "",
+    "primerApellido": "liliana",
+    "segundoApellido": ["cruz", "beltran"]
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2018-07-06T00:00:00.000Z",
+    "mandamientoPago": "2018-07-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-06-28T00:00:00.000Z",
+    "expediente": "11001400305120180085000",
+    "capitalAdeudado": 20353079,
+    "etapaProcesal": "EJECUCIÓN",
+    "municipio": "BOGOTA",
+    "obligacion": [2270085292, 3.77813194946666e29],
+    "radicado": "2018 - 00850",
+    "vencimientoPagare": ["2022-02-02T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 52155023,
+  "idProcesos": [89137980],
+  "procesos": [
+    {
+      "idProceso": 89137980,
+      "idConexion": 259,
+      "llaveProceso": "11001400305120180085000",
+      "fechaProceso": "2018-07-16T00:00:00",
+      "fechaUltimaActuacion": "2023-07-10T00:00:00",
+      "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA LILIANA CRUZ BELTRAN ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

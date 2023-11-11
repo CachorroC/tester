@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400308420180067300",
-    "numero": 454,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 80089235,
-      "direccion": "calle 151 no 14a-32 apto 10",
-      "email": "cocomarnico@gmail.com",
-      "tel": {
-        "fijo": 2863225,
-        "celular": 3114473402
-      },
-      "primerNombre": "nicolas",
-      "segundoNombre": "ernesto",
-      "primerApellido": "cocoma",
-      "segundoApellido": "arciniegas"
+  "llaveProceso": "11001400308420180067300",
+  "numero": 454,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 80089235,
+    "direccion": "calle 151 no 14a-32 apto 10",
+    "email": "cocomarnico@gmail.com",
+    "tel": {
+      "fijo": 2863225,
+      "celular": 3114473402
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2018-06-29T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2018-06-26T00:00:00.000Z",
-      "expediente": "11001400308420180067300",
-      "capitalAdeudado": 15580021,
-      "etapaProcesal": "1.100140030842018e+22",
-      "municipio": "BOGOTA",
-      "obligacion": [4594250129248050, 5303710259485390],
-      "radicado": "2018 - 00673",
-      "vencimientoPagare": ["2021-02-04T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 80089235,
-    "idProcesos": [112068890],
-    "procesos": [
-      {
-        "idProceso": 112068890,
-        "idConexion": 259,
-        "llaveProceso": "11001400308420180067300",
-        "fechaProceso": "2019-08-06T00:00:00",
-        "fechaUltimaActuacion": "2022-07-13T00:00:00",
-        "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NICOLAS ERNESTO COCOMA ARCINIEGAS ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "nicolas",
+    "segundoNombre": "ernesto",
+    "primerApellido": "cocoma",
+    "segundoApellido": "arciniegas"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2018-06-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-06-26T00:00:00.000Z",
+    "expediente": "11001400308420180067300",
+    "capitalAdeudado": 15580021,
+    "etapaProcesal": "1.100140030842018e+22",
+    "municipio": "BOGOTA",
+    "obligacion": [4594250129248050, 5303710259485390],
+    "radicado": "2018 - 00673",
+    "vencimientoPagare": ["2021-02-04T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 80089235,
+  "idProcesos": [112068890],
+  "procesos": [
+    {
+      "idProceso": 112068890,
+      "idConexion": 259,
+      "llaveProceso": "11001400308420180067300",
+      "fechaProceso": "2019-08-06T00:00:00",
+      "fechaUltimaActuacion": "2022-07-13T00:00:00",
+      "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NICOLAS ERNESTO COCOMA ARCINIEGAS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

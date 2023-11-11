@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400302120180023600",
-    "numero": 405,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 79396995,
-      "direccion": "calle 12 a no 71 b - 60",
-      "email": "arthurlingo64@hotmail.com",
-      "tel": {
-        "fijo": 4244358,
-        "celular": 3108844560
-      },
-      "primerNombre": "arturo",
-      "primerApellido": "lince",
-      "segundoApellido": "gomez",
-      "segundoNombre": null
+  "llaveProceso": "11001400302120180023600",
+  "numero": 405,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 79396995,
+    "direccion": "calle 12 a no 71 b - 60",
+    "email": "arthurlingo64@hotmail.com",
+    "tel": {
+      "fijo": 4244358,
+      "celular": 3108844560
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2018-02-22T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400302120180023600",
-      "capitalAdeudado": 22592583,
-      "etapaProcesal": "EJECUCIÓN",
-      "municipio": "BOGOTA",
-      "obligacion": [87823],
-      "radicado": "2018 - 00236",
-      "vencimientoPagare": [null, null],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 79396995,
-    "idProcesos": [51029180],
-    "procesos": [
-      {
-        "idProceso": 51029180,
-        "idConexion": 259,
-        "llaveProceso": "11001400302120180023600",
-        "fechaProceso": "2018-02-23T00:00:00",
-        "fechaUltimaActuacion": "2023-10-26T00:00:00",
-        "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ARTURO LINCE GOMEZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "arturo",
+    "segundoNombre": "lince",
+    "primerApellido": "gomez",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2018-02-22T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400302120180023600",
+    "capitalAdeudado": 22592583,
+    "etapaProcesal": "EJECUCIÓN",
+    "municipio": "BOGOTA",
+    "obligacion": [87823],
+    "radicado": "2018 - 00236",
+    "vencimientoPagare": [null, null],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 79396995,
+  "idProcesos": [51029180],
+  "procesos": [
+    {
+      "idProceso": 51029180,
+      "idConexion": 259,
+      "llaveProceso": "11001400302120180023600",
+      "fechaProceso": "2018-02-23T00:00:00",
+      "fechaUltimaActuacion": "2023-10-26T00:00:00",
+      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ARTURO LINCE GOMEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

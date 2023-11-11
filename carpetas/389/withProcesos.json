@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400307020180012100",
-    "numero": 389,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79874218,
-      "direccion": null,
-      "email": null,
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "miguel",
-      "segundoNombre": "angel",
-      "primerApellido": "granados",
-      "segundoApellido": "gutierrez"
+  "llaveProceso": "11001400307020180012100",
+  "numero": 389,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79874218,
+    "direccion": null,
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400307020180012100",
-      "capitalAdeudado": 0,
-      "etapaProcesal": null,
-      "municipio": "BOGOTA",
-      "obligacion": [],
-      "radicado": "2018 - 00121",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 79874218,
-    "idProcesos": [18370510],
-    "procesos": [
-      {
-        "idProceso": 18370510,
-        "idConexion": 260,
-        "llaveProceso": "11001400307020180012100",
-        "fechaProceso": "2018-02-07T00:00:00",
-        "fechaUltimaActuacion": "2020-02-05T00:00:00",
-        "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MIGUEL ANGEL GRANADOS GUTIERREZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "miguel",
+    "segundoNombre": "angel",
+    "primerApellido": "granados",
+    "segundoApellido": "gutierrez"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400307020180012100",
+    "capitalAdeudado": 0,
+    "etapaProcesal": null,
+    "municipio": "BOGOTA",
+    "obligacion": [],
+    "radicado": "2018 - 00121",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 79874218,
+  "idProcesos": [18370510],
+  "procesos": [
+    {
+      "idProceso": 18370510,
+      "idConexion": 260,
+      "llaveProceso": "11001400307020180012100",
+      "fechaProceso": "2018-02-07T00:00:00",
+      "fechaUltimaActuacion": "2020-02-05T00:00:00",
+      "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MIGUEL ANGEL GRANADOS GUTIERREZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

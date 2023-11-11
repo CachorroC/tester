@@ -1,5 +1,17 @@
 {
-  "StatusCode": 400,
-  "Message": "error at PrismaClientValidationError: \nInvalid `client.demanda.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:293:47\n\n  290   deudor, numero\n  291 );\n  292 \n→ 293 const createDeudor = await client.demanda.upsert({\n        where: {\n          carpetaNumero: 3\n        },\n        create: {\n          nombre: \"mariaclaudiareatigaurrea\",\n          ~~~~~~\n          direccion: \"carrera 2 e no 1 a  - 60 casa 126 - cajica\",\n          email: null,\n          telCelular: null,\n          telFijo: null,\n          carpetaNumero: 3,\n          cedula: \"1018441487\",\n      ?   id?: Int,\n      ?   departamento?: String | Null,\n      ?   capitalAdeudado?: Decimal | Null,\n      ?   entregaGarantiasAbogado?: DateTime | Null,\n      ?   tipoProceso?: TipoProceso,\n      ?   mandamientoPago?: DateTime | Null,\n      ?   etapaProcesal?: String | Null,\n      ?   fechaPresentacion?: DateTime | Null,\n      ?   municipio?: String | Null,\n      ?   obligacion?: DemandaCreateobligacionInput | String[],\n      ?   radicado?: String | Null,\n      ?   vencimientoPagare?: DemandaCreatevencimientoPagareInput | DateTime[],\n      ?   expediente?: String | Null,\n      ?   juzgados?: JuzgadoUncheckedCreateNestedManyWithoutDemandaInput\n        },\n        update: {\n          nombre: \"mariaclaudiareatigaurrea\",\n          direccion: \"carrera 2 e no 1 a  - 60 casa 126 - cajica\",\n          email: null,\n          telCelular: null,\n          telFijo: null,\n          carpetaNumero: 3,\n          cedula: \"1018441487\"\n        }\n      })\n\nUnknown argument `nombre`. Available options are marked with ?.",
-  "data": "{\n  \"name\": \"PrismaClientValidationError\",\n  \"clientVersion\": \"5.5.2\"\n}"
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 2,
+    "cedula": "1018441487",
+    "primerNombre": "maria",
+    "primerApellido": "reatiga",
+    "segundoNombre": "claudia",
+    "segundoApellido": "urrea",
+    "direccion": "carrera 2 e no 1 a  - 60 casa 126 - cajica",
+    "email": null,
+    "telCelular": null,
+    "telFijo": null,
+    "carpetaNumero": 3
+  }
 }

@@ -34,17 +34,6 @@ export class PrismaCarpeta implements Carpeta {
 }
 
 export class PrismaDeudor implements Deudor {
-  primerNombre: string;
-  primerApellido: string;
-  segundoNombre: string | null;
-  segundoApellido: string | null;
-  id!: number;
-  cedula: string;
-  direccion: string | null;
-  email: string | null;
-  telCelular: number | null;
-  telFijo: number | null;
-  carpetaNumero: number;
   constructor(
     {
       primerNombre,
@@ -68,29 +57,32 @@ export class PrismaDeudor implements Deudor {
       : null;
     this.direccion = direccion;
     this.email = email;
-    this.telCelular = tel.celular;
-    this.telFijo = tel.fijo;
+    this.telCelular = tel.celular
+      ? BigInt(
+        tel.celular 
+      )
+      : null;
+    this.telFijo = tel.fijo
+      ? BigInt(
+        tel.fijo 
+      )
+      : null;
     this.carpetaNumero = carpetaNumero;
     this.cedula = String(
       cedula 
     );
   }
-
-  get nombre() {
-    return `${ this.primerNombre } ${ this.segundoNombre } ${ this.primerApellido } ${ this.segundoApellido }`;
-  }
-  set nombre(
-    nom 
-  ) {
-    [
-      this.primerNombre,
-      this.segundoNombre,
-      this.primerApellido,
-      this.segundoApellido,
-    ] = nom.split(
-      ' ' 
-    );
-  }
+  telCelular: bigint | null;
+  telFijo: bigint | null;
+  id!: number;
+  cedula: string;
+  primerNombre: string;
+  primerApellido: string;
+  segundoNombre: string | null;
+  segundoApellido: string | null;
+  direccion: string | null;
+  email: string | null;
+  carpetaNumero: number;
 }
 
 export class PrismaDemanda implements Demanda {

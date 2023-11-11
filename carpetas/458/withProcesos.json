@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400303720180011100",
-    "numero": 458,
-    "tipoProceso": "SINGULAR",
-    "category": "Reintegra",
-    "deudor": {
-      "cedula": 52271112,
-      "direccion": "carrera 101 no 70 a-14 interior 1 apartamento 408",
-      "email": "saraja.7@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "sandra",
-      "segundoNombre": "patricia",
-      "primerApellido": "beltran",
-      "segundoApellido": "oviedo"
+  "llaveProceso": "11001400303720180011100",
+  "numero": 458,
+  "tipoProceso": "SINGULAR",
+  "category": "Reintegra",
+  "deudor": {
+    "cedula": 52271112,
+    "direccion": "carrera 101 no 70 a-14 interior 1 apartamento 408",
+    "email": "saraja.7@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400303720180011100",
-      "capitalAdeudado": 17502203,
-      "etapaProcesal": "EJECUCIÓN",
-      "municipio": "BOGOTA",
-      "obligacion": ["AUDIOPRESTAMO"],
-      "radicado": "2018 - 00111",
-      "vencimientoPagare": [null, null],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 52271112,
-    "idProcesos": [50990920],
-    "procesos": [
-      {
-        "idProceso": 50990920,
-        "idConexion": 259,
-        "llaveProceso": "11001400303720180011100",
-        "fechaProceso": "2018-02-06T00:00:00",
-        "fechaUltimaActuacion": "2023-02-02T00:00:00",
-        "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA BELTRAN  OVIEDO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "beltran",
+    "segundoApellido": "oviedo"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400303720180011100",
+    "capitalAdeudado": 17502203,
+    "etapaProcesal": "EJECUCIÓN",
+    "municipio": "BOGOTA",
+    "obligacion": ["AUDIOPRESTAMO"],
+    "radicado": "2018 - 00111",
+    "vencimientoPagare": [null, null],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 52271112,
+  "idProcesos": [50990920],
+  "procesos": [
+    {
+      "idProceso": 50990920,
+      "idConexion": 259,
+      "llaveProceso": "11001400303720180011100",
+      "fechaProceso": "2018-02-06T00:00:00",
+      "fechaUltimaActuacion": "2023-02-02T00:00:00",
+      "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA BELTRAN  OVIEDO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

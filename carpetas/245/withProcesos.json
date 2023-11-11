@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400303820170095700",
-    "numero": 245,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79893549,
-      "direccion": "calle 76 c sur 1h 27",
-      "email": "jaorgodi@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "javier",
-      "segundoNombre": "orlando",
-      "primerApellido": "gomez",
-      "segundoApellido": "diaz"
+  "llaveProceso": "11001400303820170095700",
+  "numero": 245,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79893549,
+    "direccion": "calle 76 c sur 1h 27",
+    "email": "jaorgodi@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
-      "expediente": "11001400303820170095700",
-      "capitalAdeudado": 3543272158,
-      "etapaProcesal": null,
-      "municipio": "BOGOTA",
-      "obligacion": [103058],
-      "radicado": "2017 - 00957",
-      "vencimientoPagare": ["2022-11-21T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 1061675,
-      "direccion": "TRANSVERSAL 40 No 14-93 TORRE 1 APTO 301 SOACHA",
-      "nombre": "luis alonso gomez dias",
-      "telefono": 41777788
-    },
-    "cc": 79893549,
-    "idProcesos": [9083003],
-    "procesos": [
-      {
-        "idProceso": 9083003,
-        "idConexion": 261,
-        "llaveProceso": "11001400303820170095700",
-        "fechaProceso": "2017-09-20T00:00:00",
-        "fechaUltimaActuacion": "2017-11-07T00:00:00",
-        "despacho": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAVIER ORLANDO GOMEZ DIAZ | Demandado: LUIS ALONSO GOMEZ DIAZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "javier",
+    "segundoNombre": "orlando",
+    "primerApellido": "gomez",
+    "segundoApellido": "diaz"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "expediente": "11001400303820170095700",
+    "capitalAdeudado": 3543272158,
+    "etapaProcesal": null,
+    "municipio": "BOGOTA",
+    "obligacion": [103058],
+    "radicado": "2017 - 00957",
+    "vencimientoPagare": ["2022-11-21T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 1061675,
+    "direccion": "TRANSVERSAL 40 No 14-93 TORRE 1 APTO 301 SOACHA",
+    "nombre": "luis alonso gomez dias",
+    "telefono": 41777788
+  },
+  "cc": 79893549,
+  "idProcesos": [9083003],
+  "procesos": [
+    {
+      "idProceso": 9083003,
+      "idConexion": 261,
+      "llaveProceso": "11001400303820170095700",
+      "fechaProceso": "2017-09-20T00:00:00",
+      "fechaUltimaActuacion": "2017-11-07T00:00:00",
+      "despacho": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAVIER ORLANDO GOMEZ DIAZ | Demandado: LUIS ALONSO GOMEZ DIAZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

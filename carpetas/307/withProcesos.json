@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400303620170112500",
-    "numero": 307,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79309509,
-      "direccion": "transversal 70 g no 63-52 sur apto 27 torre 2",
-      "email": "cac.marketing@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "carlos",
-      "segundoNombre": "arturo",
-      "primerApellido": "castaño",
-      "segundoApellido": "aldana"
+  "llaveProceso": "11001400303620170112500",
+  "numero": 307,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79309509,
+    "direccion": "transversal 70 g no 63-52 sur apto 27 torre 2",
+    "email": "cac.marketing@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-10-24T00:00:00.000Z",
-      "mandamientoPago": "2017-11-02T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
-      "expediente": "11001400303620170112500",
-      "capitalAdeudado": 7069304783,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [190522, 4594250022871300],
-      "radicado": "2017 - 01125",
-      "vencimientoPagare": ["2031-01-27T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 79309509,
-    "idProcesos": [50800110],
-    "procesos": [
-      {
-        "idProceso": 50800110,
-        "idConexion": 259,
-        "llaveProceso": "11001400303620170112500",
-        "fechaProceso": "2017-10-25T00:00:00",
-        "fechaUltimaActuacion": "2020-03-06T00:00:00",
-        "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS ARTURO CASTAÑO ALDANA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "carlos",
+    "segundoNombre": "arturo",
+    "primerApellido": "castaño",
+    "segundoApellido": "aldana"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-10-24T00:00:00.000Z",
+    "mandamientoPago": "2017-11-02T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
+    "expediente": "11001400303620170112500",
+    "capitalAdeudado": 7069304783,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [190522, 4594250022871300],
+    "radicado": "2017 - 01125",
+    "vencimientoPagare": ["2031-01-27T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 79309509,
+  "idProcesos": [50800110],
+  "procesos": [
+    {
+      "idProceso": 50800110,
+      "idConexion": 259,
+      "llaveProceso": "11001400303620170112500",
+      "fechaProceso": "2017-10-25T00:00:00",
+      "fechaUltimaActuacion": "2020-03-06T00:00:00",
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS ARTURO CASTAÑO ALDANA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

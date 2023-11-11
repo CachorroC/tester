@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400303320230105600",
-    "numero": 581,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 52760611,
-      "direccion": "carrera 145 144 c 72 torre 7 apartamento 904 conjunto residencial almenara p.h  de la ciudad de bogotá",
-      "email": "angelicagodoygutierrez@gmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": 3116509661
-      },
-      "primerNombre": "angelica",
-      "segundoNombre": "godoy",
-      "primerApellido": "gutierrez",
-      "segundoApellido": ["y", "edison", "andres", "tuta", "forero"]
+  "llaveProceso": "11001400303320230105600",
+  "numero": 581,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 52760611,
+    "direccion": "carrera 145 144 c 72 torre 7 apartamento 904 conjunto residencial almenara p.h  de la ciudad de bogotá",
+    "email": "angelicagodoygutierrez@gmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": 3116509661
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
-      "expediente": "11001400303320230105600",
-      "capitalAdeudado": 51081164,
-      "etapaProcesal": null,
-      "municipio": "BOGOTA",
-      "obligacion": ["22273 320177358", 2470088213],
-      "radicado": "2023 - 01056",
-      "vencimientoPagare": ["2034-12-09T05:00:00.000Z", null, null],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 80798225,
-      "direccion": "Carrera 145 144 C 72 TR 7 AP 904 Conjunto Residencial Almenara P.H",
-      "nombre": "edison andres tuta forero",
-      "telefono": "CELULAR 3116509661"
-    },
-    "cc": 52760611,
-    "idProcesos": [132789600],
-    "procesos": [
-      {
-        "idProceso": 132789600,
-        "idConexion": 259,
-        "llaveProceso": "11001400303320230105600",
-        "fechaProceso": "2023-08-28T00:00:00",
-        "fechaUltimaActuacion": "2023-10-11T00:00:00",
-        "despacho": "JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandante: AECSA SA | Demandado: EDISON ANDRES TUTA FORERO | Demandado: ANGELICA GODOY GUTIERREZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "angelica",
+    "segundoNombre": "godoy",
+    "primerApellido": "gutierrez",
+    "segundoApellido": ["y", "edison", "andres", "tuta", "forero"]
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
+    "expediente": "11001400303320230105600",
+    "capitalAdeudado": 51081164,
+    "etapaProcesal": null,
+    "municipio": "BOGOTA",
+    "obligacion": ["22273 320177358", 2470088213],
+    "radicado": "2023 - 01056",
+    "vencimientoPagare": ["2034-12-09T05:00:00.000Z", null, null],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 80798225,
+    "direccion": "Carrera 145 144 C 72 TR 7 AP 904 Conjunto Residencial Almenara P.H",
+    "nombre": "edison andres tuta forero",
+    "telefono": "CELULAR 3116509661"
+  },
+  "cc": 52760611,
+  "idProcesos": [132789600],
+  "procesos": [
+    {
+      "idProceso": 132789600,
+      "idConexion": 259,
+      "llaveProceso": "11001400303320230105600",
+      "fechaProceso": "2023-08-28T00:00:00",
+      "fechaUltimaActuacion": "2023-10-11T00:00:00",
+      "despacho": "JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandante: AECSA SA | Demandado: EDISON ANDRES TUTA FORERO | Demandado: ANGELICA GODOY GUTIERREZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

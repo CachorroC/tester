@@ -216,7 +216,7 @@ export class CarpetaJudicial implements IntCarpeta {
         } 
       );
       this.procesos = activeProcesos;
-      this.idProcesos = json.procesos.map(
+      this.idProcesos = activeProcesos.map(
         (
           prc 
         ) => {

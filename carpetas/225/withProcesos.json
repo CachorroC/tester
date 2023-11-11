@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400301320170116300",
-    "numero": 225,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79815721,
-      "direccion": "carrera 88 c # 62 - 09 sur apto 104",
-      "email": null,
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "luis",
-      "segundoNombre": "octavio",
-      "primerApellido": "rojas",
-      "segundoApellido": "valbuena"
+  "llaveProceso": "11001400301320170116300",
+  "numero": 225,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79815721,
+    "direccion": "carrera 88 c # 62 - 09 sur apto 104",
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
-      "expediente": "11001400301320170116300",
-      "capitalAdeudado": 2328778432,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [141663],
-      "radicado": "2017 - 01163",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 52288677,
-      "direccion": "CARRERA 88C # 62 - 09 SUR",
-      "nombre": "maria yanneth ruiz pava",
-      "telefono": 7232380
-    },
-    "cc": 79815721,
-    "idProcesos": [50683550],
-    "procesos": [
-      {
-        "idProceso": 50683550,
-        "idConexion": 259,
-        "llaveProceso": "11001400301320170116300",
-        "fechaProceso": "2017-09-05T00:00:00",
-        "fechaUltimaActuacion": "2018-07-24T00:00:00",
-        "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS OCTAVIO ROJAS VALBUENA | Demandado: MARIA YANNETH RUIZ PAVA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "luis",
+    "segundoNombre": "octavio",
+    "primerApellido": "rojas",
+    "segundoApellido": "valbuena"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
+    "expediente": "11001400301320170116300",
+    "capitalAdeudado": 2328778432,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [141663],
+    "radicado": "2017 - 01163",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 52288677,
+    "direccion": "CARRERA 88C # 62 - 09 SUR",
+    "nombre": "maria yanneth ruiz pava",
+    "telefono": 7232380
+  },
+  "cc": 79815721,
+  "idProcesos": [50683550],
+  "procesos": [
+    {
+      "idProceso": 50683550,
+      "idConexion": 259,
+      "llaveProceso": "11001400301320170116300",
+      "fechaProceso": "2017-09-05T00:00:00",
+      "fechaUltimaActuacion": "2018-07-24T00:00:00",
+      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS OCTAVIO ROJAS VALBUENA | Demandado: MARIA YANNETH RUIZ PAVA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

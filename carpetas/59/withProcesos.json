@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400302520170106400",
-    "numero": 59,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 52341348,
-      "direccion": "calle 70 c no 105 h - 06",
-      "email": "nancyta1905@hotmail.com",
-      "tel": {
-        "fijo": 6977403,
-        "celular": 3103161197
-      },
-      "primerNombre": "nancy",
-      "segundoNombre": "rodriguez",
-      "primerApellido": "",
-      "segundoApellido": "gomez"
+  "llaveProceso": "11001400302520170106400",
+  "numero": 59,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 52341348,
+    "direccion": "calle 70 c no 105 h - 06",
+    "email": "nancyta1905@hotmail.com",
+    "tel": {
+      "fijo": 6977403,
+      "celular": 3103161197
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-09-26T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
-      "expediente": "11001400302520170106400",
-      "capitalAdeudado": 1284794200,
-      "etapaProcesal": null,
-      "municipio": "BOGOTA",
-      "obligacion": [490098936],
-      "radicado": "2017 - 01064",
-      "vencimientoPagare": ["2017-10-04T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 52801359,
-      "direccion": "CALLE 70 C - No 105 H - 06",
-      "nombre": "nubia rodriguez gomez",
-      "telefono": 3102876473
-    },
-    "cc": 52341348,
-    "idProcesos": [50738440],
-    "procesos": [
-      {
-        "idProceso": 50738440,
-        "idConexion": 259,
-        "llaveProceso": "11001400302520170106400",
-        "fechaProceso": "2017-09-27T00:00:00",
-        "fechaUltimaActuacion": "2017-10-06T00:00:00",
-        "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NUBIA RODRIGUEZ GOMEZ | Demandado: NANCY RODRIGUEZ GOMEZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "nancy",
+    "segundoNombre": "rodriguez",
+    "primerApellido": "",
+    "segundoApellido": "gomez"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-09-26T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
+    "expediente": "11001400302520170106400",
+    "capitalAdeudado": 1284794200,
+    "etapaProcesal": null,
+    "municipio": "BOGOTA",
+    "obligacion": [490098936],
+    "radicado": "2017 - 01064",
+    "vencimientoPagare": ["2017-10-04T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 52801359,
+    "direccion": "CALLE 70 C - No 105 H - 06",
+    "nombre": "nubia rodriguez gomez",
+    "telefono": 3102876473
+  },
+  "cc": 52341348,
+  "idProcesos": [50738440],
+  "procesos": [
+    {
+      "idProceso": 50738440,
+      "idConexion": 259,
+      "llaveProceso": "11001400302520170106400",
+      "fechaProceso": "2017-09-27T00:00:00",
+      "fechaUltimaActuacion": "2017-10-06T00:00:00",
+      "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NUBIA RODRIGUEZ GOMEZ | Demandado: NANCY RODRIGUEZ GOMEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

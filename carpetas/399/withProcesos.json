@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400303720180013200",
-    "numero": 399,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79704579,
-      "direccion": "carrer pubichas casa 27 d exterior",
-      "email": "giogol5@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "giovanni",
-      "segundoNombre": "",
-      "primerApellido": "perdomo",
-      "segundoApellido": "quiroga"
+  "llaveProceso": "11001400303720180013200",
+  "numero": 399,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79704579,
+    "direccion": "carrer pubichas casa 27 d exterior",
+    "email": "giogol5@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2018-08-02T05:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400303720180013200",
-      "capitalAdeudado": 4047737734,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [161174],
-      "radicado": "2018 - 00132",
-      "vencimientoPagare": ["2033-12-02T05:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 1030559747,
-      "direccion": "CARRERA 11 ESTE No 12 SUR-48",
-      "nombre": "angelica maria torres quiroga",
-      "telefono": 3372263
-    },
-    "cc": 79704579,
-    "idProcesos": [8833783],
-    "procesos": [
-      {
-        "idProceso": 8833783,
-        "idConexion": 261,
-        "llaveProceso": "11001400303720180013200",
-        "fechaProceso": "2018-02-09T00:00:00",
-        "fechaUltimaActuacion": "2019-10-10T00:00:00",
-        "despacho": "JUZGADO 037 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GIOVANI PERDOMO QUIROGA | Demandado: ANGELICA MARIA TORRES QUIROGA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "giovanni",
+    "segundoNombre": "",
+    "primerApellido": "perdomo",
+    "segundoApellido": "quiroga"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2018-08-02T05:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400303720180013200",
+    "capitalAdeudado": 4047737734,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [161174],
+    "radicado": "2018 - 00132",
+    "vencimientoPagare": ["2033-12-02T05:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 1030559747,
+    "direccion": "CARRERA 11 ESTE No 12 SUR-48",
+    "nombre": "angelica maria torres quiroga",
+    "telefono": 3372263
+  },
+  "cc": 79704579,
+  "idProcesos": [8833783],
+  "procesos": [
+    {
+      "idProceso": 8833783,
+      "idConexion": 261,
+      "llaveProceso": "11001400303720180013200",
+      "fechaProceso": "2018-02-09T00:00:00",
+      "fechaUltimaActuacion": "2019-10-10T00:00:00",
+      "despacho": "JUZGADO 037 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GIOVANI PERDOMO QUIROGA | Demandado: ANGELICA MARIA TORRES QUIROGA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

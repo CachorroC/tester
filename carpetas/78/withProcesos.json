@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400306420170123100",
-    "numero": 78,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 7711481,
-      "direccion": "calle 44d # 45 - 45 apto 904 int 7u",
-      "email": "santosjaime07@yahoo.es",
-      "tel": {
-        "fijo": null,
-        "celular": 3158939957
-      },
-      "primerNombre": "jaime",
-      "segundoNombre": "edison",
-      "primerApellido": "santos",
-      "segundoApellido": "martin"
+  "llaveProceso": "11001400306420170123100",
+  "numero": 78,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 7711481,
+    "direccion": "calle 44d # 45 - 45 apto 904 int 7u",
+    "email": "santosjaime07@yahoo.es",
+    "tel": {
+      "fijo": null,
+      "celular": 3158939957
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-      "expediente": "11001400306420170123100",
-      "capitalAdeudado": 1159046944,
-      "etapaProcesal": "ADMISION",
-      "municipio": "BOGOTA",
-      "obligacion": [5303729451744848, "0377816394649010"],
-      "radicado": "2017 - 01231",
-      "vencimientoPagare": ["2016-05-07T05:00:00.000Z", null, null],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 7711481,
-    "idProcesos": [17942390],
-    "procesos": [
-      {
-        "idProceso": 17942390,
-        "idConexion": 260,
-        "llaveProceso": "11001400306420170123100",
-        "fechaProceso": "2017-09-08T00:00:00",
-        "fechaUltimaActuacion": "2017-11-28T00:00:00",
-        "despacho": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIME EDISSON SANTOS MARTIN ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "jaime",
+    "segundoNombre": "edison",
+    "primerApellido": "santos",
+    "segundoApellido": "martin"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "expediente": "11001400306420170123100",
+    "capitalAdeudado": 1159046944,
+    "etapaProcesal": "ADMISION",
+    "municipio": "BOGOTA",
+    "obligacion": [5303729451744848, "0377816394649010"],
+    "radicado": "2017 - 01231",
+    "vencimientoPagare": ["2016-05-07T05:00:00.000Z", null, null],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 7711481,
+  "idProcesos": [17942390],
+  "procesos": [
+    {
+      "idProceso": 17942390,
+      "idConexion": 260,
+      "llaveProceso": "11001400306420170123100",
+      "fechaProceso": "2017-09-08T00:00:00",
+      "fechaUltimaActuacion": "2017-11-28T00:00:00",
+      "despacho": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIME EDISSON SANTOS MARTIN ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

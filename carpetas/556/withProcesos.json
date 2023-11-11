@@ -1,61 +1,41 @@
 {
-  "thener": {
-    "llaveProceso": "25430400300120230112700",
-    "numero": 556,
-    "tipoProceso": "SINGULAR",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 1022335014,
-      "direccion": "carrera 13 # 4-20 madrid (cundinamarca)",
-      "email": "ciro.onofe1105@gmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": 3023193548
-      },
-      "primerNombre": "ciro",
-      "primerApellido": "erquilian",
-      "segundoApellido": "onofre",
-      "segundoNombre": null
+  "llaveProceso": "25430400300120230112700",
+  "numero": 556,
+  "tipoProceso": "SINGULAR",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 1022335014,
+    "direccion": "carrera 13 # 4-20 madrid (cundinamarca)",
+    "email": "ciro.onofe1105@gmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": 3023193548
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-      "expediente": "25430400300120230112700",
-      "capitalAdeudado": 149444779,
-      "etapaProcesal": null,
-      "municipio": "MADRID",
-      "obligacion": ["3830095699 // 3830095700", 3830095701],
-      "radicado": "2023 - 01127",
-      "vencimientoPagare": [
-        "2026-09-03T05:00:00.000Z",
-        "2026-09-03T05:00:00.000Z",
-        "2026-09-04T05:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA",
-      "juzgados": []
-    },
-    "cc": 1022335014,
-    "idProcesos": [159336301],
-    "procesos": []
+    "primerNombre": "ciro",
+    "segundoNombre": "erquilian",
+    "primerApellido": "onofre",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 200,
-    "Message": "OK",
-    "procesos": [
-      {
-        "idProceso": 159336301,
-        "idConexion": 320,
-        "llaveProceso": "25430400300120230112700",
-        "fechaProceso": null,
-        "fechaUltimaActuacion": null,
-        "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
-        "departamento": "CUNDINAMARCA",
-        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
-        "esPrivado": true,
-        "cantFilas": -1
-      }
-    ]
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "expediente": "25430400300120230112700",
+    "capitalAdeudado": 149444779,
+    "etapaProcesal": null,
+    "municipio": "MADRID",
+    "obligacion": ["3830095699 // 3830095700", 3830095701],
+    "radicado": "2023 - 01127",
+    "vencimientoPagare": [
+      "2026-09-03T05:00:00.000Z",
+      "2026-09-03T05:00:00.000Z",
+      "2026-09-04T05:00:00.000Z"
+    ],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
+  },
+  "cc": 1022335014,
+  "idProcesos": [159336301],
+  "procesos": []
 }

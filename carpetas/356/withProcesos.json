@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400302420170170800",
-    "numero": 356,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 53119460,
-      "direccion": "carrera 81 b no  19 b- 50 apartamento 601",
-      "email": "ximenars29@hotmail.com",
-      "tel": {
-        "fijo": 4707082,
-        "celular": null
-      },
-      "primerNombre": "sonia",
-      "segundoNombre": "ximena",
-      "primerApellido": "rodriguez",
-      "segundoApellido": "sanchez"
+  "llaveProceso": "11001400302420170170800",
+  "numero": 356,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 53119460,
+    "direccion": "carrera 81 b no  19 b- 50 apartamento 601",
+    "email": "ximenars29@hotmail.com",
+    "tel": {
+      "fijo": 4707082,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-11-28T00:00:00.000Z",
-      "expediente": "11001400302420170170800",
-      "capitalAdeudado": 3057355551,
-      "etapaProcesal": "1.100140030242017e+22",
-      "municipio": "BOGOTA",
-      "obligacion": [162697],
-      "radicado": "2017 - 01708",
-      "vencimientoPagare": ["2017-08-03T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 80732347,
-      "direccion": "CARRERA 81 B No  19 B- 50 APARTAMENTO 601",
-      "nombre": "yeiser alexis florez coronado",
-      "telefono": "4707082 / 3143227603"
-    },
-    "cc": 53119460,
-    "idProcesos": [50905230],
-    "procesos": [
-      {
-        "idProceso": 50905230,
-        "idConexion": 259,
-        "llaveProceso": "11001400302420170170800",
-        "fechaProceso": "2017-12-12T00:00:00",
-        "fechaUltimaActuacion": "2023-10-20T00:00:00",
-        "despacho": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SONIA XIMENA RODRIGUEZ SANCHEZ | Demandado: YEISER ALEXIS FLOREZ CORONADO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "sonia",
+    "segundoNombre": "ximena",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "sanchez"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-11-28T00:00:00.000Z",
+    "expediente": "11001400302420170170800",
+    "capitalAdeudado": 3057355551,
+    "etapaProcesal": "1.100140030242017e+22",
+    "municipio": "BOGOTA",
+    "obligacion": [162697],
+    "radicado": "2017 - 01708",
+    "vencimientoPagare": ["2017-08-03T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 80732347,
+    "direccion": "CARRERA 81 B No  19 B- 50 APARTAMENTO 601",
+    "nombre": "yeiser alexis florez coronado",
+    "telefono": "4707082 / 3143227603"
+  },
+  "cc": 53119460,
+  "idProcesos": [50905230],
+  "procesos": [
+    {
+      "idProceso": 50905230,
+      "idConexion": 259,
+      "llaveProceso": "11001400302420170170800",
+      "fechaProceso": "2017-12-12T00:00:00",
+      "fechaUltimaActuacion": "2023-10-20T00:00:00",
+      "despacho": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SONIA XIMENA RODRIGUEZ SANCHEZ | Demandado: YEISER ALEXIS FLOREZ CORONADO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

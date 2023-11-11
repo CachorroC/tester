@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400302420180014300",
-    "numero": 371,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "LiosJuridicos",
-    "deudor": {
-      "cedula": 39765816,
-      "direccion": "calle 50 sur 93 d- 38 apto 401 torre 6",
-      "email": "andreato1a@hotmaul.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "martha",
-      "segundoNombre": "andrea",
-      "primerApellido": "mora",
-      "segundoApellido": "collazos"
+  "llaveProceso": "11001400302420180014300",
+  "numero": 371,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "LiosJuridicos",
+  "deudor": {
+    "cedula": 39765816,
+    "direccion": "calle 50 sur 93 d- 38 apto 401 torre 6",
+    "email": "andreato1a@hotmaul.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2018-01-16T00:00:00.000Z",
-      "expediente": "11001400302420180014300",
-      "capitalAdeudado": 10775194,
-      "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR NO HA SIDO ARCHIVADO POR EL JUZGADO",
-      "municipio": "BOGOTA",
-      "obligacion": [117171, 377813401553319],
-      "radicado": "2018 - 00143",
-      "vencimientoPagare": ["2024-03-30T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 39765816,
-    "idProcesos": [51002530],
-    "procesos": [
-      {
-        "idProceso": 51002530,
-        "idConexion": 259,
-        "llaveProceso": "11001400302420180014300",
-        "fechaProceso": "2018-02-12T00:00:00",
-        "fechaUltimaActuacion": "2019-09-27T00:00:00",
-        "despacho": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARTHA ANDREA MORA COLLAZOS ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "martha",
+    "segundoNombre": "andrea",
+    "primerApellido": "mora",
+    "segundoApellido": "collazos"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2018-01-16T00:00:00.000Z",
+    "expediente": "11001400302420180014300",
+    "capitalAdeudado": 10775194,
+    "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR NO HA SIDO ARCHIVADO POR EL JUZGADO",
+    "municipio": "BOGOTA",
+    "obligacion": [117171, 377813401553319],
+    "radicado": "2018 - 00143",
+    "vencimientoPagare": ["2024-03-30T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 39765816,
+  "idProcesos": [51002530],
+  "procesos": [
+    {
+      "idProceso": 51002530,
+      "idConexion": 259,
+      "llaveProceso": "11001400302420180014300",
+      "fechaProceso": "2018-02-12T00:00:00",
+      "fechaUltimaActuacion": "2019-09-27T00:00:00",
+      "despacho": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARTHA ANDREA MORA COLLAZOS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

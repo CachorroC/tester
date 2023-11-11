@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400305220190110300",
-    "numero": 529,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 2976219,
-      "direccion": "carrera 39 b no 20t-1 apto 303",
-      "email": "gcontreras@intecq.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "gonzalo",
-      "primerApellido": "contreras",
-      "segundoApellido": "poveda",
-      "segundoNombre": null
+  "llaveProceso": "11001400305220190110300",
+  "numero": 529,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 2976219,
+    "direccion": "carrera 39 b no 20t-1 apto 303",
+    "email": "gcontreras@intecq.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400305220190110300",
-      "capitalAdeudado": 3542453922,
-      "etapaProcesal": null,
-      "municipio": "BOGOTA",
-      "obligacion": [20990171776, "AUDIOPRESTAMO"],
-      "radicado": "2019 - 01103",
-      "vencimientoPagare": [null, null],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 35402673,
-      "direccion": "TRANS 60 No 119-30 apto 418 t 5",
-      "nombre": "susana contreras poveda",
-      "telefono": 8060779
-    },
-    "cc": 2976219,
-    "idProcesos": [66898433],
-    "procesos": [
-      {
-        "idProceso": 66898433,
-        "idConexion": 261,
-        "llaveProceso": "11001400305220190110300",
-        "fechaProceso": "2019-11-26T00:00:00",
-        "fechaUltimaActuacion": "2020-02-06T00:00:00",
-        "despacho": "JUZGADO 052 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SUSANA CONTRERAS POVEDA | Demandado: GONZALO CONTRERAS  POVEDA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "gonzalo",
+    "segundoNombre": "contreras",
+    "primerApellido": "poveda",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400305220190110300",
+    "capitalAdeudado": 3542453922,
+    "etapaProcesal": null,
+    "municipio": "BOGOTA",
+    "obligacion": [20990171776, "AUDIOPRESTAMO"],
+    "radicado": "2019 - 01103",
+    "vencimientoPagare": [null, null],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 35402673,
+    "direccion": "TRANS 60 No 119-30 apto 418 t 5",
+    "nombre": "susana contreras poveda",
+    "telefono": 8060779
+  },
+  "cc": 2976219,
+  "idProcesos": [66898433],
+  "procesos": [
+    {
+      "idProceso": 66898433,
+      "idConexion": 261,
+      "llaveProceso": "11001400305220190110300",
+      "fechaProceso": "2019-11-26T00:00:00",
+      "fechaUltimaActuacion": "2020-02-06T00:00:00",
+      "despacho": "JUZGADO 052 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SUSANA CONTRERAS POVEDA | Demandado: GONZALO CONTRERAS  POVEDA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

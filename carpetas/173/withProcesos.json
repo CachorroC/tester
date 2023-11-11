@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400301520170116100",
-    "numero": 173,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79878252,
-      "direccion": "calle 69a sur # 104 - 18 casa 177",
-      "email": "diegoc8a@gmail.com",
-      "tel": {
-        "fijo": 7230139,
-        "celular": 3114901649
-      },
-      "primerNombre": "diego",
-      "segundoNombre": "alexander",
-      "primerApellido": "caycedo",
-      "segundoApellido": "ochoa"
+  "llaveProceso": "11001400301520170116100",
+  "numero": 173,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79878252,
+    "direccion": "calle 69a sur # 104 - 18 casa 177",
+    "email": "diegoc8a@gmail.com",
+    "tel": {
+      "fijo": 7230139,
+      "celular": 3114901649
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2017-08-28T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
-      "expediente": "11001400301520170116100",
-      "capitalAdeudado": 41576997,
-      "etapaProcesal": null,
-      "municipio": "BOGOTA",
-      "obligacion": [166760],
-      "radicado": "2017 - 01161",
-      "vencimientoPagare": ["2028-08-09T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 52792026,
-      "direccion": "CALLE 69A SUR # 104 - 18 CASA 177",
-      "nombre": "ivonne maritza castillo blanco",
-      "telefono": 7856815
-    },
-    "cc": 79878252,
-    "idProcesos": [50674600],
-    "procesos": [
-      {
-        "idProceso": 50674600,
-        "idConexion": 259,
-        "llaveProceso": "11001400301520170116100",
-        "fechaProceso": "2017-08-31T00:00:00",
-        "fechaUltimaActuacion": "2019-08-06T00:00:00",
-        "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIEGO ALEZANDER CAYCEDO OCHOA | Demandado: IVONNE MARITZA CASTILLO BLANCO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "diego",
+    "segundoNombre": "alexander",
+    "primerApellido": "caycedo",
+    "segundoApellido": "ochoa"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2017-08-28T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "expediente": "11001400301520170116100",
+    "capitalAdeudado": 41576997,
+    "etapaProcesal": null,
+    "municipio": "BOGOTA",
+    "obligacion": [166760],
+    "radicado": "2017 - 01161",
+    "vencimientoPagare": ["2028-08-09T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 52792026,
+    "direccion": "CALLE 69A SUR # 104 - 18 CASA 177",
+    "nombre": "ivonne maritza castillo blanco",
+    "telefono": 7856815
+  },
+  "cc": 79878252,
+  "idProcesos": [50674600],
+  "procesos": [
+    {
+      "idProceso": 50674600,
+      "idConexion": 259,
+      "llaveProceso": "11001400301520170116100",
+      "fechaProceso": "2017-08-31T00:00:00",
+      "fechaUltimaActuacion": "2019-08-06T00:00:00",
+      "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIEGO ALEZANDER CAYCEDO OCHOA | Demandado: IVONNE MARITZA CASTILLO BLANCO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400303020170181700",
-    "numero": 113,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 53178044,
-      "direccion": "calle 153 # 97b - 30 casa alta",
-      "email": "bibi0225@hotmail.es",
-      "tel": {
-        "fijo": 6210512,
-        "celular": 3167289932
-      },
-      "primerNombre": "sandra",
-      "segundoNombre": "bibiana",
-      "primerApellido": "urrego",
-      "segundoApellido": "mayorga"
+  "llaveProceso": "11001400303020170181700",
+  "numero": 113,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 53178044,
+    "direccion": "calle 153 # 97b - 30 casa alta",
+    "email": "bibi0225@hotmail.es",
+    "tel": {
+      "fijo": 6210512,
+      "celular": 3167289932
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
-      "expediente": "11001400303020170181700",
-      "capitalAdeudado": 16305609,
-      "etapaProcesal": "1.100140030302017e+22",
-      "municipio": "BOGOTA",
-      "obligacion": [860669],
-      "radicado": "2017 - 01817",
-      "vencimientoPagare": ["2021-05-16T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 28052816,
-      "direccion": "CALLE 153 # 97B - 30 CASA ALTA",
-      "nombre": "miriam mayorga",
-      "telefono": 6210515
-    },
-    "cc": 53178044,
-    "idProcesos": [50883240],
-    "procesos": [
-      {
-        "idProceso": 50883240,
-        "idConexion": 259,
-        "llaveProceso": "11001400303020170181700",
-        "fechaProceso": "2017-12-01T00:00:00",
-        "fechaUltimaActuacion": "2019-09-25T00:00:00",
-        "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A HITOS | Demandado: MIRIAN MAYORGA | Demandado: SANDRA BIBIANA URREGO MAYORGA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "sandra",
+    "segundoNombre": "bibiana",
+    "primerApellido": "urrego",
+    "segundoApellido": "mayorga"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "expediente": "11001400303020170181700",
+    "capitalAdeudado": 16305609,
+    "etapaProcesal": "1.100140030302017e+22",
+    "municipio": "BOGOTA",
+    "obligacion": [860669],
+    "radicado": "2017 - 01817",
+    "vencimientoPagare": ["2021-05-16T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 28052816,
+    "direccion": "CALLE 153 # 97B - 30 CASA ALTA",
+    "nombre": "miriam mayorga",
+    "telefono": 6210515
+  },
+  "cc": 53178044,
+  "idProcesos": [50883240],
+  "procesos": [
+    {
+      "idProceso": 50883240,
+      "idConexion": 259,
+      "llaveProceso": "11001400303020170181700",
+      "fechaProceso": "2017-12-01T00:00:00",
+      "fechaUltimaActuacion": "2019-09-25T00:00:00",
+      "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A HITOS | Demandado: MIRIAN MAYORGA | Demandado: SANDRA BIBIANA URREGO MAYORGA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

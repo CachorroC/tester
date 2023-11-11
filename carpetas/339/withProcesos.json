@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400305620170119500",
-    "numero": 339,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 91072102,
-      "direccion": "carrera 53 no 153 - 84  interior 5 apartamento  204",
-      "email": "alfonso.mojica@sumatronicltda.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "luis",
-      "segundoNombre": "alfonso",
-      "primerApellido": "mojica",
-      "segundoApellido": "zambrano"
+  "llaveProceso": "11001400305620170119500",
+  "numero": 339,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 91072102,
+    "direccion": "carrera 53 no 153 - 84  interior 5 apartamento  204",
+    "email": "alfonso.mojica@sumatronicltda.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2017-11-20T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
-      "expediente": "11001400305620170119500",
-      "capitalAdeudado": 36069195,
-      "etapaProcesal": null,
-      "municipio": "BOGOTA",
-      "obligacion": [53392043, "530092506 /530092671"],
-      "radicado": "2017 - 01195",
-      "vencimientoPagare": ["2021-04-20T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 91072102,
-    "idProcesos": [50858360],
-    "procesos": [
-      {
-        "idProceso": 50858360,
-        "idConexion": 259,
-        "llaveProceso": "11001400305620170119500",
-        "fechaProceso": "2017-11-21T00:00:00",
-        "fechaUltimaActuacion": "2020-02-18T00:00:00",
-        "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS ALFONSO MOJICA  ZAMBRANO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "luis",
+    "segundoNombre": "alfonso",
+    "primerApellido": "mojica",
+    "segundoApellido": "zambrano"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2017-11-20T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
+    "expediente": "11001400305620170119500",
+    "capitalAdeudado": 36069195,
+    "etapaProcesal": null,
+    "municipio": "BOGOTA",
+    "obligacion": [53392043, "530092506 /530092671"],
+    "radicado": "2017 - 01195",
+    "vencimientoPagare": ["2021-04-20T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 91072102,
+  "idProcesos": [50858360],
+  "procesos": [
+    {
+      "idProceso": 50858360,
+      "idConexion": 259,
+      "llaveProceso": "11001400305620170119500",
+      "fechaProceso": "2017-11-21T00:00:00",
+      "fechaUltimaActuacion": "2020-02-18T00:00:00",
+      "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS ALFONSO MOJICA  ZAMBRANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

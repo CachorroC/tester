@@ -1,5 +1,17 @@
 {
-  "StatusCode": 400,
-  "Message": "error at PrismaClientValidationError: \nInvalid `client.demanda.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:293:47\n\n  290   deudor, numero\n  291 );\n  292 \n→ 293 const createDeudor = await client.demanda.upsert({\n        where: {\n          carpetaNumero: 123\n        },\n        create: {\n          nombre: \"gustavosantamariamosquera\",\n          ~~~~~~\n          direccion: null,\n          email: \"DIAGONAL 146 # 136A - 79 IN 3 AP 3\",\n          telCelular: null,\n          telFijo: null,\n          carpetaNumero: 123,\n          cedula: \"79547983\",\n      ?   id?: Int,\n      ?   departamento?: String | Null,\n      ?   capitalAdeudado?: Decimal | Null,\n      ?   entregaGarantiasAbogado?: DateTime | Null,\n      ?   tipoProceso?: TipoProceso,\n      ?   mandamientoPago?: DateTime | Null,\n      ?   etapaProcesal?: String | Null,\n      ?   fechaPresentacion?: DateTime | Null,\n      ?   municipio?: String | Null,\n      ?   obligacion?: DemandaCreateobligacionInput | String[],\n      ?   radicado?: String | Null,\n      ?   vencimientoPagare?: DemandaCreatevencimientoPagareInput | DateTime[],\n      ?   expediente?: String | Null,\n      ?   juzgados?: JuzgadoUncheckedCreateNestedManyWithoutDemandaInput\n        },\n        update: {\n          nombre: \"gustavosantamariamosquera\",\n          direccion: null,\n          email: \"DIAGONAL 146 # 136A - 79 IN 3 AP 3\",\n          telCelular: null,\n          telFijo: null,\n          carpetaNumero: 123,\n          cedula: \"79547983\"\n        }\n      })\n\nUnknown argument `nombre`. Available options are marked with ?.",
-  "data": "{\n  \"name\": \"PrismaClientValidationError\",\n  \"clientVersion\": \"5.5.2\"\n}"
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 50,
+    "cedula": "79547983",
+    "primerNombre": "gustavo",
+    "primerApellido": "mosquera",
+    "segundoNombre": "santamaria",
+    "segundoApellido": null,
+    "direccion": null,
+    "email": "DIAGONAL 146 # 136A - 79 IN 3 AP 3",
+    "telCelular": null,
+    "telFijo": null,
+    "carpetaNumero": 123
+  }
 }

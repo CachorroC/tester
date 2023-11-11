@@ -129,7 +129,6 @@ export async function insertCarpetaInPrisma(
     };
   } catch ( e ) {
     if ( e instanceof Prisma.PrismaClientKnownRequestError ) {
-      // The .code property can be accessed in a type-safe manner
       switch ( e.code ) {
           case 'P2002': {
             console.log(
@@ -287,7 +286,7 @@ export async function insertDeudorInPrisma(
       deudor, numero 
     );
 
-    const createDeudor = await client.demanda.upsert(
+    const createDeudor = await client.deudor.upsert(
       {
         where: {
           carpetaNumero: numero,

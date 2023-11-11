@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400300220170084000",
-    "numero": 218,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 12402596,
-      "direccion": "calle 144 # 136a - 45",
-      "email": null,
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "elio",
-      "primerApellido": "alvarado",
-      "segundoApellido": "hernandez",
-      "segundoNombre": null
+  "llaveProceso": "11001400300220170084000",
+  "numero": 218,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 12402596,
+    "direccion": "calle 144 # 136a - 45",
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-09-11T00:00:00.000Z",
-      "mandamientoPago": "2017-10-25T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-08-25T00:00:00.000Z",
-      "expediente": "11001400300220170084000",
-      "capitalAdeudado": 1296319636,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [20990118584, "0377813642739792"],
-      "radicado": "2017 - 00840",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 34322133,
-      "direccion": "CALLE 144 # 136A - 45 APTO 502 INT 14",
-      "nombre": "lida amparo hormiga m.",
-      "telefono": 7026848
-    },
-    "cc": 12402596,
-    "idProcesos": [50699960],
-    "procesos": [
-      {
-        "idProceso": 50699960,
-        "idConexion": 259,
-        "llaveProceso": "11001400300220170084000",
-        "fechaProceso": "2017-09-12T00:00:00",
-        "fechaUltimaActuacion": "2018-09-20T00:00:00",
-        "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LIDA AMPARO HORMIGA MOPAN | Demandado: ELIO ALVARADO HERNANDEZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "elio",
+    "segundoNombre": "alvarado",
+    "primerApellido": "hernandez",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-09-11T00:00:00.000Z",
+    "mandamientoPago": "2017-10-25T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-25T00:00:00.000Z",
+    "expediente": "11001400300220170084000",
+    "capitalAdeudado": 1296319636,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [20990118584, "0377813642739792"],
+    "radicado": "2017 - 00840",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 34322133,
+    "direccion": "CALLE 144 # 136A - 45 APTO 502 INT 14",
+    "nombre": "lida amparo hormiga m.",
+    "telefono": 7026848
+  },
+  "cc": 12402596,
+  "idProcesos": [50699960],
+  "procesos": [
+    {
+      "idProceso": 50699960,
+      "idConexion": 259,
+      "llaveProceso": "11001400300220170084000",
+      "fechaProceso": "2017-09-12T00:00:00",
+      "fechaUltimaActuacion": "2018-09-20T00:00:00",
+      "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LIDA AMPARO HORMIGA MOPAN | Demandado: ELIO ALVARADO HERNANDEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

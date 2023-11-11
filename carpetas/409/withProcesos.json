@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400305620180022100",
-    "numero": 409,
-    "tipoProceso": "SINGULAR",
-    "category": "Bancolombia",
-    "deudor": {
-      "cedula": 900545720,
-      "direccion": "carrera 50 1# 47 - 50 int 1 apto 101",
-      "email": "andibarracosta@gmail.com",
-      "tel": {
-        "fijo": 8626344,
-        "celular": 3107982028
-      },
-      "primerNombre": "creas",
-      "primerApellido": "consultores",
-      "segundoApellido": "s.a.s",
-      "segundoNombre": null
+  "llaveProceso": "11001400305620180022100",
+  "numero": 409,
+  "tipoProceso": "SINGULAR",
+  "category": "Bancolombia",
+  "deudor": {
+    "cedula": 900545720,
+    "direccion": "carrera 50 1# 47 - 50 int 1 apto 101",
+    "email": "andibarracosta@gmail.com",
+    "tel": {
+      "fijo": 8626344,
+      "celular": 3107982028
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2018-02-28T00:00:00.000Z",
-      "mandamientoPago": "2018-03-22T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2018-02-15T00:00:00.000Z",
-      "expediente": "11001400305620180022100",
-      "capitalAdeudado": 11949471,
-      "etapaProcesal": "EJECUCIÓN",
-      "municipio": "BOGOTA",
-      "obligacion": [4550087219],
-      "radicado": "2018 - 00221",
-      "vencimientoPagare": ["2018-06-20T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 12192291,
-      "direccion": "CALLE 56 # 17 - 03 CASA 65 NEIVA",
-      "nombre": "andres enrique ibarra acosta",
-      "telefono": "F 8626344"
-    },
-    "cc": 900545720,
-    "idProcesos": [51042800],
-    "procesos": [
-      {
-        "idProceso": 51042800,
-        "idConexion": 259,
-        "llaveProceso": "11001400305620180022100",
-        "fechaProceso": "2018-03-01T00:00:00",
-        "fechaUltimaActuacion": "2023-09-04T00:00:00",
-        "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CREAS CONSULTORES S.A.S. ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "creas",
+    "segundoNombre": "consultores",
+    "primerApellido": "s.a.s",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2018-02-28T00:00:00.000Z",
+    "mandamientoPago": "2018-03-22T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-02-15T00:00:00.000Z",
+    "expediente": "11001400305620180022100",
+    "capitalAdeudado": 11949471,
+    "etapaProcesal": "EJECUCIÓN",
+    "municipio": "BOGOTA",
+    "obligacion": [4550087219],
+    "radicado": "2018 - 00221",
+    "vencimientoPagare": ["2018-06-20T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 12192291,
+    "direccion": "CALLE 56 # 17 - 03 CASA 65 NEIVA",
+    "nombre": "andres enrique ibarra acosta",
+    "telefono": "F 8626344"
+  },
+  "cc": 900545720,
+  "idProcesos": [51042800],
+  "procesos": [
+    {
+      "idProceso": 51042800,
+      "idConexion": 259,
+      "llaveProceso": "11001400305620180022100",
+      "fechaProceso": "2018-03-01T00:00:00",
+      "fechaUltimaActuacion": "2023-09-04T00:00:00",
+      "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CREAS CONSULTORES S.A.S. ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

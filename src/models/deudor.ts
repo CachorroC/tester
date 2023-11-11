@@ -96,7 +96,7 @@ export class ClassDeudor implements IntDeudor {
           [
             this.primerNombre
           ] = nameStringArray;
-          this.primerApellido = 'sin especificar';
+          this.primerApellido = 'sinEspecificar';
           this.segundoApellido = null;
           this.segundoNombre = null;
 
@@ -105,11 +105,11 @@ export class ClassDeudor implements IntDeudor {
         case 3:
           [
             this.primerNombre,
-            this.primerApellido,
-            this.segundoApellido
+            this.segundoNombre,
+            this.primerApellido
           ]
           = nameStringArray;
-          this.segundoNombre = null;
+          this.segundoApellido = null;
 
           break;
 

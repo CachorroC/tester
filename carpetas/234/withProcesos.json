@@ -1,59 +1,53 @@
 {
-  "thener": {
-    "llaveProceso": "11001400304320170120500",
-    "numero": 234,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 16940930,
-      "direccion": "calle 152 12 35 int 7",
-      "email": "mauricio.aguirre@bav.sabmiller",
-      "tel": {
-        "fijo": 7451585,
-        "celular": 3052392765
-      },
-      "primerNombre": "mauricio",
-      "segundoNombre": "alexander",
-      "primerApellido": "aguirre",
-      "segundoApellido": "bermudez"
+  "llaveProceso": "11001400304320170120500",
+  "numero": 234,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 16940930,
+    "direccion": "calle 152 12 35 int 7",
+    "email": "mauricio.aguirre@bav.sabmiller",
+    "tel": {
+      "fijo": 7451585,
+      "celular": 3052392765
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-09-18T00:00:00.000Z",
-      "mandamientoPago": "2017-10-24T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
-      "expediente": "11001400304320170120500",
-      "capitalAdeudado": 1541419482,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [
-        "377815075274932 / 5176400101402245",
-        "5303729008808054 // AUDIOPRESTAMO"
-      ],
-      "radicado": "2017-01205",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 16940930,
-    "idProcesos": [9334913],
-    "procesos": [
-      {
-        "idProceso": 9334913,
-        "idConexion": 261,
-        "llaveProceso": "11001400304320170120500",
-        "fechaProceso": "2017-09-20T00:00:00",
-        "fechaUltimaActuacion": "2018-10-26T00:00:00",
-        "despacho": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MAURICIO ALEXANDER AGUIRRE BERMUDEZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "mauricio",
+    "segundoNombre": "alexander",
+    "primerApellido": "aguirre",
+    "segundoApellido": "bermudez"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
+    "mandamientoPago": "2017-10-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "expediente": "11001400304320170120500",
+    "capitalAdeudado": 1541419482,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "377815075274932 / 5176400101402245",
+      "5303729008808054 // AUDIOPRESTAMO"
+    ],
+    "radicado": "2017-01205",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 16940930,
+  "idProcesos": [9334913],
+  "procesos": [
+    {
+      "idProceso": 9334913,
+      "idConexion": 261,
+      "llaveProceso": "11001400304320170120500",
+      "fechaProceso": "2017-09-20T00:00:00",
+      "fechaUltimaActuacion": "2018-10-26T00:00:00",
+      "despacho": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MAURICIO ALEXANDER AGUIRRE BERMUDEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

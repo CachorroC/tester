@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400304120170114000",
-    "numero": 283,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 1010188573,
-      "direccion": "calle 6 d no 88 d 59  apartamento  402",
-      "email": "jansonmalak@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "janson",
-      "segundoNombre": "david",
-      "primerApellido": "carreño",
-      "segundoApellido": "quijano"
+  "llaveProceso": "11001400304120170114000",
+  "numero": 283,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 1010188573,
+    "direccion": "calle 6 d no 88 d 59  apartamento  402",
+    "email": "jansonmalak@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2017-01-19T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-09-26T00:00:00.000Z",
-      "expediente": "11001400304120170114000",
-      "capitalAdeudado": 2110945100,
-      "etapaProcesal": "LIQUIDACION",
-      "municipio": "BOGOTA",
-      "obligacion": [1860086996],
-      "radicado": "2017 - 01140",
-      "vencimientoPagare": ["2017-07-20T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 1010188573,
-    "idProcesos": [50772500],
-    "procesos": [
-      {
-        "idProceso": 50772500,
-        "idConexion": 259,
-        "llaveProceso": "11001400304120170114000",
-        "fechaProceso": "2017-10-11T00:00:00",
-        "fechaUltimaActuacion": "2020-02-18T00:00:00",
-        "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JANSON DAVID CARREÑO QUIJANO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "janson",
+    "segundoNombre": "david",
+    "primerApellido": "carreño",
+    "segundoApellido": "quijano"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2017-01-19T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-09-26T00:00:00.000Z",
+    "expediente": "11001400304120170114000",
+    "capitalAdeudado": 2110945100,
+    "etapaProcesal": "LIQUIDACION",
+    "municipio": "BOGOTA",
+    "obligacion": [1860086996],
+    "radicado": "2017 - 01140",
+    "vencimientoPagare": ["2017-07-20T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 1010188573,
+  "idProcesos": [50772500],
+  "procesos": [
+    {
+      "idProceso": 50772500,
+      "idConexion": 259,
+      "llaveProceso": "11001400304120170114000",
+      "fechaProceso": "2017-10-11T00:00:00",
+      "fechaUltimaActuacion": "2020-02-18T00:00:00",
+      "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JANSON DAVID CARREÑO QUIJANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

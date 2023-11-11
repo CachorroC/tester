@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400301220170101200",
-    "numero": 200,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79582683,
-      "direccion": "tranversal 16a # 42 - 58 sur",
-      "email": "mmx4b@msn.com",
-      "tel": {
-        "fijo": 7600199,
-        "celular": 3103770989
-      },
-      "primerNombre": "alexander",
-      "primerApellido": "rojas",
-      "segundoApellido": "castañeda",
-      "segundoNombre": null
+  "llaveProceso": "11001400301220170101200",
+  "numero": 200,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79582683,
+    "direccion": "tranversal 16a # 42 - 58 sur",
+    "email": "mmx4b@msn.com",
+    "tel": {
+      "fijo": 7600199,
+      "celular": 3103770989
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2017-09-04T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
-      "expediente": "11001400301220170101200",
-      "capitalAdeudado": 34506455,
-      "etapaProcesal": "1.100140030122017e+22",
-      "municipio": "BOGOTA",
-      "obligacion": [168737],
-      "radicado": "2017 - 01012",
-      "vencimientoPagare": ["2028-10-10T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 79582683,
-    "idProcesos": [50681670],
-    "procesos": [
-      {
-        "idProceso": 50681670,
-        "idConexion": 259,
-        "llaveProceso": "11001400301220170101200",
-        "fechaProceso": "2017-09-05T00:00:00",
-        "fechaUltimaActuacion": "2022-03-02T00:00:00",
-        "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALEXANDER ROJAS CASTAÑEDA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "alexander",
+    "segundoNombre": "rojas",
+    "primerApellido": "castañeda",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
+    "expediente": "11001400301220170101200",
+    "capitalAdeudado": 34506455,
+    "etapaProcesal": "1.100140030122017e+22",
+    "municipio": "BOGOTA",
+    "obligacion": [168737],
+    "radicado": "2017 - 01012",
+    "vencimientoPagare": ["2028-10-10T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 79582683,
+  "idProcesos": [50681670],
+  "procesos": [
+    {
+      "idProceso": 50681670,
+      "idConexion": 259,
+      "llaveProceso": "11001400301220170101200",
+      "fechaProceso": "2017-09-05T00:00:00",
+      "fechaUltimaActuacion": "2022-03-02T00:00:00",
+      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALEXANDER ROJAS CASTAÑEDA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

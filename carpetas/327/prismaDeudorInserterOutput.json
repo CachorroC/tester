@@ -1,5 +1,17 @@
 {
-  "StatusCode": 400,
-  "Message": "error at PrismaClientValidationError: \nInvalid `client.demanda.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:293:47\n\n  290   deudor, numero\n  291 );\n  292 \n→ 293 const createDeudor = await client.demanda.upsert({\n        where: {\n          carpetaNumero: 327\n        },\n        create: {\n          nombre: \"josedanielescobarpatiño\",\n          ~~~~~~\n          direccion: \"jose.daniel.escobar@hotmail.co\",\n          email: \"6332400 / 3155459543\",\n          telCelular: null,\n          telFijo: null,\n          carpetaNumero: 327,\n          cedula: \"94524378\",\n      ?   id?: Int,\n      ?   departamento?: String | Null,\n      ?   capitalAdeudado?: Decimal | Null,\n      ?   entregaGarantiasAbogado?: DateTime | Null,\n      ?   tipoProceso?: TipoProceso,\n      ?   mandamientoPago?: DateTime | Null,\n      ?   etapaProcesal?: String | Null,\n      ?   fechaPresentacion?: DateTime | Null,\n      ?   municipio?: String | Null,\n      ?   obligacion?: DemandaCreateobligacionInput | String[],\n      ?   radicado?: String | Null,\n      ?   vencimientoPagare?: DemandaCreatevencimientoPagareInput | DateTime[],\n      ?   expediente?: String | Null,\n      ?   juzgados?: JuzgadoUncheckedCreateNestedManyWithoutDemandaInput\n        },\n        update: {\n          nombre: \"josedanielescobarpatiño\",\n          direccion: \"jose.daniel.escobar@hotmail.co\",\n          email: \"6332400 / 3155459543\",\n          telCelular: null,\n          telFijo: null,\n          carpetaNumero: 327,\n          cedula: \"94524378\"\n        }\n      })\n\nUnknown argument `nombre`. Available options are marked with ?.",
-  "data": "{\n  \"name\": \"PrismaClientValidationError\",\n  \"clientVersion\": \"5.5.2\"\n}"
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 149,
+    "cedula": "94524378",
+    "primerNombre": "jose",
+    "primerApellido": "escobar",
+    "segundoNombre": "daniel",
+    "segundoApellido": "patiño",
+    "direccion": "jose.daniel.escobar@hotmail.co",
+    "email": "6332400 / 3155459543",
+    "telCelular": null,
+    "telFijo": null,
+    "carpetaNumero": 327
+  }
 }

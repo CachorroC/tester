@@ -1,59 +1,53 @@
 {
-  "thener": {
-    "llaveProceso": "11001400303120180040600",
-    "numero": 91,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79456791,
-      "direccion": "jaime.precco@gmail.com",
-      "email": "F3554893              CEL 3165211980",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "jaime",
-      "segundoNombre": "jesus",
-      "primerApellido": "reyes",
-      "segundoApellido": "orozco"
+  "llaveProceso": "11001400303120180040600",
+  "numero": 91,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79456791,
+    "direccion": "jaime.precco@gmail.com",
+    "email": "F3554893              CEL 3165211980",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400303120180040600",
-      "capitalAdeudado": null,
-      "etapaProcesal": "2018 - 00406",
-      "municipio": "BOGOTA",
-      "obligacion": ["05-04-2018 15-01-2021", 2500083807],
-      "radicado": "2018 - 00406",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": "CALLE 152 No 72 - 50  BOGOTA"
-    },
-    "cc": 79456791,
-    "idProcesos": [51092120],
-    "procesos": [
-      {
-        "idProceso": 51092120,
-        "idConexion": 259,
-        "llaveProceso": "11001400303120180040600",
-        "fechaProceso": "2018-04-03T00:00:00",
-        "fechaUltimaActuacion": "2023-10-19T00:00:00",
-        "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIME JESUS REYES OROZCO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "jaime",
+    "segundoNombre": "jesus",
+    "primerApellido": "reyes",
+    "segundoApellido": "orozco"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400303120180040600",
+    "capitalAdeudado": null,
+    "etapaProcesal": "2018 - 00406",
+    "municipio": "BOGOTA",
+    "obligacion": ["05-04-2018 15-01-2021", 2500083807],
+    "radicado": "2018 - 00406",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": "CALLE 152 No 72 - 50  BOGOTA"
+  },
+  "cc": 79456791,
+  "idProcesos": [51092120],
+  "procesos": [
+    {
+      "idProceso": 51092120,
+      "idConexion": 259,
+      "llaveProceso": "11001400303120180040600",
+      "fechaProceso": "2018-04-03T00:00:00",
+      "fechaUltimaActuacion": "2023-10-19T00:00:00",
+      "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIME JESUS REYES OROZCO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

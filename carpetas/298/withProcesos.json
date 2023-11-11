@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400307820170098600",
-    "numero": 298,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79659040,
-      "direccion": "calle 58 a sur no 18 b -35 int 6",
-      "email": "gabrielisag61@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": 3164700074
-      },
-      "primerNombre": "hector",
-      "segundoNombre": "gabriel",
-      "primerApellido": "ramirez",
-      "segundoApellido": "bohorquez"
+  "llaveProceso": "11001400307820170098600",
+  "numero": 298,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79659040,
+    "direccion": "calle 58 a sur no 18 b -35 int 6",
+    "email": "gabrielisag61@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": 3164700074
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-10-17T00:00:00.000Z",
-      "mandamientoPago": "2017-10-20T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-10-13T00:00:00.000Z",
-      "expediente": "11001400307820170098600",
-      "capitalAdeudado": 9644297780,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [155487],
-      "radicado": "2017 - 00986",
-      "vencimientoPagare": ["2017-04-04T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 79659040,
-    "idProcesos": [51570460],
-    "procesos": [
-      {
-        "idProceso": 51570460,
-        "idConexion": 259,
-        "llaveProceso": "11001400307820170098600",
-        "fechaProceso": "2019-01-15T00:00:00",
-        "fechaUltimaActuacion": "2019-01-15T00:00:00",
-        "despacho": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR GABRIEL RAMIREZ BOHORQUEZ ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "hector",
+    "segundoNombre": "gabriel",
+    "primerApellido": "ramirez",
+    "segundoApellido": "bohorquez"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-10-17T00:00:00.000Z",
+    "mandamientoPago": "2017-10-20T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-10-13T00:00:00.000Z",
+    "expediente": "11001400307820170098600",
+    "capitalAdeudado": 9644297780,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [155487],
+    "radicado": "2017 - 00986",
+    "vencimientoPagare": ["2017-04-04T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 79659040,
+  "idProcesos": [51570460],
+  "procesos": [
+    {
+      "idProceso": 51570460,
+      "idConexion": 259,
+      "llaveProceso": "11001400307820170098600",
+      "fechaProceso": "2019-01-15T00:00:00",
+      "fechaUltimaActuacion": "2019-01-15T00:00:00",
+      "despacho": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR GABRIEL RAMIREZ BOHORQUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

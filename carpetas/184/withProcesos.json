@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400302520170080700",
-    "numero": 184,
-    "tipoProceso": "SINGULAR",
-    "category": "Reintegra",
-    "deudor": {
-      "cedula": 17650971,
-      "direccion": "carrera 86 # 69 h - 40",
-      "email": null,
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "juan",
-      "segundoNombre": "carlos",
-      "primerApellido": "tovar",
-      "segundoApellido": "toledo"
+  "llaveProceso": "11001400302520170080700",
+  "numero": 184,
+  "tipoProceso": "SINGULAR",
+  "category": "Reintegra",
+  "deudor": {
+    "cedula": 17650971,
+    "direccion": "carrera 86 # 69 h - 40",
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-08-08T00:00:00.000Z",
-      "mandamientoPago": "2017-08-14T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
-      "expediente": "11001400302520170080700",
-      "capitalAdeudado": 22277206,
-      "etapaProcesal": "DESIGNACIÓN CURADOR AD LITEM",
-      "municipio": "BOGOTA",
-      "obligacion": [8470081213],
-      "radicado": "2017 - 00807",
-      "vencimientoPagare": ["2021-12-15T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 17650971,
-    "idProcesos": [50623380, 81652411],
-    "procesos": [
-      {
-        "idProceso": 50623380,
-        "idConexion": 259,
-        "llaveProceso": "11001400302520170080700",
-        "fechaProceso": "2017-08-09T00:00:00",
-        "fechaUltimaActuacion": "2023-10-18T00:00:00",
-        "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JUAN CARLOS TOVAR TOLEDO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "juan",
+    "segundoNombre": "carlos",
+    "primerApellido": "tovar",
+    "segundoApellido": "toledo"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-08-08T00:00:00.000Z",
+    "mandamientoPago": "2017-08-14T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "expediente": "11001400302520170080700",
+    "capitalAdeudado": 22277206,
+    "etapaProcesal": "DESIGNACIÓN CURADOR AD LITEM",
+    "municipio": "BOGOTA",
+    "obligacion": [8470081213],
+    "radicado": "2017 - 00807",
+    "vencimientoPagare": ["2021-12-15T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 17650971,
+  "idProcesos": [50623380, 81652411],
+  "procesos": [
+    {
+      "idProceso": 50623380,
+      "idConexion": 259,
+      "llaveProceso": "11001400302520170080700",
+      "fechaProceso": "2017-08-09T00:00:00",
+      "fechaUltimaActuacion": "2023-10-18T00:00:00",
+      "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JUAN CARLOS TOVAR TOLEDO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400307020170121800",
-    "numero": 330,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 80185084,
-      "direccion": "carrera 95 a  no 136 - 47 apartamento 401 bloque 3",
-      "email": "arby3920@hotmail.com",
-      "tel": {
-        "fijo": 6822121,
-        "celular": 3176822122
-      },
-      "primerNombre": "nelson",
-      "segundoNombre": "arbey",
-      "primerApellido": "cangrejo",
-      "segundoApellido": "suarez"
+  "llaveProceso": "11001400307020170121800",
+  "numero": 330,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 80185084,
+    "direccion": "carrera 95 a  no 136 - 47 apartamento 401 bloque 3",
+    "email": "arby3920@hotmail.com",
+    "tel": {
+      "fijo": 6822121,
+      "celular": 3176822122
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-11-14T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
-      "expediente": "11001400307020170121800",
-      "capitalAdeudado": 3610354525,
-      "etapaProcesal": "ADMISION",
-      "municipio": "BOGOTA",
-      "obligacion": [156888],
-      "radicado": "2017 - 01218",
-      "vencimientoPagare": ["2042-10-09T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 1022956167,
-      "direccion": "CARRRA 1 D ESTE No 64 - 29 SUR APTO 6",
-      "nombre": "jackellin gonzalez vargas",
-      "telefono": 3144200
-    },
-    "cc": 80185084,
-    "idProcesos": [113385910],
-    "procesos": [
-      {
-        "idProceso": 113385910,
-        "idConexion": 260,
-        "llaveProceso": "11001400307020170121800",
-        "fechaProceso": "2017-11-16T00:00:00",
-        "fechaUltimaActuacion": "2021-09-22T00:00:00",
-        "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NELSON ARBEY CANGREJO SUAREZ | Demandado: JACKELLIN GONZALEZ VARGAS ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "nelson",
+    "segundoNombre": "arbey",
+    "primerApellido": "cangrejo",
+    "segundoApellido": "suarez"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-11-14T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
+    "expediente": "11001400307020170121800",
+    "capitalAdeudado": 3610354525,
+    "etapaProcesal": "ADMISION",
+    "municipio": "BOGOTA",
+    "obligacion": [156888],
+    "radicado": "2017 - 01218",
+    "vencimientoPagare": ["2042-10-09T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 1022956167,
+    "direccion": "CARRRA 1 D ESTE No 64 - 29 SUR APTO 6",
+    "nombre": "jackellin gonzalez vargas",
+    "telefono": 3144200
+  },
+  "cc": 80185084,
+  "idProcesos": [113385910],
+  "procesos": [
+    {
+      "idProceso": 113385910,
+      "idConexion": 260,
+      "llaveProceso": "11001400307020170121800",
+      "fechaProceso": "2017-11-16T00:00:00",
+      "fechaUltimaActuacion": "2021-09-22T00:00:00",
+      "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NELSON ARBEY CANGREJO SUAREZ | Demandado: JACKELLIN GONZALEZ VARGAS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

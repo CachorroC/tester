@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400306020170101400",
-    "numero": 340,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79573945,
-      "direccion": "carrera 19  no 56 a  sur - 72",
-      "email": "cubrimage@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "william",
-      "primerApellido": "cortes",
-      "segundoApellido": "rojas",
-      "segundoNombre": null
+  "llaveProceso": "11001400306020170101400",
+  "numero": 340,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79573945,
+    "direccion": "carrera 19  no 56 a  sur - 72",
+    "email": "cubrimage@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2017-10-10T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-10-04T00:00:00.000Z",
-      "expediente": "11001400306020170101400",
-      "capitalAdeudado": 14986915,
-      "etapaProcesal": "1.100140030602017e+22",
-      "municipio": "BOGOTA",
-      "obligacion": [6690082032],
-      "radicado": "2017 - 01014",
-      "vencimientoPagare": ["2018-09-25T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 79573945,
-    "idProcesos": [50788330],
-    "procesos": [
-      {
-        "idProceso": 50788330,
-        "idConexion": 259,
-        "llaveProceso": "11001400306020170101400",
-        "fechaProceso": "2017-10-19T00:00:00",
-        "fechaUltimaActuacion": "2022-03-09T00:00:00",
-        "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: WILLIAM CORTES ROJAS ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "william",
+    "segundoNombre": "cortes",
+    "primerApellido": "rojas",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-10-04T00:00:00.000Z",
+    "expediente": "11001400306020170101400",
+    "capitalAdeudado": 14986915,
+    "etapaProcesal": "1.100140030602017e+22",
+    "municipio": "BOGOTA",
+    "obligacion": [6690082032],
+    "radicado": "2017 - 01014",
+    "vencimientoPagare": ["2018-09-25T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 79573945,
+  "idProcesos": [50788330],
+  "procesos": [
+    {
+      "idProceso": 50788330,
+      "idConexion": 259,
+      "llaveProceso": "11001400306020170101400",
+      "fechaProceso": "2017-10-19T00:00:00",
+      "fechaUltimaActuacion": "2022-03-09T00:00:00",
+      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: WILLIAM CORTES ROJAS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400308520170128700",
-    "numero": 202,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 52488943,
-      "direccion": "calle 89 # 98 - 27",
-      "email": "tocami96@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "sonia",
-      "segundoNombre": "mireya",
-      "primerApellido": "pantoja",
-      "segundoApellido": "sandoval"
+  "llaveProceso": "11001400308520170128700",
+  "numero": 202,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 52488943,
+    "direccion": "calle 89 # 98 - 27",
+    "email": "tocami96@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2017-09-04T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
-      "expediente": "11001400308520170128700",
-      "capitalAdeudado": 54240143,
-      "etapaProcesal": "1.1001400308520171e+22",
-      "municipio": "BOGOTA",
-      "obligacion": [151374],
-      "radicado": "2017 - 01287",
-      "vencimientoPagare": ["2022-05-30T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 52488943,
-    "idProcesos": [51937670],
-    "procesos": [
-      {
-        "idProceso": 51937670,
-        "idConexion": 259,
-        "llaveProceso": "11001400308520170128700",
-        "fechaProceso": "2019-05-23T00:00:00",
-        "fechaUltimaActuacion": "2021-09-10T00:00:00",
-        "despacho": "JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SONIA MIREYA PANTOJA SANDOVAL ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "sonia",
+    "segundoNombre": "mireya",
+    "primerApellido": "pantoja",
+    "segundoApellido": "sandoval"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
+    "expediente": "11001400308520170128700",
+    "capitalAdeudado": 54240143,
+    "etapaProcesal": "1.1001400308520171e+22",
+    "municipio": "BOGOTA",
+    "obligacion": [151374],
+    "radicado": "2017 - 01287",
+    "vencimientoPagare": ["2022-05-30T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 52488943,
+  "idProcesos": [51937670],
+  "procesos": [
+    {
+      "idProceso": 51937670,
+      "idConexion": 259,
+      "llaveProceso": "11001400308520170128700",
+      "fechaProceso": "2019-05-23T00:00:00",
+      "fechaUltimaActuacion": "2021-09-10T00:00:00",
+      "despacho": "JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SONIA MIREYA PANTOJA SANDOVAL ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400304020170132900",
-    "numero": 198,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 1012318156,
-      "direccion": "carrera 80m # 74 - 04 sur",
-      "email": "hectormanuelverdolaga@gmail.com",
-      "tel": {
-        "fijo": 3142498,
-        "celular": 3142998727
-      },
-      "primerNombre": "hector",
-      "segundoNombre": "manuel",
-      "primerApellido": "ramirez",
-      "segundoApellido": "puentes"
+  "llaveProceso": "11001400304020170132900",
+  "numero": 198,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 1012318156,
+    "direccion": "carrera 80m # 74 - 04 sur",
+    "email": "hectormanuelverdolaga@gmail.com",
+    "tel": {
+      "fijo": 3142498,
+      "celular": 3142998727
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
-      "expediente": "11001400304020170132900",
-      "capitalAdeudado": 2920487950,
-      "etapaProcesal": null,
-      "municipio": "BOGOTA",
-      "obligacion": [167542],
-      "radicado": "2017 - 01329",
-      "vencimientoPagare": ["2028-09-03T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 1012318156,
-    "idProcesos": [19150031],
-    "procesos": [
-      {
-        "idProceso": 19150031,
-        "idConexion": 256,
-        "llaveProceso": "11001400304020170132900",
-        "fechaProceso": "2017-09-12T00:00:00",
-        "fechaUltimaActuacion": "2017-11-02T00:00:00",
-        "despacho": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR MANUEL RAMIREZ PUENTES ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "hector",
+    "segundoNombre": "manuel",
+    "primerApellido": "ramirez",
+    "segundoApellido": "puentes"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "expediente": "11001400304020170132900",
+    "capitalAdeudado": 2920487950,
+    "etapaProcesal": null,
+    "municipio": "BOGOTA",
+    "obligacion": [167542],
+    "radicado": "2017 - 01329",
+    "vencimientoPagare": ["2028-09-03T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 1012318156,
+  "idProcesos": [19150031],
+  "procesos": [
+    {
+      "idProceso": 19150031,
+      "idConexion": 256,
+      "llaveProceso": "11001400304020170132900",
+      "fechaProceso": "2017-09-12T00:00:00",
+      "fechaUltimaActuacion": "2017-11-02T00:00:00",
+      "despacho": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR MANUEL RAMIREZ PUENTES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

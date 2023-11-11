@@ -52,7 +52,7 @@ async function f() {
     );
 
     await fs.writeFile(
-      `carpetas/${ thener.numero }/thenable.json`,
+      `carpetas/${ thener.numero }/firstIterationOfThenable.json`,
       JSON.stringify(
         thener, null, 2 
       ),
@@ -62,17 +62,12 @@ async function f() {
       100 
     );
 
-    const withProcesos = await thener.consultaProcesos();
-
-    const idkFileWithProcesos = {
-      thener      : thener,
-      withProcesos: withProcesos,
-    };
+    await thener.consultaProcesos();
 
     fs.writeFile(
       `carpetas/${ thener.numero }/withProcesos.json`,
       JSON.stringify(
-        idkFileWithProcesos, null, 2 
+        thener, null, 2 
       ),
     );
 
@@ -80,20 +75,6 @@ async function f() {
       newCarpetasMap.set(
         carpeta.numero, thener 
       );
-
-      for ( const key in thener ) {
-        if ( Object.prototype.hasOwnProperty.call(
-          thener, key 
-        ) ) {
-          const element = thener[ key ];
-
-          console.log(
-            `${ thener.numero } for key: ${ key } value =-=>  ${ JSON.stringify(
-              element,
-            ) }`,
-          );
-        }
-      }
 
       continue;
     }
@@ -111,20 +92,6 @@ async function f() {
       carpeta.numero, thener 
     );
 
-    for ( const key in thener ) {
-      if ( Object.prototype.hasOwnProperty.call(
-        thener, key 
-      ) ) {
-        const element = thener[ key ];
-
-        console.log(
-          `${ thener.numero } for key: ${ key } value =-=>  ${ JSON.stringify(
-            element,
-          ) }`,
-        );
-      }
-    }
-
     continue;
   }
 
@@ -132,8 +99,8 @@ async function f() {
     newCarpetasMap.values() 
   );
 
-  fs.writeFile(
-    'provisionalCarpetas.json',
+  await fs.writeFile(
+    'src/provisionalCarpetas.json',
     JSON.stringify(
       resultArray, null, 2 
     ),
@@ -143,39 +110,28 @@ async function f() {
 }
 
 async function insertManyCarpetas() {
-  const carpetasRaw = await f();
-
-  const carpetas = [
-    ...carpetasRaw
-  ].sort(
-    (
-      a, b 
-    ) => {
-      const x = a.numero;
-
-      const y = b.numero;
-
-      if ( x < y ) {
-        return -1;
-      }
-
-      if ( x > y ) {
-        return 1;
-      }
-
-      return 0;
-    } 
-  );
+  const carpetas = await f();
 
   const collection = await connectToDatabase();
 
   for ( const carpeta of carpetas ) {
+    const {
+      numero 
+    } = carpeta;
+
     try {
       const prismaCarpetaInserter = await insertCarpetaInPrisma(
         carpeta 
       );
+      console.log(
+        `${ numero }: carpetaInserter: ${ JSON.stringify(
+          prismaCarpetaInserter,
+          null,
+          2,
+        ) }`,
+      );
       fs.writeFile(
-        `carpetas/${ carpeta.numero }/prismaCarpetaInserterOutput.json`,
+        `carpetas/${ numero }/prismaCarpetaInserterOutput.json`,
         JSON.stringify(
           prismaCarpetaInserter 
         ),
@@ -184,8 +140,15 @@ async function insertManyCarpetas() {
       const prismaDeudorInserter = await insertDeudorInPrisma(
         carpeta 
       );
+      console.log(
+        `${ numero }: deudorInserter: ${ JSON.stringify(
+          prismaDeudorInserter,
+          null,
+          2,
+        ) }`,
+      );
       fs.writeFile(
-        `carpetas/${ carpeta.numero }/prismaDeudorInserterOutput.json`,
+        `carpetas/${ numero }/prismaDeudorInserterOutput.json`,
         JSON.stringify(
           prismaDeudorInserter 
         ),
@@ -194,8 +157,15 @@ async function insertManyCarpetas() {
       const prismaDemandaInserter = await insertDemandaInPrisma(
         carpeta 
       );
+      console.log(
+        `${ numero }: demandaInserter: ${ JSON.stringify(
+          prismaDemandaInserter,
+          null,
+          2,
+        ) }`,
+      );
       fs.writeFile(
-        `carpetas/${ carpeta.numero }/prismaDemandaInserterOutput.json`,
+        `carpetas/${ numero }/prismaDemandaInserterOutput.json`,
         JSON.stringify(
           prismaDemandaInserter 
         ),
@@ -203,7 +173,7 @@ async function insertManyCarpetas() {
 
       const insertOne = await collection.updateOne(
         {
-          numero: carpeta.numero,
+          numero: numero,
         },
         {
           $set: carpeta,
@@ -213,15 +183,15 @@ async function insertManyCarpetas() {
         },
       );
       console.log(
-        JSON.stringify(
+        `${ numero } => mongoInsert: ${ JSON.stringify(
           insertOne, null, 2 
-        ) 
+        ) }`,
       );
     } catch ( error ) {
       console.log(
-        JSON.stringify(
+        `${ numero } ERROR => ${ JSON.stringify(
           error, null, 2 
-        ) 
+        ) }` 
       );
     }
   }

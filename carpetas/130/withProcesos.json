@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400306420170115300",
-    "numero": 130,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 77010352,
-      "direccion": "calle 116 # 11c - 15 apto 104",
-      "email": "arosadomestre@yahoo.com",
-      "tel": {
-        "fijo": 6371679,
-        "celular": 3125855939
-      },
-      "primerNombre": "armando",
-      "segundoNombre": "enrique",
-      "primerApellido": "rosado",
-      "segundoApellido": "mestre"
+  "llaveProceso": "11001400306420170115300",
+  "numero": 130,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 77010352,
+    "direccion": "calle 116 # 11c - 15 apto 104",
+    "email": "arosadomestre@yahoo.com",
+    "tel": {
+      "fijo": 6371679,
+      "celular": 3125855939
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-08-18T00:00:00.000Z",
-      "mandamientoPago": "2017-08-29T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
-      "expediente": "11001400306420170115300",
-      "capitalAdeudado": null,
-      "etapaProcesal": "LIQUIDACION",
-      "municipio": "BOGOTA",
-      "obligacion": [377815132099546],
-      "radicado": "2017 - 01153",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 77010352,
-    "idProcesos": [50648690],
-    "procesos": [
-      {
-        "idProceso": 50648690,
-        "idConexion": 259,
-        "llaveProceso": "11001400306420170115300",
-        "fechaProceso": "2017-08-22T00:00:00",
-        "fechaUltimaActuacion": "2021-06-01T00:00:00",
-        "despacho": "JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ARMANDO ENRIQUE ROSADO MESTRE ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "armando",
+    "segundoNombre": "enrique",
+    "primerApellido": "rosado",
+    "segundoApellido": "mestre"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-08-18T00:00:00.000Z",
+    "mandamientoPago": "2017-08-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+    "expediente": "11001400306420170115300",
+    "capitalAdeudado": null,
+    "etapaProcesal": "LIQUIDACION",
+    "municipio": "BOGOTA",
+    "obligacion": [377815132099546],
+    "radicado": "2017 - 01153",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 77010352,
+  "idProcesos": [50648690],
+  "procesos": [
+    {
+      "idProceso": 50648690,
+      "idConexion": 259,
+      "llaveProceso": "11001400306420170115300",
+      "fechaProceso": "2017-08-22T00:00:00",
+      "fechaUltimaActuacion": "2021-06-01T00:00:00",
+      "despacho": "JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ARMANDO ENRIQUE ROSADO MESTRE ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

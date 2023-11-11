@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400304720170149100",
-    "numero": 136,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 79463388,
-      "direccion": "calle 46 sur # 81g - 15",
-      "email": "jorgeernesto@hotmail.com",
-      "tel": {
-        "fijo": 2990898,
-        "celular": 3125225701
-      },
-      "primerNombre": "jorge",
-      "segundoNombre": "ernesto",
-      "primerApellido": "roa",
-      "segundoApellido": "manrique"
+  "llaveProceso": "11001400304720170149100",
+  "numero": 136,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 79463388,
+    "direccion": "calle 46 sur # 81g - 15",
+    "email": "jorgeernesto@hotmail.com",
+    "tel": {
+      "fijo": 2990898,
+      "celular": 3125225701
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-08-23T00:00:00.000Z",
-      "mandamientoPago": "2018-11-21T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
-      "expediente": "11001400304720170149100",
-      "capitalAdeudado": 41735442,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [132651],
-      "radicado": "2017 - 01491",
-      "vencimientoPagare": ["2025-10-04T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 79463388,
-    "idProcesos": [10408413],
-    "procesos": [
-      {
-        "idProceso": 10408413,
-        "idConexion": 261,
-        "llaveProceso": "11001400304720170149100",
-        "fechaProceso": "2017-08-24T00:00:00",
-        "fechaUltimaActuacion": "2020-03-06T00:00:00",
-        "despacho": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE ERNESTO ROA MANRIQUE ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "jorge",
+    "segundoNombre": "ernesto",
+    "primerApellido": "roa",
+    "segundoApellido": "manrique"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "mandamientoPago": "2018-11-21T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
+    "expediente": "11001400304720170149100",
+    "capitalAdeudado": 41735442,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [132651],
+    "radicado": "2017 - 01491",
+    "vencimientoPagare": ["2025-10-04T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 79463388,
+  "idProcesos": [10408413],
+  "procesos": [
+    {
+      "idProceso": 10408413,
+      "idConexion": 261,
+      "llaveProceso": "11001400304720170149100",
+      "fechaProceso": "2017-08-24T00:00:00",
+      "fechaUltimaActuacion": "2020-03-06T00:00:00",
+      "despacho": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE ERNESTO ROA MANRIQUE ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

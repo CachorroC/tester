@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400304720170152000",
-    "numero": 125,
-    "tipoProceso": "SINGULAR",
-    "category": "Reintegra",
-    "deudor": {
-      "cedula": 74338870,
-      "direccion": "carrera 18 # 12 - 72",
-      "email": null,
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "milciades",
-      "primerApellido": "galindo",
-      "segundoApellido": "casteblanco",
-      "segundoNombre": null
+  "llaveProceso": "11001400304720170152000",
+  "numero": 125,
+  "tipoProceso": "SINGULAR",
+  "category": "Reintegra",
+  "deudor": {
+    "cedula": 74338870,
+    "direccion": "carrera 18 # 12 - 72",
+    "email": null,
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2017-09-14T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-      "expediente": "11001400304720170152000",
-      "capitalAdeudado": 21613985,
-      "etapaProcesal": "EJECUCIÓN",
-      "municipio": "BOGOTA",
-      "obligacion": [300093705],
-      "radicado": "2017 - 01520",
-      "vencimientoPagare": ["2020-11-27T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 1098436221,
-      "direccion": "CALEE 4 # 20 - 85",
-      "nombre": "german alonso sanchez pico",
-      "telefono": 3155275805
-    },
-    "cc": 74338870,
-    "idProcesos": [97088411, 109959053],
-    "procesos": [
-      {
-        "idProceso": 109959053,
-        "idConexion": 261,
-        "llaveProceso": "11001400304720170152000",
-        "fechaProceso": "2017-08-30T00:00:00",
-        "fechaUltimaActuacion": "2022-09-02T00:00:00",
-        "despacho": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MILCIADES GALINDO CASTEBLANCO | Demandado: GERMAN ALONSO SANCHEZ PICO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "milciades",
+    "segundoNombre": "galindo",
+    "primerApellido": "casteblanco",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2017-09-14T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "expediente": "11001400304720170152000",
+    "capitalAdeudado": 21613985,
+    "etapaProcesal": "EJECUCIÓN",
+    "municipio": "BOGOTA",
+    "obligacion": [300093705],
+    "radicado": "2017 - 01520",
+    "vencimientoPagare": ["2020-11-27T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 1098436221,
+    "direccion": "CALEE 4 # 20 - 85",
+    "nombre": "german alonso sanchez pico",
+    "telefono": 3155275805
+  },
+  "cc": 74338870,
+  "idProcesos": [97088411, 109959053],
+  "procesos": [
+    {
+      "idProceso": 109959053,
+      "idConexion": 261,
+      "llaveProceso": "11001400304720170152000",
+      "fechaProceso": "2017-08-30T00:00:00",
+      "fechaUltimaActuacion": "2022-09-02T00:00:00",
+      "despacho": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MILCIADES GALINDO CASTEBLANCO | Demandado: GERMAN ALONSO SANCHEZ PICO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

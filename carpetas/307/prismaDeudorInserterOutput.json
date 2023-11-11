@@ -1,5 +1,17 @@
 {
-  "StatusCode": 400,
-  "Message": "error at PrismaClientValidationError: \nInvalid `client.demanda.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:293:47\n\n  290   deudor, numero\n  291 );\n  292 \n→ 293 const createDeudor = await client.demanda.upsert({\n        where: {\n          carpetaNumero: 307\n        },\n        create: {\n          nombre: \"carlosarturocastañoaldana\",\n          ~~~~~~\n          direccion: \"transversal 70 g no 63-52 sur apto 27 torre 2\",\n          email: \"cac.marketing@hotmail.com\",\n          telCelular: null,\n          telFijo: null,\n          carpetaNumero: 307,\n          cedula: \"79309509\",\n      ?   id?: Int,\n      ?   departamento?: String | Null,\n      ?   capitalAdeudado?: Decimal | Null,\n      ?   entregaGarantiasAbogado?: DateTime | Null,\n      ?   tipoProceso?: TipoProceso,\n      ?   mandamientoPago?: DateTime | Null,\n      ?   etapaProcesal?: String | Null,\n      ?   fechaPresentacion?: DateTime | Null,\n      ?   municipio?: String | Null,\n      ?   obligacion?: DemandaCreateobligacionInput | String[],\n      ?   radicado?: String | Null,\n      ?   vencimientoPagare?: DemandaCreatevencimientoPagareInput | DateTime[],\n      ?   expediente?: String | Null,\n      ?   juzgados?: JuzgadoUncheckedCreateNestedManyWithoutDemandaInput\n        },\n        update: {\n          nombre: \"carlosarturocastañoaldana\",\n          direccion: \"transversal 70 g no 63-52 sur apto 27 torre 2\",\n          email: \"cac.marketing@hotmail.com\",\n          telCelular: null,\n          telFijo: null,\n          carpetaNumero: 307,\n          cedula: \"79309509\"\n        }\n      })\n\nUnknown argument `nombre`. Available options are marked with ?.",
-  "data": "{\n  \"name\": \"PrismaClientValidationError\",\n  \"clientVersion\": \"5.5.2\"\n}"
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 131,
+    "cedula": "79309509",
+    "primerNombre": "carlos",
+    "primerApellido": "castaño",
+    "segundoNombre": "arturo",
+    "segundoApellido": "aldana",
+    "direccion": "transversal 70 g no 63-52 sur apto 27 torre 2",
+    "email": "cac.marketing@hotmail.com",
+    "telCelular": null,
+    "telFijo": null,
+    "carpetaNumero": 307
+  }
 }

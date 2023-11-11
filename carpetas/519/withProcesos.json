@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400307020190055100",
-    "numero": 519,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 1030529007,
-      "direccion": "carrera 98d # 61a-24 sur (kr 113a # 61a-24 sur bosa porvenir)",
-      "email": "catalinalosada_w@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "leidy",
-      "segundoNombre": "catalina",
-      "primerApellido": "losada",
-      "segundoApellido": "cabrera"
+  "llaveProceso": "11001400307020190055100",
+  "numero": 519,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 1030529007,
+    "direccion": "carrera 98d # 61a-24 sur (kr 113a # 61a-24 sur bosa porvenir)",
+    "email": "catalinalosada_w@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2019-06-02T05:00:00.000Z",
-      "entregaGarantiasAbogado": null,
-      "expediente": "11001400307020190055100",
-      "capitalAdeudado": 30056041,
-      "etapaProcesal": "1.100140030702019e+22",
-      "municipio": "BOGOTA",
-      "obligacion": ["2273 320150109"],
-      "radicado": "2019 - 00551",
-      "vencimientoPagare": [null, null],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 1030529007,
-    "idProcesos": [112013800],
-    "procesos": [
-      {
-        "idProceso": 112013800,
-        "idConexion": 260,
-        "llaveProceso": "11001400307020190055100",
-        "fechaProceso": "2019-04-05T00:00:00",
-        "fechaUltimaActuacion": "2022-03-23T00:00:00",
-        "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LEYDI CATALINA LOSADA CABRERA ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "leidy",
+    "segundoNombre": "catalina",
+    "primerApellido": "losada",
+    "segundoApellido": "cabrera"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2019-06-02T05:00:00.000Z",
+    "entregaGarantiasAbogado": null,
+    "expediente": "11001400307020190055100",
+    "capitalAdeudado": 30056041,
+    "etapaProcesal": "1.100140030702019e+22",
+    "municipio": "BOGOTA",
+    "obligacion": ["2273 320150109"],
+    "radicado": "2019 - 00551",
+    "vencimientoPagare": [null, null],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 1030529007,
+  "idProcesos": [112013800],
+  "procesos": [
+    {
+      "idProceso": 112013800,
+      "idConexion": 260,
+      "llaveProceso": "11001400307020190055100",
+      "fechaProceso": "2019-04-05T00:00:00",
+      "fechaUltimaActuacion": "2022-03-23T00:00:00",
+      "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LEYDI CATALINA LOSADA CABRERA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400302320170145200",
-    "numero": 360,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 52327561,
-      "direccion": "carrera 110 c no 77- 15",
-      "email": "jana578@hotmail.com",
-      "tel": {
-        "fijo": 7416881,
-        "celular": 3002261859
-      },
-      "primerNombre": "nohora",
-      "segundoNombre": "del",
-      "primerApellido": "pilar",
-      "segundoApellido": ["vargas", "bernal"]
+  "llaveProceso": "11001400302320170145200",
+  "numero": 360,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 52327561,
+    "direccion": "carrera 110 c no 77- 15",
+    "email": "jana578@hotmail.com",
+    "tel": {
+      "fijo": 7416881,
+      "celular": 3002261859
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-12-12T05:00:00.000Z",
-      "mandamientoPago": null,
-      "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
-      "expediente": "11001400302320170145200",
-      "capitalAdeudado": 1557678443,
-      "etapaProcesal": null,
-      "municipio": "BOGOTA",
-      "obligacion": [116252],
-      "radicado": "2017 - 01452",
-      "vencimientoPagare": ["2024-02-03T05:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 52327561,
-    "idProcesos": [50915500],
-    "procesos": [
-      {
-        "idProceso": 50915500,
-        "idConexion": 259,
-        "llaveProceso": "11001400302320170145200",
-        "fechaProceso": "2017-12-15T00:00:00",
-        "fechaUltimaActuacion": "2018-03-23T00:00:00",
-        "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NOHORA DEL PILAR  VARGAS BERNAL ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "nohora",
+    "segundoNombre": "del",
+    "primerApellido": "pilar",
+    "segundoApellido": ["vargas", "bernal"]
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-12-12T05:00:00.000Z",
+    "mandamientoPago": null,
+    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
+    "expediente": "11001400302320170145200",
+    "capitalAdeudado": 1557678443,
+    "etapaProcesal": null,
+    "municipio": "BOGOTA",
+    "obligacion": [116252],
+    "radicado": "2017 - 01452",
+    "vencimientoPagare": ["2024-02-03T05:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 52327561,
+  "idProcesos": [50915500],
+  "procesos": [
+    {
+      "idProceso": 50915500,
+      "idConexion": 259,
+      "llaveProceso": "11001400302320170145200",
+      "fechaProceso": "2017-12-15T00:00:00",
+      "fechaUltimaActuacion": "2018-03-23T00:00:00",
+      "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NOHORA DEL PILAR  VARGAS BERNAL ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

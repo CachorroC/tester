@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400308520160031900",
-    "numero": 97,
-    "tipoProceso": "HIPOTECARIO",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 19270589,
-      "direccion": "calle 52 a bis  no 35 b 41 sur",
-      "email": "conjuexeu@hotmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "jose",
-      "segundoNombre": "alfredo",
-      "primerApellido": "riaño",
-      "segundoApellido": "maldonado"
+  "llaveProceso": "11001400308520160031900",
+  "numero": 97,
+  "tipoProceso": "HIPOTECARIO",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 19270589,
+    "direccion": "calle 52 a bis  no 35 b 41 sur",
+    "email": "conjuexeu@hotmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2018-01-12T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-09-20T00:00:00.000Z",
-      "expediente": "11001400308520160031900",
-      "capitalAdeudado": 7986288623,
-      "etapaProcesal": "NOTIFICACION",
-      "municipio": "BOGOTA",
-      "obligacion": [20990137187],
-      "radicado": "2016 - 00319",
-      "vencimientoPagare": [],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 19270589,
-    "idProcesos": [77695680],
-    "procesos": [
-      {
-        "idProceso": 77695680,
-        "idConexion": 259,
-        "llaveProceso": "11001400308520160031900",
-        "fechaProceso": "2020-06-24T00:00:00",
-        "fechaUltimaActuacion": "2020-10-27T00:00:00",
-        "despacho": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCO PICHINCHA | Demandado: JOSE ALFREDO RIAÑO MALDONADO ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "jose",
+    "segundoNombre": "alfredo",
+    "primerApellido": "riaño",
+    "segundoApellido": "maldonado"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2018-01-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-09-20T00:00:00.000Z",
+    "expediente": "11001400308520160031900",
+    "capitalAdeudado": 7986288623,
+    "etapaProcesal": "NOTIFICACION",
+    "municipio": "BOGOTA",
+    "obligacion": [20990137187],
+    "radicado": "2016 - 00319",
+    "vencimientoPagare": [],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 19270589,
+  "idProcesos": [77695680],
+  "procesos": [
+    {
+      "idProceso": 77695680,
+      "idConexion": 259,
+      "llaveProceso": "11001400308520160031900",
+      "fechaProceso": "2020-06-24T00:00:00",
+      "fechaUltimaActuacion": "2020-10-27T00:00:00",
+      "despacho": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCO PICHINCHA | Demandado: JOSE ALFREDO RIAÑO MALDONADO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

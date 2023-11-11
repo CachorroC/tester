@@ -1,56 +1,50 @@
 {
-  "thener": {
-    "llaveProceso": "11001400304420180056600",
-    "numero": 414,
-    "tipoProceso": "SINGULAR",
-    "category": "Terminados",
-    "deudor": {
-      "cedula": 51712277,
-      "direccion": "calle 48 n sur no 3-90",
-      "email": "eldayanetcortes@gmail.com",
-      "tel": {
-        "fijo": null,
-        "celular": null
-      },
-      "primerNombre": "elda",
-      "primerApellido": "yanet",
-      "segundoApellido": "cortes",
-      "segundoNombre": null
+  "llaveProceso": "11001400304420180056600",
+  "numero": 414,
+  "tipoProceso": "SINGULAR",
+  "category": "Terminados",
+  "deudor": {
+    "cedula": 51712277,
+    "direccion": "calle 48 n sur no 3-90",
+    "email": "eldayanetcortes@gmail.com",
+    "tel": {
+      "fijo": null,
+      "celular": null
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": null,
-      "mandamientoPago": "2018-04-25T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
-      "expediente": "11001400304420180056600",
-      "capitalAdeudado": 10224254,
-      "etapaProcesal": "1.100140030442018e+22",
-      "municipio": "BOGOTA",
-      "obligacion": [377813488963894, "4,55E+32"],
-      "radicado": "2018 - 00566",
-      "vencimientoPagare": [null, null, "2020-03-05T05:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "cc": 51712277,
-    "idProcesos": [65703460],
-    "procesos": [
-      {
-        "idProceso": 65703460,
-        "idConexion": 259,
-        "llaveProceso": "11001400304420180056600",
-        "fechaProceso": "2018-04-26T00:00:00",
-        "fechaUltimaActuacion": "2022-05-02T00:00:00",
-        "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ELDA YANETH CORTES ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "elda",
+    "segundoNombre": "yanet",
+    "primerApellido": "cortes",
+    "segundoApellido": null
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": null,
+    "mandamientoPago": "2018-04-25T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
+    "expediente": "11001400304420180056600",
+    "capitalAdeudado": 10224254,
+    "etapaProcesal": "1.100140030442018e+22",
+    "municipio": "BOGOTA",
+    "obligacion": [377813488963894, "4,55E+32"],
+    "radicado": "2018 - 00566",
+    "vencimientoPagare": [null, null, "2020-03-05T05:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "cc": 51712277,
+  "idProcesos": [65703460],
+  "procesos": [
+    {
+      "idProceso": 65703460,
+      "idConexion": 259,
+      "llaveProceso": "11001400304420180056600",
+      "fechaProceso": "2018-04-26T00:00:00",
+      "fechaUltimaActuacion": "2022-05-02T00:00:00",
+      "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ELDA YANETH CORTES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

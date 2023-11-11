@@ -1,62 +1,56 @@
 {
-  "thener": {
-    "llaveProceso": "11001400302620170051100",
-    "numero": 35,
-    "tipoProceso": "SINGULAR",
-    "category": "Reintegra",
-    "deudor": {
-      "cedula": 72262201,
-      "direccion": "carrera 33 no. 1 h-86 duitama (boyacá)",
-      "email": "luiscagv@yahoo.com",
-      "tel": {
-        "fijo": null,
-        "celular": 3106199094
-      },
-      "primerNombre": "luis",
-      "segundoNombre": "carlos",
-      "primerApellido": "gutierrez",
-      "segundoApellido": "velandia"
+  "llaveProceso": "11001400302620170051100",
+  "numero": 35,
+  "tipoProceso": "SINGULAR",
+  "category": "Reintegra",
+  "deudor": {
+    "cedula": 72262201,
+    "direccion": "carrera 33 no. 1 h-86 duitama (boyacá)",
+    "email": "luiscagv@yahoo.com",
+    "tel": {
+      "fijo": null,
+      "celular": 3106199094
     },
-    "demanda": {
-      "tipoProceso": "SINGULAR",
-      "fechaPresentacion": "2017-05-30T00:00:00.000Z",
-      "mandamientoPago": "2017-06-30T00:00:00.000Z",
-      "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
-      "expediente": "11001400302620170051100",
-      "capitalAdeudado": 26464177,
-      "etapaProcesal": "EJECUCIÓN",
-      "municipio": "BOGOTA",
-      "obligacion": [5.30372238582075e29, "AUTOPRESTAMO"],
-      "radicado": "2017-00511",
-      "vencimientoPagare": ["2016-09-16T00:00:00.000Z"],
-      "departamento": "BOGOTÁ",
-      "juzgados": []
-    },
-    "codeudor": {
-      "cedula": 46674085,
-      "direccion": "CALLE 14 B No. 5C-72 DIUTAMA",
-      "nombre": "jaqueline rodriguez colmenares",
-      "telefono": "7264921//3203987609"
-    },
-    "cc": 72262201,
-    "idProcesos": [50477000],
-    "procesos": [
-      {
-        "idProceso": 50477000,
-        "idConexion": 259,
-        "llaveProceso": "11001400302620170051100",
-        "fechaProceso": "2017-05-31T00:00:00",
-        "fechaUltimaActuacion": "2023-04-13T00:00:00",
-        "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-        "departamento": "BOGOTÁ",
-        "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS CARLOS GUTIERREZ VELANDIA | Demandado: JAQUELINE RODRIGUEZ COLMENARES ",
-        "esPrivado": false,
-        "cantFilas": -1
-      }
-    ]
+    "primerNombre": "luis",
+    "segundoNombre": "carlos",
+    "primerApellido": "gutierrez",
+    "segundoApellido": "velandia"
   },
-  "withProcesos": {
-    "StatusCode": 404,
-    "Message": "RangeError: Maximum call stack size exceeded"
-  }
+  "demanda": {
+    "tipoProceso": "SINGULAR",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "mandamientoPago": "2017-06-30T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "expediente": "11001400302620170051100",
+    "capitalAdeudado": 26464177,
+    "etapaProcesal": "EJECUCIÓN",
+    "municipio": "BOGOTA",
+    "obligacion": [5.30372238582075e29, "AUTOPRESTAMO"],
+    "radicado": "2017-00511",
+    "vencimientoPagare": ["2016-09-16T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
+  },
+  "codeudor": {
+    "cedula": 46674085,
+    "direccion": "CALLE 14 B No. 5C-72 DIUTAMA",
+    "nombre": "jaqueline rodriguez colmenares",
+    "telefono": "7264921//3203987609"
+  },
+  "cc": 72262201,
+  "idProcesos": [50477000],
+  "procesos": [
+    {
+      "idProceso": 50477000,
+      "idConexion": 259,
+      "llaveProceso": "11001400302620170051100",
+      "fechaProceso": "2017-05-31T00:00:00",
+      "fechaUltimaActuacion": "2023-04-13T00:00:00",
+      "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS CARLOS GUTIERREZ VELANDIA | Demandado: JAQUELINE RODRIGUEZ COLMENARES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ]
 }

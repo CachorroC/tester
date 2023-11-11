@@ -13,7 +13,7 @@ datasource db {
 model Carpeta {
   id           Int         @id @default(autoincrement())
   numero       Int         @unique
-  llaveProceso String?     @unique
+  llaveProceso String?
   nombre       String
   idProcesos   Int[]
   category     Category
@@ -29,15 +29,14 @@ model Carpeta {
 model Deudor {
   id            Int     @id @default(autoincrement())
   cedula        String
-  nombre String?
   primerNombre String
   primerApellido String
   segundoNombre String?
   segundoApellido String?
   direccion     String?
   email         String?
-  telCelular    Int?
-  telFijo       Int?
+  telCelular    BigInt?
+  telFijo       BigInt?
   carpeta       Carpeta @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero Int     @unique
 }
