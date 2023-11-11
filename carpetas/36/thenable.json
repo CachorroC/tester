@@ -24,16 +24,12 @@
     "expediente": " 11001400306620170089200",
     "capitalAdeudado": 9633585,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      65758
-    ],
+    "obligacion": [65758],
     "radicado": "2017 - 00892",
-    "vencimientoPagare": [
-      "2017-09-15T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2017-09-15T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 52314251,
   "idProcesos": null

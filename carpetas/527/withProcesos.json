@@ -25,19 +25,12 @@
       "expediente": "25286400300120190041800",
       "capitalAdeudado": 29140667,
       "etapaProcesal": "2.528640030012019e+22",
-      "juzgados": [],
       "municipio": "FUNZA",
-      "obligacion": [
-        "2273 320097153",
-        "REF 42796745"
-      ],
+      "obligacion": ["2273 320097153", "REF 42796745"],
       "radicado": "2019 - 00418",
-      "vencimientoPagare": [
-        "2022-03-01T05:00:00.000Z",
-        null,
-        null
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2022-03-01T05:00:00.000Z", null, null],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": 52661952,

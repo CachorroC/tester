@@ -25,16 +25,12 @@
       "expediente": "11001400308520170097500",
       "capitalAdeudado": 9771290324,
       "etapaProcesal": "ADMISION",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "320 131802"
-      ],
+      "obligacion": ["320 131802"],
       "radicado": "2017 - 00975",
-      "vencimientoPagare": [
-        "2025-09-01T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2025-09-01T00:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": 79263455,

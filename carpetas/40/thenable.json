@@ -24,17 +24,15 @@
     "expediente": "11001400303420170080900",
     "capitalAdeudado": 19865254,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "BOGOTA",
     "obligacion": [
       "4670083309 // 377813453296510",
       "5303711693085438 / AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 00809",
-    "vencimientoPagare": [
-      "2021-07-22T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2021-07-22T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 19173252,
   "idProcesos": null

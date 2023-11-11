@@ -25,22 +25,15 @@
       "expediente": "11001310302520170073600",
       "capitalAdeudado": 211610991,
       "etapaProcesal": "EJECUCIÓN",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12455661,
-        "12657330//12748966"
-      ],
+      "obligacion": [12455661, "12657330//12748966"],
       "radicado": "2017 - 00736",
-      "vencimientoPagare": [
-        "2020-06-07T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
+      "vencimientoPagare": ["2020-06-07T00:00:00.000Z"],
+      "departamento": "BOGOTÁ",
+      "juzgados": []
     },
     "cc": 79558732,
-    "idProcesos": [
-      28937944
-    ],
+    "idProcesos": [28937944],
     "procesos": [
       {
         "idProceso": 28937944,

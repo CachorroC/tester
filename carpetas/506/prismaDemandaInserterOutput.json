@@ -1,0 +1,20 @@
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 411,
+    "departamento": "CUNDINAMARCA",
+    "capitalAdeudado": "15426759",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "1.100140030042021e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": ["5,49E+32"],
+    "radicado": "2021- 00611",
+    "vencimientoPagare": ["2021-04-06T00:00:00.000Z"],
+    "expediente": "11001418903120180138000",
+    "carpetaNumero": 506
+  }
+}

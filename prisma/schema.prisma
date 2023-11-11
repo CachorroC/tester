@@ -11,32 +11,31 @@ datasource db {
 }
 
 model Carpeta {
-  numero       Int         @id
+  id           Int         @id @default(autoincrement())
+  numero       Int         @unique
   llaveProceso String?     @unique
-  demandaId    Int?
   nombre       String
   idProcesos   Int[]
-  deudorCedula String?
-  category     Category    @default(SinEspecificar)
-  deudor       Deudor?     @relation(fields: [deudorCedula], references: [cedula])
-  demanda      Demanda?    @relation(fields: [demandaId], references: [id])
-  Nota         Nota[]
-  Tarea        Tarea[]
+  category     Category
+  deudor       Deudor?
+  demanda      Demanda?
+  notas         Nota[]
+  tareas        Tarea[]
   procesos     Proceso[]
   actuaciones  Actuacion[]
+  juzgados Juzgado[]
 }
 
 model Deudor {
-  cedula          String    @id
-  primerNombre    String
-  segundoNombre   String?
-  primerApellido  String
-  segundoApellido String?
-  direccion       String?
-  email           String?
-  telCelular      Int?
-  telFijo         Int?
-  Carpeta         Carpeta[]
+  id            Int     @id @default(autoincrement())
+  cedula        String
+  nombre        String
+  direccion     String?
+  email         String?
+  telCelular    Int?
+  telFijo       Int?
+  carpeta       Carpeta @relation(fields: [carpetaNumero], references: [numero])
+  carpetaNumero Int     @unique
 }
 
 model Nota {
@@ -53,7 +52,7 @@ model Tarea {
   id           Int        @id @unique @default(autoincrement())
   creationDate DateTime   @default(now()) @db.Date
   dueDate      DateTime?  @db.Date
-  Carpeta      Carpeta?   @relation(fields: [carpetaId], references: [numero])
+  Carpeta      Carpeta?   @relation(fields: [carpetaId], references: [id])
   carpetaId    Int?
   text         String
   isComplete   Boolean
@@ -82,8 +81,8 @@ model Actuacion {
   codRegla         String
   conDocumentos    Boolean
   cant             Int
-  Carpeta          Carpeta?  @relation(fields: [carpetaId], references: [numero])
-  carpetaId        Int?
+  Carpeta          Carpeta?  @relation(fields: [carpetaNumero], references: [numero])
+  carpetaNumero    Int?
   Proceso          Proceso?  @relation(fields: [procesoIdProceso], references: [idProceso])
   procesoIdProceso Int?
 }
@@ -103,7 +102,8 @@ model Demanda {
   vencimientoPagare       DateTime[]  @db.Date
   expediente              String?
   juzgados                Juzgado[]
-  carpetas                Carpeta[]
+  carpeta                 Carpeta     @relation(fields: [carpetaNumero], references: [numero])
+  carpetaNumero           Int         @unique
 }
 
 model Juzgado {
@@ -112,6 +112,7 @@ model Juzgado {
   url     String
   Proceso Proceso[]
   demanda Demanda[]
+  carpetas Carpeta[]
 }
 
 model Proceso {

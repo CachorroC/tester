@@ -25,16 +25,12 @@
       "expediente": "11001400304820170050700",
       "capitalAdeudado": 4411082847,
       "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12185017
-      ],
+      "obligacion": [12185017],
       "radicado": "2017 - 00507",
-      "vencimientoPagare": [
-        "2017-06-07T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
+      "vencimientoPagare": ["2017-06-07T00:00:00.000Z"],
+      "departamento": "BOGOTÁ",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": 52666505,
@@ -43,9 +39,7 @@
       "telefono": 8040407
     },
     "cc": 79789620,
-    "idProcesos": [
-      10681823
-    ],
+    "idProcesos": [10681823],
     "procesos": [
       {
         "idProceso": 10681823,

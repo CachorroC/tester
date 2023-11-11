@@ -24,7 +24,6 @@
     "expediente": "11001418900820180078500",
     "capitalAdeudado": 18100699,
     "etapaProcesal": null,
-    "juzgados": [],
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRESTAMO",
@@ -37,7 +36,8 @@
       "2021-05-07T05:00:00.000Z",
       "2021-05-07T05:00:00.000Z"
     ],
-    "departamento": "CUNDINAMARCA"
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 51987570,
   "idProcesos": null

@@ -24,17 +24,12 @@
     "expediente": "25899400300220170025600",
     "capitalAdeudado": 16302625,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "ZIPAQUIRA",
-    "obligacion": [
-      "320 160226",
-      "160226//377813713927961"
-    ],
+    "obligacion": ["320 160226", "160226//377813713927961"],
     "radicado": "2017 - 00256",
-    "vencimientoPagare": [
-      "2031-01-18T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2031-01-18T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 11337901,

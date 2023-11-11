@@ -1,4 +1,3 @@
-
 import { Despachos } from '../data/despachos';
 import { ConsultaActuacion, intActuacion } from '../types/actuaciones';
 import { Juzgado,
@@ -16,48 +15,46 @@ import { ConsultaNumeroRadicacion,
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
 
-
 export class NewJuzgado implements Juzgado {
-
-  constructor (
-    proceso: intProceso
+  constructor(
+    proceso: intProceso 
   ) {
     const matchedDespacho = Despachos.find(
       (
-        despacho
+        despacho 
       ) => {
         const nDesp = despacho.nombre
           .toLowerCase()
           .normalize(
-            'NFD'
+            'NFD' 
           )
           .replace(
-            /\p{Diacritic}/gu, ''
+            /\p{Diacritic}/gu, '' 
           )
           .trim();
 
         const pDesp = proceso.despacho
           .toLowerCase()
           .normalize(
-            'NFD'
+            'NFD' 
           )
           .replace(
-            /\p{Diacritic}/gu, ''
+            /\p{Diacritic}/gu, '' 
           )
           .trim();
 
         const indexOfDesp = nDesp.indexOf(
-          pDesp
+          pDesp 
         );
 
         if ( indexOfDesp >= 0 ) {
           console.log(
-            `procesos despacho is in despachos ${ indexOfDesp + 1 }`
+            `procesos despacho is in despachos ${ indexOfDesp + 1 }` 
           );
         }
 
         return nDesp === pDesp;
-      }
+      } 
     );
 
     const nameN = matchedDespacho
@@ -65,18 +62,18 @@ export class NewJuzgado implements Juzgado {
       : proceso.despacho;
 
     const matchedId = nameN.match(
-      /\d+/g
+      /\d+/g 
     );
 
     this.id = Number(
-      matchedId?.toString()
+      matchedId?.toString() 
     );
     ( this.tipo = proceso.despacho ),
     ( this.url = matchedDespacho
       ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
       : `https://www.ramajudicial.gov.co${ proceso.despacho
         .replaceAll(
-          ' ', '-'
+          ' ', '-' 
         )
         .toLowerCase() }` );
   }
@@ -86,7 +83,6 @@ export class NewJuzgado implements Juzgado {
 }
 
 export class CarpetaJudicial implements IntCarpeta {
-
   numero: number;
   llaveProceso: string | null;
   demanda: IntDemanda;
@@ -96,14 +92,13 @@ export class CarpetaJudicial implements IntCarpeta {
   tipoProceso: TipoProceso;
   deudor: IntDeudor;
   codeudor?: Codeudor;
-  cc: number;
+  readonly cc: number;
   procesos?: intProceso[];
 
-
-  [ x: string ]: unknown;
+  [x: string]: unknown;
 
   // SECTION constructor
-  constructor (
+  constructor(
     {
       llaveProceso,
       codeudor,
@@ -111,9 +106,8 @@ export class CarpetaJudicial implements IntCarpeta {
       deudor,
       demanda,
       numero,
-    }: CarpetaRaw
+    }: CarpetaRaw 
   ) {
-
     this.llaveProceso = llaveProceso
       ? llaveProceso
       : null;
@@ -123,14 +117,14 @@ export class CarpetaJudicial implements IntCarpeta {
       : 'SINGULAR';
     this.category = category;
     this.deudor = new ClassDeudor(
-      deudor
+      deudor 
     );
     this.demanda = new ClassDemanda(
-      demanda, llaveProceso
+      demanda, llaveProceso, this.procesos 
     );
     this.codeudor = codeudor;
     this.cc = Number(
-      deudor.cedula
+      deudor.cedula 
     );
     this.idProcesos = null;
   }
@@ -138,24 +132,23 @@ export class CarpetaJudicial implements IntCarpeta {
   //!SECTION
 
   get nombre() {
-
     return `${ this.deudor.primerNombre } ${ this.deudor.segundoNombre } ${ this.deudor.primerApellido } ${ this.deudor.segundoApellido }`;
   }
-  set nombre (
-    nom
+  set nombre(
+    nom 
   ) {
     [
       this.deudor.primerNombre,
       this.deudor.segundoNombre,
       this.deudor.primerApellido,
-      this.deudor.segundoApellido
+      this.deudor.segundoApellido,
     ] = nom.split(
-      ' '
+      ' ' 
     );
   }
 
   //SECTION consultaProcesos
-  async consultaProcesos () {
+  async consultaProcesos() {
     const idProcesosSet = new Set<number>();
 
     const sujetosProcesalesSet = new Set<string>();
@@ -194,45 +187,55 @@ export class CarpetaJudicial implements IntCarpeta {
         }
 
         idProcesosSet.add(
-          proceso.idProceso
+          proceso.idProceso 
         );
         despachosSet.add(
-          proceso.despacho
+          proceso.despacho 
         );
         juzgadosSet.add(
           new NewJuzgado(
-            proceso
-          )
+            proceso 
+          ) 
         );
         sujetosProcesalesSet.add(
-          proceso.sujetosProcesales
+          proceso.sujetosProcesales 
         );
         this.demanda.departamento = proceso.departamento;
       }
 
-      this.procesos = json.procesos;
+      const activeProcesos: intProceso[] = [];
+      json.procesos.forEach(
+        (
+          proceso 
+        ) => {
+          if ( !proceso.esPrivado ) {
+            activeProcesos.push(
+              proceso 
+            );
+          }
+        } 
+      );
+      this.procesos = activeProcesos;
       this.idProcesos = json.procesos.map(
         (
-          prc
+          prc 
         ) => {
           return prc.idProceso;
-        }
+        } 
       );
 
       this.demanda.despachos = Array.from(
-        despachosSet
+        despachosSet 
       );
       this.demanda.sujetosProcesales = Array.from(
-        sujetosProcesalesSet
+        sujetosProcesalesSet 
       );
 
       this.demanda.juzgados = Array.from(
-        juzgadosSet
+        juzgadosSet 
       );
 
-
       return responseReturn;
-
     } catch ( error ) {
       if ( error instanceof Error ) {
         console.log(
@@ -252,7 +255,7 @@ export class CarpetaJudicial implements IntCarpeta {
       return {
         StatusCode: 404,
         Message   : JSON.stringify(
-          error, null, 2
+          error, null, 2 
         ),
       };
     }
@@ -291,7 +294,7 @@ export class CarpetaJudicial implements IntCarpeta {
         const data = ( await request.json() ) as ConsultaActuacion;
 
         const {
-          actuaciones
+          actuaciones 
         } = data;
 
         const [
@@ -300,20 +303,20 @@ export class CarpetaJudicial implements IntCarpeta {
 
         actuaciones.forEach(
           (
-            actuacion
+            actuacion 
           ) => {
             actuacionesSet.add(
-              actuacion
+              actuacion 
             );
-          }
+          } 
         );
 
         actuacionesMap.set(
-          idProceso, ultimaActuacion
+          idProceso, ultimaActuacion 
         );
 
         const incomingDate = new Date(
-          ultimaActuacion.fechaActuacion
+          ultimaActuacion.fechaActuacion 
         )
           .getTime();
 
@@ -323,26 +326,25 @@ export class CarpetaJudicial implements IntCarpeta {
 
         if ( !savedDate || savedDate < incomingDate ) {
           this.fecha = new Date(
-            ultimaActuacion.fechaActuacion
+            ultimaActuacion.fechaActuacion 
           );
           this.ultimaActuacion = ultimaActuacion;
         }
       }
-
 
       if ( actuacionesMap.size > 0 ) {
         const responseReturn: Data = {
           StatusCode : 200,
           Message    : 'ok' as Message,
           actuaciones: Array.from(
-            actuacionesMap.values()
+            actuacionesMap.values() 
           ),
         };
         return responseReturn;
       }
 
       throw new Error(
-        'actuaciones size is less than 0'
+        'actuaciones size is less than 0' 
       );
     } catch ( error ) {
       if ( error instanceof Error ) {
@@ -363,26 +365,25 @@ export class CarpetaJudicial implements IntCarpeta {
       return {
         StatusCode: 404,
         Message   : JSON.stringify(
-          error, null, 2
+          error, null, 2 
         ),
       };
     }
   }
-
 }
 
 export const sleep = (
-  ms: number
+  ms: number 
 ) => {
   return new Promise(
     (
-      resolve
+      resolve 
     ) => {
       const newMs = ms;
 
       return setTimeout(
-        resolve, newMs
+        resolve, newMs 
       );
-    }
+    } 
   );
 };

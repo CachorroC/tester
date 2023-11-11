@@ -25,22 +25,15 @@
       "expediente": "11001400302520170080700",
       "capitalAdeudado": 22277206,
       "etapaProcesal": "DESIGNACIÓN CURADOR AD LITEM",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        8470081213
-      ],
+      "obligacion": [8470081213],
       "radicado": "2017 - 00807",
-      "vencimientoPagare": [
-        "2021-12-15T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
+      "vencimientoPagare": ["2021-12-15T00:00:00.000Z"],
+      "departamento": "BOGOTÁ",
+      "juzgados": []
     },
     "cc": 17650971,
-    "idProcesos": [
-      50623380,
-      81652411
-    ],
+    "idProcesos": [50623380, 81652411],
     "procesos": [
       {
         "idProceso": 50623380,

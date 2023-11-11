@@ -24,16 +24,12 @@
     "expediente": "25386400300120170040700",
     "capitalAdeudado": 3618245810,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "LA MESA",
-    "obligacion": [
-      4600
-    ],
+    "obligacion": [4600],
     "radicado": "2017 - 00407",
-    "vencimientoPagare": [
-      "2023-04-30T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2023-04-30T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 74181815,

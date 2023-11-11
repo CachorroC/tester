@@ -25,7 +25,6 @@
       "expediente": "11001400303320170147400",
       "capitalAdeudado": 19977436,
       "etapaProcesal": "EJECUCIÓN",
-      "juzgados": [],
       "municipio": "BOGOTA",
       "obligacion": [
         "377815565830854  4513071889404813",
@@ -36,12 +35,11 @@
         "2019-09-12T05:00:00.000Z",
         "2020-05-03T05:00:00.000Z"
       ],
-      "departamento": "BOGOTÁ"
+      "departamento": "BOGOTÁ",
+      "juzgados": []
     },
     "cc": 79505982,
-    "idProcesos": [
-      50763460
-    ],
+    "idProcesos": [50763460],
     "procesos": [
       {
         "idProceso": 50763460,

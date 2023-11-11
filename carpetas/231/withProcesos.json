@@ -15,11 +15,7 @@
       "primerNombre": "diana",
       "segundoNombre": "marcela",
       "primerApellido": "ipuz",
-      "segundoApellido": [
-        "suarez",
-        "y",
-        "otro"
-      ]
+      "segundoApellido": ["suarez", "y", "otro"]
     },
     "demanda": {
       "tipoProceso": "SINGULAR",
@@ -29,18 +25,12 @@
       "expediente": "11001418900920170008900",
       "capitalAdeudado": 0,
       "etapaProcesal": null,
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        44518,
-        145608
-      ],
+      "obligacion": [44518, 145608],
       "radicado": "2017 - 00089",
-      "vencimientoPagare": [
-        null,
-        null
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": [null, null],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": "CALLE 72B BIS No 5A 22 SUR",

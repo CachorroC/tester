@@ -14,10 +14,7 @@
     "primerNombre": "mario",
     "segundoNombre": "de",
     "primerApellido": "jesus",
-    "segundoApellido": [
-      "ossa",
-      "pulgarin"
-    ]
+    "segundoApellido": ["ossa", "pulgarin"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -27,16 +24,12 @@
     "expediente": "11001400307620170101600",
     "capitalAdeudado": 11853652,
     "etapaProcesal": "EJECUCIÓN",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      4280023383
-    ],
+    "obligacion": [4280023383],
     "radicado": "2017 - 01016",
-    "vencimientoPagare": [
-      "2019-05-20T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMRCA"
+    "vencimientoPagare": ["2019-05-20T00:00:00.000Z"],
+    "departamento": "CUNDINAMRCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 24764240,

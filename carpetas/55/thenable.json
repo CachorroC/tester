@@ -24,17 +24,12 @@
     "expediente": "25430400300120170108700",
     "capitalAdeudado": 35544456,
     "etapaProcesal": "SENTENCIA",
-    "juzgados": [],
     "municipio": "MADRID",
-    "obligacion": [
-      "3830084858//4090832249783283",
-      "AUTOPRESTAMO"
-    ],
+    "obligacion": ["3830084858//4090832249783283", "AUTOPRESTAMO"],
     "radicado": "2017 - 01087",
-    "vencimientoPagare": [
-      "2018-03-06T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2018-03-06T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 20736637,

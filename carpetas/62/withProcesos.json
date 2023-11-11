@@ -25,16 +25,12 @@
       "expediente": "11001400306320180016800",
       "capitalAdeudado": 1544537143,
       "etapaProcesal": "SENTENCIA",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "320 093516"
-      ],
+      "obligacion": ["320 093516"],
       "radicado": "2017 - 00537",
-      "vencimientoPagare": [
-        "2022-01-31T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
+      "vencimientoPagare": ["2022-01-31T00:00:00.000Z"],
+      "departamento": "BOGOTÁ",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": 53011591,
@@ -43,9 +39,7 @@
       "telefono": "7340105//304410804"
     },
     "cc": 80722943,
-    "idProcesos": [
-      51018210
-    ],
+    "idProcesos": [51018210],
     "procesos": [
       {
         "idProceso": 51018210,

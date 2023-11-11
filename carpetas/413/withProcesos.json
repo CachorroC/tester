@@ -15,10 +15,7 @@
       "primerNombre": "luisa",
       "segundoNombre": "fernanda",
       "primerApellido": "salazar",
-      "segundoApellido": [
-        "",
-        "patarroyo"
-      ]
+      "segundoApellido": ["", "patarroyo"]
     },
     "demanda": {
       "tipoProceso": "SINGULAR",
@@ -28,16 +25,12 @@
       "expediente": "25754418900220180036300",
       "capitalAdeudado": 2147005205,
       "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
       "municipio": "SOACHA",
-      "obligacion": [
-        20990182990
-      ],
+      "obligacion": [20990182990],
       "radicado": "2018 - 00363",
-      "vencimientoPagare": [
-        "2035-04-20T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2035-04-20T00:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": 79793904,

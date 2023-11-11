@@ -1,0 +1,5 @@
+{
+  "StatusCode": 202,
+  "Message": "\nInvalid `client.carpeta.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:77:48\n\n  74   };\n  75 }\n  76 \n→ 77 const createCarpeta = await client.carpeta.upsert(\nUnique constraint failed on the fields: (`llaveProceso`)",
+  "data": { "target": ["llaveProceso"] }
+}

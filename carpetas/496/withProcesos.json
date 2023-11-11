@@ -25,19 +25,12 @@
       "expediente": "25175408900320180060200",
       "capitalAdeudado": 27373832,
       "etapaProcesal": "EJECUCIÓN",
-      "juzgados": [],
       "municipio": "CHIA",
-      "obligacion": [
-        "AUDIOPRESTAMO",
-        5.49157034735681e+29
-      ],
+      "obligacion": ["AUDIOPRESTAMO", 5.49157034735681e29],
       "radicado": "2018 - 00602",
-      "vencimientoPagare": [
-        null,
-        null,
-        "2021-07-05T05:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": [null, null, "2021-07-05T05:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "cc": 13222728,
     "idProcesos": [],

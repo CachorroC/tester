@@ -24,23 +24,18 @@
     "expediente": "11001400301220170136900",
     "capitalAdeudado": 0,
     "etapaProcesal": null,
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      43945,
-      80517
-    ],
+    "obligacion": [43945, 80517],
     "radicado": "2017 - 01369",
     "vencimientoPagare": [],
-    "departamento": "BOGOTÁ"
+    "departamento": "BOGOTÁ",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": "CARRERA 19 A  No 136- 73 APARTAMENTO 402 NIVEL 5 o´4"
   },
   "cc": 94524378,
-  "idProcesos": [
-    50848760
-  ],
+  "idProcesos": [50848760],
   "procesos": [
     {
       "idProceso": 50848760,

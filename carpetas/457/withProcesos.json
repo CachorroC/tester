@@ -25,17 +25,12 @@
       "expediente": "11001400307920180087200",
       "capitalAdeudado": 2476547500,
       "etapaProcesal": "ADMISION",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO",
-        "460091173/ 460090745"
-      ],
+      "obligacion": ["AUDIOPRESTAMO", "460091173/ 460090745"],
       "radicado": "2018 - 00872",
-      "vencimientoPagare": [
-        "2019-01-26T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2019-01-26T00:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": "12198722   // 79858717",

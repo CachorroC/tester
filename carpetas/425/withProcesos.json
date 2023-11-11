@@ -15,11 +15,7 @@
       "primerNombre": "sandra",
       "segundoNombre": "raquel",
       "primerApellido": "lopez",
-      "segundoApellido": [
-        "de",
-        "mesa",
-        "oses"
-      ]
+      "segundoApellido": ["de", "mesa", "oses"]
     },
     "demanda": {
       "tipoProceso": "SINGULAR",
@@ -29,16 +25,12 @@
       "expediente": "11001400307520180067400",
       "capitalAdeudado": 2750328322,
       "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990126656
-      ],
+      "obligacion": [20990126656],
       "radicado": "2018 - 00674",
-      "vencimientoPagare": [
-        "2025-02-24T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2025-02-24T00:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "cc": 52498444,
     "idProcesos": [],

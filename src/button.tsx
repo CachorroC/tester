@@ -19,3 +19,12 @@ export default function Button() {
     </button>
   );
 }
+
+export function ButtonsRow() {
+  return (
+    <>
+      <Button />
+      <Button />
+    </>
+  );
+}

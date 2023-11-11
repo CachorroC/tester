@@ -14,10 +14,7 @@
     "primerNombre": "adolfo",
     "segundoNombre": "",
     "primerApellido": "leon",
-    "segundoApellido": [
-      "daza",
-      "fernandez"
-    ]
+    "segundoApellido": ["daza", "fernandez"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -27,16 +24,12 @@
     "expediente": "11001400300420180047500",
     "capitalAdeudado": 14534881,
     "etapaProcesal": "EJECUCIÓN",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["AUDIOPRESTAMO"],
     "radicado": "2018 - 00475",
-    "vencimientoPagare": [
-      "2020-08-15T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2020-08-15T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 79568543,
   "idProcesos": null

@@ -24,16 +24,12 @@
     "expediente": "25377408900120180037100",
     "capitalAdeudado": 29416113,
     "etapaProcesal": "EJECUCIÓN",
-    "juzgados": [],
     "municipio": "LA CALERA",
-    "obligacion": [
-      2490084469
-    ],
+    "obligacion": [2490084469],
     "radicado": "2018 - 00371",
-    "vencimientoPagare": [
-      "2026-01-03T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2026-01-03T05:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 11230400,
   "idProcesos": null

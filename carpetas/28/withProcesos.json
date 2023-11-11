@@ -15,10 +15,7 @@
       "primerNombre": "maria",
       "segundoNombre": "socorro",
       "primerApellido": "torres",
-      "segundoApellido": [
-        "de",
-        "gonzalez"
-      ]
+      "segundoApellido": ["de", "gonzalez"]
     },
     "demanda": {
       "tipoProceso": "SINGULAR",
@@ -28,16 +25,12 @@
       "expediente": "25290400300120170036900",
       "capitalAdeudado": 0,
       "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
       "municipio": "FUSAGASUGA",
-      "obligacion": [
-        127011
-      ],
+      "obligacion": [127011],
       "radicado": "2017 - 00369",
-      "vencimientoPagare": [
-        "2025-09-03T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2025-09-03T00:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "cc": 20563933,
     "idProcesos": [],

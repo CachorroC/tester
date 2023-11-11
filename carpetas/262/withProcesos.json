@@ -25,17 +25,12 @@
       "expediente": "2590400300220170063100",
       "capitalAdeudado": 1584054583,
       "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
       "municipio": "FUSAGASUGA",
-      "obligacion": [
-        "9450082213 /0377847716751531",
-        "0377847593768038"
-      ],
+      "obligacion": ["9450082213 /0377847716751531", "0377847593768038"],
       "radicado": "2017 - 00631",
-      "vencimientoPagare": [
-        "2018-08-01T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2018-08-01T00:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": "11.383.194",

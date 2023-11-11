@@ -25,17 +25,12 @@
       "expediente": "25899400300320180042900",
       "capitalAdeudado": 1949127899,
       "etapaProcesal": "2.589940030032018e+22",
-      "juzgados": [],
       "municipio": "ZIPAQUIRA",
-      "obligacion": [
-        "AUDIOPRESTAMO",
-        5306960218152465
-      ],
+      "obligacion": ["AUDIOPRESTAMO", 5306960218152465],
       "radicado": "2018 - 00429",
-      "vencimientoPagare": [
-        "2031-05-23T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2031-05-23T00:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": 21022941,

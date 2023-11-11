@@ -24,28 +24,22 @@
     "expediente": "11001400301820170152200",
     "capitalAdeudado": 14645611,
     "etapaProcesal": "EJECUCIÓN",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      5.30694043274047e+29
-    ],
+    "obligacion": [5.30694043274047e29],
     "radicado": "2017 - 01522",
-    "vencimientoPagare": [
-      "2020-03-22T00:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ"
+    "vencimientoPagare": ["2020-03-22T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
   },
   "cc": 12229243,
-  "idProcesos": [
-    50711570
-  ],
+  "idProcesos": [50711570],
   "procesos": [
     {
       "idProceso": 50711570,
       "idConexion": 259,
       "llaveProceso": "11001400301820170152200",
       "fechaProceso": "2017-09-18T00:00:00",
-      "fechaUltimaActuacion": "2023-11-02T00:00:00",
+      "fechaUltimaActuacion": "2023-11-09T00:00:00",
       "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE AHINSONJOVER TORO VARGAS ",
@@ -53,19 +47,19 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-11-02T05:00:00.000Z",
+  "fecha": "2023-11-09T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1926313800,
+    "idRegActuacion": 1928513800,
     "llaveProceso": "11001400301820170152200",
-    "consActuacion": 83,
-    "fechaActuacion": "2023-11-02T00:00:00",
+    "consActuacion": 84,
+    "fechaActuacion": "2023-11-09T00:00:00",
     "actuacion": "Recepción memorial",
-    "anotacion": "Radicado No. 11416-2023, No. Reloj Radicador: 18322, Entidad o Señor(a): CARMEN CECILIA RAMIREZ MUÑOZ - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Memorial, Observaciones: SOLICITUD RENDICION DE CUENTAS PARA LA SECUESTRE",
+    "anotacion": "Radicado No. 11683-2023, No. Reloj Radicador: 15484, Entidad o Señor(a): CARMEN RAMIREZ - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Memorial",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-11-02T00:00:00",
+    "fechaRegistro": "2023-11-09T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 83
+    "cant": 84
   }
 }

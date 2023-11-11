@@ -14,10 +14,7 @@
     "primerNombre": "nohora",
     "segundoNombre": "del",
     "primerApellido": "pilar",
-    "segundoApellido": [
-      "vargas",
-      "bernal"
-    ]
+    "segundoApellido": ["vargas", "bernal"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -27,16 +24,12 @@
     "expediente": "11001400302320170145200",
     "capitalAdeudado": 1557678443,
     "etapaProcesal": null,
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      116252
-    ],
+    "obligacion": [116252],
     "radicado": "2017 - 01452",
-    "vencimientoPagare": [
-      "2024-02-03T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2024-02-03T05:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 52327561,
   "idProcesos": null

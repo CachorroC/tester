@@ -24,28 +24,22 @@
     "expediente": "11001400306320230162700",
     "capitalAdeudado": 28820731,
     "etapaProcesal": null,
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      2990086384
-    ],
+    "obligacion": [2990086384],
     "radicado": "2023 - 00167",
-    "vencimientoPagare": [
-      "2026-03-18T00:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ"
+    "vencimientoPagare": ["2026-03-18T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
   },
   "cc": 52514115,
-  "idProcesos": [
-    132206000
-  ],
+  "idProcesos": [132206000],
   "procesos": [
     {
       "idProceso": 132206000,
       "idConexion": 260,
       "llaveProceso": "11001400306320230162700",
       "fechaProceso": "2023-08-09T00:00:00",
-      "fechaUltimaActuacion": "2023-09-26T00:00:00",
+      "fechaUltimaActuacion": "2023-11-09T00:00:00",
       "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: LORENA GUISELLE CHAPARRO LEAL ",
@@ -53,19 +47,19 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-09-26T05:00:00.000Z",
+  "fecha": "2023-11-09T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1884183180,
+    "idRegActuacion": 1928928500,
     "llaveProceso": "11001400306320230162700",
-    "consActuacion": 7,
-    "fechaActuacion": "2023-09-26T00:00:00",
-    "actuacion": "Entrega de oficios",
-    "anotacion": null,
+    "consActuacion": 8,
+    "fechaActuacion": "2023-11-09T00:00:00",
+    "actuacion": "Recepción memorial",
+    "anotacion": "SOLICITUD OFICIOS ",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-09-26T00:00:00",
+    "fechaRegistro": "2023-11-09T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 7
+    "cant": 8
   }
 }

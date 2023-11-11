@@ -24,16 +24,12 @@
     "expediente": null,
     "capitalAdeudado": 255635733,
     "etapaProcesal": null,
-    "juzgados": [],
     "municipio": "FUSAGASUGA",
-    "obligacion": [
-      90000222424
-    ],
+    "obligacion": [90000222424],
     "radicado": null,
-    "vencimientoPagare": [
-      "2052-12-07T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2052-12-07T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 35507149,
   "idProcesos": null

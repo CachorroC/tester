@@ -24,16 +24,12 @@
     "expediente": "25899400300320180055500",
     "capitalAdeudado": 2552745786,
     "etapaProcesal": "ADMISION",
-    "juzgados": [],
     "municipio": "SOACHA",
-    "obligacion": [
-      20990165412
-    ],
+    "obligacion": [20990165412],
     "radicado": "2018 - 00555",
-    "vencimientoPagare": [
-      "2028-06-26T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2028-06-26T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 39652702,

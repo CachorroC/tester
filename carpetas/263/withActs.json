@@ -24,21 +24,15 @@
     "expediente": "11001400307020170100700",
     "capitalAdeudado": 2143527832,
     "etapaProcesal": null,
-    "juzgados": [],
     "municipio": "PENSILVANIA",
-    "obligacion": [
-      12603197
-    ],
+    "obligacion": [12603197],
     "radicado": "2017 - 01007",
-    "vencimientoPagare": [
-      "2017-09-20T00:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ"
+    "vencimientoPagare": ["2017-09-20T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
   },
   "cc": 9856710,
-  "idProcesos": [
-    18366380
-  ],
+  "idProcesos": [18366380],
   "procesos": [
     {
       "idProceso": 18366380,

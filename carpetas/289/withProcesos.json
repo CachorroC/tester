@@ -25,28 +25,22 @@
       "expediente": "11001400301820170152200",
       "capitalAdeudado": 14645611,
       "etapaProcesal": "EJECUCIÓN",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5.30694043274047e+29
-      ],
+      "obligacion": [5.30694043274047e29],
       "radicado": "2017 - 01522",
-      "vencimientoPagare": [
-        "2020-03-22T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
+      "vencimientoPagare": ["2020-03-22T00:00:00.000Z"],
+      "departamento": "BOGOTÁ",
+      "juzgados": []
     },
     "cc": 12229243,
-    "idProcesos": [
-      50711570
-    ],
+    "idProcesos": [50711570],
     "procesos": [
       {
         "idProceso": 50711570,
         "idConexion": 259,
         "llaveProceso": "11001400301820170152200",
         "fechaProceso": "2017-09-18T00:00:00",
-        "fechaUltimaActuacion": "2023-11-02T00:00:00",
+        "fechaUltimaActuacion": "2023-11-09T00:00:00",
         "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE AHINSONJOVER TORO VARGAS ",

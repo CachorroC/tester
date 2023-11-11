@@ -14,10 +14,7 @@
     "primerNombre": "felix",
     "segundoNombre": "",
     "primerApellido": "hernando",
-    "segundoApellido": [
-      "montenegro",
-      "garcia"
-    ]
+    "segundoApellido": ["montenegro", "garcia"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -27,20 +24,15 @@
     "expediente": "11001400306820180047600",
     "capitalAdeudado": 1309817652,
     "etapaProcesal": "SUSPENDIDO",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "3,78E+32"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "3,78E+32"],
     "radicado": "2018 - 00476",
     "vencimientoPagare": [],
-    "departamento": "BOGOTÁ"
+    "departamento": "BOGOTÁ",
+    "juzgados": []
   },
   "cc": 19395095,
-  "idProcesos": [
-    19217890
-  ],
+  "idProcesos": [19217890],
   "procesos": [
     {
       "idProceso": 19217890,

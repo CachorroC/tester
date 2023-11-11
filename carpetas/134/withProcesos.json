@@ -25,17 +25,12 @@
       "expediente": "25430400300120170108300",
       "capitalAdeudado": 54428394,
       "etapaProcesal": null,
-      "juzgados": [],
       "municipio": "MADRID",
-      "obligacion": [
-        167364,
-        "377813624212172."
-      ],
+      "obligacion": [167364, "377813624212172."],
       "radicado": "2017 - 01083",
-      "vencimientoPagare": [
-        "2028-08-28T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2028-08-28T00:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": 23473890,

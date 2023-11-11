@@ -24,16 +24,12 @@
     "expediente": "11001400302620180047900",
     "capitalAdeudado": 1473525421,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "KENNEDY",
-    "obligacion": [
-      116650
-    ],
+    "obligacion": [116650],
     "radicado": "2018 - 00479",
-    "vencimientoPagare": [
-      "2024-03-16T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2024-03-16T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 74327316,

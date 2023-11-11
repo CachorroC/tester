@@ -17,12 +17,12 @@ export async function connectToDatabase() {
   await client.connect();
 
   const db: Db = client.db(
-    'RyS'
+    'RyS' 
   );
 
   const gamesCollection: Collection<IntCarpeta>
     = db.collection<IntCarpeta>(
-      'Carpetas'
+      'Carpetas' 
     );
   collections.carpetas = gamesCollection;
   console.log(

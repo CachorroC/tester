@@ -14,10 +14,7 @@
     "primerNombre": "maria",
     "segundoNombre": "del",
     "primerApellido": "carmen",
-    "segundoApellido": [
-      "chaparro",
-      "lemus"
-    ]
+    "segundoApellido": ["chaparro", "lemus"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -27,21 +24,15 @@
     "expediente": "11001400301120170062300",
     "capitalAdeudado": 0,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      190459
-    ],
+    "obligacion": [190459],
     "radicado": "2017 - 00623",
-    "vencimientoPagare": [
-      "2030-01-25T00:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ"
+    "vencimientoPagare": ["2030-01-25T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
   },
   "cc": 41672170,
-  "idProcesos": [
-    50543070
-  ],
+  "idProcesos": [50543070],
   "procesos": [
     {
       "idProceso": 50543070,

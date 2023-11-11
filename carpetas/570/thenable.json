@@ -24,16 +24,12 @@
     "expediente": "11001418907520230016700",
     "capitalAdeudado": 19170517,
     "etapaProcesal": null,
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      3990086952
-    ],
+    "obligacion": [3990086952],
     "radicado": "2023 - 01465",
-    "vencimientoPagare": [
-      "2026-03-18T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2026-03-18T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 21386342,
   "idProcesos": null

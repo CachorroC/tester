@@ -24,7 +24,6 @@
     "expediente": "11001418904420230023900",
     "capitalAdeudado": 42647591,
     "etapaProcesal": null,
-    "juzgados": [],
     "municipio": "BOGOTA",
     "obligacion": [
       790100533,
@@ -37,7 +36,8 @@
       "2026-04-04T05:00:00.000Z",
       "2026-05-08T05:00:00.000Z"
     ],
-    "departamento": "CUNDINAMARCA"
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 19488050,
   "idProcesos": null

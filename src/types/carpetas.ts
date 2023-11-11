@@ -4,6 +4,9 @@
 //
 //   const CarpetaRaw = Convert.toCarpetaRaw(json);
 
+import { intActuacion } from './actuaciones';
+import { intProceso } from './procesos';
+
 export interface TrulyCruda {
   llaveProceso?: string;
   demanda: DemandaRaw;
@@ -18,14 +21,19 @@ export interface CarpetaRaw extends TrulyCruda {
 
 export interface IntCarpeta {
   numero: number;
-  cc: number;
   llaveProceso: string | null;
-  idProcesos: number[] |null;
+  demanda: IntDemanda;
+  fecha?: Date;
+  ultimaActuacion?: intActuacion;
   category: Category;
   tipoProceso: TipoProceso;
-  nombre: string;
   deudor: IntDeudor;
-  demanda: IntDemanda;
+  codeudor?: Codeudor;
+
+  cc: number;
+  procesos?: intProceso[];
+  idProcesos: number[] | null;
+  nombre: string;
 }
 
 export interface flatCarpeta {

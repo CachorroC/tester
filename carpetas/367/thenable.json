@@ -14,10 +14,7 @@
     "primerNombre": "andres",
     "segundoNombre": "antonio",
     "primerApellido": "",
-    "segundoApellido": [
-      "amezquita",
-      "paez"
-    ]
+    "segundoApellido": ["amezquita", "paez"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -27,16 +24,12 @@
     "expediente": "11001400307820170123500",
     "capitalAdeudado": 29419277,
     "etapaProcesal": "1.1001400307820171e+22",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      168725
-    ],
+    "obligacion": [168725],
     "radicado": "2017 - 01235",
-    "vencimientoPagare": [
-      "2033-10-10T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2033-10-10T05:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 52019717,

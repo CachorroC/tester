@@ -24,17 +24,15 @@
     "expediente": "11001400300920170060700",
     "capitalAdeudado": 0,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "BOGOTA",
     "obligacion": [
       "6610083691//161451//3778815787383070",
       "5303715153971258//4513076874137526//AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 00607",
-    "vencimientoPagare": [
-      "2017-02-21T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2017-02-21T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 79948168,

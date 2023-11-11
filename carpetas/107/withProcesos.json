@@ -25,22 +25,15 @@
       "expediente": "11001400305720170079000",
       "capitalAdeudado": 13303855,
       "etapaProcesal": "NOTIFICACION",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        6900084281,
-        "4513070458359200 // AUDIOPRESTAMO"
-      ],
+      "obligacion": [6900084281, "4513070458359200 // AUDIOPRESTAMO"],
       "radicado": "2017 - 00790",
-      "vencimientoPagare": [
-        "2016-01-29T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
+      "vencimientoPagare": ["2016-01-29T00:00:00.000Z"],
+      "departamento": "BOGOTÁ",
+      "juzgados": []
     },
     "cc": 80112954,
-    "idProcesos": [
-      17604554
-    ],
+    "idProcesos": [17604554],
     "procesos": [
       {
         "idProceso": 17604554,

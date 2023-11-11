@@ -25,22 +25,15 @@
       "expediente": "11001400303720180011100",
       "capitalAdeudado": 17502203,
       "etapaProcesal": "EJECUCIÓN",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO"
-      ],
+      "obligacion": ["AUDIOPRESTAMO"],
       "radicado": "2018 - 00111",
-      "vencimientoPagare": [
-        null,
-        null
-      ],
-      "departamento": "BOGOTÁ"
+      "vencimientoPagare": [null, null],
+      "departamento": "BOGOTÁ",
+      "juzgados": []
     },
     "cc": 52271112,
-    "idProcesos": [
-      50990920
-    ],
+    "idProcesos": [50990920],
     "procesos": [
       {
         "idProceso": 50990920,

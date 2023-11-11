@@ -24,16 +24,12 @@
     "expediente": "25736408900120170016600",
     "capitalAdeudado": 3675627700,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "SESQUILE",
-    "obligacion": [
-      3360084994
-    ],
+    "obligacion": [3360084994],
     "radicado": "2017 - 00166",
-    "vencimientoPagare": [
-      "2017-08-04T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2017-08-04T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 3058707,
   "idProcesos": null

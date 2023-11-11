@@ -14,10 +14,7 @@
     "primerNombre": "zoila",
     "segundoNombre": "irene",
     "primerApellido": "suavita",
-    "segundoApellido": [
-      "de",
-      "trilleras"
-    ]
+    "segundoApellido": ["de", "trilleras"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -27,19 +24,12 @@
     "expediente": "110014003080201E+22",
     "capitalAdeudado": 51302541,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      6670083892,
-      12074022
-    ],
+    "obligacion": [6670083892, 12074022],
     "radicado": "2017 - 00735",
-    "vencimientoPagare": [
-      null,
-      null,
-      null
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": [null, null, null],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 79481751,

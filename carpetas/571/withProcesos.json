@@ -25,21 +25,15 @@
       "expediente": "11001418901420230146500",
       "capitalAdeudado": 24843938,
       "etapaProcesal": null,
-      "juzgados": [],
       "municipio": "MOSQUERA",
-      "obligacion": [
-        1380089168
-      ],
+      "obligacion": [1380089168],
       "radicado": "2023 - 01289",
-      "vencimientoPagare": [
-        "2026-03-07T00:00:00.000Z"
-      ],
-      "departamento": "BOGOTÁ"
+      "vencimientoPagare": ["2026-03-07T00:00:00.000Z"],
+      "departamento": "BOGOTÁ",
+      "juzgados": []
     },
     "cc": 53132436,
-    "idProcesos": [
-      132234840
-    ],
+    "idProcesos": [132234840],
     "procesos": [
       {
         "idProceso": 132234840,

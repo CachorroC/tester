@@ -24,16 +24,12 @@
     "expediente": "11001400300420170063900",
     "capitalAdeudado": 12203589,
     "etapaProcesal": "1.100140030042017e+22",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      410086468
-    ],
+    "obligacion": [410086468],
     "radicado": "2017 - 00639",
-    "vencimientoPagare": [
-      "2020-12-31T00:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ"
+    "vencimientoPagare": ["2020-12-31T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 52201411,
@@ -42,10 +38,7 @@
     "telefono": 7537111
   },
   "cc": 5654542,
-  "idProcesos": [
-    50542600,
-    81638681
-  ],
+  "idProcesos": [50542600, 81638681],
   "procesos": [
     {
       "idProceso": 50542600,

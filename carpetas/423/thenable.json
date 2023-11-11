@@ -24,17 +24,12 @@
     "expediente": "11001400301920180044300",
     "capitalAdeudado": 1971553864,
     "etapaProcesal": "NOTIFICACION",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      20990125146,
-      377813200121300
-    ],
+    "obligacion": [20990125146, 377813200121300],
     "radicado": "2018 - 00443",
-    "vencimientoPagare": [
-      "2024-12-30T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2024-12-30T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 52297401,

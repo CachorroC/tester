@@ -15,10 +15,7 @@
       "primerNombre": "victor",
       "segundoNombre": "eduardo",
       "primerApellido": "",
-      "segundoApellido": [
-        "mora",
-        "espinosa"
-      ]
+      "segundoApellido": ["mora", "espinosa"]
     },
     "demanda": {
       "tipoProceso": "SINGULAR",
@@ -28,16 +25,12 @@
       "expediente": "25286400300120170078100",
       "capitalAdeudado": 43,
       "etapaProcesal": "42977",
-      "juzgados": [],
       "municipio": "FUNZA",
-      "obligacion": [
-        1853942359
-      ],
+      "obligacion": [1853942359],
       "radicado": "2017 - 00781",
-      "vencimientoPagare": [
-        "+152366-01-01T05:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["+152366-01-01T05:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "codeudor": {
       "cedula": "MARIA DEL CARMEN ESPINOSA",

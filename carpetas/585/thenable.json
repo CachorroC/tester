@@ -14,10 +14,7 @@
     "primerNombre": "maria",
     "segundoNombre": "georgina",
     "primerApellido": "forero",
-    "segundoApellido": [
-      "de",
-      "mendoza"
-    ]
+    "segundoApellido": ["de", "mendoza"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -27,20 +24,15 @@
     "expediente": "11001418907020230039900",
     "capitalAdeudado": 25766202,
     "etapaProcesal": null,
-    "juzgados": [],
     "municipio": "BOGOTA",
     "obligacion": [
       31035862,
       "377816195788645 X TC AMERICAN // 4099843107499631 X T.C. VISA"
     ],
     "radicado": "2023-399",
-    "vencimientoPagare": [
-      null,
-      null,
-      null,
-      "2026-07-05T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": [null, null, null, "2026-07-05T05:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "cc": 41336003,
   "idProcesos": null

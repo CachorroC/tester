@@ -1,38 +1,37 @@
-import { Deudor } from '@prisma/client';
 import { DeudorRaw, IntDeudor, IntTel } from '../types/carpetas';
 
 export class Tel implements IntTel {
   fijo: number | null;
   celular: number | null;
   constructor(
-    telefono: string
+    telefono: string 
   ) {
     const celularStringArray = telefono.match(
-      /\d{10}/g
+      /\d{10}/g 
     );
 
     const fijoStringArray = telefono.match(
-      /\d{7}\s/g
+      /\d{7}\s/g 
     );
 
     const celularNumber = celularStringArray?.map(
       (
-        f
+        f 
       ) => {
         return Number(
-          f
+          f 
         );
-      }
+      } 
     );
 
     const fijoNumber = fijoStringArray?.map(
       (
-        f
+        f 
       ) => {
         return Number(
-          f
+          f 
         );
-      }
+      } 
     );
 
     this.fijo = fijoNumber
@@ -47,11 +46,11 @@ export class Tel implements IntTel {
 export class ClassDeudor implements IntDeudor {
   constructor(
     {
-      cedula, direccion, email, nombre, telefono = ''
-    }: DeudorRaw
+      cedula, direccion, email, nombre, telefono = '' 
+    }: DeudorRaw 
   ) {
     this.cedula = Number(
-      cedula
+      cedula 
     );
     this.direccion = direccion
       ? direccion.toString()
@@ -61,12 +60,12 @@ export class ClassDeudor implements IntDeudor {
       : null;
     this.tel = new Tel(
       String(
-        telefono
-      )
+        telefono 
+      ) 
     );
 
     const nameStringArray = nombre.split(
-      ' '
+      ' ' 
     );
 
     const nameArrayLength = nameStringArray.length;
@@ -133,100 +132,4 @@ export class ClassDeudor implements IntDeudor {
   cedula: number;
   direccion: string | null;
   email: string | null;
-}
-
-export class PrismaDeudor implements Deudor {
-  constructor (
-    {
-      cedula, direccion, email, nombre, telefono = ''
-    }: DeudorRaw
-  ) {
-    const telefonosDisponibles = new Tel(
-      String(
-        telefono
-      )
-    );
-    this.cedula = String(
-      cedula
-    );
-    this.direccion = direccion
-      ? direccion.toString()
-      : null;
-    this.email = email
-      ? email.toString()
-      : null;
-    this.telCelular = telefonosDisponibles.celular;
-    this.telFijo = telefonosDisponibles.fijo;
-
-    const nameStringArray = nombre.split(
-      ' '
-    );
-
-    const nameArrayLength = nameStringArray.length;
-
-    switch ( nameArrayLength ) {
-        case 4:
-          [
-            this.primerNombre,
-            this.segundoNombre,
-            this.primerApellido,
-            this.segundoApellido,
-          ] = nameStringArray;
-
-          break;
-
-        case 2:
-          [
-            this.primerNombre,
-            this.primerApellido
-          ] = nameStringArray;
-
-          this.segundoApellido = null;
-          this.segundoNombre = null;
-
-          break;
-
-        case 1:
-          [
-            this.primerNombre
-          ] = nameStringArray;
-          this.primerApellido = 'sin especificar';
-          this.segundoApellido = null;
-          this.segundoNombre = null;
-
-          break;
-
-        case 3:
-          [
-            this.primerNombre,
-            this.primerApellido,
-            this.segundoApellido
-          ]
-          = nameStringArray;
-          this.segundoNombre = null;
-
-          break;
-
-        default:
-          [
-            this.primerNombre,
-            this.segundoNombre,
-            this.primerApellido,
-            this.segundoApellido
-          ] = nameStringArray;
-
-          break;
-    }
-
-
-  }
-  cedula: string;
-  primerNombre: string;
-  segundoNombre: string | null;
-  primerApellido: string;
-  segundoApellido: string | null;
-  direccion: string | null;
-  email: string | null;
-  telCelular: number | null;
-  telFijo: number | null;
 }

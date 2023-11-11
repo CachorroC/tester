@@ -25,17 +25,12 @@
       "expediente": "11001400370820170018400",
       "capitalAdeudado": 1076199162,
       "etapaProcesal": "LIQUIDACION",
-      "juzgados": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO",
-        "00377815346213420"
-      ],
+      "obligacion": ["AUDIOPRESTAMO", "00377815346213420"],
       "radicado": "2017 - 00184",
-      "vencimientoPagare": [
-        "2017-07-20T00:00:00.000Z"
-      ],
-      "departamento": "CUNDINAMARCA"
+      "vencimientoPagare": ["2017-07-20T00:00:00.000Z"],
+      "departamento": "CUNDINAMARCA",
+      "juzgados": []
     },
     "cc": 32730630,
     "idProcesos": [],

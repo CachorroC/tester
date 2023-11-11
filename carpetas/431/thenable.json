@@ -24,18 +24,12 @@
     "expediente": "11001400302220180060400",
     "capitalAdeudado": 43,
     "etapaProcesal": "43228",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      5303719576623800,
-      "15.796.908.07"
-    ],
+    "obligacion": [5303719576623800, "15.796.908.07"],
     "radicado": "2018 - 00604",
-    "vencimientoPagare": [
-      null,
-      null
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": [null, null],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "direccion": 44609

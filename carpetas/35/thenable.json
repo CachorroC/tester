@@ -24,17 +24,12 @@
     "expediente": "11001400302620170051100",
     "capitalAdeudado": 26464177,
     "etapaProcesal": "EJECUCIÓN",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      5.30372238582075e+29,
-      "AUTOPRESTAMO"
-    ],
+    "obligacion": [5.30372238582075e29, "AUTOPRESTAMO"],
     "radicado": "2017-00511",
-    "vencimientoPagare": [
-      "2016-09-16T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2016-09-16T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 46674085,

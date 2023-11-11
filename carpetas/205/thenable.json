@@ -14,10 +14,7 @@
     "primerNombre": "nelida",
     "segundoNombre": "del",
     "primerApellido": "carmen",
-    "segundoApellido": [
-      "rivera",
-      "mesa"
-    ]
+    "segundoApellido": ["rivera", "mesa"]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -27,16 +24,12 @@
     "expediente": "11001400301220170097100",
     "capitalAdeudado": 14068639,
     "etapaProcesal": "EJECUCIÓN SOLICITAR LIQUIDACIÓN A REINTEGRA",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      430103841
-    ],
+    "obligacion": [430103841],
     "radicado": "2017 - 00971",
-    "vencimientoPagare": [
-      "2021-09-09T00:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA"
+    "vencimientoPagare": ["2021-09-09T00:00:00.000Z"],
+    "departamento": "CUNDINAMARCA",
+    "juzgados": []
   },
   "codeudor": {
     "cedula": 79604259,

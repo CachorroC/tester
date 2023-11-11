@@ -24,21 +24,15 @@
     "expediente": "11001400305320180094500",
     "capitalAdeudado": 3249244300,
     "etapaProcesal": "ADMISION",
-    "juzgados": [],
     "municipio": "BOGOTA",
-    "obligacion": [
-      5470085449
-    ],
+    "obligacion": [5470085449],
     "radicado": "2018 - 00945",
-    "vencimientoPagare": [
-      "2024-06-30T00:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ"
+    "vencimientoPagare": ["2024-06-30T00:00:00.000Z"],
+    "departamento": "BOGOTÁ",
+    "juzgados": []
   },
   "cc": 79857627,
-  "idProcesos": [
-    64641230
-  ],
+  "idProcesos": [64641230],
   "procesos": [
     {
       "idProceso": 64641230,
