@@ -1,5 +1,20 @@
 {
-  "StatusCode": 203,
-  "Message": "\nInvalid `client.demanda.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:167:48\n\n  164   demanda, numero\n  165 );\n  166 \n→ 167 const createDemanda = await client.demanda.upsert(\nForeign key constraint failed on the field: `Demanda_carpetaNumero_fkey (index)`",
-  "data": { "field_name": "Demanda_carpetaNumero_fkey (index)" }
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 452,
+    "departamento": "CUNDINAMARCA",
+    "capitalAdeudado": "16827889",
+    "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "MADRID",
+    "obligacion": ["3830095609"],
+    "radicado": "2023 - 01295",
+    "vencimientoPagare": ["2026-03-06T00:00:00.000Z"],
+    "expediente": "25430400300120230129500",
+    "carpetaNumero": 582
+  }
 }

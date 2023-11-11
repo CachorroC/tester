@@ -129,6 +129,7 @@ CREATE TABLE "Proceso" (
     "sujetosProcesales" TEXT NOT NULL,
     "esPrivado" BOOLEAN NOT NULL,
     "cantFilas" INTEGER NOT NULL,
+    "carpetaNumero" INTEGER NOT NULL,
 
     CONSTRAINT "Proceso_pkey" PRIMARY KEY ("idProceso")
 );
@@ -212,7 +213,7 @@ ALTER TABLE "Actuacion" ADD CONSTRAINT "Actuacion_procesoIdProceso_fkey" FOREIGN
 ALTER TABLE "Demanda" ADD CONSTRAINT "Demanda_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Proceso" ADD CONSTRAINT "Proceso_llaveProceso_fkey" FOREIGN KEY ("llaveProceso") REFERENCES "Carpeta"("llaveProceso") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "Proceso" ADD CONSTRAINT "Proceso_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "_CarpetaToJuzgado" ADD CONSTRAINT "_CarpetaToJuzgado_A_fkey" FOREIGN KEY ("A") REFERENCES "Carpeta"("id") ON DELETE CASCADE ON UPDATE CASCADE;

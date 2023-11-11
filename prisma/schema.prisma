@@ -19,11 +19,11 @@ model Carpeta {
   category     Category
   deudor       Deudor?
   demanda      Demanda?
-  notas         Nota[]
-  tareas        Tarea[]
+  notas        Nota[]
+  tareas       Tarea[]
   procesos     Proceso[]
   actuaciones  Actuacion[]
-  juzgados Juzgado[]
+  juzgados     Juzgado[]
 }
 
 model Deudor {
@@ -107,11 +107,11 @@ model Demanda {
 }
 
 model Juzgado {
-  id      Int
-  tipo    String    @id @unique
-  url     String
-  Proceso Proceso[]
-  demanda Demanda[]
+  id       Int
+  tipo     String    @id @unique
+  url      String
+  Proceso  Proceso[]
+  demanda  Demanda[]
   carpetas Carpeta[]
 }
 
@@ -127,7 +127,8 @@ model Proceso {
   esPrivado            Boolean
   cantFilas            Int
   actuaciones          Actuacion[]
-  Carpeta              Carpeta     @relation(fields: [llaveProceso], references: [llaveProceso])
+  Carpeta              Carpeta     @relation(fields: [carpetaNumero], references: [numero])
+  carpetaNumero        Int
   Juzgado              Juzgado[]
 }
 

@@ -4,8 +4,8 @@
 //
 //   const CarpetaRaw = Convert.toCarpetaRaw(json);
 
-import { intActuacion } from './actuaciones';
-import { intProceso } from './procesos';
+import { intActuacion } from "./actuaciones";
+import { intProceso } from "./procesos";
 
 export interface TrulyCruda {
   llaveProceso?: string;
@@ -64,13 +64,13 @@ export type Obligacion = {
 };
 
 export type Category =
-  | 'Terminados'
-  | 'LiosJuridicos'
-  | 'Bancolombia'
-  | 'Reintegra'
-  | 'Insolvencia'
-  | 'SinEspecificar'
-  | 'todos';
+  | "Terminados"
+  | "LiosJuridicos"
+  | "Bancolombia"
+  | "Reintegra"
+  | "Insolvencia"
+  | "SinEspecificar"
+  | "todos";
 
 export interface Codeudor {
   cedula?: number | string;
@@ -97,19 +97,19 @@ export interface DemandaRaw {
 }
 
 export type DepartamentoRaw =
-  | 'CUNDINAMARCA'
-  | 'CUNDINNAMARCA'
-  | 'CUNDINAMARCA '
-  | '18/01/2018'
-  | 'SINGULAR'
-  | 'HIPOTECARIO'
-  | 'TOLIMA'
-  | 'CUN DINAMARCA'
-  | 'CUNDINNAMARCA '
-  | 'BOYACÁ'
-  | 'CUNDINAMRCA'
-  | 'CNDINAMARCA'
-  | '';
+  | "CUNDINAMARCA"
+  | "CUNDINNAMARCA"
+  | "CUNDINAMARCA "
+  | "18/01/2018"
+  | "SINGULAR"
+  | "HIPOTECARIO"
+  | "TOLIMA"
+  | "CUN DINAMARCA"
+  | "CUNDINNAMARCA "
+  | "BOYACÁ"
+  | "CUNDINAMRCA"
+  | "CNDINAMARCA"
+  | "";
 
 export interface DeudorRaw {
   cedula: number | string;
@@ -144,9 +144,9 @@ export interface IntDemanda {
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
   municipio: string | null;
-  obligacion: ( number | string )[];
+  obligacion: (number | string)[];
   radicado: string | null;
-  vencimientoPagare: ( Date | null )[];
+  vencimientoPagare: (Date | null)[];
   despachos: string[];
   sujetosProcesales: string[];
   expediente: string | null;
@@ -160,26 +160,26 @@ export interface Juzgado {
 }
 
 export type TipoProcesoRaw =
-  | 'HIPOTECARIO'
-  | 'PRENDARIO'
-  | 'SINGULAR'
-  | 'SINGULAR ACUMULADO CON HIPOTECARIO'
-  | 'SINGULAR ACUM HIPOTECARIO'
-  | '11001400308320170071700'
-  | '25473418900120170092400'
-  | 'PRENDARO'
-  | ' HIPOTECARIO'
-  | 'HMM PISO 1'
-  | '  SINGULAR'
-  | 'HIPOTECARIA'
-  | 'HIPOTECARO'
-  | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL'
-  | 'SOACHA'
-  | 'ACUMULADO'
-  | 'HIPOTECARIO ';
+  | "HIPOTECARIO"
+  | "PRENDARIO"
+  | "SINGULAR"
+  | "SINGULAR ACUMULADO CON HIPOTECARIO"
+  | "SINGULAR ACUM HIPOTECARIO"
+  | "11001400308320170071700"
+  | "25473418900120170092400"
+  | "PRENDARO"
+  | " HIPOTECARIO"
+  | "HMM PISO 1"
+  | "  SINGULAR"
+  | "HIPOTECARIA"
+  | "HIPOTECARO"
+  | "SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL"
+  | "SOACHA"
+  | "ACUMULADO"
+  | "HIPOTECARIO ";
 
 export type TipoProceso =
-  | 'HIPOTECARIO'
-  | 'PRENDARIO'
-  | 'SINGULAR'
-  | 'ACUMULADO';
+  | "HIPOTECARIO"
+  | "PRENDARIO"
+  | "SINGULAR"
+  | "ACUMULADO";

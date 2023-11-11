@@ -1,5 +1,12 @@
 {
-  "StatusCode": 400,
-  "Message": "error at PrismaClientValidationError: \nInvalid `client.carpeta.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:77:48\n\n  74   };\n  75 }\n  76 \n→ 77 const createCarpeta = await client.carpeta.upsert({\n       where: {\n         numero: 556\n       },\n       create: {\n         numero: 556,\n         nombre: \"ciro null erquilian onofre\",\n         llaveProceso: \"25430400300120230112700\",\n         category: \"Bancolombia\",\n         idProcesos: [\n           159336301\n         ],\n         procesos: {\n           createMany: {\n             data: [\n               {\n                 idProceso: 159336301,\n                 idConexion: 320,\n                 llaveProceso: \"25430400300120230112700\",\n                 fechaProceso: null,\n                 fechaUltimaActuacion: null,\n                 despacho: \"JUZGADO 001 CIVIL MUNICIPAL DE MADRID \",\n                 departamento: \"CUNDINAMARCA\",\n                 sujetosProcesales: \"--- [ PROCESO PRIVADO ] ---\",\n                 esPrivado: true,\n                 cantFilas: -1\n               }\n             ]\n           }\n         },\n         juzgados: {\n           create: [\n             {\n               id: 1,\n               tipo: \"JUZGADO 001 CIVIL MUNICIPAL DE MADRID \",\n               url: \"https://www.ramajudicial.gov.co/web/juzgado-civil-municipal-de-madrid\"\n             }\n           ]\n         }\n       },\n       update: {\n         numero: 556,\n         nombre: \"ciro null erquilian onofre\",\n         llaveProceso: \"25430400300120230112700\",\n         category: \"Bancolombia\",\n         idProcesos: [\n           159336301\n         ],\n         procesos: {\n           createMany: {\n             data: [\n               {\n                 idProceso: 159336301,\n                 idConexion: 320,\n                 llaveProceso: \"25430400300120230112700\",\n                 fechaProceso: null,\n                 fechaUltimaActuacion: null,\n                 despacho: \"JUZGADO 001 CIVIL MUNICIPAL DE MADRID \",\n                 departamento: \"CUNDINAMARCA\",\n                 sujetosProcesales: \"--- [ PROCESO PRIVADO ] ---\",\n                 esPrivado: true,\n                 cantFilas: -1\n               }\n             ]\n           }\n         },\n         juzgados: {\n           create: [\n             {\n               id: 1,\n               tipo: \"JUZGADO 001 CIVIL MUNICIPAL DE MADRID \",\n               url: \"https://www.ramajudicial.gov.co/web/juzgado-civil-municipal-de-madrid\"\n             }\n           ]\n         }\n       }\n     })\n\nUnknown argument `llaveProceso`. Available options are marked with ?.",
-  "data": "{\n  \"name\": \"PrismaClientValidationError\",\n  \"clientVersion\": \"5.5.2\"\n}"
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 212,
+    "numero": 556,
+    "llaveProceso": "25430400300120230112700",
+    "nombre": "ciro null erquilian onofre",
+    "idProcesos": [159336301],
+    "category": "Bancolombia"
+  }
 }

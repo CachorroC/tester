@@ -38,20 +38,7 @@
     },
     "cc": 1022335014,
     "idProcesos": [159336301],
-    "procesos": [
-      {
-        "idProceso": 159336301,
-        "idConexion": 320,
-        "llaveProceso": "25430400300120230112700",
-        "fechaProceso": null,
-        "fechaUltimaActuacion": null,
-        "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
-        "departamento": "CUNDINAMARCA",
-        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
-        "esPrivado": true,
-        "cantFilas": -1
-      }
-    ]
+    "procesos": []
   },
   "withProcesos": {
     "StatusCode": 200,

@@ -142,10 +142,6 @@ hay 2 pagarés en este proceso
 2020-04-26
 hay 1 pagarés en este proceso
 52396019
-error en fetch consultaActuaciones 82112341 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 10 for key: llaveProceso value =-=>  "11001418900320170090900"
 10 for key: numero value =-=>  10
 10 for key: tipoProceso value =-=>  "PRENDARIO"
@@ -155,7 +151,7 @@ error en fetch consultaActuaciones 82112341 =-=> {
 10 for key: codeudor value =-=>  undefined
 10 for key: cc value =-=>  52396019
 10 for key: idProcesos value =-=>  [82112341]
-10 for key: procesos value =-=>  [{"idProceso":82112341,"idConexion":320,"llaveProceso":"11001418900320170090900","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 003 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ - LOCALIDAD SUBA","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+10 for key: procesos value =-=>  []
 21596919
 2017-08-28
 hay 1 pagarés en este proceso
@@ -399,7 +395,7 @@ error en fetch consultaActuaciones 80553011 =-=> {
 25 for key: codeudor value =-=>  undefined
 25 for key: cc value =-=>  3197274
 25 for key: idProcesos value =-=>  [80553011,1805257424]
-25 for key: procesos value =-=>  [{"idProceso":80553011,"idConexion":320,"llaveProceso":"11001310301120170033500","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 011 CIVIL DEL CIRCUITO DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1},{"idProceso":1805257424,"idConexion":310,"llaveProceso":"11001310301120170033500","fechaProceso":"2017-05-31T00:00:00","fechaUltimaActuacion":"2023-03-10T00:00:00","despacho":"JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: OMAR DARIO ZEA GALVIS ","esPrivado":false,"cantFilas":-1}]
+25 for key: procesos value =-=>  [{"idProceso":1805257424,"idConexion":310,"llaveProceso":"11001310301120170033500","fechaProceso":"2017-05-31T00:00:00","fechaUltimaActuacion":"2023-03-10T00:00:00","despacho":"JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: OMAR DARIO ZEA GALVIS ","esPrivado":false,"cantFilas":-1}]
 17307303
 2024-03-03
 hay 1 pagarés en este proceso
@@ -2105,7 +2101,7 @@ error en fetch consultaActuaciones 97088411 =-=> {
 125 for key: codeudor value =-=>  {"cedula":1098436221,"direccion":"CALEE 4 # 20 - 85","nombre":"german alonso sanchez pico","telefono":3155275805}
 125 for key: cc value =-=>  74338870
 125 for key: idProcesos value =-=>  [97088411,109959053]
-125 for key: procesos value =-=>  [{"idProceso":97088411,"idConexion":320,"llaveProceso":"11001400304720170152000","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1},{"idProceso":109959053,"idConexion":261,"llaveProceso":"11001400304720170152000","fechaProceso":"2017-08-30T00:00:00","fechaUltimaActuacion":"2022-09-02T00:00:00","despacho":"JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: MILCIADES GALINDO CASTEBLANCO | Demandado: GERMAN ALONSO SANCHEZ PICO ","esPrivado":false,"cantFilas":-1}]
+125 for key: procesos value =-=>  [{"idProceso":109959053,"idConexion":261,"llaveProceso":"11001400304720170152000","fechaProceso":"2017-08-30T00:00:00","fechaUltimaActuacion":"2022-09-02T00:00:00","despacho":"JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: MILCIADES GALINDO CASTEBLANCO | Demandado: GERMAN ALONSO SANCHEZ PICO ","esPrivado":false,"cantFilas":-1}]
 14675091
 undefined
 79834592
@@ -2445,10 +2441,6 @@ Expediente: 11001400305520170081700: error en la conexion network del fetchProce
 2017-08-11
 hay 1 pagarés en este proceso
 4520757
-error en fetch consultaActuaciones 81888371 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 146 for key: llaveProceso value =-=>  "11001400308620170082600"
 146 for key: numero value =-=>  146
 146 for key: tipoProceso value =-=>  "PRENDARIO"
@@ -2458,7 +2450,7 @@ error en fetch consultaActuaciones 81888371 =-=> {
 146 for key: codeudor value =-=>  undefined
 146 for key: cc value =-=>  4520757
 146 for key: idProcesos value =-=>  [81888371]
-146 for key: procesos value =-=>  [{"idProceso":81888371,"idConexion":320,"llaveProceso":"11001400308620170082600","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+146 for key: procesos value =-=>  []
 84049009
 2021-12-05
 hay 1 pagarés en este proceso
@@ -2853,10 +2845,6 @@ Expediente: 11001400301320170111400: error en la conexion network del fetchProce
 2017-08-14
 hay 1 pagarés en este proceso
 1024468871
-error en fetch consultaActuaciones 81888701 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 171 for key: llaveProceso value =-=>  "11001400308620170086300"
 171 for key: numero value =-=>  171
 171 for key: tipoProceso value =-=>  "PRENDARIO"
@@ -2866,7 +2854,7 @@ error en fetch consultaActuaciones 81888701 =-=> {
 171 for key: codeudor value =-=>  undefined
 171 for key: cc value =-=>  1024468871
 171 for key: idProcesos value =-=>  [81888701]
-171 for key: procesos value =-=>  [{"idProceso":81888701,"idConexion":320,"llaveProceso":"11001400308620170086300","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+171 for key: procesos value =-=>  []
 1348750639
 2017-08-16
 hay 1 pagarés en este proceso
@@ -2954,7 +2942,7 @@ error en fetch consultaActuaciones 81628051 =-=> {
 176 for key: codeudor value =-=>  undefined
 176 for key: cc value =-=>  79787268
 176 for key: idProcesos value =-=>  [112783650,81628051]
-176 for key: procesos value =-=>  [{"idProceso":112783650,"idConexion":259,"llaveProceso":"11001400300420170080100","fechaProceso":"2017-08-08T00:00:00","fechaUltimaActuacion":"2021-12-10T00:00:00","despacho":"JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: NILCY ELENA BORJA SALCEDO ","esPrivado":false,"cantFilas":-1},{"idProceso":81628051,"idConexion":320,"llaveProceso":"11001400300420170080100","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+176 for key: procesos value =-=>  [{"idProceso":112783650,"idConexion":259,"llaveProceso":"11001400300420170080100","fechaProceso":"2017-08-08T00:00:00","fechaUltimaActuacion":"2021-12-10T00:00:00","despacho":"JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: NILCY ELENA BORJA SALCEDO ","esPrivado":false,"cantFilas":-1}]
 176 for key: fecha value =-=>  "2021-12-10T05:00:00.000Z"
 176 for key: ultimaActuacion value =-=>  {"idRegActuacion":1237916570,"llaveProceso":"11001400300420170080100","consActuacion":140,"fechaActuacion":"2021-12-10T00:00:00","actuacion":"Recepción memorial","anotacion":"Respuesta Secretaría de Movilidad // Levanta medida ","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2021-12-10T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":140}
 18696053
@@ -3029,10 +3017,6 @@ hay 1 pagarés en este proceso
 2017-08-16
 hay 1 pagarés en este proceso
 1033783222
-error en fetch consultaActuaciones 82132851 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 181 for key: llaveProceso value =-=>  "11001418901020170011500"
 181 for key: numero value =-=>  181
 181 for key: tipoProceso value =-=>  "PRENDARIO"
@@ -3042,7 +3026,7 @@ error en fetch consultaActuaciones 82132851 =-=> {
 181 for key: codeudor value =-=>  undefined
 181 for key: cc value =-=>  1033783222
 181 for key: idProcesos value =-=>  [82132851]
-181 for key: procesos value =-=>  [{"idProceso":82132851,"idConexion":320,"llaveProceso":"11001418901020170011500","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 010 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+181 for key: procesos value =-=>  []
 25833335
 2019-11-03
 hay 1 pagarés en este proceso
@@ -3098,7 +3082,7 @@ error en fetch consultaActuaciones 81652411 =-=> {
 184 for key: codeudor value =-=>  undefined
 184 for key: cc value =-=>  17650971
 184 for key: idProcesos value =-=>  [50623380,81652411]
-184 for key: procesos value =-=>  [{"idProceso":50623380,"idConexion":259,"llaveProceso":"11001400302520170080700","fechaProceso":"2017-08-09T00:00:00","fechaUltimaActuacion":"2023-10-18T00:00:00","despacho":"JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: JUAN CARLOS TOVAR TOLEDO ","esPrivado":false,"cantFilas":-1},{"idProceso":81652411,"idConexion":320,"llaveProceso":"11001400302520170080700","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+184 for key: procesos value =-=>  [{"idProceso":50623380,"idConexion":259,"llaveProceso":"11001400302520170080700","fechaProceso":"2017-08-09T00:00:00","fechaUltimaActuacion":"2023-10-18T00:00:00","despacho":"JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: JUAN CARLOS TOVAR TOLEDO ","esPrivado":false,"cantFilas":-1}]
 184 for key: fecha value =-=>  "2023-10-18T05:00:00.000Z"
 184 for key: ultimaActuacion value =-=>  {"idRegActuacion":1908607380,"llaveProceso":"11001400302520170080700","consActuacion":57,"fechaActuacion":"2023-10-18T00:00:00","actuacion":"Recepción memorial","anotacion":"Solicitud ampliación cautelares.","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-10-18T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":57}
 4126227597
@@ -3533,7 +3517,7 @@ error en fetch consultaActuaciones 81643141 =-=> {
 210 for key: codeudor value =-=>  undefined
 210 for key: cc value =-=>  343334
 210 for key: idProcesos value =-=>  [51006610,81643141]
-210 for key: procesos value =-=>  [{"idProceso":51006610,"idConexion":259,"llaveProceso":"11001400302120180016300","fechaProceso":"2018-02-13T00:00:00","fechaUltimaActuacion":"2023-09-08T00:00:00","despacho":"JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ANTONIO CASTILLO CORTES ","esPrivado":false,"cantFilas":-1},{"idProceso":81643141,"idConexion":320,"llaveProceso":"11001400302120180016300","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+210 for key: procesos value =-=>  [{"idProceso":51006610,"idConexion":259,"llaveProceso":"11001400302120180016300","fechaProceso":"2018-02-13T00:00:00","fechaUltimaActuacion":"2023-09-08T00:00:00","despacho":"JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ANTONIO CASTILLO CORTES ","esPrivado":false,"cantFilas":-1}]
 210 for key: fecha value =-=>  "2023-09-08T05:00:00.000Z"
 210 for key: ultimaActuacion value =-=>  {"idRegActuacion":1875063180,"llaveProceso":"11001400302120180016300","consActuacion":79,"fechaActuacion":"2023-09-08T00:00:00","actuacion":"Fijacion estado","anotacion":"Actuación registrada el 08/09/2023 a las 16:38:18.","fechaInicial":"2023-09-11T00:00:00","fechaFinal":"2023-09-11T00:00:00","fechaRegistro":"2023-09-08T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":79}
 36520799
@@ -3615,7 +3599,7 @@ error en fetch consultaActuaciones 81589821 =-=> {
 215 for key: codeudor value =-=>  {"cedula":80228299,"direccion":"CARRERA 98B # 14 - 06 PUEBLO NUEVO 1","nombre":"jorge armando lopez castaño","telefono":4185127}
 215 for key: cc value =-=>  36458257
 215 for key: idProcesos value =-=>  [50776700,81589821]
-215 for key: procesos value =-=>  [{"idProceso":50776700,"idConexion":259,"llaveProceso":"11001400300820170127300","fechaProceso":"2017-10-13T00:00:00","fechaUltimaActuacion":"2018-03-08T00:00:00","despacho":"JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: ABOGADOS ESPECIALÑIZADOS EN CONBRANZAS SA - AECSA | Demandado: JORGE ARMANDO LOPEZ CASTAÑO | Demandado: LUZ DARY HURTADO RIOS ","esPrivado":false,"cantFilas":-1},{"idProceso":81589821,"idConexion":320,"llaveProceso":"11001400300820170127300","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+215 for key: procesos value =-=>  [{"idProceso":50776700,"idConexion":259,"llaveProceso":"11001400300820170127300","fechaProceso":"2017-10-13T00:00:00","fechaUltimaActuacion":"2018-03-08T00:00:00","despacho":"JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: ABOGADOS ESPECIALÑIZADOS EN CONBRANZAS SA - AECSA | Demandado: JORGE ARMANDO LOPEZ CASTAÑO | Demandado: LUZ DARY HURTADO RIOS ","esPrivado":false,"cantFilas":-1}]
 215 for key: fecha value =-=>  "2018-03-08T05:00:00.000Z"
 215 for key: ultimaActuacion value =-=>  {"idRegActuacion":602065020,"llaveProceso":"11001400300820170127300","consActuacion":15,"fechaActuacion":"2018-03-08T00:00:00","actuacion":"Archivo Definitivo","anotacion":"CJ 502","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2018-03-08T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":15}
 43
@@ -4298,7 +4282,7 @@ error en fetch consultaActuaciones 73154161 =-=> {
 255 for key: codeudor value =-=>  {"cedula":1002415012,"direccion":"CALLE 136 # 14 - 22 SUR","nombre":"pablo andres perez acevedo","telefono":"7708676 // 3142983369"}
 255 for key: cc value =-=>  23946115
 255 for key: idProcesos value =-=>  [50692560,73154161]
-255 for key: procesos value =-=>  [{"idProceso":50692560,"idConexion":259,"llaveProceso":"11001400301220170102100","fechaProceso":"2017-09-08T00:00:00","fechaUltimaActuacion":"2022-11-02T00:00:00","despacho":"JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: YEIMY ZORAIDA PEREZ ACEVEDO | Demandado: PABLO ANDRES PEREZ ACEVEDO ","esPrivado":false,"cantFilas":-1},{"idProceso":73154161,"idConexion":320,"llaveProceso":"11001400301220170102100","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+255 for key: procesos value =-=>  [{"idProceso":50692560,"idConexion":259,"llaveProceso":"11001400301220170102100","fechaProceso":"2017-09-08T00:00:00","fechaUltimaActuacion":"2022-11-02T00:00:00","despacho":"JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: YEIMY ZORAIDA PEREZ ACEVEDO | Demandado: PABLO ANDRES PEREZ ACEVEDO ","esPrivado":false,"cantFilas":-1}]
 255 for key: fecha value =-=>  "2022-11-02T05:00:00.000Z"
 255 for key: ultimaActuacion value =-=>  {"idRegActuacion":1486196010,"llaveProceso":"11001400301220170102100","consActuacion":110,"fechaActuacion":"2022-11-02T00:00:00","actuacion":"Constancia secretarial","anotacion":"\r\nSE RECEPCIONA EL EXPEDIENTE EN (2) CUADERNOS HENRY BERNAL Y NATALY RIAÑO LETRA ","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2022-11-02T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":110}
 616552203
@@ -4959,10 +4943,6 @@ Expediente: 11001400305120170111300: error en la conexion network del fetchProce
 2020-10-04
 hay 1 pagarés en este proceso
 86074992
-error en fetch consultaActuaciones 127797581 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 296 for key: llaveProceso value =-=>  "11001410375220170129100"
 296 for key: numero value =-=>  296
 296 for key: tipoProceso value =-=>  "PRENDARIO"
@@ -4972,7 +4952,7 @@ error en fetch consultaActuaciones 127797581 =-=> {
 296 for key: codeudor value =-=>  undefined
 296 for key: cc value =-=>  86074992
 296 for key: idProcesos value =-=>  [127797581,127797591]
-296 for key: procesos value =-=>  [{"idProceso":127797581,"idConexion":320,"llaveProceso":"11001410375220170129100","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 024 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1},{"idProceso":127797591,"idConexion":320,"llaveProceso":"11001410375220170129100","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 005 CIVIL MUNICIPAL DE VILLAVICENCIO ","departamento":"META","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+296 for key: procesos value =-=>  []
 28485816
 10-07-2019
 hay 1 pagarés en este proceso
@@ -5202,7 +5182,7 @@ error en fetch consultaActuaciones 81620291 =-=> {
 310 for key: codeudor value =-=>  undefined
 310 for key: cc value =-=>  79388145
 310 for key: idProcesos value =-=>  [50769660,81620291]
-310 for key: procesos value =-=>  [{"idProceso":50769660,"idConexion":259,"llaveProceso":"11001400302120170153200","fechaProceso":"2017-10-11T00:00:00","fechaUltimaActuacion":"2023-05-15T00:00:00","despacho":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: LIBARDO ALFONSO GONZALEZ TRIVIÑO ","esPrivado":false,"cantFilas":-1},{"idProceso":81620291,"idConexion":320,"llaveProceso":"11001400302120170153200","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+310 for key: procesos value =-=>  [{"idProceso":50769660,"idConexion":259,"llaveProceso":"11001400302120170153200","fechaProceso":"2017-10-11T00:00:00","fechaUltimaActuacion":"2023-05-15T00:00:00","despacho":"JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: LIBARDO ALFONSO GONZALEZ TRIVIÑO ","esPrivado":false,"cantFilas":-1}]
 310 for key: fecha value =-=>  "2023-05-15T05:00:00.000Z"
 310 for key: ultimaActuacion value =-=>  {"idRegActuacion":1742239800,"llaveProceso":"11001400302120170153200","consActuacion":77,"fechaActuacion":"2023-05-15T00:00:00","actuacion":"Constancia secretarial","anotacion":"SE RECEPCIONA EL PRESENTE ASUNTO EN EL AREA ESTADOS // CRISTIAN QUINTO     LETRA\r\n","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-05-15T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":77}
 1076199162
@@ -5383,10 +5363,6 @@ Expediente: 11001400301620170136700: error en la conexion network del fetchProce
 2027-09-11
 hay 1 pagarés en este proceso
 63395806
-error en fetch consultaActuaciones 81891881 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 322 for key: llaveProceso value =-=>  "11001400308620170120500"
 322 for key: numero value =-=>  322
 322 for key: tipoProceso value =-=>  "HIPOTECARIO"
@@ -5396,7 +5372,7 @@ error en fetch consultaActuaciones 81891881 =-=> {
 322 for key: codeudor value =-=>  undefined
 322 for key: cc value =-=>  63395806
 322 for key: idProcesos value =-=>  [81891881]
-322 for key: procesos value =-=>  [{"idProceso":81891881,"idConexion":320,"llaveProceso":"11001400308620170120500","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+322 for key: procesos value =-=>  []
 1936296022
 2021-10-20
 hay 1 pagarés en este proceso
@@ -5906,7 +5882,7 @@ error en fetch consultaActuaciones 81847081 =-=> {
 352 for key: codeudor value =-=>  {"cedula":24764240,"direccion":"TRANSVERSAL 2 C BIS No 97 B -05 SUR","nombre":"blanca nubia lopez cifuentes","telefono":3144245852}
 352 for key: cc value =-=>  71992491
 352 for key: idProcesos value =-=>  [51499790,81847081]
-352 for key: procesos value =-=>  [{"idProceso":51499790,"idConexion":259,"llaveProceso":"11001400307620170101600","fechaProceso":"2018-11-23T00:00:00","fechaUltimaActuacion":"2023-09-13T00:00:00","despacho":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: MAURICIO BOTERO WOLFF | Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA NUBIA LOPEZ CIFUENTES | Demandado: MARIO DE JESUS OSSA PULGARIN ","esPrivado":false,"cantFilas":-1},{"idProceso":81847081,"idConexion":320,"llaveProceso":"11001400307620170101600","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+352 for key: procesos value =-=>  [{"idProceso":51499790,"idConexion":259,"llaveProceso":"11001400307620170101600","fechaProceso":"2018-11-23T00:00:00","fechaUltimaActuacion":"2023-09-13T00:00:00","despacho":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: MAURICIO BOTERO WOLFF | Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA NUBIA LOPEZ CIFUENTES | Demandado: MARIO DE JESUS OSSA PULGARIN ","esPrivado":false,"cantFilas":-1}]
 352 for key: fecha value =-=>  "2023-09-13T05:00:00.000Z"
 352 for key: ultimaActuacion value =-=>  {"idRegActuacion":1878048030,"llaveProceso":"11001400307620170101600","consActuacion":149,"fechaActuacion":"2023-09-13T00:00:00","actuacion":"Constancia secretarial","anotacion":"Diligencia de remate no efectuada, error en publicaciones//Angélica Poveda","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-09-13T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":149}
 24172047
@@ -6204,7 +6180,7 @@ error en fetch consultaActuaciones 81647611 =-=> {
 369 for key: codeudor value =-=>  {"cedula":41519807,"direccion":"CARRERA 24 No 20-35 SUR","nombre":"martha lucia cuartas betancur","telefono":3114472300}
 369 for key: cc value =-=>  900336193
 369 for key: idProcesos value =-=>  [50817380,81647611]
-369 for key: procesos value =-=>  [{"idProceso":50817380,"idConexion":259,"llaveProceso":"11001400302220170120800","fechaProceso":"2017-11-01T00:00:00","fechaUltimaActuacion":"2023-01-31T00:00:00","despacho":"JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: CALZADO RIVOLI  S.A.S. | Demandado: MARTHA LUCIA CUARTAS  BETANCOURT ","esPrivado":false,"cantFilas":-1},{"idProceso":81647611,"idConexion":320,"llaveProceso":"11001400302220170120800","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 022 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+369 for key: procesos value =-=>  [{"idProceso":50817380,"idConexion":259,"llaveProceso":"11001400302220170120800","fechaProceso":"2017-11-01T00:00:00","fechaUltimaActuacion":"2023-01-31T00:00:00","despacho":"JUZGADO 020 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: CALZADO RIVOLI  S.A.S. | Demandado: MARTHA LUCIA CUARTAS  BETANCOURT ","esPrivado":false,"cantFilas":-1}]
 369 for key: fecha value =-=>  "2023-01-31T05:00:00.000Z"
 369 for key: ultimaActuacion value =-=>  {"idRegActuacion":1630836130,"llaveProceso":"11001400302220170120800","consActuacion":84,"fechaActuacion":"2023-01-31T00:00:00","actuacion":"Constancia secretarial","anotacion":"PROCESO DIGITAL BAJA DEL DESPACHO/LETRA/JOHN","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-01-31T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":84}
 5146633884
@@ -6274,10 +6250,6 @@ undefined
 2024-08-26
 hay 1 pagarés en este proceso
 80850549
-error en fetch consultaActuaciones 81895161 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 374 for key: llaveProceso value =-=>  "11001400308620180006700"
 374 for key: numero value =-=>  374
 374 for key: tipoProceso value =-=>  "HIPOTECARIO"
@@ -6287,7 +6259,7 @@ error en fetch consultaActuaciones 81895161 =-=> {
 374 for key: codeudor value =-=>  {"cedula":52936062,"direccion":"CARRERA 96 D # 6 - 55 CASA 81 ESTAPA 1","nombre":"elizabeth yaya sierra","telefono":7326829}
 374 for key: cc value =-=>  80850549
 374 for key: idProcesos value =-=>  [81895161]
-374 for key: procesos value =-=>  [{"idProceso":81895161,"idConexion":320,"llaveProceso":"11001400308620180006700","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+374 for key: procesos value =-=>  []
 6625561724
 2034-08-24
 hay 1 pagarés en este proceso
@@ -7263,7 +7235,7 @@ error en fetch consultaActuaciones 81863401 =-=> {
 432 for key: codeudor value =-=>  undefined
 432 for key: cc value =-=>  52757086
 432 for key: idProcesos value =-=>  [51914550,81863401]
-432 for key: procesos value =-=>  [{"idProceso":51914550,"idConexion":259,"llaveProceso":"11001400308120180058300","fechaProceso":"2019-05-16T00:00:00","fechaUltimaActuacion":"2020-02-03T00:00:00","despacho":"JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: LILIA YANIRA DIAZ CARO ","esPrivado":false,"cantFilas":-1},{"idProceso":81863401,"idConexion":320,"llaveProceso":"11001400308120180058300","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+432 for key: procesos value =-=>  [{"idProceso":51914550,"idConexion":259,"llaveProceso":"11001400308120180058300","fechaProceso":"2019-05-16T00:00:00","fechaUltimaActuacion":"2020-02-03T00:00:00","despacho":"JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: LILIA YANIRA DIAZ CARO ","esPrivado":false,"cantFilas":-1}]
 432 for key: fecha value =-=>  "2020-02-03T05:00:00.000Z"
 432 for key: ultimaActuacion value =-=>  {"idRegActuacion":952412530,"llaveProceso":"11001400308120180058300","consActuacion":17,"fechaActuacion":"2020-02-03T00:00:00","actuacion":"Archivo Definitivo","anotacion":"Proceso se envia para archivo defenitivo caja 287//karenmm//","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2020-02-03T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":17}
 43
@@ -7641,10 +7613,6 @@ Expediente: 11001400303820180083500: error en la conexion network del fetchProce
 2021-01-29
 hay 1 pagarés en este proceso
 26407097
-error en fetch consultaActuaciones 95877041 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 456 for key: llaveProceso value =-=>  "11001410375120180112100"
 456 for key: numero value =-=>  456
 456 for key: tipoProceso value =-=>  "SINGULAR"
@@ -7654,7 +7622,7 @@ error en fetch consultaActuaciones 95877041 =-=> {
 456 for key: codeudor value =-=>  undefined
 456 for key: cc value =-=>  26407097
 456 for key: idProcesos value =-=>  [95877041]
-456 for key: procesos value =-=>  [{"idProceso":95877041,"idConexion":320,"llaveProceso":"11001410375120180112100","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 751 CIVIL MUNICIPAL DE PEQUEÑAS CAUSAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+456 for key: procesos value =-=>  []
 2476547500
 2019-01-26
 hay 1 pagarés en este proceso
@@ -8325,7 +8293,7 @@ error en fetch consultaActuaciones 81649171 =-=> {
 500 for key: codeudor value =-=>  {"cedula":1032408735,"direccion":"CALLE 67 D - No 66 A-03","nombre":"edisson armando karl buitrago cabrera","telefono":2501533}
 500 for key: cc value =-=>  null
 500 for key: idProcesos value =-=>  [51154840,81649171]
-500 for key: procesos value =-=>  [{"idProceso":51154840,"idConexion":259,"llaveProceso":"11001400300620180045400","fechaProceso":"2018-04-30T00:00:00","fechaUltimaActuacion":"2023-04-10T00:00:00","despacho":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: SMARTITECH SAS | Demandado: EDISSON ARMANDO KARL BUITRAGO ","esPrivado":false,"cantFilas":-1},{"idProceso":81649171,"idConexion":320,"llaveProceso":"11001400300620180045400","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+500 for key: procesos value =-=>  [{"idProceso":51154840,"idConexion":259,"llaveProceso":"11001400300620180045400","fechaProceso":"2018-04-30T00:00:00","fechaUltimaActuacion":"2023-04-10T00:00:00","despacho":"JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ","departamento":"BOGOTÁ","sujetosProcesales":"Demandante: BANCOLOMBIA S.A. | Demandado: SMARTITECH SAS | Demandado: EDISSON ARMANDO KARL BUITRAGO ","esPrivado":false,"cantFilas":-1}]
 500 for key: fecha value =-=>  "2023-04-10T05:00:00.000Z"
 500 for key: ultimaActuacion value =-=>  {"idRegActuacion":1705464490,"llaveProceso":"11001400300620180045400","consActuacion":72,"fechaActuacion":"2023-04-10T00:00:00","actuacion":"Constancia secretarial","anotacion":"HIBRIDO  SE RECEPCIONA DEL DESPACHO ESTADO //JULIAN BERMUDEZ-LETRA","fechaInicial":null,"fechaFinal":null,"fechaRegistro":"2023-04-10T00:00:00","codRegla":"00                              ","conDocumentos":false,"cant":72}
 31627562
@@ -9207,10 +9175,6 @@ Expediente: 11001400303220230090400: error en la conexion network del fetchProce
 9-03-2026 // 9-03-2026 // 9-04-2026
 hay 3 pagarés en este proceso
 1022335014
-error en fetch consultaActuaciones 159336301 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 556 for key: llaveProceso value =-=>  "25430400300120230112700"
 556 for key: numero value =-=>  556
 556 for key: tipoProceso value =-=>  "SINGULAR"
@@ -9220,7 +9184,7 @@ error en fetch consultaActuaciones 159336301 =-=> {
 556 for key: codeudor value =-=>  undefined
 556 for key: cc value =-=>  1022335014
 556 for key: idProcesos value =-=>  [159336301]
-556 for key: procesos value =-=>  [{"idProceso":159336301,"idConexion":320,"llaveProceso":"25430400300120230112700","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 001 CIVIL MUNICIPAL DE MADRID ","departamento":"CUNDINAMARCA","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+556 for key: procesos value =-=>  []
 49329779
 18-07-2026 // 4-03-2026
 hay 2 pagarés en este proceso
@@ -9628,10 +9592,6 @@ Expediente: 11001400303320230105600: error en la conexion network del fetchProce
 2026-03-06
 hay 1 pagarés en este proceso
 7228260
-error en fetch consultaActuaciones 160042431 =-=> {
-  "StatusCode": 404,
-  "Message": "No se pueden ver actuaciones de un proceso privado"
-}
 582 for key: llaveProceso value =-=>  "25430400300120230129500"
 582 for key: numero value =-=>  582
 582 for key: tipoProceso value =-=>  "SINGULAR"
@@ -9641,7 +9601,7 @@ error en fetch consultaActuaciones 160042431 =-=> {
 582 for key: codeudor value =-=>  undefined
 582 for key: cc value =-=>  7228260
 582 for key: idProcesos value =-=>  [160042431]
-582 for key: procesos value =-=>  [{"idProceso":160042431,"idConexion":320,"llaveProceso":"25430400300120230129500","fechaProceso":null,"fechaUltimaActuacion":null,"despacho":"JUZGADO 001 CIVIL MUNICIPAL DE MADRID ","departamento":"CUNDINAMARCA","sujetosProcesales":"--- [ PROCESO PRIVADO ] ---","esPrivado":true,"cantFilas":-1}]
+582 for key: procesos value =-=>  []
 21652918
 15-04-2026 // 21-04-2026
 hay 2 pagarés en este proceso
@@ -9865,12 +9825,9 @@ Successfully connected to database: RyS and collection: Carpetas
   "upsertedCount": 0,
   "matchedCount": 1
 }
-10 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -9992,13 +9949,9 @@ Successfully connected to database: RyS and collection: Carpetas
   "matchedCount": 1
 }
 procesos despacho is in despachos 1
-procesos despacho is in despachos 1
-25 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -10062,9 +10015,6 @@ procesos despacho is in despachos 1
   "matchedCount": 1
 }
 procesos despacho is in despachos 1
-33 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
   "modifiedCount": 0,
@@ -10909,13 +10859,9 @@ procesos despacho is in despachos 1
   "matchedCount": 1
 }
 procesos despacho is in despachos 1
-procesos despacho is in despachos 1
-125 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -11099,13 +11045,9 @@ procesos despacho is in despachos 1
   "upsertedCount": 0,
   "matchedCount": 1
 }
-procesos despacho is in despachos 1
-146 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -11317,13 +11259,9 @@ procesos despacho is in despachos 1
   "upsertedCount": 0,
   "matchedCount": 1
 }
-procesos despacho is in despachos 1
-171 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -11370,7 +11308,7 @@ procesos despacho is in despachos 1
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -11412,12 +11350,9 @@ procesos despacho is in despachos 1
   "upsertedCount": 0,
   "matchedCount": 1
 }
-181 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -11447,7 +11382,7 @@ procesos despacho is in despachos 1
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -11647,9 +11582,6 @@ procesos despacho is in despachos 1
   "matchedCount": 1
 }
 procesos despacho is in despachos 1
-208 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
   "modifiedCount": 0,
@@ -11672,7 +11604,7 @@ procesos despacho is in despachos 1
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -11713,7 +11645,7 @@ procesos despacho is in despachos 1
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -12084,7 +12016,7 @@ Unique constraint failed on the fields: (`llaveProceso`) {
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -12423,13 +12355,9 @@ Unique constraint failed on the fields: (`llaveProceso`) {
   "upsertedCount": 0,
   "matchedCount": 1
 }
-procesos despacho is in despachos 1
-296 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -12545,7 +12473,7 @@ procesos despacho is in despachos 1
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -12636,13 +12564,9 @@ procesos despacho is in despachos 1
   "upsertedCount": 0,
   "matchedCount": 1
 }
-procesos despacho is in despachos 1
-322 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -12912,7 +12836,7 @@ procesos despacho is in despachos 1
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -13061,7 +12985,7 @@ procesos despacho is in despachos 1
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -13100,13 +13024,9 @@ procesos despacho is in despachos 1
   "upsertedCount": 0,
   "matchedCount": 1
 }
-procesos despacho is in despachos 1
-374 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -13567,9 +13487,6 @@ Unique constraint failed on the fields: (`llaveProceso`) {
   "matchedCount": 1
 }
 procesos despacho is in despachos 1
-427 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
   "modifiedCount": 0,
@@ -13616,7 +13533,7 @@ procesos despacho is in despachos 1
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -13818,12 +13735,9 @@ procesos despacho is in despachos 1
   "upsertedCount": 0,
   "matchedCount": 1
 }
-456 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -14155,7 +14069,7 @@ procesos despacho is in despachos 1
 }
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -14589,13 +14503,9 @@ procesos despacho is in despachos 1
   "upsertedCount": 0,
   "matchedCount": 1
 }
-procesos despacho is in despachos 1
-556 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1
@@ -14809,13 +14719,9 @@ Unique constraint failed on the fields: (`llaveProceso`) {
   "upsertedCount": 0,
   "matchedCount": 1
 }
-procesos despacho is in despachos 1
-582 ==> Foreign key constraint failed on the field {
-  "field_name": "Demanda_carpetaNumero_fkey (index)"
-}
 {
   "acknowledged": true,
-  "modifiedCount": 0,
+  "modifiedCount": 1,
   "upsertedId": null,
   "upsertedCount": 0,
   "matchedCount": 1

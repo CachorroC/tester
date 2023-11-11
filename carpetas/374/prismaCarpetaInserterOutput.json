@@ -1,5 +1,12 @@
 {
-  "StatusCode": 400,
-  "Message": "error at PrismaClientValidationError: \nInvalid `client.carpeta.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:77:48\n\n  74   };\n  75 }\n  76 \n→ 77 const createCarpeta = await client.carpeta.upsert({\n       where: {\n         numero: 374\n       },\n       create: {\n         numero: 374,\n         nombre: \"jhoan antonio barajas montenegro\",\n         llaveProceso: \"11001400308620180006700\",\n         category: \"Terminados\",\n         idProcesos: [\n           81895161\n         ],\n         procesos: {\n           createMany: {\n             data: [\n               {\n                 idProceso: 81895161,\n                 idConexion: 320,\n                 llaveProceso: \"11001400308620180006700\",\n                 fechaProceso: null,\n                 fechaUltimaActuacion: null,\n                 despacho: \"JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ \",\n                 departamento: \"BOGOTÁ\",\n                 sujetosProcesales: \"--- [ PROCESO PRIVADO ] ---\",\n                 esPrivado: true,\n                 cantFilas: -1\n               }\n             ]\n           }\n         },\n         juzgados: {\n           create: [\n             {\n               id: 86,\n               tipo: \"JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ \",\n               url: \"https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota\"\n             }\n           ]\n         }\n       },\n       update: {\n         numero: 374,\n         nombre: \"jhoan antonio barajas montenegro\",\n         llaveProceso: \"11001400308620180006700\",\n         category: \"Terminados\",\n         idProcesos: [\n           81895161\n         ],\n         procesos: {\n           createMany: {\n             data: [\n               {\n                 idProceso: 81895161,\n                 idConexion: 320,\n                 llaveProceso: \"11001400308620180006700\",\n                 fechaProceso: null,\n                 fechaUltimaActuacion: null,\n                 despacho: \"JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ \",\n                 departamento: \"BOGOTÁ\",\n                 sujetosProcesales: \"--- [ PROCESO PRIVADO ] ---\",\n                 esPrivado: true,\n                 cantFilas: -1\n               }\n             ]\n           }\n         },\n         juzgados: {\n           create: [\n             {\n               id: 86,\n               tipo: \"JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ \",\n               url: \"https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota\"\n             }\n           ]\n         }\n       }\n     })\n\nUnknown argument `llaveProceso`. Available options are marked with ?.",
-  "data": "{\n  \"name\": \"PrismaClientValidationError\",\n  \"clientVersion\": \"5.5.2\"\n}"
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 128,
+    "numero": 374,
+    "llaveProceso": "11001400308620180006700",
+    "nombre": "jhoan antonio barajas montenegro",
+    "idProcesos": [81895161],
+    "category": "Terminados"
+  }
 }

@@ -1,11 +1,13 @@
-import { $Enums,
+import {
+  $Enums,
   Carpeta,
   Category,
   Demanda,
   Deudor,
-  Prisma, } from '@prisma/client';
-import { IntCarpeta, IntDemanda, IntDeudor } from '../types/carpetas';
-import { Decimal } from '@prisma/client/runtime/library';
+  Prisma,
+} from "@prisma/client";
+import { IntCarpeta, IntDemanda, IntDeudor } from "../types/carpetas";
+import { Decimal } from "@prisma/client/runtime/library";
 
 export class PrismaCarpeta implements Carpeta {
   numero: number;
@@ -13,22 +15,18 @@ export class PrismaCarpeta implements Carpeta {
   nombre: string;
   idProcesos: number[];
   category: Category;
-  constructor(
-    {
-      numero,
-      nombre,
-      llaveProceso,
-      idProcesos,
-      category,
-    }: IntCarpeta 
-  ) {
+  constructor({
+    numero,
+    nombre,
+    llaveProceso,
+    idProcesos,
+    category,
+  }: IntCarpeta) {
     this.numero = numero;
     this.nombre = nombre;
     this.llaveProceso = llaveProceso;
     this.category = category;
-    this.idProcesos = idProcesos
-      ? idProcesos
-      : [];
+    this.idProcesos = idProcesos ? idProcesos : [];
   }
   id!: number;
 }
@@ -65,9 +63,7 @@ export class PrismaDeudor implements Deudor {
     this.telCelular = tel.celular;
     this.telFijo = tel.fijo;
     this.carpetaNumero = carpetaNumero;
-    this.cedula = String(
-      cedula 
-    );
+    this.cedula = String(cedula);
   }
 }
 
@@ -113,30 +109,18 @@ export class PrismaDemanda implements Demanda {
     this.mandamientoPago = mandamientoPago;
     this.radicado = radicado;
     this.capitalAdeudado = new Prisma.Decimal(
-      capitalAdeudado
-        ? capitalAdeudado
-        : 1000,
+      capitalAdeudado ? capitalAdeudado : 1000,
     );
-    this.obligacion = obligacion.map(
-      (
-        obl 
-      ) => {
-        return String(
-          obl 
-        );
-      } 
-    );
+    this.obligacion = obligacion.map((obl) => {
+      return String(obl);
+    });
     this.departamento = departamento;
-    this.vencimientoPagare = vencimientoPagare.map(
-      (
-        venc 
-      ) => {
-        if ( !venc || venc === null ) {
-          return new Date();
-        }
+    this.vencimientoPagare = vencimientoPagare.map((venc) => {
+      if (!venc || venc === null) {
+        return new Date();
+      }
 
-        return venc;
-      } 
-    );
+      return venc;
+    });
   }
 }
