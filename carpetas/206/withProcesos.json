@@ -26,9 +26,16 @@
       "capitalAdeudado": 3055616098,
       "etapaProcesal": null,
       "municipio": "BOGOTA",
-      "obligacion": [120356, 1590082995],
+      "obligacion": [
+        120356,
+        1590082995
+      ],
       "radicado": "2017 - 01469",
-      "vencimientoPagare": [null, null, null],
+      "vencimientoPagare": [
+        null,
+        null,
+        null
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -39,7 +46,9 @@
       "telefono": 5383916
     },
     "cc": 80729141,
-    "idProcesos": [17944250],
+    "idProcesos": [
+      17944250
+    ],
     "procesos": [
       {
         "idProceso": 17944250,

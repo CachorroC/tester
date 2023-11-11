@@ -14,7 +14,10 @@
     "primerNombre": "wilder",
     "segundoNombre": "de",
     "primerApellido": "jesus",
-    "segundoApellido": ["roman", "grisales"]
+    "segundoApellido": [
+      "roman",
+      "grisales"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +28,14 @@
     "capitalAdeudado": 7196668593,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "TOCANCIPA",
-    "obligacion": [175217, 5303718084430842],
+    "obligacion": [
+      175217,
+      5303718084430842
+    ],
     "radicado": "2017 - 00494",
-    "vencimientoPagare": ["2034-09-06T05:00:00.000Z"],
+    "vencimientoPagare": [
+      "2034-09-06T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

@@ -26,9 +26,13 @@
       "capitalAdeudado": 3630771654,
       "etapaProcesal": "NOTIFICACION",
       "municipio": "GIRARDOT",
-      "obligacion": [6841],
+      "obligacion": [
+        6841
+      ],
       "radicado": "2018 - 00066",
-      "vencimientoPagare": ["2026-02-05T05:00:00.000Z"],
+      "vencimientoPagare": [
+        "2026-02-05T05:00:00.000Z"
+      ],
       "departamento": "CUNDINAMARCA",
       "juzgados": []
     },

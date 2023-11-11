@@ -14,7 +14,13 @@
     "primerNombre": "angelica",
     "segundoNombre": "godoy",
     "primerApellido": "gutierrez",
-    "segundoApellido": ["y", "edison", "andres", "tuta", "forero"]
+    "segundoApellido": [
+      "y",
+      "edison",
+      "andres",
+      "tuta",
+      "forero"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +31,16 @@
     "capitalAdeudado": 51081164,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": ["22273 320177358", 2470088213],
+    "obligacion": [
+      "22273 320177358",
+      2470088213
+    ],
     "radicado": "2023 - 01056",
-    "vencimientoPagare": ["2034-12-09T05:00:00.000Z", null, null],
+    "vencimientoPagare": [
+      "2034-12-09T05:00:00.000Z",
+      null,
+      null
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +51,9 @@
     "telefono": "CELULAR 3116509661"
   },
   "cc": 52760611,
-  "idProcesos": [132789600],
+  "idProcesos": [
+    132789600
+  ],
   "procesos": [
     {
       "idProceso": 132789600,

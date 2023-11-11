@@ -26,14 +26,21 @@
       "capitalAdeudado": 20063065,
       "etapaProcesal": "1.100141037522017e+22",
       "municipio": "KENNEDY",
-      "obligacion": [12445450],
+      "obligacion": [
+        12445450
+      ],
       "radicado": "2017 - 01291",
-      "vencimientoPagare": ["2020-10-04T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2020-10-04T00:00:00.000Z"
+      ],
       "departamento": "CUNDINAMARCA",
       "juzgados": []
     },
     "cc": 86074992,
-    "idProcesos": [127797581, 127797591],
+    "idProcesos": [
+      127797581,
+      127797591
+    ],
     "procesos": []
   },
   "withProcesos": {

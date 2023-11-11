@@ -26,9 +26,13 @@
       "capitalAdeudado": 3610354525,
       "etapaProcesal": "ADMISION",
       "municipio": "BOGOTA",
-      "obligacion": [156888],
+      "obligacion": [
+        156888
+      ],
       "radicado": "2017 - 01218",
-      "vencimientoPagare": ["2042-10-09T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2042-10-09T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -39,7 +43,9 @@
       "telefono": 3144200
     },
     "cc": 80185084,
-    "idProcesos": [113385910],
+    "idProcesos": [
+      113385910
+    ],
     "procesos": [
       {
         "idProceso": 113385910,

@@ -26,9 +26,14 @@
       "capitalAdeudado": 12534383,
       "etapaProcesal": "1.100140030302017e+22",
       "municipio": "BOGOTA",
-      "obligacion": ["2620088246 / 3777813457586759", 4594250105313477],
+      "obligacion": [
+        "2620088246 / 3777813457586759",
+        4594250105313477
+      ],
       "radicado": "2017 - 01579",
-      "vencimientoPagare": ["2020-07-14T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2020-07-14T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -39,7 +44,9 @@
       "telefono": "F 2776196"
     },
     "cc": 1118532643,
-    "idProcesos": [50778160],
+    "idProcesos": [
+      50778160
+    ],
     "procesos": [
       {
         "idProceso": 50778160,

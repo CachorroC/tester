@@ -14,7 +14,10 @@
     "primerNombre": "sandra",
     "segundoNombre": "",
     "primerApellido": "liliana",
-    "segundoApellido": ["cruz", "beltran"]
+    "segundoApellido": [
+      "cruz",
+      "beltran"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,14 +28,21 @@
     "capitalAdeudado": 20353079,
     "etapaProcesal": "EJECUCIÓN",
     "municipio": "BOGOTA",
-    "obligacion": [2270085292, 3.77813194946666e29],
+    "obligacion": [
+      2270085292,
+      3.77813194946666e+29
+    ],
     "radicado": "2018 - 00850",
-    "vencimientoPagare": ["2022-02-02T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2022-02-02T00:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 52155023,
-  "idProcesos": [89137980],
+  "idProcesos": [
+    89137980
+  ],
   "procesos": [
     {
       "idProceso": 89137980,

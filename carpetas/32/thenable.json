@@ -14,7 +14,10 @@
     "primerNombre": "jonathan",
     "segundoNombre": "andres",
     "primerApellido": "",
-    "segundoApellido": ["bernal", "parra"]
+    "segundoApellido": [
+      "bernal",
+      "parra"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -30,7 +33,9 @@
       "5406915580101610 4513077620518209//20990166568"
     ],
     "radicado": "2018- 00384",
-    "vencimientoPagare": ["2028-08-01T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2028-08-01T00:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

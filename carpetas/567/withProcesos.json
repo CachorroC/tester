@@ -15,7 +15,10 @@
       "primerNombre": "wilson",
       "segundoNombre": "de",
       "primerApellido": "jesus",
-      "segundoApellido": ["molina", "quirama"]
+      "segundoApellido": [
+        "molina",
+        "quirama"
+      ]
     },
     "demanda": {
       "tipoProceso": "SINGULAR",
@@ -26,14 +29,20 @@
       "capitalAdeudado": 19188290,
       "etapaProcesal": null,
       "municipio": "BOGOTA",
-      "obligacion": [1000094307],
+      "obligacion": [
+        1000094307
+      ],
       "radicado": "2023 - 01284",
-      "vencimientoPagare": ["2027-08-02T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2027-08-02T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
     "cc": 94254761,
-    "idProcesos": [132262030],
+    "idProcesos": [
+      132262030
+    ],
     "procesos": [
       {
         "idProceso": 132262030,

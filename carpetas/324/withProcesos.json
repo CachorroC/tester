@@ -26,14 +26,21 @@
       "capitalAdeudado": 3573257450,
       "etapaProcesal": "LIQUIDACION",
       "municipio": "SOACHA",
-      "obligacion": [164578, 1380081489],
+      "obligacion": [
+        164578,
+        1380081489
+      ],
       "radicado": "2017 - 00849",
-      "vencimientoPagare": ["2020-11-21T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2020-11-21T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
     "cc": 80032088,
-    "idProcesos": [50548450],
+    "idProcesos": [
+      50548450
+    ],
     "procesos": [
       {
         "idProceso": 50548450,

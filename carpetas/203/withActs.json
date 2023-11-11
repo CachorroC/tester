@@ -25,14 +25,20 @@
     "capitalAdeudado": 6080404855,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [179104],
+    "obligacion": [
+      179104
+    ],
     "radicado": "2017 - 01060",
-    "vencimientoPagare": ["2024-11-28T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2024-11-28T00:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 80380775,
-  "idProcesos": [50684220],
+  "idProcesos": [
+    50684220
+  ],
   "procesos": [
     {
       "idProceso": 50684220,

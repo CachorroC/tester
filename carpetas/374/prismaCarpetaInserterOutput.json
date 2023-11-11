@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 128,
-    "numero": 374,
-    "llaveProceso": "11001400308620180006700",
-    "nombre": "jhoan antonio barajas montenegro",
-    "idProcesos": [81895161],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":128,"numero":374,"llaveProceso":"11001400308620180006700","nombre":"jhoan antonio barajas montenegro","idProcesos":[81895161],"category":"Terminados"}}

@@ -26,9 +26,13 @@
       "capitalAdeudado": 2700610092,
       "etapaProcesal": "NOTIFICACION",
       "municipio": "BOGOTA",
-      "obligacion": [121543],
+      "obligacion": [
+        121543
+      ],
       "radicado": "2018 - 00067",
-      "vencimientoPagare": ["2024-08-26T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2024-08-26T00:00:00.000Z"
+      ],
       "departamento": "CUNDINAMARCA",
       "juzgados": []
     },
@@ -39,7 +43,9 @@
       "telefono": 7326829
     },
     "cc": 80850549,
-    "idProcesos": [81895161],
+    "idProcesos": [
+      81895161
+    ],
     "procesos": []
   },
   "withProcesos": {

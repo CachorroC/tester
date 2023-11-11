@@ -26,14 +26,20 @@
       "capitalAdeudado": 14744174,
       "etapaProcesal": "1.100140030122018e+22",
       "municipio": "BOGOTA",
-      "obligacion": ["AUDIOPRESTAMO"],
+      "obligacion": [
+        "AUDIOPRESTAMO"
+      ],
       "radicado": "2018 - 00810",
-      "vencimientoPagare": ["2021-01-15T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2021-01-15T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
     "cc": 79342337,
-    "idProcesos": [51282150],
+    "idProcesos": [
+      51282150
+    ],
     "procesos": [
       {
         "idProceso": 51282150,

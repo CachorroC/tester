@@ -14,7 +14,10 @@
     "primerNombre": "john",
     "segundoNombre": "hader",
     "primerApellido": "otalvaro",
-    "segundoApellido": ["", "romo"]
+    "segundoApellido": [
+      "",
+      "romo"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +28,13 @@
     "capitalAdeudado": 2174016869,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "SOACHA",
-    "obligacion": [20990182990],
+    "obligacion": [
+      20990182990
+    ],
     "radicado": "2017 - 00903",
-    "vencimientoPagare": ["2023-04-20T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2023-04-20T00:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

@@ -26,14 +26,20 @@
       "capitalAdeudado": 16827889,
       "etapaProcesal": null,
       "municipio": "MADRID",
-      "obligacion": [3830095609],
+      "obligacion": [
+        3830095609
+      ],
       "radicado": "2023 - 01295",
-      "vencimientoPagare": ["2026-03-06T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2026-03-06T00:00:00.000Z"
+      ],
       "departamento": "CUNDINAMARCA",
       "juzgados": []
     },
     "cc": 7228260,
-    "idProcesos": [160042431],
+    "idProcesos": [
+      160042431
+    ],
     "procesos": []
   },
   "withProcesos": {

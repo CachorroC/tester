@@ -14,7 +14,10 @@
     "primerNombre": "william",
     "segundoNombre": "",
     "primerApellido": "yovany",
-    "segundoApellido": ["casallas", "romero"]
+    "segundoApellido": [
+      "casallas",
+      "romero"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +28,15 @@
     "capitalAdeudado": null,
     "etapaProcesal": "2.584341030012018e+22",
     "municipio": "UBATE",
-    "obligacion": [3380087493, "21.876.28100"],
+    "obligacion": [
+      3380087493,
+      "21.876.28100"
+    ],
     "radicado": "2018 - 00499",
-    "vencimientoPagare": [null, null],
+    "vencimientoPagare": [
+      null,
+      null
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

@@ -25,9 +25,13 @@
     "capitalAdeudado": 2646930975,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": [147600],
+    "obligacion": [
+      147600
+    ],
     "radicado": "2017 - 01236",
-    "vencimientoPagare": ["2027-01-05T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2027-01-05T00:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +42,9 @@
     "telefono": 10324223457
   },
   "cc": 1023863956,
-  "idProcesos": [50745490],
+  "idProcesos": [
+    50745490
+  ],
   "procesos": [
     {
       "idProceso": 50745490,

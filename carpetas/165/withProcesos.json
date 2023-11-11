@@ -26,14 +26,21 @@
       "capitalAdeudado": 44742148,
       "etapaProcesal": "EJECUCIÓN",
       "municipio": "BOGOTA",
-      "obligacion": [2310089458, "4513088545588847// AUDIO PRESTAMO"],
+      "obligacion": [
+        2310089458,
+        "4513088545588847// AUDIO PRESTAMO"
+      ],
       "radicado": "2017 - 00635",
-      "vencimientoPagare": ["2019-08-18T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2019-08-18T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
     "cc": 86057132,
-    "idProcesos": [51497380],
+    "idProcesos": [
+      51497380
+    ],
     "procesos": [
       {
         "idProceso": 51497380,

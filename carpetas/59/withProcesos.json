@@ -26,9 +26,13 @@
       "capitalAdeudado": 1284794200,
       "etapaProcesal": null,
       "municipio": "BOGOTA",
-      "obligacion": [490098936],
+      "obligacion": [
+        490098936
+      ],
       "radicado": "2017 - 01064",
-      "vencimientoPagare": ["2017-10-04T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2017-10-04T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -39,7 +43,9 @@
       "telefono": 3102876473
     },
     "cc": 52341348,
-    "idProcesos": [50738440],
+    "idProcesos": [
+      50738440
+    ],
     "procesos": [
       {
         "idProceso": 50738440,

@@ -26,9 +26,13 @@
       "capitalAdeudado": 11777235,
       "etapaProcesal": "NOTIFICACION",
       "municipio": "BOGOTA",
-      "obligacion": [2150091074],
+      "obligacion": [
+        2150091074
+      ],
       "radicado": "2017 - 00561",
-      "vencimientoPagare": ["2018-04-20T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2018-04-20T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -39,7 +43,9 @@
       "telefono": 2048159
     },
     "cc": 4198210,
-    "idProcesos": [10130493],
+    "idProcesos": [
+      10130493
+    ],
     "procesos": [
       {
         "idProceso": 10130493,

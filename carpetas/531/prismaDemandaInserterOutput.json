@@ -1,5 +1,1 @@
-{
-  "StatusCode": 203,
-  "Message": "\nInvalid `client.demanda.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:164:48\n\n  161   demanda, numero \n  162 );\n  163 \n→ 164 const createDemanda = await client.demanda.upsert(\nForeign key constraint failed on the field: `Demanda_carpetaNumero_fkey (index)`",
-  "data": { "field_name": "Demanda_carpetaNumero_fkey (index)" }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":875,"departamento":"BOGOTÁ","capitalAdeudado":"35608653","entregaGarantiasAbogado":"2020-10-07T00:00:00.000Z","tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"EJECUCION","fechaPresentacion":"2020-10-07T00:00:00.000Z","municipio":"BOGOTA","obligacion":["2020084294","2020087484 // 4594250317705437 //5303723260933890"],"radicado":"2020 - 00535","vencimientoPagare":[],"expediente":"11001400304220200053500","carpetaNumero":531}}

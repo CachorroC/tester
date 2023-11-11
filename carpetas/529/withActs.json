@@ -25,9 +25,15 @@
     "capitalAdeudado": 3542453922,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [20990171776, "AUDIOPRESTAMO"],
+    "obligacion": [
+      20990171776,
+      "AUDIOPRESTAMO"
+    ],
     "radicado": "2019 - 01103",
-    "vencimientoPagare": [null, null],
+    "vencimientoPagare": [
+      null,
+      null
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +44,9 @@
     "telefono": 8060779
   },
   "cc": 2976219,
-  "idProcesos": [66898433],
+  "idProcesos": [
+    66898433
+  ],
   "procesos": [
     {
       "idProceso": 66898433,

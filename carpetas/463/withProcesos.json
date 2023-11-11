@@ -31,12 +31,19 @@
         "VISA 4513083943843365 // MASTER 5303729958258417"
       ],
       "radicado": "2019 - 00656",
-      "vencimientoPagare": ["2021-04-02T05:00:00.000Z", null, null],
+      "vencimientoPagare": [
+        "2021-04-02T05:00:00.000Z",
+        null,
+        null
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
     "cc": 52883958,
-    "idProcesos": [51816100, 135801811],
+    "idProcesos": [
+      51816100,
+      135801811
+    ],
     "procesos": [
       {
         "idProceso": 51816100,

@@ -26,9 +26,14 @@
       "capitalAdeudado": 67068123,
       "etapaProcesal": "AUDIENCIA",
       "municipio": "CHIA",
-      "obligacion": [12645083, 12340733],
+      "obligacion": [
+        12645083,
+        12340733
+      ],
       "radicado": "2017 - 00269",
-      "vencimientoPagare": ["2017-04-27T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2017-04-27T00:00:00.000Z"
+      ],
       "departamento": "CUNDINAMARCA",
       "juzgados": []
     },

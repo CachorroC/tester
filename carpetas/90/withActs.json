@@ -25,9 +25,13 @@
     "capitalAdeudado": 26515333,
     "etapaProcesal": "EJECUCION",
     "municipio": "BOGOTA",
-    "obligacion": [12330030],
+    "obligacion": [
+      12330030
+    ],
     "radicado": "2017 - 00836",
-    "vencimientoPagare": ["2020-06-09T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2020-06-09T00:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -36,7 +40,10 @@
     "nombre": "jesica paola guzman ospina"
   },
   "cc": 1032432802,
-  "idProcesos": [50521480, 81728891],
+  "idProcesos": [
+    50521480,
+    81728891
+  ],
   "procesos": [
     {
       "idProceso": 50521480,

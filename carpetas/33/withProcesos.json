@@ -26,9 +26,14 @@
       "capitalAdeudado": null,
       "etapaProcesal": "NOTIFICACION",
       "municipio": "BOGOTA",
-      "obligacion": [377813824603022, 4513078713738027],
+      "obligacion": [
+        377813824603022,
+        4513078713738027
+      ],
       "radicado": "2017 - 00649",
-      "vencimientoPagare": ["2020-03-03T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2020-03-03T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -39,7 +44,9 @@
       "telefono": 3134775602
     },
     "cc": 28936365,
-    "idProcesos": [81869251],
+    "idProcesos": [
+      81869251
+    ],
     "procesos": [
       {
         "idProceso": 81869251,

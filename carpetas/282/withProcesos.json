@@ -26,9 +26,13 @@
       "capitalAdeudado": 66362959,
       "etapaProcesal": "EJECUCIÓN",
       "municipio": "BOGOTA",
-      "obligacion": [174366],
+      "obligacion": [
+        174366
+      ],
       "radicado": "2017 - 01394",
-      "vencimientoPagare": ["2024-05-05T05:00:00.000Z"],
+      "vencimientoPagare": [
+        "2024-05-05T05:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -39,7 +43,9 @@
       "telefono": "3204613419 //3107627120"
     },
     "cc": 19255260,
-    "idProcesos": [50777890],
+    "idProcesos": [
+      50777890
+    ],
     "procesos": [
       {
         "idProceso": 50777890,

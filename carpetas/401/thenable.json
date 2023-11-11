@@ -14,7 +14,10 @@
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "",
-    "segundoApellido": ["ojeda", "rodriguez"]
+    "segundoApellido": [
+      "ojeda",
+      "rodriguez"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +28,14 @@
     "capitalAdeudado": 2663399729,
     "etapaProcesal": "ADMISION",
     "municipio": "BOGOTA",
-    "obligacion": [142837],
+    "obligacion": [
+      142837
+    ],
     "radicado": "2018-0237",
-    "vencimientoPagare": [null, null],
+    "vencimientoPagare": [
+      null,
+      null
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

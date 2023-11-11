@@ -25,9 +25,13 @@
     "capitalAdeudado": 2397014605,
     "etapaProcesal": "ADMISION",
     "municipio": "BOGOTA",
-    "obligacion": [106172],
+    "obligacion": [
+      106172
+    ],
     "radicado": "2018 - 00140",
-    "vencimientoPagare": ["2023-10-03T05:00:00.000Z"],
+    "vencimientoPagare": [
+      "2023-10-03T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +42,9 @@
     "telefono": 4540096
   },
   "cc": 79861680,
-  "idProcesos": [11227303],
+  "idProcesos": [
+    11227303
+  ],
   "procesos": [
     {
       "idProceso": 11227303,

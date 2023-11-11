@@ -26,9 +26,14 @@
       "capitalAdeudado": null,
       "etapaProcesal": "43294",
       "municipio": "BOGOTA",
-      "obligacion": ["16.399.509.25"],
+      "obligacion": [
+        "16.399.509.25"
+      ],
       "radicado": "2019 - 00409",
-      "vencimientoPagare": [null, null],
+      "vencimientoPagare": [
+        null,
+        null
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -39,7 +44,9 @@
       "telefono": "DIAGONAL 31 No 24-63  SUR"
     },
     "cc": 79424825,
-    "idProcesos": [18852280],
+    "idProcesos": [
+      18852280
+    ],
     "procesos": [
       {
         "idProceso": 18852280,

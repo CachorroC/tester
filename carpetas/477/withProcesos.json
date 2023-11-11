@@ -15,7 +15,10 @@
       "primerNombre": "adolfo",
       "segundoNombre": "",
       "primerApellido": "leon",
-      "segundoApellido": ["daza", "fernandez"]
+      "segundoApellido": [
+        "daza",
+        "fernandez"
+      ]
     },
     "demanda": {
       "tipoProceso": "SINGULAR",
@@ -26,14 +29,20 @@
       "capitalAdeudado": 14534881,
       "etapaProcesal": "EJECUCIÓN",
       "municipio": "BOGOTA",
-      "obligacion": ["AUDIOPRESTAMO"],
+      "obligacion": [
+        "AUDIOPRESTAMO"
+      ],
       "radicado": "2018 - 00475",
-      "vencimientoPagare": ["2020-08-15T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2020-08-15T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
     "cc": 79568543,
-    "idProcesos": [51149410],
+    "idProcesos": [
+      51149410
+    ],
     "procesos": [
       {
         "idProceso": 51149410,

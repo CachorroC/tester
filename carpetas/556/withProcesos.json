@@ -26,7 +26,10 @@
       "capitalAdeudado": 149444779,
       "etapaProcesal": null,
       "municipio": "MADRID",
-      "obligacion": ["3830095699 // 3830095700", 3830095701],
+      "obligacion": [
+        "3830095699 // 3830095700",
+        3830095701
+      ],
       "radicado": "2023 - 01127",
       "vencimientoPagare": [
         "2026-09-03T05:00:00.000Z",
@@ -37,7 +40,9 @@
       "juzgados": []
     },
     "cc": 1022335014,
-    "idProcesos": [159336301],
+    "idProcesos": [
+      159336301
+    ],
     "procesos": []
   },
   "withProcesos": {

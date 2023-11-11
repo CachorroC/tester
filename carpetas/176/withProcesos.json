@@ -26,14 +26,22 @@
       "capitalAdeudado": 2021182893,
       "etapaProcesal": "NOTIFICACION",
       "municipio": "BOGOTA",
-      "obligacion": [113835, 377813623621787],
+      "obligacion": [
+        113835,
+        377813623621787
+      ],
       "radicado": "2017 - 00801",
-      "vencimientoPagare": ["2023-11-27T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2023-11-27T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
     "cc": 79787268,
-    "idProcesos": [112783650, 81628051],
+    "idProcesos": [
+      112783650,
+      81628051
+    ],
     "procesos": [
       {
         "idProceso": 112783650,

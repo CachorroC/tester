@@ -26,14 +26,20 @@
       "capitalAdeudado": 25845669,
       "etapaProcesal": "PENDIENTE SENTENCIA Y OFICIOS",
       "municipio": "BOGOTA",
-      "obligacion": [12389160],
+      "obligacion": [
+        12389160
+      ],
       "radicado": "2017 - 01113",
-      "vencimientoPagare": ["2020-09-12T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2020-09-12T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
     "cc": 36536419,
-    "idProcesos": [110568033],
+    "idProcesos": [
+      110568033
+    ],
     "procesos": [
       {
         "idProceso": 110568033,

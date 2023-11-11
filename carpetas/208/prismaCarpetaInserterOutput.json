@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 72,
-    "numero": 208,
-    "llaveProceso": "25754400300220170026500",
-    "nombre": "jeovany null rojas cruz",
-    "idProcesos": [86374941],
-    "category": "Reintegra"
-  }
-}
+{"StatusCode":202,"Message":"\nInvalid `client.carpeta.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:119:48\n\n  116 }\n  117 \n  118 \n→ 119 const createCarpeta = await client.carpeta.upsert(\nUnique constraint failed on the fields: (`idProceso`)","data":{"target":["idProceso"]}}

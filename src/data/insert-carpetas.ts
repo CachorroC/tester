@@ -65,14 +65,56 @@ export async function insertCarpetaInPrisma(
         ...newPrismaCarpeta,
         procesos: {
           createMany: {
-            data: procesos,
+            data: procesos.map(
+              (
+                proceso
+              ) => {
+                return {
+                  ...proceso,
+                  fechaProceso: proceso.fechaProceso
+                    ? new Date(
+                      proceso.fechaProceso
+                    )
+                    : null,
+                  fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                    ? new Date(
+                      proceso.fechaUltimaActuacion
+                    )
+                    : null
+                };
+              }
+            ),
           },
         },
         actuaciones: {
-          create: ultimaActuacion,
-        },
+          create: {
+            ...ultimaActuacion,
+            fechaActuacion: new Date(
+              ultimaActuacion.fechaActuacion
+            ),
+            fechaRegistro: new Date(
+              ultimaActuacion.fechaRegistro
+            ),
+            fechaInicial: ultimaActuacion.fechaInicial
+              ? new Date(
+                ultimaActuacion.fechaInicial
+              )
+              : null,
+            fechaFinal: ultimaActuacion.fechaFinal
+              ? new Date(
+                ultimaActuacion.fechaFinal
+              )
+              : null,
+            anotacion: ultimaActuacion.anotacion
+              ? ultimaActuacion.anotacion
+              : null
+          }
+        }
+
+
       };
     }
+
 
     const createCarpeta = await client.carpeta.upsert(
       {

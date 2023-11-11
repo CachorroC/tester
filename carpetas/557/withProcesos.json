@@ -31,12 +31,18 @@
         "PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757"
       ],
       "radicado": "2023 - 00782",
-      "vencimientoPagare": [null, null, "2026-04-03T05:00:00.000Z"],
+      "vencimientoPagare": [
+        null,
+        null,
+        "2026-04-03T05:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
     "cc": 71685758,
-    "idProcesos": [132372990],
+    "idProcesos": [
+      132372990
+    ],
     "procesos": [
       {
         "idProceso": 132372990,

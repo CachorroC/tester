@@ -26,9 +26,14 @@
       "capitalAdeudado": 51606071,
       "etapaProcesal": "EJECUCIÓN",
       "municipio": "BOGOTA",
-      "obligacion": [2330087192, 2330087423],
+      "obligacion": [
+        2330087192,
+        2330087423
+      ],
       "radicado": "2017 - 01477",
-      "vencimientoPagare": ["2020-02-02T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2020-02-02T00:00:00.000Z"
+      ],
       "departamento": "BOGOTÁ",
       "juzgados": []
     },
@@ -39,7 +44,9 @@
       "telefono": "CEL 3103018266"
     },
     "cc": 79512506,
-    "idProcesos": [50873000],
+    "idProcesos": [
+      50873000
+    ],
     "procesos": [
       {
         "idProceso": 50873000,

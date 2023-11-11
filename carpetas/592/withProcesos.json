@@ -15,7 +15,13 @@
       "primerNombre": "marcel",
       "segundoNombre": "leonardo",
       "primerApellido": "machado",
-      "segundoApellido": ["romero", "y", "viviana", "martinez", "arias"]
+      "segundoApellido": [
+        "romero",
+        "y",
+        "viviana",
+        "martinez",
+        "arias"
+      ]
     },
     "demanda": {
       "tipoProceso": "SINGULAR",
@@ -26,9 +32,13 @@
       "capitalAdeudado": 104393034,
       "etapaProcesal": null,
       "municipio": "MADRID",
-      "obligacion": [90000179396],
+      "obligacion": [
+        90000179396
+      ],
       "radicado": null,
-      "vencimientoPagare": ["2052-02-21T00:00:00.000Z"],
+      "vencimientoPagare": [
+        "2052-02-21T00:00:00.000Z"
+      ],
       "departamento": "CUNDINAMARCA",
       "juzgados": []
     },
