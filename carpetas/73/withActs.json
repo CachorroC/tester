@@ -17,12 +17,12 @@
     "segundoNombre": null
   },
   "demanda": {
-    "tipoProceso": "SINGULAR",
     "fechaPresentacion": null,
     "mandamientoPago": "2017-06-14T00:00:00.000Z",
     "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "expediente": "11001400300420170057500",
     "capitalAdeudado": 78297335,
+    "tipoProceso": "PRENDARIO",
     "etapaProcesal": "1.100140030042017e+22",
     "municipio": "BOGOTA",
     "obligacion": [
@@ -45,7 +45,7 @@
       "idConexion": 259,
       "llaveProceso": "11001400300420170057500",
       "fechaProceso": "2017-06-15T00:00:00",
-      "fechaUltimaActuacion": "2023-11-10T00:00:00",
+      "fechaUltimaActuacion": "2023-11-14T00:00:00",
       "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SONIA MAZUERA ",
@@ -53,19 +53,19 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-11-10T05:00:00.000Z",
+  "fecha": "2023-11-14T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1930140540,
+    "idRegActuacion": 1933140830,
     "llaveProceso": "11001400300420170057500",
-    "consActuacion": 122,
-    "fechaActuacion": "2023-11-10T00:00:00",
-    "actuacion": "Fijacion estado",
-    "anotacion": "Actuación registrada el 10/11/2023 a las 12:46:51.",
-    "fechaInicial": "2023-11-14T00:00:00",
-    "fechaFinal": "2023-11-14T00:00:00",
-    "fechaRegistro": "2023-11-10T00:00:00",
+    "consActuacion": 123,
+    "fechaActuacion": "2023-11-14T00:00:00",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "PROCESO HIBRIDO BAJA DEL DESPACHO //HAMES R Oficios",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-14T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 121
+    "cant": 122
   }
 }

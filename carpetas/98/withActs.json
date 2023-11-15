@@ -20,12 +20,12 @@
     ]
   },
   "demanda": {
-    "tipoProceso": "SINGULAR",
     "fechaPresentacion": "2017-06-29T00:00:00.000Z",
     "mandamientoPago": "2017-09-08T00:00:00.000Z",
     "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "expediente": "11001400301120170062300",
     "capitalAdeudado": 0,
+    "tipoProceso": "HIPOTECARIO",
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
     "obligacion": [
@@ -58,7 +58,7 @@
   ],
   "fecha": "2018-08-15T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 618595360,
+    "idRegActuacion": 1934131710,
     "llaveProceso": "11001400301120170062300",
     "consActuacion": 24,
     "fechaActuacion": "2018-08-15T00:00:00",

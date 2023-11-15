@@ -17,12 +17,12 @@
     "segundoApellido": "escobar"
   },
   "demanda": {
-    "tipoProceso": "SINGULAR",
     "fechaPresentacion": null,
     "mandamientoPago": "2018-02-26T00:00:00.000Z",
     "entregaGarantiasAbogado": "2017-11-10T00:00:00.000Z",
     "expediente": "11001400301120180011800",
     "capitalAdeudado": 1346476514,
+    "tipoProceso": "SINGULAR",
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
     "obligacion": [
@@ -56,7 +56,7 @@
   ],
   "fecha": "2022-10-25T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1474035210,
+    "idRegActuacion": 1931962060,
     "llaveProceso": "11001400301120180011800",
     "consActuacion": 66,
     "fechaActuacion": "2022-10-25T00:00:00",

@@ -1,18 +1,13 @@
-import { $Enums,
-  Carpeta,
+import { Carpeta,
   Category,
   Demanda,
   Deudor,
-  Prisma, } from '@prisma/client';
+  Prisma,
+  TipoProceso, } from '@prisma/client';
 import { IntCarpeta, IntDemanda, IntDeudor } from '../types/carpetas';
 import { Decimal } from '@prisma/client/runtime/library';
 
 export class PrismaCarpeta implements Carpeta {
-  numero: number;
-  llaveProceso: string | null;
-  nombre: string;
-  idProcesos: number[];
-  category: Category;
   constructor(
     {
       numero,
@@ -20,7 +15,7 @@ export class PrismaCarpeta implements Carpeta {
       llaveProceso,
       idProcesos,
       fecha,
-      category,
+      category
     }: IntCarpeta
   ) {
     this.numero = numero;
@@ -36,6 +31,11 @@ export class PrismaCarpeta implements Carpeta {
       ? idProcesos
       : [];
   }
+  numero: number;
+  llaveProceso: string | null;
+  nombre: string;
+  idProcesos: number[];
+  category: Category;
   fecha: Date | null;
   id!: number;
 }
@@ -65,12 +65,12 @@ export class PrismaDeudor implements Deudor {
     this.direccion = direccion;
     this.email = email;
     this.telCelular = tel.celular
-      ? BigInt(
+      ? String(
         tel.celular
       )
       : null;
     this.telFijo = tel.fijo
-      ? BigInt(
+      ? String(
         tel.fijo
       )
       : null;
@@ -79,8 +79,8 @@ export class PrismaDeudor implements Deudor {
       cedula
     );
   }
-  telCelular: bigint | null;
-  telFijo: bigint | null;
+  telCelular: string | null;
+  telFijo: string | null;
   id!: number;
   cedula: string;
   primerNombre: string;
@@ -97,7 +97,7 @@ export class PrismaDemanda implements Demanda {
   departamento: string | null;
   capitalAdeudado: Decimal | null;
   entregaGarantiasAbogado: Date | null;
-  tipoProceso: $Enums.TipoProceso;
+  tipoProceso: TipoProceso;
   mandamientoPago: Date | null;
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;
@@ -134,7 +134,9 @@ export class PrismaDemanda implements Demanda {
         )
         : null
       : null;
+
     this.tipoProceso = tipoProceso;
+
     this.fechaPresentacion = fechaPresentacion
       ? fechaPresentacion.toString() !== 'Invalid Date'
         ? new Date(

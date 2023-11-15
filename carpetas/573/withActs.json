@@ -17,12 +17,12 @@
     "segundoApellido": "almanza"
   },
   "demanda": {
-    "tipoProceso": "SINGULAR",
     "fechaPresentacion": null,
     "mandamientoPago": null,
     "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
     "expediente": "11001400305520230074600",
     "capitalAdeudado": 55099216,
+    "tipoProceso": "SINGULAR",
     "etapaProcesal": null,
     "municipio": "BOGOTA",
     "obligacion": [
@@ -47,7 +47,7 @@
       "idConexion": 263,
       "llaveProceso": "11001400305520230074600",
       "fechaProceso": "2023-08-09T00:00:00",
-      "fechaUltimaActuacion": "2023-09-11T00:00:00",
+      "fechaUltimaActuacion": "2023-11-10T00:00:00",
       "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JAIME ENRIQUE QUINTERO MENDOZA ",
@@ -55,19 +55,19 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-09-11T05:00:00.000Z",
+  "fecha": "2023-11-10T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1127170784,
+    "idRegActuacion": 1137554444,
     "llaveProceso": "11001400305520230074600",
-    "consActuacion": 8,
-    "fechaActuacion": "2023-09-11T00:00:00",
-    "actuacion": "Constancia secretarial",
-    "anotacion": "SE ENVIAN OFICIOS",
+    "consActuacion": 9,
+    "fechaActuacion": "2023-11-10T00:00:00",
+    "actuacion": "Al despacho",
+    "anotacion": null,
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-09-11T00:00:00",
+    "fechaRegistro": "2023-11-10T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 8
+    "cant": 9
   }
 }

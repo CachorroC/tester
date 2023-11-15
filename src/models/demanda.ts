@@ -2,6 +2,7 @@ import { Juzgado } from '@prisma/client';
 import { Despachos } from '../data/despachos';
 import { DemandaRaw, IntDemanda, TipoProceso } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
+import { tipoProcesoBuilder } from '../data/tipoProcesos';
 
 function vencimientoPagareFixer(
   rawVencimientoPagare?: string | number
@@ -222,6 +223,7 @@ export class ClassDemanda implements IntDemanda {
       etapaProcesal,
       departamento,
       fechaPresentacion,
+      tipoProceso,
       mandamientoPago,
       municipio,
       obligacion,
@@ -315,6 +317,10 @@ export class ClassDemanda implements IntDemanda {
         ? capitalAdeudado
         : 0,
     );
+
+    this.tipoProceso = tipoProcesoBuilder(
+      tipoProceso
+    );
     this.etapaProcesal = etapaProcesal
       ? `${ etapaProcesal }`
       : null;
@@ -350,7 +356,7 @@ export class ClassDemanda implements IntDemanda {
   capitalAdeudado: number | null;
   departamento: string | null;
   entregaGarantiasAbogado: Date | null;
-  tipoProceso: TipoProceso = 'SINGULAR';
+  tipoProceso: TipoProceso ;
   mandamientoPago: Date | null;
   etapaProcesal: string | null;
   fechaPresentacion: Date | null;

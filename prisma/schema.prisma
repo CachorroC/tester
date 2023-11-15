@@ -13,7 +13,7 @@ model Carpeta {
   llaveProceso    String?
   nombre          String
   idProcesos      Int[]
-  category        Category
+  category        Category   @default(SinEspecificar)
   fecha           DateTime?  @db.Date
   ultimaActuacion Actuacion?
   demanda         Demanda?
@@ -26,38 +26,42 @@ model Carpeta {
 
 model Deudor {
   id              Int     @id @default(autoincrement())
-  cedula          String
+  cedula          String?
   primerNombre    String
   primerApellido  String
   segundoNombre   String?
   segundoApellido String?
   direccion       String?
   email           String?
-  telCelular      BigInt?
-  telFijo         BigInt?
+  telCelular      String?
+  telFijo         String?
   carpetaNumero   Int     @unique
   carpeta         Carpeta @relation(fields: [carpetaNumero], references: [numero])
 }
 
 model Nota {
-  text          String
-  id            Int      @id @unique @default(autoincrement())
-  date          DateTime
+  id            Int      @id @default(autoincrement())
   createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  title         String
+  content       String?
+  date          DateTime
   pathname      String?
   carpetaNumero Int?
   carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [numero])
 }
 
 model Tarea {
-  id           Int        @id @unique @default(autoincrement())
-  creationDate DateTime   @default(now()) @db.Date
-  dueDate      DateTime?  @db.Date
-  carpetaId    Int?
-  text         String
-  isComplete   Boolean
-  subTareas    SubTarea[]
-  Carpeta      Carpeta?   @relation(fields: [carpetaId], references: [id])
+  id        Int        @id @default(autoincrement())
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  title     String
+  content   String?
+  dueDate   DateTime?  @db.Date
+  carpetaId Int?
+  complete  Boolean
+  subTareas SubTarea[]
+  Carpeta   Carpeta?   @relation(fields: [carpetaId], references: [numero])
 }
 
 model SubTarea {
@@ -98,6 +102,7 @@ model Demanda {
   etapaProcesal           String?
   fechaPresentacion       DateTime?   @db.Date
   municipio               String?
+  despacho                String?
   obligacion              String[]
   radicado                String?
   vencimientoPagare       DateTime[]  @db.Date
@@ -109,11 +114,11 @@ model Demanda {
 
 model Juzgado {
   id       Int
-  tipo     String    @id @unique
+  tipo     String    @id
   url      String
   carpetas Carpeta[] @relation("CarpetaToJuzgado")
   demanda  Demanda[] @relation("DemandaToJuzgado")
-  Proceso  Proceso[] @relation("JuzgadoToProceso")
+  Proceso  Proceso[]
 }
 
 model Proceso {
@@ -130,7 +135,7 @@ model Proceso {
   carpetaNumero        Int
   actuaciones          Actuacion[]
   Carpeta              Carpeta     @relation(fields: [carpetaNumero], references: [numero])
-  Juzgado              Juzgado[]   @relation("JuzgadoToProceso")
+  Juzgado              Juzgado     @relation(fields: [despacho], references: [tipo])
 }
 
 enum Category {

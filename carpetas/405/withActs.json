@@ -17,12 +17,12 @@
     "segundoApellido": null
   },
   "demanda": {
-    "tipoProceso": "SINGULAR",
     "fechaPresentacion": "2018-02-22T00:00:00.000Z",
     "mandamientoPago": null,
     "entregaGarantiasAbogado": null,
     "expediente": "11001400302120180023600",
     "capitalAdeudado": 22592583,
+    "tipoProceso": "HIPOTECARIO",
     "etapaProcesal": "EJECUCIÓN",
     "municipio": "BOGOTA",
     "obligacion": [
@@ -45,7 +45,7 @@
       "idConexion": 259,
       "llaveProceso": "11001400302120180023600",
       "fechaProceso": "2018-02-23T00:00:00",
-      "fechaUltimaActuacion": "2023-10-26T00:00:00",
+      "fechaUltimaActuacion": "2023-11-14T00:00:00",
       "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ARTURO LINCE GOMEZ ",
@@ -53,19 +53,19 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-10-26T05:00:00.000Z",
+  "fecha": "2023-11-14T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1918175080,
+    "idRegActuacion": 1933495480,
     "llaveProceso": "11001400302120180023600",
-    "consActuacion": 54,
-    "fechaActuacion": "2023-10-26T00:00:00",
-    "actuacion": "Recepción memorial",
-    "anotacion": "Radicado No. 11060-2023, No. Reloj Radicador: 14633, Entidad o Señor(a): CARMEN RAMIREZ - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Otro, Observaciones: SOLICITUD AL JUZGADO",
+    "consActuacion": 55,
+    "fechaActuacion": "2023-11-14T00:00:00",
+    "actuacion": "Al despacho",
+    "anotacion": "PROCESO INGRESA AL DESPACHO PARA LO PERTINENTE // ELIANA MALDONADO // P. DIGITAL //",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-10-26T00:00:00",
+    "fechaRegistro": "2023-11-14T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 54
+    "cant": 55
   }
 }

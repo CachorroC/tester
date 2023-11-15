@@ -5,7 +5,8 @@ import { categoryAssignment } from './src/models/categories';
 import { connectToDatabase } from './src/services/database.service';
 import { insertCarpetaInPrisma,
   insertDemandaInPrisma,
-  insertDeudorInPrisma, } from './src/data/insert-carpetas';
+  insertDeudorInPrisma,
+  insertJuzgadoInPrisma, } from './src/data/insert-carpetas';
 
 async function f() {
   const newCarpetasMap = new Map<number, CarpetaJudicial>();
@@ -59,7 +60,7 @@ async function f() {
     );
 
     await sleep(
-      100
+      50
     );
 
     await thener.consultaProcesos();
@@ -168,6 +169,23 @@ async function insertManyCarpetas() {
       `carpetas/${ numero }/prismaDemandaInserterOutput.json`,
       JSON.stringify(
         prismaDemandaInserter
+      ),
+    );
+
+    const prismaJuzgadoInserter = await insertJuzgadoInPrisma(
+      carpeta
+    );
+    console.log(
+      `${ numero }: JuzgadoInserter: ${ JSON.stringify(
+        prismaJuzgadoInserter,
+        null,
+        2,
+      ) }`,
+    );
+    fs.writeFile(
+      `carpetas/${ numero }/prismaJuzgadoInserterOutput.json`,
+      JSON.stringify(
+        prismaJuzgadoInserter
       ),
     );
 

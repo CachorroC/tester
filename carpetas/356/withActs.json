@@ -17,12 +17,12 @@
     "segundoApellido": "sanchez"
   },
   "demanda": {
-    "tipoProceso": "SINGULAR",
     "fechaPresentacion": null,
     "mandamientoPago": null,
     "entregaGarantiasAbogado": "2017-11-28T00:00:00.000Z",
     "expediente": "11001400302420170170800",
     "capitalAdeudado": 3057355551,
+    "tipoProceso": "HIPOTECARIO",
     "etapaProcesal": "1.100140030242017e+22",
     "municipio": "BOGOTA",
     "obligacion": [
@@ -51,7 +51,7 @@
       "idConexion": 259,
       "llaveProceso": "11001400302420170170800",
       "fechaProceso": "2017-12-12T00:00:00",
-      "fechaUltimaActuacion": "2023-10-20T00:00:00",
+      "fechaUltimaActuacion": "2023-11-07T00:00:00",
       "despacho": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SONIA XIMENA RODRIGUEZ SANCHEZ | Demandado: YEISER ALEXIS FLOREZ CORONADO ",
@@ -59,19 +59,19 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-10-20T05:00:00.000Z",
+  "fecha": "2023-11-07T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1912408340,
+    "idRegActuacion": 1934292270,
     "llaveProceso": "11001400302420170170800",
-    "consActuacion": 27,
-    "fechaActuacion": "2023-10-20T00:00:00",
-    "actuacion": "Fijacion estado",
-    "anotacion": "Actuación registrada el 20/10/2023 a las 14:36:32.",
-    "fechaInicial": "2023-10-23T00:00:00",
-    "fechaFinal": "2023-10-23T00:00:00",
-    "fechaRegistro": "2023-10-20T00:00:00",
+    "consActuacion": 28,
+    "fechaActuacion": "2023-11-07T00:00:00",
+    "actuacion": "Oficio Elaborado",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-07T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 27
+    "cant": 28
   }
 }

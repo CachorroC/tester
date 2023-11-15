@@ -1,1 +1,1 @@
-{"StatusCode":202,"Message":"\nInvalid `client.carpeta.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:116:48\n\n  113   };\n  114 }\n  115 \n→ 116 const createCarpeta = await client.carpeta.upsert(\nUnique constraint failed on the fields: (`idProceso`)","data":{"target":["idProceso"]}}
+{"StatusCode":200,"Message":"ok","data":{"id":45,"numero":44,"llaveProceso":"11001400301220170088200","nombre":"jose freddy vargas ruiz","idProcesos":[50631800],"category":"Terminados","fecha":"2023-09-19T00:00:00.000Z"}}

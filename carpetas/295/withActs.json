@@ -17,12 +17,12 @@
     "segundoApellido": "ibañez"
   },
   "demanda": {
-    "tipoProceso": "SINGULAR",
     "fechaPresentacion": "2017-09-21T00:00:00.000Z",
     "mandamientoPago": "2017-10-02T00:00:00.000Z",
     "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "expediente": "11001400305120170111300",
     "capitalAdeudado": 25845669,
+    "tipoProceso": "PRENDARIO",
     "etapaProcesal": "PENDIENTE SENTENCIA Y OFICIOS",
     "municipio": "BOGOTA",
     "obligacion": [
@@ -45,7 +45,7 @@
       "idConexion": 261,
       "llaveProceso": "11001400305120170111300",
       "fechaProceso": "2017-09-27T00:00:00",
-      "fechaUltimaActuacion": "2023-11-02T00:00:00",
+      "fechaUltimaActuacion": "2023-11-15T00:00:00",
       "despacho": "JUZGADO 051 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RITA CECILIA FERNANDEZ IBAÑEZ ",
@@ -53,19 +53,19 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-11-02T05:00:00.000Z",
+  "fecha": "2023-11-15T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1677260213,
+    "idRegActuacion": 1691069443,
     "llaveProceso": "11001400305120170111300",
-    "consActuacion": 81,
-    "fechaActuacion": "2023-11-02T00:00:00",
-    "actuacion": "Fijacion estado",
-    "anotacion": "Actuación registrada el 02/11/2023 a las 16:54:16.",
-    "fechaInicial": "2023-11-03T00:00:00",
-    "fechaFinal": "2023-11-03T00:00:00",
-    "fechaRegistro": "2023-11-02T00:00:00",
+    "consActuacion": 82,
+    "fechaActuacion": "2023-11-15T00:00:00",
+    "actuacion": "Oficio Elaborado",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-15T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 81
+    "cant": 82
   }
 }

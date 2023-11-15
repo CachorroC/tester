@@ -17,12 +17,12 @@
     "segundoApellido": "valencia"
   },
   "demanda": {
-    "tipoProceso": "SINGULAR",
     "fechaPresentacion": "2017-06-20T00:00:00.000Z",
     "mandamientoPago": "2017-10-23T00:00:00.000Z",
     "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "expediente": "11001310302520170073600",
     "capitalAdeudado": 211610991,
+    "tipoProceso": "PRENDARIO",
     "etapaProcesal": "EJECUCIÓN",
     "municipio": "BOGOTA",
     "obligacion": [
@@ -46,7 +46,7 @@
       "idConexion": 310,
       "llaveProceso": "11001310302520170073600",
       "fechaProceso": "2017-10-03T00:00:00",
-      "fechaUltimaActuacion": "2023-11-01T00:00:00",
+      "fechaUltimaActuacion": "2023-11-10T00:00:00",
       "despacho": "JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S. A. | Demandado: MIGUEL ANGEL HUERTAS VALENCIA ",
@@ -54,19 +54,19 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-11-01T05:00:00.000Z",
+  "fecha": "2023-11-10T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1136084684,
+    "idRegActuacion": 1137809124,
     "llaveProceso": "11001310302520170073600",
-    "consActuacion": 79,
-    "fechaActuacion": "2023-11-01T00:00:00",
-    "actuacion": "Movimiento expediente",
-    "anotacion": "PASA  ENTRADAS RAD 7976  ch",
+    "consActuacion": 80,
+    "fechaActuacion": "2023-11-10T00:00:00",
+    "actuacion": "Al despacho",
+    "anotacion": "INFORME PARQUEADERO//PONEN A DISPOSICIÓN VEHICULO//OA",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-11-01T00:00:00",
+    "fechaRegistro": "2023-11-10T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 78
+    "cant": 79
   }
 }

@@ -3,7 +3,7 @@ import { PrismaCarpeta,
   PrismaDeudor, } from '../models/prisma-carpeta';
 import { NewJuzgado } from '../models/thenable';
 import { IntCarpeta } from '../types/carpetas';
-import { Prisma, PrismaClient } from '@prisma/client';
+import { Juzgado, Prisma, PrismaClient } from '@prisma/client';
 
 const client = new PrismaClient();
 
@@ -26,12 +26,15 @@ export async function insertCarpetaInPrisma(
       newCarpeta = {
         ...newPrismaCarpeta,
         procesos: {
-          createMany: {
-            data: procesos.map(
-              (
-                proceso
-              ) => {
-                return {
+          connectOrCreate: procesos.map(
+            (
+              proceso
+            ) => {
+              const procesoReturn: Prisma.ProcesoCreateOrConnectWithoutCarpetaInput = {
+                where: {
+                  idProceso: proceso.idProceso
+                },
+                create: {
                   ...proceso,
                   fechaProceso: proceso.fechaProceso
                     ? new Date(
@@ -43,19 +46,29 @@ export async function insertCarpetaInPrisma(
                       proceso.fechaUltimaActuacion
                     )
                     : null,
-                };
-              }
-            ),
-          },
+                }
+              };
+              return procesoReturn;
+            }
+          ),
+
         },
         juzgados: {
-          create: procesos.map(
+          connectOrCreate: procesos.map(
             (
               proceso
             ) => {
-              return new NewJuzgado(
+              const rawJuzgado = new NewJuzgado(
                 proceso
               );
+
+              const juzgado: Prisma.JuzgadoCreateOrConnectWithoutCarpetasInput = {
+                where: {
+                  tipo: rawJuzgado.tipo
+                },
+                create: rawJuzgado
+              };
+              return juzgado;
             }
           ),
         },
@@ -64,12 +77,15 @@ export async function insertCarpetaInPrisma(
       newCarpeta = {
         ...newPrismaCarpeta,
         procesos: {
-          createMany: {
-            data: procesos.map(
-              (
-                proceso
-              ) => {
-                return {
+          connectOrCreate: procesos.map(
+            (
+              proceso
+            ) => {
+              const procesoReturn: Prisma.ProcesoCreateOrConnectWithoutCarpetaInput = {
+                where: {
+                  idProceso: proceso.idProceso
+                },
+                create: {
                   ...proceso,
                   fechaProceso: proceso.fechaProceso
                     ? new Date(
@@ -81,12 +97,33 @@ export async function insertCarpetaInPrisma(
                       proceso.fechaUltimaActuacion
                     )
                     : null,
-                };
-              }
-            ),
-          },
+                }
+              };
+              return procesoReturn;
+            }
+          ),
+
         },
-        actuaciones: {
+        juzgados: {
+          connectOrCreate: procesos.map(
+            (
+              proceso
+            ) => {
+              const rawJuzgado = new NewJuzgado(
+                proceso
+              );
+
+              const juzgado: Prisma.JuzgadoCreateOrConnectWithoutCarpetasInput =  {
+                where: {
+                  tipo: rawJuzgado.tipo
+                },
+                create: rawJuzgado
+              };
+              return juzgado;
+            }
+          ),
+        },
+        ultimaActuacion: {
           create: {
             ...ultimaActuacion,
             fechaActuacion: new Date(
@@ -113,15 +150,35 @@ export async function insertCarpetaInPrisma(
       };
     }
 
-    const createCarpeta = await client.carpeta.upsert(
-      {
-        where: {
-          numero: numero,
-        },
-        create: newCarpeta,
-        update: newPrismaCarpeta,
-      }
-    );
+    let createCarpeta;
+
+    try {
+      createCarpeta = await client.carpeta.upsert(
+        {
+          where: {
+            numero: numero,
+          },
+          create: newCarpeta,
+          update: newCarpeta,
+        }
+      );
+    } catch ( error ) {
+      console.error(
+        JSON.stringify(
+          error, null, 2
+        )
+      );
+      createCarpeta = await client.carpeta.upsert(
+        {
+          where: {
+            numero: numero
+          },
+          create: newPrismaCarpeta,
+          update: newPrismaCarpeta
+        }
+      );
+    }
+
     return {
       StatusCode: 200,
       Message   : 'ok',
@@ -315,7 +372,7 @@ export async function insertDeudorInPrisma(
             return {
               StatusCode: 202,
               Message   : e.message,
-              data      : e.meta,
+              data      : e.meta ?? e.message,
             };
           }
 
@@ -329,6 +386,111 @@ export async function insertDeudorInPrisma(
             );
             return {
               StatusCode: 203,
+              Message   : e.message,
+              data      : e.meta ?? e.message,
+            };
+          }
+
+          default: {
+            console.log(
+              `${ numero } ==> code: ${ e.code } message: ${
+                e.message
+              } meta: ${ JSON.stringify(
+                e.meta, null, 2
+              ) }`,
+            );
+            return {
+              StatusCode: 300,
+              Message   : e.message,
+              data      : e.meta ?? e.message,
+            };
+          }
+      }
+    }
+
+    return {
+      StatusCode: 400,
+      Message   : `error at ${ e }`,
+      data      : JSON.stringify(
+        e, null, 2
+      ),
+    };
+  }
+}
+
+
+export async function insertJuzgadoInPrisma (
+  carpeta: IntCarpeta
+) {
+  const {
+    numero
+  } = carpeta;
+
+  const outputJuzgados = new Set<Juzgado>();
+
+  try {
+    if ( !carpeta.procesos || carpeta.procesos.length === 0 ) {
+      throw new Error(
+        'no hay procesos en la carpeta por lo tanto no se pueden crear juzgados, error.'
+      );
+    }
+
+    for ( const proceso of carpeta.procesos ) {
+      const juzgado = new NewJuzgado(
+        proceso
+      );
+
+      const insetJuzgado = await client.juzgado.upsert(
+        {
+          where: {
+            tipo: juzgado.tipo
+          },
+          create: juzgado,
+          update: juzgado
+        }
+      );
+      outputJuzgados.add(
+        insetJuzgado
+      );
+      continue;
+    }
+
+    return {
+      StatusCode: 200,
+      Message   : 'ok',
+      data      : Array.from(
+        outputJuzgados
+      )
+    };
+  } catch ( e ) {
+
+    if ( e instanceof Prisma.PrismaClientKnownRequestError ) {
+      switch ( e.code ) {
+          case 'P2002': {
+            console.log(
+              `${ numero } ==> Unique constraint failed on the ${
+                e.message
+              } ${ JSON.stringify(
+                e.meta, null, 2
+              ) }`,
+            );
+            return {
+              StatusCode: 302,
+              Message   : e.message,
+              data      : e.meta,
+            };
+          }
+
+          case 'P2003': {
+            console.log(
+              `${ numero } ==> Foreign key constraint failed on the field ${ JSON.stringify(
+                e.meta,
+                null,
+                2,
+              ) }`,
+            );
+            return {
+              StatusCode: 302,
               Message   : e.message,
               data      : e.meta,
             };

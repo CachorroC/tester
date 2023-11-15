@@ -17,12 +17,12 @@
     "segundoApellido": "farfan"
   },
   "demanda": {
-    "tipoProceso": "SINGULAR",
     "fechaPresentacion": "2017-06-20T00:00:00.000Z",
     "mandamientoPago": "2017-07-10T00:00:00.000Z",
     "entregaGarantiasAbogado": "1899-12-30T00:00:00.000Z",
     "expediente": "11001400303420170083600",
     "capitalAdeudado": 26515333,
+    "tipoProceso": "PRENDARIO",
     "etapaProcesal": "EJECUCION",
     "municipio": "BOGOTA",
     "obligacion": [
@@ -50,7 +50,7 @@
       "idConexion": 259,
       "llaveProceso": "11001400303420170083600",
       "fechaProceso": "2017-06-21T00:00:00",
-      "fechaUltimaActuacion": "2023-11-09T00:00:00",
+      "fechaUltimaActuacion": "2023-11-14T00:00:00",
       "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS ESNEIDER ORDUZ FARFAN ",
@@ -70,19 +70,19 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-11-09T05:00:00.000Z",
+  "fecha": "2023-11-14T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1928573120,
+    "idRegActuacion": 1933396910,
     "llaveProceso": "11001400303420170083600",
-    "consActuacion": 101,
-    "fechaActuacion": "2023-11-09T00:00:00",
-    "actuacion": "Constancia secretarial",
-    "anotacion": "PROCESO PASA A OFICIOS. ISABEL BOTERO",
+    "consActuacion": 104,
+    "fechaActuacion": "2023-11-14T00:00:00",
+    "actuacion": "Entrega de oficios",
+    "anotacion": "Se remite TELEGRAMA No TOECM-1123JCS-197 ordenados por auto del 25 de octubre de 2023. ubicacion remates. Jairo Fuentes B.",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-11-09T00:00:00",
+    "fechaRegistro": "2023-11-14T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 101
+    "cant": 104
   }
 }
