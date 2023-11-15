@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 443,
-    "numero": 443,
-    "llaveProceso": "11001400301020180078400",
-    "nombre": "diego fernando benitez alvarado",
-    "idProcesos": [51264250],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":443,"numero":443,"llaveProceso":"11001400301020180078400","nombre":"diego fernando benitez alvarado","fecha":"2020-02-27T00:00:00.000Z","idProcesos":[51264250],"category":"Terminados"}}

@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 110,
-    "numero": 110,
-    "llaveProceso": "11001400304520170077400",
-    "nombre": "marlene roncancio benitez null",
-    "idProcesos": [50518680],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":110,"numero":110,"llaveProceso":"11001400304520170077400","nombre":"marlene roncancio benitez null","fecha":"2022-11-10T00:00:00.000Z","idProcesos":[50518680],"category":"Terminados"}}

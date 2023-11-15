@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 44,
-    "cedula": "79558732",
-    "primerNombre": "miguel",
-    "primerApellido": "huertas",
-    "segundoNombre": "angel",
-    "segundoApellido": "valencia",
-    "direccion": "tranversal 15a # 31-09 sur",
-    "email": "miguelangelhuertasv@hotmail.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 108
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":108,"cedula":"79558732","primerNombre":"miguel","primerApellido":"huertas","segundoNombre":"angel","segundoApellido":"valencia","direccion":"tranversal 15a # 31-09 sur","email":"miguelangelhuertasv@hotmail.com","telCelular":null,"telFijo":null,"carpetaNumero":108}}

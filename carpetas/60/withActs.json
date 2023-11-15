@@ -25,9 +25,13 @@
     "capitalAdeudado": 43,
     "etapaProcesal": "SENTENCIA",
     "municipio": "BOGOTA",
-    "obligacion": [35987412],
+    "obligacion": [
+      35987412
+    ],
     "radicado": "2017 - 00901",
-    "vencimientoPagare": [null, null],
+    "vencimientoPagare": [
+      "1243-01-01T04:56:16.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -35,7 +39,9 @@
     "direccion": 43150
   },
   "cc": 1032373332,
-  "idProcesos": [50584210],
+  "idProcesos": [
+    50584210
+  ],
   "procesos": [
     {
       "idProceso": 50584210,

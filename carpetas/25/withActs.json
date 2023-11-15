@@ -25,14 +25,20 @@
     "capitalAdeudado": 107818114,
     "etapaProcesal": "EJECUCIÓN",
     "municipio": "BOGOTA",
-    "obligacion": [12705806],
+    "obligacion": [
+      12705806
+    ],
     "radicado": "2017 - 00335",
-    "vencimientoPagare": ["2020-05-10T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2020-05-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 3197274,
-  "idProcesos": [80553011, 1805257424],
+  "idProcesos": [
+    1805257424
+  ],
   "procesos": [
     {
       "idProceso": 1805257424,
@@ -46,5 +52,20 @@
       "esPrivado": false,
       "cantFilas": -1
     }
-  ]
+  ],
+  "fecha": "2023-03-10T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1096493124,
+    "llaveProceso": "11001310301120170033500",
+    "consActuacion": 110,
+    "fechaActuacion": "2023-03-10T00:00:00",
+    "actuacion": "Movimiento expediente",
+    "anotacion": "Se anexa respuesta Policía Nacional y se pasa a la letra .- aa",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-03-10T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 110
+  }
 }

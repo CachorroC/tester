@@ -14,7 +14,10 @@
     "primerNombre": "zoila",
     "segundoNombre": "irene",
     "primerApellido": "suavita",
-    "segundoApellido": ["de", "trilleras"]
+    "segundoApellido": [
+      "de",
+      "trilleras"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +28,15 @@
     "capitalAdeudado": 51302541,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": [6670083892, 12074022],
+    "obligacion": [
+      6670083892,
+      12074022
+    ],
     "radicado": "2017 - 00735",
-    "vencimientoPagare": [null, null, null],
+    "vencimientoPagare": [
+      "2021-05-01T05:00:00.000Z",
+      "2017-07-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

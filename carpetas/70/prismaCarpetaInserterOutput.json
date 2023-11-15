@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 70,
-    "numero": 70,
-    "llaveProceso": "11001400308520170108400",
-    "nombre": "cesar augusto arias null",
-    "idProcesos": [65640840],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":70,"numero":70,"llaveProceso":"11001400308520170108400","nombre":"cesar augusto arias null","fecha":"2023-06-28T00:00:00.000Z","idProcesos":[65640840],"category":"Terminados"}}

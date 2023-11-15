@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 119,
-    "numero": 119,
-    "llaveProceso": "11001400301420170098800",
-    "nombre": "cesar augusto gil gallego",
-    "idProcesos": [50633790],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":119,"numero":119,"llaveProceso":"11001400301420170098800","nombre":"cesar augusto gil gallego","fecha":"2019-01-14T00:00:00.000Z","idProcesos":[50633790],"category":"Terminados"}}

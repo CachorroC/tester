@@ -25,9 +25,15 @@
     "capitalAdeudado": 2936662540,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [5670083032, "377813199287708 // 4513075700372455 // 123470"],
+    "obligacion": [
+      5670083032,
+      "377813199287708 // 4513075700372455 // 123470"
+    ],
     "radicado": "2017 - 00841",
-    "vencimientoPagare": [null, null, null],
+    "vencimientoPagare": [
+      "2018-02-01T05:00:00.000Z",
+      "2024-10-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +44,9 @@
     "telefono": 3143903
   },
   "cc": 79840930,
-  "idProcesos": [50688820],
+  "idProcesos": [
+    50688820
+  ],
   "procesos": [
     {
       "idProceso": 50688820,

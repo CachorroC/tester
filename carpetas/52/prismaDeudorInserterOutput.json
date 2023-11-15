@@ -1,5 +1,1 @@
-{
-  "StatusCode": 400,
-  "Message": "error at PrismaClientUnknownRequestError: \nInvalid `client.deudor.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:290:46\n\n  287   deudor, numero\n  288 );\n  289 \n→ 290 const createDeudor = await client.deudor.upsert(\nError occurred during query execution:\nConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(7), cause: Some(Error { kind: ConversionError(\"Unable to fit integer value '3114720151' into an INT4 (32-bit signed integer).\"), original_code: None, original_message: None }) }), transient: false })",
-  "data": "{\n  \"name\": \"PrismaClientUnknownRequestError\",\n  \"clientVersion\": \"5.5.2\"\n}"
-}
+{"StatusCode":200,"Message":"ok","data":{"id":52,"cedula":"35412591","primerNombre":"martha","primerApellido":"gomez","segundoNombre":"stella","segundoApellido":"bolivar","direccion":"carrera 7 no. 25-51 bq/ to 9 apto 104 parque residencial villazo zipaquira","email":null,"telCelular":"3114720151n","telFijo":null,"carpetaNumero":52}}

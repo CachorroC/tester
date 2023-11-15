@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 511,
-    "numero": 511,
-    "llaveProceso": "25754400300220180041600",
-    "nombre": "diana marjorie romero montoya",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":511,"numero":511,"llaveProceso":"25754400300220180041600","nombre":"diana marjorie romero montoya","fecha":null,"idProcesos":[],"category":"Terminados"}}

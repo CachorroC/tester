@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 530,
-    "numero": 531,
-    "llaveProceso": "11001400304220200053500",
-    "nombre": "sandra leonor paez murcia",
-    "idProcesos": [128164881],
-    "category": "Bancolombia"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":530,"numero":531,"llaveProceso":"11001400304220200053500","nombre":"sandra leonor paez murcia","fecha":"2023-03-13T00:00:00.000Z","idProcesos":[128164881],"category":"Bancolombia"}}

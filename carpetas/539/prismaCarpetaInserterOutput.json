@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 538,
-    "numero": 539,
-    "llaveProceso": "11001400303620180081800",
-    "nombre": "adriana lucia mora plata",
-    "idProcesos": [51306830],
-    "category": "Reintegra"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":538,"numero":539,"llaveProceso":"11001400303620180081800","nombre":"adriana lucia mora plata","fecha":"2023-10-04T00:00:00.000Z","idProcesos":[51306830],"category":"Reintegra"}}

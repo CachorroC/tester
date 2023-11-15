@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 200,
-    "numero": 200,
-    "llaveProceso": "11001400301220170101200",
-    "nombre": "alexander rojas castañeda null",
-    "idProcesos": [50681670],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":200,"numero":200,"llaveProceso":"11001400301220170101200","nombre":"alexander rojas castañeda null","fecha":"2022-03-02T00:00:00.000Z","idProcesos":[50681670],"category":"Terminados"}}

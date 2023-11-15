@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 413,
-    "numero": 413,
-    "llaveProceso": "25754418900220180036300",
-    "nombre": "luisa fernanda salazar ,patarroyo",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":413,"numero":413,"llaveProceso":"25754418900220180036300","nombre":"luisa fernanda salazar ,patarroyo","fecha":null,"idProcesos":[],"category":"Terminados"}}

@@ -30,12 +30,17 @@
       "PAGARÉ SIN NÚMERO REF 100221151 TARJETA DE CRÉDITO MASTER CARD No. 5303730462170320"
     ],
     "radicado": "2023 - 01627",
-    "vencimientoPagare": [null, null, null],
+    "vencimientoPagare": [
+      "2028-02-01T05:00:00.000Z",
+      "2026-06-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 1033739670,
-  "idProcesos": [132161470],
+  "idProcesos": [
+    132161470
+  ],
   "procesos": [
     {
       "idProceso": 132161470,

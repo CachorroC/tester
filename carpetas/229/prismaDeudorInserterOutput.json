@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 95,
-    "cedula": "52818428",
-    "primerNombre": "jennifer",
-    "primerApellido": "mogollón",
-    "segundoNombre": "alejandra",
-    "segundoApellido": "bernal",
-    "direccion": "calle 24d # 72a - 81  casa 9",
-    "email": "alejandramogollonbernal@gmail.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 229
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":229,"cedula":"52818428","primerNombre":"jennifer","primerApellido":"mogollón","segundoNombre":"alejandra","segundoApellido":"bernal","direccion":"calle 24d # 72a - 81  casa 9","email":"alejandramogollonbernal@gmail.com","telCelular":null,"telFijo":null,"carpetaNumero":229}}

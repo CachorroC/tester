@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 185,
-    "cedula": "79712791",
-    "primerNombre": "edgar",
-    "primerApellido": "mateus",
-    "segundoNombre": "jobanny",
-    "segundoApellido": "castillo",
-    "direccion": "calle 3 c no  13 - 07   zipaquira",
-    "email": "giovannymat@yahoo.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 392
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":392,"cedula":"79712791","primerNombre":"edgar","primerApellido":"mateus","segundoNombre":"jobanny","segundoApellido":"castillo","direccion":"calle 3 c no  13 - 07   zipaquira","email":"giovannymat@yahoo.com","telCelular":null,"telFijo":null,"carpetaNumero":392}}

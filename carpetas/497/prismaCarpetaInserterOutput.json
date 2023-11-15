@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 497,
-    "numero": 497,
-    "llaveProceso": "25899410300120180043500",
-    "nombre": "roque antonio sanchez null",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":497,"numero":497,"llaveProceso":"25899410300120180043500","nombre":"roque antonio sanchez null","fecha":null,"idProcesos":[],"category":"Terminados"}}

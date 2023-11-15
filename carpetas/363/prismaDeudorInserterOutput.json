@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 166,
-    "cedula": "52645617",
-    "primerNombre": "maria",
-    "primerApellido": "castañeda",
-    "segundoNombre": "liliana",
-    "segundoApellido": "zapata",
-    "direccion": null,
-    "email": "CARRERA 4 A ESTE No 38 - 56 CASA 127 SOACHA",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 363
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":363,"cedula":"52645617","primerNombre":"maria","primerApellido":"castañeda","segundoNombre":"liliana","segundoApellido":"zapata","direccion":null,"email":"CARRERA 4 A ESTE No 38 - 56 CASA 127 SOACHA","telCelular":null,"telFijo":null,"carpetaNumero":363}}

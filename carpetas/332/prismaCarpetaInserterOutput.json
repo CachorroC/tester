@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 332,
-    "numero": 332,
-    "llaveProceso": "25754400100420180009800",
-    "nombre": "miguel antonio sanchez marroquin",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":332,"numero":332,"llaveProceso":"25754400100420180009800","nombre":"miguel antonio sanchez marroquin","fecha":null,"idProcesos":[],"category":"Terminados"}}

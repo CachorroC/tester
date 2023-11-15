@@ -25,14 +25,21 @@
     "capitalAdeudado": 22309546,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": ["1800088260//377813230167802", 4513070115042991],
+    "obligacion": [
+      "1800088260//377813230167802",
+      4513070115042991
+    ],
     "radicado": "2018 - 00614",
-    "vencimientoPagare": ["2019-06-01T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2019-06-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 52444244,
-  "idProcesos": [51259250],
+  "idProcesos": [
+    51259250
+  ],
   "procesos": [
     {
       "idProceso": 51259250,

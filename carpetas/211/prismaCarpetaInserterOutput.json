@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 211,
-    "numero": 211,
-    "llaveProceso": "25473400300120180010500",
-    "nombre": "saul barbosa ramirez null",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":211,"numero":211,"llaveProceso":"25473400300120180010500","nombre":"saul barbosa ramirez null","fecha":null,"idProcesos":[],"category":"Terminados"}}

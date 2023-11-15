@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 45,
-    "numero": 45,
-    "llaveProceso": "11001400301920170052800",
-    "nombre": "edison palma cardenal null",
-    "idProcesos": [74646350],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":45,"numero":45,"llaveProceso":"11001400301920170052800","nombre":"edison palma cardenal null","fecha":"2020-02-03T00:00:00.000Z","idProcesos":[74646350],"category":"Terminados"}}

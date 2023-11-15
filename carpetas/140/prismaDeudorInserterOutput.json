@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 54,
-    "cedula": "80933170",
-    "primerNombre": "jhon",
-    "primerApellido": "forigua",
-    "segundoNombre": "faber",
-    "segundoApellido": "garcia",
-    "direccion": "carrera 8 # 13 - 34 sur bloque 6 apto 101",
-    "email": "Jfcomercializadorajb@hotmail.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 140
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":140,"cedula":"80933170","primerNombre":"jhon","primerApellido":"forigua","segundoNombre":"faber","segundoApellido":"garcia","direccion":"carrera 8 # 13 - 34 sur bloque 6 apto 101","email":"Jfcomercializadorajb@hotmail.com","telCelular":null,"telFijo":null,"carpetaNumero":140}}

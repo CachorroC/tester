@@ -25,9 +25,13 @@
     "capitalAdeudado": 21613985,
     "etapaProcesal": "EJECUCIÓN",
     "municipio": "BOGOTA",
-    "obligacion": [300093705],
+    "obligacion": [
+      300093705
+    ],
     "radicado": "2017 - 01520",
-    "vencimientoPagare": ["2020-11-27T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2020-11-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +42,9 @@
     "telefono": 3155275805
   },
   "cc": 74338870,
-  "idProcesos": [97088411, 109959053],
+  "idProcesos": [
+    109959053
+  ],
   "procesos": [
     {
       "idProceso": 109959053,
@@ -52,5 +58,20 @@
       "esPrivado": false,
       "cantFilas": -1
     }
-  ]
+  ],
+  "fecha": "2022-09-02T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1217234763,
+    "llaveProceso": "11001400304720170152000",
+    "consActuacion": 94,
+    "fechaActuacion": "2022-09-02T00:00:00",
+    "actuacion": "Envío Expediente",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2022-09-02T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 94
+  }
 }

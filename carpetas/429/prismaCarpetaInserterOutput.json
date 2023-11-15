@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 429,
-    "numero": 429,
-    "llaveProceso": "11001400306520180061200",
-    "nombre": "arcangel hernandez rodriguez null",
-    "idProcesos": [18175150],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":429,"numero":429,"llaveProceso":"11001400306520180061200","nombre":"arcangel hernandez rodriguez null","fecha":"2019-04-30T00:00:00.000Z","idProcesos":[18175150],"category":"Terminados"}}

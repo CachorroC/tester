@@ -25,9 +25,15 @@
     "capitalAdeudado": 6043388409,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [12541785, 186378],
+    "obligacion": [
+      12541785,
+      186378
+    ],
     "radicado": "2017 - 01106",
-    "vencimientoPagare": ["2017-05-09T05:00:00.000Z", null, null],
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z",
+      "2030-08-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 444,
-    "numero": 444,
-    "llaveProceso": "11001400304020180089600",
-    "nombre": "pablo cesar soacha morales",
-    "idProcesos": [19161681],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":444,"numero":444,"llaveProceso":"11001400304020180089600","nombre":"pablo cesar soacha morales","fecha":"2020-02-07T00:00:00.000Z","idProcesos":[19161681],"category":"Terminados"}}

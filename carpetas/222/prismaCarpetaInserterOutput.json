@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 222,
-    "numero": 222,
-    "llaveProceso": "11001400302820170085800",
-    "nombre": "dufresny augusto pinilla null",
-    "idProcesos": [50688520],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":222,"numero":222,"llaveProceso":"11001400302820170085800","nombre":"dufresny augusto pinilla null","fecha":"2017-12-07T00:00:00.000Z","idProcesos":[50688520],"category":"Terminados"}}

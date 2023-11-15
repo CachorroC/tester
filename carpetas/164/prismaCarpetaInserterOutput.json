@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 164,
-    "numero": 164,
-    "llaveProceso": "11001400304520170090500",
-    "nombre": "uriel ruiz diaz null",
-    "idProcesos": [50593640],
-    "category": "Reintegra"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":164,"numero":164,"llaveProceso":"11001400304520170090500","nombre":"uriel ruiz diaz null","fecha":"2022-02-25T00:00:00.000Z","idProcesos":[50593640],"category":"Reintegra"}}

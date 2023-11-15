@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 228,
-    "numero": 228,
-    "llaveProceso": "11001400301820170151700",
-    "nombre": "fabian alexander gil gil",
-    "idProcesos": [50710250],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":228,"numero":228,"llaveProceso":"11001400301820170151700","nombre":"fabian alexander gil gil","fecha":"2023-01-27T00:00:00.000Z","idProcesos":[50710250],"category":"Terminados"}}

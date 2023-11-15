@@ -1,5 +1,1 @@
-{
-  "StatusCode": 400,
-  "Message": "error at PrismaClientUnknownRequestError: \nInvalid `client.deudor.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:290:46\n\n  287   deudor, numero\n  288 );\n  289 \n→ 290 const createDeudor = await client.deudor.upsert(\nError occurred during query execution:\nConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(7), cause: Some(Error { kind: ConversionError(\"Unable to fit integer value '3114473402' into an INT4 (32-bit signed integer).\"), original_code: None, original_message: None }) }), transient: false })",
-  "data": "{\n  \"name\": \"PrismaClientUnknownRequestError\",\n  \"clientVersion\": \"5.5.2\"\n}"
-}
+{"StatusCode":200,"Message":"ok","data":{"id":454,"cedula":"80089235","primerNombre":"nicolas","primerApellido":"cocoma","segundoNombre":"ernesto","segundoApellido":"arciniegas","direccion":"calle 151 no 14a-32 apto 10","email":"cocomarnico@gmail.com","telCelular":"3114473402n","telFijo":"2863225n","carpetaNumero":454}}

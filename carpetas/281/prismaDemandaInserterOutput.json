@@ -1,5 +1,1 @@
-{
-  "StatusCode": 400,
-  "Message": "error at PrismaClientUnknownRequestError: \nInvalid `client.demanda.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:202:48\n\n  199   demanda, numero\n  200 );\n  201 \n→ 202 const createDemanda = await client.demanda.upsert(\nCould not convert argument value Object {\"$type\": String(\"DateTime\"), \"value\": String(\"+021258-01-01T05:00:00.000Z\")} to ArgumentValue.",
-  "data": "{\n  \"name\": \"PrismaClientUnknownRequestError\",\n  \"clientVersion\": \"5.5.2\"\n}"
-}
+{"StatusCode":200,"Message":"ok","data":{"id":281,"departamento":"CUNDINAMARCA","capitalAdeudado":"1000","entregaGarantiasAbogado":null,"tipoProceso":"SINGULAR","mandamientoPago":null,"etapaProcesal":"10-10-2017 // 13-03-2018","fechaPresentacion":null,"municipio":"ARBELAEZ","obligacion":["112.243.598.43"],"radicado":"2018 - 00049","vencimientoPagare":["2125-01-01T00:00:00.000Z"],"expediente":"25053408900120180004900","carpetaNumero":281}}

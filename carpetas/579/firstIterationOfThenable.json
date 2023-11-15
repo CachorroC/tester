@@ -25,9 +25,15 @@
     "capitalAdeudado": 20488522,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [9440087467, "40733834 X T.C. VISA 4513080401547652"],
+    "obligacion": [
+      9440087467,
+      "40733834 X T.C. VISA 4513080401547652"
+    ],
     "radicado": null,
-    "vencimientoPagare": [null, null, "2026-07-03T05:00:00.000Z"],
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z",
+      "2026-03-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 465,
-    "numero": 465,
-    "llaveProceso": "11001400307720180085400",
-    "nombre": "giovanny duran antonio null",
-    "idProcesos": [51342910],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":465,"numero":465,"llaveProceso":"11001400307720180085400","nombre":"giovanny duran antonio null","fecha":"2018-09-18T00:00:00.000Z","idProcesos":[51342910],"category":"Terminados"}}

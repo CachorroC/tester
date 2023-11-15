@@ -1,5 +1,1 @@
-{
-  "StatusCode": 400,
-  "Message": "error at PrismaClientUnknownRequestError: \nInvalid `client.deudor.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:290:46\n\n  287   deudor, numero\n  288 );\n  289 \n→ 290 const createDeudor = await client.deudor.upsert(\nError occurred during query execution:\nConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(7), cause: Some(Error { kind: ConversionError(\"Unable to fit integer value '3163096532' into an INT4 (32-bit signed integer).\"), original_code: None, original_message: None }) }), transient: false })",
-  "data": "{\n  \"name\": \"PrismaClientUnknownRequestError\",\n  \"clientVersion\": \"5.5.2\"\n}"
-}
+{"StatusCode":200,"Message":"ok","data":{"id":569,"cedula":"21386342","primerNombre":"martha","primerApellido":"ospina","segundoNombre":"cecilia","segundoApellido":"arenas","direccion":"av suba no. 136-80 bl b ap 502 cerros de suba – gratamira //kr 75 no. 65 - 78 ap 402 edificio montreal p.h. medellín // vereda potrerito ?","email":"martacospina@hotmail.com","telCelular":"3163096532n","telFijo":"2977768n","carpetaNumero":570}}

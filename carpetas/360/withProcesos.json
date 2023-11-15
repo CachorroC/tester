@@ -14,7 +14,10 @@
     "primerNombre": "nohora",
     "segundoNombre": "del",
     "primerApellido": "pilar",
-    "segundoApellido": ["vargas", "bernal"]
+    "segundoApellido": [
+      "vargas",
+      "bernal"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,14 +28,20 @@
     "capitalAdeudado": 1557678443,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [116252],
+    "obligacion": [
+      116252
+    ],
     "radicado": "2017 - 01452",
-    "vencimientoPagare": ["2024-02-03T05:00:00.000Z"],
+    "vencimientoPagare": [
+      "2024-03-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 52327561,
-  "idProcesos": [50915500],
+  "idProcesos": [
+    50915500
+  ],
   "procesos": [
     {
       "idProceso": 50915500,

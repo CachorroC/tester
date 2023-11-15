@@ -25,9 +25,13 @@
     "capitalAdeudado": 12687427,
     "etapaProcesal": "EJECUCIÓN",
     "municipio": "BOGOTA",
-    "obligacion": [5670085162],
+    "obligacion": [
+      5670085162
+    ],
     "radicado": "2017 - 01084",
-    "vencimientoPagare": ["2019-11-02T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2019-11-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +42,9 @@
     "telefono": "5643632//3125598323"
   },
   "cc": 12254068,
-  "idProcesos": [50760030],
+  "idProcesos": [
+    50760030
+  ],
   "procesos": [
     {
       "idProceso": 50760030,

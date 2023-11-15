@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 56,
-    "cedula": "1023904524",
-    "primerNombre": "paola",
-    "primerApellido": "rodriguez",
-    "segundoNombre": "andrea",
-    "segundoApellido": "morales",
-    "direccion": "calle 22c sur # 5 - 54",
-    "email": "dalila_paito@hotmail.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 143
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":143,"cedula":"1023904524","primerNombre":"paola","primerApellido":"rodriguez","segundoNombre":"andrea","segundoApellido":"morales","direccion":"calle 22c sur # 5 - 54","email":"dalila_paito@hotmail.com","telCelular":null,"telFijo":null,"carpetaNumero":143}}

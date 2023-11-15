@@ -30,7 +30,9 @@
       "5303715153971258//4513076874137526//AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 00607",
-    "vencimientoPagare": ["2017-02-21T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2017-02-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -40,7 +42,9 @@
     "nombre": "danilo humberto marroquin salas"
   },
   "cc": 37549188,
-  "idProcesos": [50537040],
+  "idProcesos": [
+    50537040
+  ],
   "procesos": [
     {
       "idProceso": 50537040,

@@ -30,12 +30,17 @@
       "4513071987853655//5303715363121332"
     ],
     "radicado": "2017-00680",
-    "vencimientoPagare": ["2019-05-13T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2019-05-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 16831314,
-  "idProcesos": [51619370, 81869501],
+  "idProcesos": [
+    51619370,
+    81869501
+  ],
   "procesos": [
     {
       "idProceso": 51619370,

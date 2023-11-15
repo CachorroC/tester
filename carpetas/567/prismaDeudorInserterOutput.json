@@ -1,5 +1,1 @@
-{
-  "StatusCode": 400,
-  "Message": "error at PrismaClientUnknownRequestError: \nInvalid `client.deudor.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:290:46\n\n  287   deudor, numero\n  288 );\n  289 \n→ 290 const createDeudor = await client.deudor.upsert(\nError occurred during query execution:\nConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(7), cause: Some(Error { kind: ConversionError(\"Unable to fit integer value '3144005060' into an INT4 (32-bit signed integer).\"), original_code: None, original_message: None }) }), transient: false })",
-  "data": "{\n  \"name\": \"PrismaClientUnknownRequestError\",\n  \"clientVersion\": \"5.5.2\"\n}"
-}
+{"StatusCode":200,"Message":"ok","data":{"id":566,"cedula":"94254761","primerNombre":"wilson","primerApellido":"jesus","segundoNombre":"de","segundoApellido":"molina,quirama","direccion":"calle 71 f no. 78 c - 50 sur","email":"wilsonmolina16@hotmail.com","telCelular":"3144005060n","telFijo":"7766244n","carpetaNumero":567}}

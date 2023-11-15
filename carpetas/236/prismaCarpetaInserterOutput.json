@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 236,
-    "numero": 236,
-    "llaveProceso": "11001400308520170136200",
-    "nombre": "rigoberto moreno olaya null",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":236,"numero":236,"llaveProceso":"11001400308520170136200","nombre":"rigoberto moreno olaya null","fecha":null,"idProcesos":[],"category":"Terminados"}}

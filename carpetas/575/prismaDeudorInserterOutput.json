@@ -1,5 +1,1 @@
-{
-  "StatusCode": 400,
-  "Message": "error at PrismaClientUnknownRequestError: \nInvalid `client.deudor.upsert()` invocation in\n/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/data/insert-carpetas.ts:290:46\n\n  287   deudor, numero\n  288 );\n  289 \n→ 290 const createDeudor = await client.deudor.upsert(\nError occurred during query execution:\nConnectorError(ConnectorError { user_facing_error: None, kind: QueryError(Error { kind: ToSql(7), cause: Some(Error { kind: ConversionError(\"Unable to fit integer value '3164336320' into an INT4 (32-bit signed integer).\"), original_code: None, original_message: None }) }), transient: false })",
-  "data": "{\n  \"name\": \"PrismaClientUnknownRequestError\",\n  \"clientVersion\": \"5.5.2\"\n}"
-}
+{"StatusCode":200,"Message":"ok","data":{"id":574,"cedula":"79780047","primerNombre":"javier","primerApellido":"carrera","segundoNombre":"alejandro","segundoApellido":"siachoque","direccion":"carrera 13 a no. 113 42 apartamento 207 santa paula // carrera 11 no. 112 – 65 // calle 119 no. 7 – 14 consultorio 617 // calle 85 a no. 21 - 51","email":"carrerasiachoque@yahoo.com","telCelular":"3164336320n","telFijo":"7574806n","carpetaNumero":575}}

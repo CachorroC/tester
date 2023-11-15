@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 352,
-    "numero": 352,
-    "llaveProceso": "11001400307620170101600",
-    "nombre": "mario de jesus ossa,pulgarin",
-    "idProcesos": [51499790, 81847081],
-    "category": "Reintegra"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":352,"numero":352,"llaveProceso":"11001400307620170101600","nombre":"mario de jesus ossa,pulgarin","fecha":"2023-09-13T00:00:00.000Z","idProcesos":[51499790],"category":"Reintegra"}}

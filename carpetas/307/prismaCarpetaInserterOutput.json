@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 307,
-    "numero": 307,
-    "llaveProceso": "11001400303620170112500",
-    "nombre": "carlos arturo castaño aldana",
-    "idProcesos": [50800110],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":307,"numero":307,"llaveProceso":"11001400303620170112500","nombre":"carlos arturo castaño aldana","fecha":"2020-03-06T00:00:00.000Z","idProcesos":[50800110],"category":"Terminados"}}

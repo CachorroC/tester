@@ -14,7 +14,11 @@
     "primerNombre": "estelio",
     "segundoNombre": "de",
     "primerApellido": "jesus",
-    "segundoApellido": ["", "roldan", "pozo"]
+    "segundoApellido": [
+      "",
+      "roldan",
+      "pozo"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +29,13 @@
     "capitalAdeudado": 13688162,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [5850082368],
+    "obligacion": [
+      5850082368
+    ],
     "radicado": "2017 - 01113",
-    "vencimientoPagare": ["2020-04-27T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2020-04-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -37,7 +45,9 @@
     "nombre": "hernando estelio roldan upegui"
   },
   "cc": 15319344,
-  "idProcesos": [50593940],
+  "idProcesos": [
+    50593940
+  ],
   "procesos": [
     {
       "idProceso": 50593940,

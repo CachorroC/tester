@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 279,
-    "numero": 279,
-    "llaveProceso": "11001400300820170105800",
-    "nombre": "andres felipe gutierrez trujillo",
-    "idProcesos": [112758450],
-    "category": "Reintegra"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":279,"numero":279,"llaveProceso":"11001400300820170105800","nombre":"andres felipe gutierrez trujillo","fecha":"2022-07-21T00:00:00.000Z","idProcesos":[112758450],"category":"Reintegra"}}

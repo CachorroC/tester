@@ -25,9 +25,14 @@
     "capitalAdeudado": 0,
     "etapaProcesal": null,
     "municipio": "BOGOTA",
-    "obligacion": [43449, 1540086035],
+    "obligacion": [
+      43449,
+      1540086035
+    ],
     "radicado": "2017 - 00946",
-    "vencimientoPagare": [null, null],
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +43,9 @@
     "telefono": "CARMEN ALICIA RAMIREZ CHURQUE"
   },
   "cc": 900432476,
-  "idProcesos": [52159350],
+  "idProcesos": [
+    52159350
+  ],
   "procesos": [
     {
       "idProceso": 52159350,

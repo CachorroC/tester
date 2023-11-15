@@ -25,14 +25,18 @@
     "capitalAdeudado": 1499744800,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": ["AUDIOPRESTAMO"],
+    "obligacion": [
+      "AUDIOPRESTAMO"
+    ],
     "radicado": "2018 - 00835",
     "vencimientoPagare": [],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 52434815,
-  "idProcesos": [9093813],
+  "idProcesos": [
+    9093813
+  ],
   "procesos": [
     {
       "idProceso": 9093813,

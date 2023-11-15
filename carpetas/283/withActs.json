@@ -25,14 +25,20 @@
     "capitalAdeudado": 2110945100,
     "etapaProcesal": "LIQUIDACION",
     "municipio": "BOGOTA",
-    "obligacion": [1860086996],
+    "obligacion": [
+      1860086996
+    ],
     "radicado": "2017 - 01140",
-    "vencimientoPagare": ["2017-07-20T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2017-07-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 1010188573,
-  "idProcesos": [50772500],
+  "idProcesos": [
+    50772500
+  ],
   "procesos": [
     {
       "idProceso": 50772500,

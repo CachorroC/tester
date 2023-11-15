@@ -25,14 +25,20 @@
     "capitalAdeudado": 30413921,
     "etapaProcesal": "SENTENCIA",
     "municipio": "BOGOTA",
-    "obligacion": [130026],
+    "obligacion": [
+      130026
+    ],
     "radicado": "2018 - 00110",
-    "vencimientoPagare": ["2025-06-07T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2025-06-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 80026753,
-  "idProcesos": [50980370],
+  "idProcesos": [
+    50980370
+  ],
   "procesos": [
     {
       "idProceso": 50980370,

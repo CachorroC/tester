@@ -25,14 +25,22 @@
     "capitalAdeudado": 17217066,
     "etapaProcesal": "EJECUCION",
     "municipio": "GIRARDOT",
-    "obligacion": ["AUDIOPRESTAMO", 5.30696068711907e29],
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      5.30696068711907e+29
+    ],
     "radicado": "2021 - 00539",
-    "vencimientoPagare": [null, null, "2021-06-04T05:00:00.000Z"],
+    "vencimientoPagare": [
+      "2021-04-01T05:00:00.000Z",
+      "2021-04-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },
   "cc": 39575032,
-  "idProcesos": [121826111],
+  "idProcesos": [
+    121826111
+  ],
   "procesos": [
     {
       "idProceso": 121826111,

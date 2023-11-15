@@ -1,6 +1,3 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
 generator client {
   provider = "prisma-client-js"
 }
@@ -11,34 +8,35 @@ datasource db {
 }
 
 model Carpeta {
-  id           Int         @id @default(autoincrement())
-  numero       Int         @unique
-  llaveProceso String?
-  nombre       String
-  idProcesos   Int[]
-  category     Category
-  deudor       Deudor?
-  demanda      Demanda?
-  notas        Nota[]
-  tareas       Tarea[]
-  procesos     Proceso[]
-  actuaciones  Actuacion[]
-  juzgados     Juzgado[]
+  id              Int        @id @default(autoincrement())
+  numero          Int        @unique
+  llaveProceso    String?
+  nombre          String
+  idProcesos      Int[]
+  category        Category
+  fecha           DateTime?  @db.Date
+  ultimaActuacion Actuacion?
+  demanda         Demanda?
+  deudor          Deudor?
+  notas           Nota[]
+  procesos        Proceso[]
+  tareas          Tarea[]
+  juzgados        Juzgado[]  @relation("CarpetaToJuzgado")
 }
 
 model Deudor {
-  id            Int     @id @default(autoincrement())
-  cedula        String
-  primerNombre String
-  primerApellido String
-  segundoNombre String?
+  id              Int     @id @default(autoincrement())
+  cedula          String
+  primerNombre    String
+  primerApellido  String
+  segundoNombre   String?
   segundoApellido String?
-  direccion     String?
-  email         String?
-  telCelular    BigInt?
-  telFijo       BigInt?
-  carpeta       Carpeta @relation(fields: [carpetaNumero], references: [numero])
-  carpetaNumero Int     @unique
+  direccion       String?
+  email           String?
+  telCelular      BigInt?
+  telFijo         BigInt?
+  carpetaNumero   Int     @unique
+  carpeta         Carpeta @relation(fields: [carpetaNumero], references: [numero])
 }
 
 model Nota {
@@ -55,19 +53,19 @@ model Tarea {
   id           Int        @id @unique @default(autoincrement())
   creationDate DateTime   @default(now()) @db.Date
   dueDate      DateTime?  @db.Date
-  Carpeta      Carpeta?   @relation(fields: [carpetaId], references: [id])
   carpetaId    Int?
   text         String
   isComplete   Boolean
   subTareas    SubTarea[]
+  Carpeta      Carpeta?   @relation(fields: [carpetaId], references: [id])
 }
 
 model SubTarea {
   text       String    @id
   date       DateTime?
   isComplete Boolean
-  Tarea      Tarea?    @relation(fields: [tareaId], references: [id])
   tareaId    Int?
+  Tarea      Tarea?    @relation(fields: [tareaId], references: [id])
 }
 
 model Actuacion {
@@ -84,10 +82,10 @@ model Actuacion {
   codRegla         String
   conDocumentos    Boolean
   cant             Int
-  Carpeta          Carpeta?  @relation(fields: [carpetaNumero], references: [numero])
-  carpetaNumero    Int?
-  Proceso          Proceso?  @relation(fields: [procesoIdProceso], references: [idProceso])
+  carpetaNumero    Int?      @unique
   procesoIdProceso Int?
+  Carpeta          Carpeta?  @relation(fields: [carpetaNumero], references: [numero])
+  Proceso          Proceso?  @relation(fields: [procesoIdProceso], references: [idProceso])
 }
 
 model Demanda {
@@ -104,18 +102,18 @@ model Demanda {
   radicado                String?
   vencimientoPagare       DateTime[]  @db.Date
   expediente              String?
-  juzgados                Juzgado[]
-  carpeta                 Carpeta     @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero           Int         @unique
+  carpeta                 Carpeta     @relation(fields: [carpetaNumero], references: [numero])
+  juzgados                Juzgado[]   @relation("DemandaToJuzgado")
 }
 
 model Juzgado {
   id       Int
   tipo     String    @id @unique
   url      String
-  Proceso  Proceso[]
-  demanda  Demanda[]
-  carpetas Carpeta[]
+  carpetas Carpeta[] @relation("CarpetaToJuzgado")
+  demanda  Demanda[] @relation("DemandaToJuzgado")
+  Proceso  Proceso[] @relation("JuzgadoToProceso")
 }
 
 model Proceso {
@@ -129,10 +127,10 @@ model Proceso {
   sujetosProcesales    String
   esPrivado            Boolean
   cantFilas            Int
+  carpetaNumero        Int
   actuaciones          Actuacion[]
   Carpeta              Carpeta     @relation(fields: [carpetaNumero], references: [numero])
-  carpetaNumero        Int
-  Juzgado              Juzgado[]
+  Juzgado              Juzgado[]   @relation("JuzgadoToProceso")
 }
 
 enum Category {

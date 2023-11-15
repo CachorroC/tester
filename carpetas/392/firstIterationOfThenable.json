@@ -25,9 +25,14 @@
     "capitalAdeudado": 38847950,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "ZIPAQUIRA",
-    "obligacion": [3320087751, 3320088190],
+    "obligacion": [
+      3320087751,
+      3320088190
+    ],
     "radicado": "2018 - 00131",
-    "vencimientoPagare": ["2020-08-22T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2020-08-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

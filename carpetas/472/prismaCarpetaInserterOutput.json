@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 472,
-    "numero": 472,
-    "llaveProceso": "11001418900920180038900",
-    "nombre": "sergio espinel correal null",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":472,"numero":472,"llaveProceso":"11001418900920180038900","nombre":"sergio espinel correal null","fecha":null,"idProcesos":[],"category":"Terminados"}}

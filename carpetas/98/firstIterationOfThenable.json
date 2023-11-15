@@ -14,7 +14,10 @@
     "primerNombre": "maria",
     "segundoNombre": "del",
     "primerApellido": "carmen",
-    "segundoApellido": ["chaparro", "lemus"]
+    "segundoApellido": [
+      "chaparro",
+      "lemus"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +28,13 @@
     "capitalAdeudado": 0,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": [190459],
+    "obligacion": [
+      190459
+    ],
     "radicado": "2017 - 00623",
-    "vencimientoPagare": ["2030-01-25T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2030-01-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

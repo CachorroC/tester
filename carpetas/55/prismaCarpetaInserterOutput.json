@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 55,
-    "numero": 55,
-    "llaveProceso": "25430400300120170108700",
-    "nombre": "douglas ayure rios null",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":55,"numero":55,"llaveProceso":"25430400300120170108700","nombre":"douglas ayure rios null","fecha":null,"idProcesos":[],"category":"Terminados"}}

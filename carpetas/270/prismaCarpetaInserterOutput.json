@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 270,
-    "numero": 270,
-    "llaveProceso": "11001408903420170113900",
-    "nombre": "wilmer andres quiñones hernandez",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":270,"numero":270,"llaveProceso":"11001408903420170113900","nombre":"wilmer andres quiñones hernandez","fecha":null,"idProcesos":[],"category":"Terminados"}}

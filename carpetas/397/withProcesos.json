@@ -14,7 +14,10 @@
     "primerNombre": "jose",
     "segundoNombre": "de",
     "primerApellido": "jesus",
-    "segundoApellido": ["tapias", "estevez"]
+    "segundoApellido": [
+      "tapias",
+      "estevez"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +28,13 @@
     "capitalAdeudado": 14467701,
     "etapaProcesal": "2.547340030012018e+22",
     "municipio": "MOSQUERA",
-    "obligacion": [430104535],
+    "obligacion": [
+      430104535
+    ],
     "radicado": "2018 - 00106",
-    "vencimientoPagare": [null, null],
+    "vencimientoPagare": [
+      "2022-05-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

@@ -25,9 +25,13 @@
     "capitalAdeudado": 43,
     "etapaProcesal": null,
     "municipio": "SOACHA",
-    "obligacion": ["19.080.628.51"],
+    "obligacion": [
+      "19.080.628.51"
+    ],
     "radicado": "2018 - 00664",
-    "vencimientoPagare": [null, null],
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

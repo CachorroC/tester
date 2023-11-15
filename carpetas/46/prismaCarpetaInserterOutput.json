@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 46,
-    "numero": 46,
-    "llaveProceso": "25183400300120170010600",
-    "nombre": "alvaro rodriguez alonso null",
-    "idProcesos": [86212261],
-    "category": "Reintegra"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":46,"numero":46,"llaveProceso":"25183400300120170010600","nombre":"alvaro rodriguez alonso null","fecha":null,"idProcesos":[86212261],"category":"Reintegra"}}

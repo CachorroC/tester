@@ -25,9 +25,14 @@
     "capitalAdeudado": 4042361408,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "MOSQUERA",
-    "obligacion": [4513082821740149, 20990170294],
+    "obligacion": [
+      4513082821740149,
+      20990170294
+    ],
     "radicado": "2017 - 00924",
-    "vencimientoPagare": [null, null],
+    "vencimientoPagare": [
+      "2028-11-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

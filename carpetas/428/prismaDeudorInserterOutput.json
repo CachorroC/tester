@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 208,
-    "cedula": "1019016622",
-    "primerNombre": "sergio",
-    "primerApellido": "espinosa",
-    "segundoNombre": "libardo",
-    "segundoApellido": "gomez",
-    "direccion": "carrera 47 a no 118-08 of 106",
-    "email": "gioser.87@hotmail.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 428
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":428,"cedula":"1019016622","primerNombre":"sergio","primerApellido":"espinosa","segundoNombre":"libardo","segundoApellido":"gomez","direccion":"carrera 47 a no 118-08 of 106","email":"gioser.87@hotmail.com","telCelular":null,"telFijo":null,"carpetaNumero":428}}

@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 212,
-    "cedula": "1012341563",
-    "primerNombre": "maribel",
-    "primerApellido": "quiroga",
-    "segundoNombre": "revelo",
-    "segundoApellido": null,
-    "direccion": "calle 62a sur-no 73c-21 t 1 apto 202",
-    "email": "marysqs@hotmail.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 435
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":435,"cedula":"1012341563","primerNombre":"maribel","primerApellido":"quiroga","segundoNombre":"revelo","segundoApellido":null,"direccion":"calle 62a sur-no 73c-21 t 1 apto 202","email":"marysqs@hotmail.com","telCelular":null,"telFijo":null,"carpetaNumero":435}}

@@ -14,7 +14,10 @@
     "primerNombre": "julian",
     "segundoNombre": "de",
     "primerApellido": "jesus",
-    "segundoApellido": ["isaza", "aguirre"]
+    "segundoApellido": [
+      "isaza",
+      "aguirre"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,14 +28,20 @@
     "capitalAdeudado": 6766091300,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": [12468489],
+    "obligacion": [
+      12468489
+    ],
     "radicado": "2017 - 01219",
-    "vencimientoPagare": ["2017-09-20T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 71192974,
-  "idProcesos": [50739310],
+  "idProcesos": [
+    50739310
+  ],
   "procesos": [
     {
       "idProceso": 50739310,

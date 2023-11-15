@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 313,
-    "numero": 313,
-    "llaveProceso": "11001400307820170104900",
-    "nombre": "mauricio perez plazas null",
-    "idProcesos": [51463110],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":313,"numero":313,"llaveProceso":"11001400307820170104900","nombre":"mauricio perez plazas null","fecha":"2022-09-01T00:00:00.000Z","idProcesos":[51463110],"category":"Terminados"}}

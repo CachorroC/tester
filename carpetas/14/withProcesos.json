@@ -14,7 +14,10 @@
     "primerNombre": "elsa",
     "segundoNombre": "milena",
     "primerApellido": "sosa",
-    "segundoApellido": ["", "romero"]
+    "segundoApellido": [
+      "",
+      "romero"
+    ]
   },
   "demanda": {
     "tipoProceso": "SINGULAR",
@@ -25,9 +28,13 @@
     "capitalAdeudado": 15987259,
     "etapaProcesal": null,
     "municipio": "SIBATE",
-    "obligacion": [4517],
+    "obligacion": [
+      4517
+    ],
     "radicado": "2017 - 00284",
-    "vencimientoPagare": ["2023-03-05T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2023-03-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

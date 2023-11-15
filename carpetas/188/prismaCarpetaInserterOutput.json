@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 188,
-    "numero": 188,
-    "llaveProceso": "11001400306720170126900",
-    "nombre": "diego armando arevalo velandia",
-    "idProcesos": [51452530],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":188,"numero":188,"llaveProceso":"11001400306720170126900","nombre":"diego armando arevalo velandia","fecha":"2020-02-18T00:00:00.000Z","idProcesos":[51452530],"category":"Terminados"}}

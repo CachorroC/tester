@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 104,
-    "numero": 104,
-    "llaveProceso": "11001400300620170041700",
-    "nombre": "nancy herrera mendez null",
-    "idProcesos": [50596080],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":104,"numero":104,"llaveProceso":"11001400300620170041700","nombre":"nancy herrera mendez null","fecha":"2019-03-04T00:00:00.000Z","idProcesos":[50596080],"category":"Terminados"}}

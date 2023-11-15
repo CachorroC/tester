@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 231,
-    "numero": 231,
-    "llaveProceso": "11001418900920170008900",
-    "nombre": "diana marcela ipuz suarez,y,otro",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":231,"numero":231,"llaveProceso":"11001418900920170008900","nombre":"diana marcela ipuz suarez,y,otro","fecha":null,"idProcesos":[],"category":"Terminados"}}

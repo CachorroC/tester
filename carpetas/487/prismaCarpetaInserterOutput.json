@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 487,
-    "numero": 487,
-    "llaveProceso": "11001400301420180078900",
-    "nombre": "gabriel mendoza morinelly null",
-    "idProcesos": [51278930],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":487,"numero":487,"llaveProceso":"11001400301420180078900","nombre":"gabriel mendoza morinelly null","fecha":"2020-01-28T00:00:00.000Z","idProcesos":[51278930],"category":"Terminados"}}

@@ -25,9 +25,13 @@
     "capitalAdeudado": 16264574397,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": [199177],
+    "obligacion": [
+      199177
+    ],
     "radicado": "2017 - 00359",
-    "vencimientoPagare": ["2037-03-01T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2037-03-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +42,9 @@
     "telefono": 2955785
   },
   "cc": 80032437,
-  "idProcesos": [62939862],
+  "idProcesos": [
+    62939862
+  ],
   "procesos": [
     {
       "idProceso": 62939862,

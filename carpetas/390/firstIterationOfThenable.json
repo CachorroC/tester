@@ -25,9 +25,14 @@
     "capitalAdeudado": 50509238,
     "etapaProcesal": "EJECUCIÓN",
     "municipio": "BOGOTA",
-    "obligacion": [2500084774, "AUDIOPRESTAMO"],
+    "obligacion": [
+      2500084774,
+      "AUDIOPRESTAMO"
+    ],
     "radicado": "2017 - 01266",
-    "vencimientoPagare": ["2020-07-21T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2020-07-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

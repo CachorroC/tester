@@ -25,9 +25,13 @@
     "capitalAdeudado": 1381034255,
     "etapaProcesal": "SENTENCIA",
     "municipio": "BOGOTA",
-    "obligacion": [112462],
+    "obligacion": [
+      112462
+    ],
     "radicado": "2017 - 01509",
-    "vencimientoPagare": ["2023-10-14T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2023-10-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +42,9 @@
     "telefono": 19436494
   },
   "cc": 51726361,
-  "idProcesos": [50771340],
+  "idProcesos": [
+    50771340
+  ],
   "procesos": [
     {
       "idProceso": 50771340,

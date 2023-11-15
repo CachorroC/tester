@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 384,
-    "numero": 384,
-    "llaveProceso": "11001400305620180011000",
-    "nombre": "diego javier galindo mejia",
-    "idProcesos": [50980370],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":384,"numero":384,"llaveProceso":"11001400305620180011000","nombre":"diego javier galindo mejia","fecha":"2020-02-28T00:00:00.000Z","idProcesos":[50980370],"category":"Terminados"}}

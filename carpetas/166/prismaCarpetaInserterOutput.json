@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 166,
-    "numero": 166,
-    "llaveProceso": "11001400300920170083700",
-    "nombre": "dora aide peña peña",
-    "idProcesos": [50666380],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":166,"numero":166,"llaveProceso":"11001400300920170083700","nombre":"dora aide peña peña","fecha":"2023-10-11T00:00:00.000Z","idProcesos":[50666380],"category":"Terminados"}}

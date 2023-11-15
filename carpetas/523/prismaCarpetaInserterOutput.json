@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 522,
-    "numero": 523,
-    "llaveProceso": "11001418907620190043400",
-    "nombre": "luisa alejandra escobar andrade",
-    "idProcesos": [],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":522,"numero":523,"llaveProceso":"11001418907620190043400","nombre":"luisa alejandra escobar andrade","fecha":null,"idProcesos":[],"category":"Terminados"}}

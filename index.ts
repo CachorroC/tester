@@ -14,7 +14,7 @@ async function f() {
     ...Carpetas
   ].sort(
     (
-      a, b 
+      a, b
     ) => {
       const x = a.numero;
 
@@ -27,12 +27,12 @@ async function f() {
       }
 
       return 0;
-    } 
+    }
   );
 
   for ( const rawCarpeta of sortedCarpetas ) {
     const carpeta = categoryAssignment(
-      rawCarpeta 
+      rawCarpeta
     );
 
     /*  if ( carpeta.category === 'Terminados' ) {
@@ -40,26 +40,26 @@ async function f() {
     } */
 
     const thener = new CarpetaJudicial(
-      carpeta 
+      carpeta
     );
     console.log(
-      thener.cc 
+      thener.cc
     );
     await fs.mkdir(
       `carpetas/${ thener.numero }/`, {
         recursive: true,
-      } 
+      }
     );
 
     await fs.writeFile(
       `carpetas/${ thener.numero }/firstIterationOfThenable.json`,
       JSON.stringify(
-        thener, null, 2 
+        thener, null, 2
       ),
     );
 
     await sleep(
-      100 
+      100
     );
 
     await thener.consultaProcesos();
@@ -67,13 +67,13 @@ async function f() {
     fs.writeFile(
       `carpetas/${ thener.numero }/withProcesos.json`,
       JSON.stringify(
-        thener, null, 2 
+        thener, null, 2
       ),
     );
 
     if ( !thener.procesos || thener.procesos.length === 0 ) {
       newCarpetasMap.set(
-        carpeta.numero, thener 
+        carpeta.numero, thener
       );
 
       continue;
@@ -84,25 +84,25 @@ async function f() {
     fs.writeFile(
       `carpetas/${ thener.numero }/withActs.json`,
       JSON.stringify(
-        thener, null, 2 
+        thener, null, 2
       ),
     );
 
     newCarpetasMap.set(
-      carpeta.numero, thener 
+      carpeta.numero, thener
     );
 
     continue;
   }
 
   const resultArray = Array.from(
-    newCarpetasMap.values() 
+    newCarpetasMap.values()
   );
 
   await fs.writeFile(
     'src/provisionalCarpetas.json',
     JSON.stringify(
-      resultArray, null, 2 
+      resultArray, null, 2
     ),
   );
 
@@ -116,103 +116,109 @@ async function insertManyCarpetas() {
 
   for ( const carpeta of carpetas ) {
     const {
-      numero 
+      numero
     } = carpeta;
 
-    try {
-      const prismaCarpetaInserter = await insertCarpetaInPrisma(
-        carpeta 
-      );
-      console.log(
-        `${ numero }: carpetaInserter: ${ JSON.stringify(
-          prismaCarpetaInserter,
-          null,
-          2,
-        ) }`,
-      );
-      fs.writeFile(
-        `carpetas/${ numero }/prismaCarpetaInserterOutput.json`,
-        JSON.stringify(
-          prismaCarpetaInserter 
-        ),
-      );
 
-      const prismaDeudorInserter = await insertDeudorInPrisma(
-        carpeta 
-      );
-      console.log(
-        `${ numero }: deudorInserter: ${ JSON.stringify(
-          prismaDeudorInserter,
-          null,
-          2,
-        ) }`,
-      );
-      fs.writeFile(
-        `carpetas/${ numero }/prismaDeudorInserterOutput.json`,
-        JSON.stringify(
-          prismaDeudorInserter 
-        ),
-      );
+    const insertOne = await collection.updateOne(
+      {
+        numero: numero,
+      },
+      {
+        $set: carpeta,
+      },
+      {
+        upsert: true,
+      },
+    );
+    console.log(
+      `${ numero } => mongoInsert: ${ JSON.stringify(
+        insertOne, null, 2
+      ) }`,
+    );
 
-      const prismaDemandaInserter = await insertDemandaInPrisma(
-        carpeta 
-      );
-      console.log(
-        `${ numero }: demandaInserter: ${ JSON.stringify(
-          prismaDemandaInserter,
-          null,
-          2,
-        ) }`,
-      );
-      fs.writeFile(
-        `carpetas/${ numero }/prismaDemandaInserterOutput.json`,
-        JSON.stringify(
-          prismaDemandaInserter 
-        ),
-      );
+    const prismaCarpetaInserter = await insertCarpetaInPrisma(
+      carpeta
+    );
+    console.log(
+      `${ numero }: carpetaInserter: ${ JSON.stringify(
+        prismaCarpetaInserter,
+        null,
+        2,
+      ) }`,
+    );
+    fs.writeFile(
+      `carpetas/${ numero }/prismaCarpetaInserterOutput.json`,
+      JSON.stringify(
+        prismaCarpetaInserter
+      ),
+    );
 
-      const insertOne = await collection.updateOne(
-        {
-          numero: numero,
-        },
-        {
-          $set: carpeta,
-        },
-        {
-          upsert: true,
-        },
-      );
-      console.log(
-        `${ numero } => mongoInsert: ${ JSON.stringify(
-          insertOne, null, 2 
-        ) }`,
-      );
-    } catch ( error ) {
-      console.log(
-        `${ numero } ERROR => ${ JSON.stringify(
-          error, null, 2 
-        ) }` 
-      );
-    }
+    const prismaDemandaInserter = await insertDemandaInPrisma(
+      carpeta
+    );
+    console.log(
+      `${ numero }: demandaInserter: ${ JSON.stringify(
+        prismaDemandaInserter,
+        null,
+        2,
+      ) }`,
+    );
+    fs.writeFile(
+      `carpetas/${ numero }/prismaDemandaInserterOutput.json`,
+      JSON.stringify(
+        prismaDemandaInserter
+      ),
+    );
+
+    const prismaDeudorInserter = await insertDeudorInPrisma(
+      carpeta
+    );
+    console.log(
+      `${ numero }: deudorInserter: ${ JSON.stringify(
+        prismaDeudorInserter, (
+          key, value
+        ) => {
+          return typeof value === 'bigint'
+            ? value.toString() + 'n'
+            : value;
+        }
+        , 2
+      ) }`,
+    );
+    fs.writeFile(
+      `carpetas/${ numero }/prismaDeudorInserterOutput.json`,
+      JSON.stringify(
+        prismaDeudorInserter, (
+          key, value
+        ) => {
+          return typeof value === 'bigint'
+            ? value.toString() + 'n'
+            : value;
+        }
+      ),
+    );
+
+
   }
 }
 
 insertManyCarpetas()
   .then(
     (
-      ff 
+      ff
     ) => {
       console.log(
-        ff 
+        ff
       );
       return ff;
-    } 
+    }
   )
   .finally(
     () => {
       console.log(
-        'finally' 
+        'finally'
       );
       return;
-    } 
+    }
   );

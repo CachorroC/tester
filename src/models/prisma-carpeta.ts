@@ -19,17 +19,24 @@ export class PrismaCarpeta implements Carpeta {
       nombre,
       llaveProceso,
       idProcesos,
+      fecha,
       category,
-    }: IntCarpeta 
+    }: IntCarpeta
   ) {
     this.numero = numero;
     this.nombre = nombre;
+    this.fecha = fecha
+      ? fecha.toString() !== 'Invalid Date'
+        ? fecha
+        : null
+      : null;
     this.llaveProceso = llaveProceso;
     this.category = category;
     this.idProcesos = idProcesos
       ? idProcesos
       : [];
   }
+  fecha: Date | null;
   id!: number;
 }
 
@@ -59,17 +66,17 @@ export class PrismaDeudor implements Deudor {
     this.email = email;
     this.telCelular = tel.celular
       ? BigInt(
-        tel.celular 
+        tel.celular
       )
       : null;
     this.telFijo = tel.fijo
       ? BigInt(
-        tel.fijo 
+        tel.fijo
       )
       : null;
     this.carpetaNumero = carpetaNumero;
     this.cedula = String(
-      cedula 
+      cedula
     );
   }
   telCelular: bigint | null;
@@ -120,11 +127,29 @@ export class PrismaDemanda implements Demanda {
     this.carpetaNumero = carpetaNumero;
     this.expediente = expediente;
     this.municipio = municipio;
-    this.entregaGarantiasAbogado = entregaGarantiasAbogado;
+    this.entregaGarantiasAbogado = entregaGarantiasAbogado
+      ? entregaGarantiasAbogado.toString() !== 'Invalid Date'
+        ? new Date(
+          entregaGarantiasAbogado.toString()
+        )
+        : null
+      : null;
     this.tipoProceso = tipoProceso;
-    this.fechaPresentacion = fechaPresentacion;
+    this.fechaPresentacion = fechaPresentacion
+      ? fechaPresentacion.toString() !== 'Invalid Date'
+        ? new Date(
+          fechaPresentacion.toString()
+        )
+        : null
+      : null;
     this.etapaProcesal = etapaProcesal;
-    this.mandamientoPago = mandamientoPago;
+    this.mandamientoPago = mandamientoPago
+      ? mandamientoPago.toString() !== 'Invalid Date'
+        ? new Date(
+          mandamientoPago.toString()
+        )
+        : null
+      : null;
     this.radicado = radicado;
     this.capitalAdeudado = new Prisma.Decimal(
       capitalAdeudado
@@ -133,24 +158,26 @@ export class PrismaDemanda implements Demanda {
     );
     this.obligacion = obligacion.map(
       (
-        obl 
+        obl
       ) => {
         return String(
-          obl 
+          obl
         );
-      } 
+      }
     );
     this.departamento = departamento;
     this.vencimientoPagare = vencimientoPagare.map(
       (
-        venc 
+        venc
       ) => {
-        if ( !venc || venc === null ) {
+        if ( !venc || venc === null || venc.toString() === 'Invalid Date' ) {
           return new Date();
         }
 
-        return venc;
-      } 
+        return new Date(
+          venc.toString()
+        );
+      }
     );
   }
 }

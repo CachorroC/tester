@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 524,
-    "numero": 525,
-    "llaveProceso": "11001400303620190049600",
-    "nombre": "magda lorena riascos diaz",
-    "idProcesos": [51974830],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":524,"numero":525,"llaveProceso":"11001400303620190049600","nombre":"magda lorena riascos diaz","fecha":"2020-10-30T00:00:00.000Z","idProcesos":[51974830],"category":"Terminados"}}

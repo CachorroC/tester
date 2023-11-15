@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 459,
-    "numero": 459,
-    "llaveProceso": "11001400305320180094500",
-    "nombre": "cesar armando vanegas null",
-    "idProcesos": [64641230],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":459,"numero":459,"llaveProceso":"11001400305320180094500","nombre":"cesar armando vanegas null","fecha":"2020-02-17T00:00:00.000Z","idProcesos":[64641230],"category":"Terminados"}}

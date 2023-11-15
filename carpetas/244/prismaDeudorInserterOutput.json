@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 100,
-    "cedula": "80144827",
-    "primerNombre": "ricardo",
-    "primerApellido": "nocua",
-    "segundoNombre": "andres",
-    "segundoApellido": "guatama",
-    "direccion": "calle 62 a sur 87c -58",
-    "email": "pajulo8@hotmail.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 244
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":244,"cedula":"80144827","primerNombre":"ricardo","primerApellido":"nocua","segundoNombre":"andres","segundoApellido":"guatama","direccion":"calle 62 a sur 87c -58","email":"pajulo8@hotmail.com","telCelular":null,"telFijo":null,"carpetaNumero":244}}

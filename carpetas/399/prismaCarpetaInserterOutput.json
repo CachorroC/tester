@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 399,
-    "numero": 399,
-    "llaveProceso": "11001400303720180013200",
-    "nombre": "giovanni  perdomo quiroga",
-    "idProcesos": [8833783],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":399,"numero":399,"llaveProceso":"11001400303720180013200","nombre":"giovanni  perdomo quiroga","fecha":"2019-10-10T00:00:00.000Z","idProcesos":[8833783],"category":"Terminados"}}

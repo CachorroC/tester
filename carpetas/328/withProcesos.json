@@ -25,14 +25,21 @@
     "capitalAdeudado": 3361520445,
     "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR PQQUETE 767 DE 2018",
     "municipio": "BOGOTA",
-    "obligacion": ["5740084189 /5740084216", "160204-377813372389032"],
+    "obligacion": [
+      "5740084189 /5740084216",
+      "160204-377813372389032"
+    ],
     "radicado": "2017 - 01293",
-    "vencimientoPagare": ["2017-05-06T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2017-05-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 52907317,
-  "idProcesos": [50846930],
+  "idProcesos": [
+    50846930
+  ],
   "procesos": [
     {
       "idProceso": 50846930,

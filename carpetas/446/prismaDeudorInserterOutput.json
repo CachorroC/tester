@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 218,
-    "cedula": "79725365",
-    "primerNombre": "ricardo",
-    "primerApellido": "cuspoca",
-    "segundoNombre": null,
-    "segundoApellido": null,
-    "direccion": null,
-    "email": "CALLE 36 No 69-56 SUR. B CARVAJAL",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 446
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":446,"cedula":"79725365","primerNombre":"ricardo","primerApellido":"cuspoca","segundoNombre":null,"segundoApellido":null,"direccion":null,"email":"CALLE 36 No 69-56 SUR. B CARVAJAL","telCelular":null,"telFijo":null,"carpetaNumero":446}}

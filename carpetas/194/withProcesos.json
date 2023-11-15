@@ -25,14 +25,20 @@
     "capitalAdeudado": 4731735197,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": [12601534],
+    "obligacion": [
+      12601534
+    ],
     "radicado": "2017 - 01297",
-    "vencimientoPagare": ["2017-08-23T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 52790965,
-  "idProcesos": [50679230],
+  "idProcesos": [
+    50679230
+  ],
   "procesos": [
     {
       "idProceso": 50679230,

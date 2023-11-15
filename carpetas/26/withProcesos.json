@@ -25,9 +25,13 @@
     "capitalAdeudado": 17307303,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": [20990116310],
+    "obligacion": [
+      20990116310
+    ],
     "radicado": "2017 - 00827",
-    "vencimientoPagare": ["2024-03-03T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2024-03-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +42,9 @@
     "telefono": 2232710
   },
   "cc": 52744376,
-  "idProcesos": [18161830],
+  "idProcesos": [
+    18161830
+  ],
   "procesos": [
     {
       "idProceso": 18161830,

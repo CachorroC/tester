@@ -25,9 +25,13 @@
     "capitalAdeudado": 13503258,
     "etapaProcesal": "NOTIFICACION",
     "municipio": "BOGOTA",
-    "obligacion": [2150091493],
+    "obligacion": [
+      2150091493
+    ],
     "radicado": "2018 - 00107",
-    "vencimientoPagare": ["2018-09-27T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2018-09-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +42,9 @@
     "telefono": 4710758
   },
   "cc": 40356325,
-  "idProcesos": [10138483],
+  "idProcesos": [
+    10138483
+  ],
   "procesos": [
     {
       "idProceso": 10138483,

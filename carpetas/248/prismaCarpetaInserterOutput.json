@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 248,
-    "numero": 248,
-    "llaveProceso": "11001400305920170087100",
-    "nombre": "henry carranza alba null",
-    "idProcesos": [50715970],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":248,"numero":248,"llaveProceso":"11001400305920170087100","nombre":"henry carranza alba null","fecha":"2017-11-22T00:00:00.000Z","idProcesos":[50715970],"category":"Terminados"}}

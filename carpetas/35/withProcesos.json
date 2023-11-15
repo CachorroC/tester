@@ -25,9 +25,14 @@
     "capitalAdeudado": 26464177,
     "etapaProcesal": "EJECUCIÓN",
     "municipio": "BOGOTA",
-    "obligacion": [5.30372238582075e29, "AUTOPRESTAMO"],
+    "obligacion": [
+      5.30372238582075e+29,
+      "AUTOPRESTAMO"
+    ],
     "radicado": "2017-00511",
-    "vencimientoPagare": ["2016-09-16T00:00:00.000Z"],
+    "vencimientoPagare": [
+      "2016-09-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
@@ -38,7 +43,9 @@
     "telefono": "7264921//3203987609"
   },
   "cc": 72262201,
-  "idProcesos": [50477000],
+  "idProcesos": [
+    50477000
+  ],
   "procesos": [
     {
       "idProceso": 50477000,

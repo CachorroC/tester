@@ -25,12 +25,15 @@
     "capitalAdeudado": 149444779,
     "etapaProcesal": null,
     "municipio": "MADRID",
-    "obligacion": ["3830095699 // 3830095700", 3830095701],
+    "obligacion": [
+      "3830095699 // 3830095700",
+      3830095701
+    ],
     "radicado": "2023 - 01127",
     "vencimientoPagare": [
-      "2026-09-03T05:00:00.000Z",
-      "2026-09-03T05:00:00.000Z",
-      "2026-09-04T05:00:00.000Z"
+      "2026-03-01T05:00:00.000Z",
+      "2026-03-01T05:00:00.000Z",
+      "2026-04-01T05:00:00.000Z"
     ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []

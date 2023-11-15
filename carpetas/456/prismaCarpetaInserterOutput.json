@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 456,
-    "numero": 456,
-    "llaveProceso": "11001410375120180112100",
-    "nombre": "ana lucia yañez vargas,(fallecida)",
-    "idProcesos": [95877041],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":456,"numero":456,"llaveProceso":"11001410375120180112100","nombre":"ana lucia yañez vargas,(fallecida)","fecha":null,"idProcesos":[],"category":"Terminados"}}

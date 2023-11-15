@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 91,
-    "cedula": "79815721",
-    "primerNombre": "luis",
-    "primerApellido": "rojas",
-    "segundoNombre": "octavio",
-    "segundoApellido": "valbuena",
-    "direccion": "carrera 88 c # 62 - 09 sur apto 104",
-    "email": null,
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 225
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":225,"cedula":"79815721","primerNombre":"luis","primerApellido":"rojas","segundoNombre":"octavio","segundoApellido":"valbuena","direccion":"carrera 88 c # 62 - 09 sur apto 104","email":null,"telCelular":null,"telFijo":null,"carpetaNumero":225}}

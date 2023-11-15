@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 283,
-    "cedula": "41564331",
-    "primerNombre": "gloria",
-    "primerApellido": "de",
-    "segundoNombre": "giraldo",
-    "segundoApellido": "rovida",
-    "direccion": "calle 40 no 8-86",
-    "email": "grovida@gmail.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 538
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":537,"cedula":"41564331","primerNombre":"gloria","primerApellido":"de","segundoNombre":"giraldo","segundoApellido":"rovida","direccion":"calle 40 no 8-86","email":"grovida@gmail.com","telCelular":null,"telFijo":null,"carpetaNumero":538}}

@@ -25,9 +25,14 @@
     "capitalAdeudado": 0,
     "etapaProcesal": "42886",
     "municipio": "FUSAGASUGA",
-    "obligacion": [15537944, 42874],
+    "obligacion": [
+      15537944,
+      42874
+    ],
     "radicado": "2017 - 00437",
-    "vencimientoPagare": [null, null],
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
     "departamento": "CUNDINAMARCA",
     "juzgados": []
   },

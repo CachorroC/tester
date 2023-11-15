@@ -4,11 +4,8 @@ import { DemandaRaw, IntDemanda, TipoProceso } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
 
 function vencimientoPagareFixer(
-  rawVencimientoPagare?: string | number 
+  rawVencimientoPagare?: string | number
 ) {
-  console.log(
-    rawVencimientoPagare 
-  );
 
   if ( !rawVencimientoPagare ) {
     return [];
@@ -25,59 +22,63 @@ function vencimientoPagareFixer(
   const pagaresDateSet = new Set<Date | null>();
 
   const matcherPagare = stringPagare.split(
-    '//' 
+    '//'
   );
   console.log(
-    `hay ${ matcherPagare?.length } pagarés en este proceso` 
+    `hay ${ matcherPagare?.length } pagarés en este proceso`
   );
 
   for ( const pagare of matcherPagare ) {
     const newPagareString = pagare.trim()
       .replace(
-        '/', '-' 
+        '/', '-'
       );
 
-    /*
-      const regexMatchStringYear = newPagareString.match(
-        /\d{4}/g
-      );
 
-      const regexMatchStringMonth = newPagareString.match(
-        /-\d{1,2}-/g
-      );
-      console.log(
-        regexMatchStringYear
-      );
-
-      const monthConGuiones = regexMatchStringMonth
-        ? regexMatchStringMonth[ 0 ]
-        : '-01-';
-
-      const month = monthConGuiones.replaceAll(
-        '-', ''
-      );
-
-      const year = regexMatchStringYear
-        ? regexMatchStringYear[ 0 ]
-        : '2015';
-
- */
-    const stringDate = new Date(
-      newPagareString 
+    const regexMatchStringYear = newPagareString.match(
+      /\d{4}/g
     );
 
-    /*  console.log(
+    const regexMatchStringMonth = newPagareString.match(
+      /-\d{1,2}-/g
+    );
+    console.log(
+      regexMatchStringYear
+    );
+
+    const monthConGuiones = regexMatchStringMonth
+      ? regexMatchStringMonth[ 0 ]
+      : '-01-';
+
+    const month = monthConGuiones.replaceAll(
+      '-', ''
+    );
+
+    const year = regexMatchStringYear
+      ? regexMatchStringYear[ 0 ]
+      : '2015';
+
+
+    const stringDate = new Date(
+      Number(
+        year
+      ), Number(
+        month
+      )- 1,
+    );
+
+    console.log(
       `la nueva fecha del pagaré arrojó: ${ stringDate.toDateString() }`
-    ); */
+    );
 
     if ( !stringDate || stringDate.toString() === 'Invalid Date' ) {
       pagaresDateSet.add(
-        null 
+        null
       );
     }
 
     pagaresDateSet.add(
-      stringDate 
+      stringDate
     );
   }
 
@@ -86,12 +87,12 @@ function vencimientoPagareFixer(
   }
 
   return Array.from(
-    pagaresDateSet 
+    pagaresDateSet
   );
 }
 
 function capitalBuilder(
-  capitalAdeudado: string | number 
+  capitalAdeudado: string | number
 ) {
   let moneyBuilder;
 
@@ -102,27 +103,27 @@ function capitalBuilder(
   }
 
   const copTaker = moneyBuilder.replaceAll(
-    /\sCOP/gi, '' 
+    /\sCOP/gi, ''
   );
 
   const dotTaker = copTaker.replaceAll(
-    '.', '' 
+    '.', ''
   );
 
   const commaTaker = dotTaker.replaceAll(
-    ',', '' 
+    ',', ''
   );
   console.log(
-    commaTaker 
+    commaTaker
   );
 
   return Number(
-    commaTaker 
+    commaTaker
   );
 }
 
 export function juzgadosByProceso(
-  procesos: intProceso[] 
+  procesos: intProceso[]
 ) {
   if ( procesos.length === 0 ) {
     return [];
@@ -132,58 +133,58 @@ export function juzgadosByProceso(
 
   for ( const proceso of procesos ) {
     const newJ = new NewJuzgado(
-      proceso 
+      proceso
     );
     juzgados.add(
-      newJ 
+      newJ
     );
   }
 
   return Array.from(
-    juzgados 
+    juzgados
   );
 }
 
 class NewJuzgado implements Juzgado {
   constructor(
-    proceso: intProceso 
+    proceso: intProceso
   ) {
     const matchedDespacho = Despachos.find(
       (
-        despacho 
+        despacho
       ) => {
         const nDesp = despacho.nombre
           .toLowerCase()
           .normalize(
-            'NFD' 
+            'NFD'
           )
           .replace(
-            /\p{Diacritic}/gu, '' 
+            /\p{Diacritic}/gu, ''
           )
           .trim();
 
         const pDesp = proceso.despacho
           .toLowerCase()
           .normalize(
-            'NFD' 
+            'NFD'
           )
           .replace(
-            /\p{Diacritic}/gu, '' 
+            /\p{Diacritic}/gu, ''
           )
           .trim();
 
         const indexOfDesp = nDesp.indexOf(
-          pDesp 
+          pDesp
         );
 
         if ( indexOfDesp >= 0 ) {
           console.log(
-            `procesos despacho is in despachos ${ indexOfDesp + 1 }` 
+            `procesos despacho is in despachos ${ indexOfDesp + 1 }`
           );
         }
 
         return nDesp === pDesp;
-      } 
+      }
     );
 
     const nameN = matchedDespacho
@@ -191,11 +192,11 @@ class NewJuzgado implements Juzgado {
       : proceso.despacho;
 
     const matchedId = nameN.match(
-      /\d+/g 
+      /\d+/g
     );
 
     this.id = Number(
-      matchedId?.toString() 
+      matchedId?.toString()
     );
     ( this.tipo = matchedDespacho
       ? matchedDespacho.nombre
@@ -204,7 +205,7 @@ class NewJuzgado implements Juzgado {
       ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
       : `https://www.ramajudicial.gov.co${ proceso.despacho
         .replaceAll(
-          ' ', '-' 
+          ' ', '-'
         )
         .toLowerCase() }` );
   }
@@ -234,25 +235,25 @@ export class ClassDemanda implements IntDemanda {
 
     if ( obligacion ) {
       const {
-        A, B 
+        A, B
       } = obligacion;
 
       if ( A ) {
         obligacionesSet.add(
-          A 
+          A
         );
       }
 
       if ( B ) {
         obligacionesSet.add(
-          B 
+          B
         );
       }
     }
 
     const dateFechaPresentacion = fechaPresentacion
       ? new Date(
-        fechaPresentacion 
+        fechaPresentacion
       )
       : null;
 
@@ -270,7 +271,7 @@ export class ClassDemanda implements IntDemanda {
 
     const dateMandamientoPago = mandamientoPago
       ? new Date(
-        mandamientoPago 
+        mandamientoPago
       )
       : null;
 
@@ -288,7 +289,7 @@ export class ClassDemanda implements IntDemanda {
 
     const dateEntregaGarantiasAbogado = entregaGarantiasAbogado
       ? new Date(
-        entregaGarantiasAbogado 
+        entregaGarantiasAbogado
       )
       : null;
 
@@ -321,13 +322,13 @@ export class ClassDemanda implements IntDemanda {
       ? municipio
       : null;
     this.obligacion = Array.from(
-      obligacionesSet 
+      obligacionesSet
     );
     this.radicado = radicado
       ? `${ radicado }`
       : null;
     this.vencimientoPagare = vencimientoPagareFixer(
-      vencimientoPagare 
+      vencimientoPagare
     );
     this.departamento = departamento
       ? departamento
@@ -335,12 +336,12 @@ export class ClassDemanda implements IntDemanda {
     this.juzgados = procesos
       ? procesos.map(
         (
-          proceso 
+          proceso
         ) => {
           return new NewJuzgado(
-            proceso 
+            proceso
           );
-        } 
+        }
       )
       : [];
   }
@@ -359,7 +360,7 @@ export class ClassDemanda implements IntDemanda {
   expediente: string | null;
 
   set despachos(
-    desp: string[] 
+    desp: string[]
   ) {
     if ( desp.length === 0 ) {
       return;
@@ -372,7 +373,7 @@ export class ClassDemanda implements IntDemanda {
   }
 
   set sujetosProcesales(
-    suj: string[] 
+    suj: string[]
   ) {
     if ( suj.length === 0 ) {
       return;

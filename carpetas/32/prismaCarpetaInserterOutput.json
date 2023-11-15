@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 32,
-    "numero": 32,
-    "llaveProceso": "11001400304320180038400",
-    "nombre": "jonathan andres  bernal,parra",
-    "idProcesos": [114256610],
-    "category": "Reintegra"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":32,"numero":32,"llaveProceso":"11001400304320180038400","nombre":"jonathan andres  bernal,parra","fecha":"2023-04-27T00:00:00.000Z","idProcesos":[114256610],"category":"Reintegra"}}

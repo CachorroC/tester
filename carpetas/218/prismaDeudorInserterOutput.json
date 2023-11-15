@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 89,
-    "cedula": "12402596",
-    "primerNombre": "elio",
-    "primerApellido": "hernandez",
-    "segundoNombre": "alvarado",
-    "segundoApellido": null,
-    "direccion": "calle 144 # 136a - 45",
-    "email": null,
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 218
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":218,"cedula":"12402596","primerNombre":"elio","primerApellido":"hernandez","segundoNombre":"alvarado","segundoApellido":null,"direccion":"calle 144 # 136a - 45","email":null,"telCelular":null,"telFijo":null,"carpetaNumero":218}}

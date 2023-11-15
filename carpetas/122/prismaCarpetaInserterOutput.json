@@ -1,12 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 122,
-    "numero": 122,
-    "llaveProceso": "11001400304020170119300",
-    "nombre": "paola andrea fernandez rincon",
-    "idProcesos": [19148931],
-    "category": "Terminados"
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":122,"numero":122,"llaveProceso":"11001400304020170119300","nombre":"paola andrea fernandez rincon","fecha":"2020-02-07T00:00:00.000Z","idProcesos":[19148931],"category":"Terminados"}}

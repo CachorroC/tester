@@ -30,12 +30,18 @@
       "377816208286710 // 4513083951499464 // 5176407001878614 // 5303720129694960 // AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 00860",
-    "vencimientoPagare": [null, null, "2020-05-05T05:00:00.000Z", null],
+    "vencimientoPagare": [
+      "2020-04-01T05:00:00.000Z",
+      "2020-05-01T05:00:00.000Z",
+      "2019-12-01T05:00:00.000Z"
+    ],
     "departamento": "BOGOTÁ",
     "juzgados": []
   },
   "cc": 17174720,
-  "idProcesos": [86524020],
+  "idProcesos": [
+    86524020
+  ],
   "procesos": [
     {
       "idProceso": 86524020,

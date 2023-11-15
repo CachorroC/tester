@@ -1,17 +1,1 @@
-{
-  "StatusCode": 200,
-  "Message": "ok",
-  "data": {
-    "id": 199,
-    "cedula": "35521020",
-    "primerNombre": "aura",
-    "primerApellido": "gamez",
-    "segundoNombre": "leticia",
-    "segundoApellido": "rojas",
-    "direccion": "calle 11b- no 10-21",
-    "email": "aurag2599@hotmail.com",
-    "telCelular": null,
-    "telFijo": null,
-    "carpetaNumero": 418
-  }
-}
+{"StatusCode":200,"Message":"ok","data":{"id":418,"cedula":"35521020","primerNombre":"aura","primerApellido":"gamez","segundoNombre":"leticia","segundoApellido":"rojas","direccion":"calle 11b- no 10-21","email":"aurag2599@hotmail.com","telCelular":null,"telFijo":null,"carpetaNumero":418}}
