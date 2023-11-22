@@ -7,7 +7,8 @@
 import { intActuacion } from './actuaciones';
 import { intProceso } from './procesos';
 
-export interface TrulyCruda {
+export interface TrulyCruda
+{
   llaveProceso?: string;
   demanda: DemandaRaw;
   codeudor?: Codeudor;
@@ -15,11 +16,13 @@ export interface TrulyCruda {
   numero: number;
 }
 
-export interface CarpetaRaw extends TrulyCruda {
+export interface CarpetaRaw extends TrulyCruda
+{
   category: Category;
 }
 
-export interface IntCarpeta {
+export interface IntCarpeta
+{
   numero: number;
   llaveProceso: string | null;
   demanda: IntDemanda;
@@ -36,7 +39,8 @@ export interface IntCarpeta {
   nombre: string;
 }
 
-export interface flatCarpeta {
+export interface flatCarpeta
+{
   llaveProceso?: string;
   idProcesos?: number[];
   category: Category;
@@ -72,14 +76,16 @@ export type Category =
   | 'SinEspecificar'
   | 'todos';
 
-export interface Codeudor {
+export interface Codeudor
+{
   cedula?: number | string;
   nombre?: number | string;
   direccion?: number | string;
   telefono?: number | string;
 }
 
-export interface DemandaRaw {
+export interface DemandaRaw
+{
   capitalAdeudado?: number | string;
   departamento?: DepartamentoRaw;
   entregaGarantiasAbogado?: number | string;
@@ -111,7 +117,8 @@ export type DepartamentoRaw =
   | 'CNDINAMARCA'
   | '';
 
-export interface DeudorRaw {
+export interface DeudorRaw
+{
   cedula: number | string;
   direccion?: number | string;
   email?: number | string;
@@ -119,7 +126,8 @@ export interface DeudorRaw {
   telefono?: number | string;
 }
 
-export interface IntDeudor {
+export interface IntDeudor
+{
   cedula: number;
   direccion: string | null;
   email: string | null;
@@ -130,12 +138,14 @@ export interface IntDeudor {
   tel: IntTel;
 }
 
-export interface IntTel {
+export interface IntTel
+{
   fijo: number | null;
   celular: number | null;
 }
 
-export interface IntDemanda {
+export interface IntDemanda
+{
   capitalAdeudado: number | null;
   departamento: string | null;
   entregaGarantiasAbogado: Date | null;
@@ -153,7 +163,8 @@ export interface IntDemanda {
   juzgados: Juzgado[];
 }
 
-export interface Juzgado {
+export interface Juzgado
+{
   id: number;
   tipo: string;
   url: string;

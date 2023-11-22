@@ -4,7 +4,7 @@ import { Carpeta,
   Deudor,
   Prisma,
   TipoProceso, } from '@prisma/client';
-import { IntCarpeta, IntDemanda, IntDeudor } from '../types/carpetas';
+import { IntCarpeta } from '../types/carpetas';
 import { Decimal } from '@prisma/client/runtime/library';
 
 export class PrismaCarpeta implements Carpeta {
@@ -30,7 +30,12 @@ export class PrismaCarpeta implements Carpeta {
     this.idProcesos = idProcesos
       ? idProcesos
       : [];
+    this.revisado = false;
+    this.terminado = category === 'Terminados';
   }
+  terminado: boolean;
+  revisado: boolean;
+  updatedAt!: Date;
   numero: number;
   llaveProceso: string | null;
   nombre: string;
@@ -43,16 +48,18 @@ export class PrismaCarpeta implements Carpeta {
 export class PrismaDeudor implements Deudor {
   constructor(
     {
-      primerNombre,
-      segundoNombre,
-      primerApellido,
-      segundoApellido,
-      tel,
-      email,
-      direccion,
-      cedula,
-    }: IntDeudor,
-    carpetaNumero: number,
+      deudor:{
+        primerNombre,
+        segundoNombre,
+        primerApellido,
+        segundoApellido,
+        tel,
+        email,
+        direccion,
+        cedula,
+      },
+      numero,
+    }: IntCarpeta
   ) {
     this.primerNombre = primerNombre;
     this.segundoNombre = segundoNombre;
@@ -74,7 +81,7 @@ export class PrismaDeudor implements Deudor {
         tel.fijo
       )
       : null;
-    this.carpetaNumero = carpetaNumero;
+    this.carpetaNumero = numero;
     this.cedula = String(
       cedula
     );
@@ -90,6 +97,7 @@ export class PrismaDeudor implements Deudor {
   direccion: string | null;
   email: string | null;
   carpetaNumero: number;
+
 }
 
 export class PrismaDemanda implements Demanda {
@@ -109,22 +117,24 @@ export class PrismaDemanda implements Demanda {
   carpetaNumero: number;
   constructor(
     {
-      departamento,
-      expediente,
-      obligacion,
-      municipio,
-      vencimientoPagare,
-      radicado,
-      fechaPresentacion,
-      etapaProcesal,
-      mandamientoPago,
-      tipoProceso,
-      entregaGarantiasAbogado,
-      capitalAdeudado,
-    }: IntDemanda,
-    carpetaNumero: number,
+      demanda: {
+        departamento,
+        expediente,
+        obligacion,
+        municipio,
+        vencimientoPagare,
+        radicado,
+        fechaPresentacion,
+        etapaProcesal,
+        mandamientoPago,
+        tipoProceso,
+        entregaGarantiasAbogado,
+        capitalAdeudado,
+      },
+      numero
+    }: IntCarpeta
   ) {
-    this.carpetaNumero = carpetaNumero;
+    this.carpetaNumero = numero;
     this.expediente = expediente;
     this.municipio = municipio;
     this.entregaGarantiasAbogado = entregaGarantiasAbogado
@@ -136,7 +146,7 @@ export class PrismaDemanda implements Demanda {
       : null;
 
     this.tipoProceso = tipoProceso;
-
+    this.despacho = null;
     this.fechaPresentacion = fechaPresentacion
       ? fechaPresentacion.toString() !== 'Invalid Date'
         ? new Date(
@@ -168,6 +178,7 @@ export class PrismaDemanda implements Demanda {
       }
     );
     this.departamento = departamento;
+
     this.vencimientoPagare = vencimientoPagare.map(
       (
         venc
@@ -182,4 +193,8 @@ export class PrismaDemanda implements Demanda {
       }
     );
   }
+  despacho: string | null;
 }
+
+
+export type CarpetaInstante = InstanceType<typeof PrismaCarpeta>

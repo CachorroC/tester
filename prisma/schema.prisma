@@ -8,13 +8,15 @@ datasource db {
 }
 
 model Carpeta {
-  id              Int        @id @default(autoincrement())
-  numero          Int        @unique
+  numero          Int        @id @unique
   llaveProceso    String?
   nombre          String
   idProcesos      Int[]
   category        Category   @default(SinEspecificar)
   fecha           DateTime?  @db.Date
+  revisado        Boolean    @default(false)
+  terminado       Boolean    @default(false)
+  updatedAt       DateTime   @updatedAt
   ultimaActuacion Actuacion?
   demanda         Demanda?
   deudor          Deudor?

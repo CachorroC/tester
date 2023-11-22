@@ -248,12 +248,12 @@ export async function insertDemandaInPrisma(
   carpeta: IntCarpeta
 ) {
   const {
-    numero, demanda
+    numero
   } = carpeta;
 
   try {
     const newPrismaDemanda = new PrismaDemanda(
-      demanda, numero
+      carpeta
     );
 
     const createDemanda = await client.demanda.upsert(
@@ -335,12 +335,12 @@ export async function insertDeudorInPrisma(
   carpeta: IntCarpeta
 ) {
   const {
-    numero, deudor
+    numero
   } = carpeta;
 
   try {
     const newPrismaDeudor = new PrismaDeudor(
-      deudor, numero
+      carpeta
     );
 
     const createDeudor = await client.deudor.upsert(
