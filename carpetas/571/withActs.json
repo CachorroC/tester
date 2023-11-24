@@ -1,12 +1,43 @@
 {
-  "llaveProceso": "11001418901420230146500",
   "numero": 571,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418901420230146500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 24843938,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "MOSQUERA",
+    "obligacion": [
+      1380089168
+    ],
+    "radicado": "2023 - 01289",
+    "expediente": "11001418901420230146500"
+  },
+  "fecha": "2023-11-30T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1937593270,
+    "llaveProceso": "11001418901420230146500",
+    "consActuacion": 11,
+    "fechaActuacion": "2023-11-30T00:00:00",
+    "actuacion": "Oficio Elaborado",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-24T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 11
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 53132436,
-    "direccion": "carrera 10 no. 5 - 62 bloque torre 1 apartamento 202 conjunto residencial belverde i del municipio de mosquera",
-    "email": "capryeyom@hotmail.com",
     "tel": {
       "fijo": 5751066,
       "celular": 3126172174
@@ -14,38 +45,19 @@
     "primerNombre": "erli",
     "segundoNombre": "yaneth",
     "primerApellido": "oyuela",
-    "segundoApellido": "martinez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
-    "expediente": "11001418901420230146500",
-    "capitalAdeudado": 24843938,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "MOSQUERA",
-    "obligacion": [
-      1380089168
-    ],
-    "radicado": "2023 - 01289",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "martinez",
+    "cedula": 53132436,
+    "direccion": "carrera 10 no. 5 - 62 bloque torre 1 apartamento 202 conjunto residencial belverde i del municipio de mosquera",
+    "email": "capryeyom@hotmail.com"
   },
   "cc": 53132436,
-  "idProcesos": [
-    132234840
-  ],
   "procesos": [
     {
       "idProceso": 132234840,
       "idConexion": 259,
       "llaveProceso": "11001418901420230146500",
       "fechaProceso": "2023-08-09T00:00:00",
-      "fechaUltimaActuacion": "2023-10-25T00:00:00",
+      "fechaUltimaActuacion": "2023-11-30T00:00:00",
       "despacho": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARTHA CECILIA OSPINA ARENAS ",
@@ -53,19 +65,7 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-10-25T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1921358410,
-    "llaveProceso": "11001418901420230146500",
-    "consActuacion": 7,
-    "fechaActuacion": "2023-10-25T00:00:00",
-    "actuacion": "Recepción memorial",
-    "anotacion": "SolicitudTerminación",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-10-30T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 7
-  }
+  "idProcesos": [
+    132234840
+  ]
 }

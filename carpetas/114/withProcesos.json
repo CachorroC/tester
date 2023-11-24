@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25754418900220170075200",
   "numero": 114,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754418900220170075200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2023-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 20501855,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-08-24T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": [
+      "377813527966924/",
+      "000000020990112484."
+    ],
+    "radicado": "2017 - 00752",
+    "expediente": "25754418900220170075200"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79209455,
-    "direccion": "calle 11 # 52a - 14 soacha",
-    "email": "antoniocaicedo1972@gmail.com",
     "tel": {
       "fijo": 3213173,
       "celular": 3128067314
@@ -14,32 +31,12 @@
     "primerNombre": "jose",
     "segundoNombre": "antonio",
     "primerApellido": "caicedo",
-    "segundoApellido": "ruiz"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
-    "mandamientoPago": "2017-08-24T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
-    "expediente": "25754418900220170075200",
-    "capitalAdeudado": 20501855,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "SOACHA",
-    "obligacion": [
-      "377813527966924/",
-      "000000020990112484."
-    ],
-    "radicado": "2017 - 00752",
-    "vencimientoPagare": [
-      "2023-11-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "ruiz",
+    "cedula": 79209455,
+    "direccion": "calle 11 # 52a - 14 soacha",
+    "email": "antoniocaicedo1972@gmail.com"
   },
   "cc": 79209455,
-  "idProcesos": [
-    86396721
-  ],
   "procesos": [
     {
       "idProceso": 86396721,
@@ -53,5 +50,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    86396721
   ]
 }

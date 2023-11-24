@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25754418900320180100800",
   "numero": 489,
-  "tipoProceso": "HIPOTECARIA",
+  "llaveProceso": "25754418900320180100800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2025-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2304170434,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      20990126542
+    ],
+    "radicado": "2018 - 01008",
+    "expediente": "25754418900320180100800"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIA",
   "deudor": {
-    "cedula": 80257279,
-    "direccion": "calle 72 g- sur no 35-13 sur",
-    "email": "jjanzola@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "orlando",
     "segundoNombre": "silva",
     "primerApellido": "calderon",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "25754418900320180100800",
-    "capitalAdeudado": 2304170434,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990126542
-    ],
-    "radicado": "2018 - 01008",
-    "vencimientoPagare": [
-      "2025-02-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80257279,
+    "direccion": "calle 72 g- sur no 35-13 sur",
+    "email": "jjanzola@hotmail.com"
   },
   "codeudor": {
     "cedula": 10336884340,

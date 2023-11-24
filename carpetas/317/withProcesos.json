@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301820170181300",
   "numero": 317,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400301820170181300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1500851494,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-02-01T00:00:00.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "2017-11-07T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      123326
+    ],
+    "radicado": "2017 - 01813",
+    "expediente": "11001400301820170181300"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80251653,
-    "direccion": "calle 62 g  no 75 g - 18 sur",
-    "email": "wilsoningind@yahoo.es",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "wilson",
     "segundoNombre": "javier",
     "primerApellido": "sanchez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-11-07T00:00:00.000Z",
-    "mandamientoPago": "2018-02-01T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
-    "expediente": "11001400301820170181300",
-    "capitalAdeudado": 1500851494,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "LIQUIDACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      123326
-    ],
-    "radicado": "2017 - 01813",
-    "vencimientoPagare": [
-      "2024-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80251653,
+    "direccion": "calle 62 g  no 75 g - 18 sur",
+    "email": "wilsoningind@yahoo.es"
   },
   "codeudor": {
     "cedula": 53089914,
@@ -42,9 +42,6 @@
     "telefono": 5971320
   },
   "cc": 80251653,
-  "idProcesos": [
-    50832550
-  ],
   "procesos": [
     {
       "idProceso": 50832550,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50832550
   ]
 }

@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001418901220180095100",
   "numero": 543,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 51579807,
-    "direccion": "calle 19 a no 82 - 65 int 6 apto 503",
-    "email": "rochi2656@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "rosalia",
-    "segundoNombre": "charry",
-    "primerApellido": "",
-    "segundoApellido": "sarmiento"
-  },
+  "llaveProceso": "11001418901220180095100",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2019-11-01T05:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
-    "expediente": "11001418901220180095100",
+    "vencimientoPagare": [
+      "2022-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 24849682,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2019-11-01T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       3880083804,
       "4513074508682496 // 53037103332223839"
     ],
     "radicado": "2018 - 00951",
-    "vencimientoPagare": [
-      "2022-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001418901220180095100"
   },
-  "cc": 51579807,
-  "idProcesos": [
-    64673240
-  ],
-  "procesos": [
-    {
-      "idProceso": 64673240,
-      "idConexion": 259,
-      "llaveProceso": "11001418901220180095100",
-      "fechaProceso": "2019-06-28T00:00:00",
-      "fechaUltimaActuacion": "2023-05-15T00:00:00",
-      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA SA | Demandado: ROSALIA CHARRY SARMIENTO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-05-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1743221490,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 57
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "rosalia",
+    "segundoNombre": "charry",
+    "primerApellido": "",
+    "segundoApellido": "sarmiento",
+    "cedula": 51579807,
+    "direccion": "calle 19 a no 82 - 65 int 6 apto 503",
+    "email": "rochi2656@hotmail.com"
+  },
+  "cc": 51579807,
+  "procesos": [
+    {
+      "idProceso": 64673240,
+      "idConexion": 259,
+      "llaveProceso": "11001418901220180095100",
+      "fechaProceso": "2019-06-28T00:00:00",
+      "fechaUltimaActuacion": "2023-05-15T00:00:00",
+      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA SA | Demandado: ROSALIA CHARRY SARMIENTO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    64673240
+  ]
 }

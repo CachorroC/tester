@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400305120170111300",
   "numero": 295,
-  "tipoProceso": "PRENDARIO",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 36536419,
-    "direccion": "calle 124 no  20-76 apartamento 503",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "rita",
-    "segundoNombre": "cecilia",
-    "primerApellido": "fernandez",
-    "segundoApellido": "ibañez"
-  },
+  "llaveProceso": "11001400305120170111300",
   "demanda": {
-    "fechaPresentacion": "2017-09-21T00:00:00.000Z",
-    "mandamientoPago": "2017-10-02T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
-    "expediente": "11001400305120170111300",
+    "vencimientoPagare": [
+      "2020-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 25845669,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-10-02T00:00:00.000Z",
     "etapaProcesal": "PENDIENTE SENTENCIA Y OFICIOS",
+    "fechaPresentacion": "2017-09-21T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12389160
     ],
     "radicado": "2017 - 01113",
-    "vencimientoPagare": [
-      "2020-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400305120170111300"
   },
-  "cc": 36536419,
-  "idProcesos": [
-    110568033
-  ],
-  "procesos": [
-    {
-      "idProceso": 110568033,
-      "idConexion": 261,
-      "llaveProceso": "11001400305120170111300",
-      "fechaProceso": "2017-09-27T00:00:00",
-      "fechaUltimaActuacion": "2023-11-15T00:00:00",
-      "despacho": "JUZGADO 051 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RITA CECILIA FERNANDEZ IBAÑEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-11-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1691069443,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 82
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "rita",
+    "segundoNombre": "cecilia",
+    "primerApellido": "fernandez",
+    "segundoApellido": "ibañez",
+    "cedula": 36536419,
+    "direccion": "calle 124 no  20-76 apartamento 503",
+    "email": null
+  },
+  "cc": 36536419,
+  "procesos": [
+    {
+      "idProceso": 110568033,
+      "idConexion": 261,
+      "llaveProceso": "11001400305120170111300",
+      "fechaProceso": "2017-09-27T00:00:00",
+      "fechaUltimaActuacion": "2023-11-15T00:00:00",
+      "despacho": "JUZGADO 051 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RITA CECILIA FERNANDEZ IBAÑEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    110568033
+  ]
 }

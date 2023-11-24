@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400302820170057500",
   "numero": 95,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1015410386,
-    "direccion": "carrera 40b # 1 - 61",
-    "email": "edwinperez8302@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "edwin",
-    "segundoNombre": "jhobani",
-    "primerApellido": "perez",
-    "segundoApellido": "pita"
-  },
+  "llaveProceso": "11001400302820170057500",
   "demanda": {
-    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
-    "mandamientoPago": "2017-07-10T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
-    "expediente": "11001400302820170057500",
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1914674445,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-07-10T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12099135
     ],
     "radicado": "2017 - 00575",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302820170057500"
   },
-  "cc": 1015410386,
-  "idProcesos": [
-    50541540
-  ],
-  "procesos": [
-    {
-      "idProceso": 50541540,
-      "idConexion": 259,
-      "llaveProceso": "11001400302820170057500",
-      "fechaProceso": "2017-06-30T00:00:00",
-      "fechaUltimaActuacion": "2021-01-30T00:00:00",
-      "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: EDWIN JHOBANY PEREZ PITA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2021-01-30T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1003778780,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 30
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "edwin",
+    "segundoNombre": "jhobani",
+    "primerApellido": "perez",
+    "segundoApellido": "pita",
+    "cedula": 1015410386,
+    "direccion": "carrera 40b # 1 - 61",
+    "email": "edwinperez8302@hotmail.com"
+  },
+  "cc": 1015410386,
+  "procesos": [
+    {
+      "idProceso": 50541540,
+      "idConexion": 259,
+      "llaveProceso": "11001400302820170057500",
+      "fechaProceso": "2017-06-30T00:00:00",
+      "fechaUltimaActuacion": "2021-01-30T00:00:00",
+      "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: EDWIN JHOBANY PEREZ PITA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50541540
+  ]
 }

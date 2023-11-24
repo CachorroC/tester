@@ -1,12 +1,26 @@
 {
-  "llaveProceso": "25736408900120180013500",
   "numero": 492,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25736408900120180013500",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 12456703,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-03-10T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "SESQUILE",
+    "obligacion": [
+      3360085515
+    ],
+    "radicado": "2018 - 00135",
+    "expediente": "25736408900120180013500"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 22444794,
-    "direccion": "calle 22 no 1-137",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -17,26 +31,12 @@
     "segundoApellido": [
       "rivera",
       "jimenez"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-03-10T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "25736408900120180013500",
-    "capitalAdeudado": 12456703,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "SESQUILE",
-    "obligacion": [
-      3360085515
     ],
-    "radicado": "2018 - 00135",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "cedula": 22444794,
+    "direccion": "calle 22 no 1-137",
+    "email": null
   },
   "cc": 22444794,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

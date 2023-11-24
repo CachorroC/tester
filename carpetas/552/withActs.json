@@ -1,12 +1,45 @@
 {
-  "llaveProceso": "11001400300420230062200",
   "numero": 552,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400300420230062200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-02-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 77376262,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-06-20T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      530104065,
+      530103261
+    ],
+    "radicado": "2023 - 00622",
+    "expediente": "11001400300420230062200"
+  },
+  "fecha": "2023-11-22T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1936708160,
+    "llaveProceso": "11001400300420230062200",
+    "consActuacion": 12,
+    "fechaActuacion": "2023-11-22T00:00:00",
+    "actuacion": "Entrega de oficios",
+    "anotacion": "Oficio retirado por apoderada parte actora",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-22T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 12
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 1023874668,
-    "direccion": "cl 49 a bis sur no. 5 n 10",
-    "email": "oscar2794@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,40 +47,19 @@
     "primerNombre": "oscar",
     "segundoNombre": "mauricio",
     "primerApellido": "gomez",
-    "segundoApellido": "mendoza"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-06-20T00:00:00.000Z",
-    "expediente": "11001400300420230062200",
-    "capitalAdeudado": 77376262,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      530104065,
-      530103261
-    ],
-    "radicado": "2023 - 00622",
-    "vencimientoPagare": [
-      "2026-02-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "mendoza",
+    "cedula": 1023874668,
+    "direccion": "cl 49 a bis sur no. 5 n 10",
+    "email": "oscar2794@hotmail.com"
   },
   "cc": 1023874668,
-  "idProcesos": [
-    130946630
-  ],
   "procesos": [
     {
       "idProceso": 130946630,
       "idConexion": 259,
       "llaveProceso": "11001400300420230062200",
       "fechaProceso": "2023-06-29T00:00:00",
-      "fechaUltimaActuacion": "2023-10-17T00:00:00",
+      "fechaUltimaActuacion": "2023-11-22T00:00:00",
       "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OSCAR MAURICIO GOMEZ MENDOZA ",
@@ -55,19 +67,7 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-10-17T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1907111750,
-    "llaveProceso": "11001400300420230062200",
-    "consActuacion": 11,
-    "fechaActuacion": "2023-10-17T00:00:00",
-    "actuacion": "Oficio Elaborado",
-    "anotacion": "Oficio 1875 Embargo ",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-10-17T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 11
-  }
+  "idProcesos": [
+    130946630
+  ]
 }

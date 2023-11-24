@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400307320170164700",
   "numero": 364,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 52102754,
-    "direccion": "calle 6 b no 80 g-95 torre 5 apartamento 717",
-    "email": "spatriciasanchez2011@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "sandra",
-    "segundoNombre": "patricia",
-    "primerApellido": "sanchez",
-    "segundoApellido": "velasquez"
-  },
+  "llaveProceso": "11001400307320170164700",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-06-12T05:00:00.000Z",
-    "expediente": "11001400307320170164700",
+    "vencimientoPagare": [
+      "8202-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 6016146778,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       144698
     ],
     "radicado": "2017 - 01647",
-    "vencimientoPagare": [
-      "8202-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307320170164700"
   },
-  "cc": 52102754,
-  "idProcesos": [
-    50923290
-  ],
-  "procesos": [
-    {
-      "idProceso": 50923290,
-      "idConexion": 259,
-      "llaveProceso": "11001400307320170164700",
-      "fechaProceso": "2017-12-18T00:00:00",
-      "fechaUltimaActuacion": "2020-11-06T00:00:00",
-      "despacho": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA SANCHEZ VELASQUEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-11-06T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 997570440,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 39
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "sanchez",
+    "segundoApellido": "velasquez",
+    "cedula": 52102754,
+    "direccion": "calle 6 b no 80 g-95 torre 5 apartamento 717",
+    "email": "spatriciasanchez2011@hotmail.com"
+  },
+  "cc": 52102754,
+  "procesos": [
+    {
+      "idProceso": 50923290,
+      "idConexion": 259,
+      "llaveProceso": "11001400307320170164700",
+      "fechaProceso": "2017-12-18T00:00:00",
+      "fechaUltimaActuacion": "2020-11-06T00:00:00",
+      "despacho": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA SANCHEZ VELASQUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50923290
+  ]
 }

@@ -1,12 +1,42 @@
 {
-  "llaveProceso": "11001310303720170045300",
   "numero": 217,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001310303720170045300",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 20665546599,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "EL 24-07-2019 JUZGADO 3 DE EJECUCION DECRETA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA // EL 12-12-2019 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A. // EL 31-08-2022 SE VERIFICA Y NO SE HA LEVANTADO MEDIDA CAUTELAR //CAJA  387 DE 2021",
+    "fechaPresentacion": "2019-12-12T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      182540,
+      "AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 00453",
+    "expediente": "11001310303720170045300"
+  },
+  "fecha": "2019-09-20T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 662839914,
+    "llaveProceso": "11001310303720170045300",
+    "consActuacion": 63,
+    "fechaActuacion": "2019-09-20T00:00:00",
+    "actuacion": "Movimiento expediente",
+    "anotacion": "en la fecha se expide desglose, proceso queda para archivar O, eaa",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2019-09-20T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 63
+  },
   "category": "LiosJuridicos",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52328942,
-    "direccion": "calle 58 # 45 - 86",
-    "email": "casas_castillo@hotmail.com",
     "tel": {
       "fijo": 2256952,
       "celular": 3108096132
@@ -14,31 +44,12 @@
     "primerNombre": "diana",
     "segundoNombre": "vanessa",
     "primerApellido": "naranjo",
-    "segundoApellido": "hernandez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2019-12-12T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
-    "expediente": "11001310303720170045300",
-    "capitalAdeudado": 20665546599,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "EL 24-07-2019 JUZGADO 3 DE EJECUCION DECRETA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA // EL 12-12-2019 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A. // EL 31-08-2022 SE VERIFICA Y NO SE HA LEVANTADO MEDIDA CAUTELAR //CAJA  387 DE 2021",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      182540,
-      "AUDIOPRESTAMO"
-    ],
-    "radicado": "2017 - 00453",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "hernandez",
+    "cedula": 52328942,
+    "direccion": "calle 58 # 45 - 86",
+    "email": "casas_castillo@hotmail.com"
   },
   "cc": 52328942,
-  "idProcesos": [
-    51315290,
-    57718874
-  ],
   "procesos": [
     {
       "idProceso": 51315290,
@@ -65,19 +76,8 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2019-09-20T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 662839914,
-    "llaveProceso": "11001310303720170045300",
-    "consActuacion": 63,
-    "fechaActuacion": "2019-09-20T00:00:00",
-    "actuacion": "Movimiento expediente",
-    "anotacion": "en la fecha se expide desglose, proceso queda para archivar O, eaa",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2019-09-20T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 63
-  }
+  "idProcesos": [
+    51315290,
+    57718874
+  ]
 }

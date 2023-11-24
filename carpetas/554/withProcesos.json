@@ -1,12 +1,31 @@
 {
-  "llaveProceso": "11001418901820230131100",
   "numero": 554,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418901820230131100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-02-01T05:00:00.000Z",
+      "2026-07-01T05:00:00.000Z",
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 22111021,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2150100545,
+      "377844028390801 y 4513080181283486"
+    ],
+    "radicado": "2023 - 01311",
+    "expediente": "11001418901820230131100"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 51976656,
-    "direccion": "carrera 102 no. 69 - 81 casa 5 conjunto residencial montes de tierra grata",
-    "email": "sandris73@hotmail.com",
     "tel": {
       "fijo": 2297973,
       "celular": 3157352910
@@ -14,34 +33,12 @@
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "alvarez",
-    "segundoApellido": "rodriguez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "11001418901820230131100",
-    "capitalAdeudado": 22111021,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2150100545,
-      "377844028390801 y 4513080181283486"
-    ],
-    "radicado": "2023 - 01311",
-    "vencimientoPagare": [
-      "2026-02-01T05:00:00.000Z",
-      "2026-07-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "rodriguez",
+    "cedula": 51976656,
+    "direccion": "carrera 102 no. 69 - 81 casa 5 conjunto residencial montes de tierra grata",
+    "email": "sandris73@hotmail.com"
   },
   "cc": 51976656,
-  "idProcesos": [
-    132102980
-  ],
   "procesos": [
     {
       "idProceso": 132102980,
@@ -55,5 +52,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    132102980
   ]
 }

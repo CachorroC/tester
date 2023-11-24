@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400307020170116400",
   "numero": 318,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400307020170116400",
+  "demanda": {
+    "vencimientoPagare": [
+      "1215-01-01T04:56:16.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 43,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "43041",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "14.703.952.55"
+    ],
+    "radicado": "2017 - 01164",
+    "expediente": "11001400307020170116400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 51673703,
-    "direccion": null,
-    "email": "CALLE 52 SUR No 97 C - 20",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,34 +30,15 @@
     "primerNombre": "sonia",
     "segundoNombre": "janeth",
     "primerApellido": "rodriguez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400307020170116400",
-    "capitalAdeudado": 43,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "43041",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "14.703.952.55"
-    ],
-    "radicado": "2017 - 01164",
-    "vencimientoPagare": [
-      "1215-01-01T04:56:16.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 51673703,
+    "direccion": null,
+    "email": "CALLE 52 SUR No 97 C - 20"
   },
   "codeudor": {
     "direccion": 45531
   },
   "cc": 51673703,
-  "idProcesos": [
-    18367590
-  ],
   "procesos": [
     {
       "idProceso": 18367590,
@@ -55,5 +52,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    18367590
   ]
 }

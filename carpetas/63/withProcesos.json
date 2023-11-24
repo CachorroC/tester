@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001418900920170008900",
   "numero": 63,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001418900920170008900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2060072170,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-12-15T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      145608
+    ],
+    "radicado": "2017 - 00089",
+    "expediente": "11001418900920170008900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1022943195,
-    "direccion": "calle 72b bis no 5a 22 sur",
-    "email": "marcelaipuzsuarez@hotmail.com",
     "tel": {
       "fijo": 7493169,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "diana",
     "segundoNombre": "marcela",
     "primerApellido": "ipuz",
-    "segundoApellido": "suarez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "mandamientoPago": "2017-12-15T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
-    "expediente": "11001418900920170008900",
-    "capitalAdeudado": 2060072170,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      145608
-    ],
-    "radicado": "2017 - 00089",
-    "vencimientoPagare": [
-      "2021-11-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "suarez",
+    "cedula": 1022943195,
+    "direccion": "calle 72b bis no 5a 22 sur",
+    "email": "marcelaipuzsuarez@hotmail.com"
   },
   "codeudor": {
     "cedula": 1032416632,
@@ -42,6 +42,6 @@
     "telefono": "7493169 /3185405968"
   },
   "cc": 1022943195,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

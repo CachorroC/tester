@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25175400300320170026900",
   "numero": 18,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "25175400300320170026900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 67068123,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-07-10T00:00:00.000Z",
+    "etapaProcesal": "AUDIENCIA",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "municipio": "CHIA",
+    "obligacion": [
+      12645083,
+      12340733
+    ],
+    "radicado": "2017 - 00269",
+    "expediente": "25175400300320170026900"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 79205977,
-    "direccion": "cra 4 no. 5-51 chía",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "luis",
     "segundoNombre": "enrique",
     "primerApellido": "acosta",
-    "segundoApellido": "chavarria"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
-    "mandamientoPago": "2017-07-10T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
-    "expediente": "25175400300320170026900",
-    "capitalAdeudado": 67068123,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "AUDIENCIA",
-    "municipio": "CHIA",
-    "obligacion": [
-      12645083,
-      12340733
-    ],
-    "radicado": "2017 - 00269",
-    "vencimientoPagare": [
-      "2017-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "chavarria",
+    "cedula": 79205977,
+    "direccion": "cra 4 no. 5-51 chía",
+    "email": null
   },
   "cc": 79205977,
   "idProcesos": null

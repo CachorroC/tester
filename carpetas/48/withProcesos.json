@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303520170142500",
   "numero": 48,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400303520170142500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 28468389,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-09-26T00:00:00.000Z",
+    "etapaProcesal": "1.100140030352017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12549338
+    ],
+    "radicado": "2017 - 01425",
+    "expediente": "11001400303520170142500"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 52837630,
-    "direccion": "carrera  39 b no  27 a - 40 sur",
-    "email": "jennyadrianapt@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "jenny",
     "segundoNombre": "adriana",
     "primerApellido": "patarroyo",
-    "segundoApellido": "torres"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-09-26T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
-    "expediente": "11001400303520170142500",
-    "capitalAdeudado": 28468389,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "1.100140030352017e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12549338
-    ],
-    "radicado": "2017 - 01425",
-    "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "torres",
+    "cedula": 52837630,
+    "direccion": "carrera  39 b no  27 a - 40 sur",
+    "email": "jennyadrianapt@gmail.com"
   },
   "cc": 52837630,
-  "idProcesos": [
-    50746150
-  ],
   "procesos": [
     {
       "idProceso": 50746150,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50746150
   ]
 }

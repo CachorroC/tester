@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400300820170113400",
   "numero": 235,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 79853115,
-    "direccion": "diagonal 56 bis 84 a 10 sur tr 1",
-    "email": "fanor.diaz@gmail.com",
-    "tel": {
-      "fijo": 8060271,
-      "celular": 3212406193
-    },
-    "primerNombre": "fanor",
-    "segundoNombre": "diaz",
-    "primerApellido": "agudelo",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400300820170113400",
   "demanda": {
-    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
-    "mandamientoPago": "2017-09-21T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
-    "expediente": "11001400300820170113400",
+    "vencimientoPagare": [
+      "2017-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 27603821,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-21T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       148931
     ],
     "radicado": "2017 - 01134",
-    "vencimientoPagare": [
-      "2017-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300820170113400"
   },
-  "cc": 79853115,
-  "idProcesos": [
-    50716620
-  ],
-  "procesos": [
-    {
-      "idProceso": 50716620,
-      "idConexion": 259,
-      "llaveProceso": "11001400300820170113400",
-      "fechaProceso": "2017-09-19T00:00:00",
-      "fechaUltimaActuacion": "2023-07-27T00:00:00",
-      "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FANOR DIAZ AGUDELO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-07-27T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1824361210,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 82
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 8060271,
+      "celular": 3212406193
+    },
+    "primerNombre": "fanor",
+    "segundoNombre": "diaz",
+    "primerApellido": "agudelo",
+    "segundoApellido": null,
+    "cedula": 79853115,
+    "direccion": "diagonal 56 bis 84 a 10 sur tr 1",
+    "email": "fanor.diaz@gmail.com"
+  },
+  "cc": 79853115,
+  "procesos": [
+    {
+      "idProceso": 50716620,
+      "idConexion": 259,
+      "llaveProceso": "11001400300820170113400",
+      "fechaProceso": "2017-09-19T00:00:00",
+      "fechaUltimaActuacion": "2023-07-27T00:00:00",
+      "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FANOR DIAZ AGUDELO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50716620
+  ]
 }

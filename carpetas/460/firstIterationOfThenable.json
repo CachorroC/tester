@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400306620190040900",
   "numero": 460,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400306620190040900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "43294",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "16.399.509.25"
+    ],
+    "radicado": "2019 - 00409",
+    "expediente": "11001400306620190040900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79424825,
-    "direccion": "52205842",
-    "email": "DIAGONAL 31 No 24-63 SUR",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "jorge",
     "segundoNombre": "abdolonio",
     "primerApellido": "guerrero",
-    "segundoApellido": "hernandez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400306620190040900",
-    "capitalAdeudado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "43294",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "16.399.509.25"
-    ],
-    "radicado": "2019 - 00409",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "hernandez",
+    "cedula": 79424825,
+    "direccion": "52205842",
+    "email": "DIAGONAL 31 No 24-63 SUR"
   },
   "codeudor": {
     "cedula": "CLAUDIA JASMIN GOMEZ GUERRERO",

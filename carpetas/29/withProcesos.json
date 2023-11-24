@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25175400300120170051100",
   "numero": 29,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25175400300120170051100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2029-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 5121749686,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-26T00:00:00.000Z",
+    "municipio": "CHIA",
+    "obligacion": [
+      179301
+    ],
+    "radicado": "2017 - 00511",
+    "expediente": "25175400300120170051100"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80814800,
-    "direccion": "carrera  9 no 19 - 59 chia",
-    "email": "whitman.najarramirez@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +30,12 @@
     "primerNombre": "whitman",
     "segundoNombre": "jeferson",
     "primerApellido": "najar",
-    "segundoApellido": "ramirez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-26T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
-    "expediente": "25175400300120170051100",
-    "capitalAdeudado": 5121749686,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "CHIA",
-    "obligacion": [
-      179301
-    ],
-    "radicado": "2017 - 00511",
-    "vencimientoPagare": [
-      "2029-12-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "ramirez",
+    "cedula": 80814800,
+    "direccion": "carrera  9 no 19 - 59 chia",
+    "email": "whitman.najarramirez@hotmail.com"
   },
   "cc": 80814800,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001418901420190065600",
   "numero": 463,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418901420190065600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-02-01T05:00:00.000Z",
+      "2021-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 24501535,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-07-05T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2019-05-07T00:00:00.000Z",
+    "etapaProcesal": "CONTESTACION DEMANDA",
+    "fechaPresentacion": "2018-07-12T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "AMERICAN 0377814037749057",
+      "VISA 4513083943843365 // MASTER 5303729958258417"
+    ],
+    "radicado": "2019 - 00656",
+    "expediente": "11001418901420190065600"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 52883958,
-    "direccion": "diagonal 2 no 21 b-20",
-    "email": "leidyyaneth.lyv@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +32,10 @@
     "primerNombre": "leidy",
     "segundoNombre": "yaneth",
     "primerApellido": "vidal",
-    "segundoApellido": "rodriguez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-07-12T00:00:00.000Z",
-    "mandamientoPago": "2019-05-07T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-07-05T00:00:00.000Z",
-    "expediente": "11001418901420190065600",
-    "capitalAdeudado": 24501535,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "CONTESTACION DEMANDA",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "AMERICAN 0377814037749057",
-      "VISA 4513083943843365 // MASTER 5303729958258417"
-    ],
-    "radicado": "2019 - 00656",
-    "vencimientoPagare": [
-      "2021-02-01T05:00:00.000Z",
-      "2021-02-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "rodriguez",
+    "cedula": 52883958,
+    "direccion": "diagonal 2 no 21 b-20",
+    "email": "leidyyaneth.lyv@gmail.com"
   },
   "cc": 52883958,
   "idProcesos": null

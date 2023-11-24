@@ -1,35 +1,7 @@
 {
-  "llaveProceso": null,
   "numero": 591,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 1110450902,
-    "direccion": "calle 139 7 c - 80 apartamento 307 edificio andaluz",
-    "email": "alejavalbar@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3105821483
-    },
-    "primerNombre": "mayra",
-    "segundoNombre": "alejandra",
-    "primerApellido": "valbuena",
-    "segundoApellido": "barrero"
-  },
+  "llaveProceso": null,
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-10-13T00:00:00.000Z",
-    "expediente": null,
-    "capitalAdeudado": 106398151,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2170096325,
-      "2170097811 //2170097810 // 2170097809 //"
-    ],
-    "radicado": null,
     "vencimientoPagare": [
       "2026-02-01T05:00:00.000Z",
       "2026-05-01T05:00:00.000Z",
@@ -37,8 +9,36 @@
       "2026-02-01T05:00:00.000Z",
       "2026-05-01T05:00:00.000Z"
     ],
+    "juzgados": [],
+    "capitalAdeudado": 106398151,
     "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "entregaGarantiasAbogado": "2023-10-13T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2170096325,
+      "2170097811 //2170097810 // 2170097809 //"
+    ],
+    "radicado": null,
+    "expediente": null
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3105821483
+    },
+    "primerNombre": "mayra",
+    "segundoNombre": "alejandra",
+    "primerApellido": "valbuena",
+    "segundoApellido": "barrero",
+    "cedula": 1110450902,
+    "direccion": "calle 139 7 c - 80 apartamento 307 edificio andaluz",
+    "email": "alejavalbar@hotmail.com"
   },
   "cc": 1110450902,
   "idProcesos": null

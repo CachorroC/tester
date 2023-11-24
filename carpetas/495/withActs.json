@@ -1,60 +1,27 @@
 {
-  "llaveProceso": "11001400300320180123600",
   "numero": 495,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 17099495,
-    "direccion": "calle 29 no 23-46  torre 1 apto 701",
-    "email": "pablomendoza44@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "pablo",
-    "segundoNombre": "elias",
-    "primerApellido": "mendoza",
-    "segundoApellido": "murillo"
-  },
+  "llaveProceso": "11001400300320180123600",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400300320180123600",
+    "vencimientoPagare": [
+      "2021-08-01T05:00:00.000Z",
+      "2018-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 29229159,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "1.100140030032018e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRESTAMO",
       377814420105917
     ],
     "radicado": "2018 - 01236",
-    "vencimientoPagare": [
-      "2021-08-01T05:00:00.000Z",
-      "2018-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300320180123600"
   },
-  "cc": 17099495,
-  "idProcesos": [
-    51431830
-  ],
-  "procesos": [
-    {
-      "idProceso": 51431830,
-      "idConexion": 259,
-      "llaveProceso": "11001400300320180123600",
-      "fechaProceso": "2018-10-02T00:00:00",
-      "fechaUltimaActuacion": "2021-12-06T00:00:00",
-      "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PABLO ELIAS MENDOZA MURILLO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2021-12-06T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1237275320,
@@ -69,5 +36,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 38
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "pablo",
+    "segundoNombre": "elias",
+    "primerApellido": "mendoza",
+    "segundoApellido": "murillo",
+    "cedula": 17099495,
+    "direccion": "calle 29 no 23-46  torre 1 apto 701",
+    "email": "pablomendoza44@gmail.com"
+  },
+  "cc": 17099495,
+  "procesos": [
+    {
+      "idProceso": 51431830,
+      "idConexion": 259,
+      "llaveProceso": "11001400300320180123600",
+      "fechaProceso": "2018-10-02T00:00:00",
+      "fechaUltimaActuacion": "2021-12-06T00:00:00",
+      "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PABLO ELIAS MENDOZA MURILLO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51431830
+  ]
 }

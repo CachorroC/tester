@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400300820170127300",
   "numero": 215,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 36458257,
-    "direccion": "carrera 98b # 14 - 06 casa 155",
-    "email": "luzdary.hurtado.rios@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "luz",
-    "segundoNombre": "dary",
-    "primerApellido": "hurtado",
-    "segundoApellido": "rios"
-  },
+  "llaveProceso": "11001400300820170127300",
   "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": "2017-11-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
-    "expediente": "11001400300820170127300",
+    "vencimientoPagare": [
+      "2017-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1224166548,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-11-03T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       85677
     ],
     "radicado": "2017 - 01273",
-    "vencimientoPagare": [
-      "2017-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300820170127300"
   },
-  "codeudor": {
-    "cedula": 80228299,
-    "direccion": "CARRERA 98B # 14 - 06 PUEBLO NUEVO 1",
-    "nombre": "jorge armando lopez castaño",
-    "telefono": 4185127
-  },
-  "cc": 36458257,
-  "idProcesos": [
-    50776700
-  ],
-  "procesos": [
-    {
-      "idProceso": 50776700,
-      "idConexion": 259,
-      "llaveProceso": "11001400300820170127300",
-      "fechaProceso": "2017-10-13T00:00:00",
-      "fechaUltimaActuacion": "2018-03-08T00:00:00",
-      "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: ABOGADOS ESPECIALÑIZADOS EN CONBRANZAS SA - AECSA | Demandado: JORGE ARMANDO LOPEZ CASTAÑO | Demandado: LUZ DARY HURTADO RIOS ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-03-08T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 602065020,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 15
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "luz",
+    "segundoNombre": "dary",
+    "primerApellido": "hurtado",
+    "segundoApellido": "rios",
+    "cedula": 36458257,
+    "direccion": "carrera 98b # 14 - 06 casa 155",
+    "email": "luzdary.hurtado.rios@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 80228299,
+    "direccion": "CARRERA 98B # 14 - 06 PUEBLO NUEVO 1",
+    "nombre": "jorge armando lopez castaño",
+    "telefono": 4185127
+  },
+  "cc": 36458257,
+  "procesos": [
+    {
+      "idProceso": 50776700,
+      "idConexion": 259,
+      "llaveProceso": "11001400300820170127300",
+      "fechaProceso": "2017-10-13T00:00:00",
+      "fechaUltimaActuacion": "2018-03-08T00:00:00",
+      "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: ABOGADOS ESPECIALÑIZADOS EN CONBRANZAS SA - AECSA | Demandado: JORGE ARMANDO LOPEZ CASTAÑO | Demandado: LUZ DARY HURTADO RIOS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50776700
+  ]
 }

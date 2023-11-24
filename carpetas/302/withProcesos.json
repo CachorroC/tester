@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25286310300120170100300",
   "numero": 302,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25286310300120170100300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2032-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 15323634648,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-12T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-10-19T00:00:00.000Z",
+    "municipio": "FUNZA",
+    "obligacion": [
+      159541
+    ],
+    "radicado": "2017 - 01003",
+    "expediente": "25286310300120170100300"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79906707,
-    "direccion": "carrer 5  no 2-35  manzana 21 casa 208- mosquera",
-    "email": "s3curityinformation@gmail.com",
     "tel": {
       "fijo": 8272125,
       "celular": 3005821212
@@ -14,26 +30,10 @@
     "primerNombre": "edgar",
     "segundoNombre": "godoy",
     "primerApellido": "lopez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-19T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-10-12T00:00:00.000Z",
-    "expediente": "25286310300120170100300",
-    "capitalAdeudado": 15323634648,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "FUNZA",
-    "obligacion": [
-      159541
-    ],
-    "radicado": "2017 - 01003",
-    "vencimientoPagare": [
-      "2032-12-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79906707,
+    "direccion": "carrer 5  no 2-35  manzana 21 casa 208- mosquera",
+    "email": "s3curityinformation@gmail.com"
   },
   "codeudor": {
     "cedula": 39678085,
@@ -42,6 +42,6 @@
     "telefono": 2705042
   },
   "cc": 79906707,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304820170087900",
   "numero": 232,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400304820170087900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2033-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1984475717,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-19T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      162559
+    ],
+    "radicado": "2017 - 00879",
+    "expediente": "11001400304820170087900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1023868827,
-    "direccion": "calle 39 sur 9b 29 este",
-    "email": "sandrujs2009@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "sandra",
     "segundoNombre": "milena",
     "primerApellido": "cubillos",
-    "segundoApellido": "linares"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
-    "mandamientoPago": "2017-10-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
-    "expediente": "11001400304820170087900",
-    "capitalAdeudado": 1984475717,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      162559
-    ],
-    "radicado": "2017 - 00879",
-    "vencimientoPagare": [
-      "2033-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "linares",
+    "cedula": 1023868827,
+    "direccion": "calle 39 sur 9b 29 este",
+    "email": "sandrujs2009@hotmail.com"
   },
   "cc": 1023868827,
-  "idProcesos": [
-    10684603
-  ],
   "procesos": [
     {
       "idProceso": 10684603,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    10684603
   ]
 }

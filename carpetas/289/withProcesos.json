@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301820170152200",
   "numero": 289,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400301820170152200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 14645611,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-26T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      5.30694043274047e+29
+    ],
+    "radicado": "2017 - 01522",
+    "expediente": "11001400301820170152200"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 12229243,
-    "direccion": "avenida 1 de mayo no 29-06",
-    "email": "serdiajo@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,43 +30,27 @@
     "primerNombre": "jose",
     "segundoNombre": "ahinsonjober",
     "primerApellido": "toro",
-    "segundoApellido": "vargas"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-14T00:00:00.000Z",
-    "mandamientoPago": "2017-09-26T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
-    "expediente": "11001400301820170152200",
-    "capitalAdeudado": 14645611,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5.30694043274047e+29
-    ],
-    "radicado": "2017 - 01522",
-    "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "vargas",
+    "cedula": 12229243,
+    "direccion": "avenida 1 de mayo no 29-06",
+    "email": "serdiajo@gmail.com"
   },
   "cc": 12229243,
-  "idProcesos": [
-    50711570
-  ],
   "procesos": [
     {
       "idProceso": 50711570,
       "idConexion": 259,
       "llaveProceso": "11001400301820170152200",
       "fechaProceso": "2017-09-18T00:00:00",
-      "fechaUltimaActuacion": "2023-11-09T00:00:00",
+      "fechaUltimaActuacion": "2023-12-01T00:00:00",
       "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE AHINSONJOVER TORO VARGAS ",
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50711570
   ]
 }

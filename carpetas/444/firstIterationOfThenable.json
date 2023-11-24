@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400304020180089600",
   "numero": 444,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400304020180089600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "43270",
+    "fechaPresentacion": "2018-06-26T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377816279930352,
+      3682055951
+    ],
+    "radicado": "2018 - 00896",
+    "expediente": "11001400304020180089600"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79562532,
-    "direccion": null,
-    "email": "CALLE 34 No 34C- 38 SUR",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "pablo",
     "segundoNombre": "cesar",
     "primerApellido": "soacha",
-    "segundoApellido": "morales"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-06-26T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400304020180089600",
-    "capitalAdeudado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "43270",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      377816279930352,
-      3682055951
-    ],
-    "radicado": "2018 - 00896",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "morales",
+    "cedula": 79562532,
+    "direccion": null,
+    "email": "CALLE 34 No 34C- 38 SUR"
   },
   "cc": 79562532,
   "idProcesos": null

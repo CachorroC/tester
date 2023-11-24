@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400308120180051400",
   "numero": 530,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400308120180051400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 14409411,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-04-21T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-04-30T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-04-25T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4.0998833882814e+30,
+      5.30372988731428e+29
+    ],
+    "radicado": "2018 - 00514",
+    "expediente": "11001400308120180051400"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 35455606,
-    "direccion": "calle 175 no 70-40",
-    "email": "mariaclarareyes@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,32 +31,12 @@
     "primerNombre": "maria",
     "segundoNombre": "clara",
     "primerApellido": "reyes",
-    "segundoApellido": "reyes"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-04-25T00:00:00.000Z",
-    "mandamientoPago": "2018-04-30T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-04-21T00:00:00.000Z",
-    "expediente": "11001400308120180051400",
-    "capitalAdeudado": 14409411,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4.0998833882814e+30,
-      5.30372988731428e+29
-    ],
-    "radicado": "2018 - 00514",
-    "vencimientoPagare": [
-      "2020-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "reyes",
+    "cedula": 35455606,
+    "direccion": "calle 175 no 70-40",
+    "email": "mariaclarareyes@hotmail.com"
   },
   "cc": 35455606,
-  "idProcesos": [
-    51918470
-  ],
   "procesos": [
     {
       "idProceso": 51918470,
@@ -53,5 +50,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51918470
   ]
 }

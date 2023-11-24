@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25754418900220180036400",
   "numero": 412,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754418900220180036400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1986545427,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-04-26T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": [
+      20990147276
+    ],
+    "radicado": "2018 - 00364",
+    "expediente": "25754418900220180036400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80896755,
-    "direccion": "carrera 7c- no 02-85 sur",
-    "email": "fabiop0917@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3204063623
@@ -14,26 +30,10 @@
     "primerNombre": "fabio",
     "segundoNombre": "nelson",
     "primerApellido": "perez",
-    "segundoApellido": "cristiano"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-04-26T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
-    "expediente": "25754418900220180036400",
-    "capitalAdeudado": 1986545427,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990147276
-    ],
-    "radicado": "2018 - 00364",
-    "vencimientoPagare": [
-      "2026-12-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "cristiano",
+    "cedula": 80896755,
+    "direccion": "carrera 7c- no 02-85 sur",
+    "email": "fabiop0917@hotmail.com"
   },
   "codeudor": {
     "cedula": 53122368,
@@ -42,6 +42,6 @@
     "telefono": 3006354505
   },
   "cc": 80896755,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

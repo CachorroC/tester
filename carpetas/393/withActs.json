@@ -1,56 +1,23 @@
 {
-  "llaveProceso": "11001400303820180014900",
   "numero": 393,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79134529,
-    "direccion": "carrera 79 no 19a - 28. apartamento 1102",
-    "email": "aeljogarcia69@gmail.com",
-    "tel": {
-      "fijo": 6356262,
-      "celular": 3013377704
-    },
-    "primerNombre": "miguel",
-    "segundoNombre": "alejandro",
-    "primerApellido": "garcia",
-    "segundoApellido": "rodriguez"
-  },
+  "llaveProceso": "11001400303820180014900",
   "demanda": {
-    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400303820180014900",
+    "vencimientoPagare": [],
+    "juzgados": [],
     "capitalAdeudado": 2585739366,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       377816034306740
     ],
     "radicado": "2018 - 00149",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303820180014900"
   },
-  "cc": 79134529,
-  "idProcesos": [
-    9088093
-  ],
-  "procesos": [
-    {
-      "idProceso": 9088093,
-      "idConexion": 261,
-      "llaveProceso": "11001400303820180014900",
-      "fechaProceso": "2018-02-07T00:00:00",
-      "fechaUltimaActuacion": "2021-05-27T00:00:00",
-      "despacho": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MIGUEL ALEJANDRO GARCIA RODRIGUEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2021-05-27T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1024952143,
@@ -65,5 +32,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 29
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6356262,
+      "celular": 3013377704
+    },
+    "primerNombre": "miguel",
+    "segundoNombre": "alejandro",
+    "primerApellido": "garcia",
+    "segundoApellido": "rodriguez",
+    "cedula": 79134529,
+    "direccion": "carrera 79 no 19a - 28. apartamento 1102",
+    "email": "aeljogarcia69@gmail.com"
+  },
+  "cc": 79134529,
+  "procesos": [
+    {
+      "idProceso": 9088093,
+      "idConexion": 261,
+      "llaveProceso": "11001400303820180014900",
+      "fechaProceso": "2018-02-07T00:00:00",
+      "fechaUltimaActuacion": "2021-05-27T00:00:00",
+      "despacho": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MIGUEL ALEJANDRO GARCIA RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    9088093
+  ]
 }

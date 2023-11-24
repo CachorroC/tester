@@ -4,10 +4,10 @@
     "outDir": "dist",
     "resolveJsonModule": true,
     "module": "NodeNext",
-    "target": "ES6",
+    "target": "ESNext",
     "jsx": "react",
     "strict": true,
-    "lib": ["esnext", "DOM", "DOM.Iterable", "WebWorker"],
+    "lib": ["ES2017.Object","esnext", "DOM", "DOM.Iterable", "WebWorker"],
     "esModuleInterop": true
   },
   "exclude": ["node_modules"]

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303420170123600",
   "numero": 252,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400303420170123600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2027-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2646930975,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-05T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-25T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      147600
+    ],
+    "radicado": "2017 - 01236",
+    "expediente": "11001400303420170123600"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1023863956,
-    "direccion": "calle 67 c sur 1 b 23 est",
-    "email": "angelsuarez.23@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "angel",
     "segundoNombre": "jovani",
     "primerApellido": "suarez",
-    "segundoApellido": "gomez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-14T00:00:00.000Z",
-    "mandamientoPago": "2017-10-25T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-05T00:00:00.000Z",
-    "expediente": "11001400303420170123600",
-    "capitalAdeudado": 2646930975,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      147600
-    ],
-    "radicado": "2017 - 01236",
-    "vencimientoPagare": [
-      "2027-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "gomez",
+    "cedula": 1023863956,
+    "direccion": "calle 67 c sur 1 b 23 est",
+    "email": "angelsuarez.23@hotmail.com"
   },
   "codeudor": {
     "cedula": 1032423457,

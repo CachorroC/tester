@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "257544189003201800177",
   "numero": 404,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "257544189003201800177",
+  "demanda": {
+    "vencimientoPagare": [
+      "2033-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1823608830,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      167362
+    ],
+    "radicado": "2018 - 00177",
+    "expediente": "257544189003201800177"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1013586083,
-    "direccion": "diagonal 18 b no 44-24",
-    "email": "cesar.rios_30@hotmail.com",
     "tel": {
       "fijo": 2035780,
       "celular": 3102259717
@@ -14,26 +30,10 @@
     "primerNombre": "cesar",
     "segundoNombre": "augusto",
     "primerApellido": "pineda",
-    "segundoApellido": "rios"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "257544189003201800177",
-    "capitalAdeudado": 1823608830,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "SENTENCIA",
-    "municipio": "SOACHA",
-    "obligacion": [
-      167362
-    ],
-    "radicado": "2018 - 00177",
-    "vencimientoPagare": [
-      "2033-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "rios",
+    "cedula": 1013586083,
+    "direccion": "diagonal 18 b no 44-24",
+    "email": "cesar.rios_30@hotmail.com"
   },
   "cc": 1013586083,
   "idProcesos": null

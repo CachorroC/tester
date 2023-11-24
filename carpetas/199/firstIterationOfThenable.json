@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "73449408900220170025900",
   "numero": 199,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "73449408900220170025900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 28594040,
+    "departamento": "TOLIMA",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-31T00:00:00.000Z",
+    "municipio": "MELGAR",
+    "obligacion": [
+      12650694
+    ],
+    "radicado": "2017 - 00259",
+    "expediente": "73449408900220170025900"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 1106893308,
-    "direccion": "vereda boqueron  finca la milagrosa municipio fusa // calle 3 # 37 - 21 barrio sicamoro melgar",
-    "email": "liliaramirez17@gmail.com",
     "tel": {
       "fijo": 8612781,
       "celular": 3108612781
@@ -14,26 +30,10 @@
     "primerNombre": "martha",
     "segundoNombre": "liliana",
     "primerApellido": "ramirez",
-    "segundoApellido": "colorado"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-31T00:00:00.000Z",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
-    "expediente": "73449408900220170025900",
-    "capitalAdeudado": 28594040,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "MELGAR",
-    "obligacion": [
-      12650694
-    ],
-    "radicado": "2017 - 00259",
-    "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
-    ],
-    "departamento": "TOLIMA",
-    "juzgados": []
+    "segundoApellido": "colorado",
+    "cedula": 1106893308,
+    "direccion": "vereda boqueron  finca la milagrosa municipio fusa // calle 3 # 37 - 21 barrio sicamoro melgar",
+    "email": "liliaramirez17@gmail.com"
   },
   "cc": 1106893308,
   "idProcesos": null

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400305120170111300",
   "numero": 295,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400305120170111300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 25845669,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-10-02T00:00:00.000Z",
+    "etapaProcesal": "PENDIENTE SENTENCIA Y OFICIOS",
+    "fechaPresentacion": "2017-09-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12389160
+    ],
+    "radicado": "2017 - 01113",
+    "expediente": "11001400305120170111300"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 36536419,
-    "direccion": "calle 124 no  20-76 apartamento 503",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "rita",
     "segundoNombre": "cecilia",
     "primerApellido": "fernandez",
-    "segundoApellido": "ibañez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-21T00:00:00.000Z",
-    "mandamientoPago": "2017-10-02T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
-    "expediente": "11001400305120170111300",
-    "capitalAdeudado": 25845669,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "PENDIENTE SENTENCIA Y OFICIOS",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12389160
-    ],
-    "radicado": "2017 - 01113",
-    "vencimientoPagare": [
-      "2020-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "ibañez",
+    "cedula": 36536419,
+    "direccion": "calle 124 no  20-76 apartamento 503",
+    "email": null
   },
   "cc": 36536419,
-  "idProcesos": [
-    110568033
-  ],
   "procesos": [
     {
       "idProceso": 110568033,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    110568033
   ]
 }

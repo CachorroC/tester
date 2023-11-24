@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400306520170093400",
   "numero": 89,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1030551366,
-    "direccion": "carrera 78p bis # 33a - 91 sur",
-    "email": "jvargas88@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "julian",
-    "segundoNombre": "armando",
-    "primerApellido": "acosta",
-    "segundoApellido": "rodriguez"
-  },
+  "llaveProceso": "11001400306520170093400",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400306520170093400",
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 8451598,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12431049
     ],
     "radicado": "2017 - 00615",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306520170093400"
   },
-  "cc": 1030551366,
-  "idProcesos": [
-    18162740
-  ],
-  "procesos": [
-    {
-      "idProceso": 18162740,
-      "idConexion": 260,
-      "llaveProceso": "11001400306520170093400",
-      "fechaProceso": "2017-06-21T00:00:00",
-      "fechaUltimaActuacion": "2017-07-17T00:00:00",
-      "despacho": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JULIAN ARMANDO ACOSTA RODRIGUEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2017-07-17T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 265091220,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 8
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "julian",
+    "segundoNombre": "armando",
+    "primerApellido": "acosta",
+    "segundoApellido": "rodriguez",
+    "cedula": 1030551366,
+    "direccion": "carrera 78p bis # 33a - 91 sur",
+    "email": "jvargas88@hotmail.com"
+  },
+  "cc": 1030551366,
+  "procesos": [
+    {
+      "idProceso": 18162740,
+      "idConexion": 260,
+      "llaveProceso": "11001400306520170093400",
+      "fechaProceso": "2017-06-21T00:00:00",
+      "fechaUltimaActuacion": "2017-07-17T00:00:00",
+      "despacho": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JULIAN ARMANDO ACOSTA RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    18162740
+  ]
 }

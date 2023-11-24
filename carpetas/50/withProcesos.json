@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400303420180061400",
   "numero": 50,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400303420180061400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2019-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 22309546,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-09-03T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "1800088260//377813230167802",
+      4513070115042991
+    ],
+    "radicado": "2018 - 00614",
+    "expediente": "11001400303420180061400"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 52444244,
-    "direccion": "carrera 54 c no. 143 s-90",
-    "email": "gloriaaz@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": 3212062887
@@ -14,32 +31,12 @@
     "primerNombre": "gloria",
     "segundoNombre": "astrid",
     "primerApellido": "rodríguez",
-    "segundoApellido": "baquero"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-09-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400303420180061400",
-    "capitalAdeudado": 22309546,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "1800088260//377813230167802",
-      4513070115042991
-    ],
-    "radicado": "2018 - 00614",
-    "vencimientoPagare": [
-      "2019-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "baquero",
+    "cedula": 52444244,
+    "direccion": "carrera 54 c no. 143 s-90",
+    "email": "gloriaaz@yahoo.com"
   },
   "cc": 52444244,
-  "idProcesos": [
-    51259250
-  ],
   "procesos": [
     {
       "idProceso": 51259250,
@@ -53,5 +50,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51259250
   ]
 }

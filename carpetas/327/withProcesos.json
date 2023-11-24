@@ -1,12 +1,27 @@
 {
-  "llaveProceso": "11001400301220170136900",
   "numero": 327,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400301220170136900",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-11-14T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      43945,
+      80517
+    ],
+    "radicado": "2017 - 01369",
+    "expediente": "11001400301220170136900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 94524378,
-    "direccion": "jose.daniel.escobar@hotmail.co",
-    "email": "6332400 / 3155459543",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,33 +29,15 @@
     "primerNombre": "jose",
     "segundoNombre": "daniel",
     "primerApellido": "escobar",
-    "segundoApellido": "patiño"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-11-14T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400301220170136900",
-    "capitalAdeudado": 0,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      43945,
-      80517
-    ],
-    "radicado": "2017 - 01369",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "patiño",
+    "cedula": 94524378,
+    "direccion": "jose.daniel.escobar@hotmail.co",
+    "email": "6332400 / 3155459543"
   },
   "codeudor": {
     "cedula": "CARRERA 19 A  No 136- 73 APARTAMENTO 402 NIVEL 5 o´4"
   },
   "cc": 94524378,
-  "idProcesos": [
-    50848760
-  ],
   "procesos": [
     {
       "idProceso": 50848760,
@@ -54,5 +51,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50848760
   ]
 }

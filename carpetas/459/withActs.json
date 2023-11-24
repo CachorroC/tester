@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400305320180094500",
   "numero": 459,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79857627,
-    "direccion": "calle 131  no 109-13",
-    "email": "cesarvanegas1425@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3108121876
-    },
-    "primerNombre": "cesar",
-    "segundoNombre": "armando",
-    "primerApellido": "vanegas",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400305320180094500",
   "demanda": {
-    "fechaPresentacion": "2018-07-23T00:00:00.000Z",
-    "mandamientoPago": "2018-08-23T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-07-16T00:00:00.000Z",
-    "expediente": "11001400305320180094500",
+    "vencimientoPagare": [
+      "2024-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 3249244300,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-07-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-08-23T00:00:00.000Z",
     "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-07-23T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       5470085449
     ],
     "radicado": "2018 - 00945",
-    "vencimientoPagare": [
-      "2024-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400305320180094500"
   },
-  "cc": 79857627,
-  "idProcesos": [
-    64641230
-  ],
-  "procesos": [
-    {
-      "idProceso": 64641230,
-      "idConexion": 259,
-      "llaveProceso": "11001400305320180094500",
-      "fechaProceso": "2018-07-25T00:00:00",
-      "fechaUltimaActuacion": "2020-02-17T00:00:00",
-      "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CESAR ARMANDO VANEGAS ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-02-17T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 958263380,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 41
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3108121876
+    },
+    "primerNombre": "cesar",
+    "segundoNombre": "armando",
+    "primerApellido": "vanegas",
+    "segundoApellido": null,
+    "cedula": 79857627,
+    "direccion": "calle 131  no 109-13",
+    "email": "cesarvanegas1425@gmail.com"
+  },
+  "cc": 79857627,
+  "procesos": [
+    {
+      "idProceso": 64641230,
+      "idConexion": 259,
+      "llaveProceso": "11001400305320180094500",
+      "fechaProceso": "2018-07-25T00:00:00",
+      "fechaUltimaActuacion": "2020-02-17T00:00:00",
+      "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CESAR ARMANDO VANEGAS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    64641230
+  ]
 }

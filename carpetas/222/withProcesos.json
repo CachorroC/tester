@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302820170085800",
   "numero": 222,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302820170085800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2022-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 5114547458,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-30T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-12T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      96356
+    ],
+    "radicado": "2017 - 00858",
+    "expediente": "11001400302820170085800"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79332273,
-    "direccion": "carrera 13 # 155 - 88 casa 39",
-    "email": "htcolombia@gmail.com",
     "tel": {
       "fijo": 5705869,
       "celular": 3005705869
@@ -14,26 +30,10 @@
     "primerNombre": "dufresny",
     "segundoNombre": "augusto",
     "primerApellido": "pinilla",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": "2017-09-12T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-30T00:00:00.000Z",
-    "expediente": "11001400302820170085800",
-    "capitalAdeudado": 5114547458,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      96356
-    ],
-    "radicado": "2017 - 00858",
-    "vencimientoPagare": [
-      "2022-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79332273,
+    "direccion": "carrera 13 # 155 - 88 casa 39",
+    "email": "htcolombia@gmail.com"
   },
   "codeudor": {
     "cedula": 51922265,
@@ -42,9 +42,6 @@
     "telefono": "6443645 // 7584507"
   },
   "cc": 79332273,
-  "idProcesos": [
-    50688520
-  ],
   "procesos": [
     {
       "idProceso": 50688520,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50688520
   ]
 }

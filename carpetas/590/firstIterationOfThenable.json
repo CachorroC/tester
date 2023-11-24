@@ -1,12 +1,30 @@
 {
-  "llaveProceso": null,
   "numero": 590,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": null,
+  "demanda": {
+    "vencimientoPagare": [
+      "2025-12-01T05:00:00.000Z",
+      "2026-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 56478909,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-10-09T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      310149501,
+      "101269167 T.C. MASTER CARD 5303730423512131"
+    ],
+    "radicado": null,
+    "expediente": null
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 10051411,
-    "direccion": "calle 6a.  c no. 82a - 91",
-    "email": "edisoccer_3@hotmail.com",
     "tel": {
       "fijo": 2650706,
       "celular": 6012650706
@@ -14,28 +32,10 @@
     "primerNombre": "edwin",
     "segundoNombre": "jaramillo",
     "primerApellido": "gallego",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-10-09T00:00:00.000Z",
-    "expediente": null,
-    "capitalAdeudado": 56478909,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      310149501,
-      "101269167 T.C. MASTER CARD 5303730423512131"
-    ],
-    "radicado": null,
-    "vencimientoPagare": [
-      "2025-12-01T05:00:00.000Z",
-      "2026-06-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 10051411,
+    "direccion": "calle 6a.  c no. 82a - 91",
+    "email": "edisoccer_3@hotmail.com"
   },
   "cc": 10051411,
   "idProcesos": null

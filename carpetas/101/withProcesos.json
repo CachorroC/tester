@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301020170065301",
   "numero": 101,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400301020170065301",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 5446840136,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-08-03T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12545412
+    ],
+    "radicado": "2017 - 00653",
+    "expediente": "11001400301020170065301"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 57452535,
-    "direccion": "calle 102 # 15 - 58 apto 204",
-    "email": "lei.m@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3004975278
@@ -14,31 +30,12 @@
     "primerNombre": "leila",
     "segundoNombre": "johanna",
     "primerApellido": "martinez",
-    "segundoApellido": "mora"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
-    "mandamientoPago": "2017-08-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
-    "expediente": "11001400301020170065301",
-    "capitalAdeudado": 5446840136,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12545412
-    ],
-    "radicado": "2017 - 00653",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "mora",
+    "cedula": 57452535,
+    "direccion": "calle 102 # 15 - 58 apto 204",
+    "email": "lei.m@hotmail.com"
   },
   "cc": 57452535,
-  "idProcesos": [
-    50540650
-  ],
   "procesos": [
     {
       "idProceso": 50540650,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50540650
   ]
 }

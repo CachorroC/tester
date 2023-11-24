@@ -1,66 +1,27 @@
 {
-  "llaveProceso": "11001400306420170146900",
   "numero": 206,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 80729141,
-    "direccion": "carrera 17 f 71a - 95 sur  casa 239",
-    "email": "edgar_julian@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "edgar",
-    "segundoNombre": "martinez",
-    "primerApellido": "velandia",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400306420170146900",
   "demanda": {
-    "fechaPresentacion": "2017-09-05T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
-    "expediente": "11001400306420170146900",
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z",
+      "2021-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 3055616098,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-05T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       120356,
       1590082995
     ],
     "radicado": "2017 - 01469",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z",
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306420170146900"
   },
-  "codeudor": {
-    "cedula": 53067213,
-    "direccion": "CARRERA 6 # 17 - 90",
-    "nombre": "angie paola diaz pastas",
-    "telefono": 5383916
-  },
-  "cc": 80729141,
-  "idProcesos": [
-    17944250
-  ],
-  "procesos": [
-    {
-      "idProceso": 17944250,
-      "idConexion": 260,
-      "llaveProceso": "11001400306420170146900",
-      "fechaProceso": "2017-10-26T00:00:00",
-      "fechaUltimaActuacion": "2017-12-01T00:00:00",
-      "despacho": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: EDGAR MARTINEZ VELANDIA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2017-12-01T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 265839730,
@@ -75,5 +36,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 10
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "edgar",
+    "segundoNombre": "martinez",
+    "primerApellido": "velandia",
+    "segundoApellido": null,
+    "cedula": 80729141,
+    "direccion": "carrera 17 f 71a - 95 sur  casa 239",
+    "email": "edgar_julian@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 53067213,
+    "direccion": "CARRERA 6 # 17 - 90",
+    "nombre": "angie paola diaz pastas",
+    "telefono": 5383916
+  },
+  "cc": 80729141,
+  "procesos": [
+    {
+      "idProceso": 17944250,
+      "idConexion": 260,
+      "llaveProceso": "11001400306420170146900",
+      "fechaProceso": "2017-10-26T00:00:00",
+      "fechaUltimaActuacion": "2017-12-01T00:00:00",
+      "despacho": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: EDGAR MARTINEZ VELANDIA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    17944250
+  ]
 }

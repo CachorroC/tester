@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001418900420230088400",
   "numero": 562,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418900420230088400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-05-01T05:00:00.000Z",
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 25252953,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      9960086465,
+      "TARJETA DE CREDITO MASTER CARD 5303720132348190"
+    ],
+    "radicado": "2023 - 00985",
+    "expediente": "11001418900420230088400"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 17139148,
-    "direccion": "carrera 80 no. 8 - 11 torre 3 interior 5 apartamento 519 torres de santa barbara conjunto residencial",
-    "email": "ajasalama@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +32,10 @@
     "primerNombre": "mario",
     "segundoNombre": "hernan",
     "primerApellido": "salamanca",
-    "segundoApellido": "patiño"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "11001418900420230088400",
-    "capitalAdeudado": 25252953,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      9960086465,
-      "TARJETA DE CREDITO MASTER CARD 5303720132348190"
-    ],
-    "radicado": "2023 - 00985",
-    "vencimientoPagare": [
-      "2026-05-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "patiño",
+    "cedula": 17139148,
+    "direccion": "carrera 80 no. 8 - 11 torre 3 interior 5 apartamento 519 torres de santa barbara conjunto residencial",
+    "email": "ajasalama@gmail.com"
   },
   "cc": 17139148,
   "idProcesos": null

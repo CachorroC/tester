@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400306320170092400",
   "numero": 294,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400306320170092400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 48498610,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-09-25T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12676248
+    ],
+    "radicado": "2017 - 00924",
+    "expediente": "11001400306320170092400"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 79292743,
-    "direccion": "calle 86 a no 69 t -41  torre 1 apartamento 902",
-    "email": "hpulecio@cable.net.co",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "hernando",
     "segundoNombre": "pulecio",
     "primerApellido": "paredes",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-21T00:00:00.000Z",
-    "mandamientoPago": "2017-09-25T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
-    "expediente": "11001400306320170092400",
-    "capitalAdeudado": 48498610,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12676248
-    ],
-    "radicado": "2017 - 00924",
-    "vencimientoPagare": [
-      "2020-09-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79292743,
+    "direccion": "calle 86 a no 69 t -41  torre 1 apartamento 902",
+    "email": "hpulecio@cable.net.co"
   },
   "cc": 79292743,
   "idProcesos": null

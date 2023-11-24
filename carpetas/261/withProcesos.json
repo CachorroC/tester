@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400308220170111600",
   "numero": 261,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400308220170111600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1822048345,
+    "departamento": "CUNDINNAMARCA",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-10-05T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12686980
+    ],
+    "radicado": "2017 - 01116",
+    "expediente": "11001400308220170111600"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 79901800,
-    "direccion": "calle 1 no 78 m 21 bloque h4 apartamento 502",
-    "email": "dsenna_22@yahoo.com",
     "tel": {
       "fijo": 2737360,
       "celular": 3125489014
@@ -14,28 +30,12 @@
     "primerNombre": "daniel",
     "segundoNombre": "alberto",
     "primerApellido": "ibañez",
-    "segundoApellido": "delgado"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
-    "mandamientoPago": "2017-10-05T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
-    "expediente": "11001400308220170111600",
-    "capitalAdeudado": 1822048345,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12686980
-    ],
-    "radicado": "2017 - 01116",
-    "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINNAMARCA",
-    "juzgados": []
+    "segundoApellido": "delgado",
+    "cedula": 79901800,
+    "direccion": "calle 1 no 78 m 21 bloque h4 apartamento 502",
+    "email": "dsenna_22@yahoo.com"
   },
   "cc": 79901800,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

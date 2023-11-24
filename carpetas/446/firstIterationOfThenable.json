@@ -1,39 +1,39 @@
 {
-  "llaveProceso": "25899418900120180057300",
   "numero": 446,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79725365,
-    "direccion": null,
-    "email": "CALLE 36 No 69-56 SUR. B CARVAJAL",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "ricardo",
-    "primerApellido": "cuspoca",
-    "segundoApellido": null,
-    "segundoNombre": null
-  },
+  "llaveProceso": "25899418900120180057300",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "25899418900120180057300",
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 43,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
       "16.392987.23"
     ],
     "radicado": "2018 - 00573",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "expediente": "25899418900120180057300"
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "ricardo",
+    "segundoNombre": null,
+    "primerApellido": "cuspoca",
+    "segundoApellido": null,
+    "cedula": 79725365,
+    "direccion": null,
+    "email": "CALLE 36 No 69-56 SUR. B CARVAJAL"
   },
   "codeudor": {
     "direccion": 45523

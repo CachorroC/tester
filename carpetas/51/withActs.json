@@ -1,64 +1,26 @@
 {
-  "llaveProceso": "11001400300920170060700",
   "numero": 51,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 37549188,
-    "direccion": "carrera 54c no. 143-a-90//carrera 54c no. 143-a-90 apto 213 torre 2 conjunto residencial barcelona ph",
-    "email": "caromartinezvera@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3175921396
-    },
-    "primerNombre": "maria",
-    "segundoNombre": "carolina",
-    "primerApellido": "martinez",
-    "segundoApellido": "vera"
-  },
+  "llaveProceso": "11001400300920170060700",
   "demanda": {
-    "fechaPresentacion": "2017-06-23T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400300920170060700",
+    "vencimientoPagare": [
+      "2017-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 0,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-23T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "6610083691//161451//3778815787383070",
       "5303715153971258//4513076874137526//AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 00607",
-    "vencimientoPagare": [
-      "2017-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300920170060700"
   },
-  "codeudor": {
-    "cedula": 79948168,
-    "direccion": "CARRERA 54C No. 143-A-90",
-    "nombre": "danilo humberto marroquin salas"
-  },
-  "cc": 37549188,
-  "idProcesos": [
-    50537040
-  ],
-  "procesos": [
-    {
-      "idProceso": 50537040,
-      "idConexion": 259,
-      "llaveProceso": "11001400300920170060700",
-      "fechaProceso": "2017-06-28T00:00:00",
-      "fechaUltimaActuacion": "2018-05-24T00:00:00",
-      "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA CAROLINA MARTINEZ VERA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-05-24T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 607252660,
@@ -73,5 +35,43 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 10
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3175921396
+    },
+    "primerNombre": "maria",
+    "segundoNombre": "carolina",
+    "primerApellido": "martinez",
+    "segundoApellido": "vera",
+    "cedula": 37549188,
+    "direccion": "carrera 54c no. 143-a-90//carrera 54c no. 143-a-90 apto 213 torre 2 conjunto residencial barcelona ph",
+    "email": "caromartinezvera@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 79948168,
+    "direccion": "CARRERA 54C No. 143-A-90",
+    "nombre": "danilo humberto marroquin salas"
+  },
+  "cc": 37549188,
+  "procesos": [
+    {
+      "idProceso": 50537040,
+      "idConexion": 259,
+      "llaveProceso": "11001400300920170060700",
+      "fechaProceso": "2017-06-28T00:00:00",
+      "fechaUltimaActuacion": "2018-05-24T00:00:00",
+      "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA CAROLINA MARTINEZ VERA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50537040
+  ]
 }

@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400304020180089600",
   "numero": 444,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79562532,
-    "direccion": null,
-    "email": "CALLE 34 No 34C- 38 SUR",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "pablo",
-    "segundoNombre": "cesar",
-    "primerApellido": "soacha",
-    "segundoApellido": "morales"
-  },
+  "llaveProceso": "11001400304020180089600",
   "demanda": {
-    "fechaPresentacion": "2018-06-26T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400304020180089600",
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": null,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "43270",
+    "fechaPresentacion": "2018-06-26T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       377816279930352,
       3682055951
     ],
     "radicado": "2018 - 00896",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304020180089600"
   },
-  "cc": 79562532,
-  "idProcesos": [
-    19161681
-  ],
-  "procesos": [
-    {
-      "idProceso": 19161681,
-      "idConexion": 256,
-      "llaveProceso": "11001400304020180089600",
-      "fechaProceso": "2018-06-22T00:00:00",
-      "fechaUltimaActuacion": "2020-02-07T00:00:00",
-      "despacho": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PABLO CESAR SOACHA MORALES ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-02-07T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 733673181,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 27
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "pablo",
+    "segundoNombre": "cesar",
+    "primerApellido": "soacha",
+    "segundoApellido": "morales",
+    "cedula": 79562532,
+    "direccion": null,
+    "email": "CALLE 34 No 34C- 38 SUR"
+  },
+  "cc": 79562532,
+  "procesos": [
+    {
+      "idProceso": 19161681,
+      "idConexion": 256,
+      "llaveProceso": "11001400304020180089600",
+      "fechaProceso": "2018-06-22T00:00:00",
+      "fechaUltimaActuacion": "2020-02-07T00:00:00",
+      "despacho": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PABLO CESAR SOACHA MORALES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    19161681
+  ]
 }

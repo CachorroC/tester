@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400308320230108800",
   "numero": 553,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400308320230108800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2025-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 31804872,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-06-20T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      130089828
+    ],
+    "radicado": "2023 - 01088",
+    "expediente": "11001400308320230108800"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 80220698,
-    "direccion": "carrera 7 # 180 75 // carrera 8 a no. 182 - 12",
-    "email": "lxndrlaverde@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "jose",
     "segundoNombre": "alexander",
     "primerApellido": "laverde",
-    "segundoApellido": "penagos"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-06-20T00:00:00.000Z",
-    "expediente": "11001400308320230108800",
-    "capitalAdeudado": 31804872,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      130089828
-    ],
-    "radicado": "2023 - 01088",
-    "vencimientoPagare": [
-      "2025-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "penagos",
+    "cedula": 80220698,
+    "direccion": "carrera 7 # 180 75 // carrera 8 a no. 182 - 12",
+    "email": "lxndrlaverde@gmail.com"
   },
   "cc": 80220698,
-  "idProcesos": [
-    130908640
-  ],
   "procesos": [
     {
       "idProceso": 130908640,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    130908640
   ]
 }

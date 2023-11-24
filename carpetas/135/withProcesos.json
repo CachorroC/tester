@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400300420170063900",
   "numero": 135,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400300420170063900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 12203589,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-29T00:00:00.000Z",
+    "etapaProcesal": "1.100140030042017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      410086468
+    ],
+    "radicado": "2017 - 00639",
+    "expediente": "11001400300420170063900"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 5654542,
-    "direccion": "carrera 16 # 10 - 30",
-    "email": null,
     "tel": {
       "fijo": 6045701,
       "celular": 3007704166
@@ -14,26 +30,10 @@
     "primerNombre": "ruber",
     "segundoNombre": "andres",
     "primerApellido": "valenzuela",
-    "segundoApellido": "sierra"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-06-29T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
-    "expediente": "11001400300420170063900",
-    "capitalAdeudado": 12203589,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "1.100140030042017e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      410086468
-    ],
-    "radicado": "2017 - 00639",
-    "vencimientoPagare": [
-      "2020-12-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "sierra",
+    "cedula": 5654542,
+    "direccion": "carrera 16 # 10 - 30",
+    "email": null
   },
   "codeudor": {
     "cedula": 52201411,
@@ -42,10 +42,6 @@
     "telefono": 7537111
   },
   "cc": 5654542,
-  "idProcesos": [
-    50542600,
-    81638681
-  ],
   "procesos": [
     {
       "idProceso": 50542600,
@@ -71,5 +67,9 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50542600,
+    81638681
   ]
 }

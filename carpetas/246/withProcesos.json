@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304720180024200",
   "numero": 246,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400304720180024200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2023-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1801212145,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      113645
+    ],
+    "radicado": "2018 - 00242",
+    "expediente": "11001400304720180024200"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79805533,
-    "direccion": "carrera 26 no 44-76 sur",
-    "email": null,
     "tel": {
       "fijo": 7696884,
       "celular": 3204979488
@@ -14,26 +30,10 @@
     "primerNombre": "edwin",
     "segundoNombre": "buitrago",
     "primerApellido": "villamil",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
-    "expediente": "11001400304720180024200",
-    "capitalAdeudado": 1801212145,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      113645
-    ],
-    "radicado": "2018 - 00242",
-    "vencimientoPagare": [
-      "2023-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79805533,
+    "direccion": "carrera 26 no 44-76 sur",
+    "email": null
   },
   "codeudor": {
     "cedula": 52228840,
@@ -42,9 +42,6 @@
     "telefono": "7692061 /2077527"
   },
   "cc": 79805533,
-  "idProcesos": [
-    10416913
-  ],
   "procesos": [
     {
       "idProceso": 10416913,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    10416913
   ]
 }

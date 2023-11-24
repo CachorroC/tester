@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400307820170073300",
   "numero": 128,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400307820170073300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 13149185,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-25T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-08-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4060080684
+    ],
+    "radicado": "2017 - 00733",
+    "expediente": "11001400307820170073300"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 52385097,
-    "direccion": "calle 62b sur # 70 f - 45",
-    "email": "mariagladyys@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -17,26 +33,10 @@
     "segundoApellido": [
       "gonzalez",
       "sosa"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-18T00:00:00.000Z",
-    "mandamientoPago": "2017-08-25T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
-    "expediente": "11001400307820170073300",
-    "capitalAdeudado": 13149185,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "SENTENCIA",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4060080684
     ],
-    "radicado": "2017 - 00733",
-    "vencimientoPagare": [
-      "2018-05-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "cedula": 52385097,
+    "direccion": "calle 62b sur # 70 f - 45",
+    "email": "mariagladyys@hotmail.com"
   },
   "codeudor": {
     "cedula": "52768380/",

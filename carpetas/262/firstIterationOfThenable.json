@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "2590400300220170063100",
   "numero": 262,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "2590400300220170063100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1584054583,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-05T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
+    "municipio": "FUSAGASUGA",
+    "obligacion": [
+      "9450082213 /0377847716751531",
+      "0377847593768038"
+    ],
+    "radicado": "2017 - 00631",
+    "expediente": "2590400300220170063100"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 1069737167,
-    "direccion": "diagonal 1c no 25b -18  fusagasuga",
-    "email": "rafael_moreno.z@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3103247146
@@ -14,27 +31,10 @@
     "primerNombre": "rafael",
     "segundoNombre": "andres",
     "primerApellido": "moreno",
-    "segundoApellido": "zamora"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
-    "mandamientoPago": "2017-10-05T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
-    "expediente": "2590400300220170063100",
-    "capitalAdeudado": 1584054583,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "FUSAGASUGA",
-    "obligacion": [
-      "9450082213 /0377847716751531",
-      "0377847593768038"
-    ],
-    "radicado": "2017 - 00631",
-    "vencimientoPagare": [
-      "2018-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "zamora",
+    "cedula": 1069737167,
+    "direccion": "diagonal 1c no 25b -18  fusagasuga",
+    "email": "rafael_moreno.z@hotmail.com"
   },
   "codeudor": {
     "cedula": "11.383.194",

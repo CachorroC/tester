@@ -1,62 +1,25 @@
 {
-  "llaveProceso": "11001400300920170081300",
   "numero": 148,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79505815,
-    "direccion": "aeronautica civil avenida calle 26 # 106 - 33",
-    "email": "nestorg1969@hotmail.com",
-    "tel": {
-      "fijo": 4109980,
-      "celular": null
-    },
-    "primerNombre": "nestor",
-    "segundoNombre": "gerardo",
-    "primerApellido": "osorio",
-    "segundoApellido": "morales"
-  },
+  "llaveProceso": "11001400300920170081300",
   "demanda": {
-    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
-    "mandamientoPago": "2017-08-22T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
-    "expediente": "11001400300920170081300",
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 30873492,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-08-22T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12447813
     ],
     "radicado": "2017 - 00813",
-    "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300920170081300"
   },
-  "codeudor": {
-    "cedula": 55162346,
-    "nombre": "libna audy garzon gutierrez"
-  },
-  "cc": 79505815,
-  "idProcesos": [
-    50653560
-  ],
-  "procesos": [
-    {
-      "idProceso": 50653560,
-      "idConexion": 259,
-      "llaveProceso": "11001400300920170081300",
-      "fechaProceso": "2017-08-23T00:00:00",
-      "fechaUltimaActuacion": "2018-11-30T00:00:00",
-      "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NESTOR GERARDO OSORIO MORALES | Demandado: LIBNA AUDY GARZON GUTIERREZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-11-30T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 607313060,
@@ -71,5 +34,42 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 36
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 4109980,
+      "celular": null
+    },
+    "primerNombre": "nestor",
+    "segundoNombre": "gerardo",
+    "primerApellido": "osorio",
+    "segundoApellido": "morales",
+    "cedula": 79505815,
+    "direccion": "aeronautica civil avenida calle 26 # 106 - 33",
+    "email": "nestorg1969@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 55162346,
+    "nombre": "libna audy garzon gutierrez"
+  },
+  "cc": 79505815,
+  "procesos": [
+    {
+      "idProceso": 50653560,
+      "idConexion": 259,
+      "llaveProceso": "11001400300920170081300",
+      "fechaProceso": "2017-08-23T00:00:00",
+      "fechaUltimaActuacion": "2018-11-30T00:00:00",
+      "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NESTOR GERARDO OSORIO MORALES | Demandado: LIBNA AUDY GARZON GUTIERREZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50653560
+  ]
 }

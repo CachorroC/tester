@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25899410300120180043500",
   "numero": 497,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25899410300120180043500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2367892060,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-03-10T05:00:00.000Z",
+    "municipio": "ZIPAQUIRA",
+    "obligacion": [
+      20990142568
+    ],
+    "radicado": "2018 - 00435",
+    "expediente": "25899410300120180043500"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 11339859,
-    "direccion": "carrera 11 no 24 a-21 apto 30 rincon del zipa",
-    "email": "mluisa_06@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +30,12 @@
     "primerNombre": "roque",
     "segundoNombre": "antonio",
     "primerApellido": "sanchez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-03-10T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "25899410300120180043500",
-    "capitalAdeudado": 2367892060,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "ZIPAQUIRA",
-    "obligacion": [
-      20990142568
-    ],
-    "radicado": "2018 - 00435",
-    "vencimientoPagare": [
-      "2018-09-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 11339859,
+    "direccion": "carrera 11 no 24 a-21 apto 30 rincon del zipa",
+    "email": "mluisa_06@hotmail.com"
   },
   "cc": 11339859,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "1100140030732017015300",
   "numero": 192,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "1100140030732017015300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-02-01T05:00:00.000Z",
+      "2025-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 3839369110,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      490098495,
+      128775
+    ],
+    "radicado": "2017 - 01532",
+    "expediente": "1100140030732017015300"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 53053612,
-    "direccion": "tranversal 142 # 150 - 50 casa 2 et 8",
-    "email": "baldini@mybosi.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +32,10 @@
     "primerNombre": "diana",
     "segundoNombre": "patricia",
     "primerApellido": "sanchez",
-    "segundoApellido": "salcedo"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
-    "expediente": "1100140030732017015300",
-    "capitalAdeudado": 3839369110,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      490098495,
-      128775
-    ],
-    "radicado": "2017 - 01532",
-    "vencimientoPagare": [
-      "2021-02-01T05:00:00.000Z",
-      "2025-05-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "salcedo",
+    "cedula": 53053612,
+    "direccion": "tranversal 142 # 150 - 50 casa 2 et 8",
+    "email": "baldini@mybosi.com"
   },
   "cc": 53053612,
   "idProcesos": null

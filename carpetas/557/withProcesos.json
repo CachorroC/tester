@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400301720230078200",
   "numero": 557,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400301720230078200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-07-01T05:00:00.000Z",
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 49329779,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      840093593,
+      "PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757"
+    ],
+    "radicado": "2023 - 00782",
+    "expediente": "11001400301720230078200"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 71685758,
-    "direccion": "kr 32 a 1 19 barrio santa matilde",
-    "email": "cahequi8097@gmail.com fundaoyuki@gmail.com",
     "tel": {
       "fijo": 6485655,
       "celular": 3002985587
@@ -14,33 +32,12 @@
     "primerNombre": "carlos",
     "segundoNombre": "herney",
     "primerApellido": "quintero",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "11001400301720230078200",
-    "capitalAdeudado": 49329779,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      840093593,
-      "PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757"
-    ],
-    "radicado": "2023 - 00782",
-    "vencimientoPagare": [
-      "2026-07-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 71685758,
+    "direccion": "kr 32 a 1 19 barrio santa matilde",
+    "email": "cahequi8097@gmail.com fundaoyuki@gmail.com"
   },
   "cc": 71685758,
-  "idProcesos": [
-    132372990
-  ],
   "procesos": [
     {
       "idProceso": 132372990,
@@ -54,5 +51,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    132372990
   ]
 }

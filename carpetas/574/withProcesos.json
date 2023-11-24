@@ -1,12 +1,32 @@
 {
-  "llaveProceso": "11001418900920230131000",
   "numero": 574,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418900920230131000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-04-01T05:00:00.000Z",
+      "2026-04-01T05:00:00.000Z",
+      "2026-04-01T05:00:00.000Z",
+      "2026-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 43725000,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "2370110350 // 1410093357",
+      "43206562 T.C. VISA 4513080146836311 // 82377390 T.C. AMERICAN 0377816058360201"
+    ],
+    "radicado": "2023 -  01342",
+    "expediente": "11001418900920230131000"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 1014214413,
-    "direccion": "carrera 85 l # 63b-42 conjunto residencial portales de villaluz etapa 1",
-    "email": "ingridpatarroyobaez@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3007547824
@@ -14,32 +34,12 @@
     "primerNombre": "ingrid",
     "segundoNombre": "lizeth",
     "primerApellido": "patarroyo",
-    "segundoApellido": "baez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
-    "expediente": "11001418900920230131000",
-    "capitalAdeudado": 43725000,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "2370110350 // 1410093357",
-      "43206562 T.C. VISA 4513080146836311 // 82377390 T.C. AMERICAN 0377816058360201"
-    ],
-    "radicado": "2023 -  01342",
-    "vencimientoPagare": [
-      "2026-04-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "baez",
+    "cedula": 1014214413,
+    "direccion": "carrera 85 l # 63b-42 conjunto residencial portales de villaluz etapa 1",
+    "email": "ingridpatarroyobaez@gmail.com"
   },
   "cc": 1014214413,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

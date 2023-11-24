@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301420170066700",
   "numero": 8,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400301420170066700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 25758912,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2008124
+    ],
+    "radicado": "2017 - 00667",
+    "expediente": "11001400301420170066700"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 79642493,
-    "direccion": "calle 118 no. 18-65 apto 504 anaya el parque bogota",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3106980002
@@ -14,26 +30,10 @@
     "primerNombre": "jose",
     "segundoNombre": "wilson",
     "primerApellido": "rojas",
-    "segundoApellido": "valdes"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
-    "expediente": "11001400301420170066700",
-    "capitalAdeudado": 25758912,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2008124
-    ],
-    "radicado": "2017 - 00667",
-    "vencimientoPagare": [
-      "2020-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "valdes",
+    "cedula": 79642493,
+    "direccion": "calle 118 no. 18-65 apto 504 anaya el parque bogota",
+    "email": null
   },
   "cc": 79642493,
   "idProcesos": null

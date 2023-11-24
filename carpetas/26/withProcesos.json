@@ -1,39 +1,39 @@
 {
-  "llaveProceso": "11001400306520170082700",
   "numero": 26,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 52744376,
-    "direccion": "calle 67 no.86a-49 bogota",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": 3183517022
-    },
-    "primerNombre": "yudy",
-    "primerApellido": "rodriguez",
-    "segundoApellido": null,
-    "segundoNombre": null
-  },
+  "llaveProceso": "11001400306520170082700",
   "demanda": {
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
-    "mandamientoPago": "2017-07-11T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
-    "expediente": "11001400306520170082700",
+    "vencimientoPagare": [
+      "2024-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 17307303,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-07-11T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       20990116310
     ],
     "radicado": "2017 - 00827",
-    "vencimientoPagare": [
-      "2024-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306520170082700"
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3183517022
+    },
+    "primerNombre": "yudy",
+    "segundoNombre": null,
+    "primerApellido": "rodriguez",
+    "segundoApellido": null,
+    "cedula": 52744376,
+    "direccion": "calle 67 no.86a-49 bogota",
+    "email": null
   },
   "codeudor": {
     "cedula": 79504113,
@@ -42,9 +42,6 @@
     "telefono": 2232710
   },
   "cc": 52744376,
-  "idProcesos": [
-    18161830
-  ],
   "procesos": [
     {
       "idProceso": 18161830,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    18161830
   ]
 }

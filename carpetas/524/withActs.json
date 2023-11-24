@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400307520190100800",
   "numero": 524,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 52433839,
-    "direccion": "carrera 15 # 33-17",
-    "email": "grpte@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3213987669
-    },
-    "primerNombre": "ingrit",
-    "segundoNombre": "yohana",
-    "primerApellido": "vasquez",
-    "segundoApellido": "rojas"
-  },
+  "llaveProceso": "11001400307520190100800",
   "demanda": {
-    "fechaPresentacion": "2019-04-06T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400307520190100800",
+    "vencimientoPagare": [
+      "2026-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1995113595,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": "2019-04-06T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       20990138197
     ],
     "radicado": "2019 - 01008",
-    "vencimientoPagare": [
-      "2026-04-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307520190100800"
   },
-  "cc": 52433839,
-  "idProcesos": [
-    70545740
-  ],
-  "procesos": [
-    {
-      "idProceso": 70545740,
-      "idConexion": 259,
-      "llaveProceso": "11001400307520190100800",
-      "fechaProceso": "2019-09-19T00:00:00",
-      "fechaUltimaActuacion": "2019-11-19T00:00:00",
-      "despacho": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: INGRIT YOHANA VASQUEZ ROJAS ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-11-19T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 869815920,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 11
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3213987669
+    },
+    "primerNombre": "ingrit",
+    "segundoNombre": "yohana",
+    "primerApellido": "vasquez",
+    "segundoApellido": "rojas",
+    "cedula": 52433839,
+    "direccion": "carrera 15 # 33-17",
+    "email": "grpte@hotmail.com"
+  },
+  "cc": 52433839,
+  "procesos": [
+    {
+      "idProceso": 70545740,
+      "idConexion": 259,
+      "llaveProceso": "11001400307520190100800",
+      "fechaProceso": "2019-09-19T00:00:00",
+      "fechaUltimaActuacion": "2019-11-19T00:00:00",
+      "despacho": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: INGRIT YOHANA VASQUEZ ROJAS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    70545740
+  ]
 }

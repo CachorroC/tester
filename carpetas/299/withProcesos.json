@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25754400300320170034600",
   "numero": 299,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754400300320170034600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2843214977,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-13T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-17T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      6980085637,
+      120353
+    ],
+    "radicado": "2017 - 00346",
+    "expediente": "25754400300320170034600"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80879280,
-    "direccion": "carrera 9 este no 36-59 sur  soacha",
-    "email": "roberto.g12@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "roberto",
     "segundoNombre": "stivenson",
     "primerApellido": "acero",
-    "segundoApellido": "baron"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-10-17T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-13T00:00:00.000Z",
-    "expediente": "25754400300320170034600",
-    "capitalAdeudado": 2843214977,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "SOACHA",
-    "obligacion": [
-      6980085637,
-      120353
-    ],
-    "radicado": "2017 - 00346",
-    "vencimientoPagare": [
-      "2017-07-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "baron",
+    "cedula": 80879280,
+    "direccion": "carrera 9 este no 36-59 sur  soacha",
+    "email": "roberto.g12@hotmail.com"
   },
   "codeudor": {
     "cedula": 53005799,
@@ -43,6 +43,6 @@
     "telefono": 3208790281
   },
   "cc": 80879280,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

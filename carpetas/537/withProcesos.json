@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400305120180085000",
   "numero": 537,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400305120180085000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2022-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 20353079,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-06-28T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-07-24T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-07-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2270085292,
+      3.77813194946666e+29
+    ],
+    "radicado": "2018 - 00850",
+    "expediente": "11001400305120180085000"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 52155023,
-    "direccion": "calle 86a no 95a-15 apto 108",
-    "email": "mediconta@gmail.com",
     "tel": {
       "fijo": 5360278,
       "celular": 3108540511
@@ -17,32 +34,12 @@
     "segundoApellido": [
       "cruz",
       "beltran"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-07-06T00:00:00.000Z",
-    "mandamientoPago": "2018-07-24T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-06-28T00:00:00.000Z",
-    "expediente": "11001400305120180085000",
-    "capitalAdeudado": 20353079,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2270085292,
-      3.77813194946666e+29
     ],
-    "radicado": "2018 - 00850",
-    "vencimientoPagare": [
-      "2022-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "cedula": 52155023,
+    "direccion": "calle 86a no 95a-15 apto 108",
+    "email": "mediconta@gmail.com"
   },
   "cc": 52155023,
-  "idProcesos": [
-    89137980
-  ],
   "procesos": [
     {
       "idProceso": 89137980,
@@ -56,5 +53,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    89137980
   ]
 }

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400308620170086300",
   "numero": 171,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400308620170086300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 46042338,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12766386
+    ],
+    "radicado": "2017 - 00863",
+    "expediente": "11001400308620170086300"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 1024468871,
-    "direccion": "calle 59c sur # 87k - 64 apto 1016",
-    "email": "jlaura00@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +30,12 @@
     "primerNombre": "maritza",
     "segundoNombre": "natali",
     "primerApellido": "rodriguez",
-    "segundoApellido": "urrea"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
-    "expediente": "11001400308620170086300",
-    "capitalAdeudado": 46042338,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12766386
-    ],
-    "radicado": "2017 - 00863",
-    "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "urrea",
+    "cedula": 1024468871,
+    "direccion": "calle 59c sur # 87k - 64 apto 1016",
+    "email": "jlaura00@hotmail.com"
   },
   "cc": 1024468871,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

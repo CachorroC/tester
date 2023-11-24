@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400306320180016800",
   "numero": 62,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 80722943,
-    "direccion": "diagonal 60 sur no. 28-i 72 interior 3 apto 204",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": 3138253554
-    },
-    "primerNombre": "luis",
-    "segundoNombre": "eduardo",
-    "primerApellido": "carranza",
-    "segundoApellido": "bustos"
-  },
+  "llaveProceso": "11001400306320180016800",
   "demanda": {
-    "fechaPresentacion": "2017-06-21T00:00:00.000Z",
-    "mandamientoPago": "2018-03-21T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400306320180016800",
+    "vencimientoPagare": [
+      "2022-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1544537143,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-03-21T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-06-21T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "320 093516"
     ],
     "radicado": "2017 - 00537",
-    "vencimientoPagare": [
-      "2022-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306320180016800"
   },
-  "codeudor": {
-    "cedula": 53011591,
-    "direccion": "DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204",
-    "nombre": "yurani vergara nagles",
-    "telefono": "7340105//304410804"
-  },
-  "cc": 80722943,
-  "idProcesos": [
-    51018210
-  ],
-  "procesos": [
-    {
-      "idProceso": 51018210,
-      "idConexion": 259,
-      "llaveProceso": "11001400306320180016800",
-      "fechaProceso": "2018-02-19T00:00:00",
-      "fechaUltimaActuacion": "2021-11-09T00:00:00",
-      "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: YURANY VERGARA NAGLES | Demandado: LUIS EDUARDO CARRANZA BUSTOS ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2021-11-09T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1232762870,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 59
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3138253554
+    },
+    "primerNombre": "luis",
+    "segundoNombre": "eduardo",
+    "primerApellido": "carranza",
+    "segundoApellido": "bustos",
+    "cedula": 80722943,
+    "direccion": "diagonal 60 sur no. 28-i 72 interior 3 apto 204",
+    "email": null
+  },
+  "codeudor": {
+    "cedula": 53011591,
+    "direccion": "DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204",
+    "nombre": "yurani vergara nagles",
+    "telefono": "7340105//304410804"
+  },
+  "cc": 80722943,
+  "procesos": [
+    {
+      "idProceso": 51018210,
+      "idConexion": 259,
+      "llaveProceso": "11001400306320180016800",
+      "fechaProceso": "2018-02-19T00:00:00",
+      "fechaUltimaActuacion": "2021-11-09T00:00:00",
+      "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: YURANY VERGARA NAGLES | Demandado: LUIS EDUARDO CARRANZA BUSTOS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51018210
+  ]
 }

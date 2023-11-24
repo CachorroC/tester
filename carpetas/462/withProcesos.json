@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25754418900120180070000",
   "numero": 462,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754418900120180070000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2043-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 21997013,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-07-06T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-07-12T00:00:00.000Z",
+    "etapaProcesal": "2.575441890012018e+22",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      20990165644
+    ],
+    "radicado": "2018 - 00700",
+    "expediente": "25754418900120180070000"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80755973,
-    "direccion": "carrera 87 no 69-165",
-    "email": "yamid11@hotmail.es",
     "tel": {
       "fijo": 7279254,
       "celular": 3114915425
@@ -14,28 +30,12 @@
     "primerNombre": "yamid",
     "segundoNombre": "gelves",
     "primerApellido": "caceres",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-07-12T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-07-06T00:00:00.000Z",
-    "expediente": "25754418900120180070000",
-    "capitalAdeudado": 21997013,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "2.575441890012018e+22",
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990165644
-    ],
-    "radicado": "2018 - 00700",
-    "vencimientoPagare": [
-      "2043-07-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80755973,
+    "direccion": "carrera 87 no 69-165",
+    "email": "yamid11@hotmail.es"
   },
   "cc": 80755973,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001310301120170033500",
   "numero": 25,
-  "tipoProceso": "PRENDARIO",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 3197274,
-    "direccion": "cl 14 no. 10 - 45 bucaramanga",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "omar",
-    "segundoNombre": "dario",
-    "primerApellido": "zea",
-    "segundoApellido": "galvis"
-  },
+  "llaveProceso": "11001310301120170033500",
   "demanda": {
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
-    "mandamientoPago": "2017-08-14T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
-    "expediente": "11001310301120170033500",
+    "vencimientoPagare": [
+      "2020-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 107818114,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-08-14T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12705806
     ],
     "radicado": "2017 - 00335",
-    "vencimientoPagare": [
-      "2020-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001310301120170033500"
   },
-  "cc": 3197274,
-  "idProcesos": [
-    1805257424
-  ],
-  "procesos": [
-    {
-      "idProceso": 1805257424,
-      "idConexion": 310,
-      "llaveProceso": "11001310301120170033500",
-      "fechaProceso": "2017-05-31T00:00:00",
-      "fechaUltimaActuacion": "2023-03-10T00:00:00",
-      "despacho": "JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OMAR DARIO ZEA GALVIS ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-03-10T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1096493124,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 110
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "omar",
+    "segundoNombre": "dario",
+    "primerApellido": "zea",
+    "segundoApellido": "galvis",
+    "cedula": 3197274,
+    "direccion": "cl 14 no. 10 - 45 bucaramanga",
+    "email": null
+  },
+  "cc": 3197274,
+  "procesos": [
+    {
+      "idProceso": 1805257424,
+      "idConexion": 310,
+      "llaveProceso": "11001310301120170033500",
+      "fechaProceso": "2017-05-31T00:00:00",
+      "fechaUltimaActuacion": "2023-03-10T00:00:00",
+      "despacho": "JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OMAR DARIO ZEA GALVIS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    1805257424
+  ]
 }

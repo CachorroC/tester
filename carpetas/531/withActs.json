@@ -1,63 +1,24 @@
 {
-  "llaveProceso": "11001400304220200053500",
   "numero": 531,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 51813018,
-    "direccion": "kr 81 no. 127 a - 46 conjunto monte azul bogota",
-    "email": "yadelcis@hotmail.com",
-    "tel": {
-      "fijo": 6139147,
-      "celular": 3134386087
-    },
-    "primerNombre": "sandra",
-    "segundoNombre": "leonor",
-    "primerApellido": "paez",
-    "segundoApellido": "murcia"
-  },
+  "llaveProceso": "11001400304220200053500",
   "demanda": {
-    "fechaPresentacion": "2020-10-07T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2020-10-07T00:00:00.000Z",
-    "expediente": "11001400304220200053500",
+    "vencimientoPagare": [],
+    "juzgados": [],
     "capitalAdeudado": 35608653,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2020-10-07T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2020-10-07T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       2020084294,
       "2020087484 // 4594250317705437 //5303723260933890"
     ],
     "radicado": "2020 - 00535",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304220200053500"
   },
-  "codeudor": {
-    "cedula": 19299851,
-    "direccion": "KR 81 No. 127 - 46 Torre 1 Apt 401",
-    "nombre": "marco tulio sanchez medina",
-    "telefono": 6139147
-  },
-  "cc": 51813018,
-  "idProcesos": [
-    128164881
-  ],
-  "procesos": [
-    {
-      "idProceso": 128164881,
-      "idConexion": 256,
-      "llaveProceso": "11001400304220200053500",
-      "fechaProceso": "2020-10-16T00:00:00",
-      "fechaUltimaActuacion": "2023-03-13T00:00:00",
-      "despacho": "JUZGADO 042 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA LEONOR PAEZ MURCIA | Demandado: MARCO TULIO SANCHEZ MEDINA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-03-13T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1231752641,
@@ -72,5 +33,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 40
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6139147,
+      "celular": 3134386087
+    },
+    "primerNombre": "sandra",
+    "segundoNombre": "leonor",
+    "primerApellido": "paez",
+    "segundoApellido": "murcia",
+    "cedula": 51813018,
+    "direccion": "kr 81 no. 127 a - 46 conjunto monte azul bogota",
+    "email": "yadelcis@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 19299851,
+    "direccion": "KR 81 No. 127 - 46 Torre 1 Apt 401",
+    "nombre": "marco tulio sanchez medina",
+    "telefono": 6139147
+  },
+  "cc": 51813018,
+  "procesos": [
+    {
+      "idProceso": 128164881,
+      "idConexion": 256,
+      "llaveProceso": "11001400304220200053500",
+      "fechaProceso": "2020-10-16T00:00:00",
+      "fechaUltimaActuacion": "2023-03-13T00:00:00",
+      "despacho": "JUZGADO 042 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA LEONOR PAEZ MURCIA | Demandado: MARCO TULIO SANCHEZ MEDINA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    128164881
+  ]
 }

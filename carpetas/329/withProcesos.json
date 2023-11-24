@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400308520170159600",
   "numero": 329,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400308520170159600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 13537828,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-11-01T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-11-09T00:00:00.000Z",
+    "etapaProcesal": "1.1001400308520171e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      79669
+    ],
+    "radicado": "2017 - 01596",
+    "expediente": "11001400308520170159600"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 10180062,
-    "direccion": "avenida calle 153 no 119 -40 interior 1 casa 17 bosques de camino verde agrupacion 2",
-    "email": "reinaldomelen@hotmail.com",
     "tel": {
       "fijo": 2287430,
       "celular": 3107584138
@@ -17,26 +33,10 @@
     "segundoApellido": [
       "",
       "varon"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-11-09T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-01T00:00:00.000Z",
-    "expediente": "11001400308520170159600",
-    "capitalAdeudado": 13537828,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "1.1001400308520171e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      79669
     ],
-    "radicado": "2017 - 01596",
-    "vencimientoPagare": [
-      "2020-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "cedula": 10180062,
+    "direccion": "avenida calle 153 no 119 -40 interior 1 casa 17 bosques de camino verde agrupacion 2",
+    "email": "reinaldomelen@hotmail.com"
   },
   "codeudor": {
     "cedula": 52079975,
@@ -45,9 +45,6 @@
     "telefono": "F 2287430"
   },
   "cc": 10180062,
-  "idProcesos": [
-    65614470
-  ],
   "procesos": [
     {
       "idProceso": 65614470,
@@ -61,5 +58,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    65614470
   ]
 }

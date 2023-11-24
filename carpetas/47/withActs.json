@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400300620170030200",
   "numero": 47,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 52129551,
-    "direccion": "calle 61 j no. 17d - 55 sur",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": 3229150048
-    },
-    "primerNombre": "ana",
-    "segundoNombre": "rita",
-    "primerApellido": "guzman",
-    "segundoApellido": "gomez"
-  },
+  "llaveProceso": "11001400300620170030200",
   "demanda": {
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "mandamientoPago": "2017-07-12T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400300620170030200",
+    "vencimientoPagare": [
+      "2019-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 21530598,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-12T00:00:00.000Z",
     "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "377816034633036//45130802058774831",
       53003720132046710
     ],
     "radicado": "2017-00302",
-    "vencimientoPagare": [
-      "2019-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300620170030200"
   },
-  "cc": 52129551,
-  "idProcesos": [
-    50521190
-  ],
-  "procesos": [
-    {
-      "idProceso": 50521190,
-      "idConexion": 259,
-      "llaveProceso": "11001400300620170030200",
-      "fechaProceso": "2017-06-21T00:00:00",
-      "fechaUltimaActuacion": "2023-09-07T00:00:00",
-      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANA RITA GUZMAN GOMEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-09-07T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1873552420,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 89
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3229150048
+    },
+    "primerNombre": "ana",
+    "segundoNombre": "rita",
+    "primerApellido": "guzman",
+    "segundoApellido": "gomez",
+    "cedula": 52129551,
+    "direccion": "calle 61 j no. 17d - 55 sur",
+    "email": null
+  },
+  "cc": 52129551,
+  "procesos": [
+    {
+      "idProceso": 50521190,
+      "idConexion": 259,
+      "llaveProceso": "11001400300620170030200",
+      "fechaProceso": "2017-06-21T00:00:00",
+      "fechaUltimaActuacion": "2023-09-07T00:00:00",
+      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANA RITA GUZMAN GOMEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50521190
+  ]
 }

@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25899400300220170013100",
   "numero": 392,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25899400300220170013100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 38847950,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-04-12T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-20T00:00:00.000Z",
+    "municipio": "ZIPAQUIRA",
+    "obligacion": [
+      3320087751,
+      3320088190
+    ],
+    "radicado": "2018 - 00131",
+    "expediente": "25899400300220170013100"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79712791,
-    "direccion": "calle 3 c no  13 - 07   zipaquira",
-    "email": "giovannymat@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,29 +31,12 @@
     "primerNombre": "edgar",
     "segundoNombre": "jobanny",
     "primerApellido": "mateus",
-    "segundoApellido": "castillo"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-11-20T00:00:00.000Z",
-    "mandamientoPago": "2018-04-12T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
-    "expediente": "25899400300220170013100",
-    "capitalAdeudado": 38847950,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "ZIPAQUIRA",
-    "obligacion": [
-      3320087751,
-      3320088190
-    ],
-    "radicado": "2018 - 00131",
-    "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "castillo",
+    "cedula": 79712791,
+    "direccion": "calle 3 c no  13 - 07   zipaquira",
+    "email": "giovannymat@yahoo.com"
   },
   "cc": 79712791,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

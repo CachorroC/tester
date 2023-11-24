@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400300220180020500",
   "numero": 406,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400300220180020500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2033-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1202487715,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-01-03T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      112507
+    ],
+    "radicado": "2018 - 00205",
+    "expediente": "11001400300220180020500"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 8510459,
-    "direccion": "calle 86 a sur no 80k-40",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "santiago",
     "segundoNombre": "javier",
     "primerApellido": "sarabia",
-    "segundoApellido": "jimenez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-01-03T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400300220180020500",
-    "capitalAdeudado": 1202487715,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      112507
-    ],
-    "radicado": "2018 - 00205",
-    "vencimientoPagare": [
-      "2033-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "jimenez",
+    "cedula": 8510459,
+    "direccion": "calle 86 a sur no 80k-40",
+    "email": null
   },
   "cc": 8510459,
-  "idProcesos": [
-    51034000
-  ],
   "procesos": [
     {
       "idProceso": 51034000,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51034000
   ]
 }

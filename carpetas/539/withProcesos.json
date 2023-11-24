@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400303620180081800",
   "numero": 539,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400303620180081800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 32026447,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-07-03T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-07-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-07-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2070086628,
+      4.59425005660657e+29
+    ],
+    "radicado": "2018 - 00818",
+    "expediente": "11001400303620180081800"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 51937267,
-    "direccion": "callle 106 b- no 54-57 apto 201 puente largo",
-    "email": "amoplata@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,32 +31,12 @@
     "primerNombre": "adriana",
     "segundoNombre": "lucia",
     "primerApellido": "mora",
-    "segundoApellido": "plata"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-07-11T00:00:00.000Z",
-    "mandamientoPago": "2018-07-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-07-03T00:00:00.000Z",
-    "expediente": "11001400303620180081800",
-    "capitalAdeudado": 32026447,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2070086628,
-      4.59425005660657e+29
-    ],
-    "radicado": "2018 - 00818",
-    "vencimientoPagare": [
-      "2021-04-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "plata",
+    "cedula": 51937267,
+    "direccion": "callle 106 b- no 54-57 apto 201 puente largo",
+    "email": "amoplata@yahoo.com"
   },
   "cc": 51937267,
-  "idProcesos": [
-    51306830
-  ],
   "procesos": [
     {
       "idProceso": 51306830,
@@ -53,5 +50,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51306830
   ]
 }

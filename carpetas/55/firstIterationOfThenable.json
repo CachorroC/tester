@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25430400300120170108700",
   "numero": 55,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25430400300120170108700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 35544456,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-12-06T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "MADRID",
+    "obligacion": [
+      "3830084858//4090832249783283",
+      "AUTOPRESTAMO"
+    ],
+    "radicado": "2017 - 01087",
+    "expediente": "25430400300120170108700"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 80353430,
-    "direccion": "calle 11 a no. 3-29 urbanizacion el porvenir madrid",
-    "email": "faride1109@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": 3124488945
@@ -14,27 +31,10 @@
     "primerNombre": "douglas",
     "segundoNombre": "ayure",
     "primerApellido": "rios",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "mandamientoPago": "2017-12-06T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "25430400300120170108700",
-    "capitalAdeudado": 35544456,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "SENTENCIA",
-    "municipio": "MADRID",
-    "obligacion": [
-      "3830084858//4090832249783283",
-      "AUTOPRESTAMO"
-    ],
-    "radicado": "2017 - 01087",
-    "vencimientoPagare": [
-      "2018-03-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80353430,
+    "direccion": "calle 11 a no. 3-29 urbanizacion el porvenir madrid",
+    "email": "faride1109@yahoo.com"
   },
   "codeudor": {
     "cedula": 20736637,

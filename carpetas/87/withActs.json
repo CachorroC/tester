@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400304620170056100",
   "numero": 87,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 4198210,
-    "direccion": "calle 39 i # 72f - 53 sur",
-    "email": "omar690501@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "omar",
-    "segundoNombre": "espitia",
-    "primerApellido": "reyes",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400304620170056100",
   "demanda": {
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "mandamientoPago": "2017-07-27T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400304620170056100",
+    "vencimientoPagare": [
+      "2018-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 11777235,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-27T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       2150091074
     ],
     "radicado": "2017 - 00561",
-    "vencimientoPagare": [
-      "2018-04-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304620170056100"
   },
-  "codeudor": {
-    "cedula": 46676055,
-    "direccion": "CARRERA 68K # 38 SUR - 42",
-    "nombre": "nohemi sanchez forero",
-    "telefono": 2048159
-  },
-  "cc": 4198210,
-  "idProcesos": [
-    10130493
-  ],
-  "procesos": [
-    {
-      "idProceso": 10130493,
-      "idConexion": 261,
-      "llaveProceso": "11001400304620170056100",
-      "fechaProceso": "2017-06-29T00:00:00",
-      "fechaUltimaActuacion": "2019-05-24T00:00:00",
-      "despacho": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NOHEMI SANCHEZ FORERO | Demandado: OMAR ESPITIA REYES ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-05-24T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 518893563,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 29
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "omar",
+    "segundoNombre": "espitia",
+    "primerApellido": "reyes",
+    "segundoApellido": null,
+    "cedula": 4198210,
+    "direccion": "calle 39 i # 72f - 53 sur",
+    "email": "omar690501@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 46676055,
+    "direccion": "CARRERA 68K # 38 SUR - 42",
+    "nombre": "nohemi sanchez forero",
+    "telefono": 2048159
+  },
+  "cc": 4198210,
+  "procesos": [
+    {
+      "idProceso": 10130493,
+      "idConexion": 261,
+      "llaveProceso": "11001400304620170056100",
+      "fechaProceso": "2017-06-29T00:00:00",
+      "fechaUltimaActuacion": "2019-05-24T00:00:00",
+      "despacho": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NOHEMI SANCHEZ FORERO | Demandado: OMAR ESPITIA REYES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    10130493
+  ]
 }

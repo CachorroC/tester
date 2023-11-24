@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302520170106400",
   "numero": 59,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400302520170106400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1284794200,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-26T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      490098936
+    ],
+    "radicado": "2017 - 01064",
+    "expediente": "11001400302520170106400"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 52341348,
-    "direccion": "calle 70 c no 105 h - 06",
-    "email": "nancyta1905@hotmail.com",
     "tel": {
       "fijo": 6977403,
       "celular": 3103161197
@@ -14,26 +30,10 @@
     "primerNombre": "nancy",
     "segundoNombre": "rodriguez",
     "primerApellido": "",
-    "segundoApellido": "gomez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-26T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
-    "expediente": "11001400302520170106400",
-    "capitalAdeudado": 1284794200,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      490098936
-    ],
-    "radicado": "2017 - 01064",
-    "vencimientoPagare": [
-      "2017-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "gomez",
+    "cedula": 52341348,
+    "direccion": "calle 70 c no 105 h - 06",
+    "email": "nancyta1905@hotmail.com"
   },
   "codeudor": {
     "cedula": 52801359,
@@ -42,9 +42,6 @@
     "telefono": 3102876473
   },
   "cc": 52341348,
-  "idProcesos": [
-    50738440
-  ],
   "procesos": [
     {
       "idProceso": 50738440,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50738440
   ]
 }

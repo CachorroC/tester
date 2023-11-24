@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400308220170068000",
   "numero": 103,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400308220170068000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2019-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 43921469,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-17T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "1800088189//377813488630162",
+      "4513071987853655//5303715363121332"
+    ],
+    "radicado": "2017-00680",
+    "expediente": "11001400308220170068000"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 16831314,
-    "direccion": "carrera 74 no. 25 g-69",
-    "email": "kikearango@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3216066052
@@ -14,33 +31,12 @@
     "primerNombre": "eduardo",
     "segundoNombre": "enrique",
     "primerApellido": "arango",
-    "segundoApellido": "chacon"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-16T00:00:00.000Z",
-    "mandamientoPago": "2017-07-17T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400308220170068000",
-    "capitalAdeudado": 43921469,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "1800088189//377813488630162",
-      "4513071987853655//5303715363121332"
-    ],
-    "radicado": "2017-00680",
-    "vencimientoPagare": [
-      "2019-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "chacon",
+    "cedula": 16831314,
+    "direccion": "carrera 74 no. 25 g-69",
+    "email": "kikearango@hotmail.com"
   },
   "cc": 16831314,
-  "idProcesos": [
-    51619370,
-    81869501
-  ],
   "procesos": [
     {
       "idProceso": 51619370,
@@ -66,5 +62,9 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51619370,
+    81869501
   ]
 }

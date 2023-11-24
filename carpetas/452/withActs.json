@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400305920180009000",
   "numero": 452,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 25126734,
-    "direccion": "carrera 103 a  no 77d-22 molinos- bogota",
-    "email": "mauriciosamu1128@gmail.com",
-    "tel": {
-      "fijo": 4412100,
-      "celular": 3124885346
-    },
-    "primerNombre": "maria",
-    "segundoNombre": "marin",
-    "primerApellido": "de",
-    "segundoApellido": "orozco"
-  },
+  "llaveProceso": "11001400305920180009000",
   "demanda": {
-    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "mandamientoPago": "2018-02-26T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400305920180009000",
+    "vencimientoPagare": [
+      "2020-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 22244760,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-02-26T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       1740087269
     ],
     "radicado": "2018 - 00090",
-    "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400305920180009000"
   },
-  "cc": 25126734,
-  "idProcesos": [
-    50989890
-  ],
-  "procesos": [
-    {
-      "idProceso": 50989890,
-      "idConexion": 259,
-      "llaveProceso": "11001400305920180009000",
-      "fechaProceso": "2018-02-06T00:00:00",
-      "fechaUltimaActuacion": "2022-03-25T00:00:00",
-      "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA MARIN DE OROZCO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-03-25T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1267048930,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 55
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4412100,
+      "celular": 3124885346
+    },
+    "primerNombre": "maria",
+    "segundoNombre": "marin",
+    "primerApellido": "de",
+    "segundoApellido": "orozco",
+    "cedula": 25126734,
+    "direccion": "carrera 103 a  no 77d-22 molinos- bogota",
+    "email": "mauriciosamu1128@gmail.com"
+  },
+  "cc": 25126734,
+  "procesos": [
+    {
+      "idProceso": 50989890,
+      "idConexion": 259,
+      "llaveProceso": "11001400305920180009000",
+      "fechaProceso": "2018-02-06T00:00:00",
+      "fechaUltimaActuacion": "2022-03-25T00:00:00",
+      "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA MARIN DE OROZCO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50989890
+  ]
 }

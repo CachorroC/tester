@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304720170171300",
   "numero": 137,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400304720170171300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2023-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1992608489,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-12-01T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      235349
+    ],
+    "radicado": "2017 - 01713",
+    "expediente": "11001400304720170171300"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52818134,
-    "direccion": "calle 181c # 11 - 75 torre 3 apto 302",
-    "email": "ednita22ms@hotmail.com",
     "tel": {
       "fijo": 3002766,
       "celular": 3002908272
@@ -14,26 +30,10 @@
     "primerNombre": "edna",
     "segundoNombre": "milena",
     "primerApellido": "muñoz",
-    "segundoApellido": "sanchez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
-    "mandamientoPago": "2017-12-01T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
-    "expediente": "11001400304720170171300",
-    "capitalAdeudado": 1992608489,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      235349
-    ],
-    "radicado": "2017 - 01713",
-    "vencimientoPagare": [
-      "2023-10-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "sanchez",
+    "cedula": 52818134,
+    "direccion": "calle 181c # 11 - 75 torre 3 apto 302",
+    "email": "ednita22ms@hotmail.com"
   },
   "codeudor": {
     "cedula": 51568155,

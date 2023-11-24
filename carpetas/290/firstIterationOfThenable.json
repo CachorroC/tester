@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400305920170097500",
   "numero": 290,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400305920170097500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1386997140,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-27T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-17T00:00:00.000Z",
+    "etapaProcesal": "SUSPENDIDO",
+    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      83616
+    ],
+    "radicado": "2017 - 00975",
+    "expediente": "11001400305920170097500"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 40035102,
-    "direccion": "diagonal 15 b - 104 - 45 casa  55",
-    "email": "luz.y31@hotmail.com",
     "tel": {
       "fijo": 6051177,
       "celular": 3152504510
@@ -14,26 +30,10 @@
     "primerNombre": "elizabeth",
     "segundoNombre": "gil",
     "primerApellido": "rodriguez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
-    "mandamientoPago": "2017-10-17T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-27T00:00:00.000Z",
-    "expediente": "11001400305920170097500",
-    "capitalAdeudado": 1386997140,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "SUSPENDIDO",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      83616
-    ],
-    "radicado": "2017 - 00975",
-    "vencimientoPagare": [
-      "2020-12-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 40035102,
+    "direccion": "diagonal 15 b - 104 - 45 casa  55",
+    "email": "luz.y31@hotmail.com"
   },
   "cc": 40035102,
   "idProcesos": null

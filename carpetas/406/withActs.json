@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400300220180020500",
   "numero": 406,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 8510459,
-    "direccion": "calle 86 a sur no 80k-40",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "santiago",
-    "segundoNombre": "javier",
-    "primerApellido": "sarabia",
-    "segundoApellido": "jimenez"
-  },
+  "llaveProceso": "11001400300220180020500",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-01-03T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400300220180020500",
+    "vencimientoPagare": [
+      "2033-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1202487715,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-01-03T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       112507
     ],
     "radicado": "2018 - 00205",
-    "vencimientoPagare": [
-      "2033-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300220180020500"
   },
-  "cc": 8510459,
-  "idProcesos": [
-    51034000
-  ],
-  "procesos": [
-    {
-      "idProceso": 51034000,
-      "idConexion": 259,
-      "llaveProceso": "11001400300220180020500",
-      "fechaProceso": "2018-02-26T00:00:00",
-      "fechaUltimaActuacion": "2023-03-22T00:00:00",
-      "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANTIAGO JAVIER SARABIA JIMENEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-03-22T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1686593620,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 30
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "santiago",
+    "segundoNombre": "javier",
+    "primerApellido": "sarabia",
+    "segundoApellido": "jimenez",
+    "cedula": 8510459,
+    "direccion": "calle 86 a sur no 80k-40",
+    "email": null
+  },
+  "cc": 8510459,
+  "procesos": [
+    {
+      "idProceso": 51034000,
+      "idConexion": 259,
+      "llaveProceso": "11001400300220180020500",
+      "fechaProceso": "2018-02-26T00:00:00",
+      "fechaUltimaActuacion": "2023-03-22T00:00:00",
+      "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANTIAGO JAVIER SARABIA JIMENEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51034000
+  ]
 }

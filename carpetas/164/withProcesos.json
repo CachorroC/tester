@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304520170090500",
   "numero": 164,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400304520170090500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2019-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 25519225,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-07-19T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      6240082772
+    ],
+    "radicado": "2017 - 00905",
+    "expediente": "11001400304520170090500"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 14255996,
-    "direccion": "carrera 82 a no. 6b-30 casa 36",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3102785072
@@ -14,31 +30,12 @@
     "primerNombre": "uriel",
     "segundoNombre": "ruiz",
     "primerApellido": "diaz",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
-    "mandamientoPago": "2017-09-01T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-07-19T00:00:00.000Z",
-    "expediente": "11001400304520170090500",
-    "capitalAdeudado": 25519225,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      6240082772
-    ],
-    "radicado": "2017 - 00905",
-    "vencimientoPagare": [
-      "2019-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 14255996,
+    "direccion": "carrera 82 a no. 6b-30 casa 36",
+    "email": null
   },
   "cc": 14255996,
-  "idProcesos": [
-    50593640
-  ],
   "procesos": [
     {
       "idProceso": 50593640,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50593640
   ]
 }

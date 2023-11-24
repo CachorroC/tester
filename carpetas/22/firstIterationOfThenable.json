@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400308520170084900",
   "numero": 22,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400308520170084900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 29690679,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-07-21T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2453698
+    ],
+    "radicado": "2017 - 00849",
+    "expediente": "11001400308520170084900"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 80073174,
-    "direccion": "calle 160 no. 58-75 torre 6 apto 503 bogota /// yopal casanare",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "jose",
     "segundoNombre": "edwin",
     "primerApellido": "garces",
-    "segundoApellido": "ardila"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
-    "mandamientoPago": "2017-07-21T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
-    "expediente": "11001400308520170084900",
-    "capitalAdeudado": 29690679,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2453698
-    ],
-    "radicado": "2017 - 00849",
-    "vencimientoPagare": [
-      "2020-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "ardila",
+    "cedula": 80073174,
+    "direccion": "calle 160 no. 58-75 torre 6 apto 503 bogota /// yopal casanare",
+    "email": null
   },
   "cc": 80073174,
   "idProcesos": null

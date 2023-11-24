@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400306920230127300",
   "numero": 566,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400306920230127300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 19218060,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      6620091753
+    ],
+    "radicado": "2023 - 01243",
+    "expediente": "11001400306920230127300"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 1013622120,
-    "direccion": "carrera 46 a no. 22 c - 36 sur // avenida 92 no. 15 - 40",
-    "email": "johanesquiroga@gmail.com",
     "tel": {
       "fijo": 7156426,
       "celular": 3203203196
@@ -14,43 +30,27 @@
     "primerNombre": "johan",
     "segundoNombre": "andres",
     "primerApellido": "quiroga",
-    "segundoApellido": "galeano"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "11001400306920230127300",
-    "capitalAdeudado": 19218060,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      6620091753
-    ],
-    "radicado": "2023 - 01243",
-    "vencimientoPagare": [
-      "2026-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "galeano",
+    "cedula": 1013622120,
+    "direccion": "carrera 46 a no. 22 c - 36 sur // avenida 92 no. 15 - 40",
+    "email": "johanesquiroga@gmail.com"
   },
   "cc": 1013622120,
-  "idProcesos": [
-    132041720
-  ],
   "procesos": [
     {
       "idProceso": 132041720,
       "idConexion": 262,
       "llaveProceso": "11001400306920230127300",
       "fechaProceso": "2023-08-03T00:00:00",
-      "fechaUltimaActuacion": "2023-11-20T00:00:00",
+      "fechaUltimaActuacion": "2023-11-23T00:00:00",
       "despacho": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: SANDRA MILENA PALACIO RIVERA ",
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    132041720
   ]
 }

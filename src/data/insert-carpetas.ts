@@ -1,9 +1,13 @@
-import { PrismaCarpeta,
+import { PrismaActuacion, PrismaCarpeta,
   PrismaDemanda,
-  PrismaDeudor, } from '../models/prisma-carpeta';
+  PrismaDeudor,
+  PrismaProceso, } from '../models/prisma-carpeta';
 import { NewJuzgado } from '../models/thenable';
 import { IntCarpeta } from '../types/carpetas';
-import { Juzgado, Prisma, PrismaClient } from '@prisma/client';
+import { Actuacion, Juzgado, Prisma, PrismaClient, Proceso } from '@prisma/client';
+import { intProceso } from '../types/procesos';
+import { intActuacion } from '../types/actuaciones';
+import * as fs from 'fs/promises';
 
 const client = new PrismaClient();
 
@@ -14,10 +18,11 @@ export async function insertCarpetaInPrisma(
     numero, procesos, ultimaActuacion
   } = carpeta;
 
+  const newPrismaCarpeta = new PrismaCarpeta(
+    carpeta
+  );
+
   try {
-    const newPrismaCarpeta = new PrismaCarpeta(
-      carpeta
-    );
     let newCarpeta: Prisma.CarpetaCreateInput;
 
     if ( !procesos || procesos.length === 0 ) {
@@ -123,9 +128,12 @@ export async function insertCarpetaInPrisma(
             }
           ),
         },
-        ultimaActuacion: {
+        actuaciones: {
           create: {
             ...ultimaActuacion,
+            isUltimaAct: ultimaActuacion.cant === ultimaActuacion.consActuacion
+              ? true
+              : false,
             fechaActuacion: new Date(
               ultimaActuacion.fechaActuacion
             ),
@@ -145,7 +153,8 @@ export async function insertCarpetaInPrisma(
             anotacion: ultimaActuacion.anotacion
               ? ultimaActuacion.anotacion
               : null,
-          },
+          }
+
         },
       };
     }
@@ -179,6 +188,19 @@ export async function insertCarpetaInPrisma(
       );
     }
 
+    console.log(
+      `${ numero }: carpetaInserter: ${ JSON.stringify(
+        createCarpeta,
+        null,
+        2,
+      ) }`,
+    );
+    fs.writeFile(
+      `carpetas/${ numero }/prismaCarpetaInserterOutput.json`,
+      JSON.stringify(
+        createCarpeta
+      ),
+    );
     return {
       StatusCode: 200,
       Message   : 'ok',
@@ -195,10 +217,25 @@ export async function insertCarpetaInPrisma(
                 e.meta, null, 2
               ) }`,
             );
+
+            const {
+              // eslint-disable-next-line @typescript-eslint/no-unused-vars
+              llaveProceso, ...newNewCarp
+            } = newPrismaCarpeta;
+
+            const createCarpeta = await client.carpeta.upsert(
+              {
+                where: {
+                  numero: newPrismaCarpeta.numero
+                },
+                create: newNewCarp,
+                update: newNewCarp
+              }
+            );
             return {
-              StatusCode: 202,
+              StatusCode: 500,
               Message   : e.message,
-              data      : e.meta,
+              data      : createCarpeta,
             };
           }
 
@@ -211,7 +248,7 @@ export async function insertCarpetaInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 203,
+              StatusCode: 301,
               Message   : e.message,
               data      : e.meta,
             };
@@ -521,4 +558,145 @@ export async function insertJuzgadoInPrisma (
       ),
     };
   }
+}
+
+
+export async function insertProcesosInPrisma (
+  procesos: intProceso[]
+) {
+  const finalProcesos = new Set<Proceso>();
+
+  for ( const proceso of procesos ) {
+    try {
+      const newPrismaProceso = new PrismaProceso(
+        proceso
+      );
+
+      const createProceso = await client.proceso.create(
+        {
+          data: newPrismaProceso
+        }
+      );
+      finalProcesos.add(
+        createProceso
+      );
+    } catch ( e ) {
+      if ( e instanceof Prisma.PrismaClientKnownRequestError ) {
+        // The .code property can be accessed in a type-safe manner
+        switch ( e.code ) {
+            case 'P2002': {
+              console.log(
+                `${ proceso.idProceso } ==> Unique constraint failed on the ${ e.message
+                } ${ JSON.stringify(
+                  e.meta, null, 2
+                ) }`,
+              );
+
+            }
+
+              break;
+
+            case 'P2003': {
+              console.log(
+                `${ proceso.idProceso } ==> Foreign key constraint failed on the field ${ JSON.stringify(
+                  e.meta,
+                  null,
+                  2,
+                ) }`,
+              );
+
+            }
+
+              break;
+            default: {
+              console.log(
+                `${ proceso.idProceso } ==> code: ${ e.code } message: ${ e.message
+                } meta: ${ JSON.stringify(
+                  e.meta, null, 2
+                ) }`,
+              );
+
+            }
+
+              break;
+        }
+      }
+
+
+    }
+  }
+
+  return Array.from(
+    finalProcesos
+  );
+}
+
+export async function insertActuacionesInPrisma (
+  actuaciones: intActuacion[]
+) {
+  const finalActuaciones = new Set<Actuacion>();
+
+  for ( const actuacion of actuaciones ) {
+    try {
+      const newPrismaActuacion = new PrismaActuacion(
+        actuacion
+      );
+
+      const createActuacion = await client.actuacion.create(
+        {
+          data: newPrismaActuacion
+        }
+      );
+      finalActuaciones.add(
+        createActuacion
+      );
+    } catch ( e ) {
+      if ( e instanceof Prisma.PrismaClientKnownRequestError ) {
+        // The .code property can be accessed in a type-safe manner
+        switch ( e.code ) {
+            case 'P2002': {
+              console.log(
+                `${ actuacion.llaveProceso } ==> Unique constraint failed on the ${ e.message
+                } ${ JSON.stringify(
+                  e.meta, null, 2
+                ) }`,
+              );
+
+            }
+
+              break;
+
+            case 'P2003': {
+              console.log(
+                `${ actuacion.llaveProceso } ==> Foreign key constraint failed on the field ${ JSON.stringify(
+                  e.meta,
+                  null,
+                  2,
+                ) }`,
+              );
+
+            }
+
+              break;
+            default: {
+              console.log(
+                `${ actuacion.llaveProceso } ==> code: ${ e.code } message: ${ e.message
+                } meta: ${ JSON.stringify(
+                  e.meta, null, 2
+                ) }`,
+              );
+
+            }
+
+              break;
+        }
+      }
+
+
+    }
+  }
+
+  return Array.from(
+    finalActuaciones
+  );
 }

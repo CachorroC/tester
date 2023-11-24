@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001310302720170037400",
   "numero": 7,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79733852,
-    "direccion": "calle 21 bis sur no. 88-58 bogota",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "jose",
-    "segundoNombre": "ricardo",
-    "primerApellido": "prieto",
-    "segundoApellido": "cruz"
-  },
+  "llaveProceso": "11001310302720170037400",
   "demanda": {
-    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
-    "expediente": "11001310302720170037400",
+    "vencimientoPagare": [
+      "2020-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 134026609,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       2553057
     ],
     "radicado": "2017 - 00374",
-    "vencimientoPagare": [
-      "2020-04-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001310302720170037400"
   },
-  "cc": 79733852,
-  "idProcesos": [
-    62733402
-  ],
-  "procesos": [
-    {
-      "idProceso": 62733402,
-      "idConexion": 180,
-      "llaveProceso": "11001310302720170037400",
-      "fechaProceso": "2017-05-25T00:00:00",
-      "fechaUltimaActuacion": "2022-03-09T00:00:00",
-      "despacho": "JUZGADO 027 CIVIL DEL CIRCUITO DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S. A. | Demandado: JOSE RICARDO PRIETO CRUZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-03-09T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1151407522,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 15
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "jose",
+    "segundoNombre": "ricardo",
+    "primerApellido": "prieto",
+    "segundoApellido": "cruz",
+    "cedula": 79733852,
+    "direccion": "calle 21 bis sur no. 88-58 bogota",
+    "email": null
+  },
+  "cc": 79733852,
+  "procesos": [
+    {
+      "idProceso": 62733402,
+      "idConexion": 180,
+      "llaveProceso": "11001310302720170037400",
+      "fechaProceso": "2017-05-25T00:00:00",
+      "fechaUltimaActuacion": "2022-03-09T00:00:00",
+      "despacho": "JUZGADO 027 CIVIL DEL CIRCUITO DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S. A. | Demandado: JOSE RICARDO PRIETO CRUZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    62733402
+  ]
 }

@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400307020170100700",
   "numero": 263,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 9856710,
-    "direccion": "carrera  6 no 8-16 pensilvania",
-    "email": "latablita1404@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "ancizar",
-    "segundoNombre": "giraldo",
-    "primerApellido": "botero",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400307020170100700",
   "demanda": {
-    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
-    "expediente": "11001400307020170100700",
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 2143527832,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
     "municipio": "PENSILVANIA",
     "obligacion": [
       12603197
     ],
     "radicado": "2017 - 01007",
-    "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307020170100700"
   },
-  "cc": 9856710,
-  "idProcesos": [
-    18366380
-  ],
-  "procesos": [
-    {
-      "idProceso": 18366380,
-      "idConexion": 260,
-      "llaveProceso": "11001400307020170100700",
-      "fechaProceso": "2017-09-29T00:00:00",
-      "fechaUltimaActuacion": "2018-02-05T00:00:00",
-      "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANCIZAR GIRALDO BOTERO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-02-05T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 265765330,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 7
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "ancizar",
+    "segundoNombre": "giraldo",
+    "primerApellido": "botero",
+    "segundoApellido": null,
+    "cedula": 9856710,
+    "direccion": "carrera  6 no 8-16 pensilvania",
+    "email": "latablita1404@hotmail.com"
+  },
+  "cc": 9856710,
+  "procesos": [
+    {
+      "idProceso": 18366380,
+      "idConexion": 260,
+      "llaveProceso": "11001400307020170100700",
+      "fechaProceso": "2017-09-29T00:00:00",
+      "fechaUltimaActuacion": "2018-02-05T00:00:00",
+      "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANCIZAR GIRALDO BOTERO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    18366380
+  ]
 }

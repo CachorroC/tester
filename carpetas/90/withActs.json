@@ -1,12 +1,43 @@
 {
-  "llaveProceso": "11001400303420170083600",
   "numero": 90,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400303420170083600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 26515333,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "1899-12-30T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-07-10T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12330030
+    ],
+    "radicado": "2017 - 00836",
+    "expediente": "11001400303420170083600"
+  },
+  "fecha": "2023-11-22T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1936709750,
+    "llaveProceso": "11001400303420170083600",
+    "consActuacion": 106,
+    "fechaActuacion": "2023-11-22T00:00:00",
+    "actuacion": "Recepción memorial",
+    "anotacion": "Radicado No. 14435-2023, No. Reloj Radicador: 46136, Entidad o Señor(a): CARMEN CECILIA RAMIREZ MUÑOZ - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Remates, Observaciones: Apoderado judicial de la parte demandante allega publicaciones completas (publicación del periódico y certificado de tradición) de manera física//Daniel Amado",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-22T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 106
+  },
   "category": "Bancolombia",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 1032432802,
-    "direccion": "carrera 95 # 138 - 58",
-    "email": "orduzcrit2@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,43 +45,23 @@
     "primerNombre": "luis",
     "segundoNombre": "esneider",
     "primerApellido": "orduz",
-    "segundoApellido": "farfan"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "mandamientoPago": "2017-07-10T00:00:00.000Z",
-    "entregaGarantiasAbogado": "1899-12-30T00:00:00.000Z",
-    "expediente": "11001400303420170083600",
-    "capitalAdeudado": 26515333,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12330030
-    ],
-    "radicado": "2017 - 00836",
-    "vencimientoPagare": [
-      "2020-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "farfan",
+    "cedula": 1032432802,
+    "direccion": "carrera 95 # 138 - 58",
+    "email": "orduzcrit2@hotmail.com"
   },
   "codeudor": {
     "cedula": 1015435620,
     "nombre": "jesica paola guzman ospina"
   },
   "cc": 1032432802,
-  "idProcesos": [
-    50521480,
-    81728891
-  ],
   "procesos": [
     {
       "idProceso": 50521480,
       "idConexion": 259,
       "llaveProceso": "11001400303420170083600",
       "fechaProceso": "2017-06-21T00:00:00",
-      "fechaUltimaActuacion": "2023-11-17T00:00:00",
+      "fechaUltimaActuacion": "2023-11-22T00:00:00",
       "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS ESNEIDER ORDUZ FARFAN ",
@@ -70,19 +81,8 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-11-17T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1935381960,
-    "llaveProceso": "11001400303420170083600",
-    "consActuacion": 105,
-    "fechaActuacion": "2023-11-17T00:00:00",
-    "actuacion": "Constancia secretarial",
-    "anotacion": "Se da contestación a memorial allegado el 16 de noviembre de 2023 por parte de Adolfo Rodriguez donde solicita link del expediente digital. ANUAR GUERRA",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-11-17T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 105
-  }
+  "idProcesos": [
+    50521480,
+    81728891
+  ]
 }

@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400307120170125000",
   "numero": 417,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400307120170125000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-09-01T05:00:00.000Z",
+      "2021-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 40942872,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-06-12T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      5740084511,
+      6390082501
+    ],
+    "radicado": "2017 - 01250",
+    "expediente": "11001400307120170125000"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 19275068,
-    "direccion": "calle 71 a no 70 b-11",
-    "email": "oscarmultibog@hotmail.com",
     "tel": {
       "fijo": 2511959,
       "celular": 3105638608
@@ -14,33 +32,12 @@
     "primerNombre": "oscar",
     "segundoNombre": "humberto",
     "primerApellido": "gomez",
-    "segundoApellido": "chuchin"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-12T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400307120170125000",
-    "capitalAdeudado": 40942872,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5740084511,
-      6390082501
-    ],
-    "radicado": "2017 - 01250",
-    "vencimientoPagare": [
-      "2021-09-01T05:00:00.000Z",
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "chuchin",
+    "cedula": 19275068,
+    "direccion": "calle 71 a no 70 b-11",
+    "email": "oscarmultibog@hotmail.com"
   },
   "cc": 19275068,
-  "idProcesos": [
-    64793050
-  ],
   "procesos": [
     {
       "idProceso": 64793050,
@@ -54,5 +51,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    64793050
   ]
 }

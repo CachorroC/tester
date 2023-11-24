@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302520170090300",
   "numero": 174,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302520170090300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 14795921,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-18T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      136962
+    ],
+    "radicado": "2017 - 00903",
+    "expediente": "11001400302520170090300"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52189873,
-    "direccion": "calle 74g # 80 - 58 sur",
-    "email": "darnelly-74@hotmail.com",
     "tel": {
       "fijo": 4530972,
       "celular": 3144189224
@@ -14,31 +30,12 @@
     "primerNombre": "darnelly",
     "segundoNombre": "hernandez",
     "primerApellido": "martinez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2017-09-18T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
-    "expediente": "11001400302520170090300",
-    "capitalAdeudado": 14795921,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      136962
-    ],
-    "radicado": "2017 - 00903",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 52189873,
+    "direccion": "calle 74g # 80 - 58 sur",
+    "email": "darnelly-74@hotmail.com"
   },
   "cc": 52189873,
-  "idProcesos": [
-    112048180
-  ],
   "procesos": [
     {
       "idProceso": 112048180,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    112048180
   ]
 }

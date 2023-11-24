@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400304120170094600",
   "numero": 162,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400304120170094600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "1970-01-01T04:57:57.732Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-30T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      43449,
+      1540086035
+    ],
+    "radicado": "2017 - 00946",
+    "expediente": "11001400304120170094600"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 900432476,
-    "direccion": null,
-    "email": "7514006",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "manhattan",
     "segundoNombre": "dotaciones",
     "primerApellido": "s.a.s",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-08-30T00:00:00.000Z",
-    "entregaGarantiasAbogado": "1970-01-01T04:57:57.732Z",
-    "expediente": "11001400304120170094600",
-    "capitalAdeudado": 0,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      43449,
-      1540086035
-    ],
-    "radicado": "2017 - 00946",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 900432476,
+    "direccion": null,
+    "email": "7514006"
   },
   "codeudor": {
     "cedula": "CARRERA 34 # 34 - 71 SUR INT 10",
@@ -43,9 +43,6 @@
     "telefono": "CARMEN ALICIA RAMIREZ CHURQUE"
   },
   "cc": 900432476,
-  "idProcesos": [
-    52159350
-  ],
   "procesos": [
     {
       "idProceso": 52159350,
@@ -59,5 +56,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    52159350
   ]
 }

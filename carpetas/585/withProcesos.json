@@ -1,12 +1,31 @@
 {
-  "llaveProceso": "11001418907020230039900",
   "numero": 585,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418907020230039900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-09-01T05:00:00.000Z",
+      "2026-05-01T05:00:00.000Z",
+      "2026-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 25766202,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-09-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      31035862,
+      "377816195788645 X TC AMERICAN // 4099843107499631 X T.C. VISA"
+    ],
+    "radicado": "2023-399",
+    "expediente": "11001418907020230039900"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 41336003,
-    "direccion": "calle 152 no. 12c - 12 torre 1 apto 704 conjunto residencial entrecedros en bogotá y/o carrera 19 a no. 159 -70-84 interior 4 apto 503 conjunto residencial sauces del norte",
-    "email": "adrifor_co@hotmail.com",
     "tel": {
       "fijo": 3543562,
       "celular": 3143644918
@@ -17,34 +36,12 @@
     "segundoApellido": [
       "de",
       "mendoza"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-09-26T00:00:00.000Z",
-    "expediente": "11001418907020230039900",
-    "capitalAdeudado": 25766202,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      31035862,
-      "377816195788645 X TC AMERICAN // 4099843107499631 X T.C. VISA"
     ],
-    "radicado": "2023-399",
-    "vencimientoPagare": [
-      "2026-09-01T05:00:00.000Z",
-      "2026-05-01T05:00:00.000Z",
-      "2026-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "cedula": 41336003,
+    "direccion": "calle 152 no. 12c - 12 torre 1 apto 704 conjunto residencial entrecedros en bogotá y/o carrera 19 a no. 159 -70-84 interior 4 apto 503 conjunto residencial sauces del norte",
+    "email": "adrifor_co@hotmail.com"
   },
   "cc": 41336003,
-  "idProcesos": [
-    133932120
-  ],
   "procesos": [
     {
       "idProceso": 133932120,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    133932120
   ]
 }

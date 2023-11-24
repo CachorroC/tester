@@ -1,63 +1,26 @@
 {
-  "llaveProceso": "11001400300320170126400",
   "numero": 169,
-  "tipoProceso": "PRENDARIO",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 23553904,
-    "direccion": "carrera 67 no. 65-22 sur torre 15 apto 559",
-    "email": "dorancy1@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "rita",
-    "segundoNombre": "blanco",
-    "primerApellido": "de",
-    "segundoApellido": "gomez"
-  },
+  "llaveProceso": "11001400300320170126400",
   "demanda": {
-    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
-    "mandamientoPago": "2017-08-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
-    "expediente": "11001400300320170126400",
+    "vencimientoPagare": [
+      "2020-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 13144437,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-08-03T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12498762,
       "audioprestamo"
     ],
     "radicado": "2017 - 01264",
-    "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300320170126400"
   },
-  "codeudor": {
-    "cedula": 46453644,
-    "nombre": "nidia dorancy gomez blanco"
-  },
-  "cc": 23553904,
-  "idProcesos": [
-    50598770
-  ],
-  "procesos": [
-    {
-      "idProceso": 50598770,
-      "idConexion": 259,
-      "llaveProceso": "11001400300320170126400",
-      "fechaProceso": "2017-07-27T00:00:00",
-      "fechaUltimaActuacion": "2023-10-10T00:00:00",
-      "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NIDIA DORANCY GOMEZ BLANCO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-10-10T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1900297790,
@@ -72,5 +35,42 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 89
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "rita",
+    "segundoNombre": "blanco",
+    "primerApellido": "de",
+    "segundoApellido": "gomez",
+    "cedula": 23553904,
+    "direccion": "carrera 67 no. 65-22 sur torre 15 apto 559",
+    "email": "dorancy1@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 46453644,
+    "nombre": "nidia dorancy gomez blanco"
+  },
+  "cc": 23553904,
+  "procesos": [
+    {
+      "idProceso": 50598770,
+      "idConexion": 259,
+      "llaveProceso": "11001400300320170126400",
+      "fechaProceso": "2017-07-27T00:00:00",
+      "fechaUltimaActuacion": "2023-10-10T00:00:00",
+      "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NIDIA DORANCY GOMEZ BLANCO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50598770
+  ]
 }

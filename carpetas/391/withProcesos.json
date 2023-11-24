@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400305020180012900",
   "numero": 391,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400305020180012900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2033-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 48945502,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-05-02T05:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      161684
+    ],
+    "radicado": "2018 - 00129",
+    "expediente": "11001400305020180012900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52190973,
-    "direccion": "avenida(calle) 68 sur no 70d-71 apartamento 1302",
-    "email": "bibianvargas@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "yaneth",
     "segundoNombre": "bibiana",
     "primerApellido": "vargas",
-    "segundoApellido": "cano"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-05-02T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400305020180012900",
-    "capitalAdeudado": 48945502,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      161684
-    ],
-    "radicado": "2018 - 00129",
-    "vencimientoPagare": [
-      "2033-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "cano",
+    "cedula": 52190973,
+    "direccion": "avenida(calle) 68 sur no 70d-71 apartamento 1302",
+    "email": "bibianvargas@gmail.com"
   },
   "cc": 52190973,
-  "idProcesos": [
-    11227193
-  ],
   "procesos": [
     {
       "idProceso": 11227193,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    11227193
   ]
 }

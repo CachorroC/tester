@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25214400300120180100200",
   "numero": 509,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25214400300120180100200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1658559500,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "COTA",
+    "obligacion": [
+      8270082134
+    ],
+    "radicado": "2018 - 01002",
+    "expediente": "25214400300120180100200"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 20401209,
-    "direccion": "calle 7 no 5-31",
-    "email": "todostienenzero@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "diana",
     "segundoNombre": "carolina",
     "primerApellido": "prado",
-    "segundoApellido": "fiquitiva"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "25214400300120180100200",
-    "capitalAdeudado": 1658559500,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "COTA",
-    "obligacion": [
-      8270082134
-    ],
-    "radicado": "2018 - 01002",
-    "vencimientoPagare": [
-      "2015-10-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "fiquitiva",
+    "cedula": 20401209,
+    "direccion": "calle 7 no 5-31",
+    "email": "todostienenzero@hotmail.com"
   },
   "cc": 20401209,
   "idProcesos": null

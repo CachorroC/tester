@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25754400100420180009800",
   "numero": 332,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754400100420180009800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 3803417049,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-08T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      "161947 /377813179503108",
+      377813223799561
+    ],
+    "radicado": "2018   00098",
+    "expediente": "25754400100420180009800"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 91284725,
-    "direccion": "carrera 7 a  no  2 a - 35 torre 10 apartamento 303",
-    "email": "nichemen@hotmail.com",
     "tel": {
       "fijo": 9032416,
       "celular": 3168017488
@@ -14,27 +31,10 @@
     "primerNombre": "miguel",
     "segundoNombre": "antonio",
     "primerApellido": "sanchez",
-    "segundoApellido": "marroquin"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-11-08T00:00:00.000Z",
-    "expediente": "25754400100420180009800",
-    "capitalAdeudado": 3803417049,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "SOACHA",
-    "obligacion": [
-      "161947 /377813179503108",
-      377813223799561
-    ],
-    "radicado": "2018   00098",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "marroquin",
+    "cedula": 91284725,
+    "direccion": "carrera 7 a  no  2 a - 35 torre 10 apartamento 303",
+    "email": "nichemen@hotmail.com"
   },
   "cc": 91284725,
   "idProcesos": null

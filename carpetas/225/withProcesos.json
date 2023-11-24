@@ -1,12 +1,26 @@
 {
-  "llaveProceso": "11001400301320170116300",
   "numero": 225,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400301320170116300",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 2328778432,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      141663
+    ],
+    "radicado": "2017 - 01163",
+    "expediente": "11001400301320170116300"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79815721,
-    "direccion": "carrera 88 c # 62 - 09 sur apto 104",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,24 +28,10 @@
     "primerNombre": "luis",
     "segundoNombre": "octavio",
     "primerApellido": "rojas",
-    "segundoApellido": "valbuena"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
-    "expediente": "11001400301320170116300",
-    "capitalAdeudado": 2328778432,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      141663
-    ],
-    "radicado": "2017 - 01163",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "valbuena",
+    "cedula": 79815721,
+    "direccion": "carrera 88 c # 62 - 09 sur apto 104",
+    "email": null
   },
   "codeudor": {
     "cedula": 52288677,
@@ -40,9 +40,6 @@
     "telefono": 7232380
   },
   "cc": 79815721,
-  "idProcesos": [
-    50683550
-  ],
   "procesos": [
     {
       "idProceso": 50683550,
@@ -56,5 +53,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50683550
   ]
 }

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25754400300220170026500",
   "numero": 208,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "25754400300220170026500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 27819415,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-09-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": [
+      12725973
+    ],
+    "radicado": "2017 - 00265",
+    "expediente": "25754400300220170026500"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 80357801,
-    "direccion": "calle 34 # 1a - 40 casa 247",
-    "email": "jeovanyrojas@outlook.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "jeovany",
     "segundoNombre": "rojas",
     "primerApellido": "cruz",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2017-09-12T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
-    "expediente": "25754400300220170026500",
-    "capitalAdeudado": 27819415,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "SOACHA",
-    "obligacion": [
-      12725973
-    ],
-    "radicado": "2017 - 00265",
-    "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80357801,
+    "direccion": "calle 34 # 1a - 40 casa 247",
+    "email": "jeovanyrojas@outlook.com"
   },
   "cc": 80357801,
-  "idProcesos": [
-    86374941
-  ],
   "procesos": [
     {
       "idProceso": 86374941,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    86374941
   ]
 }

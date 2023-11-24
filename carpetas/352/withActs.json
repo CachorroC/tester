@@ -1,67 +1,25 @@
 {
-  "llaveProceso": "11001400307620170101600",
   "numero": 352,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 71992491,
-    "direccion": "transversal 2 c bis no 97 b-05 sur",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "mario",
-    "segundoNombre": "de",
-    "primerApellido": "jesus",
-    "segundoApellido": [
-      "ossa",
-      "pulgarin"
-    ]
-  },
+  "llaveProceso": "11001400307620170101600",
   "demanda": {
-    "fechaPresentacion": "2017-10-17T00:00:00.000Z",
-    "mandamientoPago": "2017-10-25T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
-    "expediente": "11001400307620170101600",
+    "vencimientoPagare": [
+      "2019-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 11853652,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-29T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-10-25T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-17T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       4280023383
     ],
     "radicado": "2017 - 01016",
-    "vencimientoPagare": [
-      "2019-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307620170101600"
   },
-  "codeudor": {
-    "cedula": 24764240,
-    "direccion": "TRANSVERSAL 2 C BIS No 97 B -05 SUR",
-    "nombre": "blanca nubia lopez cifuentes",
-    "telefono": 3144245852
-  },
-  "cc": 71992491,
-  "idProcesos": [
-    51499790
-  ],
-  "procesos": [
-    {
-      "idProceso": 51499790,
-      "idConexion": 259,
-      "llaveProceso": "11001400307620170101600",
-      "fechaProceso": "2018-11-23T00:00:00",
-      "fechaUltimaActuacion": "2023-09-13T00:00:00",
-      "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: MAURICIO BOTERO WOLFF | Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA NUBIA LOPEZ CIFUENTES | Demandado: MARIO DE JESUS OSSA PULGARIN ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-09-13T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1878048030,
@@ -76,5 +34,47 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 149
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "mario",
+    "segundoNombre": "de",
+    "primerApellido": "jesus",
+    "segundoApellido": [
+      "ossa",
+      "pulgarin"
+    ],
+    "cedula": 71992491,
+    "direccion": "transversal 2 c bis no 97 b-05 sur",
+    "email": null
+  },
+  "codeudor": {
+    "cedula": 24764240,
+    "direccion": "TRANSVERSAL 2 C BIS No 97 B -05 SUR",
+    "nombre": "blanca nubia lopez cifuentes",
+    "telefono": 3144245852
+  },
+  "cc": 71992491,
+  "procesos": [
+    {
+      "idProceso": 51499790,
+      "idConexion": 259,
+      "llaveProceso": "11001400307620170101600",
+      "fechaProceso": "2018-11-23T00:00:00",
+      "fechaUltimaActuacion": "2023-09-13T00:00:00",
+      "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: MAURICIO BOTERO WOLFF | Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA NUBIA LOPEZ CIFUENTES | Demandado: MARIO DE JESUS OSSA PULGARIN ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51499790
+  ]
 }

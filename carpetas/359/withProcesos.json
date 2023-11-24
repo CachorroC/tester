@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400306520170178600",
   "numero": 359,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400306520170178600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 872532175,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-02-02T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-12T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      71141
+    ],
+    "radicado": "2017 - 01786",
+    "expediente": "11001400306520170178600"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79357895,
-    "direccion": "carrera 123 no 13 - 85 casa 364",
-    "email": null,
     "tel": {
       "fijo": 1665335,
       "celular": 3165335586
@@ -14,31 +30,12 @@
     "primerNombre": "jose",
     "segundoNombre": "david",
     "primerApellido": "peña",
-    "segundoApellido": "saavedra"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-07-12T05:00:00.000Z",
-    "mandamientoPago": "2018-02-02T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400306520170178600",
-    "capitalAdeudado": 872532175,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      71141
-    ],
-    "radicado": "2017 - 01786",
-    "vencimientoPagare": [
-      "2018-07-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "saavedra",
+    "cedula": 79357895,
+    "direccion": "carrera 123 no 13 - 85 casa 364",
+    "email": null
   },
   "cc": 79357895,
-  "idProcesos": [
-    18169790
-  ],
   "procesos": [
     {
       "idProceso": 18169790,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    18169790
   ]
 }

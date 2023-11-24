@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400305020180014000",
   "numero": 365,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400305020180014000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2023-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2397014605,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-07-12T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      106172
+    ],
+    "radicado": "2018 - 00140",
+    "expediente": "11001400305020180014000"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79861680,
-    "direccion": "carrera 105 a no 70 d- 90 int 1 apart 5",
-    "email": "richard.iriarte76@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "richard",
     "segundoNombre": "camilo",
     "primerApellido": "iriarte",
-    "segundoApellido": "garcia"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-07-12T05:00:00.000Z",
-    "expediente": "11001400305020180014000",
-    "capitalAdeudado": 2397014605,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      106172
-    ],
-    "radicado": "2018 - 00140",
-    "vencimientoPagare": [
-      "2023-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "garcia",
+    "cedula": 79861680,
+    "direccion": "carrera 105 a no 70 d- 90 int 1 apart 5",
+    "email": "richard.iriarte76@hotmail.com"
   },
   "codeudor": {
     "cedula": 52234865,
@@ -42,9 +42,6 @@
     "telefono": 4540096
   },
   "cc": 79861680,
-  "idProcesos": [
-    11227303
-  ],
   "procesos": [
     {
       "idProceso": 11227303,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    11227303
   ]
 }

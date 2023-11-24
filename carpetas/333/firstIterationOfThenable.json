@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400306320170131700",
   "numero": 333,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400306320170131700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1889842100,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2018-01-15T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-01-15T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12710799
+    ],
+    "radicado": "2017 - 01317",
+    "expediente": "11001400306320170131700"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 52085839,
-    "direccion": "calle 55 no 78 -74  apartamento 1110",
-    "email": "ahidaguevara@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "ahida",
     "segundoNombre": "lucero",
     "primerApellido": "guevara",
-    "segundoApellido": "becerra"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-01-15T00:00:00.000Z",
-    "mandamientoPago": "2018-01-15T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400306320170131700",
-    "capitalAdeudado": 1889842100,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12710799
-    ],
-    "radicado": "2017 - 01317",
-    "vencimientoPagare": [
-      "2017-11-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "becerra",
+    "cedula": 52085839,
+    "direccion": "calle 55 no 78 -74  apartamento 1110",
+    "email": "ahidaguevara@gmail.com"
   },
   "cc": 52085839,
   "idProcesos": null

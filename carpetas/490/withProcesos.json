@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25754418900120180098800",
   "numero": 490,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754418900120180098800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "20-09-2018",
+    "fechaPresentacion": "2018-02-11T05:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": [
+      "17.506.316.71"
+    ],
+    "radicado": "2018 - 00988",
+    "expediente": "25754418900120180098800"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80052004,
-    "direccion": "396776067",
-    "email": "TRANSVERSAL 18 C- No 9C-11 SUR MANZANA 5 CASA 134",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "diego",
     "segundoNombre": "armando",
     "primerApellido": "mateus",
-    "segundoApellido": "espitia"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-02-11T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "25754418900120180098800",
-    "capitalAdeudado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "20-09-2018",
-    "municipio": "SOACHA",
-    "obligacion": [
-      "17.506.316.71"
-    ],
-    "radicado": "2018 - 00988",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "espitia",
+    "cedula": 80052004,
+    "direccion": "396776067",
+    "email": "TRANSVERSAL 18 C- No 9C-11 SUR MANZANA 5 CASA 134"
   },
   "codeudor": {
     "cedula": "BIBIANA ANGELICA NUÑEZ RIVERA",
@@ -42,6 +42,6 @@
     "telefono": "TRANSVERSAL 18C No 9C-11 SUR MANZANA 5"
   },
   "cc": 80052004,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

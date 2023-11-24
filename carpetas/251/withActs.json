@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400301320170116200",
   "numero": 251,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 7226283,
-    "direccion": "carrera 11a # 17 - 24 santa barbara",
-    "email": "cajux@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3178195535
-    },
-    "primerNombre": "carlos",
-    "segundoNombre": "javier",
-    "primerApellido": "becerra",
-    "segundoApellido": "benavides"
-  },
+  "llaveProceso": "11001400301320170116200",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2020-04-25T00:00:00.000Z",
-    "expediente": "11001400301320170116200",
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 56386936,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2020-04-25T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12703441
     ],
     "radicado": "2017 - 01162",
-    "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301320170116200"
   },
-  "cc": 7226283,
-  "idProcesos": [
-    50685530
-  ],
-  "procesos": [
-    {
-      "idProceso": 50685530,
-      "idConexion": 259,
-      "llaveProceso": "11001400301320170116200",
-      "fechaProceso": "2017-09-05T00:00:00",
-      "fechaUltimaActuacion": "2023-09-04T00:00:00",
-      "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS JAVIER BECERRA BENAVIDES ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-09-04T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1868347000,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 120
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3178195535
+    },
+    "primerNombre": "carlos",
+    "segundoNombre": "javier",
+    "primerApellido": "becerra",
+    "segundoApellido": "benavides",
+    "cedula": 7226283,
+    "direccion": "carrera 11a # 17 - 24 santa barbara",
+    "email": "cajux@hotmail.com"
+  },
+  "cc": 7226283,
+  "procesos": [
+    {
+      "idProceso": 50685530,
+      "idConexion": 259,
+      "llaveProceso": "11001400301320170116200",
+      "fechaProceso": "2017-09-05T00:00:00",
+      "fechaUltimaActuacion": "2023-09-04T00:00:00",
+      "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS JAVIER BECERRA BENAVIDES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50685530
+  ]
 }

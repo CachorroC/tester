@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25754418900320190027000",
   "numero": 484,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754418900320190027000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2032-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 26503795,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "2.575441890032019e+22",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      20990157739
+    ],
+    "radicado": "2019 - 00270",
+    "expediente": "25754418900320190027000"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 30339083,
-    "direccion": "carrera 7a no  2-94 sur",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -17,26 +33,10 @@
     "segundoApellido": [
       "avila",
       "garzon"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
-    "expediente": "25754418900320190027000",
-    "capitalAdeudado": 26503795,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "2.575441890032019e+22",
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990157739
     ],
-    "radicado": "2019 - 00270",
-    "vencimientoPagare": [
-      "2032-11-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "cedula": 30339083,
+    "direccion": "carrera 7a no  2-94 sur",
+    "email": null
   },
   "codeudor": {
     "cedula": 14277736,
@@ -45,6 +45,6 @@
     "telefono": "F 2000631"
   },
   "cc": 30339083,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

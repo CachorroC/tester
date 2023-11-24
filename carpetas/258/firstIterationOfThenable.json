@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400301320170117800",
   "numero": 258,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400301320170117800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 18506672,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-13T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      5470083833,
+      "377813735559305 // 5303724061518310"
+    ],
+    "radicado": "2017 - 01178",
+    "expediente": "11001400301320170117800"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 51740544,
-    "direccion": "carrera 121 # 128b - 52 bloque 8 casa 34",
-    "email": "dirfinanciera.sol@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "sol",
     "segundoNombre": "judith",
     "primerApellido": "buitrago",
-    "segundoApellido": "duque"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-06T00:00:00.000Z",
-    "mandamientoPago": "2017-09-13T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
-    "expediente": "11001400301320170117800",
-    "capitalAdeudado": 18506672,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5470083833,
-      "377813735559305 // 5303724061518310"
-    ],
-    "radicado": "2017 - 01178",
-    "vencimientoPagare": [
-      "2018-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "duque",
+    "cedula": 51740544,
+    "direccion": "carrera 121 # 128b - 52 bloque 8 casa 34",
+    "email": "dirfinanciera.sol@gmail.com"
   },
   "cc": 51740544,
   "idProcesos": null

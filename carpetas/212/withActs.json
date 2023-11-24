@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400304620170103500",
   "numero": 212,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 14320811,
-    "direccion": "carrera 145 # 142f - 60  casa 164",
-    "email": "verafarfan@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "fernando",
-    "segundoNombre": "vera",
-    "primerApellido": "farfan",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400304620170103500",
   "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
-    "expediente": "11001400304620170103500",
+    "vencimientoPagare": [
+      "2017-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1266069889,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       99873
     ],
     "radicado": "2017 - 01035",
-    "vencimientoPagare": [
-      "2017-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304620170103500"
   },
-  "codeudor": {
-    "cedula": 55057911,
-    "direccion": "CARRERA 566 # 132 - 40",
-    "nombre": "ana isabel olivera",
-    "telefono": 4818738
-  },
-  "cc": 14320811,
-  "idProcesos": [
-    10134513
-  ],
-  "procesos": [
-    {
-      "idProceso": 10134513,
-      "idConexion": 261,
-      "llaveProceso": "11001400304620170103500",
-      "fechaProceso": "2017-10-09T00:00:00",
-      "fechaUltimaActuacion": "2017-11-28T00:00:00",
-      "despacho": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A HITOS | Demandado: ANA ISABEL OLIVERA | Demandado: FERNANDO VERA FARFAN ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2017-11-28T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 119895683,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 8
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "fernando",
+    "segundoNombre": "vera",
+    "primerApellido": "farfan",
+    "segundoApellido": null,
+    "cedula": 14320811,
+    "direccion": "carrera 145 # 142f - 60  casa 164",
+    "email": "verafarfan@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 55057911,
+    "direccion": "CARRERA 566 # 132 - 40",
+    "nombre": "ana isabel olivera",
+    "telefono": 4818738
+  },
+  "cc": 14320811,
+  "procesos": [
+    {
+      "idProceso": 10134513,
+      "idConexion": 261,
+      "llaveProceso": "11001400304620170103500",
+      "fechaProceso": "2017-10-09T00:00:00",
+      "fechaUltimaActuacion": "2017-11-28T00:00:00",
+      "despacho": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A HITOS | Demandado: ANA ISABEL OLIVERA | Demandado: FERNANDO VERA FARFAN ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    10134513
+  ]
 }

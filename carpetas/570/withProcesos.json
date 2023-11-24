@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001418907520230016700",
   "numero": 570,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418907520230016700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 19170517,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      3990086952
+    ],
+    "radicado": "2023 - 01465",
+    "expediente": "11001418907520230016700"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 21386342,
-    "direccion": "av suba no. 136-80 bl b ap 502 cerros de suba – gratamira //kr 75 no. 65 - 78 ap 402 edificio montreal p.h. medellín // vereda potrerito ?",
-    "email": "martacospina@hotmail.com",
     "tel": {
       "fijo": 2977768,
       "celular": 3163096532
@@ -14,31 +30,12 @@
     "primerNombre": "martha",
     "segundoNombre": "cecilia",
     "primerApellido": "ospina",
-    "segundoApellido": "arenas"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
-    "expediente": "11001418907520230016700",
-    "capitalAdeudado": 19170517,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      3990086952
-    ],
-    "radicado": "2023 - 01465",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "arenas",
+    "cedula": 21386342,
+    "direccion": "av suba no. 136-80 bl b ap 502 cerros de suba – gratamira //kr 75 no. 65 - 78 ap 402 edificio montreal p.h. medellín // vereda potrerito ?",
+    "email": "martacospina@hotmail.com"
   },
   "cc": 21386342,
-  "idProcesos": [
-    132240890
-  ],
   "procesos": [
     {
       "idProceso": 132240890,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    132240890
   ]
 }

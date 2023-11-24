@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400305320170072000",
   "numero": 4,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 93437973,
-    "direccion": "carrera 104 no. 12  b-94 bogota",
-    "email": "dipsonsanchez16@g0mail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3182165543
-    },
-    "primerNombre": "dipson",
-    "segundoNombre": "eusebio",
-    "primerApellido": "sanchez",
-    "segundoApellido": "castiblanco"
-  },
+  "llaveProceso": "11001400305320170072000",
   "demanda": {
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
-    "expediente": "11001400305320170072000",
+    "vencimientoPagare": [
+      "2022-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 29925624,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "2273 320158101"
     ],
     "radicado": "2017 - 00720",
-    "vencimientoPagare": [
-      "2022-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400305320170072000"
   },
-  "cc": 93437973,
-  "idProcesos": [
-    11997693
-  ],
-  "procesos": [
-    {
-      "idProceso": 11997693,
-      "idConexion": 261,
-      "llaveProceso": "11001400305320170072000",
-      "fechaProceso": "2017-06-01T00:00:00",
-      "fechaUltimaActuacion": "2018-06-14T00:00:00",
-      "despacho": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIPSO EUSEBIO  SANCHEZ CASTIBLANCO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-06-14T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 155319973,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 19
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3182165543
+    },
+    "primerNombre": "dipson",
+    "segundoNombre": "eusebio",
+    "primerApellido": "sanchez",
+    "segundoApellido": "castiblanco",
+    "cedula": 93437973,
+    "direccion": "carrera 104 no. 12  b-94 bogota",
+    "email": "dipsonsanchez16@g0mail.com"
+  },
+  "cc": 93437973,
+  "procesos": [
+    {
+      "idProceso": 11997693,
+      "idConexion": 261,
+      "llaveProceso": "11001400305320170072000",
+      "fechaProceso": "2017-06-01T00:00:00",
+      "fechaUltimaActuacion": "2018-06-14T00:00:00",
+      "despacho": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIPSO EUSEBIO  SANCHEZ CASTIBLANCO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    11997693
+  ]
 }

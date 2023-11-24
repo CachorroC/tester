@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304620170103500",
   "numero": 212,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400304620170103500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1266069889,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      99873
+    ],
+    "radicado": "2017 - 01035",
+    "expediente": "11001400304620170103500"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 14320811,
-    "direccion": "carrera 145 # 142f - 60  casa 164",
-    "email": "verafarfan@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "fernando",
     "segundoNombre": "vera",
     "primerApellido": "farfan",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
-    "expediente": "11001400304620170103500",
-    "capitalAdeudado": 1266069889,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      99873
-    ],
-    "radicado": "2017 - 01035",
-    "vencimientoPagare": [
-      "2017-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 14320811,
+    "direccion": "carrera 145 # 142f - 60  casa 164",
+    "email": "verafarfan@hotmail.com"
   },
   "codeudor": {
     "cedula": 55057911,
@@ -42,9 +42,6 @@
     "telefono": 4818738
   },
   "cc": 14320811,
-  "idProcesos": [
-    10134513
-  ],
   "procesos": [
     {
       "idProceso": 10134513,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    10134513
   ]
 }

@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400305620170059100",
   "numero": 94,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1030527169,
-    "direccion": "carrera 70c # 1a - 86 sur",
-    "email": "o",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "aida",
-    "segundoNombre": "yurani",
-    "primerApellido": "grijalba",
-    "segundoApellido": "martinez"
-  },
+  "llaveProceso": "11001400305620170059100",
   "demanda": {
-    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
-    "expediente": "11001400305620170059100",
+    "vencimientoPagare": [
+      "2034-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 9524471150,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       177994
     ],
     "radicado": "2017 - 00591",
-    "vencimientoPagare": [
-      "2034-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400305620170059100"
   },
-  "cc": 1030527169,
-  "idProcesos": [
-    17325724
-  ],
-  "procesos": [
-    {
-      "idProceso": 17325724,
-      "idConexion": 263,
-      "llaveProceso": "11001400305620170059100",
-      "fechaProceso": "2017-06-30T00:00:00",
-      "fechaUltimaActuacion": "2017-12-07T00:00:00",
-      "despacho": "JUZGADO 056 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AIDA YURANY  GRIJALBA MARTINEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2017-12-07T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 98177804,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 8
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "aida",
+    "segundoNombre": "yurani",
+    "primerApellido": "grijalba",
+    "segundoApellido": "martinez",
+    "cedula": 1030527169,
+    "direccion": "carrera 70c # 1a - 86 sur",
+    "email": "o"
+  },
+  "cc": 1030527169,
+  "procesos": [
+    {
+      "idProceso": 17325724,
+      "idConexion": 263,
+      "llaveProceso": "11001400305620170059100",
+      "fechaProceso": "2017-06-30T00:00:00",
+      "fechaUltimaActuacion": "2017-12-07T00:00:00",
+      "despacho": "JUZGADO 056 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AIDA YURANY  GRIJALBA MARTINEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    17325724
+  ]
 }

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301620170015700",
   "numero": 287,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400301620170015700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 44309785,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-10-04T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-10-06T00:00:00.000Z",
+    "etapaProcesal": "1.100140037162017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12592504
+    ],
+    "radicado": "2017 - 00157",
+    "expediente": "11001400301620170015700"
+  },
   "category": "Insolvencia",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 79861754,
-    "direccion": "calle 72 a no  74 a - 77",
-    "email": "carlosgrugec@hotmail.com",
     "tel": {
       "fijo": 6087374,
       "celular": 3104865508
@@ -14,31 +30,12 @@
     "primerNombre": "carlos",
     "segundoNombre": "german",
     "primerApellido": "ruge",
-    "segundoApellido": "castañeda"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-10-06T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-04T00:00:00.000Z",
-    "expediente": "11001400301620170015700",
-    "capitalAdeudado": 44309785,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "1.100140037162017e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12592504
-    ],
-    "radicado": "2017 - 00157",
-    "vencimientoPagare": [
-      "2020-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "castañeda",
+    "cedula": 79861754,
+    "direccion": "calle 72 a no  74 a - 77",
+    "email": "carlosgrugec@hotmail.com"
   },
   "cc": 79861754,
-  "idProcesos": [
-    50242270
-  ],
   "procesos": [
     {
       "idProceso": 50242270,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50242270
   ]
 }

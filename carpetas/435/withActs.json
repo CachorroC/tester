@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400301620180057300",
   "numero": 435,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1012341563,
-    "direccion": "calle 62a sur-no 73c-21 t 1 apto 202",
-    "email": "marysqs@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "maribel",
-    "segundoNombre": "revelo",
-    "primerApellido": "quiroga",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400301620180057300",
   "demanda": {
-    "fechaPresentacion": "2018-05-22T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-05-16T00:00:00.000Z",
-    "expediente": "11001400301620180057300",
+    "vencimientoPagare": [
+      "2025-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 3212457385,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-05-16T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-22T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       20990131392
     ],
     "radicado": "2018 - 00573",
-    "vencimientoPagare": [
-      "2025-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301620180057300"
   },
-  "cc": 1012341563,
-  "idProcesos": [
-    51205750
-  ],
-  "procesos": [
-    {
-      "idProceso": 51205750,
-      "idConexion": 259,
-      "llaveProceso": "11001400301620180057300",
-      "fechaProceso": "2018-05-23T00:00:00",
-      "fechaUltimaActuacion": "2019-09-16T00:00:00",
-      "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA  S.A. | Demandado: MARIBEL RAVELO QUIROGA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-09-16T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 653663500,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 26
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "maribel",
+    "segundoNombre": "revelo",
+    "primerApellido": "quiroga",
+    "segundoApellido": null,
+    "cedula": 1012341563,
+    "direccion": "calle 62a sur-no 73c-21 t 1 apto 202",
+    "email": "marysqs@hotmail.com"
+  },
+  "cc": 1012341563,
+  "procesos": [
+    {
+      "idProceso": 51205750,
+      "idConexion": 259,
+      "llaveProceso": "11001400301620180057300",
+      "fechaProceso": "2018-05-23T00:00:00",
+      "fechaUltimaActuacion": "2019-09-16T00:00:00",
+      "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA  S.A. | Demandado: MARIBEL RAVELO QUIROGA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51205750
+  ]
 }

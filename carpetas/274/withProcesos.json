@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400300720170148400",
   "numero": 274,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400300720170148400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1291806089,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-11T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      109481
+    ],
+    "radicado": "2017 - 01484",
+    "expediente": "11001400300720170148400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80312466,
-    "direccion": "carrera 28 no  84 - 36",
-    "email": "andresacevedo24@hotmail.com",
     "tel": {
       "fijo": 6915340,
       "celular": 3178134824
@@ -14,31 +30,12 @@
     "primerNombre": "andres",
     "segundoNombre": "guillermo",
     "primerApellido": "acevedo",
-    "segundoApellido": "borraez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-05-10T05:00:00.000Z",
-    "mandamientoPago": "2017-09-11T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400300720170148400",
-    "capitalAdeudado": 1291806089,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      109481
-    ],
-    "radicado": "2017 - 01484",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "borraez",
+    "cedula": 80312466,
+    "direccion": "carrera 28 no  84 - 36",
+    "email": "andresacevedo24@hotmail.com"
   },
   "cc": 80312466,
-  "idProcesos": [
-    50760230
-  ],
   "procesos": [
     {
       "idProceso": 50760230,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50760230
   ]
 }

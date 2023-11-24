@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001310301720170036000",
   "numero": 67,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001310301720170036000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 173618623,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-06-20T00:00:00.000Z",
+    "etapaProcesal": "1.10014003047201e+50",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "5303716461821906//5306948999859317//12611392",
+      "4513072520491185//0377815106380054//12496791"
+    ],
+    "radicado": "2017 - 00360",
+    "expediente": "11001310301720170036000"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 78076295,
-    "direccion": "cl 106 no. 50-21 bogota",
-    "email": "havena@ingeobrasas.com",
     "tel": {
       "fijo": null,
       "celular": 3005146155
@@ -14,32 +31,12 @@
     "primerNombre": "humberto",
     "segundoNombre": "enrique",
     "primerApellido": "avena",
-    "segundoApellido": "corrales"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-06-20T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001310301720170036000",
-    "capitalAdeudado": 173618623,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "1.10014003047201e+50",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "5303716461821906//5306948999859317//12611392",
-      "4513072520491185//0377815106380054//12496791"
-    ],
-    "radicado": "2017 - 00360",
-    "vencimientoPagare": [
-      "2018-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "corrales",
+    "cedula": 78076295,
+    "direccion": "cl 106 no. 50-21 bogota",
+    "email": "havena@ingeobrasas.com"
   },
   "cc": 78076295,
-  "idProcesos": [
-    28881194
-  ],
   "procesos": [
     {
       "idProceso": 28881194,
@@ -53,5 +50,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    28881194
   ]
 }

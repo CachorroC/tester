@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400302120180023600",
   "numero": 405,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 79396995,
-    "direccion": "calle 12 a no 71 b - 60",
-    "email": "arthurlingo64@hotmail.com",
-    "tel": {
-      "fijo": 4244358,
-      "celular": 3108844560
-    },
-    "primerNombre": "arturo",
-    "segundoNombre": "lince",
-    "primerApellido": "gomez",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400302120180023600",
   "demanda": {
-    "fechaPresentacion": "2018-02-22T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400302120180023600",
+    "vencimientoPagare": [
+      "2020-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 22592583,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-02-22T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       87823
     ],
     "radicado": "2018 - 00236",
-    "vencimientoPagare": [
-      "2020-12-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302120180023600"
   },
-  "cc": 79396995,
-  "idProcesos": [
-    51029180
-  ],
-  "procesos": [
-    {
-      "idProceso": 51029180,
-      "idConexion": 259,
-      "llaveProceso": "11001400302120180023600",
-      "fechaProceso": "2018-02-23T00:00:00",
-      "fechaUltimaActuacion": "2023-11-14T00:00:00",
-      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ARTURO LINCE GOMEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-11-14T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1933495480,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 55
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 4244358,
+      "celular": 3108844560
+    },
+    "primerNombre": "arturo",
+    "segundoNombre": "lince",
+    "primerApellido": "gomez",
+    "segundoApellido": null,
+    "cedula": 79396995,
+    "direccion": "calle 12 a no 71 b - 60",
+    "email": "arthurlingo64@hotmail.com"
+  },
+  "cc": 79396995,
+  "procesos": [
+    {
+      "idProceso": 51029180,
+      "idConexion": 259,
+      "llaveProceso": "11001400302120180023600",
+      "fechaProceso": "2018-02-23T00:00:00",
+      "fechaUltimaActuacion": "2023-11-14T00:00:00",
+      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ARTURO LINCE GOMEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51029180
+  ]
 }

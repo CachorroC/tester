@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400308120180011100",
   "numero": 379,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400308120180011100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2027-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 40292980,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "1.100140030812018e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      155380
+    ],
+    "radicado": "2018 - 00111",
+    "expediente": "11001400308120180011100"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79804965,
-    "direccion": "calle 36c no 3a - 25",
-    "email": "jhondoblea@hotmail.com",
     "tel": {
       "fijo": 5686327,
       "celular": 3157236856
@@ -14,26 +30,10 @@
     "primerNombre": "jhon",
     "segundoNombre": "alexander",
     "primerApellido": "alarcon",
-    "segundoApellido": "galvis"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
-    "expediente": "11001400308120180011100",
-    "capitalAdeudado": 40292980,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "1.100140030812018e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      155380
-    ],
-    "radicado": "2018 - 00111",
-    "vencimientoPagare": [
-      "2027-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "galvis",
+    "cedula": 79804965,
+    "direccion": "calle 36c no 3a - 25",
+    "email": "jhondoblea@hotmail.com"
   },
   "cc": 79804965,
   "idProcesos": null

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301520170116100",
   "numero": 173,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400301520170116100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2028-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 41576997,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-08-28T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      166760
+    ],
+    "radicado": "2017 - 01161",
+    "expediente": "11001400301520170116100"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79878252,
-    "direccion": "calle 69a sur # 104 - 18 casa 177",
-    "email": "diegoc8a@gmail.com",
     "tel": {
       "fijo": 7230139,
       "celular": 3114901649
@@ -14,26 +30,10 @@
     "primerNombre": "diego",
     "segundoNombre": "alexander",
     "primerApellido": "caycedo",
-    "segundoApellido": "ochoa"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-08-28T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
-    "expediente": "11001400301520170116100",
-    "capitalAdeudado": 41576997,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      166760
-    ],
-    "radicado": "2017 - 01161",
-    "vencimientoPagare": [
-      "2028-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "ochoa",
+    "cedula": 79878252,
+    "direccion": "calle 69a sur # 104 - 18 casa 177",
+    "email": "diegoc8a@gmail.com"
   },
   "codeudor": {
     "cedula": 52792026,
@@ -42,9 +42,6 @@
     "telefono": 7856815
   },
   "cc": 79878252,
-  "idProcesos": [
-    50674600
-  ],
   "procesos": [
     {
       "idProceso": 50674600,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50674600
   ]
 }

@@ -1,12 +1,43 @@
 {
-  "llaveProceso": "11001400301520170139400",
   "numero": 282,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400301520170139400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 66362959,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-02-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      174366
+    ],
+    "radicado": "2017 - 01394",
+    "expediente": "11001400301520170139400"
+  },
+  "fecha": "2023-11-24T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1937352210,
+    "llaveProceso": "11001400301520170139400",
+    "consActuacion": 89,
+    "fechaActuacion": "2023-11-24T00:00:00",
+    "actuacion": "Entrega de oficios",
+    "anotacion": "SE REMITE OFICIO No. OOECM-1023JAD-8896 ordenados por auto del 07 de septiembre de 2023,// QUEDA EN TERMINOS PARA CONTROL DEL MISMO AL EAAB/7 SE ENTREGA A PAULA LUGO(// CARLOS CANDANOZA",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-24T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 89
+  },
   "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 19255260,
-    "direccion": "calle 2 c no 62 - 20",
-    "email": "maifren_13@yahoo.es",
     "tel": {
       "fijo": 4170527,
       "celular": 3125024008
@@ -14,26 +45,10 @@
     "primerNombre": "matias",
     "segundoNombre": "humberto",
     "primerApellido": "avila",
-    "segundoApellido": "aguilar"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-10T05:00:00.000Z",
-    "mandamientoPago": "2018-02-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
-    "expediente": "11001400301520170139400",
-    "capitalAdeudado": 66362959,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      174366
-    ],
-    "radicado": "2017 - 01394",
-    "vencimientoPagare": [
-      "2024-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "aguilar",
+    "cedula": 19255260,
+    "direccion": "calle 2 c no 62 - 20",
+    "email": "maifren_13@yahoo.es"
   },
   "codeudor": {
     "cedula": "41759787 // 39710157",
@@ -42,16 +57,13 @@
     "telefono": "3204613419 //3107627120"
   },
   "cc": 19255260,
-  "idProcesos": [
-    50777890
-  ],
   "procesos": [
     {
       "idProceso": 50777890,
       "idConexion": 259,
       "llaveProceso": "11001400301520170139400",
       "fechaProceso": "2017-10-13T00:00:00",
-      "fechaUltimaActuacion": "2023-11-07T00:00:00",
+      "fechaUltimaActuacion": "2023-11-24T00:00:00",
       "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANA LUCIA AGUILAR | Demandado: CARMELINA AGUILAR | Demandado: HUMBERTO AVILA MATIAS ",
@@ -59,19 +71,7 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-11-07T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1932789530,
-    "llaveProceso": "11001400301520170139400",
-    "consActuacion": 88,
-    "fechaActuacion": "2023-11-07T00:00:00",
-    "actuacion": "Constancia secretarial",
-    "anotacion": " \r\nCon oficios firmados pasa a baranda. proceso hibrido. yelis Tirado \r\n",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-11-07T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 88
-  }
+  "idProcesos": [
+    50777890
+  ]
 }

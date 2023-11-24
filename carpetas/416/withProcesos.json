@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400302020170147700",
   "numero": 416,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400302020170147700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 51606071,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-24T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2330087192,
+      2330087423
+    ],
+    "radicado": "2017 - 01477",
+    "expediente": "11001400302020170147700"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79512506,
-    "direccion": "calle 24 no 24 - 16  sur",
-    "email": "yulypgarcia.montplas@gmail.com",
     "tel": {
       "fijo": 2724305,
       "celular": 3134664560
@@ -14,27 +31,10 @@
     "primerNombre": "jose",
     "segundoNombre": "antonio",
     "primerApellido": "montealegre",
-    "segundoApellido": "hernandez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-11-24T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
-    "expediente": "11001400302020170147700",
-    "capitalAdeudado": 51606071,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2330087192,
-      2330087423
-    ],
-    "radicado": "2017 - 01477",
-    "vencimientoPagare": [
-      "2020-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "hernandez",
+    "cedula": 79512506,
+    "direccion": "calle 24 no 24 - 16  sur",
+    "email": "yulypgarcia.montplas@gmail.com"
   },
   "codeudor": {
     "cedula": 52730300,
@@ -43,9 +43,6 @@
     "telefono": "CEL 3103018266"
   },
   "cc": 79512506,
-  "idProcesos": [
-    50873000
-  ],
   "procesos": [
     {
       "idProceso": 50873000,
@@ -59,5 +56,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50873000
   ]
 }

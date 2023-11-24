@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302220170120800",
   "numero": 369,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400302220170120800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 34749647,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-10-17T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-29T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-10-31T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2290098960
+    ],
+    "radicado": "2017-1208",
+    "expediente": "11001400302220170120800"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 900336193,
-    "direccion": "carrera 24 g no20-35 sur",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "inversion",
     "segundoNombre": "rivoli",
     "primerApellido": "s.a.s.",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-31T00:00:00.000Z",
-    "mandamientoPago": "2017-11-29T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-17T00:00:00.000Z",
-    "expediente": "11001400302220170120800",
-    "capitalAdeudado": 34749647,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2290098960
-    ],
-    "radicado": "2017-1208",
-    "vencimientoPagare": [
-      "2018-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 900336193,
+    "direccion": "carrera 24 g no20-35 sur",
+    "email": null
   },
   "codeudor": {
     "cedula": 41519807,
@@ -42,9 +42,6 @@
     "telefono": 3114472300
   },
   "cc": 900336193,
-  "idProcesos": [
-    50817380
-  ],
   "procesos": [
     {
       "idProceso": 50817380,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50817380
   ]
 }

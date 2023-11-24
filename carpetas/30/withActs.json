@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400303020170095100",
   "numero": 30,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 52367601,
-    "direccion": "carrera 8 no 192 - 60  apartamento  312  / garage  29",
-    "email": "mivibel@yahoo.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3002107965
-    },
-    "primerNombre": "mireya",
-    "segundoNombre": "viviana",
-    "primerApellido": "beltran",
-    "segundoApellido": "herrera"
-  },
+  "llaveProceso": "11001400303020170095100",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-10-10T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
-    "expediente": "11001400303020170095100",
+    "vencimientoPagare": [
+      "2031-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 4894505603,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       146247
     ],
     "radicado": "2017 - 00951",
-    "vencimientoPagare": [
-      "2031-12-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303020170095100"
   },
-  "codeudor": {
-    "cedula": 8742730,
-    "direccion": "CALLE 181 C No  13 - 54. INTERIOR 21 APARTAMENTO 403",
-    "nombre": "hector manuel tariffe de moya",
-    "telefono": 8742730
-  },
-  "cc": 52367601,
-  "idProcesos": [
-    50492700
-  ],
-  "procesos": [
-    {
-      "idProceso": 50492700,
-      "idConexion": 259,
-      "llaveProceso": "11001400303020170095100",
-      "fechaProceso": "2017-06-08T00:00:00",
-      "fechaUltimaActuacion": "2018-09-17T00:00:00",
-      "despacho": "JUZGADO 030 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCO DAVIVIENDA S.A. | Demandado: LUIS ALEJANDRO GOMEZ RUIZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-09-17T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 739098180,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 24
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3002107965
+    },
+    "primerNombre": "mireya",
+    "segundoNombre": "viviana",
+    "primerApellido": "beltran",
+    "segundoApellido": "herrera",
+    "cedula": 52367601,
+    "direccion": "carrera 8 no 192 - 60  apartamento  312  / garage  29",
+    "email": "mivibel@yahoo.com"
+  },
+  "codeudor": {
+    "cedula": 8742730,
+    "direccion": "CALLE 181 C No  13 - 54. INTERIOR 21 APARTAMENTO 403",
+    "nombre": "hector manuel tariffe de moya",
+    "telefono": 8742730
+  },
+  "cc": 52367601,
+  "procesos": [
+    {
+      "idProceso": 50492700,
+      "idConexion": 259,
+      "llaveProceso": "11001400303020170095100",
+      "fechaProceso": "2017-06-08T00:00:00",
+      "fechaUltimaActuacion": "2018-09-17T00:00:00",
+      "despacho": "JUZGADO 030 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCO DAVIVIENDA S.A. | Demandado: LUIS ALEJANDRO GOMEZ RUIZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50492700
+  ]
 }

@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400302020180047900",
   "numero": 536,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 39544073,
-    "direccion": "calle 64 c no 105-88",
-    "email": "blancall21@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "blanca",
-    "segundoNombre": "lilia",
-    "primerApellido": "bravo",
-    "segundoApellido": "paez"
-  },
+  "llaveProceso": "11001400302020180047900",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-05-08T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-04-26T00:00:00.000Z",
-    "expediente": "11001400302020180047900",
+    "vencimientoPagare": [
+      "2020-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 18772902,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-04-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-05-08T00:00:00.000Z",
     "etapaProcesal": "1.100140030202018e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       4513072334510690,
       5491580398400380
     ],
     "radicado": "2018 - 00479",
-    "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302020180047900"
   },
-  "cc": 39544073,
-  "idProcesos": [
-    51173430
-  ],
-  "procesos": [
-    {
-      "idProceso": 51173430,
-      "idConexion": 259,
-      "llaveProceso": "11001400302020180047900",
-      "fechaProceso": "2018-05-09T00:00:00",
-      "fechaUltimaActuacion": "2023-07-05T00:00:00",
-      "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA LILIA BRAVO PAEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-07-05T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1799952450,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 63
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "blanca",
+    "segundoNombre": "lilia",
+    "primerApellido": "bravo",
+    "segundoApellido": "paez",
+    "cedula": 39544073,
+    "direccion": "calle 64 c no 105-88",
+    "email": "blancall21@hotmail.com"
+  },
+  "cc": 39544073,
+  "procesos": [
+    {
+      "idProceso": 51173430,
+      "idConexion": 259,
+      "llaveProceso": "11001400302020180047900",
+      "fechaProceso": "2018-05-09T00:00:00",
+      "fechaUltimaActuacion": "2023-07-05T00:00:00",
+      "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA LILIA BRAVO PAEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51173430
+  ]
 }

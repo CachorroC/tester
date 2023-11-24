@@ -1,12 +1,31 @@
 {
-  "llaveProceso": "11001418900820180078500",
   "numero": 491,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418900820180078500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-05-01T05:00:00.000Z",
+      "2021-07-01T05:00:00.000Z",
+      "2021-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 18100699,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-03-09T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "0377816345049476 // 4513070259455355 // 5303720114305077"
+    ],
+    "radicado": "JUZGADOS EJECUCION",
+    "expediente": "11001418900820180078500"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 51987570,
-    "direccion": "calle 163 b no 50-80  interior 10 apt 231 conjunto la estancia iii",
-    "email": "sandrabogota2007@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,29 +33,10 @@
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "pacheco",
-    "segundoApellido": "ramirez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-03-09T05:00:00.000Z",
-    "expediente": "11001418900820180078500",
-    "capitalAdeudado": 18100699,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "0377816345049476 // 4513070259455355 // 5303720114305077"
-    ],
-    "radicado": "JUZGADOS EJECUCION",
-    "vencimientoPagare": [
-      "2021-05-01T05:00:00.000Z",
-      "2021-07-01T05:00:00.000Z",
-      "2021-07-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "ramirez",
+    "cedula": 51987570,
+    "direccion": "calle 163 b no 50-80  interior 10 apt 231 conjunto la estancia iii",
+    "email": "sandrabogota2007@yahoo.com"
   },
   "cc": 51987570,
   "idProcesos": null

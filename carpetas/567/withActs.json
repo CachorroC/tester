@@ -1,61 +1,25 @@
 {
-  "llaveProceso": "11001400306520230124300",
   "numero": 567,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 94254761,
-    "direccion": "calle 71 f no. 78 c - 50 sur",
-    "email": "wilsonmolina16@hotmail.com",
-    "tel": {
-      "fijo": 7766244,
-      "celular": 3144005060
-    },
-    "primerNombre": "wilson",
-    "segundoNombre": "de",
-    "primerApellido": "jesus",
-    "segundoApellido": [
-      "molina",
-      "quirama"
-    ]
-  },
+  "llaveProceso": "11001400306520230124300",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "11001400306520230124300",
+    "vencimientoPagare": [
+      "2027-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 19188290,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       1000094307
     ],
     "radicado": "2023 - 01284",
-    "vencimientoPagare": [
-      "2027-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306520230124300"
   },
-  "cc": 94254761,
-  "idProcesos": [
-    132262030
-  ],
-  "procesos": [
-    {
-      "idProceso": 132262030,
-      "idConexion": 260,
-      "llaveProceso": "11001400306520230124300",
-      "fechaProceso": "2023-08-10T00:00:00",
-      "fechaUltimaActuacion": "2023-09-20T00:00:00",
-      "despacho": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JOHAN ANDRES QUIROGA GALEANO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-09-20T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1895380620,
@@ -70,5 +34,41 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 7
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 7766244,
+      "celular": 3144005060
+    },
+    "primerNombre": "wilson",
+    "segundoNombre": "de",
+    "primerApellido": "jesus",
+    "segundoApellido": [
+      "molina",
+      "quirama"
+    ],
+    "cedula": 94254761,
+    "direccion": "calle 71 f no. 78 c - 50 sur",
+    "email": "wilsonmolina16@hotmail.com"
+  },
+  "cc": 94254761,
+  "procesos": [
+    {
+      "idProceso": 132262030,
+      "idConexion": 260,
+      "llaveProceso": "11001400306520230124300",
+      "fechaProceso": "2023-08-10T00:00:00",
+      "fechaUltimaActuacion": "2023-09-20T00:00:00",
+      "despacho": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JOHAN ANDRES QUIROGA GALEANO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    132262030
+  ]
 }

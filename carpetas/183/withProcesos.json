@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400300120170100100",
   "numero": 183,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400300120170100100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2019-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 25833335,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-05T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-08T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2150091504
+    ],
+    "radicado": "2017 - 01001",
+    "expediente": "11001400300120170100100"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 11185630,
-    "direccion": "carrera 81c # 2b - 80 piso 2",
-    "email": "grupocomerciallasabana@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "wilson",
     "segundoNombre": "alfonso",
     "primerApellido": "jimenez",
-    "segundoApellido": "mendieta"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-08T00:00:00.000Z",
-    "mandamientoPago": "2017-09-05T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
-    "expediente": "11001400300120170100100",
-    "capitalAdeudado": 25833335,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2150091504
-    ],
-    "radicado": "2017 - 01001",
-    "vencimientoPagare": [
-      "2019-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "mendieta",
+    "cedula": 11185630,
+    "direccion": "carrera 81c # 2b - 80 piso 2",
+    "email": "grupocomerciallasabana@hotmail.com"
   },
   "cc": 11185630,
-  "idProcesos": [
-    50621670
-  ],
   "procesos": [
     {
       "idProceso": 50621670,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50621670
   ]
 }

@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400307720180085400",
   "numero": 465,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400307720180085400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2027-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2530371197,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-07-29T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-07-31T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      209900149557,
+      377815750421170
+    ],
+    "radicado": "2018 - 00854",
+    "expediente": "11001400307720180085400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79789409,
-    "direccion": "calle 105 sur no 2-22 este",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,32 +31,12 @@
     "primerNombre": "giovanny",
     "segundoNombre": "duran",
     "primerApellido": "antonio",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-07-31T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-07-29T00:00:00.000Z",
-    "expediente": "11001400307720180085400",
-    "capitalAdeudado": 2530371197,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      209900149557,
-      377815750421170
-    ],
-    "radicado": "2018 - 00854",
-    "vencimientoPagare": [
-      "2027-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79789409,
+    "direccion": "calle 105 sur no 2-22 este",
+    "email": null
   },
   "cc": 79789409,
-  "idProcesos": [
-    51342910
-  ],
   "procesos": [
     {
       "idProceso": 51342910,
@@ -53,5 +50,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51342910
   ]
 }

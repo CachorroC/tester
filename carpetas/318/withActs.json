@@ -1,61 +1,25 @@
 {
-  "llaveProceso": "11001400307020170116400",
   "numero": 318,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 51673703,
-    "direccion": null,
-    "email": "CALLE 52 SUR No 97 C - 20",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "sonia",
-    "segundoNombre": "janeth",
-    "primerApellido": "rodriguez",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400307020170116400",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400307020170116400",
+    "vencimientoPagare": [
+      "1215-01-01T04:56:16.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 43,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "43041",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "14.703.952.55"
     ],
     "radicado": "2017 - 01164",
-    "vencimientoPagare": [
-      "1215-01-01T04:56:16.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307020170116400"
   },
-  "codeudor": {
-    "direccion": 45531
-  },
-  "cc": 51673703,
-  "idProcesos": [
-    18367590
-  ],
-  "procesos": [
-    {
-      "idProceso": 18367590,
-      "idConexion": 260,
-      "llaveProceso": "11001400307020170116400",
-      "fechaProceso": "2017-11-02T00:00:00",
-      "fechaUltimaActuacion": "2018-08-17T00:00:00",
-      "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BBVA COLOMBIA S.A. | Demandado: JOAQUIN EMILIO GONZALEZ ALVAREZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-08-17T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 265865680,
@@ -70,5 +34,41 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 18
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "sonia",
+    "segundoNombre": "janeth",
+    "primerApellido": "rodriguez",
+    "segundoApellido": null,
+    "cedula": 51673703,
+    "direccion": null,
+    "email": "CALLE 52 SUR No 97 C - 20"
+  },
+  "codeudor": {
+    "direccion": 45531
+  },
+  "cc": 51673703,
+  "procesos": [
+    {
+      "idProceso": 18367590,
+      "idConexion": 260,
+      "llaveProceso": "11001400307020170116400",
+      "fechaProceso": "2017-11-02T00:00:00",
+      "fechaUltimaActuacion": "2018-08-17T00:00:00",
+      "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BBVA COLOMBIA S.A. | Demandado: JOAQUIN EMILIO GONZALEZ ALVAREZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    18367590
+  ]
 }

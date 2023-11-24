@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304020170132900",
   "numero": 198,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400304020170132900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2028-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2920487950,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      167542
+    ],
+    "radicado": "2017 - 01329",
+    "expediente": "11001400304020170132900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1012318156,
-    "direccion": "carrera 80m # 74 - 04 sur",
-    "email": "hectormanuelverdolaga@gmail.com",
     "tel": {
       "fijo": 3142498,
       "celular": 3142998727
@@ -14,31 +30,12 @@
     "primerNombre": "hector",
     "segundoNombre": "manuel",
     "primerApellido": "ramirez",
-    "segundoApellido": "puentes"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
-    "expediente": "11001400304020170132900",
-    "capitalAdeudado": 2920487950,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      167542
-    ],
-    "radicado": "2017 - 01329",
-    "vencimientoPagare": [
-      "2028-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "puentes",
+    "cedula": 1012318156,
+    "direccion": "carrera 80m # 74 - 04 sur",
+    "email": "hectormanuelverdolaga@gmail.com"
   },
   "cc": 1012318156,
-  "idProcesos": [
-    19150031
-  ],
   "procesos": [
     {
       "idProceso": 19150031,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    19150031
   ]
 }

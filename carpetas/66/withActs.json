@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400301920170070200",
   "numero": 66,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 66841096,
-    "direccion": "carrera 22 no. 161-26 piso 2",
-    "email": "sansuarez.ga@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3144113614
-    },
-    "primerNombre": "sandra",
-    "segundoNombre": "patricia",
-    "primerApellido": "suarez",
-    "segundoApellido": "galvis"
-  },
+  "llaveProceso": "11001400301920170070200",
   "demanda": {
-    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
-    "mandamientoPago": "2017-07-27T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400301920170070200",
+    "vencimientoPagare": [
+      "2018-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 12845011,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-07-27T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12525003
     ],
     "radicado": "2017 - 00702",
-    "vencimientoPagare": [
-      "2018-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301920170070200"
   },
-  "cc": 66841096,
-  "idProcesos": [
-    50593320
-  ],
-  "procesos": [
-    {
-      "idProceso": 50593320,
-      "idConexion": 259,
-      "llaveProceso": "11001400301920170070200",
-      "fechaProceso": "2017-07-26T00:00:00",
-      "fechaUltimaActuacion": "2018-03-15T00:00:00",
-      "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA SUAREZ GALVIS ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-03-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 670033060,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 13
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3144113614
+    },
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "suarez",
+    "segundoApellido": "galvis",
+    "cedula": 66841096,
+    "direccion": "carrera 22 no. 161-26 piso 2",
+    "email": "sansuarez.ga@gmail.com"
+  },
+  "cc": 66841096,
+  "procesos": [
+    {
+      "idProceso": 50593320,
+      "idConexion": 259,
+      "llaveProceso": "11001400301920170070200",
+      "fechaProceso": "2017-07-26T00:00:00",
+      "fechaUltimaActuacion": "2018-03-15T00:00:00",
+      "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA SUAREZ GALVIS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50593320
+  ]
 }

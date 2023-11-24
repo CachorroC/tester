@@ -1,60 +1,27 @@
 {
-  "llaveProceso": "11001400304320170106400",
   "numero": 129,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 41709257,
-    "direccion": "calle 150a # 101 - 20 torre 3 apto 802",
-    "email": "ele41709257@hotmail.com",
-    "tel": {
-      "fijo": 6928962,
-      "celular": 3184581490
-    },
-    "primerNombre": "elena",
-    "primerApellido": "quiñones",
-    "segundoApellido": null,
-    "segundoNombre": null
-  },
+  "llaveProceso": "11001400304320170106400",
   "demanda": {
-    "fechaPresentacion": "2017-08-18T00:00:00.000Z",
-    "mandamientoPago": "2017-09-15T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
-    "expediente": "11001400304320170106400",
+    "vencimientoPagare": [
+      "2019-07-01T05:00:00.000Z",
+      "2021-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1204667053,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-15T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-18T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       54744000041,
       "634444000044 // 377813872494423 // 5306935267717699"
     ],
     "radicado": "2017 - 01064",
-    "vencimientoPagare": [
-      "2019-07-01T05:00:00.000Z",
-      "2021-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304320170106400"
   },
-  "cc": 41709257,
-  "idProcesos": [
-    9333743
-  ],
-  "procesos": [
-    {
-      "idProceso": 9333743,
-      "idConexion": 261,
-      "llaveProceso": "11001400304320170106400",
-      "fechaProceso": "2017-08-23T00:00:00",
-      "fechaUltimaActuacion": "2018-04-16T00:00:00",
-      "despacho": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ELENA QUIÑONEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-04-16T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 105009223,
@@ -69,5 +36,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 24
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6928962,
+      "celular": 3184581490
+    },
+    "primerNombre": "elena",
+    "segundoNombre": null,
+    "primerApellido": "quiñones",
+    "segundoApellido": null,
+    "cedula": 41709257,
+    "direccion": "calle 150a # 101 - 20 torre 3 apto 802",
+    "email": "ele41709257@hotmail.com"
+  },
+  "cc": 41709257,
+  "procesos": [
+    {
+      "idProceso": 9333743,
+      "idConexion": 261,
+      "llaveProceso": "11001400304320170106400",
+      "fechaProceso": "2017-08-23T00:00:00",
+      "fechaUltimaActuacion": "2018-04-16T00:00:00",
+      "despacho": "JUZGADO 043 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ELENA QUIÑONEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    9333743
+  ]
 }

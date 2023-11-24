@@ -97,8 +97,6 @@ export class CarpetaJudicial implements IntCarpeta {
   readonly cc: number;
   procesos?: intProceso[];
 
-  [x: string]: unknown;
-
   // SECTION constructor
   constructor(
     {
@@ -162,7 +160,7 @@ export class CarpetaJudicial implements IntCarpeta {
     try {
       if ( !this.llaveProceso ) {
         throw new Error(
-          'aún no se le ha asignado un número de expediente a esta this.',
+          'aún no se le ha asignado un número de expediente a esta this.llaveProceso',
         );
       }
 

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001418900420230088600",
   "numero": 559,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418900420230088600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 42598393,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      1080103378
+    ],
+    "radicado": "2023 - 00886",
+    "expediente": "11001418900420230088600"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 80219425,
-    "direccion": "calle 50 sur no. 93 d 38 torre 07 apartamento 601 conjunto residencial porvenir reservado etapa 7; carrera 89 a no. 45 a – 33 sur casa 207 agrupación de vivienda la margarita etapa 9",
-    "email": "edwsal736@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3112633806
@@ -14,26 +30,10 @@
     "primerNombre": "edwin",
     "segundoNombre": "alexander",
     "primerApellido": "salcedo",
-    "segundoApellido": "perez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "11001418900420230088600",
-    "capitalAdeudado": 42598393,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      1080103378
-    ],
-    "radicado": "2023 - 00886",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "perez",
+    "cedula": 80219425,
+    "direccion": "calle 50 sur no. 93 d 38 torre 07 apartamento 601 conjunto residencial porvenir reservado etapa 7; carrera 89 a no. 45 a – 33 sur casa 207 agrupación de vivienda la margarita etapa 9",
+    "email": "edwsal736@gmail.com"
   },
   "cc": 80219425,
   "idProcesos": null

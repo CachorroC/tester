@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302620180047900",
   "numero": 383,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302620180047900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1473525421,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-01-18T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-05-22T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "KENNEDY",
+    "obligacion": [
+      116650
+    ],
+    "radicado": "2018 - 00479",
+    "expediente": "11001400302620180047900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 65706810,
-    "direccion": "calle 12 # 2c - 55 senderos de funza // calle 50 sur # 93d - 38",
-    "email": "nonbaro@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "nohora",
     "segundoNombre": "esperanza",
     "primerApellido": "barrero",
-    "segundoApellido": "rodriguez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-05-22T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-01-18T00:00:00.000Z",
-    "expediente": "11001400302620180047900",
-    "capitalAdeudado": 1473525421,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "KENNEDY",
-    "obligacion": [
-      116650
-    ],
-    "radicado": "2018 - 00479",
-    "vencimientoPagare": [
-      "2024-03-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "rodriguez",
+    "cedula": 65706810,
+    "direccion": "calle 12 # 2c - 55 senderos de funza // calle 50 sur # 93d - 38",
+    "email": "nonbaro@hotmail.com"
   },
   "codeudor": {
     "cedula": 74327316,

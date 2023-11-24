@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303520170129700",
   "numero": 194,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400303520170129700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 4731735197,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-09-25T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-31T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12601534
+    ],
+    "radicado": "2017 - 01297",
+    "expediente": "11001400303520170129700"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 52790965,
-    "direccion": "calle 20c # 106 - 27 apto 202 int 13",
-    "email": "fabiola_19805@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3107976282
@@ -14,31 +30,12 @@
     "primerNombre": "fabiola",
     "segundoNombre": "martinez",
     "primerApellido": "rueda",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-31T00:00:00.000Z",
-    "mandamientoPago": "2017-09-25T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
-    "expediente": "11001400303520170129700",
-    "capitalAdeudado": 4731735197,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12601534
-    ],
-    "radicado": "2017 - 01297",
-    "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 52790965,
+    "direccion": "calle 20c # 106 - 27 apto 202 int 13",
+    "email": "fabiola_19805@hotmail.com"
   },
   "cc": 52790965,
-  "idProcesos": [
-    50679230
-  ],
   "procesos": [
     {
       "idProceso": 50679230,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50679230
   ]
 }

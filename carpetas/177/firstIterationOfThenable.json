@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304520170104100",
   "numero": 177,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400304520170104100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2022-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 18696053,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-01T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      2290099501
+    ],
+    "radicado": "2017 - 01041",
+    "expediente": "11001400304520170104100"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79327475,
-    "direccion": "carrera 85 # 52 - 05 sur",
-    "email": "leonardyherrera@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "leonardy",
     "segundoNombre": "herrera",
     "primerApellido": "rojas",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2017-09-01T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
-    "expediente": "11001400304520170104100",
-    "capitalAdeudado": 18696053,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2290099501
-    ],
-    "radicado": "2017 - 01041",
-    "vencimientoPagare": [
-      "2022-06-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79327475,
+    "direccion": "carrera 85 # 52 - 05 sur",
+    "email": "leonardyherrera@yahoo.com"
   },
   "cc": 79327475,
   "idProcesos": null

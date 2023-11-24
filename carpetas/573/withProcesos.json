@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400305520230074600",
   "numero": 573,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400305520230074600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2023-03-01T05:00:00.000Z",
+      "2026-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 55099216,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4020084965,
+      100260717
+    ],
+    "radicado": "2023 - 001310",
+    "expediente": "11001400305520230074600"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 52327261,
-    "direccion": "cr 104 no 13d 77 cs 241 conjunto residencial sabanagrande 1",
-    "email": "galvis-almanza@hotmail.com",
     "tel": {
       "fijo": 4152969,
       "celular": 3203369576
@@ -14,33 +32,12 @@
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "galvis",
-    "segundoApellido": "almanza"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
-    "expediente": "11001400305520230074600",
-    "capitalAdeudado": 55099216,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4020084965,
-      100260717
-    ],
-    "radicado": "2023 - 001310",
-    "vencimientoPagare": [
-      "2023-03-01T05:00:00.000Z",
-      "2026-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "almanza",
+    "cedula": 52327261,
+    "direccion": "cr 104 no 13d 77 cs 241 conjunto residencial sabanagrande 1",
+    "email": "galvis-almanza@hotmail.com"
   },
   "cc": 52327261,
-  "idProcesos": [
-    1829856154
-  ],
   "procesos": [
     {
       "idProceso": 1829856154,
@@ -54,5 +51,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    1829856154
   ]
 }

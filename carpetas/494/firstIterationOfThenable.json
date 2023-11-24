@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25754418900320180102200",
   "numero": 494,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754418900320180102200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1622549445,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      2099010135501
+    ],
+    "radicado": "2018 - 01022",
+    "expediente": "25754418900320180102200"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1022332681,
-    "direccion": "carrera 51f- no 37 a-26 sur",
-    "email": "vitopia1022@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3214747968
@@ -14,26 +30,10 @@
     "primerNombre": "luisa",
     "segundoNombre": "enelly",
     "primerApellido": "gugu",
-    "segundoApellido": "vitopia"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "25754418900320180102200",
-    "capitalAdeudado": 1622549445,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "SOACHA",
-    "obligacion": [
-      2099010135501
-    ],
-    "radicado": "2018 - 01022",
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "vitopia",
+    "cedula": 1022332681,
+    "direccion": "carrera 51f- no 37 a-26 sur",
+    "email": "vitopia1022@hotmail.com"
   },
   "cc": 1022332681,
   "idProcesos": null

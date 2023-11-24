@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400307620180005200",
   "numero": 376,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400307620180005200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2019-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2730845464,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "EL 22-08-2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
+    "fechaPresentacion": "2018-08-22T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      118010,
+      "377813183474353 // 4513074148699942 / 5491579209500691"
+    ],
+    "radicado": "2018 - 00052",
+    "expediente": "11001400307620180005200"
+  },
   "category": "LiosJuridicos",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 11203111,
-    "direccion": "calle 128 96a - 05 casa 3 multifamiliar arrayanes",
-    "email": "roberto.rico.ruiz@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "roberto",
     "segundoNombre": "rico",
     "primerApellido": "ruiz",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-08-22T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400307620180005200",
-    "capitalAdeudado": 2730845464,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "EL 22-08-2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      118010,
-      "377813183474353 // 4513074148699942 / 5491579209500691"
-    ],
-    "radicado": "2018 - 00052",
-    "vencimientoPagare": [
-      "2019-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 11203111,
+    "direccion": "calle 128 96a - 05 casa 3 multifamiliar arrayanes",
+    "email": "roberto.rico.ruiz@gmail.com"
   },
   "codeudor": {
     "cedula": 52804144,

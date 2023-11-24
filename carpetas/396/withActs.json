@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400306420170162300",
   "numero": 396,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 80733467,
-    "direccion": "carrera 88 a no  67 - 44",
-    "email": "orlandonovoa9@gmail.com",
-    "tel": {
-      "fijo": 7836655,
-      "celular": 3118163887
-    },
-    "primerNombre": "orlando",
-    "segundoNombre": "enrique",
-    "primerApellido": "novoa",
-    "segundoApellido": "barreto"
-  },
+  "llaveProceso": "11001400306420170162300",
   "demanda": {
-    "fechaPresentacion": "2017-11-21T00:00:00.000Z",
-    "mandamientoPago": "2017-09-06T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
-    "expediente": "11001400306420170162300",
+    "vencimientoPagare": [
+      "2019-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 24000000,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-06T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-11-21T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       10000090724
     ],
     "radicado": "2017 - 01623",
-    "vencimientoPagare": [
-      "2019-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306420170162300"
   },
-  "cc": 80733467,
-  "idProcesos": [
-    112730580
-  ],
-  "procesos": [
-    {
-      "idProceso": 112730580,
-      "idConexion": 259,
-      "llaveProceso": "11001400306420170162300",
-      "fechaProceso": "2017-11-27T00:00:00",
-      "fechaUltimaActuacion": "2023-03-13T00:00:00",
-      "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ORLANDO ENRIQUE NOVOA BARRETO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-03-13T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1675500880,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 58
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 7836655,
+      "celular": 3118163887
+    },
+    "primerNombre": "orlando",
+    "segundoNombre": "enrique",
+    "primerApellido": "novoa",
+    "segundoApellido": "barreto",
+    "cedula": 80733467,
+    "direccion": "carrera 88 a no  67 - 44",
+    "email": "orlandonovoa9@gmail.com"
+  },
+  "cc": 80733467,
+  "procesos": [
+    {
+      "idProceso": 112730580,
+      "idConexion": 259,
+      "llaveProceso": "11001400306420170162300",
+      "fechaProceso": "2017-11-27T00:00:00",
+      "fechaUltimaActuacion": "2023-03-13T00:00:00",
+      "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ORLANDO ENRIQUE NOVOA BARRETO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    112730580
+  ]
 }

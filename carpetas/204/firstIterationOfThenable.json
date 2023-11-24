@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304520170106300",
   "numero": 204,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400304520170106300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 41990538,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-09-12T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-08-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12743098
+    ],
+    "radicado": "2017 - 01063",
+    "expediente": "11001400304520170106300"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 46679232,
-    "direccion": "carrera 34 # 9 - 60",
-    "email": "carito220@hotmail.es",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "flor",
     "segundoNombre": "esperanza",
     "primerApellido": "gutierrez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-30T00:00:00.000Z",
-    "mandamientoPago": "2017-09-12T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
-    "expediente": "11001400304520170106300",
-    "capitalAdeudado": 41990538,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12743098
-    ],
-    "radicado": "2017 - 01063",
-    "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 46679232,
+    "direccion": "carrera 34 # 9 - 60",
+    "email": "carito220@hotmail.es"
   },
   "cc": 46679232,
   "idProcesos": null

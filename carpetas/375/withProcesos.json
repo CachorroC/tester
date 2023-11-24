@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304020180012300",
   "numero": 375,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400304020180012300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2034-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 6625561724,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-02-16T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      179854
+    ],
+    "radicado": "2018 - 00123",
+    "expediente": "11001400304020180012300"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 74845495,
-    "direccion": "calle 59a sur 45d - 15",
-    "email": "alfredozorromart@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "jhon",
     "segundoNombre": "alfredo",
     "primerApellido": "zorro",
-    "segundoApellido": "martinez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-02-16T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400304020180012300",
-    "capitalAdeudado": 6625561724,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      179854
-    ],
-    "radicado": "2018 - 00123",
-    "vencimientoPagare": [
-      "2034-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "martinez",
+    "cedula": 74845495,
+    "direccion": "calle 59a sur 45d - 15",
+    "email": "alfredozorromart@hotmail.com"
   },
   "cc": 74845495,
-  "idProcesos": [
-    19155581
-  ],
   "procesos": [
     {
       "idProceso": 19155581,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    19155581
   ]
 }

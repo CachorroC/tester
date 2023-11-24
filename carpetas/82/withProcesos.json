@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400300320170106500",
   "numero": 82,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400300320170106500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 39576493,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      1980094471
+    ],
+    "radicado": "2017 - 01065",
+    "expediente": "11001400300320170106500"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 13921619,
-    "direccion": "calle 89 # 95g- 26",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "rafael",
     "segundoNombre": "gonzalez",
     "primerApellido": "olejua",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400300320170106500",
-    "capitalAdeudado": 39576493,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      1980094471
-    ],
-    "radicado": "2017 - 01065",
-    "vencimientoPagare": [
-      "2018-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 13921619,
+    "direccion": "calle 89 # 95g- 26",
+    "email": null
   },
   "codeudor": {
     "cedula": 28239573,
@@ -42,9 +42,6 @@
     "telefono": 2284139
   },
   "cc": 13921619,
-  "idProcesos": [
-    50527120
-  ],
   "procesos": [
     {
       "idProceso": 50527120,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50527120
   ]
 }

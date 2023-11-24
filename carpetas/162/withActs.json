@@ -1,65 +1,26 @@
 {
-  "llaveProceso": "11001400304120170094600",
   "numero": 162,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 900432476,
-    "direccion": null,
-    "email": "7514006",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "manhattan",
-    "segundoNombre": "dotaciones",
-    "primerApellido": "s.a.s",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400304120170094600",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-08-30T00:00:00.000Z",
-    "entregaGarantiasAbogado": "1970-01-01T04:57:57.732Z",
-    "expediente": "11001400304120170094600",
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 0,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "1970-01-01T04:57:57.732Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-30T00:00:00.000Z",
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       43449,
       1540086035
     ],
     "radicado": "2017 - 00946",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304120170094600"
   },
-  "codeudor": {
-    "cedula": "CARRERA 34 # 34 - 71 SUR INT 10",
-    "direccion": 4738129,
-    "nombre": 52076347,
-    "telefono": "CARMEN ALICIA RAMIREZ CHURQUE"
-  },
-  "cc": 900432476,
-  "idProcesos": [
-    52159350
-  ],
-  "procesos": [
-    {
-      "idProceso": 52159350,
-      "idConexion": 259,
-      "llaveProceso": "11001400304120170094600",
-      "fechaProceso": "2017-08-31T00:00:00",
-      "fechaUltimaActuacion": "2023-03-24T00:00:00",
-      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MANHATTAN DOTACIONES S.A.S | Demandado: CARMEN ALICIA RAMIREZ CHURQUE ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-03-24T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1689013170,
@@ -74,5 +35,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 66
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "manhattan",
+    "segundoNombre": "dotaciones",
+    "primerApellido": "s.a.s",
+    "segundoApellido": null,
+    "cedula": 900432476,
+    "direccion": null,
+    "email": "7514006"
+  },
+  "codeudor": {
+    "cedula": "CARRERA 34 # 34 - 71 SUR INT 10",
+    "direccion": 4738129,
+    "nombre": 52076347,
+    "telefono": "CARMEN ALICIA RAMIREZ CHURQUE"
+  },
+  "cc": 900432476,
+  "procesos": [
+    {
+      "idProceso": 52159350,
+      "idConexion": 259,
+      "llaveProceso": "11001400304120170094600",
+      "fechaProceso": "2017-08-31T00:00:00",
+      "fechaUltimaActuacion": "2023-03-24T00:00:00",
+      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MANHATTAN DOTACIONES S.A.S | Demandado: CARMEN ALICIA RAMIREZ CHURQUE ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    52159350
+  ]
 }

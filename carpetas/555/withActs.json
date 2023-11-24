@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400303220230090400",
   "numero": 555,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 53130409,
-    "direccion": "cl 55 bis 16 48 apartamento 702 edificio bangkok",
-    "email": "jsquiroga72@hotmail.com",
-    "tel": {
-      "fijo": 3917539,
-      "celular": 3506509064
-    },
-    "primerNombre": "jeimmy",
-    "segundoNombre": "soley",
-    "primerApellido": "quiroga",
-    "segundoApellido": "ramirez"
-  },
+  "llaveProceso": "11001400303220230090400",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "11001400303220230090400",
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 80906224,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       1920089307
     ],
     "radicado": "2023 - 00904",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303220230090400"
   },
-  "cc": 53130409,
-  "idProcesos": [
-    132048330
-  ],
-  "procesos": [
-    {
-      "idProceso": 132048330,
-      "idConexion": 259,
-      "llaveProceso": "11001400303220230090400",
-      "fechaProceso": "2023-08-02T00:00:00",
-      "fechaUltimaActuacion": "2023-10-04T00:00:00",
-      "despacho": "JUZGADO 032 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JEIMMY SOLEY QUIROGA RAMIREZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-10-04T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1936376060,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 9
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 3917539,
+      "celular": 3506509064
+    },
+    "primerNombre": "jeimmy",
+    "segundoNombre": "soley",
+    "primerApellido": "quiroga",
+    "segundoApellido": "ramirez",
+    "cedula": 53130409,
+    "direccion": "cl 55 bis 16 48 apartamento 702 edificio bangkok",
+    "email": "jsquiroga72@hotmail.com"
+  },
+  "cc": 53130409,
+  "procesos": [
+    {
+      "idProceso": 132048330,
+      "idConexion": 259,
+      "llaveProceso": "11001400303220230090400",
+      "fechaProceso": "2023-08-02T00:00:00",
+      "fechaUltimaActuacion": "2023-10-04T00:00:00",
+      "despacho": "JUZGADO 032 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JEIMMY SOLEY QUIROGA RAMIREZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    132048330
+  ]
 }

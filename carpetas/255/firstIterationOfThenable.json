@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301220170102100",
   "numero": 255,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400301220170102100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2019-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 15311681,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-05T00:00:00.000Z",
+    "etapaProcesal": "1.100140030122017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      940082843
+    ],
+    "radicado": "2017 - 01021",
+    "expediente": "11001400301220170102100"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 23946115,
-    "direccion": "diagonal 136 bis # 3 - 80 sur",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "yeimi",
     "segundoNombre": "zoraida",
     "primerApellido": "perez",
-    "segundoApellido": "acevedo"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-09-05T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
-    "expediente": "11001400301220170102100",
-    "capitalAdeudado": 15311681,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "1.100140030122017e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      940082843
-    ],
-    "radicado": "2017 - 01021",
-    "vencimientoPagare": [
-      "2019-07-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "acevedo",
+    "cedula": 23946115,
+    "direccion": "diagonal 136 bis # 3 - 80 sur",
+    "email": null
   },
   "codeudor": {
     "cedula": 1002415012,

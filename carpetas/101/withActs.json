@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400301020170065301",
   "numero": 101,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 57452535,
-    "direccion": "calle 102 # 15 - 58 apto 204",
-    "email": "lei.m@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3004975278
-    },
-    "primerNombre": "leila",
-    "segundoNombre": "johanna",
-    "primerApellido": "martinez",
-    "segundoApellido": "mora"
-  },
+  "llaveProceso": "11001400301020170065301",
   "demanda": {
-    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
-    "mandamientoPago": "2017-08-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
-    "expediente": "11001400301020170065301",
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 5446840136,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-08-03T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12545412
     ],
     "radicado": "2017 - 00653",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301020170065301"
   },
-  "cc": 57452535,
-  "idProcesos": [
-    50540650
-  ],
-  "procesos": [
-    {
-      "idProceso": 50540650,
-      "idConexion": 259,
-      "llaveProceso": "11001400301020170065301",
-      "fechaProceso": "2017-06-30T00:00:00",
-      "fechaUltimaActuacion": "2018-08-27T00:00:00",
-      "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LEILA JOHANA MARTINEZ MORA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-08-27T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 613787080,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 29
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3004975278
+    },
+    "primerNombre": "leila",
+    "segundoNombre": "johanna",
+    "primerApellido": "martinez",
+    "segundoApellido": "mora",
+    "cedula": 57452535,
+    "direccion": "calle 102 # 15 - 58 apto 204",
+    "email": "lei.m@hotmail.com"
+  },
+  "cc": 57452535,
+  "procesos": [
+    {
+      "idProceso": 50540650,
+      "idConexion": 259,
+      "llaveProceso": "11001400301020170065301",
+      "fechaProceso": "2017-06-30T00:00:00",
+      "fechaUltimaActuacion": "2018-08-27T00:00:00",
+      "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LEILA JOHANA MARTINEZ MORA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50540650
+  ]
 }

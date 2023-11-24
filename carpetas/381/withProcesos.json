@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304120180007500",
   "numero": 381,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400304120180007500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2027-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2487827625,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      155586
+    ],
+    "radicado": "2018 - 00075",
+    "expediente": "11001400304120180007500"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1032396480,
-    "direccion": "carrera 81 b no 66 - 51 casa 139 terraza de castilla // trv 70 g # 63 - 52 sur apto 604 bl 5",
-    "email": "nimary20@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3203430311
@@ -14,31 +30,12 @@
     "primerNombre": "nielcen",
     "segundoNombre": "marisol",
     "primerApellido": "marin",
-    "segundoApellido": "melo"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400304120180007500",
-    "capitalAdeudado": 2487827625,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      155586
-    ],
-    "radicado": "2018 - 00075",
-    "vencimientoPagare": [
-      "2027-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "melo",
+    "cedula": 1032396480,
+    "direccion": "carrera 81 b no 66 - 51 casa 139 terraza de castilla // trv 70 g # 63 - 52 sur apto 604 bl 5",
+    "email": "nimary20@hotmail.com"
   },
   "cc": 1032396480,
-  "idProcesos": [
-    19431801
-  ],
   "procesos": [
     {
       "idProceso": 19431801,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    19431801
   ]
 }

@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400304620170055700",
   "numero": 61,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400304620170055700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 21493086,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-07-19T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12653060,
+      "377813471593666//5303720056388123"
+    ],
+    "radicado": "2017 - 00557",
+    "expediente": "11001400304620170055700"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 80197126,
-    "direccion": "calle 165 no. 74 c-07 casa 1",
-    "email": "arqrasjuan1989@htmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "juan",
     "segundoNombre": "pablo",
     "primerApellido": "rubio",
-    "segundoApellido": "esguerra"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-16T00:00:00.000Z",
-    "mandamientoPago": "2017-07-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400304620170055700",
-    "capitalAdeudado": 21493086,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12653060,
-      "377813471593666//5303720056388123"
-    ],
-    "radicado": "2017 - 00557",
-    "vencimientoPagare": [
-      "2017-11-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "esguerra",
+    "cedula": 80197126,
+    "direccion": "calle 165 no. 74 c-07 casa 1",
+    "email": "arqrasjuan1989@htmail.com"
   },
   "cc": 80197126,
   "idProcesos": null

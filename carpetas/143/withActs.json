@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400303420170108900",
   "numero": 143,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1023904524,
-    "direccion": "calle 22c sur # 5 - 54",
-    "email": "dalila_paito@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "paola",
-    "segundoNombre": "andrea",
-    "primerApellido": "rodriguez",
-    "segundoApellido": "morales"
-  },
+  "llaveProceso": "11001400303420170108900",
   "demanda": {
-    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
-    "mandamientoPago": "2017-09-14T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
-    "expediente": "11001400303420170108900",
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 9079297,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-14T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       4280023643
     ],
     "radicado": "2017 - 01089",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303420170108900"
   },
-  "codeudor": {
-    "cedula": 5568506,
-    "direccion": "CALLE 22C SUR # 5 - 54",
-    "nombre": "jose manuel ardila",
-    "telefono": 8136733
-  },
-  "cc": 1023904524,
-  "idProcesos": [
-    50654580
-  ],
-  "procesos": [
-    {
-      "idProceso": 50654580,
-      "idConexion": 259,
-      "llaveProceso": "11001400303420170108900",
-      "fechaProceso": "2017-08-23T00:00:00",
-      "fechaUltimaActuacion": "2019-03-07T00:00:00",
-      "despacho": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PAOLA ANDREA RODRIGUEZ MORALES | Demandado: JOSE MANUEL  ARDILA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-03-07T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 764063990,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 24
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "paola",
+    "segundoNombre": "andrea",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "morales",
+    "cedula": 1023904524,
+    "direccion": "calle 22c sur # 5 - 54",
+    "email": "dalila_paito@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 5568506,
+    "direccion": "CALLE 22C SUR # 5 - 54",
+    "nombre": "jose manuel ardila",
+    "telefono": 8136733
+  },
+  "cc": 1023904524,
+  "procesos": [
+    {
+      "idProceso": 50654580,
+      "idConexion": 259,
+      "llaveProceso": "11001400303420170108900",
+      "fechaProceso": "2017-08-23T00:00:00",
+      "fechaUltimaActuacion": "2019-03-07T00:00:00",
+      "despacho": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PAOLA ANDREA RODRIGUEZ MORALES | Demandado: JOSE MANUEL  ARDILA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50654580
+  ]
 }

@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400300320180123600",
   "numero": 495,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400300320180123600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-08-01T05:00:00.000Z",
+      "2018-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 29229159,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "1.100140030032018e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      377814420105917
+    ],
+    "radicado": "2018 - 01236",
+    "expediente": "11001400300320180123600"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 17099495,
-    "direccion": "calle 29 no 23-46  torre 1 apto 701",
-    "email": "pablomendoza44@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,33 +32,12 @@
     "primerNombre": "pablo",
     "segundoNombre": "elias",
     "primerApellido": "mendoza",
-    "segundoApellido": "murillo"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400300320180123600",
-    "capitalAdeudado": 29229159,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "1.100140030032018e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      377814420105917
-    ],
-    "radicado": "2018 - 01236",
-    "vencimientoPagare": [
-      "2021-08-01T05:00:00.000Z",
-      "2018-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "murillo",
+    "cedula": 17099495,
+    "direccion": "calle 29 no 23-46  torre 1 apto 701",
+    "email": "pablomendoza44@gmail.com"
   },
   "cc": 17099495,
-  "idProcesos": [
-    51431830
-  ],
   "procesos": [
     {
       "idProceso": 51431830,
@@ -54,5 +51,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51431830
   ]
 }

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25175408900220170041200",
   "numero": 186,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25175408900220170041200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 13319130,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-15T00:00:00.000Z",
+    "municipio": "CHIA",
+    "obligacion": [
+      1680097051
+    ],
+    "radicado": "2017 - 00412",
+    "expediente": "25175408900220170041200"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 24134505,
-    "direccion": "calle 29 a # 2 - 76 apto 304 chia",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "cely",
     "segundoNombre": "margoth",
     "primerApellido": "rojas",
-    "segundoApellido": "velandia"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-15T00:00:00.000Z",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
-    "expediente": "25175408900220170041200",
-    "capitalAdeudado": 13319130,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "CHIA",
-    "obligacion": [
-      1680097051
-    ],
-    "radicado": "2017 - 00412",
-    "vencimientoPagare": [
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "velandia",
+    "cedula": 24134505,
+    "direccion": "calle 29 a # 2 - 76 apto 304 chia",
+    "email": null
   },
   "codeudor": {
     "cedula": 24134635,

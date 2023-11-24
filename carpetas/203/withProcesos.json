@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400300820170106000",
   "numero": 203,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400300820170106000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 6080404855,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      179104
+    ],
+    "radicado": "2017 - 01060",
+    "expediente": "11001400300820170106000"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80380775,
-    "direccion": "calle 92 bis sur # 3 - 61",
-    "email": "fantavillabon@hotmail.com",
     "tel": {
       "fijo": 7672705,
       "celular": 3118264932
@@ -14,31 +30,12 @@
     "primerNombre": "gonzalo",
     "segundoNombre": "villabon",
     "primerApellido": "martinez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": "2017-09-11T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400300820170106000",
-    "capitalAdeudado": 6080404855,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      179104
-    ],
-    "radicado": "2017 - 01060",
-    "vencimientoPagare": [
-      "2024-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80380775,
+    "direccion": "calle 92 bis sur # 3 - 61",
+    "email": "fantavillabon@hotmail.com"
   },
   "cc": 80380775,
-  "idProcesos": [
-    50684220
-  ],
   "procesos": [
     {
       "idProceso": 50684220,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50684220
   ]
 }

@@ -1,66 +1,27 @@
 {
-  "llaveProceso": "11001400303620170084100",
   "numero": 154,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79840930,
-    "direccion": "carrera 79 bis a # 73 - 92 sur apto 304 int 3",
-    "email": "gabriel.eml@hotmail.com",
-    "tel": {
-      "fijo": 7347505,
-      "celular": 3112945552
-    },
-    "primerNombre": "gabriel",
-    "segundoNombre": "eduardo",
-    "primerApellido": "mejia",
-    "segundoApellido": "ladino"
-  },
+  "llaveProceso": "11001400303620170084100",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-09-05T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
-    "expediente": "11001400303620170084100",
+    "vencimientoPagare": [
+      "2018-02-01T05:00:00.000Z",
+      "2024-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 2936662540,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-09-05T00:00:00.000Z",
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       5670083032,
       "377813199287708 // 4513075700372455 // 123470"
     ],
     "radicado": "2017 - 00841",
-    "vencimientoPagare": [
-      "2018-02-01T05:00:00.000Z",
-      "2024-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303620170084100"
   },
-  "codeudor": {
-    "cedula": 53114743,
-    "direccion": "DIAGONAL 73A SUR # 78 - 40 CASA 11",
-    "nombre": "eldora andrea triana silva",
-    "telefono": 3143903
-  },
-  "cc": 79840930,
-  "idProcesos": [
-    50688820
-  ],
-  "procesos": [
-    {
-      "idProceso": 50688820,
-      "idConexion": 259,
-      "llaveProceso": "11001400303620170084100",
-      "fechaProceso": "2017-09-06T00:00:00",
-      "fechaUltimaActuacion": "2023-08-16T00:00:00",
-      "despacho": "JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GABRIEL EDUARDO MEJIA LADINO | Demandado: ELDORA ANDREA TRIANA SILVA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-08-16T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1846773190,
@@ -75,5 +36,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 41
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 7347505,
+      "celular": 3112945552
+    },
+    "primerNombre": "gabriel",
+    "segundoNombre": "eduardo",
+    "primerApellido": "mejia",
+    "segundoApellido": "ladino",
+    "cedula": 79840930,
+    "direccion": "carrera 79 bis a # 73 - 92 sur apto 304 int 3",
+    "email": "gabriel.eml@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 53114743,
+    "direccion": "DIAGONAL 73A SUR # 78 - 40 CASA 11",
+    "nombre": "eldora andrea triana silva",
+    "telefono": 3143903
+  },
+  "cc": 79840930,
+  "procesos": [
+    {
+      "idProceso": 50688820,
+      "idConexion": 259,
+      "llaveProceso": "11001400303620170084100",
+      "fechaProceso": "2017-09-06T00:00:00",
+      "fechaUltimaActuacion": "2023-08-16T00:00:00",
+      "despacho": "JUZGADO 036 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GABRIEL EDUARDO MEJIA LADINO | Demandado: ELDORA ANDREA TRIANA SILVA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50688820
+  ]
 }

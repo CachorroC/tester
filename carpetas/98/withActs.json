@@ -1,61 +1,25 @@
 {
-  "llaveProceso": "11001400301120170062300",
   "numero": 98,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 41672170,
-    "direccion": "carrera 50a # 68 - 39",
-    "email": "carmenzachaparro@outlook.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "maria",
-    "segundoNombre": "del",
-    "primerApellido": "carmen",
-    "segundoApellido": [
-      "chaparro",
-      "lemus"
-    ]
-  },
+  "llaveProceso": "11001400301120170062300",
   "demanda": {
-    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
-    "mandamientoPago": "2017-09-08T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
-    "expediente": "11001400301120170062300",
+    "vencimientoPagare": [
+      "2030-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 0,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-08T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       190459
     ],
     "radicado": "2017 - 00623",
-    "vencimientoPagare": [
-      "2030-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301120170062300"
   },
-  "cc": 41672170,
-  "idProcesos": [
-    50543070
-  ],
-  "procesos": [
-    {
-      "idProceso": 50543070,
-      "idConexion": 259,
-      "llaveProceso": "11001400301120170062300",
-      "fechaProceso": "2017-06-30T00:00:00",
-      "fechaUltimaActuacion": "2018-08-15T00:00:00",
-      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA DEL CARMEN CHAPARRO LEMUS ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-08-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1934131710,
@@ -70,5 +34,41 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 24
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "maria",
+    "segundoNombre": "del",
+    "primerApellido": "carmen",
+    "segundoApellido": [
+      "chaparro",
+      "lemus"
+    ],
+    "cedula": 41672170,
+    "direccion": "carrera 50a # 68 - 39",
+    "email": "carmenzachaparro@outlook.com"
+  },
+  "cc": 41672170,
+  "procesos": [
+    {
+      "idProceso": 50543070,
+      "idConexion": 259,
+      "llaveProceso": "11001400301120170062300",
+      "fechaProceso": "2017-06-30T00:00:00",
+      "fechaUltimaActuacion": "2018-08-15T00:00:00",
+      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA DEL CARMEN CHAPARRO LEMUS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50543070
+  ]
 }

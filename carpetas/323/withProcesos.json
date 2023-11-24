@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303720170150900",
   "numero": 323,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400303720170150900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1936296022,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-10-21T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-01-22T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-02T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      90669
+    ],
+    "radicado": "2017 - 01509",
+    "expediente": "11001400303720170150900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 11319802,
-    "direccion": "calle 40 sur  no  72 g -01  apartamento 101",
-    "email": "fermedina11@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "luis",
     "segundoNombre": "fernando",
     "primerApellido": "medina",
-    "segundoApellido": "potes"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-11-02T00:00:00.000Z",
-    "mandamientoPago": "2018-01-22T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-21T00:00:00.000Z",
-    "expediente": "11001400303720170150900",
-    "capitalAdeudado": 1936296022,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      90669
-    ],
-    "radicado": "2017 - 01509",
-    "vencimientoPagare": [
-      "2021-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "potes",
+    "cedula": 11319802,
+    "direccion": "calle 40 sur  no  72 g -01  apartamento 101",
+    "email": "fermedina11@gmail.com"
   },
   "codeudor": {
     "cedula": 52121666,
@@ -42,9 +42,6 @@
     "telefono": 3176363780
   },
   "cc": 11319802,
-  "idProcesos": [
-    8830323
-  ],
   "procesos": [
     {
       "idProceso": 8830323,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    8830323
   ]
 }

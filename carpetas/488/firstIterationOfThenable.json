@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001418901020180083400",
   "numero": 488,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001418901020180083400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "20-09-2018",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "25.547.970.61"
+    ],
+    "radicado": "2018 - 00834",
+    "expediente": "11001418901020180083400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52837807,
-    "direccion": null,
-    "email": "CARRERA 69J No 63A- 49",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "sandra",
     "segundoNombre": "milena",
     "primerApellido": "moreno",
-    "segundoApellido": "campuzano"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001418901020180083400",
-    "capitalAdeudado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "20-09-2018",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "25.547.970.61"
-    ],
-    "radicado": "2018 - 00834",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "campuzano",
+    "cedula": 52837807,
+    "direccion": null,
+    "email": "CARRERA 69J No 63A- 49"
   },
   "codeudor": {
     "direccion": "22-09-2024"

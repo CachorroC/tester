@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25473400100120190116000",
   "numero": 528,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25473400100120190116000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2030-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 46371154,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2019-02-09T05:00:00.000Z",
+    "etapaProcesal": "2.543040030012019e+22",
+    "fechaPresentacion": null,
+    "municipio": "MADRID",
+    "obligacion": [
+      "2273 320186673"
+    ],
+    "radicado": "2019 - 01160",
+    "expediente": "25473400100120190116000"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1065564377,
-    "direccion": "calle  23 no 12-50 casa 16 int 12 manzana 1 conjunto quintas de zaragoza",
-    "email": "yoladisb@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +30,12 @@
     "primerNombre": "yoladis",
     "segundoNombre": "esther",
     "primerApellido": "blanco",
-    "segundoApellido": "lopez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2019-02-09T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "25473400100120190116000",
-    "capitalAdeudado": 46371154,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "2.543040030012019e+22",
-    "municipio": "MADRID",
-    "obligacion": [
-      "2273 320186673"
-    ],
-    "radicado": "2019 - 01160",
-    "vencimientoPagare": [
-      "2030-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "lopez",
+    "cedula": 1065564377,
+    "direccion": "calle  23 no 12-50 casa 16 int 12 manzana 1 conjunto quintas de zaragoza",
+    "email": "yoladisb@hotmail.com"
   },
   "cc": 1065564377,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

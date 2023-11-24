@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303020170095100",
   "numero": 30,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400303020170095100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2031-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 4894505603,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      146247
+    ],
+    "radicado": "2017 - 00951",
+    "expediente": "11001400303020170095100"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52367601,
-    "direccion": "carrera 8 no 192 - 60  apartamento  312  / garage  29",
-    "email": "mivibel@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": 3002107965
@@ -14,26 +30,10 @@
     "primerNombre": "mireya",
     "segundoNombre": "viviana",
     "primerApellido": "beltran",
-    "segundoApellido": "herrera"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-10-10T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
-    "expediente": "11001400303020170095100",
-    "capitalAdeudado": 4894505603,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      146247
-    ],
-    "radicado": "2017 - 00951",
-    "vencimientoPagare": [
-      "2031-12-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "herrera",
+    "cedula": 52367601,
+    "direccion": "carrera 8 no 192 - 60  apartamento  312  / garage  29",
+    "email": "mivibel@yahoo.com"
   },
   "codeudor": {
     "cedula": 8742730,
@@ -42,9 +42,6 @@
     "telefono": 8742730
   },
   "cc": 52367601,
-  "idProcesos": [
-    50492700
-  ],
   "procesos": [
     {
       "idProceso": 50492700,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50492700
   ]
 }

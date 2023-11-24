@@ -1,12 +1,24 @@
 {
-  "llaveProceso": "11001400300820170102400",
   "numero": 548,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400300820170102400",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [],
+    "radicado": "2017 - 01024",
+    "expediente": "11001400300820170102400"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 23270185,
-    "direccion": null,
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,22 +26,10 @@
     "primerNombre": "clara",
     "segundoNombre": "patricia",
     "primerApellido": "peña",
-    "segundoApellido": "beltran"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400300820170102400",
-    "capitalAdeudado": 0,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [],
-    "radicado": "2017 - 01024",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "beltran",
+    "cedula": 23270185,
+    "direccion": null,
+    "email": null
   },
   "cc": 23270185,
   "idProcesos": null

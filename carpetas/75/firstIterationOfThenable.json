@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400305820170091800",
   "numero": 75,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400305820170091800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      44690,
+      "320 096597"
+    ],
+    "radicado": "2017 - 00918",
+    "expediente": "11001400305820170091800"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80792132,
-    "direccion": "marioabc_83@hotmail.com",
-    "email": "44955363-31249909451",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "mario",
     "segundoNombre": "andres",
     "primerApellido": "bojaca",
-    "segundoApellido": "cruz"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-06-21T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400305820170091800",
-    "capitalAdeudado": 0,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      44690,
-      "320 096597"
-    ],
-    "radicado": "2017 - 00918",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "cruz",
+    "cedula": 80792132,
+    "direccion": "marioabc_83@hotmail.com",
+    "email": "44955363-31249909451"
   },
   "codeudor": {
     "cedula": "CALLE 8 C No. 92-72 casa 20 conjunto residencial ciudad tital ph",

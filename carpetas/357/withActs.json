@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400305520170137800",
   "numero": 357,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1012330386,
-    "direccion": "calle 79 sur no 77 l- 72 int 59",
-    "email": "disayuri@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "diana",
-    "segundoNombre": "sayuri",
-    "primerApellido": "rodriguez",
-    "segundoApellido": "garcia"
-  },
+  "llaveProceso": "11001400305520170137800",
   "demanda": {
-    "fechaPresentacion": "2017-12-12T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
-    "expediente": "11001400305520170137800",
+    "vencimientoPagare": [
+      "2016-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 2214964128,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-12-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       146999
     ],
     "radicado": "2017 - 01378",
-    "vencimientoPagare": [
-      "2016-12-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400305520170137800"
   },
-  "cc": 1012330386,
-  "idProcesos": [
-    17054094
-  ],
-  "procesos": [
-    {
-      "idProceso": 17054094,
-      "idConexion": 263,
-      "llaveProceso": "11001400305520170137800",
-      "fechaProceso": "2017-12-14T00:00:00",
-      "fechaUltimaActuacion": "2018-05-16T00:00:00",
-      "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA SAYURI RODRIGUEZ GARCIA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-05-16T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 93354554,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 6
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "diana",
+    "segundoNombre": "sayuri",
+    "primerApellido": "rodriguez",
+    "segundoApellido": "garcia",
+    "cedula": 1012330386,
+    "direccion": "calle 79 sur no 77 l- 72 int 59",
+    "email": "disayuri@hotmail.com"
+  },
+  "cc": 1012330386,
+  "procesos": [
+    {
+      "idProceso": 17054094,
+      "idConexion": 263,
+      "llaveProceso": "11001400305520170137800",
+      "fechaProceso": "2017-12-14T00:00:00",
+      "fechaUltimaActuacion": "2018-05-16T00:00:00",
+      "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA SAYURI RODRIGUEZ GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    17054094
+  ]
 }

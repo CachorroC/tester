@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400302820170084900",
   "numero": 233,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400302820170084900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 30506109,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-10-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-01T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4.09983899752975e+29,
+      "5303712728390736 // 12141636"
+    ],
+    "radicado": "2017 - 00849",
+    "expediente": "11001400302820170084900"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 11313124,
-    "direccion": "calle 145 # 46 - 13 apto 202 int 5",
-    "email": "jotorres@perosnalsoft.com.co",
     "tel": {
       "fijo": 3138216,
       "celular": 3138216786
@@ -14,27 +31,10 @@
     "primerNombre": "jose",
     "segundoNombre": "luis",
     "primerApellido": "torres",
-    "segundoApellido": "tamayo"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-01T00:00:00.000Z",
-    "mandamientoPago": "2017-10-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
-    "expediente": "11001400302820170084900",
-    "capitalAdeudado": 30506109,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4.09983899752975e+29,
-      "5303712728390736 // 12141636"
-    ],
-    "radicado": "2017 - 00849",
-    "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "tamayo",
+    "cedula": 11313124,
+    "direccion": "calle 145 # 46 - 13 apto 202 int 5",
+    "email": "jotorres@perosnalsoft.com.co"
   },
   "cc": 11313124,
   "idProcesos": null

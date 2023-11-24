@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400307820170076200",
   "numero": 160,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79387342,
-    "direccion": "calle 28a sur # 28a - 18",
-    "email": "jairocarrillosa@hotmail.com",
-    "tel": {
-      "fijo": 6047182,
-      "celular": 3118411820
-    },
-    "primerNombre": "jairo",
-    "segundoNombre": "alberto",
-    "primerApellido": "carrillo",
-    "segundoApellido": "salinas"
-  },
+  "llaveProceso": "11001400307820170076200",
   "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2017-08-31T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
-    "expediente": "11001400307820170076200",
+    "vencimientoPagare": [
+      "2019-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 12000000,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-31T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       103083921
     ],
     "radicado": "2017 - 00762",
-    "vencimientoPagare": [
-      "2019-12-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307820170076200"
   },
-  "cc": 79387342,
-  "idProcesos": [
-    51542360
-  ],
-  "procesos": [
-    {
-      "idProceso": 51542360,
-      "idConexion": 259,
-      "llaveProceso": "11001400307820170076200",
-      "fechaProceso": "2018-12-12T00:00:00",
-      "fechaUltimaActuacion": "2019-07-02T00:00:00",
-      "despacho": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIRO ALBERTO CARRILLO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-07-02T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 856989860,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 12
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6047182,
+      "celular": 3118411820
+    },
+    "primerNombre": "jairo",
+    "segundoNombre": "alberto",
+    "primerApellido": "carrillo",
+    "segundoApellido": "salinas",
+    "cedula": 79387342,
+    "direccion": "calle 28a sur # 28a - 18",
+    "email": "jairocarrillosa@hotmail.com"
+  },
+  "cc": 79387342,
+  "procesos": [
+    {
+      "idProceso": 51542360,
+      "idConexion": 259,
+      "llaveProceso": "11001400307820170076200",
+      "fechaProceso": "2018-12-12T00:00:00",
+      "fechaUltimaActuacion": "2019-07-02T00:00:00",
+      "despacho": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIRO ALBERTO CARRILLO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51542360
+  ]
 }

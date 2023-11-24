@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400307820170116400",
   "numero": 407,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400307820170116400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 31100999,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-12-01T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-11-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      3550083774,
+      "4513082972339 / 5303714867753385"
+    ],
+    "radicado": "2017 - 01164",
+    "expediente": "11001400307820170116400"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79328264,
-    "direccion": "carrera 11 no  144 - 22 apartamento 301",
-    "email": "nescri64@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "nestor",
     "segundoNombre": "alberto",
     "primerApellido": "cristancho",
-    "segundoApellido": "lopez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-11-27T00:00:00.000Z",
-    "mandamientoPago": "2018-12-01T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
-    "expediente": "11001400307820170116400",
-    "capitalAdeudado": 31100999,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      3550083774,
-      "4513082972339 / 5303714867753385"
-    ],
-    "radicado": "2017 - 01164",
-    "vencimientoPagare": [
-      "2024-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "lopez",
+    "cedula": 79328264,
+    "direccion": "carrera 11 no  144 - 22 apartamento 301",
+    "email": "nescri64@hotmail.com"
   },
   "cc": 79328264,
   "idProcesos": null

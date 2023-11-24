@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25126408900220180004800",
   "numero": 427,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "25126408900220180004800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 21049112,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2018-02-26T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-02-01T00:00:00.000Z",
+    "municipio": "CAJICA",
+    "obligacion": [
+      12730779
+    ],
+    "radicado": "2018 - 00048",
+    "expediente": "25126408900220180004800"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 1069738339,
-    "direccion": "vereda la 22 kilometro 30 (cajica) // vereda subia norte parte baja finca el rincon lote 2 (granada- cund): vereda subia norte parte baja finca el rincon lote 2 (granada - cund)",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "juan",
     "segundoNombre": "camilo",
     "primerApellido": "chingate",
-    "segundoApellido": "penagos"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-02-01T00:00:00.000Z",
-    "mandamientoPago": "2018-02-26T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
-    "expediente": "25126408900220180004800",
-    "capitalAdeudado": 21049112,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "CAJICA",
-    "obligacion": [
-      12730779
-    ],
-    "radicado": "2018 - 00048",
-    "vencimientoPagare": [
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "penagos",
+    "cedula": 1069738339,
+    "direccion": "vereda la 22 kilometro 30 (cajica) // vereda subia norte parte baja finca el rincon lote 2 (granada- cund): vereda subia norte parte baja finca el rincon lote 2 (granada - cund)",
+    "email": null
   },
   "cc": 1069738339,
-  "idProcesos": [
-    86157021
-  ],
   "procesos": [
     {
       "idProceso": 86157021,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    86157021
   ]
 }

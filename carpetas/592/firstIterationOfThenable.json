@@ -1,12 +1,28 @@
 {
-  "llaveProceso": null,
   "numero": 592,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": null,
+  "demanda": {
+    "vencimientoPagare": [
+      "2052-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 104393034,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-10-13T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "MADRID",
+    "obligacion": [
+      90000179396
+    ],
+    "radicado": null,
+    "expediente": null
+  },
   "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79888775,
-    "direccion": "calle 6 sur no. 24 - 180 ap 1203 to 7 conjunto residencial \"la prosperidad - fontana 3 p.h. madrid - cundinamarca",
-    "email": "marcel-leo@hotmail.com dillavivi@hotmail.com",
     "tel": {
       "fijo": 4575011,
       "celular": 3209005114
@@ -20,26 +36,10 @@
       "viviana",
       "martinez",
       "arias"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-10-13T00:00:00.000Z",
-    "expediente": null,
-    "capitalAdeudado": 104393034,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "MADRID",
-    "obligacion": [
-      90000179396
     ],
-    "radicado": null,
-    "vencimientoPagare": [
-      "2052-02-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "cedula": 79888775,
+    "direccion": "calle 6 sur no. 24 - 180 ap 1203 to 7 conjunto residencial \"la prosperidad - fontana 3 p.h. madrid - cundinamarca",
+    "email": "marcel-leo@hotmail.com dillavivi@hotmail.com"
   },
   "codeudor": {
     "cedula": 52791903,

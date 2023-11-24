@@ -1,12 +1,27 @@
 {
-  "llaveProceso": "11001400301320170111400",
   "numero": 170,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400301320170111400",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 810822066,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-30T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4513075095312892,
+      5303718444914360
+    ],
+    "radicado": "2017 - 01114",
+    "expediente": "11001400301320170111400"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 55303731,
-    "direccion": "calle 138 # 11b - 16 apto 401",
-    "email": "isagarcia@hotmail.com",
     "tel": {
       "fijo": 5514126,
       "celular": 3006509338
@@ -14,25 +29,10 @@
     "primerNombre": "isabel",
     "segundoNombre": "cristina",
     "primerApellido": "garcia",
-    "segundoApellido": "duran"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2017-08-30T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
-    "expediente": "11001400301320170111400",
-    "capitalAdeudado": 810822066,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4513075095312892,
-      5303718444914360
-    ],
-    "radicado": "2017 - 01114",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "duran",
+    "cedula": 55303731,
+    "direccion": "calle 138 # 11b - 16 apto 401",
+    "email": "isagarcia@hotmail.com"
   },
   "cc": 55303731,
   "idProcesos": null

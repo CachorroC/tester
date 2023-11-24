@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400306620170122100",
   "numero": 178,
-  "tipoProceso": "PRENDARO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 37861286,
-    "direccion": "diagonal 52# 3 - 24 apto 50",
-    "email": "maryluzocasiones1104.p@hotmail.com",
-    "tel": {
-      "fijo": 7675057,
-      "celular": 3156780088
-    },
-    "primerNombre": "maryluz",
-    "segundoNombre": "ocasiones",
-    "primerApellido": "pinzon",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400306620170122100",
   "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2017-09-06T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
-    "expediente": "11001400306620170122100",
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 3924309551,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-06T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       4099831431615063,
       "5303715050478433 // 5306940349167962 // 12641256"
     ],
     "radicado": "2017 - 01221",
-    "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306620170122100"
   },
-  "cc": 37861286,
-  "idProcesos": [
-    112657130
-  ],
-  "procesos": [
-    {
-      "idProceso": 112657130,
-      "idConexion": 262,
-      "llaveProceso": "11001400306620170122100",
-      "fechaProceso": "2017-08-29T00:00:00",
-      "fechaUltimaActuacion": "2019-02-12T00:00:00",
-      "despacho": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: MARYLUZ OCASIONES PINZON ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-02-12T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1243284510,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 29
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARO",
+  "deudor": {
+    "tel": {
+      "fijo": 7675057,
+      "celular": 3156780088
+    },
+    "primerNombre": "maryluz",
+    "segundoNombre": "ocasiones",
+    "primerApellido": "pinzon",
+    "segundoApellido": null,
+    "cedula": 37861286,
+    "direccion": "diagonal 52# 3 - 24 apto 50",
+    "email": "maryluzocasiones1104.p@hotmail.com"
+  },
+  "cc": 37861286,
+  "procesos": [
+    {
+      "idProceso": 112657130,
+      "idConexion": 262,
+      "llaveProceso": "11001400306620170122100",
+      "fechaProceso": "2017-08-29T00:00:00",
+      "fechaUltimaActuacion": "2019-02-12T00:00:00",
+      "despacho": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: MARYLUZ OCASIONES PINZON ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    112657130
+  ]
 }

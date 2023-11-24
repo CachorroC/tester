@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400300920170060700",
   "numero": 51,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400300920170060700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "6610083691//161451//3778815787383070",
+      "5303715153971258//4513076874137526//AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 00607",
+    "expediente": "11001400300920170060700"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 37549188,
-    "direccion": "carrera 54c no. 143-a-90//carrera 54c no. 143-a-90 apto 213 torre 2 conjunto residencial barcelona ph",
-    "email": "caromartinezvera@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3175921396
@@ -14,27 +31,10 @@
     "primerNombre": "maria",
     "segundoNombre": "carolina",
     "primerApellido": "martinez",
-    "segundoApellido": "vera"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-23T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400300920170060700",
-    "capitalAdeudado": 0,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "6610083691//161451//3778815787383070",
-      "5303715153971258//4513076874137526//AUDIOPRESTAMO"
-    ],
-    "radicado": "2017 - 00607",
-    "vencimientoPagare": [
-      "2017-02-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "vera",
+    "cedula": 37549188,
+    "direccion": "carrera 54c no. 143-a-90//carrera 54c no. 143-a-90 apto 213 torre 2 conjunto residencial barcelona ph",
+    "email": "caromartinezvera@gmail.com"
   },
   "codeudor": {
     "cedula": 79948168,

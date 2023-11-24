@@ -1,45 +1,42 @@
 {
-  "llaveProceso": "11001310302120170047100",
   "numero": 196,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 80130064,
-    "direccion": "transversal 5q  # 48p - 06 sur",
-    "email": "jairotibata@hotmail.com",
-    "tel": {
-      "fijo": 7677881,
-      "celular": 3157303099
-    },
-    "primerNombre": "jairo",
-    "primerApellido": "tibata",
-    "segundoApellido": null,
-    "segundoNombre": null
-  },
+  "llaveProceso": "11001310302120170047100",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-08-30T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001310302120170047100",
+    "vencimientoPagare": [
+      "2037-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 124710637,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-08-30T00:00:00.000Z",
     "etapaProcesal": "1.100131030212017e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       2330086807,
       "200865 // 377813427489837 // 4513070249553475 // 5303710103729395"
     ],
     "radicado": "2017 - 00471",
-    "vencimientoPagare": [
-      "2037-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001310302120170047100"
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 7677881,
+      "celular": 3157303099
+    },
+    "primerNombre": "jairo",
+    "segundoNombre": null,
+    "primerApellido": "tibata",
+    "segundoApellido": null,
+    "cedula": 80130064,
+    "direccion": "transversal 5q  # 48p - 06 sur",
+    "email": "jairotibata@hotmail.com"
   },
   "cc": 80130064,
-  "idProcesos": [
-    28907104
-  ],
   "procesos": [
     {
       "idProceso": 28907104,
@@ -53,5 +50,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    28907104
   ]
 }

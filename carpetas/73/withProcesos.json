@@ -1,56 +1,56 @@
 {
-  "llaveProceso": "11001400300420170057500",
   "numero": 73,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 31877993,
-    "direccion": "carrera 55 a no. 165-27 int 7 apto 102",
-    "email": "mrocha@hotmail.com",
-    "tel": {
-      "fijo": 2333333,
-      "celular": null
-    },
-    "primerNombre": "sonia",
-    "primerApellido": "mazuera",
-    "segundoApellido": null,
-    "segundoNombre": null
-  },
+  "llaveProceso": "11001400300420170057500",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-06-14T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400300420170057500",
+    "vencimientoPagare": [
+      "2018-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 78297335,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-06-14T00:00:00.000Z",
     "etapaProcesal": "1.100140030042017e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12537545
     ],
     "radicado": "2017 - 00575",
-    "vencimientoPagare": [
-      "2018-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300420170057500"
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 2333333,
+      "celular": null
+    },
+    "primerNombre": "sonia",
+    "segundoNombre": null,
+    "primerApellido": "mazuera",
+    "segundoApellido": null,
+    "cedula": 31877993,
+    "direccion": "carrera 55 a no. 165-27 int 7 apto 102",
+    "email": "mrocha@hotmail.com"
   },
   "cc": 31877993,
-  "idProcesos": [
-    50508870
-  ],
   "procesos": [
     {
       "idProceso": 50508870,
       "idConexion": 259,
       "llaveProceso": "11001400300420170057500",
       "fechaProceso": "2017-06-15T00:00:00",
-      "fechaUltimaActuacion": "2023-11-14T00:00:00",
+      "fechaUltimaActuacion": "2023-11-24T00:00:00",
       "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SONIA MAZUERA ",
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50508870
   ]
 }

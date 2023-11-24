@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400305920180009000",
   "numero": 452,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400305920180009000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 22244760,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-02-26T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      1740087269
+    ],
+    "radicado": "2018 - 00090",
+    "expediente": "11001400305920180009000"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 25126734,
-    "direccion": "carrera 103 a  no 77d-22 molinos- bogota",
-    "email": "mauriciosamu1128@gmail.com",
     "tel": {
       "fijo": 4412100,
       "celular": 3124885346
@@ -14,26 +30,10 @@
     "primerNombre": "maria",
     "segundoNombre": "marin",
     "primerApellido": "de",
-    "segundoApellido": "orozco"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "mandamientoPago": "2018-02-26T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400305920180009000",
-    "capitalAdeudado": 22244760,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      1740087269
-    ],
-    "radicado": "2018 - 00090",
-    "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "orozco",
+    "cedula": 25126734,
+    "direccion": "carrera 103 a  no 77d-22 molinos- bogota",
+    "email": "mauriciosamu1128@gmail.com"
   },
   "cc": 25126734,
   "idProcesos": null

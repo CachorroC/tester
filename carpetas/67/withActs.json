@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001310301720170036000",
   "numero": 67,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 78076295,
-    "direccion": "cl 106 no. 50-21 bogota",
-    "email": "havena@ingeobrasas.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3005146155
-    },
-    "primerNombre": "humberto",
-    "segundoNombre": "enrique",
-    "primerApellido": "avena",
-    "segundoApellido": "corrales"
-  },
+  "llaveProceso": "11001310301720170036000",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-06-20T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001310301720170036000",
+    "vencimientoPagare": [
+      "2018-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 173618623,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-06-20T00:00:00.000Z",
     "etapaProcesal": "1.10014003047201e+50",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "5303716461821906//5306948999859317//12611392",
       "4513072520491185//0377815106380054//12496791"
     ],
     "radicado": "2017 - 00360",
-    "vencimientoPagare": [
-      "2018-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001310301720170036000"
   },
-  "cc": 78076295,
-  "idProcesos": [
-    28881194
-  ],
-  "procesos": [
-    {
-      "idProceso": 28881194,
-      "idConexion": 310,
-      "llaveProceso": "11001310301720170036000",
-      "fechaProceso": "2017-08-02T00:00:00",
-      "fechaUltimaActuacion": "2023-08-10T00:00:00",
-      "despacho": "JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S. A. | Demandado: HUMBERTO ENRIQUE AVENA CORRALES ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-08-10T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1121899394,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 58
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3005146155
+    },
+    "primerNombre": "humberto",
+    "segundoNombre": "enrique",
+    "primerApellido": "avena",
+    "segundoApellido": "corrales",
+    "cedula": 78076295,
+    "direccion": "cl 106 no. 50-21 bogota",
+    "email": "havena@ingeobrasas.com"
+  },
+  "cc": 78076295,
+  "procesos": [
+    {
+      "idProceso": 28881194,
+      "idConexion": 310,
+      "llaveProceso": "11001310301720170036000",
+      "fechaProceso": "2017-08-02T00:00:00",
+      "fechaUltimaActuacion": "2023-08-10T00:00:00",
+      "despacho": "JUZGADO 001 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S. A. | Demandado: HUMBERTO ENRIQUE AVENA CORRALES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    28881194
+  ]
 }

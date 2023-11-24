@@ -1,57 +1,24 @@
 {
-  "llaveProceso": "11001400306320180075600",
   "numero": 436,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79145374,
-    "direccion": "transversal 2a no 67-71",
-    "email": "jcbaquerob@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "juan",
-    "segundoNombre": "camilo",
-    "primerApellido": "baquero",
-    "segundoApellido": "buttner"
-  },
+  "llaveProceso": "11001400306320180075600",
   "demanda": {
-    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-05-23T00:00:00.000Z",
-    "expediente": "11001400306320180075600",
+    "vencimientoPagare": [],
+    "juzgados": [],
     "capitalAdeudado": 3856958181,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-05-23T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       5491585909873,
       "AUDIOPRESTAMO"
     ],
     "radicado": "2018 - 00756",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306320180075600"
   },
-  "cc": 79145374,
-  "idProcesos": [
-    17724160
-  ],
-  "procesos": [
-    {
-      "idProceso": 17724160,
-      "idConexion": 260,
-      "llaveProceso": "11001400306320180075600",
-      "fechaProceso": "2018-07-16T00:00:00",
-      "fechaUltimaActuacion": "2022-03-15T00:00:00",
-      "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: Bancolombia S.A. | Demandado: JUAN CAMILO BAQUERO BUTTNER ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-03-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1263596580,
@@ -66,5 +33,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 14
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "juan",
+    "segundoNombre": "camilo",
+    "primerApellido": "baquero",
+    "segundoApellido": "buttner",
+    "cedula": 79145374,
+    "direccion": "transversal 2a no 67-71",
+    "email": "jcbaquerob@gmail.com"
+  },
+  "cc": 79145374,
+  "procesos": [
+    {
+      "idProceso": 17724160,
+      "idConexion": 260,
+      "llaveProceso": "11001400306320180075600",
+      "fechaProceso": "2018-07-16T00:00:00",
+      "fechaUltimaActuacion": "2022-03-15T00:00:00",
+      "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: Bancolombia S.A. | Demandado: JUAN CAMILO BAQUERO BUTTNER ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    17724160
+  ]
 }

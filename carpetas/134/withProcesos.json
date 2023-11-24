@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25430400300120170108300",
   "numero": 134,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25430400300120170108300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2028-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 54428394,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-08-24T00:00:00.000Z",
+    "municipio": "MADRID",
+    "obligacion": [
+      167364,
+      "377813624212172."
+    ],
+    "radicado": "2017 - 01083",
+    "expediente": "25430400300120170108300"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80722626,
-    "direccion": "carrera 2 # 1 - 04 bloque 8 apto 101",
-    "email": "fredy8221@hotmail.com",
     "tel": {
       "fijo": 8284768,
       "celular": 3105519200
@@ -14,27 +31,10 @@
     "primerNombre": "fredy",
     "segundoNombre": "alexander",
     "primerApellido": "bueno",
-    "segundoApellido": "parada"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-24T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
-    "expediente": "25430400300120170108300",
-    "capitalAdeudado": 54428394,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "MADRID",
-    "obligacion": [
-      167364,
-      "377813624212172."
-    ],
-    "radicado": "2017 - 01083",
-    "vencimientoPagare": [
-      "2028-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "parada",
+    "cedula": 80722626,
+    "direccion": "carrera 2 # 1 - 04 bloque 8 apto 101",
+    "email": "fredy8221@hotmail.com"
   },
   "codeudor": {
     "cedula": 23473890,
@@ -43,6 +43,6 @@
     "telefono": 3138687321
   },
   "cc": 80722626,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

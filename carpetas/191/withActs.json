@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400307920170108200",
   "numero": 191,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 80231798,
-    "direccion": "carrera 32 b # 2 - 64",
-    "email": "jhon.valencia@jvtel.com.co",
-    "tel": {
-      "fijo": 2376454,
-      "celular": 3004525014
-    },
-    "primerNombre": "john",
-    "segundoNombre": "alexander",
-    "primerApellido": "valencia",
-    "segundoApellido": "marquez"
-  },
+  "llaveProceso": "11001400307920170108200",
   "demanda": {
-    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
-    "mandamientoPago": "2017-09-13T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
-    "expediente": "11001400307920170108200",
+    "vencimientoPagare": [
+      "2020-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 87649981,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-13T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       1220084112
     ],
     "radicado": "2017 - 01082",
-    "vencimientoPagare": [
-      "2020-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307920170108200"
   },
-  "cc": 80231798,
-  "idProcesos": [
-    51357750
-  ],
-  "procesos": [
-    {
-      "idProceso": 51357750,
-      "idConexion": 259,
-      "llaveProceso": "11001400307920170108200",
-      "fechaProceso": "2018-08-09T00:00:00",
-      "fechaUltimaActuacion": "2023-10-25T00:00:00",
-      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JHON ALEXANDER VALENCIA MARQUEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-10-25T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1917206900,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 65
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 2376454,
+      "celular": 3004525014
+    },
+    "primerNombre": "john",
+    "segundoNombre": "alexander",
+    "primerApellido": "valencia",
+    "segundoApellido": "marquez",
+    "cedula": 80231798,
+    "direccion": "carrera 32 b # 2 - 64",
+    "email": "jhon.valencia@jvtel.com.co"
+  },
+  "cc": 80231798,
+  "procesos": [
+    {
+      "idProceso": 51357750,
+      "idConexion": 259,
+      "llaveProceso": "11001400307920170108200",
+      "fechaProceso": "2018-08-09T00:00:00",
+      "fechaUltimaActuacion": "2023-10-25T00:00:00",
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JHON ALEXANDER VALENCIA MARQUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51357750
+  ]
 }

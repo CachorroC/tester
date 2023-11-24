@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001410375220170129100",
   "numero": 296,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001410375220170129100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 20063065,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-06T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-10-17T00:00:00.000Z",
+    "etapaProcesal": "1.100141037522017e+22",
+    "fechaPresentacion": null,
+    "municipio": "KENNEDY",
+    "obligacion": [
+      12445450
+    ],
+    "radicado": "2017 - 01291",
+    "expediente": "11001410375220170129100"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 86074992,
-    "direccion": "diagonal 40 g sur-  no 72 j - 35 interior 2a",
-    "email": "diharveypra@yahoo.es",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +30,12 @@
     "primerNombre": "didier",
     "segundoNombre": "harvey",
     "primerApellido": "prada",
-    "segundoApellido": "aguirre"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-10-17T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-06T00:00:00.000Z",
-    "expediente": "11001410375220170129100",
-    "capitalAdeudado": 20063065,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "1.100141037522017e+22",
-    "municipio": "KENNEDY",
-    "obligacion": [
-      12445450
-    ],
-    "radicado": "2017 - 01291",
-    "vencimientoPagare": [
-      "2020-10-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "aguirre",
+    "cedula": 86074992,
+    "direccion": "diagonal 40 g sur-  no 72 j - 35 interior 2a",
+    "email": "diharveypra@yahoo.es"
   },
   "cc": 86074992,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

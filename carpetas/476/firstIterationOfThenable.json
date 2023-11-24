@@ -1,12 +1,26 @@
 {
-  "llaveProceso": "11001418901220180064200",
   "numero": 476,
-  "tipoProceso": "HIPOTECARIA",
+  "llaveProceso": "11001418901220180064200",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "05-09-2018",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "28.251.567.19"
+    ],
+    "radicado": "O",
+    "expediente": "11001418901220180064200"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIA",
   "deudor": {
-    "cedula": 1081395456,
-    "direccion": null,
-    "email": "CARRERA 24B No 44-24",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,24 +28,10 @@
     "primerNombre": "arnulfo",
     "segundoNombre": "pastes",
     "primerApellido": "daza",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001418901220180064200",
-    "capitalAdeudado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "05-09-2018",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "28.251.567.19"
-    ],
-    "radicado": "O",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 1081395456,
+    "direccion": null,
+    "email": "CARRERA 24B No 44-24"
   },
   "cc": 1081395456,
   "idProcesos": null

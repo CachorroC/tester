@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400308520170084900",
   "numero": 22,
-  "tipoProceso": "PRENDARIO",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 80073174,
-    "direccion": "calle 160 no. 58-75 torre 6 apto 503 bogota /// yopal casanare",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "jose",
-    "segundoNombre": "edwin",
-    "primerApellido": "garces",
-    "segundoApellido": "ardila"
-  },
+  "llaveProceso": "11001400308520170084900",
   "demanda": {
-    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
-    "mandamientoPago": "2017-07-21T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
-    "expediente": "11001400308520170084900",
+    "vencimientoPagare": [
+      "2020-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 29690679,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-07-21T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       2453698
     ],
     "radicado": "2017 - 00849",
-    "vencimientoPagare": [
-      "2020-04-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400308520170084900"
   },
-  "cc": 80073174,
-  "idProcesos": [
-    51935790
-  ],
-  "procesos": [
-    {
-      "idProceso": 51935790,
-      "idConexion": 259,
-      "llaveProceso": "11001400308520170084900",
-      "fechaProceso": "2019-05-23T00:00:00",
-      "fechaUltimaActuacion": "2023-06-15T00:00:00",
-      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE EDWIN GARCES ARDILA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-06-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1777734510,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 56
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "jose",
+    "segundoNombre": "edwin",
+    "primerApellido": "garces",
+    "segundoApellido": "ardila",
+    "cedula": 80073174,
+    "direccion": "calle 160 no. 58-75 torre 6 apto 503 bogota /// yopal casanare",
+    "email": null
+  },
+  "cc": 80073174,
+  "procesos": [
+    {
+      "idProceso": 51935790,
+      "idConexion": 259,
+      "llaveProceso": "11001400308520170084900",
+      "fechaProceso": "2019-05-23T00:00:00",
+      "fechaUltimaActuacion": "2023-06-15T00:00:00",
+      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE EDWIN GARCES ARDILA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51935790
+  ]
 }

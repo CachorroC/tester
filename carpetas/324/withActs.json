@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400300120170084900",
   "numero": 324,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 80032088,
-    "direccion": "transversal 28 no 22-13 apartamento 304 torre 7 soacha",
-    "email": "majupi170301@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "jose",
-    "segundoNombre": "edwin",
-    "primerApellido": "morales",
-    "segundoApellido": "alfonso"
-  },
+  "llaveProceso": "11001400300120170084900",
   "demanda": {
-    "fechaPresentacion": "2017-11-01T00:00:00.000Z",
-    "mandamientoPago": "2018-01-26T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-17T00:00:00.000Z",
-    "expediente": "11001400300120170084900",
+    "vencimientoPagare": [
+      "2020-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 3573257450,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-10-17T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-01-26T00:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "2017-11-01T00:00:00.000Z",
     "municipio": "SOACHA",
     "obligacion": [
       164578,
       1380081489
     ],
     "radicado": "2017 - 00849",
-    "vencimientoPagare": [
-      "2020-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300120170084900"
   },
-  "cc": 80032088,
-  "idProcesos": [
-    50548450
-  ],
-  "procesos": [
-    {
-      "idProceso": 50548450,
-      "idConexion": 259,
-      "llaveProceso": "11001400300120170084900",
-      "fechaProceso": "2017-07-05T00:00:00",
-      "fechaUltimaActuacion": "2020-02-03T00:00:00",
-      "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCO COLPATRIA MULTIBANCA COLPATRIA S.A. | Demandado: JASON ANDRES CAMACHO LONDOÑO | Demandado: DIEGO FERNANDO CAMACHO LONDOÑO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-02-03T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 952462630,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 50
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "jose",
+    "segundoNombre": "edwin",
+    "primerApellido": "morales",
+    "segundoApellido": "alfonso",
+    "cedula": 80032088,
+    "direccion": "transversal 28 no 22-13 apartamento 304 torre 7 soacha",
+    "email": "majupi170301@hotmail.com"
+  },
+  "cc": 80032088,
+  "procesos": [
+    {
+      "idProceso": 50548450,
+      "idConexion": 259,
+      "llaveProceso": "11001400300120170084900",
+      "fechaProceso": "2017-07-05T00:00:00",
+      "fechaUltimaActuacion": "2020-02-03T00:00:00",
+      "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCO COLPATRIA MULTIBANCA COLPATRIA S.A. | Demandado: JASON ANDRES CAMACHO LONDOÑO | Demandado: DIEGO FERNANDO CAMACHO LONDOÑO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50548450
+  ]
 }

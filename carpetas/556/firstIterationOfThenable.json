@@ -1,12 +1,31 @@
 {
-  "llaveProceso": "25430400300120230112700",
   "numero": 556,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25430400300120230112700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z",
+      "2026-03-01T05:00:00.000Z",
+      "2026-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 149444779,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "MADRID",
+    "obligacion": [
+      "3830095699 // 3830095700",
+      3830095701
+    ],
+    "radicado": "2023 - 01127",
+    "expediente": "25430400300120230112700"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 1022335014,
-    "direccion": "carrera 13 # 4-20 madrid (cundinamarca)",
-    "email": "ciro.onofe1105@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3023193548
@@ -14,29 +33,10 @@
     "primerNombre": "ciro",
     "segundoNombre": "erquilian",
     "primerApellido": "onofre",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "25430400300120230112700",
-    "capitalAdeudado": 149444779,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "MADRID",
-    "obligacion": [
-      "3830095699 // 3830095700",
-      3830095701
-    ],
-    "radicado": "2023 - 01127",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 1022335014,
+    "direccion": "carrera 13 # 4-20 madrid (cundinamarca)",
+    "email": "ciro.onofe1105@gmail.com"
   },
   "cc": 1022335014,
   "idProcesos": null

@@ -1,12 +1,43 @@
 {
-  "llaveProceso": "11001400305620180022100",
   "numero": 409,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400305620180022100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 11949471,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-02-15T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-03-22T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-02-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4550087219
+    ],
+    "radicado": "2018 - 00221",
+    "expediente": "11001400305620180022100"
+  },
+  "fecha": "2023-11-24T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1937426330,
+    "llaveProceso": "11001400305620180022100",
+    "consActuacion": 71,
+    "fechaActuacion": "2023-11-24T00:00:00",
+    "actuacion": "Oficio Elaborado",
+    "anotacion": "OOECM-1123DT-2896 PAGADOR / Daniel Tenjo / Hibrido",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-24T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 71
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 900545720,
-    "direccion": "carrera 50 1# 47 - 50 int 1 apto 101",
-    "email": "andibarracosta@gmail.com",
     "tel": {
       "fijo": 8626344,
       "celular": 3107982028
@@ -14,26 +45,10 @@
     "primerNombre": "creas",
     "segundoNombre": "consultores",
     "primerApellido": "s.a.s",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-02-28T00:00:00.000Z",
-    "mandamientoPago": "2018-03-22T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-02-15T00:00:00.000Z",
-    "expediente": "11001400305620180022100",
-    "capitalAdeudado": 11949471,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4550087219
-    ],
-    "radicado": "2018 - 00221",
-    "vencimientoPagare": [
-      "2018-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 900545720,
+    "direccion": "carrera 50 1# 47 - 50 int 1 apto 101",
+    "email": "andibarracosta@gmail.com"
   },
   "codeudor": {
     "cedula": 12192291,
@@ -42,16 +57,13 @@
     "telefono": "F 8626344"
   },
   "cc": 900545720,
-  "idProcesos": [
-    51042800
-  ],
   "procesos": [
     {
       "idProceso": 51042800,
       "idConexion": 259,
       "llaveProceso": "11001400305620180022100",
       "fechaProceso": "2018-03-01T00:00:00",
-      "fechaUltimaActuacion": "2023-11-17T00:00:00",
+      "fechaUltimaActuacion": "2023-11-24T00:00:00",
       "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CREAS CONSULTORES S.A.S. ",
@@ -59,19 +71,7 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2023-11-17T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1935477720,
-    "llaveProceso": "11001400305620180022100",
-    "consActuacion": 70,
-    "fechaActuacion": "2023-11-17T00:00:00",
-    "actuacion": "Constancia secretarial",
-    "anotacion": "SE RECEPCIONA EXPEDIENTE CON 2 CUADERNO-SE ENVÍA A OFICIOS //JHONATHAN CAÑON ",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-11-17T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 70
-  }
+  "idProcesos": [
+    51042800
+  ]
 }

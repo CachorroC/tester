@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400307320170156300",
   "numero": 353,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 19297891,
-    "direccion": "calle 1 h  no 29 - 73",
-    "email": "ricardoagi1955@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "ricardo",
-    "segundoNombre": "arias",
-    "primerApellido": "guzman",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400307320170156300",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-11-27T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
-    "expediente": "11001400307320170156300",
+    "vencimientoPagare": [
+      "2017-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 24172047,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-27T00:00:00.000Z",
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "4513082447756537-4513085528567731",
       "5303728067784305/"
     ],
     "radicado": "2017 - 01563",
-    "vencimientoPagare": [
-      "2017-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307320170156300"
   },
-  "cc": 19297891,
-  "idProcesos": [
-    50873850
-  ],
-  "procesos": [
-    {
-      "idProceso": 50873850,
-      "idConexion": 259,
-      "llaveProceso": "11001400307320170156300",
-      "fechaProceso": "2017-11-28T00:00:00",
-      "fechaUltimaActuacion": "2022-03-15T00:00:00",
-      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RICARDO ARIAS GUZMAN ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-03-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1263708100,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 46
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "ricardo",
+    "segundoNombre": "arias",
+    "primerApellido": "guzman",
+    "segundoApellido": null,
+    "cedula": 19297891,
+    "direccion": "calle 1 h  no 29 - 73",
+    "email": "ricardoagi1955@gmail.com"
+  },
+  "cc": 19297891,
+  "procesos": [
+    {
+      "idProceso": 50873850,
+      "idConexion": 259,
+      "llaveProceso": "11001400307320170156300",
+      "fechaProceso": "2017-11-28T00:00:00",
+      "fechaUltimaActuacion": "2022-03-15T00:00:00",
+      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RICARDO ARIAS GUZMAN ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50873850
+  ]
 }

@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400302120180016300",
   "numero": 210,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400302120180016300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-01-01T05:00:00.000Z",
+      "2020-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 10555422,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-03-05T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377813597718262,
+      "4513070908078111 // 5303714709873201"
+    ],
+    "radicado": "2018 - 00163",
+    "expediente": "11001400302120180016300"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 343334,
-    "direccion": "carrera 50 # 113 - 09",
-    "email": null,
     "tel": {
       "fijo": 4658342,
       "celular": 3015004499
@@ -14,28 +32,10 @@
     "primerNombre": "jose",
     "segundoNombre": "antonio",
     "primerApellido": "castillo",
-    "segundoApellido": "cortes"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2018-03-05T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400302120180016300",
-    "capitalAdeudado": 10555422,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      377813597718262,
-      "4513070908078111 // 5303714709873201"
-    ],
-    "radicado": "2018 - 00163",
-    "vencimientoPagare": [
-      "2020-01-01T05:00:00.000Z",
-      "2020-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "cortes",
+    "cedula": 343334,
+    "direccion": "carrera 50 # 113 - 09",
+    "email": null
   },
   "cc": 343334,
   "idProcesos": null

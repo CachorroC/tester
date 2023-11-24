@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303420170083600",
   "numero": 90,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400303420170083600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 26515333,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "1899-12-30T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-07-10T00:00:00.000Z",
+    "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12330030
+    ],
+    "radicado": "2017 - 00836",
+    "expediente": "11001400303420170083600"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 1032432802,
-    "direccion": "carrera 95 # 138 - 58",
-    "email": "orduzcrit2@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "luis",
     "segundoNombre": "esneider",
     "primerApellido": "orduz",
-    "segundoApellido": "farfan"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "mandamientoPago": "2017-07-10T00:00:00.000Z",
-    "entregaGarantiasAbogado": "1899-12-30T00:00:00.000Z",
-    "expediente": "11001400303420170083600",
-    "capitalAdeudado": 26515333,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12330030
-    ],
-    "radicado": "2017 - 00836",
-    "vencimientoPagare": [
-      "2020-06-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "farfan",
+    "cedula": 1032432802,
+    "direccion": "carrera 95 # 138 - 58",
+    "email": "orduzcrit2@hotmail.com"
   },
   "codeudor": {
     "cedula": 1015435620,

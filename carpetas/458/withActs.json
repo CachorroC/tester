@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400303720180011100",
   "numero": 458,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 52271112,
-    "direccion": "carrera 101 no 70 a-14 interior 1 apartamento 408",
-    "email": "saraja.7@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "sandra",
-    "segundoNombre": "patricia",
-    "primerApellido": "beltran",
-    "segundoApellido": "oviedo"
-  },
+  "llaveProceso": "11001400303720180011100",
   "demanda": {
-    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400303720180011100",
+    "vencimientoPagare": [
+      "2020-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 17502203,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRESTAMO"
     ],
     "radicado": "2018 - 00111",
-    "vencimientoPagare": [
-      "2020-07-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303720180011100"
   },
-  "cc": 52271112,
-  "idProcesos": [
-    50990920
-  ],
-  "procesos": [
-    {
-      "idProceso": 50990920,
-      "idConexion": 259,
-      "llaveProceso": "11001400303720180011100",
-      "fechaProceso": "2018-02-06T00:00:00",
-      "fechaUltimaActuacion": "2023-02-02T00:00:00",
-      "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA BELTRAN  OVIEDO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-02-02T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1632498270,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 56
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "beltran",
+    "segundoApellido": "oviedo",
+    "cedula": 52271112,
+    "direccion": "carrera 101 no 70 a-14 interior 1 apartamento 408",
+    "email": "saraja.7@hotmail.com"
+  },
+  "cc": 52271112,
+  "procesos": [
+    {
+      "idProceso": 50990920,
+      "idConexion": 259,
+      "llaveProceso": "11001400303720180011100",
+      "fechaProceso": "2018-02-06T00:00:00",
+      "fechaUltimaActuacion": "2023-02-02T00:00:00",
+      "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA BELTRAN  OVIEDO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50990920
+  ]
 }

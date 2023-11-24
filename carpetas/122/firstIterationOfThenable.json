@@ -1,12 +1,27 @@
 {
-  "llaveProceso": "11001400304020170119300",
   "numero": 122,
-  "tipoProceso": "SINGULAR ACUM HIPOTECARIO",
+  "llaveProceso": "11001400304020170119300",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 43,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "ACUMULADO",
+    "mandamientoPago": null,
+    "etapaProcesal": "42958",
+    "fechaPresentacion": "2017-09-13T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4513073601094195,
+      1577471108
+    ],
+    "radicado": "2017 - 01193",
+    "expediente": "11001400304020170119300"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR ACUM HIPOTECARIO",
   "deudor": {
-    "cedula": 52543321,
-    "direccion": null,
-    "email": "CALLE 1H # 32A - 17",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,25 +29,10 @@
     "primerNombre": "paola",
     "segundoNombre": "andrea",
     "primerApellido": "fernandez",
-    "segundoApellido": "rincon"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-13T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400304020170119300",
-    "capitalAdeudado": 43,
-    "tipoProceso": "ACUMULADO",
-    "etapaProcesal": "42958",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4513073601094195,
-      1577471108
-    ],
-    "radicado": "2017 - 01193",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "rincon",
+    "cedula": 52543321,
+    "direccion": null,
+    "email": "CALLE 1H # 32A - 17"
   },
   "cc": 52543321,
   "idProcesos": null

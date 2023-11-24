@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001310304320170055400",
   "numero": 2,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001310304320170055400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2018-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 162012163,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-08T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-02-13T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "1930085200  /190184  /377813469298997",
+      "4513070079097239  /5303714507623618"
+    ],
+    "radicado": "2017 - 00554",
+    "expediente": "11001310304320170055400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1026259010,
-    "direccion": "diagonal 77 b no 119 a-73  interior 1 apartamento 602",
-    "email": "edwin06cuervo@hotmail.com",
     "tel": {
       "fijo": 3935996,
       "celular": 3142064177
@@ -14,27 +31,10 @@
     "primerNombre": "edwin",
     "segundoNombre": "andres",
     "primerApellido": "cuervo",
-    "segundoApellido": "verdugo"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-27T00:00:00.000Z",
-    "mandamientoPago": "2018-02-13T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-08T00:00:00.000Z",
-    "expediente": "11001310304320170055400",
-    "capitalAdeudado": 162012163,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "1930085200  /190184  /377813469298997",
-      "4513070079097239  /5303714507623618"
-    ],
-    "radicado": "2017 - 00554",
-    "vencimientoPagare": [
-      "2018-09-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "verdugo",
+    "cedula": 1026259010,
+    "direccion": "diagonal 77 b no 119 a-73  interior 1 apartamento 602",
+    "email": "edwin06cuervo@hotmail.com"
   },
   "codeudor": {
     "cedula": 1070587091,

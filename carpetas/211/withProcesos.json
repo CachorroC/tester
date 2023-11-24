@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25473400300120180010500",
   "numero": 211,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25473400300120180010500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2028-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 36520799,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-06T00:00:00.000Z",
+    "etapaProcesal": "2.528640030012018e+22",
+    "fechaPresentacion": null,
+    "municipio": "MOSQUERA",
+    "obligacion": [
+      166601
+    ],
+    "radicado": "2018 - 00105",
+    "expediente": "25473400300120180010500"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 17652071,
-    "direccion": "carrera 4a # 11 - 44 funza",
-    "email": "marimar832010@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "saul",
     "segundoNombre": "barbosa",
     "primerApellido": "ramirez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-09-06T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
-    "expediente": "25473400300120180010500",
-    "capitalAdeudado": 36520799,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "2.528640030012018e+22",
-    "municipio": "MOSQUERA",
-    "obligacion": [
-      166601
-    ],
-    "radicado": "2018 - 00105",
-    "vencimientoPagare": [
-      "2028-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 17652071,
+    "direccion": "carrera 4a # 11 - 44 funza",
+    "email": "marimar832010@hotmail.com"
   },
   "codeudor": {
     "cedula": 52901502,
@@ -42,6 +42,6 @@
     "telefono": 7555569
   },
   "cc": 17652071,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

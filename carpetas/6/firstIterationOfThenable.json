@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400307620170044400",
   "numero": 6,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400307620170044400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2008-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 16313851,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "2273 320111490"
+    ],
+    "radicado": "2017 -00444",
+    "expediente": "11001400307620170044400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79645559,
-    "direccion": "calle 6 bis a 90 a-80 torre 7 apto 203",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3118469698
@@ -14,26 +30,10 @@
     "primerNombre": "francisco",
     "segundoNombre": "montaña",
     "primerApellido": "quesada",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
-    "expediente": "11001400307620170044400",
-    "capitalAdeudado": 16313851,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "2273 320111490"
-    ],
-    "radicado": "2017 -00444",
-    "vencimientoPagare": [
-      "2008-09-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79645559,
+    "direccion": "calle 6 bis a 90 a-80 torre 7 apto 203",
+    "email": null
   },
   "codeudor": {
     "cedula": 46374311,

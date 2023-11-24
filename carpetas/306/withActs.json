@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400306420170149000",
   "numero": 306,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 7217446,
-    "direccion": "calle 127 b no 19-60 apto 402",
-    "email": "N MI",
-    "tel": {
-      "fijo": 2953878,
-      "celular": 3102050752
-    },
-    "primerNombre": "jorge",
-    "segundoNombre": "arturo",
-    "primerApellido": "jimenez",
-    "segundoApellido": "leal"
-  },
+  "llaveProceso": "11001400306420170149000",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-10-24T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
-    "expediente": "11001400306420170149000",
+    "vencimientoPagare": [
+      "2020-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 18368757,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-10-24T00:00:00.000Z",
     "etapaProcesal": "1.1001400306420171e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       11788203
     ],
     "radicado": "2017 - 01490",
-    "vencimientoPagare": [
-      "2020-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306420170149000"
   },
-  "cc": 7217446,
-  "idProcesos": [
-    50812320
-  ],
-  "procesos": [
-    {
-      "idProceso": 50812320,
-      "idConexion": 259,
-      "llaveProceso": "11001400306420170149000",
-      "fechaProceso": "2017-10-30T00:00:00",
-      "fechaUltimaActuacion": "2022-10-21T00:00:00",
-      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE ARTURO JIMENEZ LEAL ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-10-21T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1470562550,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 51
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 2953878,
+      "celular": 3102050752
+    },
+    "primerNombre": "jorge",
+    "segundoNombre": "arturo",
+    "primerApellido": "jimenez",
+    "segundoApellido": "leal",
+    "cedula": 7217446,
+    "direccion": "calle 127 b no 19-60 apto 402",
+    "email": "N MI"
+  },
+  "cc": 7217446,
+  "procesos": [
+    {
+      "idProceso": 50812320,
+      "idConexion": 259,
+      "llaveProceso": "11001400306420170149000",
+      "fechaProceso": "2017-10-30T00:00:00",
+      "fechaUltimaActuacion": "2022-10-21T00:00:00",
+      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE ARTURO JIMENEZ LEAL ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50812320
+  ]
 }

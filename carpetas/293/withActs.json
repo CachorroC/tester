@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400304820170097400",
   "numero": 293,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 1032383389,
-    "direccion": "calle 64 sur  no 85 b - 40  apartamento  104",
-    "email": "ars.09@hotmail.com",
-    "tel": {
-      "fijo": 4725511,
-      "celular": 3118526428
-    },
-    "primerNombre": "anderson",
-    "segundoNombre": "revelo",
-    "primerApellido": "santos",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400304820170097400",
   "demanda": {
-    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
-    "mandamientoPago": "2017-11-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
-    "expediente": "11001400304820170097400",
+    "vencimientoPagare": [
+      "2020-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 12249598,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-03T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "320088443  / 377813441863587",
       4513070212799642
     ],
     "radicado": "2017 - 00974",
-    "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304820170097400"
   },
-  "cc": 1032383389,
-  "idProcesos": [
-    50762570
-  ],
-  "procesos": [
-    {
-      "idProceso": 50762570,
-      "idConexion": 259,
-      "llaveProceso": "11001400304820170097400",
-      "fechaProceso": "2017-10-09T00:00:00",
-      "fechaUltimaActuacion": "2023-11-17T00:00:00",
-      "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANDERSON REVELO SANTOS ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-11-17T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1935476360,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 81
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4725511,
+      "celular": 3118526428
+    },
+    "primerNombre": "anderson",
+    "segundoNombre": "revelo",
+    "primerApellido": "santos",
+    "segundoApellido": null,
+    "cedula": 1032383389,
+    "direccion": "calle 64 sur  no 85 b - 40  apartamento  104",
+    "email": "ars.09@hotmail.com"
+  },
+  "cc": 1032383389,
+  "procesos": [
+    {
+      "idProceso": 50762570,
+      "idConexion": 259,
+      "llaveProceso": "11001400304820170097400",
+      "fechaProceso": "2017-10-09T00:00:00",
+      "fechaUltimaActuacion": "2023-11-17T00:00:00",
+      "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANDERSON REVELO SANTOS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50762570
+  ]
 }

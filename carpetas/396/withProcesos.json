@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400306420170162300",
   "numero": 396,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400306420170162300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2019-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 24000000,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-06T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-11-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      10000090724
+    ],
+    "radicado": "2017 - 01623",
+    "expediente": "11001400306420170162300"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 80733467,
-    "direccion": "carrera 88 a no  67 - 44",
-    "email": "orlandonovoa9@gmail.com",
     "tel": {
       "fijo": 7836655,
       "celular": 3118163887
@@ -14,31 +30,12 @@
     "primerNombre": "orlando",
     "segundoNombre": "enrique",
     "primerApellido": "novoa",
-    "segundoApellido": "barreto"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-11-21T00:00:00.000Z",
-    "mandamientoPago": "2017-09-06T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
-    "expediente": "11001400306420170162300",
-    "capitalAdeudado": 24000000,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      10000090724
-    ],
-    "radicado": "2017 - 01623",
-    "vencimientoPagare": [
-      "2019-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "barreto",
+    "cedula": 80733467,
+    "direccion": "carrera 88 a no  67 - 44",
+    "email": "orlandonovoa9@gmail.com"
   },
   "cc": 80733467,
-  "idProcesos": [
-    112730580
-  ],
   "procesos": [
     {
       "idProceso": 112730580,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    112730580
   ]
 }

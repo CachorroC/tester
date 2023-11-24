@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400306820190100400",
   "numero": 522,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400306820190100400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2972304763,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      20990146891,
+      450091594
+    ],
+    "radicado": "2019 - 01004",
+    "expediente": "11001400306820190100400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79359896,
-    "direccion": "calle 42 c no 78  a-17 sur",
-    "email": "dorapia@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "armando",
     "segundoNombre": "rodriguez",
     "primerApellido": "rodriguez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
-    "expediente": "11001400306820190100400",
-    "capitalAdeudado": 2972304763,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990146891,
-      450091594
-    ],
-    "radicado": "2019 - 01004",
-    "vencimientoPagare": [
-      "2026-12-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79359896,
+    "direccion": "calle 42 c no 78  a-17 sur",
+    "email": "dorapia@hotmail.com"
   },
   "cc": 79359896,
   "idProcesos": null

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25754418900220180066400",
   "numero": 464,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754418900220180066400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 43,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      "19.080.628.51"
+    ],
+    "radicado": "2018 - 00664",
+    "expediente": "25754418900220180066400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 51944991,
-    "direccion": "51944991",
-    "email": "TRANSVERSAL 4B No 3-75   CASA 44",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "ricardo",
     "segundoNombre": "armando",
     "primerApellido": "celis",
-    "segundoApellido": "angel"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "25754418900220180066400",
-    "capitalAdeudado": 43,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "SOACHA",
-    "obligacion": [
-      "19.080.628.51"
-    ],
-    "radicado": "2018 - 00664",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "angel",
+    "cedula": 51944991,
+    "direccion": "51944991",
+    "email": "TRANSVERSAL 4B No 3-75   CASA 44"
   },
   "codeudor": {
     "cedula": "MARIA ELIZABETH GAVIRIA OSPINA",

@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25785418900120170010200",
   "numero": 38,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25785418900120170010200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 16006640,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-06T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-06-15T00:00:00.000Z",
+    "municipio": "TABIO",
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "34328697321//377815467278467"
+    ],
+    "radicado": "2017 - 00102",
+    "expediente": "25785418900120170010200"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 39808625,
-    "direccion": "calle 2 no. 1-24 casa 2 tabio",
-    "email": "hjg296@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3142310966
@@ -14,29 +31,12 @@
     "primerNombre": "luz",
     "segundoNombre": "miryam",
     "primerApellido": "gutíerrez",
-    "segundoApellido": "martínez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-15T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-06-06T00:00:00.000Z",
-    "expediente": "25785418900120170010200",
-    "capitalAdeudado": 16006640,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "SENTENCIA",
-    "municipio": "TABIO",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "34328697321//377815467278467"
-    ],
-    "radicado": "2017 - 00102",
-    "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "martínez",
+    "cedula": 39808625,
+    "direccion": "calle 2 no. 1-24 casa 2 tabio",
+    "email": "hjg296@hotmail.com"
   },
   "cc": 39808625,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

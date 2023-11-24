@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400300520170132600",
   "numero": 285,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 52318314,
-    "direccion": "calle 19 a 82 65 tr 4 apartamento 301",
-    "email": "adrianitaa@gmail.com",
-    "tel": {
-      "fijo": 8065373,
-      "celular": 3134576869
-    },
-    "primerNombre": "adriana",
-    "segundoNombre": "maria",
-    "primerApellido": "perez",
-    "segundoApellido": "gomez"
-  },
+  "llaveProceso": "11001400300520170132600",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-09-18T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
-    "expediente": "11001400300520170132600",
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 21223176,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-18T00:00:00.000Z",
     "etapaProcesal": "1.100140030052017e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       6900083898,
       "4513086465970276 // AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 01326",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300520170132600"
   },
-  "cc": 52318314,
-  "idProcesos": [
-    50720040
-  ],
-  "procesos": [
-    {
-      "idProceso": 50720040,
-      "idConexion": 259,
-      "llaveProceso": "11001400300520170132600",
-      "fechaProceso": "2017-09-20T00:00:00",
-      "fechaUltimaActuacion": "2023-05-25T00:00:00",
-      "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ADRIANA MARIA PEREZ GOMEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-05-25T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1754755510,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 92
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 8065373,
+      "celular": 3134576869
+    },
+    "primerNombre": "adriana",
+    "segundoNombre": "maria",
+    "primerApellido": "perez",
+    "segundoApellido": "gomez",
+    "cedula": 52318314,
+    "direccion": "calle 19 a 82 65 tr 4 apartamento 301",
+    "email": "adrianitaa@gmail.com"
+  },
+  "cc": 52318314,
+  "procesos": [
+    {
+      "idProceso": 50720040,
+      "idConexion": 259,
+      "llaveProceso": "11001400300520170132600",
+      "fechaProceso": "2017-09-20T00:00:00",
+      "fechaUltimaActuacion": "2023-05-25T00:00:00",
+      "despacho": "JUZGADO 010 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ADRIANA MARIA PEREZ GOMEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50720040
+  ]
 }

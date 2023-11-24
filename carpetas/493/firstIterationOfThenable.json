@@ -1,12 +1,26 @@
 {
-  "llaveProceso": "11001410375120180181700",
   "numero": 493,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001410375120180181700",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 2103532359,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "SUBSANA",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      20990155357
+    ],
+    "radicado": "2018 - 01817",
+    "expediente": "11001410375120180181700"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 53103504,
-    "direccion": "calle 7 no 87b-90",
-    "email": "juliana.4455@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,24 +28,10 @@
     "primerNombre": "kelly",
     "segundoNombre": "yuliana",
     "primerApellido": "quintero",
-    "segundoApellido": "fierro"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
-    "expediente": "11001410375120180181700",
-    "capitalAdeudado": 2103532359,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "SUBSANA",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990155357
-    ],
-    "radicado": "2018 - 01817",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "fierro",
+    "cedula": 53103504,
+    "direccion": "calle 7 no 87b-90",
+    "email": "juliana.4455@hotmail.com"
   },
   "codeudor": {
     "cedula": 1030602928,

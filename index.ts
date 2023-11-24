@@ -3,12 +3,24 @@ import Carpetas from './src/data/carpetas';
 import { CarpetaJudicial, sleep } from './src/models/thenable';
 import { categoryAssignment } from './src/models/categories';
 import { connectToDatabase } from './src/services/database.service';
-import { insertCarpetaInPrisma,
+import
+{ insertActuacionesInPrisma,
+  insertCarpetaInPrisma,
   insertDemandaInPrisma,
   insertDeudorInPrisma,
-  insertJuzgadoInPrisma, } from './src/data/insert-carpetas';
+  insertJuzgadoInPrisma,
+  insertProcesosInPrisma, } from './src/data/insert-carpetas';
+import { PrismaCarpeta } from './src/models/prisma-carpeta';
 
-async function f() {
+const date = new Date();
+console.log(
+  date.setSeconds(
+    date.getSeconds() + 70
+  )
+);
+
+
+async function f () {
   const newCarpetasMap = new Map<number, CarpetaJudicial>();
 
   const sortedCarpetas = [
@@ -46,11 +58,24 @@ async function f() {
     console.log(
       thener.cc
     );
+
+    const prismaCarpeta = new PrismaCarpeta(
+      thener
+    );
     await fs.mkdir(
       `carpetas/${ thener.numero }/`, {
         recursive: true,
       }
     );
+
+
+    await fs.writeFile(
+      `carpetas/${ thener.numero }/prismaCarpetaFirstIteration.json`,
+      JSON.stringify(
+        prismaCarpeta, null, 2
+      ),
+    );
+
 
     await fs.writeFile(
       `carpetas/${ thener.numero }/firstIterationOfThenable.json`,
@@ -110,7 +135,7 @@ async function f() {
   return resultArray;
 }
 
-async function insertManyCarpetas() {
+async function insertManyCarpetas () {
   const carpetas = await f();
 
   const collection = await connectToDatabase();
@@ -217,6 +242,67 @@ async function insertManyCarpetas() {
       ),
     );
 
+    const prismaProcesoInserter = await insertProcesosInPrisma(
+      carpeta.procesos ?? []
+    );
+    console.log(
+      `${ numero }: procesoInserter: ${ JSON.stringify(
+        prismaProcesoInserter, (
+          key, value
+        ) => {
+          return typeof value === 'bigint'
+            ? value.toString() + 'n'
+            : value;
+        }
+        , 2
+      ) }`,
+    );
+    fs.writeFile(
+      `carpetas/${ numero }/prismaProcesoInserterOutput.json`,
+      JSON.stringify(
+        prismaProcesoInserter, (
+          key, value
+        ) => {
+          return typeof value === 'bigint'
+            ? value.toString() + 'n'
+            : value;
+        }
+      ),
+    );
+
+    if ( carpeta.ultimaActuacion ) {
+
+      const prismaActuacionInserter = await insertActuacionesInPrisma(
+        [
+          carpeta.ultimaActuacion
+        ]
+      );
+      console.log(
+        `${ numero }: actuacionInserter: ${ JSON.stringify(
+          prismaActuacionInserter, (
+            key, value
+          ) => {
+            return typeof value === 'bigint'
+              ? value.toString() + 'n'
+              : value;
+          }
+          , 2
+        ) }`,
+      );
+      fs.writeFile(
+        `carpetas/${ numero }/prismaActuacionInserterOutput.json`,
+        JSON.stringify(
+          prismaActuacionInserter, (
+            key, value
+          ) => {
+            return typeof value === 'bigint'
+              ? value.toString() + 'n'
+              : value;
+          }
+        ),
+      );
+
+    }
 
   }
 }

@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400301920170102500",
   "numero": 83,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 19438068,
-    "direccion": "carrera 29 no 12  a - 46",
-    "email": "luisadopa@gmail.com",
-    "tel": {
-      "fijo": 2478114,
-      "celular": 3115672367
-    },
-    "primerNombre": "luis",
-    "segundoNombre": "adolfo",
-    "primerApellido": "peña",
-    "segundoApellido": "arciniegas"
-  },
+  "llaveProceso": "11001400301920170102500",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400301920170102500",
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1427297142,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "1.100140030192017e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12436479
     ],
     "radicado": "2017 - 01025",
-    "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301920170102500"
   },
-  "cc": 19438068,
-  "idProcesos": [
-    50738970
-  ],
-  "procesos": [
-    {
-      "idProceso": 50738970,
-      "idConexion": 259,
-      "llaveProceso": "11001400301920170102500",
-      "fechaProceso": "2017-09-28T00:00:00",
-      "fechaUltimaActuacion": "2019-03-19T00:00:00",
-      "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS ADOLFO PEÑA ARCINIEGAS ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-03-19T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 670095670,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 24
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 2478114,
+      "celular": 3115672367
+    },
+    "primerNombre": "luis",
+    "segundoNombre": "adolfo",
+    "primerApellido": "peña",
+    "segundoApellido": "arciniegas",
+    "cedula": 19438068,
+    "direccion": "carrera 29 no 12  a - 46",
+    "email": "luisadopa@gmail.com"
+  },
+  "cc": 19438068,
+  "procesos": [
+    {
+      "idProceso": 50738970,
+      "idConexion": 259,
+      "llaveProceso": "11001400301920170102500",
+      "fechaProceso": "2017-09-28T00:00:00",
+      "fechaUltimaActuacion": "2019-03-19T00:00:00",
+      "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS ADOLFO PEÑA ARCINIEGAS ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50738970
+  ]
 }

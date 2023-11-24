@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400306420170146900",
   "numero": 206,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400306420170146900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z",
+      "2021-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 3055616098,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-05T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      120356,
+      1590082995
+    ],
+    "radicado": "2017 - 01469",
+    "expediente": "11001400306420170146900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80729141,
-    "direccion": "carrera 17 f 71a - 95 sur  casa 239",
-    "email": "edgar_julian@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +32,10 @@
     "primerNombre": "edgar",
     "segundoNombre": "martinez",
     "primerApellido": "velandia",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-05T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
-    "expediente": "11001400306420170146900",
-    "capitalAdeudado": 3055616098,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      120356,
-      1590082995
-    ],
-    "radicado": "2017 - 01469",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z",
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80729141,
+    "direccion": "carrera 17 f 71a - 95 sur  casa 239",
+    "email": "edgar_julian@hotmail.com"
   },
   "codeudor": {
     "cedula": 53067213,
@@ -44,9 +44,6 @@
     "telefono": 5383916
   },
   "cc": 80729141,
-  "idProcesos": [
-    17944250
-  ],
   "procesos": [
     {
       "idProceso": 17944250,
@@ -60,5 +57,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    17944250
   ]
 }

@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400302020170155600",
   "numero": 370,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302020170155600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2030-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 5146633884,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-11-12T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-12-02T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      180998,
+      3778813729098781
+    ],
+    "radicado": "2017 - 01556",
+    "expediente": "11001400302020170155600"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52840906,
-    "direccion": "carrera 51 b no 18-28 sur",
-    "email": "hernandezsuarez28@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,32 +31,12 @@
     "primerNombre": "lilian",
     "segundoNombre": "andrea",
     "primerApellido": "hernandez",
-    "segundoApellido": "suarez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-12-02T05:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-12T05:00:00.000Z",
-    "expediente": "11001400302020170155600",
-    "capitalAdeudado": 5146633884,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      180998,
-      3778813729098781
-    ],
-    "radicado": "2017 - 01556",
-    "vencimientoPagare": [
-      "2030-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "suarez",
+    "cedula": 52840906,
+    "direccion": "carrera 51 b no 18-28 sur",
+    "email": "hernandezsuarez28@hotmail.com"
   },
   "cc": 52840906,
-  "idProcesos": [
-    50918350
-  ],
   "procesos": [
     {
       "idProceso": 50918350,
@@ -53,5 +50,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50918350
   ]
 }

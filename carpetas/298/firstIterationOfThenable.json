@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400307820170098600",
   "numero": 298,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400307820170098600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 9644297780,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-13T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-20T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-10-17T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      155487
+    ],
+    "radicado": "2017 - 00986",
+    "expediente": "11001400307820170098600"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79659040,
-    "direccion": "calle 58 a sur no 18 b -35 int 6",
-    "email": "gabrielisag61@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3164700074
@@ -14,26 +30,10 @@
     "primerNombre": "hector",
     "segundoNombre": "gabriel",
     "primerApellido": "ramirez",
-    "segundoApellido": "bohorquez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-17T00:00:00.000Z",
-    "mandamientoPago": "2017-10-20T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-13T00:00:00.000Z",
-    "expediente": "11001400307820170098600",
-    "capitalAdeudado": 9644297780,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      155487
-    ],
-    "radicado": "2017 - 00986",
-    "vencimientoPagare": [
-      "2017-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "bohorquez",
+    "cedula": 79659040,
+    "direccion": "calle 58 a sur no 18 b -35 int 6",
+    "email": "gabrielisag61@hotmail.com"
   },
   "cc": 79659040,
   "idProcesos": null

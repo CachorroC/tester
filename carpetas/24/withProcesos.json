@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25299418900120170002400",
   "numero": 24,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25299418900120170002400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2016-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-05T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-05T00:00:00.000Z",
+    "municipio": "GAMA",
+    "obligacion": [
+      5303726157973550,
+      5303716368987260
+    ],
+    "radicado": "2017 - 00024",
+    "expediente": "25299418900120170002400"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 3034074,
-    "direccion": "urbanización la pola manzana c casa 31 gama",
-    "email": "jechos243@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3102354541
@@ -14,29 +31,12 @@
     "primerNombre": "wilson",
     "segundoNombre": "armando",
     "primerApellido": "rodriguez",
-    "segundoApellido": "mora"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-07-05T00:00:00.000Z",
-    "mandamientoPago": "2017-07-05T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
-    "expediente": "25299418900120170002400",
-    "capitalAdeudado": null,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "GAMA",
-    "obligacion": [
-      5303726157973550,
-      5303716368987260
-    ],
-    "radicado": "2017 - 00024",
-    "vencimientoPagare": [
-      "2016-10-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "mora",
+    "cedula": 3034074,
+    "direccion": "urbanización la pola manzana c casa 31 gama",
+    "email": "jechos243@hotmail.com"
   },
   "cc": 3034074,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

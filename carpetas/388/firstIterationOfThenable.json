@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400301720180011100",
   "numero": 388,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400301720180011100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2769665124,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-02-22T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      1310089728,
+      "377813368402583 /AUDIOPRESTAMO"
+    ],
+    "radicado": "2018 - 00111",
+    "expediente": "11001400301720180011100"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 52644132,
-    "direccion": "carrera 14 b no 119 - 30  bogota",
-    "email": "ximpucci1@hotmail.com",
     "tel": {
       "fijo": 6126610,
       "celular": 3124575163
@@ -14,27 +31,10 @@
     "primerNombre": "ximena",
     "segundoNombre": "",
     "primerApellido": "escobar",
-    "segundoApellido": "pucceti"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "mandamientoPago": "2018-02-22T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400301720180011100",
-    "capitalAdeudado": 2769665124,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      1310089728,
-      "377813368402583 /AUDIOPRESTAMO"
-    ],
-    "radicado": "2018 - 00111",
-    "vencimientoPagare": [
-      "2020-11-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "pucceti",
+    "cedula": 52644132,
+    "direccion": "carrera 14 b no 119 - 30  bogota",
+    "email": "ximpucci1@hotmail.com"
   },
   "cc": 52644132,
   "idProcesos": null

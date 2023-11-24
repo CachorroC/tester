@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302120180023600",
   "numero": 405,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302120180023600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 22592583,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-02-22T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      87823
+    ],
+    "radicado": "2018 - 00236",
+    "expediente": "11001400302120180023600"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79396995,
-    "direccion": "calle 12 a no 71 b - 60",
-    "email": "arthurlingo64@hotmail.com",
     "tel": {
       "fijo": 4244358,
       "celular": 3108844560
@@ -14,31 +30,12 @@
     "primerNombre": "arturo",
     "segundoNombre": "lince",
     "primerApellido": "gomez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-02-22T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400302120180023600",
-    "capitalAdeudado": 22592583,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      87823
-    ],
-    "radicado": "2018 - 00236",
-    "vencimientoPagare": [
-      "2020-12-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79396995,
+    "direccion": "calle 12 a no 71 b - 60",
+    "email": "arthurlingo64@hotmail.com"
   },
   "cc": 79396995,
-  "idProcesos": [
-    51029180
-  ],
   "procesos": [
     {
       "idProceso": 51029180,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51029180
   ]
 }

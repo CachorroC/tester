@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400308520170128700",
   "numero": 202,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400308520170128700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2022-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 54240143,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "etapaProcesal": "1.1001400308520171e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      151374
+    ],
+    "radicado": "2017 - 01287",
+    "expediente": "11001400308520170128700"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52488943,
-    "direccion": "calle 89 # 98 - 27",
-    "email": "tocami96@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "sonia",
     "segundoNombre": "mireya",
     "primerApellido": "pantoja",
-    "segundoApellido": "sandoval"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-09-04T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
-    "expediente": "11001400308520170128700",
-    "capitalAdeudado": 54240143,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "1.1001400308520171e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      151374
-    ],
-    "radicado": "2017 - 01287",
-    "vencimientoPagare": [
-      "2022-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "sandoval",
+    "cedula": 52488943,
+    "direccion": "calle 89 # 98 - 27",
+    "email": "tocami96@hotmail.com"
   },
   "cc": 52488943,
-  "idProcesos": [
-    51937670
-  ],
   "procesos": [
     {
       "idProceso": 51937670,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51937670
   ]
 }

@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400307020170056600",
   "numero": 117,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 19386444,
-    "direccion": "calle 18 # 19 - 75 / calle 26 nte no. 5a - 54 cali - valle //cr 60 d 97 85 brr andes bogota",
-    "email": "3176677592",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "nicolas",
-    "segundoNombre": "fernando",
-    "primerApellido": "montoya",
-    "segundoApellido": "correa"
-  },
+  "llaveProceso": "11001400307020170056600",
   "demanda": {
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "mandamientoPago": "2017-08-30T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400307020170056600",
+    "vencimientoPagare": [
+      "2019-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 17256863,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-30T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       420087224
     ],
     "radicado": "2017 - 00566",
-    "vencimientoPagare": [
-      "2019-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307020170056600"
   },
-  "cc": 19386444,
-  "idProcesos": [
-    50522530
-  ],
-  "procesos": [
-    {
-      "idProceso": 50522530,
-      "idConexion": 259,
-      "llaveProceso": "11001400307020170056600",
-      "fechaProceso": "2017-06-22T00:00:00",
-      "fechaUltimaActuacion": "2021-12-13T00:00:00",
-      "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NICOLAS FERNANDO MONTOYA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2021-12-13T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1238155890,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 76
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "nicolas",
+    "segundoNombre": "fernando",
+    "primerApellido": "montoya",
+    "segundoApellido": "correa",
+    "cedula": 19386444,
+    "direccion": "calle 18 # 19 - 75 / calle 26 nte no. 5a - 54 cali - valle //cr 60 d 97 85 brr andes bogota",
+    "email": "3176677592"
+  },
+  "cc": 19386444,
+  "procesos": [
+    {
+      "idProceso": 50522530,
+      "idConexion": 259,
+      "llaveProceso": "11001400307020170056600",
+      "fechaProceso": "2017-06-22T00:00:00",
+      "fechaUltimaActuacion": "2021-12-13T00:00:00",
+      "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NICOLAS FERNANDO MONTOYA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50522530
+  ]
 }

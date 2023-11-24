@@ -1,40 +1,40 @@
 {
-  "llaveProceso": "11001400307920180087200",
   "numero": 457,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 900237555,
-    "direccion": "carrera 58 no 15-54 piso 2",
-    "email": "solinconltda@yahoo.es",
-    "tel": {
-      "fijo": null,
-      "celular": 3108881287
-    },
-    "primerNombre": "solincon",
-    "primerApellido": "limitada",
-    "segundoApellido": null,
-    "segundoNombre": null
-  },
+  "llaveProceso": "11001400307920180087200",
   "demanda": {
-    "fechaPresentacion": "2018-07-18T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-07-09T00:00:00.000Z",
-    "expediente": "11001400307920180087200",
+    "vencimientoPagare": [
+      "2019-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 2476547500,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-07-09T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-07-18T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRESTAMO",
       "460091173/ 460090745"
     ],
     "radicado": "2018 - 00872",
-    "vencimientoPagare": [
-      "2019-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "expediente": "11001400307920180087200"
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3108881287
+    },
+    "primerNombre": "solincon",
+    "segundoNombre": null,
+    "primerApellido": "limitada",
+    "segundoApellido": null,
+    "cedula": 900237555,
+    "direccion": "carrera 58 no 15-54 piso 2",
+    "email": "solinconltda@yahoo.es"
   },
   "codeudor": {
     "cedula": "12198722   // 79858717",

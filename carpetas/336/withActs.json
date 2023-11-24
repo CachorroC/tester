@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400303020170175600",
   "numero": 336,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79860814,
-    "direccion": "calle 63 no   26 - 10",
-    "email": "catirimorales79@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "jose",
-    "segundoNombre": "alfredo",
-    "primerApellido": "cardozo",
-    "segundoApellido": "rodriguez"
-  },
+  "llaveProceso": "11001400303020170175600",
   "demanda": {
-    "fechaPresentacion": "2017-11-20T00:00:00.000Z",
-    "mandamientoPago": "2017-11-27T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
-    "expediente": "11001400303020170175600",
+    "vencimientoPagare": [
+      "8202-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1829550100,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-27T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-20T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       530092248
     ],
     "radicado": "2017 - 01756",
-    "vencimientoPagare": [
-      "8202-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303020170175600"
   },
-  "cc": 79860814,
-  "idProcesos": [
-    50861670
-  ],
-  "procesos": [
-    {
-      "idProceso": 50861670,
-      "idConexion": 259,
-      "llaveProceso": "11001400303020170175600",
-      "fechaProceso": "2017-11-22T00:00:00",
-      "fechaUltimaActuacion": "2018-06-29T00:00:00",
-      "despacho": "JUZGADO 030 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ALFREDO CARDOZO RODRIGUEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-06-29T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 739318150,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 18
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "jose",
+    "segundoNombre": "alfredo",
+    "primerApellido": "cardozo",
+    "segundoApellido": "rodriguez",
+    "cedula": 79860814,
+    "direccion": "calle 63 no   26 - 10",
+    "email": "catirimorales79@hotmail.com"
+  },
+  "cc": 79860814,
+  "procesos": [
+    {
+      "idProceso": 50861670,
+      "idConexion": 259,
+      "llaveProceso": "11001400303020170175600",
+      "fechaProceso": "2017-11-22T00:00:00",
+      "fechaUltimaActuacion": "2018-06-29T00:00:00",
+      "despacho": "JUZGADO 030 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ALFREDO CARDOZO RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50861670
+  ]
 }

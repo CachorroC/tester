@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400301820170181300",
   "numero": 317,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 80251653,
-    "direccion": "calle 62 g  no 75 g - 18 sur",
-    "email": "wilsoningind@yahoo.es",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "wilson",
-    "segundoNombre": "javier",
-    "primerApellido": "sanchez",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400301820170181300",
   "demanda": {
-    "fechaPresentacion": "2017-11-07T00:00:00.000Z",
-    "mandamientoPago": "2018-02-01T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
-    "expediente": "11001400301820170181300",
+    "vencimientoPagare": [
+      "2024-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1500851494,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-02-01T00:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "2017-11-07T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       123326
     ],
     "radicado": "2017 - 01813",
-    "vencimientoPagare": [
-      "2024-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301820170181300"
   },
-  "codeudor": {
-    "cedula": 53089914,
-    "direccion": "CALLE  62G No 75 G-18 SUR",
-    "nombre": "yinet esneda gaviria gaviria",
-    "telefono": 5971320
-  },
-  "cc": 80251653,
-  "idProcesos": [
-    50832550
-  ],
-  "procesos": [
-    {
-      "idProceso": 50832550,
-      "idConexion": 259,
-      "llaveProceso": "11001400301820170181300",
-      "fechaProceso": "2017-11-08T00:00:00",
-      "fechaUltimaActuacion": "2020-03-05T00:00:00",
-      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: WILSON JAVIER SANCHEZ | Demandado: YINET ESNEDA GAVIRIA GAVIRIA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-03-05T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 962231690,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 56
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "wilson",
+    "segundoNombre": "javier",
+    "primerApellido": "sanchez",
+    "segundoApellido": null,
+    "cedula": 80251653,
+    "direccion": "calle 62 g  no 75 g - 18 sur",
+    "email": "wilsoningind@yahoo.es"
+  },
+  "codeudor": {
+    "cedula": 53089914,
+    "direccion": "CALLE  62G No 75 G-18 SUR",
+    "nombre": "yinet esneda gaviria gaviria",
+    "telefono": 5971320
+  },
+  "cc": 80251653,
+  "procesos": [
+    {
+      "idProceso": 50832550,
+      "idConexion": 259,
+      "llaveProceso": "11001400301820170181300",
+      "fechaProceso": "2017-11-08T00:00:00",
+      "fechaUltimaActuacion": "2020-03-05T00:00:00",
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: WILSON JAVIER SANCHEZ | Demandado: YINET ESNEDA GAVIRIA GAVIRIA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50832550
+  ]
 }

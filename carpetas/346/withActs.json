@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400307320170154500",
   "numero": 346,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1019101174,
-    "direccion": "calle 13 b no 72 a - 40 inrerior  2 apartamento 402",
-    "email": "paulisgomez94@gmail.com",
-    "tel": {
-      "fijo": 4668308,
-      "celular": 3016393345
-    },
-    "primerNombre": "paula",
-    "segundoNombre": "andrea",
-    "primerApellido": "gomez",
-    "segundoApellido": "lopez"
-  },
+  "llaveProceso": "11001400307320170154500",
   "demanda": {
-    "fechaPresentacion": "2017-11-22T00:00:00.000Z",
-    "mandamientoPago": "2017-12-01T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
-    "expediente": "11001400307320170154500",
+    "vencimientoPagare": [
+      "2021-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1293861800,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-12-01T00:00:00.000Z",
     "etapaProcesal": "TERMINADO",
+    "fechaPresentacion": "2017-11-22T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       540691617249629400,
       1010082331
     ],
     "radicado": "2017 - 01545",
-    "vencimientoPagare": [
-      "2021-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307320170154500"
   },
-  "cc": 1019101174,
-  "idProcesos": [
-    50866190
-  ],
-  "procesos": [
-    {
-      "idProceso": 50866190,
-      "idConexion": 259,
-      "llaveProceso": "11001400307320170154500",
-      "fechaProceso": "2017-11-23T00:00:00",
-      "fechaUltimaActuacion": "2020-11-06T00:00:00",
-      "despacho": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PAULA ANDREA GOMEZ LOPEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-11-06T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 997570100,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 44
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4668308,
+      "celular": 3016393345
+    },
+    "primerNombre": "paula",
+    "segundoNombre": "andrea",
+    "primerApellido": "gomez",
+    "segundoApellido": "lopez",
+    "cedula": 1019101174,
+    "direccion": "calle 13 b no 72 a - 40 inrerior  2 apartamento 402",
+    "email": "paulisgomez94@gmail.com"
+  },
+  "cc": 1019101174,
+  "procesos": [
+    {
+      "idProceso": 50866190,
+      "idConexion": 259,
+      "llaveProceso": "11001400307320170154500",
+      "fechaProceso": "2017-11-23T00:00:00",
+      "fechaUltimaActuacion": "2020-11-06T00:00:00",
+      "despacho": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PAULA ANDREA GOMEZ LOPEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50866190
+  ]
 }

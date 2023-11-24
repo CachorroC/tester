@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400305120170064400",
   "numero": 49,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400305120170064400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2027-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 3503124439,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "320 149552"
+    ],
+    "radicado": "2017 - 00644",
+    "expediente": "11001400305120170064400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79532034,
-    "direccion": "carrera 77  l no. 57-h39 sur//carrera 11b no. 12-68 sur bogota//  transversal 31 no. 28-31 apto 103 bloque 7",
-    "email": "ramirosilva80@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3165275725
@@ -14,26 +30,10 @@
     "primerNombre": "jose",
     "segundoNombre": "israel",
     "primerApellido": "monroy",
-    "segundoApellido": "cordoba"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400305120170064400",
-    "capitalAdeudado": 3503124439,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "320 149552"
-    ],
-    "radicado": "2017 - 00644",
-    "vencimientoPagare": [
-      "2027-03-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "cordoba",
+    "cedula": 79532034,
+    "direccion": "carrera 77  l no. 57-h39 sur//carrera 11b no. 12-68 sur bogota//  transversal 31 no. 28-31 apto 103 bloque 7",
+    "email": "ramirosilva80@hotmail.com"
   },
   "codeudor": {
     "cedula": 52507659,

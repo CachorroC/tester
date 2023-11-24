@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400300320170126400",
   "numero": 169,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400300320170126400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 13144437,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-08-03T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12498762,
+      "audioprestamo"
+    ],
+    "radicado": "2017 - 01264",
+    "expediente": "11001400300320170126400"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 23553904,
-    "direccion": "carrera 67 no. 65-22 sur torre 15 apto 559",
-    "email": "dorancy1@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,36 +31,16 @@
     "primerNombre": "rita",
     "segundoNombre": "blanco",
     "primerApellido": "de",
-    "segundoApellido": "gomez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
-    "mandamientoPago": "2017-08-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
-    "expediente": "11001400300320170126400",
-    "capitalAdeudado": 13144437,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12498762,
-      "audioprestamo"
-    ],
-    "radicado": "2017 - 01264",
-    "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "gomez",
+    "cedula": 23553904,
+    "direccion": "carrera 67 no. 65-22 sur torre 15 apto 559",
+    "email": "dorancy1@hotmail.com"
   },
   "codeudor": {
     "cedula": 46453644,
     "nombre": "nidia dorancy gomez blanco"
   },
   "cc": 23553904,
-  "idProcesos": [
-    50598770
-  ],
   "procesos": [
     {
       "idProceso": 50598770,
@@ -57,5 +54,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50598770
   ]
 }

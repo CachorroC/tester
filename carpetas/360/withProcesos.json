@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302320170145200",
   "numero": 360,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302320170145200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1557678443,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-12-12T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      116252
+    ],
+    "radicado": "2017 - 01452",
+    "expediente": "11001400302320170145200"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52327561,
-    "direccion": "carrera 110 c no 77- 15",
-    "email": "jana578@hotmail.com",
     "tel": {
       "fijo": 7416881,
       "celular": 3002261859
@@ -17,31 +33,12 @@
     "segundoApellido": [
       "vargas",
       "bernal"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-12-12T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
-    "expediente": "11001400302320170145200",
-    "capitalAdeudado": 1557678443,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      116252
     ],
-    "radicado": "2017 - 01452",
-    "vencimientoPagare": [
-      "2024-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "cedula": 52327561,
+    "direccion": "carrera 110 c no 77- 15",
+    "email": "jana578@hotmail.com"
   },
   "cc": 52327561,
-  "idProcesos": [
-    50915500
-  ],
   "procesos": [
     {
       "idProceso": 50915500,
@@ -55,5 +52,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50915500
   ]
 }

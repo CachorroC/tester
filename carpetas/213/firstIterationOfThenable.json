@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "110014003088220170148800",
   "numero": 213,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "110014003088220170148800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1257362872,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-30T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-12-13T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      85712
+    ],
+    "radicado": "2017 - 01488",
+    "expediente": "110014003088220170148800"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52325613,
-    "direccion": "carrera 98b # 14 - 06 casa 166",
-    "email": "miricu143@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "myriam",
     "segundoNombre": "consuelo",
     "primerApellido": "rios",
-    "segundoApellido": "fonseca"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": "2017-12-13T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-30T00:00:00.000Z",
-    "expediente": "110014003088220170148800",
-    "capitalAdeudado": 1257362872,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      85712
-    ],
-    "radicado": "2017 - 01488",
-    "vencimientoPagare": [
-      "2021-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "fonseca",
+    "cedula": 52325613,
+    "direccion": "carrera 98b # 14 - 06 casa 166",
+    "email": "miricu143@hotmail.com"
   },
   "codeudor": {
     "cedula": 79846140,

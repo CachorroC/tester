@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400303420170080900",
   "numero": 40,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 19173252,
-    "direccion": "calle 70 no. 113 b - 40  barrio riviera",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "josé",
-    "segundoNombre": "enrique",
-    "primerApellido": "riaño",
-    "segundoApellido": "henriquez"
-  },
+  "llaveProceso": "11001400303420170080900",
   "demanda": {
-    "fechaPresentacion": "2017-06-13T00:00:00.000Z",
-    "mandamientoPago": "2017-08-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-07T00:00:00.000Z",
-    "expediente": "11001400303420170080900",
+    "vencimientoPagare": [
+      "2021-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 19865254,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-07T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-03T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-13T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "4670083309 // 377813453296510",
       "5303711693085438 / AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 00809",
-    "vencimientoPagare": [
-      "2021-07-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303420170080900"
   },
-  "cc": 19173252,
-  "idProcesos": [
-    50506330
-  ],
-  "procesos": [
-    {
-      "idProceso": 50506330,
-      "idConexion": 259,
-      "llaveProceso": "11001400303420170080900",
-      "fechaProceso": "2017-06-14T00:00:00",
-      "fechaUltimaActuacion": "2019-03-07T00:00:00",
-      "despacho": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ERRIQUE RIAÑO HENRIQUEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-03-07T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 763999530,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 18
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "josé",
+    "segundoNombre": "enrique",
+    "primerApellido": "riaño",
+    "segundoApellido": "henriquez",
+    "cedula": 19173252,
+    "direccion": "calle 70 no. 113 b - 40  barrio riviera",
+    "email": null
+  },
+  "cc": 19173252,
+  "procesos": [
+    {
+      "idProceso": 50506330,
+      "idConexion": 259,
+      "llaveProceso": "11001400303420170080900",
+      "fechaProceso": "2017-06-14T00:00:00",
+      "fechaUltimaActuacion": "2019-03-07T00:00:00",
+      "despacho": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ERRIQUE RIAÑO HENRIQUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50506330
+  ]
 }

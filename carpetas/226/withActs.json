@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400305520170094300",
   "numero": 226,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 80513085,
-    "direccion": "calle 77 # 84 - 34",
-    "email": "ngurrero@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "nestor",
-    "segundoNombre": "german",
-    "primerApellido": "urrego",
-    "segundoApellido": "aguilera"
-  },
+  "llaveProceso": "11001400305520170094300",
   "demanda": {
-    "fechaPresentacion": "2017-09-13T00:00:00.000Z",
-    "mandamientoPago": "2017-10-27T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
-    "expediente": "11001400305520170094300",
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1929033191,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-10-27T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-13T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12583959
     ],
     "radicado": "2017 - 00943",
-    "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400305520170094300"
   },
-  "cc": 80513085,
-  "idProcesos": [
-    17050494
-  ],
-  "procesos": [
-    {
-      "idProceso": 17050494,
-      "idConexion": 263,
-      "llaveProceso": "11001400305520170094300",
-      "fechaProceso": "2017-09-21T00:00:00",
-      "fechaUltimaActuacion": "2019-01-28T00:00:00",
-      "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NESTOR GERMAN URREGO AGUILERA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-01-28T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 458509034,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 21
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "nestor",
+    "segundoNombre": "german",
+    "primerApellido": "urrego",
+    "segundoApellido": "aguilera",
+    "cedula": 80513085,
+    "direccion": "calle 77 # 84 - 34",
+    "email": "ngurrero@hotmail.com"
+  },
+  "cc": 80513085,
+  "procesos": [
+    {
+      "idProceso": 17050494,
+      "idConexion": 263,
+      "llaveProceso": "11001400305520170094300",
+      "fechaProceso": "2017-09-21T00:00:00",
+      "fechaUltimaActuacion": "2019-01-28T00:00:00",
+      "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NESTOR GERMAN URREGO AGUILERA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    17050494
+  ]
 }

@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400307320170141100",
   "numero": 304,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79892240,
-    "direccion": "calle 76 a sur no 1 b - 40 este",
-    "email": "ferchog01@yahoo.es",
-    "tel": {
-      "fijo": null,
-      "celular": 3212414138
-    },
-    "primerNombre": "fernando",
-    "segundoNombre": "gonzalez",
-    "primerApellido": "tellez",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400307320170141100",
   "demanda": {
-    "fechaPresentacion": "0269-01-01T04:56:16.000Z",
-    "mandamientoPago": "2017-08-11T05:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-18T00:00:00.000Z",
-    "expediente": "11001400307320170141100",
+    "vencimientoPagare": [
+      "2025-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 6182142575,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-10-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-11T05:00:00.000Z",
     "etapaProcesal": null,
+    "fechaPresentacion": "0269-01-01T04:56:16.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       134175
     ],
     "radicado": "2017 - 01411",
-    "vencimientoPagare": [
-      "2025-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307320170141100"
   },
-  "cc": 79892240,
-  "idProcesos": [
-    50801260
-  ],
-  "procesos": [
-    {
-      "idProceso": 50801260,
-      "idConexion": 259,
-      "llaveProceso": "11001400307320170141100",
-      "fechaProceso": "2017-10-25T00:00:00",
-      "fechaUltimaActuacion": "2020-11-06T00:00:00",
-      "despacho": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FERNANDO GONZALEZ TELLEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-11-06T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 997655690,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 21
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3212414138
+    },
+    "primerNombre": "fernando",
+    "segundoNombre": "gonzalez",
+    "primerApellido": "tellez",
+    "segundoApellido": null,
+    "cedula": 79892240,
+    "direccion": "calle 76 a sur no 1 b - 40 este",
+    "email": "ferchog01@yahoo.es"
+  },
+  "cc": 79892240,
+  "procesos": [
+    {
+      "idProceso": 50801260,
+      "idConexion": 259,
+      "llaveProceso": "11001400307320170141100",
+      "fechaProceso": "2017-10-25T00:00:00",
+      "fechaUltimaActuacion": "2020-11-06T00:00:00",
+      "despacho": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FERNANDO GONZALEZ TELLEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50801260
+  ]
 }

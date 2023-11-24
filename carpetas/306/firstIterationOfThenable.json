@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400306420170149000",
   "numero": 306,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400306420170149000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 18368757,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-10-24T00:00:00.000Z",
+    "etapaProcesal": "1.1001400306420171e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      11788203
+    ],
+    "radicado": "2017 - 01490",
+    "expediente": "11001400306420170149000"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 7217446,
-    "direccion": "calle 127 b no 19-60 apto 402",
-    "email": "N MI",
     "tel": {
       "fijo": 2953878,
       "celular": 3102050752
@@ -14,26 +30,10 @@
     "primerNombre": "jorge",
     "segundoNombre": "arturo",
     "primerApellido": "jimenez",
-    "segundoApellido": "leal"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-10-24T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-20T00:00:00.000Z",
-    "expediente": "11001400306420170149000",
-    "capitalAdeudado": 18368757,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "1.1001400306420171e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      11788203
-    ],
-    "radicado": "2017 - 01490",
-    "vencimientoPagare": [
-      "2020-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "leal",
+    "cedula": 7217446,
+    "direccion": "calle 127 b no 19-60 apto 402",
+    "email": "N MI"
   },
   "cc": 7217446,
   "idProcesos": null

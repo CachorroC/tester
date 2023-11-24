@@ -1,12 +1,30 @@
 {
-  "llaveProceso": null,
   "numero": 579,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": null,
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z",
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 20488522,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      9440087467,
+      "40733834 X T.C. VISA 4513080401547652"
+    ],
+    "radicado": null,
+    "expediente": null
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 1024481233,
-    "direccion": "calle 114 no. 6 a 92",
-    "email": "suenopandapijamas@gmail.com",
     "tel": {
       "fijo": 8027134,
       "celular": 3108012331
@@ -14,28 +32,10 @@
     "primerNombre": "andrea",
     "segundoNombre": "carolina",
     "primerApellido": "diaz",
-    "segundoApellido": "barreto"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
-    "expediente": null,
-    "capitalAdeudado": 20488522,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      9440087467,
-      "40733834 X T.C. VISA 4513080401547652"
-    ],
-    "radicado": null,
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "barreto",
+    "cedula": 1024481233,
+    "direccion": "calle 114 no. 6 a 92",
+    "email": "suenopandapijamas@gmail.com"
   },
   "cc": 1024481233,
   "idProcesos": null

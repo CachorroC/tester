@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400305020170135700",
   "numero": 350,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400305020170135700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2496568298,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-04-16T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "6740081982 / 451308007555923",
+      5303717744146285
+    ],
+    "radicado": "2017 - 01357",
+    "expediente": "11001400305020170135700"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 80111672,
-    "direccion": "calle 51  sur no  80 - 24",
-    "email": "diegovergarav@hotmail.com",
     "tel": {
       "fijo": 4647087,
       "celular": 3112441540
@@ -14,27 +31,10 @@
     "primerNombre": "diego",
     "segundoNombre": "ferney",
     "primerApellido": "vergara",
-    "segundoApellido": "valderrama"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-11-23T00:00:00.000Z",
-    "mandamientoPago": "2018-04-16T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-15T00:00:00.000Z",
-    "expediente": "11001400305020170135700",
-    "capitalAdeudado": 2496568298,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "6740081982 / 451308007555923",
-      5303717744146285
-    ],
-    "radicado": "2017 - 01357",
-    "vencimientoPagare": [
-      "2020-05-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "valderrama",
+    "cedula": 80111672,
+    "direccion": "calle 51  sur no  80 - 24",
+    "email": "diegovergarav@hotmail.com"
   },
   "cc": 80111672,
   "idProcesos": null

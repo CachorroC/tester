@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400302420180011900",
   "numero": 109,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1018428090,
-    "direccion": "carrera 3 d # 32a - 69 sur",
-    "email": "oscar.agudelo@crcom.gov.co",
-    "tel": {
-      "fijo": null,
-      "celular": 3045449490
-    },
-    "primerNombre": "oscar",
-    "segundoNombre": "ivan",
-    "primerApellido": "agudelo",
-    "segundoApellido": "mora"
-  },
+  "llaveProceso": "11001400302420180011900",
   "demanda": {
-    "fechaPresentacion": "2017-08-08T00:00:00.000Z",
-    "mandamientoPago": "2018-04-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
-    "expediente": "11001400302420180011900",
+    "vencimientoPagare": [
+      "2017-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 2166056220,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2018-04-03T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-08T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12491571
     ],
     "radicado": "2018 - 00119",
-    "vencimientoPagare": [
-      "2017-07-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302420180011900"
   },
-  "cc": 1018428090,
-  "idProcesos": [
-    50990990
-  ],
-  "procesos": [
-    {
-      "idProceso": 50990990,
-      "idConexion": 259,
-      "llaveProceso": "11001400302420180011900",
-      "fechaProceso": "2018-02-06T00:00:00",
-      "fechaUltimaActuacion": "2019-12-10T00:00:00",
-      "despacho": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OSCAR IVAN AGUDELO MORA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-12-10T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 903204510,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 35
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3045449490
+    },
+    "primerNombre": "oscar",
+    "segundoNombre": "ivan",
+    "primerApellido": "agudelo",
+    "segundoApellido": "mora",
+    "cedula": 1018428090,
+    "direccion": "carrera 3 d # 32a - 69 sur",
+    "email": "oscar.agudelo@crcom.gov.co"
+  },
+  "cc": 1018428090,
+  "procesos": [
+    {
+      "idProceso": 50990990,
+      "idConexion": 259,
+      "llaveProceso": "11001400302420180011900",
+      "fechaProceso": "2018-02-06T00:00:00",
+      "fechaUltimaActuacion": "2019-12-10T00:00:00",
+      "despacho": "JUZGADO 024 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OSCAR IVAN AGUDELO MORA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50990990
+  ]
 }

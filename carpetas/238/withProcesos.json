@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400304320170110600",
   "numero": 238,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400304320170110600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z",
+      "2030-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 6043388409,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12541785,
+      186378
+    ],
+    "radicado": "2017 - 01106",
+    "expediente": "11001400304320170110600"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 7181490,
-    "direccion": null,
-    "email": "blamblemooo1@gmail.com",
     "tel": {
       "fijo": 2362747,
       "celular": 3106289389
@@ -14,28 +32,10 @@
     "primerNombre": "fredy",
     "segundoNombre": "alexander",
     "primerApellido": "ruda",
-    "segundoApellido": "arias"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-09-11T00:00:00.000Z",
-    "expediente": "11001400304320170110600",
-    "capitalAdeudado": 6043388409,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12541785,
-      186378
-    ],
-    "radicado": "2017 - 01106",
-    "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z",
-      "2030-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "arias",
+    "cedula": 7181490,
+    "direccion": null,
+    "email": "blamblemooo1@gmail.com"
   },
   "codeudor": {
     "cedula": 1015446817,
@@ -44,9 +44,6 @@
     "telefono": 3147198973
   },
   "cc": 7181490,
-  "idProcesos": [
-    9334093
-  ],
   "procesos": [
     {
       "idProceso": 9334093,
@@ -60,5 +57,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    9334093
   ]
 }

@@ -1,57 +1,24 @@
 {
-  "llaveProceso": "11001400302820170051200",
   "numero": 57,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 39556705,
-    "direccion": "avda 80 no. 60-95  rio interior 3 apto 11",
-    "email": "ceciliaaponte@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3102279518
-    },
-    "primerNombre": "carmen",
-    "segundoNombre": "cecilia",
-    "primerApellido": "aponte",
-    "segundoApellido": "zambrano"
-  },
+  "llaveProceso": "11001400302820170051200",
   "demanda": {
-    "fechaPresentacion": "2017-06-15T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400302820170051200",
+    "vencimientoPagare": [],
+    "juzgados": [],
     "capitalAdeudado": 28250394,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-15T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "710084822//377813215734547",
       "4513072329336110//5303713387599294"
     ],
     "radicado": "2017 - 00512",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302820170051200"
   },
-  "cc": 39556705,
-  "idProcesos": [
-    50512320
-  ],
-  "procesos": [
-    {
-      "idProceso": 50512320,
-      "idConexion": 259,
-      "llaveProceso": "11001400302820170051200",
-      "fechaProceso": "2017-06-16T00:00:00",
-      "fechaUltimaActuacion": "2017-09-01T00:00:00",
-      "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARMEN CECILIA APONTE ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2017-09-01T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 725401850,
@@ -66,5 +33,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 8
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3102279518
+    },
+    "primerNombre": "carmen",
+    "segundoNombre": "cecilia",
+    "primerApellido": "aponte",
+    "segundoApellido": "zambrano",
+    "cedula": 39556705,
+    "direccion": "avda 80 no. 60-95  rio interior 3 apto 11",
+    "email": "ceciliaaponte@hotmail.com"
+  },
+  "cc": 39556705,
+  "procesos": [
+    {
+      "idProceso": 50512320,
+      "idConexion": 259,
+      "llaveProceso": "11001400302820170051200",
+      "fechaProceso": "2017-06-16T00:00:00",
+      "fechaUltimaActuacion": "2017-09-01T00:00:00",
+      "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARMEN CECILIA APONTE ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50512320
+  ]
 }

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400304820170050700",
   "numero": 74,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400304820170050700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 4411082847,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-07-25T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-15T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12185017
+    ],
+    "radicado": "2017 - 00507",
+    "expediente": "11001400304820170050700"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 79789620,
-    "direccion": "carrera 18 # 120 - 65 apto 306",
-    "email": "carlosborray@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3138327713
@@ -14,26 +30,10 @@
     "primerNombre": "carlos",
     "segundoNombre": "andrés",
     "primerApellido": "borray",
-    "segundoApellido": "arce"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-15T00:00:00.000Z",
-    "mandamientoPago": "2017-07-25T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400304820170050700",
-    "capitalAdeudado": 4411082847,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12185017
-    ],
-    "radicado": "2017 - 00507",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "arce",
+    "cedula": 79789620,
+    "direccion": "carrera 18 # 120 - 65 apto 306",
+    "email": "carlosborray@gmail.com"
   },
   "codeudor": {
     "cedula": 52666505,
@@ -42,9 +42,6 @@
     "telefono": 8040407
   },
   "cc": 79789620,
-  "idProcesos": [
-    10681823
-  ],
   "procesos": [
     {
       "idProceso": 10681823,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    10681823
   ]
 }

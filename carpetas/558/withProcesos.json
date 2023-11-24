@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400305920230031500",
   "numero": 558,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400305920230031500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z",
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 46537671,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      3880005183,
+      "PAGARE SIN NUMERO T. MASTER CARD 5303720122061696"
+    ],
+    "radicado": "2023 -  00315",
+    "expediente": "11001400305920230031500"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 52531016,
-    "direccion": "calle 18 n 86 55 etapa 1 torre 5 apartamento 403 conjunto residencial parque de ostente",
-    "email": "marcearias@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": 3106736494
@@ -14,33 +32,12 @@
     "primerNombre": "claudia",
     "segundoNombre": "marcela",
     "primerApellido": "arias",
-    "segundoApellido": "lópez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "11001400305920230031500",
-    "capitalAdeudado": 46537671,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      3880005183,
-      "PAGARE SIN NUMERO T. MASTER CARD 5303720122061696"
-    ],
-    "radicado": "2023 -  00315",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "lópez",
+    "cedula": 52531016,
+    "direccion": "calle 18 n 86 55 etapa 1 torre 5 apartamento 403 conjunto residencial parque de ostente",
+    "email": "marcearias@yahoo.com"
   },
   "cc": 52531016,
-  "idProcesos": [
-    132018670
-  ],
   "procesos": [
     {
       "idProceso": 132018670,
@@ -54,5 +51,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    132018670
   ]
 }

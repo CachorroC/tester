@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400306820180099900",
   "numero": 434,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400306820180099900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1220463917,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-05-15T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-22T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      20990085420
+    ],
+    "radicado": "2018 - 00999",
+    "expediente": "11001400306820180099900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80429531,
-    "direccion": "diagonal 15b no 104-45 casa  132",
-    "email": "diagonal132@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3193862544
@@ -14,26 +30,10 @@
     "primerNombre": "francisco",
     "segundoNombre": "javier",
     "primerApellido": "gil",
-    "segundoApellido": "florez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-05-22T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-05-15T00:00:00.000Z",
-    "expediente": "11001400306820180099900",
-    "capitalAdeudado": 1220463917,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990085420
-    ],
-    "radicado": "2018 - 00999",
-    "vencimientoPagare": [
-      "2021-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "florez",
+    "cedula": 80429531,
+    "direccion": "diagonal 15b no 104-45 casa  132",
+    "email": "diagonal132@gmail.com"
   },
   "codeudor": {
     "cedula": 52484859,

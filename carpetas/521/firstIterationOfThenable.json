@@ -1,12 +1,26 @@
 {
-  "llaveProceso": "11001418901220190023500",
   "numero": 521,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418901220190023500",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 2061677901,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2019-08-02T05:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4099830177563670
+    ],
+    "radicado": "2019 - 00235",
+    "expediente": "11001418901220190023500"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 40050052,
-    "direccion": "carrera 4a no 93-11p 1",
-    "email": "aquimaria1965@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,24 +28,10 @@
     "primerNombre": "maria",
     "segundoNombre": "aquilina",
     "primerApellido": "rodriguez",
-    "segundoApellido": "lancheros"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2019-08-02T05:00:00.000Z",
-    "expediente": "11001418901220190023500",
-    "capitalAdeudado": 2061677901,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4099830177563670
-    ],
-    "radicado": "2019 - 00235",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "lancheros",
+    "cedula": 40050052,
+    "direccion": "carrera 4a no 93-11p 1",
+    "email": "aquimaria1965@gmail.com"
   },
   "cc": 40050052,
   "idProcesos": null

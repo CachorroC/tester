@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302520180023700",
   "numero": 401,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302520180023700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2663399729,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      142837
+    ],
+    "radicado": "2018-0237",
+    "expediente": "11001400302520180023700"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52357813,
-    "direccion": "calle 50 sur no 87 d- 81",
-    "email": "dandraojeda_5@hotmail.com",
     "tel": {
       "fijo": 7232225,
       "celular": 3112572775
@@ -17,26 +33,10 @@
     "segundoApellido": [
       "ojeda",
       "rodriguez"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400302520180023700",
-    "capitalAdeudado": 2663399729,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      142837
     ],
-    "radicado": "2018-0237",
-    "vencimientoPagare": [
-      "2017-10-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "cedula": 52357813,
+    "direccion": "calle 50 sur no 87 d- 81",
+    "email": "dandraojeda_5@hotmail.com"
   },
   "cc": 52357813,
   "idProcesos": null

@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400303920170151700",
   "numero": 343,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400303920170151700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2019-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1276795600,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-01-31T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-11-17T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "23110089362 / 2044038",
+      "8291213 / 3131312135"
+    ],
+    "radicado": "2017 - 01517",
+    "expediente": "11001400303920170151700"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 80803306,
-    "direccion": "calle 22 l  no 123 a - 35",
-    "email": "magia.orfen@hotmail.com",
     "tel": {
       "fijo": 5470813,
       "celular": 3188426582
@@ -14,27 +31,10 @@
     "primerNombre": "eduardo",
     "segundoNombre": "alfonso",
     "primerApellido": "rico",
-    "segundoApellido": "jimenez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-11-17T00:00:00.000Z",
-    "mandamientoPago": "2018-01-31T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
-    "expediente": "11001400303920170151700",
-    "capitalAdeudado": 1276795600,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "SENTENCIA",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "23110089362 / 2044038",
-      "8291213 / 3131312135"
-    ],
-    "radicado": "2017 - 01517",
-    "vencimientoPagare": [
-      "2019-07-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "jimenez",
+    "cedula": 80803306,
+    "direccion": "calle 22 l  no 123 a - 35",
+    "email": "magia.orfen@hotmail.com"
   },
   "cc": 80803306,
   "idProcesos": null

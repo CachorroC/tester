@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25899400300320180055500",
   "numero": 439,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25899400300320180055500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2028-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2552745786,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-05-15T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": [
+      20990165412
+    ],
+    "radicado": "2018 - 00555",
+    "expediente": "25899400300320180055500"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79812352,
-    "direccion": "transversal 78 no 68a-15 sur",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3123170535
@@ -14,26 +30,10 @@
     "primerNombre": "miguel",
     "segundoNombre": "esneyder",
     "primerApellido": "devia",
-    "segundoApellido": "cepeda"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-05-15T00:00:00.000Z",
-    "expediente": "25899400300320180055500",
-    "capitalAdeudado": 2552745786,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990165412
-    ],
-    "radicado": "2018 - 00555",
-    "vencimientoPagare": [
-      "2028-06-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "cepeda",
+    "cedula": 79812352,
+    "direccion": "transversal 78 no 68a-15 sur",
+    "email": null
   },
   "codeudor": {
     "cedula": 39652702,

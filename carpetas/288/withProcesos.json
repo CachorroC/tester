@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400308320170113300",
   "numero": 288,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400308320170113300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 6049523279,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-03T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      138027
+    ],
+    "radicado": "2017 - 01133",
+    "expediente": "11001400308320170113300"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 20371142,
-    "direccion": "diagonal  15 b no 104 - 46",
-    "email": "isafrevi@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +30,12 @@
     "primerNombre": "viviana",
     "segundoNombre": "marcela",
     "primerApellido": "roa",
-    "segundoApellido": "vivas"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-10-03T00:00:00.000Z",
-    "expediente": "11001400308320170113300",
-    "capitalAdeudado": 6049523279,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      138027
-    ],
-    "radicado": "2017 - 01133",
-    "vencimientoPagare": [
-      "2017-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "vivas",
+    "cedula": 20371142,
+    "direccion": "diagonal  15 b no 104 - 46",
+    "email": "isafrevi@hotmail.com"
   },
   "cc": 20371142,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "08001418901820230073500",
   "numero": 560,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "08001418901820230073500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z",
+      "2026-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 40696764,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "PALACIO DE JUSTICIA BARRAQNUILLA",
+    "fechaPresentacion": null,
+    "municipio": "BARRANQUILLA",
+    "obligacion": [
+      4770111750,
+      "PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980"
+    ],
+    "radicado": null,
+    "expediente": "08001418901820230073500"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 1129565798,
-    "direccion": "cr 51 43 04 barrio abajo barranquilla // carrera 71 no. 88a - 31 barranquilla // calle 42 a no. 46 - 04 barrio el parque en soledad (atlantico)",
-    "email": "inghanselmartinez@hotmail.com",
     "tel": {
       "fijo": 3930210,
       "celular": 3043463859
@@ -14,28 +32,10 @@
     "primerNombre": "hansel",
     "segundoNombre": "martinez",
     "primerApellido": "barros",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
-    "expediente": "08001418901820230073500",
-    "capitalAdeudado": 40696764,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "PALACIO DE JUSTICIA BARRAQNUILLA",
-    "municipio": "BARRANQUILLA",
-    "obligacion": [
-      4770111750,
-      "PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980"
-    ],
-    "radicado": null,
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z",
-      "2026-07-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 1129565798,
+    "direccion": "cr 51 43 04 barrio abajo barranquilla // carrera 71 no. 88a - 31 barranquilla // calle 42 a no. 46 - 04 barrio el parque en soledad (atlantico)",
+    "email": "inghanselmartinez@hotmail.com"
   },
   "cc": 1129565798,
   "idProcesos": null

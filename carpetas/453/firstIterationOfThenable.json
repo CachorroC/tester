@@ -1,12 +1,26 @@
 {
-  "llaveProceso": "25286400300120180084100",
   "numero": 453,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25286400300120180084100",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 1108010768,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-06-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-10-23T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-07-03T00:00:00.000Z",
+    "municipio": "FUNZA",
+    "obligacion": [
+      5303728778961290
+    ],
+    "radicado": "2018 - 00841",
+    "expediente": "25286400300120180084100"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79892208,
-    "direccion": "carrera 7 a no 5-22 manzana a casa 3a",
-    "email": "ricardomelorr77@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,24 +28,10 @@
     "primerNombre": "ricardo",
     "segundoNombre": "rueda",
     "primerApellido": "melo",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-07-03T00:00:00.000Z",
-    "mandamientoPago": "2018-10-23T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-06-26T00:00:00.000Z",
-    "expediente": "25286400300120180084100",
-    "capitalAdeudado": 1108010768,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "FUNZA",
-    "obligacion": [
-      5303728778961290
-    ],
-    "radicado": "2018 - 00841",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 79892208,
+    "direccion": "carrera 7 a no 5-22 manzana a casa 3a",
+    "email": "ricardomelorr77@hotmail.com"
   },
   "cc": 79892208,
   "idProcesos": null

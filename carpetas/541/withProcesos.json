@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400308220180096400",
   "numero": 541,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400308220180096400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-04-01T05:00:00.000Z",
+      "2021-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 39855851,
+    "departamento": "ANTIOQUIA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-10-09T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      5.49158043629196e+29
+    ],
+    "radicado": "2018 - 00964",
+    "expediente": "11001400308220180096400"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79533771,
-    "direccion": "carrera 81 g no 48-03 sur",
-    "email": "jrestradacastillo@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,34 +32,12 @@
     "primerNombre": "jose",
     "segundoNombre": "ramon",
     "primerApellido": "estrada",
-    "segundoApellido": "castillo"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-10-09T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400308220180096400",
-    "capitalAdeudado": 39855851,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      5.49158043629196e+29
-    ],
-    "radicado": "2018 - 00964",
-    "vencimientoPagare": [
-      "2021-04-01T05:00:00.000Z",
-      "2021-05-01T05:00:00.000Z"
-    ],
-    "departamento": "ANTIOQUIA",
-    "juzgados": []
+    "segundoApellido": "castillo",
+    "cedula": 79533771,
+    "direccion": "carrera 81 g no 48-03 sur",
+    "email": "jrestradacastillo@gmail.com"
   },
   "cc": 79533771,
-  "idProcesos": [
-    52160520,
-    112967583
-  ],
   "procesos": [
     {
       "idProceso": 52160520,
@@ -67,5 +63,9 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    52160520,
+    112967583
   ]
 }

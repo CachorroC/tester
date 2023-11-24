@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400306320230162700",
   "numero": 569,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 52514115,
-    "direccion": "tv 96 b 20 d 70 casa 3",
-    "email": "dsilvarar28@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3203477527
-    },
-    "primerNombre": "diana",
-    "segundoNombre": "patricia",
-    "primerApellido": "silvara",
-    "segundoApellido": "rodriguez"
-  },
+  "llaveProceso": "11001400306320230162700",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
-    "expediente": "11001400306320230162700",
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 28820731,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       2990086384
     ],
     "radicado": "2023 - 00167",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306320230162700"
   },
-  "cc": 52514115,
-  "idProcesos": [
-    132206000
-  ],
-  "procesos": [
-    {
-      "idProceso": 132206000,
-      "idConexion": 260,
-      "llaveProceso": "11001400306320230162700",
-      "fechaProceso": "2023-08-09T00:00:00",
-      "fechaUltimaActuacion": "2023-11-09T00:00:00",
-      "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: LORENA GUISELLE CHAPARRO LEAL ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-11-09T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1928928500,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 8
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3203477527
+    },
+    "primerNombre": "diana",
+    "segundoNombre": "patricia",
+    "primerApellido": "silvara",
+    "segundoApellido": "rodriguez",
+    "cedula": 52514115,
+    "direccion": "tv 96 b 20 d 70 casa 3",
+    "email": "dsilvarar28@gmail.com"
+  },
+  "cc": 52514115,
+  "procesos": [
+    {
+      "idProceso": 132206000,
+      "idConexion": 260,
+      "llaveProceso": "11001400306320230162700",
+      "fechaProceso": "2023-08-09T00:00:00",
+      "fechaUltimaActuacion": "2023-11-09T00:00:00",
+      "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: LORENA GUISELLE CHAPARRO LEAL ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    132206000
+  ]
 }

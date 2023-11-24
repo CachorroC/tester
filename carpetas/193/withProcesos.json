@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302420170175000",
   "numero": 193,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400302420170175000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 24590710,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12750180
+    ],
+    "radicado": "2017 - 01750",
+    "expediente": "11001400302420170175000"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 52465691,
-    "direccion": "carrera 80 # 70a - 09",
-    "email": "equesada01@hotmail.com",
     "tel": {
       "fijo": 7829236,
       "celular": 3204792977
@@ -14,28 +30,12 @@
     "primerNombre": "carmen",
     "segundoNombre": "elizabeth",
     "primerApellido": "quesada",
-    "segundoApellido": "martinez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
-    "expediente": "11001400302420170175000",
-    "capitalAdeudado": 24590710,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12750180
-    ],
-    "radicado": "2017 - 01750",
-    "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "martinez",
+    "cedula": 52465691,
+    "direccion": "carrera 80 # 70a - 09",
+    "email": "equesada01@hotmail.com"
   },
   "cc": 52465691,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

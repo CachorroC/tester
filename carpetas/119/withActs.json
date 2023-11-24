@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400301420170098800",
   "numero": 119,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79693495,
-    "direccion": "diagonal 2a suer # 78l - 81 apto 501b",
-    "email": "carolcecesar@gmail.com",
-    "tel": {
-      "fijo": 4610722,
-      "celular": 3103789233
-    },
-    "primerNombre": "cesar",
-    "segundoNombre": "augusto",
-    "primerApellido": "gil",
-    "segundoApellido": "gallego"
-  },
+  "llaveProceso": "11001400301420170098800",
   "demanda": {
-    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
-    "expediente": "11001400301420170098800",
+    "vencimientoPagare": [
+      "2019-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 20987589,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-19T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       450087082
     ],
     "radicado": "2017 - 00988",
-    "vencimientoPagare": [
-      "2019-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301420170098800"
   },
-  "cc": 79693495,
-  "idProcesos": [
-    50633790
-  ],
-  "procesos": [
-    {
-      "idProceso": 50633790,
-      "idConexion": 259,
-      "llaveProceso": "11001400301420170098800",
-      "fechaProceso": "2017-08-14T00:00:00",
-      "fechaUltimaActuacion": "2019-01-14T00:00:00",
-      "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CESAR AUGUSTO GIL GALLEGO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-01-14T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 638348500,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 43
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4610722,
+      "celular": 3103789233
+    },
+    "primerNombre": "cesar",
+    "segundoNombre": "augusto",
+    "primerApellido": "gil",
+    "segundoApellido": "gallego",
+    "cedula": 79693495,
+    "direccion": "diagonal 2a suer # 78l - 81 apto 501b",
+    "email": "carolcecesar@gmail.com"
+  },
+  "cc": 79693495,
+  "procesos": [
+    {
+      "idProceso": 50633790,
+      "idConexion": 259,
+      "llaveProceso": "11001400301420170098800",
+      "fechaProceso": "2017-08-14T00:00:00",
+      "fechaUltimaActuacion": "2019-01-14T00:00:00",
+      "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CESAR AUGUSTO GIL GALLEGO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50633790
+  ]
 }

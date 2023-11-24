@@ -1,12 +1,26 @@
 {
-  "llaveProceso": "11001400306420170115300",
   "numero": 130,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400306420170115300",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-08-29T00:00:00.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "2017-08-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377815132099546
+    ],
+    "radicado": "2017 - 01153",
+    "expediente": "11001400306420170115300"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 77010352,
-    "direccion": "calle 116 # 11c - 15 apto 104",
-    "email": "arosadomestre@yahoo.com",
     "tel": {
       "fijo": 6371679,
       "celular": 3125855939
@@ -14,29 +28,12 @@
     "primerNombre": "armando",
     "segundoNombre": "enrique",
     "primerApellido": "rosado",
-    "segundoApellido": "mestre"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-18T00:00:00.000Z",
-    "mandamientoPago": "2017-08-29T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
-    "expediente": "11001400306420170115300",
-    "capitalAdeudado": null,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "LIQUIDACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      377815132099546
-    ],
-    "radicado": "2017 - 01153",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "mestre",
+    "cedula": 77010352,
+    "direccion": "calle 116 # 11c - 15 apto 104",
+    "email": "arosadomestre@yahoo.com"
   },
   "cc": 77010352,
-  "idProcesos": [
-    50648690
-  ],
   "procesos": [
     {
       "idProceso": 50648690,
@@ -50,5 +47,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50648690
   ]
 }

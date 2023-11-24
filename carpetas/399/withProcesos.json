@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303720180013200",
   "numero": 399,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400303720180013200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2033-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 4047737734,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-08-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      161174
+    ],
+    "radicado": "2018 - 00132",
+    "expediente": "11001400303720180013200"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79704579,
-    "direccion": "carrer pubichas casa 27 d exterior",
-    "email": "giogol5@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "giovanni",
     "segundoNombre": "",
     "primerApellido": "perdomo",
-    "segundoApellido": "quiroga"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-08-02T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400303720180013200",
-    "capitalAdeudado": 4047737734,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      161174
-    ],
-    "radicado": "2018 - 00132",
-    "vencimientoPagare": [
-      "2033-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "quiroga",
+    "cedula": 79704579,
+    "direccion": "carrer pubichas casa 27 d exterior",
+    "email": "giogol5@hotmail.com"
   },
   "codeudor": {
     "cedula": 1030559747,
@@ -42,9 +42,6 @@
     "telefono": 3372263
   },
   "cc": 79704579,
-  "idProcesos": [
-    8833783
-  ],
   "procesos": [
     {
       "idProceso": 8833783,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    8833783
   ]
 }

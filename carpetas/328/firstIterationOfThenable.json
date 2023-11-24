@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400302620170129300",
   "numero": 328,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302620170129300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 3361520445,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-01-11T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR PQQUETE 767 DE 2018",
+    "fechaPresentacion": "2017-12-18T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "5740084189 /5740084216",
+      "160204-377813372389032"
+    ],
+    "radicado": "2017 - 01293",
+    "expediente": "11001400302620170129300"
+  },
   "category": "LiosJuridicos",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52907317,
-    "direccion": "calle 74 a  sur no 92 -21 torre 3",
-    "email": "milena125@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "sandra",
     "segundoNombre": "milena",
     "primerApellido": "barreto",
-    "segundoApellido": "bermudez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-12-18T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-01-11T05:00:00.000Z",
-    "expediente": "11001400302620170129300",
-    "capitalAdeudado": 3361520445,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR PQQUETE 767 DE 2018",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "5740084189 /5740084216",
-      "160204-377813372389032"
-    ],
-    "radicado": "2017 - 01293",
-    "vencimientoPagare": [
-      "2017-05-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "bermudez",
+    "cedula": 52907317,
+    "direccion": "calle 74 a  sur no 92 -21 torre 3",
+    "email": "milena125@hotmail.com"
   },
   "cc": 52907317,
   "idProcesos": null

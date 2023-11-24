@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400303220180095900",
   "numero": 461,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 93288875,
-    "direccion": "callle 147 no 17-60. int 5 apto 402",
-    "email": "joseaflorez@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "jose",
-    "segundoNombre": "antonio",
-    "primerApellido": "florez",
-    "segundoApellido": "oviedo"
-  },
+  "llaveProceso": "11001400303220180095900",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-07-18T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-07-10T00:00:00.000Z",
-    "expediente": "11001400303220180095900",
+    "vencimientoPagare": [
+      "2021-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 22458995,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-07-10T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-07-18T00:00:00.000Z",
     "etapaProcesal": "1.100140030322018e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       6980086687
     ],
     "radicado": "2018 - 00959",
-    "vencimientoPagare": [
-      "2021-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303220180095900"
   },
-  "cc": 93288875,
-  "idProcesos": [
-    51318660
-  ],
-  "procesos": [
-    {
-      "idProceso": 51318660,
-      "idConexion": 259,
-      "llaveProceso": "11001400303220180095900",
-      "fechaProceso": "2018-07-19T00:00:00",
-      "fechaUltimaActuacion": "2021-03-25T00:00:00",
-      "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ANTONIO FLOREZ OVIEDO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2021-03-25T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1010546790,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 51
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "jose",
+    "segundoNombre": "antonio",
+    "primerApellido": "florez",
+    "segundoApellido": "oviedo",
+    "cedula": 93288875,
+    "direccion": "callle 147 no 17-60. int 5 apto 402",
+    "email": "joseaflorez@hotmail.com"
+  },
+  "cc": 93288875,
+  "procesos": [
+    {
+      "idProceso": 51318660,
+      "idConexion": 259,
+      "llaveProceso": "11001400303220180095900",
+      "fechaProceso": "2018-07-19T00:00:00",
+      "fechaUltimaActuacion": "2021-03-25T00:00:00",
+      "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ANTONIO FLOREZ OVIEDO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51318660
+  ]
 }

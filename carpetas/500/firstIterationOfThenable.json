@@ -1,40 +1,40 @@
 {
-  "llaveProceso": "11001400300620180045400",
   "numero": 500,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": null,
-    "direccion": "carrera 13 no 73-33",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "smartitech",
-    "primerApellido": "s.a.s",
-    "segundoApellido": null,
-    "segundoNombre": null
-  },
+  "llaveProceso": "11001400300620180045400",
   "demanda": {
-    "fechaPresentacion": "2018-04-27T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
-    "expediente": "11001400300620180045400",
+    "vencimientoPagare": [
+      "2020-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 15086199,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-04-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2018-04-27T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       68928057402,
       "AUDIOPRESTAMO"
     ],
     "radicado": "2018 - 00454",
-    "vencimientoPagare": [
-      "2020-05-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "expediente": "11001400300620180045400"
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "smartitech",
+    "segundoNombre": null,
+    "primerApellido": "s.a.s",
+    "segundoApellido": null,
+    "cedula": null,
+    "direccion": "carrera 13 no 73-33",
+    "email": null
   },
   "codeudor": {
     "cedula": 1032408735,

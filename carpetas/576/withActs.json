@@ -1,60 +1,27 @@
 {
-  "llaveProceso": "11001400300620230086400",
   "numero": 576,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 1020754305,
-    "direccion": "carrera 15 no. 127 - 32 apartamento 105 portaldel country",
-    "email": "jcamilovp@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3188015288
-    },
-    "primerNombre": "juan",
-    "segundoNombre": "camilo",
-    "primerApellido": "velasquez",
-    "segundoApellido": "pereira"
-  },
+  "llaveProceso": "11001400300620230086400",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
-    "expediente": "11001400300620230086400",
+    "vencimientoPagare": [
+      "2026-04-01T05:00:00.000Z",
+      "2026-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 94472793,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       4610082832,
       "Q 0000001020754305027001"
     ],
     "radicado": "2023 - 00843",
-    "vencimientoPagare": [
-      "2026-04-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300620230086400"
   },
-  "cc": 1020754305,
-  "idProcesos": [
-    132663050
-  ],
-  "procesos": [
-    {
-      "idProceso": 132663050,
-      "idConexion": 259,
-      "llaveProceso": "11001400300620230086400",
-      "fechaProceso": "2023-08-24T00:00:00",
-      "fechaUltimaActuacion": "2023-10-31T00:00:00",
-      "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAVIER ALEJANDRO CARRERA SIACHOQUE ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-10-31T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1923969160,
@@ -69,5 +36,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 9
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3188015288
+    },
+    "primerNombre": "juan",
+    "segundoNombre": "camilo",
+    "primerApellido": "velasquez",
+    "segundoApellido": "pereira",
+    "cedula": 1020754305,
+    "direccion": "carrera 15 no. 127 - 32 apartamento 105 portaldel country",
+    "email": "jcamilovp@gmail.com"
+  },
+  "cc": 1020754305,
+  "procesos": [
+    {
+      "idProceso": 132663050,
+      "idConexion": 259,
+      "llaveProceso": "11001400300620230086400",
+      "fechaProceso": "2023-08-24T00:00:00",
+      "fechaUltimaActuacion": "2023-10-31T00:00:00",
+      "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAVIER ALEJANDRO CARRERA SIACHOQUE ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    132663050
+  ]
 }

@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "258434003001201E+22",
   "numero": 507,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "258434003001201E+22",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "2.584341030012018e+22",
+    "fechaPresentacion": null,
+    "municipio": "UBATE",
+    "obligacion": [
+      3380087493,
+      "21.876.28100"
+    ],
+    "radicado": "2018 - 00499",
+    "expediente": "258434003001201E+22"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80468168,
-    "direccion": null,
-    "email": "CARRERA 4 A No 16 B-14  TORRE2",
     "tel": {
       "fijo": null,
       "celular": null
@@ -17,27 +34,10 @@
     "segundoApellido": [
       "casallas",
       "romero"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "258434003001201E+22",
-    "capitalAdeudado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "2.584341030012018e+22",
-    "municipio": "UBATE",
-    "obligacion": [
-      3380087493,
-      "21.876.28100"
     ],
-    "radicado": "2018 - 00499",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "cedula": 80468168,
+    "direccion": null,
+    "email": "CARRERA 4 A No 16 B-14  TORRE2"
   },
   "codeudor": {
     "direccion": "6-08-2018"

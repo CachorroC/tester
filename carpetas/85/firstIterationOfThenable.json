@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400303420170083400",
   "numero": 85,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400303420170083400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2422753902,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-10T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      6820082421,
+      "377815190381158 // 530371010816"
+    ],
+    "radicado": "2017 - 00834",
+    "expediente": "11001400303420170083400"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 39673896,
-    "direccion": "calle 143 # 118 - 15 apto 503 int 2",
-    "email": "sma9511@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "malaver",
-    "segundoApellido": "alvarez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
-    "mandamientoPago": "2017-07-10T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400303420170083400",
-    "capitalAdeudado": 2422753902,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "SENTENCIA",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      6820082421,
-      "377815190381158 // 530371010816"
-    ],
-    "radicado": "2017 - 00834",
-    "vencimientoPagare": [
-      "2020-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "alvarez",
+    "cedula": 39673896,
+    "direccion": "calle 143 # 118 - 15 apto 503 int 2",
+    "email": "sma9511@hotmail.com"
   },
   "cc": 39673896,
   "idProcesos": null

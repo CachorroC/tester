@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303920170110000",
   "numero": 141,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400303920170110000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2813030227,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      156285
+    ],
+    "radicado": "2017 - 01100",
+    "expediente": "11001400303920170110000"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79412583,
-    "direccion": "carrea 54 # 18 - 30 sur apto 201",
-    "email": "edgardavid302@hotmail.com",
     "tel": {
       "fijo": 4137430,
       "celular": 3003932311
@@ -14,26 +30,10 @@
     "primerNombre": "edgar",
     "segundoNombre": "david",
     "primerApellido": "hernandez",
-    "segundoApellido": "rincon"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
-    "expediente": "11001400303920170110000",
-    "capitalAdeudado": 2813030227,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      156285
-    ],
-    "radicado": "2017 - 01100",
-    "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "rincon",
+    "cedula": 79412583,
+    "direccion": "carrea 54 # 18 - 30 sur apto 201",
+    "email": "edgardavid302@hotmail.com"
   },
   "codeudor": {
     "cedula": 1022357168,
@@ -42,6 +42,6 @@
     "telefono": 5103158
   },
   "cc": 79412583,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

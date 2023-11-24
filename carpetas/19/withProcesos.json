@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302120170175500",
   "numero": 19,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302120170175500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2022-12-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1539150811,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      103560
+    ],
+    "radicado": "2017 - 01755",
+    "expediente": "11001400302120170175500"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80001905,
-    "direccion": "calle 42 sur no 87 c -18  interior 2 apartamento 203",
-    "email": "eliacid@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "eliacid",
     "segundoNombre": "chaves",
     "primerApellido": "obando",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
-    "expediente": "11001400302120170175500",
-    "capitalAdeudado": 1539150811,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      103560
-    ],
-    "radicado": "2017 - 01755",
-    "vencimientoPagare": [
-      "2022-12-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80001905,
+    "direccion": "calle 42 sur no 87 c -18  interior 2 apartamento 203",
+    "email": "eliacid@hotmail.com"
   },
   "codeudor": {
     "cedula": 52171586,
@@ -42,9 +42,6 @@
     "telefono": 4062058
   },
   "cc": 80001905,
-  "idProcesos": [
-    50869770
-  ],
   "procesos": [
     {
       "idProceso": 50869770,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50869770
   ]
 }

@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25473418900120170092400",
   "numero": 163,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25473418900120170092400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2028-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 4042361408,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-06T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "municipio": "MOSQUERA",
+    "obligacion": [
+      4513082821740149,
+      20990170294
+    ],
+    "radicado": "2017 - 00924",
+    "expediente": "25473418900120170092400"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 71557211,
-    "direccion": "calle 7 # 5 - 29 torre 8 apto 303",
-    "email": "ruedacarlos47@gmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "carlos",
     "segundoNombre": "arturo",
     "primerApellido": "rueda",
-    "segundoApellido": "alzate"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2017-10-06T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
-    "expediente": "25473418900120170092400",
-    "capitalAdeudado": 4042361408,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "MOSQUERA",
-    "obligacion": [
-      4513082821740149,
-      20990170294
-    ],
-    "radicado": "2017 - 00924",
-    "vencimientoPagare": [
-      "2028-11-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "alzate",
+    "cedula": 71557211,
+    "direccion": "calle 7 # 5 - 29 torre 8 apto 303",
+    "email": "ruedacarlos47@gmail.com"
   },
   "codeudor": {
     "cedula": 53063756,

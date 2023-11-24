@@ -1,12 +1,43 @@
 {
-  "llaveProceso": "11001400308120180011100",
   "numero": 380,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400308120180011100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2027-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 40292980,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2022-05-04T00:00:00.000Z",
+    "etapaProcesal": "1.100140030812018e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      155380
+    ],
+    "radicado": "2018 - 00111",
+    "expediente": "11001400308120180011100"
+  },
+  "fecha": "2022-05-02T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1279661740,
+    "llaveProceso": "11001400308120180011100",
+    "consActuacion": 30,
+    "fechaActuacion": "2022-05-02T00:00:00",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "ENTREGUE DESDGLOSE Y OFICIO A LA DRA CARMEN CECILIA RAMIREZ MENDOZA//LUCERO SUAREZ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2022-05-02T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 30
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79804965,
-    "direccion": "calle 36c no 3a - 25",
-    "email": "jhondoblea@hotmail.com",
     "tel": {
       "fijo": 5686327,
       "celular": 3157236856
@@ -14,32 +45,12 @@
     "primerNombre": "jhon",
     "segundoNombre": "alexander",
     "primerApellido": "alarcon",
-    "segundoApellido": "galvis"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2022-05-04T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
-    "expediente": "11001400308120180011100",
-    "capitalAdeudado": 40292980,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "1.100140030812018e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      155380
-    ],
-    "radicado": "2018 - 00111",
-    "vencimientoPagare": [
-      "2027-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "galvis",
+    "cedula": 79804965,
+    "direccion": "calle 36c no 3a - 25",
+    "email": "jhondoblea@hotmail.com"
   },
   "cc": 79804965,
-  "idProcesos": [
-    51918100,
-    81806941
-  ],
   "procesos": [
     {
       "idProceso": 51918100,
@@ -66,19 +77,8 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2022-05-02T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1279661740,
-    "llaveProceso": "11001400308120180011100",
-    "consActuacion": 30,
-    "fechaActuacion": "2022-05-02T00:00:00",
-    "actuacion": "Constancia secretarial",
-    "anotacion": "ENTREGUE DESDGLOSE Y OFICIO A LA DRA CARMEN CECILIA RAMIREZ MENDOZA//LUCERO SUAREZ",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2022-05-02T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 30
-  }
+  "idProcesos": [
+    51918100,
+    81806941
+  ]
 }

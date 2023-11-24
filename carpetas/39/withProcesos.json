@@ -1,12 +1,27 @@
 {
-  "llaveProceso": "11001400306520170090300",
   "numero": 39,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400306520170090300",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 23090872,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-07T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-06-13T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "1030083498-10322560611//377815447801594",
+      "4513074699689599//5303710402241209"
+    ],
+    "radicado": "2017 - 00903",
+    "expediente": "11001400306520170090300"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79982488,
-    "direccion": "calle 120 no. 11 b-66 bogota",
-    "email": "trujete@hotmail.com",
     "tel": {
       "fijo": 7053290,
       "celular": 3012746201
@@ -14,30 +29,12 @@
     "primerNombre": "jorge",
     "segundoNombre": "alonso",
     "primerApellido": "trujillo",
-    "segundoApellido": "gómez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-13T00:00:00.000Z",
-    "mandamientoPago": "2017-07-11T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-07T00:00:00.000Z",
-    "expediente": "11001400306520170090300",
-    "capitalAdeudado": 23090872,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "1030083498-10322560611//377815447801594",
-      "4513074699689599//5303710402241209"
-    ],
-    "radicado": "2017 - 00903",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "gómez",
+    "cedula": 79982488,
+    "direccion": "calle 120 no. 11 b-66 bogota",
+    "email": "trujete@hotmail.com"
   },
   "cc": 79982488,
-  "idProcesos": [
-    70519480
-  ],
   "procesos": [
     {
       "idProceso": 70519480,
@@ -51,5 +48,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    70519480
   ]
 }

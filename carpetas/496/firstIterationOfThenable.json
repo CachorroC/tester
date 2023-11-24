@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "25175408900320180060200",
   "numero": 496,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25175408900320180060200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-09-01T05:00:00.000Z",
+      "2021-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 27373832,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-12-10T05:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-04-10T05:00:00.000Z",
+    "municipio": "CHIA",
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      5.49157034735681e+29
+    ],
+    "radicado": "2018 - 00602",
+    "expediente": "25175408900320180060200"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 13222728,
-    "direccion": "carrera 6 no 6-59",
-    "email": "mopadinco@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,28 +32,10 @@
     "primerNombre": "modesto",
     "segundoNombre": "pineda",
     "primerApellido": "perez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-04-10T05:00:00.000Z",
-    "mandamientoPago": "2018-12-10T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "25175408900320180060200",
-    "capitalAdeudado": 27373832,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "CHIA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      5.49157034735681e+29
-    ],
-    "radicado": "2018 - 00602",
-    "vencimientoPagare": [
-      "2021-09-01T05:00:00.000Z",
-      "2021-05-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 13222728,
+    "direccion": "carrera 6 no 6-59",
+    "email": "mopadinco@yahoo.com"
   },
   "cc": 13222728,
   "idProcesos": null

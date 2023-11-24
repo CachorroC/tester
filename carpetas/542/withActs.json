@@ -1,60 +1,27 @@
 {
-  "llaveProceso": "11001418901220180064400",
   "numero": 542,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 53106069,
-    "direccion": "calle 65 bis no 86-50",
-    "email": "bicato10@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "bibiana",
-    "segundoNombre": "patricia",
-    "primerApellido": "esguerra",
-    "segundoApellido": "vasquez"
-  },
+  "llaveProceso": "11001418901220180064400",
   "demanda": {
-    "fechaPresentacion": "2018-05-09T05:00:00.000Z",
-    "mandamientoPago": "2018-12-10T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001418901220180064400",
+    "vencimientoPagare": [
+      "2021-04-01T05:00:00.000Z",
+      "2021-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 12864472,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-12-10T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-05-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       "AMERICAN 377813618831557",
       "VISA 4513070030495183 // 5303715376619405"
     ],
     "radicado": "2018 - 00644",
-    "vencimientoPagare": [
-      "2021-04-01T05:00:00.000Z",
-      "2021-04-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001418901220180064400"
   },
-  "cc": 53106069,
-  "idProcesos": [
-    71079290
-  ],
-  "procesos": [
-    {
-      "idProceso": 71079290,
-      "idConexion": 259,
-      "llaveProceso": "11001418901220180064400",
-      "fechaProceso": "2019-11-15T00:00:00",
-      "fechaUltimaActuacion": "2023-07-05T00:00:00",
-      "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA | Demandado: BIBIANA PATRICIA ESGUERRA VASQUEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-07-05T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1799897960,
@@ -69,5 +36,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 44
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "bibiana",
+    "segundoNombre": "patricia",
+    "primerApellido": "esguerra",
+    "segundoApellido": "vasquez",
+    "cedula": 53106069,
+    "direccion": "calle 65 bis no 86-50",
+    "email": "bicato10@hotmail.com"
+  },
+  "cc": 53106069,
+  "procesos": [
+    {
+      "idProceso": 71079290,
+      "idConexion": 259,
+      "llaveProceso": "11001418901220180064400",
+      "fechaProceso": "2019-11-15T00:00:00",
+      "fechaUltimaActuacion": "2023-07-05T00:00:00",
+      "despacho": "JUZGADO 017 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA | Demandado: BIBIANA PATRICIA ESGUERRA VASQUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    71079290
+  ]
 }

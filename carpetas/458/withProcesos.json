@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303720180011100",
   "numero": 458,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400303720180011100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 17502203,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "AUDIOPRESTAMO"
+    ],
+    "radicado": "2018 - 00111",
+    "expediente": "11001400303720180011100"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 52271112,
-    "direccion": "carrera 101 no 70 a-14 interior 1 apartamento 408",
-    "email": "saraja.7@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "sandra",
     "segundoNombre": "patricia",
     "primerApellido": "beltran",
-    "segundoApellido": "oviedo"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400303720180011100",
-    "capitalAdeudado": 17502203,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "AUDIOPRESTAMO"
-    ],
-    "radicado": "2018 - 00111",
-    "vencimientoPagare": [
-      "2020-07-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "oviedo",
+    "cedula": 52271112,
+    "direccion": "carrera 101 no 70 a-14 interior 1 apartamento 408",
+    "email": "saraja.7@hotmail.com"
   },
   "cc": 52271112,
-  "idProcesos": [
-    50990920
-  ],
   "procesos": [
     {
       "idProceso": 50990920,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50990920
   ]
 }

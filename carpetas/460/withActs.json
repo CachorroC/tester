@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400306620190040900",
   "numero": 460,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79424825,
-    "direccion": "52205842",
-    "email": "DIAGONAL 31 No 24-63 SUR",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "jorge",
-    "segundoNombre": "abdolonio",
-    "primerApellido": "guerrero",
-    "segundoApellido": "hernandez"
-  },
+  "llaveProceso": "11001400306620190040900",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400306620190040900",
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": null,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "43294",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "16.399.509.25"
     ],
     "radicado": "2019 - 00409",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306620190040900"
   },
-  "codeudor": {
-    "cedula": "CLAUDIA JASMIN GOMEZ GUERRERO",
-    "direccion": 43168,
-    "nombre": 2028628,
-    "telefono": "DIAGONAL 31 No 24-63  SUR"
-  },
-  "cc": 79424825,
-  "idProcesos": [
-    18852280
-  ],
-  "procesos": [
-    {
-      "idProceso": 18852280,
-      "idConexion": 262,
-      "llaveProceso": "11001400306620190040900",
-      "fechaProceso": "2019-03-14T00:00:00",
-      "fechaUltimaActuacion": "2019-04-11T00:00:00",
-      "despacho": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JORGE ABDOLONIO GUERRERO HERNANDEZ | Demandado: CLAUDIA YASMIN GOMEZ GUERRERO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-04-11T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 920378870,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 5
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "jorge",
+    "segundoNombre": "abdolonio",
+    "primerApellido": "guerrero",
+    "segundoApellido": "hernandez",
+    "cedula": 79424825,
+    "direccion": "52205842",
+    "email": "DIAGONAL 31 No 24-63 SUR"
+  },
+  "codeudor": {
+    "cedula": "CLAUDIA JASMIN GOMEZ GUERRERO",
+    "direccion": 43168,
+    "nombre": 2028628,
+    "telefono": "DIAGONAL 31 No 24-63  SUR"
+  },
+  "cc": 79424825,
+  "procesos": [
+    {
+      "idProceso": 18852280,
+      "idConexion": 262,
+      "llaveProceso": "11001400306620190040900",
+      "fechaProceso": "2019-03-14T00:00:00",
+      "fechaUltimaActuacion": "2019-04-11T00:00:00",
+      "despacho": "JUZGADO 066 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JORGE ABDOLONIO GUERRERO HERNANDEZ | Demandado: CLAUDIA YASMIN GOMEZ GUERRERO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    18852280
+  ]
 }

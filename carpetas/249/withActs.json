@@ -1,61 +1,28 @@
 {
-  "llaveProceso": "11001400301620170087500",
   "numero": 249,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 19069228,
-    "direccion": "carrera 15 # 188 - 39",
-    "email": "jorgemar24@gmail.com",
-    "tel": {
-      "fijo": 6701643,
-      "celular": 3134749213
-    },
-    "primerNombre": "jorge",
-    "segundoNombre": "alberto",
-    "primerApellido": "martinez",
-    "segundoApellido": "bendek"
-  },
+  "llaveProceso": "11001400301620170087500",
   "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": "2017-09-11T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
-    "expediente": "11001400301620170087500",
+    "vencimientoPagare": [
+      "2020-05-01T05:00:00.000Z",
+      "2020-05-01T05:00:00.000Z",
+      "2019-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 44933312,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-11T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       377813517259835,
       "377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 00875",
-    "vencimientoPagare": [
-      "2020-05-01T05:00:00.000Z",
-      "2020-05-01T05:00:00.000Z",
-      "2019-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301620170087500"
   },
-  "cc": 19069228,
-  "idProcesos": [
-    50687430
-  ],
-  "procesos": [
-    {
-      "idProceso": 50687430,
-      "idConexion": 259,
-      "llaveProceso": "11001400301620170087500",
-      "fechaProceso": "2017-09-06T00:00:00",
-      "fechaUltimaActuacion": "2023-05-16T00:00:00",
-      "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE ALBERTO MARTINEZ BENDECK ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-05-16T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1744983620,
@@ -70,5 +37,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 70
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6701643,
+      "celular": 3134749213
+    },
+    "primerNombre": "jorge",
+    "segundoNombre": "alberto",
+    "primerApellido": "martinez",
+    "segundoApellido": "bendek",
+    "cedula": 19069228,
+    "direccion": "carrera 15 # 188 - 39",
+    "email": "jorgemar24@gmail.com"
+  },
+  "cc": 19069228,
+  "procesos": [
+    {
+      "idProceso": 50687430,
+      "idConexion": 259,
+      "llaveProceso": "11001400301620170087500",
+      "fechaProceso": "2017-09-06T00:00:00",
+      "fechaUltimaActuacion": "2023-05-16T00:00:00",
+      "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE ALBERTO MARTINEZ BENDECK ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50687430
+  ]
 }

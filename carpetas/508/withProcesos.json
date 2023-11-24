@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25377408900120180037100",
   "numero": 508,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "25377408900120180037100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 29416113,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-07-12T05:00:00.000Z",
+    "municipio": "LA CALERA",
+    "obligacion": [
+      2490084469
+    ],
+    "radicado": "2018 - 00371",
+    "expediente": "25377408900120180037100"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 11230400,
-    "direccion": "calle 2 a no 5-22 apto 503",
-    "email": "joalvato09@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3123703828
@@ -14,28 +30,12 @@
     "primerNombre": "jose",
     "segundoNombre": "alfonso",
     "primerApellido": "vasquez",
-    "segundoApellido": "tovar"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-07-12T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "25377408900120180037100",
-    "capitalAdeudado": 29416113,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "LA CALERA",
-    "obligacion": [
-      2490084469
-    ],
-    "radicado": "2018 - 00371",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "tovar",
+    "cedula": 11230400,
+    "direccion": "calle 2 a no 5-22 apto 503",
+    "email": "joalvato09@hotmail.com"
   },
   "cc": 11230400,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

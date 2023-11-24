@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001310301120170033500",
   "numero": 25,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001310301120170033500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 107818114,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-08-14T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12705806
+    ],
+    "radicado": "2017 - 00335",
+    "expediente": "11001310301120170033500"
+  },
   "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 3197274,
-    "direccion": "cl 14 no. 10 - 45 bucaramanga",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "omar",
     "segundoNombre": "dario",
     "primerApellido": "zea",
-    "segundoApellido": "galvis"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
-    "mandamientoPago": "2017-08-14T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
-    "expediente": "11001310301120170033500",
-    "capitalAdeudado": 107818114,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12705806
-    ],
-    "radicado": "2017 - 00335",
-    "vencimientoPagare": [
-      "2020-05-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "galvis",
+    "cedula": 3197274,
+    "direccion": "cl 14 no. 10 - 45 bucaramanga",
+    "email": null
   },
   "cc": 3197274,
   "idProcesos": null

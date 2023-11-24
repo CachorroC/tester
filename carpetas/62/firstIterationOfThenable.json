@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400306320180016800",
   "numero": 62,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400306320180016800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2022-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1544537143,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-03-21T00:00:00.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-06-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "320 093516"
+    ],
+    "radicado": "2017 - 00537",
+    "expediente": "11001400306320180016800"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80722943,
-    "direccion": "diagonal 60 sur no. 28-i 72 interior 3 apto 204",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3138253554
@@ -14,26 +30,10 @@
     "primerNombre": "luis",
     "segundoNombre": "eduardo",
     "primerApellido": "carranza",
-    "segundoApellido": "bustos"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-21T00:00:00.000Z",
-    "mandamientoPago": "2018-03-21T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400306320180016800",
-    "capitalAdeudado": 1544537143,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "SENTENCIA",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "320 093516"
-    ],
-    "radicado": "2017 - 00537",
-    "vencimientoPagare": [
-      "2022-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "bustos",
+    "cedula": 80722943,
+    "direccion": "diagonal 60 sur no. 28-i 72 interior 3 apto 204",
+    "email": null
   },
   "codeudor": {
     "cedula": 53011591,

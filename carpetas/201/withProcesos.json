@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400307920170114200",
   "numero": 201,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400307920170114200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2019-11-01T05:00:00.000Z",
+      "2020-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 27602952,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "etapaProcesal": "1.100140030792017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377816483778266,
+      4513080485378479
+    ],
+    "radicado": "2017 - 01142",
+    "expediente": "11001400307920170114200"
+  },
   "category": "Insolvencia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 51733931,
-    "direccion": "calle 127d # 21 - 80 apto 105",
-    "email": "sebantialbeltransprieto@hotmail.com",
     "tel": {
       "fijo": 6256456,
       "celular": 3108711046
@@ -18,33 +36,12 @@
       "rocio",
       "prieto",
       "vargas"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-09-04T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
-    "expediente": "11001400307920170114200",
-    "capitalAdeudado": 27602952,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "1.100140030792017e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      377816483778266,
-      4513080485378479
     ],
-    "radicado": "2017 - 01142",
-    "vencimientoPagare": [
-      "2019-11-01T05:00:00.000Z",
-      "2020-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "cedula": 51733931,
+    "direccion": "calle 127d # 21 - 80 apto 105",
+    "email": "sebantialbeltransprieto@hotmail.com"
   },
   "cc": 51733931,
-  "idProcesos": [
-    128433271
-  ],
   "procesos": [
     {
       "idProceso": 128433271,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    128433271
   ]
 }

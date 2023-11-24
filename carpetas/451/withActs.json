@@ -1,57 +1,24 @@
 {
-  "llaveProceso": "11001400305620180071100",
   "numero": 451,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1032389993,
-    "direccion": "calle4 48b sur no 72 m-21",
-    "email": "jeisongc18@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3209393337
-    },
-    "primerNombre": "jose",
-    "segundoNombre": "jeisson",
-    "primerApellido": "galindo",
-    "segundoApellido": "carrillo"
-  },
+  "llaveProceso": "11001400305620180071100",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-07-06T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-06-28T00:00:00.000Z",
-    "expediente": "11001400305620180071100",
+    "vencimientoPagare": [],
+    "juzgados": [],
     "capitalAdeudado": 10691310,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-06-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-07-06T00:00:00.000Z",
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       377813280714347,
       4513070073578510
     ],
     "radicado": "2018 - 00711",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400305620180071100"
   },
-  "cc": 1032389993,
-  "idProcesos": [
-    51296960
-  ],
-  "procesos": [
-    {
-      "idProceso": 51296960,
-      "idConexion": 259,
-      "llaveProceso": "11001400305620180071100",
-      "fechaProceso": "2018-07-09T00:00:00",
-      "fechaUltimaActuacion": "2020-01-23T00:00:00",
-      "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE JEISSON GALINDO CARRILLO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-01-23T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 948773110,
@@ -66,5 +33,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 27
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3209393337
+    },
+    "primerNombre": "jose",
+    "segundoNombre": "jeisson",
+    "primerApellido": "galindo",
+    "segundoApellido": "carrillo",
+    "cedula": 1032389993,
+    "direccion": "calle4 48b sur no 72 m-21",
+    "email": "jeisongc18@hotmail.com"
+  },
+  "cc": 1032389993,
+  "procesos": [
+    {
+      "idProceso": 51296960,
+      "idConexion": 259,
+      "llaveProceso": "11001400305620180071100",
+      "fechaProceso": "2018-07-09T00:00:00",
+      "fechaUltimaActuacion": "2020-01-23T00:00:00",
+      "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE JEISSON GALINDO CARRILLO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51296960
+  ]
 }

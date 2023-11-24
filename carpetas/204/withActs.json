@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400304520170106300",
   "numero": 204,
-  "tipoProceso": "PRENDARIO",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 46679232,
-    "direccion": "carrera 34 # 9 - 60",
-    "email": "carito220@hotmail.es",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "flor",
-    "segundoNombre": "esperanza",
-    "primerApellido": "gutierrez",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400304520170106300",
   "demanda": {
-    "fechaPresentacion": "2017-08-30T00:00:00.000Z",
-    "mandamientoPago": "2017-09-12T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
-    "expediente": "11001400304520170106300",
+    "vencimientoPagare": [
+      "2020-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 41990538,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-09-12T00:00:00.000Z",
     "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-08-30T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12743098
     ],
     "radicado": "2017 - 01063",
-    "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304520170106300"
   },
-  "cc": 46679232,
-  "idProcesos": [
-    110120573
-  ],
-  "procesos": [
-    {
-      "idProceso": 110120573,
-      "idConexion": 261,
-      "llaveProceso": "11001400304520170106300",
-      "fechaProceso": "2017-08-31T00:00:00",
-      "fechaUltimaActuacion": "2023-03-07T00:00:00",
-      "despacho": "JUZGADO 045 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FLOR ESPERANZA GUTIERREZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-03-07T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1558599213,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 46
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "flor",
+    "segundoNombre": "esperanza",
+    "primerApellido": "gutierrez",
+    "segundoApellido": null,
+    "cedula": 46679232,
+    "direccion": "carrera 34 # 9 - 60",
+    "email": "carito220@hotmail.es"
+  },
+  "cc": 46679232,
+  "procesos": [
+    {
+      "idProceso": 110120573,
+      "idConexion": 261,
+      "llaveProceso": "11001400304520170106300",
+      "fechaProceso": "2017-08-31T00:00:00",
+      "fechaUltimaActuacion": "2023-03-07T00:00:00",
+      "despacho": "JUZGADO 045 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FLOR ESPERANZA GUTIERREZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    110120573
+  ]
 }

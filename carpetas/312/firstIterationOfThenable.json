@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001418904320170114000",
   "numero": 312,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001418904320170114000",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1066832759,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-26T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-11-30T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-10-21T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      82317
+    ],
+    "radicado": "2017 - 01140",
+    "expediente": "11001418904320170114000"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80394456,
-    "direccion": "carrera 87 d no 42 a 20 sur interior 6",
-    "email": "pedrosebastin394@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "pedro",
     "segundoNombre": "pablo",
     "primerApellido": "sarmiento",
-    "segundoApellido": "mayorga"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-21T00:00:00.000Z",
-    "mandamientoPago": "2017-11-30T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-26T00:00:00.000Z",
-    "expediente": "11001418904320170114000",
-    "capitalAdeudado": 1066832759,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      82317
-    ],
-    "radicado": "2017 - 01140",
-    "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "mayorga",
+    "cedula": 80394456,
+    "direccion": "carrera 87 d no 42 a 20 sur interior 6",
+    "email": "pedrosebastin394@hotmail.com"
   },
   "codeudor": {
     "cedula": 28949691,

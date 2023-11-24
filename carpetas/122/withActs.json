@@ -1,57 +1,24 @@
 {
-  "llaveProceso": "11001400304020170119300",
   "numero": 122,
-  "tipoProceso": "SINGULAR ACUM HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 52543321,
-    "direccion": null,
-    "email": "CALLE 1H # 32A - 17",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "paola",
-    "segundoNombre": "andrea",
-    "primerApellido": "fernandez",
-    "segundoApellido": "rincon"
-  },
+  "llaveProceso": "11001400304020170119300",
   "demanda": {
-    "fechaPresentacion": "2017-09-13T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400304020170119300",
+    "vencimientoPagare": [],
+    "juzgados": [],
     "capitalAdeudado": 43,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "ACUMULADO",
+    "mandamientoPago": null,
     "etapaProcesal": "42958",
+    "fechaPresentacion": "2017-09-13T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       4513073601094195,
       1577471108
     ],
     "radicado": "2017 - 01193",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304020170119300"
   },
-  "cc": 52543321,
-  "idProcesos": [
-    19148931
-  ],
-  "procesos": [
-    {
-      "idProceso": 19148931,
-      "idConexion": 256,
-      "llaveProceso": "11001400304020170119300",
-      "fechaProceso": "2017-08-16T00:00:00",
-      "fechaUltimaActuacion": "2020-02-07T00:00:00",
-      "despacho": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PAOLA ANDREA FERNANDEZ RINCON ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-02-07T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 733661051,
@@ -66,5 +33,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 58
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR ACUM HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "paola",
+    "segundoNombre": "andrea",
+    "primerApellido": "fernandez",
+    "segundoApellido": "rincon",
+    "cedula": 52543321,
+    "direccion": null,
+    "email": "CALLE 1H # 32A - 17"
+  },
+  "cc": 52543321,
+  "procesos": [
+    {
+      "idProceso": 19148931,
+      "idConexion": 256,
+      "llaveProceso": "11001400304020170119300",
+      "fechaProceso": "2017-08-16T00:00:00",
+      "fechaUltimaActuacion": "2020-02-07T00:00:00",
+      "despacho": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PAOLA ANDREA FERNANDEZ RINCON ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    19148931
+  ]
 }

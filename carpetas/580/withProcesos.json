@@ -1,12 +1,31 @@
 {
-  "llaveProceso": "11001418904420230023900",
   "numero": 580,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001418904420230023900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-08-01T05:00:00.000Z",
+      "2026-04-01T05:00:00.000Z",
+      "2026-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 42647591,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      790100533,
+      "790101375 Y 101380449 X T.C. AMERICAN 0377844056881358"
+    ],
+    "radicado": "2023 - 0239",
+    "expediente": "11001418904420230023900"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 19488050,
-    "direccion": "transversal 78 no. 40j - 14 sur",
-    "email": "joseignaciogaleanoa@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3103052825
@@ -14,34 +33,12 @@
     "primerNombre": "jose",
     "segundoNombre": "ignacio",
     "primerApellido": "galeano",
-    "segundoApellido": "alvarado"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
-    "expediente": "11001418904420230023900",
-    "capitalAdeudado": 42647591,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      790100533,
-      "790101375 Y 101380449 X T.C. AMERICAN 0377844056881358"
-    ],
-    "radicado": "2023 - 0239",
-    "vencimientoPagare": [
-      "2026-08-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z",
-      "2026-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "alvarado",
+    "cedula": 19488050,
+    "direccion": "transversal 78 no. 40j - 14 sur",
+    "email": "joseignaciogaleanoa@gmail.com"
   },
   "cc": 19488050,
-  "idProcesos": [
-    132964260
-  ],
   "procesos": [
     {
       "idProceso": 132964260,
@@ -55,5 +52,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    132964260
   ]
 }

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302420170170800",
   "numero": 356,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302420170170800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 3057355551,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-28T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "1.100140030242017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      162697
+    ],
+    "radicado": "2017 - 01708",
+    "expediente": "11001400302420170170800"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 53119460,
-    "direccion": "carrera 81 b no  19 b- 50 apartamento 601",
-    "email": "ximenars29@hotmail.com",
     "tel": {
       "fijo": 4707082,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "sonia",
     "segundoNombre": "ximena",
     "primerApellido": "rodriguez",
-    "segundoApellido": "sanchez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-11-28T00:00:00.000Z",
-    "expediente": "11001400302420170170800",
-    "capitalAdeudado": 3057355551,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "1.100140030242017e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      162697
-    ],
-    "radicado": "2017 - 01708",
-    "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "sanchez",
+    "cedula": 53119460,
+    "direccion": "carrera 81 b no  19 b- 50 apartamento 601",
+    "email": "ximenars29@hotmail.com"
   },
   "codeudor": {
     "cedula": 80732347,

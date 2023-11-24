@@ -1,61 +1,25 @@
 {
-  "llaveProceso": "11001400302020170121900",
   "numero": 266,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 71192974,
-    "direccion": "carrera 24 h no 23 a - 08 sur",
-    "email": "mayaconfecciones1@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": 3138085772
-    },
-    "primerNombre": "julian",
-    "segundoNombre": "de",
-    "primerApellido": "jesus",
-    "segundoApellido": [
-      "isaza",
-      "aguirre"
-    ]
-  },
+  "llaveProceso": "11001400302020170121900",
   "demanda": {
-    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
-    "mandamientoPago": "2017-11-07T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
-    "expediente": "11001400302020170121900",
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 6766091300,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-11-07T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       12468489
     ],
     "radicado": "2017 - 01219",
-    "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302020170121900"
   },
-  "cc": 71192974,
-  "idProcesos": [
-    50739310
-  ],
-  "procesos": [
-    {
-      "idProceso": 50739310,
-      "idConexion": 259,
-      "llaveProceso": "11001400302020170121900",
-      "fechaProceso": "2017-09-28T00:00:00",
-      "fechaUltimaActuacion": "2022-12-16T00:00:00",
-      "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JULIAN DE JESUS ISAZA AGUIRRE ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-12-16T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1570060170,
@@ -70,5 +34,41 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 77
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3138085772
+    },
+    "primerNombre": "julian",
+    "segundoNombre": "de",
+    "primerApellido": "jesus",
+    "segundoApellido": [
+      "isaza",
+      "aguirre"
+    ],
+    "cedula": 71192974,
+    "direccion": "carrera 24 h no 23 a - 08 sur",
+    "email": "mayaconfecciones1@gmail.com"
+  },
+  "cc": 71192974,
+  "procesos": [
+    {
+      "idProceso": 50739310,
+      "idConexion": 259,
+      "llaveProceso": "11001400302020170121900",
+      "fechaProceso": "2017-09-28T00:00:00",
+      "fechaUltimaActuacion": "2022-12-16T00:00:00",
+      "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JULIAN DE JESUS ISAZA AGUIRRE ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50739310
+  ]
 }

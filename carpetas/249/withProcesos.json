@@ -1,12 +1,31 @@
 {
-  "llaveProceso": "11001400301620170087500",
   "numero": 249,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400301620170087500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-05-01T05:00:00.000Z",
+      "2020-05-01T05:00:00.000Z",
+      "2019-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 44933312,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-11T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377813517259835,
+      "377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 00875",
+    "expediente": "11001400301620170087500"
+  },
   "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 19069228,
-    "direccion": "carrera 15 # 188 - 39",
-    "email": "jorgemar24@gmail.com",
     "tel": {
       "fijo": 6701643,
       "celular": 3134749213
@@ -14,34 +33,12 @@
     "primerNombre": "jorge",
     "segundoNombre": "alberto",
     "primerApellido": "martinez",
-    "segundoApellido": "bendek"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
-    "mandamientoPago": "2017-09-11T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
-    "expediente": "11001400301620170087500",
-    "capitalAdeudado": 44933312,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      377813517259835,
-      "377814405234039 // 45130727777594186 // 5491572487025564 // AUDIOPRESTAMO"
-    ],
-    "radicado": "2017 - 00875",
-    "vencimientoPagare": [
-      "2020-05-01T05:00:00.000Z",
-      "2020-05-01T05:00:00.000Z",
-      "2019-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "bendek",
+    "cedula": 19069228,
+    "direccion": "carrera 15 # 188 - 39",
+    "email": "jorgemar24@gmail.com"
   },
   "cc": 19069228,
-  "idProcesos": [
-    50687430
-  ],
   "procesos": [
     {
       "idProceso": 50687430,
@@ -55,5 +52,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50687430
   ]
 }

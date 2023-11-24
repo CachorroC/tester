@@ -1,12 +1,27 @@
 {
-  "llaveProceso": "11001400303120180040600",
   "numero": 91,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400303120180040600",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "2018 - 00406",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "05-04-2018 15-01-2021",
+      2500083807
+    ],
+    "radicado": "2018 - 00406",
+    "expediente": "11001400303120180040600"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79456791,
-    "direccion": "jaime.precco@gmail.com",
-    "email": "F3554893              CEL 3165211980",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,33 +29,15 @@
     "primerNombre": "jaime",
     "segundoNombre": "jesus",
     "primerApellido": "reyes",
-    "segundoApellido": "orozco"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400303120180040600",
-    "capitalAdeudado": null,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "2018 - 00406",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "05-04-2018 15-01-2021",
-      2500083807
-    ],
-    "radicado": "2018 - 00406",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "orozco",
+    "cedula": 79456791,
+    "direccion": "jaime.precco@gmail.com",
+    "email": "F3554893              CEL 3165211980"
   },
   "codeudor": {
     "cedula": "CALLE 152 No 72 - 50  BOGOTA"
   },
   "cc": 79456791,
-  "idProcesos": [
-    51092120
-  ],
   "procesos": [
     {
       "idProceso": 51092120,
@@ -54,5 +51,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51092120
   ]
 }

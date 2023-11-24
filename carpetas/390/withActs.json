@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400300420170126600",
   "numero": 390,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 71603563,
-    "direccion": "carrera 82  no  19 - 20",
-    "email": "gilbertojaime@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "gilberto",
-    "segundoNombre": "jaime",
-    "primerApellido": "betancourt",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400300420170126600",
   "demanda": {
-    "fechaPresentacion": "2017-11-20T00:00:00.000Z",
-    "mandamientoPago": "2018-01-17T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
-    "expediente": "11001400300420170126600",
+    "vencimientoPagare": [
+      "2020-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 50509238,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-01-17T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-11-20T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       2500084774,
       "AUDIOPRESTAMO"
     ],
     "radicado": "2017 - 01266",
-    "vencimientoPagare": [
-      "2020-07-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300420170126600"
   },
-  "cc": 71603563,
-  "idProcesos": [
-    50859050
-  ],
-  "procesos": [
-    {
-      "idProceso": 50859050,
-      "idConexion": 259,
-      "llaveProceso": "11001400300420170126600",
-      "fechaProceso": "2017-11-21T00:00:00",
-      "fechaUltimaActuacion": "2022-02-04T00:00:00",
-      "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GILBERTO JAIME BETANCOURT ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-02-04T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1252694420,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 61
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "gilberto",
+    "segundoNombre": "jaime",
+    "primerApellido": "betancourt",
+    "segundoApellido": null,
+    "cedula": 71603563,
+    "direccion": "carrera 82  no  19 - 20",
+    "email": "gilbertojaime@hotmail.com"
+  },
+  "cc": 71603563,
+  "procesos": [
+    {
+      "idProceso": 50859050,
+      "idConexion": 259,
+      "llaveProceso": "11001400300420170126600",
+      "fechaProceso": "2017-11-21T00:00:00",
+      "fechaUltimaActuacion": "2022-02-04T00:00:00",
+      "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GILBERTO JAIME BETANCOURT ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50859050
+  ]
 }

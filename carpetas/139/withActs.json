@@ -1,62 +1,23 @@
 {
-  "llaveProceso": "11001400306120170079300",
   "numero": 139,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 20896387,
-    "direccion": "carrera 32 # 18 - 31 sur",
-    "email": "jose_agudelo@juancarpas.edu.com",
-    "tel": {
-      "fijo": 7502262,
-      "celular": 3204955563
-    },
-    "primerNombre": "ana",
-    "segundoNombre": "emilce",
-    "primerApellido": "rojas",
-    "segundoApellido": "sarmiento"
-  },
+  "llaveProceso": "11001400306120170079300",
   "demanda": {
-    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
-    "mandamientoPago": "2017-09-29T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
-    "expediente": "11001400306120170079300",
+    "vencimientoPagare": [],
+    "juzgados": [],
     "capitalAdeudado": 91986323,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-29T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       146579
     ],
     "radicado": "2017 - 00793",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306120170079300"
   },
-  "codeudor": {
-    "cedula": "18153551 DNI",
-    "direccion": "CARRERA 32 # 18 - 31 SUR",
-    "nombre": "jose maria villacampa ainsa",
-    "telefono": 3204955563
-  },
-  "cc": 20896387,
-  "idProcesos": [
-    50655580
-  ],
-  "procesos": [
-    {
-      "idProceso": 50655580,
-      "idConexion": 259,
-      "llaveProceso": "11001400306120170079300",
-      "fechaProceso": "2017-08-24T00:00:00",
-      "fechaUltimaActuacion": "2018-10-17T00:00:00",
-      "despacho": "JUZGADO 061 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA VILLACAMPA AINSA | Demandado: ANA EMILCE ROJAS SARMIENTO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-10-17T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 830631840,
@@ -71,5 +32,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 21
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 7502262,
+      "celular": 3204955563
+    },
+    "primerNombre": "ana",
+    "segundoNombre": "emilce",
+    "primerApellido": "rojas",
+    "segundoApellido": "sarmiento",
+    "cedula": 20896387,
+    "direccion": "carrera 32 # 18 - 31 sur",
+    "email": "jose_agudelo@juancarpas.edu.com"
+  },
+  "codeudor": {
+    "cedula": "18153551 DNI",
+    "direccion": "CARRERA 32 # 18 - 31 SUR",
+    "nombre": "jose maria villacampa ainsa",
+    "telefono": 3204955563
+  },
+  "cc": 20896387,
+  "procesos": [
+    {
+      "idProceso": 50655580,
+      "idConexion": 259,
+      "llaveProceso": "11001400306120170079300",
+      "fechaProceso": "2017-08-24T00:00:00",
+      "fechaUltimaActuacion": "2018-10-17T00:00:00",
+      "despacho": "JUZGADO 061 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA VILLACAMPA AINSA | Demandado: ANA EMILCE ROJAS SARMIENTO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50655580
+  ]
 }

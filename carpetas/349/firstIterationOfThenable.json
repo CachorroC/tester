@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302720170127200",
   "numero": 349,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302720170127200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2016-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1707475531,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-12-04T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-11-23T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      140864
+    ],
+    "radicado": "2017 - 01272",
+    "expediente": "11001400302720170127200"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 30746589,
-    "direccion": "carrera 73 b no  146 f - 50 interior 9 apartamento 604",
-    "email": "admithel.ltda@yahoo.com",
     "tel": {
       "fijo": null,
       "celular": 3155831999
@@ -14,26 +30,10 @@
     "primerNombre": "liliana",
     "segundoNombre": "garcia",
     "primerApellido": "rosero",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-11-23T00:00:00.000Z",
-    "mandamientoPago": "2017-12-04T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-11-14T00:00:00.000Z",
-    "expediente": "11001400302720170127200",
-    "capitalAdeudado": 1707475531,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      140864
-    ],
-    "radicado": "2017 - 01272",
-    "vencimientoPagare": [
-      "2016-07-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 30746589,
+    "direccion": "carrera 73 b no  146 f - 50 interior 9 apartamento 604",
+    "email": "admithel.ltda@yahoo.com"
   },
   "cc": 30746589,
   "idProcesos": null

@@ -1,54 +1,21 @@
 {
-  "llaveProceso": "11001400300820170102400",
   "numero": 548,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 23270185,
-    "direccion": null,
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "clara",
-    "segundoNombre": "patricia",
-    "primerApellido": "peña",
-    "segundoApellido": "beltran"
-  },
+  "llaveProceso": "11001400300820170102400",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400300820170102400",
+    "vencimientoPagare": [],
+    "juzgados": [],
     "capitalAdeudado": 0,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [],
     "radicado": "2017 - 01024",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400300820170102400"
   },
-  "cc": 23270185,
-  "idProcesos": [
-    50665190
-  ],
-  "procesos": [
-    {
-      "idProceso": 50665190,
-      "idConexion": 259,
-      "llaveProceso": "11001400300820170102400",
-      "fechaProceso": "2017-08-29T00:00:00",
-      "fechaUltimaActuacion": "2021-02-15T00:00:00",
-      "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PATRICIA PEÑA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2021-02-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1005448190,
@@ -63,5 +30,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 27
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "clara",
+    "segundoNombre": "patricia",
+    "primerApellido": "peña",
+    "segundoApellido": "beltran",
+    "cedula": 23270185,
+    "direccion": null,
+    "email": null
+  },
+  "cc": 23270185,
+  "procesos": [
+    {
+      "idProceso": 50665190,
+      "idConexion": 259,
+      "llaveProceso": "11001400300820170102400",
+      "fechaProceso": "2017-08-29T00:00:00",
+      "fechaUltimaActuacion": "2021-02-15T00:00:00",
+      "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: PATRICIA PEÑA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50665190
+  ]
 }

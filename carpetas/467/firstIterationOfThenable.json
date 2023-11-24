@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400301720180083200",
   "numero": 467,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400301720180083200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "37-0/2018",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      5303720477397800,
+      1977465800
+    ],
+    "radicado": "2018 - 00832",
+    "expediente": "11001400301720180083200"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79938802,
-    "direccion": null,
-    "email": "CARRERA 94 A No 18-14",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "manuel",
     "segundoNombre": "santiago",
     "primerApellido": "correal",
-    "segundoApellido": "zuñiga"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400301720180083200",
-    "capitalAdeudado": 0,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "37-0/2018",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5303720477397800,
-      1977465800
-    ],
-    "radicado": "2018 - 00832",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "zuñiga",
+    "cedula": 79938802,
+    "direccion": null,
+    "email": "CARRERA 94 A No 18-14"
   },
   "cc": 79938802,
   "idProcesos": null

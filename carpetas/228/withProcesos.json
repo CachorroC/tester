@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301820170151700",
   "numero": 228,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400301820170151700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-06-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 13622019,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-13T00:00:00.000Z",
+    "etapaProcesal": "1.100140030182017e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      119098
+    ],
+    "radicado": "2017 - 01517",
+    "expediente": "11001400301820170151700"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80740039,
-    "direccion": "calle 48b sur # 6c - 06",
-    "email": "fabianalexanderg@yahoo.es",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "fabian",
     "segundoNombre": "alexander",
     "primerApellido": "gil",
-    "segundoApellido": "gil"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-09-13T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
-    "expediente": "11001400301820170151700",
-    "capitalAdeudado": 13622019,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "1.100140030182017e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      119098
-    ],
-    "radicado": "2017 - 01517",
-    "vencimientoPagare": [
-      "2024-06-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "gil",
+    "cedula": 80740039,
+    "direccion": "calle 48b sur # 6c - 06",
+    "email": "fabianalexanderg@yahoo.es"
   },
   "codeudor": {
     "cedula": 52747161,
@@ -42,9 +42,6 @@
     "telefono": 3948677
   },
   "cc": 80740039,
-  "idProcesos": [
-    50710250
-  ],
   "procesos": [
     {
       "idProceso": 50710250,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50710250
   ]
 }

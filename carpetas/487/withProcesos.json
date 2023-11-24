@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400301420180078900",
   "numero": 487,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400301420180078900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "20-09-2018",
+    "fechaPresentacion": "2018-02-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4513089091236580,
+      "12.028.842.57"
+    ],
+    "radicado": "2018 - 00789",
+    "expediente": "11001400301420180078900"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 80473211,
-    "direccion": null,
-    "email": "CARRERA 102 B No 151-15 TORRE 2  APTO 1309",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,32 +31,12 @@
     "primerNombre": "gabriel",
     "segundoNombre": "mendoza",
     "primerApellido": "morinelly",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-02-10T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400301420180078900",
-    "capitalAdeudado": null,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "20-09-2018",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4513089091236580,
-      "12.028.842.57"
-    ],
-    "radicado": "2018 - 00789",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80473211,
+    "direccion": null,
+    "email": "CARRERA 102 B No 151-15 TORRE 2  APTO 1309"
   },
   "cc": 80473211,
-  "idProcesos": [
-    51278930
-  ],
   "procesos": [
     {
       "idProceso": 51278930,
@@ -53,5 +50,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    51278930
   ]
 }

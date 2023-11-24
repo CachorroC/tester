@@ -1,60 +1,27 @@
 {
-  "llaveProceso": "11001400302120180016300",
   "numero": 210,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 343334,
-    "direccion": "carrera 50 # 113 - 09",
-    "email": null,
-    "tel": {
-      "fijo": 4658342,
-      "celular": 3015004499
-    },
-    "primerNombre": "jose",
-    "segundoNombre": "antonio",
-    "primerApellido": "castillo",
-    "segundoApellido": "cortes"
-  },
+  "llaveProceso": "11001400302120180016300",
   "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2018-03-05T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400302120180016300",
+    "vencimientoPagare": [
+      "2020-01-01T05:00:00.000Z",
+      "2020-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 10555422,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-03-05T00:00:00.000Z",
     "etapaProcesal": "EJECUCION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       377813597718262,
       "4513070908078111 // 5303714709873201"
     ],
     "radicado": "2018 - 00163",
-    "vencimientoPagare": [
-      "2020-01-01T05:00:00.000Z",
-      "2020-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302120180016300"
   },
-  "cc": 343334,
-  "idProcesos": [
-    51006610
-  ],
-  "procesos": [
-    {
-      "idProceso": 51006610,
-      "idConexion": 259,
-      "llaveProceso": "11001400302120180016300",
-      "fechaProceso": "2018-02-13T00:00:00",
-      "fechaUltimaActuacion": "2023-09-08T00:00:00",
-      "despacho": "JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ANTONIO CASTILLO CORTES ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-09-08T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1875063180,
@@ -69,5 +36,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 79
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4658342,
+      "celular": 3015004499
+    },
+    "primerNombre": "jose",
+    "segundoNombre": "antonio",
+    "primerApellido": "castillo",
+    "segundoApellido": "cortes",
+    "cedula": 343334,
+    "direccion": "carrera 50 # 113 - 09",
+    "email": null
+  },
+  "cc": 343334,
+  "procesos": [
+    {
+      "idProceso": 51006610,
+      "idConexion": 259,
+      "llaveProceso": "11001400302120180016300",
+      "fechaProceso": "2018-02-13T00:00:00",
+      "fechaUltimaActuacion": "2023-09-08T00:00:00",
+      "despacho": "JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ANTONIO CASTILLO CORTES ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51006610
+  ]
 }

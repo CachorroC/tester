@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400302620170100600",
   "numero": 244,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400302620170100600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2033-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 3780091106,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      161786
+    ],
+    "radicado": "2017 - 01006",
+    "expediente": "11001400302620170100600"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80144827,
-    "direccion": "calle 62 a sur 87c -58",
-    "email": "pajulo8@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "ricardo",
     "segundoNombre": "andres",
     "primerApellido": "nocua",
-    "segundoApellido": "guatama"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "mandamientoPago": "2017-10-10T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
-    "expediente": "11001400302620170100600",
-    "capitalAdeudado": 3780091106,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      161786
-    ],
-    "radicado": "2017 - 01006",
-    "vencimientoPagare": [
-      "2033-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "guatama",
+    "cedula": 80144827,
+    "direccion": "calle 62 a sur 87c -58",
+    "email": "pajulo8@hotmail.com"
   },
   "codeudor": {
     "cedula": 1012324304,
@@ -42,9 +42,6 @@
     "telefono": 7839314
   },
   "cc": 80144827,
-  "idProcesos": [
-    50718800
-  ],
   "procesos": [
     {
       "idProceso": 50718800,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50718800
   ]
 }

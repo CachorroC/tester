@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301520170139400",
   "numero": 282,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400301520170139400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 66362959,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-02-19T00:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      174366
+    ],
+    "radicado": "2017 - 01394",
+    "expediente": "11001400301520170139400"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 19255260,
-    "direccion": "calle 2 c no 62 - 20",
-    "email": "maifren_13@yahoo.es",
     "tel": {
       "fijo": 4170527,
       "celular": 3125024008
@@ -14,26 +30,10 @@
     "primerNombre": "matias",
     "segundoNombre": "humberto",
     "primerApellido": "avila",
-    "segundoApellido": "aguilar"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-10T05:00:00.000Z",
-    "mandamientoPago": "2018-02-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
-    "expediente": "11001400301520170139400",
-    "capitalAdeudado": 66362959,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      174366
-    ],
-    "radicado": "2017 - 01394",
-    "vencimientoPagare": [
-      "2024-05-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "aguilar",
+    "cedula": 19255260,
+    "direccion": "calle 2 c no 62 - 20",
+    "email": "maifren_13@yahoo.es"
   },
   "codeudor": {
     "cedula": "41759787 // 39710157",

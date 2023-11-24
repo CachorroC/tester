@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400303520180037000",
   "numero": 410,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 52304124,
-    "direccion": "transversal 4h no 31-17",
-    "email": "jennymontoyav@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "jenny",
-    "segundoNombre": "liliana",
-    "primerApellido": "montoya",
-    "segundoApellido": "villamil"
-  },
+  "llaveProceso": "11001400303520180037000",
   "demanda": {
-    "fechaPresentacion": "2018-03-04T05:00:00.000Z",
-    "mandamientoPago": "2018-05-07T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400303520180037000",
+    "vencimientoPagare": [
+      "2018-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 2283566500,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-05-07T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-03-04T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       450089940
     ],
     "radicado": "2018 - 00370",
-    "vencimientoPagare": [
-      "2018-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303520180037000"
   },
-  "cc": 52304124,
-  "idProcesos": [
-    51103200
-  ],
-  "procesos": [
-    {
-      "idProceso": 51103200,
-      "idConexion": 259,
-      "llaveProceso": "11001400303520180037000",
-      "fechaProceso": "2018-04-06T00:00:00",
-      "fechaUltimaActuacion": "2022-08-25T00:00:00",
-      "despacho": "JUZGADO 035 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JENNY LILIANA MONTOYA VILLAMIL ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-08-25T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1376855330,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 37
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "jenny",
+    "segundoNombre": "liliana",
+    "primerApellido": "montoya",
+    "segundoApellido": "villamil",
+    "cedula": 52304124,
+    "direccion": "transversal 4h no 31-17",
+    "email": "jennymontoyav@hotmail.com"
+  },
+  "cc": 52304124,
+  "procesos": [
+    {
+      "idProceso": 51103200,
+      "idConexion": 259,
+      "llaveProceso": "11001400303520180037000",
+      "fechaProceso": "2018-04-06T00:00:00",
+      "fechaUltimaActuacion": "2022-08-25T00:00:00",
+      "despacho": "JUZGADO 035 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JENNY LILIANA MONTOYA VILLAMIL ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51103200
+  ]
 }

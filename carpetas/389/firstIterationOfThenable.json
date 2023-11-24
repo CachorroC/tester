@@ -1,12 +1,24 @@
 {
-  "llaveProceso": "11001400307020180012100",
   "numero": 389,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400307020180012100",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [],
+    "radicado": "2018 - 00121",
+    "expediente": "11001400307020180012100"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79874218,
-    "direccion": null,
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,22 +26,10 @@
     "primerNombre": "miguel",
     "segundoNombre": "angel",
     "primerApellido": "granados",
-    "segundoApellido": "gutierrez"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400307020180012100",
-    "capitalAdeudado": 0,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [],
-    "radicado": "2018 - 00121",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "gutierrez",
+    "cedula": 79874218,
+    "direccion": null,
+    "email": null
   },
   "cc": 79874218,
   "idProcesos": null

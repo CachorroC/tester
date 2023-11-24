@@ -1,12 +1,26 @@
 {
-  "llaveProceso": "11001400303820180014900",
   "numero": 393,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400303820180014900",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 2585739366,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377816034306740
+    ],
+    "radicado": "2018 - 00149",
+    "expediente": "11001400303820180014900"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 79134529,
-    "direccion": "carrera 79 no 19a - 28. apartamento 1102",
-    "email": "aeljogarcia69@gmail.com",
     "tel": {
       "fijo": 6356262,
       "celular": 3013377704
@@ -14,29 +28,12 @@
     "primerNombre": "miguel",
     "segundoNombre": "alejandro",
     "primerApellido": "garcia",
-    "segundoApellido": "rodriguez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-05-02T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400303820180014900",
-    "capitalAdeudado": 2585739366,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      377816034306740
-    ],
-    "radicado": "2018 - 00149",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "rodriguez",
+    "cedula": 79134529,
+    "direccion": "carrera 79 no 19a - 28. apartamento 1102",
+    "email": "aeljogarcia69@gmail.com"
   },
   "cc": 79134529,
-  "idProcesos": [
-    9088093
-  ],
   "procesos": [
     {
       "idProceso": 9088093,
@@ -50,5 +47,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    9088093
   ]
 }

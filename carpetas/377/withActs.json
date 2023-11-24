@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400304620180010700",
   "numero": 377,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 40356325,
-    "direccion": "carrera 79d 36 - 74",
-    "email": "sacave22@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "gladis",
-    "segundoNombre": "velasquez",
-    "primerApellido": "castro",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400304620180010700",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2018-01-29T00:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400304620180010700",
+    "vencimientoPagare": [
+      "2018-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 13503258,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-01-29T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       2150091493
     ],
     "radicado": "2018 - 00107",
-    "vencimientoPagare": [
-      "2018-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400304620180010700"
   },
-  "codeudor": {
-    "cedula": 86004461,
-    "direccion": "CALLE 8 B 70 - 76",
-    "nombre": "fabian castrillon gutierrez",
-    "telefono": 4710758
-  },
-  "cc": 40356325,
-  "idProcesos": [
-    10138483
-  ],
-  "procesos": [
-    {
-      "idProceso": 10138483,
-      "idConexion": 261,
-      "llaveProceso": "11001400304620180010700",
-      "fechaProceso": "2018-01-25T00:00:00",
-      "fechaUltimaActuacion": "2018-10-30T00:00:00",
-      "despacho": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FABIAN CASTRILLON GUTIERREZ | Demandado: GLADIS VELASQUEZ CASTRO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2018-10-30T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 522544993,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 18
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "gladis",
+    "segundoNombre": "velasquez",
+    "primerApellido": "castro",
+    "segundoApellido": null,
+    "cedula": 40356325,
+    "direccion": "carrera 79d 36 - 74",
+    "email": "sacave22@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 86004461,
+    "direccion": "CALLE 8 B 70 - 76",
+    "nombre": "fabian castrillon gutierrez",
+    "telefono": 4710758
+  },
+  "cc": 40356325,
+  "procesos": [
+    {
+      "idProceso": 10138483,
+      "idConexion": 261,
+      "llaveProceso": "11001400304620180010700",
+      "fechaProceso": "2018-01-25T00:00:00",
+      "fechaUltimaActuacion": "2018-10-30T00:00:00",
+      "despacho": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FABIAN CASTRILLON GUTIERREZ | Demandado: GLADIS VELASQUEZ CASTRO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    10138483
+  ]
 }

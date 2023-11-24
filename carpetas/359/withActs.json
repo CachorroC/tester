@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400306520170178600",
   "numero": 359,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79357895,
-    "direccion": "carrera 123 no 13 - 85 casa 364",
-    "email": null,
-    "tel": {
-      "fijo": 1665335,
-      "celular": 3165335586
-    },
-    "primerNombre": "jose",
-    "segundoNombre": "david",
-    "primerApellido": "peña",
-    "segundoApellido": "saavedra"
-  },
+  "llaveProceso": "11001400306520170178600",
   "demanda": {
-    "fechaPresentacion": "2017-07-12T05:00:00.000Z",
-    "mandamientoPago": "2018-02-02T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400306520170178600",
+    "vencimientoPagare": [
+      "2018-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 872532175,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-02-02T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-07-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       71141
     ],
     "radicado": "2017 - 01786",
-    "vencimientoPagare": [
-      "2018-07-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400306520170178600"
   },
-  "cc": 79357895,
-  "idProcesos": [
-    18169790
-  ],
-  "procesos": [
-    {
-      "idProceso": 18169790,
-      "idConexion": 260,
-      "llaveProceso": "11001400306520170178600",
-      "fechaProceso": "2017-12-13T00:00:00",
-      "fechaUltimaActuacion": "2020-01-14T00:00:00",
-      "despacho": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: JOSE DAVID PEÑA SAAVEDRA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-01-14T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 944912050,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 40
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 1665335,
+      "celular": 3165335586
+    },
+    "primerNombre": "jose",
+    "segundoNombre": "david",
+    "primerApellido": "peña",
+    "segundoApellido": "saavedra",
+    "cedula": 79357895,
+    "direccion": "carrera 123 no 13 - 85 casa 364",
+    "email": null
+  },
+  "cc": 79357895,
+  "procesos": [
+    {
+      "idProceso": 18169790,
+      "idConexion": 260,
+      "llaveProceso": "11001400306520170178600",
+      "fechaProceso": "2017-12-13T00:00:00",
+      "fechaUltimaActuacion": "2020-01-14T00:00:00",
+      "despacho": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: JOSE DAVID PEÑA SAAVEDRA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    18169790
+  ]
 }

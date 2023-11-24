@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "110014003080201E+22",
   "numero": 127,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "110014003080201E+22",
+  "demanda": {
+    "vencimientoPagare": [
+      "2021-05-01T05:00:00.000Z",
+      "2017-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 51302541,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-11-03T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-10-27T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      6670083892,
+      12074022
+    ],
+    "radicado": "2017 - 00735",
+    "expediente": "110014003080201E+22"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 41610065,
-    "direccion": "carrera 23 # 20 - 40 sur",
-    "email": "albertotrilleras@hotmail.com",
     "tel": {
       "fijo": 3614483,
       "celular": 3124498840
@@ -17,28 +35,10 @@
     "segundoApellido": [
       "de",
       "trilleras"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-27T00:00:00.000Z",
-    "mandamientoPago": "2017-11-03T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-01T00:00:00.000Z",
-    "expediente": "110014003080201E+22",
-    "capitalAdeudado": 51302541,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      6670083892,
-      12074022
     ],
-    "radicado": "2017 - 00735",
-    "vencimientoPagare": [
-      "2021-05-01T05:00:00.000Z",
-      "2017-07-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "cedula": 41610065,
+    "direccion": "carrera 23 # 20 - 40 sur",
+    "email": "albertotrilleras@hotmail.com"
   },
   "codeudor": {
     "cedula": 79481751,

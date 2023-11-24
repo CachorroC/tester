@@ -1,61 +1,25 @@
 {
-  "llaveProceso": "11001400302720170085000",
   "numero": 172,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 52475256,
-    "direccion": "carrera 79b # 45 - 19 sur",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "adriana",
-    "segundoNombre": "del",
-    "primerApellido": "pilar",
-    "segundoApellido": [
-      "alfonso",
-      "baquero"
-    ]
-  },
+  "llaveProceso": "11001400302720170085000",
   "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
-    "expediente": "11001400302720170085000",
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 1348750639,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       11895200
     ],
     "radicado": "2017 - 00850",
-    "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302720170085000"
   },
-  "cc": 52475256,
-  "idProcesos": [
-    50666880
-  ],
-  "procesos": [
-    {
-      "idProceso": 50666880,
-      "idConexion": 259,
-      "llaveProceso": "11001400302720170085000",
-      "fechaProceso": "2017-08-29T00:00:00",
-      "fechaUltimaActuacion": "2019-07-25T00:00:00",
-      "despacho": "JUZGADO 027 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ADRIANA  DEL PILAR ALFONSO BAQUERO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2019-07-25T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 719886630,
@@ -70,5 +34,41 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 42
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "adriana",
+    "segundoNombre": "del",
+    "primerApellido": "pilar",
+    "segundoApellido": [
+      "alfonso",
+      "baquero"
+    ],
+    "cedula": 52475256,
+    "direccion": "carrera 79b # 45 - 19 sur",
+    "email": null
+  },
+  "cc": 52475256,
+  "procesos": [
+    {
+      "idProceso": 50666880,
+      "idConexion": 259,
+      "llaveProceso": "11001400302720170085000",
+      "fechaProceso": "2017-08-29T00:00:00",
+      "fechaUltimaActuacion": "2019-07-25T00:00:00",
+      "despacho": "JUZGADO 027 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ADRIANA  DEL PILAR ALFONSO BAQUERO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50666880
+  ]
 }

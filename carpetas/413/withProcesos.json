@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25754418900220180036300",
   "numero": 413,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754418900220180036300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2035-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2147005205,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2018-05-18T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-04-26T00:00:00.000Z",
+    "municipio": "SOACHA",
+    "obligacion": [
+      20990182990
+    ],
+    "radicado": "2018 - 00363",
+    "expediente": "25754418900220180036300"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1018430139,
-    "direccion": "carrera 38 no 14-93 bloque 9 apto 102",
-    "email": "luifermkt889@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -17,26 +33,10 @@
     "segundoApellido": [
       "",
       "patarroyo"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-04-26T00:00:00.000Z",
-    "mandamientoPago": "2018-05-18T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
-    "expediente": "25754418900220180036300",
-    "capitalAdeudado": 2147005205,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990182990
     ],
-    "radicado": "2018 - 00363",
-    "vencimientoPagare": [
-      "2035-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "cedula": 1018430139,
+    "direccion": "carrera 38 no 14-93 bloque 9 apto 102",
+    "email": "luifermkt889@hotmail.com"
   },
   "codeudor": {
     "cedula": 79793904,
@@ -45,6 +45,6 @@
     "telefono": 4805457
   },
   "cc": 1018430139,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

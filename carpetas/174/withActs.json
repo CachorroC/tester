@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400302520170090300",
   "numero": 174,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 52189873,
-    "direccion": "calle 74g # 80 - 58 sur",
-    "email": "darnelly-74@hotmail.com",
-    "tel": {
-      "fijo": 4530972,
-      "celular": 3144189224
-    },
-    "primerNombre": "darnelly",
-    "segundoNombre": "hernandez",
-    "primerApellido": "martinez",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400302520170090300",
   "demanda": {
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
-    "mandamientoPago": "2017-09-18T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
-    "expediente": "11001400302520170090300",
+    "vencimientoPagare": [
+      "2026-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 14795921,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-18T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       136962
     ],
     "radicado": "2017 - 00903",
-    "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302520170090300"
   },
-  "cc": 52189873,
-  "idProcesos": [
-    112048180
-  ],
-  "procesos": [
-    {
-      "idProceso": 112048180,
-      "idConexion": 259,
-      "llaveProceso": "11001400302520170090300",
-      "fechaProceso": "2017-08-29T00:00:00",
-      "fechaUltimaActuacion": "2023-11-16T00:00:00",
-      "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DARNELLY HERNANDEZ MARTINEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-11-16T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1935644740,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 100
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 4530972,
+      "celular": 3144189224
+    },
+    "primerNombre": "darnelly",
+    "segundoNombre": "hernandez",
+    "primerApellido": "martinez",
+    "segundoApellido": null,
+    "cedula": 52189873,
+    "direccion": "calle 74g # 80 - 58 sur",
+    "email": "darnelly-74@hotmail.com"
+  },
+  "cc": 52189873,
+  "procesos": [
+    {
+      "idProceso": 112048180,
+      "idConexion": 259,
+      "llaveProceso": "11001400302520170090300",
+      "fechaProceso": "2017-08-29T00:00:00",
+      "fechaUltimaActuacion": "2023-11-16T00:00:00",
+      "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DARNELLY HERNANDEZ MARTINEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    112048180
+  ]
 }

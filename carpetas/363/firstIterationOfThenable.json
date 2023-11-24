@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "25754400300220170040900",
   "numero": 363,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25754400300220170040900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2210-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "12-12-2017",
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      4513077734943038,
+      "31.247.705.94"
+    ],
+    "radicado": "2017 - 00409",
+    "expediente": "25754400300220170040900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 52645617,
-    "direccion": null,
-    "email": "CARRERA 4 A ESTE No 38 - 56 CASA 127 SOACHA",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "maria",
     "segundoNombre": "liliana",
     "primerApellido": "castañeda",
-    "segundoApellido": "zapata"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "25754400300220170040900",
-    "capitalAdeudado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "12-12-2017",
-    "municipio": "SOACHA",
-    "obligacion": [
-      4513077734943038,
-      "31.247.705.94"
-    ],
-    "radicado": "2017 - 00409",
-    "vencimientoPagare": [
-      "2210-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "zapata",
+    "cedula": 52645617,
+    "direccion": null,
+    "email": "CARRERA 4 A ESTE No 38 - 56 CASA 127 SOACHA"
   },
   "codeudor": {
     "direccion": "27-07-2028"

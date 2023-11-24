@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400303620180081800",
   "numero": 539,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 51937267,
-    "direccion": "callle 106 b- no 54-57 apto 201 puente largo",
-    "email": "amoplata@yahoo.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "adriana",
-    "segundoNombre": "lucia",
-    "primerApellido": "mora",
-    "segundoApellido": "plata"
-  },
+  "llaveProceso": "11001400303620180081800",
   "demanda": {
-    "fechaPresentacion": "2018-07-11T00:00:00.000Z",
-    "mandamientoPago": "2018-07-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-07-03T00:00:00.000Z",
-    "expediente": "11001400303620180081800",
+    "vencimientoPagare": [
+      "2021-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 32026447,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-07-03T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-07-19T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-07-11T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       2070086628,
       4.59425005660657e+29
     ],
     "radicado": "2018 - 00818",
-    "vencimientoPagare": [
-      "2021-04-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303620180081800"
   },
-  "cc": 51937267,
-  "idProcesos": [
-    51306830
-  ],
-  "procesos": [
-    {
-      "idProceso": 51306830,
-      "idConexion": 259,
-      "llaveProceso": "11001400303620180081800",
-      "fechaProceso": "2018-07-13T00:00:00",
-      "fechaUltimaActuacion": "2023-10-04T00:00:00",
-      "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ADRIANA LUCIA MORA PLATA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-10-04T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1893890670,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 139
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "adriana",
+    "segundoNombre": "lucia",
+    "primerApellido": "mora",
+    "segundoApellido": "plata",
+    "cedula": 51937267,
+    "direccion": "callle 106 b- no 54-57 apto 201 puente largo",
+    "email": "amoplata@yahoo.com"
+  },
+  "cc": 51937267,
+  "procesos": [
+    {
+      "idProceso": 51306830,
+      "idConexion": 259,
+      "llaveProceso": "11001400303620180081800",
+      "fechaProceso": "2018-07-13T00:00:00",
+      "fechaUltimaActuacion": "2023-10-04T00:00:00",
+      "despacho": "JUZGADO 015 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ADRIANA LUCIA MORA PLATA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51306830
+  ]
 }

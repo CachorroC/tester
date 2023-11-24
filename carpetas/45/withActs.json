@@ -1,59 +1,26 @@
 {
-  "llaveProceso": "11001400301920170052800",
   "numero": 45,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 4042105,
-    "direccion": "sin informacion",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": 3123142449
-    },
-    "primerNombre": "edison",
-    "segundoNombre": "palma",
-    "primerApellido": "cardenal",
-    "segundoApellido": null
-  },
+  "llaveProceso": "11001400301920170052800",
   "demanda": {
-    "fechaPresentacion": "2017-06-14T00:00:00.000Z",
-    "mandamientoPago": "2017-07-06T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400301920170052800",
+    "vencimientoPagare": [
+      "2020-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 11832595,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-07-06T00:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-06-14T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       377815134447388,
       "40999835900267587//53037142299024763"
     ],
     "radicado": "2017 - 00528",
-    "vencimientoPagare": [
-      "2020-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301920170052800"
   },
-  "cc": 4042105,
-  "idProcesos": [
-    74646350
-  ],
-  "procesos": [
-    {
-      "idProceso": 74646350,
-      "idConexion": 259,
-      "llaveProceso": "11001400301920170052800",
-      "fechaProceso": "2017-06-15T00:00:00",
-      "fechaUltimaActuacion": "2020-02-03T00:00:00",
-      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: EDISON PALMA CARDENAL ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-02-03T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 952387560,
@@ -68,5 +35,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 74
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3123142449
+    },
+    "primerNombre": "edison",
+    "segundoNombre": "palma",
+    "primerApellido": "cardenal",
+    "segundoApellido": null,
+    "cedula": 4042105,
+    "direccion": "sin informacion",
+    "email": null
+  },
+  "cc": 4042105,
+  "procesos": [
+    {
+      "idProceso": 74646350,
+      "idConexion": 259,
+      "llaveProceso": "11001400301920170052800",
+      "fechaProceso": "2017-06-15T00:00:00",
+      "fechaUltimaActuacion": "2020-02-03T00:00:00",
+      "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: EDISON PALMA CARDENAL ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    74646350
+  ]
 }

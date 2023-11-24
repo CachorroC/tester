@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001418901620190108500",
   "numero": 502,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 1023861016,
-    "direccion": "transversal 70g sur-68-52 torre 18 apartamento 1401",
-    "email": "Anrf1985@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "angelica",
-    "segundoNombre": "nathaly",
-    "primerApellido": "rozo",
-    "segundoApellido": "franco"
-  },
+  "llaveProceso": "11001418901620190108500",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-12-10T05:00:00.000Z",
-    "expediente": "11001418901620190108500",
+    "vencimientoPagare": [
+      "2021-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 10930100,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-12-10T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       4.59426010701041e+29
     ],
     "radicado": "2019 - 01085",
-    "vencimientoPagare": [
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001418901620190108500"
   },
-  "cc": 1023861016,
-  "idProcesos": [
-    86958040
-  ],
-  "procesos": [
-    {
-      "idProceso": 86958040,
-      "idConexion": 259,
-      "llaveProceso": "11001418901620190108500",
-      "fechaProceso": "2021-03-12T00:00:00",
-      "fechaUltimaActuacion": "2023-02-28T00:00:00",
-      "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANGELICA NATHALY ROZO FRANCO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-02-28T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1661289800,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 33
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "angelica",
+    "segundoNombre": "nathaly",
+    "primerApellido": "rozo",
+    "segundoApellido": "franco",
+    "cedula": 1023861016,
+    "direccion": "transversal 70g sur-68-52 torre 18 apartamento 1401",
+    "email": "Anrf1985@hotmail.com"
+  },
+  "cc": 1023861016,
+  "procesos": [
+    {
+      "idProceso": 86958040,
+      "idConexion": 259,
+      "llaveProceso": "11001418901620190108500",
+      "fechaProceso": "2021-03-12T00:00:00",
+      "fechaUltimaActuacion": "2023-02-28T00:00:00",
+      "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANGELICA NATHALY ROZO FRANCO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    86958040
+  ]
 }

@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400303720170139100",
   "numero": 278,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 35506033,
-    "direccion": "carrera  101  no 71 b - 53",
-    "email": "natis-rolita@hotmail.con",
-    "tel": {
-      "fijo": 4357832,
-      "celular": 3103430010
-    },
-    "primerNombre": "luz",
-    "segundoNombre": "dary",
-    "primerApellido": "puerta",
-    "segundoApellido": "jaramillo"
-  },
+  "llaveProceso": "11001400303720170139100",
   "demanda": {
-    "fechaPresentacion": "2017-10-10T05:00:00.000Z",
-    "mandamientoPago": "2016-01-16T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-28T00:00:00.000Z",
-    "expediente": "11001400303720170139100",
+    "vencimientoPagare": [
+      "2019-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 12347548,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-28T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2016-01-16T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-10-10T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       4670083154
     ],
     "radicado": "2017 - 01391",
-    "vencimientoPagare": [
-      "2019-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400303720170139100"
   },
-  "codeudor": {
-    "cedula": 4337296,
-    "direccion": "CARRERA  115 No 89 A - 31 INT 12 APART 202",
-    "nombre": "jose noel puerta puerta",
-    "telefono": 3103431255
-  },
-  "cc": 35506033,
-  "idProcesos": [
-    112945420
-  ],
-  "procesos": [
-    {
-      "idProceso": 112945420,
-      "idConexion": 259,
-      "llaveProceso": "11001400303720170139100",
-      "fechaProceso": "2017-10-11T00:00:00",
-      "fechaUltimaActuacion": "2022-03-09T00:00:00",
-      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE NOEL PUERTA JARAMILLO | Demandado: LUZ DARY PUERTA JARAMILLO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-03-09T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1262270900,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 70
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4357832,
+      "celular": 3103430010
+    },
+    "primerNombre": "luz",
+    "segundoNombre": "dary",
+    "primerApellido": "puerta",
+    "segundoApellido": "jaramillo",
+    "cedula": 35506033,
+    "direccion": "carrera  101  no 71 b - 53",
+    "email": "natis-rolita@hotmail.con"
+  },
+  "codeudor": {
+    "cedula": 4337296,
+    "direccion": "CARRERA  115 No 89 A - 31 INT 12 APART 202",
+    "nombre": "jose noel puerta puerta",
+    "telefono": 3103431255
+  },
+  "cc": 35506033,
+  "procesos": [
+    {
+      "idProceso": 112945420,
+      "idConexion": 259,
+      "llaveProceso": "11001400303720170139100",
+      "fechaProceso": "2017-10-11T00:00:00",
+      "fechaUltimaActuacion": "2022-03-09T00:00:00",
+      "despacho": "JUZGADO 011 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE NOEL PUERTA JARAMILLO | Demandado: LUZ DARY PUERTA JARAMILLO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    112945420
+  ]
 }

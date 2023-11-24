@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400308620170082600",
   "numero": 146,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400308620170082600",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-12-11T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12730731,
+      "377813515714351."
+    ],
+    "radicado": "2017 - 00826",
+    "expediente": "11001400308620170082600"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 4520757,
-    "direccion": "tranversal 3 # 52b - 09 apto 405",
-    "email": "pelaezpedro@hotmail.com",
     "tel": {
       "fijo": 2103564,
       "celular": 3116216567
@@ -14,29 +31,12 @@
     "primerNombre": "pedro",
     "segundoNombre": "nel",
     "primerApellido": "pelaez",
-    "segundoApellido": "tisnes"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
-    "mandamientoPago": "2017-12-11T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
-    "expediente": "11001400308620170082600",
-    "capitalAdeudado": null,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12730731,
-      "377813515714351."
-    ],
-    "radicado": "2017 - 00826",
-    "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "tisnes",
+    "cedula": 4520757,
+    "direccion": "tranversal 3 # 52b - 09 apto 405",
+    "email": "pelaezpedro@hotmail.com"
   },
   "cc": 4520757,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

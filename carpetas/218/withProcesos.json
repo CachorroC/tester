@@ -1,12 +1,27 @@
 {
-  "llaveProceso": "11001400300220170084000",
   "numero": 218,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400300220170084000",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 1296319636,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-08-25T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-25T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      20990118584,
+      "0377813642739792"
+    ],
+    "radicado": "2017 - 00840",
+    "expediente": "11001400300220170084000"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 12402596,
-    "direccion": "calle 144 # 136a - 45",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,25 +29,10 @@
     "primerNombre": "elio",
     "segundoNombre": "alvarado",
     "primerApellido": "hernandez",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-11T00:00:00.000Z",
-    "mandamientoPago": "2017-10-25T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-25T00:00:00.000Z",
-    "expediente": "11001400300220170084000",
-    "capitalAdeudado": 1296319636,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990118584,
-      "0377813642739792"
-    ],
-    "radicado": "2017 - 00840",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 12402596,
+    "direccion": "calle 144 # 136a - 45",
+    "email": null
   },
   "codeudor": {
     "cedula": 34322133,
@@ -41,9 +41,6 @@
     "telefono": 7026848
   },
   "cc": 12402596,
-  "idProcesos": [
-    50699960
-  ],
   "procesos": [
     {
       "idProceso": 50699960,
@@ -57,5 +54,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50699960
   ]
 }

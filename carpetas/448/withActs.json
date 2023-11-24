@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400301220180081000",
   "numero": 448,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79342337,
-    "direccion": "calle 113 sur no 3-30 este",
-    "email": "ngluisalfredo@gmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "luis",
-    "segundoNombre": "alfredo",
-    "primerApellido": "niño",
-    "segundoApellido": "garcia"
-  },
+  "llaveProceso": "11001400301220180081000",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
-    "expediente": "11001400301220180081000",
+    "vencimientoPagare": [
+      "2021-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 14744174,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-06-21T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "1.100140030122018e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRESTAMO"
     ],
     "radicado": "2018 - 00810",
-    "vencimientoPagare": [
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301220180081000"
   },
-  "cc": 79342337,
-  "idProcesos": [
-    51282150
-  ],
-  "procesos": [
-    {
-      "idProceso": 51282150,
-      "idConexion": 259,
-      "llaveProceso": "11001400301220180081000",
-      "fechaProceso": "2018-06-29T00:00:00",
-      "fechaUltimaActuacion": "2023-06-05T00:00:00",
-      "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS ALFREDO NIÑO GARCIA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-06-05T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1765085550,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 65
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "luis",
+    "segundoNombre": "alfredo",
+    "primerApellido": "niño",
+    "segundoApellido": "garcia",
+    "cedula": 79342337,
+    "direccion": "calle 113 sur no 3-30 este",
+    "email": "ngluisalfredo@gmail.com"
+  },
+  "cc": 79342337,
+  "procesos": [
+    {
+      "idProceso": 51282150,
+      "idConexion": 259,
+      "llaveProceso": "11001400301220180081000",
+      "fechaProceso": "2018-06-29T00:00:00",
+      "fechaUltimaActuacion": "2023-06-05T00:00:00",
+      "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS ALFREDO NIÑO GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51282150
+  ]
 }

@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001418900920170008900",
   "numero": 231,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001418900920170008900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2015-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "1970-01-01T05:43:20.721Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      44518,
+      145608
+    ],
+    "radicado": "2017 - 00089",
+    "expediente": "11001418900920170008900"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1022943195,
-    "direccion": "marcelaipuzsuarez@hotmail.com",
-    "email": "7493169 / 7672067",
     "tel": {
       "fijo": null,
       "celular": null
@@ -18,27 +35,10 @@
       "suarez",
       "y",
       "otro"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
-    "entregaGarantiasAbogado": "1970-01-01T05:43:20.721Z",
-    "expediente": "11001418900920170008900",
-    "capitalAdeudado": 0,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      44518,
-      145608
     ],
-    "radicado": "2017 - 00089",
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "cedula": 1022943195,
+    "direccion": "marcelaipuzsuarez@hotmail.com",
+    "email": "7493169 / 7672067"
   },
   "codeudor": {
     "cedula": "CALLE 72B BIS No 5A 22 SUR",
@@ -47,6 +47,6 @@
     "telefono": "JHONNY HERNANDO BELTRAN SALCEDO"
   },
   "cc": 1022943195,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

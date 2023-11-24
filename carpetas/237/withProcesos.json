@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "25799418900120170024700",
   "numero": 237,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "25799418900120170024700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 9027695142,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "TENJO",
+    "obligacion": [
+      151792
+    ],
+    "radicado": "2017 - 00247",
+    "expediente": "25799418900120170024700"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80237050,
-    "direccion": "carrera 9 no 3-93",
-    "email": "numasue@gmail.com",
     "tel": {
       "fijo": 8656241,
       "celular": 3114602334
@@ -14,26 +30,10 @@
     "primerNombre": "numael",
     "segundoNombre": "augusto",
     "primerApellido": "gonzalez",
-    "segundoApellido": "salguero"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
-    "expediente": "25799418900120170024700",
-    "capitalAdeudado": 9027695142,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "TENJO",
-    "obligacion": [
-      151792
-    ],
-    "radicado": "2017 - 00247",
-    "vencimientoPagare": [
-      "2017-05-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "salguero",
+    "cedula": 80237050,
+    "direccion": "carrera 9 no 3-93",
+    "email": "numasue@gmail.com"
   },
   "codeudor": {
     "cedula": 1078366269,
@@ -42,6 +42,6 @@
     "telefono": "8656241 /3124269483"
   },
   "cc": 80237050,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

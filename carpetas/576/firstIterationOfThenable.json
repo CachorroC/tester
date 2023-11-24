@@ -1,12 +1,30 @@
 {
-  "llaveProceso": "11001400300620230086400",
   "numero": 576,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400300620230086400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-04-01T05:00:00.000Z",
+      "2026-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 94472793,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      4610082832,
+      "Q 0000001020754305027001"
+    ],
+    "radicado": "2023 - 00843",
+    "expediente": "11001400300620230086400"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 1020754305,
-    "direccion": "carrera 15 no. 127 - 32 apartamento 105 portaldel country",
-    "email": "jcamilovp@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3188015288
@@ -14,28 +32,10 @@
     "primerNombre": "juan",
     "segundoNombre": "camilo",
     "primerApellido": "velasquez",
-    "segundoApellido": "pereira"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
-    "expediente": "11001400300620230086400",
-    "capitalAdeudado": 94472793,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4610082832,
-      "Q 0000001020754305027001"
-    ],
-    "radicado": "2023 - 00843",
-    "vencimientoPagare": [
-      "2026-04-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "pereira",
+    "cedula": 1020754305,
+    "direccion": "carrera 15 no. 127 - 32 apartamento 105 portaldel country",
+    "email": "jcamilovp@gmail.com"
   },
   "cc": 1020754305,
   "idProcesos": null

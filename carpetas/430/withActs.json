@@ -1,12 +1,43 @@
 {
-  "llaveProceso": "11001410300120180040400",
   "numero": 430,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001410300120180040400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2028-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2904538303,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-04-27T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2018-05-08T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      20990162905
+    ],
+    "radicado": "2018 - 00404",
+    "expediente": "11001410300120180040400"
+  },
+  "fecha": "2019-12-19T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 909598440,
+    "llaveProceso": "11001410300120180040400",
+    "consActuacion": 46,
+    "fechaActuacion": "2019-12-19T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 150 DE 2019\r\n",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2019-12-19T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 46
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1024517216,
-    "direccion": "diagonal 68 d no 70c-31",
-    "email": "alejaso1291@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": 3112907361
@@ -17,26 +48,10 @@
     "segundoApellido": [
       "cuellar",
       "arias"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-05-08T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-04-27T00:00:00.000Z",
-    "expediente": "11001410300120180040400",
-    "capitalAdeudado": 2904538303,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990162905
     ],
-    "radicado": "2018 - 00404",
-    "vencimientoPagare": [
-      "2028-04-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "cedula": 1024517216,
+    "direccion": "diagonal 68 d no 70c-31",
+    "email": "alejaso1291@hotmail.com"
   },
   "codeudor": {
     "cedula": 1024527755,
@@ -45,10 +60,6 @@
     "telefono": 3134216520
   },
   "cc": 1024517216,
-  "idProcesos": [
-    17487020,
-    50678323
-  ],
   "procesos": [
     {
       "idProceso": 17487020,
@@ -75,19 +86,8 @@
       "cantFilas": -1
     }
   ],
-  "fecha": "2019-12-19T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 909598440,
-    "llaveProceso": "11001410300120180040400",
-    "consActuacion": 46,
-    "fechaActuacion": "2019-12-19T00:00:00",
-    "actuacion": "Archivo Definitivo",
-    "anotacion": "CAJA 150 DE 2019\r\n",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2019-12-19T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 46
-  }
+  "idProcesos": [
+    17487020,
+    50678323
+  ]
 }

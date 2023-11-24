@@ -1,12 +1,27 @@
 {
-  "llaveProceso": "11001400303320170118000",
   "numero": 124,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400303320170118000",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-09T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-08-16T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      153313,
+      377815399826276
+    ],
+    "radicado": "2017 - 01180",
+    "expediente": "11001400303320170118000"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 40025572,
-    "direccion": "calle 181 # 17b 47 san antonio",
-    "email": "eariasseguros@hotmail.com",
     "tel": {
       "fijo": 6749599,
       "celular": 3202092701
@@ -14,25 +29,10 @@
     "primerNombre": "blanca",
     "segundoNombre": "edelmira",
     "primerApellido": "arias",
-    "segundoApellido": "melo"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-16T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-08-09T00:00:00.000Z",
-    "expediente": "11001400303320170118000",
-    "capitalAdeudado": 0,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      153313,
-      377815399826276
-    ],
-    "radicado": "2017 - 01180",
-    "vencimientoPagare": [],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "melo",
+    "cedula": 40025572,
+    "direccion": "calle 181 # 17b 47 san antonio",
+    "email": "eariasseguros@hotmail.com"
   },
   "cc": 40025572,
   "idProcesos": null

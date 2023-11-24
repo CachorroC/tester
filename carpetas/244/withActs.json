@@ -1,64 +1,25 @@
 {
-  "llaveProceso": "11001400302620170100600",
   "numero": 244,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 80144827,
-    "direccion": "calle 62 a sur 87c -58",
-    "email": "pajulo8@hotmail.com",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "ricardo",
-    "segundoNombre": "andres",
-    "primerApellido": "nocua",
-    "segundoApellido": "guatama"
-  },
+  "llaveProceso": "11001400302620170100600",
   "demanda": {
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "mandamientoPago": "2017-10-10T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
-    "expediente": "11001400302620170100600",
+    "vencimientoPagare": [
+      "2033-02-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 3780091106,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-12T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-10-10T00:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       161786
     ],
     "radicado": "2017 - 01006",
-    "vencimientoPagare": [
-      "2033-02-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302620170100600"
   },
-  "codeudor": {
-    "cedula": 1012324304,
-    "direccion": "CALLE 62A87C-58",
-    "nombre": "janeth eliana sarmiento gamba",
-    "telefono": 7839314
-  },
-  "cc": 80144827,
-  "idProcesos": [
-    50718800
-  ],
-  "procesos": [
-    {
-      "idProceso": 50718800,
-      "idConexion": 259,
-      "llaveProceso": "11001400302620170100600",
-      "fechaProceso": "2017-09-20T00:00:00",
-      "fechaUltimaActuacion": "2017-12-13T00:00:00",
-      "despacho": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RICARDO ANDRES NOCUA GUATAMA | Demandado: JANETH ELIANA SARMIENTO GAMBA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2017-12-13T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 713977140,
@@ -73,5 +34,44 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 11
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "ricardo",
+    "segundoNombre": "andres",
+    "primerApellido": "nocua",
+    "segundoApellido": "guatama",
+    "cedula": 80144827,
+    "direccion": "calle 62 a sur 87c -58",
+    "email": "pajulo8@hotmail.com"
+  },
+  "codeudor": {
+    "cedula": 1012324304,
+    "direccion": "CALLE 62A87C-58",
+    "nombre": "janeth eliana sarmiento gamba",
+    "telefono": 7839314
+  },
+  "cc": 80144827,
+  "procesos": [
+    {
+      "idProceso": 50718800,
+      "idConexion": 259,
+      "llaveProceso": "11001400302620170100600",
+      "fechaProceso": "2017-09-20T00:00:00",
+      "fechaUltimaActuacion": "2017-12-13T00:00:00",
+      "despacho": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RICARDO ANDRES NOCUA GUATAMA | Demandado: JANETH ELIANA SARMIENTO GAMBA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50718800
+  ]
 }

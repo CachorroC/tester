@@ -1,60 +1,27 @@
 {
-  "llaveProceso": "11001400301420180092900",
   "numero": 540,
-  "tipoProceso": "SINGULAR",
-  "category": "Reintegra",
-  "deudor": {
-    "cedula": 3242760,
-    "direccion": "carrera 86 no 99-23",
-    "email": "rodrigogar68@hotmail.com",
-    "tel": {
-      "fijo": 6855750,
-      "celular": 3143659602
-    },
-    "primerNombre": "jose",
-    "segundoNombre": "rodrigo",
-    "primerApellido": "garcia",
-    "segundoApellido": "quintero"
-  },
+  "llaveProceso": "11001400301420180092900",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-07-26T00:00:00.000Z",
-    "expediente": "11001400301420180092900",
+    "vencimientoPagare": [
+      "2121-05-01T05:00:00.000Z",
+      "2021-05-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 17667402,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       1980096337,
       6700083464
     ],
     "radicado": "2018 - 00929",
-    "vencimientoPagare": [
-      "2121-05-01T05:00:00.000Z",
-      "2021-05-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400301420180092900"
   },
-  "cc": 3242760,
-  "idProcesos": [
-    51341610
-  ],
-  "procesos": [
-    {
-      "idProceso": 51341610,
-      "idConexion": 259,
-      "llaveProceso": "11001400301420180092900",
-      "fechaProceso": "2018-08-01T00:00:00",
-      "fechaUltimaActuacion": "2023-06-27T00:00:00",
-      "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE RODRIGO GARCIA QUINTERO ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-06-27T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1790477520,
@@ -69,5 +36,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 55
-  }
+  },
+  "category": "Reintegra",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 6855750,
+      "celular": 3143659602
+    },
+    "primerNombre": "jose",
+    "segundoNombre": "rodrigo",
+    "primerApellido": "garcia",
+    "segundoApellido": "quintero",
+    "cedula": 3242760,
+    "direccion": "carrera 86 no 99-23",
+    "email": "rodrigogar68@hotmail.com"
+  },
+  "cc": 3242760,
+  "procesos": [
+    {
+      "idProceso": 51341610,
+      "idConexion": 259,
+      "llaveProceso": "11001400301420180092900",
+      "fechaProceso": "2018-08-01T00:00:00",
+      "fechaUltimaActuacion": "2023-06-27T00:00:00",
+      "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE RODRIGO GARCIA QUINTERO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    51341610
+  ]
 }

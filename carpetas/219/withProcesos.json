@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400307220170107500",
   "numero": 219,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400307220170107500",
+  "demanda": {
+    "vencimientoPagare": [
+      "2032-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 5089180553,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-18T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-09-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      25214
+    ],
+    "radicado": "2017 - 01075",
+    "expediente": "11001400307220170107500"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80921416,
-    "direccion": "carrera 99a # 61a - 19 casa 61",
-    "email": "layton_blas@live.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "blas",
     "segundoNombre": "laiton",
     "primerApellido": "patiño",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-11T00:00:00.000Z",
-    "mandamientoPago": "2017-09-18T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-04T00:00:00.000Z",
-    "expediente": "11001400307220170107500",
-    "capitalAdeudado": 5089180553,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      25214
-    ],
-    "radicado": "2017 - 01075",
-    "vencimientoPagare": [
-      "2032-07-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 80921416,
+    "direccion": "carrera 99a # 61a - 19 casa 61",
+    "email": "layton_blas@live.com"
   },
   "cc": 80921416,
-  "idProcesos": [
-    50704760
-  ],
   "procesos": [
     {
       "idProceso": 50704760,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50704760
   ]
 }

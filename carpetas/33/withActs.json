@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400308220170064900",
   "numero": 33,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400308220170064900",
+  "demanda": {
+    "vencimientoPagare": [
+      "2020-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-05-30T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-06-15T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-06-09T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377813824603022,
+      4513078713738027
+    ],
+    "radicado": "2017 - 00649",
+    "expediente": "11001400308220170064900"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 28936365,
-    "direccion": "calle 401 sur 72 l -40 cristales  bogota",
-    "email": "snaluistol@gmail.com",
     "tel": {
       "fijo": null,
       "celular": 3118113651
@@ -14,27 +31,10 @@
     "primerNombre": "nini",
     "segundoNombre": "johana",
     "primerApellido": "cortes",
-    "segundoApellido": "monroy"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-06-09T00:00:00.000Z",
-    "mandamientoPago": "2017-06-15T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-05-30T00:00:00.000Z",
-    "expediente": "11001400308220170064900",
-    "capitalAdeudado": null,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      377813824603022,
-      4513078713738027
-    ],
-    "radicado": "2017 - 00649",
-    "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "monroy",
+    "cedula": 28936365,
+    "direccion": "calle 401 sur 72 l -40 cristales  bogota",
+    "email": "snaluistol@gmail.com"
   },
   "codeudor": {
     "cedula": 28936365,
@@ -43,9 +43,6 @@
     "telefono": 3134775602
   },
   "cc": 28936365,
-  "idProcesos": [
-    81869251
-  ],
   "procesos": [
     {
       "idProceso": 81869251,
@@ -59,5 +56,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    81869251
   ]
 }

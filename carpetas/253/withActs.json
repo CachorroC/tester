@@ -1,58 +1,25 @@
 {
-  "llaveProceso": "11001400302520170099800",
   "numero": 253,
-  "tipoProceso": "PRENDARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1013604409,
-    "direccion": "calle 47 sur no 27-81",
-    "email": "jan_2504@hotmail.com",
-    "tel": {
-      "fijo": 3521314,
-      "celular": 3115197002
-    },
-    "primerNombre": "jorge",
-    "segundoNombre": "eduardo",
-    "primerApellido": "acosta",
-    "segundoApellido": "corredor"
-  },
+  "llaveProceso": "11001400302520170099800",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-09-14T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-09-07T00:00:00.000Z",
-    "expediente": "11001400302520170099800",
+    "vencimientoPagare": [
+      "2020-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 15114966,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-09-07T00:00:00.000Z",
     "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-09-14T00:00:00.000Z",
     "etapaProcesal": "1.100140030252017e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12395327
     ],
     "radicado": "2017 - 00998",
-    "vencimientoPagare": [
-      "2020-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302520170099800"
   },
-  "cc": 1013604409,
-  "idProcesos": [
-    50708840
-  ],
-  "procesos": [
-    {
-      "idProceso": 50708840,
-      "idConexion": 259,
-      "llaveProceso": "11001400302520170099800",
-      "fechaProceso": "2017-09-15T00:00:00",
-      "fechaUltimaActuacion": "2022-11-11T00:00:00",
-      "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE EDUARDO ACOSTA CORREDOR ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-11-11T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1503714940,
@@ -67,5 +34,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 76
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 3521314,
+      "celular": 3115197002
+    },
+    "primerNombre": "jorge",
+    "segundoNombre": "eduardo",
+    "primerApellido": "acosta",
+    "segundoApellido": "corredor",
+    "cedula": 1013604409,
+    "direccion": "calle 47 sur no 27-81",
+    "email": "jan_2504@hotmail.com"
+  },
+  "cc": 1013604409,
+  "procesos": [
+    {
+      "idProceso": 50708840,
+      "idConexion": 259,
+      "llaveProceso": "11001400302520170099800",
+      "fechaProceso": "2017-09-15T00:00:00",
+      "fechaUltimaActuacion": "2022-11-11T00:00:00",
+      "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE EDUARDO ACOSTA CORREDOR ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50708840
+  ]
 }

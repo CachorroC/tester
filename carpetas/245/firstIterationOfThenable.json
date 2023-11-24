@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400303820170095700",
   "numero": 245,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400303820170095700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2022-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 3543272158,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      103058
+    ],
+    "radicado": "2017 - 00957",
+    "expediente": "11001400303820170095700"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 79893549,
-    "direccion": "calle 76 c sur 1h 27",
-    "email": "jaorgodi@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,26 +30,10 @@
     "primerNombre": "javier",
     "segundoNombre": "orlando",
     "primerApellido": "gomez",
-    "segundoApellido": "diaz"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
-    "expediente": "11001400303820170095700",
-    "capitalAdeudado": 3543272158,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      103058
-    ],
-    "radicado": "2017 - 00957",
-    "vencimientoPagare": [
-      "2022-11-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "diaz",
+    "cedula": 79893549,
+    "direccion": "calle 76 c sur 1h 27",
+    "email": "jaorgodi@hotmail.com"
   },
   "codeudor": {
     "cedula": 1061675,

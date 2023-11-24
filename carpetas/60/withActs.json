@@ -1,61 +1,25 @@
 {
-  "llaveProceso": "11001400302020170090100",
   "numero": 60,
-  "tipoProceso": "SINGULAR",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 1032373332,
-    "direccion": null,
-    "email": "CRA 77 A No. 63f-47 piso 2",
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "lady",
-    "segundoNombre": "johanna",
-    "primerApellido": "bayona",
-    "segundoApellido": "garcía"
-  },
+  "llaveProceso": "11001400302020170090100",
   "demanda": {
-    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400302020170090100",
+    "vencimientoPagare": [
+      "1243-01-01T04:56:16.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 43,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "2017-09-18T00:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       35987412
     ],
     "radicado": "2017 - 00901",
-    "vencimientoPagare": [
-      "1243-01-01T04:56:16.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400302020170090100"
   },
-  "codeudor": {
-    "direccion": 43150
-  },
-  "cc": 1032373332,
-  "idProcesos": [
-    50584210
-  ],
-  "procesos": [
-    {
-      "idProceso": 50584210,
-      "idConexion": 259,
-      "llaveProceso": "11001400302020170090100",
-      "fechaProceso": "2017-07-19T00:00:00",
-      "fechaUltimaActuacion": "2020-02-17T00:00:00",
-      "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LADY JOHANNA BAYONA GARCIA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2020-02-17T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 958134120,
@@ -70,5 +34,41 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 64
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "lady",
+    "segundoNombre": "johanna",
+    "primerApellido": "bayona",
+    "segundoApellido": "garcía",
+    "cedula": 1032373332,
+    "direccion": null,
+    "email": "CRA 77 A No. 63f-47 piso 2"
+  },
+  "codeudor": {
+    "direccion": 43150
+  },
+  "cc": 1032373332,
+  "procesos": [
+    {
+      "idProceso": 50584210,
+      "idConexion": 259,
+      "llaveProceso": "11001400302020170090100",
+      "fechaProceso": "2017-07-19T00:00:00",
+      "fechaUltimaActuacion": "2020-02-17T00:00:00",
+      "despacho": "JUZGADO 007 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LADY JOHANNA BAYONA GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    50584210
+  ]
 }

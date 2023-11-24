@@ -1,39 +1,39 @@
 {
-  "llaveProceso": "25754418900320170075500",
   "numero": 120,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 900212673,
-    "direccion": "carrera 3 # 29a - 02",
-    "email": null,
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "jencell",
-    "primerApellido": "e.u.",
-    "segundoApellido": null,
-    "segundoNombre": null
-  },
+  "llaveProceso": "25754418900320170075500",
   "demanda": {
-    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
-    "mandamientoPago": "2017-09-08T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
-    "expediente": "25754418900320170075500",
+    "vencimientoPagare": [
+      "2021-04-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 13906249,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-09-08T00:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
     "municipio": "SOACHA",
     "obligacion": [
       6240082776
     ],
     "radicado": "2017 - 00755",
-    "vencimientoPagare": [
-      "2021-04-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "expediente": "25754418900320170075500"
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "jencell",
+    "segundoNombre": null,
+    "primerApellido": "e.u.",
+    "segundoApellido": null,
+    "cedula": 900212673,
+    "direccion": "carrera 3 # 29a - 02",
+    "email": null
   },
   "codeudor": {
     "cedula": 52771090,
@@ -42,6 +42,6 @@
     "telefono": 5753416
   },
   "cc": 900212673,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

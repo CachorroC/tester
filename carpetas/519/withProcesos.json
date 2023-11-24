@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400307020190055100",
   "numero": 519,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400307020190055100",
+  "demanda": {
+    "vencimientoPagare": [
+      "2027-03-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 30056041,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2019-06-02T05:00:00.000Z",
+    "etapaProcesal": "1.100140030702019e+22",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "2273 320150109"
+    ],
+    "radicado": "2019 - 00551",
+    "expediente": "11001400307020190055100"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 1030529007,
-    "direccion": "carrera 98d # 61a-24 sur (kr 113a # 61a-24 sur bosa porvenir)",
-    "email": "catalinalosada_w@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "leidy",
     "segundoNombre": "catalina",
     "primerApellido": "losada",
-    "segundoApellido": "cabrera"
-  },
-  "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2019-06-02T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400307020190055100",
-    "capitalAdeudado": 30056041,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "1.100140030702019e+22",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "2273 320150109"
-    ],
-    "radicado": "2019 - 00551",
-    "vencimientoPagare": [
-      "2027-03-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "cabrera",
+    "cedula": 1030529007,
+    "direccion": "carrera 98d # 61a-24 sur (kr 113a # 61a-24 sur bosa porvenir)",
+    "email": "catalinalosada_w@hotmail.com"
   },
   "cc": 1030529007,
-  "idProcesos": [
-    112013800
-  ],
   "procesos": [
     {
       "idProceso": 112013800,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    112013800
   ]
 }

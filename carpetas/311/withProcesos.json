@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001400370820170018400",
   "numero": 311,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400370820170018400",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-07-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1076199162,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2017-10-24T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2017-11-02T00:00:00.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "2017-10-31T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "00377815346213420"
+    ],
+    "radicado": "2017 - 00184",
+    "expediente": "11001400370820170018400"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 32730630,
-    "direccion": "carrera 65 no 22 a- 43 apartamento 1002- 5",
-    "email": "pa_pinzon@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,29 +31,12 @@
     "primerNombre": "paula",
     "segundoNombre": "andrea",
     "primerApellido": "pinzon",
-    "segundoApellido": "otalvaro"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-10-31T00:00:00.000Z",
-    "mandamientoPago": "2017-11-02T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-10-24T00:00:00.000Z",
-    "expediente": "11001400370820170018400",
-    "capitalAdeudado": 1076199162,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "LIQUIDACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "00377815346213420"
-    ],
-    "radicado": "2017 - 00184",
-    "vencimientoPagare": [
-      "2017-07-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "otalvaro",
+    "cedula": 32730630,
+    "direccion": "carrera 65 no 22 a- 43 apartamento 1002- 5",
+    "email": "pa_pinzon@hotmail.com"
   },
   "cc": 32730630,
-  "idProcesos": [],
-  "procesos": []
+  "procesos": [],
+  "idProcesos": []
 }

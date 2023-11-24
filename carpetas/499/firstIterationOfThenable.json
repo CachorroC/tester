@@ -1,12 +1,29 @@
 {
-  "llaveProceso": "11001418901320190070800",
   "numero": 499,
-  "tipoProceso": "HIPOTECARO",
+  "llaveProceso": "11001418901320190070800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 24807317,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": "2018-08-10T05:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "2018-12-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "20990123680  7/  377813468472239",
+      "4513079359765043 // 53037220341399596"
+    ],
+    "radicado": "2019 - 00708",
+    "expediente": "11001418901320190070800"
+  },
   "category": "Bancolombia",
+  "tipoProceso": "HIPOTECARO",
   "deudor": {
-    "cedula": 3208569,
-    "direccion": "diagonal 77b no 119 a-74 apto 504 int6",
-    "email": "dcentro@pcpplasticos.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,27 +31,10 @@
     "primerNombre": "floresmiro",
     "segundoNombre": "aponte",
     "primerApellido": "acosta",
-    "segundoApellido": null
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-12-10T05:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2018-08-10T05:00:00.000Z",
-    "expediente": "11001418901320190070800",
-    "capitalAdeudado": 24807317,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "EJECUCIÓN",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "20990123680  7/  377813468472239",
-      "4513079359765043 // 53037220341399596"
-    ],
-    "radicado": "2019 - 00708",
-    "vencimientoPagare": [
-      "2024-11-01T05:00:00.000Z"
-    ],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": null,
+    "cedula": 3208569,
+    "direccion": "diagonal 77b no 119 a-74 apto 504 int6",
+    "email": "dcentro@pcpplasticos.com"
   },
   "codeudor": {
     "cedula": 51955296,

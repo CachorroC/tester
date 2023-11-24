@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400300620170076300",
   "numero": 272,
-  "tipoProceso": "PRENDARIO",
+  "llaveProceso": "11001400300620170076300",
+  "demanda": {
+    "vencimientoPagare": [
+      "2017-09-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1458624226,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "PRENDARIO",
+    "mandamientoPago": "2017-09-10T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-05-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      12381866
+    ],
+    "radicado": "2017 - 00763",
+    "expediente": "11001400300620170076300"
+  },
   "category": "Terminados",
+  "tipoProceso": "PRENDARIO",
   "deudor": {
-    "cedula": 80406979,
-    "direccion": "calle 9 no 1 - 32     tabio",
-    "email": "nellyandreabotiab@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,31 +30,12 @@
     "primerNombre": "luis",
     "segundoNombre": "fernando",
     "primerApellido": "gutierrez",
-    "segundoApellido": "rodriguez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-05-10T05:00:00.000Z",
-    "mandamientoPago": "2017-09-10T05:00:00.000Z",
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400300620170076300",
-    "capitalAdeudado": 1458624226,
-    "tipoProceso": "PRENDARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12381866
-    ],
-    "radicado": "2017 - 00763",
-    "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "rodriguez",
+    "cedula": 80406979,
+    "direccion": "calle 9 no 1 - 32     tabio",
+    "email": "nellyandreabotiab@hotmail.com"
   },
   "cc": 80406979,
-  "idProcesos": [
-    50760770
-  ],
   "procesos": [
     {
       "idProceso": 50760770,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50760770
   ]
 }

@@ -1,12 +1,27 @@
 {
-  "llaveProceso": "11001400306820180047600",
   "numero": 426,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400306820180047600",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 1309817652,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-04-26T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-05-17T00:00:00.000Z",
+    "etapaProcesal": "SUSPENDIDO",
+    "fechaPresentacion": "2018-04-08T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "3,78E+32"
+    ],
+    "radicado": "2018 - 00476",
+    "expediente": "11001400306820180047600"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 19395095,
-    "direccion": "carrera 151 c no 109a-50",
-    "email": "hernando.22.95@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -17,30 +32,12 @@
     "segundoApellido": [
       "montenegro",
       "garcia"
-    ]
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-04-08T00:00:00.000Z",
-    "mandamientoPago": "2018-05-17T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-04-26T00:00:00.000Z",
-    "expediente": "11001400306820180047600",
-    "capitalAdeudado": 1309817652,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "SUSPENDIDO",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "3,78E+32"
     ],
-    "radicado": "2018 - 00476",
-    "vencimientoPagare": [],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "cedula": 19395095,
+    "direccion": "carrera 151 c no 109a-50",
+    "email": "hernando.22.95@hotmail.com"
   },
   "cc": 19395095,
-  "idProcesos": [
-    19217890
-  ],
   "procesos": [
     {
       "idProceso": 19217890,
@@ -54,5 +51,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    19217890
   ]
 }

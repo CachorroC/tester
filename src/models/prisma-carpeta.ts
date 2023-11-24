@@ -1,11 +1,14 @@
-import { Carpeta,
+import { Actuacion, Carpeta,
   Category,
   Demanda,
   Deudor,
   Prisma,
+  Proceso,
   TipoProceso, } from '@prisma/client';
 import { IntCarpeta } from '../types/carpetas';
 import { Decimal } from '@prisma/client/runtime/library';
+import { intProceso } from '../types/procesos';
+import { intActuacion } from '../types/actuaciones';
 
 export class PrismaCarpeta implements Carpeta {
   constructor(
@@ -198,3 +201,100 @@ export class PrismaDemanda implements Demanda {
 
 
 export type CarpetaInstante = InstanceType<typeof PrismaCarpeta>
+
+
+export class PrismaProceso implements Proceso {
+  idProceso: number;
+  idConexion: number;
+  llaveProceso: string;
+  fechaProceso: Date | null;
+  fechaUltimaActuacion: Date | null;
+  despacho: string;
+  departamento: string;
+  sujetosProcesales: string;
+  esPrivado: boolean;
+  cantFilas: number;
+  constructor (
+    {
+      idProceso, idConexion, llaveProceso, fechaProceso, fechaUltimaActuacion, despacho, departamento, sujetosProcesales, esPrivado, cantFilas
+    }: intProceso
+  ) {
+    this.idProceso = idProceso;
+    this.idConexion = idConexion;
+    this.llaveProceso = llaveProceso;
+    this.fechaProceso = fechaProceso
+      ? new Date(
+        fechaProceso
+      )
+      : null;
+    this.fechaUltimaActuacion = fechaUltimaActuacion
+      ? new Date(
+        fechaUltimaActuacion
+      )
+      : null;
+    this.despacho = despacho;
+    this.departamento = departamento;
+    this.sujetosProcesales = sujetosProcesales;
+    this.esPrivado = esPrivado;
+    this.cantFilas = cantFilas;
+  }
+  id!: number;
+}
+
+
+export class PrismaActuacion implements Actuacion {
+  id!: number;
+  isUltimaAct: boolean;
+  createdAt!: Date;
+  idRegActuacion: number;
+  llaveProceso: string;
+  consActuacion: number;
+  fechaActuacion: Date;
+  actuacion: string;
+  anotacion: string | null;
+  fechaInicial: Date | null;
+  fechaRegistro: Date;
+  fechaFinal: Date | null;
+  codRegla: string;
+  conDocumentos: boolean;
+  cant: number;
+  idProceso: number | null;
+  constructor (
+    {
+      actuacion, anotacion, fechaRegistro, fechaActuacion, fechaInicial, fechaFinal, cant, codRegla, conDocumentos, consActuacion, idRegActuacion, llaveProceso
+    }: intActuacion, idProceso?: number
+  ) {
+    this.actuacion =actuacion;
+    this.anotacion = anotacion;
+    this.cant = cant;
+    this.codRegla = codRegla;
+    this.conDocumentos = conDocumentos;
+    this.consActuacion = consActuacion;
+    this.fechaActuacion = new Date(
+      fechaActuacion
+    );
+    this.fechaFinal= fechaFinal
+      ? new Date(
+        fechaFinal
+      )
+      : null;
+    this.fechaInicial = fechaInicial
+      ? new Date(
+        fechaInicial
+      )
+      : null;
+    this.fechaRegistro = new Date(
+      fechaRegistro
+    );
+    this.idRegActuacion = idRegActuacion;
+    this.llaveProceso = llaveProceso;
+    this.isUltimaAct = cant === consActuacion
+      ? true
+      : false;
+    this.idProceso = idProceso
+      ? idProceso
+      : null;
+
+  }
+
+}

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400301220170088200",
   "numero": 44,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400301220170088200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2078520,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-09-25T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      377813731599891
+    ],
+    "radicado": "2017 - 00882",
+    "expediente": "11001400301220170088200"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 11188351,
-    "direccion": "carrera 80 no. 67-41 calle 66 no. 113-c- 45 apto 404 interior 4 sevilla real conjunto residencial",
-    "email": null,
     "tel": {
       "fijo": null,
       "celular": 3124041113
@@ -14,26 +30,10 @@
     "primerNombre": "jose",
     "segundoNombre": "freddy",
     "primerApellido": "vargas",
-    "segundoApellido": "ruiz"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
-    "mandamientoPago": "2017-09-25T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
-    "expediente": "11001400301220170088200",
-    "capitalAdeudado": 2078520,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      377813731599891
-    ],
-    "radicado": "2017 - 00882",
-    "vencimientoPagare": [
-      "2024-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "ruiz",
+    "cedula": 11188351,
+    "direccion": "carrera 80 no. 67-41 calle 66 no. 113-c- 45 apto 404 interior 4 sevilla real conjunto residencial",
+    "email": null
   },
   "codeudor": {
     "cedula": 28168817,
@@ -42,9 +42,6 @@
     "telefono": "28168817//3102605021"
   },
   "cc": 11188351,
-  "idProcesos": [
-    50631800
-  ],
   "procesos": [
     {
       "idProceso": 50631800,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    50631800
   ]
 }

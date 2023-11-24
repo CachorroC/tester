@@ -1,67 +1,25 @@
 {
-  "llaveProceso": "11001400307820170123500",
   "numero": 367,
-  "tipoProceso": "HIPOTECARIO",
-  "category": "Terminados",
-  "deudor": {
-    "cedula": 79416270,
-    "direccion": "calle 130 c bis a no 99-49",
-    "email": "amezquitapaa@gmail.com",
-    "tel": {
-      "fijo": 6481255,
-      "celular": 3144899865
-    },
-    "primerNombre": "andres",
-    "segundoNombre": "antonio",
-    "primerApellido": "",
-    "segundoApellido": [
-      "amezquita",
-      "paez"
-    ]
-  },
+  "llaveProceso": "11001400307820170123500",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": "2017-12-12T05:00:00.000Z",
-    "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
-    "expediente": "11001400307820170123500",
+    "vencimientoPagare": [
+      "2033-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 29419277,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": "2017-12-12T05:00:00.000Z",
     "etapaProcesal": "1.1001400307820171e+22",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       168725
     ],
     "radicado": "2017 - 01235",
-    "vencimientoPagare": [
-      "2033-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400307820170123500"
   },
-  "codeudor": {
-    "cedula": 52019717,
-    "direccion": "CALLE 130 C BIS A No 99-49",
-    "nombre": "carmen rojas cardenas",
-    "telefono": "F 6876682"
-  },
-  "cc": 79416270,
-  "idProcesos": [
-    88297260
-  ],
-  "procesos": [
-    {
-      "idProceso": 88297260,
-      "idConexion": 259,
-      "llaveProceso": "11001400307820170123500",
-      "fechaProceso": "2018-11-28T00:00:00",
-      "fechaUltimaActuacion": "2022-11-01T00:00:00",
-      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARMEN ROJAS CARDENAS | Demandado: ANDRES ANTONIO AMEZQUITA PAEZ ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2022-11-01T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1484299510,
@@ -76,5 +34,47 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 68
-  }
+  },
+  "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 6481255,
+      "celular": 3144899865
+    },
+    "primerNombre": "andres",
+    "segundoNombre": "antonio",
+    "primerApellido": "",
+    "segundoApellido": [
+      "amezquita",
+      "paez"
+    ],
+    "cedula": 79416270,
+    "direccion": "calle 130 c bis a no 99-49",
+    "email": "amezquitapaa@gmail.com"
+  },
+  "codeudor": {
+    "cedula": 52019717,
+    "direccion": "CALLE 130 C BIS A No 99-49",
+    "nombre": "carmen rojas cardenas",
+    "telefono": "F 6876682"
+  },
+  "cc": 79416270,
+  "procesos": [
+    {
+      "idProceso": 88297260,
+      "idConexion": 259,
+      "llaveProceso": "11001400307820170123500",
+      "fechaProceso": "2018-11-28T00:00:00",
+      "fechaUltimaActuacion": "2022-11-01T00:00:00",
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARMEN ROJAS CARDENAS | Demandado: ANDRES ANTONIO AMEZQUITA PAEZ ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    88297260
+  ]
 }

@@ -1,60 +1,27 @@
 {
-  "llaveProceso": "11001400305520230074600",
   "numero": 573,
-  "tipoProceso": "SINGULAR",
-  "category": "Bancolombia",
-  "deudor": {
-    "cedula": 52327261,
-    "direccion": "cr 104 no 13d 77 cs 241 conjunto residencial sabanagrande 1",
-    "email": "galvis-almanza@hotmail.com",
-    "tel": {
-      "fijo": 4152969,
-      "celular": 3203369576
-    },
-    "primerNombre": "sandra",
-    "segundoNombre": "patricia",
-    "primerApellido": "galvis",
-    "segundoApellido": "almanza"
-  },
+  "llaveProceso": "11001400305520230074600",
   "demanda": {
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
-    "expediente": "11001400305520230074600",
+    "vencimientoPagare": [
+      "2023-03-01T05:00:00.000Z",
+      "2026-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
     "capitalAdeudado": 55099216,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
     "etapaProcesal": null,
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       4020084965,
       100260717
     ],
     "radicado": "2023 - 001310",
-    "vencimientoPagare": [
-      "2023-03-01T05:00:00.000Z",
-      "2026-08-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "expediente": "11001400305520230074600"
   },
-  "cc": 52327261,
-  "idProcesos": [
-    1829856154
-  ],
-  "procesos": [
-    {
-      "idProceso": 1829856154,
-      "idConexion": 263,
-      "llaveProceso": "11001400305520230074600",
-      "fechaProceso": "2023-08-09T00:00:00",
-      "fechaUltimaActuacion": "2023-11-10T00:00:00",
-      "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JAIME ENRIQUE QUINTERO MENDOZA ",
-      "esPrivado": false,
-      "cantFilas": -1
-    }
-  ],
   "fecha": "2023-11-10T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1137554444,
@@ -69,5 +36,38 @@
     "codRegla": "00                              ",
     "conDocumentos": false,
     "cant": 9
-  }
+  },
+  "category": "Bancolombia",
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 4152969,
+      "celular": 3203369576
+    },
+    "primerNombre": "sandra",
+    "segundoNombre": "patricia",
+    "primerApellido": "galvis",
+    "segundoApellido": "almanza",
+    "cedula": 52327261,
+    "direccion": "cr 104 no 13d 77 cs 241 conjunto residencial sabanagrande 1",
+    "email": "galvis-almanza@hotmail.com"
+  },
+  "cc": 52327261,
+  "procesos": [
+    {
+      "idProceso": 1829856154,
+      "idConexion": 263,
+      "llaveProceso": "11001400305520230074600",
+      "fechaProceso": "2023-08-09T00:00:00",
+      "fechaUltimaActuacion": "2023-11-10T00:00:00",
+      "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JAIME ENRIQUE QUINTERO MENDOZA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    1829856154
+  ]
 }

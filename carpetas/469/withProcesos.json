@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400307020180092200",
   "numero": 469,
-  "tipoProceso": "SINGULAR",
+  "llaveProceso": "11001400307020180092200",
+  "demanda": {
+    "vencimientoPagare": [
+      "2022-11-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 1477079200,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2018-08-01T00:00:00.000Z",
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": "2018-09-21T00:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2018-08-09T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      21581018168
+    ],
+    "radicado": "2017 - 00922",
+    "expediente": "11001400307020180092200"
+  },
   "category": "Terminados",
+  "tipoProceso": "SINGULAR",
   "deudor": {
-    "cedula": 46667409,
-    "direccion": "calle 43 no 80f-20",
-    "email": null,
     "tel": {
       "fijo": 8117033,
       "celular": 3123178629
@@ -14,31 +30,12 @@
     "primerNombre": "luz",
     "segundoNombre": "myriam",
     "primerApellido": "valderrama",
-    "segundoApellido": "tuta"
-  },
-  "demanda": {
-    "fechaPresentacion": "2018-08-09T00:00:00.000Z",
-    "mandamientoPago": "2018-09-21T00:00:00.000Z",
-    "entregaGarantiasAbogado": "2018-08-01T00:00:00.000Z",
-    "expediente": "11001400307020180092200",
-    "capitalAdeudado": 1477079200,
-    "tipoProceso": "SINGULAR",
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      21581018168
-    ],
-    "radicado": "2017 - 00922",
-    "vencimientoPagare": [
-      "2022-11-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "tuta",
+    "cedula": 46667409,
+    "direccion": "calle 43 no 80f-20",
+    "email": null
   },
   "cc": 46667409,
-  "idProcesos": [
-    18376650
-  ],
   "procesos": [
     {
       "idProceso": 18376650,
@@ -52,5 +49,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    18376650
   ]
 }

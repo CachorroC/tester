@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400307020170121800",
   "numero": 330,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400307020170121800",
+  "demanda": {
+    "vencimientoPagare": [
+      "2042-10-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 3610354525,
+    "departamento": "BOGOTÁ",
+    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "2017-11-14T00:00:00.000Z",
+    "municipio": "BOGOTA",
+    "obligacion": [
+      156888
+    ],
+    "radicado": "2017 - 01218",
+    "expediente": "11001400307020170121800"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80185084,
-    "direccion": "carrera 95 a  no 136 - 47 apartamento 401 bloque 3",
-    "email": "arby3920@hotmail.com",
     "tel": {
       "fijo": 6822121,
       "celular": 3176822122
@@ -14,26 +30,10 @@
     "primerNombre": "nelson",
     "segundoNombre": "arbey",
     "primerApellido": "cangrejo",
-    "segundoApellido": "suarez"
-  },
-  "demanda": {
-    "fechaPresentacion": "2017-11-14T00:00:00.000Z",
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": "2017-10-31T00:00:00.000Z",
-    "expediente": "11001400307020170121800",
-    "capitalAdeudado": 3610354525,
-    "tipoProceso": "HIPOTECARIO",
-    "etapaProcesal": "ADMISION",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      156888
-    ],
-    "radicado": "2017 - 01218",
-    "vencimientoPagare": [
-      "2042-10-01T05:00:00.000Z"
-    ],
-    "departamento": "BOGOTÁ",
-    "juzgados": []
+    "segundoApellido": "suarez",
+    "cedula": 80185084,
+    "direccion": "carrera 95 a  no 136 - 47 apartamento 401 bloque 3",
+    "email": "arby3920@hotmail.com"
   },
   "codeudor": {
     "cedula": 1022956167,
@@ -42,9 +42,6 @@
     "telefono": 3144200
   },
   "cc": 80185084,
-  "idProcesos": [
-    113385910
-  ],
   "procesos": [
     {
       "idProceso": 113385910,
@@ -58,5 +55,8 @@
       "esPrivado": false,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    113385910
   ]
 }
