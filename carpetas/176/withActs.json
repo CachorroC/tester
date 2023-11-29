@@ -65,9 +65,22 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NILCY ELENA BORJA SALCEDO ",
       "esPrivado": false,
       "cantFilas": -1
+    },
+    {
+      "idProceso": 81628051,
+      "idConexion": 320,
+      "llaveProceso": "11001400300420170080100",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
     }
   ],
   "idProcesos": [
-    112783650
+    112783650,
+    81628051
   ]
 }

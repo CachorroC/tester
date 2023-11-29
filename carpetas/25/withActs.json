@@ -20,22 +20,6 @@
     "radicado": "2017 - 00335",
     "expediente": "11001310301120170033500"
   },
-  "fecha": "2023-03-10T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1096493124,
-    "llaveProceso": "11001310301120170033500",
-    "consActuacion": 110,
-    "fechaActuacion": "2023-03-10T00:00:00",
-    "actuacion": "Movimiento expediente",
-    "anotacion": "Se anexa respuesta Policía Nacional y se pasa a la letra .- aa",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-03-10T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 110,
-    "idProceso": 1805257424
-  },
   "category": "Reintegra",
   "tipoProceso": "PRENDARIO",
   "deudor": {
@@ -54,6 +38,18 @@
   "cc": 3197274,
   "procesos": [
     {
+      "idProceso": 80553011,
+      "idConexion": 320,
+      "llaveProceso": "11001310301120170033500",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 011 CIVIL DEL CIRCUITO DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    },
+    {
       "idProceso": 1805257424,
       "idConexion": 310,
       "llaveProceso": "11001310301120170033500",
@@ -67,6 +63,7 @@
     }
   ],
   "idProcesos": [
+    80553011,
     1805257424
   ]
 }

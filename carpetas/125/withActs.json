@@ -20,22 +20,6 @@
     "radicado": "2017 - 01520",
     "expediente": "11001400304720170152000"
   },
-  "fecha": "2022-09-02T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1217234763,
-    "llaveProceso": "11001400304720170152000",
-    "consActuacion": 94,
-    "fechaActuacion": "2022-09-02T00:00:00",
-    "actuacion": "Envío Expediente",
-    "anotacion": null,
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2022-09-02T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 94,
-    "idProceso": 109959053
-  },
   "category": "Reintegra",
   "tipoProceso": "SINGULAR",
   "deudor": {
@@ -60,6 +44,18 @@
   "cc": 74338870,
   "procesos": [
     {
+      "idProceso": 97088411,
+      "idConexion": 320,
+      "llaveProceso": "11001400304720170152000",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    },
+    {
       "idProceso": 109959053,
       "idConexion": 261,
       "llaveProceso": "11001400304720170152000",
@@ -73,6 +69,7 @@
     }
   ],
   "idProcesos": [
+    97088411,
     109959053
   ]
 }

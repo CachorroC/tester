@@ -39,6 +39,21 @@
     "email": "ciro.onofe1105@gmail.com"
   },
   "cc": 1022335014,
-  "procesos": [],
-  "idProcesos": []
+  "procesos": [
+    {
+      "idProceso": 159336301,
+      "idConexion": 320,
+      "llaveProceso": "25430400300120230112700",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
+      "departamento": "CUNDINAMARCA",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    159336301
+  ]
 }

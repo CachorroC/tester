@@ -37,6 +37,21 @@
     "email": "pelaezpedro@hotmail.com"
   },
   "cc": 4520757,
-  "procesos": [],
-  "idProcesos": []
+  "procesos": [
+    {
+      "idProceso": 81888371,
+      "idConexion": 320,
+      "llaveProceso": "11001400308620170082600",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    81888371
+  ]
 }

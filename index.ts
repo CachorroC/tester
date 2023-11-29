@@ -5,9 +5,6 @@ import { categoryAssignment } from './src/models/categories';
 import { connectToDatabase } from './src/services/database.service';
 import
 { insertActuacionesInPrisma,
-  insertCarpetaInPrisma,
-  insertDemandaInPrisma,
-  insertDeudorInPrisma,
   insertJuzgadoInPrisma,
   insertProcesosInPrisma, } from './src/data/insert-carpetas';
 import { PrismaCarpeta } from './src/models/prisma-carpeta';
@@ -102,9 +99,11 @@ async function f () {
         carpeta.numero, thener
       );
 
+
       continue;
     }
 
+    await thener.prismaProcesos();
     await thener.consultaActuaciones();
 
     fs.writeFile(
@@ -162,7 +161,7 @@ async function insertManyCarpetas () {
         insertOne, null, 2
       ) }`,
     );
-
+    /*
     const prismaCarpetaInserter = await insertCarpetaInPrisma(
       carpeta
     );
@@ -195,7 +194,7 @@ async function insertManyCarpetas () {
       JSON.stringify(
         prismaDemandaInserter
       ),
-    );
+    ); */
 
     const prismaJuzgadoInserter = await insertJuzgadoInPrisma(
       carpeta
@@ -213,7 +212,7 @@ async function insertManyCarpetas () {
         prismaJuzgadoInserter
       ),
     );
-
+    /*
     const prismaDeudorInserter = await insertDeudorInPrisma(
       carpeta
     );
@@ -240,7 +239,7 @@ async function insertManyCarpetas () {
             : value;
         }
       ),
-    );
+    ); */
 
     const prismaProcesoInserter = await insertProcesosInPrisma(
       carpeta.procesos ?? [], numero

@@ -1,12 +1,28 @@
 {
-  "llaveProceso": "11001400308620180006700",
   "numero": 374,
-  "tipoProceso": "HIPOTECARIO",
+  "llaveProceso": "11001400308620180006700",
+  "demanda": {
+    "vencimientoPagare": [
+      "2024-08-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": 2700610092,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      121543
+    ],
+    "radicado": "2018 - 00067",
+    "expediente": "11001400308620180006700"
+  },
   "category": "Terminados",
+  "tipoProceso": "HIPOTECARIO",
   "deudor": {
-    "cedula": 80850549,
-    "direccion": "calle 2 sur 16 - 36 manzana 104 // carrera 96 d 6 - 55 cada 81 et 1",
-    "email": "jjhoan_27@hotmail.com",
     "tel": {
       "fijo": null,
       "celular": null
@@ -14,22 +30,10 @@
     "primerNombre": "jhoan",
     "segundoNombre": "antonio",
     "primerApellido": "barajas",
-    "segundoApellido": "montenegro"
-  },
-  "demanda": {
-    "tipoProceso": "SINGULAR",
-    "fechaPresentacion": null,
-    "mandamientoPago": null,
-    "entregaGarantiasAbogado": null,
-    "expediente": "11001400308620180006700",
-    "capitalAdeudado": 2700610092,
-    "etapaProcesal": "NOTIFICACION",
-    "municipio": "BOGOTA",
-    "obligacion": [121543],
-    "radicado": "2018 - 00067",
-    "vencimientoPagare": ["2024-08-26T00:00:00.000Z"],
-    "departamento": "CUNDINAMARCA",
-    "juzgados": []
+    "segundoApellido": "montenegro",
+    "cedula": 80850549,
+    "direccion": "calle 2 sur 16 - 36 manzana 104 // carrera 96 d 6 - 55 cada 81 et 1",
+    "email": "jjhoan_27@hotmail.com"
   },
   "codeudor": {
     "cedula": 52936062,
@@ -38,7 +42,6 @@
     "telefono": 7326829
   },
   "cc": 80850549,
-  "idProcesos": [81895161],
   "procesos": [
     {
       "idProceso": 81895161,
@@ -52,5 +55,8 @@
       "esPrivado": true,
       "cantFilas": -1
     }
+  ],
+  "idProcesos": [
+    81895161
   ]
 }

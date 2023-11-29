@@ -297,8 +297,14 @@ export async function insertDemandaInPrisma(
         where: {
           carpetaNumero: numero,
         },
-        create: newPrismaDemanda,
-        update: newPrismaDemanda,
+        create: {
+          ...newPrismaDemanda,
+          carpetaNumero: numero
+        },
+        update: {
+          ...newPrismaDemanda,
+          carpetaNumero: numero
+        },
       }
     );
     return {
@@ -384,8 +390,14 @@ export async function insertDeudorInPrisma(
         where: {
           carpetaNumero: numero,
         },
-        create: newPrismaDeudor,
-        update: newPrismaDeudor,
+        create: {
+          ...newPrismaDeudor,
+          carpetaNumero: numero
+        },
+        update: {
+          ...newPrismaDeudor,
+          carpetaNumero: numero
+        },
       }
     );
     return {

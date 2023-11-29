@@ -17,6 +17,7 @@ import
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
 import { PrismaDemanda, PrismaDeudor } from './prisma-carpeta';
+import { tipoProcesoBuilder } from '../data/tipoProcesos';
 
 const client = new PrismaClient();
 
@@ -118,7 +119,9 @@ export class CarpetaJudicial implements IntCarpeta {
       : null;
     this.numero = numero;
     this.tipoProceso = demanda.tipoProceso
-      ? ( demanda.tipoProceso as TipoProceso )
+      ? tipoProcesoBuilder(
+        demanda.tipoProceso
+      )
       : 'SINGULAR';
     this.category = category;
     this.deudor = new ClassDeudor(
@@ -154,7 +157,6 @@ export class CarpetaJudicial implements IntCarpeta {
   async prismaCarpeta () {
 
     try {
-
       return await client.carpeta.upsert(
         {
           where: {
@@ -259,13 +261,13 @@ export class CarpetaJudicial implements IntCarpeta {
 
       const json = ( await request.json() ) as ConsultaNumeroRadicacion;
 
-      const responseReturn: Data = {
+      const responseReturn = {
         StatusCode: request.status,
         Message   : request.statusText as Message,
         procesos  : json.procesos,
       };
 
-      for ( const proceso of json.procesos ) {
+      for ( const proceso of responseReturn.procesos ) {
         if ( proceso.esPrivado ) {
           continue;
         }
@@ -286,99 +288,10 @@ export class CarpetaJudicial implements IntCarpeta {
         );
         this.demanda.departamento = proceso.departamento;
 
-        try {
-          await client.proceso.upsert(
-            {
-              where: {
-                idProceso: proceso.idProceso
-              },
-              create: {
-                llaveProceso     : proceso.llaveProceso,
-                idProceso        : proceso.idProceso,
-                idConexion       : proceso.idConexion,
-                despacho         : proceso.despacho,
-                departamento     : proceso.departamento,
-                sujetosProcesales: proceso.sujetosProcesales,
-                esPrivado        : proceso.esPrivado,
-                cantFilas        : proceso.cantFilas,
-                fechaProceso     : proceso.fechaProceso
-                  ? new Date(
-                    proceso.fechaProceso
-                  )
-                  : null,
-                fechaUltimaActuacion: proceso.fechaUltimaActuacion
-                  ? new Date(
-                    proceso.fechaUltimaActuacion
-                  )
-                  : null,
-                Juzgado: {
-                  connectOrCreate: {
-                    where: {
-                      tipo: proceso.despacho
-                    },
-                    create: new NewJuzgado(
-                      proceso
-                    )
-                  }
-                },
-
-
-              },
-              update: {
-                llaveProceso     : proceso.llaveProceso,
-                idProceso        : proceso.idProceso,
-                idConexion       : proceso.idConexion,
-                despacho         : proceso.despacho,
-                departamento     : proceso.departamento,
-                sujetosProcesales: proceso.sujetosProcesales,
-                esPrivado        : proceso.esPrivado,
-                cantFilas        : proceso.cantFilas,
-                fechaProceso     : proceso.fechaProceso
-                  ? new Date(
-                    proceso.fechaProceso
-                  )
-                  : null,
-                fechaUltimaActuacion: proceso.fechaUltimaActuacion
-                  ? new Date(
-                    proceso.fechaUltimaActuacion
-                  )
-                  : null,
-                Juzgado: {
-                  connectOrCreate: {
-                    where: {
-                      tipo: proceso.despacho
-                    },
-                    create: new NewJuzgado(
-                      proceso
-                    )
-                  }
-                },
-
-
-              }
-            }
-          );
-        } catch ( error ) {
-          console.log(
-            error
-          );
-        }
       }
 
-      const activeProcesos: intProceso[] = [];
-      json.procesos.forEach(
-        (
-          proceso
-        ) => {
-          if ( !proceso.esPrivado ) {
-            activeProcesos.push(
-              proceso
-            );
-          }
-        }
-      );
-      this.procesos = activeProcesos;
-      this.idProcesos = activeProcesos.map(
+      this.procesos = responseReturn.procesos;
+      this.idProcesos = responseReturn.procesos.map(
         (
           prc
         ) => {
@@ -420,6 +333,158 @@ export class CarpetaJudicial implements IntCarpeta {
           error, null, 2
         ),
       };
+    }
+  }
+  async prismaProcesos () {
+    try {
+      if ( !this.procesos || this.procesos.length === 0 ) {
+        throw new Error(
+          `${ this.numero } => no hay procesos en esta carpeta.`
+        );
+
+      }
+
+      return await client.carpeta.upsert(
+        {
+          where: {
+            numero: this.numero,
+          },
+          update: {
+            idProcesos: {
+              set: this.procesos.map(
+                (
+                  prc
+                ) => {
+                  return prc.idProceso;
+                }
+              )
+            },
+            procesos: {
+              upsert: this.procesos.map(
+                (
+                  proceso
+                ) => {
+                  const {
+                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+                    llaveProceso, ...prcWollaveProceso
+                  } = proceso;
+                  return {
+                    create: {
+                      ...prcWollaveProceso,
+                      fechaProceso: proceso.fechaProceso
+                        ? new Date(
+                          proceso.fechaProceso
+                        )
+                        : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        ? new Date(
+                          proceso.fechaUltimaActuacion
+                        )
+                        : null
+
+                    },
+                    update: {
+                      ...prcWollaveProceso,
+                      fechaProceso: proceso.fechaProceso
+                        ? new Date(
+                          proceso.fechaProceso
+                        )
+                        : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        ? new Date(
+                          proceso.fechaUltimaActuacion
+                        )
+                        : null
+                    },
+                    where: {
+                      idProceso: proceso.idProceso
+                    }
+                  };
+
+                }
+              )
+            }
+          },
+          create: {
+            idProcesos: {
+              set: this.procesos.map(
+                (
+                  prc
+                ) => {
+                  return prc.idProceso;
+                }
+              )
+            },
+            nombre  : this.nombre,
+            category: this.category,
+            numero  : this.numero,
+            demanda : {
+              connectOrCreate: {
+                where: {
+                  carpetaNumero: this.numero
+                },
+                create: new PrismaDemanda(
+                  this
+                )
+              }
+            },
+            deudor: {
+              connectOrCreate: {
+                where: {
+                  carpetaNumero: this.numero
+                },
+                create: new PrismaDeudor(
+                  this
+                )
+              }
+            },
+
+            procesos: {
+              connectOrCreate: this.procesos.map(
+                (
+                  proceso
+                ) => {
+                  const {
+                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+                    llaveProceso, ...prcWollaveProceso
+                  } = proceso;
+                  return {
+                    create: {
+                      ...prcWollaveProceso,
+                      fechaProceso: proceso.fechaProceso
+                        ? new Date(
+                          proceso.fechaProceso
+                        )
+                        : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        ? new Date(
+                          proceso.fechaUltimaActuacion
+                        )
+                        : null
+
+                    },
+
+                    where: {
+                      idProceso: proceso.idProceso
+                    }
+                  };
+
+                }
+              )
+            },
+            terminado: ( this.category === 'Terminados' )
+              ? true
+              : false,
+            tipoProceso: this.tipoProceso,
+            revisado   : false
+          }
+        }
+      );
+    } catch ( error ) {
+      console.log(
+        error
+      );
+      return null;
     }
   }
   //!SECTION

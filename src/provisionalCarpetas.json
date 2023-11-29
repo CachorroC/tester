@@ -542,8 +542,23 @@
       "email": null
     },
     "cc": 52396019,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 82112341,
+        "idConexion": 320,
+        "llaveProceso": "11001418900320170090900",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 003 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ - LOCALIDAD SUBA",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      82112341
+    ]
   },
   {
     "numero": 11,
@@ -1365,22 +1380,6 @@
       "radicado": "2017 - 00335",
       "expediente": "11001310301120170033500"
     },
-    "fecha": "2023-03-10T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1096493124,
-      "llaveProceso": "11001310301120170033500",
-      "consActuacion": 110,
-      "fechaActuacion": "2023-03-10T00:00:00",
-      "actuacion": "Movimiento expediente",
-      "anotacion": "Se anexa respuesta Policía Nacional y se pasa a la letra .- aa",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-03-10T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 110,
-      "idProceso": 1805257424
-    },
     "category": "Reintegra",
     "tipoProceso": "PRENDARIO",
     "deudor": {
@@ -1399,6 +1398,18 @@
     "cc": 3197274,
     "procesos": [
       {
+        "idProceso": 80553011,
+        "idConexion": 320,
+        "llaveProceso": "11001310301120170033500",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 011 CIVIL DEL CIRCUITO DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      },
+      {
         "idProceso": 1805257424,
         "idConexion": 310,
         "llaveProceso": "11001310301120170033500",
@@ -1412,6 +1423,7 @@
       }
     ],
     "idProcesos": [
+      80553011,
       1805257424
     ]
   },
@@ -4802,7 +4814,7 @@
       "expediente": "25754418900120170083700"
     },
     "category": "Terminados",
-    "tipoProceso": "SINGULAR ACUMULADO CON HIPOTECARIO",
+    "tipoProceso": "ACUMULADO",
     "deudor": {
       "tel": {
         "fijo": 5663711,
@@ -7851,7 +7863,7 @@
       "idProceso": 19148931
     },
     "category": "Terminados",
-    "tipoProceso": "SINGULAR ACUM HIPOTECARIO",
+    "tipoProceso": "ACUMULADO",
     "deudor": {
       "tel": {
         "fijo": null,
@@ -8049,22 +8061,6 @@
       "radicado": "2017 - 01520",
       "expediente": "11001400304720170152000"
     },
-    "fecha": "2022-09-02T05:00:00.000Z",
-    "ultimaActuacion": {
-      "idRegActuacion": 1217234763,
-      "llaveProceso": "11001400304720170152000",
-      "consActuacion": 94,
-      "fechaActuacion": "2022-09-02T00:00:00",
-      "actuacion": "Envío Expediente",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2022-09-02T00:00:00",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 94,
-      "idProceso": 109959053
-    },
     "category": "Reintegra",
     "tipoProceso": "SINGULAR",
     "deudor": {
@@ -8089,6 +8085,18 @@
     "cc": 74338870,
     "procesos": [
       {
+        "idProceso": 97088411,
+        "idConexion": 320,
+        "llaveProceso": "11001400304720170152000",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 047 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      },
+      {
         "idProceso": 109959053,
         "idConexion": 261,
         "llaveProceso": "11001400304720170152000",
@@ -8102,6 +8110,7 @@
       }
     ],
     "idProcesos": [
+      97088411,
       109959053
     ]
   },
@@ -9489,8 +9498,23 @@
       "email": "pelaezpedro@hotmail.com"
     },
     "cc": 4520757,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 81888371,
+        "idConexion": 320,
+        "llaveProceso": "11001400308620170082600",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      81888371
+    ]
   },
   {
     "numero": 147,
@@ -10871,20 +10895,20 @@
       "radicado": "2017 - 01264",
       "expediente": "11001400300320170126400"
     },
-    "fecha": "2023-10-10T05:00:00.000Z",
+    "fecha": "2023-11-28T05:00:00.000Z",
     "ultimaActuacion": {
-      "idRegActuacion": 1900297790,
+      "idRegActuacion": 1938429690,
       "llaveProceso": "11001400300320170126400",
-      "consActuacion": 89,
-      "fechaActuacion": "2023-10-10T00:00:00",
-      "actuacion": "Recepción memorial",
-      "anotacion": "APORTAN CESION ",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-10-10T00:00:00",
+      "consActuacion": 92,
+      "fechaActuacion": "2023-11-28T00:00:00",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 28/11/2023 a las 22:04:54.",
+      "fechaInicial": "2023-11-29T00:00:00",
+      "fechaFinal": "2023-11-29T00:00:00",
+      "fechaRegistro": "2023-11-28T00:00:00",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 89,
+      "cant": 92,
       "idProceso": 50598770
     },
     "category": "Reintegra",
@@ -10913,7 +10937,7 @@
         "idConexion": 259,
         "llaveProceso": "11001400300320170126400",
         "fechaProceso": "2017-07-27T00:00:00",
-        "fechaUltimaActuacion": "2023-10-10T00:00:00",
+        "fechaUltimaActuacion": "2023-11-28T00:00:00",
         "despacho": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ ",
         "departamento": "BOGOTÁ",
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NIDIA DORANCY GOMEZ BLANCO ",
@@ -11034,8 +11058,23 @@
       "email": "jlaura00@hotmail.com"
     },
     "cc": 1024468871,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 81888701,
+        "idConexion": 320,
+        "llaveProceso": "11001400308620170086300",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      81888701
+    ]
   },
   {
     "numero": 172,
@@ -11376,10 +11415,23 @@
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NILCY ELENA BORJA SALCEDO ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 81628051,
+        "idConexion": 320,
+        "llaveProceso": "11001400300420170080100",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      112783650
+      112783650,
+      81628051
     ]
   },
   {
@@ -11494,7 +11546,7 @@
       "idProceso": 112657130
     },
     "category": "Terminados",
-    "tipoProceso": "PRENDARO",
+    "tipoProceso": "SINGULAR",
     "deudor": {
       "tel": {
         "fijo": 7675057,
@@ -11684,8 +11736,23 @@
       "email": "leoguegar@hotmail.com"
     },
     "cc": 1033783222,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 82132851,
+        "idConexion": 320,
+        "llaveProceso": "11001418901020170011500",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 010 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      82132851
+    ]
   },
   {
     "numero": 182,
@@ -11897,10 +11964,23 @@
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JUAN CARLOS TOVAR TOLEDO ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 81652411,
+        "idConexion": 320,
+        "llaveProceso": "11001400302520170080700",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      50623380
+      50623380,
+      81652411
     ]
   },
   {
@@ -13530,10 +13610,23 @@
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ANTONIO CASTILLO CORTES ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 81643141,
+        "idConexion": 320,
+        "llaveProceso": "11001400302120180016300",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      51006610
+      51006610,
+      81643141
     ]
   },
   {
@@ -13819,10 +13912,23 @@
         "sujetosProcesales": "Demandante: ABOGADOS ESPECIALÑIZADOS EN CONBRANZAS SA - AECSA | Demandado: JORGE ARMANDO LOPEZ CASTAÑO | Demandado: LUZ DARY HURTADO RIOS ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 81589821,
+        "idConexion": 320,
+        "llaveProceso": "11001400300820170127300",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      50776700
+      50776700,
+      81589821
     ]
   },
   {
@@ -16575,10 +16681,23 @@
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: YEIMY ZORAIDA PEREZ ACEVEDO | Demandado: PABLO ANDRES PEREZ ACEVEDO ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 73154161,
+        "idConexion": 320,
+        "llaveProceso": "11001400301220170102100",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 012 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      50692560
+      50692560,
+      73154161
     ]
   },
   {
@@ -19028,8 +19147,36 @@
       "email": "diharveypra@yahoo.es"
     },
     "cc": 86074992,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 127797581,
+        "idConexion": 320,
+        "llaveProceso": "11001410375220170129100",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 024 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      },
+      {
+        "idProceso": 127797591,
+        "idConexion": 320,
+        "llaveProceso": "11001410375220170129100",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE VILLAVICENCIO ",
+        "departamento": "META",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      127797581,
+      127797591
+    ]
   },
   {
     "numero": 297,
@@ -19875,10 +20022,23 @@
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LIBARDO ALFONSO GONZALEZ TRIVIÑO ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 81620291,
+        "idConexion": 320,
+        "llaveProceso": "11001400302120170153200",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      50769660
+      50769660,
+      81620291
     ]
   },
   {
@@ -20554,8 +20714,23 @@
       "email": "claudiasuarezp@gmail.com"
     },
     "cc": 63395806,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 81891881,
+        "idConexion": 320,
+        "llaveProceso": "11001400308620170120500",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      81891881
+    ]
   },
   {
     "numero": 323,
@@ -22540,10 +22715,23 @@
         "sujetosProcesales": "Demandante: MAURICIO BOTERO WOLFF | Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA NUBIA LOPEZ CIFUENTES | Demandado: MARIO DE JESUS OSSA PULGARIN ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 81847081,
+        "idConexion": 320,
+        "llaveProceso": "11001400307620170101600",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      51499790
+      51499790,
+      81847081
     ]
   },
   {
@@ -23713,10 +23901,23 @@
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CALZADO RIVOLI  S.A.S. | Demandado: MARTHA LUCIA CUARTAS  BETANCOURT ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 81647611,
+        "idConexion": 320,
+        "llaveProceso": "11001400302220170120800",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 022 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      50817380
+      50817380,
+      81647611
     ]
   },
   {
@@ -23994,8 +24195,23 @@
       "telefono": 7326829
     },
     "cc": 80850549,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 81895161,
+        "idConexion": 320,
+        "llaveProceso": "11001400308620180006700",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      81895161
+    ]
   },
   {
     "numero": 375,
@@ -26946,7 +27162,7 @@
       "idProceso": 65701460
     },
     "category": "Reintegra",
-    "tipoProceso": "HMM PISO 1",
+    "tipoProceso": "SINGULAR",
     "deudor": {
       "tel": {
         "fijo": 3085025,
@@ -27733,10 +27949,23 @@
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LILIA YANIRA DIAZ CARO ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 81863401,
+        "idConexion": 320,
+        "llaveProceso": "11001400308120180058300",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      51914550
+      51914550,
+      81863401
     ]
   },
   {
@@ -29169,8 +29398,23 @@
       "email": null
     },
     "cc": 26407097,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 95877041,
+        "idConexion": 320,
+        "llaveProceso": "11001410375120180112100",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 751 CIVIL MUNICIPAL DE PEQUEÑAS CAUSAS DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      95877041
+    ]
   },
   {
     "numero": 457,
@@ -30296,7 +30540,7 @@
       "expediente": "11001418901220180064200"
     },
     "category": "Terminados",
-    "tipoProceso": "HIPOTECARIA",
+    "tipoProceso": "HIPOTECARIO",
     "deudor": {
       "tel": {
         "fijo": null,
@@ -30978,7 +31222,7 @@
       "expediente": "25754418900320180100800"
     },
     "category": "Terminados",
-    "tipoProceso": "HIPOTECARIA",
+    "tipoProceso": "HIPOTECARIO",
     "deudor": {
       "tel": {
         "fijo": null,
@@ -31482,7 +31726,7 @@
       "expediente": "11001418901320190070800"
     },
     "category": "Bancolombia",
-    "tipoProceso": "HIPOTECARO",
+    "tipoProceso": "HIPOTECARIO",
     "deudor": {
       "tel": {
         "fijo": null,
@@ -31579,10 +31823,23 @@
         "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SMARTITECH SAS | Demandado: EDISSON ARMANDO KARL BUITRAGO ",
         "esPrivado": false,
         "cantFilas": -1
+      },
+      {
+        "idProceso": 81649171,
+        "idConexion": 320,
+        "llaveProceso": "11001400300620180045400",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "departamento": "BOGOTÁ",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
       }
     ],
     "idProcesos": [
-      51154840
+      51154840,
+      81649171
     ]
   },
   {
@@ -31862,7 +32119,7 @@
       "expediente": "11001418903120180138000"
     },
     "category": "Terminados",
-    "tipoProceso": "SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL",
+    "tipoProceso": "ACUMULADO",
     "deudor": {
       "tel": {
         "fijo": null,
@@ -32033,7 +32290,7 @@
       "expediente": "25754400300220180041500"
     },
     "category": "Terminados",
-    "tipoProceso": "SOACHA",
+    "tipoProceso": "SINGULAR",
     "deudor": {
       "tel": {
         "fijo": null,
@@ -32074,7 +32331,7 @@
       "expediente": "25754400300220180041600"
     },
     "category": "Terminados",
-    "tipoProceso": "SOACHA",
+    "tipoProceso": "SINGULAR",
     "deudor": {
       "tel": {
         "fijo": null,
@@ -34783,8 +35040,23 @@
       "email": "ciro.onofe1105@gmail.com"
     },
     "cc": 1022335014,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 159336301,
+        "idConexion": 320,
+        "llaveProceso": "25430400300120230112700",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
+        "departamento": "CUNDINAMARCA",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      159336301
+    ]
   },
   {
     "numero": 557,
@@ -36363,8 +36635,23 @@
       "email": "duartepedroantonio@hotmail.com"
     },
     "cc": 7228260,
-    "procesos": [],
-    "idProcesos": []
+    "procesos": [
+      {
+        "idProceso": 160042431,
+        "idConexion": 320,
+        "llaveProceso": "25430400300120230129500",
+        "fechaProceso": null,
+        "fechaUltimaActuacion": null,
+        "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
+        "departamento": "CUNDINAMARCA",
+        "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+        "esPrivado": true,
+        "cantFilas": -1
+      }
+    ],
+    "idProcesos": [
+      160042431
+    ]
   },
   {
     "numero": 583,
