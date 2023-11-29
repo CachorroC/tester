@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":365,"llaveProceso":"11001400305020180014000","nombre":"richard camilo iriarte garcia","idProcesos":[11227303],"category":"Terminados","fecha":"2019-09-11T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:28.199Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

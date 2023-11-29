@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":201,"llaveProceso":"11001400307920170114200","nombre":"piedad maritza olga rocio,prieto,vargas","idProcesos":[128433271],"category":"Insolvencia","fecha":"2023-06-05T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:51.520Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

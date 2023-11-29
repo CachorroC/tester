@@ -14,10 +14,12 @@ CREATE TABLE "Carpeta" (
     "nombre" TEXT NOT NULL,
     "idProcesos" INTEGER[],
     "category" "Category" NOT NULL DEFAULT 'SinEspecificar',
-    "fecha" DATE,
+    "tipoProceso" "TipoProceso" NOT NULL DEFAULT 'SINGULAR',
+    "fecha" TIMESTAMP(3),
     "revisado" BOOLEAN NOT NULL DEFAULT false,
     "updatedAt" TIMESTAMP(3) NOT NULL,
     "terminado" BOOLEAN NOT NULL DEFAULT false,
+    "idRegUltimaAct" INTEGER,
 
     CONSTRAINT "Carpeta_pkey" PRIMARY KEY ("numero")
 );
@@ -80,10 +82,10 @@ CREATE TABLE "SubTarea" (
 
 -- CreateTable
 CREATE TABLE "Actuacion" (
-    "id" SERIAL NOT NULL,
+    "carpetaNumero" INTEGER,
     "isUltimaAct" BOOLEAN NOT NULL,
     "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "idRegActuacion" OID NOT NULL,
+    "idRegActuacion" INTEGER NOT NULL,
     "llaveProceso" TEXT NOT NULL,
     "consActuacion" INTEGER NOT NULL,
     "fechaActuacion" DATE NOT NULL,
@@ -97,7 +99,7 @@ CREATE TABLE "Actuacion" (
     "cant" INTEGER NOT NULL,
     "idProceso" INTEGER,
 
-    CONSTRAINT "Actuacion_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "Actuacion_pkey" PRIMARY KEY ("idRegActuacion")
 );
 
 -- CreateTable
@@ -143,6 +145,7 @@ CREATE TABLE "Proceso" (
     "sujetosProcesales" TEXT NOT NULL,
     "esPrivado" BOOLEAN NOT NULL,
     "cantFilas" INTEGER NOT NULL,
+    "carpetaNumero" INTEGER NOT NULL,
 
     CONSTRAINT "Proceso_pkey" PRIMARY KEY ("id")
 );
@@ -158,12 +161,6 @@ CREATE TABLE "_DemandaToJuzgado" (
     "A" INTEGER NOT NULL,
     "B" TEXT NOT NULL
 );
-
--- CreateIndex
-CREATE UNIQUE INDEX "Carpeta_llaveProceso_key" ON "Carpeta"("llaveProceso");
-
--- CreateIndex
-CREATE UNIQUE INDEX "Deudor_cedula_key" ON "Deudor"("cedula");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Deudor_carpetaNumero_key" ON "Deudor"("carpetaNumero");
@@ -187,6 +184,9 @@ CREATE UNIQUE INDEX "_DemandaToJuzgado_AB_unique" ON "_DemandaToJuzgado"("A", "B
 CREATE INDEX "_DemandaToJuzgado_B_index" ON "_DemandaToJuzgado"("B");
 
 -- AddForeignKey
+ALTER TABLE "Carpeta" ADD CONSTRAINT "Carpeta_idRegUltimaAct_fkey" FOREIGN KEY ("idRegUltimaAct") REFERENCES "Actuacion"("idRegActuacion") ON DELETE SET NULL ON UPDATE CASCADE;
+
+-- AddForeignKey
 ALTER TABLE "Deudor" ADD CONSTRAINT "Deudor_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
@@ -199,16 +199,13 @@ ALTER TABLE "Tarea" ADD CONSTRAINT "Tarea_carpetaNumero_fkey" FOREIGN KEY ("carp
 ALTER TABLE "SubTarea" ADD CONSTRAINT "SubTarea_tareaId_fkey" FOREIGN KEY ("tareaId") REFERENCES "Tarea"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Actuacion" ADD CONSTRAINT "Actuacion_llaveProceso_fkey" FOREIGN KEY ("llaveProceso") REFERENCES "Carpeta"("llaveProceso") ON DELETE RESTRICT ON UPDATE CASCADE;
-
--- AddForeignKey
 ALTER TABLE "Actuacion" ADD CONSTRAINT "Actuacion_idProceso_fkey" FOREIGN KEY ("idProceso") REFERENCES "Proceso"("idProceso") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Demanda" ADD CONSTRAINT "Demanda_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Proceso" ADD CONSTRAINT "Proceso_llaveProceso_fkey" FOREIGN KEY ("llaveProceso") REFERENCES "Carpeta"("llaveProceso") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "Proceso" ADD CONSTRAINT "Proceso_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Proceso" ADD CONSTRAINT "Proceso_despacho_fkey" FOREIGN KEY ("despacho") REFERENCES "Juzgado"("tipo") ON DELETE RESTRICT ON UPDATE CASCADE;

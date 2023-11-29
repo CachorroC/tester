@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":536,"llaveProceso":"11001400302020180047900","nombre":"blanca lilia bravo paez","idProcesos":[51173430],"category":"Terminados","fecha":"2023-07-05T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T18:31:09.059Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":110,"llaveProceso":"11001400304520170077400","nombre":"marlene roncancio benitez null","idProcesos":[50518680],"category":"Terminados","fecha":"2022-11-10T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:30.785Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

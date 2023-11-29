@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":429,"llaveProceso":"11001400306520180061200","nombre":"arcangel hernandez rodriguez null","idProcesos":[18175150],"category":"Terminados","fecha":"2019-04-30T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:42.401Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

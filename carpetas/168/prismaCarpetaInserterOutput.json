@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":168,"llaveProceso":"11001400301920170087200","nombre":"maria stella hernandez beltran","idProcesos":[50667300],"category":"Terminados","fecha":"2018-09-04T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:44.205Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

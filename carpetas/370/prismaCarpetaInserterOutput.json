@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":370,"llaveProceso":"11001400302020170155600","nombre":"lilian andrea hernandez suarez","idProcesos":[50918350],"category":"Terminados","fecha":"2020-02-18T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:29.313Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

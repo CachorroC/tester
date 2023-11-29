@@ -1,4 +1,4 @@
-import { Actuacion, Carpeta,
+import { $Enums, Actuacion, Carpeta,
   Category,
   Demanda,
   Deudor,
@@ -16,6 +16,7 @@ export class PrismaCarpeta implements Carpeta {
       numero,
       nombre,
       llaveProceso,
+      tipoProceso,
       idProcesos,
       fecha,
       category
@@ -35,7 +36,10 @@ export class PrismaCarpeta implements Carpeta {
       : [];
     this.revisado = false;
     this.terminado = category === 'Terminados';
+    this.tipoProceso = tipoProceso;
   }
+  tipoProceso: $Enums.TipoProceso;
+  idRegUltimaAct!: number | null;
   terminado: boolean;
   revisado: boolean;
   updatedAt!: Date;
@@ -61,7 +65,7 @@ export class PrismaDeudor implements Deudor {
         direccion,
         cedula,
       },
-      numero,
+
     }: IntCarpeta
   ) {
     this.primerNombre = primerNombre;
@@ -84,7 +88,6 @@ export class PrismaDeudor implements Deudor {
         tel.fijo
       )
       : null;
-    this.carpetaNumero = numero;
     this.cedula = String(
       cedula
     );
@@ -99,7 +102,7 @@ export class PrismaDeudor implements Deudor {
   segundoApellido: string | null;
   direccion: string | null;
   email: string | null;
-  carpetaNumero: number;
+  carpetaNumero!: number;
 
 }
 
@@ -117,7 +120,7 @@ export class PrismaDemanda implements Demanda {
   radicado: string | null;
   vencimientoPagare: Date[];
   expediente: string | null;
-  carpetaNumero: number;
+  carpetaNumero!: number;
   constructor(
     {
       demanda: {
@@ -134,10 +137,8 @@ export class PrismaDemanda implements Demanda {
         entregaGarantiasAbogado,
         capitalAdeudado,
       },
-      numero
     }: IntCarpeta
   ) {
-    this.carpetaNumero = numero;
     this.expediente = expediente;
     this.municipio = municipio;
     this.entregaGarantiasAbogado = entregaGarantiasAbogado
@@ -217,7 +218,7 @@ export class PrismaProceso implements Proceso {
   constructor (
     {
       idProceso, idConexion, llaveProceso, fechaProceso, fechaUltimaActuacion, despacho, departamento, sujetosProcesales, esPrivado, cantFilas
-    }: intProceso
+    }: intProceso, carpetaNumero: number
   ) {
     this.idProceso = idProceso;
     this.idConexion = idConexion;
@@ -237,7 +238,9 @@ export class PrismaProceso implements Proceso {
     this.sujetosProcesales = sujetosProcesales;
     this.esPrivado = esPrivado;
     this.cantFilas = cantFilas;
+    this.carpetaNumero = carpetaNumero;
   }
+  carpetaNumero: number;
   id!: number;
 }
 
@@ -257,12 +260,10 @@ export class PrismaActuacion implements Actuacion {
   fechaFinal: Date | null;
   codRegla: string;
   conDocumentos: boolean;
-  cant: number;
-  idProceso: number | null;
-  constructor (
+  cant: number;  constructor (
     {
-      actuacion, anotacion, fechaRegistro, fechaActuacion, fechaInicial, fechaFinal, cant, codRegla, conDocumentos, consActuacion, idRegActuacion, llaveProceso
-    }: intActuacion, idProceso?: number
+      actuacion, anotacion, fechaRegistro, fechaActuacion, fechaInicial, fechaFinal, cant, codRegla, conDocumentos, consActuacion, idRegActuacion, llaveProceso, idProceso
+    }: intActuacion, carpetaNumero?: number
   ) {
     this.actuacion =actuacion;
     this.anotacion = anotacion;
@@ -291,10 +292,15 @@ export class PrismaActuacion implements Actuacion {
     this.isUltimaAct = cant === consActuacion
       ? true
       : false;
-    this.idProceso = idProceso
-      ? idProceso
+    this.idProceso = idProceso;
+    this.procesoId = idProceso;
+    this.carpetaNumero = carpetaNumero
+      ? carpetaNumero
       : null;
 
   }
+  idProceso: number;
+  procesoId: number | null;
+  carpetaNumero: number | null;
 
 }

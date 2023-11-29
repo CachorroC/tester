@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":111,"llaveProceso":"11001400305420170071200","nombre":"karen viviana castaño coronado","idProcesos":[12251233],"category":"Terminados","fecha":"2017-11-15T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:31.058Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":20,"llaveProceso":"11001400302220170048300","nombre":"andres mauricio fernandez de,soto,dominguez","idProcesos":[50466490],"category":"Terminados","fecha":"2017-10-13T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:09.675Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

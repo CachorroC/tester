@@ -1,22 +1,27 @@
-import { Juzgado } from '@prisma/client';
+import { Juzgado,  PrismaClient } from '@prisma/client';
 import { Despachos } from '../data/despachos';
 import { ConsultaActuacion, intActuacion } from '../types/actuaciones';
-import { Category,
+import
+{ Category,
   TipoProceso,
   IntDeudor,
   CarpetaRaw,
   Codeudor,
   IntCarpeta,
   IntDemanda, } from '../types/carpetas';
-import { ConsultaNumeroRadicacion,
+import
+{ ConsultaNumeroRadicacion,
   Data,
   Message,
   intProceso, } from '../types/procesos';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
+import { PrismaDemanda, PrismaDeudor } from './prisma-carpeta';
+
+const client = new PrismaClient();
 
 export class NewJuzgado implements Juzgado {
-  constructor(
+  constructor (
     proceso: intProceso
   ) {
     const matchedDespacho = Despachos.find(
@@ -98,7 +103,7 @@ export class CarpetaJudicial implements IntCarpeta {
   procesos?: intProceso[];
 
   // SECTION constructor
-  constructor(
+  constructor (
     {
       llaveProceso,
       codeudor,
@@ -131,10 +136,10 @@ export class CarpetaJudicial implements IntCarpeta {
   idProcesos: number[] | null;
   //!SECTION
 
-  get nombre() {
+  get nombre () {
     return `${ this.deudor.primerNombre } ${ this.deudor.segundoNombre } ${ this.deudor.primerApellido } ${ this.deudor.segundoApellido }`;
   }
-  set nombre(
+  set nombre (
     nom
   ) {
     [
@@ -146,9 +151,88 @@ export class CarpetaJudicial implements IntCarpeta {
       ' '
     );
   }
+  async prismaCarpeta () {
 
+    try {
+
+      return await client.carpeta.upsert(
+        {
+          where: {
+            numero: this.numero
+          },
+          create: {
+            nombre  : this.nombre,
+            category: this.category,
+            numero  : this.numero,
+            demanda : {
+              connectOrCreate: {
+                where: {
+                  carpetaNumero: this.numero
+                },
+                create: new PrismaDemanda(
+                  this
+                )
+              }
+            },
+            deudor: {
+              connectOrCreate: {
+                where: {
+                  carpetaNumero: this.numero
+                },
+                create: new PrismaDeudor(
+                  this
+                )
+              }
+            },
+            terminado: ( this.category === 'Terminados' )
+              ? true
+              : false,
+            tipoProceso: this.tipoProceso,
+            revisado   : false
+          },
+          update: {
+            nombre  : this.nombre,
+            category: this.category,
+            numero  : this.numero,
+            demanda : {
+              connectOrCreate: {
+                where: {
+                  carpetaNumero: this.numero
+                },
+                create: new PrismaDemanda(
+                  this
+                )
+              }
+            },
+            deudor: {
+              connectOrCreate: {
+                where: {
+                  carpetaNumero: this.numero
+                },
+                create: new PrismaDeudor(
+                  this
+                )
+              }
+            },
+            terminado: ( this.category === 'Terminados' )
+              ? true
+              : false,
+            tipoProceso : this.tipoProceso,
+            llaveProceso: this.llaveProceso
+              ? this.llaveProceso
+              : null
+          }
+        }
+      );
+    } catch ( error ) {
+      console.log(
+        `CarpetaJudicial.prismaCarpeta(${ this.numero }) Error => ${ error }`
+      );
+      return null;
+    }
+  }
   //SECTION consultaProcesos
-  async consultaProcesos() {
+  async consultaProcesos () {
     const idProcesosSet = new Set<number>();
 
     const sujetosProcesalesSet = new Set<string>();
@@ -201,6 +285,84 @@ export class CarpetaJudicial implements IntCarpeta {
           proceso.sujetosProcesales
         );
         this.demanda.departamento = proceso.departamento;
+
+        try {
+          await client.proceso.upsert(
+            {
+              where: {
+                idProceso: proceso.idProceso
+              },
+              create: {
+                llaveProceso     : proceso.llaveProceso,
+                idProceso        : proceso.idProceso,
+                idConexion       : proceso.idConexion,
+                despacho         : proceso.despacho,
+                departamento     : proceso.departamento,
+                sujetosProcesales: proceso.sujetosProcesales,
+                esPrivado        : proceso.esPrivado,
+                cantFilas        : proceso.cantFilas,
+                fechaProceso     : proceso.fechaProceso
+                  ? new Date(
+                    proceso.fechaProceso
+                  )
+                  : null,
+                fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                  ? new Date(
+                    proceso.fechaUltimaActuacion
+                  )
+                  : null,
+                Juzgado: {
+                  connectOrCreate: {
+                    where: {
+                      tipo: proceso.despacho
+                    },
+                    create: new NewJuzgado(
+                      proceso
+                    )
+                  }
+                },
+
+
+              },
+              update: {
+                llaveProceso     : proceso.llaveProceso,
+                idProceso        : proceso.idProceso,
+                idConexion       : proceso.idConexion,
+                despacho         : proceso.despacho,
+                departamento     : proceso.departamento,
+                sujetosProcesales: proceso.sujetosProcesales,
+                esPrivado        : proceso.esPrivado,
+                cantFilas        : proceso.cantFilas,
+                fechaProceso     : proceso.fechaProceso
+                  ? new Date(
+                    proceso.fechaProceso
+                  )
+                  : null,
+                fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                  ? new Date(
+                    proceso.fechaUltimaActuacion
+                  )
+                  : null,
+                Juzgado: {
+                  connectOrCreate: {
+                    where: {
+                      tipo: proceso.despacho
+                    },
+                    create: new NewJuzgado(
+                      proceso
+                    )
+                  }
+                },
+
+
+              }
+            }
+          );
+        } catch ( error ) {
+          console.log(
+            error
+          );
+        }
       }
 
       const activeProcesos: intProceso[] = [];
@@ -262,7 +424,7 @@ export class CarpetaJudicial implements IntCarpeta {
   }
   //!SECTION
   // SECTION consultaActuaciones
-  async consultaActuaciones() {
+  async consultaActuaciones () {
     try {
       const actuacionesMap = new Map<number, intActuacion>();
 
@@ -306,41 +468,72 @@ export class CarpetaJudicial implements IntCarpeta {
             actuacion
           ) => {
             actuacionesSet.add(
-              actuacion
+              {
+                ...actuacion,
+                idProceso: idProceso
+              }
             );
           }
         );
 
         actuacionesMap.set(
-          idProceso, ultimaActuacion
+          idProceso, {
+            ...ultimaActuacion,
+            idProceso: idProceso
+          }
         );
 
         const incomingDate = new Date(
           ultimaActuacion.fechaActuacion
-        )
-          .getTime();
+        );
+
+
+        const incomingYear = incomingDate.getFullYear();
+
+        const incomingMonth = incomingDate.getMonth();
+
+        const incomingDay = incomingDate.getDate();
+        console.log(
+          `${ this.numero } => la nueva fecha de la actuacion es: ${ new Date(
+            incomingYear, incomingMonth, incomingDay
+          ) } y el timezone offset es  ${ incomingDate.getTimezoneOffset() }
+          raw: ${ ultimaActuacion.fechaActuacion }`
+        );
 
         const savedDate = this.fecha
-          ? this.fecha.getTime()
+          ? this.fecha
           : null;
 
-        if ( !savedDate || savedDate < incomingDate ) {
+        const savedYear = savedDate?.getFullYear();
+
+        const savedMonth = savedDate?.getMonth();
+
+        const savedDay = savedDate?.getDate();
+        console.log(
+          `${ this.numero } => la fecha guardada en el servidor de LINK -  actuacion es: ${ new Date(
+            savedYear ?? 0, savedMonth ?? 0, savedDay
+          ) }`
+        );
+
+        if ( !savedDate || savedDate < incomingDate || savedDate.toString() === 'Invalid Date' ) {
           this.fecha = new Date(
             ultimaActuacion.fechaActuacion
           );
-          this.ultimaActuacion = ultimaActuacion;
+          this.ultimaActuacion = {
+            ...ultimaActuacion,
+            idProceso: idProceso
+          };
         }
       }
 
       if ( actuacionesMap.size > 0 ) {
-        const responseReturn: Data = {
+        return {
           StatusCode : 200,
           Message    : 'ok' as Message,
           actuaciones: Array.from(
             actuacionesMap.values()
           ),
         };
-        return responseReturn;
       }
 
       throw new Error(

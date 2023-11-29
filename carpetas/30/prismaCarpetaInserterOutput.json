@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":30,"llaveProceso":"11001400303020170095100","nombre":"mireya viviana beltran herrera","idProcesos":[50492700],"category":"Terminados","fecha":"2018-09-17T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:11.865Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

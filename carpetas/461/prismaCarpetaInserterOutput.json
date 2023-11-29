@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":461,"llaveProceso":"11001400303220180095900","nombre":"jose antonio florez oviedo","idProcesos":[51318660],"category":"Terminados","fecha":"2021-03-25T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:49.528Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

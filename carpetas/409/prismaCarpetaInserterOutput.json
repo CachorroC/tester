@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":409,"llaveProceso":"11001400305620180022100","nombre":"creas consultores s.a.s null","idProcesos":[51042800],"category":"Bancolombia","fecha":"2023-11-24T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:38.051Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

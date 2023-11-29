@@ -29,6 +29,7 @@ export interface intActuacion {
   codRegla: CodRegla;
   conDocumentos: boolean;
   cant: number;
+  idProceso: number
 }
 
 export type CodRegla = '00                              ';
@@ -44,66 +45,66 @@ export interface Paginacion {
 // Converts JSON strings to/from your types
 export class actuacionConvert {
   public static actuacioneToJson(
-    value: intActuacion 
+    value: intActuacion
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static consultaActuacionToJson(
-    value: ConsultaActuacion 
+    value: ConsultaActuacion
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static dataToJson(
-    value: Data 
+    value: Data
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static paginacionToJson(
-    value: Paginacion 
+    value: Paginacion
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toActuacione(
-    json: string 
+    json: string
   ): intActuacion {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static toConsultaActuacion(
-    json: string 
+    json: string
   ): ConsultaActuacion {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static toData(
-    json: string 
+    json: string
   ): Data {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static toPaginacion(
-    json: string 
+    json: string
   ): Paginacion {
     return JSON.parse(
-      json 
+      json
     );
   }
 }

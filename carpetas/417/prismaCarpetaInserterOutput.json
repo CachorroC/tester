@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":417,"llaveProceso":"11001400307120170125000","nombre":"oscar humberto gomez chuchin","idProcesos":[64793050],"category":"Reintegra","fecha":"2022-03-10T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:39.800Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

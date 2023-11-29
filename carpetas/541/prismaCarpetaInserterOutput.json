@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":541,"llaveProceso":"11001400308220180096400","nombre":"jose ramon estrada castillo","idProcesos":[52160520,112967583],"category":"Reintegra","fecha":"2023-08-29T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T18:31:10.317Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

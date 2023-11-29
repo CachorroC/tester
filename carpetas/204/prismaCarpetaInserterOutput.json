@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":204,"llaveProceso":"11001400304520170106300","nombre":"flor esperanza gutierrez null","idProcesos":[110120573],"category":"Reintegra","fecha":"2023-03-07T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:52.301Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

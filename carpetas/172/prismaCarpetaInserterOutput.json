@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":172,"llaveProceso":"11001400302720170085000","nombre":"adriana del pilar alfonso,baquero","idProcesos":[50666880],"category":"Terminados","fecha":"2019-07-25T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:45.085Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":458,"llaveProceso":"11001400303720180011100","nombre":"sandra patricia beltran oviedo","idProcesos":[50990920],"category":"Reintegra","fecha":"2023-02-02T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:48.847Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

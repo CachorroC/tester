@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":436,"llaveProceso":"11001400306320180075600","nombre":"juan camilo baquero buttner","idProcesos":[17724160],"category":"Terminados","fecha":"2022-03-15T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:44.123Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

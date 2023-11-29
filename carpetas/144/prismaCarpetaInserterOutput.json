@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":144,"llaveProceso":"11001400302620170087200","nombre":"maria filomena gonzales salas","idProcesos":[50652400,81647161],"category":"Terminados","fecha":"2022-02-23T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:38.846Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

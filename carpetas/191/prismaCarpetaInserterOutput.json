@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":191,"llaveProceso":"11001400307920170108200","nombre":"john alexander valencia marquez","idProcesos":[51357750],"category":"Reintegra","fecha":"2023-10-25T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:49.290Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

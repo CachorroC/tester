@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":340,"llaveProceso":"11001400306020170101400","nombre":"william cortes rojas null","idProcesos":[50788330],"category":"Terminados","fecha":"2022-03-09T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:22.507Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

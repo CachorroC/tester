@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":256,"llaveProceso":"11001400300720170141000","nombre":"freddy arias martinez null","idProcesos":[50726160],"category":"Terminados","fecha":"2018-04-26T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:04.171Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

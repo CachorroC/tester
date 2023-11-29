@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":200,"llaveProceso":"11001400301220170101200","nombre":"alexander rojas castañeda null","idProcesos":[50681670],"category":"Terminados","fecha":"2022-03-02T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:51.247Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

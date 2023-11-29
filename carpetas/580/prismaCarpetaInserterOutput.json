@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":580,"llaveProceso":"11001418904420230023900","nombre":"jose ignacio galeano alvarado","idProcesos":[132964260],"category":"Bancolombia","fecha":"2023-10-11T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T18:31:19.234Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

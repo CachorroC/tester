@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":459,"llaveProceso":"11001400305320180094500","nombre":"cesar armando vanegas null","idProcesos":[64641230],"category":"Terminados","fecha":"2020-02-17T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:49.069Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

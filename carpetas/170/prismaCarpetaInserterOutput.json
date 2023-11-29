@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":170,"llaveProceso":"11001400301320170111400","nombre":"isabel cristina garcia duran","idProcesos":[50668010],"category":"Terminados","fecha":"2019-05-30T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:44.658Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

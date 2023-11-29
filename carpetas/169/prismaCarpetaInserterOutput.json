@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":169,"llaveProceso":"11001400300320170126400","nombre":"rita blanco de gomez","idProcesos":[50598770],"category":"Reintegra","fecha":"2023-10-10T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:44.434Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

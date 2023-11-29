@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":402,"llaveProceso":"11001400306420180021800","nombre":"blanca cecilia ardila huertas","idProcesos":[17948440],"category":"Terminados","fecha":"2018-04-24T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:36.512Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

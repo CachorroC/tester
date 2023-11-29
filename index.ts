@@ -67,7 +67,7 @@ async function f () {
         recursive: true,
       }
     );
-
+    await thener.prismaCarpeta();
 
     await fs.writeFile(
       `carpetas/${ thener.numero }/prismaCarpetaFirstIteration.json`,
@@ -243,7 +243,7 @@ async function insertManyCarpetas () {
     );
 
     const prismaProcesoInserter = await insertProcesosInPrisma(
-      carpeta.procesos ?? []
+      carpeta.procesos ?? [], numero
     );
     console.log(
       `${ numero }: procesoInserter: ${ JSON.stringify(
@@ -275,7 +275,7 @@ async function insertManyCarpetas () {
       const prismaActuacionInserter = await insertActuacionesInPrisma(
         [
           carpeta.ultimaActuacion
-        ]
+        ], numero
       );
       console.log(
         `${ numero }: actuacionInserter: ${ JSON.stringify(

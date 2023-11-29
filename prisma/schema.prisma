@@ -8,27 +8,29 @@ datasource db {
 }
 
 model Carpeta {
-  numero       Int         @id
-  llaveProceso String?     @unique
-  nombre       String
-  idProcesos   Int[]
-  category     Category    @default(SinEspecificar)
-  fecha        DateTime?   @db.Date
-  revisado     Boolean     @default(false)
-  updatedAt    DateTime    @updatedAt
-  terminado    Boolean     @default(false)
-  actuaciones  Actuacion[]
-  demanda      Demanda?
-  deudor       Deudor?
-  notas        Nota[]
-  procesos     Proceso[]
-  tareas       Tarea[]
-  juzgados     Juzgado[]   @relation("CarpetaToJuzgado")
+  numero          Int         @id
+  llaveProceso    String? @unique
+  nombre          String
+  idProcesos      Int[]
+  category        Category    @default(SinEspecificar)
+  tipoProceso     TipoProceso @default(SINGULAR)
+  fecha           DateTime?
+  revisado        Boolean     @default(false)
+  updatedAt       DateTime    @updatedAt
+  terminado       Boolean     @default(false)
+  idRegUltimaAct  Int?
+  ultimaActuacion Actuacion?  @relation(fields: [idRegUltimaAct], references: [idRegActuacion])
+  demanda         Demanda?
+  deudor          Deudor?
+  notas           Nota[]
+  procesos        Proceso[]
+  tareas          Tarea[]
+  juzgados        Juzgado[]   @relation("CarpetaToJuzgado")
 }
 
 model Deudor {
   id              Int     @id @default(autoincrement())
-  cedula          String? @unique
+  cedula          String?
   primerNombre    String
   primerApellido  String
   segundoNombre   String?
@@ -76,10 +78,10 @@ model SubTarea {
 }
 
 model Actuacion {
-  id             Int       @id @default(autoincrement())
+  carpetaNumero  Int?
   isUltimaAct    Boolean
   createdAt      DateTime  @default(now())
-  idRegActuacion Int       @db.Oid
+  idRegActuacion Int       @id
   llaveProceso   String
   consActuacion  Int
   fechaActuacion DateTime  @db.Date
@@ -91,9 +93,9 @@ model Actuacion {
   codRegla       String
   conDocumentos  Boolean
   cant           Int
-  idProceso      Int?
-  Carpeta        Carpeta   @relation(fields: [llaveProceso], references: [llaveProceso])
   Proceso        Proceso?  @relation(fields: [idProceso], references: [idProceso])
+  Carpeta        Carpeta[]
+  idProceso      Int?
 }
 
 model Demanda {
@@ -120,7 +122,7 @@ model Juzgado {
   id       Int
   tipo     String    @id
   url      String
-  Proceso  Proceso[]
+  Proceso  Proceso[] @relation("ProcesoToJuzgado")
   carpetas Carpeta[] @relation("CarpetaToJuzgado")
   demanda  Demanda[] @relation("DemandaToJuzgado")
 }
@@ -139,7 +141,7 @@ model Proceso {
   cantFilas            Int
   actuaciones          Actuacion[]
   Carpeta              Carpeta     @relation(fields: [llaveProceso], references: [llaveProceso])
-  Juzgado              Juzgado     @relation(fields: [despacho], references: [tipo])
+  Juzgado              Juzgado[]   @relation("ProcesoToJuzgado")
 }
 
 enum Category {

@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":285,"llaveProceso":"11001400300520170132600","nombre":"adriana maria perez gomez","idProcesos":[50720040],"category":"Terminados","fecha":"2023-05-25T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:10.471Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":225,"llaveProceso":"11001400301320170116300","nombre":"luis octavio rojas valbuena","idProcesos":[50683550],"category":"Terminados","fecha":"2018-07-24T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:57.072Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

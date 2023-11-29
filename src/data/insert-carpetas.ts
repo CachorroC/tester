@@ -22,8 +22,9 @@ export async function insertCarpetaInPrisma(
     carpeta
   );
 
+  let newCarpeta: Prisma.CarpetaCreateInput;
+
   try {
-    let newCarpeta: Prisma.CarpetaCreateInput;
 
     if ( !procesos || procesos.length === 0 ) {
       newCarpeta = newPrismaCarpeta;
@@ -35,13 +36,20 @@ export async function insertCarpetaInPrisma(
             (
               proceso
             ) => {
-              const procesoReturn: Prisma.ProcesoCreateOrConnectWithoutCarpetaInput = {
+              return {
                 where: {
                   idProceso: proceso.idProceso
                 },
                 create: {
-                  ...proceso,
-                  fechaProceso: proceso.fechaProceso
+                  cantFilas        : proceso.cantFilas,
+                  departamento     : proceso.departamento,
+                  despacho         : proceso.despacho,
+                  llaveProceso     : proceso.llaveProceso,
+                  esPrivado        : proceso.esPrivado,
+                  idConexion       : proceso.idConexion,
+                  sujetosProcesales: proceso.sujetosProcesales,
+                  idProceso        : proceso.idProceso,
+                  fechaProceso     : proceso.fechaProceso
                     ? new Date(
                       proceso.fechaProceso
                     )
@@ -53,27 +61,7 @@ export async function insertCarpetaInPrisma(
                     : null,
                 }
               };
-              return procesoReturn;
-            }
-          ),
 
-        },
-        juzgados: {
-          connectOrCreate: procesos.map(
-            (
-              proceso
-            ) => {
-              const rawJuzgado = new NewJuzgado(
-                proceso
-              );
-
-              const juzgado: Prisma.JuzgadoCreateOrConnectWithoutCarpetasInput = {
-                where: {
-                  tipo: rawJuzgado.tipo
-                },
-                create: rawJuzgado
-              };
-              return juzgado;
             }
           ),
         },
@@ -109,50 +97,44 @@ export async function insertCarpetaInPrisma(
           ),
 
         },
-        juzgados: {
-          connectOrCreate: procesos.map(
-            (
-              proceso
-            ) => {
-              const rawJuzgado = new NewJuzgado(
-                proceso
-              );
-
-              const juzgado: Prisma.JuzgadoCreateOrConnectWithoutCarpetasInput =  {
-                where: {
-                  tipo: rawJuzgado.tipo
-                },
-                create: rawJuzgado
-              };
-              return juzgado;
+        ultimaActuacion: {
+          connectOrCreate: {
+            where: {
+              idRegActuacion: ultimaActuacion.idRegActuacion
+            },
+            create: {
+              cant          : ultimaActuacion.cant,
+              consActuacion : ultimaActuacion.consActuacion,
+              conDocumentos : ultimaActuacion.conDocumentos,
+              actuacion     : ultimaActuacion.actuacion,
+              codRegla      : ultimaActuacion.codRegla,
+              llaveProceso  : ultimaActuacion.llaveProceso,
+              idRegActuacion: ultimaActuacion.idRegActuacion,
+              carpetaNumero : newPrismaCarpeta.numero,
+              isUltimaAct   : ultimaActuacion.cant === ultimaActuacion.consActuacion
+                ? true
+                : false,
+              fechaActuacion: new Date(
+                ultimaActuacion.fechaActuacion
+              ),
+              fechaRegistro: new Date(
+                ultimaActuacion.fechaRegistro
+              ),
+              fechaInicial: ultimaActuacion.fechaInicial
+                ? new Date(
+                  ultimaActuacion.fechaInicial
+                )
+                : null,
+              fechaFinal: ultimaActuacion.fechaFinal
+                ? new Date(
+                  ultimaActuacion.fechaFinal
+                )
+                : null,
+              anotacion: ultimaActuacion.anotacion
+                ? ultimaActuacion.anotacion
+                : null,
+              idProceso: ultimaActuacion.idProceso
             }
-          ),
-        },
-        actuaciones: {
-          create: {
-            ...ultimaActuacion,
-            isUltimaAct: ultimaActuacion.cant === ultimaActuacion.consActuacion
-              ? true
-              : false,
-            fechaActuacion: new Date(
-              ultimaActuacion.fechaActuacion
-            ),
-            fechaRegistro: new Date(
-              ultimaActuacion.fechaRegistro
-            ),
-            fechaInicial: ultimaActuacion.fechaInicial
-              ? new Date(
-                ultimaActuacion.fechaInicial
-              )
-              : null,
-            fechaFinal: ultimaActuacion.fechaFinal
-              ? new Date(
-                ultimaActuacion.fechaFinal
-              )
-              : null,
-            anotacion: ultimaActuacion.anotacion
-              ? ultimaActuacion.anotacion
-              : null,
           }
 
         },
@@ -172,11 +154,28 @@ export async function insertCarpetaInPrisma(
         }
       );
     } catch ( error ) {
-      console.error(
-        JSON.stringify(
-          error, null, 2
-        )
-      );
+      if ( error instanceof Error ) {
+
+        console.log(
+          JSON.stringify(
+            `carpeta upsert insertCarpetaInPrisma ${ JSON.stringify(
+              JSON.parse(
+                error.message
+              ), null, 2
+            ) }`, null, 2
+          )
+        );
+      } else {
+
+        console.log(
+          JSON.stringify(
+            `carpeta upsert insertCarpetaInPrisma ${ JSON.stringify(
+              error, null, 2
+            ) }`, null, 2
+          )
+        );
+      }
+
       createCarpeta = await client.carpeta.upsert(
         {
           where: {
@@ -562,14 +561,14 @@ export async function insertJuzgadoInPrisma (
 
 
 export async function insertProcesosInPrisma (
-  procesos: intProceso[]
+  procesos: intProceso[], numero: number
 ) {
   const finalProcesos = new Set<Proceso>();
 
   for ( const proceso of procesos ) {
     try {
       const newPrismaProceso = new PrismaProceso(
-        proceso
+        proceso, numero
       );
 
       const createProceso = await client.proceso.create(
@@ -632,14 +631,14 @@ export async function insertProcesosInPrisma (
 }
 
 export async function insertActuacionesInPrisma (
-  actuaciones: intActuacion[]
+  actuaciones: intActuacion[], numero: number
 ) {
   const finalActuaciones = new Set<Actuacion>();
 
   for ( const actuacion of actuaciones ) {
     try {
       const newPrismaActuacion = new PrismaActuacion(
-        actuacion
+        actuacion, numero
       );
 
       const createActuacion = await client.actuacion.create(

@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":223,"llaveProceso":"11001400305520170086000","nombre":"gerardo antonio moncada vega","idProcesos":[86524020],"category":"Reintegra","fecha":"2023-08-03T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:56.671Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

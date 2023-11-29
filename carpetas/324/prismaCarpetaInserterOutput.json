@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":324,"llaveProceso":"11001400300120170084900","nombre":"jose edwin morales alfonso","idProcesos":[50548450],"category":"Terminados","fecha":"2020-02-03T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:18.897Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

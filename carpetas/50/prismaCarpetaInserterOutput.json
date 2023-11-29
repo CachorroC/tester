@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":50,"llaveProceso":"11001400303420180061400","nombre":"gloria astrid rodríguez baquero","idProcesos":[51259250],"category":"Terminados","fecha":"2019-10-01T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:16.583Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

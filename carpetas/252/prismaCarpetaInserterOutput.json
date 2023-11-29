@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":252,"llaveProceso":"11001400303420170123600","nombre":"angel jovani suarez gomez","idProcesos":[50745490],"category":"Terminados","fecha":"2018-02-08T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:03.234Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

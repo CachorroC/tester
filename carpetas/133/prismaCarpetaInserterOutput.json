@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":133,"llaveProceso":"11001400301220170095000","nombre":"carlos giovanny rondon garcia","idProcesos":[50651910],"category":"Terminados","fecha":"2020-11-24T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:36.222Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

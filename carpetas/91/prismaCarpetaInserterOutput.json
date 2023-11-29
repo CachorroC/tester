@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":91,"llaveProceso":"11001400303120180040600","nombre":"jaime jesus reyes orozco","idProcesos":[51092120],"category":"Terminados","fecha":"2023-10-19T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:26.381Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

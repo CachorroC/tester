@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":310,"llaveProceso":"11001400302120170153200","nombre":"libardo alfonso gonzalez triviño","idProcesos":[50769660],"category":"Bancolombia","fecha":"2023-05-15T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:15.936Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

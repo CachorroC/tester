@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":89,"llaveProceso":"11001400306520170093400","nombre":"julian armando acosta rodriguez","idProcesos":[18162740],"category":"Terminados","fecha":"2017-07-17T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:25.815Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

@@ -2,9 +2,9 @@
 //
 //   import { Convert } from "./file";
 //
-//   const intCarpeta = Convert.toIntCarpeta(json);
+//   const prismaCarpeta = Convert.toPrismaCarpeta(json);
 
-export interface IntCarpeta
+export interface PrismaCarpeta
 {
   id: number;
   numero: number;
@@ -13,18 +13,19 @@ export interface IntCarpeta
   idProcesos: number[];
   category: Category;
   fecha: Date | null;
-  demanda: Demanda | null;
-  deudor: Deudor;
-  ultimaActuacion: UltimaActuacion | null;
-  juzgados: Juzgado[];
-  procesos: Proceso[];
-  notas: Nota[];
-  tareas: Tarea[];
+  Prismademanda: PrismaDemanda | null;
+  deudor: PrismaDeudor;
+  ultimaActuacion: PrismaUltimaActuacion | null;
+  juzgados: PrismaJuzgado[];
+  procesos: PrismaProceso[];
+  notas: PrismaNota[];
+  tareas: PrismaTarea[];
 }
+
 
 export type Category = 'Terminados' | 'LiosJuridicos' | 'Bancolombia' | 'Reintegra' | 'Insolvencia';
 
-export interface Demanda
+export interface PrismaDemanda
 {
   id: number;
   departamento: Departamento;
@@ -47,7 +48,7 @@ export type Departamento = 'BOGOTÁ' | 'CUNDINAMARCA' | 'TOLIMA' | 'CUN DINAMARC
 
 export type TipoProceso = 'HIPOTECARIO' | 'PRENDARIO' | 'SINGULAR' | 'ACUMULADO';
 
-export interface Deudor
+export interface PrismaDeudor
 {
   id: number;
   cedula: string;
@@ -62,14 +63,14 @@ export interface Deudor
   carpetaNumero: number;
 }
 
-export interface Juzgado
+export interface PrismaJuzgado
 {
   id: number;
   tipo: string;
   url: string;
 }
 
-export interface Nota
+export interface PrismaNota
 {
   id: number;
   date: Date;
@@ -81,7 +82,7 @@ export interface Nota
   updatedAt: Date;
 }
 
-export interface Proceso
+export interface PrismaProceso
 {
   idProceso: number;
   idConexion: number;
@@ -96,7 +97,7 @@ export interface Proceso
   carpetaNumero: number;
 }
 
-export interface Tarea
+export interface PrismaTarea
 {
   id: number;
   dueDate: null;
@@ -106,10 +107,10 @@ export interface Tarea
   createdAt: Date;
   title: string;
   updatedAt: Date;
-  subTareas: SubTarea[];
+  subTareas: PrismaSubPrismaTarea[];
 }
 
-export interface SubTarea
+export interface PrismaSubPrismaTarea
 {
   text: string;
   date: Date;
@@ -117,7 +118,7 @@ export interface SubTarea
   tareaId: number;
 }
 
-export interface UltimaActuacion
+export interface PrismaUltimaActuacion
 {
   createdAt: Date;
   idRegActuacion: number;
@@ -140,80 +141,80 @@ export type CodRegla = '00                              ';
 
 // Converts JSON strings to/from your types
 export class Convert {
-  public static toIntCarpeta (
+  public static toPrismaCarpeta (
     json: string
-  ): IntCarpeta {
+  ): PrismaCarpeta {
     return JSON.parse(
       json
     );
   }
 
-  public static intCarpetaToJson (
-    value: IntCarpeta
+  public static prismaCarpetaToJson (
+    value: PrismaCarpeta
   ): string {
     return JSON.stringify(
       value
     );
   }
 
-  public static toDemanda (
+  public static toPrismaDemanda (
     json: string
-  ): Demanda {
+  ): PrismaDemanda {
     return JSON.parse(
       json
     );
   }
 
-  public static demandaToJson (
-    value: Demanda
+  public static PrismademandaToJson (
+    value: PrismaDemanda
   ): string {
     return JSON.stringify(
       value
     );
   }
 
-  public static toDeudor (
+  public static toPrismaDeudor (
     json: string
-  ): Deudor {
+  ): PrismaDeudor {
     return JSON.parse(
       json
     );
   }
 
   public static deudorToJson (
-    value: Deudor
+    value: PrismaDeudor
   ): string {
     return JSON.stringify(
       value
     );
   }
 
-  public static toJuzgado (
+  public static toPrismaJuzgado (
     json: string
-  ): Juzgado {
+  ): PrismaJuzgado {
     return JSON.parse(
       json
     );
   }
 
   public static juzgadoToJson (
-    value: Juzgado
+    value: PrismaJuzgado
   ): string {
     return JSON.stringify(
       value
     );
   }
 
-  public static toNota (
+  public static toPrismaNota (
     json: string
-  ): Nota {
+  ): PrismaNota {
     return JSON.parse(
       json
     );
   }
 
   public static notaToJson (
-    value: Nota
+    value: PrismaNota
   ): string {
     return JSON.stringify(
       value
@@ -222,46 +223,46 @@ export class Convert {
 
   public static toProceso (
     json: string
-  ): Proceso {
+  ): PrismaProceso {
     return JSON.parse(
       json
     );
   }
 
   public static procesoToJson (
-    value: Proceso
+    value: PrismaProceso
   ): string {
     return JSON.stringify(
       value
     );
   }
 
-  public static toTarea (
+  public static toPrismaTarea (
     json: string
-  ): Tarea {
+  ): PrismaTarea {
     return JSON.parse(
       json
     );
   }
 
   public static tareaToJson (
-    value: Tarea
+    value: PrismaTarea
   ): string {
     return JSON.stringify(
       value
     );
   }
 
-  public static toSubTarea (
+  public static toPrismaSubPrismaTarea (
     json: string
-  ): SubTarea {
+  ): PrismaSubPrismaTarea {
     return JSON.parse(
       json
     );
   }
 
-  public static subTareaToJson (
-    value: SubTarea
+  public static subPrismaTareaToJson (
+    value: PrismaSubPrismaTarea
   ): string {
     return JSON.stringify(
       value
@@ -270,14 +271,14 @@ export class Convert {
 
   public static toUltimaActuacion (
     json: string
-  ): UltimaActuacion {
+  ): PrismaUltimaActuacion {
     return JSON.parse(
       json
     );
   }
 
   public static ultimaActuacionToJson (
-    value: UltimaActuacion
+    value: PrismaUltimaActuacion
   ): string {
     return JSON.stringify(
       value

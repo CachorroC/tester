@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":66,"llaveProceso":"11001400301920170070200","nombre":"sandra patricia suarez galvis","idProcesos":[50593320],"category":"Terminados","fecha":"2018-03-15T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:20.409Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

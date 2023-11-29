@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":205,"llaveProceso":"11001400301220170097100","nombre":"nelida del carmen rivera,mesa","idProcesos":[50669130],"category":"Reintegra","fecha":"2023-11-20T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:52.532Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

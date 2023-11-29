@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":106,"llaveProceso":"11001400305920170048300","nombre":"daniel hernandez gonzalez null","idProcesos":[50514310],"category":"Reintegra","fecha":"2023-02-27T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:17:29.800Z","terminado":false}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}

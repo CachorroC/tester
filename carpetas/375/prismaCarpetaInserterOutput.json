@@ -1,1 +1,1 @@
-{"StatusCode":200,"Message":"ok","data":{"numero":375,"llaveProceso":"11001400304020180012300","nombre":"jhon alfredo zorro martinez","idProcesos":[19155581],"category":"Terminados","fecha":"2022-10-05T00:00:00.000Z","revisado":false,"updatedAt":"2023-11-24T22:18:30.327Z","terminado":true}}
+{"StatusCode":400,"Message":"error at SyntaxError: Unexpected token 'I', \"\nInvalid `c\"... is not valid JSON","data":"{}"}
