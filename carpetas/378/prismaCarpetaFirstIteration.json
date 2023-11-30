@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 378,
   "llaveProceso": "11001400301120180018100",
   "nombre": "nelson yesith moreno leon",
-  "idProcesos": [],
+  "idProcesos": [
+    51020000
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2021-08-13T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:06.695Z",
+  "terminado": true,
+  "idRegUltimaAct": 1931986320
 }

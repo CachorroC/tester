@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 346,
   "llaveProceso": "11001400307320170154500",
   "nombre": "paula andrea gomez lopez",
-  "idProcesos": [],
+  "idProcesos": [
+    50866190
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2020-11-06T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:00.458Z",
+  "terminado": true,
+  "idRegUltimaAct": 997570100
 }

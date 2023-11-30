@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 196,
   "llaveProceso": "11001310302120170047100",
-  "nombre": "jairo null tibata null",
-  "idProcesos": [],
+  "nombre": "jairo tibata",
+  "idProcesos": [
+    28907104
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2023-06-05T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:24.039Z",
+  "terminado": true,
+  "idRegUltimaAct": 1109487534
 }

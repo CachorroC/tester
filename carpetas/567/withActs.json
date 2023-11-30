@@ -1,4 +1,139 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 1895380620,
+      "llaveProceso": "11001400306520230124300",
+      "consActuacion": 7,
+      "fechaActuacion": "2023-09-20T05:00:00.000Z",
+      "actuacion": "Elaboración de oficios",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-10-05T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132262030,
+      "isUltimaAct": true,
+      "carpetaNumero": 567,
+      "createdAt": "2023-11-30T11:09:50.736Z"
+    },
+    {
+      "idRegActuacion": 1865710460,
+      "llaveProceso": "11001400306520230124300",
+      "consActuacion": 6,
+      "fechaActuacion": "2023-08-31T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 31/08/2023 a las 08:26:38.",
+      "fechaInicial": "2023-09-01T05:00:00.000Z",
+      "fechaFinal": "2023-09-01T05:00:00.000Z",
+      "fechaRegistro": "2023-08-31T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132262030,
+      "isUltimaAct": false,
+      "carpetaNumero": 567,
+      "createdAt": "2023-11-30T11:09:50.736Z"
+    },
+    {
+      "idRegActuacion": 1865710450,
+      "llaveProceso": "11001400306520230124300",
+      "consActuacion": 5,
+      "fechaActuacion": "2023-08-31T05:00:00.000Z",
+      "actuacion": "Auto decreta medida cautelar",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-31T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132262030,
+      "isUltimaAct": false,
+      "carpetaNumero": 567,
+      "createdAt": "2023-11-30T11:09:50.736Z"
+    },
+    {
+      "idRegActuacion": 1865654250,
+      "llaveProceso": "11001400306520230124300",
+      "consActuacion": 4,
+      "fechaActuacion": "2023-08-31T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 31/08/2023 a las 08:26:26.",
+      "fechaInicial": "2023-09-01T05:00:00.000Z",
+      "fechaFinal": "2023-09-01T05:00:00.000Z",
+      "fechaRegistro": "2023-08-31T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132262030,
+      "isUltimaAct": false,
+      "carpetaNumero": 567,
+      "createdAt": "2023-11-30T11:09:50.736Z"
+    },
+    {
+      "idRegActuacion": 1865654240,
+      "llaveProceso": "11001400306520230124300",
+      "consActuacion": 3,
+      "fechaActuacion": "2023-08-31T05:00:00.000Z",
+      "actuacion": "Auto libra mandamiento ejecutivo",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-31T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132262030,
+      "isUltimaAct": false,
+      "carpetaNumero": 567,
+      "createdAt": "2023-11-30T11:09:50.736Z"
+    },
+    {
+      "idRegActuacion": 1845938400,
+      "llaveProceso": "11001400306520230124300",
+      "consActuacion": 2,
+      "fechaActuacion": "2023-08-11T05:00:00.000Z",
+      "actuacion": "Al despacho",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-11T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132262030,
+      "isUltimaAct": false,
+      "carpetaNumero": 567,
+      "createdAt": "2023-11-30T11:09:50.736Z"
+    },
+    {
+      "idRegActuacion": 1840889670,
+      "llaveProceso": "11001400306520230124300",
+      "consActuacion": 1,
+      "fechaActuacion": "2023-08-10T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 10/08/2023 a las 15:30:18",
+      "fechaInicial": "2023-08-10T05:00:00.000Z",
+      "fechaFinal": "2023-08-10T05:00:00.000Z",
+      "fechaRegistro": "2023-08-10T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132262030,
+      "isUltimaAct": false,
+      "carpetaNumero": 567,
+      "createdAt": "2023-11-30T11:09:50.736Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 65,
+      "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 567,
   "llaveProceso": "11001400306520230124300",
   "demanda": {
@@ -7,7 +142,7 @@
     ],
     "juzgados": [],
     "capitalAdeudado": 19188290,
-    "departamento": "BOGOTÁ",
+    "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
@@ -19,22 +154,6 @@
     ],
     "radicado": "2023 - 01284",
     "expediente": "11001400306520230124300"
-  },
-  "fecha": "2023-09-20T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1895380620,
-    "llaveProceso": "11001400306520230124300",
-    "consActuacion": 7,
-    "fechaActuacion": "2023-09-20T00:00:00",
-    "actuacion": "Elaboración de oficios",
-    "anotacion": null,
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-10-05T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 7,
-    "idProceso": 132262030
   },
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
@@ -69,7 +188,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "wilson de jesus molina quirama",
   "idProcesos": [
     132262030
-  ]
+  ],
+  "revisado": false,
+  "terminado": false
 }

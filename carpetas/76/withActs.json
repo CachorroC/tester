@@ -1,4 +1,85 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 964317241,
+      "llaveProceso": "25183400300120170011900",
+      "consActuacion": 14540213,
+      "fechaActuacion": "2020-11-04T05:00:00.000Z",
+      "actuacion": "FIJACION ESTADO",
+      "anotacion": "",
+      "fechaInicial": "2020-11-04T05:00:00.000Z",
+      "fechaFinal": "2020-11-06T05:00:00.000Z",
+      "fechaRegistro": "2020-11-03T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 86212271,
+      "isUltimaAct": false,
+      "carpetaNumero": 76,
+      "createdAt": "2023-11-30T11:07:54.270Z"
+    },
+    {
+      "idRegActuacion": 964317311,
+      "llaveProceso": "25183400300120170011900",
+      "consActuacion": 14540212,
+      "fechaActuacion": "2020-11-03T05:00:00.000Z",
+      "actuacion": "aUTO DECIDE",
+      "anotacion": "DEJA SIN VALOR Y EFECTO RECONOCE SUBROGATARIO",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2020-11-03T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": true,
+      "cant": 4,
+      "idProceso": 86212271,
+      "isUltimaAct": false,
+      "carpetaNumero": 76,
+      "createdAt": "2023-11-30T11:07:54.270Z"
+    },
+    {
+      "idRegActuacion": 961709631,
+      "llaveProceso": "25183400300120170011900",
+      "consActuacion": 14379614,
+      "fechaActuacion": "2020-10-21T05:00:00.000Z",
+      "actuacion": "AL DESPACHO",
+      "anotacion": "",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2020-10-21T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 86212271,
+      "isUltimaAct": false,
+      "carpetaNumero": 76,
+      "createdAt": "2023-11-30T11:07:54.270Z"
+    },
+    {
+      "idRegActuacion": 961710411,
+      "llaveProceso": "25183400300120170011900",
+      "consActuacion": 14379604,
+      "fechaActuacion": "2020-10-21T05:00:00.000Z",
+      "actuacion": "CONSTANCIA DE TERMINOS",
+      "anotacion": "",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2020-10-21T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": true,
+      "cant": 4,
+      "idProceso": 86212271,
+      "isUltimaAct": false,
+      "carpetaNumero": 76,
+      "createdAt": "2023-11-30T11:07:54.270Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 1,
+      "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
+    }
+  ],
   "numero": 76,
   "llaveProceso": "25183400300120170011900",
   "demanda": {
@@ -19,22 +100,6 @@
     ],
     "radicado": "2017 - 00119",
     "expediente": "25183400300120170011900"
-  },
-  "fecha": "2020-11-04T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 964317241,
-    "llaveProceso": "25183400300120170011900",
-    "consActuacion": 14540213,
-    "fechaActuacion": "2020-11-04T00:00:00",
-    "actuacion": "FIJACION ESTADO",
-    "anotacion": "",
-    "fechaInicial": "2020-11-04T00:00:00",
-    "fechaFinal": "2020-11-06T00:00:00",
-    "fechaRegistro": "2020-11-03T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 4,
-    "idProceso": 86212271
   },
   "category": "Terminados",
   "tipoProceso": "SINGULAR",
@@ -72,7 +137,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "estela marin garzón",
   "idProcesos": [
     86212271
-  ]
+  ],
+  "revisado": true,
+  "terminado": true
 }

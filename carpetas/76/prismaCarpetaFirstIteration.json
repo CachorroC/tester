@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 76,
   "llaveProceso": "25183400300120170011900",
-  "nombre": "estela marin garzón null",
-  "idProcesos": [],
+  "nombre": "estela marin garzón",
+  "idProcesos": [
+    86212271
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2020-11-04T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:54.037Z",
+  "terminado": true,
+  "idRegUltimaAct": 964317241
 }

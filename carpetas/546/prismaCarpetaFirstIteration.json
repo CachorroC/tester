@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 546,
   "llaveProceso": "11001400300220170100200",
   "nombre": "jogli joaquin otero vargas",
-  "idProcesos": [],
+  "idProcesos": [
+    50780430
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-03-14T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:47.067Z",
+  "terminado": false,
+  "idRegUltimaAct": 1676204610
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 147,
   "llaveProceso": "11001400305920170074700",
   "nombre": "milton andres laiton rincon",
-  "idProcesos": [],
+  "idProcesos": [
+    50653750
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2021-08-13T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:11.455Z",
+  "terminado": true,
+  "idRegUltimaAct": 1217932630
 }

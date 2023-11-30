@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 543,
   "llaveProceso": "11001418901220180095100",
   "nombre": "rosalia charry  sarmiento",
-  "idProcesos": [],
+  "idProcesos": [
+    64673240
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-05-15T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:46.634Z",
+  "terminado": false,
+  "idRegUltimaAct": 1743221490
 }

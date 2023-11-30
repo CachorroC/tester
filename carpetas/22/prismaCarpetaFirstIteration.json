@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 22,
   "llaveProceso": "11001400308520170084900",
   "nombre": "jose edwin garces ardila",
-  "idProcesos": [],
+  "idProcesos": [
+    51935790
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-06-15T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:07:43.618Z",
+  "terminado": false,
+  "idRegUltimaAct": 1777734510
 }

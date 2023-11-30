@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 154,
   "llaveProceso": "11001400303620170084100",
   "nombre": "gabriel eduardo mejia ladino",
-  "idProcesos": [],
+  "idProcesos": [
+    50688820
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-08-16T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:12.858Z",
+  "terminado": true,
+  "idRegUltimaAct": 1846773190
 }

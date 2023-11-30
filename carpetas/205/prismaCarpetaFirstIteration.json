@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 205,
   "llaveProceso": "11001400301220170097100",
-  "nombre": "nelida del carmen rivera,mesa",
-  "idProcesos": [],
+  "nombre": "nelida del carmen rivera mesa",
+  "idProcesos": [
+    50669130
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-11-20T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:26.139Z",
+  "terminado": false,
+  "idRegUltimaAct": 1935714050
 }

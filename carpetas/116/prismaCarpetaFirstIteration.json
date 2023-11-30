@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 116,
   "llaveProceso": "11001400301020170083000",
   "nombre": "ana karina mantilla pardo",
-  "idProcesos": [],
+  "idProcesos": [
+    50624030
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2018-10-30T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:03.466Z",
+  "terminado": true,
+  "idRegUltimaAct": 613826140
 }

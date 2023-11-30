@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 303,
   "llaveProceso": "11001400303020170157900",
   "nombre": "rafael alfonso camacho velandia",
-  "idProcesos": [],
+  "idProcesos": [
+    50778160
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-05-11T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:51.938Z",
+  "terminado": true,
+  "idRegUltimaAct": 1286123160
 }

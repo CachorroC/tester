@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 26,
   "llaveProceso": "11001400306520170082700",
-  "nombre": "yudy null rodriguez null",
-  "idProcesos": [],
+  "nombre": "yudy rodriguez",
+  "idProcesos": [
+    18161830
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2019-06-25T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:44.155Z",
+  "terminado": true,
+  "idRegUltimaAct": 550291430
 }

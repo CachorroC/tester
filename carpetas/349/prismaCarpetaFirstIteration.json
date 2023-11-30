@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 349,
   "llaveProceso": "11001400302720170127200",
-  "nombre": "liliana garcia rosero null",
-  "idProcesos": [],
+  "nombre": "liliana garcia rosero",
+  "idProcesos": [
+    50869240
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2022-03-04T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:01.178Z",
+  "terminado": true,
+  "idRegUltimaAct": 1260887540
 }

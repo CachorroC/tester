@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 538,
   "llaveProceso": "11001400302720180057700",
   "nombre": "gloria giraldo de rovida",
-  "idProcesos": [],
+  "idProcesos": [
+    51206070
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-06-21T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:44.544Z",
+  "terminado": true,
+  "idRegUltimaAct": 1783927580
 }

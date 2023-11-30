@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 65,
   "llaveProceso": "11001400302020170077600",
   "nombre": "ernesto augusto idarraga quintero",
-  "idProcesos": [],
+  "idProcesos": [
+    50511250
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-10-04T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:51.296Z",
+  "terminado": true,
+  "idRegUltimaAct": 1891669460
 }

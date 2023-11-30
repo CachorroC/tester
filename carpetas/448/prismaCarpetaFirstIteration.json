@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 448,
   "llaveProceso": "11001400301220180081000",
   "nombre": "luis alfredo niño garcia",
-  "idProcesos": [],
+  "idProcesos": [
+    51282150
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-06-05T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:22.770Z",
+  "terminado": true,
+  "idRegUltimaAct": 1765085550
 }

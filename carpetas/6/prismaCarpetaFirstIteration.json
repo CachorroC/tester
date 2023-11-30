@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 6,
   "llaveProceso": "11001400307620170044400",
-  "nombre": "francisco montaña quesada null",
+  "nombre": "francisco montaña quesada",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:37.771Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 341,
   "llaveProceso": "11001400305720170128900",
-  "nombre": "mario velez parra null",
-  "idProcesos": [],
+  "nombre": "mario velez parra",
+  "idProcesos": [
+    17608484
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-07-29T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:59.318Z",
+  "terminado": true,
+  "idRegUltimaAct": 611922164
 }

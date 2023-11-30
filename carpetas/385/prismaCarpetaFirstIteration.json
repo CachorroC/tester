@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 385,
   "llaveProceso": "11001400303520180007400",
-  "nombre": "avelino sierra sierra null",
-  "idProcesos": [],
+  "nombre": "avelino sierra sierra",
+  "idProcesos": [
+    50980350
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-07-26T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:09.255Z",
+  "terminado": true,
+  "idRegUltimaAct": 1823075530
 }

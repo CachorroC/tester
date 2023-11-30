@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 333,
   "llaveProceso": "11001400306320170131700",
   "nombre": "ahida lucero guevara becerra",
-  "idProcesos": [],
+  "idProcesos": [
+    17718250
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2018-05-16T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:57.468Z",
+  "terminado": true,
+  "idRegUltimaAct": 266714170
 }

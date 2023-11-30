@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 268,
   "llaveProceso": "11001400303520170147500",
   "nombre": "jorge hugo leal serrato",
-  "idProcesos": [],
+  "idProcesos": [
+    50764160
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2021-04-22T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:40.945Z",
+  "terminado": true,
+  "idRegUltimaAct": 1013262230
 }

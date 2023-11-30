@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 452,
   "llaveProceso": "11001400305920180009000",
   "nombre": "maria marin de orozco",
-  "idProcesos": [],
+  "idProcesos": [
+    50989890
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-03-25T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:23.552Z",
+  "terminado": false,
+  "idRegUltimaAct": 1267048930
 }

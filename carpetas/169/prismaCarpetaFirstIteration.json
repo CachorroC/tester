@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 169,
   "llaveProceso": "11001400300320170126400",
   "nombre": "rita blanco de gomez",
-  "idProcesos": [],
+  "idProcesos": [
+    50598770
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-10-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:18.177Z",
+  "terminado": false,
+  "idRegUltimaAct": 1900297790
 }

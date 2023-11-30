@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 425,
   "llaveProceso": "11001400307520180067400",
-  "nombre": "sandra raquel lopez de,mesa,oses",
+  "nombre": "sandra raquel lopez de mesa oses",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:17.699Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

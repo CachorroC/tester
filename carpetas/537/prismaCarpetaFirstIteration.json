@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 537,
   "llaveProceso": "11001400305120180085000",
-  "nombre": "sandra  liliana cruz,beltran",
-  "idProcesos": [],
+  "nombre": "sandra  liliana cruz beltran",
+  "idProcesos": [
+    89137980
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-07-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:44.431Z",
+  "terminado": false,
+  "idRegUltimaAct": 1803871850
 }

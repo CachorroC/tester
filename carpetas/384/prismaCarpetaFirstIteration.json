@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 384,
   "llaveProceso": "11001400305620180011000",
   "nombre": "diego javier galindo mejia",
-  "idProcesos": [],
+  "idProcesos": [
+    50980370
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-02-28T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:09.075Z",
+  "terminado": true,
+  "idRegUltimaAct": 961171510
 }

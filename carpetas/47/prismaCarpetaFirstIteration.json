@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 47,
   "llaveProceso": "11001400300620170030200",
   "nombre": "ana rita guzman gomez",
-  "idProcesos": [],
+  "idProcesos": [
+    50521190
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-09-07T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:07:47.833Z",
+  "terminado": false,
+  "idRegUltimaAct": 1873552420
 }

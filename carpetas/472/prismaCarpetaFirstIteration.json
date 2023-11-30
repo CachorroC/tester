@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 472,
   "llaveProceso": "11001418900920180038900",
-  "nombre": "sergio espinel correal null",
+  "nombre": "sergio espinel correal",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:30.340Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

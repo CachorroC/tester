@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 556,
   "llaveProceso": "25430400300120230112700",
-  "nombre": "ciro erquilian onofre null",
-  "idProcesos": [],
+  "nombre": "ciro erquilian onofre",
+  "idProcesos": [
+    159336301
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": null,
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:49.064Z",
+  "terminado": false,
+  "idRegUltimaAct": null
 }

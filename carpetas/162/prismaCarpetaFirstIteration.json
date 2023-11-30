@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 162,
   "llaveProceso": "11001400304120170094600",
-  "nombre": "manhattan dotaciones s.a.s null",
-  "idProcesos": [],
+  "nombre": "manhattan dotaciones s.a.s",
+  "idProcesos": [
+    52159350
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-03-24T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:16.186Z",
+  "terminado": true,
+  "idRegUltimaAct": 1689013170
 }

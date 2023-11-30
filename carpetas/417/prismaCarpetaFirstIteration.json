@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 417,
   "llaveProceso": "11001400307120170125000",
   "nombre": "oscar humberto gomez chuchin",
-  "idProcesos": [],
+  "idProcesos": [
+    64793050
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-03-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:16.107Z",
+  "terminado": false,
+  "idRegUltimaAct": 1262834390
 }

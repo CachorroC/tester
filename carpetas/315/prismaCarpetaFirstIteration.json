@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 315,
   "llaveProceso": "25754400300320170036400",
-  "nombre": "bladimir gutierrez cifuentes null",
+  "nombre": "bladimir gutierrez cifuentes",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:54.237Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

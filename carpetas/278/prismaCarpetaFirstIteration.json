@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 278,
   "llaveProceso": "11001400303720170139100",
   "nombre": "luz dary puerta jaramillo",
-  "idProcesos": [],
+  "idProcesos": [
+    112945420
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-03-09T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:43.919Z",
+  "terminado": false,
+  "idRegUltimaAct": 1262270900
 }

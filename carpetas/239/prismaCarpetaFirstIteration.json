@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 239,
   "llaveProceso": "11001400304520170116400",
   "nombre": "nidia jacqueline riveros araque",
-  "idProcesos": [],
+  "idProcesos": [
+    9877803
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-06-20T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:34.948Z",
+  "terminado": true,
+  "idRegUltimaAct": 1600023133
 }

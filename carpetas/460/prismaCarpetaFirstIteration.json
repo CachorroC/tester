@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 460,
   "llaveProceso": "11001400306620190040900",
   "nombre": "jorge abdolonio guerrero hernandez",
-  "idProcesos": [],
+  "idProcesos": [
+    18852280
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2019-04-11T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:24.637Z",
+  "terminado": true,
+  "idRegUltimaAct": 920378870
 }

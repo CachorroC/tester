@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 581,
   "llaveProceso": "11001400303320230105600",
-  "nombre": "angelica godoy gutierrez y,edison,andres,tuta,forero",
-  "idProcesos": [],
+  "nombre": "angelica godoy gutierrez y edison andres tuta forero",
+  "idProcesos": [
+    132789600
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2023-10-11T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:52.822Z",
+  "terminado": false,
+  "idRegUltimaAct": 1900880330
 }

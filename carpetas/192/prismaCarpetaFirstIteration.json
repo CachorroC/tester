@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 192,
   "llaveProceso": "1100140030732017015300",
   "nombre": "diana patricia sanchez salcedo",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:23.401Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

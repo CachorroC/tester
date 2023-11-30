@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 583,
   "llaveProceso": "11001400308120230141400",
   "nombre": "alba yaneth aparicio sandoval",
-  "idProcesos": [],
+  "idProcesos": [
+    133187160
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-09-12T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:53.094Z",
+  "terminado": false,
+  "idRegUltimaAct": 1877745020
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 375,
   "llaveProceso": "11001400304020180012300",
   "nombre": "jhon alfredo zorro martinez",
-  "idProcesos": [],
+  "idProcesos": [
+    19155581
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2022-10-05T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:06.038Z",
+  "terminado": true,
+  "idRegUltimaAct": 1184571551
 }

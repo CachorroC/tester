@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 125,
   "llaveProceso": "11001400304720170152000",
-  "nombre": "milciades galindo casteblanco null",
-  "idProcesos": [],
+  "nombre": "milciades galindo casteblanco",
+  "idProcesos": [
+    97088411,
+    109959053
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-09-02T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:05.397Z",
+  "terminado": false,
+  "idRegUltimaAct": 1217234763
 }

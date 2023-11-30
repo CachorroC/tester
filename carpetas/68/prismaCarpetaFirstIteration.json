@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 68,
   "llaveProceso": "25899400300220170027000",
   "nombre": "martha stella gomez bolivar",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:52.102Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

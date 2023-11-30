@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 339,
   "llaveProceso": "11001400305620170119500",
   "nombre": "luis alfonso mojica zambrano",
-  "idProcesos": [],
+  "idProcesos": [
+    50858360
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2020-02-18T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:58.894Z",
+  "terminado": true,
+  "idRegUltimaAct": 958463870
 }

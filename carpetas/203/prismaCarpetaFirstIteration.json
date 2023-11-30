@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 203,
   "llaveProceso": "11001400300820170106000",
-  "nombre": "gonzalo villabon martinez null",
-  "idProcesos": [],
+  "nombre": "gonzalo villabon martinez",
+  "idProcesos": [
+    50684220
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2019-07-17T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:25.490Z",
+  "terminado": true,
+  "idRegUltimaAct": 602011100
 }

@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 36,
   "llaveProceso": " 11001400306620170089200",
   "nombre": "sandra patricia agudelo montagut",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:45.712Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

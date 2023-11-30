@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 535,
   "llaveProceso": "11001400306920200082300",
   "nombre": "amanda lucia gaitan rincón",
-  "idProcesos": [],
+  "idProcesos": [
+    112082810
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-04-25T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:44.061Z",
+  "terminado": true,
+  "idRegUltimaAct": 1275698720
 }

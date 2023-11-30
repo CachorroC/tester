@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 555,
   "llaveProceso": "11001400303220230090400",
   "nombre": "jeimmy soley quiroga ramirez",
-  "idProcesos": [],
+  "idProcesos": [
+    132048330
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-10-04T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:48.924Z",
+  "terminado": false,
+  "idRegUltimaAct": 1936376060
 }

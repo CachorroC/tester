@@ -1,4 +1,49 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 857051550,
+      "llaveProceso": "11001400307820180064700",
+      "consActuacion": 2,
+      "fechaActuacion": "2019-01-15T05:00:00.000Z",
+      "actuacion": "Constancia secretarial",
+      "anotacion": "SE ENTREGO DESGLOSE  ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2019-01-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 51571520,
+      "isUltimaAct": true,
+      "carpetaNumero": 450,
+      "createdAt": "2023-11-30T11:09:23.417Z"
+    },
+    {
+      "idRegActuacion": 857051540,
+      "llaveProceso": "11001400307820180064700",
+      "consActuacion": 1,
+      "fechaActuacion": "2019-01-15T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 15/01/2019 a las 16:30:35",
+      "fechaInicial": "2019-01-15T05:00:00.000Z",
+      "fechaFinal": "2019-01-15T05:00:00.000Z",
+      "fechaRegistro": "2019-01-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 51571520,
+      "isUltimaAct": false,
+      "carpetaNumero": 450,
+      "createdAt": "2023-11-30T11:09:23.417Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 78,
+      "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 450,
   "llaveProceso": "11001400307820180064700",
   "demanda": {
@@ -7,7 +52,7 @@
     ],
     "juzgados": [],
     "capitalAdeudado": 2155020258,
-    "departamento": "BOGOTÁ",
+    "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2018-06-19T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": "2018-04-07T05:00:00.000Z",
@@ -19,22 +64,6 @@
     ],
     "radicado": "2018 - 00647",
     "expediente": "11001400307820180064700"
-  },
-  "fecha": "2019-01-15T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 857051550,
-    "llaveProceso": "11001400307820180064700",
-    "consActuacion": 2,
-    "fechaActuacion": "2019-01-15T00:00:00",
-    "actuacion": "Constancia secretarial",
-    "anotacion": "SE ENTREGO DESGLOSE  ",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2019-01-15T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 2,
-    "idProceso": 51571520
   },
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
@@ -66,7 +95,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "kelly yohanna murcia ducon",
   "idProcesos": [
     51571520
-  ]
+  ],
+  "revisado": true,
+  "terminado": true
 }

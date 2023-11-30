@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 50,
   "llaveProceso": "11001400303420180061400",
   "nombre": "gloria astrid rodríguez baquero",
-  "idProcesos": [],
+  "idProcesos": [
+    51259250
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-10-01T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:48.424Z",
+  "terminado": true,
+  "idRegUltimaAct": 565108270
 }

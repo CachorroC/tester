@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 95,
   "llaveProceso": "11001400302820170057500",
   "nombre": "edwin jhobani perez pita",
-  "idProcesos": [],
+  "idProcesos": [
+    50541540
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2021-01-30T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:58.703Z",
+  "terminado": true,
+  "idRegUltimaAct": 1003778780
 }

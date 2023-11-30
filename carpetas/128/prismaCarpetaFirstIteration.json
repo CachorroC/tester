@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 128,
   "llaveProceso": "11001400307820170073300",
-  "nombre": "maria gladys  gonzalez,sosa",
-  "idProcesos": [],
+  "nombre": "maria gladys  gonzalez sosa",
+  "idProcesos": [
+    51463930
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-09-27T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:05.878Z",
+  "terminado": true,
+  "idRegUltimaAct": 1414014340
 }

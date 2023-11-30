@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 337,
   "llaveProceso": "11001400300620170096400",
   "nombre": "hector alfonso torres rios",
-  "idProcesos": [],
+  "idProcesos": [
+    50857820
+  ],
   "category": "Insolvencia",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2023-07-12T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:58.518Z",
+  "terminado": false,
+  "idRegUltimaAct": 1808307970
 }

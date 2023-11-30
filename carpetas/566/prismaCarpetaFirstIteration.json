@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 566,
   "llaveProceso": "11001400306920230127300",
   "nombre": "johan andres quiroga galeano",
-  "idProcesos": [],
+  "idProcesos": [
+    132041720
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-11-23T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:50.381Z",
+  "terminado": false,
+  "idRegUltimaAct": 1937131740
 }

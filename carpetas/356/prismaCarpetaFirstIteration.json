@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 356,
   "llaveProceso": "11001400302420170170800",
   "nombre": "sonia ximena rodriguez sanchez",
-  "idProcesos": [],
+  "idProcesos": [
+    50905230
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2023-11-07T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:02.767Z",
+  "terminado": true,
+  "idRegUltimaAct": 1934292270
 }

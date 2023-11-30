@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 431,
   "llaveProceso": "11001400302220180060400",
   "nombre": "duvy mariela rodriguez rocha",
-  "idProcesos": [],
+  "idProcesos": [
+    51173050
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-10-10T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:20.206Z",
+  "terminado": true,
+  "idRegUltimaAct": 861521230
 }

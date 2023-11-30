@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 218,
   "llaveProceso": "11001400300220170084000",
-  "nombre": "elio alvarado hernandez null",
-  "idProcesos": [],
+  "nombre": "elio alvarado hernandez",
+  "idProcesos": [
+    50699960
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-09-20T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:30.105Z",
+  "terminado": true,
+  "idRegUltimaAct": 379973530
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 75,
   "llaveProceso": "11001400305820170091800",
   "nombre": "mario andres bojaca cruz",
-  "idProcesos": [],
+  "idProcesos": [
+    50526190
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2019-04-11T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:53.778Z",
+  "terminado": true,
+  "idRegUltimaAct": 809812920
 }

@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 217,
   "llaveProceso": "11001310303720170045300",
   "nombre": "diana vanessa naranjo hernandez",
-  "idProcesos": [],
+  "idProcesos": [
+    51315290,
+    57718874
+  ],
   "category": "LiosJuridicos",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2019-09-20T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:28.537Z",
+  "terminado": false,
+  "idRegUltimaAct": 662839914
 }

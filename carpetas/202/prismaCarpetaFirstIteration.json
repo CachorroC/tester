@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 202,
   "llaveProceso": "11001400308520170128700",
   "nombre": "sonia mireya pantoja sandoval",
-  "idProcesos": [],
+  "idProcesos": [
+    51937670
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2021-09-10T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:25.262Z",
+  "terminado": true,
+  "idRegUltimaAct": 1222612030
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 73,
   "llaveProceso": "11001400300420170057500",
-  "nombre": "sonia null mazuera null",
-  "idProcesos": [],
+  "nombre": "sonia mazuera",
+  "idProcesos": [
+    50508870
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-11-27T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:53.261Z",
+  "terminado": true,
+  "idRegUltimaAct": 1937899290
 }

@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 271,
   "llaveProceso": "11001400405420170099000",
   "nombre": "aura geovana rodriguez mora",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:41.497Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

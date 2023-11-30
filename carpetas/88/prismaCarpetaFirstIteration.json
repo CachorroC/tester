@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 88,
   "llaveProceso": "1100140030820170052800",
-  "nombre": "idaly ferro cardona null",
+  "nombre": "idaly ferro cardona",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:56.239Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 63,
   "llaveProceso": "11001418900920170008900",
   "nombre": "diana marcela ipuz suarez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:50.904Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

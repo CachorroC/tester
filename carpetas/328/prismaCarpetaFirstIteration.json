@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 328,
   "llaveProceso": "11001400302620170129300",
   "nombre": "sandra milena barreto bermudez",
-  "idProcesos": [],
+  "idProcesos": [
+    50846930
+  ],
   "category": "LiosJuridicos",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-10-02T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:56.411Z",
+  "terminado": false,
+  "idRegUltimaAct": 714039960
 }

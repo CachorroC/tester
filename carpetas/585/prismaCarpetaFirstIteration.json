@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 585,
   "llaveProceso": "11001418907020230039900",
-  "nombre": "maria georgina forero de,mendoza",
-  "idProcesos": [],
+  "nombre": "maria georgina forero de mendoza",
+  "idProcesos": [
+    133932120
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-10-26T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:53.346Z",
+  "terminado": false,
+  "idRegUltimaAct": 1918057590
 }

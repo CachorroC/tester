@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 119,
   "llaveProceso": "11001400301420170098800",
   "nombre": "cesar augusto gil gallego",
-  "idProcesos": [],
+  "idProcesos": [
+    50633790
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-01-14T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:04.233Z",
+  "terminado": true,
+  "idRegUltimaAct": 638348500
 }

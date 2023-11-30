@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 426,
   "llaveProceso": "11001400306820180047600",
-  "nombre": "felix  hernando montenegro,garcia",
-  "idProcesos": [],
+  "nombre": "felix  hernando montenegro garcia",
+  "idProcesos": [
+    19217890
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-06-02T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:17.838Z",
+  "terminado": true,
+  "idRegUltimaAct": 1302521110
 }

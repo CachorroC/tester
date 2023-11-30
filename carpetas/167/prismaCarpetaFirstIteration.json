@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 167,
   "llaveProceso": "11001310301020170071000",
   "nombre": "jose mauricio gonzalez calderon",
-  "idProcesos": [],
+  "idProcesos": [
+    28842484
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2022-09-15T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:17.212Z",
+  "terminado": true,
+  "idRegUltimaAct": 1062932784
 }

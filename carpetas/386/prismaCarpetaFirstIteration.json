@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 386,
   "llaveProceso": "25269400300120170074400",
-  "nombre": "alexander prada palmar null",
+  "nombre": "alexander prada palmar",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:09.411Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

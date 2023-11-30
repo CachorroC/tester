@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 363,
   "llaveProceso": "25754400300220170040900",
   "nombre": "maria liliana castañeda zapata",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:04.087Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 149,
   "llaveProceso": "25754400300220170025600",
   "nombre": "magda tatiana torres gonzalez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:11.921Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

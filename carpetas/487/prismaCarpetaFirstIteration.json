@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 487,
   "llaveProceso": "11001400301420180078900",
-  "nombre": "gabriel mendoza morinelly null",
-  "idProcesos": [],
+  "nombre": "gabriel mendoza morinelly",
+  "idProcesos": [
+    51278930
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2020-01-28T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:32.396Z",
+  "terminado": true,
+  "idRegUltimaAct": 951262290
 }

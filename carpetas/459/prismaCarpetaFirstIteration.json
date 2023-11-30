@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 459,
   "llaveProceso": "11001400305320180094500",
-  "nombre": "cesar armando vanegas null",
-  "idProcesos": [],
+  "nombre": "cesar armando vanegas",
+  "idProcesos": [
+    64641230
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2020-02-17T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:24.460Z",
+  "terminado": true,
+  "idRegUltimaAct": 958263380
 }

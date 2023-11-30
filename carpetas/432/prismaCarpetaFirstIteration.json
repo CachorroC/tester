@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 432,
   "llaveProceso": "11001400308120180058300",
   "nombre": "lilia yanira diaz caro",
-  "idProcesos": [],
+  "idProcesos": [
+    51914550,
+    81863401
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2020-02-03T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:20.378Z",
+  "terminado": true,
+  "idRegUltimaAct": 952412530
 }

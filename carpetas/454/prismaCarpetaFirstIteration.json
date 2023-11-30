@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 454,
   "llaveProceso": "11001400308420180067300",
   "nombre": "nicolas ernesto cocoma arciniegas",
-  "idProcesos": [],
+  "idProcesos": [
+    112068890
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-07-13T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:23.758Z",
+  "terminado": true,
+  "idRegUltimaAct": 1335644390
 }

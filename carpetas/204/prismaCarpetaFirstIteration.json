@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 204,
   "llaveProceso": "11001400304520170106300",
-  "nombre": "flor esperanza gutierrez null",
-  "idProcesos": [],
+  "nombre": "flor esperanza gutierrez",
+  "idProcesos": [
+    110120573
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-03-07T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:25.783Z",
+  "terminado": false,
+  "idRegUltimaAct": 1558599213
 }

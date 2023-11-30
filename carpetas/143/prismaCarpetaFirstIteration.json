@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 143,
   "llaveProceso": "11001400303420170108900",
   "nombre": "paola andrea rodriguez morales",
-  "idProcesos": [],
+  "idProcesos": [
+    50654580
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-03-07T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:10.524Z",
+  "terminado": true,
+  "idRegUltimaAct": 764063990
 }

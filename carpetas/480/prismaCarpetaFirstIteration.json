@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 480,
   "llaveProceso": "25307400300320210053900",
-  "nombre": "adriana vanegas peña null",
-  "idProcesos": [],
+  "nombre": "adriana vanegas peña",
+  "idProcesos": [
+    121826111
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-03-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:31.378Z",
+  "terminado": false,
+  "idRegUltimaAct": 1230524231
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 159,
   "llaveProceso": "11001400307320170133300",
   "nombre": "allan fredy tobar enciso",
-  "idProcesos": [],
+  "idProcesos": [
+    50765090
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2017-11-08T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:13.817Z",
+  "terminado": true,
+  "idRegUltimaAct": 855746560
 }

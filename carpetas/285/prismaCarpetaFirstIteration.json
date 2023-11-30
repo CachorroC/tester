@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 285,
   "llaveProceso": "11001400300520170132600",
   "nombre": "adriana maria perez gomez",
-  "idProcesos": [],
+  "idProcesos": [
+    50720040
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-05-25T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:45.310Z",
+  "terminado": true,
+  "idRegUltimaAct": 1754755510
 }

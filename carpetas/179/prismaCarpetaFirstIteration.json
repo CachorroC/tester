@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 179,
   "llaveProceso": "11001400301120170108400",
-  "nombre": "guillermo gonzalez tagua null",
-  "idProcesos": [],
+  "nombre": "guillermo gonzalez tagua",
+  "idProcesos": [
+    50760030
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-07-26T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:20.588Z",
+  "terminado": false,
+  "idRegUltimaAct": 1823785240
 }

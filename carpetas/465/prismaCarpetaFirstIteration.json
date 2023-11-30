@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 465,
   "llaveProceso": "11001400307720180085400",
-  "nombre": "giovanny duran antonio null",
-  "idProcesos": [],
+  "nombre": "giovanny duran antonio",
+  "idProcesos": [
+    51342910
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-09-18T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:28.856Z",
+  "terminado": true,
+  "idRegUltimaAct": 565848290
 }

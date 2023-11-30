@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 256,
   "llaveProceso": "11001400300720170141000",
-  "nombre": "freddy arias martinez null",
-  "idProcesos": [],
+  "nombre": "freddy arias martinez",
+  "idProcesos": [
+    50726160
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-04-26T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:38.347Z",
+  "terminado": true,
+  "idRegUltimaAct": 594690170
 }

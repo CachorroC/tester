@@ -1,4 +1,121 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 714162860,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 6,
+      "fechaActuacion": "2018-06-15T05:00:00.000Z",
+      "actuacion": "Envío  comunicaciones",
+      "anotacion": "COMPETENCIA ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-06-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 51176440,
+      "isUltimaAct": true,
+      "carpetaNumero": 383,
+      "createdAt": "2023-11-30T11:09:09.073Z"
+    },
+    {
+      "idRegActuacion": 714162850,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 5,
+      "fechaActuacion": "2018-06-14T05:00:00.000Z",
+      "actuacion": "Oficio Elaborado",
+      "anotacion": "oficio no. 2.858/2018, remitiendo exp. por competencia a jdos. c. mpal y/o promiscuo de carmen de apicalá",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-06-14T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 51176440,
+      "isUltimaAct": false,
+      "carpetaNumero": 383,
+      "createdAt": "2023-11-30T11:09:09.073Z"
+    },
+    {
+      "idRegActuacion": 714162840,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 4,
+      "fechaActuacion": "2018-06-06T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 06/06/2018 a las 17:05:51.",
+      "fechaInicial": "2018-06-07T05:00:00.000Z",
+      "fechaFinal": "2018-06-07T05:00:00.000Z",
+      "fechaRegistro": "2018-06-06T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 51176440,
+      "isUltimaAct": false,
+      "carpetaNumero": 383,
+      "createdAt": "2023-11-30T11:09:09.073Z"
+    },
+    {
+      "idRegActuacion": 714162830,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 3,
+      "fechaActuacion": "2018-06-06T05:00:00.000Z",
+      "actuacion": "Auto rechaza demanda",
+      "anotacion": "Por falta de competencia y ordena remitir al Juez Civil Municipal y/o Promiscuo Municipal del Apicala Tolima",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-06-06T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 51176440,
+      "isUltimaAct": false,
+      "carpetaNumero": 383,
+      "createdAt": "2023-11-30T11:09:09.073Z"
+    },
+    {
+      "idRegActuacion": 714162820,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 2,
+      "fechaActuacion": "2018-05-11T05:00:00.000Z",
+      "actuacion": "Al despacho",
+      "anotacion": "PARA CALIFICAR",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-05-11T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 51176440,
+      "isUltimaAct": false,
+      "carpetaNumero": 383,
+      "createdAt": "2023-11-30T11:09:09.073Z"
+    },
+    {
+      "idRegActuacion": 714162810,
+      "llaveProceso": "11001400302620180047900",
+      "consActuacion": 1,
+      "fechaActuacion": "2018-05-10T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 10/05/2018 a las 11:11:29",
+      "fechaInicial": "2018-05-10T05:00:00.000Z",
+      "fechaFinal": "2018-05-10T05:00:00.000Z",
+      "fechaRegistro": "2018-05-10T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 51176440,
+      "isUltimaAct": false,
+      "carpetaNumero": 383,
+      "createdAt": "2023-11-30T11:09:09.073Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 26,
+      "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 383,
   "llaveProceso": "11001400302620180047900",
   "demanda": {
@@ -7,7 +124,7 @@
     ],
     "juzgados": [],
     "capitalAdeudado": 1473525421,
-    "departamento": "BOGOTÁ",
+    "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2018-01-18T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": "2018-05-22T00:00:00.000Z",
@@ -19,22 +136,6 @@
     ],
     "radicado": "2018 - 00479",
     "expediente": "11001400302620180047900"
-  },
-  "fecha": "2018-06-15T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 714162860,
-    "llaveProceso": "11001400302620180047900",
-    "consActuacion": 6,
-    "fechaActuacion": "2018-06-15T00:00:00",
-    "actuacion": "Envío  comunicaciones",
-    "anotacion": "COMPETENCIA ",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2018-06-15T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 6,
-    "idProceso": 51176440
   },
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
@@ -72,7 +173,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "nohora esperanza barrero rodriguez",
   "idProcesos": [
     51176440
-  ]
+  ],
+  "revisado": true,
+  "terminado": true
 }

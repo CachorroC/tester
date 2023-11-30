@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 172,
   "llaveProceso": "11001400302720170085000",
-  "nombre": "adriana del pilar alfonso,baquero",
-  "idProcesos": [],
+  "nombre": "adriana del pilar alfonso baquero",
+  "idProcesos": [
+    50666880
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2019-07-25T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:18.788Z",
+  "terminado": true,
+  "idRegUltimaAct": 719886630
 }

@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 296,
   "llaveProceso": "11001410375220170129100",
   "nombre": "didier harvey prada aguirre",
-  "idProcesos": [],
+  "idProcesos": [
+    127797581,
+    127797591
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:51.055Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

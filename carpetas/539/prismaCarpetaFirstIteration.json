@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 539,
   "llaveProceso": "11001400303620180081800",
   "nombre": "adriana lucia mora plata",
-  "idProcesos": [],
+  "idProcesos": [
+    51306830
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-10-04T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:44.690Z",
+  "terminado": false,
+  "idRegUltimaAct": 1893890670
 }

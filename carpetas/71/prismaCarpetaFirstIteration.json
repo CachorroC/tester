@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 71,
   "llaveProceso": "11001400304720170106500",
   "nombre": "betty stephani torres rojas",
-  "idProcesos": [],
+  "idProcesos": [
+    10404913
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2022-06-08T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:52.751Z",
+  "terminado": true,
+  "idRegUltimaAct": 1137167583
 }

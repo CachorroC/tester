@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 540,
   "llaveProceso": "11001400301420180092900",
   "nombre": "jose rodrigo garcia quintero",
-  "idProcesos": [],
+  "idProcesos": [
+    51341610
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-06-27T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:44.823Z",
+  "terminado": false,
+  "idRegUltimaAct": 1790477520
 }

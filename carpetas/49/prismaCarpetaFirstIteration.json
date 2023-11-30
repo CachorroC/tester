@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 49,
   "llaveProceso": "11001400305120170064400",
   "nombre": "jose israel monroy cordoba",
-  "idProcesos": [],
+  "idProcesos": [
+    11486153
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2017-08-28T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:48.261Z",
+  "terminado": true,
+  "idRegUltimaAct": 144966153
 }

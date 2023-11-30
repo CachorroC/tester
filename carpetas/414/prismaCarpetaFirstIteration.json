@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 414,
   "llaveProceso": "11001400304420180056600",
-  "nombre": "elda yanet cortes null",
-  "idProcesos": [],
+  "nombre": "elda yanet cortes",
+  "idProcesos": [
+    65703460
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-05-02T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:15.432Z",
+  "terminado": true,
+  "idRegUltimaAct": 1279553860
 }

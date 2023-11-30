@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 260,
   "llaveProceso": "25290400300120170063400",
-  "nombre": "hernan alvarez pardo null",
+  "nombre": "hernan alvarez pardo",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:39.094Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

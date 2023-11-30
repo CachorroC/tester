@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 83,
   "llaveProceso": "11001400301920170102500",
   "nombre": "luis adolfo peña arciniegas",
-  "idProcesos": [],
+  "idProcesos": [
+    50738970
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2019-03-19T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:55.451Z",
+  "terminado": true,
+  "idRegUltimaAct": 670095670
 }

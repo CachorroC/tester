@@ -1,4 +1,139 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 1935507940,
+      "llaveProceso": "11001400305920230031500",
+      "consActuacion": 7,
+      "fechaActuacion": "2023-10-24T05:00:00.000Z",
+      "actuacion": "Recepción memorial",
+      "anotacion": "SOLICITUD OFICIOS ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-11-17T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132018670,
+      "isUltimaAct": true,
+      "carpetaNumero": 558,
+      "createdAt": "2023-11-30T11:09:49.502Z"
+    },
+    {
+      "idRegActuacion": 1881358620,
+      "llaveProceso": "11001400305920230031500",
+      "consActuacion": 6,
+      "fechaActuacion": "2023-09-25T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 25/09/2023 a las 09:05:10.",
+      "fechaInicial": "2023-09-26T05:00:00.000Z",
+      "fechaFinal": "2023-09-26T05:00:00.000Z",
+      "fechaRegistro": "2023-09-25T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132018670,
+      "isUltimaAct": false,
+      "carpetaNumero": 558,
+      "createdAt": "2023-11-30T11:09:49.502Z"
+    },
+    {
+      "idRegActuacion": 1881358610,
+      "llaveProceso": "11001400305920230031500",
+      "consActuacion": 5,
+      "fechaActuacion": "2023-09-25T05:00:00.000Z",
+      "actuacion": "Auto decreta medida cautelar",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-09-25T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132018670,
+      "isUltimaAct": false,
+      "carpetaNumero": 558,
+      "createdAt": "2023-11-30T11:09:49.502Z"
+    },
+    {
+      "idRegActuacion": 1881358600,
+      "llaveProceso": "11001400305920230031500",
+      "consActuacion": 4,
+      "fechaActuacion": "2023-09-25T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 25/09/2023 a las 09:04:48.",
+      "fechaInicial": "2023-09-26T05:00:00.000Z",
+      "fechaFinal": "2023-09-26T05:00:00.000Z",
+      "fechaRegistro": "2023-09-25T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132018670,
+      "isUltimaAct": false,
+      "carpetaNumero": 558,
+      "createdAt": "2023-11-30T11:09:49.502Z"
+    },
+    {
+      "idRegActuacion": 1881358590,
+      "llaveProceso": "11001400305920230031500",
+      "consActuacion": 3,
+      "fechaActuacion": "2023-09-25T05:00:00.000Z",
+      "actuacion": "Auto libra mandamiento ejecutivo",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-09-25T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132018670,
+      "isUltimaAct": false,
+      "carpetaNumero": 558,
+      "createdAt": "2023-11-30T11:09:49.502Z"
+    },
+    {
+      "idRegActuacion": 1831766840,
+      "llaveProceso": "11001400305920230031500",
+      "consActuacion": 2,
+      "fechaActuacion": "2023-08-02T05:00:00.000Z",
+      "actuacion": "Al despacho",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-02T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132018670,
+      "isUltimaAct": false,
+      "carpetaNumero": 558,
+      "createdAt": "2023-11-30T11:09:49.502Z"
+    },
+    {
+      "idRegActuacion": 1831766830,
+      "llaveProceso": "11001400305920230031500",
+      "consActuacion": 1,
+      "fechaActuacion": "2023-08-02T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 02/08/2023 a las 16:08:53",
+      "fechaInicial": "2023-08-02T05:00:00.000Z",
+      "fechaFinal": "2023-08-02T05:00:00.000Z",
+      "fechaRegistro": "2023-08-02T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132018670,
+      "isUltimaAct": false,
+      "carpetaNumero": 558,
+      "createdAt": "2023-11-30T11:09:49.502Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 59,
+      "tipo": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-59-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 558,
   "llaveProceso": "11001400305920230031500",
   "demanda": {
@@ -8,7 +143,7 @@
     ],
     "juzgados": [],
     "capitalAdeudado": 46537671,
-    "departamento": "BOGOTÁ",
+    "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
@@ -21,22 +156,6 @@
     ],
     "radicado": "2023 -  00315",
     "expediente": "11001400305920230031500"
-  },
-  "fecha": "2023-10-24T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1935507940,
-    "llaveProceso": "11001400305920230031500",
-    "consActuacion": 7,
-    "fechaActuacion": "2023-10-24T00:00:00",
-    "actuacion": "Recepción memorial",
-    "anotacion": "SOLICITUD OFICIOS ",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-11-17T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 7,
-    "idProceso": 132018670
   },
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
@@ -68,7 +187,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "claudia marcela arias lópez",
   "idProcesos": [
     132018670
-  ]
+  ],
+  "revisado": false,
+  "terminado": false
 }

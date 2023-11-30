@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 443,
   "llaveProceso": "11001400301020180078400",
   "nombre": "diego fernando benitez alvarado",
-  "idProcesos": [],
+  "idProcesos": [
+    51264250
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2020-02-27T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:21.960Z",
+  "terminado": true,
+  "idRegUltimaAct": 960759610
 }

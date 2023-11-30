@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 82,
   "llaveProceso": "11001400300320170106500",
-  "nombre": "rafael gonzalez olejua null",
-  "idProcesos": [],
+  "nombre": "rafael gonzalez olejua",
+  "idProcesos": [
+    50527120
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2017-12-04T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:55.280Z",
+  "terminado": true,
+  "idRegUltimaAct": 570501160
 }

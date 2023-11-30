@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 121,
   "llaveProceso": "25430400300120180027300",
   "nombre": "jaime orlando lugo rodriguez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:04.611Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

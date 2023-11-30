@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 577,
   "llaveProceso": "11001400300520230084300",
   "nombre": "indira mayerly florez castro",
-  "idProcesos": [],
+  "idProcesos": [
+    132581550
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-10-24T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:52.160Z",
+  "terminado": false,
+  "idRegUltimaAct": 1915865360
 }

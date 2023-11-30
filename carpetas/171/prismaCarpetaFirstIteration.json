@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 171,
   "llaveProceso": "11001400308620170086300",
   "nombre": "maritza natali rodriguez urrea",
-  "idProcesos": [],
+  "idProcesos": [
+    81888701
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:18.645Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

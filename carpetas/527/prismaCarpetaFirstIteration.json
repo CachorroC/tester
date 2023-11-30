@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 527,
   "llaveProceso": "25286400300120190041800",
   "nombre": "jairo marcelo guiza rodriguez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:42.934Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

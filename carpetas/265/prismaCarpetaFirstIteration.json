@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 265,
   "llaveProceso": "1100140030202100050100",
   "nombre": "julio rene sanchez argote",
   "idProcesos": [],
   "category": "Insolvencia",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:40.271Z",
+  "terminado": false,
+  "idRegUltimaAct": null
 }

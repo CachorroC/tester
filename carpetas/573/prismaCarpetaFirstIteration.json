@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 573,
   "llaveProceso": "11001400305520230074600",
   "nombre": "sandra patricia galvis almanza",
-  "idProcesos": [],
+  "idProcesos": [
+    1829856154
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-11-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:51.570Z",
+  "terminado": false,
+  "idRegUltimaAct": 1137554444
 }

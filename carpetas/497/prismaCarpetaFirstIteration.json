@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 497,
   "llaveProceso": "25899410300120180043500",
-  "nombre": "roque antonio sanchez null",
+  "nombre": "roque antonio sanchez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:34.151Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

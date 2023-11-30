@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 25,
   "llaveProceso": "11001310301120170033500",
   "nombre": "omar dario zea galvis",
-  "idProcesos": [],
+  "idProcesos": [
+    80553011,
+    1805257424
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-03-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:07:44.029Z",
+  "terminado": false,
+  "idRegUltimaAct": 1096493124
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 174,
   "llaveProceso": "11001400302520170090300",
-  "nombre": "darnelly hernandez martinez null",
-  "idProcesos": [],
+  "nombre": "darnelly hernandez martinez",
+  "idProcesos": [
+    112048180
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2023-11-16T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:19.391Z",
+  "terminado": false,
+  "idRegUltimaAct": 1935644740
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 423,
   "llaveProceso": "11001400301920180044300",
-  "nombre": "andres pedraza garcia null",
-  "idProcesos": [],
+  "nombre": "andres pedraza garcia",
+  "idProcesos": [
+    51149980
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2019-11-25T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:17.283Z",
+  "terminado": true,
+  "idRegUltimaAct": 899044160
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 70,
   "llaveProceso": "11001400308520170108400",
-  "nombre": "cesar augusto arias null",
-  "idProcesos": [],
+  "nombre": "cesar augusto arias",
+  "idProcesos": [
+    65640840
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-06-28T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:52.503Z",
+  "terminado": true,
+  "idRegUltimaAct": 1791736800
 }

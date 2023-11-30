@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 394,
   "llaveProceso": "11001400305120180029900",
   "nombre": "omar hernando quiroga torres",
-  "idProcesos": [],
+  "idProcesos": [
+    11496423
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2021-05-27T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:11.083Z",
+  "terminado": true,
+  "idRegUltimaAct": 1024250433
 }

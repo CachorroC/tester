@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 177,
   "llaveProceso": "11001400304520170104100",
-  "nombre": "leonardy herrera rojas null",
-  "idProcesos": [],
+  "nombre": "leonardy herrera rojas",
+  "idProcesos": [
+    9876793
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-08-15T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:20.183Z",
+  "terminado": true,
+  "idRegUltimaAct": 795681123
 }

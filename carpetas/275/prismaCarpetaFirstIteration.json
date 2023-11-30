@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 275,
   "llaveProceso": "25754408900320170096900",
-  "nombre": "hortencia null garzon null",
+  "nombre": "hortencia garzon",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:42.162Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

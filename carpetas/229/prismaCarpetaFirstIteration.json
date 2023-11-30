@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 229,
   "llaveProceso": "11001400306820170124000",
   "nombre": "jennifer alejandra mogollón bernal",
-  "idProcesos": [],
+  "idProcesos": [
+    19211240
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-08-06T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:32.746Z",
+  "terminado": true,
+  "idRegUltimaAct": 259897370
 }

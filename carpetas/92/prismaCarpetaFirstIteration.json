@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 92,
   "llaveProceso": "11001400301320170084100",
   "nombre": "magda milena salinas rodriguez",
-  "idProcesos": [],
+  "idProcesos": [
+    50525440
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2022-09-05T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:58.223Z",
+  "terminado": true,
+  "idRegUltimaAct": 1387234240
 }

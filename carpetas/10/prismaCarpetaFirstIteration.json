@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 10,
   "llaveProceso": "11001418900320170090900",
-  "nombre": "marina morales hernandez null",
-  "idProcesos": [],
+  "nombre": "marina morales hernandez",
+  "idProcesos": [
+    82112341
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:38.484Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

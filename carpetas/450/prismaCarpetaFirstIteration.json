@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 450,
   "llaveProceso": "11001400307820180064700",
   "nombre": "kelly yohanna murcia ducon",
-  "idProcesos": [],
+  "idProcesos": [
+    51571520
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2019-01-15T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:23.201Z",
+  "terminado": true,
+  "idRegUltimaAct": 857051550
 }

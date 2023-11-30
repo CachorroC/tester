@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 455,
   "llaveProceso": "11001400303820180083500",
   "nombre": "yenny marcela gomez olarte",
-  "idProcesos": [],
+  "idProcesos": [
+    9093813
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-03-06T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:23.919Z",
+  "terminado": true,
+  "idRegUltimaAct": 524855503
 }

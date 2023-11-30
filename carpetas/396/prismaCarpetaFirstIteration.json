@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 396,
   "llaveProceso": "11001400306420170162300",
   "nombre": "orlando enrique novoa barreto",
-  "idProcesos": [],
+  "idProcesos": [
+    112730580
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-03-13T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:11.432Z",
+  "terminado": false,
+  "idRegUltimaAct": 1675500880
 }

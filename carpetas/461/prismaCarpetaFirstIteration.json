@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 461,
   "llaveProceso": "11001400303220180095900",
   "nombre": "jose antonio florez oviedo",
-  "idProcesos": [],
+  "idProcesos": [
+    51318660
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2021-03-25T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:24.922Z",
+  "terminado": true,
+  "idRegUltimaAct": 1010546790
 }

@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 490,
   "llaveProceso": "25754418900120180098800",
   "nombre": "diego armando mateus espitia",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:32.832Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }
