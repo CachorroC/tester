@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 267,
   "llaveProceso": "11001400306220170122900",
   "nombre": "ana fabiola cardozo herreño",
-  "idProcesos": [],
+  "idProcesos": [
+    50741270
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2022-09-01T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:40.734Z",
+  "terminado": true,
+  "idRegUltimaAct": 1385018060
 }

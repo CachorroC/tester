@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 377,
   "llaveProceso": "11001400304620180010700",
-  "nombre": "gladis velasquez castro null",
-  "idProcesos": [],
+  "nombre": "gladis velasquez castro",
+  "idProcesos": [
+    10138483
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2018-10-30T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:06.474Z",
+  "terminado": true,
+  "idRegUltimaAct": 522544993
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 258,
   "llaveProceso": "11001400301320170117800",
   "nombre": "sol judith buitrago duque",
-  "idProcesos": [],
+  "idProcesos": [
+    50692590
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-04-17T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:38.720Z",
+  "terminado": false,
+  "idRegUltimaAct": 1712809620
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 136,
   "llaveProceso": "11001400304720170149100",
   "nombre": "jorge ernesto roa manrique",
-  "idProcesos": [],
+  "idProcesos": [
+    10408413
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-03-06T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:08.978Z",
+  "terminado": true,
+  "idRegUltimaAct": 901625993
 }

@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 29,
   "llaveProceso": "25175400300120170051100",
   "nombre": "whitman jeferson najar ramirez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:44.532Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

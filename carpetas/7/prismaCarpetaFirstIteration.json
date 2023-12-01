@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 7,
   "llaveProceso": "11001310302720170037400",
   "nombre": "jose ricardo prieto cruz",
-  "idProcesos": [],
+  "idProcesos": [
+    62733402
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2022-03-09T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:37.929Z",
+  "terminado": true,
+  "idRegUltimaAct": 1151407522
 }

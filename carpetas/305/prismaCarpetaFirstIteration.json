@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 305,
   "llaveProceso": "11001400308220170125600",
-  "nombre": "fernando rincon rodriguez null",
-  "idProcesos": [],
+  "nombre": "fernando rincon rodriguez",
+  "idProcesos": [
+    51701110
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2022-08-04T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:52.330Z",
+  "terminado": true,
+  "idRegUltimaAct": 1356980890
 }

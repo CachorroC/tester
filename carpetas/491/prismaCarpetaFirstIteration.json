@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 491,
   "llaveProceso": "11001418900820180078500",
   "nombre": "sandra patricia pacheco ramirez",
-  "idProcesos": [],
+  "idProcesos": [
+    87350810
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-08-02T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:32.966Z",
+  "terminado": false,
+  "idRegUltimaAct": 1829448180
 }

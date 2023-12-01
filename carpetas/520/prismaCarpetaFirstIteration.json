@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 520,
   "llaveProceso": "11001400307320190028700",
   "nombre": "rafael adolfo paez ortega",
-  "idProcesos": [],
+  "idProcesos": [
+    51718410
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2021-07-01T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:41.318Z",
+  "terminado": true,
+  "idRegUltimaAct": 1021293530
 }

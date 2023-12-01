@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 317,
   "llaveProceso": "11001400301820170181300",
-  "nombre": "wilson javier sanchez null",
-  "idProcesos": [],
+  "nombre": "wilson javier sanchez",
+  "idProcesos": [
+    50832550
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-03-05T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:54.449Z",
+  "terminado": true,
+  "idRegUltimaAct": 962231690
 }

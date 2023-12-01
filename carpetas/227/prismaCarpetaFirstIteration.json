@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 227,
   "llaveProceso": "11001400301520170124900",
-  "nombre": "rosa elena martinez de,duitama",
-  "idProcesos": [],
+  "nombre": "rosa elena martinez de duitama",
+  "idProcesos": [
+    50714320
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2022-10-19T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:32.267Z",
+  "terminado": true,
+  "idRegUltimaAct": 1466106730
 }

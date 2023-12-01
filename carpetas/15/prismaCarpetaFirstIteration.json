@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 15,
   "llaveProceso": "11001400307220170065400",
   "nombre": "silvia susana sierra castañeda",
-  "idProcesos": [],
+  "idProcesos": [
+    50468310
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2020-01-15T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:39.307Z",
+  "terminado": true,
+  "idRegUltimaAct": 945315380
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 178,
   "llaveProceso": "11001400306620170122100",
-  "nombre": "maryluz ocasiones pinzon null",
-  "idProcesos": [],
+  "nombre": "maryluz ocasiones pinzon",
+  "idProcesos": [
+    112657130
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-02-12T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:20.447Z",
+  "terminado": true,
+  "idRegUltimaAct": 1243284510
 }

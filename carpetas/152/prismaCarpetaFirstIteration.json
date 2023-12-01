@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 152,
   "llaveProceso": "110014007320170113600",
-  "nombre": "nicolas osorio rodriguez null",
+  "nombre": "nicolas osorio rodriguez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:12.519Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

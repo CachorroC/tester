@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 359,
   "llaveProceso": "11001400306520170178600",
   "nombre": "jose david peña saavedra",
-  "idProcesos": [],
+  "idProcesos": [
+    18169790
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-01-14T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:03.373Z",
+  "terminado": true,
+  "idRegUltimaAct": 944912050
 }

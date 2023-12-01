@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 210,
   "llaveProceso": "11001400302120180016300",
   "nombre": "jose antonio castillo cortes",
-  "idProcesos": [],
+  "idProcesos": [
+    51006610,
+    81643141
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-09-08T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:26.966Z",
+  "terminado": false,
+  "idRegUltimaAct": 1875063180
 }

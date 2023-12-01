@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 458,
   "llaveProceso": "11001400303720180011100",
   "nombre": "sandra patricia beltran oviedo",
-  "idProcesos": [],
+  "idProcesos": [
+    50990920
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-02-02T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:24.275Z",
+  "terminado": false,
+  "idRegUltimaAct": 1632498270
 }

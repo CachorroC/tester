@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 246,
   "llaveProceso": "11001400304720180024200",
-  "nombre": "edwin buitrago villamil null",
-  "idProcesos": [],
+  "nombre": "edwin buitrago villamil",
+  "idProcesos": [
+    10416913
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-02-20T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:36.438Z",
+  "terminado": true,
+  "idRegUltimaAct": 125352043
 }

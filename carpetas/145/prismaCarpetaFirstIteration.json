@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 145,
   "llaveProceso": "11001400305520170081700",
   "nombre": "jhon jaminton fuentes carreño",
-  "idProcesos": [],
+  "idProcesos": [
+    65086550
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2022-11-10T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:11.074Z",
+  "terminado": true,
+  "idRegUltimaAct": 1500709880
 }

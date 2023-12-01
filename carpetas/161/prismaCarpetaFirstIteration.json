@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 161,
   "llaveProceso": "25286310300120170095600",
   "nombre": "ricardo alberto beltran hernandez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:14.219Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

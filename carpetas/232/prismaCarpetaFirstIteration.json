@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 232,
   "llaveProceso": "11001400304820170087900",
   "nombre": "sandra milena cubillos linares",
-  "idProcesos": [],
+  "idProcesos": [
+    10684603
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2022-06-01T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:33.452Z",
+  "terminado": true,
+  "idRegUltimaAct": 1130250793
 }

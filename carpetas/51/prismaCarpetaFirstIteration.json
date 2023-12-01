@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 51,
   "llaveProceso": "11001400300920170060700",
   "nombre": "maria carolina martinez vera",
-  "idProcesos": [],
+  "idProcesos": [
+    50537040
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2018-05-24T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:48.636Z",
+  "terminado": true,
+  "idRegUltimaAct": 607252660
 }

@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 184,
   "llaveProceso": "11001400302520170080700",
   "nombre": "juan carlos tovar toledo",
-  "idProcesos": [],
+  "idProcesos": [
+    50623380,
+    81652411
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-10-18T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:21.654Z",
+  "terminado": false,
+  "idRegUltimaAct": 1908607380
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 552,
   "llaveProceso": "11001400300420230062200",
   "nombre": "oscar mauricio gomez mendoza",
-  "idProcesos": [],
+  "idProcesos": [
+    130946630
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-11-22T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:48.238Z",
+  "terminado": false,
+  "idRegUltimaAct": 1936708160
 }

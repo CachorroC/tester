@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 225,
   "llaveProceso": "11001400301320170116300",
   "nombre": "luis octavio rojas valbuena",
-  "idProcesos": [],
+  "idProcesos": [
+    50683550
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-07-24T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:31.921Z",
+  "terminado": true,
+  "idRegUltimaAct": 630978160
 }

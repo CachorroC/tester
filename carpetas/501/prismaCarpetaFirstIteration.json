@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 501,
   "llaveProceso": "11001400305520180131600",
-  "nombre": "asociacion agropecuaria ucebul null",
+  "nombre": "asociacion agropecuaria ucebul",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:34.952Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

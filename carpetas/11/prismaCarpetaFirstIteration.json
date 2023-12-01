@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 11,
   "llaveProceso": "11001400303720170083900",
-  "nombre": "javier romero reyes null",
-  "idProcesos": [],
+  "nombre": "javier romero reyes",
+  "idProcesos": [
+    50508570
+  ],
   "category": "LiosJuridicos",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-07-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:07:38.632Z",
+  "terminado": false,
+  "idRegUltimaAct": 1804706930
 }

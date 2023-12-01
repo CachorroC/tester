@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 290,
   "llaveProceso": "11001400305920170097500",
-  "nombre": "elizabeth gil rodriguez null",
-  "idProcesos": [],
+  "nombre": "elizabeth gil rodriguez",
+  "idProcesos": [
+    50765330
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-03-19T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:49.648Z",
+  "terminado": true,
+  "idRegUltimaAct": 976059170
 }

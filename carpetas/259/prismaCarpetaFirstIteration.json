@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 259,
   "llaveProceso": "11001400303920170125600",
   "nombre": "luz nelly ruiz lara",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:38.948Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

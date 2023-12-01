@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 209,
   "llaveProceso": "11001400306420170119100",
   "nombre": "cesar alfonso umaña cañon",
-  "idProcesos": [],
+  "idProcesos": [
+    50672820
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-11-21T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:26.813Z",
+  "terminado": false,
+  "idRegUltimaAct": 1936299090
 }

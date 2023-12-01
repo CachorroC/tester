@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 335,
   "llaveProceso": "11001400301120180011800",
   "nombre": "cristian camilo garcia escobar",
-  "idProcesos": [],
+  "idProcesos": [
+    50995460
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-10-25T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:57.982Z",
+  "terminado": true,
+  "idRegUltimaAct": 1931962060
 }

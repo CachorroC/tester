@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 310,
   "llaveProceso": "11001400302120170153200",
   "nombre": "libardo alfonso gonzalez triviño",
-  "idProcesos": [],
+  "idProcesos": [
+    50769660,
+    81620291
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-05-15T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:53.521Z",
+  "terminado": false,
+  "idRegUltimaAct": 1742239800
 }

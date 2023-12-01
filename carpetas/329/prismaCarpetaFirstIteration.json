@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 329,
   "llaveProceso": "11001400308520170159600",
-  "nombre": "reinaldo adrian melendez ,varon",
-  "idProcesos": [],
+  "nombre": "reinaldo adrian melendez  varon",
+  "idProcesos": [
+    65614470
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2021-09-15T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:56.673Z",
+  "terminado": true,
+  "idRegUltimaAct": 1223323770
 }

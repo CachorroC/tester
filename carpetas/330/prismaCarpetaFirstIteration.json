@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 330,
   "llaveProceso": "11001400307020170121800",
   "nombre": "nelson arbey cangrejo suarez",
-  "idProcesos": [],
+  "idProcesos": [
+    113385910
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2021-09-22T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:56.901Z",
+  "terminado": true,
+  "idRegUltimaAct": 1250395210
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 234,
   "llaveProceso": "11001400304320170120500",
   "nombre": "mauricio alexander aguirre bermudez",
-  "idProcesos": [],
+  "idProcesos": [
+    9334913
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2018-10-26T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:33.904Z",
+  "terminado": true,
+  "idRegUltimaAct": 105033853
 }

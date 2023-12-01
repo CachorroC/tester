@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 318,
   "llaveProceso": "11001400307020170116400",
-  "nombre": "sonia janeth rodriguez null",
-  "idProcesos": [],
+  "nombre": "sonia janeth rodriguez",
+  "idProcesos": [
+    18367590
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-08-17T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:54.555Z",
+  "terminado": true,
+  "idRegUltimaAct": 265865680
 }

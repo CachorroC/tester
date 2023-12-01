@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 191,
   "llaveProceso": "11001400307920170108200",
   "nombre": "john alexander valencia marquez",
-  "idProcesos": [],
+  "idProcesos": [
+    51357750
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-10-25T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:23.069Z",
+  "terminado": false,
+  "idRegUltimaAct": 1917206900
 }

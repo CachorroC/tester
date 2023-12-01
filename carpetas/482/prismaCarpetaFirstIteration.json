@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 482,
   "llaveProceso": "11001400307120180093600",
   "nombre": "claudia janeth cortes rosas",
-  "idProcesos": [],
+  "idProcesos": [
+    18597560
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2019-08-14T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:31.646Z",
+  "terminado": true,
+  "idRegUltimaAct": 559135750
 }

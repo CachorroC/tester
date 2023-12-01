@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 127,
   "llaveProceso": "110014003080201E+22",
-  "nombre": "zoila irene suavita de,trilleras",
+  "nombre": "zoila irene suavita de trilleras",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:05.727Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

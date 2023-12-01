@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 28,
   "llaveProceso": "25290400300120170036900",
-  "nombre": "maria socorro torres de,gonzalez",
+  "nombre": "maria socorro torres de gonzalez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:44.432Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 517,
   "llaveProceso": "11001418901020190016200",
-  "nombre": "marylu valencia suarez null",
+  "nombre": "marylu valencia suarez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:40.701Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

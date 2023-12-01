@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 464,
   "llaveProceso": "25754418900220180066400",
   "nombre": "ricardo armando celis angel",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:28.673Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

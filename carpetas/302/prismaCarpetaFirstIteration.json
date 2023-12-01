@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 302,
   "llaveProceso": "25286310300120170100300",
-  "nombre": "edgar godoy lopez null",
+  "nombre": "edgar godoy lopez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:51.792Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

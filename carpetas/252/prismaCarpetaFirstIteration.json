@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 252,
   "llaveProceso": "11001400303420170123600",
   "nombre": "angel jovani suarez gomez",
-  "idProcesos": [],
+  "idProcesos": [
+    50745490
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-02-08T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:37.586Z",
+  "terminado": true,
+  "idRegUltimaAct": 764095850
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 165,
   "llaveProceso": "11001400307620170063500",
-  "nombre": "fredy null meneses null",
-  "idProcesos": [],
+  "nombre": "fredy meneses",
+  "idProcesos": [
+    51497380
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-05-31T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:16.846Z",
+  "terminado": false,
+  "idRegUltimaAct": 1761826880
 }

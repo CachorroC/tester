@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 408,
   "llaveProceso": "11001400308120180026400",
   "nombre": "jhon alexander bejarano fonseca",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:14.351Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

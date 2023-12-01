@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 170,
   "llaveProceso": "11001400301320170111400",
   "nombre": "isabel cristina garcia duran",
-  "idProcesos": [],
+  "idProcesos": [
+    50668010
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-05-30T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:18.375Z",
+  "terminado": true,
+  "idRegUltimaAct": 630968400
 }

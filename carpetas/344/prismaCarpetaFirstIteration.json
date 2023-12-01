@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 344,
   "llaveProceso": "11001400303320170147400",
   "nombre": "luis augusto sanchez ortiz",
-  "idProcesos": [],
+  "idProcesos": [
+    50763460
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-05-17T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:59.906Z",
+  "terminado": false,
+  "idRegUltimaAct": 1745986690
 }

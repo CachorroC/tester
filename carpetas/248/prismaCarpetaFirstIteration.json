@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 248,
   "llaveProceso": "11001400305920170087100",
-  "nombre": "henry carranza alba null",
-  "idProcesos": [],
+  "nombre": "henry carranza alba",
+  "idProcesos": [
+    50715970
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2017-11-22T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:36.748Z",
+  "terminado": true,
+  "idRegUltimaAct": 817031830
 }

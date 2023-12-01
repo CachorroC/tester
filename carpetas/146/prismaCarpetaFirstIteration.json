@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 146,
   "llaveProceso": "11001400308620170082600",
   "nombre": "pedro nel pelaez tisnes",
-  "idProcesos": [],
+  "idProcesos": [
+    81888371
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:11.315Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

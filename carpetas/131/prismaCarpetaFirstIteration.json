@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 131,
   "llaveProceso": "25754418900120170077400",
   "nombre": "rocio aleida ortiz barreto",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:06.597Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

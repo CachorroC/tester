@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 144,
   "llaveProceso": "11001400302620170087200",
   "nombre": "maria filomena gonzales salas",
-  "idProcesos": [],
+  "idProcesos": [
+    50652400,
+    81647161
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-02-23T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:10.799Z",
+  "terminado": true,
+  "idRegUltimaAct": 1259118680
 }

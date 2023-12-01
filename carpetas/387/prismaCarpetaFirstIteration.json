@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 387,
   "llaveProceso": "11001400305020170133600",
-  "nombre": "leonardo sanabria sanabria null",
-  "idProcesos": [],
+  "nombre": "leonardo sanabria sanabria",
+  "idProcesos": [
+    106185210
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-01-19T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:09.512Z",
+  "terminado": false,
+  "idRegUltimaAct": 1619184790
 }

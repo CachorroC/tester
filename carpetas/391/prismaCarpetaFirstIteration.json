@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 391,
   "llaveProceso": "11001400305020180012900",
   "nombre": "yaneth bibiana vargas cano",
-  "idProcesos": [],
+  "idProcesos": [
+    11227193
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2022-07-07T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:10.561Z",
+  "terminado": true,
+  "idRegUltimaAct": 1164905433
 }

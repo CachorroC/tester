@@ -1,4 +1,12 @@
 {
+  "actuaciones": [],
+  "juzgados": [
+    {
+      "id": 2,
+      "tipo": "JUZGADO 002 PROMISCUO MUNICIPAL DE CAJICÁ ",
+      "url": "https://www.ramajudicial.gov.cojuzgado-002-promiscuo-municipal-de-cajicá-"
+    }
+  ],
   "numero": 427,
   "llaveProceso": "25126408900220180004800",
   "demanda": {
@@ -50,7 +58,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "juan camilo chingate penagos",
   "idProcesos": [
     86157021
-  ]
+  ],
+  "revisado": false,
+  "terminado": false
 }

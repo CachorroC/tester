@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 322,
   "llaveProceso": "11001400308620170120500",
   "nombre": "claudia yamile suarez poblador",
-  "idProcesos": [],
+  "idProcesos": [
+    81891881
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:55.191Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

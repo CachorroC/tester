@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 243,
   "llaveProceso": "11001400306920170084500",
   "nombre": "maria olga castañeda perugachi",
-  "idProcesos": [],
+  "idProcesos": [
+    50675410
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-11-07T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:35.640Z",
+  "terminado": false,
+  "idRegUltimaAct": 1927556060
 }

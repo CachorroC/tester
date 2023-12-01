@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 306,
   "llaveProceso": "11001400306420170149000",
   "nombre": "jorge arturo jimenez leal",
-  "idProcesos": [],
+  "idProcesos": [
+    50812320
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2022-10-21T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:52.609Z",
+  "terminado": true,
+  "idRegUltimaAct": 1470562550
 }

@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 299,
   "llaveProceso": "25754400300320170034600",
   "nombre": "roberto stivenson acero baron",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:51.534Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

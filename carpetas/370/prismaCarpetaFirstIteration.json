@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 370,
   "llaveProceso": "11001400302020170155600",
   "nombre": "lilian andrea hernandez suarez",
-  "idProcesos": [],
+  "idProcesos": [
+    50918350
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-02-18T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:05.170Z",
+  "terminado": true,
+  "idRegUltimaAct": 958473880
 }

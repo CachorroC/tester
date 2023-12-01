@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 58,
   "llaveProceso": "11001400304220170076000",
   "nombre": "josé uriel paerez perdomo",
-  "idProcesos": [],
+  "idProcesos": [
+    50517060
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-11-02T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:07:49.687Z",
+  "terminado": false,
+  "idRegUltimaAct": 1926439250
 }

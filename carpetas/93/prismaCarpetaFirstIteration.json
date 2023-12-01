@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 93,
   "llaveProceso": "25126408900120170049600",
   "nombre": "vivian paola bruges medina",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:58.424Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

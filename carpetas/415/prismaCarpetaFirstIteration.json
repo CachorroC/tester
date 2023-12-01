@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 415,
   "llaveProceso": "11001400304320180047400",
   "nombre": "ingrid catherine tapias rico",
-  "idProcesos": [],
+  "idProcesos": [
+    9342243
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-01-14T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:15.668Z",
+  "terminado": true,
+  "idRegUltimaAct": 886269323
 }

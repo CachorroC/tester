@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 153,
   "llaveProceso": "25754418900220170071400",
   "nombre": "marbell rocio dominguez alvarez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:12.706Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

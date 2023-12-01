@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 188,
   "llaveProceso": "11001400306720170126900",
   "nombre": "diego armando arevalo velandia",
-  "idProcesos": [],
+  "idProcesos": [
+    51452530
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-02-18T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:22.450Z",
+  "terminado": true,
+  "idRegUltimaAct": 958421120
 }

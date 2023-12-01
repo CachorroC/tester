@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 569,
   "llaveProceso": "11001400306320230162700",
   "nombre": "diana patricia silvara rodriguez",
-  "idProcesos": [],
+  "idProcesos": [
+    132206000
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-11-09T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:50.880Z",
+  "terminado": false,
+  "idRegUltimaAct": 1928928500
 }

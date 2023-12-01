@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 185,
   "llaveProceso": "25754400300320170028300",
   "nombre": "william giovanni dorado fernandez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:21.937Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 257,
   "llaveProceso": "11001418900720170013800",
-  "nombre": "paul richard caicedo null",
+  "nombre": "paul richard caicedo",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:38.551Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

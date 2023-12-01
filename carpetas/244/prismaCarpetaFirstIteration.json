@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 244,
   "llaveProceso": "11001400302620170100600",
   "nombre": "ricardo andres nocua guatama",
-  "idProcesos": [],
+  "idProcesos": [
+    50718800
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2017-12-13T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:36.006Z",
+  "terminado": true,
+  "idRegUltimaAct": 713977140
 }

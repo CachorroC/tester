@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 263,
   "llaveProceso": "11001400307020170100700",
-  "nombre": "ancizar giraldo botero null",
-  "idProcesos": [],
+  "nombre": "ancizar giraldo botero",
+  "idProcesos": [
+    18366380
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2018-02-05T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:39.856Z",
+  "terminado": true,
+  "idRegUltimaAct": 265765330
 }

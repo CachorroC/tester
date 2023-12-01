@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 449,
   "llaveProceso": "11001400301720180070500",
   "nombre": "tulio ernesto tellez rojas",
-  "idProcesos": [],
+  "idProcesos": [
+    51275960
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-04-20T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:23.016Z",
+  "terminado": true,
+  "idRegUltimaAct": 1274578730
 }

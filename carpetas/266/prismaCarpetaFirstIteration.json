@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 266,
   "llaveProceso": "11001400302020170121900",
-  "nombre": "julian de jesus isaza,aguirre",
-  "idProcesos": [],
+  "nombre": "julian de jesus isaza aguirre",
+  "idProcesos": [
+    50739310
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2022-12-16T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:40.493Z",
+  "terminado": true,
+  "idRegUltimaAct": 1570060170
 }

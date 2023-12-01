@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 557,
   "llaveProceso": "11001400301720230078200",
-  "nombre": "carlos herney quintero null",
-  "idProcesos": [],
+  "nombre": "carlos herney quintero",
+  "idProcesos": [
+    132372990
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-11-24T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:49.215Z",
+  "terminado": false,
+  "idRegUltimaAct": 1937617870
 }

@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 352,
   "llaveProceso": "11001400307620170101600",
-  "nombre": "mario de jesus ossa,pulgarin",
-  "idProcesos": [],
+  "nombre": "mario de jesus ossa pulgarin",
+  "idProcesos": [
+    51499790,
+    81847081
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-09-13T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:01.771Z",
+  "terminado": false,
+  "idRegUltimaAct": 1878048030
 }

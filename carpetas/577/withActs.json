@@ -1,4 +1,85 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 1915865360,
+      "llaveProceso": "11001400300520230084300",
+      "consActuacion": 4,
+      "fechaActuacion": "2023-10-24T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 24/10/2023 a las 16:45:06.",
+      "fechaInicial": "2023-10-25T05:00:00.000Z",
+      "fechaFinal": "2023-10-25T05:00:00.000Z",
+      "fechaRegistro": "2023-10-24T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 132581550,
+      "isUltimaAct": true,
+      "carpetaNumero": 577,
+      "createdAt": "2023-11-30T11:09:52.331Z"
+    },
+    {
+      "idRegActuacion": 1915865350,
+      "llaveProceso": "11001400300520230084300",
+      "consActuacion": 3,
+      "fechaActuacion": "2023-10-24T05:00:00.000Z",
+      "actuacion": "Auto niega mandamiento ejecutivo",
+      "anotacion": "Por Ausencia del Titulo",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-10-24T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 132581550,
+      "isUltimaAct": false,
+      "carpetaNumero": 577,
+      "createdAt": "2023-11-30T11:09:52.331Z"
+    },
+    {
+      "idRegActuacion": 1854161690,
+      "llaveProceso": "11001400300520230084300",
+      "consActuacion": 2,
+      "fechaActuacion": "2023-08-23T05:00:00.000Z",
+      "actuacion": "Al Despacho Por Reparto",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-23T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 132581550,
+      "isUltimaAct": false,
+      "carpetaNumero": 577,
+      "createdAt": "2023-11-30T11:09:52.331Z"
+    },
+    {
+      "idRegActuacion": 1852976720,
+      "llaveProceso": "11001400300520230084300",
+      "consActuacion": 1,
+      "fechaActuacion": "2023-08-22T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 22/08/2023 a las 12:07:02",
+      "fechaInicial": "2023-08-22T05:00:00.000Z",
+      "fechaFinal": "2023-08-22T05:00:00.000Z",
+      "fechaRegistro": "2023-08-22T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 132581550,
+      "isUltimaAct": false,
+      "carpetaNumero": 577,
+      "createdAt": "2023-11-30T11:09:52.331Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 5,
+      "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 577,
   "llaveProceso": "11001400300520230084300",
   "demanda": {
@@ -8,7 +89,7 @@
     ],
     "juzgados": [],
     "capitalAdeudado": 26690131,
-    "departamento": "BOGOTÁ",
+    "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
@@ -68,7 +149,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "indira mayerly florez castro",
   "idProcesos": [
     132581550
-  ]
+  ],
+  "revisado": false,
+  "terminado": false
 }

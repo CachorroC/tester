@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 374,
   "llaveProceso": "11001400308620180006700",
   "nombre": "jhoan antonio barajas montenegro",
-  "idProcesos": [],
+  "idProcesos": [
+    81895161
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:05.868Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

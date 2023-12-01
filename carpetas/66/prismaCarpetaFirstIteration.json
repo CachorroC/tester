@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 66,
   "llaveProceso": "11001400301920170070200",
   "nombre": "sandra patricia suarez galvis",
-  "idProcesos": [],
+  "idProcesos": [
+    50593320
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2018-03-15T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:51.638Z",
+  "terminado": true,
+  "idRegUltimaAct": 670033060
 }

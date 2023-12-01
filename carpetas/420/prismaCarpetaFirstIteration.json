@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 420,
   "llaveProceso": "11001400306320170129000",
   "nombre": "diana patricia barreto osma",
-  "idProcesos": [],
+  "idProcesos": [
+    65701460
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-11-27T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:16.684Z",
+  "terminado": false,
+  "idRegUltimaAct": 1937712620
 }

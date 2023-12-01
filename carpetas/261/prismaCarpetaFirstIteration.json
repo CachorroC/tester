@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 261,
   "llaveProceso": "11001400308220170111600",
   "nombre": "daniel alberto ibañez delgado",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:39.548Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

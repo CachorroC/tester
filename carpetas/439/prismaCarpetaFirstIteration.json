@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 439,
   "llaveProceso": "25899400300320180055500",
   "nombre": "miguel esneyder devia cepeda",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:21.339Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

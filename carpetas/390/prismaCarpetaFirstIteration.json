@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 390,
   "llaveProceso": "11001400300420170126600",
-  "nombre": "gilberto jaime betancourt null",
-  "idProcesos": [],
+  "nombre": "gilberto jaime betancourt",
+  "idProcesos": [
+    50859050
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-02-04T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:10.285Z",
+  "terminado": false,
+  "idRegUltimaAct": 1252694420
 }

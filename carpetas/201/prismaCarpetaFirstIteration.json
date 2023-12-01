@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 201,
   "llaveProceso": "11001400307920170114200",
-  "nombre": "piedad maritza olga rocio,prieto,vargas",
-  "idProcesos": [],
+  "nombre": "piedad maritza olga rocio prieto vargas",
+  "idProcesos": [
+    128433271
+  ],
   "category": "Insolvencia",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-06-05T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:25.006Z",
+  "terminado": false,
+  "idRegUltimaAct": 1259812941
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 530,
   "llaveProceso": "11001400308120180051400",
   "nombre": "maria clara reyes reyes",
-  "idProcesos": [],
+  "idProcesos": [
+    51918470
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-03-14T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:43.400Z",
+  "terminado": false,
+  "idRegUltimaAct": 1676267630
 }

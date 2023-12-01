@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 383,
   "llaveProceso": "11001400302620180047900",
   "nombre": "nohora esperanza barrero rodriguez",
-  "idProcesos": [],
+  "idProcesos": [
+    51176440
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-06-15T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:08.944Z",
+  "terminado": true,
+  "idRegUltimaAct": 714162860
 }

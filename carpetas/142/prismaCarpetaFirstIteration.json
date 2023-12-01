@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 142,
   "llaveProceso": "25286310300120170074200",
-  "nombre": "deisy polania cuellar null",
+  "nombre": "deisy polania cuellar",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:10.334Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

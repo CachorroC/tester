@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 37,
   "llaveProceso": "25740418900120170021700",
   "nombre": "luis alberto alfonso giraldo",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:45.822Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

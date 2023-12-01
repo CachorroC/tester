@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 345,
   "llaveProceso": "11001400304520170147600",
   "nombre": "sandra jeannette prada gutierrez",
-  "idProcesos": [],
+  "idProcesos": [
+    50866270
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2021-03-10T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:00.182Z",
+  "terminado": true,
+  "idRegUltimaAct": 1008479640
 }

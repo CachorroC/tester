@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 441,
   "llaveProceso": "25899408900120180060900",
-  "nombre": "yaneth millan prieto null",
+  "nombre": "yaneth millan prieto",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:21.628Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

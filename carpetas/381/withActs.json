@@ -1,4 +1,103 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 224371301,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 5,
+      "fechaActuacion": "2018-04-06T05:00:00.000Z",
+      "actuacion": "Retiro demanda",
+      "anotacion": "por la apoderada demandante María Helena Suarez Garcia",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-04-06T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 19431801,
+      "isUltimaAct": true,
+      "carpetaNumero": 381,
+      "createdAt": "2023-11-30T11:09:08.865Z"
+    },
+    {
+      "idRegActuacion": 224371291,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 4,
+      "fechaActuacion": "2018-03-20T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 20/03/2018 a las 09:36:17.",
+      "fechaInicial": "2018-03-21T05:00:00.000Z",
+      "fechaFinal": "2018-03-21T05:00:00.000Z",
+      "fechaRegistro": "2018-03-20T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 19431801,
+      "isUltimaAct": false,
+      "carpetaNumero": 381,
+      "createdAt": "2023-11-30T11:09:08.865Z"
+    },
+    {
+      "idRegActuacion": 224371281,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 3,
+      "fechaActuacion": "2018-03-20T05:00:00.000Z",
+      "actuacion": "Auto inadmite demanda",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-03-20T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 19431801,
+      "isUltimaAct": false,
+      "carpetaNumero": 381,
+      "createdAt": "2023-11-30T11:09:08.865Z"
+    },
+    {
+      "idRegActuacion": 224371271,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 2,
+      "fechaActuacion": "2018-01-25T05:00:00.000Z",
+      "actuacion": "Al despacho",
+      "anotacion": "POR REPARTO ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-01-25T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 19431801,
+      "isUltimaAct": false,
+      "carpetaNumero": 381,
+      "createdAt": "2023-11-30T11:09:08.865Z"
+    },
+    {
+      "idRegActuacion": 224371261,
+      "llaveProceso": "11001400304120180007500",
+      "consActuacion": 1,
+      "fechaActuacion": "2018-01-25T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 25/01/2018 a las 15:43:26",
+      "fechaInicial": "2018-01-25T05:00:00.000Z",
+      "fechaFinal": "2018-01-25T05:00:00.000Z",
+      "fechaRegistro": "2018-01-25T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 19431801,
+      "isUltimaAct": false,
+      "carpetaNumero": 381,
+      "createdAt": "2023-11-30T11:09:08.865Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 41,
+      "tipo": "JUZGADO 041 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-041-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 381,
   "llaveProceso": "11001400304120180007500",
   "demanda": {
@@ -7,7 +106,7 @@
     ],
     "juzgados": [],
     "capitalAdeudado": 2487827625,
-    "departamento": "BOGOTÁ",
+    "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
@@ -19,22 +118,6 @@
     ],
     "radicado": "2018 - 00075",
     "expediente": "11001400304120180007500"
-  },
-  "fecha": "2018-04-06T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 224371301,
-    "llaveProceso": "11001400304120180007500",
-    "consActuacion": 5,
-    "fechaActuacion": "2018-04-06T00:00:00",
-    "actuacion": "Retiro demanda",
-    "anotacion": "por la apoderada demandante María Helena Suarez Garcia",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2018-04-06T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 5,
-    "idProceso": 19431801
   },
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
@@ -66,7 +149,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "nielcen marisol marin melo",
   "idProcesos": [
     19431801
-  ]
+  ],
+  "revisado": true,
+  "terminado": true
 }

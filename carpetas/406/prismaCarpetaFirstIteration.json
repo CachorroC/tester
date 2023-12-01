@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 406,
   "llaveProceso": "11001400300220180020500",
   "nombre": "santiago javier sarabia jimenez",
-  "idProcesos": [],
+  "idProcesos": [
+    51034000
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2023-03-22T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:13.773Z",
+  "terminado": true,
+  "idRegUltimaAct": 1686593620
 }

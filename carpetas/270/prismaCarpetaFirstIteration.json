@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 270,
   "llaveProceso": "11001408903420170113900",
   "nombre": "wilmer andres quiñones hernandez",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:41.316Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

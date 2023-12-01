@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 69,
   "llaveProceso": "11001400300620170041900",
   "nombre": "derly catherine castro izquierdo",
-  "idProcesos": [],
+  "idProcesos": [
+    50593100
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-05-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:07:52.227Z",
+  "terminado": false,
+  "idRegUltimaAct": 1738578630
 }

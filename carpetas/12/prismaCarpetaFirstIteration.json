@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 12,
   "llaveProceso": "25269400300220180015800",
   "nombre": "oscar manuel triviño garcia",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:38.852Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

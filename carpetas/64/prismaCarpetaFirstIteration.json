@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 64,
   "llaveProceso": "11001400302920170055700",
   "nombre": "rafael ernesto cadena parga",
-  "idProcesos": [],
+  "idProcesos": [
+    50517510
+  ],
   "category": "Insolvencia",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2018-02-22T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:07:51.036Z",
+  "terminado": false,
+  "idRegUltimaAct": 731521580
 }

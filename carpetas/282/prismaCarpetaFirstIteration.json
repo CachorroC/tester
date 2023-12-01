@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 282,
   "llaveProceso": "11001400301520170139400",
   "nombre": "matias humberto avila aguilar",
-  "idProcesos": [],
+  "idProcesos": [
+    50777890
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2023-11-24T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:44.700Z",
+  "terminado": false,
+  "idRegUltimaAct": 1937352210
 }

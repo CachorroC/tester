@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 548,
   "llaveProceso": "11001400300820170102400",
   "nombre": "clara patricia peña beltran",
-  "idProcesos": [],
+  "idProcesos": [
+    50665190
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2021-02-15T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:47.488Z",
+  "terminado": true,
+  "idRegUltimaAct": 1005448190
 }

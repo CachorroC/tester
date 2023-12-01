@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 123,
   "llaveProceso": "11001400306920170075400",
-  "nombre": "gustavo santamaria mosquera null",
-  "idProcesos": [],
+  "nombre": "gustavo santamaria mosquera",
+  "idProcesos": [
+    50632410
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-11-04T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:04.957Z",
+  "terminado": true,
+  "idRegUltimaAct": 997260750
 }

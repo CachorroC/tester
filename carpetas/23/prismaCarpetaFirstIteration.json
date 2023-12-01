@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 23,
   "llaveProceso": "25307400300120170033700",
   "nombre": "eder alexis herrera saenz",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:43.829Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

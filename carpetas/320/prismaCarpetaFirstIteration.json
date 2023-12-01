@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 320,
   "llaveProceso": "11001400305620170131200",
   "nombre": "maria camila macias padilla",
-  "idProcesos": [],
+  "idProcesos": [
+    50916090
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-10-05T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:54.857Z",
+  "terminado": true,
+  "idRegUltimaAct": 1895582280
 }

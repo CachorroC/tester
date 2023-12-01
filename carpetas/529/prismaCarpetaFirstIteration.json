@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 529,
   "llaveProceso": "11001400305220190110300",
-  "nombre": "gonzalo contreras poveda null",
-  "idProcesos": [],
+  "nombre": "gonzalo contreras poveda",
+  "idProcesos": [
+    66898433
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2020-02-06T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:43.219Z",
+  "terminado": true,
+  "idRegUltimaAct": 895745473
 }

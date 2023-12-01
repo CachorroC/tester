@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 117,
   "llaveProceso": "11001400307020170056600",
   "nombre": "nicolas fernando montoya correa",
-  "idProcesos": [],
+  "idProcesos": [
+    50522530
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2021-12-13T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:03.731Z",
+  "terminado": false,
+  "idRegUltimaAct": 1238155890
 }

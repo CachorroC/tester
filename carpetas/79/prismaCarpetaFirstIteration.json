@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 79,
   "llaveProceso": "11001400303320170089200",
-  "nombre": "cristina castaño castillo null",
-  "idProcesos": [],
+  "nombre": "cristina castaño castillo",
+  "idProcesos": [
+    50514570
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-02-08T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:54.635Z",
+  "terminado": true,
+  "idRegUltimaAct": 1254127910
 }

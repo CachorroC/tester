@@ -1,4 +1,121 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 725462990,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 6,
+      "fechaActuacion": "2017-12-07T05:00:00.000Z",
+      "actuacion": "Retiro demanda admitida - Art.88",
+      "anotacion": "RETIRADA POR DIANA TRIANA AUTORIZADA ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-12-07T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": true,
+      "carpetaNumero": 222,
+      "createdAt": "2023-11-30T11:08:31.549Z"
+    },
+    {
+      "idRegActuacion": 725462980,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 5,
+      "fechaActuacion": "2017-10-04T05:00:00.000Z",
+      "actuacion": "Oficio Elaborado",
+      "anotacion": "OFICIO No;: 2000 EMBARGO ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-10-04T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "carpetaNumero": 222,
+      "createdAt": "2023-11-30T11:08:31.549Z"
+    },
+    {
+      "idRegActuacion": 725462970,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 4,
+      "fechaActuacion": "2017-09-12T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 12/09/2017 a las 15:24:17.",
+      "fechaInicial": "2017-09-13T05:00:00.000Z",
+      "fechaFinal": "2017-09-13T05:00:00.000Z",
+      "fechaRegistro": "2017-09-12T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "carpetaNumero": 222,
+      "createdAt": "2023-11-30T11:08:31.549Z"
+    },
+    {
+      "idRegActuacion": 725462960,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 3,
+      "fechaActuacion": "2017-09-12T05:00:00.000Z",
+      "actuacion": "Auto libra mandamiento ejecutivo",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-09-12T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "carpetaNumero": 222,
+      "createdAt": "2023-11-30T11:08:31.549Z"
+    },
+    {
+      "idRegActuacion": 725462950,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 2,
+      "fechaActuacion": "2017-09-06T05:00:00.000Z",
+      "actuacion": "Al despacho por reparto",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-09-06T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "carpetaNumero": 222,
+      "createdAt": "2023-11-30T11:08:31.549Z"
+    },
+    {
+      "idRegActuacion": 725462940,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 1,
+      "fechaActuacion": "2017-09-06T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 06/09/2017 a las 17:11:28",
+      "fechaInicial": "2017-09-06T05:00:00.000Z",
+      "fechaFinal": "2017-09-06T05:00:00.000Z",
+      "fechaRegistro": "2017-09-06T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "carpetaNumero": 222,
+      "createdAt": "2023-11-30T11:08:31.549Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 28,
+      "tipo": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-28-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 222,
   "llaveProceso": "11001400302820170085800",
   "demanda": {
@@ -7,7 +124,7 @@
     ],
     "juzgados": [],
     "capitalAdeudado": 5114547458,
-    "departamento": "BOGOTÁ",
+    "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2017-08-30T00:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": "2017-09-12T00:00:00.000Z",
@@ -19,22 +136,6 @@
     ],
     "radicado": "2017 - 00858",
     "expediente": "11001400302820170085800"
-  },
-  "fecha": "2017-12-07T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 725462990,
-    "llaveProceso": "11001400302820170085800",
-    "consActuacion": 6,
-    "fechaActuacion": "2017-12-07T00:00:00",
-    "actuacion": "Retiro demanda admitida - Art.88",
-    "anotacion": "RETIRADA POR DIANA TRIANA AUTORIZADA ",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2017-12-07T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 6,
-    "idProceso": 50688520
   },
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
@@ -72,7 +173,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "dufresny augusto pinilla",
   "idProcesos": [
     50688520
-  ]
+  ],
+  "revisado": true,
+  "terminado": true
 }

@@ -1,4 +1,12 @@
 {
+  "actuaciones": [],
+  "juzgados": [
+    {
+      "id": 2,
+      "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE SOACHA ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-02-civil-municipal-de-soacha"
+    }
+  ],
   "numero": 208,
   "llaveProceso": "25754400300220170026500",
   "demanda": {
@@ -50,7 +58,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "jeovany rojas cruz",
   "idProcesos": [
     86374941
-  ]
+  ],
+  "revisado": false,
+  "terminado": false
 }

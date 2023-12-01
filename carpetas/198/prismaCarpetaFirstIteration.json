@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 198,
   "llaveProceso": "11001400304020170132900",
   "nombre": "hector manuel ramirez puentes",
-  "idProcesos": [],
+  "idProcesos": [
+    19150031
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2017-11-02T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:24.439Z",
+  "terminado": true,
+  "idRegUltimaAct": 219869021
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 405,
   "llaveProceso": "11001400302120180023600",
-  "nombre": "arturo lince gomez null",
-  "idProcesos": [],
+  "nombre": "arturo lince gomez",
+  "idProcesos": [
+    51029180
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2023-11-14T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:13.519Z",
+  "terminado": false,
+  "idRegUltimaAct": 1933495480
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 289,
   "llaveProceso": "11001400301820170152200",
   "nombre": "jose ahinsonjober toro vargas",
-  "idProcesos": [],
+  "idProcesos": [
+    50711570
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-12-01T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:49.399Z",
+  "terminado": false,
+  "idRegUltimaAct": 1936812160
 }

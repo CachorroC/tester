@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 90,
   "llaveProceso": "11001400303420170083600",
   "nombre": "luis esneider orduz farfan",
-  "idProcesos": [],
+  "idProcesos": [
+    50521480,
+    81728891
+  ],
   "category": "Bancolombia",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-11-22T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:07:56.500Z",
+  "terminado": false,
+  "idRegUltimaAct": 1936709750
 }

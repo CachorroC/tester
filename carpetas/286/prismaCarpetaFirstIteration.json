@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 286,
   "llaveProceso": "11001400301720170119500",
-  "nombre": "alirio heredia buitrago null",
-  "idProcesos": [],
+  "nombre": "alirio heredia buitrago",
+  "idProcesos": [
+    50721470,
+    127748331
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-10-03T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:45.584Z",
+  "terminado": false,
+  "idRegUltimaAct": 1894535150
 }

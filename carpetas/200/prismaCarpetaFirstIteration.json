@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 200,
   "llaveProceso": "11001400301220170101200",
-  "nombre": "alexander rojas castañeda null",
-  "idProcesos": [],
+  "nombre": "alexander rojas castañeda",
+  "idProcesos": [
+    50681670
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2022-03-02T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:24.838Z",
+  "terminado": true,
+  "idRegUltimaAct": 1260723850
 }

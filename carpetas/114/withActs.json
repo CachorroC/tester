@@ -1,4 +1,31 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 910128311,
+      "llaveProceso": "25754418900220170075200",
+      "consActuacion": 8615264,
+      "fechaActuacion": "2019-08-22T05:00:00.000Z",
+      "actuacion": "AUTO EMPLAZA",
+      "anotacion": "EMPLAZAMIENTO DE LAS PERSONAS QUE TENGAN CRÉDITOS CON TÍTULOS DE EJECUCIÓN CONTRA ABUNDIO BOHÓRQUEZ.",
+      "fechaInicial": "2019-08-22T05:00:00.000Z",
+      "fechaFinal": "2019-09-12T05:00:00.000Z",
+      "fechaRegistro": "2019-08-22T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 1,
+      "idProceso": 86396721,
+      "isUltimaAct": false,
+      "carpetaNumero": 114,
+      "createdAt": "2023-11-30T11:08:03.264Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 2,
+      "tipo": "JUZGADO 002 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SOACHA ",
+      "url": "https://www.ramajudicial.gov.cojuzgado-002-de-pequeñas-causas--y-competencia-múltiple-de-soacha-"
+    }
+  ],
   "numero": 114,
   "llaveProceso": "25754418900220170075200",
   "demanda": {
@@ -20,22 +47,6 @@
     ],
     "radicado": "2017 - 00752",
     "expediente": "25754418900220170075200"
-  },
-  "fecha": "2019-08-22T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 910128311,
-    "llaveProceso": "25754418900220170075200",
-    "consActuacion": 8615264,
-    "fechaActuacion": "2019-08-22T00:00:00",
-    "actuacion": "AUTO EMPLAZA",
-    "anotacion": "EMPLAZAMIENTO DE LAS PERSONAS QUE TENGAN CRÉDITOS CON TÍTULOS DE EJECUCIÓN CONTRA ABUNDIO BOHÓRQUEZ.",
-    "fechaInicial": "2019-08-22T00:00:00",
-    "fechaFinal": "2019-09-12T00:00:00",
-    "fechaRegistro": "2019-08-22T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 1,
-    "idProceso": 86396721
   },
   "category": "Terminados",
   "tipoProceso": "HIPOTECARIO",
@@ -67,7 +78,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "jose antonio caicedo ruiz",
   "idProcesos": [
     86396721
-  ]
+  ],
+  "revisado": true,
+  "terminado": true
 }

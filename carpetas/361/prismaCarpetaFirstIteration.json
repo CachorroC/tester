@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 361,
   "llaveProceso": "11001400301720170133600",
-  "nombre": "natalia cuestas mondragon null",
-  "idProcesos": [],
+  "nombre": "natalia cuestas mondragon",
+  "idProcesos": [
+    50782960
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-03-28T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:03.724Z",
+  "terminado": false,
+  "idRegUltimaAct": 1267347870
 }

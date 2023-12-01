@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 500,
   "llaveProceso": "11001400300620180045400",
-  "nombre": "smartitech null s.a.s null",
-  "idProcesos": [],
+  "nombre": "smartitech s.a.s",
+  "idProcesos": [
+    51154840,
+    81649171
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-04-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:34.578Z",
+  "terminado": false,
+  "idRegUltimaAct": 1705464490
 }

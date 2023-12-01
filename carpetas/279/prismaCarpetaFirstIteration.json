@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 279,
   "llaveProceso": "11001400300820170105800",
   "nombre": "andres felipe gutierrez trujillo",
-  "idProcesos": [],
+  "idProcesos": [
+    112758450
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2022-07-21T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:44.124Z",
+  "terminado": false,
+  "idRegUltimaAct": 1339477370
 }

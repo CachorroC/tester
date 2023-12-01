@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 189,
   "llaveProceso": "25817418900120170049400",
-  "nombre": "wilder de jesus roman,grisales",
+  "nombre": "wilder de jesus roman grisales",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:22.748Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

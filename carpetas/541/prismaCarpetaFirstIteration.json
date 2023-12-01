@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 541,
   "llaveProceso": "11001400308220180096400",
   "nombre": "jose ramon estrada castillo",
-  "idProcesos": [],
+  "idProcesos": [
+    52160520,
+    112967583
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-08-29T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:45.043Z",
+  "terminado": false,
+  "idRegUltimaAct": 1649571513
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 108,
   "llaveProceso": "11001310302520170073600",
   "nombre": "miguel angel huertas valencia",
-  "idProcesos": [],
+  "idProcesos": [
+    28937944
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-11-10T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:01.528Z",
+  "terminado": false,
+  "idRegUltimaAct": 1137809124
 }

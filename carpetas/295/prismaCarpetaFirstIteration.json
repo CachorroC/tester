@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 295,
   "llaveProceso": "11001400305120170111300",
   "nombre": "rita cecilia fernandez ibañez",
-  "idProcesos": [],
+  "idProcesos": [
+    110568033
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-11-27T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:50.819Z",
+  "terminado": false,
+  "idRegUltimaAct": 1725975993
 }

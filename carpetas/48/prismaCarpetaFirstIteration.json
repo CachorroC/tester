@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 48,
   "llaveProceso": "11001400303520170142500",
   "nombre": "jenny adriana patarroyo torres",
-  "idProcesos": [],
+  "idProcesos": [
+    50746150
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2022-09-28T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:48.054Z",
+  "terminado": true,
+  "idRegUltimaAct": 1436891770
 }

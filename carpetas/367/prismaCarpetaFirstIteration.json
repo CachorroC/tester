@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 367,
   "llaveProceso": "11001400307820170123500",
-  "nombre": "andres antonio  amezquita,paez",
-  "idProcesos": [],
+  "nombre": "andres antonio  amezquita paez",
+  "idProcesos": [
+    88297260
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2022-11-01T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:04.592Z",
+  "terminado": true,
+  "idRegUltimaAct": 1484299510
 }

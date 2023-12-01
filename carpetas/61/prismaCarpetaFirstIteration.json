@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 61,
   "llaveProceso": "11001400304620170055700",
   "nombre": "juan pablo rubio esguerra",
-  "idProcesos": [],
+  "idProcesos": [
+    10130443
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2019-05-24T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:50.313Z",
+  "terminado": true,
+  "idRegUltimaAct": 518868573
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 466,
   "llaveProceso": "11001400305220180011700",
   "nombre": "darley julied paez higuera",
-  "idProcesos": [],
+  "idProcesos": [
+    50990370
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-04-13T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:29.128Z",
+  "terminado": false,
+  "idRegUltimaAct": 1710300950
 }

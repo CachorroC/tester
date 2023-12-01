@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 87,
   "llaveProceso": "11001400304620170056100",
-  "nombre": "omar espitia reyes null",
-  "idProcesos": [],
+  "nombre": "omar espitia reyes",
+  "idProcesos": [
+    10130493
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2019-05-24T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:56.103Z",
+  "terminado": true,
+  "idRegUltimaAct": 518893563
 }

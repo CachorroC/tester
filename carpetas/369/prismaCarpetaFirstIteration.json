@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": false,
-  "revisado": false,
   "numero": 369,
   "llaveProceso": "11001400302220170120800",
-  "nombre": "inversion rivoli s.a.s. null",
-  "idProcesos": [],
+  "nombre": "inversion rivoli s.a.s.",
+  "idProcesos": [
+    50817380,
+    81647611
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2023-01-31T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:09:04.896Z",
+  "terminado": false,
+  "idRegUltimaAct": 1630836130
 }

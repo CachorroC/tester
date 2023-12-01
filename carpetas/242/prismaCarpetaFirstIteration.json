@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 242,
   "llaveProceso": "25754418900220180036300",
-  "nombre": "john hader otalvaro ,romo",
+  "nombre": "john hader otalvaro  romo",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:35.516Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

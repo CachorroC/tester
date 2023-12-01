@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 498,
   "llaveProceso": "25899400300320180042900",
   "nombre": "jose alexander becerra barrera",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:34.309Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

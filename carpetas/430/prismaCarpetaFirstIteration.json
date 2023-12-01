@@ -1,11 +1,16 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 430,
   "llaveProceso": "11001410300120180040400",
-  "nombre": "jhonatan alejandro  cuellar,arias",
-  "idProcesos": [],
+  "nombre": "jhonatan alejandro  cuellar arias",
+  "idProcesos": [
+    17487020,
+    50678323
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2019-12-19T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:09:18.738Z",
+  "terminado": true,
+  "idRegUltimaAct": 909598440
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "SINGULAR",
-  "terminado": true,
-  "revisado": false,
   "numero": 304,
   "llaveProceso": "11001400307320170141100",
-  "nombre": "fernando gonzalez tellez null",
-  "idProcesos": [],
+  "nombre": "fernando gonzalez tellez",
+  "idProcesos": [
+    50801260
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "SINGULAR",
+  "fecha": "2020-11-06T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:52.109Z",
+  "terminado": true,
+  "idRegUltimaAct": 997655690
 }

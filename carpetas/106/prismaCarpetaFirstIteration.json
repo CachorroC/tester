@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": false,
-  "revisado": false,
   "numero": 106,
   "llaveProceso": "11001400305920170048300",
-  "nombre": "daniel hernandez gonzalez null",
-  "idProcesos": [],
+  "nombre": "daniel hernandez gonzalez",
+  "idProcesos": [
+    50514310
+  ],
   "category": "Reintegra",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": "2023-02-27T05:00:00.000Z",
+  "revisado": false,
+  "updatedAt": "2023-11-30T11:08:01.106Z",
+  "terminado": false,
+  "idRegUltimaAct": 1659007230
 }

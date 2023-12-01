@@ -1,4 +1,139 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 1880432600,
+      "llaveProceso": "11001400307520230128400",
+      "consActuacion": 7,
+      "fechaActuacion": "2023-09-22T05:00:00.000Z",
+      "actuacion": "Comunicación secretarial firmada",
+      "anotacion": "OFICIO FIRMADO",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-09-22T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132161470,
+      "isUltimaAct": true,
+      "carpetaNumero": 568,
+      "createdAt": "2023-11-30T11:09:50.879Z"
+    },
+    {
+      "idRegActuacion": 1862825060,
+      "llaveProceso": "11001400307520230128400",
+      "consActuacion": 6,
+      "fechaActuacion": "2023-08-30T05:00:00.000Z",
+      "actuacion": "Oficio Elaborado",
+      "anotacion": "OFICIO EMBARGO RIP*",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-30T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132161470,
+      "isUltimaAct": false,
+      "carpetaNumero": 568,
+      "createdAt": "2023-11-30T11:09:50.879Z"
+    },
+    {
+      "idRegActuacion": 1844385410,
+      "llaveProceso": "11001400307520230128400",
+      "consActuacion": 5,
+      "fechaActuacion": "2023-08-14T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 14/08/2023 a las 17:15:24.",
+      "fechaInicial": "2023-08-15T05:00:00.000Z",
+      "fechaFinal": "2023-08-15T05:00:00.000Z",
+      "fechaRegistro": "2023-08-14T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132161470,
+      "isUltimaAct": false,
+      "carpetaNumero": 568,
+      "createdAt": "2023-11-30T11:09:50.879Z"
+    },
+    {
+      "idRegActuacion": 1844385400,
+      "llaveProceso": "11001400307520230128400",
+      "consActuacion": 4,
+      "fechaActuacion": "2023-08-14T05:00:00.000Z",
+      "actuacion": "Auto decreta medida cautelar",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-14T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132161470,
+      "isUltimaAct": false,
+      "carpetaNumero": 568,
+      "createdAt": "2023-11-30T11:09:50.879Z"
+    },
+    {
+      "idRegActuacion": 1844385390,
+      "llaveProceso": "11001400307520230128400",
+      "consActuacion": 3,
+      "fechaActuacion": "2023-08-14T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 14/08/2023 a las 17:14:57.",
+      "fechaInicial": "2023-08-15T05:00:00.000Z",
+      "fechaFinal": "2023-08-15T05:00:00.000Z",
+      "fechaRegistro": "2023-08-14T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132161470,
+      "isUltimaAct": false,
+      "carpetaNumero": 568,
+      "createdAt": "2023-11-30T11:09:50.879Z"
+    },
+    {
+      "idRegActuacion": 1844385380,
+      "llaveProceso": "11001400307520230128400",
+      "consActuacion": 2,
+      "fechaActuacion": "2023-08-14T05:00:00.000Z",
+      "actuacion": "Auto libra mandamiento ejecutivo",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-14T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132161470,
+      "isUltimaAct": false,
+      "carpetaNumero": 568,
+      "createdAt": "2023-11-30T11:09:50.879Z"
+    },
+    {
+      "idRegActuacion": 1837296480,
+      "llaveProceso": "11001400307520230128400",
+      "consActuacion": 1,
+      "fechaActuacion": "2023-08-08T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 08/08/2023 a las 12:54:05",
+      "fechaInicial": "2023-08-08T05:00:00.000Z",
+      "fechaFinal": "2023-08-08T05:00:00.000Z",
+      "fechaRegistro": "2023-08-08T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 132161470,
+      "isUltimaAct": false,
+      "carpetaNumero": 568,
+      "createdAt": "2023-11-30T11:09:50.879Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 75,
+      "tipo": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 568,
   "llaveProceso": "11001400307520230128400",
   "demanda": {
@@ -8,7 +143,7 @@
     ],
     "juzgados": [],
     "capitalAdeudado": 20815025,
-    "departamento": "BOGOTÁ",
+    "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2023-08-02T00:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
@@ -21,22 +156,6 @@
     ],
     "radicado": "2023 - 01627",
     "expediente": "11001400307520230128400"
-  },
-  "fecha": "2023-09-22T05:00:00.000Z",
-  "ultimaActuacion": {
-    "idRegActuacion": 1880432600,
-    "llaveProceso": "11001400307520230128400",
-    "consActuacion": 7,
-    "fechaActuacion": "2023-09-22T00:00:00",
-    "actuacion": "Comunicación secretarial firmada",
-    "anotacion": "OFICIO FIRMADO",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-09-22T00:00:00",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 7,
-    "idProceso": 132161470
   },
   "category": "Bancolombia",
   "tipoProceso": "SINGULAR",
@@ -68,7 +187,10 @@
       "cantFilas": -1
     }
   ],
+  "nombre": "lorena guiselle chaparro leal",
   "idProcesos": [
     132161470
-  ]
+  ],
+  "revisado": false,
+  "terminado": false
 }

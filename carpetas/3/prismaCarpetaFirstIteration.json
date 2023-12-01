@@ -1,11 +1,13 @@
 {
-  "tipoProceso": "PRENDARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 3,
   "llaveProceso": "25126408900220170071500",
   "nombre": "maria claudia reatiga urrea",
   "idProcesos": [],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "PRENDARIO",
+  "fecha": null,
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:07:37.206Z",
+  "terminado": true,
+  "idRegUltimaAct": null
 }

@@ -1,11 +1,15 @@
 {
-  "tipoProceso": "HIPOTECARIO",
-  "terminado": true,
-  "revisado": false,
   "numero": 137,
   "llaveProceso": "11001400304720170171300",
   "nombre": "edna milena muñoz sanchez",
-  "idProcesos": [],
+  "idProcesos": [
+    10410303
+  ],
   "category": "Terminados",
-  "fecha": null
+  "tipoProceso": "HIPOTECARIO",
+  "fecha": "2018-09-07T05:00:00.000Z",
+  "revisado": true,
+  "updatedAt": "2023-11-30T11:08:09.182Z",
+  "terminado": true,
+  "idRegUltimaAct": 125266573
 }
