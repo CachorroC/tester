@@ -370,7 +370,7 @@ export class CarpetaJudicial implements IntCarpeta {
                   } = proceso;
                   return {
                     create: {
-                      ...prcWollaveProceso,
+                      ...proceso,
                       fechaProceso: proceso.fechaProceso
                         ? new Date(
                           proceso.fechaProceso
@@ -384,7 +384,7 @@ export class CarpetaJudicial implements IntCarpeta {
 
                     },
                     update: {
-                      ...prcWollaveProceso,
+                      ...proceso,
                       fechaProceso: proceso.fechaProceso
                         ? new Date(
                           proceso.fechaProceso
@@ -450,7 +450,7 @@ export class CarpetaJudicial implements IntCarpeta {
                   } = proceso;
                   return {
                     create: {
-                      ...prcWollaveProceso,
+                      ...proceso,
                       fechaProceso: proceso.fechaProceso
                         ? new Date(
                           proceso.fechaProceso

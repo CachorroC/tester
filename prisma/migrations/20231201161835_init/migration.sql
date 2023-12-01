@@ -143,17 +143,27 @@ CREATE TABLE "Proceso" (
     "despacho" TEXT NOT NULL,
     "departamento" TEXT NOT NULL,
     "sujetosProcesales" TEXT NOT NULL,
+    "carpetaNumero" INTEGER NOT NULL,
     "esPrivado" BOOLEAN NOT NULL,
     "cantFilas" INTEGER NOT NULL,
-    "carpetaNumero" INTEGER NOT NULL,
 
     CONSTRAINT "Proceso_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
-CREATE TABLE "_CarpetaToJuzgado" (
-    "A" INTEGER NOT NULL,
-    "B" TEXT NOT NULL
+CREATE TABLE "JuzgadoProceso" (
+    "idProceso" INTEGER NOT NULL,
+    "despacho" TEXT NOT NULL,
+
+    CONSTRAINT "JuzgadoProceso_pkey" PRIMARY KEY ("idProceso","despacho")
+);
+
+-- CreateTable
+CREATE TABLE "JuzgadoCarpeta" (
+    "carpetaNumero" INTEGER NOT NULL,
+    "despacho" TEXT NOT NULL,
+
+    CONSTRAINT "JuzgadoCarpeta_pkey" PRIMARY KEY ("despacho","carpetaNumero")
 );
 
 -- CreateTable
@@ -170,12 +180,6 @@ CREATE UNIQUE INDEX "Demanda_carpetaNumero_key" ON "Demanda"("carpetaNumero");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "Proceso_idProceso_key" ON "Proceso"("idProceso");
-
--- CreateIndex
-CREATE UNIQUE INDEX "_CarpetaToJuzgado_AB_unique" ON "_CarpetaToJuzgado"("A", "B");
-
--- CreateIndex
-CREATE INDEX "_CarpetaToJuzgado_B_index" ON "_CarpetaToJuzgado"("B");
 
 -- CreateIndex
 CREATE UNIQUE INDEX "_DemandaToJuzgado_AB_unique" ON "_DemandaToJuzgado"("A", "B");
@@ -208,13 +212,16 @@ ALTER TABLE "Demanda" ADD CONSTRAINT "Demanda_carpetaNumero_fkey" FOREIGN KEY ("
 ALTER TABLE "Proceso" ADD CONSTRAINT "Proceso_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "Proceso" ADD CONSTRAINT "Proceso_despacho_fkey" FOREIGN KEY ("despacho") REFERENCES "Juzgado"("tipo") ON DELETE RESTRICT ON UPDATE CASCADE;
+ALTER TABLE "JuzgadoProceso" ADD CONSTRAINT "JuzgadoProceso_idProceso_fkey" FOREIGN KEY ("idProceso") REFERENCES "Proceso"("idProceso") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "_CarpetaToJuzgado" ADD CONSTRAINT "_CarpetaToJuzgado_A_fkey" FOREIGN KEY ("A") REFERENCES "Carpeta"("numero") ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE "JuzgadoProceso" ADD CONSTRAINT "JuzgadoProceso_despacho_fkey" FOREIGN KEY ("despacho") REFERENCES "Juzgado"("tipo") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
-ALTER TABLE "_CarpetaToJuzgado" ADD CONSTRAINT "_CarpetaToJuzgado_B_fkey" FOREIGN KEY ("B") REFERENCES "Juzgado"("tipo") ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE "JuzgadoCarpeta" ADD CONSTRAINT "JuzgadoCarpeta_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "JuzgadoCarpeta" ADD CONSTRAINT "JuzgadoCarpeta_despacho_fkey" FOREIGN KEY ("despacho") REFERENCES "Juzgado"("tipo") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "_DemandaToJuzgado" ADD CONSTRAINT "_DemandaToJuzgado_A_fkey" FOREIGN KEY ("A") REFERENCES "Demanda"("id") ON DELETE CASCADE ON UPDATE CASCADE;

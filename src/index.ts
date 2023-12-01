@@ -41,7 +41,7 @@ router.post(
         data: {
           nombre: name,
           email,
-          notas: {
+          notas : {
             create: postData,
           },
         },
