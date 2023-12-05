@@ -1,15 +1,16 @@
 {
+  "juzgados": [],
   "numero": 562,
   "llaveProceso": "11001418900420230088400",
   "demanda": {
     "vencimientoPagare": [
-      "2026-05-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 25252953,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -23,23 +24,24 @@
     "expediente": "11001418900420230088400"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "mario",
-    "segundoNombre": "hernan",
-    "primerApellido": "salamanca",
-    "segundoApellido": "patiño",
+    "primerNombre": "MARIO",
+    "segundoNombre": "HERNAN",
+    "primerApellido": "SALAMANCA",
+    "segundoApellido": "PATIÑO",
     "cedula": 17139148,
-    "direccion": "carrera 80 no. 8 - 11 torre 3 interior 5 apartamento 519 torres de santa barbara conjunto residencial",
+    "direccion": "Carrera 80 No. 8 - 11 Torre 3 Interior 5 Apartamento 519 Torres de Santa Barbara Conjunto Residencial",
     "email": "ajasalama@gmail.com"
   },
   "cc": 17139148,
-  "nombre": "mario hernan salamanca patiño",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "MARIO HERNAN SALAMANCA PATIÑO"
 }

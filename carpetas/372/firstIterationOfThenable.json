@@ -1,14 +1,23 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "CARLOS ANDRES SUAREZ GORDILLO",
+    "cedula": "1014202066",
+    "direccion": null,
+    "telefono": null,
+    "id": 372,
+    "carpetaNumero": 372
+  },
   "numero": 372,
   "llaveProceso": "25754400300220180007000",
   "demanda": {
     "vencimientoPagare": [
-      "2024-07-01T05:00:00.000Z"
+      "2024-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 17921982,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-11T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
@@ -21,27 +30,24 @@
     "expediente": "25754400300220180007000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3152482331
     },
-    "primerNombre": "janeth",
-    "segundoNombre": "rubiela",
-    "primerApellido": "gordillo",
-    "segundoApellido": "pinzon",
+    "primerNombre": "JANETH",
+    "segundoNombre": "RUBIELA",
+    "primerApellido": "GORDILLO",
+    "segundoApellido": "PINZON",
     "cedula": 51953414,
-    "direccion": "transversal 49 # 3 - 92 casa 360 zapan 3",
+    "direccion": "TRANSVERSAL 49 # 3 - 92 CASA 360 ZAPAN 3",
     "email": "janethrpinzon@gmail.com"
   },
-  "codeudor": {
-    "cedula": 1014202066,
-    "nombre": "carlos andres suarez gordillo"
-  },
   "cc": 51953414,
-  "nombre": "janeth rubiela gordillo pinzon",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "JANETH RUBIELA GORDILLO PINZON"
 }

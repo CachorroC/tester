@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 311,
   "llaveProceso": "11001400370820170018400",
   "demanda": {
     "vencimientoPagare": [
-      "2017-07-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1076199162,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-02T00:00:00.000Z",
+    "mandamientoPago": "2017-02-11T05:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
-    "fechaPresentacion": "2017-10-31T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRESTAMO",
@@ -22,23 +23,24 @@
     "expediente": "11001400370820170018400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "paula",
-    "segundoNombre": "andrea",
-    "primerApellido": "pinzon",
-    "segundoApellido": "otalvaro",
+    "primerNombre": "PAULA",
+    "segundoNombre": "ANDREA",
+    "primerApellido": "PINZON",
+    "segundoApellido": "OTALVARO",
     "cedula": 32730630,
-    "direccion": "carrera 65 no 22 a- 43 apartamento 1002- 5",
+    "direccion": "CARRERA 65 No 22 A- 43 APARTAMENTO 1002- 5",
     "email": "pa_pinzon@hotmail.com"
   },
   "cc": 32730630,
-  "nombre": "paula andrea pinzon otalvaro",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "PAULA ANDREA PINZON OTALVARO"
 }

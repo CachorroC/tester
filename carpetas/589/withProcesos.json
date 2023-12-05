@@ -1,14 +1,14 @@
 {
   "numero": 589,
-  "llaveProceso": null,
+  "llaveProceso": "SinEspecificar",
   "demanda": {
     "vencimientoPagare": [
-      "2052-11-01T05:00:00.000Z"
+      "2052-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 58421147,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-10-07T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2023-07-10T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -18,27 +18,26 @@
       90000218729,
       2010089751
     ],
-    "radicado": null,
-    "expediente": null
+    "radicado": "2023-899",
+    "expediente": "SinEspecificar"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3143490829
     },
-    "primerNombre": "yurledy",
-    "segundoNombre": "parra",
-    "primerApellido": "hernandez",
+    "primerNombre": "YURLEDY",
+    "segundoNombre": "PARRA",
+    "primerApellido": "HERNANDEZ",
     "segundoApellido": null,
     "cedula": 1030573651,
-    "direccion": "carrera 99 d bis no. 38 - 37 sur",
+    "direccion": "Carrera 99 D BIS No. 38 - 37 Sur",
     "email": "yurledyparra2024@hotmail.com"
   },
   "cc": 1030573651,
-  "nombre": "yurledy parra hernandez",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "nombre": "YURLEDY PARRA HERNANDEZ"
 }

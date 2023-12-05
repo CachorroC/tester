@@ -1,14 +1,15 @@
 {
+  "juzgados": [],
   "numero": 575,
   "llaveProceso": "11001418900520230134200",
   "demanda": {
     "vencimientoPagare": [
-      "2026-04-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 86945177,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -21,24 +22,24 @@
     "expediente": "11001418900520230134200"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 7574806,
       "celular": 3164336320
     },
-    "primerNombre": "javier",
-    "segundoNombre": "alejandro",
-    "primerApellido": "carrera",
-    "segundoApellido": "siachoque",
+    "primerNombre": "JAVIER",
+    "segundoNombre": "ALEJANDRO",
+    "primerApellido": "CARRERA",
+    "segundoApellido": "SIACHOQUE",
     "cedula": 79780047,
-    "direccion": "carrera 13 a no. 113 42 apartamento 207 santa paula // carrera 11 no. 112 – 65 // calle 119 no. 7 – 14 consultorio 617 // calle 85 a no. 21 - 51",
+    "direccion": "Carrera 13 A No. 113 42 Apartamento 207 Santa Paula // Carrera 11 No. 112 – 65 // Calle 119 No. 7 – 14 Consultorio 617 // Calle 85 A No. 21 - 51",
     "email": "carrerasiachoque@yahoo.com"
   },
   "cc": 79780047,
   "procesos": [],
-  "nombre": "javier alejandro carrera siachoque",
   "idProcesos": [],
-  "revisado": false,
-  "terminado": false
+  "nombre": "JAVIER ALEJANDRO CARRERA SIACHOQUE"
 }

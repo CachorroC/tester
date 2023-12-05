@@ -1,17 +1,18 @@
 {
+  "juzgados": [],
   "numero": 397,
   "llaveProceso": "25473400300120180010600",
   "demanda": {
     "vencimientoPagare": [
-      "2022-05-01T05:00:00.000Z"
+      "2022-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 14467701,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": "2018-06-02T05:00:00.000Z",
-    "etapaProcesal": "2.547340030012018e+22",
+    "etapaProcesal": "25473400300120180010600",
     "fechaPresentacion": null,
     "municipio": "MOSQUERA",
     "obligacion": [
@@ -21,27 +22,27 @@
     "expediente": "25473400300120180010600"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jose",
-    "segundoNombre": "de",
-    "primerApellido": "jesus",
+    "primerNombre": "JOSE",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
     "segundoApellido": [
-      "tapias",
-      "estevez"
+      "TAPIAS",
+      "ESTEVEZ"
     ],
     "cedula": 13812570,
-    "direccion": "calle 12a no 1b este-80 manzana 2 casa mosquera",
+    "direccion": "CALLE 12A No 1B ESTE-80 MANZANA 2 CASA MOSQUERA",
     "email": "jtapias@pastasdoria.com"
   },
   "cc": 13812570,
   "procesos": [],
-  "nombre": "jose de jesus tapias estevez",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JOSE DE JESUS TAPIAS ESTEVEZ"
 }

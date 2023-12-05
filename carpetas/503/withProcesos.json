@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 503,
   "llaveProceso": "25436408900120180006300",
   "demanda": {
@@ -20,24 +21,24 @@
     "expediente": "25436408900120180006300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "juan",
-    "segundoNombre": "carlos",
-    "primerApellido": "leon",
-    "segundoApellido": "montenegro",
+    "primerNombre": "JUAN",
+    "segundoNombre": "CARLOS",
+    "primerApellido": "LEON",
+    "segundoApellido": "MONTENEGRO",
     "cedula": 3096755,
-    "direccion": "diagonal 2 no 6 a-29",
+    "direccion": "DIAGONAL 2 No 6 A-29",
     "email": "jclm152@hotmail.com"
   },
   "cc": 3096755,
   "procesos": [],
-  "nombre": "juan carlos leon montenegro",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JUAN CARLOS LEON MONTENEGRO"
 }

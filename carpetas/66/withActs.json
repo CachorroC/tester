@@ -16,7 +16,7 @@
       "idProceso": 50593320,
       "isUltimaAct": true,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.945Z"
     },
     {
       "idRegActuacion": 670033050,
@@ -34,7 +34,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.945Z"
     },
     {
       "idRegActuacion": 670033040,
@@ -52,7 +52,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.945Z"
     },
     {
       "idRegActuacion": 670033030,
@@ -70,7 +70,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     },
     {
       "idRegActuacion": 670033020,
@@ -88,7 +88,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     },
     {
       "idRegActuacion": 670033010,
@@ -106,7 +106,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     },
     {
       "idRegActuacion": 670033000,
@@ -124,7 +124,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     },
     {
       "idRegActuacion": 670032990,
@@ -142,7 +142,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     },
     {
       "idRegActuacion": 670032980,
@@ -160,7 +160,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     },
     {
       "idRegActuacion": 670032970,
@@ -178,7 +178,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     },
     {
       "idRegActuacion": 670032960,
@@ -196,7 +196,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     },
     {
       "idRegActuacion": 670032950,
@@ -214,7 +214,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     },
     {
       "idRegActuacion": 670032940,
@@ -232,7 +232,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-11-30T11:07:51.892Z"
+      "createdAt": "2023-12-03T18:16:31.946Z"
     }
   ],
   "juzgados": [
@@ -246,16 +246,16 @@
   "llaveProceso": "11001400301920170070200",
   "demanda": {
     "vencimientoPagare": [
-      "2018-10-01T05:00:00.000Z"
+      "2018-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 12845011,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-07-27T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-07-21T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12525003
@@ -263,19 +263,38 @@
     "radicado": "2017 - 00702",
     "expediente": "11001400301920170070200"
   },
+  "fecha": "2018-03-15T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 670033060,
+    "llaveProceso": "11001400301920170070200",
+    "consActuacion": 13,
+    "fechaActuacion": "2018-03-15T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "ARCHIVADO CAJA 559 DE MARZO DE 2018.",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-03-15T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 13,
+    "idProceso": 50593320,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3144113614
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "patricia",
-    "primerApellido": "suarez",
-    "segundoApellido": "galvis",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "SUAREZ",
+    "segundoApellido": "GALVIS",
     "cedula": 66841096,
-    "direccion": "carrera 22 no. 161-26 piso 2",
+    "direccion": "CARRERA 22 No. 161-26 PISO 2",
     "email": "sansuarez.ga@gmail.com"
   },
   "cc": 66841096,
@@ -284,8 +303,8 @@
       "idProceso": 50593320,
       "idConexion": 259,
       "llaveProceso": "11001400301920170070200",
-      "fechaProceso": "2017-07-26T00:00:00",
-      "fechaUltimaActuacion": "2018-03-15T00:00:00",
+      "fechaProceso": "2017-07-26T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-15T05:00:00.000Z",
       "despacho": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA SUAREZ GALVIS ",
@@ -293,10 +312,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "sandra patricia suarez galvis",
   "idProcesos": [
     50593320
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "SANDRA PATRICIA SUAREZ GALVIS"
 }

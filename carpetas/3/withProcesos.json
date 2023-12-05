@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 3,
   "llaveProceso": "25126408900220170071500",
   "demanda": {
     "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 33175721,
+    "capitalAdeudado": 3317572169,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-18T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2018-02-02T00:00:00.000Z",
+    "mandamientoPago": "2018-02-02T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2018-09-28T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "CAJICA",
     "obligacion": [
       12204943
@@ -21,24 +22,24 @@
     "expediente": "25126408900220170071500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "maria",
-    "segundoNombre": "claudia",
-    "primerApellido": "reatiga",
-    "segundoApellido": "urrea",
+    "primerNombre": "MARIA",
+    "segundoNombre": "CLAUDIA",
+    "primerApellido": "REATIGA",
+    "segundoApellido": "URREA",
     "cedula": 1018441487,
-    "direccion": "carrera 2 e no 1 a  - 60 casa 126 - cajica",
+    "direccion": "CARRERA 2 E No 1 A  - 60 CASA 126 - CAJICA",
     "email": null
   },
   "cc": 1018441487,
   "procesos": [],
-  "nombre": "maria claudia reatiga urrea",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "MARIA CLAUDIA REATIGA URREA"
 }

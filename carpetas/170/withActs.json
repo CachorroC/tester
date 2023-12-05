@@ -16,7 +16,7 @@
       "idProceso": 50668010,
       "isUltimaAct": true,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968390,
@@ -34,7 +34,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968380,
@@ -52,7 +52,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968370,
@@ -70,7 +70,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968360,
@@ -88,7 +88,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968350,
@@ -106,7 +106,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968340,
@@ -124,7 +124,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968330,
@@ -142,7 +142,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968320,
@@ -160,7 +160,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968310,
@@ -178,7 +178,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968300,
@@ -196,7 +196,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     },
     {
       "idRegActuacion": 630968290,
@@ -214,7 +214,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-11-30T11:08:18.640Z"
+      "createdAt": "2023-12-03T18:17:02.705Z"
     }
   ],
   "juzgados": [
@@ -229,13 +229,13 @@
   "demanda": {
     "vencimientoPagare": [],
     "juzgados": [],
-    "capitalAdeudado": 810822066,
+    "capitalAdeudado": 8108220,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-18T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-08-30T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       4513075095312892,
@@ -244,19 +244,38 @@
     "radicado": "2017 - 01114",
     "expediente": "11001400301320170111400"
   },
+  "fecha": "2019-05-30T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 630968400,
+    "llaveProceso": "11001400301320170111400",
+    "consActuacion": 12,
+    "fechaActuacion": "2019-05-30T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PAQUETE 3117",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2019-05-30T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 12,
+    "idProceso": 50668010,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 5514126,
       "celular": 3006509338
     },
-    "primerNombre": "isabel",
-    "segundoNombre": "cristina",
-    "primerApellido": "garcia",
-    "segundoApellido": "duran",
+    "primerNombre": "ISABEL",
+    "segundoNombre": "CRISTINA",
+    "primerApellido": "GARCIA",
+    "segundoApellido": "DURAN",
     "cedula": 55303731,
-    "direccion": "calle 138 # 11b - 16 apto 401",
+    "direccion": "CALLE 138 # 11B - 16 APTO 401",
     "email": "isagarcia@hotmail.com"
   },
   "cc": 55303731,
@@ -265,8 +284,8 @@
       "idProceso": 50668010,
       "idConexion": 259,
       "llaveProceso": "11001400301320170111400",
-      "fechaProceso": "2017-08-29T00:00:00",
-      "fechaUltimaActuacion": "2019-05-30T00:00:00",
+      "fechaProceso": "2017-08-29T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-05-30T05:00:00.000Z",
       "despacho": "JUZGADO 013 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ISABEL CRISTINA GARCIA DURAN ",
@@ -274,10 +293,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "isabel cristina garcia duran",
   "idProcesos": [
     50668010
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "ISABEL CRISTINA GARCIA DURAN"
 }

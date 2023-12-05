@@ -16,7 +16,7 @@
       "idProceso": 70545740,
       "isUltimaAct": true,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 869815910,
@@ -34,7 +34,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 867906090,
@@ -52,7 +52,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 867751010,
@@ -70,7 +70,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 865829930,
@@ -88,7 +88,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 865556060,
@@ -106,7 +106,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 565774490,
@@ -124,7 +124,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 565779090,
@@ -142,7 +142,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 565294300,
@@ -160,7 +160,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 565680260,
@@ -178,7 +178,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     },
     {
       "idRegActuacion": 856400000,
@@ -196,7 +196,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-11-30T11:09:42.502Z"
+      "createdAt": "2023-12-03T18:18:57.187Z"
     }
   ],
   "juzgados": [
@@ -210,10 +210,10 @@
   "llaveProceso": "11001400307520190100800",
   "demanda": {
     "vencimientoPagare": [
-      "2026-04-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 1995113595,
+    "capitalAdeudado": 19951135,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
@@ -227,19 +227,38 @@
     "radicado": "2019 - 01008",
     "expediente": "11001400307520190100800"
   },
+  "fecha": "2019-11-19T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 869815920,
+    "llaveProceso": "11001400307520190100800",
+    "consActuacion": 11,
+    "fechaActuacion": "2019-11-19T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 19/11/2019 a las 17:44:15.",
+    "fechaInicial": "2019-11-20T00:00:00",
+    "fechaFinal": "2019-11-20T00:00:00",
+    "fechaRegistro": "2019-11-19T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 11,
+    "idProceso": 70545740,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3213987669
     },
-    "primerNombre": "ingrit",
-    "segundoNombre": "yohana",
-    "primerApellido": "vasquez",
-    "segundoApellido": "rojas",
+    "primerNombre": "INGRIT",
+    "segundoNombre": "YOHANA",
+    "primerApellido": "VASQUEZ",
+    "segundoApellido": "ROJAS",
     "cedula": 52433839,
-    "direccion": "carrera 15 # 33-17",
+    "direccion": "CARRERA 15 # 33-17",
     "email": "grpte@hotmail.com"
   },
   "cc": 52433839,
@@ -248,8 +267,8 @@
       "idProceso": 70545740,
       "idConexion": 259,
       "llaveProceso": "11001400307520190100800",
-      "fechaProceso": "2019-09-19T00:00:00",
-      "fechaUltimaActuacion": "2019-11-19T00:00:00",
+      "fechaProceso": "2019-09-19T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-11-19T05:00:00.000Z",
       "despacho": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: INGRIT YOHANA VASQUEZ ROJAS ",
@@ -257,10 +276,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "ingrit yohana vasquez rojas",
   "idProcesos": [
     70545740
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "INGRIT YOHANA VASQUEZ ROJAS"
 }

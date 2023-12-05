@@ -3,10 +3,10 @@
   "llaveProceso": "257544189003201800177",
   "demanda": {
     "vencimientoPagare": [
-      "2033-08-01T05:00:00.000Z"
+      "2033-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 1823608830,
+    "capitalAdeudado": 18236088,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
@@ -21,23 +21,22 @@
     "expediente": "257544189003201800177"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 2035780,
       "celular": 3102259717
     },
-    "primerNombre": "cesar",
-    "segundoNombre": "augusto",
-    "primerApellido": "pineda",
-    "segundoApellido": "rios",
+    "primerNombre": "CESAR",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "PINEDA",
+    "segundoApellido": "RIOS",
     "cedula": 1013586083,
-    "direccion": "diagonal 18 b no 44-24",
+    "direccion": "DIAGONAL 18 B No 44-24",
     "email": "cesar.rios_30@hotmail.com"
   },
   "cc": 1013586083,
-  "nombre": "cesar augusto pineda rios",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "nombre": "CESAR AUGUSTO PINEDA RIOS"
 }

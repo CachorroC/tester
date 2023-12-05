@@ -16,7 +16,7 @@
       "idProceso": 17718250,
       "isUltimaAct": true,
       "carpetaNumero": 333,
-      "createdAt": "2023-11-30T11:08:57.711Z"
+      "createdAt": "2023-12-03T18:17:57.409Z"
     },
     {
       "idRegActuacion": 266714160,
@@ -34,7 +34,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-11-30T11:08:57.711Z"
+      "createdAt": "2023-12-03T18:17:57.409Z"
     },
     {
       "idRegActuacion": 266714150,
@@ -52,7 +52,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-11-30T11:08:57.711Z"
+      "createdAt": "2023-12-03T18:17:57.409Z"
     },
     {
       "idRegActuacion": 266714140,
@@ -70,7 +70,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-11-30T11:08:57.711Z"
+      "createdAt": "2023-12-03T18:17:57.409Z"
     },
     {
       "idRegActuacion": 266714130,
@@ -88,7 +88,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-11-30T11:08:57.711Z"
+      "createdAt": "2023-12-03T18:17:57.409Z"
     },
     {
       "idRegActuacion": 266714120,
@@ -106,7 +106,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-11-30T11:08:57.711Z"
+      "createdAt": "2023-12-03T18:17:57.409Z"
     }
   ],
   "juzgados": [
@@ -120,16 +120,16 @@
   "llaveProceso": "11001400306320170131700",
   "demanda": {
     "vencimientoPagare": [
-      "2017-11-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1889842100,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2018-01-15T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2018-01-15T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12710799
@@ -137,19 +137,38 @@
     "radicado": "2017 - 01317",
     "expediente": "11001400306320170131700"
   },
+  "fecha": "2018-05-16T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 266714170,
+    "llaveProceso": "11001400306320170131700",
+    "consActuacion": 6,
+    "fechaActuacion": "2018-05-16T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": "APODERADA AUTORIZA  PARA RETIRO DEMANDA",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-05-16T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6,
+    "idProceso": 17718250,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "ahida",
-    "segundoNombre": "lucero",
-    "primerApellido": "guevara",
-    "segundoApellido": "becerra",
+    "primerNombre": "AHIDA",
+    "segundoNombre": "LUCERO",
+    "primerApellido": "GUEVARA",
+    "segundoApellido": "BECERRA",
     "cedula": 52085839,
-    "direccion": "calle 55 no 78 -74  apartamento 1110",
+    "direccion": "CALLE 55 No 78 -74  APARTAMENTO 1110",
     "email": "ahidaguevara@gmail.com"
   },
   "cc": 52085839,
@@ -158,8 +177,8 @@
       "idProceso": 17718250,
       "idConexion": 260,
       "llaveProceso": "11001400306320170131700",
-      "fechaProceso": "2017-12-18T00:00:00",
-      "fechaUltimaActuacion": "2018-05-16T00:00:00",
+      "fechaProceso": "2017-12-18T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-05-16T05:00:00.000Z",
       "despacho": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AHIDA LUCERO GUEVARA BECERRA ",
@@ -167,10 +186,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "ahida lucero guevara becerra",
   "idProcesos": [
     17718250
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "AHIDA LUCERO GUEVARA BECERRA"
 }

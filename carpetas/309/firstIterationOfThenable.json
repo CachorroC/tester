@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 309,
   "llaveProceso": "11001400306720170161300",
   "demanda": {
     "vencimientoPagare": [
-      "2017-04-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 2051585882,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-03-12T00:00:00.000Z",
+    "mandamientoPago": "2018-12-03T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": "2017-10-31T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       4513080019699192,
@@ -22,23 +23,24 @@
     "expediente": "11001400306720170161300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "henry",
-    "segundoNombre": "noel",
-    "primerApellido": "castelblanco",
-    "segundoApellido": "sosa",
+    "primerNombre": "HENRY",
+    "segundoNombre": "NOEL",
+    "primerApellido": "CASTELBLANCO",
+    "segundoApellido": "SOSA",
     "cedula": 19332163,
-    "direccion": "carrera 69 c no 98a -50",
+    "direccion": "CARRERA 69 C No 98A -50",
     "email": "hencast@hotmail.com"
   },
   "cc": 19332163,
-  "nombre": "henry noel castelblanco sosa",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "HENRY NOEL CASTELBLANCO SOSA"
 }

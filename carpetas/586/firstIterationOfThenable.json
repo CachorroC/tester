@@ -1,14 +1,14 @@
 {
   "numero": 586,
-  "llaveProceso": null,
+  "llaveProceso": "SinEspecificar",
   "demanda": {
     "vencimientoPagare": [
-      "2052-12-01T05:00:00.000Z"
+      "2052-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 255635733,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-10-02T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2023-02-10T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -17,27 +17,26 @@
     "obligacion": [
       90000222424
     ],
-    "radicado": null,
-    "expediente": null
+    "radicado": "2023-00310",
+    "expediente": "SinEspecificar"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3506013954
     },
-    "primerNombre": "maria",
-    "segundoNombre": "nancy",
-    "primerApellido": "pineda",
-    "segundoApellido": "leon",
+    "primerNombre": "MARIA",
+    "segundoNombre": "NANCY",
+    "primerApellido": "PINEDA",
+    "segundoApellido": "LEON",
     "cedula": 35507149,
-    "direccion": "carrera 3a. no. 1 - 18 silvania (cundinamarca)",
+    "direccion": "Carrera 3a. No. 1 - 18 Silvania (Cundinamarca)",
     "email": "nancypleon13gmail.com"
   },
   "cc": 35507149,
-  "nombre": "maria nancy pineda leon",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "nombre": "MARIA NANCY PINEDA LEON"
 }

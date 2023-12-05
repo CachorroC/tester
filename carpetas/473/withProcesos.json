@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 473,
   "llaveProceso": "25754418900320180085500",
   "demanda": {
@@ -9,7 +10,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "15-08-2018",
+    "etapaProcesal": "15/08/2018",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [],
@@ -17,24 +18,24 @@
     "expediente": "25754418900320180085500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "milena",
-    "primerApellido": "vega",
-    "segundoApellido": "avila",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "VEGA",
+    "segundoApellido": "AVILA",
     "cedula": 52725153,
     "direccion": null,
     "email": "TRANSVERSAL 2 ESTE No 32B-80 SUR"
   },
   "cc": 52725153,
   "procesos": [],
-  "nombre": "sandra milena vega avila",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "SANDRA MILENA VEGA AVILA"
 }

@@ -3,16 +3,16 @@
   "llaveProceso": "1100141037520180002400",
   "demanda": {
     "vencimientoPagare": [
-      "2024-02-01T05:00:00.000Z"
+      "2024-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1648743790,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-22T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2017-11-27T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       116080
@@ -21,23 +21,22 @@
     "expediente": "1100141037520180002400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 7612712,
       "celular": 3134704885
     },
-    "primerNombre": "cristian",
-    "segundoNombre": "josue",
-    "primerApellido": "cardenas",
-    "segundoApellido": "noriega",
+    "primerNombre": "CRISTIAN",
+    "segundoNombre": "JOSUE",
+    "primerApellido": "CARDENAS",
+    "segundoApellido": "NORIEGA",
     "cedula": 80800256,
-    "direccion": "calle 73 b  sur no 1a - 06",
+    "direccion": "CALLE 73 B  SUR No 1A - 06",
     "email": "sariguella35@hotmail.com"
   },
   "cc": 80800256,
-  "nombre": "cristian josue cardenas noriega",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "nombre": "CRISTIAN JOSUE CARDENAS NORIEGA"
 }

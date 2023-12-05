@@ -1,45 +1,51 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": "4514661",
+    "id": 421,
+    "carpetaNumero": 421
+  },
   "numero": 421,
   "llaveProceso": "11001400307520180061700",
   "demanda": {
     "vencimientoPagare": [],
     "juzgados": [],
-    "capitalAdeudado": 1370485348,
+    "capitalAdeudado": 13704853,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-05-11T00:00:00.000Z",
+    "mandamientoPago": "2018-11-05T05:00:00.000Z",
     "etapaProcesal": "LIQUIDACION",
-    "fechaPresentacion": "2018-04-27T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
-      4099840209665970
+      4099840000000000
     ],
     "radicado": "2018 - 00617",
     "expediente": "11001400307520180061700"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "alexander",
-    "segundoNombre": "muñoz",
-    "primerApellido": "ortiz",
+    "primerNombre": "ALEXANDER",
+    "segundoNombre": "MUÑOZ",
+    "primerApellido": "ORTIZ",
     "segundoApellido": null,
     "cedula": 79837700,
-    "direccion": "diagonal 2 no 79 a-45 bloq 2 apto 402",
+    "direccion": "DIAGONAL 2 No 79 A-45 BLOQ 2 APTO 402",
     "email": "alexmortiz76@yahoo.com"
-  },
-  "codeudor": {
-    "telefono": 4514661
   },
   "cc": 79837700,
   "procesos": [],
-  "nombre": "alexander muñoz ortiz",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "ALEXANDER MUÑOZ ORTIZ"
 }

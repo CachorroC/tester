@@ -16,7 +16,7 @@
       "idProceso": 17942390,
       "isUltimaAct": true,
       "carpetaNumero": 78,
-      "createdAt": "2023-11-30T11:07:54.629Z"
+      "createdAt": "2023-12-03T18:16:35.571Z"
     },
     {
       "idRegActuacion": 265691560,
@@ -34,7 +34,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-11-30T11:07:54.629Z"
+      "createdAt": "2023-12-03T18:16:35.571Z"
     },
     {
       "idRegActuacion": 265691550,
@@ -52,7 +52,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-11-30T11:07:54.629Z"
+      "createdAt": "2023-12-03T18:16:35.571Z"
     },
     {
       "idRegActuacion": 265691540,
@@ -70,7 +70,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-11-30T11:07:54.629Z"
+      "createdAt": "2023-12-03T18:16:35.571Z"
     },
     {
       "idRegActuacion": 265691530,
@@ -88,7 +88,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-11-30T11:07:54.629Z"
+      "createdAt": "2023-12-03T18:16:35.571Z"
     },
     {
       "idRegActuacion": 265691520,
@@ -106,7 +106,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-11-30T11:07:54.629Z"
+      "createdAt": "2023-12-03T18:16:35.571Z"
     },
     {
       "idRegActuacion": 265691510,
@@ -124,7 +124,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-11-30T11:07:54.629Z"
+      "createdAt": "2023-12-03T18:16:35.571Z"
     }
   ],
   "juzgados": [
@@ -138,17 +138,17 @@
   "llaveProceso": "11001400306420170123100",
   "demanda": {
     "vencimientoPagare": [
-      "2016-07-01T05:00:00.000Z",
-      "2015-04-01T05:00:00.000Z"
+      "2016-01-01T05:00:00.000Z",
+      "2015-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 1159046944,
+    "capitalAdeudado": 11590469,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       5303729451744848,
@@ -157,19 +157,38 @@
     "radicado": "2017 - 01231",
     "expediente": "11001400306420170123100"
   },
+  "fecha": "2017-11-28T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 265691570,
+    "llaveProceso": "11001400306420170123100",
+    "consActuacion": 7,
+    "fechaActuacion": "2017-11-28T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": "RETIRA DEMANDA DIANA PATRICIA SUAREZ AUTORIZADA DE LA DRA. MARIA HELENA SUAREZ GARCIA",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-11-28T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 7,
+    "idProceso": 17942390,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3158939957
     },
-    "primerNombre": "jaime",
-    "segundoNombre": "edison",
-    "primerApellido": "santos",
-    "segundoApellido": "martin",
+    "primerNombre": "JAIME",
+    "segundoNombre": "EDISON",
+    "primerApellido": "SANTOS",
+    "segundoApellido": "MARTIN",
     "cedula": 7711481,
-    "direccion": "calle 44d # 45 - 45 apto 904 int 7u",
+    "direccion": "CALLE 44D # 45 - 45 APTO 904 INT 7U",
     "email": "santosjaime07@yahoo.es"
   },
   "cc": 7711481,
@@ -178,8 +197,8 @@
       "idProceso": 17942390,
       "idConexion": 260,
       "llaveProceso": "11001400306420170123100",
-      "fechaProceso": "2017-09-08T00:00:00",
-      "fechaUltimaActuacion": "2017-11-28T00:00:00",
+      "fechaProceso": "2017-09-08T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-11-28T05:00:00.000Z",
       "despacho": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIME EDISSON SANTOS MARTIN ",
@@ -187,10 +206,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "jaime edison santos martin",
   "idProcesos": [
     17942390
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JAIME EDISON SANTOS MARTIN"
 }

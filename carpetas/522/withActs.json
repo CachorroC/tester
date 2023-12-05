@@ -16,7 +16,7 @@
       "idProceso": 39001450,
       "isUltimaAct": true,
       "carpetaNumero": 522,
-      "createdAt": "2023-11-30T11:09:42.010Z"
+      "createdAt": "2023-12-03T18:18:56.704Z"
     },
     {
       "idRegActuacion": 559231420,
@@ -34,7 +34,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-11-30T11:09:42.010Z"
+      "createdAt": "2023-12-03T18:18:56.704Z"
     },
     {
       "idRegActuacion": 555956130,
@@ -52,7 +52,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-11-30T11:09:42.010Z"
+      "createdAt": "2023-12-03T18:18:56.704Z"
     },
     {
       "idRegActuacion": 552213370,
@@ -70,7 +70,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-11-30T11:09:42.010Z"
+      "createdAt": "2023-12-03T18:18:56.704Z"
     },
     {
       "idRegActuacion": 552213360,
@@ -88,7 +88,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-11-30T11:09:42.010Z"
+      "createdAt": "2023-12-03T18:18:56.704Z"
     },
     {
       "idRegActuacion": 368473180,
@@ -106,7 +106,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-11-30T11:09:42.010Z"
+      "createdAt": "2023-12-03T18:18:56.704Z"
     },
     {
       "idRegActuacion": 367918050,
@@ -124,7 +124,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-11-30T11:09:42.010Z"
+      "createdAt": "2023-12-03T18:18:56.704Z"
     }
   ],
   "juzgados": [
@@ -138,7 +138,7 @@
   "llaveProceso": "11001400306820190100400",
   "demanda": {
     "vencimientoPagare": [
-      "2026-12-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 2972304763,
@@ -156,19 +156,38 @@
     "radicado": "2019 - 01004",
     "expediente": "11001400306820190100400"
   },
+  "fecha": "2022-06-03T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1303040130,
+    "llaveProceso": "11001400306820190100400",
+    "consActuacion": 7,
+    "fechaActuacion": "2022-06-03T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 955- ARCHIVO 22 DE FEBRERO DEL 2022",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2022-06-03T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 7,
+    "idProceso": 39001450,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "armando",
-    "segundoNombre": "rodriguez",
-    "primerApellido": "rodriguez",
+    "primerNombre": "ARMANDO",
+    "segundoNombre": "RODRIGUEZ",
+    "primerApellido": "RODRIGUEZ",
     "segundoApellido": null,
     "cedula": 79359896,
-    "direccion": "calle 42 c no 78  a-17 sur",
+    "direccion": "CALLE 42 C No 78  A-17 SUR",
     "email": "dorapia@hotmail.com"
   },
   "cc": 79359896,
@@ -177,8 +196,8 @@
       "idProceso": 39001450,
       "idConexion": 262,
       "llaveProceso": "11001400306820190100400",
-      "fechaProceso": "2019-06-04T00:00:00",
-      "fechaUltimaActuacion": "2022-06-03T00:00:00",
+      "fechaProceso": "2019-06-04T05:00:00.000Z",
+      "fechaUltimaActuacion": "2022-06-03T05:00:00.000Z",
       "despacho": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: ARMANDO RODRIGUEZ RODRIGUEZ ",
@@ -186,10 +205,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "armando rodriguez rodriguez",
   "idProcesos": [
     39001450
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "ARMANDO RODRIGUEZ RODRIGUEZ"
 }

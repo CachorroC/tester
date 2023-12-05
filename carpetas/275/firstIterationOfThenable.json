@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 275,
   "llaveProceso": "25754408900320170096900",
   "demanda": {
     "vencimientoPagare": [
-      "2024-12-01T05:00:00.000Z"
+      "2024-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1159955960,
@@ -21,23 +22,24 @@
     "expediente": "25754408900320170096900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 6012243,
       "celular": 3208100658
     },
-    "primerNombre": "hortencia",
+    "primerNombre": "HORTENCIA",
     "segundoNombre": null,
-    "primerApellido": "garzon",
+    "primerApellido": "GARZON",
     "segundoApellido": null,
     "cedula": 39670695,
-    "direccion": "transversal 4 b no 3 - 64 sur  apto 473  soacha",
+    "direccion": "TRANSVERSAL 4 B No 3 - 64 sur  APTO 473  SOACHA",
     "email": "rokerita19748@hotmail.com"
   },
   "cc": 39670695,
-  "nombre": "hortencia garzon",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "HORTENCIA GARZON"
 }

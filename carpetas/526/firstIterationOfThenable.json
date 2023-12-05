@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 526,
   "llaveProceso": "25175400300120190030400",
   "demanda": {
     "vencimientoPagare": [
-      "2024-10-01T05:00:00.000Z"
+      "2024-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 13180105,
@@ -21,23 +22,24 @@
     "expediente": "25175400300120190030400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3202954313
     },
-    "primerNombre": "cristian",
-    "segundoNombre": "david",
-    "primerApellido": "gutierrez",
-    "segundoApellido": "rodriguez",
+    "primerNombre": "CRISTIAN",
+    "segundoNombre": "DAVID",
+    "primerApellido": "GUTIERREZ",
+    "segundoApellido": "RODRIGUEZ",
     "cedula": 1072642976,
-    "direccion": "calle 17 #5-10 chia",
+    "direccion": "CALLE 17 #5-10 CHIA",
     "email": "cristian20g@hotmail.com"
   },
   "cc": 1072642976,
-  "nombre": "cristian david gutierrez rodriguez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "CRISTIAN DAVID GUTIERREZ RODRIGUEZ"
 }

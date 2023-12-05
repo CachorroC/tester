@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 509,
   "llaveProceso": "25214400300120180100200",
   "demanda": {
     "vencimientoPagare": [
-      "2015-10-01T05:00:00.000Z"
+      "2015-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1658559500,
@@ -21,23 +22,24 @@
     "expediente": "25214400300120180100200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "diana",
-    "segundoNombre": "carolina",
-    "primerApellido": "prado",
-    "segundoApellido": "fiquitiva",
+    "primerNombre": "DIANA",
+    "segundoNombre": "CAROLINA",
+    "primerApellido": "PRADO",
+    "segundoApellido": "FIQUITIVA",
     "cedula": 20401209,
-    "direccion": "calle 7 no 5-31",
+    "direccion": "CALLE 7 No 5-31",
     "email": "todostienenzero@hotmail.com"
   },
   "cc": 20401209,
-  "nombre": "diana carolina prado fiquitiva",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "DIANA CAROLINA PRADO FIQUITIVA"
 }

@@ -1,18 +1,27 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "YOLANDA RATIVA MESA",
+    "cedula": "28949691",
+    "direccion": "CARRERA 87 D No 42 A-20 SUR IN 6 C",
+    "telefono": "3202780646",
+    "id": 312,
+    "carpetaNumero": 312
+  },
   "numero": 312,
   "llaveProceso": "11001418904320170114000",
   "demanda": {
     "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1066832759,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-11-30T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-10-21T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       82317
@@ -21,30 +30,24 @@
     "expediente": "11001418904320170114000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "pedro",
-    "segundoNombre": "pablo",
-    "primerApellido": "sarmiento",
-    "segundoApellido": "mayorga",
+    "primerNombre": "PEDRO",
+    "segundoNombre": "PABLO",
+    "primerApellido": "SARMIENTO",
+    "segundoApellido": "MAYORGA",
     "cedula": 80394456,
-    "direccion": "carrera 87 d no 42 a 20 sur interior 6",
+    "direccion": "CARRERA 87 D No 42 A 20 SUR INTERIOR 6",
     "email": "pedrosebastin394@hotmail.com"
-  },
-  "codeudor": {
-    "cedula": 28949691,
-    "direccion": "CARRERA 87 D No 42 A-20 SUR IN 6 C",
-    "nombre": "yolanda rativa mesa",
-    "telefono": 3202780646
   },
   "cc": 80394456,
   "procesos": [],
-  "nombre": "pedro pablo sarmiento mayorga",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "PEDRO PABLO SARMIENTO MAYORGA"
 }

@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 257,
   "llaveProceso": "11001418900720170013800",
   "demanda": {
     "vencimientoPagare": [
-      "2017-04-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1303610981,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-13T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-10-18T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-09-21T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       20990083482
@@ -21,24 +22,24 @@
     "expediente": "11001418900720170013800"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "paul",
-    "segundoNombre": "richard",
-    "primerApellido": "caicedo",
+    "primerNombre": "PAUL",
+    "segundoNombre": "RICHARD",
+    "primerApellido": "CAICEDO",
     "segundoApellido": null,
     "cedula": 79706920,
-    "direccion": "calle 8 a no 88b - 31 etapa 7 casa 196",
+    "direccion": "CALLE 8 A No 88B - 31 ETAPA 7 CASA 196",
     "email": null
   },
   "cc": 79706920,
   "procesos": [],
-  "nombre": "paul richard caicedo",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "PAUL RICHARD CAICEDO"
 }

@@ -1,18 +1,27 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "LEIDY FERNANDA SANCHEZ GAMBA",
+    "cedula": "1022357168",
+    "direccion": "TRANSVERSAL 54 # 18 - 30 SUR INTERIOR 3 APTO 201",
+    "telefono": "5103158",
+    "id": 141,
+    "carpetaNumero": 141
+  },
   "numero": 141,
   "llaveProceso": "11001400303920170110000",
   "demanda": {
     "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 2813030227,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-15T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-08-22T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       156285
@@ -21,30 +30,24 @@
     "expediente": "11001400303920170110000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 4137430,
       "celular": 3003932311
     },
-    "primerNombre": "edgar",
-    "segundoNombre": "david",
-    "primerApellido": "hernandez",
-    "segundoApellido": "rincon",
+    "primerNombre": "EDGAR",
+    "segundoNombre": "DAVID",
+    "primerApellido": "HERNANDEZ",
+    "segundoApellido": "RINCON",
     "cedula": 79412583,
-    "direccion": "carrea 54 # 18 - 30 sur apto 201",
+    "direccion": "CARREA 54 # 18 - 30 SUR APTO 201",
     "email": "edgardavid302@hotmail.com"
-  },
-  "codeudor": {
-    "cedula": 1022357168,
-    "direccion": "TRANSVERSAL 54 # 18 - 30 SUR INTERIOR 3 APTO 201",
-    "nombre": "leidy fernanda sanchez gamba",
-    "telefono": 5103158
   },
   "cc": 79412583,
   "procesos": [],
-  "nombre": "edgar david hernandez rincon",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "EDGAR DAVID HERNANDEZ RINCON"
 }

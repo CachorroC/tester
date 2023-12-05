@@ -1,35 +1,28 @@
-import
-{ Actuacion,
-  Juzgado,
+import { Juzgado,
+
   PrismaClient, } from '@prisma/client';
 import { Despachos } from '../data/despachos';
-import
-{ ConsultaActuacion,
-  intActuacion, } from '../types/actuaciones';
-import
-{ Category,
+import { ConsultaActuacion, intActuacion } from '../types/actuaciones';
+import { Category,
   TipoProceso,
   IntDeudor,
   CarpetaRaw,
   Codeudor,
   IntCarpeta,
   IntDemanda, } from '../types/carpetas';
-import
-{ ConsultaNumeroRadicacion,
+import { ConsultaNumeroRadicacion,
   Data,
   Message,
   intProceso, } from '../types/procesos';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
-import
-{ PrismaDemanda,
-  PrismaDeudor, } from './prisma-carpeta';
+import { PrismaDemanda, PrismaDeudor } from './prisma-carpeta';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
 
 const client = new PrismaClient();
 
 export class NewJuzgado implements Juzgado {
-  constructor (
+  constructor(
     proceso: intProceso
   ) {
     const matchedDespacho = Despachos.find(
@@ -62,8 +55,7 @@ export class NewJuzgado implements Juzgado {
 
         if ( indexOfDesp >= 0 ) {
           console.log(
-            `procesos despacho is in despachos ${ indexOfDesp + 1
-            }`
+            `procesos despacho is in despachos ${ indexOfDesp + 1 }`
           );
         }
 
@@ -98,7 +90,7 @@ export class NewJuzgado implements Juzgado {
 
 export class CarpetaJudicial implements IntCarpeta {
   numero: number;
-  llaveProceso: string | null;
+  llaveProceso: string;
   demanda: IntDemanda;
   fecha?: Date;
   ultimaActuacion?: intActuacion;
@@ -110,19 +102,12 @@ export class CarpetaJudicial implements IntCarpeta {
   procesos?: intProceso[];
 
   // SECTION constructor
-  constructor (
+  constructor(
     {
-      llaveProceso,
-      codeudor,
-      category,
-      deudor,
-      demanda,
-      numero,
+      codeudor, category, deudor, demanda, numero
     }: CarpetaRaw
   ) {
-    this.llaveProceso = llaveProceso
-      ? llaveProceso
-      : null;
+    this.llaveProceso = demanda.llaveProceso;
     this.numero = numero;
     this.tipoProceso = demanda.tipoProceso
       ? tipoProcesoBuilder(
@@ -134,23 +119,45 @@ export class CarpetaJudicial implements IntCarpeta {
       deudor
     );
     this.demanda = new ClassDemanda(
-      demanda,
-      llaveProceso,
-      this.procesos
+      demanda, this.procesos
     );
-    this.codeudor = codeudor;
+    this.codeudor = codeudor
+      ? {
+          nombre: codeudor.nombre
+            ? String(
+              codeudor.nombre
+            )
+            : null,
+          cedula: codeudor.cedula
+            ? String(
+              codeudor.cedula
+            )
+            : null,
+          direccion: codeudor.direccion
+            ? String(
+              codeudor.direccion
+            )
+            : null,
+          telefono: codeudor.telefono
+            ? String(
+              codeudor.telefono
+            )
+            : null,
+          id           : this.numero,
+          carpetaNumero: this.numero
+        }
+      : undefined;
     this.cc = Number(
       deudor.cedula
     );
-    this.idProcesos = null;
   }
-  idProcesos: number[] | null;
+  idProcesos?: number[];
   //!SECTION
 
-  get nombre () {
+  get nombre() {
     return `${ this.deudor.primerNombre } ${ this.deudor.segundoNombre } ${ this.deudor.primerApellido } ${ this.deudor.segundoApellido }`;
   }
-  set nombre (
+  set nombre(
     nom
   ) {
     [
@@ -162,7 +169,7 @@ export class CarpetaJudicial implements IntCarpeta {
       ' '
     );
   }
-  async prismaCarpeta () {
+  async prismaCarpeta() {
     try {
       return await client.carpeta.upsert(
         {
@@ -170,10 +177,11 @@ export class CarpetaJudicial implements IntCarpeta {
             numero: this.numero,
           },
           create: {
-            nombre  : this.nombre,
-            category: this.category,
-            numero  : this.numero,
-            demanda : {
+            nombre      : this.nombre,
+            category    : this.category,
+            llaveProceso: this.llaveProceso,
+            numero      : this.numero,
+            demanda     : {
               connectOrCreate: {
                 where: {
                   carpetaNumero: this.numero,
@@ -193,10 +201,9 @@ export class CarpetaJudicial implements IntCarpeta {
                 ),
               },
             },
-            terminado:
-              this.category === 'Terminados'
-                ? true
-                : false,
+            terminado: this.category === 'Terminados'
+              ? true
+              : false,
             tipoProceso: this.tipoProceso,
             revisado   : false,
           },
@@ -224,26 +231,23 @@ export class CarpetaJudicial implements IntCarpeta {
                 ),
               },
             },
-            terminado:
-              this.category === 'Terminados'
-                ? true
-                : false,
+            terminado: this.category === 'Terminados'
+              ? true
+              : false,
             tipoProceso : this.tipoProceso,
-            llaveProceso: this.llaveProceso
-              ? this.llaveProceso
-              : null,
+            llaveProceso: this.llaveProceso,
           },
         }
       );
     } catch ( error ) {
       console.log(
-        `CarpetaJudicial.prismaCarpeta(${ this.numero }) Error => ${ error }`
+        `${ this.numero } => CarpetaJudicial.prismaCarpeta(${ this.numero }) Error => ${ error }`,
       );
       return null;
     }
   }
   //SECTION consultaProcesos
-  async consultaProcesos () {
+  async consultaProcesos() {
     const idProcesosSet = new Set<number>();
 
     const sujetosProcesalesSet = new Set<string>();
@@ -255,12 +259,12 @@ export class CarpetaJudicial implements IntCarpeta {
     try {
       if ( !this.llaveProceso ) {
         throw new Error(
-          'aún no se le ha asignado un número de expediente a esta this.llaveProceso'
+          'aún no se le ha asignado un número de expediente a esta this.llaveProceso',
         );
       }
 
       const request = await fetch(
-        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ this.llaveProceso }&SoloActivos=false&pagina=1`
+        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ this.llaveProceso }&SoloActivos=false&pagina=1`,
       );
 
       if ( !request.ok ) {
@@ -268,8 +272,7 @@ export class CarpetaJudicial implements IntCarpeta {
         return json;
       }
 
-      const json
-        = ( await request.json() ) as ConsultaNumeroRadicacion;
+      const json = ( await request.json() ) as ConsultaNumeroRadicacion;
 
       const responseReturn = {
         StatusCode: request.status,
@@ -323,7 +326,7 @@ export class CarpetaJudicial implements IntCarpeta {
     } catch ( error ) {
       if ( error instanceof Error ) {
         console.log(
-          `Expediente: ${ this.llaveProceso }: error en la conexion network del fetchProceso ${ error.name } : ${ error.message }`
+          `${ this.numero } => Expediente: ${ this.llaveProceso }: error en la conexion network del fetchProceso ${ error.name } : ${ error.message }`,
         );
 
         return {
@@ -333,7 +336,7 @@ export class CarpetaJudicial implements IntCarpeta {
       }
 
       console.log(
-        `Expediente: ${ this.llaveProceso }: : error en la conexion network del fetchProceso  =>  ${ error }`
+        `${ this.numero } => Expediente: ${ this.llaveProceso }: : error en la conexion network del fetchProceso  =>  ${ error }`,
       );
 
       return {
@@ -344,7 +347,7 @@ export class CarpetaJudicial implements IntCarpeta {
       };
     }
   }
-  async prismaProcesos () {
+  async prismaProcesos() {
     try {
       if ( !this.procesos || this.procesos.length === 0 ) {
         throw new Error(
@@ -372,11 +375,6 @@ export class CarpetaJudicial implements IntCarpeta {
                 (
                   proceso
                 ) => {
-                  const {
-                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-                    llaveProceso,
-                    ...prcWollaveProceso
-                  } = proceso;
                   return {
                     create: {
                       ...proceso,
@@ -385,12 +383,11 @@ export class CarpetaJudicial implements IntCarpeta {
                           proceso.fechaProceso
                         )
                         : null,
-                      fechaUltimaActuacion:
-                        proceso.fechaUltimaActuacion
-                          ? new Date(
-                            proceso.fechaUltimaActuacion
-                          )
-                          : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        ? new Date(
+                          proceso.fechaUltimaActuacion
+                        )
+                        : null,
                     },
                     update: {
                       ...proceso,
@@ -399,12 +396,11 @@ export class CarpetaJudicial implements IntCarpeta {
                           proceso.fechaProceso
                         )
                         : null,
-                      fechaUltimaActuacion:
-                        proceso.fechaUltimaActuacion
-                          ? new Date(
-                            proceso.fechaUltimaActuacion
-                          )
-                          : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        ? new Date(
+                          proceso.fechaUltimaActuacion
+                        )
+                        : null,
                     },
                     where: {
                       idProceso: proceso.idProceso,
@@ -424,10 +420,11 @@ export class CarpetaJudicial implements IntCarpeta {
                 }
               ),
             },
-            nombre  : this.nombre,
-            category: this.category,
-            numero  : this.numero,
-            demanda : {
+            nombre      : this.nombre,
+            category    : this.category,
+            numero      : this.numero,
+            llaveProceso: this.llaveProceso,
+            demanda     : {
               connectOrCreate: {
                 where: {
                   carpetaNumero: this.numero,
@@ -453,11 +450,6 @@ export class CarpetaJudicial implements IntCarpeta {
                 (
                   proceso
                 ) => {
-                  const {
-                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-                    llaveProceso,
-                    ...prcWollaveProceso
-                  } = proceso;
                   return {
                     create: {
                       ...proceso,
@@ -466,12 +458,11 @@ export class CarpetaJudicial implements IntCarpeta {
                           proceso.fechaProceso
                         )
                         : null,
-                      fechaUltimaActuacion:
-                        proceso.fechaUltimaActuacion
-                          ? new Date(
-                            proceso.fechaUltimaActuacion
-                          )
-                          : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        ? new Date(
+                          proceso.fechaUltimaActuacion
+                        )
+                        : null,
                     },
 
                     where: {
@@ -481,10 +472,9 @@ export class CarpetaJudicial implements IntCarpeta {
                 }
               ),
             },
-            terminado:
-              this.category === 'Terminados'
-                ? true
-                : false,
+            terminado: this.category === 'Terminados'
+              ? true
+              : false,
             tipoProceso: this.tipoProceso,
             revisado   : false,
           },
@@ -492,50 +482,43 @@ export class CarpetaJudicial implements IntCarpeta {
       );
     } catch ( error ) {
       console.log(
-        error
+        `${ this.numero } => ${ error }`
       );
       return null;
     }
   }
   //!SECTION
   // SECTION consultaActuaciones
-  async consultaActuaciones () {
+  async consultaActuaciones() {
     try {
-      const actuacionesMap = new Map<
-        number,
-        intActuacion
-      >();
+      const actuacionesMap = new Map<number, intActuacion>();
 
       const actuacionesSet = new Set<intActuacion>();
 
-      if (
-        !this.idProcesos
-        || this.idProcesos.length === 0
-      ) {
+      if ( !this.idProcesos || this.idProcesos.length === 0 ) {
         throw new Error(
-          'no hay idProcesos correspondientes para hacer la busqueda de este proceso.'
+          'no hay idProcesos correspondientes para hacer la busqueda de este proceso.',
         );
       }
 
       for ( const idProceso of this.idProcesos ) {
         const request = await fetch(
-          `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`
+          `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`,
         );
 
         if ( !request.ok ) {
           const json = ( await request.json() ) as Data;
           console.log(
-            `error en fetch consultaActuaciones ${ idProceso } =-=> ${ JSON.stringify(
+            `${ this.numero } => error en fetch consultaActuaciones ${ idProceso } =-=> ${ JSON.stringify(
               json,
               null,
-              2
-            ) }`
+              2,
+            ) }`,
           );
           return json;
         }
 
-        const data
-          = ( await request.json() ) as ConsultaActuacion;
+        const data = ( await request.json() ) as ConsultaActuacion;
 
         const {
           actuaciones
@@ -575,13 +558,12 @@ export class CarpetaJudicial implements IntCarpeta {
 
         const incomingDay = incomingDate.getDate();
         console.log(
-          `${ this.numero
-          } => la nueva fecha de la actuacion es: ${ new Date(
+          `${ this.numero } => la nueva fecha de la actuacion es: ${ new Date(
             incomingYear,
             incomingMonth,
-            incomingDay
+            incomingDay,
           ) } y el timezone offset es  ${ incomingDate.getTimezoneOffset() }
-          raw: ${ ultimaActuacion.fechaActuacion }`
+          raw: ${ ultimaActuacion.fechaActuacion }`,
         );
 
         const savedDate = this.fecha
@@ -594,12 +576,13 @@ export class CarpetaJudicial implements IntCarpeta {
 
         const savedDay = savedDate?.getDate();
         console.log(
-          `${ this.numero
+          `${
+            this.numero
           } => la fecha guardada en el servidor de LINK -  actuacion es: ${ new Date(
             savedYear ?? 0,
             savedMonth ?? 0,
-            savedDay
-          ) }`
+            savedDay,
+          ) }`,
         );
 
         if (
@@ -633,7 +616,7 @@ export class CarpetaJudicial implements IntCarpeta {
     } catch ( error ) {
       if ( error instanceof Error ) {
         console.log(
-          `Expediente: ${ this.llaveProceso }: error en la conexion network del fetchProceso ${ error.name } : ${ error.message }`
+          `${ this.numero } => Expediente: ${ this.llaveProceso }: error en la conexion network del fetchProceso ${ error.name } : ${ error.message }`,
         );
 
         return {
@@ -643,7 +626,7 @@ export class CarpetaJudicial implements IntCarpeta {
       }
 
       console.log(
-        `Expediente: ${ this.llaveProceso }: : error en la conexion network del fetchProceso  =>  ${ error }`
+        `${ this.numero } => Expediente: ${ this.llaveProceso }: : error en la conexion network del fetchProceso  =>  ${ error }`,
       );
 
       return {
@@ -654,496 +637,6 @@ export class CarpetaJudicial implements IntCarpeta {
       };
     }
   }
-}
-
-export class CarpetaBuilder implements IntCarpeta {
-  actuaciones?: {
-    carpetaNumero: number | null;
-    isUltimaAct: boolean;
-    createdAt: Date;
-    idRegActuacion: number;
-    llaveProceso: string;
-    consActuacion: number;
-    fechaActuacion: Date;
-    actuacion: string;
-    anotacion: string | null;
-    fechaInicial: Date | null;
-    fechaRegistro: Date;
-    fechaFinal: Date | null;
-    codRegla: string;
-    conDocumentos: boolean;
-    cant: number;
-    idProceso: number | null;
-  }[];
-  juzgados?: { id: number; tipo: string; url: string; }[];
-  constructor (
-    {
-      llaveProceso,
-      numero,
-      deudor,
-      category,
-      codeudor,
-      demanda,
-    }: CarpetaRaw
-  ) {
-    this.numero = numero;
-    this.nombre = deudor.nombre;
-    this.category = category;
-    this.revisado = category === 'Terminados'
-      ? true
-      : false;
-    this.codeudor = codeudor;
-    this.tipoProceso = demanda.tipoProceso
-      ? tipoProcesoBuilder(
-        demanda.tipoProceso
-      )
-      : 'SINGULAR';
-    this.deudor = new ClassDeudor(
-      deudor
-    );
-    this.demanda = new ClassDemanda(
-      demanda,
-      llaveProceso,
-      this.procesos
-    );
-    this.idProcesos = null;
-    this.terminado
-      = category === 'Terminados'
-        ? true
-        : false;
-    this.cc = Number(
-      deudor.cedula
-    );
-    this.llaveProceso = llaveProceso
-      ? llaveProceso
-      : null;
-  }
-  numero: number;
-  llaveProceso: string | null;
-  demanda: IntDemanda;
-  fecha?: Date;
-  ultimaActuacion?: intActuacion;
-  category: Category;
-  tipoProceso: TipoProceso;
-  deudor: IntDeudor;
-  codeudor?: Codeudor;
-  cc: number;
-  procesos?: intProceso[];
-  nombre: string;
-  idProcesos: number[] | null;
-  revisado: boolean;
-  terminado: boolean;
-  idRegUltimaAct?: number;
-  async createPrismaCarpeta () {
-    try {
-      return await client.carpeta.upsert(
-        {
-          where: {
-            numero: this.numero,
-          },
-          create: {
-            nombre     : this.nombre,
-            category   : this.category,
-            numero     : this.numero,
-            tipoProceso: this.tipoProceso,
-            revisado   : this.category === 'Terminados'
-              ? true
-              : false,
-            terminado:
-              this.category === 'Terminados'
-                ? true
-                : false,
-            demanda: {
-              connectOrCreate: {
-                where: {
-                  carpetaNumero: this.numero,
-                },
-                create: new PrismaDemanda(
-                  this
-                ),
-              },
-            },
-            deudor: {
-              connectOrCreate: {
-                where: {
-                  carpetaNumero: this.numero,
-                },
-                create: new PrismaDeudor(
-                  this
-                ),
-              },
-            },
-          },
-          update: {
-            nombre     : this.nombre,
-            category   : this.category,
-            numero     : this.numero,
-            tipoProceso: this.tipoProceso,
-            revisado   : this.category === 'Terminados'
-              ? true
-              : false,
-            llaveProceso: this.llaveProceso
-              ? this.llaveProceso
-              : null,
-            terminado:
-              this.category === 'Terminados'
-                ? true
-                : false,
-            demanda: {
-              connectOrCreate: {
-                where: {
-                  carpetaNumero: this.numero,
-                },
-                create: new PrismaDemanda(
-                  this
-                ),
-              },
-            },
-            deudor: {
-              connectOrCreate: {
-                where: {
-                  carpetaNumero: this.numero,
-                },
-                create: new PrismaDeudor(
-                  this
-                ),
-              },
-            },
-
-          },
-        }
-      );
-    } catch ( error ) {
-      console.log(
-        `error at CarpetaBuilder.createPrismaCarpeta(${ this.numero })=> ${ error }`
-      );
-      return null;
-    }
-  }
-  async getProcesos () {
-    try {
-      if ( !this.llaveProceso ) {
-        throw new Error(
-          'no hay llaveProceso en esta carpeta, aborting'
-        );
-      }
-
-      const request = await fetch(
-        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ this.llaveProceso }&SoloActivos=false&pagina=1`
-      );
-
-      if ( !request.ok ) {
-
-        const json =  await request.json();
-
-        const message
-          = `Error CarpetaBuilder.getProcesos.fetchError(${ this.numero }) => ${ JSON.stringify(
-            json, null, 2
-          ) }`;
-        throw new Error(
-          message
-        );
-      }
-
-      const consultaProcesos
-        = ( await request.json() ) as ConsultaNumeroRadicacion;
-
-      const {
-        procesos
-      } = consultaProcesos;
-      this.procesos = procesos;
-      this.idProcesos = procesos.map(
-        (
-          prc
-        ) => {
-          return prc.idProceso;
-        }
-      );
-      return this.procesos;
-    } catch ( error ) {
-      console.log(
-        `error en CarpetaBuilder.getProcesos(${ this.numero }) => ${ error }`
-      );
-      return this.procesos;
-    }
-  }
-  async updatePrismaCarpetawithProcesos () {
-    try {
-      if ( !this.procesos || this.procesos.length === 0 ) {
-        throw new Error(
-          'no hay procesos en esta carpeta'
-        );
-      }
-
-      const juzgadosSet = new Set<Juzgado>();
-
-
-      for ( const proceso of this.procesos ) {
-        if ( proceso.esPrivado ) {
-          continue;
-        }
-
-        const newJuzgado = new NewJuzgado(
-          proceso
-        );
-        juzgadosSet.add(
-          newJuzgado
-        );
-      }
-
-      this.juzgados = Array.from(
-        juzgadosSet
-      );
-
-      return await client.carpeta.upsert(
-        {
-          where: {
-            numero: this.numero
-          },
-          create: {
-            nombre      : this.nombre,
-            category    : this.category,
-            numero      : this.numero,
-            tipoProceso : this.tipoProceso,
-            llaveProceso: this.procesos[ 0 ].llaveProceso,
-            idProcesos  : this.procesos.map(
-              (
-                prc
-              ) => {
-                return prc.idProceso;
-              }
-            ),
-            revisado: this.category === 'Terminados'
-              ? true
-              : false,
-            terminado:
-              this.category === 'Terminados'
-                ? true
-                : false,
-            demanda: {
-              connectOrCreate: {
-                where: {
-                  carpetaNumero: this.numero,
-                },
-                create: new PrismaDemanda(
-                  this
-                ),
-              },
-            },
-            deudor: {
-              connectOrCreate: {
-                where: {
-                  carpetaNumero: this.numero,
-                },
-                create: new PrismaDeudor(
-                  this
-                ),
-              },
-            },
-            juzgados: {
-              connectOrCreate: this.juzgados.map(
-                (
-                  juzgado
-                ) => {
-                  return {
-                    where: {
-                      tipo: juzgado.tipo
-                    },
-                    create: {
-                      ...juzgado
-                    }
-                  };
-                }
-              )
-            },
-            procesos: {
-              connectOrCreate: this.procesos.map(
-                (
-                  proceso
-                ) => {
-                  const {
-                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-                    llaveProceso,
-                    ...prcWollaveProceso
-                  } = proceso;
-                  return {
-                    where: {
-                      idProceso: proceso.idProceso
-                    },
-                    create: {
-                      ...prcWollaveProceso,
-                      fechaProceso: proceso.fechaProceso
-                        ? new Date(
-                          proceso.fechaProceso
-                        )
-                        : null,
-                      fechaUltimaActuacion:
-                        proceso.fechaUltimaActuacion
-                          ? new Date(
-                            proceso.fechaUltimaActuacion
-                          )
-                          : null,
-                    }
-                  };
-                }
-              )
-            }
-          },
-          update: {
-
-            juzgados: {
-              connectOrCreate: this.juzgados.map(
-                (
-                  juzgado
-                ) => {
-                  return {
-                    where: {
-                      tipo: juzgado.tipo
-                    },
-                    create: {
-                      ...juzgado
-                    }
-                  };
-                }
-              )
-            },
-            procesos: {
-              connectOrCreate: this.procesos.map(
-                (
-                  proceso
-                ) => {
-                  const {
-                    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-                    llaveProceso,
-                    ...prcWollaveProceso
-                  } = proceso;
-                  return {
-                    where: {
-                      idProceso: proceso.idProceso
-                    },
-                    create: {
-                      ...prcWollaveProceso,
-                      fechaProceso: proceso.fechaProceso
-                        ? new Date(
-                          proceso.fechaProceso
-                        )
-                        : null,
-                      fechaUltimaActuacion:
-                        proceso.fechaUltimaActuacion
-                          ? new Date(
-                            proceso.fechaUltimaActuacion
-                          )
-                          : null,
-                    }
-                  };
-                }
-              )
-            }
-          }
-        }
-      );
-    } catch ( error ) {
-      console.log(
-        `error en CarpetaBuilder.updatePrismaCarpetawithProcesos(${ this.numero }) => ${ error }`
-      );
-      return null;
-    }
-  }
-  async getActuaciones () {
-    try {
-
-
-      if ( !this.procesos || this.procesos.length === 0 ) {
-        throw new Error(
-          'no hay idProcesos en esta carpeta'
-        );
-      }
-
-      const actuacionesMap = new Set<Actuacion>();
-
-      for ( const proceso of this.procesos ) {
-        try {
-          if ( proceso.esPrivado ) {
-            continue;
-          }
-
-          const request = await fetch(
-            `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ proceso.idProceso }`
-          );
-
-          if ( !request.ok ) {
-            const json = await request.json();
-            throw new Error(
-              JSON.stringify(
-                json
-              )
-            );
-          }
-
-          const consultaActuaciones
-            = ( await request.json() ) as ConsultaActuacion;
-
-          const {
-            actuaciones
-          } = consultaActuaciones;
-
-          actuaciones.forEach(
-            (
-              actuacion
-            ) => {
-              actuacionesMap.add(
-                {
-                  ...actuacion,
-                  idProceso: proceso.idProceso,
-                  isUltimaAct:
-                    actuacion.cant === actuacion.consActuacion
-                      ? true
-                      : false,
-                  carpetaNumero : this.numero,
-                  createdAt     : new Date(),
-                  fechaActuacion: new Date(
-                    actuacion.fechaActuacion
-                  ),
-                  fechaRegistro: new Date(
-                    actuacion.fechaRegistro
-                  ),
-                  fechaInicial: actuacion.fechaInicial
-                    ? new Date(
-                      actuacion.fechaInicial
-                    )
-                    : null,
-                  fechaFinal: actuacion.fechaFinal
-                    ? new Date(
-                      actuacion.fechaFinal
-                    )
-                    : null
-                }
-              );
-            }
-          );
-        } catch ( error ) {
-          console.log(
-            `Error CarpetaBuilder.getActuaciones.fetchError(${ this.numero } : ${ proceso.idProceso }) => ${ error }`
-          );
-          continue;
-        }
-      }
-
-      this.actuaciones = Array.from(
-        actuacionesMap
-      );
-      return this.actuaciones;
-    } catch ( error ) {
-      console.log(
-        `error en CarpetaBuilder.getActuaciones(${ this.numero })=> ${ error }`
-      );
-      return this.actuaciones;
-    }
-
-  }
-
-
-
 }
 
 export const sleep = (

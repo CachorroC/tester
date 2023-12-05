@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 433,
   "llaveProceso": "25899400300120180022200",
   "demanda": {
@@ -6,7 +7,7 @@
       "2015-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 43,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -15,29 +16,30 @@
     "fechaPresentacion": null,
     "municipio": "ZIPAQUIRA",
     "obligacion": [
-      2405736500
+      "24.057.365"
     ],
     "radicado": "2018 - 00222",
     "expediente": "25899400300120180022200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jorge",
-    "segundoNombre": "alberto",
-    "primerApellido": "beltran",
-    "segundoApellido": "paez",
+    "primerNombre": "JORGE",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "BELTRAN",
+    "segundoApellido": "PAEZ",
     "cedula": 3116420,
     "direccion": null,
     "email": "CALLE 3 No 17-36"
   },
   "cc": 3116420,
-  "nombre": "jorge alberto beltran paez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "JORGE ALBERTO BELTRAN PAEZ"
 }

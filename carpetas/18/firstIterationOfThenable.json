@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 18,
   "llaveProceso": "25175400300320170026900",
   "demanda": {
     "vencimientoPagare": [
-      "2017-04-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 67068123,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-07-10T00:00:00.000Z",
+    "mandamientoPago": "2017-10-07T05:00:00.000Z",
     "etapaProcesal": "AUDIENCIA",
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "CHIA",
     "obligacion": [
       12645083,
@@ -22,23 +23,24 @@
     "expediente": "25175400300320170026900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "luis",
-    "segundoNombre": "enrique",
-    "primerApellido": "acosta",
-    "segundoApellido": "chavarria",
+    "primerNombre": "LUIS",
+    "segundoNombre": "ENRIQUE",
+    "primerApellido": "ACOSTA",
+    "segundoApellido": "CHAVARRIA",
     "cedula": 79205977,
-    "direccion": "cra 4 no. 5-51 chía",
+    "direccion": "cra 4 No. 5-51 Chía",
     "email": null
   },
   "cc": 79205977,
-  "nombre": "luis enrique acosta chavarria",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "LUIS ENRIQUE ACOSTA CHAVARRIA"
 }

@@ -1,6 +1,24 @@
 {
   "actuaciones": [
     {
+      "idRegActuacion": 1939284420,
+      "llaveProceso": "11001400302820170084900",
+      "consActuacion": 74,
+      "fechaActuacion": "2023-12-01T05:00:00.000Z",
+      "actuacion": "Elaboración de oficios",
+      "anotacion": "SE ELABORA OFICIO No. DCOECM-1223LG-26 SECUESTRO VEHICULO/PROCESO PASA PARA LA FIRMA/LUISAG",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-01T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 74,
+      "idProceso": 50685700,
+      "isUltimaAct": true,
+      "carpetaNumero": 233,
+      "createdAt": "2023-12-03T18:17:20.705Z"
+    },
+    {
       "idRegActuacion": 1935833120,
       "llaveProceso": "11001400302820170084900",
       "consActuacion": 73,
@@ -12,11 +30,11 @@
       "fechaRegistro": "2023-11-20T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
-      "isUltimaAct": true,
+      "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1935470700,
@@ -30,11 +48,11 @@
       "fechaRegistro": "2023-11-17T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1935470690,
@@ -48,11 +66,11 @@
       "fechaRegistro": "2023-11-17T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1924929070,
@@ -66,11 +84,11 @@
       "fechaRegistro": "2023-11-01T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1923590130,
@@ -84,11 +102,11 @@
       "fechaRegistro": "2023-10-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1920304920,
@@ -102,11 +120,11 @@
       "fechaRegistro": "2023-10-27T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1918789800,
@@ -120,11 +138,11 @@
       "fechaRegistro": "2023-10-26T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1918789790,
@@ -138,11 +156,11 @@
       "fechaRegistro": "2023-10-26T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1901119280,
@@ -156,11 +174,11 @@
       "fechaRegistro": "2023-10-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1887423500,
@@ -174,11 +192,11 @@
       "fechaRegistro": "2023-09-28T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1312892350,
@@ -192,11 +210,11 @@
       "fechaRegistro": "2022-06-16T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1312748330,
@@ -210,11 +228,11 @@
       "fechaRegistro": "2022-06-16T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1310150310,
@@ -228,11 +246,11 @@
       "fechaRegistro": "2022-06-13T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1301364450,
@@ -246,11 +264,11 @@
       "fechaRegistro": "2022-06-01T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1300528870,
@@ -264,11 +282,11 @@
       "fechaRegistro": "2022-05-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1300528860,
@@ -282,11 +300,11 @@
       "fechaRegistro": "2022-05-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1291670660,
@@ -300,11 +318,11 @@
       "fechaRegistro": "2022-05-19T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1290182410,
@@ -318,11 +336,11 @@
       "fechaRegistro": "2022-05-18T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1255557430,
@@ -336,11 +354,11 @@
       "fechaRegistro": "2022-02-16T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1255363430,
@@ -354,11 +372,11 @@
       "fechaRegistro": "2022-02-15T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1255363420,
@@ -372,11 +390,11 @@
       "fechaRegistro": "2022-02-15T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1252271030,
@@ -390,11 +408,11 @@
       "fechaRegistro": "2022-02-02T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1237256210,
@@ -408,11 +426,11 @@
       "fechaRegistro": "2021-12-06T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1229945950,
@@ -426,11 +444,11 @@
       "fechaRegistro": "2021-10-22T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1229579960,
@@ -444,11 +462,11 @@
       "fechaRegistro": "2021-10-21T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1229579940,
@@ -462,11 +480,11 @@
       "fechaRegistro": "2021-10-21T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1228951620,
@@ -480,11 +498,11 @@
       "fechaRegistro": "2021-10-15T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1228057470,
@@ -498,11 +516,11 @@
       "fechaRegistro": "2021-10-12T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1227416120,
@@ -516,11 +534,11 @@
       "fechaRegistro": "2021-10-07T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1225380640,
@@ -534,11 +552,11 @@
       "fechaRegistro": "2021-09-27T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1225113780,
@@ -552,11 +570,11 @@
       "fechaRegistro": "2021-09-24T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1225113770,
@@ -570,11 +588,11 @@
       "fechaRegistro": "2021-09-24T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1224657960,
@@ -588,11 +606,11 @@
       "fechaRegistro": "2021-09-22T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 1221246810,
@@ -606,11 +624,11 @@
       "fechaRegistro": "2021-09-03T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 957785250,
@@ -624,11 +642,11 @@
       "fechaRegistro": "2020-02-14T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 957040670,
@@ -642,11 +660,11 @@
       "fechaRegistro": "2020-02-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 861494300,
@@ -660,11 +678,11 @@
       "fechaRegistro": "2019-10-10T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 860657880,
@@ -678,11 +696,11 @@
       "fechaRegistro": "2019-10-08T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     },
     {
       "idRegActuacion": 565500650,
@@ -696,29 +714,11 @@
       "fechaRegistro": "2019-09-23T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 73,
+      "cant": 74,
       "idProceso": 50685700,
       "isUltimaAct": false,
       "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
-    },
-    {
-      "idRegActuacion": 565500640,
-      "llaveProceso": "11001400302820170084900",
-      "consActuacion": 34,
-      "fechaActuacion": "2019-09-23T05:00:00.000Z",
-      "actuacion": "Auto ordena oficiar",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2019-09-23T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 73,
-      "idProceso": 50685700,
-      "isUltimaAct": false,
-      "carpetaNumero": 233,
-      "createdAt": "2023-11-30T11:08:33.902Z"
+      "createdAt": "2023-12-03T18:17:20.705Z"
     }
   ],
   "juzgados": [
@@ -732,37 +732,56 @@
   "llaveProceso": "11001400302820170084900",
   "demanda": {
     "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 30506109,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-10-19T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2017-09-01T00:00:00.000Z",
+    "fechaPresentacion": "2017-01-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
-      4.09983899752975e+29,
+      4099838997529750,
       "5303712728390736 // 12141636"
     ],
     "radicado": "2017 - 00849",
     "expediente": "11001400302820170084900"
   },
+  "fecha": "2023-12-01T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1939284420,
+    "llaveProceso": "11001400302820170084900",
+    "consActuacion": 74,
+    "fechaActuacion": "2023-12-01T00:00:00",
+    "actuacion": "Elaboración de oficios",
+    "anotacion": "SE ELABORA OFICIO No. DCOECM-1223LG-26 SECUESTRO VEHICULO/PROCESO PASA PARA LA FIRMA/LUISAG",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-12-01T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 74,
+    "idProceso": 50685700,
+    "isUltimaAct": true
+  },
   "category": "Reintegra",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": 3138216,
       "celular": 3138216786
     },
-    "primerNombre": "jose",
-    "segundoNombre": "luis",
-    "primerApellido": "torres",
-    "segundoApellido": "tamayo",
+    "primerNombre": "JOSE",
+    "segundoNombre": "LUIS",
+    "primerApellido": "TORRES",
+    "segundoApellido": "TAMAYO",
     "cedula": 11313124,
-    "direccion": "calle 145 # 46 - 13 apto 202 int 5",
+    "direccion": "CALLE 145 # 46 - 13 APTO 202 INT 5",
     "email": "jotorres@perosnalsoft.com.co"
   },
   "cc": 11313124,
@@ -771,8 +790,8 @@
       "idProceso": 50685700,
       "idConexion": 259,
       "llaveProceso": "11001400302820170084900",
-      "fechaProceso": "2017-09-05T00:00:00",
-      "fechaUltimaActuacion": "2023-11-20T00:00:00",
+      "fechaProceso": "2017-09-05T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-01T05:00:00.000Z",
       "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE LUIS TORRES TAMAYO ",
@@ -780,10 +799,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "jose luis torres tamayo",
   "idProcesos": [
     50685700
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "JOSE LUIS TORRES TAMAYO"
 }

@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 392,
   "llaveProceso": "25899400300220170013100",
   "demanda": {
     "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 38847950,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-09T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-09-11T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-04-12T00:00:00.000Z",
+    "mandamientoPago": "2018-12-04T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-11-20T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "ZIPAQUIRA",
     "obligacion": [
       3320087751,
@@ -22,24 +23,24 @@
     "expediente": "25899400300220170013100"
   },
   "category": "Reintegra",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "edgar",
-    "segundoNombre": "jobanny",
-    "primerApellido": "mateus",
-    "segundoApellido": "castillo",
+    "primerNombre": "EDGAR",
+    "segundoNombre": "JOBANNY",
+    "primerApellido": "MATEUS",
+    "segundoApellido": "CASTILLO",
     "cedula": 79712791,
-    "direccion": "calle 3 c no  13 - 07   zipaquira",
+    "direccion": "CALLE 3 C No  13 - 07   ZIPAQUIRA",
     "email": "giovannymat@yahoo.com"
   },
   "cc": 79712791,
   "procesos": [],
-  "nombre": "edgar jobanny mateus castillo",
   "idProcesos": [],
-  "revisado": false,
-  "terminado": false
+  "nombre": "EDGAR JOBANNY MATEUS CASTILLO"
 }

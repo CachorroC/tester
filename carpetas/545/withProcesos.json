@@ -1,6 +1,6 @@
 {
   "numero": 545,
-  "llaveProceso": null,
+  "llaveProceso": "SinEspecificar",
   "demanda": {
     "vencimientoPagare": [],
     "juzgados": [],
@@ -14,26 +14,25 @@
     "municipio": "BOGOTA",
     "obligacion": [],
     "radicado": "SIN NUMERO",
-    "expediente": null
+    "expediente": "SinEspecificar"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jairo",
-    "segundoNombre": "aldana",
-    "primerApellido": "villamizar",
+    "primerNombre": "JAIRO",
+    "segundoNombre": "ALDANA",
+    "primerApellido": "VILLAMIZAR",
     "segundoApellido": null,
     "cedula": 79295686,
     "direccion": null,
     "email": null
   },
   "cc": 79295686,
-  "nombre": "jairo aldana villamizar",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "nombre": "JAIRO ALDANA VILLAMIZAR"
 }

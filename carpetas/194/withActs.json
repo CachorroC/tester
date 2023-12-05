@@ -16,7 +16,7 @@
       "idProceso": 50679230,
       "isUltimaAct": true,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667570,
@@ -34,7 +34,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667560,
@@ -52,7 +52,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667550,
@@ -70,7 +70,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667540,
@@ -88,7 +88,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667530,
@@ -106,7 +106,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667520,
@@ -124,7 +124,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667510,
@@ -142,7 +142,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667500,
@@ -160,7 +160,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667490,
@@ -178,7 +178,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667480,
@@ -196,7 +196,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667470,
@@ -214,7 +214,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667460,
@@ -232,7 +232,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667450,
@@ -250,7 +250,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     },
     {
       "idRegActuacion": 770667440,
@@ -268,7 +268,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-11-30T11:08:23.898Z"
+      "createdAt": "2023-12-03T18:17:09.145Z"
     }
   ],
   "juzgados": [
@@ -282,16 +282,16 @@
   "llaveProceso": "11001400303520170129700",
   "demanda": {
     "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 4731735197,
+    "capitalAdeudado": 47317351,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-28T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-09-25T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-08-31T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12601534
@@ -299,19 +299,38 @@
     "radicado": "2017 - 01297",
     "expediente": "11001400303520170129700"
   },
+  "fecha": "2018-03-08T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 770667580,
+    "llaveProceso": "11001400303520170129700",
+    "consActuacion": 15,
+    "fechaActuacion": "2018-03-08T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-03-08T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 15,
+    "idProceso": 50679230,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3107976282
     },
-    "primerNombre": "fabiola",
-    "segundoNombre": "martinez",
-    "primerApellido": "rueda",
+    "primerNombre": "FABIOLA",
+    "segundoNombre": "MARTINEZ",
+    "primerApellido": "RUEDA",
     "segundoApellido": null,
     "cedula": 52790965,
-    "direccion": "calle 20c # 106 - 27 apto 202 int 13",
+    "direccion": "CALLE 20C # 106 - 27 APTO 202 INT 13",
     "email": "fabiola_19805@hotmail.com"
   },
   "cc": 52790965,
@@ -320,8 +339,8 @@
       "idProceso": 50679230,
       "idConexion": 259,
       "llaveProceso": "11001400303520170129700",
-      "fechaProceso": "2017-09-04T00:00:00",
-      "fechaUltimaActuacion": "2018-03-08T00:00:00",
+      "fechaProceso": "2017-09-04T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-08T05:00:00.000Z",
       "despacho": "JUZGADO 035 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FABIOLA MARTINEZ RUEDA ",
@@ -329,10 +348,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "fabiola martinez rueda",
   "idProcesos": [
     50679230
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "FABIOLA MARTINEZ RUEDA"
 }

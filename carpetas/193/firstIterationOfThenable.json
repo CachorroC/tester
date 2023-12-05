@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 193,
   "llaveProceso": "11001400302420170175000",
   "demanda": {
     "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 24590710,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-16T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
     "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2017-08-23T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12750180
@@ -21,23 +22,24 @@
     "expediente": "11001400302420170175000"
   },
   "category": "Reintegra",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": 7829236,
       "celular": 3204792977
     },
-    "primerNombre": "carmen",
-    "segundoNombre": "elizabeth",
-    "primerApellido": "quesada",
-    "segundoApellido": "martinez",
+    "primerNombre": "CARMEN",
+    "segundoNombre": "ELIZABETH",
+    "primerApellido": "QUESADA",
+    "segundoApellido": "MARTINEZ",
     "cedula": 52465691,
-    "direccion": "carrera 80 # 70a - 09",
+    "direccion": "CARRERA 80 # 70A - 09",
     "email": "equesada01@hotmail.com"
   },
   "cc": 52465691,
-  "nombre": "carmen elizabeth quesada martinez",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "CARMEN ELIZABETH QUESADA MARTINEZ"
 }

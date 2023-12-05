@@ -1,4 +1,12 @@
 {
+  "actuaciones": [],
+  "juzgados": [
+    {
+      "id": 751,
+      "tipo": "JUZGADO 751 CIVIL MUNICIPAL DE PEQUEÑAS CAUSAS DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.cojuzgado-751-civil-municipal-de-pequeñas-causas-de-bogotá-"
+    }
+  ],
   "numero": 456,
   "llaveProceso": "11001410375120180112100",
   "demanda": {
@@ -6,12 +14,12 @@
       "2021-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 24310470,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-07-06T00:00:00.000Z",
-    "etapaProcesal": "1.100141037512018e+22",
+    "mandamientoPago": "2018-06-07T05:00:00.000Z",
+    "etapaProcesal": "11001410375120180112100",
     "fechaPresentacion": null,
     "municipio": "KENNEDY",
     "obligacion": [
@@ -21,21 +29,23 @@
     "expediente": "11001410375120180112100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "ana",
-    "segundoNombre": "lucia",
-    "primerApellido": "yañez",
+    "primerNombre": "ANA",
+    "segundoNombre": "LUCIA",
+    "primerApellido": "YAÑEZ",
     "segundoApellido": [
-      "vargas",
-      "(fallecida)"
+      "VARGAS",
+      "(FALLECIDA)"
     ],
     "cedula": 26407097,
-    "direccion": "calle  57b bis no 99b-64 sur bosa santa fe",
+    "direccion": "CALLE  57B BIS No 99B-64 SUR BOSA SANTA FE",
     "email": null
   },
   "cc": 26407097,
@@ -53,10 +63,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "ana lucia yañez vargas (fallecida)",
   "idProcesos": [
     95877041
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)"
 }

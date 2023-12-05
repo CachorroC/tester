@@ -16,7 +16,7 @@
       "idProceso": 10955643,
       "isUltimaAct": true,
       "carpetaNumero": 403,
-      "createdAt": "2023-11-30T11:09:13.344Z"
+      "createdAt": "2023-12-03T18:18:22.457Z"
     },
     {
       "idRegActuacion": 135518813,
@@ -34,7 +34,7 @@
       "idProceso": 10955643,
       "isUltimaAct": false,
       "carpetaNumero": 403,
-      "createdAt": "2023-11-30T11:09:13.344Z"
+      "createdAt": "2023-12-03T18:18:22.457Z"
     },
     {
       "idRegActuacion": 135518803,
@@ -52,7 +52,7 @@
       "idProceso": 10955643,
       "isUltimaAct": false,
       "carpetaNumero": 403,
-      "createdAt": "2023-11-30T11:09:13.344Z"
+      "createdAt": "2023-12-03T18:18:22.457Z"
     },
     {
       "idRegActuacion": 135518793,
@@ -70,7 +70,7 @@
       "idProceso": 10955643,
       "isUltimaAct": false,
       "carpetaNumero": 403,
-      "createdAt": "2023-11-30T11:09:13.344Z"
+      "createdAt": "2023-12-03T18:18:22.457Z"
     },
     {
       "idRegActuacion": 135518783,
@@ -88,7 +88,7 @@
       "idProceso": 10955643,
       "isUltimaAct": false,
       "carpetaNumero": 403,
-      "createdAt": "2023-11-30T11:09:13.344Z"
+      "createdAt": "2023-12-03T18:18:22.457Z"
     }
   ],
   "juzgados": [
@@ -98,14 +98,22 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-049-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": {
+    "nombre": "BERTHA JUDITH AYA DE VALENCIA",
+    "cedula": "21046617",
+    "direccion": "CARRERA 89 B No 85 B-25",
+    "telefono": "74881010 / 3202269928",
+    "id": 403,
+    "carpetaNumero": 403
+  },
   "numero": 403,
   "llaveProceso": "11001400304920180019100",
   "demanda": {
     "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 2760787844,
+    "capitalAdeudado": 27607878,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
@@ -119,26 +127,39 @@
     "radicado": "2018-0191",
     "expediente": "11001400304920180019100"
   },
+  "fecha": "2018-04-17T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 135518823,
+    "llaveProceso": "11001400304920180019100",
+    "consActuacion": 5,
+    "fechaActuacion": "2018-04-17T00:00:00",
+    "actuacion": "Retiro demanda admitida - Art.88",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-04-17T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 5,
+    "idProceso": 10955643,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "claudia",
-    "segundoNombre": "yaneth",
-    "primerApellido": "valencia",
-    "segundoApellido": "aya",
+    "primerNombre": "CLAUDIA",
+    "segundoNombre": "YANETH",
+    "primerApellido": "VALENCIA",
+    "segundoApellido": "AYA",
     "cedula": 52361215,
-    "direccion": "diagonal 77 b no 123 a- 43 casa 173",
+    "direccion": "DIAGONAL 77 B No 123 A- 43 CASA 173",
     "email": "claudia.1120@hotmail.com"
-  },
-  "codeudor": {
-    "cedula": 21046617,
-    "direccion": "CARRERA 89 B No 85 B-25",
-    "nombre": "bertha judith aya de valencia",
-    "telefono": "74881010 / 3202269928"
   },
   "cc": 52361215,
   "procesos": [
@@ -146,8 +167,8 @@
       "idProceso": 10955643,
       "idConexion": 261,
       "llaveProceso": "11001400304920180019100",
-      "fechaProceso": "2018-02-22T00:00:00",
-      "fechaUltimaActuacion": "2018-04-17T00:00:00",
+      "fechaProceso": "2018-02-22T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-04-17T05:00:00.000Z",
       "despacho": "JUZGADO 049 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CLAUDIA YANNET VALENCIA AYA | Demandado: BERTHA JUDITH AYA DE VALENCIA ",
@@ -155,10 +176,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "claudia yaneth valencia aya",
   "idProcesos": [
     10955643
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "CLAUDIA YANETH VALENCIA AYA"
 }

@@ -16,7 +16,7 @@
       "idProceso": 51342910,
       "isUltimaAct": true,
       "carpetaNumero": 465,
-      "createdAt": "2023-11-30T11:09:29.125Z"
+      "createdAt": "2023-12-03T18:18:42.868Z"
     },
     {
       "idRegActuacion": 856768210,
@@ -34,7 +34,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-11-30T11:09:29.125Z"
+      "createdAt": "2023-12-03T18:18:42.868Z"
     },
     {
       "idRegActuacion": 856768200,
@@ -52,7 +52,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-11-30T11:09:29.125Z"
+      "createdAt": "2023-12-03T18:18:42.868Z"
     },
     {
       "idRegActuacion": 565848280,
@@ -70,7 +70,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-11-30T11:09:29.125Z"
+      "createdAt": "2023-12-03T18:18:42.868Z"
     },
     {
       "idRegActuacion": 856768190,
@@ -88,7 +88,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-11-30T11:09:29.125Z"
+      "createdAt": "2023-12-03T18:18:42.868Z"
     },
     {
       "idRegActuacion": 856768180,
@@ -106,7 +106,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-11-30T11:09:29.125Z"
+      "createdAt": "2023-12-03T18:18:42.868Z"
     },
     {
       "idRegActuacion": 856768170,
@@ -124,7 +124,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-11-30T11:09:29.125Z"
+      "createdAt": "2023-12-03T18:18:42.868Z"
     }
   ],
   "juzgados": [
@@ -138,37 +138,56 @@
   "llaveProceso": "11001400307720180085400",
   "demanda": {
     "vencimientoPagare": [
-      "2027-03-01T05:00:00.000Z"
+      "2027-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 2530371197,
+    "capitalAdeudado": 25303711,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-07-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2018-07-31T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
-      209900149557,
-      377815750421170
+      209900000000,
+      377816000000000
     ],
     "radicado": "2018 - 00854",
     "expediente": "11001400307720180085400"
   },
+  "fecha": "2018-09-18T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 565848290,
+    "llaveProceso": "11001400307720180085400",
+    "consActuacion": 7,
+    "fechaActuacion": "2018-09-18T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 18/09/2018 a las 14:56:59.",
+    "fechaInicial": "2018-09-19T00:00:00",
+    "fechaFinal": "2018-09-19T00:00:00",
+    "fechaRegistro": "2018-09-18T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 7,
+    "idProceso": 51342910,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "giovanny",
-    "segundoNombre": "duran",
-    "primerApellido": "antonio",
+    "primerNombre": "GIOVANNY",
+    "segundoNombre": "DURAN",
+    "primerApellido": "ANTONIO",
     "segundoApellido": null,
     "cedula": 79789409,
-    "direccion": "calle 105 sur no 2-22 este",
+    "direccion": "CALLE 105 SUR No 2-22 ESTE",
     "email": null
   },
   "cc": 79789409,
@@ -177,8 +196,8 @@
       "idProceso": 51342910,
       "idConexion": 259,
       "llaveProceso": "11001400307720180085400",
-      "fechaProceso": "2018-08-01T00:00:00",
-      "fechaUltimaActuacion": "2018-09-18T00:00:00",
+      "fechaProceso": "2018-08-01T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-09-18T05:00:00.000Z",
       "despacho": "JUZGADO 077 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GIOVANNY DURAN ANTONIO ",
@@ -186,10 +205,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "giovanny duran antonio",
   "idProcesos": [
     51342910
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "GIOVANNY DURAN ANTONIO"
 }

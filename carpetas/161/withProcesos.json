@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 161,
   "llaveProceso": "25286310300120170095600",
   "demanda": {
     "vencimientoPagare": [
-      "2033-10-01T05:00:00.000Z"
+      "2033-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 12029256822,
+    "capitalAdeudado": 120292568,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-08-31T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "MOSQUERA",
     "obligacion": [
       169486
@@ -21,24 +22,24 @@
     "expediente": "25286310300120170095600"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 3153808,
       "celular": 3153808376
     },
-    "primerNombre": "ricardo",
-    "segundoNombre": "alberto",
-    "primerApellido": "beltran",
-    "segundoApellido": "hernandez",
+    "primerNombre": "RICARDO",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "BELTRAN",
+    "segundoApellido": "HERNANDEZ",
     "cedula": 79335809,
-    "direccion": "calle 23 # 5 - 23 casa 4 int 10",
+    "direccion": "CALLE 23 # 5 - 23 CASA 4 INT 10",
     "email": "norina@reservalaboral.com.co"
   },
   "cc": 79335809,
   "procesos": [],
-  "nombre": "ricardo alberto beltran hernandez",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "RICARDO ALBERTO BELTRAN HERNANDEZ"
 }

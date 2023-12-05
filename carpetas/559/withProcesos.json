@@ -1,14 +1,15 @@
 {
+  "juzgados": [],
   "numero": 559,
   "llaveProceso": "11001418900420230088600",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 42598393,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -21,24 +22,24 @@
     "expediente": "11001418900420230088600"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3112633806
     },
-    "primerNombre": "edwin",
-    "segundoNombre": "alexander",
-    "primerApellido": "salcedo",
-    "segundoApellido": "perez",
+    "primerNombre": "EDWIN",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "SALCEDO",
+    "segundoApellido": "PEREZ",
     "cedula": 80219425,
-    "direccion": "calle 50 sur no. 93 d 38 torre 07 apartamento 601 conjunto residencial porvenir reservado etapa 7; carrera 89 a no. 45 a – 33 sur casa 207 agrupación de vivienda la margarita etapa 9",
+    "direccion": "Calle 50 Sur No. 93 D 38 Torre 07 Apartamento 601 Conjunto Residencial Porvenir Reservado Etapa 7, Carrera 89 A No. 45 A – 33 Sur Casa 207 Agrupación de Vivienda La Margarita Etapa 9",
     "email": "edwsal736@gmail.com"
   },
   "cc": 80219425,
   "procesos": [],
-  "nombre": "edwin alexander salcedo perez",
   "idProcesos": [],
-  "revisado": false,
-  "terminado": false
+  "nombre": "EDWIN ALEXANDER SALCEDO PEREZ"
 }

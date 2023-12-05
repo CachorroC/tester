@@ -16,7 +16,7 @@
       "idProceso": 51025410,
       "isUltimaAct": true,
       "carpetaNumero": 401,
-      "createdAt": "2023-11-30T11:09:12.846Z"
+      "createdAt": "2023-12-03T18:18:20.012Z"
     },
     {
       "idRegActuacion": 707397890,
@@ -34,7 +34,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-11-30T11:09:12.846Z"
+      "createdAt": "2023-12-03T18:18:20.012Z"
     },
     {
       "idRegActuacion": 707397880,
@@ -52,7 +52,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-11-30T11:09:12.846Z"
+      "createdAt": "2023-12-03T18:18:20.012Z"
     },
     {
       "idRegActuacion": 707397870,
@@ -70,7 +70,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-11-30T11:09:12.846Z"
+      "createdAt": "2023-12-03T18:18:20.012Z"
     },
     {
       "idRegActuacion": 707397860,
@@ -88,7 +88,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-11-30T11:09:12.846Z"
+      "createdAt": "2023-12-03T18:18:20.012Z"
     },
     {
       "idRegActuacion": 707397850,
@@ -106,7 +106,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-11-30T11:09:12.846Z"
+      "createdAt": "2023-12-03T18:18:20.012Z"
     }
   ],
   "juzgados": [
@@ -120,10 +120,10 @@
   "llaveProceso": "11001400302520180023700",
   "demanda": {
     "vencimientoPagare": [
-      "2017-10-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 2663399729,
+    "capitalAdeudado": 26633997,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
@@ -137,22 +137,41 @@
     "radicado": "2018-0237",
     "expediente": "11001400302520180023700"
   },
+  "fecha": "2018-03-07T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 707397900,
+    "llaveProceso": "11001400302520180023700",
+    "consActuacion": 6,
+    "fechaActuacion": "2018-03-07T00:00:00",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "LAS PRESENTES DILIGENCIAS CORRESPODIERON POR REPARTO AL JUZGADO 67 CIVIL MUNICIPAL DE ESTA CIUDAD ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-03-07T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6,
+    "idProceso": 51025410,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 7232225,
       "celular": 3112572775
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "patricia",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
     "primerApellido": "",
     "segundoApellido": [
-      "ojeda",
-      "rodriguez"
+      "OJEDA",
+      "RODRIGUEZ"
     ],
     "cedula": 52357813,
-    "direccion": "calle 50 sur no 87 d- 81",
+    "direccion": "CALLE 50 SUR No 87 D- 81",
     "email": "dandraojeda_5@hotmail.com"
   },
   "cc": 52357813,
@@ -161,8 +180,8 @@
       "idProceso": 51025410,
       "idConexion": 259,
       "llaveProceso": "11001400302520180023700",
-      "fechaProceso": "2018-02-21T00:00:00",
-      "fechaUltimaActuacion": "2018-03-07T00:00:00",
+      "fechaProceso": "2018-02-21T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-07T05:00:00.000Z",
       "despacho": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA OJEDA RODRIGUEZ ",
@@ -170,10 +189,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "sandra patricia  ojeda rodriguez",
   "idProcesos": [
     51025410
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "SANDRA PATRICIA  OJEDA RODRIGUEZ"
 }

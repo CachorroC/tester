@@ -1,18 +1,34 @@
 {
+  "actuaciones": [],
+  "juzgados": [
+    {
+      "id": 82,
+      "tipo": "JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-082-civil-municipal-de-bogota"
+    }
+  ],
+  "codeudor": {
+    "nombre": "NINI CORTES",
+    "cedula": "28936365",
+    "direccion": "CALLE 401 SUR 72 L -40 CRISTALES  BOGOTA",
+    "telefono": "3134775602",
+    "id": 33,
+    "carpetaNumero": 33
+  },
   "numero": 33,
   "llaveProceso": "11001400308220170064900",
   "demanda": {
     "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-30T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-15T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-06-09T00:00:00.000Z",
+    "fechaPresentacion": "2017-09-06T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       377813824603022,
@@ -22,29 +38,39 @@
     "expediente": "11001400308220170064900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3118113651
     },
-    "primerNombre": "nini",
-    "segundoNombre": "johana",
-    "primerApellido": "cortes",
-    "segundoApellido": "monroy",
-    "cedula": 28936365,
-    "direccion": "calle 401 sur 72 l -40 cristales  bogota",
-    "email": "snaluistol@gmail.com"
-  },
-  "codeudor": {
+    "primerNombre": "NINI",
+    "segundoNombre": "JOHANA",
+    "primerApellido": "CORTES",
+    "segundoApellido": "MONROY",
     "cedula": 28936365,
     "direccion": "CALLE 401 SUR 72 L -40 CRISTALES  BOGOTA",
-    "nombre": "nini cortes",
-    "telefono": 3134775602
+    "email": "snaluistol@gmail.com"
   },
   "cc": 28936365,
-  "nombre": "nini johana cortes monroy",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [
+    {
+      "idProceso": 81869251,
+      "idConexion": 320,
+      "llaveProceso": "11001400308220170064900",
+      "fechaProceso": "2017-06-09T05:00:00.000Z",
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 082 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante/accionante: Banco Bancolombia SA | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    81869251
+  ],
+  "nombre": "NINI JOHANA CORTES MONROY"
 }

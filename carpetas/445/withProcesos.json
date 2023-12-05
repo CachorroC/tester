@@ -1,17 +1,18 @@
 {
+  "juzgados": [],
   "numero": 445,
   "llaveProceso": "25754400300120180057200",
   "demanda": {
     "vencimientoPagare": [
-      "2028-07-01T05:00:00.000Z"
+      "2028-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 29143861,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-14T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2018-06-19T00:00:00.000Z",
-    "etapaProcesal": "2.575441890012018e+22",
+    "mandamientoPago": null,
+    "etapaProcesal": "25754418900120180057200",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
@@ -21,24 +22,24 @@
     "expediente": "25754400300120180057200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 3654986,
       "celular": 3212282328
     },
-    "primerNombre": "juan",
-    "segundoNombre": "carlos",
-    "primerApellido": "garzon",
-    "segundoApellido": "bejarano",
+    "primerNombre": "JUAN",
+    "segundoNombre": "CARLOS",
+    "primerApellido": "GARZON",
+    "segundoApellido": "BEJARANO",
     "cedula": 79978846,
-    "direccion": "carrera 10bis b este no 63-44 sur",
+    "direccion": "CARRERA 10BIS B ESTE No 63-44 SUR",
     "email": "juangarzon21@hotmail.com"
   },
   "cc": 79978846,
   "procesos": [],
-  "nombre": "juan carlos garzon bejarano",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JUAN CARLOS GARZON BEJARANO"
 }

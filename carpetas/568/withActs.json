@@ -16,7 +16,7 @@
       "idProceso": 132161470,
       "isUltimaAct": true,
       "carpetaNumero": 568,
-      "createdAt": "2023-11-30T11:09:50.879Z"
+      "createdAt": "2023-12-03T18:19:09.028Z"
     },
     {
       "idRegActuacion": 1862825060,
@@ -34,7 +34,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-11-30T11:09:50.879Z"
+      "createdAt": "2023-12-03T18:19:09.028Z"
     },
     {
       "idRegActuacion": 1844385410,
@@ -52,7 +52,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-11-30T11:09:50.879Z"
+      "createdAt": "2023-12-03T18:19:09.028Z"
     },
     {
       "idRegActuacion": 1844385400,
@@ -70,7 +70,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-11-30T11:09:50.879Z"
+      "createdAt": "2023-12-03T18:19:09.028Z"
     },
     {
       "idRegActuacion": 1844385390,
@@ -88,7 +88,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-11-30T11:09:50.879Z"
+      "createdAt": "2023-12-03T18:19:09.028Z"
     },
     {
       "idRegActuacion": 1844385380,
@@ -106,7 +106,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-11-30T11:09:50.879Z"
+      "createdAt": "2023-12-03T18:19:09.028Z"
     },
     {
       "idRegActuacion": 1837296480,
@@ -124,7 +124,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-11-30T11:09:50.879Z"
+      "createdAt": "2023-12-03T18:19:09.028Z"
     }
   ],
   "juzgados": [
@@ -138,13 +138,13 @@
   "llaveProceso": "11001400307520230128400",
   "demanda": {
     "vencimientoPagare": [
-      "2028-02-01T05:00:00.000Z",
-      "2026-06-01T05:00:00.000Z"
+      "2028-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 20815025,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-02T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2023-02-08T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -157,19 +157,38 @@
     "radicado": "2023 - 01627",
     "expediente": "11001400307520230128400"
   },
+  "fecha": "2023-09-22T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1880432600,
+    "llaveProceso": "11001400307520230128400",
+    "consActuacion": 7,
+    "fechaActuacion": "2023-09-22T00:00:00",
+    "actuacion": "Comunicación secretarial firmada",
+    "anotacion": "OFICIO FIRMADO",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-09-22T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 7,
+    "idProceso": 132161470,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 6243064,
       "celular": 3046243064
     },
-    "primerNombre": "lorena",
-    "segundoNombre": "guiselle",
-    "primerApellido": "chaparro",
-    "segundoApellido": "leal",
+    "primerNombre": "LORENA",
+    "segundoNombre": "GUISELLE",
+    "primerApellido": "CHAPARRO",
+    "segundoApellido": "LEAL",
     "cedula": 1033739670,
-    "direccion": "calle 71 no. 46-08 sur",
+    "direccion": "Calle 71 No. 46-08 Sur",
     "email": "lorena19081@hotmail.com"
   },
   "cc": 1033739670,
@@ -178,8 +197,8 @@
       "idProceso": 132161470,
       "idConexion": 259,
       "llaveProceso": "11001400307520230128400",
-      "fechaProceso": "2023-08-08T00:00:00",
-      "fechaUltimaActuacion": "2023-09-22T00:00:00",
+      "fechaProceso": "2023-08-08T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-09-22T05:00:00.000Z",
       "despacho": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: WILSON DE JESUS MOLINA QUIRAMA ",
@@ -187,10 +206,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "lorena guiselle chaparro leal",
   "idProcesos": [
     132161470
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "LORENA GUISELLE CHAPARRO LEAL"
 }

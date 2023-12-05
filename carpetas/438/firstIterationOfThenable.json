@@ -1,16 +1,17 @@
 {
+  "juzgados": [],
   "numero": 438,
   "llaveProceso": "11001418900620180021000",
   "demanda": {
     "vencimientoPagare": [],
     "juzgados": [],
-    "capitalAdeudado": 1333793400,
+    "capitalAdeudado": 13337934,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-05-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": "EXCEPCIONES",
-    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       15400866488
@@ -19,23 +20,24 @@
     "expediente": "11001418900620180021000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "luz",
-    "segundoNombre": "dary",
-    "primerApellido": "velandia",
-    "segundoApellido": "garcia",
+    "primerNombre": "LUZ",
+    "segundoNombre": "DARY",
+    "primerApellido": "VELANDIA",
+    "segundoApellido": "GARCIA",
     "cedula": 52132383,
-    "direccion": "carrera 24 b no 31c-64",
+    "direccion": "CARRERA 24 B No 31C-64",
     "email": "velandialuzd@yahooo.es"
   },
   "cc": 52132383,
-  "nombre": "luz dary velandia garcia",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "LUZ DARY VELANDIA GARCIA"
 }

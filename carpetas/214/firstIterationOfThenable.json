@@ -1,43 +1,45 @@
 {
+  "juzgados": [],
   "numero": 214,
-  "llaveProceso": "257544189002220170086700",
+  "llaveProceso": "25754418900222017008670",
   "demanda": {
     "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 2749043792,
+    "capitalAdeudado": 27490437,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-17T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "fechaPresentacion": "2017-04-09T05:00:00.000Z",
     "municipio": "SOACHA",
     "obligacion": [
       147381
     ],
     "radicado": "2017 - 00867",
-    "expediente": "257544189002220170086700"
+    "expediente": "25754418900222017008670"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 7290666,
       "celular": 3204297147
     },
-    "primerNombre": "yenny",
-    "segundoNombre": "patricia",
-    "primerApellido": "rubio",
-    "segundoApellido": "mahecha",
+    "primerNombre": "YENNY",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "RUBIO",
+    "segundoApellido": "MAHECHA",
     "cedula": 52702559,
-    "direccion": "calle 6d # 5 - 60 manzana c casa 17",
+    "direccion": "CALLE 6D # 5 - 60 MANZANA C CASA 17",
     "email": "jennyprm@hotmail.com"
   },
   "cc": 52702559,
-  "nombre": "yenny patricia rubio mahecha",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "YENNY PATRICIA RUBIO MAHECHA"
 }

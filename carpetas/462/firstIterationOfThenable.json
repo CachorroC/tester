@@ -1,17 +1,18 @@
 {
+  "juzgados": [],
   "numero": 462,
   "llaveProceso": "25754418900120180070000",
   "demanda": {
     "vencimientoPagare": [
-      "2043-07-01T05:00:00.000Z"
+      "2043-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 21997013,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-07-06T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-06-07T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2018-07-12T00:00:00.000Z",
-    "etapaProcesal": "2.575441890012018e+22",
+    "mandamientoPago": "2018-12-07T05:00:00.000Z",
+    "etapaProcesal": "25754418900120180070000",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
@@ -21,23 +22,24 @@
     "expediente": "25754418900120180070000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 7279254,
       "celular": 3114915425
     },
-    "primerNombre": "yamid",
-    "segundoNombre": "gelves",
-    "primerApellido": "caceres",
+    "primerNombre": "YAMID",
+    "segundoNombre": "GELVES",
+    "primerApellido": "CACERES",
     "segundoApellido": null,
     "cedula": 80755973,
-    "direccion": "carrera 87 no 69-165",
+    "direccion": "CARRERA 87 No 69-165",
     "email": "yamid11@hotmail.es"
   },
   "cc": 80755973,
-  "nombre": "yamid gelves caceres",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "YAMID GELVES CACERES"
 }

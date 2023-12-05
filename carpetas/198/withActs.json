@@ -16,7 +16,7 @@
       "idProceso": 19150031,
       "isUltimaAct": true,
       "carpetaNumero": 198,
-      "createdAt": "2023-11-30T11:08:24.731Z"
+      "createdAt": "2023-12-03T18:17:10.046Z"
     },
     {
       "idRegActuacion": 219869011,
@@ -34,7 +34,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-11-30T11:08:24.731Z"
+      "createdAt": "2023-12-03T18:17:10.046Z"
     },
     {
       "idRegActuacion": 219869001,
@@ -52,7 +52,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-11-30T11:08:24.731Z"
+      "createdAt": "2023-12-03T18:17:10.046Z"
     },
     {
       "idRegActuacion": 219868991,
@@ -70,7 +70,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-11-30T11:08:24.731Z"
+      "createdAt": "2023-12-03T18:17:10.046Z"
     },
     {
       "idRegActuacion": 219868981,
@@ -88,7 +88,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-11-30T11:08:24.731Z"
+      "createdAt": "2023-12-03T18:17:10.046Z"
     },
     {
       "idRegActuacion": 219868971,
@@ -106,7 +106,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-11-30T11:08:24.731Z"
+      "createdAt": "2023-12-03T18:17:10.046Z"
     }
   ],
   "juzgados": [
@@ -120,16 +120,16 @@
   "llaveProceso": "11001400304020170132900",
   "demanda": {
     "vencimientoPagare": [
-      "2028-09-01T05:00:00.000Z"
+      "2028-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 2920487950,
+    "capitalAdeudado": 29204879,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "fechaPresentacion": "2017-04-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       167542
@@ -137,19 +137,38 @@
     "radicado": "2017 - 01329",
     "expediente": "11001400304020170132900"
   },
+  "fecha": "2017-11-02T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 219869021,
+    "llaveProceso": "11001400304020170132900",
+    "consActuacion": 6,
+    "fechaActuacion": "2017-11-02T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-11-02T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6,
+    "idProceso": 19150031,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 3142498,
       "celular": 3142998727
     },
-    "primerNombre": "hector",
-    "segundoNombre": "manuel",
-    "primerApellido": "ramirez",
-    "segundoApellido": "puentes",
+    "primerNombre": "HECTOR",
+    "segundoNombre": "MANUEL",
+    "primerApellido": "RAMIREZ",
+    "segundoApellido": "PUENTES",
     "cedula": 1012318156,
-    "direccion": "carrera 80m # 74 - 04 sur",
+    "direccion": "CARRERA 80M # 74 - 04 SUR",
     "email": "hectormanuelverdolaga@gmail.com"
   },
   "cc": 1012318156,
@@ -158,8 +177,8 @@
       "idProceso": 19150031,
       "idConexion": 256,
       "llaveProceso": "11001400304020170132900",
-      "fechaProceso": "2017-09-12T00:00:00",
-      "fechaUltimaActuacion": "2017-11-02T00:00:00",
+      "fechaProceso": "2017-09-12T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-11-02T05:00:00.000Z",
       "despacho": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR MANUEL RAMIREZ PUENTES ",
@@ -167,10 +186,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "hector manuel ramirez puentes",
   "idProcesos": [
     19150031
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "HECTOR MANUEL RAMIREZ PUENTES"
 }

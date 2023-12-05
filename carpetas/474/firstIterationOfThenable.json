@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 474,
   "llaveProceso": "11001418903220180127100",
   "demanda": {
@@ -21,23 +22,24 @@
     "expediente": "11001418903220180127100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 4383117,
       "celular": 3144765126
     },
-    "primerNombre": "nadia",
-    "segundoNombre": "katerine",
-    "primerApellido": "moreno",
-    "segundoApellido": "camacho",
+    "primerNombre": "NADIA",
+    "segundoNombre": "KATERINE",
+    "primerApellido": "MORENO",
+    "segundoApellido": "CAMACHO",
     "cedula": 52788376,
-    "direccion": "transversal 83 a no 73-10   almeria",
+    "direccion": "TRANSVERSAL 83 A No 73-10   ALMERIA",
     "email": "katiusaka79@gmail.com"
   },
   "cc": 52788376,
-  "nombre": "nadia katerine moreno camacho",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "NADIA KATERINE MORENO CAMACHO"
 }

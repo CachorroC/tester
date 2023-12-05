@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 398,
   "llaveProceso": "25754400300120180006400",
   "demanda": {
@@ -6,7 +7,7 @@
       "2044-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 5285407834,
+    "capitalAdeudado": 52854078,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
@@ -21,23 +22,24 @@
     "expediente": "25754400300120180006400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3214771295
     },
-    "primerNombre": "liliana",
-    "segundoNombre": "andrea",
-    "primerApellido": "erazo",
-    "segundoApellido": "lopez",
+    "primerNombre": "LILIANA",
+    "segundoNombre": "ANDREA",
+    "primerApellido": "ERAZO",
+    "segundoApellido": "LOPEZ",
     "cedula": 52465659,
-    "direccion": "carrera 87 bis no 50 sur-75 piso 2",
+    "direccion": "CARRERA 87 BIS No 50 SUR-75 PISO 2",
     "email": "liancridana@hotmail.com"
   },
   "cc": 52465659,
-  "nombre": "liliana andrea erazo lopez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "LILIANA ANDREA ERAZO LOPEZ"
 }

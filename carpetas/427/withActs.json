@@ -14,13 +14,13 @@
       "2021-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 21049112,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-19T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2018-02-26T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2018-02-01T00:00:00.000Z",
+    "fechaPresentacion": "2018-01-02T05:00:00.000Z",
     "municipio": "CAJICA",
     "obligacion": [
       12730779
@@ -29,18 +29,20 @@
     "expediente": "25126408900220180004800"
   },
   "category": "Reintegra",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "juan",
-    "segundoNombre": "camilo",
-    "primerApellido": "chingate",
-    "segundoApellido": "penagos",
+    "primerNombre": "JUAN",
+    "segundoNombre": "CAMILO",
+    "primerApellido": "CHINGATE",
+    "segundoApellido": "PENAGOS",
     "cedula": 1069738339,
-    "direccion": "vereda la 22 kilometro 30 (cajica) // vereda subia norte parte baja finca el rincon lote 2 (granada- cund): vereda subia norte parte baja finca el rincon lote 2 (granada - cund)",
+    "direccion": "VEREDA LA 22 KILOMETRO 30 (CAJICA) // VEREDA SUBIA NORTE. PARTE BAJA. FINCA EL RINCON LOTE 2 (GRANADA- CUND): VEREDA SUBIA NORTE PARTE BAJA FINCA EL RINCON LOTE 2 (GRANADA - CUND)",
     "email": null
   },
   "cc": 1069738339,
@@ -49,7 +51,7 @@
       "idProceso": 86157021,
       "idConexion": 320,
       "llaveProceso": "25126408900220180004800",
-      "fechaProceso": "2018-02-02T00:00:00",
+      "fechaProceso": "2018-02-02T05:00:00.000Z",
       "fechaUltimaActuacion": null,
       "despacho": "JUZGADO 002 PROMISCUO MUNICIPAL DE CAJICÁ ",
       "departamento": "CUNDINAMARCA",
@@ -58,10 +60,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "juan camilo chingate penagos",
   "idProcesos": [
     86157021
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "JUAN CAMILO CHINGATE PENAGOS"
 }

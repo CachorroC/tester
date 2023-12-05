@@ -1,4 +1,49 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 857051550,
+      "llaveProceso": "11001400307820180064700",
+      "consActuacion": 2,
+      "fechaActuacion": "2019-01-15T05:00:00.000Z",
+      "actuacion": "Constancia secretarial",
+      "anotacion": "SE ENTREGO DESGLOSE  ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2019-01-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 51571520,
+      "isUltimaAct": true,
+      "carpetaNumero": 450,
+      "createdAt": "2023-12-03T18:18:37.708Z"
+    },
+    {
+      "idRegActuacion": 857051540,
+      "llaveProceso": "11001400307820180064700",
+      "consActuacion": 1,
+      "fechaActuacion": "2019-01-15T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 15/01/2019 a las 16:30:35",
+      "fechaInicial": "2019-01-15T05:00:00.000Z",
+      "fechaFinal": "2019-01-15T05:00:00.000Z",
+      "fechaRegistro": "2019-01-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 51571520,
+      "isUltimaAct": false,
+      "carpetaNumero": 450,
+      "createdAt": "2023-12-03T18:18:37.708Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 78,
+      "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 450,
   "llaveProceso": "11001400307820180064700",
   "demanda": {
@@ -8,11 +53,11 @@
     "juzgados": [],
     "capitalAdeudado": 2155020258,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-19T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": "2018-04-07T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2018-06-26T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       20990160362
@@ -20,19 +65,38 @@
     "radicado": "2018 - 00647",
     "expediente": "11001400307820180064700"
   },
+  "fecha": "2019-01-15T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 857051550,
+    "llaveProceso": "11001400307820180064700",
+    "consActuacion": 2,
+    "fechaActuacion": "2019-01-15T00:00:00",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "SE ENTREGO DESGLOSE  ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2019-01-15T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 2,
+    "idProceso": 51571520,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "kelly",
-    "segundoNombre": "yohanna",
-    "primerApellido": "murcia",
-    "segundoApellido": "ducon",
+    "primerNombre": "KELLY",
+    "segundoNombre": "YOHANNA",
+    "primerApellido": "MURCIA",
+    "segundoApellido": "DUCON",
     "cedula": 53133179,
-    "direccion": "calle 63 sur no 78 j-38 torre 4 apto 603",
+    "direccion": "CALLE 63 SUR No 78 J-38 TORRE 4 APTO 603",
     "email": "kellyohamd@hotmail.com"
   },
   "cc": 53133179,
@@ -41,8 +105,8 @@
       "idProceso": 51571520,
       "idConexion": 259,
       "llaveProceso": "11001400307820180064700",
-      "fechaProceso": "2019-01-15T00:00:00",
-      "fechaUltimaActuacion": "2019-01-15T00:00:00",
+      "fechaProceso": "2019-01-15T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-01-15T05:00:00.000Z",
       "despacho": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: KELLY YOHANNA MURCIA DUCON ",
@@ -50,10 +114,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "kelly yohanna murcia ducon",
   "idProcesos": [
     51571520
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "KELLY YOHANNA MURCIA DUCON"
 }

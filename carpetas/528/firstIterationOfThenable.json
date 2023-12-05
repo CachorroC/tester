@@ -1,17 +1,18 @@
 {
+  "juzgados": [],
   "numero": 528,
   "llaveProceso": "25473400100120190116000",
   "demanda": {
     "vencimientoPagare": [
-      "2030-08-01T05:00:00.000Z"
+      "2030-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 46371154,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": "2019-02-09T05:00:00.000Z",
-    "etapaProcesal": "2.543040030012019e+22",
+    "etapaProcesal": "25430400300120190116000",
     "fechaPresentacion": null,
     "municipio": "MADRID",
     "obligacion": [
@@ -21,23 +22,24 @@
     "expediente": "25473400100120190116000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "yoladis",
-    "segundoNombre": "esther",
-    "primerApellido": "blanco",
-    "segundoApellido": "lopez",
+    "primerNombre": "YOLADIS",
+    "segundoNombre": "ESTHER",
+    "primerApellido": "BLANCO",
+    "segundoApellido": "LOPEZ",
     "cedula": 1065564377,
-    "direccion": "calle  23 no 12-50 casa 16 int 12 manzana 1 conjunto quintas de zaragoza",
+    "direccion": "CALLE  23 No 12-50 CASA 16 INT 12 MANZANA 1 CONJUNTO QUINTAS DE ZARAGOZA",
     "email": "yoladisb@hotmail.com"
   },
   "cc": 1065564377,
-  "nombre": "yoladis esther blanco lopez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "YOLADIS ESTHER BLANCO LOPEZ"
 }

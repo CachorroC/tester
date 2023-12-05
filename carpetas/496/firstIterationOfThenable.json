@@ -1,13 +1,14 @@
 {
+  "juzgados": [],
   "numero": 496,
   "llaveProceso": "25175408900320180060200",
   "demanda": {
     "vencimientoPagare": [
-      "2021-09-01T05:00:00.000Z",
-      "2021-05-01T05:00:00.000Z"
+      "2021-01-01T05:00:00.000Z",
+      "2021-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 27373832,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -17,29 +18,30 @@
     "municipio": "CHIA",
     "obligacion": [
       "AUDIOPRESTAMO",
-      5.49157034735681e+29
+      5491570347356810
     ],
     "radicado": "2018 - 00602",
     "expediente": "25175408900320180060200"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "modesto",
-    "segundoNombre": "pineda",
-    "primerApellido": "perez",
+    "primerNombre": "MODESTO",
+    "segundoNombre": "PINEDA",
+    "primerApellido": "PEREZ",
     "segundoApellido": null,
     "cedula": 13222728,
-    "direccion": "carrera 6 no 6-59",
+    "direccion": "CARRERA 6 No 6-59",
     "email": "mopadinco@yahoo.com"
   },
   "cc": 13222728,
-  "nombre": "modesto pineda perez",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "MODESTO PINEDA PEREZ"
 }

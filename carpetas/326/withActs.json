@@ -16,7 +16,7 @@
       "idProceso": 50834080,
       "isUltimaAct": true,
       "carpetaNumero": 326,
-      "createdAt": "2023-11-30T11:08:56.195Z"
+      "createdAt": "2023-12-03T18:17:55.083Z"
     },
     {
       "idRegActuacion": 764147210,
@@ -34,7 +34,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-11-30T11:08:56.195Z"
+      "createdAt": "2023-12-03T18:17:55.083Z"
     },
     {
       "idRegActuacion": 764147200,
@@ -52,7 +52,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-11-30T11:08:56.195Z"
+      "createdAt": "2023-12-03T18:17:55.083Z"
     },
     {
       "idRegActuacion": 764147190,
@@ -70,7 +70,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-11-30T11:08:56.195Z"
+      "createdAt": "2023-12-03T18:17:55.083Z"
     },
     {
       "idRegActuacion": 764147180,
@@ -88,7 +88,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-11-30T11:08:56.195Z"
+      "createdAt": "2023-12-03T18:17:55.083Z"
     },
     {
       "idRegActuacion": 764147170,
@@ -106,7 +106,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-11-30T11:08:56.195Z"
+      "createdAt": "2023-12-03T18:17:55.083Z"
     }
   ],
   "juzgados": [
@@ -120,16 +120,16 @@
   "llaveProceso": "11001400303420170147100",
   "demanda": {
     "vencimientoPagare": [
-      "2022-11-01T05:00:00.000Z"
+      "2022-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1955028860,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-27T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-12-04T00:00:00.000Z",
+    "mandamientoPago": "2017-04-12T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-11-02T00:00:00.000Z",
+    "fechaPresentacion": "2017-02-11T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       103162
@@ -137,19 +137,38 @@
     "radicado": "2017 - 01471",
     "expediente": "11001400303420170147100"
   },
+  "fecha": "2018-02-27T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 764147220,
+    "llaveProceso": "11001400303420170147100",
+    "consActuacion": 6,
+    "fechaActuacion": "2018-02-27T00:00:00",
+    "actuacion": "Retiro demanda",
+    "anotacion": "AUTORIZADA PARTE ACTORA",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-02-27T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6,
+    "idProceso": 50834080,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 7102329,
       "celular": 3138267838
     },
-    "primerNombre": "jorge",
-    "segundoNombre": "eliecer",
-    "primerApellido": "gomez",
-    "segundoApellido": "lopez",
+    "primerNombre": "JORGE",
+    "segundoNombre": "ELIECER",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "LOPEZ",
     "cedula": 19352146,
-    "direccion": "diagonal 58 no 28 - 72    apartamento 603 interior 6",
+    "direccion": "DIAGONAL 58 No 28 - 72    APARTAMENTO 603 INTERIOR 6",
     "email": "elpotegomez@hotmail.com"
   },
   "cc": 19352146,
@@ -158,8 +177,8 @@
       "idProceso": 50834080,
       "idConexion": 259,
       "llaveProceso": "11001400303420170147100",
-      "fechaProceso": "2017-11-09T00:00:00",
-      "fechaUltimaActuacion": "2018-02-27T00:00:00",
+      "fechaProceso": "2017-11-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-02-27T05:00:00.000Z",
       "despacho": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE ELIECER GÓMEZ LÓPEZ ",
@@ -167,10 +186,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "jorge eliecer gomez lopez",
   "idProcesos": [
     50834080
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JORGE ELIECER GOMEZ LOPEZ"
 }

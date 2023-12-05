@@ -16,7 +16,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": true,
       "carpetaNumero": 573,
-      "createdAt": "2023-11-30T11:09:51.722Z"
+      "createdAt": "2023-12-03T18:19:10.493Z"
     },
     {
       "idRegActuacion": 1127170784,
@@ -34,7 +34,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-11-30T11:09:51.722Z"
+      "createdAt": "2023-12-03T18:19:10.493Z"
     },
     {
       "idRegActuacion": 1125576004,
@@ -52,7 +52,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-11-30T11:09:51.722Z"
+      "createdAt": "2023-12-03T18:19:10.493Z"
     },
     {
       "idRegActuacion": 1122261754,
@@ -70,7 +70,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-11-30T11:09:51.722Z"
+      "createdAt": "2023-12-03T18:19:10.493Z"
     },
     {
       "idRegActuacion": 1122261744,
@@ -88,7 +88,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-11-30T11:09:51.722Z"
+      "createdAt": "2023-12-03T18:19:10.493Z"
     },
     {
       "idRegActuacion": 1122261734,
@@ -106,7 +106,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-11-30T11:09:51.722Z"
+      "createdAt": "2023-12-03T18:19:10.493Z"
     },
     {
       "idRegActuacion": 1122261724,
@@ -124,7 +124,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-11-30T11:09:51.722Z"
+      "createdAt": "2023-12-03T18:19:10.493Z"
     },
     {
       "idRegActuacion": 1121675574,
@@ -142,7 +142,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-11-30T11:09:51.722Z"
+      "createdAt": "2023-12-03T18:19:10.493Z"
     },
     {
       "idRegActuacion": 1121675564,
@@ -160,7 +160,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-11-30T11:09:51.722Z"
+      "createdAt": "2023-12-03T18:19:10.493Z"
     }
   ],
   "juzgados": [
@@ -174,13 +174,13 @@
   "llaveProceso": "11001400305520230074600",
   "demanda": {
     "vencimientoPagare": [
-      "2023-03-01T05:00:00.000Z",
-      "2026-08-01T05:00:00.000Z"
+      "2023-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 55099216,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -193,19 +193,38 @@
     "radicado": "2023 - 001310",
     "expediente": "11001400305520230074600"
   },
+  "fecha": "2023-11-10T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1137554444,
+    "llaveProceso": "11001400305520230074600",
+    "consActuacion": 9,
+    "fechaActuacion": "2023-11-10T00:00:00",
+    "actuacion": "Al despacho",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-10T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 9,
+    "idProceso": 1829856154,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 4152969,
       "celular": 3203369576
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "patricia",
-    "primerApellido": "galvis",
-    "segundoApellido": "almanza",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "GALVIS",
+    "segundoApellido": "ALMANZA",
     "cedula": 52327261,
-    "direccion": "cr 104 no 13d 77 cs 241 conjunto residencial sabanagrande 1",
+    "direccion": "CR 104 No 13D 77 CS 241 Conjunto Residencial Sabanagrande 1",
     "email": "galvis-almanza@hotmail.com"
   },
   "cc": 52327261,
@@ -214,8 +233,8 @@
       "idProceso": 1829856154,
       "idConexion": 263,
       "llaveProceso": "11001400305520230074600",
-      "fechaProceso": "2023-08-09T00:00:00",
-      "fechaUltimaActuacion": "2023-11-10T00:00:00",
+      "fechaProceso": "2023-08-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-10T05:00:00.000Z",
       "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JAIME ENRIQUE QUINTERO MENDOZA ",
@@ -223,10 +242,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "sandra patricia galvis almanza",
   "idProcesos": [
     1829856154
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "SANDRA PATRICIA GALVIS ALMANZA"
 }

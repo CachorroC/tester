@@ -3,15 +3,15 @@
   "llaveProceso": "1100141890342023098500",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z",
-      "2026-06-01T05:00:00.000Z",
-      "2025-05-01T05:00:00.000Z",
-      "2026-07-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z",
+      "2025-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 39472561,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -25,23 +25,22 @@
     "expediente": "1100141890342023098500"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "milton",
-    "segundoNombre": "marino",
-    "primerApellido": "lugo",
-    "segundoApellido": "gomez",
+    "primerNombre": "MILTON",
+    "segundoNombre": "MARINO",
+    "primerApellido": "LUGO",
+    "segundoApellido": "GOMEZ",
     "cedula": 7718318,
-    "direccion": "carrera 57 no. 60 a - 20",
+    "direccion": "Carrera 57 No. 60 A - 20",
     "email": "milugo1111@hotmail.com"
   },
   "cc": 7718318,
-  "nombre": "milton marino lugo gomez",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "nombre": "MILTON MARINO LUGO GOMEZ"
 }

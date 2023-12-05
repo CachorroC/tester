@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 84,
   "llaveProceso": "11001400303920170080000",
   "demanda": {
     "vencimientoPagare": [
-      "2019-11-01T05:00:00.000Z"
+      "2019-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 12128189,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-06-22T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2017-06-14T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       377815178176828,
@@ -22,23 +23,24 @@
     "expediente": "11001400303920170080000"
   },
   "category": "Reintegra",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 8054434,
       "celular": 3118802970
     },
-    "primerNombre": "edgar",
-    "segundoNombre": "hernandez",
-    "primerApellido": "rubio",
+    "primerNombre": "EDGAR",
+    "segundoNombre": "HERNANDEZ",
+    "primerApellido": "RUBIO",
     "segundoApellido": null,
     "cedula": 79108747,
-    "direccion": "carrera 17 a no. 175-82 interior 1 pto 601",
+    "direccion": "CARRERA 17 A No. 175-82 INTERIOR 1 PTO 601",
     "email": "edgarH62@hotmail.com"
   },
   "cc": 79108747,
-  "nombre": "edgar hernandez rubio",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "EDGAR HERNANDEZ RUBIO"
 }

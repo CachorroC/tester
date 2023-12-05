@@ -1,14 +1,15 @@
 {
+  "juzgados": [],
   "numero": 565,
   "llaveProceso": "11001418902120230128000",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 24994278,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -21,23 +22,24 @@
     "expediente": "11001418902120230128000"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 7442510,
       "celular": 3058819253
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "milena",
-    "primerApellido": "palacio",
-    "segundoApellido": "rivera",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "PALACIO",
+    "segundoApellido": "RIVERA",
     "cedula": 1061047348,
-    "direccion": "transversal 96 b no. 20 d - 70 casa 23 conjunto residencial casas del portal de hayuelos",
+    "direccion": "Transversal 96 B No. 20 D - 70 Casa 23 Conjunto Residencial Casas del Portal de Hayuelos",
     "email": "sammy_1722@hotmail.es"
   },
   "cc": 1061047348,
-  "nombre": "sandra milena palacio rivera",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "SANDRA MILENA PALACIO RIVERA"
 }

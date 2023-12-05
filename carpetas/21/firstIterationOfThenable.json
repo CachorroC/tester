@@ -1,18 +1,17 @@
 {
+  "juzgados": [],
   "numero": 21,
   "llaveProceso": "25290400300120170043700",
   "demanda": {
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
+    "vencimientoPagare": [],
     "juzgados": [],
     "capitalAdeudado": 0,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-07-25T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "42886",
-    "fechaPresentacion": "2017-07-25T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "FUSAGASUGA",
     "obligacion": [
       15537944,
@@ -22,23 +21,24 @@
     "expediente": "25290400300120170043700"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "ramiro",
-    "segundoNombre": "cristancho",
-    "primerApellido": "contreras",
+    "primerNombre": "RAMIRO",
+    "segundoNombre": "CRISTANCHO",
+    "primerApellido": "CONTRERAS",
     "segundoApellido": null,
     "cedula": 11309242,
-    "direccion": "calle 522 -68 fusagasuga",
+    "direccion": "CALLE 522 -68 fusagasuga",
     "email": "edware960720@hotmail.com"
   },
   "cc": 11309242,
-  "nombre": "ramiro cristancho contreras",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "RAMIRO CRISTANCHO CONTRERAS"
 }

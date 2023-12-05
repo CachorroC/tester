@@ -16,7 +16,7 @@
       "idProceso": 132234840,
       "isUltimaAct": true,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     },
     {
       "idRegActuacion": 1937624360,
@@ -34,7 +34,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     },
     {
       "idRegActuacion": 1936886140,
@@ -52,7 +52,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     },
     {
       "idRegActuacion": 1921358410,
@@ -70,7 +70,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     },
     {
       "idRegActuacion": 1844668940,
@@ -88,7 +88,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     },
     {
       "idRegActuacion": 1844668930,
@@ -106,7 +106,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     },
     {
       "idRegActuacion": 1844668920,
@@ -124,7 +124,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     },
     {
       "idRegActuacion": 1844668910,
@@ -142,7 +142,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     },
     {
       "idRegActuacion": 1840762420,
@@ -160,7 +160,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     },
     {
       "idRegActuacion": 1839827160,
@@ -178,7 +178,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-11-30T11:09:51.471Z"
+      "createdAt": "2023-12-03T18:19:10.067Z"
     }
   ],
   "juzgados": [
@@ -192,12 +192,12 @@
   "llaveProceso": "11001418901420230146500",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 24843938,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -209,19 +209,38 @@
     "radicado": "2023 - 01289",
     "expediente": "11001418901420230146500"
   },
+  "fecha": "2023-11-23T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1937624370,
+    "llaveProceso": "11001418901420230146500",
+    "consActuacion": 10,
+    "fechaActuacion": "2023-11-23T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 23/11/2023 a las 19:05:42.",
+    "fechaInicial": "2023-11-24T00:00:00",
+    "fechaFinal": "2023-11-24T00:00:00",
+    "fechaRegistro": "2023-11-23T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10,
+    "idProceso": 132234840,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 5751066,
       "celular": 3126172174
     },
-    "primerNombre": "erli",
-    "segundoNombre": "yaneth",
-    "primerApellido": "oyuela",
-    "segundoApellido": "martinez",
+    "primerNombre": "ERLI",
+    "segundoNombre": "YANETH",
+    "primerApellido": "OYUELA",
+    "segundoApellido": "MARTINEZ",
     "cedula": 53132436,
-    "direccion": "carrera 10 no. 5 - 62 bloque torre 1 apartamento 202 conjunto residencial belverde i del municipio de mosquera",
+    "direccion": "Carrera 10 No. 5 - 62 Bloque Torre 1 Apartamento 202 Conjunto Residencial Belverde I del municipio de Mosquera",
     "email": "capryeyom@hotmail.com"
   },
   "cc": 53132436,
@@ -230,8 +249,8 @@
       "idProceso": 132234840,
       "idConexion": 259,
       "llaveProceso": "11001418901420230146500",
-      "fechaProceso": "2023-08-09T00:00:00",
-      "fechaUltimaActuacion": "2023-11-23T00:00:00",
+      "fechaProceso": "2023-08-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-23T05:00:00.000Z",
       "despacho": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARTHA CECILIA OSPINA ARENAS ",
@@ -239,10 +258,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "erli yaneth oyuela martinez",
   "idProcesos": [
     132234840
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "ERLI YANETH OYUELA MARTINEZ"
 }

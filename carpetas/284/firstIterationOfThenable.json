@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 284,
   "llaveProceso": "25214400300120170070400",
   "demanda": {
@@ -6,11 +7,11 @@
     "juzgados": [],
     "capitalAdeudado": 1548869600,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-27T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-10-10T00:00:00.000Z",
+    "fechaPresentacion": "2017-10-10T05:00:00.000Z",
     "municipio": "COTA",
     "obligacion": [
       300093754
@@ -19,23 +20,24 @@
     "expediente": "25214400300120170070400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "armando",
-    "segundoNombre": "barrios",
-    "primerApellido": "vargas",
+    "primerNombre": "ARMANDO",
+    "segundoNombre": "BARRIOS",
+    "primerApellido": "VARGAS",
     "segundoApellido": null,
     "cedula": 93119101,
-    "direccion": "vereda el time  ( cota )",
+    "direccion": "VEREDA EL TIME  ( COTA )",
     "email": "abarriosleg@yahoo.es"
   },
   "cc": 93119101,
-  "nombre": "armando barrios vargas",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "ARMANDO BARRIOS VARGAS"
 }

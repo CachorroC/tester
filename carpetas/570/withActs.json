@@ -16,7 +16,7 @@
       "idProceso": 132240890,
       "isUltimaAct": true,
       "carpetaNumero": 570,
-      "createdAt": "2023-11-30T11:09:51.278Z"
+      "createdAt": "2023-12-03T18:19:09.687Z"
     },
     {
       "idRegActuacion": 1880990350,
@@ -34,7 +34,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-11-30T11:09:51.278Z"
+      "createdAt": "2023-12-03T18:19:09.687Z"
     },
     {
       "idRegActuacion": 1880990340,
@@ -52,7 +52,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-11-30T11:09:51.278Z"
+      "createdAt": "2023-12-03T18:19:09.687Z"
     },
     {
       "idRegActuacion": 1880990330,
@@ -70,7 +70,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-11-30T11:09:51.278Z"
+      "createdAt": "2023-12-03T18:19:09.687Z"
     },
     {
       "idRegActuacion": 1841783240,
@@ -88,7 +88,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-11-30T11:09:51.278Z"
+      "createdAt": "2023-12-03T18:19:09.687Z"
     },
     {
       "idRegActuacion": 1840069600,
@@ -106,7 +106,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-11-30T11:09:51.278Z"
+      "createdAt": "2023-12-03T18:19:09.687Z"
     }
   ],
   "juzgados": [
@@ -120,12 +120,12 @@
   "llaveProceso": "11001418907520230016700",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 19170517,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-04T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -137,19 +137,38 @@
     "radicado": "2023 - 01465",
     "expediente": "11001418907520230016700"
   },
+  "fecha": "2023-09-22T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1880990360,
+    "llaveProceso": "11001418907520230016700",
+    "consActuacion": 6,
+    "fechaActuacion": "2023-09-22T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 22/09/2023 a las 18:26:58.",
+    "fechaInicial": "2023-09-25T00:00:00",
+    "fechaFinal": "2023-09-25T00:00:00",
+    "fechaRegistro": "2023-09-22T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6,
+    "idProceso": 132240890,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 2977768,
       "celular": 3163096532
     },
-    "primerNombre": "martha",
-    "segundoNombre": "cecilia",
-    "primerApellido": "ospina",
-    "segundoApellido": "arenas",
+    "primerNombre": "MARTHA",
+    "segundoNombre": "CECILIA",
+    "primerApellido": "OSPINA",
+    "segundoApellido": "ARENAS",
     "cedula": 21386342,
-    "direccion": "av suba no. 136-80 bl b ap 502 cerros de suba – gratamira //kr 75 no. 65 - 78 ap 402 edificio montreal p.h. medellín // vereda potrerito ?",
+    "direccion": "Av Suba No. 136-80 Bl B Ap 502 Cerros de Suba – Gratamira //Kr 75 No. 65 - 78 Ap 402 Edificio Montreal P.H. Medellín // Vereda Potrerito ?",
     "email": "martacospina@hotmail.com"
   },
   "cc": 21386342,
@@ -158,8 +177,8 @@
       "idProceso": 132240890,
       "idConexion": 259,
       "llaveProceso": "11001418907520230016700",
-      "fechaProceso": "2023-08-09T00:00:00",
-      "fechaUltimaActuacion": "2023-09-22T00:00:00",
+      "fechaProceso": "2023-08-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-09-22T05:00:00.000Z",
       "despacho": "JUZGADO 075 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA PATRICIA SILVARA RODRIGUEZ ",
@@ -167,10 +186,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "martha cecilia ospina arenas",
   "idProcesos": [
     132240890
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "MARTHA CECILIA OSPINA ARENAS"
 }

@@ -8,11 +8,11 @@
     "juzgados": [],
     "capitalAdeudado": 47820559,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-23T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
       180394
@@ -21,23 +21,22 @@
     "expediente": "2575440030012017024900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 3156448,
       "celular": 3156448156
     },
-    "primerNombre": "victor",
-    "segundoNombre": "triana",
-    "primerApellido": "alarcon",
+    "primerNombre": "VICTOR",
+    "segundoNombre": "TRIANA",
+    "primerApellido": "ALARCON",
     "segundoApellido": null,
     "cedula": 79988076,
-    "direccion": "calle 136 # 157 - 91",
+    "direccion": "CALLE 136 # 157 - 91",
     "email": "g.o75@hotmail.com"
   },
   "cc": 79988076,
-  "nombre": "victor triana alarcon",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "nombre": "VICTOR TRIANA ALARCON"
 }

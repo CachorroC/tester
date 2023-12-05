@@ -1,9 +1,108 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 696659850,
+      "llaveProceso": "11001400302320170145200",
+      "consActuacion": 5,
+      "fechaActuacion": "2018-03-23T05:00:00.000Z",
+      "actuacion": "Envío Expediente",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-03-23T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 50915500,
+      "isUltimaAct": true,
+      "carpetaNumero": 360,
+      "createdAt": "2023-12-03T18:18:06.712Z"
+    },
+    {
+      "idRegActuacion": 696659840,
+      "llaveProceso": "11001400302320170145200",
+      "consActuacion": 4,
+      "fechaActuacion": "2018-01-15T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 15/01/2018 a las 08:22:01.",
+      "fechaInicial": "2018-01-16T05:00:00.000Z",
+      "fechaFinal": "2018-01-16T05:00:00.000Z",
+      "fechaRegistro": "2018-01-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 50915500,
+      "isUltimaAct": false,
+      "carpetaNumero": 360,
+      "createdAt": "2023-12-03T18:18:06.712Z"
+    },
+    {
+      "idRegActuacion": 696659830,
+      "llaveProceso": "11001400302320170145200",
+      "consActuacion": 3,
+      "fechaActuacion": "2018-01-15T05:00:00.000Z",
+      "actuacion": "Auto resuelve Solicitud",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-01-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 50915500,
+      "isUltimaAct": false,
+      "carpetaNumero": 360,
+      "createdAt": "2023-12-03T18:18:06.712Z"
+    },
+    {
+      "idRegActuacion": 696659820,
+      "llaveProceso": "11001400302320170145200",
+      "consActuacion": 2,
+      "fechaActuacion": "2017-12-15T05:00:00.000Z",
+      "actuacion": "Al Despacho Por Reparto",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-12-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 50915500,
+      "isUltimaAct": false,
+      "carpetaNumero": 360,
+      "createdAt": "2023-12-03T18:18:06.712Z"
+    },
+    {
+      "idRegActuacion": 696659810,
+      "llaveProceso": "11001400302320170145200",
+      "consActuacion": 1,
+      "fechaActuacion": "2017-12-15T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 15/12/2017 a las 12:12:47",
+      "fechaInicial": "2017-12-15T05:00:00.000Z",
+      "fechaFinal": "2017-12-15T05:00:00.000Z",
+      "fechaRegistro": "2017-12-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 5,
+      "idProceso": 50915500,
+      "isUltimaAct": false,
+      "carpetaNumero": 360,
+      "createdAt": "2023-12-03T18:18:06.712Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 23,
+      "tipo": "JUZGADO 023 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-23-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 360,
   "llaveProceso": "11001400302320170145200",
   "demanda": {
     "vencimientoPagare": [
-      "2024-03-01T05:00:00.000Z"
+      "2024-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1557678443,
@@ -20,22 +119,41 @@
     "radicado": "2017 - 01452",
     "expediente": "11001400302320170145200"
   },
+  "fecha": "2018-03-23T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 696659850,
+    "llaveProceso": "11001400302320170145200",
+    "consActuacion": 5,
+    "fechaActuacion": "2018-03-23T00:00:00",
+    "actuacion": "Envío Expediente",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-03-23T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 5,
+    "idProceso": 50915500,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 7416881,
       "celular": 3002261859
     },
-    "primerNombre": "nohora",
-    "segundoNombre": "del",
-    "primerApellido": "pilar",
+    "primerNombre": "NOHORA",
+    "segundoNombre": "DEL",
+    "primerApellido": "PILAR",
     "segundoApellido": [
-      "vargas",
-      "bernal"
+      "VARGAS",
+      "BERNAL"
     ],
     "cedula": 52327561,
-    "direccion": "carrera 110 c no 77- 15",
+    "direccion": "CARRERA 110 C No 77- 15",
     "email": "jana578@hotmail.com"
   },
   "cc": 52327561,
@@ -44,8 +162,8 @@
       "idProceso": 50915500,
       "idConexion": 259,
       "llaveProceso": "11001400302320170145200",
-      "fechaProceso": "2017-12-15T00:00:00",
-      "fechaUltimaActuacion": "2018-03-23T00:00:00",
+      "fechaProceso": "2017-12-15T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-23T05:00:00.000Z",
       "despacho": "JUZGADO 023 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NOHORA DEL PILAR  VARGAS BERNAL ",
@@ -53,10 +171,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "nohora del pilar vargas bernal",
   "idProcesos": [
     50915500
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "NOHORA DEL PILAR VARGAS BERNAL"
 }

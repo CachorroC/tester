@@ -1,0 +1,44 @@
+{
+  "numero": 667,
+  "llaveProceso": "SinEspecificar",
+  "demanda": {
+    "vencimientoPagare": [
+      "2041-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      90000162232,
+      233094816
+    ],
+    "radicado": null,
+    "expediente": "SinEspecificar"
+  },
+  "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3143347187
+    },
+    "primerNombre": "EDWIN",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "PIÑEROS",
+    "segundoApellido": "ECHEVERRIA",
+    "cedula": 79975835,
+    "direccion": "Carrera 8 C BIS ESTE No. 38 - 62 Sur //  Calle 39 A SUR No. 8B - 41 ESTE  //",
+    "email": null
+  },
+  "cc": 79975835,
+  "nombre": "EDWIN ALBERTO PIÑEROS ECHEVERRIA"
+}

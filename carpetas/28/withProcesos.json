@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 28,
   "llaveProceso": "25290400300120170036900",
   "demanda": {
     "vencimientoPagare": [
-      "2025-09-01T05:00:00.000Z"
+      "2025-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 0,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-30T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-06-28T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-06-08T00:00:00.000Z",
+    "fechaPresentacion": "2017-08-06T05:00:00.000Z",
     "municipio": "FUSAGASUGA",
     "obligacion": [
       127011
@@ -21,27 +22,27 @@
     "expediente": "25290400300120170036900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 8671269,
       "celular": 3102301734
     },
-    "primerNombre": "maria",
-    "segundoNombre": "socorro",
-    "primerApellido": "torres",
+    "primerNombre": "MARIA",
+    "segundoNombre": "SOCORRO",
+    "primerApellido": "TORRES",
     "segundoApellido": [
-      "de",
-      "gonzalez"
+      "DE",
+      "GONZALEZ"
     ],
     "cedula": 20563933,
-    "direccion": "calle 17 no 8-41 apto 101 fusagasuga",
+    "direccion": "CALLE 17 No 8-41 APTO 101 FUSAGASUGA",
     "email": "anyelicllau2006@hotmail.com"
   },
   "cc": 20563933,
   "procesos": [],
-  "nombre": "maria socorro torres de gonzalez",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "MARIA SOCORRO TORRES DE GONZALEZ"
 }

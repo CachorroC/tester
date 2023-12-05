@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 368,
   "llaveProceso": "25307400300120180006600",
   "demanda": {
     "vencimientoPagare": [
-      "2026-05-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 3630771654,
@@ -21,24 +22,24 @@
     "expediente": "25307400300120180006600"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "carolina",
-    "segundoNombre": "martinez",
-    "primerApellido": "calderon",
+    "primerNombre": "CAROLINA",
+    "segundoNombre": "MARTINEZ",
+    "primerApellido": "CALDERON",
     "segundoApellido": null,
     "cedula": 39577914,
-    "direccion": "carrera 19 no 13-20 girardot",
+    "direccion": "CARRERA 19 No 13-20 GIRARDOT",
     "email": "caro_23mc@hotmail.com"
   },
   "cc": 39577914,
   "procesos": [],
-  "nombre": "carolina martinez calderon",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "CAROLINA MARTINEZ CALDERON"
 }

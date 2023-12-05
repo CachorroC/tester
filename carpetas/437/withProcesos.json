@@ -1,46 +1,47 @@
 {
+  "juzgados": [],
   "numero": 437,
   "llaveProceso": "11001400371520180021200",
   "demanda": {
     "vencimientoPagare": [
-      "2021-05-01T05:00:00.000Z",
-      "2020-11-01T05:00:00.000Z"
+      "2021-01-01T05:00:00.000Z",
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 22725078,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-05-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-05-31T00:00:00.000Z",
-    "etapaProcesal": "1.100141890152018e+22",
+    "mandamientoPago": null,
+    "etapaProcesal": "11001418901520180021200",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRESTAMO",
-      4513073535490930
+      4513070000000000
     ],
     "radicado": "2018 - 00212",
     "expediente": "11001400371520180021200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "javier",
-    "segundoNombre": "antonio",
-    "primerApellido": "zipa",
-    "segundoApellido": "salamanca",
+    "primerNombre": "JAVIER",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "ZIPA",
+    "segundoApellido": "SALAMANCA",
     "cedula": 80162319,
-    "direccion": "carrera 79a no 13-10",
+    "direccion": "CARRERA 79A No 13-10",
     "email": "javierzipa83@hotmail.com"
   },
   "cc": 80162319,
   "procesos": [],
-  "nombre": "javier antonio zipa salamanca",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JAVIER ANTONIO ZIPA SALAMANCA"
 }

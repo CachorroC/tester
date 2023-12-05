@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "QUENIA MILENA ROJAS VELANDIA",
+    "cedula": "24134635",
+    "direccion": "CALLE 172 # 21A - 17",
+    "telefono": "3118661189",
+    "id": 186,
+    "carpetaNumero": 186
+  },
   "numero": 186,
   "llaveProceso": "25175408900220170041200",
   "demanda": {
@@ -6,13 +15,13 @@
       "2021-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 13319130,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-11-08T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2017-08-15T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "CHIA",
     "obligacion": [
       1680097051
@@ -21,30 +30,24 @@
     "expediente": "25175408900220170041200"
   },
   "category": "Reintegra",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "cely",
-    "segundoNombre": "margoth",
-    "primerApellido": "rojas",
-    "segundoApellido": "velandia",
+    "primerNombre": "CELY",
+    "segundoNombre": "MARGOTH",
+    "primerApellido": "ROJAS",
+    "segundoApellido": "VELANDIA",
     "cedula": 24134505,
-    "direccion": "calle 29 a # 2 - 76 apto 304 chia",
+    "direccion": "CALLE 29 A # 2 - 76 APTO 304 CHIA",
     "email": null
-  },
-  "codeudor": {
-    "cedula": 24134635,
-    "direccion": "CALLE 172 # 21A - 17",
-    "nombre": "quenia milena rojas velandia",
-    "telefono": 3118661189
   },
   "cc": 24134505,
   "procesos": [],
-  "nombre": "cely margoth rojas velandia",
   "idProcesos": [],
-  "revisado": false,
-  "terminado": false
+  "nombre": "CELY MARGOTH ROJAS VELANDIA"
 }

@@ -1,9 +1,18 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "LEONARDO AUGUSTO CAMACHO GONZALEZ",
+    "cedula": "19360879",
+    "direccion": "CALLE 4 A No 1-46 CASA 43",
+    "telefono": "8830921 / 3202785286",
+    "id": 478,
+    "carpetaNumero": 478
+  },
   "numero": 478,
   "llaveProceso": "25799418900120180033500",
   "demanda": {
     "vencimientoPagare": [
-      "2019-12-01T05:00:00.000Z"
+      "2019-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1614735900,
@@ -22,29 +31,24 @@
     "expediente": "25799418900120180033500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 8646896,
       "celular": 3202340560
     },
-    "primerNombre": "fabio",
-    "segundoNombre": "hernando",
-    "primerApellido": "pastor",
-    "segundoApellido": "pastor",
+    "primerNombre": "FABIO",
+    "segundoNombre": "HERNANDO",
+    "primerApellido": "PASTOR",
+    "segundoApellido": "PASTOR",
     "cedula": 3199064,
-    "direccion": "carrera 4  no  1f-52  tenjo",
+    "direccion": "CARRERA 4  No  1F-52  TENJO",
     "email": "juristenjo@hotmail.com"
   },
-  "codeudor": {
-    "cedula": 19360879,
-    "direccion": "CALLE 4 A No 1-46 CASA 43",
-    "nombre": "leonardo augusto camacho gonzalez",
-    "telefono": "8830921 / 3202785286"
-  },
   "cc": 3199064,
-  "nombre": "fabio hernando pastor pastor",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "FABIO HERNANDO PASTOR PASTOR"
 }

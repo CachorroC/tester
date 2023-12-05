@@ -1,9 +1,18 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "MARIA LORENA MORALES SEGURA",
+    "cedula": "1033683759",
+    "direccion": "CARRERA 6 No 7B 03 SUR  SOACHA",
+    "telefono": "3134293286",
+    "id": 240,
+    "carpetaNumero": 240
+  },
   "numero": 240,
   "llaveProceso": "25754418900220170082900",
   "demanda": {
     "vencimientoPagare": [
-      "2026-06-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 2161644455,
@@ -12,7 +21,7 @@
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
       140122
@@ -21,29 +30,24 @@
     "expediente": "25754418900220170082900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 5774513,
       "celular": 3134293286
     },
-    "primerNombre": "cesar",
-    "segundoNombre": "alirio",
-    "primerApellido": "moreno",
-    "segundoApellido": "mongui",
+    "primerNombre": "CESAR",
+    "segundoNombre": "ALIRIO",
+    "primerApellido": "MORENO",
+    "segundoApellido": "MONGUI",
     "cedula": 180145973,
-    "direccion": "carrera 8 no 3-33",
+    "direccion": "CARRERA 8 No 3-33",
     "email": "cesarramm09@hotmail.com"
   },
-  "codeudor": {
-    "cedula": 1033683759,
-    "direccion": "CARRERA 6 No 7B 03 SUR  SOACHA",
-    "nombre": "maria lorena morales segura",
-    "telefono": 3134293286
-  },
   "cc": 180145973,
-  "nombre": "cesar alirio moreno mongui",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "CESAR ALIRIO MORENO MONGUI"
 }

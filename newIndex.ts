@@ -1,17 +1,10 @@
 import * as fs from 'fs/promises';
 import Carpetas from './src/data/carpetas';
-import { CarpetaBuilder,  sleep } from './src/models/thenable';
+import {  sleep } from './src/models/thenable';
 import { categoryAssignment } from './src/models/categories';
+import { CarpetaBuilder } from './src/models/carpeta';
 
-const date = new Date();
-console.log(
-  date.setSeconds(
-    date.getSeconds() + 70
-  )
-);
-
-
-async function f () {
+async function f() {
   const newCarpetasMap = new Map<number, CarpetaBuilder>();
 
   const sortedCarpetas = [
@@ -52,6 +45,8 @@ async function f () {
         recursive: true,
       }
     );
+    await thener.getProcesos();
+    await thener.getActuaciones();
 
     const prismaCarpeta = await thener.createPrismaCarpeta();
 
@@ -61,7 +56,6 @@ async function f () {
         prismaCarpeta, null, 2
       ),
     );
-
 
     await fs.writeFile(
       `carpetas/${ thener.numero }/firstIterationOfThenable.json`,
@@ -73,8 +67,6 @@ async function f () {
     await sleep(
       50
     );
-
-    await thener.getProcesos();
 
     fs.writeFile(
       `carpetas/${ thener.numero }/withProcesos.json`,
@@ -88,12 +80,10 @@ async function f () {
         carpeta.numero, thener
       );
 
-
       continue;
     }
-
-    await thener.updatePrismaCarpetawithProcesos();
-    await thener.getActuaciones();
+    /*
+    await thener.updatePrismaCarpetawithProcesos(); */
 
     fs.writeFile(
       `carpetas/${ thener.numero }/withActs.json`,

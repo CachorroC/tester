@@ -16,7 +16,7 @@
       "idProceso": 18597560,
       "isUltimaAct": true,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.109Z"
     },
     {
       "idRegActuacion": 559135740,
@@ -34,7 +34,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.109Z"
     },
     {
       "idRegActuacion": 559135730,
@@ -52,7 +52,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.109Z"
     },
     {
       "idRegActuacion": 557681260,
@@ -70,7 +70,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.109Z"
     },
     {
       "idRegActuacion": 267962680,
@@ -88,7 +88,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.109Z"
     },
     {
       "idRegActuacion": 267962670,
@@ -106,7 +106,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.109Z"
     },
     {
       "idRegActuacion": 267962660,
@@ -124,7 +124,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.109Z"
     },
     {
       "idRegActuacion": 267962650,
@@ -142,7 +142,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.109Z"
     },
     {
       "idRegActuacion": 267962640,
@@ -160,7 +160,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.110Z"
     },
     {
       "idRegActuacion": 267962630,
@@ -178,7 +178,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.110Z"
     },
     {
       "idRegActuacion": 267962620,
@@ -196,7 +196,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.110Z"
     },
     {
       "idRegActuacion": 267962610,
@@ -214,7 +214,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.110Z"
     },
     {
       "idRegActuacion": 267962600,
@@ -232,7 +232,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-11-30T11:09:31.899Z"
+      "createdAt": "2023-12-03T18:18:47.110Z"
     }
   ],
   "juzgados": [
@@ -242,6 +242,14 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-071-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": {
+    "nombre": "OSCAR CASTIBLANCO NIÑO",
+    "cedula": "80441668",
+    "direccion": null,
+    "telefono": "3568112",
+    "id": 482,
+    "carpetaNumero": 482
+  },
   "numero": 482,
   "llaveProceso": "11001400307120180093600",
   "demanda": {
@@ -261,25 +269,39 @@
     "radicado": "2018 - 00936",
     "expediente": "11001400307120180093600"
   },
+  "fecha": "2019-08-14T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 559135750,
+    "llaveProceso": "11001400307120180093600",
+    "consActuacion": 13,
+    "fechaActuacion": "2019-08-14T00:00:00",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "SE PRACTICA DESGLOSE",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2019-08-14T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 13,
+    "idProceso": 18597560,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "claudia",
-    "segundoNombre": "janeth",
-    "primerApellido": "cortes",
-    "segundoApellido": "rosas",
+    "primerNombre": "CLAUDIA",
+    "segundoNombre": "JANETH",
+    "primerApellido": "CORTES",
+    "segundoApellido": "ROSAS",
     "cedula": 52380535,
-    "direccion": "carrera 88d no 6d-27 torre 6 apto 618",
+    "direccion": "CARRERA 88D No 6D-27 TORRE 6 APTO 618",
     "email": "ccortes3500@gmail.com"
-  },
-  "codeudor": {
-    "cedula": 80441668,
-    "nombre": "oscar castiblanco niño",
-    "telefono": 3568112
   },
   "cc": 52380535,
   "procesos": [
@@ -287,8 +309,8 @@
       "idProceso": 18597560,
       "idConexion": 260,
       "llaveProceso": "11001400307120180093600",
-      "fechaProceso": "2018-09-14T00:00:00",
-      "fechaUltimaActuacion": "2019-08-14T00:00:00",
+      "fechaProceso": "2018-09-14T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-08-14T05:00:00.000Z",
       "despacho": "JUZGADO 071 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CLAUDIA JANETH CORTES ROSAS ",
@@ -296,10 +318,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "claudia janeth cortes rosas",
   "idProcesos": [
     18597560
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "CLAUDIA JANETH CORTES ROSAS"
 }

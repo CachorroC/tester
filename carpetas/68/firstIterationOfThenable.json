@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": "11337901",
+    "direccion": null,
+    "telefono": null,
+    "id": 68,
+    "carpetaNumero": 68
+  },
   "numero": 68,
   "llaveProceso": "25899400300220170027000",
   "demanda": {
@@ -6,13 +15,13 @@
       "2031-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 16302625,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-07-13T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-06-22T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "ZIPAQUIRA",
     "obligacion": [
       "320 160226",
@@ -22,26 +31,24 @@
     "expediente": "25899400300220170027000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3114720151
     },
-    "primerNombre": "martha",
-    "segundoNombre": "stella",
-    "primerApellido": "gomez",
-    "segundoApellido": "bolivar",
+    "primerNombre": "MARTHA",
+    "segundoNombre": "STELLA",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "BOLIVAR",
     "cedula": 35412591,
-    "direccion": "carrera 7 no. 25-51 bq/ to 9 apto 104 parque residencial villazo zipaquira",
+    "direccion": "CARRERA 7 No. 25-51 BQ/ TO 9 APTO 104 PARQUE RESIDENCIAL VILLAZO ZIPAQUIRA",
     "email": null
   },
-  "codeudor": {
-    "cedula": 11337901
-  },
   "cc": 35412591,
-  "nombre": "martha stella gomez bolivar",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "MARTHA STELLA GOMEZ BOLIVAR"
 }

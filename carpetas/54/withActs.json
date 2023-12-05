@@ -16,7 +16,7 @@
       "idProceso": 17941680,
       "isUltimaAct": true,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     },
     {
       "idRegActuacion": 265448170,
@@ -34,7 +34,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     },
     {
       "idRegActuacion": 265448160,
@@ -52,7 +52,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     },
     {
       "idRegActuacion": 265448150,
@@ -70,7 +70,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     },
     {
       "idRegActuacion": 265448140,
@@ -88,7 +88,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     },
     {
       "idRegActuacion": 265448130,
@@ -106,7 +106,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     },
     {
       "idRegActuacion": 265448120,
@@ -124,7 +124,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     },
     {
       "idRegActuacion": 265448110,
@@ -142,7 +142,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     },
     {
       "idRegActuacion": 265448100,
@@ -160,7 +160,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     },
     {
       "idRegActuacion": 265448090,
@@ -178,7 +178,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-11-30T11:07:49.258Z"
+      "createdAt": "2023-12-03T18:16:28.144Z"
     }
   ],
   "juzgados": [
@@ -192,16 +192,16 @@
   "llaveProceso": "11001400306420170113800",
   "demanda": {
     "vencimientoPagare": [
-      "2022-04-01T05:00:00.000Z"
+      "2022-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 18400665,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-08-25T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-06-21T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       320095437
@@ -209,19 +209,38 @@
     "radicado": "2017 - 01138",
     "expediente": "11001400306420170113800"
   },
+  "fecha": "2018-04-25T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 265448180,
+    "llaveProceso": "11001400306420170113800",
+    "consActuacion": 10,
+    "fechaActuacion": "2018-04-25T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": "RETIRA DEMANDA DIANA TRIANA SUAREZ AUTORIZADA, SIN COMPENSACION",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-04-25T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10,
+    "idProceso": 17941680,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3138615288
     },
-    "primerNombre": "olga",
+    "primerNombre": "OLGA",
     "segundoNombre": null,
-    "primerApellido": "gallego",
+    "primerApellido": "GALLEGO",
     "segundoApellido": null,
     "cedula": 38261511,
-    "direccion": "carrera 87d no. 48-03 sur//diagonal 49 no. 85-79 sur torre 10 apartamento 2",
+    "direccion": "CARRERA 87D No. 48-03 SUR//DIAGONAL 49 No. 85-79 SUR TORRE 10 APARTAMENTO 2",
     "email": "olgagallego63@hotmail.com"
   },
   "cc": 38261511,
@@ -230,8 +249,8 @@
       "idProceso": 17941680,
       "idConexion": 260,
       "llaveProceso": "11001400306420170113800",
-      "fechaProceso": "2017-08-22T00:00:00",
-      "fechaUltimaActuacion": "2018-04-25T00:00:00",
+      "fechaProceso": "2017-08-22T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-04-25T05:00:00.000Z",
       "despacho": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OLGA GALLEGO ",
@@ -239,10 +258,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "olga gallego",
   "idProcesos": [
     17941680
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "OLGA GALLEGO"
 }

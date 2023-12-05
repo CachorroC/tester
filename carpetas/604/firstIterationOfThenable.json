@@ -1,0 +1,42 @@
+{
+  "numero": 604,
+  "llaveProceso": "SinEspecificar",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "SOACHA",
+    "obligacion": [
+      2210097142
+    ],
+    "radicado": null,
+    "expediente": "SinEspecificar"
+  },
+  "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3197613676
+    },
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "MONCADA",
+    "segundoApellido": "MORALES",
+    "cedula": 3010366,
+    "direccion": "Carrera 3 B No. 24 A 57 Barrio Camilo Torres Sector 2 de la ciudad de Soacha (Cundinamrca)",
+    "email": "carlosalbertomoncada63@gmail.com"
+  },
+  "cc": 3010366,
+  "nombre": "CARLOS ALBERTO MONCADA MORALES"
+}

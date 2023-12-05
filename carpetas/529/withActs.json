@@ -16,7 +16,7 @@
       "idProceso": 66898433,
       "isUltimaAct": true,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 894580873,
@@ -34,7 +34,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 894580863,
@@ -52,7 +52,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 893025103,
@@ -70,7 +70,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 886333993,
@@ -88,7 +88,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 886333983,
@@ -106,7 +106,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 843644673,
@@ -124,7 +124,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 843464713,
@@ -142,7 +142,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 841592803,
@@ -160,7 +160,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 841592793,
@@ -178,7 +178,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 838670823,
@@ -196,7 +196,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     },
     {
       "idRegActuacion": 838260823,
@@ -214,7 +214,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-11-30T11:09:43.398Z"
+      "createdAt": "2023-12-03T18:18:58.379Z"
     }
   ],
   "juzgados": [
@@ -224,6 +224,14 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-52-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": {
+    "nombre": "SUSANA CONTRERAS POVEDA",
+    "cedula": "35402673",
+    "direccion": "TRANS 60 No 119-30 apto 418 t 5",
+    "telefono": "8060779",
+    "id": 529,
+    "carpetaNumero": 529
+  },
   "numero": 529,
   "llaveProceso": "11001400305220190110300",
   "demanda": {
@@ -246,26 +254,39 @@
     "radicado": "2019 - 01103",
     "expediente": "11001400305220190110300"
   },
+  "fecha": "2020-02-06T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 895745473,
+    "llaveProceso": "11001400305220190110300",
+    "consActuacion": 12,
+    "fechaActuacion": "2020-02-06T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": "renuncia a terminos y retira apoderada demandante ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2020-02-06T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 12,
+    "idProceso": 66898433,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "gonzalo",
-    "segundoNombre": "contreras",
-    "primerApellido": "poveda",
+    "primerNombre": "GONZALO",
+    "segundoNombre": "CONTRERAS",
+    "primerApellido": "POVEDA",
     "segundoApellido": null,
     "cedula": 2976219,
-    "direccion": "carrera 39 b no 20t-1 apto 303",
+    "direccion": "CARRERA 39 B No 20T-1 APTO 303",
     "email": "gcontreras@intecq.com"
-  },
-  "codeudor": {
-    "cedula": 35402673,
-    "direccion": "TRANS 60 No 119-30 apto 418 t 5",
-    "nombre": "susana contreras poveda",
-    "telefono": 8060779
   },
   "cc": 2976219,
   "procesos": [
@@ -273,8 +294,8 @@
       "idProceso": 66898433,
       "idConexion": 261,
       "llaveProceso": "11001400305220190110300",
-      "fechaProceso": "2019-11-26T00:00:00",
-      "fechaUltimaActuacion": "2020-02-06T00:00:00",
+      "fechaProceso": "2019-11-26T05:00:00.000Z",
+      "fechaUltimaActuacion": "2020-02-06T05:00:00.000Z",
       "despacho": "JUZGADO 052 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SUSANA CONTRERAS POVEDA | Demandado: GONZALO CONTRERAS  POVEDA ",
@@ -282,10 +303,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "gonzalo contreras poveda",
   "idProcesos": [
     66898433
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "GONZALO CONTRERAS POVEDA"
 }

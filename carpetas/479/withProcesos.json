@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 479,
   "llaveProceso": "25785418900120180017100",
   "demanda": {
@@ -13,31 +14,31 @@
     "fechaPresentacion": "2018-06-09T05:00:00.000Z",
     "municipio": "TABIO",
     "obligacion": [
-      4594250481433800,
-      5303720342826530
+      4594250000000000,
+      5303720000000000
     ],
     "radicado": "2018 - 00171",
     "expediente": "25785418900120180017100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "tania",
-    "segundoNombre": "consuelo",
-    "primerApellido": "botia",
-    "segundoApellido": "correa",
+    "primerNombre": "TANIA",
+    "segundoNombre": "CONSUELO",
+    "primerApellido": "BOTIA",
+    "segundoApellido": "CORREA",
     "cedula": 39809183,
-    "direccion": "calle 8 no 0-105  tabio",
+    "direccion": "CALLE 8 No 0-105  TABIO",
     "email": "tani_botia@hotmail.com"
   },
   "cc": 39809183,
   "procesos": [],
-  "nombre": "tania consuelo botia correa",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "TANIA CONSUELO BOTIA CORREA"
 }

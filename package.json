@@ -2,7 +2,7 @@
   "name": "tester",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "ts-node index.ts > output"
+    "start": "ts-node newIndex.ts > output"
   },
   "dependencies": {
     "@koa/router": "^12.0.1",

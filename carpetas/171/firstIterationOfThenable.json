@@ -1,18 +1,26 @@
 {
+  "actuaciones": [],
+  "juzgados": [
+    {
+      "id": 86,
+      "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 171,
   "llaveProceso": "11001400308620170086300",
   "demanda": {
     "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 46042338,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12766386
@@ -21,23 +29,39 @@
     "expediente": "11001400308620170086300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "maritza",
-    "segundoNombre": "natali",
-    "primerApellido": "rodriguez",
-    "segundoApellido": "urrea",
+    "primerNombre": "MARITZA",
+    "segundoNombre": "NATALI",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "URREA",
     "cedula": 1024468871,
-    "direccion": "calle 59c sur # 87k - 64 apto 1016",
+    "direccion": "CALLE 59C SUR # 87K - 64 APTO 1016",
     "email": "jlaura00@hotmail.com"
   },
   "cc": 1024468871,
-  "nombre": "maritza natali rodriguez urrea",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [
+    {
+      "idProceso": 81888701,
+      "idConexion": 320,
+      "llaveProceso": "11001400308620170086300",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    81888701
+  ],
+  "nombre": "MARITZA NATALI RODRIGUEZ URREA"
 }

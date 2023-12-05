@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 276,
   "llaveProceso": "25754400300420170038100",
   "demanda": {
     "vencimientoPagare": [
-      "2017-02-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 4608688644,
@@ -21,24 +22,24 @@
     "expediente": "25754400300420170038100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 9008364,
       "celular": 3204283595
     },
-    "primerNombre": "nelson",
-    "segundoNombre": "mayorga",
-    "primerApellido": "gomez",
+    "primerNombre": "NELSON",
+    "segundoNombre": "MAYORGA",
+    "primerApellido": "GOMEZ",
     "segundoApellido": null,
     "cedula": 79200345,
-    "direccion": "carrera 5  no 5 - 30 apartamento 202 soacha",
+    "direccion": "CARRERA 5  No 5 - 30 APARTAMENTO 202 SOACHA",
     "email": "nelson_mayorga@outlook.com"
   },
   "cc": 79200345,
   "procesos": [],
-  "nombre": "nelson mayorga gomez",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "NELSON MAYORGA GOMEZ"
 }

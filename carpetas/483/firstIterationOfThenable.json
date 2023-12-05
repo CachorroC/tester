@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 483,
   "llaveProceso": "11001418903220180137000",
   "demanda": {
     "vencimientoPagare": [
-      "2022-09-01T05:00:00.000Z"
+      "2021-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1413462300,
@@ -21,23 +22,24 @@
     "expediente": "11001418903220180137000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "wilson",
-    "segundoNombre": "ricardo",
-    "primerApellido": "escobar",
-    "segundoApellido": "escobar",
+    "primerNombre": "WILSON",
+    "segundoNombre": "RICARDO",
+    "primerApellido": "ESCOBAR",
+    "segundoApellido": "ESCOBAR",
     "cedula": 19459237,
-    "direccion": "calle 71 a no 69a-11 apto  301",
+    "direccion": "CALLE 71 A No 69A-11 APTO  301",
     "email": null
   },
   "cc": 19459237,
-  "nombre": "wilson ricardo escobar escobar",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "WILSON RICARDO ESCOBAR ESCOBAR"
 }

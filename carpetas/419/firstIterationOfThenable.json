@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 419,
   "llaveProceso": "25175410300120180023700",
   "demanda": {
@@ -6,39 +7,40 @@
       "2015-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 43,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": "43217",
-    "fechaPresentacion": "2018-05-11T00:00:00.000Z",
+    "fechaPresentacion": "2018-11-05T05:00:00.000Z",
     "municipio": "CHIA",
     "obligacion": [
-      5303711851549150,
-      2045362597
+      5303710000000000,
+      "20.453.625"
     ],
     "radicado": "2018 - 00237",
     "expediente": "25175410300120180023700"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "alvaro",
-    "segundoNombre": "hernan",
-    "primerApellido": "ruiz",
-    "segundoApellido": "hernandez",
+    "primerNombre": "ALVARO",
+    "segundoNombre": "HERNAN",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "HERNANDEZ",
     "cedula": 73133278,
     "direccion": null,
     "email": "CALLE 1 SUR No 5A- 179 CASA 26"
   },
   "cc": 73133278,
-  "nombre": "alvaro hernan ruiz hernandez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "ALVARO HERNAN RUIZ HERNANDEZ"
 }

@@ -1,0 +1,38 @@
+{
+  "numero": 670,
+  "llaveProceso": "SinEspecificar",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [],
+    "radicado": null,
+    "expediente": "SinEspecificar"
+  },
+  "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "JOJAN",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "LOPEZ",
+    "segundoApellido": "PARADA",
+    "cedula": 1015458592,
+    "direccion": null,
+    "email": null
+  },
+  "cc": 1015458592,
+  "nombre": "JOJAN ANDRES LOPEZ PARADA"
+}

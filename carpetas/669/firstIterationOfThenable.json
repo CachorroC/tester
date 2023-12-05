@@ -1,0 +1,44 @@
+{
+  "numero": 669,
+  "llaveProceso": "SinEspecificar",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-01-01T05:00:00.000Z",
+      "2023-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      "Q 0000000079405797027001",
+      4670094552
+    ],
+    "radicado": null,
+    "expediente": "SinEspecificar"
+  },
+  "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3124704850
+    },
+    "primerNombre": "ELKIN",
+    "segundoNombre": "CARRILLO",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": null,
+    "cedula": 79405797,
+    "direccion": "Carrera 59 B No. 52B - 17 Sur",
+    "email": "elkincar07@hotmail.com // elkincar66@hotmail.com"
+  },
+  "cc": 79405797,
+  "nombre": "ELKIN CARRILLO MARTINEZ"
+}

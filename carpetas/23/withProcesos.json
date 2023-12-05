@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 23,
   "llaveProceso": "25307400300120170033700",
   "demanda": {
     "vencimientoPagare": [
-      "2017-04-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-07-26T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "GIRARDOT",
     "obligacion": [
       12517400,
@@ -22,24 +23,24 @@
     "expediente": "25307400300120170033700"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3186899839
     },
-    "primerNombre": "eder",
-    "segundoNombre": "alexis",
-    "primerApellido": "herrera",
-    "segundoApellido": "saenz",
+    "primerNombre": "EDER",
+    "segundoNombre": "ALEXIS",
+    "primerApellido": "HERRERA",
+    "segundoApellido": "SAENZ",
     "cedula": 11207272,
-    "direccion": "manzana d cs 8 diamante girardot",
+    "direccion": "MANZANA D CS 8 DIAMANTE GIRARDOT",
     "email": "karendiaz@hotmail.com"
   },
   "cc": 11207272,
   "procesos": [],
-  "nombre": "eder alexis herrera saenz",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "EDER ALEXIS HERRERA SAENZ"
 }

@@ -1,14 +1,15 @@
 {
+  "juzgados": [],
   "numero": 185,
   "llaveProceso": "25754400300320170028300",
   "demanda": {
     "vencimientoPagare": [],
     "juzgados": [],
-    "capitalAdeudado": 4126227597,
+    "capitalAdeudado": 41262275,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-11T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-11-08T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-08-28T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
     "municipio": "SOACHA",
@@ -19,24 +20,24 @@
     "expediente": "25754400300320170028300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 3351000,
       "celular": 3103397090
     },
-    "primerNombre": "william",
-    "segundoNombre": "giovanni",
-    "primerApellido": "dorado",
-    "segundoApellido": "fernandez",
+    "primerNombre": "WILLIAM",
+    "segundoNombre": "GIOVANNI",
+    "primerApellido": "DORADO",
+    "segundoApellido": "FERNANDEZ",
     "cedula": 10294828,
-    "direccion": "carrera 4 este # 38 - 56",
+    "direccion": "CARRERA 4 ESTE # 38 - 56",
     "email": "willdany@hotmail.com"
   },
   "cc": 10294828,
   "procesos": [],
-  "nombre": "william giovanni dorado fernandez",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "WILLIAM GIOVANNI DORADO FERNANDEZ"
 }

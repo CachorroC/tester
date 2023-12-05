@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 362,
   "llaveProceso": "25754400300220180003100",
   "demanda": {
     "vencimientoPagare": [
-      "2036-07-01T05:00:00.000Z"
+      "2036-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 4226961,
@@ -21,23 +22,24 @@
     "expediente": "25754400300220180003100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 7553091,
       "celular": 3007553091
     },
-    "primerNombre": "yaneth",
-    "segundoNombre": "hernandez",
-    "primerApellido": "suarez",
+    "primerNombre": "YANETH",
+    "segundoNombre": "HERNANDEZ",
+    "primerApellido": "SUAREZ",
     "segundoApellido": null,
     "cedula": 52031089,
-    "direccion": "carrera 80 j no 73-27",
+    "direccion": "CARRERA 80 J No 73-27",
     "email": "HERNANDEZ_YANETH@HOTMAIL.COM"
   },
   "cc": 52031089,
-  "nombre": "yaneth hernandez suarez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "YANETH HERNANDEZ SUAREZ"
 }

@@ -1,6 +1,6 @@
 {
   "numero": 549,
-  "llaveProceso": null,
+  "llaveProceso": "SinEspecificar",
   "demanda": {
     "vencimientoPagare": [],
     "juzgados": [],
@@ -14,26 +14,25 @@
     "municipio": "BOGOTA",
     "obligacion": [],
     "radicado": "SIN NUMERO",
-    "expediente": null
+    "expediente": "SinEspecificar"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jose",
-    "segundoNombre": "antonio",
-    "primerApellido": "bejarano",
-    "segundoApellido": "carreño",
+    "primerNombre": "JOSE",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "BEJARANO",
+    "segundoApellido": "CARREÑO",
     "cedula": 79405147,
     "direccion": null,
     "email": null
   },
   "cc": 79405147,
-  "nombre": "jose antonio bejarano carreño",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "nombre": "JOSE ANTONIO BEJARANO CARREÑO"
 }

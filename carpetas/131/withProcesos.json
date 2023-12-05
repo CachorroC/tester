@@ -1,47 +1,53 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "45026",
+    "telefono": null,
+    "id": 131,
+    "carpetaNumero": 131
+  },
   "numero": 131,
   "llaveProceso": "25754418900120170077400",
   "demanda": {
     "vencimientoPagare": [
-      "2019-12-01T05:00:00.000Z"
+      "2192-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 43,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": "42965",
-    "fechaPresentacion": "2017-09-05T00:00:00.000Z",
+    "fechaPresentacion": "2017-05-09T05:00:00.000Z",
     "municipio": "SOACHA",
     "obligacion": [
-      1692466277
+      16924662
     ],
     "radicado": "2017 - 00774",
     "expediente": "25754418900120170077400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "rocio",
-    "segundoNombre": "aleida",
-    "primerApellido": "ortiz",
-    "segundoApellido": "barreto",
+    "primerNombre": "ROCIO",
+    "segundoNombre": "ALEIDA",
+    "primerApellido": "ORTIZ",
+    "segundoApellido": "BARRETO",
     "cedula": 52830770,
     "direccion": null,
     "email": "CARRERA 9 ESTE # 36 - 40 CASA 34"
   },
-  "codeudor": {
-    "direccion": 45026
-  },
   "cc": 52830770,
   "procesos": [],
-  "nombre": "rocio aleida ortiz barreto",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "ROCIO ALEIDA ORTIZ BARRETO"
 }

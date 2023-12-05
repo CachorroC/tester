@@ -1,12 +1,13 @@
 {
+  "juzgados": [],
   "numero": 395,
   "llaveProceso": "11001400308420180009000",
   "demanda": {
     "vencimientoPagare": [
-      "2018-09-01T05:00:00.000Z"
+      "2018-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 1397455400,
+    "capitalAdeudado": 13974554,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -21,24 +22,24 @@
     "expediente": "11001400308420180009000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jorge",
-    "segundoNombre": "bermeo",
-    "primerApellido": "rojas",
+    "primerNombre": "JORGE",
+    "segundoNombre": "BERMEO",
+    "primerApellido": "ROJAS",
     "segundoApellido": null,
     "cedula": 2869326,
-    "direccion": "carrera 59 a no 136- 25 apartamento 302 bogota",
+    "direccion": "CARRERA 59 A No 136- 25 APARTAMENTO 302 BOGOTA",
     "email": "jbermeo01@hotmail.com"
   },
   "cc": 2869326,
   "procesos": [],
-  "nombre": "jorge bermeo rojas",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JORGE BERMEO ROJAS"
 }

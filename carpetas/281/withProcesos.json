@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 281,
   "llaveProceso": "25053408900120180004900",
   "demanda": {
@@ -11,7 +12,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "10-10-2017 // 13-03-2018",
+    "etapaProcesal": "10/10/2017 // 13/03/2018",
     "fechaPresentacion": null,
     "municipio": "ARBELAEZ",
     "obligacion": [
@@ -21,24 +22,24 @@
     "expediente": "25053408900120180004900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "yenny",
-    "segundoNombre": "margoth",
-    "primerApellido": "lara",
-    "segundoApellido": "muñoz",
+    "primerNombre": "YENNY",
+    "segundoNombre": "MARGOTH",
+    "primerApellido": "LARA",
+    "segundoApellido": "MUÑOZ",
     "cedula": 1069712582,
     "direccion": null,
     "email": "CALLE 34 No 2 - 15 SOACHA"
   },
   "cc": 1069712582,
   "procesos": [],
-  "nombre": "yenny margoth lara muñoz",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "YENNY MARGOTH LARA MUÑOZ"
 }

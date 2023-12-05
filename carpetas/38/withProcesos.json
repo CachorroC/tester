@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 38,
   "llaveProceso": "25785418900120170010200",
   "demanda": {
     "vencimientoPagare": [
-      "2020-03-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 16006640,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-06T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-06-06T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": "2017-06-15T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "TABIO",
     "obligacion": [
       "AUDIOPRESTAMO",
@@ -22,24 +23,24 @@
     "expediente": "25785418900120170010200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3142310966
     },
-    "primerNombre": "luz",
-    "segundoNombre": "miryam",
-    "primerApellido": "gutíerrez",
-    "segundoApellido": "martínez",
+    "primerNombre": "LUZ",
+    "segundoNombre": "MIRYAM",
+    "primerApellido": "GUTÍERREZ",
+    "segundoApellido": "MARTÍNEZ",
     "cedula": 39808625,
-    "direccion": "calle 2 no. 1-24 casa 2 tabio",
+    "direccion": "CALLE 2 No. 1-24 CASA 2 TABIO",
     "email": "hjg296@hotmail.com"
   },
   "cc": 39808625,
   "procesos": [],
-  "nombre": "luz miryam gutíerrez martínez",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "LUZ MIRYAM GUTÍERREZ MARTÍNEZ"
 }

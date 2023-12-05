@@ -1,17 +1,18 @@
 {
+  "juzgados": [],
   "numero": 386,
   "llaveProceso": "25269400300120170074400",
   "demanda": {
     "vencimientoPagare": [
-      "2020-11-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 26468936,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-16T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "2.526940890012017e+22",
+    "etapaProcesal": "25269408900120170074400",
     "fechaPresentacion": null,
     "municipio": "FACATATIVA",
     "obligacion": [
@@ -21,23 +22,24 @@
     "expediente": "25269400300120170074400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "alexander",
-    "segundoNombre": "prada",
-    "primerApellido": "palmar",
+    "primerNombre": "ALEXANDER",
+    "segundoNombre": "PRADA",
+    "primerApellido": "PALMAR",
     "segundoApellido": null,
     "cedula": 1070950842,
-    "direccion": "carrera 4 b  sur no 4 - 30  facatativa",
+    "direccion": "CARRERA 4 B  SUR No 4 - 30  FACATATIVA",
     "email": "pradalexander@hotmail.com"
   },
   "cc": 1070950842,
-  "nombre": "alexander prada palmar",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "ALEXANDER PRADA PALMAR"
 }

@@ -16,7 +16,7 @@
       "idProceso": 51786190,
       "isUltimaAct": true,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     },
     {
       "idRegActuacion": 859492650,
@@ -34,7 +34,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     },
     {
       "idRegActuacion": 859492640,
@@ -52,7 +52,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     },
     {
       "idRegActuacion": 859492630,
@@ -70,7 +70,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     },
     {
       "idRegActuacion": 859492620,
@@ -88,7 +88,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     },
     {
       "idRegActuacion": 859492610,
@@ -106,7 +106,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     },
     {
       "idRegActuacion": 859492600,
@@ -124,7 +124,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     },
     {
       "idRegActuacion": 859492590,
@@ -142,7 +142,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     },
     {
       "idRegActuacion": 859492580,
@@ -160,7 +160,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     },
     {
       "idRegActuacion": 859492570,
@@ -178,7 +178,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-11-30T11:09:40.699Z"
+      "createdAt": "2023-12-03T18:18:55.211Z"
     }
   ],
   "juzgados": [
@@ -202,25 +202,44 @@
     "fechaPresentacion": "2019-01-02T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
-      3778164677886080,
-      530372013262050
+      3778160000000000,
+      530372000000000
     ],
     "radicado": "2019 - 00190",
     "expediente": "11001418901420190019000"
   },
+  "fecha": "2019-09-23T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 565577340,
+    "llaveProceso": "11001418901420190019000",
+    "consActuacion": 10,
+    "fechaActuacion": "2019-09-23T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 152 TERMINADOS ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2019-09-23T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10,
+    "idProceso": 51786190,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "alvaro",
-    "segundoNombre": "luis",
-    "primerApellido": "asprilla",
-    "segundoApellido": "lucumi",
+    "primerNombre": "ALVARO",
+    "segundoNombre": "LUIS",
+    "primerApellido": "ASPRILLA",
+    "segundoApellido": "LUCUMI",
     "cedula": 79245905,
-    "direccion": "calle 116 a- 70g-48 apto 204",
+    "direccion": "CALLE 116 A- 70G-48 APTO 204",
     "email": "asplucal@gmail.com"
   },
   "cc": 79245905,
@@ -229,8 +248,8 @@
       "idProceso": 51786190,
       "idConexion": 259,
       "llaveProceso": "11001418901420190019000",
-      "fechaProceso": "2019-03-26T00:00:00",
-      "fechaUltimaActuacion": "2019-09-23T00:00:00",
+      "fechaProceso": "2019-03-26T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-09-23T05:00:00.000Z",
       "despacho": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALVARO LUIS ASPRILLA LUCUMI ",
@@ -238,10 +257,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "alvaro luis asprilla lucumi",
   "idProcesos": [
     51786190
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "ALVARO LUIS ASPRILLA LUCUMI"
 }

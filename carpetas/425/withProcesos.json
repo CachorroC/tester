@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 425,
   "llaveProceso": "11001400307520180067400",
   "demanda": {
     "vencimientoPagare": [
-      "2025-02-01T05:00:00.000Z"
+      "2025-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 2750328322,
+    "capitalAdeudado": 27503283,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-25T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2018-05-23T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2018-05-08T00:00:00.000Z",
+    "fechaPresentacion": "2018-08-05T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       20990126656
@@ -21,28 +22,28 @@
     "expediente": "11001400307520180067400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "raquel",
-    "primerApellido": "lopez",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "RAQUEL",
+    "primerApellido": "LOPEZ",
     "segundoApellido": [
-      "de",
-      "mesa",
-      "oses"
+      "DE",
+      "MESA",
+      "OSES"
     ],
     "cedula": 52498444,
-    "direccion": "carrera 29 no 40 a-53  apto 604",
+    "direccion": "CARRERA 29 No 40 A-53  APTO 604",
     "email": "sandralopezdemesa@hotmail.com"
   },
   "cc": 52498444,
   "procesos": [],
-  "nombre": "sandra raquel lopez de mesa oses",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "SANDRA RAQUEL LOPEZ DE MESA OSES"
 }

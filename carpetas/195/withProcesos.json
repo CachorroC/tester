@@ -1,18 +1,26 @@
 {
+  "codeudor": {
+    "nombre": "JOHANNA ESMERALDA PULIDO DURAN",
+    "cedula": "52347132",
+    "direccion": "CARRERA 6 # 23 - 70 BLOQUE 29 CASA 34",
+    "telefono": "8222969 // 3112842488",
+    "id": 195,
+    "carpetaNumero": 195
+  },
   "numero": 195,
   "llaveProceso": "1100140030122017099100",
   "demanda": {
     "vencimientoPagare": [
-      "2026-05-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 2530306952,
+    "capitalAdeudado": 25303069,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": "2017-08-30T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       138546
@@ -21,29 +29,22 @@
     "expediente": "1100140030122017099100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 4429545,
       "celular": 3118280782
     },
-    "primerNombre": "douglas",
-    "segundoNombre": "fabian",
-    "primerApellido": "siza",
-    "segundoApellido": "cortes",
+    "primerNombre": "DOUGLAS",
+    "segundoNombre": "FABIAN",
+    "primerApellido": "SIZA",
+    "segundoApellido": "CORTES",
     "cedula": 80244664,
-    "direccion": "carrera 95 bis # 90a - 12",
+    "direccion": "CARRERA 95 BIS # 90A - 12",
     "email": "gufo2299@hotmail.com"
   },
-  "codeudor": {
-    "cedula": 52347132,
-    "direccion": "CARRERA 6 # 23 - 70 BLOQUE 29 CASA 34",
-    "nombre": "johanna esmeralda pulido duran",
-    "telefono": "8222969 // 3112842488"
-  },
   "cc": 80244664,
-  "nombre": "douglas fabian siza cortes",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "nombre": "DOUGLAS FABIAN SIZA CORTES"
 }

@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 550,
   "llaveProceso": "25754418900120190091100",
   "demanda": {
@@ -17,24 +18,24 @@
     "expediente": "25754418900120190091100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "miguel",
-    "segundoNombre": "angel",
-    "primerApellido": "aguasaco",
-    "segundoApellido": "peñuela",
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANGEL",
+    "primerApellido": "AGUASACO",
+    "segundoApellido": "PEÑUELA",
     "cedula": 1022336662,
     "direccion": null,
     "email": null
   },
   "cc": 1022336662,
   "procesos": [],
-  "nombre": "miguel angel aguasaco peñuela",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "MIGUEL ANGEL AGUASACO PEÑUELA"
 }

@@ -1,16 +1,17 @@
 {
+  "juzgados": [],
   "numero": 102,
   "llaveProceso": "25245408900120170023900",
   "demanda": {
     "vencimientoPagare": [
-      "2019-07-01T05:00:00.000Z"
+      "2019-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 50000000,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-11-07T00:00:00.000Z",
+    "mandamientoPago": "2017-07-11T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": null,
     "municipio": "MESITAS",
@@ -21,23 +22,24 @@
     "expediente": "25245408900120170023900"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3114456631
     },
-    "primerNombre": "erika",
-    "segundoNombre": "alejandra",
-    "primerApellido": "quintero",
-    "segundoApellido": "reyes",
+    "primerNombre": "ERIKA",
+    "segundoNombre": "ALEJANDRA",
+    "primerApellido": "QUINTERO",
+    "segundoApellido": "REYES",
     "cedula": 1070329396,
-    "direccion": "call 2 no. 8-40 el colegio",
+    "direccion": "CALL 2 No. 8-40 EL COLEGIO",
     "email": null
   },
   "cc": 1070329396,
-  "nombre": "erika alejandra quintero reyes",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "ERIKA ALEJANDRA QUINTERO REYES"
 }

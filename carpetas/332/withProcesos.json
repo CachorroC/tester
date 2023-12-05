@@ -1,14 +1,15 @@
 {
+  "juzgados": [],
   "numero": 332,
   "llaveProceso": "25754400100420180009800",
   "demanda": {
     "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 3803417049,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-08T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-08-11T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -22,24 +23,24 @@
     "expediente": "25754400100420180009800"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 9032416,
       "celular": 3168017488
     },
-    "primerNombre": "miguel",
-    "segundoNombre": "antonio",
-    "primerApellido": "sanchez",
-    "segundoApellido": "marroquin",
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "MARROQUIN",
     "cedula": 91284725,
-    "direccion": "carrera 7 a  no  2 a - 35 torre 10 apartamento 303",
+    "direccion": "CARRERA 7 A  No  2 A - 35 TORRE 10 APARTAMENTO 303",
     "email": "nichemen@hotmail.com"
   },
   "cc": 91284725,
   "procesos": [],
-  "nombre": "miguel antonio sanchez marroquin",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "MIGUEL ANTONIO SANCHEZ MARROQUIN"
 }

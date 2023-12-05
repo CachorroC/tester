@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 316,
   "llaveProceso": "25754400300120170032300",
   "demanda": {
     "vencimientoPagare": [
-      "2030-01-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 44944657,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-11-24T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": "2017-11-01T00:00:00.000Z",
+    "fechaPresentacion": "2017-01-11T05:00:00.000Z",
     "municipio": "SOACHA",
     "obligacion": [
       "180049   53037120066499008",
@@ -22,24 +23,24 @@
     "expediente": "25754400300120170032300"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "manuel",
-    "segundoNombre": "enrique",
-    "primerApellido": "arteaga",
-    "segundoApellido": "orozco",
+    "primerNombre": "MANUEL",
+    "segundoNombre": "ENRIQUE",
+    "primerApellido": "ARTEAGA",
+    "segundoApellido": "OROZCO",
     "cedula": 8799171,
-    "direccion": "carrera 18 b no 4 c -  20  soacha",
+    "direccion": "CARRERA 18 B No 4 C -  20  SOACHA",
     "email": "saliradelante2012@hotmail.com"
   },
   "cc": 8799171,
   "procesos": [],
-  "nombre": "manuel enrique arteaga orozco",
   "idProcesos": [],
-  "revisado": false,
-  "terminado": false
+  "nombre": "MANUEL ENRIQUE ARTEAGA OROZCO"
 }

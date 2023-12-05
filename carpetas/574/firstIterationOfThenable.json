@@ -1,17 +1,18 @@
 {
+  "juzgados": [],
   "numero": 574,
   "llaveProceso": "11001418900920230131000",
   "demanda": {
     "vencimientoPagare": [
-      "2026-04-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 43725000,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-17T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -25,23 +26,24 @@
     "expediente": "11001418900920230131000"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3007547824
     },
-    "primerNombre": "ingrid",
-    "segundoNombre": "lizeth",
-    "primerApellido": "patarroyo",
-    "segundoApellido": "baez",
+    "primerNombre": "INGRID",
+    "segundoNombre": "LIZETH",
+    "primerApellido": "PATARROYO",
+    "segundoApellido": "BAEZ",
     "cedula": 1014214413,
-    "direccion": "carrera 85 l # 63b-42 conjunto residencial portales de villaluz etapa 1",
+    "direccion": "CARRERA 85 L # 63B-42 CONJUNTO RESIDENCIAL PORTALES DE VILLALUZ ETAPA 1",
     "email": "ingridpatarroyobaez@gmail.com"
   },
   "cc": 1014214413,
-  "nombre": "ingrid lizeth patarroyo baez",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "INGRID LIZETH PATARROYO BAEZ"
 }

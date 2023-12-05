@@ -1,14 +1,22 @@
 {
+  "actuaciones": [],
+  "juzgados": [
+    {
+      "id": 1,
+      "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-civil-municipal-de-madrid"
+    }
+  ],
   "numero": 582,
   "llaveProceso": "25430400300120230129500",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 16827889,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-08-24T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -21,18 +29,20 @@
     "expediente": "25430400300120230129500"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3133073186
     },
-    "primerNombre": "pedro",
-    "segundoNombre": "antonio",
-    "primerApellido": "duarte",
-    "segundoApellido": "vargas",
+    "primerNombre": "PEDRO",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "DUARTE",
+    "segundoApellido": "VARGAS",
     "cedula": 7228260,
-    "direccion": "calle 23 no. 12 - 50 bloque 14 apto 15 madrid (cundinamarca)",
+    "direccion": "Calle 23 No. 12 - 50 Bloque 14 Apto 15 Madrid (Cundinamarca)",
     "email": "duartepedroantonio@hotmail.com"
   },
   "cc": 7228260,
@@ -50,10 +60,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "pedro antonio duarte vargas",
   "idProcesos": [
     160042431
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "PEDRO ANTONIO DUARTE VARGAS"
 }

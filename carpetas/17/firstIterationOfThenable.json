@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 17,
   "llaveProceso": "25754418900220170048000",
   "demanda": {
     "vencimientoPagare": [
-      "2025-09-01T05:00:00.000Z"
+      "2025-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 13684674,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-08-22T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
       "2273 320131950"
@@ -21,23 +22,24 @@
     "expediente": "25754418900220170048000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "yedsy",
-    "segundoNombre": "carolay",
-    "primerApellido": "rojas",
-    "segundoApellido": "gamboa",
+    "primerNombre": "YEDSY",
+    "segundoNombre": "CAROLAY",
+    "primerApellido": "ROJAS",
+    "segundoApellido": "GAMBOA",
     "cedula": 52953923,
-    "direccion": "calle 17 no. 24 c-17 sur bogota",
+    "direccion": "CALLE 17 No. 24 C-17 SUR BOGOTA",
     "email": "importex1112@gmail.com"
   },
   "cc": 52953923,
-  "nombre": "yedsy carolay rojas gamboa",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "YEDSY CAROLAY ROJAS GAMBOA"
 }

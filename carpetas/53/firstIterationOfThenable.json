@@ -1,18 +1,27 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "EDGAR BUSTAMANTE ANGEL",
+    "cedula": "79263455",
+    "direccion": "calle 64 no. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60",
+    "telefono": "2241552//3212307798",
+    "id": 53,
+    "carpetaNumero": 53
+  },
   "numero": 53,
   "llaveProceso": "11001400308520170097500",
   "demanda": {
     "vencimientoPagare": [
-      "2025-09-01T05:00:00.000Z"
+      "2025-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 9771290324,
+    "capitalAdeudado": 97712903,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-07-31T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2017-06-21T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "320 131802"
@@ -21,29 +30,24 @@
     "expediente": "11001400308520170097500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3212307798
     },
-    "primerNombre": "diana",
-    "segundoNombre": "marcela",
-    "primerApellido": "sanchez",
-    "segundoApellido": "lozano",
+    "primerNombre": "DIANA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "LOZANO",
     "cedula": 53051476,
-    "direccion": "calle 64 no. 85-60 interior 1 lote 19 manzana 36 urbanizacion la isabela  etapa iicalle 64 i no. 86-60",
+    "direccion": "calle 64 No. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60",
     "email": "dimarce1513@hotmail.com"
   },
-  "codeudor": {
-    "cedula": 79263455,
-    "direccion": "calle 64 no. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60",
-    "nombre": "edgar bustamante angel",
-    "telefono": "2241552//3212307798"
-  },
   "cc": 53051476,
-  "nombre": "diana marcela sanchez lozano",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "DIANA MARCELA SANCHEZ LOZANO"
 }

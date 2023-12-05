@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 5,
   "llaveProceso": "25322418900120170016800",
   "demanda": {
     "vencimientoPagare": [
-      "1934-02-01T05:00:00.000Z"
+      "1934-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 25184150,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-10-05T00:00:00.000Z",
+    "mandamientoPago": "2017-05-10T05:00:00.000Z",
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-06-05T00:00:00.000Z",
+    "fechaPresentacion": "2017-05-06T05:00:00.000Z",
     "municipio": "GUASCA",
     "obligacion": [
       "2273 320172490"
@@ -21,23 +22,24 @@
     "expediente": "25322418900120170016800"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3217662673
     },
-    "primerNombre": "fany",
-    "segundoNombre": "patricia",
-    "primerApellido": "avellaneda",
-    "segundoApellido": "tovar",
+    "primerNombre": "FANY",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "AVELLANEDA",
+    "segundoApellido": "TOVAR",
     "cedula": 20645940,
-    "direccion": "carrera 9 no. 2-03 guasca",
+    "direccion": "CARRERA 9 No. 2-03 GUASCA",
     "email": "patoavella8210@hotmail.com"
   },
   "cc": 20645940,
-  "nombre": "fany patricia avellaneda tovar",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "FANY PATRICIA AVELLANEDA TOVAR"
 }

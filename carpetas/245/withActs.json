@@ -16,7 +16,7 @@
       "idProceso": 9083003,
       "isUltimaAct": true,
       "carpetaNumero": 245,
-      "createdAt": "2023-11-30T11:08:36.436Z"
+      "createdAt": "2023-12-03T18:17:23.805Z"
     },
     {
       "idRegActuacion": 99012263,
@@ -34,7 +34,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-11-30T11:08:36.436Z"
+      "createdAt": "2023-12-03T18:17:23.805Z"
     },
     {
       "idRegActuacion": 99012253,
@@ -52,7 +52,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-11-30T11:08:36.436Z"
+      "createdAt": "2023-12-03T18:17:23.805Z"
     },
     {
       "idRegActuacion": 99012243,
@@ -70,7 +70,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-11-30T11:08:36.436Z"
+      "createdAt": "2023-12-03T18:17:23.805Z"
     },
     {
       "idRegActuacion": 99012233,
@@ -88,7 +88,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-11-30T11:08:36.436Z"
+      "createdAt": "2023-12-03T18:17:23.805Z"
     },
     {
       "idRegActuacion": 99012223,
@@ -106,7 +106,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-11-30T11:08:36.436Z"
+      "createdAt": "2023-12-03T18:17:23.805Z"
     },
     {
       "idRegActuacion": 99012213,
@@ -124,7 +124,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-11-30T11:08:36.436Z"
+      "createdAt": "2023-12-03T18:17:23.805Z"
     },
     {
       "idRegActuacion": 99012203,
@@ -142,7 +142,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-11-30T11:08:36.436Z"
+      "createdAt": "2023-12-03T18:17:23.805Z"
     }
   ],
   "juzgados": [
@@ -152,20 +152,28 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": {
+    "nombre": "LUIS ALONSO GOMEZ DIAS",
+    "cedula": "1061675",
+    "direccion": "TRANSVERSAL 40 No 14-93 TORRE 1 APTO 301 SOACHA",
+    "telefono": "41777788",
+    "id": 245,
+    "carpetaNumero": 245
+  },
   "numero": 245,
   "llaveProceso": "11001400303820170095700",
   "demanda": {
     "vencimientoPagare": [
-      "2022-11-01T05:00:00.000Z"
+      "2022-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 3543272158,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-06-09T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       103058
@@ -173,26 +181,39 @@
     "radicado": "2017 - 00957",
     "expediente": "11001400303820170095700"
   },
+  "fecha": "2017-11-07T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 99012273,
+    "llaveProceso": "11001400303820170095700",
+    "consActuacion": 8,
+    "fechaActuacion": "2017-11-07T00:00:00",
+    "actuacion": "Retiro demanda",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-11-08T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 8,
+    "idProceso": 9083003,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "javier",
-    "segundoNombre": "orlando",
-    "primerApellido": "gomez",
-    "segundoApellido": "diaz",
+    "primerNombre": "JAVIER",
+    "segundoNombre": "ORLANDO",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "DIAZ",
     "cedula": 79893549,
-    "direccion": "calle 76 c sur 1h 27",
+    "direccion": "CALLE 76 C SUR 1H 27",
     "email": "jaorgodi@hotmail.com"
-  },
-  "codeudor": {
-    "cedula": 1061675,
-    "direccion": "TRANSVERSAL 40 No 14-93 TORRE 1 APTO 301 SOACHA",
-    "nombre": "luis alonso gomez dias",
-    "telefono": 41777788
   },
   "cc": 79893549,
   "procesos": [
@@ -200,8 +221,8 @@
       "idProceso": 9083003,
       "idConexion": 261,
       "llaveProceso": "11001400303820170095700",
-      "fechaProceso": "2017-09-20T00:00:00",
-      "fechaUltimaActuacion": "2017-11-07T00:00:00",
+      "fechaProceso": "2017-09-20T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-11-07T05:00:00.000Z",
       "despacho": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAVIER ORLANDO GOMEZ DIAZ | Demandado: LUIS ALONSO GOMEZ DIAZ ",
@@ -209,10 +230,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "javier orlando gomez diaz",
   "idProcesos": [
     9083003
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JAVIER ORLANDO GOMEZ DIAZ"
 }

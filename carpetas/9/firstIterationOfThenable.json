@@ -7,13 +7,13 @@
       "2021-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 78071921,
+    "capitalAdeudado": 7807192168,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-19T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-10-20T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": "2017-09-25T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "2290099308    /2170086682"
@@ -22,23 +22,22 @@
     "expediente": "1100140030442017099800"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 731500,
       "celular": 1020731500
     },
-    "primerNombre": "daniela",
-    "segundoNombre": "alejandra",
-    "primerApellido": "cardenas",
-    "segundoApellido": "rodriguez",
+    "primerNombre": "DANIELA",
+    "segundoNombre": "ALEJANDRA",
+    "primerApellido": "CARDENAS",
+    "segundoApellido": "RODRIGUEZ",
     "cedula": 1020731500,
-    "direccion": "diagonal 77  b no 19 a - 73",
+    "direccion": "DIAGONAL 77  B No 19 A - 73",
     "email": "dany_aleja@hotmail.com"
   },
   "cc": 1020731500,
-  "nombre": "daniela alejandra cardenas rodriguez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "nombre": "DANIELA ALEJANDRA CARDENAS RODRIGUEZ"
 }

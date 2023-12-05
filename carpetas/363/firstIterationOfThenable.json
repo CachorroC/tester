@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "27/07/2028",
+    "telefono": null,
+    "id": 363,
+    "carpetaNumero": 363
+  },
   "numero": 363,
   "llaveProceso": "25754400300220170040900",
   "demanda": {
@@ -11,7 +20,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "12-12-2017",
+    "etapaProcesal": "12/12/2017",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
@@ -22,26 +31,24 @@
     "expediente": "25754400300220170040900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "maria",
-    "segundoNombre": "liliana",
-    "primerApellido": "castañeda",
-    "segundoApellido": "zapata",
+    "primerNombre": "MARIA",
+    "segundoNombre": "LILIANA",
+    "primerApellido": "CASTAÑEDA",
+    "segundoApellido": "ZAPATA",
     "cedula": 52645617,
     "direccion": null,
     "email": "CARRERA 4 A ESTE No 38 - 56 CASA 127 SOACHA"
   },
-  "codeudor": {
-    "direccion": "27-07-2028"
-  },
   "cc": 52645617,
-  "nombre": "maria liliana castañeda zapata",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "MARIA LILIANA CASTAÑEDA ZAPATA"
 }

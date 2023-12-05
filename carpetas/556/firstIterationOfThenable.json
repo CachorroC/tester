@@ -1,16 +1,24 @@
 {
+  "actuaciones": [],
+  "juzgados": [
+    {
+      "id": 1,
+      "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-civil-municipal-de-madrid"
+    }
+  ],
   "numero": 556,
   "llaveProceso": "25430400300120230112700",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 149444779,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -24,23 +32,39 @@
     "expediente": "25430400300120230112700"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3023193548
     },
-    "primerNombre": "ciro",
-    "segundoNombre": "erquilian",
-    "primerApellido": "onofre",
+    "primerNombre": "CIRO",
+    "segundoNombre": "ERQUILIAN",
+    "primerApellido": "ONOFRE",
     "segundoApellido": null,
     "cedula": 1022335014,
-    "direccion": "carrera 13 # 4-20 madrid (cundinamarca)",
+    "direccion": "Carrera 13 # 4-20 Madrid (Cundinamarca)",
     "email": "ciro.onofe1105@gmail.com"
   },
   "cc": 1022335014,
-  "nombre": "ciro erquilian onofre",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [
+    {
+      "idProceso": 159336301,
+      "idConexion": 320,
+      "llaveProceso": "25430400300120230112700",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID ",
+      "departamento": "CUNDINAMARCA",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    159336301
+  ],
+  "nombre": "CIRO ERQUILIAN ONOFRE"
 }

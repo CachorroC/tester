@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 486,
   "llaveProceso": "11001418900520180021000",
   "demanda": {
@@ -19,24 +20,24 @@
     "expediente": "11001418900520180021000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "patricia",
-    "primerApellido": "londoño",
-    "segundoApellido": "murcia",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "LONDOÑO",
+    "segundoApellido": "MURCIA",
     "cedula": 40776578,
-    "direccion": "carrera 26b no 28-30  sur int 2",
+    "direccion": "CARRERA 26B No 28-30  SUR INT 2",
     "email": "salonmur@hotmail.com"
   },
   "cc": 40776578,
   "procesos": [],
-  "nombre": "sandra patricia londoño murcia",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "SANDRA PATRICIA LONDOÑO MURCIA"
 }

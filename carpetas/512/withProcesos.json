@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "09/07/2033",
+    "telefono": null,
+    "id": 512,
+    "carpetaNumero": 512
+  },
   "numero": 512,
   "llaveProceso": "25754418900320180135200",
   "demanda": {
@@ -11,7 +20,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "14-12-2018//13-05-2019",
+    "etapaProcesal": "14/12/2018//13/05/2019",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
@@ -21,27 +30,24 @@
     "expediente": "25754418900320180135200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "milena",
-    "primerApellido": "morales",
-    "segundoApellido": "garcia",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "MORALES",
+    "segundoApellido": "GARCIA",
     "cedula": 1014200510,
     "direccion": null,
     "email": "CALLE 93 No 94 N -16"
   },
-  "codeudor": {
-    "direccion": "09-07-2033"
-  },
   "cc": 1014200510,
   "procesos": [],
-  "nombre": "sandra milena morales garcia",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "SANDRA MILENA MORALES GARCIA"
 }

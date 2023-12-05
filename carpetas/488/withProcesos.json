@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "22/09/2024",
+    "telefono": null,
+    "id": 488,
+    "carpetaNumero": 488
+  },
   "numero": 488,
   "llaveProceso": "11001418901020180083400",
   "demanda": {
@@ -11,7 +20,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "20-09-2018",
+    "etapaProcesal": "20/09/2018",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
@@ -21,27 +30,24 @@
     "expediente": "11001418901020180083400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "milena",
-    "primerApellido": "moreno",
-    "segundoApellido": "campuzano",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "MORENO",
+    "segundoApellido": "CAMPUZANO",
     "cedula": 52837807,
     "direccion": null,
     "email": "CARRERA 69J No 63A- 49"
   },
-  "codeudor": {
-    "direccion": "22-09-2024"
-  },
   "cc": 52837807,
   "procesos": [],
-  "nombre": "sandra milena moreno campuzano",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "SANDRA MILENA MORENO CAMPUZANO"
 }

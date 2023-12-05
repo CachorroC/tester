@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 481,
   "llaveProceso": "11001410375120190027600",
   "demanda": {
@@ -19,27 +20,27 @@
     "expediente": "11001410375120190027600"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 5731671,
       "celular": 3144195480
     },
-    "primerNombre": "willintong",
-    "segundoNombre": "mario",
+    "primerNombre": "WILLINTONG",
+    "segundoNombre": "MARIO",
     "primerApellido": "",
     "segundoApellido": [
-      "yaruro",
-      "peñaranda"
+      "YARURO",
+      "PEÑARANDA"
     ],
     "cedula": 80019013,
-    "direccion": "calle 26 sur no 95a-49 bl 9 apto 102",
+    "direccion": "CALLE 26 SUR No 95A-49 BL 9 APTO 102",
     "email": "willi.1977@hotmail.com"
   },
   "cc": 80019013,
   "procesos": [],
-  "nombre": "willintong mario  yaruro peñaranda",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "WILLINTONG MARIO  YARURO PEÑARANDA"
 }

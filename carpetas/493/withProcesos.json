@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "LEINY ANDREA QUINTERO FIERRO",
+    "cedula": "1030602928",
+    "direccion": "CALLE 7 No 87B-90",
+    "telefono": "3208797",
+    "id": 493,
+    "carpetaNumero": 493
+  },
   "numero": 493,
   "llaveProceso": "11001410375120180181700",
   "demanda": {
@@ -19,30 +28,24 @@
     "expediente": "11001410375120180181700"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "kelly",
-    "segundoNombre": "yuliana",
-    "primerApellido": "quintero",
-    "segundoApellido": "fierro",
+    "primerNombre": "KELLY",
+    "segundoNombre": "YULIANA",
+    "primerApellido": "QUINTERO",
+    "segundoApellido": "FIERRO",
     "cedula": 53103504,
-    "direccion": "calle 7 no 87b-90",
-    "email": "juliana.4455@hotmail.com"
-  },
-  "codeudor": {
-    "cedula": 1030602928,
     "direccion": "CALLE 7 No 87B-90",
-    "nombre": "leiny andrea quintero fierro",
-    "telefono": 3208797
+    "email": "juliana.4455@hotmail.com"
   },
   "cc": 53103504,
   "procesos": [],
-  "nombre": "kelly yuliana quintero fierro",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "KELLY YULIANA QUINTERO FIERRO"
 }

@@ -1,15 +1,15 @@
 {
   "numero": 579,
-  "llaveProceso": null,
+  "llaveProceso": "SinEspecificar",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 20488522,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -20,26 +20,25 @@
       "40733834 X T.C. VISA 4513080401547652"
     ],
     "radicado": null,
-    "expediente": null
+    "expediente": "SinEspecificar"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 8027134,
       "celular": 3108012331
     },
-    "primerNombre": "andrea",
-    "segundoNombre": "carolina",
-    "primerApellido": "diaz",
-    "segundoApellido": "barreto",
+    "primerNombre": "ANDREA",
+    "segundoNombre": "CAROLINA",
+    "primerApellido": "DIAZ",
+    "segundoApellido": "BARRETO",
     "cedula": 1024481233,
-    "direccion": "calle 114 no. 6 a 92",
+    "direccion": "Calle 114 No. 6 A 92",
     "email": "suenopandapijamas@gmail.com"
   },
   "cc": 1024481233,
-  "nombre": "andrea carolina diaz barreto",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "nombre": "ANDREA CAROLINA DIAZ BARRETO"
 }

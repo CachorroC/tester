@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 382,
   "llaveProceso": "25662408900120180000400",
   "demanda": {
     "vencimientoPagare": [
-      "2019-09-01T05:00:00.000Z"
+      "2019-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 11224313,
@@ -21,23 +22,24 @@
     "expediente": "25662408900120180000400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3107518479
     },
-    "primerNombre": "carlos",
-    "segundoNombre": "alberto",
-    "primerApellido": "lancheros",
-    "segundoApellido": "barragan",
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "LANCHEROS",
+    "segundoApellido": "BARRAGAN",
     "cedula": 80403235,
-    "direccion": "carrera 4 no 5 - 02 san juan de rio seco",
+    "direccion": "CARRERA 4 NO 5 - 02 SAN JUAN DE RIO SECO",
     "email": null
   },
   "cc": 80403235,
-  "nombre": "carlos alberto lancheros barragan",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "CARLOS ALBERTO LANCHEROS BARRAGAN"
 }

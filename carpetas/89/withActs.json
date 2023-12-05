@@ -16,7 +16,7 @@
       "idProceso": 18162740,
       "isUltimaAct": true,
       "carpetaNumero": 89,
-      "createdAt": "2023-11-30T11:07:56.495Z"
+      "createdAt": "2023-12-03T18:16:38.861Z"
     },
     {
       "idRegActuacion": 265091210,
@@ -34,7 +34,7 @@
       "idProceso": 18162740,
       "isUltimaAct": false,
       "carpetaNumero": 89,
-      "createdAt": "2023-11-30T11:07:56.495Z"
+      "createdAt": "2023-12-03T18:16:38.861Z"
     },
     {
       "idRegActuacion": 265091200,
@@ -52,7 +52,7 @@
       "idProceso": 18162740,
       "isUltimaAct": false,
       "carpetaNumero": 89,
-      "createdAt": "2023-11-30T11:07:56.495Z"
+      "createdAt": "2023-12-03T18:16:38.861Z"
     },
     {
       "idRegActuacion": 265091190,
@@ -70,7 +70,7 @@
       "idProceso": 18162740,
       "isUltimaAct": false,
       "carpetaNumero": 89,
-      "createdAt": "2023-11-30T11:07:56.495Z"
+      "createdAt": "2023-12-03T18:16:38.861Z"
     },
     {
       "idRegActuacion": 265091180,
@@ -88,7 +88,7 @@
       "idProceso": 18162740,
       "isUltimaAct": false,
       "carpetaNumero": 89,
-      "createdAt": "2023-11-30T11:07:56.495Z"
+      "createdAt": "2023-12-03T18:16:38.861Z"
     },
     {
       "idRegActuacion": 265091170,
@@ -106,7 +106,7 @@
       "idProceso": 18162740,
       "isUltimaAct": false,
       "carpetaNumero": 89,
-      "createdAt": "2023-11-30T11:07:56.495Z"
+      "createdAt": "2023-12-03T18:16:38.861Z"
     },
     {
       "idRegActuacion": 265091160,
@@ -124,7 +124,7 @@
       "idProceso": 18162740,
       "isUltimaAct": false,
       "carpetaNumero": 89,
-      "createdAt": "2023-11-30T11:07:56.495Z"
+      "createdAt": "2023-12-03T18:16:38.861Z"
     },
     {
       "idRegActuacion": 265091150,
@@ -142,7 +142,7 @@
       "idProceso": 18162740,
       "isUltimaAct": false,
       "carpetaNumero": 89,
-      "createdAt": "2023-11-30T11:07:56.495Z"
+      "createdAt": "2023-12-03T18:16:38.861Z"
     }
   ],
   "juzgados": [
@@ -156,12 +156,12 @@
   "llaveProceso": "11001400306520170093400",
   "demanda": {
     "vencimientoPagare": [
-      "2017-06-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 8451598,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "PRENDARIO",
     "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
@@ -173,19 +173,38 @@
     "radicado": "2017 - 00615",
     "expediente": "11001400306520170093400"
   },
+  "fecha": "2017-07-17T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 265091220,
+    "llaveProceso": "11001400306520170093400",
+    "consActuacion": 8,
+    "fechaActuacion": "2017-07-17T00:00:00",
+    "actuacion": "Retiro demanda",
+    "anotacion": "APODERADO PARTE ACTORA MARIA HELENA SUAREZ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-07-17T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 8,
+    "idProceso": 18162740,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "julian",
-    "segundoNombre": "armando",
-    "primerApellido": "acosta",
-    "segundoApellido": "rodriguez",
+    "primerNombre": "JULIAN",
+    "segundoNombre": "ARMANDO",
+    "primerApellido": "ACOSTA",
+    "segundoApellido": "RODRIGUEZ",
     "cedula": 1030551366,
-    "direccion": "carrera 78p bis # 33a - 91 sur",
+    "direccion": "CARRERA 78P BIS # 33A - 91 SUR",
     "email": "jvargas88@hotmail.com"
   },
   "cc": 1030551366,
@@ -194,8 +213,8 @@
       "idProceso": 18162740,
       "idConexion": 260,
       "llaveProceso": "11001400306520170093400",
-      "fechaProceso": "2017-06-21T00:00:00",
-      "fechaUltimaActuacion": "2017-07-17T00:00:00",
+      "fechaProceso": "2017-06-21T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-07-17T05:00:00.000Z",
       "despacho": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JULIAN ARMANDO ACOSTA RODRIGUEZ ",
@@ -203,10 +222,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "julian armando acosta rodriguez",
   "idProcesos": [
     18162740
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JULIAN ARMANDO ACOSTA RODRIGUEZ"
 }

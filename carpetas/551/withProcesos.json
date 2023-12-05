@@ -1,14 +1,15 @@
 {
+  "juzgados": [],
   "numero": 551,
   "llaveProceso": "25312400300320230037100",
   "demanda": {
     "vencimientoPagare": [
-      "2028-03-01T05:00:00.000Z"
+      "2028-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 28018855,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-06-20T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -21,24 +22,24 @@
     "expediente": "25312400300320230037100"
   },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "pedro",
-    "segundoNombre": "jonathan",
-    "primerApellido": "ramirez",
-    "segundoApellido": "gomez",
+    "primerNombre": "PEDRO",
+    "segundoNombre": "JONATHAN",
+    "primerApellido": "RAMIREZ",
+    "segundoApellido": "GOMEZ",
     "cedula": 1075211773,
-    "direccion": "kr 1 2 41 fusagasugá",
+    "direccion": "KR 1 2 41 Fusagasugá",
     "email": "jonathansoldier@hotmail.com"
   },
   "cc": 1075211773,
   "procesos": [],
-  "nombre": "pedro jonathan ramirez gomez",
   "idProcesos": [],
-  "revisado": false,
-  "terminado": false
+  "nombre": "PEDRO JONATHAN RAMIREZ GOMEZ"
 }

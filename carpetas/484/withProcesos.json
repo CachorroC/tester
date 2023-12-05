@@ -1,17 +1,26 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "NELSON MENDEZ VERJAN",
+    "cedula": "14277736",
+    "direccion": "CALLE 68 C No 2-04 SUR ESTE",
+    "telefono": "F 2000631",
+    "id": 484,
+    "carpetaNumero": 484
+  },
   "numero": 484,
   "llaveProceso": "25754418900320190027000",
   "demanda": {
     "vencimientoPagare": [
-      "2032-11-01T05:00:00.000Z"
+      "2032-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 26503795,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "2.575441890032019e+22",
+    "etapaProcesal": "25754418900320190027000",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
@@ -21,33 +30,27 @@
     "expediente": "25754418900320190027000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jenny",
+    "primerNombre": "JENNY",
     "segundoNombre": "",
-    "primerApellido": "andrea",
+    "primerApellido": "ANDREA",
     "segundoApellido": [
-      "avila",
-      "garzon"
+      "AVILA",
+      "GARZON"
     ],
     "cedula": 30339083,
-    "direccion": "carrera 7a no  2-94 sur",
+    "direccion": "CARRERA 7A No  2-94 SUR",
     "email": null
-  },
-  "codeudor": {
-    "cedula": 14277736,
-    "direccion": "CALLE 68 C No 2-04 SUR ESTE",
-    "nombre": "nelson mendez verjan",
-    "telefono": "F 2000631"
   },
   "cc": 30339083,
   "procesos": [],
-  "nombre": "jenny  andrea avila garzon",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JENNY  ANDREA AVILA GARZON"
 }

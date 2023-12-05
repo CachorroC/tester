@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "OSCAR JAVIER PARDO MORENO // ALUEN DAVID RONCANCIO",
+    "cedula": "12198722   // 79858717",
+    "direccion": "CARRERA 70 A No 4-544 APTO 201",
+    "telefono": "45840580  //7495406",
+    "id": 457,
+    "carpetaNumero": 457
+  },
   "numero": 457,
   "llaveProceso": "11001400307920180087200",
   "demanda": {
@@ -8,11 +17,11 @@
     "juzgados": [],
     "capitalAdeudado": 2476547500,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-07-09T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-09-07T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2018-07-18T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRESTAMO",
@@ -22,29 +31,24 @@
     "expediente": "11001400307920180087200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3108881287
     },
-    "primerNombre": "solincon",
+    "primerNombre": "SOLINCON",
     "segundoNombre": null,
-    "primerApellido": "limitada",
+    "primerApellido": "LIMITADA",
     "segundoApellido": null,
     "cedula": 900237555,
-    "direccion": "carrera 58 no 15-54 piso 2",
+    "direccion": "CARRERA 58 No 15-54 PISO 2",
     "email": "solinconltda@yahoo.es"
   },
-  "codeudor": {
-    "cedula": "12198722   // 79858717",
-    "direccion": "CARRERA 70 A No 4-544 APTO 201",
-    "nombre": "oscar javier pardo moreno // aluen david roncancio",
-    "telefono": "45840580  //7495406"
-  },
   "cc": 900237555,
-  "nombre": "solincon limitada",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "SOLINCON LIMITADA"
 }

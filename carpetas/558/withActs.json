@@ -16,7 +16,7 @@
       "idProceso": 132018670,
       "isUltimaAct": true,
       "carpetaNumero": 558,
-      "createdAt": "2023-11-30T11:09:49.502Z"
+      "createdAt": "2023-12-03T18:19:06.737Z"
     },
     {
       "idRegActuacion": 1881358620,
@@ -34,7 +34,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-11-30T11:09:49.502Z"
+      "createdAt": "2023-12-03T18:19:06.737Z"
     },
     {
       "idRegActuacion": 1881358610,
@@ -52,7 +52,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-11-30T11:09:49.502Z"
+      "createdAt": "2023-12-03T18:19:06.737Z"
     },
     {
       "idRegActuacion": 1881358600,
@@ -70,7 +70,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-11-30T11:09:49.502Z"
+      "createdAt": "2023-12-03T18:19:06.737Z"
     },
     {
       "idRegActuacion": 1881358590,
@@ -88,7 +88,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-11-30T11:09:49.502Z"
+      "createdAt": "2023-12-03T18:19:06.737Z"
     },
     {
       "idRegActuacion": 1831766840,
@@ -106,7 +106,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-11-30T11:09:49.502Z"
+      "createdAt": "2023-12-03T18:19:06.737Z"
     },
     {
       "idRegActuacion": 1831766830,
@@ -124,7 +124,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-11-30T11:09:49.502Z"
+      "createdAt": "2023-12-03T18:19:06.737Z"
     }
   ],
   "juzgados": [
@@ -138,13 +138,13 @@
   "llaveProceso": "11001400305920230031500",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 46537671,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -157,19 +157,38 @@
     "radicado": "2023 -  00315",
     "expediente": "11001400305920230031500"
   },
+  "fecha": "2023-10-24T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1935507940,
+    "llaveProceso": "11001400305920230031500",
+    "consActuacion": 7,
+    "fechaActuacion": "2023-10-24T00:00:00",
+    "actuacion": "Recepción memorial",
+    "anotacion": "SOLICITUD OFICIOS ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-17T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 7,
+    "idProceso": 132018670,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3106736494
     },
-    "primerNombre": "claudia",
-    "segundoNombre": "marcela",
-    "primerApellido": "arias",
-    "segundoApellido": "lópez",
+    "primerNombre": "CLAUDIA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "ARIAS",
+    "segundoApellido": "LÓPEZ",
     "cedula": 52531016,
-    "direccion": "calle 18 n 86 55 etapa 1 torre 5 apartamento 403 conjunto residencial parque de ostente",
+    "direccion": "Calle 18 N 86 55 Etapa 1 Torre 5 Apartamento 403 Conjunto Residencial Parque de Ostente",
     "email": "marcearias@yahoo.com"
   },
   "cc": 52531016,
@@ -178,8 +197,8 @@
       "idProceso": 132018670,
       "idConexion": 259,
       "llaveProceso": "11001400305920230031500",
-      "fechaProceso": "2023-08-02T00:00:00",
-      "fechaUltimaActuacion": "2023-10-24T00:00:00",
+      "fechaProceso": "2023-08-02T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-10-24T05:00:00.000Z",
       "despacho": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA  S.A. | Demandado: CLAUDIA MARCELA ARIAS LOPEZ ",
@@ -187,10 +206,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "claudia marcela arias lópez",
   "idProcesos": [
     132018670
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "CLAUDIA MARCELA ARIAS LÓPEZ"
 }

@@ -16,7 +16,7 @@
       "idProceso": 132645230,
       "isUltimaAct": true,
       "carpetaNumero": 578,
-      "createdAt": "2023-11-30T11:09:52.560Z"
+      "createdAt": "2023-12-03T18:19:11.742Z"
     },
     {
       "idRegActuacion": 1872445900,
@@ -34,7 +34,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-11-30T11:09:52.560Z"
+      "createdAt": "2023-12-03T18:19:11.742Z"
     },
     {
       "idRegActuacion": 1872445890,
@@ -52,7 +52,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-11-30T11:09:52.560Z"
+      "createdAt": "2023-12-03T18:19:11.742Z"
     },
     {
       "idRegActuacion": 1872445880,
@@ -70,7 +70,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-11-30T11:09:52.560Z"
+      "createdAt": "2023-12-03T18:19:11.742Z"
     },
     {
       "idRegActuacion": 1855375910,
@@ -88,7 +88,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-11-30T11:09:52.560Z"
+      "createdAt": "2023-12-03T18:19:11.742Z"
     },
     {
       "idRegActuacion": 1855375900,
@@ -106,7 +106,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-11-30T11:09:52.560Z"
+      "createdAt": "2023-12-03T18:19:11.742Z"
     }
   ],
   "juzgados": [
@@ -120,13 +120,13 @@
   "llaveProceso": "11001418904120230021200",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z",
-      "2026-08-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 140332319,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2021-08-18T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -139,19 +139,38 @@
     "radicado": "2023 - 00442",
     "expediente": "11001418904120230021200"
   },
+  "fecha": "2023-09-07T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1872445910,
+    "llaveProceso": "11001418904120230021200",
+    "consActuacion": 6,
+    "fechaActuacion": "2023-09-07T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 07/09/2023 a las 09:58:14.",
+    "fechaInicial": "2023-09-08T00:00:00",
+    "fechaFinal": "2023-09-08T00:00:00",
+    "fechaRegistro": "2023-09-07T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6,
+    "idProceso": 132645230,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3203172020
     },
-    "primerNombre": "diana",
-    "segundoNombre": "cristina",
-    "primerApellido": "arevalo",
-    "segundoApellido": "arboleda",
+    "primerNombre": "DIANA",
+    "segundoNombre": "CRISTINA",
+    "primerApellido": "AREVALO",
+    "segundoApellido": "ARBOLEDA",
     "cedula": 35422519,
-    "direccion": "cl 4 16 10 ap 201 barrio algarra iii",
+    "direccion": "CL 4 16 10 AP 201 Barrio Algarra III",
     "email": "dicrisare@gmail.com"
   },
   "cc": 35422519,
@@ -160,8 +179,8 @@
       "idProceso": 132645230,
       "idConexion": 259,
       "llaveProceso": "11001418904120230021200",
-      "fechaProceso": "2023-08-23T00:00:00",
-      "fechaUltimaActuacion": "2023-09-07T00:00:00",
+      "fechaProceso": "2023-08-23T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-09-07T05:00:00.000Z",
       "despacho": "JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: INDIRA MAYERLY FLOREZ CASTRO ",
@@ -169,10 +188,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "diana cristina arevalo arboleda",
   "idProcesos": [
     132645230
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "DIANA CRISTINA AREVALO ARBOLEDA"
 }

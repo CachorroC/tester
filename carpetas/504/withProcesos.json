@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "22/08/2022",
+    "telefono": null,
+    "id": 504,
+    "carpetaNumero": 504
+  },
   "numero": 504,
   "llaveProceso": "25740410300120180037000",
   "demanda": {
@@ -11,7 +20,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "29-10-2018",
+    "etapaProcesal": "29/10/2018",
     "fechaPresentacion": null,
     "municipio": "SIBATE",
     "obligacion": [
@@ -21,30 +30,27 @@
     "expediente": "25740410300120180037000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "ana",
-    "segundoNombre": "del",
-    "primerApellido": "pilar",
+    "primerNombre": "ANA",
+    "segundoNombre": "DEL",
+    "primerApellido": "PILAR",
     "segundoApellido": [
-      "mendez",
-      "amaya"
+      "MENDEZ",
+      "AMAYA"
     ],
     "cedula": 52432037,
     "direccion": null,
     "email": null
   },
-  "codeudor": {
-    "direccion": "22-08-2022"
-  },
   "cc": 52432037,
   "procesos": [],
-  "nombre": "ana del pilar mendez amaya",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "ANA DEL PILAR MENDEZ AMAYA"
 }

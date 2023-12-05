@@ -1,10 +1,11 @@
 {
+  "juzgados": [],
   "numero": 373,
   "llaveProceso": "25599400300120180000500",
   "demanda": {
     "vencimientoPagare": [],
     "juzgados": [],
-    "capitalAdeudado": 1072569804,
+    "capitalAdeudado": 10725698,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -20,24 +21,24 @@
     "expediente": "25599400300120180000500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3112764286
     },
-    "primerNombre": "rodrigo",
-    "segundoNombre": "alberto",
-    "primerApellido": "ruiz",
-    "segundoApellido": "villalba",
+    "primerNombre": "RODRIGO",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "VILLALBA",
     "cedula": 79616846,
-    "direccion": "carrera 5 # 12 - 53 apulo",
+    "direccion": "CARRERA 5 # 12 - 53 APULO",
     "email": "rodrigo_ruiz33@hotmail.com"
   },
   "cc": 79616846,
   "procesos": [],
-  "nombre": "rodrigo alberto ruiz villalba",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "RODRIGO ALBERTO RUIZ VILLALBA"
 }

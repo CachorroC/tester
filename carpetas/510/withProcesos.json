@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 510,
   "llaveProceso": "25754400300220180041500",
   "demanda": {
     "vencimientoPagare": [
-      "2033-05-01T05:00:00.000Z"
+      "2033-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 4082829900,
@@ -11,7 +12,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
-    "etapaProcesal": "2.575440030022019e+22",
+    "etapaProcesal": "25754400300220190041500",
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
@@ -22,24 +23,24 @@
     "expediente": "25754400300220180041500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "manuel",
-    "segundoNombre": "arnulfo",
-    "primerApellido": "araque",
-    "segundoApellido": "muñoz",
+    "primerNombre": "MANUEL",
+    "segundoNombre": "ARNULFO",
+    "primerApellido": "ARAQUE",
+    "segundoApellido": "MUÑOZ",
     "cedula": 80854028,
-    "direccion": "calle 68 no 81 g-16",
+    "direccion": "CALLE 68 No 81 G-16",
     "email": "huesos254@gmail.com"
   },
   "cc": 80854028,
   "procesos": [],
-  "nombre": "manuel arnulfo araque muñoz",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "MANUEL ARNULFO ARAQUE MUÑOZ"
 }

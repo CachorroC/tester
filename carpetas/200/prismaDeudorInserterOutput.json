@@ -1,1 +1,17 @@
-{"StatusCode":200,"Message":"ok","data":{"id":197,"cedula":"79582683","primerNombre":"alexander","primerApellido":"castañeda","segundoNombre":"rojas","segundoApellido":null,"direccion":"tranversal 16a # 42 - 58 sur","email":"mmx4b@msn.com","telCelular":"3103770989","telFijo":"7600199","carpetaNumero":200}}
+{
+  "StatusCode": 200,
+  "Message": "ok",
+  "data": {
+    "id": 197,
+    "cedula": "79582683",
+    "primerNombre": "alexander",
+    "primerApellido": "castañeda",
+    "segundoNombre": "rojas",
+    "segundoApellido": null,
+    "direccion": "tranversal 16a # 42 - 58 sur",
+    "email": "mmx4b@msn.com",
+    "telCelular": "3103770989",
+    "telFijo": "7600199",
+    "carpetaNumero": 200
+  }
+}

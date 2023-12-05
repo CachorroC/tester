@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "1032416632",
+    "cedula": "CALLE 72B BIS No 5A 22 SUR",
+    "direccion": "7493169 /3185405968",
+    "telefono": "JHONNY HERNANDO BELTRAN SALCEDO",
+    "id": 231,
+    "carpetaNumero": 231
+  },
   "numero": 231,
   "llaveProceso": "11001418900920170008900",
   "demanda": {
@@ -10,7 +19,7 @@
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": "1970-01-01T05:43:20.721Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-09-19T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": null,
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
@@ -22,34 +31,28 @@
     "expediente": "11001418900920170008900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "diana",
-    "segundoNombre": "marcela",
-    "primerApellido": "ipuz",
+    "primerNombre": "DIANA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "IPUZ",
     "segundoApellido": [
-      "suarez",
-      "y",
-      "otro"
+      "SUAREZ",
+      "Y",
+      "OTRO"
     ],
     "cedula": 1022943195,
     "direccion": "marcelaipuzsuarez@hotmail.com",
     "email": "7493169 / 7672067"
   },
-  "codeudor": {
-    "cedula": "CALLE 72B BIS No 5A 22 SUR",
-    "direccion": "7493169 /3185405968",
-    "nombre": 1032416632,
-    "telefono": "JHONNY HERNANDO BELTRAN SALCEDO"
-  },
   "cc": 1022943195,
   "procesos": [],
-  "nombre": "diana marcela ipuz suarez y otro",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "DIANA MARCELA IPUZ SUAREZ Y OTRO"
 }

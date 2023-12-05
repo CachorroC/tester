@@ -3,15 +3,15 @@
   "llaveProceso": "1100140030202100050100",
   "demanda": {
     "vencimientoPagare": [
-      "2020-05-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 115224736,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-21T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-09-27T00:00:00.000Z",
-    "etapaProcesal": "1.100140030632018e+22",
+    "mandamientoPago": null,
+    "etapaProcesal": "11001400306320180065000",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
@@ -22,23 +22,22 @@
     "expediente": "1100140030202100050100"
   },
   "category": "Insolvencia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 3018759,
       "celular": 3118027001
     },
-    "primerNombre": "julio",
-    "segundoNombre": "rene",
-    "primerApellido": "sanchez",
-    "segundoApellido": "argote",
+    "primerNombre": "JULIO",
+    "segundoNombre": "RENE",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "ARGOTE",
     "cedula": 7601476,
-    "direccion": "carrera 90 c no 6a - 31   - casa 148",
+    "direccion": "CARRERA 90 C No 6A - 31   - CASA 148",
     "email": "jsanchezargote@gmail.com"
   },
   "cc": 7601476,
-  "nombre": "julio rene sanchez argote",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "nombre": "JULIO RENE SANCHEZ ARGOTE"
 }

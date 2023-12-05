@@ -1,0 +1,38 @@
+{
+  "numero": 671,
+  "llaveProceso": "SinEspecificar",
+  "demanda": {
+    "vencimientoPagare": [],
+    "juzgados": [],
+    "capitalAdeudado": 0,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [],
+    "radicado": null,
+    "expediente": "SinEspecificar"
+  },
+  "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "ADRIANA",
+    "segundoNombre": "LORENA",
+    "primerApellido": "FERNANDEZ",
+    "segundoApellido": "SIERRA",
+    "cedula": 123456789,
+    "direccion": null,
+    "email": null
+  },
+  "cc": 123456789,
+  "nombre": "ADRIANA LORENA FERNANDEZ SIERRA"
+}

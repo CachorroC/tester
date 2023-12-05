@@ -16,7 +16,7 @@
       "idProceso": 10134513,
       "isUltimaAct": true,
       "carpetaNumero": 212,
-      "createdAt": "2023-11-30T11:08:27.498Z"
+      "createdAt": "2023-12-03T18:17:14.294Z"
     },
     {
       "idRegActuacion": 119895673,
@@ -34,7 +34,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-11-30T11:08:27.498Z"
+      "createdAt": "2023-12-03T18:17:14.294Z"
     },
     {
       "idRegActuacion": 119895663,
@@ -52,7 +52,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-11-30T11:08:27.498Z"
+      "createdAt": "2023-12-03T18:17:14.294Z"
     },
     {
       "idRegActuacion": 119895653,
@@ -70,7 +70,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-11-30T11:08:27.498Z"
+      "createdAt": "2023-12-03T18:17:14.294Z"
     },
     {
       "idRegActuacion": 119895643,
@@ -88,7 +88,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-11-30T11:08:27.498Z"
+      "createdAt": "2023-12-03T18:17:14.294Z"
     },
     {
       "idRegActuacion": 119895633,
@@ -106,7 +106,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-11-30T11:08:27.498Z"
+      "createdAt": "2023-12-03T18:17:14.294Z"
     },
     {
       "idRegActuacion": 119895623,
@@ -124,7 +124,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-11-30T11:08:27.498Z"
+      "createdAt": "2023-12-03T18:17:14.294Z"
     },
     {
       "idRegActuacion": 119895613,
@@ -142,7 +142,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-11-30T11:08:27.498Z"
+      "createdAt": "2023-12-03T18:17:14.294Z"
     }
   ],
   "juzgados": [
@@ -152,20 +152,28 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-46-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": {
+    "nombre": "ANA ISABEL OLIVERA",
+    "cedula": "55057911",
+    "direccion": "CARRERA 566 # 132 - 40",
+    "telefono": "4818738",
+    "id": 212,
+    "carpetaNumero": 212
+  },
   "numero": 212,
   "llaveProceso": "11001400304620170103500",
   "demanda": {
     "vencimientoPagare": [
-      "2017-05-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 1266069889,
+    "capitalAdeudado": 12660698,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-09-04T00:00:00.000Z",
+    "fechaPresentacion": "2017-04-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       99873
@@ -173,26 +181,39 @@
     "radicado": "2017 - 01035",
     "expediente": "11001400304620170103500"
   },
+  "fecha": "2017-11-28T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 119895683,
+    "llaveProceso": "11001400304620170103500",
+    "consActuacion": 8,
+    "fechaActuacion": "2017-11-28T00:00:00",
+    "actuacion": "Retiro demanda",
+    "anotacion": "RETIRA PARTE ACTORA ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-11-28T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 8,
+    "idProceso": 10134513,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "fernando",
-    "segundoNombre": "vera",
-    "primerApellido": "farfan",
+    "primerNombre": "FERNANDO",
+    "segundoNombre": "VERA",
+    "primerApellido": "FARFAN",
     "segundoApellido": null,
     "cedula": 14320811,
-    "direccion": "carrera 145 # 142f - 60  casa 164",
+    "direccion": "CARRERA 145 # 142F - 60  CASA 164",
     "email": "verafarfan@hotmail.com"
-  },
-  "codeudor": {
-    "cedula": 55057911,
-    "direccion": "CARRERA 566 # 132 - 40",
-    "nombre": "ana isabel olivera",
-    "telefono": 4818738
   },
   "cc": 14320811,
   "procesos": [
@@ -200,8 +221,8 @@
       "idProceso": 10134513,
       "idConexion": 261,
       "llaveProceso": "11001400304620170103500",
-      "fechaProceso": "2017-10-09T00:00:00",
-      "fechaUltimaActuacion": "2017-11-28T00:00:00",
+      "fechaProceso": "2017-10-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-11-28T05:00:00.000Z",
       "despacho": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A HITOS | Demandado: ANA ISABEL OLIVERA | Demandado: FERNANDO VERA FARFAN ",
@@ -209,10 +230,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "fernando vera farfan",
   "idProcesos": [
     10134513
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "FERNANDO VERA FARFAN"
 }

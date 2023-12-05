@@ -16,7 +16,7 @@
       "idProceso": 50465740,
       "isUltimaAct": true,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268350,
@@ -34,7 +34,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268340,
@@ -52,7 +52,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268330,
@@ -70,7 +70,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268320,
@@ -88,7 +88,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268310,
@@ -106,7 +106,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268300,
@@ -124,7 +124,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268290,
@@ -142,7 +142,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268280,
@@ -160,7 +160,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268270,
@@ -178,7 +178,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     },
     {
       "idRegActuacion": 638268260,
@@ -196,7 +196,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-11-30T11:07:38.343Z"
+      "createdAt": "2023-12-03T18:16:14.398Z"
     }
   ],
   "juzgados": [
@@ -210,16 +210,16 @@
   "llaveProceso": "11001400301420170066700",
   "demanda": {
     "vencimientoPagare": [
-      "2020-04-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 25758912,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-11T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
     "tipoProceso": "PRENDARIO",
     "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-05-24T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       2008124
@@ -227,19 +227,38 @@
     "radicado": "2017 - 00667",
     "expediente": "11001400301420170066700"
   },
+  "fecha": "2017-08-16T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 638268360,
+    "llaveProceso": "11001400301420170066700",
+    "consActuacion": 11,
+    "fechaActuacion": "2017-08-16T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": "retiro de demanda apoderada",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-08-16T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 11,
+    "idProceso": 50465740,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3106980002
     },
-    "primerNombre": "jose",
-    "segundoNombre": "wilson",
-    "primerApellido": "rojas",
-    "segundoApellido": "valdes",
+    "primerNombre": "JOSE",
+    "segundoNombre": "WILSON",
+    "primerApellido": "ROJAS",
+    "segundoApellido": "VALDES",
     "cedula": 79642493,
-    "direccion": "calle 118 no. 18-65 apto 504 anaya el parque bogota",
+    "direccion": "CALLE 118 No. 18-65 APTO 504 ANAYA EL PARQUE BOGOTA",
     "email": null
   },
   "cc": 79642493,
@@ -248,8 +267,8 @@
       "idProceso": 50465740,
       "idConexion": 259,
       "llaveProceso": "11001400301420170066700",
-      "fechaProceso": "2017-05-25T00:00:00",
-      "fechaUltimaActuacion": "2017-08-16T00:00:00",
+      "fechaProceso": "2017-05-25T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-08-16T05:00:00.000Z",
       "despacho": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE  WILSON ROJAS VALDES ",
@@ -257,10 +276,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "jose wilson rojas valdes",
   "idProcesos": [
     50465740
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JOSE WILSON ROJAS VALDES"
 }

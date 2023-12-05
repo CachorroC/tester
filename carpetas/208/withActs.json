@@ -11,16 +11,16 @@
   "llaveProceso": "25754400300220170026500",
   "demanda": {
     "vencimientoPagare": [
-      "2020-08-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 27819415,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-09-12T00:00:00.000Z",
+    "mandamientoPago": "2017-12-09T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2017-08-28T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
       12725973
@@ -29,18 +29,20 @@
     "expediente": "25754400300220170026500"
   },
   "category": "Reintegra",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jeovany",
-    "segundoNombre": "rojas",
-    "primerApellido": "cruz",
+    "primerNombre": "JEOVANY",
+    "segundoNombre": "ROJAS",
+    "primerApellido": "CRUZ",
     "segundoApellido": null,
     "cedula": 80357801,
-    "direccion": "calle 34 # 1a - 40 casa 247",
+    "direccion": "CALLE 34 # 1A - 40 CASA 247",
     "email": "jeovanyrojas@outlook.com"
   },
   "cc": 80357801,
@@ -49,7 +51,7 @@
       "idProceso": 86374941,
       "idConexion": 320,
       "llaveProceso": "25754400300220170026500",
-      "fechaProceso": "2017-08-31T00:00:00",
+      "fechaProceso": "2017-08-31T05:00:00.000Z",
       "fechaUltimaActuacion": null,
       "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE SOACHA ",
       "departamento": "CUNDINAMARCA",
@@ -58,10 +60,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "jeovany rojas cruz",
   "idProcesos": [
     86374941
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "JEOVANY ROJAS CRUZ"
 }

@@ -1,9 +1,18 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "LUZ MERY SALCEDO ESPINOSA",
+    "cedula": "10336884340",
+    "direccion": "TRANSVERSAL 4B No 3-75 CASA 87",
+    "telefono": "7308097",
+    "id": 489,
+    "carpetaNumero": 489
+  },
   "numero": 489,
   "llaveProceso": "25754418900320180100800",
   "demanda": {
     "vencimientoPagare": [
-      "2025-02-01T05:00:00.000Z"
+      "2025-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 2304170434,
@@ -21,29 +30,24 @@
     "expediente": "25754418900320180100800"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "orlando",
-    "segundoNombre": "silva",
-    "primerApellido": "calderon",
+    "primerNombre": "ORLANDO",
+    "segundoNombre": "SILVA",
+    "primerApellido": "CALDERON",
     "segundoApellido": null,
     "cedula": 80257279,
-    "direccion": "calle 72 g- sur no 35-13 sur",
+    "direccion": "CALLE 72 G- SUR No 35-13 SUR",
     "email": "jjanzola@hotmail.com"
   },
-  "codeudor": {
-    "cedula": 10336884340,
-    "direccion": "TRANSVERSAL 4B No 3-75 CASA 87",
-    "nombre": "luz mery salcedo espinosa",
-    "telefono": 7308097
-  },
   "cc": 80257279,
-  "nombre": "orlando silva calderon",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "ORLANDO SILVA CALDERON"
 }

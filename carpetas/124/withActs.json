@@ -16,7 +16,7 @@
       "idProceso": 50643180,
       "isUltimaAct": true,
       "carpetaNumero": 124,
-      "createdAt": "2023-11-30T11:08:05.395Z"
+      "createdAt": "2023-12-03T18:16:50.053Z"
     },
     {
       "idRegActuacion": 758102530,
@@ -34,7 +34,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-11-30T11:08:05.395Z"
+      "createdAt": "2023-12-03T18:16:50.053Z"
     },
     {
       "idRegActuacion": 758102520,
@@ -52,7 +52,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-11-30T11:08:05.395Z"
+      "createdAt": "2023-12-03T18:16:50.053Z"
     },
     {
       "idRegActuacion": 758102510,
@@ -70,7 +70,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-11-30T11:08:05.395Z"
+      "createdAt": "2023-12-03T18:16:50.053Z"
     },
     {
       "idRegActuacion": 758102500,
@@ -88,7 +88,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-11-30T11:08:05.395Z"
+      "createdAt": "2023-12-03T18:16:50.053Z"
     },
     {
       "idRegActuacion": 758102490,
@@ -106,7 +106,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-11-30T11:08:05.395Z"
+      "createdAt": "2023-12-03T18:16:50.053Z"
     },
     {
       "idRegActuacion": 758102480,
@@ -124,7 +124,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-11-30T11:08:05.395Z"
+      "createdAt": "2023-12-03T18:16:50.053Z"
     },
     {
       "idRegActuacion": 758102470,
@@ -142,7 +142,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-11-30T11:08:05.395Z"
+      "createdAt": "2023-12-03T18:16:50.053Z"
     }
   ],
   "juzgados": [
@@ -159,11 +159,11 @@
     "juzgados": [],
     "capitalAdeudado": 0,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-09T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-09-08T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-08-16T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       153313,
@@ -172,19 +172,38 @@
     "radicado": "2017 - 01180",
     "expediente": "11001400303320170118000"
   },
+  "fecha": "2018-03-24T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 758102540,
+    "llaveProceso": "11001400303320170118000",
+    "consActuacion": 8,
+    "fechaActuacion": "2018-03-24T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 726 - 2018",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-03-24T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 8,
+    "idProceso": 50643180,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 6749599,
       "celular": 3202092701
     },
-    "primerNombre": "blanca",
-    "segundoNombre": "edelmira",
-    "primerApellido": "arias",
-    "segundoApellido": "melo",
+    "primerNombre": "BLANCA",
+    "segundoNombre": "EDELMIRA",
+    "primerApellido": "ARIAS",
+    "segundoApellido": "MELO",
     "cedula": 40025572,
-    "direccion": "calle 181 # 17b 47 san antonio",
+    "direccion": "CALLE 181 # 17B 47 SAN ANTONIO",
     "email": "eariasseguros@hotmail.com"
   },
   "cc": 40025572,
@@ -193,8 +212,8 @@
       "idProceso": 50643180,
       "idConexion": 259,
       "llaveProceso": "11001400303320170118000",
-      "fechaProceso": "2017-08-17T00:00:00",
-      "fechaUltimaActuacion": "2018-03-24T00:00:00",
+      "fechaProceso": "2017-08-17T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-24T05:00:00.000Z",
       "despacho": "JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA EDELMIRA ARIAS MELO ",
@@ -202,10 +221,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "blanca edelmira arias melo",
   "idProcesos": [
     50643180
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "BLANCA EDELMIRA ARIAS MELO"
 }

@@ -16,7 +16,7 @@
       "idProceso": 19222160,
       "isUltimaAct": true,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     },
     {
       "idRegActuacion": 262109730,
@@ -34,7 +34,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     },
     {
       "idRegActuacion": 262109720,
@@ -52,7 +52,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     },
     {
       "idRegActuacion": 262109710,
@@ -70,7 +70,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     },
     {
       "idRegActuacion": 262109700,
@@ -88,7 +88,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     },
     {
       "idRegActuacion": 262109690,
@@ -106,7 +106,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     },
     {
       "idRegActuacion": 262109680,
@@ -124,7 +124,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     },
     {
       "idRegActuacion": 262109670,
@@ -142,7 +142,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     },
     {
       "idRegActuacion": 262109660,
@@ -160,7 +160,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     },
     {
       "idRegActuacion": 262109650,
@@ -178,7 +178,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-11-30T11:09:20.774Z"
+      "createdAt": "2023-12-03T18:18:33.185Z"
     }
   ],
   "juzgados": [
@@ -188,20 +188,28 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": {
+    "nombre": "LUZ ANGELA RODRIGUEZ ROZO",
+    "cedula": "52484859",
+    "direccion": "DIAGONAL 15B No 104-45",
+    "telefono": "4223218/3124446521",
+    "id": 434,
+    "carpetaNumero": 434
+  },
   "numero": 434,
   "llaveProceso": "11001400306820180099900",
   "demanda": {
     "vencimientoPagare": [
-      "2021-04-01T05:00:00.000Z"
+      "2021-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 1220463917,
+    "capitalAdeudado": 12204639,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-05-15T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2018-05-22T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       20990085420
@@ -209,26 +217,39 @@
     "radicado": "2018 - 00999",
     "expediente": "11001400306820180099900"
   },
+  "fecha": "2022-06-03T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1302983770,
+    "llaveProceso": "11001400306820180099900",
+    "consActuacion": 10,
+    "fechaActuacion": "2022-06-03T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 952- ARCHIVO 22 DE FEBRERO DEL 2022",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2022-06-03T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10,
+    "idProceso": 19222160,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3193862544
     },
-    "primerNombre": "francisco",
-    "segundoNombre": "javier",
-    "primerApellido": "gil",
-    "segundoApellido": "florez",
+    "primerNombre": "FRANCISCO",
+    "segundoNombre": "JAVIER",
+    "primerApellido": "GIL",
+    "segundoApellido": "FLOREZ",
     "cedula": 80429531,
-    "direccion": "diagonal 15b no 104-45 casa  132",
+    "direccion": "DIAGONAL 15B No 104-45 CASA  132",
     "email": "diagonal132@gmail.com"
-  },
-  "codeudor": {
-    "cedula": 52484859,
-    "direccion": "DIAGONAL 15B No 104-45",
-    "nombre": "luz angela rodriguez rozo",
-    "telefono": "4223218-3124446521"
   },
   "cc": 80429531,
   "procesos": [
@@ -236,8 +257,8 @@
       "idProceso": 19222160,
       "idConexion": 262,
       "llaveProceso": "11001400306820180099900",
-      "fechaProceso": "2018-09-27T00:00:00",
-      "fechaUltimaActuacion": "2022-06-03T00:00:00",
+      "fechaProceso": "2018-09-27T05:00:00.000Z",
+      "fechaUltimaActuacion": "2022-06-03T05:00:00.000Z",
       "despacho": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: GENARO ALBADAN CARDENAS | Demandado: ALCALDIA LOCAL DE BOSA ",
@@ -245,10 +266,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "francisco javier gil florez",
   "idProcesos": [
     19222160
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "FRANCISCO JAVIER GIL FLOREZ"
 }

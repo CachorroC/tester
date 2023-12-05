@@ -1,19 +1,30 @@
 {
   "actuaciones": [],
-  "juzgados": [],
+  "juzgados": [
+    {
+      "id": 24,
+      "tipo": "JUZGADO 024 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.cojuzgado-024-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+    },
+    {
+      "id": 5,
+      "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE VILLAVICENCIO ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-villavicencio"
+    }
+  ],
   "numero": 296,
   "llaveProceso": "11001410375220170129100",
   "demanda": {
     "vencimientoPagare": [
-      "2020-10-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 20063065,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-06T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-06-10T05:00:00.000Z",
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-10-17T00:00:00.000Z",
-    "etapaProcesal": "1.100141037522017e+22",
+    "mandamientoPago": null,
+    "etapaProcesal": "11001410375220170129100",
     "fechaPresentacion": null,
     "municipio": "KENNEDY",
     "obligacion": [
@@ -23,18 +34,20 @@
     "expediente": "11001410375220170129100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "didier",
-    "segundoNombre": "harvey",
-    "primerApellido": "prada",
-    "segundoApellido": "aguirre",
+    "primerNombre": "DIDIER",
+    "segundoNombre": "HARVEY",
+    "primerApellido": "PRADA",
+    "segundoApellido": "AGUIRRE",
     "cedula": 86074992,
-    "direccion": "diagonal 40 g sur-  no 72 j - 35 interior 2a",
+    "direccion": "DIAGONAL 40 G SUR-  No 72 J - 35 INTERIOR 2A",
     "email": "diharveypra@yahoo.es"
   },
   "cc": 86074992,
@@ -64,11 +77,9 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "didier harvey prada aguirre",
   "idProcesos": [
     127797581,
     127797591
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "DIDIER HARVEY PRADA AGUIRRE"
 }

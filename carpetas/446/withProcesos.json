@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "45523",
+    "telefono": null,
+    "id": 446,
+    "carpetaNumero": 446
+  },
   "numero": 446,
   "llaveProceso": "25899418900120180057300",
   "demanda": {
@@ -6,7 +15,7 @@
       "2015-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 43,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
@@ -15,33 +24,30 @@
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
-      "16.392987.23"
+      "16.392.987.23"
     ],
     "radicado": "2018 - 00573",
     "expediente": "25899418900120180057300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "ricardo",
+    "primerNombre": "RICARDO",
     "segundoNombre": null,
-    "primerApellido": "cuspoca",
+    "primerApellido": "CUSPOCA",
     "segundoApellido": null,
     "cedula": 79725365,
     "direccion": null,
     "email": "CALLE 36 No 69-56 SUR. B CARVAJAL"
   },
-  "codeudor": {
-    "direccion": 45523
-  },
   "cc": 79725365,
   "procesos": [],
-  "nombre": "ricardo cuspoca",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "RICARDO CUSPOCA"
 }

@@ -1,0 +1,44 @@
+{
+  "numero": 599,
+  "llaveProceso": "SinEspecificar",
+  "demanda": {
+    "vencimientoPagare": [
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "BOGOTA",
+    "obligacion": [
+      5820090959,
+      83118231
+    ],
+    "radicado": null,
+    "expediente": "SinEspecificar"
+  },
+  "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "deudor": {
+    "tel": {
+      "fijo": 7396130,
+      "celular": 3176483774
+    },
+    "primerNombre": "CLAUDIA",
+    "segundoNombre": "BEATRIZ",
+    "primerApellido": "PRIETO",
+    "segundoApellido": "RINCON",
+    "cedula": 52151784,
+    "direccion": "Calle 154 A 94 - 80 // CARRERA 56 No. 167 A - 25 TORRE 2 APARTAMENTO 1102 EDIFICIO PRADO VERDE",
+    "email": "claudiaprietorincon1@hotmail.com"
+  },
+  "cc": 52151784,
+  "nombre": "CLAUDIA BEATRIZ PRIETO RINCON"
+}

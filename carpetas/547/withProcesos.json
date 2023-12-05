@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 547,
   "llaveProceso": "25754400300120210015300",
   "demanda": {
@@ -17,24 +18,24 @@
     "expediente": "25754400300120210015300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jose",
-    "segundoNombre": "edgar",
-    "primerApellido": "achuri",
-    "segundoApellido": "gonzalez",
+    "primerNombre": "JOSE",
+    "segundoNombre": "EDGAR",
+    "primerApellido": "ACHURI",
+    "segundoApellido": "GONZALEZ",
     "cedula": 348774,
     "direccion": null,
     "email": null
   },
   "cc": 348774,
   "procesos": [],
-  "nombre": "jose edgar achuri gonzalez",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JOSE EDGAR ACHURI GONZALEZ"
 }

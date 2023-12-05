@@ -1,20 +1,26 @@
 {
   "actuaciones": [],
-  "juzgados": [],
+  "juzgados": [
+    {
+      "id": 86,
+      "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 322,
   "llaveProceso": "11001400308620170120500",
   "demanda": {
     "vencimientoPagare": [
-      "2027-09-01T05:00:00.000Z"
+      "2027-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 8701597335,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-25T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-11-07T00:00:00.000Z",
+    "fechaPresentacion": "2017-07-11T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       155766
@@ -23,18 +29,20 @@
     "expediente": "11001400308620170120500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 5205695,
       "celular": 3112326151
     },
-    "primerNombre": "claudia",
-    "segundoNombre": "yamile",
-    "primerApellido": "suarez",
-    "segundoApellido": "poblador",
+    "primerNombre": "CLAUDIA",
+    "segundoNombre": "YAMILE",
+    "primerApellido": "SUAREZ",
+    "segundoApellido": "POBLADOR",
     "cedula": 63395806,
-    "direccion": "calle 127 c - no  2 b - 18  apartamento 101",
+    "direccion": "CALLE 127 C - No  2 B - 18  APARTAMENTO 101",
     "email": "claudiasuarezp@gmail.com"
   },
   "cc": 63395806,
@@ -52,10 +60,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "claudia yamile suarez poblador",
   "idProcesos": [
     81891881
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "CLAUDIA YAMILE SUAREZ POBLADOR"
 }

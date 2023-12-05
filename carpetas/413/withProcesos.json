@@ -1,18 +1,27 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "JHON  HADER OTALVARO  ROMO",
+    "cedula": "79793904",
+    "direccion": "CALLLE 183 No 11-55 BLQ 9 APTO 102",
+    "telefono": "4805457",
+    "id": 413,
+    "carpetaNumero": 413
+  },
   "numero": 413,
   "llaveProceso": "25754418900220180036300",
   "demanda": {
     "vencimientoPagare": [
-      "2035-04-01T05:00:00.000Z"
+      "2035-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 2147005205,
+    "capitalAdeudado": 21470052,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-04-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2018-12-04T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2018-05-18T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2018-04-26T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
       20990182990
@@ -21,33 +30,27 @@
     "expediente": "25754418900220180036300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "luisa",
-    "segundoNombre": "fernanda",
-    "primerApellido": "salazar",
+    "primerNombre": "LUISA",
+    "segundoNombre": "FERNANDA",
+    "primerApellido": "SALAZAR",
     "segundoApellido": [
       "",
-      "patarroyo"
+      "PATARROYO"
     ],
     "cedula": 1018430139,
-    "direccion": "carrera 38 no 14-93 bloque 9 apto 102",
+    "direccion": "CARRERA 38 No 14-93 BLOQUE 9 APTO 102",
     "email": "luifermkt889@hotmail.com"
-  },
-  "codeudor": {
-    "cedula": 79793904,
-    "direccion": "CALLLE 183 No 11-55 BLQ 9 APTO 102",
-    "nombre": "jhon  hader otalvaro  romo",
-    "telefono": 4805457
   },
   "cc": 1018430139,
   "procesos": [],
-  "nombre": "luisa fernanda salazar  patarroyo",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "LUISA FERNANDA SALAZAR  PATARROYO"
 }

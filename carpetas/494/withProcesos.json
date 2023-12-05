@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 494,
   "llaveProceso": "25754418900320180102200",
   "demanda": {
@@ -15,30 +16,30 @@
     "fechaPresentacion": null,
     "municipio": "SOACHA",
     "obligacion": [
-      2099010135501
+      2099010000000
     ],
     "radicado": "2018 - 01022",
     "expediente": "25754418900320180102200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3214747968
     },
-    "primerNombre": "luisa",
-    "segundoNombre": "enelly",
-    "primerApellido": "gugu",
-    "segundoApellido": "vitopia",
+    "primerNombre": "LUISA",
+    "segundoNombre": "ENELLY",
+    "primerApellido": "GUGU",
+    "segundoApellido": "VITOPIA",
     "cedula": 1022332681,
-    "direccion": "carrera 51f- no 37 a-26 sur",
+    "direccion": "CARRERA 51F- No 37 A-26 SUR",
     "email": "vitopia1022@hotmail.com"
   },
   "cc": 1022332681,
   "procesos": [],
-  "nombre": "luisa enelly gugu vitopia",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "LUISA ENELLY GUGU VITOPIA"
 }

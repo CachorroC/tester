@@ -1,12 +1,13 @@
 {
+  "juzgados": [],
   "numero": 400,
   "llaveProceso": "25307400300220180007500",
   "demanda": {
     "vencimientoPagare": [
-      "2020-12-01T05:00:00.000Z"
+      "2020-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 1724737600,
+    "capitalAdeudado": 17247376,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
@@ -21,23 +22,24 @@
     "expediente": "25307400300220180007500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "oscar",
-    "segundoNombre": "guillermo",
-    "primerApellido": "lozano",
-    "segundoApellido": "gonzalez",
+    "primerNombre": "OSCAR",
+    "segundoNombre": "GUILLERMO",
+    "primerApellido": "LOZANO",
+    "segundoApellido": "GONZALEZ",
     "cedula": 79652256,
-    "direccion": "xarrera 2 no 10-30b centenario - girardot",
+    "direccion": "XARRERA 2 No 10-30B CENTENARIO - GIRARDOT",
     "email": "ocaelmejor@yahoo.es"
   },
   "cc": 79652256,
-  "nombre": "oscar guillermo lozano gonzalez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "OSCAR GUILLERMO LOZANO GONZALEZ"
 }

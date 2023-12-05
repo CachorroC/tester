@@ -1,43 +1,45 @@
 {
+  "juzgados": [],
   "numero": 506,
   "llaveProceso": "11001418903120180138000",
   "demanda": {
     "vencimientoPagare": [
-      "2021-06-01T05:00:00.000Z"
+      "2021-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 15426759,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "ACUMULADO",
     "mandamientoPago": null,
-    "etapaProcesal": "1.100140030042021e+22",
+    "etapaProcesal": "11001400300420210061100",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
-      "5,49E+32"
+      54915700000000000
     ],
     "radicado": "2021- 00611",
     "expediente": "11001418903120180138000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "ACUMULADO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "edwin",
-    "segundoNombre": "camilo",
-    "primerApellido": "sarmiento",
-    "segundoApellido": "gomez",
+    "primerNombre": "EDWIN",
+    "segundoNombre": "CAMILO",
+    "primerApellido": "SARMIENTO",
+    "segundoApellido": "GOMEZ",
     "cedula": 1023891419,
-    "direccion": "carrera 3 no 6-25 sur torre 6 apto 104",
+    "direccion": "CARRERA 3 No 6-25 SUR TORRE 6 APTO 104",
     "email": "edwin.sarmiento@altipal.com"
   },
   "cc": 1023891419,
-  "nombre": "edwin camilo sarmiento gomez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "EDWIN CAMILO SARMIENTO GOMEZ"
 }

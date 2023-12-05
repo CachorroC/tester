@@ -16,7 +16,7 @@
       "idProceso": 17948440,
       "isUltimaAct": true,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     },
     {
       "idRegActuacion": 266847680,
@@ -34,7 +34,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     },
     {
       "idRegActuacion": 266847670,
@@ -52,7 +52,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     },
     {
       "idRegActuacion": 266847660,
@@ -70,7 +70,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     },
     {
       "idRegActuacion": 266847650,
@@ -88,7 +88,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     },
     {
       "idRegActuacion": 266847640,
@@ -106,7 +106,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     },
     {
       "idRegActuacion": 266847630,
@@ -124,7 +124,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     },
     {
       "idRegActuacion": 266847620,
@@ -142,7 +142,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     },
     {
       "idRegActuacion": 266847610,
@@ -160,7 +160,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     },
     {
       "idRegActuacion": 266847600,
@@ -178,7 +178,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-11-30T11:09:13.155Z"
+      "createdAt": "2023-12-03T18:18:20.562Z"
     }
   ],
   "juzgados": [
@@ -192,7 +192,7 @@
   "llaveProceso": "11001400306420180021800",
   "demanda": {
     "vencimientoPagare": [
-      "2022-07-01T05:00:00.000Z"
+      "2022-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 4114601390,
@@ -209,19 +209,38 @@
     "radicado": "2018 - 00218",
     "expediente": "11001400306420180021800"
   },
+  "fecha": "2018-04-24T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 266847690,
+    "llaveProceso": "11001400306420180021800",
+    "consActuacion": 10,
+    "fechaActuacion": "2018-04-24T00:00:00",
+    "actuacion": "Retiro de demanada",
+    "anotacion": "RETIRO DEMANDA DIANA PATRICIA TRIANA AUTORIZADA SIN COMPENSACION",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-04-25T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10,
+    "idProceso": 17948440,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 4596827,
       "celular": 3205307727
     },
-    "primerNombre": "blanca",
-    "segundoNombre": "cecilia",
-    "primerApellido": "ardila",
-    "segundoApellido": "huertas",
+    "primerNombre": "BLANCA",
+    "segundoNombre": "CECILIA",
+    "primerApellido": "ARDILA",
+    "segundoApellido": "HUERTAS",
     "cedula": 39766624,
-    "direccion": "calle 92 sur no 14 a 57",
+    "direccion": "CALLE 92 SUR No 14 A 57",
     "email": "geraldin316@hotmail.com"
   },
   "cc": 39766624,
@@ -230,8 +249,8 @@
       "idProceso": 17948440,
       "idConexion": 260,
       "llaveProceso": "11001400306420180021800",
-      "fechaProceso": "2018-02-21T00:00:00",
-      "fechaUltimaActuacion": "2018-04-24T00:00:00",
+      "fechaProceso": "2018-02-21T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-04-24T05:00:00.000Z",
       "despacho": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA CECILIA ARDILA HUERTAS ",
@@ -239,10 +258,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "blanca cecilia ardila huertas",
   "idProcesos": [
     17948440
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "BLANCA CECILIA ARDILA HUERTAS"
 }

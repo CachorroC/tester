@@ -16,7 +16,7 @@
       "idProceso": 132102980,
       "isUltimaAct": true,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     },
     {
       "idRegActuacion": 1879141660,
@@ -34,7 +34,7 @@
       "idProceso": 132102980,
       "isUltimaAct": false,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     },
     {
       "idRegActuacion": 1879141650,
@@ -52,7 +52,7 @@
       "idProceso": 132102980,
       "isUltimaAct": false,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     },
     {
       "idRegActuacion": 1879141640,
@@ -70,7 +70,7 @@
       "idProceso": 132102980,
       "isUltimaAct": false,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     },
     {
       "idRegActuacion": 1879141630,
@@ -88,7 +88,7 @@
       "idProceso": 132102980,
       "isUltimaAct": false,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     },
     {
       "idRegActuacion": 1868593300,
@@ -106,7 +106,7 @@
       "idProceso": 132102980,
       "isUltimaAct": false,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     },
     {
       "idRegActuacion": 1855104180,
@@ -124,7 +124,7 @@
       "idProceso": 132102980,
       "isUltimaAct": false,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     },
     {
       "idRegActuacion": 1855104170,
@@ -142,7 +142,7 @@
       "idProceso": 132102980,
       "isUltimaAct": false,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     },
     {
       "idRegActuacion": 1842493530,
@@ -160,7 +160,7 @@
       "idProceso": 132102980,
       "isUltimaAct": false,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     },
     {
       "idRegActuacion": 1834915640,
@@ -178,7 +178,7 @@
       "idProceso": 132102980,
       "isUltimaAct": false,
       "carpetaNumero": 554,
-      "createdAt": "2023-11-30T11:09:48.922Z"
+      "createdAt": "2023-12-03T18:19:05.630Z"
     }
   ],
   "juzgados": [
@@ -192,14 +192,14 @@
   "llaveProceso": "11001418901820230131100",
   "demanda": {
     "vencimientoPagare": [
-      "2026-02-01T05:00:00.000Z",
-      "2026-07-01T05:00:00.000Z",
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 22111021,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -212,19 +212,38 @@
     "radicado": "2023 - 01311",
     "expediente": "11001418901820230131100"
   },
+  "fecha": "2023-10-09T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1897883780,
+    "llaveProceso": "11001418901820230131100",
+    "consActuacion": 10,
+    "fechaActuacion": "2023-10-09T00:00:00",
+    "actuacion": "Oficio Elaborado",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-10-09T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10,
+    "idProceso": 132102980,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 2297973,
       "celular": 3157352910
     },
-    "primerNombre": "sandra",
-    "segundoNombre": "patricia",
-    "primerApellido": "alvarez",
-    "segundoApellido": "rodriguez",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "ALVAREZ",
+    "segundoApellido": "RODRIGUEZ",
     "cedula": 51976656,
-    "direccion": "carrera 102 no. 69 - 81 casa 5 conjunto residencial montes de tierra grata",
+    "direccion": "Carrera 102 No. 69 - 81 Casa 5 Conjunto Residencial Montes de Tierra Grata",
     "email": "sandris73@hotmail.com"
   },
   "cc": 51976656,
@@ -233,8 +252,8 @@
       "idProceso": 132102980,
       "idConexion": 259,
       "llaveProceso": "11001418901820230131100",
-      "fechaProceso": "2023-08-04T00:00:00",
-      "fechaUltimaActuacion": "2023-10-09T00:00:00",
+      "fechaProceso": "2023-08-04T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-10-09T05:00:00.000Z",
       "despacho": "JUZGADO 018 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA ALVAREZ RODRIGUEZ ",
@@ -242,10 +261,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "sandra patricia alvarez rodriguez",
   "idProcesos": [
     132102980
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "SANDRA PATRICIA ALVAREZ RODRIGUEZ"
 }

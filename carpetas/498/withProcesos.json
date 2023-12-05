@@ -1,9 +1,18 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "MONICA MAYELI  CRISTANCHO  BALLEN",
+    "cedula": "21022941",
+    "direccion": "CALLE 5 No 1 A-12",
+    "telefono": "8513122/3132518401",
+    "id": 498,
+    "carpetaNumero": 498
+  },
   "numero": 498,
   "llaveProceso": "25899400300320180042900",
   "demanda": {
     "vencimientoPagare": [
-      "2031-05-01T05:00:00.000Z"
+      "2031-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1949127899,
@@ -11,7 +20,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": "2018-08-10T05:00:00.000Z",
-    "etapaProcesal": "2.589940030032018e+22",
+    "etapaProcesal": "25899400300320180042900",
     "fechaPresentacion": null,
     "municipio": "ZIPAQUIRA",
     "obligacion": [
@@ -22,30 +31,24 @@
     "expediente": "25899400300320180042900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jose",
-    "segundoNombre": "alexander",
-    "primerApellido": "becerra",
-    "segundoApellido": "barrera",
+    "primerNombre": "JOSE",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "BECERRA",
+    "segundoApellido": "BARRERA",
     "cedula": 80546020,
-    "direccion": "carrera 7 no 4-11  centro",
+    "direccion": "CARRERA 7 No 4-11  CENTRO",
     "email": "kristal6020@gmail.com"
-  },
-  "codeudor": {
-    "cedula": 21022941,
-    "direccion": "CALLE 5 No 1 A-12",
-    "nombre": "monica mayeli  cristancho  ballen",
-    "telefono": "8513122-3132518401"
   },
   "cc": 80546020,
   "procesos": [],
-  "nombre": "jose alexander becerra barrera",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JOSE ALEXANDER BECERRA BARRERA"
 }

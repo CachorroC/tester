@@ -3,16 +3,16 @@
   "llaveProceso": "1100140030820170052800",
   "demanda": {
     "vencimientoPagare": [
-      "2018-07-01T05:00:00.000Z"
+      "2018-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 0,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-06-28T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-06-20T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       12488415
@@ -21,23 +21,22 @@
     "expediente": "1100140030820170052800"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3103126814
     },
-    "primerNombre": "idaly",
-    "segundoNombre": "ferro",
-    "primerApellido": "cardona",
+    "primerNombre": "IDALY",
+    "segundoNombre": "FERRO",
+    "primerApellido": "CARDONA",
     "segundoApellido": null,
     "cedula": 51890871,
-    "direccion": "calle 6 no. 4-07 bogota",
+    "direccion": "calle 6 No. 4-07 BOGOTA",
     "email": "lasmi40@hotmail.com"
   },
   "cc": 51890871,
-  "nombre": "idaly ferro cardona",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "nombre": "IDALY FERRO CARDONA"
 }

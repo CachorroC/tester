@@ -24,12 +24,16 @@ export interface intActuacion {
   actuacion: string;
   anotacion: null | string;
   fechaInicial: Date | null;
+  carpetaNumero: number | null;
+  createdAt: Date;
   fechaFinal: Date | null;
   fechaRegistro: Date;
   codRegla: CodRegla;
   conDocumentos: boolean;
   cant: number;
-  idProceso: number
+  idProceso: number;
+  isUltimaAct: boolean;
+
 }
 
 export type CodRegla = '00                              ';

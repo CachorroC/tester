@@ -16,7 +16,7 @@
       "idProceso": 11998913,
       "isUltimaAct": true,
       "carpetaNumero": 96,
-      "createdAt": "2023-11-30T11:07:59.110Z"
+      "createdAt": "2023-12-03T18:16:41.102Z"
     },
     {
       "idRegActuacion": 155340253,
@@ -34,7 +34,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-11-30T11:07:59.110Z"
+      "createdAt": "2023-12-03T18:16:41.102Z"
     },
     {
       "idRegActuacion": 155340243,
@@ -52,7 +52,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-11-30T11:07:59.110Z"
+      "createdAt": "2023-12-03T18:16:41.102Z"
     },
     {
       "idRegActuacion": 155340233,
@@ -70,7 +70,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-11-30T11:07:59.110Z"
+      "createdAt": "2023-12-03T18:16:41.102Z"
     },
     {
       "idRegActuacion": 155340223,
@@ -88,7 +88,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-11-30T11:07:59.110Z"
+      "createdAt": "2023-12-03T18:16:41.102Z"
     },
     {
       "idRegActuacion": 155340213,
@@ -106,7 +106,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-11-30T11:07:59.110Z"
+      "createdAt": "2023-12-03T18:16:41.102Z"
     },
     {
       "idRegActuacion": 155340203,
@@ -124,7 +124,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-11-30T11:07:59.110Z"
+      "createdAt": "2023-12-03T18:16:41.102Z"
     },
     {
       "idRegActuacion": 155340193,
@@ -142,7 +142,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-11-30T11:07:59.110Z"
+      "createdAt": "2023-12-03T18:16:41.102Z"
     }
   ],
   "juzgados": [
@@ -159,13 +159,13 @@
       "2033-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 4602755256,
+    "capitalAdeudado": 46027552,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-28T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-06-29T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       160742,
@@ -174,19 +174,38 @@
     "radicado": "2017 - 00871",
     "expediente": "11001400305320170087100"
   },
+  "fecha": "2018-03-23T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 155340263,
+    "llaveProceso": "11001400305320170087100",
+    "consActuacion": 8,
+    "fechaActuacion": "2018-03-23T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PAQUETE 1069 T ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-03-23T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 8,
+    "idProceso": 11998913,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "yuranny",
-    "segundoNombre": "polanco",
-    "primerApellido": "cespedes",
+    "primerNombre": "YURANNY",
+    "segundoNombre": "POLANCO",
+    "primerApellido": "CESPEDES",
     "segundoApellido": null,
     "cedula": 52818959,
-    "direccion": "carrera 72 # 57b - 50",
+    "direccion": "CARRERA 72 # 57B - 50",
     "email": "bluemoontauro@hotmail.com"
   },
   "cc": 52818959,
@@ -195,8 +214,8 @@
       "idProceso": 11998913,
       "idConexion": 261,
       "llaveProceso": "11001400305320170087100",
-      "fechaProceso": "2017-07-04T00:00:00",
-      "fechaUltimaActuacion": "2018-03-23T00:00:00",
+      "fechaProceso": "2017-07-04T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-23T05:00:00.000Z",
       "despacho": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: YURANNY POLANCO CESPEDES ",
@@ -204,10 +223,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "yuranny polanco cespedes",
   "idProcesos": [
     11998913
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "YURANNY POLANCO CESPEDES"
 }

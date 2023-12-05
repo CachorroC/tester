@@ -1,10 +1,11 @@
 {
+  "juzgados": [],
   "numero": 518,
   "llaveProceso": "11001418900920190016200",
   "demanda": {
     "vencimientoPagare": [],
     "juzgados": [],
-    "capitalAdeudado": 1220364980,
+    "capitalAdeudado": 12203649,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -13,30 +14,31 @@
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
-      377816507543324,
-      4513070013675100
+      377817000000000,
+      4513070000000000
     ],
     "radicado": "2019 - 00162",
     "expediente": "11001418900920190016200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3124487509
     },
-    "primerNombre": "jorge",
-    "segundoNombre": "ivan",
-    "primerApellido": "avendaño",
-    "segundoApellido": "vanegas",
+    "primerNombre": "JORGE",
+    "segundoNombre": "IVAN",
+    "primerApellido": "AVENDAÑO",
+    "segundoApellido": "VANEGAS",
     "cedula": 80222254,
-    "direccion": "carrera 86 # 77 - 35 int 13 apto 339",
+    "direccion": "CARRERA 86 # 77 - 35 INT 13 APTO 339",
     "email": "CYBERGEORGE82@HOTMAIL.COM"
   },
   "cc": 80222254,
-  "nombre": "jorge ivan avendaño vanegas",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "JORGE IVAN AVENDAÑO VANEGAS"
 }

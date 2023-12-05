@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 485,
   "llaveProceso": "11001418900820180076100",
   "demanda": {
@@ -14,29 +15,30 @@
     "municipio": "BOGOTA",
     "obligacion": [
       "AUDIOPRETAMO / 377815771894801",
-      4513074250577090
+      4513070000000000
     ],
     "radicado": "2018 - 00761",
     "expediente": "11001418900820180076100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 3468511,
       "celular": 3002667595
     },
-    "primerNombre": "diana",
-    "segundoNombre": "margarita",
-    "primerApellido": "bustos",
-    "segundoApellido": "ballen",
+    "primerNombre": "DIANA",
+    "segundoNombre": "MARGARITA",
+    "primerApellido": "BUSTOS",
+    "segundoApellido": "BALLEN",
     "cedula": 52115085,
-    "direccion": "calle 75 a no 110c-17",
+    "direccion": "CALLE 75 A No 110C-17",
     "email": "margobus2003@yahoo.com"
   },
   "cc": 52115085,
-  "nombre": "diana margarita bustos ballen",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "DIANA MARGARITA BUSTOS BALLEN"
 }

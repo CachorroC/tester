@@ -16,7 +16,7 @@
       "idProceso": 50537040,
       "isUltimaAct": true,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     },
     {
       "idRegActuacion": 607252650,
@@ -34,7 +34,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     },
     {
       "idRegActuacion": 607252640,
@@ -52,7 +52,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     },
     {
       "idRegActuacion": 607252630,
@@ -70,7 +70,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     },
     {
       "idRegActuacion": 607252620,
@@ -88,7 +88,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     },
     {
       "idRegActuacion": 607252610,
@@ -106,7 +106,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     },
     {
       "idRegActuacion": 607252600,
@@ -124,7 +124,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     },
     {
       "idRegActuacion": 607252590,
@@ -142,7 +142,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     },
     {
       "idRegActuacion": 607252580,
@@ -160,7 +160,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     },
     {
       "idRegActuacion": 607252570,
@@ -178,7 +178,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-11-30T11:07:48.821Z"
+      "createdAt": "2023-12-03T18:16:27.141Z"
     }
   ],
   "juzgados": [
@@ -188,20 +188,28 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-009-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": {
+    "nombre": "DANILO HUMBERTO MARROQUIN SALAS",
+    "cedula": "79948168",
+    "direccion": "CARRERA 54C No. 143-A-90",
+    "telefono": null,
+    "id": 51,
+    "carpetaNumero": 51
+  },
   "numero": 51,
   "llaveProceso": "11001400300920170060700",
   "demanda": {
     "vencimientoPagare": [
-      "2017-02-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 0,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-06-23T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "6610083691//161451//3778815787383070",
@@ -210,25 +218,39 @@
     "radicado": "2017 - 00607",
     "expediente": "11001400300920170060700"
   },
+  "fecha": "2018-05-24T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 607252660,
+    "llaveProceso": "11001400300920170060700",
+    "consActuacion": 10,
+    "fechaActuacion": "2018-05-24T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PQ. 1057",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-05-24T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10,
+    "idProceso": 50537040,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3175921396
     },
-    "primerNombre": "maria",
-    "segundoNombre": "carolina",
-    "primerApellido": "martinez",
-    "segundoApellido": "vera",
+    "primerNombre": "MARIA",
+    "segundoNombre": "CAROLINA",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "VERA",
     "cedula": 37549188,
-    "direccion": "carrera 54c no. 143-a-90//carrera 54c no. 143-a-90 apto 213 torre 2 conjunto residencial barcelona ph",
+    "direccion": "CARRERA 54C No. 143-A-90//CARRERA 54C No. 143-A-90 APTO 213 TORRE 2 CONJUNTO RESIDENCIAL BARCELONA PH",
     "email": "caromartinezvera@gmail.com"
-  },
-  "codeudor": {
-    "cedula": 79948168,
-    "direccion": "CARRERA 54C No. 143-A-90",
-    "nombre": "danilo humberto marroquin salas"
   },
   "cc": 37549188,
   "procesos": [
@@ -236,8 +258,8 @@
       "idProceso": 50537040,
       "idConexion": 259,
       "llaveProceso": "11001400300920170060700",
-      "fechaProceso": "2017-06-28T00:00:00",
-      "fechaUltimaActuacion": "2018-05-24T00:00:00",
+      "fechaProceso": "2017-06-28T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-05-24T05:00:00.000Z",
       "despacho": "JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA CAROLINA MARTINEZ VERA ",
@@ -245,10 +267,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "maria carolina martinez vera",
   "idProcesos": [
     50537040
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "MARIA CAROLINA MARTINEZ VERA"
 }

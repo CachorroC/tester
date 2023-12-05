@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 521,
   "llaveProceso": "11001418901220190023500",
   "demanda": {
@@ -13,30 +14,30 @@
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
-      4099830177563670
+      4099830000000000
     ],
     "radicado": "2019 - 00235",
     "expediente": "11001418901220190023500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "maria",
-    "segundoNombre": "aquilina",
-    "primerApellido": "rodriguez",
-    "segundoApellido": "lancheros",
+    "primerNombre": "MARIA",
+    "segundoNombre": "AQUILINA",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "LANCHEROS",
     "cedula": 40050052,
-    "direccion": "carrera 4a no 93-11p 1",
+    "direccion": "CARRERA 4A No 93-11p 1",
     "email": "aquimaria1965@gmail.com"
   },
   "cc": 40050052,
   "procesos": [],
-  "nombre": "maria aquilina rodriguez lancheros",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "MARIA AQUILINA RODRIGUEZ LANCHEROS"
 }

@@ -1,18 +1,27 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "INGRID DAYHANA FORERO PALACIOS",
+    "cedula": "1078366269",
+    "direccion": "CARRERA 9 No 3-93",
+    "telefono": "8656241 /3124269483",
+    "id": 237,
+    "carpetaNumero": 237
+  },
   "numero": 237,
   "llaveProceso": "25799418900120170024700",
   "demanda": {
     "vencimientoPagare": [
-      "2017-05-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 9027695142,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "TENJO",
     "obligacion": [
       151792
@@ -21,30 +30,24 @@
     "expediente": "25799418900120170024700"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 8656241,
       "celular": 3114602334
     },
-    "primerNombre": "numael",
-    "segundoNombre": "augusto",
-    "primerApellido": "gonzalez",
-    "segundoApellido": "salguero",
+    "primerNombre": "NUMAEL",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "GONZALEZ",
+    "segundoApellido": "SALGUERO",
     "cedula": 80237050,
-    "direccion": "carrera 9 no 3-93",
-    "email": "numasue@gmail.com"
-  },
-  "codeudor": {
-    "cedula": 1078366269,
     "direccion": "CARRERA 9 No 3-93",
-    "nombre": "ingrid dayhana forero palacios",
-    "telefono": "8656241 /3124269483"
+    "email": "numasue@gmail.com"
   },
   "cc": 80237050,
   "procesos": [],
-  "nombre": "numael augusto gonzalez salguero",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "NUMAEL AUGUSTO GONZALEZ SALGUERO"
 }

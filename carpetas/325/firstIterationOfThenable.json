@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 325,
   "llaveProceso": "11001400308020170076000",
   "demanda": {
@@ -10,30 +11,31 @@
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-11-02T00:00:00.000Z",
+    "fechaPresentacion": "2017-02-11T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [],
     "radicado": "2017 - 00760",
     "expediente": "11001400308020170076000"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "marcela",
-    "segundoNombre": "patricia",
-    "primerApellido": "diaz",
-    "segundoApellido": "pereira",
+    "primerNombre": "MARCELA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "DIAZ",
+    "segundoApellido": "PEREIRA",
     "cedula": 30583011,
     "direccion": null,
     "email": null
   },
   "cc": 30583011,
-  "nombre": "marcela patricia diaz pereira",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "MARCELA PATRICIA DIAZ PEREIRA"
 }

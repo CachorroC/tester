@@ -1,12 +1,13 @@
 {
+  "juzgados": [],
   "numero": 408,
   "llaveProceso": "11001400308120180026400",
   "demanda": {
     "vencimientoPagare": [
-      "2018-06-01T05:00:00.000Z"
+      "2018-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 1750818965,
+    "capitalAdeudado": 17508189,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
@@ -21,24 +22,24 @@
     "expediente": "11001400308120180026400"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jhon",
-    "segundoNombre": "alexander",
-    "primerApellido": "bejarano",
-    "segundoApellido": "fonseca",
+    "primerNombre": "JHON",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "BEJARANO",
+    "segundoApellido": "FONSECA",
     "cedula": 80792987,
-    "direccion": "calle 4 d no 39 c-22",
+    "direccion": "CALLE 4 D No 39 C-22",
     "email": "jhonbeja227@gmail.com"
   },
   "cc": 80792987,
   "procesos": [],
-  "nombre": "jhon alexander bejarano fonseca",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JHON ALEXANDER BEJARANO FONSECA"
 }

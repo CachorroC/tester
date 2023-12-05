@@ -1,15 +1,60 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 1877745020,
+      "llaveProceso": "11001400308120230141400",
+      "consActuacion": 2,
+      "fechaActuacion": "2023-09-12T05:00:00.000Z",
+      "actuacion": "Al Despacho Por Reparto",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-09-12T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 133187160,
+      "isUltimaAct": true,
+      "carpetaNumero": 583,
+      "createdAt": "2023-12-03T18:19:13.173Z"
+    },
+    {
+      "idRegActuacion": 1874933400,
+      "llaveProceso": "11001400308120230141400",
+      "consActuacion": 1,
+      "fechaActuacion": "2023-09-08T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 08/09/2023 a las 16:05:26",
+      "fechaInicial": "2023-09-08T05:00:00.000Z",
+      "fechaFinal": "2023-09-08T05:00:00.000Z",
+      "fechaRegistro": "2023-09-08T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 133187160,
+      "isUltimaAct": false,
+      "carpetaNumero": 583,
+      "createdAt": "2023-12-03T18:19:13.173Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 81,
+      "tipo": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-081-civil-municipal-de-bogota"
+    }
+  ],
   "numero": 583,
   "llaveProceso": "11001400308120230141400",
   "demanda": {
     "vencimientoPagare": [
-      "2026-04-01T05:00:00.000Z",
-      "2026-04-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z",
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 21652918,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-09-05T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2023-05-09T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -22,24 +67,57 @@
     "radicado": "2023 - 01414",
     "expediente": "11001400308120230141400"
   },
+  "fecha": "2023-09-12T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1877745020,
+    "llaveProceso": "11001400308120230141400",
+    "consActuacion": 2,
+    "fechaActuacion": "2023-09-12T00:00:00",
+    "actuacion": "Al Despacho Por Reparto",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-09-12T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 2,
+    "idProceso": 133187160,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 3031161,
       "celular": 3124781732
     },
-    "primerNombre": "alba",
-    "segundoNombre": "yaneth",
-    "primerApellido": "aparicio",
-    "segundoApellido": "sandoval",
+    "primerNombre": "ALBA",
+    "segundoNombre": "YANETH",
+    "primerApellido": "APARICIO",
+    "segundoApellido": "SANDOVAL",
     "cedula": 46668139,
-    "direccion": "carrera 53 c no. 4 c 63",
+    "direccion": "Carrera 53 C No. 4 C 63",
     "email": "yaneth_apar@hotmail.com"
   },
   "cc": 46668139,
-  "nombre": "alba yaneth aparicio sandoval",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [
+    {
+      "idProceso": 133187160,
+      "idConexion": 259,
+      "llaveProceso": "11001400308120230141400",
+      "fechaProceso": "2023-09-08T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-09-12T05:00:00.000Z",
+      "despacho": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALBA YANETH APARICIO SANDOVAL ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    133187160
+  ],
+  "nombre": "ALBA YANETH APARICIO SANDOVAL"
 }

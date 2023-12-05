@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 497,
   "llaveProceso": "25899410300120180043500",
   "demanda": {
     "vencimientoPagare": [
-      "2018-09-01T05:00:00.000Z"
+      "2018-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 2367892060,
@@ -21,23 +22,24 @@
     "expediente": "25899410300120180043500"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "roque",
-    "segundoNombre": "antonio",
-    "primerApellido": "sanchez",
+    "primerNombre": "ROQUE",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "SANCHEZ",
     "segundoApellido": null,
     "cedula": 11339859,
-    "direccion": "carrera 11 no 24 a-21 apto 30 rincon del zipa",
+    "direccion": "CARRERA 11 No 24 A-21 APTO 30 RINCON DEL ZIPA",
     "email": "mluisa_06@hotmail.com"
   },
   "cc": 11339859,
-  "nombre": "roque antonio sanchez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "ROQUE ANTONIO SANCHEZ"
 }

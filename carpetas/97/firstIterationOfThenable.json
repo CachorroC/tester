@@ -1,4 +1,49 @@
 {
+  "actuaciones": [
+    {
+      "idRegActuacion": 996537750,
+      "llaveProceso": "11001400308520160031900",
+      "consActuacion": 2,
+      "fechaActuacion": "2020-10-27T05:00:00.000Z",
+      "actuacion": "Archivo Definitivo",
+      "anotacion": "Se envia a archivo definiivo Caja No. 02- 2020 ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2020-10-27T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 77695680,
+      "isUltimaAct": true,
+      "carpetaNumero": 97,
+      "createdAt": "2023-12-03T18:16:41.464Z"
+    },
+    {
+      "idRegActuacion": 976636660,
+      "llaveProceso": "11001400308520160031900",
+      "consActuacion": 1,
+      "fechaActuacion": "2020-06-24T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 24/06/2020 a las 13:24:27",
+      "fechaInicial": "2020-06-24T05:00:00.000Z",
+      "fechaFinal": "2020-06-24T05:00:00.000Z",
+      "fechaRegistro": "2020-06-24T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 77695680,
+      "isUltimaAct": false,
+      "carpetaNumero": 97,
+      "createdAt": "2023-12-03T18:16:41.464Z"
+    }
+  ],
+  "juzgados": [
+    {
+      "id": 85,
+      "tipo": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "url": "https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"
+    }
+  ],
   "numero": 97,
   "llaveProceso": "11001400308520160031900",
   "demanda": {
@@ -6,9 +51,9 @@
     "juzgados": [],
     "capitalAdeudado": 7986288623,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-20T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2018-01-12T00:00:00.000Z",
+    "mandamientoPago": "2018-12-01T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
@@ -18,24 +63,57 @@
     "radicado": "2016 - 00319",
     "expediente": "11001400308520160031900"
   },
+  "fecha": "2020-10-27T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 996537750,
+    "llaveProceso": "11001400308520160031900",
+    "consActuacion": 2,
+    "fechaActuacion": "2020-10-27T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "Se envia a archivo definiivo Caja No. 02- 2020 ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2020-10-27T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 2,
+    "idProceso": 77695680,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jose",
-    "segundoNombre": "alfredo",
-    "primerApellido": "riaño",
-    "segundoApellido": "maldonado",
+    "primerNombre": "JOSE",
+    "segundoNombre": "ALFREDO",
+    "primerApellido": "RIAÑO",
+    "segundoApellido": "MALDONADO",
     "cedula": 19270589,
-    "direccion": "calle 52 a bis  no 35 b 41 sur",
+    "direccion": "CALLE 52 A BIS  No 35 B 41 SUR",
     "email": "conjuexeu@hotmail.com"
   },
   "cc": 19270589,
-  "nombre": "jose alfredo riaño maldonado",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [
+    {
+      "idProceso": 77695680,
+      "idConexion": 259,
+      "llaveProceso": "11001400308520160031900",
+      "fechaProceso": "2020-06-24T05:00:00.000Z",
+      "fechaUltimaActuacion": "2020-10-27T05:00:00.000Z",
+      "despacho": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCO PICHINCHA | Demandado: JOSE ALFREDO RIAÑO MALDONADO ",
+      "esPrivado": false,
+      "cantFilas": -1
+    }
+  ],
+  "idProcesos": [
+    77695680
+  ],
+  "nombre": "JOSE ALFREDO RIAÑO MALDONADO"
 }

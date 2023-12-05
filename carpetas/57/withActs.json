@@ -16,7 +16,7 @@
       "idProceso": 50512320,
       "isUltimaAct": true,
       "carpetaNumero": 57,
-      "createdAt": "2023-11-30T11:07:49.684Z"
+      "createdAt": "2023-12-03T18:16:28.904Z"
     },
     {
       "idRegActuacion": 725401840,
@@ -34,7 +34,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-11-30T11:07:49.684Z"
+      "createdAt": "2023-12-03T18:16:28.904Z"
     },
     {
       "idRegActuacion": 725401830,
@@ -52,7 +52,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-11-30T11:07:49.684Z"
+      "createdAt": "2023-12-03T18:16:28.904Z"
     },
     {
       "idRegActuacion": 725401820,
@@ -70,7 +70,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-11-30T11:07:49.684Z"
+      "createdAt": "2023-12-03T18:16:28.904Z"
     },
     {
       "idRegActuacion": 725401810,
@@ -88,7 +88,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-11-30T11:07:49.684Z"
+      "createdAt": "2023-12-03T18:16:28.904Z"
     },
     {
       "idRegActuacion": 725401800,
@@ -106,7 +106,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-11-30T11:07:49.684Z"
+      "createdAt": "2023-12-03T18:16:28.904Z"
     },
     {
       "idRegActuacion": 725401790,
@@ -124,7 +124,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-11-30T11:07:49.684Z"
+      "createdAt": "2023-12-03T18:16:28.904Z"
     },
     {
       "idRegActuacion": 725401780,
@@ -142,7 +142,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-11-30T11:07:49.684Z"
+      "createdAt": "2023-12-03T18:16:28.904Z"
     }
   ],
   "juzgados": [
@@ -159,11 +159,11 @@
     "juzgados": [],
     "capitalAdeudado": 28250394,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-12T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-06-15T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "710084822//377813215734547",
@@ -172,19 +172,38 @@
     "radicado": "2017 - 00512",
     "expediente": "11001400302820170051200"
   },
+  "fecha": "2017-09-01T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 725401850,
+    "llaveProceso": "11001400302820170051200",
+    "consActuacion": 8,
+    "fechaActuacion": "2017-09-01T00:00:00",
+    "actuacion": "Retiro demanda admitida - Art.88",
+    "anotacion": "RETIRADA POR LA APODERADA DE LA PARTE ACTORA ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-09-01T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 8,
+    "idProceso": 50512320,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3102279518
     },
-    "primerNombre": "carmen",
-    "segundoNombre": "cecilia",
-    "primerApellido": "aponte",
-    "segundoApellido": "zambrano",
+    "primerNombre": "CARMEN",
+    "segundoNombre": "CECILIA",
+    "primerApellido": "APONTE",
+    "segundoApellido": "ZAMBRANO",
     "cedula": 39556705,
-    "direccion": "avda 80 no. 60-95  rio interior 3 apto 11",
+    "direccion": "AVDA 80 No. 60-95  RIO INTERIOR 3 APTO 11",
     "email": "ceciliaaponte@hotmail.com"
   },
   "cc": 39556705,
@@ -193,8 +212,8 @@
       "idProceso": 50512320,
       "idConexion": 259,
       "llaveProceso": "11001400302820170051200",
-      "fechaProceso": "2017-06-16T00:00:00",
-      "fechaUltimaActuacion": "2017-09-01T00:00:00",
+      "fechaProceso": "2017-06-16T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-09-01T05:00:00.000Z",
       "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARMEN CECILIA APONTE ",
@@ -202,10 +221,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "carmen cecilia aponte zambrano",
   "idProcesos": [
     50512320
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "CARMEN CECILIA APONTE ZAMBRANO"
 }

@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 288,
   "llaveProceso": "11001400308320170113300",
   "demanda": {
     "vencimientoPagare": [
-      "2017-04-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 6049523279,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-03T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-03-10T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-10-06T00:00:00.000Z",
+    "fechaPresentacion": "2017-06-10T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       138027
@@ -21,23 +22,24 @@
     "expediente": "11001400308320170113300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "viviana",
-    "segundoNombre": "marcela",
-    "primerApellido": "roa",
-    "segundoApellido": "vivas",
+    "primerNombre": "VIVIANA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "ROA",
+    "segundoApellido": "VIVAS",
     "cedula": 20371142,
-    "direccion": "diagonal  15 b no 104 - 46",
+    "direccion": "DIAGONAL  15 B No 104 - 46",
     "email": "isafrevi@hotmail.com"
   },
   "cc": 20371142,
-  "nombre": "viviana marcela roa vivas",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "VIVIANA MARCELA ROA VIVAS"
 }

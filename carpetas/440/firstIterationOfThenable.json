@@ -1,16 +1,17 @@
 {
+  "juzgados": [],
   "numero": 440,
   "llaveProceso": "11001408900820180022300",
   "demanda": {
     "vencimientoPagare": [],
     "juzgados": [],
-    "capitalAdeudado": 1467002370,
+    "capitalAdeudado": 14670023,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-05-29T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2018-05-31T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       1330085524
@@ -19,23 +20,24 @@
     "expediente": "11001408900820180022300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3107996508
     },
-    "primerNombre": "blanca",
-    "segundoNombre": "esther",
-    "primerApellido": "quiroga",
-    "segundoApellido": "giraldo",
+    "primerNombre": "BLANCA",
+    "segundoNombre": "ESTHER",
+    "primerApellido": "QUIROGA",
+    "segundoApellido": "GIRALDO",
     "cedula": 30387764,
-    "direccion": "carrera 13 no 13-24 oficina 625",
+    "direccion": "CARRERA 13 No 13-24 OFICINA 625",
     "email": "quirogag8878@gmail.com"
   },
   "cc": 30387764,
-  "nombre": "blanca esther quiroga giraldo",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "BLANCA ESTHER QUIROGA GIRALDO"
 }

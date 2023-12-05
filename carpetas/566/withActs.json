@@ -16,7 +16,7 @@
       "idProceso": 132041720,
       "isUltimaAct": true,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     },
     {
       "idRegActuacion": 1936125110,
@@ -34,7 +34,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     },
     {
       "idRegActuacion": 1864324160,
@@ -52,7 +52,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     },
     {
       "idRegActuacion": 1860397620,
@@ -70,7 +70,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     },
     {
       "idRegActuacion": 1850795720,
@@ -88,7 +88,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     },
     {
       "idRegActuacion": 1850795710,
@@ -106,7 +106,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     },
     {
       "idRegActuacion": 1850795700,
@@ -124,7 +124,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     },
     {
       "idRegActuacion": 1850795690,
@@ -142,7 +142,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     },
     {
       "idRegActuacion": 1832542990,
@@ -160,7 +160,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     },
     {
       "idRegActuacion": 1832542980,
@@ -178,7 +178,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-11-30T11:09:50.529Z"
+      "createdAt": "2023-12-03T18:19:08.366Z"
     }
   ],
   "juzgados": [
@@ -192,12 +192,12 @@
   "llaveProceso": "11001400306920230127300",
   "demanda": {
     "vencimientoPagare": [
-      "2026-02-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 19218060,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -209,19 +209,38 @@
     "radicado": "2023 - 01243",
     "expediente": "11001400306920230127300"
   },
+  "fecha": "2023-11-23T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1937131740,
+    "llaveProceso": "11001400306920230127300",
+    "consActuacion": 10,
+    "fechaActuacion": "2023-11-23T00:00:00",
+    "actuacion": "Al despacho",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-11-23T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10,
+    "idProceso": 132041720,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 7156426,
       "celular": 3203203196
     },
-    "primerNombre": "johan",
-    "segundoNombre": "andres",
-    "primerApellido": "quiroga",
-    "segundoApellido": "galeano",
+    "primerNombre": "JOHAN",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "QUIROGA",
+    "segundoApellido": "GALEANO",
     "cedula": 1013622120,
-    "direccion": "carrera 46 a no. 22 c - 36 sur // avenida 92 no. 15 - 40",
+    "direccion": "Carrera 46 A No. 22 C - 36 Sur // Avenida 92 No. 15 - 40",
     "email": "johanesquiroga@gmail.com"
   },
   "cc": 1013622120,
@@ -230,8 +249,8 @@
       "idProceso": 132041720,
       "idConexion": 262,
       "llaveProceso": "11001400306920230127300",
-      "fechaProceso": "2023-08-03T00:00:00",
-      "fechaUltimaActuacion": "2023-11-23T00:00:00",
+      "fechaProceso": "2023-08-03T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-23T05:00:00.000Z",
       "despacho": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: SANDRA MILENA PALACIO RIVERA ",
@@ -239,10 +258,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "johan andres quiroga galeano",
   "idProcesos": [
     132041720
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "JOHAN ANDRES QUIROGA GALEANO"
 }

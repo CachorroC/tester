@@ -1,4 +1,5 @@
 {
+  "juzgados": [],
   "numero": 476,
   "llaveProceso": "11001418901220180064200",
   "demanda": {
@@ -9,7 +10,7 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "05-09-2018",
+    "etapaProcesal": "05/09/2018",
     "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
@@ -19,15 +20,17 @@
     "expediente": "11001418901220180064200"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "arnulfo",
-    "segundoNombre": "pastes",
-    "primerApellido": "daza",
+    "primerNombre": "ARNULFO",
+    "segundoNombre": "PASTES",
+    "primerApellido": "DAZA",
     "segundoApellido": null,
     "cedula": 1081395456,
     "direccion": null,
@@ -35,8 +38,6 @@
   },
   "cc": 1081395456,
   "procesos": [],
-  "nombre": "arnulfo pastes daza",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "ARNULFO PASTES DAZA"
 }

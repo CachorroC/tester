@@ -1,6 +1,15 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "6/08/2018",
+    "telefono": null,
+    "id": 507,
+    "carpetaNumero": 507
+  },
   "numero": 507,
-  "llaveProceso": "258434003001201E+22",
+  "llaveProceso": "25843410300120180049900",
   "demanda": {
     "vencimientoPagare": [
       "2015-01-01T05:00:00.000Z"
@@ -11,40 +20,38 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "2.584341030012018e+22",
+    "etapaProcesal": null,
     "fechaPresentacion": null,
     "municipio": "UBATE",
     "obligacion": [
       3380087493,
-      "21.876.28100"
+      "21.876.281"
     ],
     "radicado": "2018 - 00499",
-    "expediente": "258434003001201E+22"
+    "expediente": "25843410300120180049900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "william",
+    "primerNombre": "WILLIAM",
     "segundoNombre": "",
-    "primerApellido": "yovany",
+    "primerApellido": "YOVANY",
     "segundoApellido": [
-      "casallas",
-      "romero"
+      "CASALLAS",
+      "ROMERO"
     ],
     "cedula": 80468168,
     "direccion": null,
     "email": "CARRERA 4 A No 16 B-14  TORRE2"
   },
-  "codeudor": {
-    "direccion": "6-08-2018"
-  },
   "cc": 80468168,
-  "nombre": "william  yovany casallas romero",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "WILLIAM  YOVANY CASALLAS ROMERO"
 }

@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 121,
   "llaveProceso": "25430400300120180027300",
   "demanda": {
     "vencimientoPagare": [
-      "2029-12-01T05:00:00.000Z"
+      "2029-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 55929373,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-04-08T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2018-05-16T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "fechaPresentacion": "2017-11-08T05:00:00.000Z",
     "municipio": "MADRID",
     "obligacion": [
       "451305630938242.",
@@ -22,23 +23,24 @@
     "expediente": "25430400300120180027300"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "jaime",
-    "segundoNombre": "orlando",
-    "primerApellido": "lugo",
-    "segundoApellido": "rodriguez",
+    "primerNombre": "JAIME",
+    "segundoNombre": "ORLANDO",
+    "primerApellido": "LUGO",
+    "segundoApellido": "RODRIGUEZ",
     "cedula": 19453362,
-    "direccion": "carrera 22 a # 8d - 08 sur",
+    "direccion": "CARRERA 22 A # 8D - 08 SUR",
     "email": "orlandolugo.r@gmail.com"
   },
   "cc": 19453362,
-  "nombre": "jaime orlando lugo rodriguez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "JAIME ORLANDO LUGO RODRIGUEZ"
 }

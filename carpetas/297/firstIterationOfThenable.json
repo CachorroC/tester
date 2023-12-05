@@ -1,12 +1,13 @@
 {
+  "juzgados": [],
   "numero": 297,
   "llaveProceso": "15842408900120170009500",
   "demanda": {
     "vencimientoPagare": [
-      "2019-07-01T05:00:00.000Z"
+      "2019-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 28485816,
+    "capitalAdeudado": null,
     "departamento": "BOYACÁ",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
@@ -22,23 +23,24 @@
     "expediente": "15842408900120170009500"
   },
   "category": "Reintegra",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3123077900
     },
-    "primerNombre": "miguel",
-    "segundoNombre": "angel",
-    "primerApellido": "martinez",
-    "segundoApellido": "huertas",
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANGEL",
+    "primerApellido": "MARTINEZ",
+    "segundoApellido": "HUERTAS",
     "cedula": 6006685,
-    "direccion": "calle 5 a no 6 - 23 umbita",
+    "direccion": "CALLE 5 A No 6 - 23 UMBITA",
     "email": null
   },
   "cc": 6006685,
-  "nombre": "miguel angel martinez huertas",
-  "idProcesos": null,
-  "revisado": false,
-  "terminado": false
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "MIGUEL ANGEL MARTINEZ HUERTAS"
 }

@@ -1,40 +1,50 @@
 {
+  "actuaciones": [],
+  "juzgados": [
+    {
+      "id": 1,
+      "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ ",
+      "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
+    }
+  ],
   "numero": 46,
   "llaveProceso": "25183400300120170010600",
   "demanda": {
     "vencimientoPagare": [
-      "2015-04-01T05:00:00.000Z",
-      "2015-05-01T05:00:00.000Z"
+      "2015-01-01T05:00:00.000Z",
+      "2015-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 12537973,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-19T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-06-21T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2017-05-30T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "CHOCONTA",
     "obligacion": [
-      5.30371393265579e+30,
-      4.09983949630826e+29
+      53037139326557900,
+      4099839496308260
     ],
     "radicado": "2017-00106",
     "expediente": "25183400300120170010600"
   },
   "category": "Reintegra",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": 3166182970
     },
-    "primerNombre": "alvaro",
-    "segundoNombre": "rodriguez",
-    "primerApellido": "alonso",
+    "primerNombre": "ALVARO",
+    "segundoNombre": "RODRIGUEZ",
+    "primerApellido": "ALONSO",
     "segundoApellido": null,
     "cedula": 11251297,
-    "direccion": "carrera 2b no.14-04 barrio villa alejandra choconta",
+    "direccion": "Carrera 2B No.14-04 BARRIO VILLA ALEJANDRA CHOCONTA",
     "email": "alvaro.r@live.com"
   },
   "cc": 11251297,
@@ -43,7 +53,7 @@
       "idProceso": 86212261,
       "idConexion": 320,
       "llaveProceso": "25183400300120170010600",
-      "fechaProceso": "2017-05-30T00:00:00",
+      "fechaProceso": "2017-05-30T05:00:00.000Z",
       "fechaUltimaActuacion": null,
       "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ ",
       "departamento": "CUNDINAMARCA",
@@ -52,10 +62,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "alvaro rodriguez alonso",
   "idProcesos": [
     86212261
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "ALVARO RODRIGUEZ ALONSO"
 }

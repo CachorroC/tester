@@ -1,0 +1,42 @@
+{
+  "numero": 603,
+  "llaveProceso": "SinEspecificar",
+  "demanda": {
+    "vencimientoPagare": [
+      "2034-01-01T05:00:00.000Z"
+    ],
+    "juzgados": [],
+    "capitalAdeudado": null,
+    "departamento": "BOYACÁ",
+    "entregaGarantiasAbogado": null,
+    "tipoProceso": "HIPOTECARIO",
+    "mandamientoPago": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": null,
+    "municipio": "TUNJA",
+    "obligacion": [
+      "2273 320178028"
+    ],
+    "radicado": null,
+    "expediente": "SinEspecificar"
+  },
+  "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "deudor": {
+    "tel": {
+      "fijo": 3403190,
+      "celular": 3203403190
+    },
+    "primerNombre": "FRANCY",
+    "segundoNombre": "TATIANA",
+    "primerApellido": "LEON",
+    "segundoApellido": "TOBARIA",
+    "cedula": 1032411438,
+    "direccion": "Carrera 2 BIS No. 41 A - 90  Urbanización Terraza santa Ines Tunja (Boyacá)",
+    "email": "tatianaleon_6@hotmail.com"
+  },
+  "cc": 1032411438,
+  "nombre": "FRANCY TATIANA LEON TOBARIA"
+}

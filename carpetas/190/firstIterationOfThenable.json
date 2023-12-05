@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "8262523",
+    "cedula": "MARIA DEL CARMEN ESPINOSA",
+    "direccion": "48364",
+    "telefono": "CALLE 21 # 6A - 14",
+    "id": 190,
+    "carpetaNumero": 190
+  },
   "numero": 190,
   "llaveProceso": "25286400300120170078100",
   "demanda": {
@@ -6,47 +15,42 @@
       "1523-01-01T04:56:16.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 43,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
     "etapaProcesal": "42977",
-    "fechaPresentacion": "2017-12-07T00:00:00.000Z",
+    "fechaPresentacion": "2017-07-12T05:00:00.000Z",
     "municipio": "FUNZA",
     "obligacion": [
-      1853942359
+      18539423
     ],
     "radicado": "2017 - 00781",
     "expediente": "25286400300120170078100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "victor",
-    "segundoNombre": "eduardo",
+    "primerNombre": "VICTOR",
+    "segundoNombre": "EDUARDO",
     "primerApellido": "",
     "segundoApellido": [
-      "mora",
-      "espinosa"
+      "MORA",
+      "ESPINOSA"
     ],
     "cedula": 79909315,
     "direccion": "41537019",
     "email": "CARRERA 18C # 121 - 40"
   },
-  "codeudor": {
-    "cedula": "MARIA DEL CARMEN ESPINOSA",
-    "direccion": 48364,
-    "nombre": 8262523,
-    "telefono": "CALLE 21 # 6A - 14"
-  },
   "cc": 79909315,
-  "nombre": "victor eduardo  mora espinosa",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "VICTOR EDUARDO  MORA ESPINOSA"
 }

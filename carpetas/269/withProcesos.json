@@ -1,9 +1,10 @@
 {
+  "juzgados": [],
   "numero": 269,
   "llaveProceso": "25286400300120180042100",
   "demanda": {
     "vencimientoPagare": [
-      "2025-03-01T05:00:00.000Z"
+      "2025-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 10566667022,
@@ -21,24 +22,24 @@
     "expediente": "25286400300120180042100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "juan",
-    "segundoNombre": "carlos",
-    "primerApellido": "ortiz",
-    "segundoApellido": "cuervo",
+    "primerNombre": "JUAN",
+    "segundoNombre": "CARLOS",
+    "primerApellido": "ORTIZ",
+    "segundoApellido": "CUERVO",
     "cedula": 80162950,
-    "direccion": "carrera 16 no 14 - 36",
+    "direccion": "CARRERA 16 No 14 - 36",
     "email": "ju@yahoo.es"
   },
   "cc": 80162950,
   "procesos": [],
-  "nombre": "juan carlos ortiz cuervo",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "JUAN CARLOS ORTIZ CUERVO"
 }

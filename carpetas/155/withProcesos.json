@@ -1,18 +1,27 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "SULLMAN JANETH SABOGAL JIMENEZ",
+    "cedula": "53063756",
+    "direccion": "CL 7 5 29 TR 8 AP 303",
+    "telefono": "6197842 // 3112563218",
+    "id": 155,
+    "carpetaNumero": 155
+  },
   "numero": 155,
   "llaveProceso": "11001400308320170071700",
   "demanda": {
     "vencimientoPagare": [
-      "2028-11-01T05:00:00.000Z"
+      "2028-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 4042361408,
+    "capitalAdeudado": 40423614,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-04T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-04-08T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-04T00:00:00.000Z",
+    "mandamientoPago": "2017-04-09T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-08-11T00:00:00.000Z",
+    "fechaPresentacion": "2017-11-08T05:00:00.000Z",
     "municipio": "BOGOTA",
     "obligacion": [
       4513082821740149,
@@ -22,30 +31,24 @@
     "expediente": "11001400308320170071700"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "carlos",
-    "segundoNombre": "arturo",
-    "primerApellido": "rueda",
-    "segundoApellido": "alzate",
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ARTURO",
+    "primerApellido": "RUEDA",
+    "segundoApellido": "ALZATE",
     "cedula": 71557211,
-    "direccion": "calle 7 # 5 - 29 torre 8 apto 303",
+    "direccion": "CALLE 7 # 5 - 29 TORRE 8 APTO 303",
     "email": "ruedacarlos47@gmail.com"
-  },
-  "codeudor": {
-    "cedula": 53063756,
-    "direccion": "CL 7 5 29 TR 8 AP 303",
-    "nombre": "sullman janeth sabogal jimenez",
-    "telefono": "6197842 // 3112563218"
   },
   "cc": 71557211,
   "procesos": [],
-  "nombre": "carlos arturo rueda alzate",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "CARLOS ARTURO RUEDA ALZATE"
 }

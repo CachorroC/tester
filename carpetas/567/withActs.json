@@ -16,7 +16,7 @@
       "idProceso": 132262030,
       "isUltimaAct": true,
       "carpetaNumero": 567,
-      "createdAt": "2023-11-30T11:09:50.736Z"
+      "createdAt": "2023-12-03T18:19:08.711Z"
     },
     {
       "idRegActuacion": 1865710460,
@@ -34,7 +34,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-11-30T11:09:50.736Z"
+      "createdAt": "2023-12-03T18:19:08.711Z"
     },
     {
       "idRegActuacion": 1865710450,
@@ -52,7 +52,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-11-30T11:09:50.736Z"
+      "createdAt": "2023-12-03T18:19:08.711Z"
     },
     {
       "idRegActuacion": 1865654250,
@@ -70,7 +70,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-11-30T11:09:50.736Z"
+      "createdAt": "2023-12-03T18:19:08.711Z"
     },
     {
       "idRegActuacion": 1865654240,
@@ -88,7 +88,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-11-30T11:09:50.736Z"
+      "createdAt": "2023-12-03T18:19:08.711Z"
     },
     {
       "idRegActuacion": 1845938400,
@@ -106,7 +106,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-11-30T11:09:50.736Z"
+      "createdAt": "2023-12-03T18:19:08.711Z"
     },
     {
       "idRegActuacion": 1840889670,
@@ -124,7 +124,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-11-30T11:09:50.736Z"
+      "createdAt": "2023-12-03T18:19:08.711Z"
     }
   ],
   "juzgados": [
@@ -138,12 +138,12 @@
   "llaveProceso": "11001400306520230124300",
   "demanda": {
     "vencimientoPagare": [
-      "2027-08-01T05:00:00.000Z"
+      "2027-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 19188290,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -155,22 +155,41 @@
     "radicado": "2023 - 01284",
     "expediente": "11001400306520230124300"
   },
+  "fecha": "2023-09-20T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1895380620,
+    "llaveProceso": "11001400306520230124300",
+    "consActuacion": 7,
+    "fechaActuacion": "2023-09-20T00:00:00",
+    "actuacion": "Elaboración de oficios",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-10-05T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 7,
+    "idProceso": 132262030,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 7766244,
       "celular": 3144005060
     },
-    "primerNombre": "wilson",
-    "segundoNombre": "de",
-    "primerApellido": "jesus",
+    "primerNombre": "WILSON",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
     "segundoApellido": [
-      "molina",
-      "quirama"
+      "MOLINA",
+      "QUIRAMA"
     ],
     "cedula": 94254761,
-    "direccion": "calle 71 f no. 78 c - 50 sur",
+    "direccion": "Calle 71 F No. 78 C - 50 Sur",
     "email": "wilsonmolina16@hotmail.com"
   },
   "cc": 94254761,
@@ -179,8 +198,8 @@
       "idProceso": 132262030,
       "idConexion": 260,
       "llaveProceso": "11001400306520230124300",
-      "fechaProceso": "2023-08-10T00:00:00",
-      "fechaUltimaActuacion": "2023-09-20T00:00:00",
+      "fechaProceso": "2023-08-10T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-09-20T05:00:00.000Z",
       "despacho": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JOHAN ANDRES QUIROGA GALEANO ",
@@ -188,10 +207,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "wilson de jesus molina quirama",
   "idProcesos": [
     132262030
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "WILSON DE JESUS MOLINA QUIRAMA"
 }

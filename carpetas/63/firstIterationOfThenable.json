@@ -1,18 +1,27 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": "JHONNY HERNANDO BELTRAN SALCEDO",
+    "cedula": "1032416632",
+    "direccion": "CALLE 67 C SUR 1B ESTE  APARTAMENTO 404 TORRE 2",
+    "telefono": "7493169 /3185405968",
+    "id": 63,
+    "carpetaNumero": 63
+  },
   "numero": 63,
   "llaveProceso": "11001418900920170008900",
   "demanda": {
     "vencimientoPagare": [
-      "2021-11-01T05:00:00.000Z"
+      "2021-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 2060072170,
+    "capitalAdeudado": 206007217,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-06T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-06-09T05:00:00.000Z",
     "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-12-15T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-09-19T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       145608
@@ -21,29 +30,24 @@
     "expediente": "11001418900920170008900"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": 7493169,
       "celular": null
     },
-    "primerNombre": "diana",
-    "segundoNombre": "marcela",
-    "primerApellido": "ipuz",
-    "segundoApellido": "suarez",
+    "primerNombre": "DIANA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "IPUZ",
+    "segundoApellido": "SUAREZ",
     "cedula": 1022943195,
-    "direccion": "calle 72b bis no 5a 22 sur",
+    "direccion": "CALLE 72B BIS No 5A 22 SUR",
     "email": "marcelaipuzsuarez@hotmail.com"
   },
-  "codeudor": {
-    "cedula": 1032416632,
-    "direccion": "CALLE 67 C SUR 1B ESTE  APARTAMENTO 404 TORRE 2",
-    "nombre": "jhonny hernando beltran salcedo",
-    "telefono": "7493169 /3185405968"
-  },
   "cc": 1022943195,
-  "nombre": "diana marcela ipuz suarez",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "DIANA MARCELA IPUZ SUAREZ"
 }

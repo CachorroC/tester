@@ -16,7 +16,7 @@
       "idProceso": 18366380,
       "isUltimaAct": true,
       "carpetaNumero": 263,
-      "createdAt": "2023-11-30T11:08:40.095Z"
+      "createdAt": "2023-12-03T18:17:28.720Z"
     },
     {
       "idRegActuacion": 265765320,
@@ -34,7 +34,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-11-30T11:08:40.095Z"
+      "createdAt": "2023-12-03T18:17:28.720Z"
     },
     {
       "idRegActuacion": 265765310,
@@ -52,7 +52,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-11-30T11:08:40.095Z"
+      "createdAt": "2023-12-03T18:17:28.720Z"
     },
     {
       "idRegActuacion": 265765300,
@@ -70,7 +70,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-11-30T11:08:40.095Z"
+      "createdAt": "2023-12-03T18:17:28.720Z"
     },
     {
       "idRegActuacion": 265765290,
@@ -88,7 +88,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-11-30T11:08:40.095Z"
+      "createdAt": "2023-12-03T18:17:28.720Z"
     },
     {
       "idRegActuacion": 265765280,
@@ -106,7 +106,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-11-30T11:08:40.095Z"
+      "createdAt": "2023-12-03T18:17:28.720Z"
     },
     {
       "idRegActuacion": 265765270,
@@ -124,7 +124,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-11-30T11:08:40.095Z"
+      "createdAt": "2023-12-03T18:17:28.720Z"
     }
   ],
   "juzgados": [
@@ -138,16 +138,16 @@
   "llaveProceso": "11001400307020170100700",
   "demanda": {
     "vencimientoPagare": [
-      "2017-09-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 2143527832,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-22T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
     "mandamientoPago": null,
     "etapaProcesal": null,
-    "fechaPresentacion": "2017-09-27T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "PENSILVANIA",
     "obligacion": [
       12603197
@@ -155,19 +155,38 @@
     "radicado": "2017 - 01007",
     "expediente": "11001400307020170100700"
   },
+  "fecha": "2018-02-05T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 265765330,
+    "llaveProceso": "11001400307020170100700",
+    "consActuacion": 7,
+    "fechaActuacion": "2018-02-05T00:00:00",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "PAQ.2 DEL 2018 DEMANDA RETIRADA",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2018-02-05T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 7,
+    "idProceso": 18366380,
+    "isUltimaAct": true
+  },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "ancizar",
-    "segundoNombre": "giraldo",
-    "primerApellido": "botero",
+    "primerNombre": "ANCIZAR",
+    "segundoNombre": "GIRALDO",
+    "primerApellido": "BOTERO",
     "segundoApellido": null,
     "cedula": 9856710,
-    "direccion": "carrera  6 no 8-16 pensilvania",
+    "direccion": "CARRERA  6 No 8-16 PENSILVANIA",
     "email": "latablita1404@hotmail.com"
   },
   "cc": 9856710,
@@ -176,8 +195,8 @@
       "idProceso": 18366380,
       "idConexion": 260,
       "llaveProceso": "11001400307020170100700",
-      "fechaProceso": "2017-09-29T00:00:00",
-      "fechaUltimaActuacion": "2018-02-05T00:00:00",
+      "fechaProceso": "2017-09-29T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-02-05T05:00:00.000Z",
       "despacho": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANCIZAR GIRALDO BOTERO ",
@@ -185,10 +204,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "ancizar giraldo botero",
   "idProcesos": [
     18366380
   ],
-  "revisado": true,
-  "terminado": true
+  "nombre": "ANCIZAR GIRALDO BOTERO"
 }

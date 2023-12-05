@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 180,
   "llaveProceso": "25878418900120170021800",
   "demanda": {
     "vencimientoPagare": [
-      "2017-08-01T05:00:00.000Z"
+      "2017-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 6842126851,
+    "capitalAdeudado": 68421268,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-08-22T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-09-18T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-08-29T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "VIOTA",
     "obligacion": [
       12594582
@@ -21,23 +22,24 @@
     "expediente": "25878418900120170021800"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "alcira",
-    "segundoNombre": "delia",
-    "primerApellido": "saenz",
-    "segundoApellido": "garavis",
+    "primerNombre": "ALCIRA",
+    "segundoNombre": "DELIA",
+    "primerApellido": "SAENZ",
+    "segundoApellido": "GARAVIS",
     "cedula": 21016631,
-    "direccion": "calle 3 # 5 - 31 viota",
+    "direccion": "CALLE 3 # 5 - 31 VIOTA",
     "email": null
   },
   "cc": 21016631,
-  "nombre": "alcira delia saenz garavis",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "ALCIRA DELIA SAENZ GARAVIS"
 }

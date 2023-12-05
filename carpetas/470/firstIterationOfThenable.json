@@ -1,4 +1,13 @@
 {
+  "juzgados": [],
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "2/4/2032",
+    "telefono": null,
+    "id": 470,
+    "carpetaNumero": 470
+  },
   "numero": 470,
   "llaveProceso": "25754418900320180084100",
   "demanda": {
@@ -11,8 +20,8 @@
     "entregaGarantiasAbogado": null,
     "tipoProceso": "HIPOTECARIO",
     "mandamientoPago": null,
-    "etapaProcesal": "09-08-2018",
-    "fechaPresentacion": "2018-09-07T00:00:00.000Z",
+    "etapaProcesal": "09/08/2018",
+    "fechaPresentacion": "2018-07-09T05:00:00.000Z",
     "municipio": "SOACHA",
     "obligacion": [
       "21.955.632.15"
@@ -21,26 +30,24 @@
     "expediente": "25754418900320180084100"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "deudor": {
     "tel": {
       "fijo": null,
       "celular": null
     },
-    "primerNombre": "eliana",
-    "segundoNombre": "janneth",
-    "primerApellido": "lozano",
-    "segundoApellido": "arturo",
+    "primerNombre": "ELIANA",
+    "segundoNombre": "JANNETH",
+    "primerApellido": "LOZANO",
+    "segundoApellido": "ARTURO",
     "cedula": 52711938,
     "direccion": null,
     "email": "TRANSVERSAL 2A No 74B-62 SUR"
   },
-  "codeudor": {
-    "direccion": "2-4/2032"
-  },
   "cc": 52711938,
-  "nombre": "eliana janneth lozano arturo",
-  "idProcesos": null,
-  "revisado": true,
-  "terminado": true
+  "procesos": [],
+  "idProcesos": [],
+  "nombre": "ELIANA JANNETH LOZANO ARTURO"
 }

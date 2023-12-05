@@ -1,18 +1,19 @@
 {
+  "juzgados": [],
   "numero": 343,
   "llaveProceso": "11001400303920170151700",
   "demanda": {
     "vencimientoPagare": [
-      "2019-07-01T05:00:00.000Z"
+      "2019-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
     "capitalAdeudado": 1276795600,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-01T00:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-01-09T05:00:00.000Z",
     "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-31T00:00:00.000Z",
+    "mandamientoPago": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": "2017-11-17T00:00:00.000Z",
+    "fechaPresentacion": null,
     "municipio": "BOGOTA",
     "obligacion": [
       "23110089362 / 2044038",
@@ -22,24 +23,24 @@
     "expediente": "11001400303920170151700"
   },
   "category": "Terminados",
+  "revisado": true,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 5470813,
       "celular": 3188426582
     },
-    "primerNombre": "eduardo",
-    "segundoNombre": "alfonso",
-    "primerApellido": "rico",
-    "segundoApellido": "jimenez",
+    "primerNombre": "EDUARDO",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "RICO",
+    "segundoApellido": "JIMENEZ",
     "cedula": 80803306,
-    "direccion": "calle 22 l  no 123 a - 35",
+    "direccion": "CALLE 22 L  No 123 A - 35",
     "email": "magia.orfen@hotmail.com"
   },
   "cc": 80803306,
   "procesos": [],
-  "nombre": "eduardo alfonso rico jimenez",
   "idProcesos": [],
-  "revisado": true,
-  "terminado": true
+  "nombre": "EDUARDO ALFONSO RICO JIMENEZ"
 }

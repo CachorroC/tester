@@ -1,6 +1,24 @@
 {
   "actuaciones": [
     {
+      "idRegActuacion": 1939360760,
+      "llaveProceso": "11001400303220230090400",
+      "consActuacion": 10,
+      "fechaActuacion": "2023-11-30T05:00:00.000Z",
+      "actuacion": "Recepción memorial",
+      "anotacion": "SOLICITUD TERMINACIÓN PROCESO N.D.B.S",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-01T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 10,
+      "idProceso": 132048330,
+      "isUltimaAct": true,
+      "carpetaNumero": 555,
+      "createdAt": "2023-12-03T18:19:05.920Z"
+    },
+    {
       "idRegActuacion": 1936376060,
       "llaveProceso": "11001400303220230090400",
       "consActuacion": 9,
@@ -12,11 +30,11 @@
       "fechaRegistro": "2023-11-21T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 10,
       "idProceso": 132048330,
-      "isUltimaAct": true,
+      "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-11-30T11:09:49.061Z"
+      "createdAt": "2023-12-03T18:19:05.920Z"
     },
     {
       "idRegActuacion": 1924426900,
@@ -30,11 +48,11 @@
       "fechaRegistro": "2023-11-01T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 10,
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-11-30T11:09:49.061Z"
+      "createdAt": "2023-12-03T18:19:05.920Z"
     },
     {
       "idRegActuacion": 1919008980,
@@ -48,11 +66,11 @@
       "fechaRegistro": "2023-10-26T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 10,
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-11-30T11:09:49.061Z"
+      "createdAt": "2023-12-03T18:19:05.920Z"
     },
     {
       "idRegActuacion": 1887348680,
@@ -66,11 +84,11 @@
       "fechaRegistro": "2023-09-28T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 10,
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-11-30T11:09:49.061Z"
+      "createdAt": "2023-12-03T18:19:05.920Z"
     },
     {
       "idRegActuacion": 1887348670,
@@ -84,11 +102,11 @@
       "fechaRegistro": "2023-09-28T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 10,
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-11-30T11:09:49.061Z"
+      "createdAt": "2023-12-03T18:19:05.920Z"
     },
     {
       "idRegActuacion": 1887348660,
@@ -102,11 +120,11 @@
       "fechaRegistro": "2023-09-28T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 10,
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-11-30T11:09:49.061Z"
+      "createdAt": "2023-12-03T18:19:05.920Z"
     },
     {
       "idRegActuacion": 1887348650,
@@ -120,11 +138,11 @@
       "fechaRegistro": "2023-09-28T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 10,
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-11-30T11:09:49.061Z"
+      "createdAt": "2023-12-03T18:19:05.920Z"
     },
     {
       "idRegActuacion": 1837180590,
@@ -138,11 +156,11 @@
       "fechaRegistro": "2023-08-04T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 10,
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-11-30T11:09:49.061Z"
+      "createdAt": "2023-12-03T18:19:05.920Z"
     },
     {
       "idRegActuacion": 1832779880,
@@ -156,11 +174,11 @@
       "fechaRegistro": "2023-08-02T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 10,
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-11-30T11:09:49.061Z"
+      "createdAt": "2023-12-03T18:19:05.920Z"
     }
   ],
   "juzgados": [
@@ -174,12 +192,12 @@
   "llaveProceso": "11001400303220230090400",
   "demanda": {
     "vencimientoPagare": [
-      "2026-03-01T05:00:00.000Z"
+      "2026-01-01T05:00:00.000Z"
     ],
     "juzgados": [],
-    "capitalAdeudado": 80906224,
+    "capitalAdeudado": null,
     "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-07-26T00:00:00.000Z",
+    "entregaGarantiasAbogado": null,
     "tipoProceso": "SINGULAR",
     "mandamientoPago": null,
     "etapaProcesal": null,
@@ -191,19 +209,38 @@
     "radicado": "2023 - 00904",
     "expediente": "11001400303220230090400"
   },
+  "fecha": "2023-11-30T05:00:00.000Z",
+  "ultimaActuacion": {
+    "idRegActuacion": 1939360760,
+    "llaveProceso": "11001400303220230090400",
+    "consActuacion": 10,
+    "fechaActuacion": "2023-11-30T00:00:00",
+    "actuacion": "Recepción memorial",
+    "anotacion": "SOLICITUD TERMINACIÓN PROCESO N.D.B.S",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-12-01T00:00:00",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 10,
+    "idProceso": 132048330,
+    "isUltimaAct": true
+  },
   "category": "Bancolombia",
+  "revisado": false,
+  "terminado": false,
   "tipoProceso": "SINGULAR",
   "deudor": {
     "tel": {
       "fijo": 3917539,
       "celular": 3506509064
     },
-    "primerNombre": "jeimmy",
-    "segundoNombre": "soley",
-    "primerApellido": "quiroga",
-    "segundoApellido": "ramirez",
+    "primerNombre": "JEIMMY",
+    "segundoNombre": "SOLEY",
+    "primerApellido": "QUIROGA",
+    "segundoApellido": "RAMIREZ",
     "cedula": 53130409,
-    "direccion": "cl 55 bis 16 48 apartamento 702 edificio bangkok",
+    "direccion": "CL 55 BIS 16 48 Apartamento 702 Edificio Bangkok",
     "email": "jsquiroga72@hotmail.com"
   },
   "cc": 53130409,
@@ -212,8 +249,8 @@
       "idProceso": 132048330,
       "idConexion": 259,
       "llaveProceso": "11001400303220230090400",
-      "fechaProceso": "2023-08-02T00:00:00",
-      "fechaUltimaActuacion": "2023-10-04T00:00:00",
+      "fechaProceso": "2023-08-02T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-30T05:00:00.000Z",
       "despacho": "JUZGADO 032 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JEIMMY SOLEY QUIROGA RAMIREZ ",
@@ -221,10 +258,8 @@
       "cantFilas": -1
     }
   ],
-  "nombre": "jeimmy soley quiroga ramirez",
   "idProcesos": [
     132048330
   ],
-  "revisado": false,
-  "terminado": false
+  "nombre": "JEIMMY SOLEY QUIROGA RAMIREZ"
 }
