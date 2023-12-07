@@ -1,24 +1,33 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": 3360085515
+    },
+    "capitalAdeudado": "12.456.703",
+    "entregaGarantiasAbogado": "18/09/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SESQUILE",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00135",
+    "llaveProceso": "25736408900120180013500",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "25/09/2018",
+    "mandamientoPago": "03/10/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "02/11/2018"
+      },
+      "certimail": "X"
+    }
+  },
+  "demandas": [],
   "numero": 492,
   "llaveProceso": "25736408900120180013500",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 12456703,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-03-10T05:00:00.000Z",
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "SESQUILE",
-    "obligacion": [
-      3360085515
-    ],
-    "radicado": "2018 - 00135",
-    "expediente": "25736408900120180013500"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

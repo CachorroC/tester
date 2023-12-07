@@ -1,25 +1,40 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": 4513080135113862,
+      "B": "AUDIOPRESTAMO"
+    },
+    "capitalAdeudado": "11.831.747.86",
+    "entregaGarantiasAbogado": "10/11/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 01525",
+    "llaveProceso": "11001400303920170152500",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "21/11/2017",
+    "mandamientoPago": "1/02/2018",
+    "notificacion": {
+      "292": {
+        "resultado": 43236
+      },
+      "certimail": "OK",
+      "tipo": "CERTIMAIL",
+      "autoNotificado": 43266
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "1/02/2018",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 347,
   "llaveProceso": "11001400303920170152500",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 1183174786,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-10-11T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-01-02T05:00:00.000Z",
-    "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4513080135113862,
-      "AUDIOPRESTAMO"
-    ],
-    "radicado": "2017 - 01525",
-    "expediente": "11001400303920170152500"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

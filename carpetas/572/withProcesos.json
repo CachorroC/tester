@@ -1,27 +1,57 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "17/03/2026 // 3/08/2026",
+    "obligacion": {
+      "A": 1910090586,
+      "B": 94351552
+    },
+    "capitalAdeudado": "$ 91.487.785",
+    "entregaGarantiasAbogado": "4/08/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 00746",
+    "llaveProceso": "2547340030012023012900"
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 572,
+      "idConexion": null,
+      "llaveProceso": "2547340030012023012900",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        1910090586,
+        94351552
+      ],
+      "radicado": "2023 - 00746"
+    }
+  ],
   "numero": 572,
   "llaveProceso": "2547340030012023012900",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      1910090586,
-      94351552
-    ],
-    "radicado": "2023 - 00746",
-    "expediente": "2547340030012023012900"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,
@@ -40,5 +70,7 @@
     "email": "jaimequinterom1@hotmail.com"
   },
   "cc": 9527771,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "JAIME ENRIQUE QUINTERO MENDOZA"
 }

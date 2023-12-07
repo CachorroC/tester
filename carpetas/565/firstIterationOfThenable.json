@@ -1,26 +1,25 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "9/03/2026",
+    "obligacion": {
+      "A": 1010090492
+    },
+    "capitalAdeudado": "$ 24.994.278",
+    "entregaGarantiasAbogado": "26/07/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 01273",
+    "llaveProceso": "11001418902120230128000"
+  },
+  "demandas": [],
   "numero": 565,
   "llaveProceso": "11001418902120230128000",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      1010090492
-    ],
-    "radicado": "2023 - 01273",
-    "expediente": "11001418902120230128000"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,

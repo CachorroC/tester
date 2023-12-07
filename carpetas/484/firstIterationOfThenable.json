@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "NELSON MENDEZ VERJAN",
@@ -8,27 +9,42 @@
     "id": 484,
     "carpetaNumero": 484
   },
+  "demanda": {
+    "vencimientoPagare": "21/11/2032",
+    "obligacion": {
+      "A": 20990157739
+    },
+    "capitalAdeudado": "$ 26.503.795",
+    "entregaGarantiasAbogado": "6/09/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SOACHA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2019 - 00270",
+    "llaveProceso": "25754418900320190027000",
+    "etapaProcesal": "25754418900320190027000",
+    "fechaPresentacion": "NOTIFICACIÓN",
+    "mandamientoPago": "18/09/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "SI",
+        "resultado": "05/0972019"
+      },
+      "292": {
+        "fechaAporta": "POSITIVO"
+      },
+      "certimail": "10/0572019",
+      "fisico": "NO",
+      "autoNotificado": "CORREO"
+    },
+    "medidasCautelares": {
+      "medidaSolicitada": "17/05/2019"
+    }
+  },
+  "demandas": [],
   "numero": 484,
   "llaveProceso": "25754418900320190027000",
-  "demanda": {
-    "vencimientoPagare": [
-      "2032-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "25754418900320190027000",
-    "fechaPresentacion": null,
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990157739
-    ],
-    "radicado": "2019 - 00270",
-    "expediente": "25754418900320190027000"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

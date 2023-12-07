@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": null,
@@ -8,27 +9,35 @@
     "id": 34,
     "carpetaNumero": 34
   },
+  "demanda": {
+    "vencimientoPagare": "26/04/2036",
+    "obligacion": {
+      "A": 23595
+    },
+    "capitalAdeudado": 26815877,
+    "entregaGarantiasAbogado": "6/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "GIRARDOT",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00330",
+    "llaveProceso": "25307400300320170033000",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "8/06/2017",
+    "mandamientoPago": "21/06/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 1292,
+        "resultado": "BOGOTA"
+      },
+      "certimail": "21/06/2017",
+      "fisico": "EMBARGO APTO"
+    }
+  },
+  "demandas": [],
   "numero": 34,
   "llaveProceso": "25307400300320170033000",
-  "demanda": {
-    "vencimientoPagare": [
-      "2036-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 26815877,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-06T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-08-06T05:00:00.000Z",
-    "municipio": "GIRARDOT",
-    "obligacion": [
-      23595
-    ],
-    "radicado": "2017 - 00330",
-    "expediente": "25307400300320170033000"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -16,7 +16,7 @@
       "idProceso": 134525980,
       "isUltimaAct": true,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-03T18:19:15.438Z"
+      "createdAt": "2023-12-06T22:29:36.828Z"
     },
     {
       "idRegActuacion": 1936596830,
@@ -34,7 +34,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-03T18:19:15.438Z"
+      "createdAt": "2023-12-06T22:29:36.828Z"
     },
     {
       "idRegActuacion": 1935520180,
@@ -52,7 +52,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-03T18:19:15.438Z"
+      "createdAt": "2023-12-06T22:29:36.828Z"
     },
     {
       "idRegActuacion": 1935520170,
@@ -70,7 +70,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-03T18:19:15.438Z"
+      "createdAt": "2023-12-06T22:29:36.828Z"
     },
     {
       "idRegActuacion": 1924929040,
@@ -88,7 +88,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-03T18:19:15.438Z"
+      "createdAt": "2023-12-06T22:29:36.828Z"
     },
     {
       "idRegActuacion": 1924929030,
@@ -106,7 +106,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-03T18:19:15.438Z"
+      "createdAt": "2023-12-06T22:29:36.828Z"
     }
   ],
   "juzgados": [
@@ -116,32 +116,62 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-027-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "4/02/2026 // 17/05/2026 // 17/05/2026 // 2/02/2026 // 17/05/2026",
+    "obligacion": {
+      "A": 2170096325,
+      "B": "2170097811 //2170097810 // 2170097809 //"
+    },
+    "capitalAdeudado": "$ 106.398.151",
+    "entregaGarantiasAbogado": "13/10/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023-1167",
+    "llaveProceso": "11001400302720230116700"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 27,
+        "tipo": "JUZGADO 027 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-027-civil-municipal-de-bogota"
+      },
+      "idProceso": 134525980,
+      "idConexion": 259,
+      "llaveProceso": "11001400302720230116700",
+      "fechaProceso": "2023-11-01T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-30T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MAYRA ALEJANDRA VALBUENA BARRERO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        2170096325,
+        "2170097811 //2170097810 // 2170097809 //"
+      ],
+      "radicado": "2023-1167"
+    }
+  ],
   "numero": 591,
   "llaveProceso": "11001400302720230116700",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2170096325,
-      "2170097811 //2170097810 // 2170097809 //"
-    ],
-    "radicado": "2023-1167",
-    "expediente": "11001400302720230116700"
-  },
   "fecha": "2023-11-30T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1938540880,

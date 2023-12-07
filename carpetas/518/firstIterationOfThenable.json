@@ -1,25 +1,25 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": 377817000000000,
+      "B": 4513070000000000
+    },
+    "capitalAdeudado": 12203649,
+    "entregaGarantiasAbogado": "30/01/2019",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2019 - 00162",
+    "llaveProceso": "11001418900920190016200"
+  },
+  "demandas": [],
   "numero": 518,
   "llaveProceso": "11001418900920190016200",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 12203649,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      377817000000000,
-      4513070000000000
-    ],
-    "radicado": "2019 - 00162",
-    "expediente": "11001418900920190016200"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -1,27 +1,35 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "13/03/2022",
+    "obligacion": {
+      "A": 2010085214,
+      "B": 3778150000000
+    },
+    "capitalAdeudado": "15.720.013.94",
+    "entregaGarantiasAbogado": "03/08/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00389",
+    "llaveProceso": "11001418900920180038900",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "09/08/2018",
+    "mandamientoPago": "25/10/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 43417
+      },
+      "certimail": "CERTIMAIL"
+    }
+  },
+  "demandas": [],
   "numero": 472,
   "llaveProceso": "11001418900920180038900",
-  "demanda": {
-    "vencimientoPagare": [
-      "2022-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1572001394,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-03-08T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2018-09-08T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2010085214,
-      3778150000000
-    ],
-    "radicado": "2018 - 00389",
-    "expediente": "11001418900920180038900"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -16,7 +16,7 @@
       "idProceso": 51277500,
       "isUltimaAct": true,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-03T18:18:36.591Z"
+      "createdAt": "2023-12-06T22:29:18.057Z"
     },
     {
       "idRegActuacion": 582442790,
@@ -34,7 +34,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-03T18:18:36.591Z"
+      "createdAt": "2023-12-06T22:29:18.057Z"
     },
     {
       "idRegActuacion": 582442780,
@@ -52,7 +52,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-03T18:18:36.591Z"
+      "createdAt": "2023-12-06T22:29:18.057Z"
     },
     {
       "idRegActuacion": 582442770,
@@ -70,7 +70,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-03T18:18:36.591Z"
+      "createdAt": "2023-12-06T22:29:18.057Z"
     },
     {
       "idRegActuacion": 582442760,
@@ -88,7 +88,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-03T18:18:36.591Z"
+      "createdAt": "2023-12-06T22:29:18.057Z"
     },
     {
       "idRegActuacion": 582442750,
@@ -106,7 +106,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-03T18:18:36.591Z"
+      "createdAt": "2023-12-06T22:29:18.057Z"
     }
   ],
   "juzgados": [
@@ -116,27 +116,57 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "27/10/2027",
+    "obligacion": {
+      "A": 1010082679
+    },
+    "capitalAdeudado": "19.260.500.00",
+    "entregaGarantiasAbogado": "21/06/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00711",
+    "llaveProceso": "11001400300520180071100",
+    "etapaProcesal": "ADMISION"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
+      },
+      "idProceso": 51277500,
+      "idConexion": 259,
+      "llaveProceso": "11001400300520180071100",
+      "fechaProceso": "2018-06-27T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-09-06T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS ANTONIO PACHECO TORRES ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2027-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 1926050000,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": "ADMISION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        1010082679
+      ],
+      "radicado": "2018 - 00711"
+    }
+  ],
   "numero": 447,
   "llaveProceso": "11001400300520180071100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2027-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1926050000,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      1010082679
-    ],
-    "radicado": "2018 - 00711",
-    "expediente": "11001400300520180071100"
-  },
   "fecha": "2018-09-06T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 582442800,

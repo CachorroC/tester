@@ -1,27 +1,39 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "26/12/2029",
+    "obligacion": {
+      "A": "451305630938242.",
+      "B": "20990179915 // AUDIOPRESTAMO"
+    },
+    "capitalAdeudado": "$ 55.929.373",
+    "entregaGarantiasAbogado": "4/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "MADRID",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00273",
+    "llaveProceso": "25430400300120180027300",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "11/08/2017",
+    "mandamientoPago": "16/05/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 43244
+      },
+      "tipo": "FISICA"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "16/05/2018",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 121,
   "llaveProceso": "25430400300120180027300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2029-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-04-08T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-11-08T05:00:00.000Z",
-    "municipio": "MADRID",
-    "obligacion": [
-      "451305630938242.",
-      "20990179915 // AUDIOPRESTAMO"
-    ],
-    "radicado": "2018 - 00273",
-    "expediente": "25430400300120180027300"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

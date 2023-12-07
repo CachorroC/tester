@@ -7,29 +7,84 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "18/04/20//04/05/20",
+    "obligacion": {
+      "A": 53037139326557900,
+      "B": 4099839496308260
+    },
+    "capitalAdeudado": "$ 12.537.973",
+    "entregaGarantiasAbogado": "19/05/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CHOCONTA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017-00106",
+    "llaveProceso": "25183400300120170010600",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "30/05/2017",
+    "mandamientoPago": "21/06/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "18/07/2019",
+        "resultado": "POSITIVO",
+        "fechaAporta": "29/07/2019"
+      },
+      "292": {
+        "fechaRecibido": "30/0772019",
+        "fechaAporta": "1/08/2019",
+        "resultado": "POSITIVO"
+      },
+      "certimail": "NO",
+      "fisico": "SI",
+      "tipo": "PERSONAL",
+      "autoNotificado": "2/08/2019"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "21/06/2017",
+      "medidaSolicitada": "EMBARGO VEHICULO"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
+      },
+      "idProceso": 86212261,
+      "idConexion": 320,
+      "llaveProceso": "25183400300120170010600",
+      "fechaProceso": "2017-05-30T05:00:00.000Z",
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: ALVARO  RODRIGUEZ ALONSO | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2015-01-01T05:00:00.000Z",
+        "2015-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "PRENDARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "EJECUCIÓN",
+      "fechaPresentacion": null,
+      "municipio": "CHOCONTA",
+      "obligacion": [
+        53037139326557900,
+        4099839496308260
+      ],
+      "radicado": "2017-00106"
+    }
+  ],
   "numero": 46,
   "llaveProceso": "25183400300120170010600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z",
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": null,
-    "municipio": "CHOCONTA",
-    "obligacion": [
-      53037139326557900,
-      4099839496308260
-    ],
-    "radicado": "2017-00106",
-    "expediente": "25183400300120170010600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Reintegra",
   "revisado": false,
   "terminado": false,

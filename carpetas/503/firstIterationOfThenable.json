@@ -1,25 +1,28 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": "AUDIOPRESTAMO",
+      "B": "3360084365 / 3360084819"
+    },
+    "capitalAdeudado": "15.631.923.00",
+    "entregaGarantiasAbogado": "10/10/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "MANTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00063",
+    "llaveProceso": "25436408900120180006300",
+    "etapaProcesal": "ADMISIION",
+    "fechaPresentacion": "25/10/2018",
+    "mandamientoPago": "07/11/2018"
+  },
+  "demandas": [],
   "numero": 503,
   "llaveProceso": "25436408900120180006300",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 1563192300,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-07-11T05:00:00.000Z",
-    "etapaProcesal": "ADMISIION",
-    "fechaPresentacion": null,
-    "municipio": "MANTA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "3360084365 / 3360084819"
-    ],
-    "radicado": "2018 - 00063",
-    "expediente": "25436408900120180006300"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -1,28 +1,26 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "2/03/2026 // 20/03/2026",
+    "obligacion": {
+      "A": 6520089408,
+      "B": "TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428"
+    },
+    "capitalAdeudado": "$ 36.720.537",
+    "entregaGarantiasAbogado": "26/07/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 00884",
+    "llaveProceso": "08001418901820230073500"
+  },
+  "demandas": [],
   "numero": 561,
   "llaveProceso": "08001418901820230073500",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      6520089408,
-      "TARJETA MASTER CARD No. 5303720118094313 Y TARJETA AMERICAN No. 0377844026948428"
-    ],
-    "radicado": "2023 - 00884",
-    "expediente": "08001418901820230073500"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,

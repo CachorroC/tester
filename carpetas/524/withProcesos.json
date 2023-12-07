@@ -16,7 +16,7 @@
       "idProceso": 70545740,
       "isUltimaAct": true,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 869815910,
@@ -34,7 +34,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 867906090,
@@ -52,7 +52,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 867751010,
@@ -70,7 +70,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 865829930,
@@ -88,7 +88,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 865556060,
@@ -106,7 +106,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 565774490,
@@ -124,7 +124,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 565779090,
@@ -142,7 +142,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 565294300,
@@ -160,7 +160,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 565680260,
@@ -178,7 +178,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     },
     {
       "idRegActuacion": 856400000,
@@ -196,7 +196,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-03T18:18:57.187Z"
+      "createdAt": "2023-12-06T22:29:27.652Z"
     }
   ],
   "juzgados": [
@@ -206,27 +206,57 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "25/04/2026",
+    "obligacion": {
+      "A": 20990138197
+    },
+    "capitalAdeudado": "19.951.135",
+    "entregaGarantiasAbogado": "20/05/2019",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2019 - 01008",
+    "llaveProceso": "11001400307520190100800",
+    "fechaPresentacion": "04/06/2019"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 75,
+        "tipo": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
+      },
+      "idProceso": 70545740,
+      "idConexion": 259,
+      "llaveProceso": "11001400307520190100800",
+      "fechaProceso": "2019-09-19T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-11-19T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: INGRIT YOHANA VASQUEZ ROJAS ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 19951135,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": "2019-04-06T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990138197
+      ],
+      "radicado": "2019 - 01008"
+    }
+  ],
   "numero": 524,
   "llaveProceso": "11001400307520190100800",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 19951135,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": "2019-04-06T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990138197
-    ],
-    "radicado": "2019 - 01008",
-    "expediente": "11001400307520190100800"
-  },
   "fecha": "2019-11-19T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 869815920,

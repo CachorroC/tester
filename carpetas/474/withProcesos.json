@@ -1,26 +1,27 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "04/01/2030",
+    "obligacion": {
+      "A": 20990125162
+    },
+    "capitalAdeudado": "23.110.934.37",
+    "entregaGarantiasAbogado": "15/08/208",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 01271",
+    "llaveProceso": "11001418903220180127100",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "10/09/2018"
+  },
+  "demandas": [],
   "numero": 474,
   "llaveProceso": "11001418903220180127100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2030-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 2311093437,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2018-10-09T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990125162
-    ],
-    "radicado": "2018 - 01271",
-    "expediente": "11001418903220180127100"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

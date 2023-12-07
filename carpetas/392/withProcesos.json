@@ -1,27 +1,49 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "22/08/2020",
+    "obligacion": {
+      "A": 3320087751,
+      "B": 3320088190
+    },
+    "capitalAdeudado": "$ 38.847.950",
+    "entregaGarantiasAbogado": "9/11/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "ZIPAQUIRA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00131",
+    "llaveProceso": "25899400300220170013100",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "20/11/2017",
+    "mandamientoPago": "12/04/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "11/06/2019",
+        "resultado": "POSITIVO",
+        "fechaAporta": "31/07/2019"
+      },
+      "292": {
+        "fechaRecibido": "3/07/2019",
+        "fechaAporta": "31/07/2019",
+        "resultado": "POSITIVO"
+      },
+      "certimail": "NO",
+      "fisico": "SI",
+      "tipo": "CORREO",
+      "autoNotificado": "12/12/2019"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "12/04/2018",
+      "medidaSolicitada": "EMBARGO DE INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 392,
   "llaveProceso": "25899400300220170013100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2020-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-11T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-12-04T05:00:00.000Z",
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "ZIPAQUIRA",
-    "obligacion": [
-      3320087751,
-      3320088190
-    ],
-    "radicado": "2018 - 00131",
-    "expediente": "25899400300220170013100"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Reintegra",
   "revisado": false,
   "terminado": false,

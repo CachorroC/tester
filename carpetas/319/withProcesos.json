@@ -1,27 +1,36 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "5/12/2017",
+    "obligacion": {
+      "A": "335008770 /3350086329",
+      "B": "53003710116636165/0377813180199052"
+    },
+    "capitalAdeudado": "24.165.959.99",
+    "entregaGarantiasAbogado": "25/10/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CAJICA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00756",
+    "llaveProceso": "25126400300120170075600",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "8/11/2017",
+    "mandamientoPago": "30/04/2018",
+    "notificacion": {
+      "tipo": "CERTIMAIL",
+      "autoNotificado": 43298
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "30/04/2018"
+    }
+  },
+  "demandas": [],
   "numero": 319,
   "llaveProceso": "25126400300120170075600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 2416595999,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "LIQUIDACION",
-    "fechaPresentacion": "2017-08-11T05:00:00.000Z",
-    "municipio": "CAJICA",
-    "obligacion": [
-      "335008770 /3350086329",
-      "53003710116636165/0377813180199052"
-    ],
-    "radicado": "2017 - 00756",
-    "expediente": "25126400300120170075600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

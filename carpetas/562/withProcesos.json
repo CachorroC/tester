@@ -1,28 +1,26 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "10/05/2026 // 6/03/2026",
+    "obligacion": {
+      "A": 9960086465,
+      "B": "TARJETA DE CREDITO MASTER CARD 5303720132348190"
+    },
+    "capitalAdeudado": "$ 25.252.953",
+    "entregaGarantiasAbogado": "26/07/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 00985",
+    "llaveProceso": "11001418900420230088400"
+  },
+  "demandas": [],
   "numero": 562,
   "llaveProceso": "11001418900420230088400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      9960086465,
-      "TARJETA DE CREDITO MASTER CARD 5303720132348190"
-    ],
-    "radicado": "2023 - 00985",
-    "expediente": "11001418900420230088400"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,

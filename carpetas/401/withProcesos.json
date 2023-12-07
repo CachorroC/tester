@@ -16,7 +16,7 @@
       "idProceso": 51025410,
       "isUltimaAct": true,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-03T18:18:20.012Z"
+      "createdAt": "2023-12-07T01:08:59.746Z"
     },
     {
       "idRegActuacion": 707397890,
@@ -34,7 +34,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-03T18:18:20.012Z"
+      "createdAt": "2023-12-07T01:08:59.746Z"
     },
     {
       "idRegActuacion": 707397880,
@@ -52,7 +52,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-03T18:18:20.012Z"
+      "createdAt": "2023-12-07T01:08:59.746Z"
     },
     {
       "idRegActuacion": 707397870,
@@ -70,7 +70,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-03T18:18:20.012Z"
+      "createdAt": "2023-12-07T01:08:59.746Z"
     },
     {
       "idRegActuacion": 707397860,
@@ -88,7 +88,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-03T18:18:20.012Z"
+      "createdAt": "2023-12-07T01:08:59.746Z"
     },
     {
       "idRegActuacion": 707397850,
@@ -106,7 +106,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-03T18:18:20.012Z"
+      "createdAt": "2023-12-07T01:08:59.746Z"
     }
   ],
   "juzgados": [
@@ -116,27 +116,58 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-25-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "15/10/2017",
+    "obligacion": {
+      "A": 142837
+    },
+    "capitalAdeudado": "26.633.997",
+    "entregaGarantiasAbogado": "15/02/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018-0237",
+    "llaveProceso": "11001400302520180023700",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "20/02/2018"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 25,
+        "tipo": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-25-civil-municipal-de-bogota"
+      },
+      "idProceso": 51025410,
+      "idConexion": 259,
+      "llaveProceso": "11001400302520180023700",
+      "fechaProceso": "2018-02-21T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-07T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA OJEDA RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 26633997,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "ADMISION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        142837
+      ],
+      "radicado": "2018-0237"
+    }
+  ],
   "numero": 401,
   "llaveProceso": "11001400302520180023700",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 26633997,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      142837
-    ],
-    "radicado": "2018-0237",
-    "expediente": "11001400302520180023700"
-  },
   "fecha": "2018-03-07T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 707397900,

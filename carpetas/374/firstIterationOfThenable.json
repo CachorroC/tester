@@ -15,27 +15,59 @@
     "id": 374,
     "carpetaNumero": 374
   },
+  "demanda": {
+    "vencimientoPagare": "26/08/2024",
+    "obligacion": {
+      "A": 121543
+    },
+    "capitalAdeudado": 27006100,
+    "entregaGarantiasAbogado": "15/01/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00067",
+    "llaveProceso": "11001400308620180006700",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "22/01/2018"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 86,
+        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
+      },
+      "idProceso": 81895161,
+      "idConexion": 320,
+      "llaveProceso": "11001400308620180006700",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2024-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 27006100,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        121543
+      ],
+      "radicado": "2018 - 00067"
+    }
+  ],
   "numero": 374,
   "llaveProceso": "11001400308620180006700",
-  "demanda": {
-    "vencimientoPagare": [
-      "2024-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 27006100,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      121543
-    ],
-    "radicado": "2018 - 00067",
-    "expediente": "11001400308620180006700"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

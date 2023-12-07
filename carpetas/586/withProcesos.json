@@ -1,25 +1,54 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "7/12/2052",
+    "llaveProceso": "SinEspecificar",
+    "obligacion": {
+      "A": 90000222424
+    },
+    "capitalAdeudado": "$ 255.635.733",
+    "entregaGarantiasAbogado": "2/10/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "FUSAGASUGA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2023-00310"
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 586,
+      "idConexion": null,
+      "llaveProceso": "SinEspecificar",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2052-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2023-02-10T05:00:00.000Z",
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "FUSAGASUGA",
+      "obligacion": [
+        90000222424
+      ],
+      "radicado": "2023-00310"
+    }
+  ],
   "numero": 586,
   "llaveProceso": "SinEspecificar",
-  "demanda": {
-    "vencimientoPagare": [
-      "2052-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-02-10T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "FUSAGASUGA",
-    "obligacion": [
-      90000222424
-    ],
-    "radicado": "2023-00310",
-    "expediente": "SinEspecificar"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,
@@ -38,5 +67,7 @@
     "email": "nancypleon13gmail.com"
   },
   "cc": 35507149,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "MARIA NANCY PINEDA LEON"
 }

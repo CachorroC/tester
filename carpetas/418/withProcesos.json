@@ -1,25 +1,31 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": 377817000000000,
+      "B": 451388000000000
+    },
+    "capitalAdeudado": "23.159.598",
+    "entregaGarantiasAbogado": "12/04/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "FACATATIVA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00246",
+    "llaveProceso": "25269400300120180024600",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "19//04/2018",
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "7/05/2018",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 418,
   "llaveProceso": "25269400300120180024600",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 23159598,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-12-04T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "FACATATIVA",
-    "obligacion": [
-      377817000000000,
-      451388000000000
-    ],
-    "radicado": "2018 - 00246",
-    "expediente": "25269400300120180024600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -16,7 +16,7 @@
       "idProceso": 66898433,
       "isUltimaAct": true,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 894580873,
@@ -34,7 +34,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 894580863,
@@ -52,7 +52,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 893025103,
@@ -70,7 +70,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 886333993,
@@ -88,7 +88,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 886333983,
@@ -106,7 +106,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 843644673,
@@ -124,7 +124,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 843464713,
@@ -142,7 +142,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 841592803,
@@ -160,7 +160,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 841592793,
@@ -178,7 +178,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 838670823,
@@ -196,7 +196,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     },
     {
       "idRegActuacion": 838260823,
@@ -214,7 +214,7 @@
       "idProceso": 66898433,
       "isUltimaAct": false,
       "carpetaNumero": 529,
-      "createdAt": "2023-12-03T18:18:58.379Z"
+      "createdAt": "2023-12-06T22:29:28.184Z"
     }
   ],
   "juzgados": [
@@ -232,28 +232,57 @@
     "id": 529,
     "carpetaNumero": 529
   },
+  "demanda": {
+    "vencimientoPagare": "24/01/2034",
+    "obligacion": {
+      "A": 20990171776,
+      "B": "AUDIOPRESTAMO"
+    },
+    "capitalAdeudado": "35.424.539.22",
+    "entregaGarantiasAbogado": "14/11/2019",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2019 - 01103",
+    "llaveProceso": "11001400305220190110300"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 52,
+        "tipo": "JUZGADO 052 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-52-civil-municipal-de-bogota"
+      },
+      "idProceso": 66898433,
+      "idConexion": 261,
+      "llaveProceso": "11001400305220190110300",
+      "fechaProceso": "2019-11-26T05:00:00.000Z",
+      "fechaUltimaActuacion": "2020-02-06T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SUSANA CONTRERAS POVEDA | Demandado: GONZALO CONTRERAS  POVEDA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2034-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 3542453922,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990171776,
+        "AUDIOPRESTAMO"
+      ],
+      "radicado": "2019 - 01103"
+    }
+  ],
   "numero": 529,
   "llaveProceso": "11001400305220190110300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2034-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 3542453922,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990171776,
-      "AUDIOPRESTAMO"
-    ],
-    "radicado": "2019 - 01103",
-    "expediente": "11001400305220190110300"
-  },
   "fecha": "2020-02-06T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 895745473,

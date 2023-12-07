@@ -1,26 +1,26 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "10/11/2020",
+    "obligacion": {
+      "A": 12722464
+    },
+    "capitalAdeudado": "$ 26.468.936",
+    "entregaGarantiasAbogado": "16/11/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "FACATATIVA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 00744",
+    "llaveProceso": "25269400300120170074400",
+    "etapaProcesal": "25269408900120170074400"
+  },
+  "demandas": [],
   "numero": 386,
   "llaveProceso": "25269400300120170074400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2020-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "25269408900120170074400",
-    "fechaPresentacion": null,
-    "municipio": "FACATATIVA",
-    "obligacion": [
-      12722464
-    ],
-    "radicado": "2017 - 00744",
-    "expediente": "25269400300120170074400"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

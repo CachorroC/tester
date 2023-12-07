@@ -7,27 +7,59 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "14/08/2017",
+    "obligacion": {
+      "A": 12766386
+    },
+    "capitalAdeudado": 46042338,
+    "entregaGarantiasAbogado": "24/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 00863",
+    "llaveProceso": "11001400308620170086300",
+    "fechaPresentacion": "28/08/2017"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 86,
+        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
+      },
+      "idProceso": 81888701,
+      "idConexion": 320,
+      "llaveProceso": "11001400308620170086300",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 46042338,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "PRENDARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12766386
+      ],
+      "radicado": "2017 - 00863"
+    }
+  ],
   "numero": 171,
   "llaveProceso": "11001400308620170086300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 46042338,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12766386
-    ],
-    "radicado": "2017 - 00863",
-    "expediente": "11001400308620170086300"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

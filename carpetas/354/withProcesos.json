@@ -16,7 +16,7 @@
       "idProceso": 62939862,
       "isUltimaAct": true,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120242,
@@ -34,7 +34,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120232,
@@ -52,7 +52,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120222,
@@ -70,7 +70,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120212,
@@ -88,7 +88,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120202,
@@ -106,7 +106,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120192,
@@ -124,7 +124,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120182,
@@ -142,7 +142,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120172,
@@ -160,7 +160,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120162,
@@ -178,7 +178,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120152,
@@ -196,7 +196,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120142,
@@ -214,7 +214,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     },
     {
       "idRegActuacion": 886120132,
@@ -232,7 +232,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-03T18:18:04.296Z"
+      "createdAt": "2023-12-07T01:08:41.323Z"
     }
   ],
   "juzgados": [
@@ -250,27 +250,58 @@
     "id": 354,
     "carpetaNumero": 354
   },
+  "demanda": {
+    "vencimientoPagare": "1/03/2037",
+    "obligacion": {
+      "A": 199177
+    },
+    "capitalAdeudado": "162.645.743.97",
+    "entregaGarantiasAbogado": "24/11/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00359",
+    "llaveProceso": "11001310304520170035900",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "29/11/2017",
+    "mandamientoPago": "31/01/2018"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 45,
+        "tipo": "JUZGADO 045 CIVIL DEL CIRCUITO DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-045-civil-del-circuito-de-bogota"
+      },
+      "idProceso": 62939862,
+      "idConexion": 180,
+      "llaveProceso": "11001310304520170035900",
+      "fechaProceso": "2017-12-14T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-08-10T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S. A. | Demandado: ELDY CONSUELO MELO VILLALBA | Demandado: BERNARDO ANIBAL GIL TORRES ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2037-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 16264574397,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        199177
+      ],
+      "radicado": "2017 - 00359"
+    }
+  ],
   "numero": 354,
   "llaveProceso": "11001310304520170035900",
-  "demanda": {
-    "vencimientoPagare": [
-      "2037-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 16264574397,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      199177
-    ],
-    "radicado": "2017 - 00359",
-    "expediente": "11001310304520170035900"
-  },
   "fecha": "2018-08-10T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 886120252,

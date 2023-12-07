@@ -16,7 +16,7 @@
       "idProceso": 130946630,
       "isUltimaAct": true,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1907111750,
@@ -34,7 +34,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1882262370,
@@ -52,7 +52,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1882262360,
@@ -70,7 +70,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1882262350,
@@ -88,7 +88,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1882262340,
@@ -106,7 +106,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1848382040,
@@ -124,7 +124,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1834975130,
@@ -142,7 +142,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1829320340,
@@ -160,7 +160,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1829320330,
@@ -178,7 +178,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1793220780,
@@ -196,7 +196,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     },
     {
       "idRegActuacion": 1793220770,
@@ -214,7 +214,7 @@
       "idProceso": 130946630,
       "isUltimaAct": false,
       "carpetaNumero": 552,
-      "createdAt": "2023-12-03T18:19:04.916Z"
+      "createdAt": "2023-12-06T22:29:31.446Z"
     }
   ],
   "juzgados": [
@@ -224,29 +224,59 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "10/02/2026 // 27/01/2026",
+    "obligacion": {
+      "A": 530104065,
+      "B": 530103261
+    },
+    "capitalAdeudado": "$ 77.376.262",
+    "entregaGarantiasAbogado": "20/06/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 00622",
+    "llaveProceso": "11001400300420230062200"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 4,
+        "tipo": "JUZGADO 004 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-04-civil-municipal-de-bogota"
+      },
+      "idProceso": 130946630,
+      "idConexion": 259,
+      "llaveProceso": "11001400300420230062200",
+      "fechaProceso": "2023-06-29T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-22T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OSCAR MAURICIO GOMEZ MENDOZA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        530104065,
+        530103261
+      ],
+      "radicado": "2023 - 00622"
+    }
+  ],
   "numero": 552,
   "llaveProceso": "11001400300420230062200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      530104065,
-      530103261
-    ],
-    "radicado": "2023 - 00622",
-    "expediente": "11001400300420230062200"
-  },
   "fecha": "2023-11-22T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1936708160,

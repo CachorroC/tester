@@ -1,27 +1,46 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "8/06/2020",
+    "obligacion": {
+      "A": 3880083739,
+      "B": 377813000000000
+    },
+    "capitalAdeudado": "$ 16.881.706",
+    "entregaGarantiasAbogado": "3/08/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00384",
+    "llaveProceso": "11001408900420180038400",
+    "etapaProcesal": "11001418900420180038400",
+    "fechaPresentacion": "EJECUCIÓN",
+    "mandamientoPago": "9/08/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "NO",
+        "resultado": "6/11/2018"
+      },
+      "292": {
+        "fechaRecibido": "25/02/2019",
+        "fechaAporta": "POSITIVO"
+      },
+      "certimail": "3/09/2018",
+      "fisico": "SI",
+      "autoNotificado": "CERTIMAIL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "25/02/2019",
+      "medidaSolicitada": "3/0972018"
+    }
+  },
+  "demandas": [],
   "numero": 468,
   "llaveProceso": "11001408900420180038400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2020-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-03-08T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-09-08T05:00:00.000Z",
-    "etapaProcesal": "11001418900420180038400",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      3880083739,
-      377813000000000
-    ],
-    "radicado": "2018 - 00384",
-    "expediente": "11001408900420180038400"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

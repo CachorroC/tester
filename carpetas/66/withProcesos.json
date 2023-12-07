@@ -16,7 +16,7 @@
       "idProceso": 50593320,
       "isUltimaAct": true,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.945Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670033050,
@@ -34,7 +34,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.945Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670033040,
@@ -52,7 +52,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.945Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670033030,
@@ -70,7 +70,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670033020,
@@ -88,7 +88,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670033010,
@@ -106,7 +106,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670033000,
@@ -124,7 +124,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670032990,
@@ -142,7 +142,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670032980,
@@ -160,7 +160,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670032970,
@@ -178,7 +178,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670032960,
@@ -196,7 +196,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670032950,
@@ -214,7 +214,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     },
     {
       "idRegActuacion": 670032940,
@@ -232,7 +232,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-03T18:16:31.946Z"
+      "createdAt": "2023-12-07T01:07:21.027Z"
     }
   ],
   "juzgados": [
@@ -242,27 +242,70 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "8/10/2018",
+    "obligacion": {
+      "A": 12525003
+    },
+    "capitalAdeudado": 12845011,
+    "entregaGarantiasAbogado": "12/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 00702",
+    "llaveProceso": "11001400301920170070200",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "21/07/2017",
+    "mandamientoPago": "27/07/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 1944,
+        "resultado": "31/07/2017"
+      },
+      "292": {
+        "fechaRecibido": "24/08/2017"
+      },
+      "certimail": "27/07/2017",
+      "fisico": "VEHICULO"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 19,
+        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"
+      },
+      "idProceso": 50593320,
+      "idConexion": 259,
+      "llaveProceso": "11001400301920170070200",
+      "fechaProceso": "2017-07-26T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-15T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA SUAREZ GALVIS ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2018-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 12845011,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
+      "tipoProceso": "PRENDARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12525003
+      ],
+      "radicado": "2017 - 00702"
+    }
+  ],
   "numero": 66,
   "llaveProceso": "11001400301920170070200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2018-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 12845011,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12525003
-    ],
-    "radicado": "2017 - 00702",
-    "expediente": "11001400301920170070200"
-  },
   "fecha": "2018-03-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 670033060,

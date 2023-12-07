@@ -1,4 +1,6 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
   "codeudor": {
     "nombre": "JOHANNA ESMERALDA PULIDO DURAN",
     "cedula": "52347132",
@@ -7,27 +9,64 @@
     "id": 195,
     "carpetaNumero": 195
   },
+  "demanda": {
+    "vencimientoPagare": "4/05/2026",
+    "obligacion": {
+      "A": 138546
+    },
+    "capitalAdeudado": 25303069,
+    "entregaGarantiasAbogado": "24/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 0991",
+    "llaveProceso": "1100140030122017099100",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "30/08/2017",
+    "mandamientoPago": "19/09/2017",
+    "notificacion": {
+      "tipo": "P/NAL DDA",
+      "autoNotificado": "01/03/2018"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "19/09/2017",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 195,
+      "idConexion": null,
+      "llaveProceso": "1100140030122017099100",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 25303069,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "SENTENCIA",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        138546
+      ],
+      "radicado": "2017 - 0991"
+    }
+  ],
   "numero": 195,
   "llaveProceso": "1100140030122017099100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 25303069,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      138546
-    ],
-    "radicado": "2017 - 0991",
-    "expediente": "1100140030122017099100"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,
@@ -46,5 +85,7 @@
     "email": "gufo2299@hotmail.com"
   },
   "cc": 80244664,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "DOUGLAS FABIAN SIZA CORTES"
 }

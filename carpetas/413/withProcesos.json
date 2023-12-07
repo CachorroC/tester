@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "JHON  HADER OTALVARO  ROMO",
@@ -8,27 +9,31 @@
     "id": 413,
     "carpetaNumero": 413
   },
+  "demanda": {
+    "vencimientoPagare": "20/04/2035",
+    "obligacion": {
+      "A": 20990182990
+    },
+    "capitalAdeudado": "21.470.052",
+    "entregaGarantiasAbogado": "12/04/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SOACHA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00363",
+    "llaveProceso": "25754418900220180036300",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "26/04/2018",
+    "mandamientoPago": "18/05/2018",
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "18/05/2018",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 413,
   "llaveProceso": "25754418900220180036300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2035-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 21470052,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-12-04T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990182990
-    ],
-    "radicado": "2018 - 00363",
-    "expediente": "25754418900220180036300"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

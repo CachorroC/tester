@@ -16,7 +16,7 @@
       "idProceso": 11486153,
       "isUltimaAct": true,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966143,
@@ -34,7 +34,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966233,
@@ -52,7 +52,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966223,
@@ -70,7 +70,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966213,
@@ -88,7 +88,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966203,
@@ -106,7 +106,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966193,
@@ -124,7 +124,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966183,
@@ -142,7 +142,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966173,
@@ -160,7 +160,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966163,
@@ -178,7 +178,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     },
     {
       "idRegActuacion": 144966133,
@@ -196,7 +196,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-03T18:16:26.433Z"
+      "createdAt": "2023-12-07T01:07:17.309Z"
     }
   ],
   "juzgados": [
@@ -214,27 +214,62 @@
     "id": 49,
     "carpetaNumero": 49
   },
+  "demanda": {
+    "vencimientoPagare": "2/03/2027",
+    "obligacion": {
+      "A": "320 149552"
+    },
+    "capitalAdeudado": 35031244,
+    "entregaGarantiasAbogado": "12/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00644",
+    "llaveProceso": "11001400305120170064400",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "20/06/2017",
+    "notificacion": {
+      "291": {
+        "fechaAporta": "CARRERA 77 No. 57-H39 SUR//CARRERA 11B No. 12-68 SUR BOGOTA// TRANSVERSAL 31 No. 28-31 Apto 103 bloque 7"
+      }
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 51,
+        "tipo": "JUZGADO 051 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-051-civil-municipal-de-bogota"
+      },
+      "idProceso": 11486153,
+      "idConexion": 261,
+      "llaveProceso": "11001400305120170064400",
+      "fechaProceso": "2017-06-23T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-08-28T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ISRAEL MONROY CORDOBA | Demandado: ANA PATRICIA VILLAMIZAR MONTOYA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2027-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 35031244,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "ADMISION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "320 149552"
+      ],
+      "radicado": "2017 - 00644"
+    }
+  ],
   "numero": 49,
   "llaveProceso": "11001400305120170064400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2027-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 35031244,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "320 149552"
-    ],
-    "radicado": "2017 - 00644",
-    "expediente": "11001400305120170064400"
-  },
   "fecha": "2017-08-28T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 144966153,

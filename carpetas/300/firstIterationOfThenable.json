@@ -1,26 +1,27 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "26/05/2017",
+    "obligacion": {
+      "A": 12245382
+    },
+    "capitalAdeudado": "19.678.334.90",
+    "entregaGarantiasAbogado": "12/10/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "FUNZA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 00816",
+    "llaveProceso": "25286400300120170081600",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "18/10/2017"
+  },
+  "demandas": [],
   "numero": 300,
   "llaveProceso": "25286400300120170081600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1967833490,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-10T05:00:00.000Z",
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "FUNZA",
-    "obligacion": [
-      12245382
-    ],
-    "radicado": "2017 - 00816",
-    "expediente": "25286400300120170081600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -16,7 +16,7 @@
       "idProceso": 17941680,
       "isUltimaAct": true,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     },
     {
       "idRegActuacion": 265448170,
@@ -34,7 +34,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     },
     {
       "idRegActuacion": 265448160,
@@ -52,7 +52,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     },
     {
       "idRegActuacion": 265448150,
@@ -70,7 +70,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     },
     {
       "idRegActuacion": 265448140,
@@ -88,7 +88,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     },
     {
       "idRegActuacion": 265448130,
@@ -106,7 +106,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     },
     {
       "idRegActuacion": 265448120,
@@ -124,7 +124,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     },
     {
       "idRegActuacion": 265448110,
@@ -142,7 +142,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     },
     {
       "idRegActuacion": 265448100,
@@ -160,7 +160,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     },
     {
       "idRegActuacion": 265448090,
@@ -178,7 +178,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-03T18:16:28.144Z"
+      "createdAt": "2023-12-07T01:07:18.072Z"
     }
   ],
   "juzgados": [
@@ -188,27 +188,68 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "2/04/2022",
+    "obligacion": {
+      "A": 320095437
+    },
+    "capitalAdeudado": "$ 18.400.665",
+    "entregaGarantiasAbogado": "12/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01138",
+    "llaveProceso": "11001400306420170113800",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "21/06/2017",
+    "mandamientoPago": "25/08/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 3396,
+        "resultado": "11/09/2017",
+        "fechaAporta": "CARRERA 87D No. 48-03 SUR//DIAGONAL 49 No. 85-79 SUR TORRE 10 APARTAMENTO 2"
+      },
+      "certimail": "25/08/2017",
+      "fisico": "INMUEBLE"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 64,
+        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
+      },
+      "idProceso": 17941680,
+      "idConexion": 260,
+      "llaveProceso": "11001400306420170113800",
+      "fechaProceso": "2017-08-22T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-04-25T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OLGA GALLEGO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2022-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        320095437
+      ],
+      "radicado": "2017 - 01138"
+    }
+  ],
   "numero": 54,
   "llaveProceso": "11001400306420170113800",
-  "demanda": {
-    "vencimientoPagare": [
-      "2022-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      320095437
-    ],
-    "radicado": "2017 - 01138",
-    "expediente": "11001400306420170113800"
-  },
   "fecha": "2018-04-25T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 265448180,

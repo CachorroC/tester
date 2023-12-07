@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": null,
@@ -8,27 +9,25 @@
     "id": 488,
     "carpetaNumero": 488
   },
+  "demanda": {
+    "vencimientoPagare": "###############################################################################################################################################################################################################################################################",
+    "obligacion": {
+      "B": "25.547.970.61"
+    },
+    "capitalAdeudado": "12/09/2018",
+    "entregaGarantiasAbogado": "CUNDINAMARCA",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00834",
+    "llaveProceso": "11001418901020180083400",
+    "etapaProcesal": "20/09/2018"
+  },
+  "demandas": [],
   "numero": 488,
   "llaveProceso": "11001418901020180083400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "20/09/2018",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "25.547.970.61"
-    ],
-    "radicado": "2018 - 00834",
-    "expediente": "11001418901020180083400"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -1,4 +1,4 @@
-import { Juzgado,
+import {  Juzgado,
 
   PrismaClient, } from '@prisma/client';
 import { Despachos } from '../data/despachos';
@@ -9,7 +9,8 @@ import { Category,
   CarpetaRaw,
   Codeudor,
   IntCarpeta,
-  IntDemanda, } from '../types/carpetas';
+  IntDemanda,
+  DemandaRaw, } from '../types/carpetas';
 import { ConsultaNumeroRadicacion,
   Data,
   Message,
@@ -91,15 +92,15 @@ export class NewJuzgado implements Juzgado {
 export class CarpetaJudicial implements IntCarpeta {
   numero: number;
   llaveProceso: string;
-  demanda: IntDemanda;
-  fecha?: Date;
-  ultimaActuacion?: intActuacion;
+  demanda: DemandaRaw;
+  fecha: Date | null;
+  ultimaActuacion: intActuacion | null;
   category: Category;
   tipoProceso: TipoProceso;
   deudor: IntDeudor;
-  codeudor?: Codeudor;
+  codeudor: Codeudor | null;
   readonly cc: number;
-  procesos?: intProceso[];
+  procesos: intProceso[] | null;
 
   // SECTION constructor
   constructor(
@@ -107,6 +108,9 @@ export class CarpetaJudicial implements IntCarpeta {
       codeudor, category, deudor, demanda, numero
     }: CarpetaRaw
   ) {
+    this.procesos = null;
+    this.fecha = null;
+    this.ultimaActuacion = null;
     this.llaveProceso = demanda.llaveProceso;
     this.numero = numero;
     this.tipoProceso = demanda.tipoProceso
@@ -118,9 +122,7 @@ export class CarpetaJudicial implements IntCarpeta {
     this.deudor = new ClassDeudor(
       deudor
     );
-    this.demanda = new ClassDemanda(
-      demanda, this.procesos
-    );
+    this.demanda = demanda;
     this.codeudor = codeudor
       ? {
           nombre: codeudor.nombre
@@ -146,12 +148,19 @@ export class CarpetaJudicial implements IntCarpeta {
           id           : this.numero,
           carpetaNumero: this.numero
         }
-      : undefined;
+      : null;
+    this.demandas = [
+      new ClassDemanda(
+        demanda, numero
+      )
+    ];
+    this.idProcesos = [];
     this.cc = Number(
       deudor.cedula
     );
   }
-  idProcesos?: number[];
+  demandas: IntDemanda[];
+  idProcesos: number[] ;
   //!SECTION
 
   get nombre() {
@@ -181,10 +190,10 @@ export class CarpetaJudicial implements IntCarpeta {
             category    : this.category,
             llaveProceso: this.llaveProceso,
             numero      : this.numero,
-            demanda     : {
+            demandas    : {
               connectOrCreate: {
                 where: {
-                  carpetaNumero: this.numero,
+                  idProceso: this.numero,
                 },
                 create: new PrismaDemanda(
                   this
@@ -211,10 +220,10 @@ export class CarpetaJudicial implements IntCarpeta {
             nombre  : this.nombre,
             category: this.category,
             numero  : this.numero,
-            demanda : {
+            demandas: {
               connectOrCreate: {
                 where: {
-                  carpetaNumero: this.numero,
+                  idProceso: this.numero,
                 },
                 create: new PrismaDemanda(
                   this
@@ -280,7 +289,16 @@ export class CarpetaJudicial implements IntCarpeta {
         procesos  : json.procesos,
       };
 
+      const procesosDemandaMap = new Set<IntDemanda>();
+
       for ( const proceso of responseReturn.procesos ) {
+        const npd = new ClassDemanda(
+          this, this.numero, proceso
+        );
+        procesosDemandaMap.add(
+          npd
+        );
+
         if ( proceso.esPrivado ) {
           continue;
         }
@@ -299,9 +317,11 @@ export class CarpetaJudicial implements IntCarpeta {
         sujetosProcesalesSet.add(
           proceso.sujetosProcesales
         );
-        this.demanda.departamento = proceso.departamento;
       }
 
+      this.demandas = Array.from(
+        procesosDemandaMap
+      );
       this.procesos = responseReturn.procesos;
       this.idProcesos = responseReturn.procesos.map(
         (
@@ -311,16 +331,7 @@ export class CarpetaJudicial implements IntCarpeta {
         }
       );
 
-      this.demanda.despachos = Array.from(
-        despachosSet
-      );
-      this.demanda.sujetosProcesales = Array.from(
-        sujetosProcesalesSet
-      );
 
-      this.demanda.juzgados = Array.from(
-        juzgadosSet
-      );
 
       return responseReturn;
     } catch ( error ) {
@@ -424,15 +435,21 @@ export class CarpetaJudicial implements IntCarpeta {
             category    : this.category,
             numero      : this.numero,
             llaveProceso: this.llaveProceso,
-            demanda     : {
-              connectOrCreate: {
-                where: {
-                  carpetaNumero: this.numero,
-                },
-                create: new PrismaDemanda(
-                  this
-                ),
-              },
+            demandas    : {
+              connectOrCreate: this.procesos.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      idProceso: proceso.idProceso,
+                    },
+                    create: new PrismaDemanda(
+                      this, proceso
+                    )
+                  };
+                }
+              )
             },
             deudor: {
               connectOrCreate: {

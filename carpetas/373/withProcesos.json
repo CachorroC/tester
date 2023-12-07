@@ -1,25 +1,36 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": 4513087158442953,
+      "B": 5306966000650228
+    },
+    "capitalAdeudado": 10725698,
+    "entregaGarantiasAbogado": "18/01/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "APULO",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00005",
+    "llaveProceso": "25599400300120180000500",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "22/01/2018",
+    "mandamientoPago": "23/01/2018",
+    "notificacion": {
+      "tipo": "PERSONAL",
+      "autoNotificado": 43342
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "23/01/2018",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 373,
   "llaveProceso": "25599400300120180000500",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 10725698,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "APULO",
-    "obligacion": [
-      4513087158442953,
-      5306966000650228
-    ],
-    "radicado": "2018 - 00005",
-    "expediente": "25599400300120180000500"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

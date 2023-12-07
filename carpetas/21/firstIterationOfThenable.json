@@ -1,25 +1,41 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": 15537944,
+      "B": 42874
+    },
+    "departamento": "CUNDINAMARCA",
+    "municipio": "FUSAGASUGA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00437",
+    "llaveProceso": "25290400300120170043700",
+    "etapaProcesal": 42886,
+    "fechaPresentacion": "25/07/2017",
+    "mandamientoPago": "25/07/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 42948
+      },
+      "292": {
+        "resultado": 43250
+      },
+      "certimail": "BANCOS",
+      "fisico": 4257,
+      "tipo": "CERTIMAIL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "25/07/2017",
+      "medidaSolicitada": "BANCOS"
+    }
+  },
+  "demandas": [],
   "numero": 21,
   "llaveProceso": "25290400300120170043700",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "42886",
-    "fechaPresentacion": null,
-    "municipio": "FUSAGASUGA",
-    "obligacion": [
-      15537944,
-      42874
-    ],
-    "radicado": "2017 - 00437",
-    "expediente": "25290400300120170043700"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

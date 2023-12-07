@@ -16,7 +16,7 @@
       "idProceso": 50643180,
       "isUltimaAct": true,
       "carpetaNumero": 124,
-      "createdAt": "2023-12-03T18:16:50.053Z"
+      "createdAt": "2023-12-07T01:07:33.937Z"
     },
     {
       "idRegActuacion": 758102530,
@@ -34,7 +34,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-12-03T18:16:50.053Z"
+      "createdAt": "2023-12-07T01:07:33.937Z"
     },
     {
       "idRegActuacion": 758102520,
@@ -52,7 +52,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-12-03T18:16:50.053Z"
+      "createdAt": "2023-12-07T01:07:33.937Z"
     },
     {
       "idRegActuacion": 758102510,
@@ -70,7 +70,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-12-03T18:16:50.053Z"
+      "createdAt": "2023-12-07T01:07:33.937Z"
     },
     {
       "idRegActuacion": 758102500,
@@ -88,7 +88,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-12-03T18:16:50.053Z"
+      "createdAt": "2023-12-07T01:07:33.937Z"
     },
     {
       "idRegActuacion": 758102490,
@@ -106,7 +106,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-12-03T18:16:50.053Z"
+      "createdAt": "2023-12-07T01:07:33.937Z"
     },
     {
       "idRegActuacion": 758102480,
@@ -124,7 +124,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-12-03T18:16:50.053Z"
+      "createdAt": "2023-12-07T01:07:33.937Z"
     },
     {
       "idRegActuacion": 758102470,
@@ -142,7 +142,7 @@
       "idProceso": 50643180,
       "isUltimaAct": false,
       "carpetaNumero": 124,
-      "createdAt": "2023-12-03T18:16:50.053Z"
+      "createdAt": "2023-12-07T01:07:33.937Z"
     }
   ],
   "juzgados": [
@@ -152,26 +152,55 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-033-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": 153313,
+      "B": 377815399826276
+    },
+    "entregaGarantiasAbogado": "9/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01180",
+    "llaveProceso": "11001400303320170118000",
+    "fechaPresentacion": "16/08/2017"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 33,
+        "tipo": "JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-033-civil-municipal-de-bogota"
+      },
+      "idProceso": 50643180,
+      "idConexion": 259,
+      "llaveProceso": "11001400303320170118000",
+      "fechaProceso": "2017-08-17T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-24T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA EDELMIRA ARIAS MELO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [],
+      "capitalAdeudado": 0,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-09-08T05:00:00.000Z",
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        153313,
+        377815399826276
+      ],
+      "radicado": "2017 - 01180"
+    }
+  ],
   "numero": 124,
   "llaveProceso": "11001400303320170118000",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-09-08T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      153313,
-      377815399826276
-    ],
-    "radicado": "2017 - 01180",
-    "expediente": "11001400303320170118000"
-  },
   "fecha": "2018-03-24T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 758102540,

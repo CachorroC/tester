@@ -1,26 +1,26 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "15/10/218",
+    "obligacion": {
+      "A": 8270082134
+    },
+    "capitalAdeudado": "16.585.595.00",
+    "entregaGarantiasAbogado": "30/11/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "COTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 01002",
+    "llaveProceso": "25214400300120180100200",
+    "fechaPresentacion": "ADMISION"
+  },
+  "demandas": [],
   "numero": 509,
   "llaveProceso": "25214400300120180100200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1658559500,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "COTA",
-    "obligacion": [
-      8270082134
-    ],
-    "radicado": "2018 - 01002",
-    "expediente": "25214400300120180100200"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

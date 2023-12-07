@@ -16,7 +16,7 @@
       "idProceso": 50765090,
       "isUltimaAct": true,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-03T18:16:59.346Z"
+      "createdAt": "2023-12-07T01:07:42.538Z"
     },
     {
       "idRegActuacion": 855746550,
@@ -34,7 +34,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-03T18:16:59.346Z"
+      "createdAt": "2023-12-07T01:07:42.538Z"
     },
     {
       "idRegActuacion": 855746540,
@@ -52,7 +52,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-03T18:16:59.346Z"
+      "createdAt": "2023-12-07T01:07:42.538Z"
     },
     {
       "idRegActuacion": 855746530,
@@ -70,7 +70,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-03T18:16:59.346Z"
+      "createdAt": "2023-12-07T01:07:42.538Z"
     },
     {
       "idRegActuacion": 855746520,
@@ -88,7 +88,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-03T18:16:59.346Z"
+      "createdAt": "2023-12-07T01:07:42.538Z"
     },
     {
       "idRegActuacion": 855746510,
@@ -106,7 +106,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-03T18:16:59.346Z"
+      "createdAt": "2023-12-07T01:07:42.538Z"
     },
     {
       "idRegActuacion": 855746500,
@@ -124,7 +124,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-03T18:16:59.346Z"
+      "createdAt": "2023-12-07T01:07:42.538Z"
     },
     {
       "idRegActuacion": 855746490,
@@ -142,7 +142,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-03T18:16:59.346Z"
+      "createdAt": "2023-12-07T01:07:42.538Z"
     }
   ],
   "juzgados": [
@@ -152,27 +152,57 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "16/08/2017",
+    "obligacion": {
+      "A": 11932772
+    },
+    "capitalAdeudado": 18653826,
+    "entregaGarantiasAbogado": "22/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 01333",
+    "llaveProceso": "11001400307320170133300",
+    "fechaPresentacion": "28/08/2017"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 73,
+        "tipo": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"
+      },
+      "idProceso": 50765090,
+      "idConexion": 259,
+      "llaveProceso": "11001400307320170133300",
+      "fechaProceso": "2017-10-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-11-08T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALLAN FREDY TOBAR ENCISO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 18653826,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "PRENDARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        11932772
+      ],
+      "radicado": "2017 - 01333"
+    }
+  ],
   "numero": 159,
   "llaveProceso": "11001400307320170133300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 18653826,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      11932772
-    ],
-    "radicado": "2017 - 01333",
-    "expediente": "11001400307320170133300"
-  },
   "fecha": "2017-11-08T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 855746560,

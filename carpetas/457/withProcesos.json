@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "OSCAR JAVIER PARDO MORENO // ALUEN DAVID RONCANCIO",
@@ -8,28 +9,27 @@
     "id": 457,
     "carpetaNumero": 457
   },
+  "demanda": {
+    "vencimientoPagare": "26/01/2019",
+    "obligacion": {
+      "A": "AUDIOPRESTAMO",
+      "B": "460091173/ 460090745"
+    },
+    "capitalAdeudado": "24.765.475.00",
+    "entregaGarantiasAbogado": "9/07/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00872",
+    "llaveProceso": "11001400307920180087200",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "18/07/2018"
+  },
+  "demandas": [],
   "numero": 457,
   "llaveProceso": "11001400307920180087200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2019-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 2476547500,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-09-07T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "460091173/ 460090745"
-    ],
-    "radicado": "2018 - 00872",
-    "expediente": "11001400307920180087200"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

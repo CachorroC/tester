@@ -19,20 +19,19 @@ export interface CarpetaRaw extends TrulyCruda {
 }
 
 export interface IntCarpeta {
-  numero: number;
-  llaveProceso: string;
-  demanda: IntDemanda;
-  fecha?: Date;
-  ultimaActuacion?: intActuacion;
   category: Category;
-  tipoProceso: TipoProceso;
+  codeudor: Codeudor | null;
+  demanda: DemandaRaw;
+  demandas: IntDemanda[];
   deudor: IntDeudor;
-  codeudor?: Codeudor;
-
-  cc: number;
-  procesos?: intProceso[];
-  idProcesos?: number[];
+  fecha: Date | null;
+  idProcesos: number[];
+  llaveProceso: string;
   nombre: string;
+  numero: number;
+  procesos: intProceso[] | null;
+  tipoProceso: TipoProceso;
+  ultimaActuacion: intActuacion | null;
 }
 
 export interface flatCarpeta {
@@ -71,8 +70,7 @@ export type Category =
   | 'SinEspecificar'
   | 'todos';
 
-export interface Codeudor
-{
+export interface Codeudor {
   cedula: string | null;
   nombre: string | null;
   id: number;
@@ -231,10 +229,31 @@ export interface IntDemanda {
   obligacion: ( number | string )[];
   radicado: string | null;
   vencimientoPagare: ( Date | null )[];
-  despachos: string[];
-  sujetosProcesales: string[];
-  expediente: string | null;
-  juzgados: Juzgado[];
+  juzgado: Juzgado | null;
+  idProceso: number;
+  idConexion: number | null;
+  llaveProceso: string | null;
+  fechaProceso: Date | null;
+  fechaUltimaActuacion: Date | null;
+  sujetosProcesales: string | null;
+  esPrivado: boolean | null;
+  cantFilas: number | null;
+  notificacion: intNotificacion | null;
+  medidasCautelares: {
+    fechaOrdenaMedida: Date | null;
+    medidaSolicitada: string | null;
+  } | null;
+}
+
+export interface intNotificacion {
+  certimail: boolean | null;
+  fisico: boolean | null;
+  autoNotificado: string | null;
+  notifiers: {
+    fechaRecibido: Date | null;
+    resultado: boolean | null;
+    fechaAporta: Date | null;
+  }[];
 }
 
 export interface Juzgado {

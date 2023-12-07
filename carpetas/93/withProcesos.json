@@ -1,26 +1,32 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "6/08/2031",
+    "obligacion": {
+      "A": 166689
+    },
+    "capitalAdeudado": 37074975,
+    "entregaGarantiasAbogado": "28/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CAJICA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00496",
+    "llaveProceso": "25126408900120170049600",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "20/06/2017",
+    "mandamientoPago": "5/10/2017",
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "5/10/2017",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 93,
   "llaveProceso": "25126408900120170049600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2031-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 37074975,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-05-10T05:00:00.000Z",
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "CAJICA",
-    "obligacion": [
-      166689
-    ],
-    "radicado": "2017 - 00496",
-    "expediente": "25126408900120170049600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

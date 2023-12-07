@@ -1,4 +1,6 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
   "codeudor": {
     "nombre": "JENNY BRIGITTE BALLEN MESA",
     "cedula": "1069729949",
@@ -7,27 +9,56 @@
     "id": 152,
     "carpetaNumero": 152
   },
+  "demanda": {
+    "vencimientoPagare": "5/02/2035",
+    "obligacion": {
+      "A": 180950
+    },
+    "capitalAdeudado": "$ 76.394.840",
+    "entregaGarantiasAbogado": "23/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01136",
+    "llaveProceso": "110014007320170113600",
+    "etapaProcesal": "11001400307320170113600",
+    "fechaPresentacion": "DESDE EL 25/03/2022 APARECE OFICIO CORREGIDO SIN TRAMITAR Y PASA A LA LETRA",
+    "mandamientoPago": "5/09/2018"
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 152,
+      "idConexion": null,
+      "llaveProceso": "110014007320170113600",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2035-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": "2018-05-09T05:00:00.000Z",
+      "etapaProcesal": "11001400307320170113600",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        180950
+      ],
+      "radicado": "2017 - 01136"
+    }
+  ],
   "numero": 152,
   "llaveProceso": "110014007320170113600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2035-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2018-05-09T05:00:00.000Z",
-    "etapaProcesal": "11001400307320170113600",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      180950
-    ],
-    "radicado": "2017 - 01136",
-    "expediente": "110014007320170113600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,
@@ -46,5 +77,7 @@
     "email": "nicolas.osorio@finamerica.com.co"
   },
   "cc": 1032431042,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "NICOLAS OSORIO RODRIGUEZ"
 }

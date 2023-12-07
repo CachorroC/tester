@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": null,
@@ -8,27 +9,25 @@
     "id": 504,
     "carpetaNumero": 504
   },
+  "demanda": {
+    "vencimientoPagare": "CREDITO HIPOTCARIO",
+    "obligacion": {
+      "B": "26.315.289.23"
+    },
+    "capitalAdeudado": "22/10/2018",
+    "entregaGarantiasAbogado": "CUNDINAMARCA",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SIBATE",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00370",
+    "llaveProceso": "25740410300120180037000",
+    "etapaProcesal": "29/10/2018"
+  },
+  "demandas": [],
   "numero": 504,
   "llaveProceso": "25740410300120180037000",
-  "demanda": {
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "29/10/2018",
-    "fechaPresentacion": null,
-    "municipio": "SIBATE",
-    "obligacion": [
-      "26.315.289.23"
-    ],
-    "radicado": "2018 - 00370",
-    "expediente": "25740410300120180037000"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

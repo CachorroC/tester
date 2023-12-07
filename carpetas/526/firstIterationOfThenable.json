@@ -1,26 +1,26 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "25/10/2024",
+    "obligacion": {
+      "A": 9320086222
+    },
+    "capitalAdeudado": "13.180.105",
+    "entregaGarantiasAbogado": "20/05/2019",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CHIA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2019 - 00304",
+    "llaveProceso": "25175400300120190030400",
+    "fechaPresentacion": "5/06/2019"
+  },
+  "demandas": [],
   "numero": 526,
   "llaveProceso": "25175400300120190030400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2024-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 13180105,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": "2019-05-06T05:00:00.000Z",
-    "municipio": "CHIA",
-    "obligacion": [
-      9320086222
-    ],
-    "radicado": "2019 - 00304",
-    "expediente": "25175400300120190030400"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

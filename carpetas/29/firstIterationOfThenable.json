@@ -1,26 +1,27 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "5/12/2029",
+    "obligacion": {
+      "A": 179301
+    },
+    "capitalAdeudado": "51.217.496.86",
+    "entregaGarantiasAbogado": "19/09/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CHIA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00511",
+    "llaveProceso": "25175400300120170051100",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "26/09/2017"
+  },
+  "demandas": [],
   "numero": 29,
   "llaveProceso": "25175400300120170051100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2029-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 5121749686,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "CHIA",
-    "obligacion": [
-      179301
-    ],
-    "radicado": "2017 - 00511",
-    "expediente": "25175400300120170051100"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

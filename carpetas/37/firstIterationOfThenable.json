@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "LUIS ALBERTO AFONSO GIRALDO",
@@ -8,27 +9,35 @@
     "id": 37,
     "carpetaNumero": 37
   },
+  "demanda": {
+    "vencimientoPagare": "26/05/2020",
+    "obligacion": {
+      "A": 12548843
+    },
+    "capitalAdeudado": 12707877,
+    "entregaGarantiasAbogado": "6/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SIBATE",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 00217",
+    "llaveProceso": "25740418900120170021700",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "09/06/2017//27/07/17",
+    "mandamientoPago": "11/08/2017",
+    "notificacion": {
+      "tipo": "PERSONAL",
+      "autoNotificado": 43174
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "11/08/2017",
+      "medidaSolicitada": "VEHICULO"
+    }
+  },
+  "demandas": [],
   "numero": 37,
   "llaveProceso": "25740418900120170021700",
-  "demanda": {
-    "vencimientoPagare": [
-      "2020-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 12707877,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-06T05:00:00.000Z",
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-11-08T05:00:00.000Z",
-    "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": null,
-    "municipio": "SIBATE",
-    "obligacion": [
-      12548843
-    ],
-    "radicado": "2017 - 00217",
-    "expediente": "25740418900120170021700"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "BLANCA SENET PINEDA",
@@ -8,28 +9,37 @@
     "id": 31,
     "carpetaNumero": 31
   },
+  "demanda": {
+    "vencimientoPagare": "9/12/1936",
+    "obligacion": {
+      "A": 530311042614581,
+      "B": 4513077790909121
+    },
+    "capitalAdeudado": "0377813522815548//209901793015",
+    "entregaGarantiasAbogado": "30/05/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SOACHA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00211",
+    "llaveProceso": "25754400300320170021100",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "9/06/2017",
+    "mandamientoPago": "25/01/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "090",
+        "resultado": "5/02/2018",
+        "fechaAporta": "APARTAMENTO 201 DE LA TORRE 3 CONJUNTO RESIDENCIA SAUCE ii UBICADO EN LA TRANSVERSAL 40 No. 14-11  SOACHA"
+      },
+      "certimail": "25/01/2018",
+      "fisico": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 31,
   "llaveProceso": "25754400300320170021100",
-  "demanda": {
-    "vencimientoPagare": [
-      "1936-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-09-06T05:00:00.000Z",
-    "municipio": "SOACHA",
-    "obligacion": [
-      530311042614581,
-      4513077790909121
-    ],
-    "radicado": "2017 - 00211",
-    "expediente": "25754400300320170021100"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

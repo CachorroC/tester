@@ -1,6 +1,24 @@
 {
   "actuaciones": [
     {
+      "idRegActuacion": 1940178650,
+      "llaveProceso": "11001400306920230166900",
+      "consActuacion": 7,
+      "fechaActuacion": "2023-12-05T05:00:00.000Z",
+      "actuacion": "Oficio Elaborado",
+      "anotacion": "OF 3523",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-05T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 7,
+      "idProceso": 134590090,
+      "isUltimaAct": true,
+      "carpetaNumero": 595,
+      "createdAt": "2023-12-06T22:29:37.457Z"
+    },
+    {
       "idRegActuacion": 1937878690,
       "llaveProceso": "11001400306920230166900",
       "consActuacion": 6,
@@ -12,11 +30,11 @@
       "fechaRegistro": "2023-11-27T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 6,
+      "cant": 7,
       "idProceso": 134590090,
-      "isUltimaAct": true,
+      "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-03T18:19:16.563Z"
+      "createdAt": "2023-12-06T22:29:37.457Z"
     },
     {
       "idRegActuacion": 1937878680,
@@ -30,11 +48,11 @@
       "fechaRegistro": "2023-11-27T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 6,
+      "cant": 7,
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-03T18:19:16.563Z"
+      "createdAt": "2023-12-06T22:29:37.457Z"
     },
     {
       "idRegActuacion": 1937878670,
@@ -48,11 +66,11 @@
       "fechaRegistro": "2023-11-27T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 6,
+      "cant": 7,
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-03T18:19:16.564Z"
+      "createdAt": "2023-12-06T22:29:37.457Z"
     },
     {
       "idRegActuacion": 1937878660,
@@ -66,11 +84,11 @@
       "fechaRegistro": "2023-11-27T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 6,
+      "cant": 7,
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-03T18:19:16.564Z"
+      "createdAt": "2023-12-06T22:29:37.457Z"
     },
     {
       "idRegActuacion": 1927145310,
@@ -84,11 +102,11 @@
       "fechaRegistro": "2023-11-03T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 6,
+      "cant": 7,
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-03T18:19:16.564Z"
+      "createdAt": "2023-12-06T22:29:37.457Z"
     },
     {
       "idRegActuacion": 1927145300,
@@ -102,11 +120,11 @@
       "fechaRegistro": "2023-11-03T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 6,
+      "cant": 7,
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-03T18:19:16.564Z"
+      "createdAt": "2023-12-06T22:29:37.457Z"
     }
   ],
   "juzgados": [
@@ -116,41 +134,70 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-69-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "15/05/2026",
+    "obligacion": {
+      "A": 5670090363
+    },
+    "capitalAdeudado": "$ 17.492.978",
+    "entregaGarantiasAbogado": "20/10/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023-1669",
+    "llaveProceso": "11001400306920230166900"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 69,
+        "tipo": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-69-civil-municipal-de-bogota"
+      },
+      "idProceso": 134590090,
+      "idConexion": 262,
+      "llaveProceso": "11001400306920230166900",
+      "fechaProceso": "2023-11-03T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-05T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: ABOGADOS ESPECIALIZADOS EN COBRANZAS  S.A  AECSA | Demandado: JAVIER ARIAS VEGA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        5670090363
+      ],
+      "radicado": "2023-1669"
+    }
+  ],
   "numero": 595,
   "llaveProceso": "11001400306920230166900",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5670090363
-    ],
-    "radicado": "2023-1669",
-    "expediente": "11001400306920230166900"
-  },
-  "fecha": "2023-11-27T05:00:00.000Z",
+  "fecha": "2023-12-05T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1937878690,
+    "idRegActuacion": 1940178650,
     "llaveProceso": "11001400306920230166900",
-    "consActuacion": 6,
-    "fechaActuacion": "2023-11-27T00:00:00",
-    "actuacion": "Fijacion estado",
-    "anotacion": "Actuación registrada el 27/11/2023 a las 14:30:29.",
-    "fechaInicial": "2023-11-28T00:00:00",
-    "fechaFinal": "2023-11-28T00:00:00",
-    "fechaRegistro": "2023-11-27T00:00:00",
+    "consActuacion": 7,
+    "fechaActuacion": "2023-12-05T00:00:00",
+    "actuacion": "Oficio Elaborado",
+    "anotacion": "OF 3523",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-12-05T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 6,
+    "cant": 7,
     "idProceso": 134590090,
     "isUltimaAct": true
   },
@@ -178,7 +225,7 @@
       "idConexion": 262,
       "llaveProceso": "11001400306920230166900",
       "fechaProceso": "2023-11-03T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-11-27T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-05T05:00:00.000Z",
       "despacho": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: ABOGADOS ESPECIALIZADOS EN COBRANZAS  S.A  AECSA | Demandado: JAVIER ARIAS VEGA ",

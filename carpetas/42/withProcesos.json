@@ -1,24 +1,34 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": 3840082880
+    },
+    "capitalAdeudado": "$ 12.956.286",
+    "entregaGarantiasAbogado": "19/05/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "ANAPOIMA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00108",
+    "llaveProceso": "25035408900120170010800",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "31/05/2017",
+    "mandamientoPago": "28/07/2017",
+    "notificacion": {
+      "tipo": "CERTIMAIL",
+      "autoNotificado": "1/03/2018"
+    },
+    "medidasCautelares": {
+      "medidaSolicitada": "SALARIOS"
+    }
+  },
+  "demandas": [],
   "numero": 42,
   "llaveProceso": "25035408900120170010800",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": null,
-    "municipio": "ANAPOIMA",
-    "obligacion": [
-      3840082880
-    ],
-    "radicado": "2017 - 00108",
-    "expediente": "25035408900120170010800"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Reintegra",
   "revisado": false,
   "terminado": false,

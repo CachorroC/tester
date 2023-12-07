@@ -16,7 +16,7 @@
       "idProceso": 17325724,
       "isUltimaAct": true,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-03T18:16:40.391Z"
+      "createdAt": "2023-12-07T01:07:26.947Z"
     },
     {
       "idRegActuacion": 98177794,
@@ -34,7 +34,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-03T18:16:40.391Z"
+      "createdAt": "2023-12-07T01:07:26.947Z"
     },
     {
       "idRegActuacion": 98177784,
@@ -52,7 +52,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-03T18:16:40.391Z"
+      "createdAt": "2023-12-07T01:07:26.947Z"
     },
     {
       "idRegActuacion": 98177774,
@@ -70,7 +70,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-03T18:16:40.391Z"
+      "createdAt": "2023-12-07T01:07:26.947Z"
     },
     {
       "idRegActuacion": 98177764,
@@ -88,7 +88,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-03T18:16:40.391Z"
+      "createdAt": "2023-12-07T01:07:26.947Z"
     },
     {
       "idRegActuacion": 98177754,
@@ -106,7 +106,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-03T18:16:40.391Z"
+      "createdAt": "2023-12-07T01:07:26.947Z"
     },
     {
       "idRegActuacion": 98177744,
@@ -124,7 +124,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-03T18:16:40.391Z"
+      "createdAt": "2023-12-07T01:07:26.947Z"
     },
     {
       "idRegActuacion": 98177734,
@@ -142,7 +142,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-03T18:16:40.391Z"
+      "createdAt": "2023-12-07T01:07:26.947Z"
     }
   ],
   "juzgados": [
@@ -152,27 +152,66 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-056-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "9/10/2034",
+    "obligacion": {
+      "A": 177994
+    },
+    "capitalAdeudado": 95244711,
+    "entregaGarantiasAbogado": "28/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00591",
+    "llaveProceso": "11001400305620170059100",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "29/06/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 1721,
+        "resultado": "2/08/2017"
+      },
+      "certimail": "18/07/2017",
+      "fisico": "INMUEBLE"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 56,
+        "tipo": "JUZGADO 056 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-056-civil-municipal-de-bogota"
+      },
+      "idProceso": 17325724,
+      "idConexion": 263,
+      "llaveProceso": "11001400305620170059100",
+      "fechaProceso": "2017-06-30T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-12-07T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AIDA YURANY  GRIJALBA MARTINEZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2034-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 95244711,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        177994
+      ],
+      "radicado": "2017 - 00591"
+    }
+  ],
   "numero": 94,
   "llaveProceso": "11001400305620170059100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2034-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 95244711,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      177994
-    ],
-    "radicado": "2017 - 00591",
-    "expediente": "11001400305620170059100"
-  },
   "fecha": "2017-12-07T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 98177804,

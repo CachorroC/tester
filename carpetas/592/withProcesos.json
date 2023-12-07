@@ -1,4 +1,6 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
   "codeudor": {
     "nombre": "VIVIANA MARTINEZ ARIAS",
     "cedula": "52791903",
@@ -7,27 +9,52 @@
     "id": 592,
     "carpetaNumero": 592
   },
+  "demanda": {
+    "vencimientoPagare": "21/02/2052",
+    "obligacion": {
+      "A": 90000179396
+    },
+    "capitalAdeudado": "$ 104.393.034",
+    "entregaGarantiasAbogado": "13/10/2023",
+    "llaveProceso": "SinEspecificar",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "MADRID",
+    "tipoProceso": "HIPOTECARIO"
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 592,
+      "idConexion": null,
+      "llaveProceso": "SinEspecificar",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2052-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "MADRID",
+      "obligacion": [
+        90000179396
+      ],
+      "radicado": null
+    }
+  ],
   "numero": 592,
   "llaveProceso": "SinEspecificar",
-  "demanda": {
-    "vencimientoPagare": [
-      "2052-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "MADRID",
-    "obligacion": [
-      90000179396
-    ],
-    "radicado": null,
-    "expediente": "SinEspecificar"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,
@@ -52,5 +79,7 @@
     "email": "marcel-leo@hotmail.com     dillavivi@hotmail.com"
   },
   "cc": 79888775,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "MARCEL LEONARDO MACHADO ROMERO Y VIVIANA MARTINEZ ARIAS"
 }

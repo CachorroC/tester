@@ -16,7 +16,7 @@
       "idProceso": 50776700,
       "isUltimaAct": true,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602065010,
@@ -34,7 +34,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602065000,
@@ -52,7 +52,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064990,
@@ -70,7 +70,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064980,
@@ -88,7 +88,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064970,
@@ -106,7 +106,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064960,
@@ -124,7 +124,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064950,
@@ -142,7 +142,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064940,
@@ -160,7 +160,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064930,
@@ -178,7 +178,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064920,
@@ -196,7 +196,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064910,
@@ -214,7 +214,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064900,
@@ -232,7 +232,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064890,
@@ -250,7 +250,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     },
     {
       "idRegActuacion": 602064880,
@@ -268,7 +268,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-03T18:17:15.047Z"
+      "createdAt": "2023-12-07T01:08:02.007Z"
     }
   ],
   "juzgados": [
@@ -291,27 +291,101 @@
     "id": 215,
     "carpetaNumero": 215
   },
+  "demanda": {
+    "vencimientoPagare": "30/03/2017",
+    "obligacion": {
+      "A": 85677
+    },
+    "capitalAdeudado": 12241665,
+    "entregaGarantiasAbogado": "23/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01273",
+    "llaveProceso": "11001400300820170127300",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "4/09/2017",
+    "mandamientoPago": "3/11/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 3169,
+        "resultado": "15/11/2017"
+      },
+      "292": {
+        "resultado": 43063
+      },
+      "certimail": "3/11/2017",
+      "fisico": "INMUEBLE"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 8,
+        "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"
+      },
+      "idProceso": 50776700,
+      "idConexion": 259,
+      "llaveProceso": "11001400300820170127300",
+      "fechaProceso": "2017-10-13T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-08T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: ABOGADOS ESPECIALÑIZADOS EN CONBRANZAS SA - AECSA | Demandado: JORGE ARMANDO LOPEZ CASTAÑO | Demandado: LUZ DARY HURTADO RIOS ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 12241665,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": "2017-03-11T05:00:00.000Z",
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": "2017-04-09T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        85677
+      ],
+      "radicado": "2017 - 01273"
+    },
+    {
+      "juzgado": {
+        "id": 8,
+        "tipo": "JUZGADO 008 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-008-civil-municipal-de-bogota"
+      },
+      "idProceso": 81589821,
+      "idConexion": 320,
+      "llaveProceso": "11001400300820170127300",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 12241665,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": "2017-03-11T05:00:00.000Z",
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": "2017-04-09T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        85677
+      ],
+      "radicado": "2017 - 01273"
+    }
+  ],
   "numero": 215,
   "llaveProceso": "11001400300820170127300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 12241665,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-03-11T05:00:00.000Z",
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-04-09T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      85677
-    ],
-    "radicado": "2017 - 01273",
-    "expediente": "11001400300820170127300"
-  },
   "fecha": "2018-03-08T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 602065020,

@@ -16,7 +16,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-03T18:16:35.024Z"
+      "createdAt": "2023-12-07T01:07:23.680Z"
     },
     {
       "idRegActuacion": 964317311,
@@ -34,7 +34,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-03T18:16:35.024Z"
+      "createdAt": "2023-12-07T01:07:23.680Z"
     },
     {
       "idRegActuacion": 961709631,
@@ -52,7 +52,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-03T18:16:35.024Z"
+      "createdAt": "2023-12-07T01:07:23.680Z"
     },
     {
       "idRegActuacion": 961710411,
@@ -70,7 +70,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-03T18:16:35.024Z"
+      "createdAt": "2023-12-07T01:07:23.680Z"
     }
   ],
   "juzgados": [
@@ -88,27 +88,66 @@
     "id": 76,
     "carpetaNumero": 76
   },
+  "demanda": {
+    "vencimientoPagare": "21/07/2019",
+    "obligacion": {
+      "A": 2660080368
+    },
+    "capitalAdeudado": "$ 17.517.434",
+    "entregaGarantiasAbogado": "12/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CHOCONTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00119",
+    "llaveProceso": "25183400300120170011900",
+    "etapaProcesal": "25183400300120170011900",
+    "fechaPresentacion": "EJECUCIÓN",
+    "mandamientoPago": "21/06/2017",
+    "notificacion": {
+      "certimail": "17/07/2017",
+      "autoNotificado": "PNAL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "16/08/2017",
+      "medidaSolicitada": "17/07/2017"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
+      },
+      "idProceso": 86212271,
+      "idConexion": 320,
+      "llaveProceso": "25183400300120170011900",
+      "fechaProceso": "2017-06-21T05:00:00.000Z",
+      "fechaUltimaActuacion": "2020-11-04T05:00:00.000Z",
+      "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: ADELMO  ABRIL FORERO | Demandado/indiciado/causante: STELLA  MARIN GARZON | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2019-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": "25183400300120170011900",
+      "fechaPresentacion": null,
+      "municipio": "CHOCONTA",
+      "obligacion": [
+        2660080368
+      ],
+      "radicado": "2017 - 00119"
+    }
+  ],
   "numero": 76,
   "llaveProceso": "25183400300120170011900",
-  "demanda": {
-    "vencimientoPagare": [
-      "2019-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "25183400300120170011900",
-    "fechaPresentacion": null,
-    "municipio": "CHOCONTA",
-    "obligacion": [
-      2660080368
-    ],
-    "radicado": "2017 - 00119",
-    "expediente": "25183400300120170011900"
-  },
   "fecha": "2020-11-04T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 964317241,

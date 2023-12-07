@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "JHONNY HERNANDO BELTRAN SALCEDO",
@@ -8,27 +9,31 @@
     "id": 63,
     "carpetaNumero": 63
   },
+  "demanda": {
+    "vencimientoPagare": "18/11/2021",
+    "obligacion": {
+      "A": 145608
+    },
+    "capitalAdeudado": 20600721.7,
+    "entregaGarantiasAbogado": "6/09/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00089",
+    "llaveProceso": "11001418900920170008900",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "19/09/2017",
+    "mandamientoPago": "15/12/2017",
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "15/12/2017",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 63,
   "llaveProceso": "11001418900920170008900",
-  "demanda": {
-    "vencimientoPagare": [
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 206007217,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-06-09T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      145608
-    ],
-    "radicado": "2017 - 00089",
-    "expediente": "11001418900920170008900"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

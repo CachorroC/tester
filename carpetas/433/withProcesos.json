@@ -1,26 +1,32 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "###############################################################################################################################################################################################################################################################",
+    "obligacion": {
+      "B": "24.057.365"
+    },
+    "capitalAdeudado": "$ 43.237",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "ZIPAQUIRA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00222",
+    "llaveProceso": "25899400300120180022200",
+    "mandamientoPago": "NO TIENE EN CUENTA",
+    "notificacion": {
+      "autoNotificado": 43251
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "INMUEBLE",
+      "medidaSolicitada": "5/01/1903"
+    }
+  },
+  "demandas": [],
   "numero": 433,
   "llaveProceso": "25899400300120180022200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "ZIPAQUIRA",
-    "obligacion": [
-      "24.057.365"
-    ],
-    "radicado": "2018 - 00222",
-    "expediente": "25899400300120180022200"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

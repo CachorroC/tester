@@ -1,27 +1,56 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "9/07/2026 // 8/07/2026",
+    "obligacion": {
+      "A": 5820090959,
+      "B": 83118231
+    },
+    "capitalAdeudado": "$ 48.451.989",
+    "entregaGarantiasAbogado": "21/11/2023",
+    "departamento": "CUNDINAMARCA",
+    "llaveProceso": "SinEspecificar",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR"
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 599,
+      "idConexion": null,
+      "llaveProceso": "SinEspecificar",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        5820090959,
+        83118231
+      ],
+      "radicado": null
+    }
+  ],
   "numero": 599,
   "llaveProceso": "SinEspecificar",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5820090959,
-      83118231
-    ],
-    "radicado": null,
-    "expediente": "SinEspecificar"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,
@@ -40,5 +69,7 @@
     "email": "claudiaprietorincon1@hotmail.com"
   },
   "cc": 52151784,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "CLAUDIA BEATRIZ PRIETO RINCON"
 }

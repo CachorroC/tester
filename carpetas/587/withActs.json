@@ -16,7 +16,7 @@
       "idProceso": 134065610,
       "isUltimaAct": true,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-03T18:19:14.286Z"
+      "createdAt": "2023-12-06T22:29:36.241Z"
     },
     {
       "idRegActuacion": 1935001420,
@@ -34,7 +34,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-03T18:19:14.286Z"
+      "createdAt": "2023-12-06T22:29:36.241Z"
     },
     {
       "idRegActuacion": 1921997320,
@@ -52,7 +52,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-03T18:19:14.286Z"
+      "createdAt": "2023-12-06T22:29:36.241Z"
     },
     {
       "idRegActuacion": 1921997310,
@@ -70,7 +70,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-03T18:19:14.286Z"
+      "createdAt": "2023-12-06T22:29:36.241Z"
     },
     {
       "idRegActuacion": 1921997300,
@@ -88,7 +88,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-03T18:19:14.286Z"
+      "createdAt": "2023-12-06T22:29:36.241Z"
     },
     {
       "idRegActuacion": 1921997290,
@@ -106,7 +106,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-03T18:19:14.286Z"
+      "createdAt": "2023-12-06T22:29:36.241Z"
     },
     {
       "idRegActuacion": 1907655230,
@@ -124,7 +124,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-03T18:19:14.286Z"
+      "createdAt": "2023-12-06T22:29:36.241Z"
     },
     {
       "idRegActuacion": 1907655220,
@@ -142,7 +142,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-03T18:19:14.286Z"
+      "createdAt": "2023-12-06T22:29:36.241Z"
     }
   ],
   "juzgados": [
@@ -152,29 +152,59 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "15/05/2026 // 5/06/2026",
+    "obligacion": {
+      "A": "Q 0000000080933163027001",
+      "B": 83083574
+    },
+    "capitalAdeudado": "$ 34.080.282",
+    "entregaGarantiasAbogado": "3/10/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023-1967",
+    "llaveProceso": "11001400306320230196700"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 63,
+        "tipo": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
+      },
+      "idProceso": 134065610,
+      "idConexion": 260,
+      "llaveProceso": "11001400306320230196700",
+      "fechaProceso": "2023-10-17T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-27T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: EDGAR MAURICIO VERA RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2023-03-10T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "Q 0000000080933163027001",
+        83083574
+      ],
+      "radicado": "2023-1967"
+    }
+  ],
   "numero": 587,
   "llaveProceso": "11001400306320230196700",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-03-10T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "Q 0000000080933163027001",
-      83083574
-    ],
-    "radicado": "2023-1967",
-    "expediente": "11001400306320230196700"
-  },
   "fecha": "2023-11-27T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1937772410,

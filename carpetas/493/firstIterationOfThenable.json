@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "LEINY ANDREA QUINTERO FIERRO",
@@ -8,25 +9,25 @@
     "id": 493,
     "carpetaNumero": 493
   },
+  "demanda": {
+    "obligacion": {
+      "A": 20990155357
+    },
+    "capitalAdeudado": "21.035.323.59",
+    "entregaGarantiasAbogado": "6/09/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 01817",
+    "llaveProceso": "11001410375120180181700",
+    "etapaProcesal": "SUBSANA",
+    "fechaPresentacion": "29/09/2018"
+  },
+  "demandas": [],
   "numero": 493,
   "llaveProceso": "11001410375120180181700",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 2103532359,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "SUBSANA",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990155357
-    ],
-    "radicado": "2018 - 01817",
-    "expediente": "11001410375120180181700"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -16,7 +16,7 @@
       "idProceso": 18597560,
       "isUltimaAct": true,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.109Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 559135740,
@@ -34,7 +34,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.109Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 559135730,
@@ -52,7 +52,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.109Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 557681260,
@@ -70,7 +70,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.109Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 267962680,
@@ -88,7 +88,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.109Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 267962670,
@@ -106,7 +106,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.109Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 267962660,
@@ -124,7 +124,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.109Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 267962650,
@@ -142,7 +142,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.109Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 267962640,
@@ -160,7 +160,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.110Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 267962630,
@@ -178,7 +178,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.110Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 267962620,
@@ -196,7 +196,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.110Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 267962610,
@@ -214,7 +214,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.110Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     },
     {
       "idRegActuacion": 267962600,
@@ -232,7 +232,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-03T18:18:47.110Z"
+      "createdAt": "2023-12-06T22:29:22.813Z"
     }
   ],
   "juzgados": [
@@ -250,25 +250,61 @@
     "id": 482,
     "carpetaNumero": 482
   },
+  "demanda": {
+    "obligacion": {
+      "A": 20990114419
+    },
+    "capitalAdeudado": "35.321.033.75",
+    "entregaGarantiasAbogado": "22/08/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00936",
+    "llaveProceso": "11001400307120180093600",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "13/09/2018",
+    "mandamientoPago": "08/10/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "29/11/2018"
+      },
+      "certimail": "CERTIMAIL"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 71,
+        "tipo": "JUZGADO 071 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-071-civil-municipal-de-bogota"
+      },
+      "idProceso": 18597560,
+      "idConexion": 260,
+      "llaveProceso": "11001400307120180093600",
+      "fechaProceso": "2018-09-14T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-08-14T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CLAUDIA JANETH CORTES ROSAS ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [],
+      "capitalAdeudado": 3532103375,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": "2018-08-10T05:00:00.000Z",
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990114419
+      ],
+      "radicado": "2018 - 00936"
+    }
+  ],
   "numero": 482,
   "llaveProceso": "11001400307120180093600",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 3532103375,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2018-08-10T05:00:00.000Z",
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990114419
-    ],
-    "radicado": "2018 - 00936",
-    "expediente": "11001400307120180093600"
-  },
   "fecha": "2019-08-14T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 559135750,

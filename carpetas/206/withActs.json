@@ -16,7 +16,7 @@
       "idProceso": 17944250,
       "isUltimaAct": true,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     },
     {
       "idRegActuacion": 265839720,
@@ -34,7 +34,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     },
     {
       "idRegActuacion": 265839710,
@@ -52,7 +52,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     },
     {
       "idRegActuacion": 265839700,
@@ -70,7 +70,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     },
     {
       "idRegActuacion": 265839690,
@@ -88,7 +88,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     },
     {
       "idRegActuacion": 265839680,
@@ -106,7 +106,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     },
     {
       "idRegActuacion": 265839670,
@@ -124,7 +124,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     },
     {
       "idRegActuacion": 265839660,
@@ -142,7 +142,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     },
     {
       "idRegActuacion": 265839650,
@@ -160,7 +160,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     },
     {
       "idRegActuacion": 265839640,
@@ -178,7 +178,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-03T18:17:12.672Z"
+      "createdAt": "2023-12-07T01:07:58.518Z"
     }
   ],
   "juzgados": [
@@ -196,29 +196,59 @@
     "id": 206,
     "carpetaNumero": 206
   },
+  "demanda": {
+    "vencimientoPagare": "16//11/2021",
+    "obligacion": {
+      "A": 120356,
+      "B": 1590082995
+    },
+    "capitalAdeudado": 30556160,
+    "entregaGarantiasAbogado": "29/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01469",
+    "llaveProceso": "11001400306420170146900",
+    "fechaPresentacion": "5/09/2017"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 64,
+        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
+      },
+      "idProceso": 17944250,
+      "idConexion": 260,
+      "llaveProceso": "11001400306420170146900",
+      "fechaProceso": "2017-10-26T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-12-01T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: EDGAR MARTINEZ VELANDIA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2015-01-01T05:00:00.000Z",
+        "2021-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 30556160,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": "2017-05-09T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        120356,
+        1590082995
+      ],
+      "radicado": "2017 - 01469"
+    }
+  ],
   "numero": 206,
   "llaveProceso": "11001400306420170146900",
-  "demanda": {
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z",
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 30556160,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": "2017-05-09T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      120356,
-      1590082995
-    ],
-    "radicado": "2017 - 01469",
-    "expediente": "11001400306420170146900"
-  },
   "fecha": "2017-12-01T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 265839730,

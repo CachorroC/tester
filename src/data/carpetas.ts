@@ -16844,9 +16844,8 @@ const Carpetas: CarpetaRaw[] = [
       radicado: "2018 - 00520",
       llaveProceso: "11001400302420180052000",
       etapaProcesal: "NOTIFICACION",
-      fechaPresentacion: "8/05/2018",
+      fechaPresentacion: "08/05/2018",
       mandamientoPago: "15/06/2018",
-
       medidasCautelares: {
         fechaOrdenaMedidas: "15/06/2018",
         medidaSolicitada: "INMUEBLE",
@@ -16921,7 +16920,7 @@ const Carpetas: CarpetaRaw[] = [
       radicado: "2018 - 00404",
       llaveProceso: "11001410300120180040400",
       etapaProcesal: "ADMISION",
-      fechaPresentacion: "8/05/2018",
+      fechaPresentacion: "08/05/2018",
     },
   },
   {

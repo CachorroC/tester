@@ -16,7 +16,7 @@
       "idProceso": 72721150,
       "isUltimaAct": true,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.916Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 1263508540,
@@ -34,7 +34,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.916Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 1228903490,
@@ -52,7 +52,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.916Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 1227578990,
@@ -70,7 +70,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.916Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 1227417160,
@@ -88,7 +88,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.916Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 1227417140,
@@ -106,7 +106,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.916Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 1226591120,
@@ -124,7 +124,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.916Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 1223882180,
@@ -142,7 +142,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.916Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 1214209800,
@@ -160,7 +160,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.916Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 908525390,
@@ -178,7 +178,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.917Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 906435870,
@@ -196,7 +196,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.917Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     },
     {
       "idRegActuacion": 906423410,
@@ -214,7 +214,7 @@
       "idProceso": 72721150,
       "isUltimaAct": false,
       "carpetaNumero": 514,
-      "createdAt": "2023-12-03T18:18:54.917Z"
+      "createdAt": "2023-12-06T22:29:26.530Z"
     }
   ],
   "juzgados": [
@@ -224,28 +224,76 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "29/11/2019",
+    "obligacion": {
+      "A": 2370091170,
+      "B": 5303710000000000
+    },
+    "capitalAdeudado": "$ 14.123.185",
+    "entregaGarantiasAbogado": "25/10/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2019 - 00291",
+    "llaveProceso": "11001418902120190029100",
+    "etapaProcesal": "11001418902120190029100",
+    "fechaPresentacion": "EJECUCION",
+    "mandamientoPago": "01/02/2019",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "SI",
+        "resultado": "16/04/019"
+      },
+      "292": {
+        "fechaAporta": "POSITIVO"
+      },
+      "certimail": "13/03/2019",
+      "fisico": "NO",
+      "autoNotificado": "PERSONAL"
+    },
+    "medidasCautelares": {
+      "medidaSolicitada": "27/03/2019"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-01-de-ejecucion-civil-municipal-de-bogota"
+      },
+      "idProceso": 72721150,
+      "idConexion": 259,
+      "llaveProceso": "11001418902120190029100",
+      "fechaProceso": "2019-12-16T05:00:00.000Z",
+      "fechaUltimaActuacion": "2022-03-23T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OSCAR ARMANDO TORRES ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2019-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": "2019-01-02T05:00:00.000Z",
+      "etapaProcesal": "11001418902120190029100",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        2370091170,
+        5303710000000000
+      ],
+      "radicado": "2019 - 00291"
+    }
+  ],
   "numero": 514,
   "llaveProceso": "11001418902120190029100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2019-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2019-01-02T05:00:00.000Z",
-    "etapaProcesal": "11001418902120190029100",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2370091170,
-      5303710000000000
-    ],
-    "radicado": "2019 - 00291",
-    "expediente": "11001418902120190029100"
-  },
   "fecha": "2022-03-23T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1266061820,

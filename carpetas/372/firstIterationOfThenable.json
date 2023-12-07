@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "CARLOS ANDRES SUAREZ GORDILLO",
@@ -8,27 +9,26 @@
     "id": 372,
     "carpetaNumero": 372
   },
+  "demanda": {
+    "vencimientoPagare": "31/07/2024",
+    "obligacion": {
+      "A": 120770
+    },
+    "capitalAdeudado": "$ 17.921.982",
+    "entregaGarantiasAbogado": "11/01/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SOACHA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00070",
+    "llaveProceso": "25754400300220180007000",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "19/01/2018"
+  },
+  "demandas": [],
   "numero": 372,
   "llaveProceso": "25754400300220180007000",
-  "demanda": {
-    "vencimientoPagare": [
-      "2024-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "SOACHA",
-    "obligacion": [
-      120770
-    ],
-    "radicado": "2018 - 00070",
-    "expediente": "25754400300220180007000"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

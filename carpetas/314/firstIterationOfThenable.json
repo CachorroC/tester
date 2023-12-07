@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "NORBEY RAMON CHAVARRO",
@@ -8,27 +9,41 @@
     "id": 314,
     "carpetaNumero": 314
   },
+  "demanda": {
+    "vencimientoPagare": "6/03/2033",
+    "obligacion": {
+      "A": 161979
+    },
+    "capitalAdeudado": "21.139.648.63",
+    "entregaGarantiasAbogado": "31/10/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CAJICA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00768",
+    "llaveProceso": "25126408900220170076800",
+    "etapaProcesal": "TERMINADO",
+    "fechaPresentacion": "8/11/2017",
+    "notificacion": {
+      "291": {
+        "fechaAporta": "06/07/2018"
+      },
+      "292": {
+        "fechaRecibido": "SOLICITUD EPS",
+        "resultado": 43123
+      },
+      "tipo": "INMUEBLE",
+      "autoNotificado": "0120"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "23/01/2018",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 314,
   "llaveProceso": "25126408900220170076800",
-  "demanda": {
-    "vencimientoPagare": [
-      "2033-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 2113964863,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "TERMINADO",
-    "fechaPresentacion": "2017-08-11T05:00:00.000Z",
-    "municipio": "CAJICA",
-    "obligacion": [
-      161979
-    ],
-    "radicado": "2017 - 00768",
-    "expediente": "25126408900220170076800"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

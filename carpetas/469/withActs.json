@@ -16,7 +16,7 @@
       "idProceso": 18376650,
       "isUltimaAct": true,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901680,
@@ -34,7 +34,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901670,
@@ -52,7 +52,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901660,
@@ -70,7 +70,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901650,
@@ -88,7 +88,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901640,
@@ -106,7 +106,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901630,
@@ -124,7 +124,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901620,
@@ -142,7 +142,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901610,
@@ -160,7 +160,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901600,
@@ -178,7 +178,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901590,
@@ -196,7 +196,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     },
     {
       "idRegActuacion": 267901580,
@@ -214,7 +214,7 @@
       "idProceso": 18376650,
       "isUltimaAct": false,
       "carpetaNumero": 469,
-      "createdAt": "2023-12-03T18:18:44.112Z"
+      "createdAt": "2023-12-06T22:29:21.573Z"
     }
   ],
   "juzgados": [
@@ -224,27 +224,59 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "15/11/2022",
+    "obligacion": {
+      "A": 21581018168
+    },
+    "capitalAdeudado": "14.770.792",
+    "entregaGarantiasAbogado": "1/08/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00922",
+    "llaveProceso": "11001400307020180092200",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "9/08/2018",
+    "mandamientoPago": "21/09/2018"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 70,
+        "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
+      },
+      "idProceso": 18376650,
+      "idConexion": 260,
+      "llaveProceso": "11001400307020180092200",
+      "fechaProceso": "2018-08-13T05:00:00.000Z",
+      "fechaUltimaActuacion": "2020-02-04T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUZ MYRIAM VALDERRAMA TUTA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2022-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 14770792,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2018-01-08T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": "2018-09-08T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        21581018168
+      ],
+      "radicado": "2017 - 00922"
+    }
+  ],
   "numero": 469,
   "llaveProceso": "11001400307020180092200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2022-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 14770792,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-08T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2018-09-08T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      21581018168
-    ],
-    "radicado": "2017 - 00922",
-    "expediente": "11001400307020180092200"
-  },
   "fecha": "2020-02-04T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 952710890,

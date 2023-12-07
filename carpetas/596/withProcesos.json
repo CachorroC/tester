@@ -1,25 +1,53 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "7/02/2049",
+    "obligacion": {
+      "A": 90000058700
+    },
+    "capitalAdeudado": "$ 78.458.975",
+    "entregaGarantiasAbogado": "14/11/2023",
+    "departamento": "CUNDINAMARCA",
+    "llaveProceso": "SinEspecificar",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO"
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 596,
+      "idConexion": null,
+      "llaveProceso": "SinEspecificar",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2049-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        90000058700
+      ],
+      "radicado": null
+    }
+  ],
   "numero": 596,
   "llaveProceso": "SinEspecificar",
-  "demanda": {
-    "vencimientoPagare": [
-      "2049-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      90000058700
-    ],
-    "radicado": null,
-    "expediente": "SinEspecificar"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,
@@ -38,5 +66,7 @@
     "email": "consu4908@hotmail.com"
   },
   "cc": 51774908,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "ELSA CONSUELO ROBAYO"
 }

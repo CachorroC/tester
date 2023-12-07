@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": null,
@@ -8,27 +9,25 @@
     "id": 512,
     "carpetaNumero": 512
   },
+  "demanda": {
+    "vencimientoPagare": "###############################################################################################################################################################################################################################################################",
+    "obligacion": {
+      "B": "21.856.062.58"
+    },
+    "capitalAdeudado": "05/12/2018",
+    "entregaGarantiasAbogado": "CUNDINAMARCA",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SOACHA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 01352",
+    "llaveProceso": "25754418900320180135200",
+    "etapaProcesal": "14/12/2018//13/05/2019"
+  },
+  "demandas": [],
   "numero": 512,
   "llaveProceso": "25754418900320180135200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "14/12/2018//13/05/2019",
-    "fechaPresentacion": null,
-    "municipio": "SOACHA",
-    "obligacion": [
-      "21.856.062.58"
-    ],
-    "radicado": "2018 - 01352",
-    "expediente": "25754418900320180135200"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

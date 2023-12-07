@@ -1,27 +1,34 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "###############################################################################################################################################################################################################################################################",
+    "obligacion": {
+      "A": 5303710000000000,
+      "B": "20.453.625"
+    },
+    "capitalAdeudado": "$ 43.211",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CHIA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00237",
+    "llaveProceso": "25175410300120180023700",
+    "etapaProcesal": 43217,
+    "fechaPresentacion": "11/05/2018",
+    "notificacion": {
+      "autoNotificado": 43231
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "INMUEBLE",
+      "medidaSolicitada": "0758/2018"
+    }
+  },
+  "demandas": [],
   "numero": 419,
   "llaveProceso": "25175410300120180023700",
-  "demanda": {
-    "vencimientoPagare": [
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "43217",
-    "fechaPresentacion": "2018-11-05T05:00:00.000Z",
-    "municipio": "CHIA",
-    "obligacion": [
-      5303710000000000,
-      "20.453.625"
-    ],
-    "radicado": "2018 - 00237",
-    "expediente": "25175410300120180023700"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

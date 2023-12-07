@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "YOLANDA RATIVA MESA",
@@ -8,27 +9,31 @@
     "id": 312,
     "carpetaNumero": 312
   },
+  "demanda": {
+    "vencimientoPagare": "8/06/2017",
+    "obligacion": {
+      "A": 82317
+    },
+    "capitalAdeudado": "10.668.327.59",
+    "entregaGarantiasAbogado": "26/10/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01140",
+    "llaveProceso": "11001418904320170114000",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "21/10/2017",
+    "mandamientoPago": "30/11/2017",
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "30/11/2017",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 312,
   "llaveProceso": "11001418904320170114000",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1066832759,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      82317
-    ],
-    "radicado": "2017 - 01140",
-    "expediente": "11001418904320170114000"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

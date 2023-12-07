@@ -16,7 +16,7 @@
       "idProceso": 50537040,
       "isUltimaAct": true,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     },
     {
       "idRegActuacion": 607252650,
@@ -34,7 +34,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     },
     {
       "idRegActuacion": 607252640,
@@ -52,7 +52,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     },
     {
       "idRegActuacion": 607252630,
@@ -70,7 +70,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     },
     {
       "idRegActuacion": 607252620,
@@ -88,7 +88,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     },
     {
       "idRegActuacion": 607252610,
@@ -106,7 +106,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     },
     {
       "idRegActuacion": 607252600,
@@ -124,7 +124,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     },
     {
       "idRegActuacion": 607252590,
@@ -142,7 +142,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     },
     {
       "idRegActuacion": 607252580,
@@ -160,7 +160,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     },
     {
       "idRegActuacion": 607252570,
@@ -178,7 +178,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-03T18:16:27.141Z"
+      "createdAt": "2023-12-07T01:07:17.712Z"
     }
   ],
   "juzgados": [
@@ -196,28 +196,58 @@
     "id": 51,
     "carpetaNumero": 51
   },
+  "demanda": {
+    "vencimientoPagare": "21/02/2017",
+    "obligacion": {
+      "A": "6610083691//161451//3778815787383070",
+      "B": "5303715153971258//4513076874137526//AUDIOPRESTAMO"
+    },
+    "entregaGarantiasAbogado": "12/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00607",
+    "llaveProceso": "11001400300920170060700",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "23/06/2017"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 9,
+        "tipo": "JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-009-civil-municipal-de-bogota"
+      },
+      "idProceso": 50537040,
+      "idConexion": 259,
+      "llaveProceso": "11001400300920170060700",
+      "fechaProceso": "2017-06-28T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-05-24T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA CAROLINA MARTINEZ VERA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 0,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        "6610083691//161451//3778815787383070",
+        "5303715153971258//4513076874137526//AUDIOPRESTAMO"
+      ],
+      "radicado": "2017 - 00607"
+    }
+  ],
   "numero": 51,
   "llaveProceso": "11001400300920170060700",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "6610083691//161451//3778815787383070",
-      "5303715153971258//4513076874137526//AUDIOPRESTAMO"
-    ],
-    "radicado": "2017 - 00607",
-    "expediente": "11001400300920170060700"
-  },
   "fecha": "2018-05-24T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 607252660,

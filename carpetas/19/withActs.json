@@ -16,7 +16,7 @@
       "idProceso": 50869770,
       "isUltimaAct": true,
       "carpetaNumero": 19,
-      "createdAt": "2023-12-03T18:16:17.594Z"
+      "createdAt": "2023-12-07T01:07:11.609Z"
     },
     {
       "idRegActuacion": 683020990,
@@ -34,7 +34,7 @@
       "idProceso": 50869770,
       "isUltimaAct": false,
       "carpetaNumero": 19,
-      "createdAt": "2023-12-03T18:16:17.594Z"
+      "createdAt": "2023-12-07T01:07:11.609Z"
     },
     {
       "idRegActuacion": 683020980,
@@ -52,7 +52,7 @@
       "idProceso": 50869770,
       "isUltimaAct": false,
       "carpetaNumero": 19,
-      "createdAt": "2023-12-03T18:16:17.594Z"
+      "createdAt": "2023-12-07T01:07:11.609Z"
     },
     {
       "idRegActuacion": 683020970,
@@ -70,7 +70,7 @@
       "idProceso": 50869770,
       "isUltimaAct": false,
       "carpetaNumero": 19,
-      "createdAt": "2023-12-03T18:16:17.594Z"
+      "createdAt": "2023-12-07T01:07:11.609Z"
     },
     {
       "idRegActuacion": 683020960,
@@ -88,7 +88,7 @@
       "idProceso": 50869770,
       "isUltimaAct": false,
       "carpetaNumero": 19,
-      "createdAt": "2023-12-03T18:16:17.594Z"
+      "createdAt": "2023-12-07T01:07:11.609Z"
     },
     {
       "idRegActuacion": 683020950,
@@ -106,7 +106,7 @@
       "idProceso": 50869770,
       "isUltimaAct": false,
       "carpetaNumero": 19,
-      "createdAt": "2023-12-03T18:16:17.594Z"
+      "createdAt": "2023-12-07T01:07:11.609Z"
     },
     {
       "idRegActuacion": 683020940,
@@ -124,7 +124,7 @@
       "idProceso": 50869770,
       "isUltimaAct": false,
       "carpetaNumero": 19,
-      "createdAt": "2023-12-03T18:16:17.594Z"
+      "createdAt": "2023-12-07T01:07:11.609Z"
     },
     {
       "idRegActuacion": 683020930,
@@ -142,7 +142,7 @@
       "idProceso": 50869770,
       "isUltimaAct": false,
       "carpetaNumero": 19,
-      "createdAt": "2023-12-03T18:16:17.594Z"
+      "createdAt": "2023-12-07T01:07:11.609Z"
     }
   ],
   "juzgados": [
@@ -160,27 +160,59 @@
     "id": 19,
     "carpetaNumero": 19
   },
+  "demanda": {
+    "vencimientoPagare": "6/12/2022",
+    "obligacion": {
+      "A": 103560
+    },
+    "capitalAdeudado": "15.391.508.11",
+    "entregaGarantiasAbogado": "19/09/2017",
+    "departamento": "CUNDINNAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01755",
+    "llaveProceso": "11001400302120170175500",
+    "fechaPresentacion": "25/09/2017",
+    "notificacion": {
+      "tipo": "OK"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 21,
+        "tipo": "JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-021-civil-municipal-de-bogota"
+      },
+      "idProceso": 50869770,
+      "idConexion": 259,
+      "llaveProceso": "11001400302120170175500",
+      "fechaProceso": "2017-11-24T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-02-01T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: ELIACID CHAVES OBANDO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2022-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 1539150811,
+      "departamento": "CUNDINNAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        103560
+      ],
+      "radicado": "2017 - 01755"
+    }
+  ],
   "numero": 19,
   "llaveProceso": "11001400302120170175500",
-  "demanda": {
-    "vencimientoPagare": [
-      "2022-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1539150811,
-    "departamento": "CUNDINNAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      103560
-    ],
-    "radicado": "2017 - 01755",
-    "expediente": "11001400302120170175500"
-  },
   "fecha": "2018-02-01T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 683021000,

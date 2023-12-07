@@ -1,25 +1,53 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "6/08/2026",
+    "obligacion": {
+      "A": 1770096862
+    },
+    "capitalAdeudado": "$ 35.774.452",
+    "llaveProceso": "SinEspecificar",
+    "entregaGarantiasAbogado": "24/11/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR"
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 665,
+      "idConexion": null,
+      "llaveProceso": "SinEspecificar",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        1770096862
+      ],
+      "radicado": null
+    }
+  ],
   "numero": 665,
   "llaveProceso": "SinEspecificar",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      1770096862
-    ],
-    "radicado": null,
-    "expediente": "SinEspecificar"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,
@@ -38,5 +66,7 @@
     "email": "mj001122@hotmail.com   mjleguizamonb@gmail.com"
   },
   "cc": 1104695882,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "MARIO JAVIER LEGUIZAMON BERMUDEZ"
 }

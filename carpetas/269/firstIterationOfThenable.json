@@ -1,26 +1,35 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "31/03/2025",
+    "obligacion": {
+      "A": 182524
+    },
+    "capitalAdeudado": "105.666.670.22",
+    "entregaGarantiasAbogado": "21/09/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "FUNZA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00421",
+    "llaveProceso": "25286400300120180042100",
+    "fechaPresentacion": "TERMINO POR PAGO TOTAL",
+    "mandamientoPago": "20/04/2018",
+    "notificacion": {
+      "certimail": "13/06/2018",
+      "autoNotificado": "PERSONAL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "17/08/2018",
+      "medidaSolicitada": "13/0620178"
+    }
+  },
+  "demandas": [],
   "numero": 269,
   "llaveProceso": "25286400300120180042100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2025-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 10566667022,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "FUNZA",
-    "obligacion": [
-      182524
-    ],
-    "radicado": "2018 - 00421",
-    "expediente": "25286400300120180042100"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -1,25 +1,53 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "10/10/2034",
+    "llaveProceso": "SinEspecificar",
+    "obligacion": {
+      "A": "2273 320178028"
+    },
+    "capitalAdeudado": "$ 168.578.525",
+    "entregaGarantiasAbogado": "23/11/2023",
+    "departamento": "BOYACÁ",
+    "municipio": "TUNJA",
+    "tipoProceso": "HIPOTECARIO"
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 603,
+      "idConexion": null,
+      "llaveProceso": "SinEspecificar",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2034-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "BOYACÁ",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "TUNJA",
+      "obligacion": [
+        "2273 320178028"
+      ],
+      "radicado": null
+    }
+  ],
   "numero": 603,
   "llaveProceso": "SinEspecificar",
-  "demanda": {
-    "vencimientoPagare": [
-      "2034-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "BOYACÁ",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "TUNJA",
-    "obligacion": [
-      "2273 320178028"
-    ],
-    "radicado": null,
-    "expediente": "SinEspecificar"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,
@@ -38,5 +66,7 @@
     "email": "tatianaleon_6@hotmail.com"
   },
   "cc": 1032411438,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "FRANCY TATIANA LEON TOBARIA"
 }

@@ -16,7 +16,7 @@
       "idProceso": 132161470,
       "isUltimaAct": true,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-03T18:19:09.028Z"
+      "createdAt": "2023-12-06T22:29:33.586Z"
     },
     {
       "idRegActuacion": 1862825060,
@@ -34,7 +34,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-03T18:19:09.028Z"
+      "createdAt": "2023-12-06T22:29:33.586Z"
     },
     {
       "idRegActuacion": 1844385410,
@@ -52,7 +52,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-03T18:19:09.028Z"
+      "createdAt": "2023-12-06T22:29:33.586Z"
     },
     {
       "idRegActuacion": 1844385400,
@@ -70,7 +70,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-03T18:19:09.028Z"
+      "createdAt": "2023-12-06T22:29:33.586Z"
     },
     {
       "idRegActuacion": 1844385390,
@@ -88,7 +88,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-03T18:19:09.028Z"
+      "createdAt": "2023-12-06T22:29:33.586Z"
     },
     {
       "idRegActuacion": 1844385380,
@@ -106,7 +106,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-03T18:19:09.028Z"
+      "createdAt": "2023-12-06T22:29:33.586Z"
     },
     {
       "idRegActuacion": 1837296480,
@@ -124,7 +124,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-03T18:19:09.028Z"
+      "createdAt": "2023-12-06T22:29:33.586Z"
     }
   ],
   "juzgados": [
@@ -134,29 +134,59 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "25/02/2028 // 17/06/2026",
+    "obligacion": {
+      "A": 5670094881,
+      "B": "PAGARÉ SIN NÚMERO REF 100221151 TARJETA DE CRÉDITO MASTER CARD No. 5303730462170320"
+    },
+    "capitalAdeudado": "$ 20.815.025",
+    "entregaGarantiasAbogado": "2/08/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 01627",
+    "llaveProceso": "11001400307520230128400"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 75,
+        "tipo": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
+      },
+      "idProceso": 132161470,
+      "idConexion": 259,
+      "llaveProceso": "11001400307520230128400",
+      "fechaProceso": "2023-08-08T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-09-22T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: WILSON DE JESUS MOLINA QUIRAMA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2028-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2023-02-08T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        5670094881,
+        "PAGARÉ SIN NÚMERO REF 100221151 TARJETA DE CRÉDITO MASTER CARD No. 5303730462170320"
+      ],
+      "radicado": "2023 - 01627"
+    }
+  ],
   "numero": 568,
   "llaveProceso": "11001400307520230128400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2028-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-02-08T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5670094881,
-      "PAGARÉ SIN NÚMERO REF 100221151 TARJETA DE CRÉDITO MASTER CARD No. 5303730462170320"
-    ],
-    "radicado": "2023 - 01627",
-    "expediente": "11001400307520230128400"
-  },
   "fecha": "2023-09-22T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1880432600,

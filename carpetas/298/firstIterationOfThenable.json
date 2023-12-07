@@ -16,7 +16,7 @@
       "idProceso": 51570460,
       "isUltimaAct": true,
       "carpetaNumero": 298,
-      "createdAt": "2023-12-03T18:17:45.506Z"
+      "createdAt": "2023-12-07T01:08:23.475Z"
     },
     {
       "idRegActuacion": 857000680,
@@ -34,7 +34,7 @@
       "idProceso": 51570460,
       "isUltimaAct": false,
       "carpetaNumero": 298,
-      "createdAt": "2023-12-03T18:17:45.506Z"
+      "createdAt": "2023-12-07T01:08:23.475Z"
     }
   ],
   "juzgados": [
@@ -44,27 +44,69 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "4/04/2017",
+    "obligacion": {
+      "A": 155487
+    },
+    "capitalAdeudado": "96.442.977.80",
+    "entregaGarantiasAbogado": "13/10/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00986",
+    "llaveProceso": "11001400307820170098600",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "17/10/2017",
+    "mandamientoPago": "20/10/2017",
+    "notificacion": {
+      "292": {
+        "resultado": 43277
+      },
+      "tipo": "CERTMAIL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "20/10/2017",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 78,
+        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
+      },
+      "idProceso": 51570460,
+      "idConexion": 259,
+      "llaveProceso": "11001400307820170098600",
+      "fechaProceso": "2019-01-15T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-01-15T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR GABRIEL RAMIREZ BOHORQUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 9644297780,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        155487
+      ],
+      "radicado": "2017 - 00986"
+    }
+  ],
   "numero": 298,
   "llaveProceso": "11001400307820170098600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 9644297780,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      155487
-    ],
-    "radicado": "2017 - 00986",
-    "expediente": "11001400307820170098600"
-  },
   "fecha": "2019-01-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 857000690,

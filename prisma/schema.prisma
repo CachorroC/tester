@@ -20,10 +20,10 @@ model Carpeta {
   terminado       Boolean     @default(false)
   idRegUltimaAct  Int?
   ultimaActuacion Actuacion?  @relation(fields: [idRegUltimaAct], references: [idRegActuacion])
-  demanda         Demanda?
+  demandas        Demanda[]
   deudor          Deudor?
-  codeudor Codeudor?
- notas           Nota[]
+  codeudor        Codeudor?
+  notas           Nota[]
   procesos        Proceso[]
   tareas          Tarea[]
   juzgados        Juzgado[]   @relation("CarpetaToJuzgado")
@@ -45,13 +45,13 @@ model Deudor {
 }
 
 model Codeudor {
-  id Int @id
-  cedula    String?
-  direccion String?
-  nombre    String?
-  telefono  String?
-  carpetaNumero Int @unique
-  Carpeta   Carpeta @relation(fields: [carpetaNumero], references: [numero])
+  id            Int     @id
+  cedula        String?
+  direccion     String?
+  nombre        String?
+  telefono      String?
+  carpetaNumero Int     @unique
+  Carpeta       Carpeta @relation(fields: [carpetaNumero], references: [numero])
 }
 
 model Nota {
@@ -110,24 +110,64 @@ model Actuacion {
 }
 
 model Demanda {
-  id                      Int              @id @default(autoincrement())
+  id                      Int                @id @default(autoincrement())
   departamento            String?
-  capitalAdeudado         Decimal?         @db.Money
-  entregaGarantiasAbogado DateTime?        @db.Date
-  tipoProceso             TipoProceso      @default(SINGULAR)
-  mandamientoPago         DateTime?        @db.Date
+  capitalAdeudado         Decimal?           @db.Money
+  entregaGarantiasAbogado DateTime?          @db.Date
+  tipoProceso             TipoProceso        @default(SINGULAR)
+  mandamientoPago         DateTime?          @db.Date
   etapaProcesal           String?
-  fechaPresentacion       DateTime?        @db.Date
+  fechaPresentacion       DateTime?          @db.Date
   municipio               String?
   obligacion              String[]
   radicado                String?
-  vencimientoPagare       DateTime[]       @db.Date
-  expediente              String?
-  carpetaNumero           Int              @unique
+  vencimientoPagare       DateTime[]         @db.Date
+  carpetaNumero           Int
   despacho                String?
-  carpeta                 Carpeta          @relation(fields: [carpetaNumero], references: [numero])
+  carpeta                 Carpeta            @relation(fields: [carpetaNumero], references: [numero])
   JuzgadoDemanda          JuzgadoDemanda[]
-  procesos                Proceso[]
+  idProceso               Int                @unique
+  idConexion              Int?
+  llaveProceso            String?
+  fechaProceso            DateTime?          @db.Date
+  fechaUltimaActuacion    DateTime?          @db.Date
+  sujetosProcesales       String?
+  esPrivado               Boolean?
+  cantFilas               Int?
+  notificacion            Notificacion?
+  medidasCautelares       MedidasCautelares?
+}
+
+model Notificacion {
+  id             Int        @id @default(autoincrement())
+  notifiers      Notifier[]
+  certimail      Boolean?
+  fisico         Boolean?
+  autoNotificado String?
+  Demanda        Demanda    @relation(references: [id], fields: [demandaId])
+  demandaId      Int        @unique
+}
+
+model MedidasCautelares {
+  id                Int       @id @default(autoincrement())
+  fechaOrdenaMedida DateTime?
+  medidaSolicitada  String?
+  Demanda           Demanda   @relation(references: [id], fields: [demandaId])
+  demandaId         Int       @unique
+}
+
+model Notifier {
+  id             Int           @id @default(autoincrement())
+  fechaRecibido  DateTime?
+  resultado      Boolean?
+  fechaAporta    DateTime?
+  Notificacion   Notificacion? @relation(fields: [notificacionId], references: [id])
+  notificacionId Int?
+}
+
+enum NotifierName {
+  DOS91
+  DOS92
 }
 
 model Juzgado {
@@ -152,10 +192,9 @@ model Proceso {
   carpetaNumero        Int
   esPrivado            Boolean
   cantFilas            Int
-  demandaId            Int?
   JuzgadosProcesos     JuzgadoProceso[]
   Carpeta              Carpeta          @relation(fields: [carpetaNumero], references: [numero])
-  Demanda              Demanda?         @relation(fields: [demandaId], references: [id])
+
 }
 
 model JuzgadoDemanda {

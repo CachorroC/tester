@@ -16,7 +16,7 @@
       "idProceso": 132234840,
       "isUltimaAct": true,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     },
     {
       "idRegActuacion": 1937624360,
@@ -34,7 +34,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     },
     {
       "idRegActuacion": 1936886140,
@@ -52,7 +52,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     },
     {
       "idRegActuacion": 1921358410,
@@ -70,7 +70,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     },
     {
       "idRegActuacion": 1844668940,
@@ -88,7 +88,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     },
     {
       "idRegActuacion": 1844668930,
@@ -106,7 +106,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     },
     {
       "idRegActuacion": 1844668920,
@@ -124,7 +124,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     },
     {
       "idRegActuacion": 1844668910,
@@ -142,7 +142,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     },
     {
       "idRegActuacion": 1840762420,
@@ -160,7 +160,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     },
     {
       "idRegActuacion": 1839827160,
@@ -178,7 +178,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-03T18:19:10.067Z"
+      "createdAt": "2023-12-06T22:29:34.106Z"
     }
   ],
   "juzgados": [
@@ -188,27 +188,56 @@
       "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "7/03/2026",
+    "obligacion": {
+      "A": 1380089168
+    },
+    "capitalAdeudado": "$ 24.843.938",
+    "entregaGarantiasAbogado": "4/08/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "MOSQUERA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 01289",
+    "llaveProceso": "11001418901420230146500"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 14,
+        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      },
+      "idProceso": 132234840,
+      "idConexion": 259,
+      "llaveProceso": "11001418901420230146500",
+      "fechaProceso": "2023-08-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-23T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARTHA CECILIA OSPINA ARENAS ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "MOSQUERA",
+      "obligacion": [
+        1380089168
+      ],
+      "radicado": "2023 - 01289"
+    }
+  ],
   "numero": 571,
   "llaveProceso": "11001418901420230146500",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "MOSQUERA",
-    "obligacion": [
-      1380089168
-    ],
-    "radicado": "2023 - 01289",
-    "expediente": "11001418901420230146500"
-  },
   "fecha": "2023-11-23T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1937624370,

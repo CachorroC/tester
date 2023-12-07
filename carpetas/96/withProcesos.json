@@ -16,7 +16,7 @@
       "idProceso": 11998913,
       "isUltimaAct": true,
       "carpetaNumero": 96,
-      "createdAt": "2023-12-03T18:16:41.102Z"
+      "createdAt": "2023-12-07T01:07:27.365Z"
     },
     {
       "idRegActuacion": 155340253,
@@ -34,7 +34,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-12-03T18:16:41.102Z"
+      "createdAt": "2023-12-07T01:07:27.365Z"
     },
     {
       "idRegActuacion": 155340243,
@@ -52,7 +52,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-12-03T18:16:41.102Z"
+      "createdAt": "2023-12-07T01:07:27.365Z"
     },
     {
       "idRegActuacion": 155340233,
@@ -70,7 +70,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-12-03T18:16:41.102Z"
+      "createdAt": "2023-12-07T01:07:27.365Z"
     },
     {
       "idRegActuacion": 155340223,
@@ -88,7 +88,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-12-03T18:16:41.102Z"
+      "createdAt": "2023-12-07T01:07:27.365Z"
     },
     {
       "idRegActuacion": 155340213,
@@ -106,7 +106,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-12-03T18:16:41.102Z"
+      "createdAt": "2023-12-07T01:07:27.365Z"
     },
     {
       "idRegActuacion": 155340203,
@@ -124,7 +124,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-12-03T18:16:41.102Z"
+      "createdAt": "2023-12-07T01:07:27.365Z"
     },
     {
       "idRegActuacion": 155340193,
@@ -142,7 +142,7 @@
       "idProceso": 11998913,
       "isUltimaAct": false,
       "carpetaNumero": 96,
-      "createdAt": "2023-12-03T18:16:41.102Z"
+      "createdAt": "2023-12-07T01:07:27.365Z"
     }
   ],
   "juzgados": [
@@ -152,28 +152,60 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-053-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "30/01/2033",
+    "obligacion": {
+      "A": 160742,
+      "B": 377815863029282
+    },
+    "capitalAdeudado": 46027552,
+    "entregaGarantiasAbogado": "28/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00871",
+    "llaveProceso": "11001400305320170087100",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "29/06/2017"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 53,
+        "tipo": "JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-053-civil-municipal-de-bogota"
+      },
+      "idProceso": 11998913,
+      "idConexion": 261,
+      "llaveProceso": "11001400305320170087100",
+      "fechaProceso": "2017-07-04T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-23T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: YURANNY POLANCO CESPEDES ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2033-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 46027552,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        160742,
+        377815863029282
+      ],
+      "radicado": "2017 - 00871"
+    }
+  ],
   "numero": 96,
   "llaveProceso": "11001400305320170087100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2033-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 46027552,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      160742,
-      377815863029282
-    ],
-    "radicado": "2017 - 00871",
-    "expediente": "11001400305320170087100"
-  },
   "fecha": "2018-03-23T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 155340263,

@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "MARTHA LILIANA POLOCHE AGUJA",
@@ -8,27 +9,26 @@
     "id": 412,
     "carpetaNumero": 412
   },
+  "demanda": {
+    "vencimientoPagare": "28/12/2026",
+    "obligacion": {
+      "A": 20990147276
+    },
+    "capitalAdeudado": "19.865.454",
+    "entregaGarantiasAbogado": "16/04/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SOACHA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00364",
+    "llaveProceso": "25754418900220180036400",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "26/04/2018"
+  },
+  "demandas": [],
   "numero": 412,
   "llaveProceso": "25754418900220180036400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 19865454,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990147276
-    ],
-    "radicado": "2018 - 00364",
-    "expediente": "25754418900220180036400"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

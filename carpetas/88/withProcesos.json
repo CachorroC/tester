@@ -1,25 +1,63 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "1/07/2018",
+    "obligacion": {
+      "A": 12488415
+    },
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 00528",
+    "llaveProceso": "1100140030820170052800",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "20/06/2017",
+    "mandamientoPago": "28/06/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 1369,
+        "fechaAporta": "AUTOMOVIL MARCA HYNDAI LINEA ACCENT GL MODELO 2016 COLOR BLANCO CRISTAL"
+      },
+      "certimail": "28/06/2017",
+      "fisico": "VEHICULO"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 88,
+      "idConexion": null,
+      "llaveProceso": "1100140030820170052800",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2018-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 0,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "PRENDARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12488415
+      ],
+      "radicado": "2017 - 00528"
+    }
+  ],
   "numero": 88,
   "llaveProceso": "1100140030820170052800",
-  "demanda": {
-    "vencimientoPagare": [
-      "2018-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12488415
-    ],
-    "radicado": "2017 - 00528",
-    "expediente": "1100140030820170052800"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,
@@ -38,5 +76,7 @@
     "email": "lasmi40@hotmail.com"
   },
   "cc": 51890871,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "IDALY FERRO CARDONA"
 }

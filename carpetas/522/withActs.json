@@ -16,7 +16,7 @@
       "idProceso": 39001450,
       "isUltimaAct": true,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-03T18:18:56.704Z"
+      "createdAt": "2023-12-06T22:29:27.396Z"
     },
     {
       "idRegActuacion": 559231420,
@@ -34,7 +34,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-03T18:18:56.704Z"
+      "createdAt": "2023-12-06T22:29:27.396Z"
     },
     {
       "idRegActuacion": 555956130,
@@ -52,7 +52,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-03T18:18:56.704Z"
+      "createdAt": "2023-12-06T22:29:27.396Z"
     },
     {
       "idRegActuacion": 552213370,
@@ -70,7 +70,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-03T18:18:56.704Z"
+      "createdAt": "2023-12-06T22:29:27.396Z"
     },
     {
       "idRegActuacion": 552213360,
@@ -88,7 +88,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-03T18:18:56.704Z"
+      "createdAt": "2023-12-06T22:29:27.396Z"
     },
     {
       "idRegActuacion": 368473180,
@@ -106,7 +106,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-03T18:18:56.704Z"
+      "createdAt": "2023-12-06T22:29:27.396Z"
     },
     {
       "idRegActuacion": 367918050,
@@ -124,7 +124,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-03T18:18:56.704Z"
+      "createdAt": "2023-12-06T22:29:27.396Z"
     }
   ],
   "juzgados": [
@@ -134,28 +134,59 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "19/12/2026",
+    "obligacion": {
+      "A": 20990146891,
+      "B": 450091594
+    },
+    "capitalAdeudado": "29.723.047.63",
+    "entregaGarantiasAbogado": "12/02/2019",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2019 - 01004",
+    "llaveProceso": "11001400306820190100400",
+    "fechaPresentacion": "26/02/2019 // 4/06/19"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 68,
+        "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
+      },
+      "idProceso": 39001450,
+      "idConexion": 262,
+      "llaveProceso": "11001400306820190100400",
+      "fechaProceso": "2019-06-04T05:00:00.000Z",
+      "fechaUltimaActuacion": "2022-06-03T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: ARMANDO RODRIGUEZ RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 2972304763,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990146891,
+        450091594
+      ],
+      "radicado": "2019 - 01004"
+    }
+  ],
   "numero": 522,
   "llaveProceso": "11001400306820190100400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 2972304763,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990146891,
-      450091594
-    ],
-    "radicado": "2019 - 01004",
-    "expediente": "11001400306820190100400"
-  },
   "fecha": "2022-06-03T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1303040130,

@@ -1,26 +1,26 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "31/10/2033",
+    "obligacion": {
+      "A": 169486
+    },
+    "capitalAdeudado": 120292568,
+    "entregaGarantiasAbogado": "24/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "MOSQUERA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00956",
+    "llaveProceso": "25286310300120170095600",
+    "fechaPresentacion": "31/08/2017"
+  },
+  "demandas": [],
   "numero": 161,
   "llaveProceso": "25286310300120170095600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2033-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 120292568,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "MOSQUERA",
-    "obligacion": [
-      169486
-    ],
-    "radicado": "2017 - 00956",
-    "expediente": "25286310300120170095600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

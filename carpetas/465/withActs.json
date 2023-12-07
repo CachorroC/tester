@@ -16,7 +16,7 @@
       "idProceso": 51342910,
       "isUltimaAct": true,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-03T18:18:42.868Z"
+      "createdAt": "2023-12-06T22:29:21.057Z"
     },
     {
       "idRegActuacion": 856768210,
@@ -34,7 +34,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-03T18:18:42.868Z"
+      "createdAt": "2023-12-06T22:29:21.057Z"
     },
     {
       "idRegActuacion": 856768200,
@@ -52,7 +52,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-03T18:18:42.868Z"
+      "createdAt": "2023-12-06T22:29:21.057Z"
     },
     {
       "idRegActuacion": 565848280,
@@ -70,7 +70,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-03T18:18:42.868Z"
+      "createdAt": "2023-12-06T22:29:21.057Z"
     },
     {
       "idRegActuacion": 856768190,
@@ -88,7 +88,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-03T18:18:42.868Z"
+      "createdAt": "2023-12-06T22:29:21.057Z"
     },
     {
       "idRegActuacion": 856768180,
@@ -106,7 +106,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-03T18:18:42.868Z"
+      "createdAt": "2023-12-06T22:29:21.057Z"
     },
     {
       "idRegActuacion": 856768170,
@@ -124,7 +124,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-03T18:18:42.868Z"
+      "createdAt": "2023-12-06T22:29:21.057Z"
     }
   ],
   "juzgados": [
@@ -134,28 +134,60 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-077-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "2/03/2027",
+    "obligacion": {
+      "A": 209900000000,
+      "B": 377816000000000
+    },
+    "capitalAdeudado": "25.303.711",
+    "entregaGarantiasAbogado": "29/07/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00854",
+    "llaveProceso": "11001400307720180085400",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "31/07/2018"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 77,
+        "tipo": "JUZGADO 077 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-077-civil-municipal-de-bogota"
+      },
+      "idProceso": 51342910,
+      "idConexion": 259,
+      "llaveProceso": "11001400307720180085400",
+      "fechaProceso": "2018-08-01T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-09-18T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GIOVANNY DURAN ANTONIO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2027-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 25303711,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "ADMISION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        209900000000,
+        377816000000000
+      ],
+      "radicado": "2018 - 00854"
+    }
+  ],
   "numero": 465,
   "llaveProceso": "11001400307720180085400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2027-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 25303711,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      209900000000,
-      377816000000000
-    ],
-    "radicado": "2018 - 00854",
-    "expediente": "11001400307720180085400"
-  },
   "fecha": "2018-09-18T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 565848290,

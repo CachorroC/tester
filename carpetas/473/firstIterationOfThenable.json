@@ -1,22 +1,27 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SOACHA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00855",
+    "llaveProceso": "25754418900320180085500",
+    "etapaProcesal": "15/08/2018",
+    "mandamientoPago": "X",
+    "notificacion": {
+      "292": {
+        "fechaAporta": "08/10/2018"
+      },
+      "fisico": "30/10/2018"
+    }
+  },
+  "demandas": [],
   "numero": 473,
   "llaveProceso": "25754418900320180085500",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 0,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "15/08/2018",
-    "fechaPresentacion": null,
-    "municipio": "SOACHA",
-    "obligacion": [],
-    "radicado": "2018 - 00855",
-    "expediente": "25754418900320180085500"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -16,7 +16,7 @@
       "idProceso": 17718250,
       "isUltimaAct": true,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-03T18:17:57.409Z"
+      "createdAt": "2023-12-07T01:08:34.601Z"
     },
     {
       "idRegActuacion": 266714160,
@@ -34,7 +34,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-03T18:17:57.409Z"
+      "createdAt": "2023-12-07T01:08:34.601Z"
     },
     {
       "idRegActuacion": 266714150,
@@ -52,7 +52,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-03T18:17:57.409Z"
+      "createdAt": "2023-12-07T01:08:34.601Z"
     },
     {
       "idRegActuacion": 266714140,
@@ -70,7 +70,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-03T18:17:57.409Z"
+      "createdAt": "2023-12-07T01:08:34.601Z"
     },
     {
       "idRegActuacion": 266714130,
@@ -88,7 +88,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-03T18:17:57.409Z"
+      "createdAt": "2023-12-07T01:08:34.601Z"
     },
     {
       "idRegActuacion": 266714120,
@@ -106,7 +106,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-03T18:17:57.409Z"
+      "createdAt": "2023-12-07T01:08:34.601Z"
     }
   ],
   "juzgados": [
@@ -116,27 +116,62 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "8/11/2017",
+    "obligacion": {
+      "A": 12710799
+    },
+    "capitalAdeudado": "18.898.421.00",
+    "entregaGarantiasAbogado": "10/11/2017 2DA 18/12/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 01317",
+    "llaveProceso": "11001400306320170131700",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "15/01/2018",
+    "mandamientoPago": "15/01/2018",
+    "notificacion": {
+      "certimail": "15/01/2018"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 63,
+        "tipo": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
+      },
+      "idProceso": 17718250,
+      "idConexion": 260,
+      "llaveProceso": "11001400306320170131700",
+      "fechaProceso": "2017-12-18T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-05-16T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AHIDA LUCERO GUEVARA BECERRA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 1889842100,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "PRENDARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12710799
+      ],
+      "radicado": "2017 - 01317"
+    }
+  ],
   "numero": 333,
   "llaveProceso": "11001400306320170131700",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1889842100,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12710799
-    ],
-    "radicado": "2017 - 01317",
-    "expediente": "11001400306320170131700"
-  },
   "fecha": "2018-05-16T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 266714170,

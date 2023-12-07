@@ -1,26 +1,45 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "1/09/2019",
+    "obligacion": {
+      "A": 377817000000000
+    },
+    "capitalAdeudado": "$ 16.208.319",
+    "entregaGarantiasAbogado": "12/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "TOCANCIPA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00351",
+    "llaveProceso": "25817418900120170035100",
+    "etapaProcesal": "25817408900120170035100",
+    "fechaPresentacion": "EJECUCIÓN",
+    "mandamientoPago": "22/06/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "SI",
+        "resultado": "1/08/2017"
+      },
+      "292": {
+        "fechaRecibido": "18/01/2018",
+        "fechaAporta": "POSITIVO"
+      },
+      "certimail": "29/06/2017",
+      "fisico": "NO",
+      "autoNotificado": "CORREO"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "19/01/2018",
+      "medidaSolicitada": "29/06/2017"
+    }
+  },
+  "demandas": [],
   "numero": 80,
   "llaveProceso": "25817418900120170035100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2019-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "25817408900120170035100",
-    "fechaPresentacion": null,
-    "municipio": "TOCANCIPA",
-    "obligacion": [
-      377817000000000
-    ],
-    "radicado": "2017 - 00351",
-    "expediente": "25817418900120170035100"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

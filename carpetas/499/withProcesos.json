@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "FLOR ANGELA RODRIGUEZ",
@@ -8,28 +9,44 @@
     "id": 499,
     "carpetaNumero": 499
   },
+  "demanda": {
+    "vencimientoPagare": "31/11/2024",
+    "obligacion": {
+      "A": "20990123680  7/  377813468472239",
+      "B": "4513079359765043 // 53037220341399596"
+    },
+    "capitalAdeudado": "$ 24.807.317",
+    "entregaGarantiasAbogado": "08/10/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARO",
+    "radicado": "2019 - 00708",
+    "llaveProceso": "11001418901320190070800",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "12/10/2018",
+    "mandamientoPago": "31/07/2019",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "18/02/2020",
+        "fechaAporta": "18/02/2020"
+      },
+      "292": {
+        "resultado": "POSITIVO"
+      },
+      "certimail": "SI",
+      "fisico": "NO",
+      "tipo": "CORREO"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "13/02/2020",
+      "medidaSolicitada": "EMBARGO DE INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 499,
   "llaveProceso": "11001418901320190070800",
-  "demanda": {
-    "vencimientoPagare": [
-      "2024-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-08-10T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2018-12-10T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "20990123680  7/  377813468472239",
-      "4513079359765043 // 53037220341399596"
-    ],
-    "radicado": "2019 - 00708",
-    "expediente": "11001418901320190070800"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,

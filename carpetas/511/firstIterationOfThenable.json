@@ -1,26 +1,26 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "12/04/2018",
+    "obligacion": {
+      "A": 20990201453
+    },
+    "capitalAdeudado": "41.522.255.15",
+    "entregaGarantiasAbogado": "21/11/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "SOACHA",
+    "tipoProceso": "SOACHA",
+    "radicado": "2018 - 00416",
+    "llaveProceso": "25754400300220180041600",
+    "fechaPresentacion": "ADMISION"
+  },
+  "demandas": [],
   "numero": 511,
   "llaveProceso": "25754400300220180041600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2018-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 4152225515,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "SOACHA",
-    "obligacion": [
-      20990201453
-    ],
-    "radicado": "2018 - 00416",
-    "expediente": "25754400300220180041600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

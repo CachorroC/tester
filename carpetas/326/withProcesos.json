@@ -16,7 +16,7 @@
       "idProceso": 50834080,
       "isUltimaAct": true,
       "carpetaNumero": 326,
-      "createdAt": "2023-12-03T18:17:55.083Z"
+      "createdAt": "2023-12-07T01:08:32.806Z"
     },
     {
       "idRegActuacion": 764147210,
@@ -34,7 +34,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-12-03T18:17:55.083Z"
+      "createdAt": "2023-12-07T01:08:32.806Z"
     },
     {
       "idRegActuacion": 764147200,
@@ -52,7 +52,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-12-03T18:17:55.083Z"
+      "createdAt": "2023-12-07T01:08:32.806Z"
     },
     {
       "idRegActuacion": 764147190,
@@ -70,7 +70,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-12-03T18:17:55.083Z"
+      "createdAt": "2023-12-07T01:08:32.806Z"
     },
     {
       "idRegActuacion": 764147180,
@@ -88,7 +88,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-12-03T18:17:55.083Z"
+      "createdAt": "2023-12-07T01:08:32.806Z"
     },
     {
       "idRegActuacion": 764147170,
@@ -106,7 +106,7 @@
       "idProceso": 50834080,
       "isUltimaAct": false,
       "carpetaNumero": 326,
-      "createdAt": "2023-12-03T18:17:55.083Z"
+      "createdAt": "2023-12-07T01:08:32.806Z"
     }
   ],
   "juzgados": [
@@ -116,27 +116,67 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "26/11/2022",
+    "obligacion": {
+      "A": 103162
+    },
+    "capitalAdeudado": "19.550.288.60",
+    "entregaGarantiasAbogado": "27/10/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01471",
+    "llaveProceso": "11001400303420170147100",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "2/11/2017",
+    "mandamientoPago": "4/12/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 2515,
+        "resultado": "12/12/2017"
+      },
+      "certimail": "4/12/2017",
+      "fisico": "INMUEBLE"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      },
+      "idProceso": 50834080,
+      "idConexion": 259,
+      "llaveProceso": "11001400303420170147100",
+      "fechaProceso": "2017-11-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-02-27T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JORGE ELIECER GÓMEZ LÓPEZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2022-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 1955028860,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": "2017-04-12T05:00:00.000Z",
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": "2017-02-11T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        103162
+      ],
+      "radicado": "2017 - 01471"
+    }
+  ],
   "numero": 326,
   "llaveProceso": "11001400303420170147100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2022-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1955028860,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": "2017-04-12T05:00:00.000Z",
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-02-11T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      103162
-    ],
-    "radicado": "2017 - 01471",
-    "expediente": "11001400303420170147100"
-  },
   "fecha": "2018-02-27T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 764147220,

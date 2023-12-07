@@ -1,27 +1,47 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "10/07/2019",
+    "obligacion": {
+      "A": 5450082766,
+      "B": 5450083252
+    },
+    "capitalAdeudado": "$ 28.485.816",
+    "entregaGarantiasAbogado": "21/09/2017",
+    "departamento": "BOYACÁ",
+    "municipio": "UMBITA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00095",
+    "llaveProceso": "15842408900120170009500",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "12/10/2017",
+    "mandamientoPago": "23/10/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "19/02/2018",
+        "resultado": "POSITIVO",
+        "fechaAporta": "23/02/2018"
+      },
+      "292": {
+        "resultado": "POSITIVO"
+      },
+      "certimail": "NO",
+      "fisico": "SI",
+      "tipo": "PERSONAL",
+      "autoNotificado": "23/02/2018"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "23/10/2017",
+      "medidaSolicitada": "EMBARGO DE CULTIVOS"
+    }
+  },
+  "demandas": [],
   "numero": 297,
   "llaveProceso": "15842408900120170009500",
-  "demanda": {
-    "vencimientoPagare": [
-      "2019-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "BOYACÁ",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2017-12-10T05:00:00.000Z",
-    "municipio": "UMBITA",
-    "obligacion": [
-      5450082766,
-      5450083252
-    ],
-    "radicado": "2017 - 00095",
-    "expediente": "15842408900120170009500"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Reintegra",
   "revisado": false,
   "terminado": false,

@@ -1,4 +1,6 @@
 {
+  "actuaciones": null,
+  "juzgados": null,
   "codeudor": {
     "nombre": "ADRIANA MIREYA AGUILAR",
     "cedula": "52742707",
@@ -7,27 +9,62 @@
     "id": 471,
     "carpetaNumero": 471
   },
+  "demanda": {
+    "vencimientoPagare": "15/06/2022",
+    "obligacion": {
+      "A": 20990097950
+    },
+    "capitalAdeudado": "12.555.416.18",
+    "entregaGarantiasAbogado": "26 07/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00712",
+    "llaveProceso": "1100140030152018007100",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "09/08/2018",
+    "mandamientoPago": "17/10/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 43412
+      },
+      "certimail": "CERTIMAIL"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": null,
+      "idProceso": 471,
+      "idConexion": null,
+      "llaveProceso": "1100140030152018007100",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": null,
+      "esPrivado": null,
+      "cantFilas": null,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2022-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 1255541618,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": "2018-09-08T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        20990097950
+      ],
+      "radicado": "2018 - 00712"
+    }
+  ],
   "numero": 471,
   "llaveProceso": "1100140030152018007100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2022-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1255541618,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2018-09-08T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      20990097950
-    ],
-    "radicado": "2018 - 00712",
-    "expediente": "1100140030152018007100"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,
@@ -46,5 +83,7 @@
     "email": "nanaleo24@hotmail.com"
   },
   "cc": 80742720,
+  "procesos": null,
+  "idProcesos": [],
   "nombre": "ADRIANA MIREYA AGUILAR"
 }

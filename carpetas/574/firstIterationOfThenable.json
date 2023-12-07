@@ -1,30 +1,26 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "2/04/2026 // 24/04/2026 // 7/04/2026 // 7/04/2026",
+    "obligacion": {
+      "A": "2370110350 // 1410093357",
+      "B": "43206562 T.C. VISA 4513080146836311 // 82377390 T.C. AMERICAN 0377816058360201"
+    },
+    "capitalAdeudado": "$ 43.725.000",
+    "entregaGarantiasAbogado": "17/08/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 -  01342",
+    "llaveProceso": "11001418900920230131000"
+  },
+  "demandas": [],
   "numero": 574,
   "llaveProceso": "11001418900920230131000",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "2370110350 // 1410093357",
-      "43206562 T.C. VISA 4513080146836311 // 82377390 T.C. AMERICAN 0377816058360201"
-    ],
-    "radicado": "2023 -  01342",
-    "expediente": "11001418900920230131000"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,

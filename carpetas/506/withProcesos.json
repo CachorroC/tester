@@ -1,26 +1,42 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "04/06/2021",
+    "obligacion": {
+      "A": 54915700000000000
+    },
+    "capitalAdeudado": "$ 15.426.759",
+    "entregaGarantiasAbogado": "25/10/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL",
+    "radicado": "2021- 00611",
+    "llaveProceso": "11001418903120180138000",
+    "etapaProcesal": "11001400300420210061100",
+    "fechaPresentacion": "ADMITIENDO HIPOTECARIO",
+    "mandamientoPago": "30/11/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "NO"
+      },
+      "292": {
+        "fechaAporta": "POSITIVO"
+      },
+      "certimail": "24/07/2019",
+      "fisico": "SI",
+      "autoNotificado": "CERTIMAIL"
+    },
+    "medidasCautelares": {
+      "medidaSolicitada": "24/07/2019"
+    }
+  },
+  "demandas": [],
   "numero": 506,
   "llaveProceso": "11001418903120180138000",
-  "demanda": {
-    "vencimientoPagare": [
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "ACUMULADO",
-    "mandamientoPago": null,
-    "etapaProcesal": "11001400300420210061100",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      54915700000000000
-    ],
-    "radicado": "2021- 00611",
-    "expediente": "11001418903120180138000"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

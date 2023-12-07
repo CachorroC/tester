@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "RUBY AMINTA BARRERO CUECA",
@@ -8,27 +9,25 @@
     "id": 302,
     "carpetaNumero": 302
   },
+  "demanda": {
+    "vencimientoPagare": "24/12/2032",
+    "obligacion": {
+      "A": 159541
+    },
+    "capitalAdeudado": "153.236.346.48",
+    "entregaGarantiasAbogado": "12/10/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "FUNZA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01003",
+    "llaveProceso": "25286310300120170100300",
+    "fechaPresentacion": "19/10/2017"
+  },
+  "demandas": [],
   "numero": 302,
   "llaveProceso": "25286310300120170100300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2032-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 15323634648,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-10T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "FUNZA",
-    "obligacion": [
-      159541
-    ],
-    "radicado": "2017 - 01003",
-    "expediente": "25286310300120170100300"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

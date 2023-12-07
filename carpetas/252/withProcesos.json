@@ -16,7 +16,7 @@
       "idProceso": 50745490,
       "isUltimaAct": true,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-03T18:17:25.838Z"
+      "createdAt": "2023-12-07T01:08:12.236Z"
     },
     {
       "idRegActuacion": 764095840,
@@ -34,7 +34,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-03T18:17:25.838Z"
+      "createdAt": "2023-12-07T01:08:12.236Z"
     },
     {
       "idRegActuacion": 764095830,
@@ -52,7 +52,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-03T18:17:25.838Z"
+      "createdAt": "2023-12-07T01:08:12.236Z"
     },
     {
       "idRegActuacion": 764095820,
@@ -70,7 +70,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-03T18:17:25.838Z"
+      "createdAt": "2023-12-07T01:08:12.236Z"
     },
     {
       "idRegActuacion": 764095810,
@@ -88,7 +88,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-03T18:17:25.838Z"
+      "createdAt": "2023-12-07T01:08:12.236Z"
     },
     {
       "idRegActuacion": 764095800,
@@ -106,7 +106,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-03T18:17:25.838Z"
+      "createdAt": "2023-12-07T01:08:12.236Z"
     }
   ],
   "juzgados": [
@@ -124,27 +124,69 @@
     "id": 252,
     "carpetaNumero": 252
   },
+  "demanda": {
+    "vencimientoPagare": "5/01/2027",
+    "obligacion": {
+      "A": 147600
+    },
+    "capitalAdeudado": "26.469.309.75",
+    "entregaGarantiasAbogado": "5/09/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01236",
+    "llaveProceso": "11001400303420170123600",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "14/09/2017",
+    "mandamientoPago": "25/10/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 2253,
+        "resultado": "01/11/2017"
+      },
+      "292": {
+        "resultado": "28/11/2017"
+      },
+      "certimail": "25/10/2017",
+      "fisico": "INMUEBLE"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      },
+      "idProceso": 50745490,
+      "idConexion": 259,
+      "llaveProceso": "11001400303420170123600",
+      "fechaProceso": "2017-10-02T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-02-08T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S,.A | Demandado: ANGEL JOAVANI SUAREZ GOMEZ | Demandado: DAMARIS MILENA CAICEDO FARIETA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2027-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 2646930975,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-05-09T05:00:00.000Z",
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        147600
+      ],
+      "radicado": "2017 - 01236"
+    }
+  ],
   "numero": 252,
   "llaveProceso": "11001400303420170123600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2027-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 2646930975,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-05-09T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      147600
-    ],
-    "radicado": "2017 - 01236",
-    "expediente": "11001400303420170123600"
-  },
   "fecha": "2018-02-08T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 764095850,

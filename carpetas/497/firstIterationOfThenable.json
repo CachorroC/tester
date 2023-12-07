@@ -1,26 +1,27 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "2/09/2018",
+    "obligacion": {
+      "A": 20990142568
+    },
+    "capitalAdeudado": "23.678920.60",
+    "entregaGarantiasAbogado": "26/09/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "ZIPAQUIRA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00435",
+    "llaveProceso": "25899410300120180043500",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "3/10/2018"
+  },
+  "demandas": [],
   "numero": 497,
   "llaveProceso": "25899410300120180043500",
-  "demanda": {
-    "vencimientoPagare": [
-      "2018-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 2367892060,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2018-03-10T05:00:00.000Z",
-    "municipio": "ZIPAQUIRA",
-    "obligacion": [
-      20990142568
-    ],
-    "radicado": "2018 - 00435",
-    "expediente": "25899410300120180043500"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

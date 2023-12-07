@@ -1,28 +1,46 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "14/09/2021 // 07/05/2021",
+    "obligacion": {
+      "A": "AUDIOPRESTAMO",
+      "B": 5491570347356810
+    },
+    "capitalAdeudado": "$ 27.373.832",
+    "entregaGarantiasAbogado": "18/09/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CHIA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00602",
+    "llaveProceso": "25175408900320180060200",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "4/10/2018",
+    "mandamientoPago": "12/10/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "26/11/2018",
+        "resultado": "POSITIVO",
+        "fechaAporta": "6/12/2018"
+      },
+      "292": {
+        "resultado": "POSITIVO"
+      },
+      "certimail": "NO",
+      "fisico": "SI",
+      "tipo": "CERTIMAIL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "22/10/2018",
+      "medidaSolicitada": "EMBARGO DE INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 496,
   "llaveProceso": "25175408900320180060200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2021-01-01T05:00:00.000Z",
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-12-10T05:00:00.000Z",
-    "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": "2018-04-10T05:00:00.000Z",
-    "municipio": "CHIA",
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      5491570347356810
-    ],
-    "radicado": "2018 - 00602",
-    "expediente": "25175408900320180060200"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Bancolombia",
   "revisado": false,
   "terminado": false,

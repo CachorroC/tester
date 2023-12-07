@@ -1,26 +1,45 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "03/0/82024",
+    "obligacion": {
+      "A": 2099120807
+    },
+    "capitalAdeudado": "$ 23.440.288",
+    "entregaGarantiasAbogado": "16/04/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "kENNEDY",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00602",
+    "llaveProceso": "11001410307520180060200",
+    "etapaProcesal": "11001410375220180060200",
+    "fechaPresentacion": "EJECUCIÓN",
+    "mandamientoPago": "25/04/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "NO",
+        "resultado": "31/10/2018"
+      },
+      "292": {
+        "fechaRecibido": "4/10/2018",
+        "fechaAporta": "POSITIVO"
+      },
+      "certimail": "18/06/2018",
+      "fisico": "SI",
+      "autoNotificado": "CERTIMAIL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "31/10/2018",
+      "medidaSolicitada": "13/08/2018"
+    }
+  },
+  "demandas": [],
   "numero": 422,
   "llaveProceso": "11001410307520180060200",
-  "demanda": {
-    "vencimientoPagare": [
-      "8202-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "11001410375220180060200",
-    "fechaPresentacion": null,
-    "municipio": "kENNEDY",
-    "obligacion": [
-      2099120807
-    ],
-    "radicado": "2018 - 00602",
-    "expediente": "11001410307520180060200"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

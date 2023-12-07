@@ -1,26 +1,48 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "1/04/2020",
+    "obligacion": {
+      "A": 7910080245
+    },
+    "capitalAdeudado": "$ 42.530.688",
+    "entregaGarantiasAbogado": "21/09/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "CAPARRAPI",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00096",
+    "llaveProceso": "25148408900120170009600",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": "19/10/2017",
+    "mandamientoPago": "9/11/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "19/02/2018",
+        "resultado": "POSITIVO",
+        "fechaAporta": "6/03/2018"
+      },
+      "292": {
+        "fechaRecibido": "27/02/2018",
+        "fechaAporta": "27/02/2018",
+        "resultado": "POSITIVO"
+      },
+      "certimail": "NO",
+      "fisico": "SI",
+      "tipo": "PERSONAL",
+      "autoNotificado": "27/02/2018"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "9/11/2017",
+      "medidaSolicitada": "EMBARGO DE INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 338,
   "llaveProceso": "25148408900120170009600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2020-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2017-09-11T05:00:00.000Z",
-    "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": null,
-    "municipio": "CAPARRAPI",
-    "obligacion": [
-      7910080245
-    ],
-    "radicado": "2017 - 00096",
-    "expediente": "25148408900120170009600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Reintegra",
   "revisado": false,
   "terminado": false,

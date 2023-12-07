@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "OSCAR WILLIAM FAJARDO GARCIA",
@@ -8,29 +9,43 @@
     "id": 501,
     "carpetaNumero": 501
   },
+  "demanda": {
+    "vencimientoPagare": "01/06/2021//04/10/2021",
+    "obligacion": {
+      "A": "19353965852// 4549260357738974",
+      "B": 4594260000000000
+    },
+    "capitalAdeudado": "$ 31.627.562",
+    "entregaGarantiasAbogado": "9/10/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 01316",
+    "llaveProceso": "11001400305520180131600",
+    "etapaProcesal": "11001400305520180131600",
+    "fechaPresentacion": "LIQUIDACIÓN",
+    "mandamientoPago": "17/10/2018",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "SI",
+        "resultado": "17/12/2019"
+      },
+      "292": {
+        "fechaAporta": "POSITIVO"
+      },
+      "certimail": "11/09/2019",
+      "fisico": "NO",
+      "autoNotificado": "CORREO"
+    },
+    "medidasCautelares": {
+      "medidaSolicitada": "PENDIENTE"
+    }
+  },
+  "demandas": [],
   "numero": 501,
   "llaveProceso": "11001400305520180131600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2021-01-01T05:00:00.000Z",
-      "2021-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-09-10T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "11001400305520180131600",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "19353965852// 4549260357738974",
-      4594260000000000
-    ],
-    "radicado": "2018 - 01316",
-    "expediente": "11001400305520180131600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

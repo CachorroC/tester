@@ -16,7 +16,7 @@
       "idProceso": 51542360,
       "isUltimaAct": true,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989850,
@@ -34,7 +34,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989840,
@@ -52,7 +52,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989830,
@@ -70,7 +70,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989820,
@@ -88,7 +88,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989810,
@@ -106,7 +106,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989800,
@@ -124,7 +124,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989790,
@@ -142,7 +142,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989780,
@@ -160,7 +160,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989770,
@@ -178,7 +178,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989760,
@@ -196,7 +196,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     },
     {
       "idRegActuacion": 856989750,
@@ -214,7 +214,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-03T18:16:59.706Z"
+      "createdAt": "2023-12-07T01:07:42.794Z"
     }
   ],
   "juzgados": [
@@ -224,27 +224,63 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "7/12/20149",
+    "obligacion": {
+      "A": 103083921
+    },
+    "capitalAdeudado": 12000000,
+    "entregaGarantiasAbogado": "22/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 00762",
+    "llaveProceso": "11001400307820170076200",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "28/08/2017",
+    "mandamientoPago": "31/08/2017",
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "31/08/2017",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 78,
+        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
+      },
+      "idProceso": 51542360,
+      "idConexion": 259,
+      "llaveProceso": "11001400307820170076200",
+      "fechaProceso": "2018-12-12T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-07-02T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIRO ALBERTO CARRILLO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2014-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 12000000,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        103083921
+      ],
+      "radicado": "2017 - 00762"
+    }
+  ],
   "numero": 160,
   "llaveProceso": "11001400307820170076200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2014-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 12000000,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      103083921
-    ],
-    "radicado": "2017 - 00762",
-    "expediente": "11001400307820170076200"
-  },
   "fecha": "2019-07-02T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 856989860,

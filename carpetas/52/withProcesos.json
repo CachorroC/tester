@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "HECTOR MANUEL MANJARRES VEGA",
@@ -8,28 +9,36 @@
     "id": 52,
     "carpetaNumero": 52
   },
+  "demanda": {
+    "vencimientoPagare": "18/01/2031",
+    "obligacion": {
+      "A": "320 160226",
+      "B": "160226//377813713927961"
+    },
+    "capitalAdeudado": "$ 16.302.625",
+    "entregaGarantiasAbogado": "12/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "ZIPAQUIRA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 00256",
+    "llaveProceso": "25899400300220170025600",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "22/06/2017",
+    "mandamientoPago": "29/06/2017",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": 1086,
+        "fechaAporta": "CARRERA 7 No. 25-51 BQ/ TO 9 APTO 104 PARQUE RESIDENCIAL VILLAZO ZIPAQUIRA"
+      },
+      "certimail": "29/06/2017",
+      "fisico": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 52,
   "llaveProceso": "25899400300220170025600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2031-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "ZIPAQUIRA",
-    "obligacion": [
-      "320 160226",
-      "160226//377813713927961"
-    ],
-    "radicado": "2017 - 00256",
-    "expediente": "25899400300220170025600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

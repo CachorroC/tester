@@ -16,7 +16,7 @@
       "idProceso": 132964260,
       "isUltimaAct": true,
       "carpetaNumero": 580,
-      "createdAt": "2023-12-03T18:19:12.295Z"
+      "createdAt": "2023-12-06T22:29:35.274Z"
     },
     {
       "idRegActuacion": 1901987440,
@@ -34,7 +34,7 @@
       "idProceso": 132964260,
       "isUltimaAct": false,
       "carpetaNumero": 580,
-      "createdAt": "2023-12-03T18:19:12.295Z"
+      "createdAt": "2023-12-06T22:29:35.274Z"
     },
     {
       "idRegActuacion": 1866917490,
@@ -52,7 +52,7 @@
       "idProceso": 132964260,
       "isUltimaAct": false,
       "carpetaNumero": 580,
-      "createdAt": "2023-12-03T18:19:12.295Z"
+      "createdAt": "2023-12-06T22:29:35.274Z"
     }
   ],
   "juzgados": [
@@ -62,30 +62,60 @@
       "url": "https://www.ramajudicial.gov.cojuzgado-044-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "18/08/2026 // 4/04/2026 // 5/08/2026",
+    "obligacion": {
+      "A": 790100533,
+      "B": "790101375 Y 101380449 X T.C. AMERICAN 0377844056881358"
+    },
+    "capitalAdeudado": "$ 42.647.591",
+    "entregaGarantiasAbogado": "24/08/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 0239",
+    "llaveProceso": "11001418904420230023900"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 44,
+        "tipo": "JUZGADO 044 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-044-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      },
+      "idProceso": 132964260,
+      "idConexion": 259,
+      "llaveProceso": "11001418904420230023900",
+      "fechaProceso": "2023-09-01T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-10-11T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: IGNACIO GALEANO ALVARADO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        790100533,
+        "790101375 Y 101380449 X T.C. AMERICAN 0377844056881358"
+      ],
+      "radicado": "2023 - 0239"
+    }
+  ],
   "numero": 580,
   "llaveProceso": "11001418904420230023900",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      790100533,
-      "790101375 Y 101380449 X T.C. AMERICAN 0377844056881358"
-    ],
-    "radicado": "2023 - 0239",
-    "expediente": "11001418904420230023900"
-  },
   "fecha": "2023-10-11T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1901987450,

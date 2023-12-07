@@ -16,7 +16,7 @@
       "idProceso": 51500810,
       "isUltimaAct": true,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-03T18:18:11.268Z"
+      "createdAt": "2023-12-07T01:08:52.755Z"
     },
     {
       "idRegActuacion": 1820436670,
@@ -34,7 +34,7 @@
       "idProceso": 51500810,
       "isUltimaAct": false,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-03T18:18:11.268Z"
+      "createdAt": "2023-12-07T01:08:52.755Z"
     },
     {
       "idRegActuacion": 1778368160,
@@ -52,7 +52,7 @@
       "idProceso": 51500810,
       "isUltimaAct": false,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-03T18:18:11.268Z"
+      "createdAt": "2023-12-07T01:08:52.755Z"
     },
     {
       "idRegActuacion": 856481100,
@@ -70,7 +70,7 @@
       "idProceso": 51500810,
       "isUltimaAct": false,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-03T18:18:11.268Z"
+      "createdAt": "2023-12-07T01:08:52.755Z"
     }
   ],
   "juzgados": [
@@ -88,28 +88,60 @@
     "id": 376,
     "carpetaNumero": 376
   },
+  "demanda": {
+    "vencimientoPagare": "29/04/2019",
+    "obligacion": {
+      "A": 118010,
+      "B": "377813183474353 // 4513074148699942 / 5491579209500691"
+    },
+    "capitalAdeudado": 27308454,
+    "entregaGarantiasAbogado": "17/01/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2018 - 00052",
+    "llaveProceso": "11001400307620180005200",
+    "etapaProcesal": "EL 22/08/2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
+    "fechaPresentacion": "22/08/2018",
+    "mandamientoPago": "18 AGOSTO SE ENVIO SOLICTUD DESARCHIVE A ARCHIVO CENTRAL"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 76,
+        "tipo": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-76-civil-municipal-de-bogota"
+      },
+      "idProceso": 51500810,
+      "idConexion": 259,
+      "llaveProceso": "11001400307620180005200",
+      "fechaProceso": "2018-11-23T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-08-11T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DORIS GARZON TALERO | Demandado: ROBERTO RICO RUIZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2019-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 27308454,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "EL 22/08/2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        118010,
+        "377813183474353 // 4513074148699942 / 5491579209500691"
+      ],
+      "radicado": "2018 - 00052"
+    }
+  ],
   "numero": 376,
   "llaveProceso": "11001400307620180005200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2019-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 27308454,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "EL 22/08/2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      118010,
-      "377813183474353 // 4513074148699942 / 5491579209500691"
-    ],
-    "radicado": "2018 - 00052",
-    "expediente": "11001400307620180005200"
-  },
   "fecha": "2023-08-11T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1842023050,

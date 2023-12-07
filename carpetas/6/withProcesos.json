@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": "MARIA CRISTINA CHAPARRO PIRAGAUTA",
@@ -8,27 +9,26 @@
     "id": 6,
     "carpetaNumero": 6
   },
+  "demanda": {
+    "vencimientoPagare": "5/09/2008",
+    "obligacion": {
+      "A": "2273 320111490"
+    },
+    "capitalAdeudado": 16313851,
+    "entregaGarantiasAbogado": "11/05/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 -00444",
+    "llaveProceso": "11001400307620170044400",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "30/05/2017"
+  },
+  "demandas": [],
   "numero": 6,
   "llaveProceso": "11001400307620170044400",
-  "demanda": {
-    "vencimientoPagare": [
-      "2008-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 16313851,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      "2273 320111490"
-    ],
-    "radicado": "2017 -00444",
-    "expediente": "11001400307620170044400"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

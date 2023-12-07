@@ -1,6 +1,24 @@
 {
   "actuaciones": [
     {
+      "idRegActuacion": 1940379920,
+      "llaveProceso": "11001400306520230124300",
+      "consActuacion": 8,
+      "fechaActuacion": "2023-12-05T05:00:00.000Z",
+      "actuacion": "Al despacho",
+      "anotacion": "Respuesta Pagador",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-05T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 8,
+      "idProceso": 132262030,
+      "isUltimaAct": true,
+      "carpetaNumero": 567,
+      "createdAt": "2023-12-06T22:29:33.408Z"
+    },
+    {
       "idRegActuacion": 1895380620,
       "llaveProceso": "11001400306520230124300",
       "consActuacion": 7,
@@ -12,11 +30,11 @@
       "fechaRegistro": "2023-10-05T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 8,
       "idProceso": 132262030,
-      "isUltimaAct": true,
+      "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-03T18:19:08.711Z"
+      "createdAt": "2023-12-06T22:29:33.408Z"
     },
     {
       "idRegActuacion": 1865710460,
@@ -30,11 +48,11 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-03T18:19:08.711Z"
+      "createdAt": "2023-12-06T22:29:33.408Z"
     },
     {
       "idRegActuacion": 1865710450,
@@ -48,11 +66,11 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-03T18:19:08.711Z"
+      "createdAt": "2023-12-06T22:29:33.408Z"
     },
     {
       "idRegActuacion": 1865654250,
@@ -66,11 +84,11 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-03T18:19:08.711Z"
+      "createdAt": "2023-12-06T22:29:33.408Z"
     },
     {
       "idRegActuacion": 1865654240,
@@ -84,11 +102,11 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-03T18:19:08.711Z"
+      "createdAt": "2023-12-06T22:29:33.408Z"
     },
     {
       "idRegActuacion": 1845938400,
@@ -102,11 +120,11 @@
       "fechaRegistro": "2023-08-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-03T18:19:08.711Z"
+      "createdAt": "2023-12-06T22:29:33.408Z"
     },
     {
       "idRegActuacion": 1840889670,
@@ -120,11 +138,11 @@
       "fechaRegistro": "2023-08-10T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-03T18:19:08.711Z"
+      "createdAt": "2023-12-06T22:29:33.408Z"
     }
   ],
   "juzgados": [
@@ -134,41 +152,70 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "2/08/2027",
+    "obligacion": {
+      "A": 1000094307
+    },
+    "capitalAdeudado": "$ 19.188.290",
+    "entregaGarantiasAbogado": "26/07/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 01284",
+    "llaveProceso": "11001400306520230124300"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 65,
+        "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
+      },
+      "idProceso": 132262030,
+      "idConexion": 260,
+      "llaveProceso": "11001400306520230124300",
+      "fechaProceso": "2023-08-10T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-05T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JOHAN ANDRES QUIROGA GALEANO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2027-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        1000094307
+      ],
+      "radicado": "2023 - 01284"
+    }
+  ],
   "numero": 567,
   "llaveProceso": "11001400306520230124300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2027-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      1000094307
-    ],
-    "radicado": "2023 - 01284",
-    "expediente": "11001400306520230124300"
-  },
-  "fecha": "2023-09-20T05:00:00.000Z",
+  "fecha": "2023-12-05T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1895380620,
+    "idRegActuacion": 1940379920,
     "llaveProceso": "11001400306520230124300",
-    "consActuacion": 7,
-    "fechaActuacion": "2023-09-20T00:00:00",
-    "actuacion": "Elaboración de oficios",
-    "anotacion": null,
+    "consActuacion": 8,
+    "fechaActuacion": "2023-12-05T00:00:00",
+    "actuacion": "Al despacho",
+    "anotacion": "Respuesta Pagador",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-10-05T00:00:00",
+    "fechaRegistro": "2023-12-05T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 7,
+    "cant": 8,
     "idProceso": 132262030,
     "isUltimaAct": true
   },
@@ -199,7 +246,7 @@
       "idConexion": 260,
       "llaveProceso": "11001400306520230124300",
       "fechaProceso": "2023-08-10T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-09-20T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-05T05:00:00.000Z",
       "despacho": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JOHAN ANDRES QUIROGA GALEANO ",

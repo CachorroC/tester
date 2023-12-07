@@ -1,4 +1,5 @@
 {
+  "actuaciones": null,
   "juzgados": [],
   "codeudor": {
     "nombre": null,
@@ -8,25 +9,33 @@
     "id": 421,
     "carpetaNumero": 421
   },
+  "demanda": {
+    "obligacion": {
+      "A": 4099840000000000
+    },
+    "capitalAdeudado": "13.704.853",
+    "entregaGarantiasAbogado": "24/04/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2018 - 00617",
+    "llaveProceso": "11001400307520180061700",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": "27/04/2018",
+    "mandamientoPago": "11/05/2018",
+    "notificacion": {
+      "tipo": "CERTIMAIL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "11/05/2018",
+      "medidaSolicitada": "VEHICULO"
+    }
+  },
+  "demandas": [],
   "numero": 421,
   "llaveProceso": "11001400307520180061700",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 13704853,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-11-05T05:00:00.000Z",
-    "etapaProcesal": "LIQUIDACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4099840000000000
-    ],
-    "radicado": "2018 - 00617",
-    "expediente": "11001400307520180061700"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -1,7 +1,7 @@
 import { Juzgado, Category, TipoProceso, Prisma, PrismaClient, Codeudor } from '@prisma/client';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
 import { intActuacion, ConsultaActuacion } from '../types/actuaciones';
-import { IntCarpeta, CarpetaRaw, IntDemanda, IntDeudor } from '../types/carpetas';
+import { IntCarpeta, CarpetaRaw, IntDemanda, IntDeudor, DemandaRaw } from '../types/carpetas';
 import { intProceso, ConsultaNumeroRadicacion } from '../types/procesos';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
@@ -15,16 +15,33 @@ const client = new PrismaClient(
 );
 
 export class CarpetaBuilder implements IntCarpeta {
-  actuaciones?: { carpetaNumero: number | null; isUltimaAct: boolean; createdAt: Date; idRegActuacion: number; llaveProceso: string; consActuacion: number; fechaActuacion: Date; actuacion: string; anotacion: string | null; fechaInicial: Date | null; fechaRegistro: Date; fechaFinal: Date | null; codRegla: string; conDocumentos: boolean; cant: number; idProceso: number; }[];
-  juzgados?: Juzgado[];
-  codeudor: Codeudor| undefined;
-
+  actuaciones: { carpetaNumero: number | null; isUltimaAct: boolean; createdAt: Date; idRegActuacion: number; llaveProceso: string; consActuacion: number; fechaActuacion: Date; actuacion: string; anotacion: string | null; fechaInicial: Date | null; fechaRegistro: Date; fechaFinal: Date | null; codRegla: string; conDocumentos: boolean; cant: number; idProceso: number; }[] | null;
+  juzgados: Juzgado[] | null;
+  codeudor: Codeudor | null;
+  demanda: DemandaRaw;
+  demandas: IntDemanda[];
+  numero: number;
+  llaveProceso: string;
+  fecha: Date | null;
+  ultimaActuacion: intActuacion | null;
+  category: Category;
+  revisado: boolean;
+  terminado: boolean;
+  tipoProceso: TipoProceso;
+  deudor: IntDeudor;
+  cc: number;
+  procesos: intProceso[] | null;
+  idProcesos: number[] ;
+  nombre: string;
 
   constructor (
     {
       numero, deudor, category, codeudor, demanda
     }: CarpetaRaw
   ) {
+    const newDemanda = new ClassDemanda(
+      demanda, numero
+    );
     this.numero = numero;
     this.nombre = deudor.nombre;
     this.category = category;
@@ -56,7 +73,7 @@ export class CarpetaBuilder implements IntCarpeta {
           id           : this.numero,
           carpetaNumero: this.numero
         }
-      : undefined;
+      : null;
     this.tipoProceso = demanda.tipoProceso
       ? tipoProcesoBuilder(
         demanda.tipoProceso
@@ -65,31 +82,24 @@ export class CarpetaBuilder implements IntCarpeta {
     this.deudor = new ClassDeudor(
       deudor
     );
-    this.demanda = new ClassDemanda(
-      demanda
-    );
+    this.demanda = demanda;
+    this.demandas = [
+      newDemanda
+    ];
     this.terminado = category === 'Terminados'
       ? true
       : false;
     this.cc = Number(
       deudor.cedula
     );
+    this.actuaciones = null;
+    this.juzgados = null;
+    this.idProcesos = [];
+    this.procesos = null;
+    this.ultimaActuacion = null;
+    this.fecha = null;
     this.llaveProceso = demanda.llaveProceso;
   }
-  numero: number;
-  llaveProceso: string;
-  demanda: IntDemanda;
-  fecha?: Date;
-  ultimaActuacion?: intActuacion;
-  category: Category;
-  revisado: boolean;
-  terminado: boolean;
-  tipoProceso: TipoProceso;
-  deudor: IntDeudor;
-  cc: number;
-  procesos?: intProceso[];
-  idProcesos?: number[];
-  nombre: string;
   set _llaveProceso (
     expediente: string
   ) {
@@ -161,6 +171,15 @@ export class CarpetaBuilder implements IntCarpeta {
         ) => {
           return new NewJuzgado(
             proceso
+          );
+        }
+      );
+      this.demandas = procesos.map(
+        (
+          proceso
+        ) => {
+          return new ClassDemanda(
+            this.demanda, this.numero, proceso
           );
         }
       );
@@ -261,6 +280,7 @@ export class CarpetaBuilder implements IntCarpeta {
                 ? true
                 : false
             };
+
           }
 
           actuaciones.forEach(
@@ -324,412 +344,116 @@ export class CarpetaBuilder implements IntCarpeta {
     }
   }
   async createPrismaCarpeta () {
-    try {
-      const procesosBuilder = this.procesos;
 
-      const prismaCarpetaPlain: Prisma.CarpetaCreateInput = {
-        numero      : this.numero,
-        llaveProceso: this.llaveProceso,
-        nombre      : this.nombre,
-        codeudor    : this.codeudor
-          ? {
-              connectOrCreate: {
-                where: {
-                  id: this.numero
-                },
-                create: {
-                  nombre: this.codeudor.nombre
-                    ? String(
-                      this.codeudor.nombre
-                    )
-                    : null,
-                  direccion: this.codeudor.direccion
-                    ? String(
-                      this.codeudor.direccion
-                    )
-                    : null,
-                  telefono: this.codeudor.telefono
-                    ? String(
-                      this.codeudor.telefono
-                    )
-                    : null,
-                  cedula: this.codeudor.cedula
-                    ? String(
-                      this.codeudor.cedula
-                    )
-                    : null,
-                  id: this.numero
-                }
-              }
-            }
-          : undefined,
-        category   : this.category,
-        tipoProceso: this.tipoProceso,
-        idProcesos : this.idProcesos,
-        revisado   : ( this.category === 'Terminados' )
-          ? true
-          : false,
-        terminado: ( this.category === 'Terminados' )
-          ? true
-          : false,
-        demanda: {
-          connectOrCreate: {
-            where: {
-              carpetaNumero: this.numero
-            },
-            create: new PrismaDemanda(
-              this
-            )
-          }
+    const procesosBuilder = this.procesos;
+    let prismaDemandas;
+
+    if ( !procesosBuilder || procesosBuilder.length === 0 ) {
+
+      prismaDemandas = {
+        where: {
+          idProceso: this.numero,
         },
-        deudor: {
-          connectOrCreate: {
-            where: {
-              carpetaNumero: this.numero
-            },
-            create: new PrismaDeudor(
-              this
-            )
-          }
-        }
+        create: new PrismaDemanda(
+          this,
+        ),
       };
 
-      if ( !procesosBuilder || procesosBuilder.length === 0 ) {
-        return await client.carpeta.upsert(
-          {
-            where: {
-              numero: this.numero,
-            },
-            create: prismaCarpetaPlain,
-            update: prismaCarpetaPlain,
-          }
-        );
-      }
+    } else {
 
-      const actuacionesBuilder = this.actuaciones;
-
-      if ( !actuacionesBuilder || actuacionesBuilder.length === 0 ) {
-        return await client.carpeta.upsert(
-          {
-            where: {
-              numero: this.numero,
-            },
-            create: {
-              ...prismaCarpetaPlain,
-              idProcesos: procesosBuilder.map(
-                (
-                  proceso
-                ) => {
-                  return proceso.idProceso;
-                }
-              ),
-              procesos: {
-                connectOrCreate: procesosBuilder.map(
-                  (
-                    proceso
-                  ) => {
-                    return {
-                      where: {
-                        idProceso: proceso.idProceso
-                      },
-                      create: {
-                        ...proceso,
-
-                      }
-                    };
-                  }
-                )
-              },
-              juzgados: {
-                connectOrCreate: procesosBuilder.map(
-                  (
-                    proceso
-                  ) => {
-                    return {
-                      where: {
-                        tipo: proceso.despacho
-                      },
-                      create: new NewJuzgado(
-                        proceso
-                      )
-                    };
-                  }
-                )
-              }
-            },
-            update: {
-              idProcesos: procesosBuilder.map(
-                (
-                  proceso
-                ) => {
-                  return proceso.idProceso;
-                }
-              ),
-              procesos: {
-                connectOrCreate: procesosBuilder.map(
-                  (
-                    proceso
-                  ) => {
-                    return {
-                      where: {
-                        idProceso: proceso.idProceso
-                      },
-                      create: {
-                        ...proceso,
-
-                      }
-                    };
-                  }
-                )
-              },
-              juzgados: {
-                connectOrCreate: procesosBuilder.map(
-                  (
-                    proceso
-                  ) => {
-                    return {
-                      where: {
-                        tipo: proceso.despacho
-                      },
-                      create: new NewJuzgado(
-                        proceso
-                      )
-                    };
-                  }
-                )
-              }
-            },
-          }
-        );
-      }
-
-      const defUltimaAct = actuacionesBuilder.find(
+      prismaDemandas = procesosBuilder.map(
         (
-          actuacion
+          proceso
         ) => {
-          return actuacion.isUltimaAct;
-
+          return {
+            where: {
+              idProceso: proceso.idProceso
+            },
+            create: new PrismaDemanda(
+              this, proceso
+            ),
+          };
         }
       );
+    }
 
-      try {
-        await client.actuacion.createMany(
-          {
-            data: actuacionesBuilder.map(
-              (
-                actuacion
-              ) => {
-                return {
-                  ...actuacion,
-                  fechaActuacion: new Date(
-                    actuacion.fechaActuacion
-                  ),
-                  fechaRegistro: new Date(
-                    actuacion.fechaRegistro
-                  ),
-                  fechaFinal: actuacion.fechaFinal
-                    ? new Date(
-                      actuacion.fechaFinal
-                    )
-                    : null,
-                  fechaInicial: actuacion.fechaInicial
-                    ? new Date(
-                      actuacion.fechaInicial
-                    )
-                    : null,
-                  idProceso  : actuacion.idProceso,
-                  isUltimaAct: actuacion.cant === actuacion.consActuacion
-                    ? true
-                    : false
-                };
+    const prismaCarpetaPlain: Prisma.CarpetaCreateInput = {
+      numero      : this.numero,
+      llaveProceso: this.llaveProceso,
+      nombre      : this.nombre,
+      codeudor    : this.codeudor
+        ? {
+            connectOrCreate: {
+              where: {
+                id: this.numero
+              },
+              create: {
+                nombre: this.codeudor.nombre
+                  ? String(
+                    this.codeudor.nombre
+                  )
+                  : null,
+                direccion: this.codeudor.direccion
+                  ? String(
+                    this.codeudor.direccion
+                  )
+                  : null,
+                telefono: this.codeudor.telefono
+                  ? String(
+                    this.codeudor.telefono
+                  )
+                  : null,
+                cedula: this.codeudor.cedula
+                  ? String(
+                    this.codeudor.cedula
+                  )
+                  : null,
+                id: this.numero
               }
-            )
+            }
           }
-        );
-      } catch ( error ) {
-        console.log(
-          error
-        );
+        : undefined,
+      category   : this.category,
+      tipoProceso: this.tipoProceso,
+      idProcesos : this.idProcesos
+        ? this.idProcesos
+        : undefined,
+      revisado: ( this.category === 'Terminados' )
+        ? true
+        : false,
+      terminado: ( this.category === 'Terminados' )
+        ? true
+        : false,
+      demandas: {
+        connectOrCreate: prismaDemandas
+      },
+      deudor: {
+        connectOrCreate: {
+          where: {
+            carpetaNumero: this.numero
+          },
+          create: new PrismaDeudor(
+            this
+          )
+        }
       }
+    };
 
-      if ( defUltimaAct ) {
-        return await client.carpeta.upsert(
-          {
-            where: {
-              numero: this.numero,
-            },
-            create: {
-              ...prismaCarpetaPlain,
-              idProcesos: procesosBuilder.map(
-                (
-                  proceso
-                ) => {
-                  return proceso.idProceso;
-                }
-              ),
-              procesos: {
-                connectOrCreate: procesosBuilder.map(
-                  (
-                    proceso
-                  ) => {
-                    return {
-                      where: {
-                        idProceso: proceso.idProceso
-                      },
-                      create: {
-                        ...proceso,
-                        fechaProceso: proceso.fechaProceso
-                          ? new Date(
-                            proceso.fechaProceso
-                          )
-                          : null,
-                        fechaUltimaActuacion: proceso.fechaUltimaActuacion
-                          ? new Date(
-                            proceso.fechaUltimaActuacion
-                          )
-                          : null
-                      }
-                    };
-                  }
-                )
-              },
-              juzgados: {
-                connectOrCreate: procesosBuilder.map(
-                  (
-                    proceso
-                  ) => {
-                    return {
-                      where: {
-                        tipo: proceso.despacho
-                      },
-                      create: new NewJuzgado(
-                        proceso
-                      )
-                    };
-                  }
-                )
-              },
-              ultimaActuacion: {
-                connectOrCreate: {
-                  where: {
-                    idRegActuacion: defUltimaAct.idRegActuacion
-                  },
-                  create: {
-                    ...defUltimaAct,
-                    fechaActuacion: new Date(
-                      defUltimaAct.fechaActuacion
-                    ),
-                    fechaRegistro: new Date(
-                      defUltimaAct.fechaRegistro
-                    ),
-                    fechaFinal: defUltimaAct.fechaFinal
-                      ? new Date(
-                        defUltimaAct.fechaFinal
-                      )
-                      : null,
-                    fechaInicial: defUltimaAct.fechaInicial
-                      ? new Date(
-                        defUltimaAct.fechaInicial
-                      )
-                      : null,
-                    idProceso  : defUltimaAct.idProceso,
-                    isUltimaAct: defUltimaAct.cant === defUltimaAct.consActuacion
-                      ? true
-                      : false
-                  }
-                }
-              },
-              fecha: new Date(
-                defUltimaAct.fechaActuacion
-              )
-            },
-            update: {
-              idProcesos: procesosBuilder.map(
-                (
-                  proceso
-                ) => {
-                  return proceso.idProceso;
-                }
-              ),
-              procesos: {
-                connectOrCreate: procesosBuilder.map(
-                  (
-                    proceso
-                  ) => {
-                    return {
-                      where: {
-                        idProceso: proceso.idProceso
-                      },
-                      create: {
-                        ...proceso,
+    if ( !procesosBuilder || procesosBuilder.length === 0 ) {
+      return await client.carpeta.upsert(
+        {
+          where: {
+            numero: this.numero,
+          },
+          create: prismaCarpetaPlain,
+          update: prismaCarpetaPlain,
+        }
+      );
+    }
 
-                        fechaProceso: proceso.fechaProceso
-                          ? new Date(
-                            proceso.fechaProceso
-                          )
-                          : null,
-                        fechaUltimaActuacion: proceso.fechaUltimaActuacion
-                          ? new Date(
-                            proceso.fechaUltimaActuacion
-                          )
-                          : null
-                      }
-                    };
-                  }
-                )
-              },
-              juzgados: {
-                connectOrCreate: procesosBuilder.map(
-                  (
-                    proceso
-                  ) => {
-                    return {
-                      where: {
-                        tipo: proceso.despacho
-                      },
-                      create: new NewJuzgado(
-                        proceso
-                      )
-                    };
-                  }
-                )
-              },
-              ultimaActuacion: {
-                connectOrCreate: {
-                  where: {
-                    idRegActuacion: defUltimaAct.idRegActuacion
-                  },
-                  create: {
-                    ...defUltimaAct,
-                    fechaActuacion: new Date(
-                      defUltimaAct.fechaActuacion
-                    ),
-                    fechaRegistro: new Date(
-                      defUltimaAct.fechaRegistro
-                    ),
-                    fechaFinal: defUltimaAct.fechaFinal
-                      ? new Date(
-                        defUltimaAct.fechaFinal
-                      )
-                      : null,
-                    fechaInicial: defUltimaAct.fechaInicial
-                      ? new Date(
-                        defUltimaAct.fechaInicial
-                      )
-                      : null,
-                    idProceso  : defUltimaAct.idProceso,
-                    isUltimaAct: defUltimaAct.cant === defUltimaAct.consActuacion
-                      ? true
-                      : false
-                  }
-                }
-              },
-              fecha: defUltimaAct.fechaActuacion
-            },
-          }
-        );
-      }
+    const actuacionesBuilder = this.actuaciones;
 
+    if ( !actuacionesBuilder || actuacionesBuilder.length === 0 ) {
       return await client.carpeta.upsert(
         {
           where: {
@@ -756,22 +480,11 @@ export class CarpetaBuilder implements IntCarpeta {
                     create: {
                       ...proceso,
 
-                      fechaProceso: proceso.fechaProceso
-                        ? new Date(
-                          proceso.fechaProceso
-                        )
-                        : null,
-                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
-                        ? new Date(
-                          proceso.fechaUltimaActuacion
-                        )
-                        : null
                     }
                   };
                 }
               )
             },
-
             juzgados: {
               connectOrCreate: procesosBuilder.map(
                 (
@@ -788,6 +501,192 @@ export class CarpetaBuilder implements IntCarpeta {
                 }
               )
             }
+          },
+          update: {
+            idProcesos: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return proceso.idProceso;
+              }
+            ),
+            procesos: {
+              connectOrCreate: procesosBuilder.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      idProceso: proceso.idProceso
+                    },
+                    create: {
+                      ...proceso,
+
+                    }
+                  };
+                }
+              )
+            },
+            juzgados: {
+              connectOrCreate: procesosBuilder.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      tipo: proceso.despacho
+                    },
+                    create: new NewJuzgado(
+                      proceso
+                    )
+                  };
+                }
+              )
+            }
+          },
+        }
+      );
+    }
+
+    const defUltimaAct = actuacionesBuilder.find(
+      (
+        actuacion
+      ) => {
+        return actuacion.isUltimaAct;
+
+      }
+    );
+
+    try {
+      await client.actuacion.createMany(
+        {
+          data: actuacionesBuilder.map(
+            (
+              actuacion
+            ) => {
+              return {
+                ...actuacion,
+                fechaActuacion: new Date(
+                  actuacion.fechaActuacion
+                ),
+                fechaRegistro: new Date(
+                  actuacion.fechaRegistro
+                ),
+                fechaFinal: actuacion.fechaFinal
+                  ? new Date(
+                    actuacion.fechaFinal
+                  )
+                  : null,
+                fechaInicial: actuacion.fechaInicial
+                  ? new Date(
+                    actuacion.fechaInicial
+                  )
+                  : null,
+                idProceso  : actuacion.idProceso,
+                isUltimaAct: actuacion.cant === actuacion.consActuacion
+                  ? true
+                  : false
+              };
+            }
+          )
+        }
+      );
+    } catch ( error ) {
+      console.log(
+        error
+      );
+    }
+
+    if ( defUltimaAct ) {
+      return await client.carpeta.upsert(
+        {
+          where: {
+            numero: this.numero,
+          },
+          create: {
+            ...prismaCarpetaPlain,
+            idProcesos: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return proceso.idProceso;
+              }
+            ),
+            procesos: {
+              connectOrCreate: procesosBuilder.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      idProceso: proceso.idProceso
+                    },
+                    create: {
+                      ...proceso,
+                      fechaProceso: proceso.fechaProceso
+                        ? new Date(
+                          proceso.fechaProceso
+                        )
+                        : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        ? new Date(
+                          proceso.fechaUltimaActuacion
+                        )
+                        : null
+                    }
+                  };
+                }
+              )
+            },
+            juzgados: {
+              connectOrCreate: procesosBuilder.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      tipo: proceso.despacho
+                    },
+                    create: new NewJuzgado(
+                      proceso
+                    )
+                  };
+                }
+              )
+            },
+            ultimaActuacion: {
+              connectOrCreate: {
+                where: {
+                  idRegActuacion: defUltimaAct.idRegActuacion
+                },
+                create: {
+                  ...defUltimaAct,
+                  fechaActuacion: new Date(
+                    defUltimaAct.fechaActuacion
+                  ),
+                  fechaRegistro: new Date(
+                    defUltimaAct.fechaRegistro
+                  ),
+                  fechaFinal: defUltimaAct.fechaFinal
+                    ? new Date(
+                      defUltimaAct.fechaFinal
+                    )
+                    : null,
+                  fechaInicial: defUltimaAct.fechaInicial
+                    ? new Date(
+                      defUltimaAct.fechaInicial
+                    )
+                    : null,
+                  idProceso  : defUltimaAct.idProceso,
+                  isUltimaAct: defUltimaAct.cant === defUltimaAct.consActuacion
+                    ? true
+                    : false
+                }
+              }
+            },
+            fecha: new Date(
+              defUltimaAct.fechaActuacion
+            )
           },
           update: {
             idProcesos: procesosBuilder.map(
@@ -839,17 +738,158 @@ export class CarpetaBuilder implements IntCarpeta {
                   };
                 }
               )
-            }
+            },
+            ultimaActuacion: {
+              connectOrCreate: {
+                where: {
+                  idRegActuacion: defUltimaAct.idRegActuacion
+                },
+                create: {
+                  ...defUltimaAct,
+                  fechaActuacion: new Date(
+                    defUltimaAct.fechaActuacion
+                  ),
+                  fechaRegistro: new Date(
+                    defUltimaAct.fechaRegistro
+                  ),
+                  fechaFinal: defUltimaAct.fechaFinal
+                    ? new Date(
+                      defUltimaAct.fechaFinal
+                    )
+                    : null,
+                  fechaInicial: defUltimaAct.fechaInicial
+                    ? new Date(
+                      defUltimaAct.fechaInicial
+                    )
+                    : null,
+                  idProceso  : defUltimaAct.idProceso,
+                  isUltimaAct: defUltimaAct.cant === defUltimaAct.consActuacion
+                    ? true
+                    : false
+                }
+              }
+            },
+            fecha: defUltimaAct.fechaActuacion
           },
         }
-
       );
-    } catch ( error ) {
-      console.log(
-        `${ this.numero } => error at CarpetaBuilder.createPrismaCarpeta(${ this.numero })=> ${ error }`,
-      );
-      return null;
     }
+
+    return await client.carpeta.upsert(
+      {
+        where: {
+          numero: this.numero,
+        },
+        create: {
+          ...prismaCarpetaPlain,
+          idProcesos: procesosBuilder.map(
+            (
+              proceso
+            ) => {
+              return proceso.idProceso;
+            }
+          ),
+          procesos: {
+            connectOrCreate: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return {
+                  where: {
+                    idProceso: proceso.idProceso
+                  },
+                  create: {
+                    ...proceso,
+
+                    fechaProceso: proceso.fechaProceso
+                      ? new Date(
+                        proceso.fechaProceso
+                      )
+                      : null,
+                    fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                      ? new Date(
+                        proceso.fechaUltimaActuacion
+                      )
+                      : null
+                  }
+                };
+              }
+            )
+          },
+
+          juzgados: {
+            connectOrCreate: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return {
+                  where: {
+                    tipo: proceso.despacho
+                  },
+                  create: new NewJuzgado(
+                    proceso
+                  )
+                };
+              }
+            )
+          }
+        },
+        update: {
+          idProcesos: procesosBuilder.map(
+            (
+              proceso
+            ) => {
+              return proceso.idProceso;
+            }
+          ),
+          procesos: {
+            connectOrCreate: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return {
+                  where: {
+                    idProceso: proceso.idProceso
+                  },
+                  create: {
+                    ...proceso,
+
+                    fechaProceso: proceso.fechaProceso
+                      ? new Date(
+                        proceso.fechaProceso
+                      )
+                      : null,
+                    fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                      ? new Date(
+                        proceso.fechaUltimaActuacion
+                      )
+                      : null
+                  }
+                };
+              }
+            )
+          },
+          juzgados: {
+            connectOrCreate: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return {
+                  where: {
+                    tipo: proceso.despacho
+                  },
+                  create: new NewJuzgado(
+                    proceso
+                  )
+                };
+              }
+            )
+          }
+        },
+      }
+
+    );
+
   }
   async updatePrismaCarpetawithProcesos () {
     try {
@@ -893,6 +933,39 @@ export class CarpetaBuilder implements IntCarpeta {
             };
           }
         );
+
+      let prismaDemandas;
+
+      if (
+        !this.procesos
+        ||this.procesos.length === 0
+      ) {
+        prismaDemandas = this.procesos.map(
+          (
+            proceso
+          ) => {
+            return {
+              where: {
+                idProceso: proceso.idProceso
+              },
+              create: new PrismaDemanda(
+                this,
+                proceso
+              ),
+            };
+          }
+        );
+      } else {
+        prismaDemandas = {
+          where: {
+            idProceso: this.numero,
+          },
+          create: new PrismaDemanda(
+            this
+          ),
+        };
+      }
+
       return await client.carpeta.upsert(
         {
           where: {
@@ -917,15 +990,8 @@ export class CarpetaBuilder implements IntCarpeta {
             terminado: this.category === 'Terminados'
               ? true
               : false,
-            demanda: {
-              connectOrCreate: {
-                where: {
-                  carpetaNumero: this.numero,
-                },
-                create: new PrismaDemanda(
-                  this
-                ),
-              },
+            demandas: {
+              connectOrCreate: prismaDemandas
             },
             deudor: {
               connectOrCreate: {

@@ -7,28 +7,67 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "11/08/2017",
+    "obligacion": {
+      "A": 12730731,
+      "B": "377813515714351."
+    },
+    "capitalAdeudado": "377813515714351 // 4513084893961108",
+    "entregaGarantiasAbogado": "17/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 00826",
+    "llaveProceso": "11001400308620170082600",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "22/08/2017",
+    "mandamientoPago": "11/12/2017",
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "11/12/2017",
+      "medidaSolicitada": "VEHICULO"
+    }
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 86,
+        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
+      },
+      "idProceso": 81888371,
+      "idConexion": 320,
+      "llaveProceso": "11001400308620170082600",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "PRENDARIO",
+      "mandamientoPago": "2017-11-12T05:00:00.000Z",
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12730731,
+        "377813515714351."
+      ],
+      "radicado": "2017 - 00826"
+    }
+  ],
   "numero": 146,
   "llaveProceso": "11001400308620170082600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": "2017-11-12T05:00:00.000Z",
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12730731,
-      "377813515714351."
-    ],
-    "radicado": "2017 - 00826",
-    "expediente": "11001400308620170082600"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

@@ -16,7 +16,7 @@
       "idProceso": 132240890,
       "isUltimaAct": true,
       "carpetaNumero": 570,
-      "createdAt": "2023-12-03T18:19:09.687Z"
+      "createdAt": "2023-12-06T22:29:33.954Z"
     },
     {
       "idRegActuacion": 1880990350,
@@ -34,7 +34,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-12-03T18:19:09.687Z"
+      "createdAt": "2023-12-06T22:29:33.954Z"
     },
     {
       "idRegActuacion": 1880990340,
@@ -52,7 +52,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-12-03T18:19:09.687Z"
+      "createdAt": "2023-12-06T22:29:33.954Z"
     },
     {
       "idRegActuacion": 1880990330,
@@ -70,7 +70,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-12-03T18:19:09.687Z"
+      "createdAt": "2023-12-06T22:29:33.954Z"
     },
     {
       "idRegActuacion": 1841783240,
@@ -88,7 +88,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-12-03T18:19:09.687Z"
+      "createdAt": "2023-12-06T22:29:33.954Z"
     },
     {
       "idRegActuacion": 1840069600,
@@ -106,7 +106,7 @@
       "idProceso": 132240890,
       "isUltimaAct": false,
       "carpetaNumero": 570,
-      "createdAt": "2023-12-03T18:19:09.687Z"
+      "createdAt": "2023-12-06T22:29:33.954Z"
     }
   ],
   "juzgados": [
@@ -116,27 +116,56 @@
       "url": "https://www.ramajudicial.gov.cojuzgado-075-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "18/03/2026",
+    "obligacion": {
+      "A": 3990086952
+    },
+    "capitalAdeudado": "$ 19.170.517",
+    "entregaGarantiasAbogado": "4/08/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 01465",
+    "llaveProceso": "11001418907520230016700"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 75,
+        "tipo": "JUZGADO 075 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-075-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      },
+      "idProceso": 132240890,
+      "idConexion": 259,
+      "llaveProceso": "11001418907520230016700",
+      "fechaProceso": "2023-08-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-09-22T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA PATRICIA SILVARA RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        3990086952
+      ],
+      "radicado": "2023 - 01465"
+    }
+  ],
   "numero": 570,
   "llaveProceso": "11001418907520230016700",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      3990086952
-    ],
-    "radicado": "2023 - 01465",
-    "expediente": "11001418907520230016700"
-  },
   "fecha": "2023-09-22T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1880990360,

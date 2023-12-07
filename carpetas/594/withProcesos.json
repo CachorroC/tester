@@ -16,7 +16,7 @@
       "idProceso": 134565110,
       "isUltimaAct": true,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-03T18:19:16.177Z"
+      "createdAt": "2023-12-06T22:29:37.296Z"
     },
     {
       "idRegActuacion": 1928574000,
@@ -34,7 +34,7 @@
       "idProceso": 134565110,
       "isUltimaAct": false,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-03T18:19:16.177Z"
+      "createdAt": "2023-12-06T22:29:37.296Z"
     },
     {
       "idRegActuacion": 1934776140,
@@ -52,7 +52,7 @@
       "idProceso": 134565110,
       "isUltimaAct": false,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-03T18:19:16.177Z"
+      "createdAt": "2023-12-06T22:29:37.296Z"
     },
     {
       "idRegActuacion": 1926315320,
@@ -70,7 +70,7 @@
       "idProceso": 134565110,
       "isUltimaAct": false,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-03T18:19:16.177Z"
+      "createdAt": "2023-12-06T22:29:37.296Z"
     },
     {
       "idRegActuacion": 1926315310,
@@ -88,7 +88,7 @@
       "idProceso": 134565110,
       "isUltimaAct": false,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-03T18:19:16.177Z"
+      "createdAt": "2023-12-06T22:29:37.296Z"
     }
   ],
   "juzgados": [
@@ -98,27 +98,56 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "4/06/2026",
+    "obligacion": {
+      "A": 2250087454
+    },
+    "capitalAdeudado": "$ 65.371.302",
+    "entregaGarantiasAbogado": "20/10/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "radicado": "2023-1065",
+    "llaveProceso": "11001400303420230106500",
+    "etapaProcesal": "11001400303420230106500"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 34,
+        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
+      },
+      "idProceso": 134565110,
+      "idConexion": 259,
+      "llaveProceso": "11001400303420230106500",
+      "fechaProceso": "2023-11-02T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-09T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA MAGNOLIA CAMPOS ROBLES ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": "11001400303420230106500",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        2250087454
+      ],
+      "radicado": "2023-1065"
+    }
+  ],
   "numero": 594,
   "llaveProceso": "11001400303420230106500",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "11001400303420230106500",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      2250087454
-    ],
-    "radicado": "2023-1065",
-    "expediente": "11001400303420230106500"
-  },
   "fecha": "2023-11-09T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1928574010,

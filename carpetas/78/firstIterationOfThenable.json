@@ -16,7 +16,7 @@
       "idProceso": 17942390,
       "isUltimaAct": true,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-03T18:16:35.571Z"
+      "createdAt": "2023-12-07T01:07:23.949Z"
     },
     {
       "idRegActuacion": 265691560,
@@ -34,7 +34,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-03T18:16:35.571Z"
+      "createdAt": "2023-12-07T01:07:23.949Z"
     },
     {
       "idRegActuacion": 265691550,
@@ -52,7 +52,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-03T18:16:35.571Z"
+      "createdAt": "2023-12-07T01:07:23.949Z"
     },
     {
       "idRegActuacion": 265691540,
@@ -70,7 +70,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-03T18:16:35.571Z"
+      "createdAt": "2023-12-07T01:07:23.949Z"
     },
     {
       "idRegActuacion": 265691530,
@@ -88,7 +88,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-03T18:16:35.571Z"
+      "createdAt": "2023-12-07T01:07:23.949Z"
     },
     {
       "idRegActuacion": 265691520,
@@ -106,7 +106,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-03T18:16:35.571Z"
+      "createdAt": "2023-12-07T01:07:23.949Z"
     },
     {
       "idRegActuacion": 265691510,
@@ -124,7 +124,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-03T18:16:35.571Z"
+      "createdAt": "2023-12-07T01:07:23.949Z"
     }
   ],
   "juzgados": [
@@ -134,29 +134,61 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "05/07/2016 // 16/04/16",
+    "obligacion": {
+      "A": 5303729451744848,
+      "B": "0377816394649010"
+    },
+    "capitalAdeudado": 11590469,
+    "entregaGarantiasAbogado": "12/06/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 01231",
+    "llaveProceso": "11001400306420170123100",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "20/06/2017"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 64,
+        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
+      },
+      "idProceso": 17942390,
+      "idConexion": 260,
+      "llaveProceso": "11001400306420170123100",
+      "fechaProceso": "2017-09-08T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-11-28T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIME EDISSON SANTOS MARTIN ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2016-01-01T05:00:00.000Z",
+        "2015-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 11590469,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": "ADMISION",
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        5303729451744848,
+        "0377816394649010"
+      ],
+      "radicado": "2017 - 01231"
+    }
+  ],
   "numero": 78,
   "llaveProceso": "11001400306420170123100",
-  "demanda": {
-    "vencimientoPagare": [
-      "2016-01-01T05:00:00.000Z",
-      "2015-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 11590469,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      5303729451744848,
-      "0377816394649010"
-    ],
-    "radicado": "2017 - 01231",
-    "expediente": "11001400306420170123100"
-  },
   "fecha": "2017-11-28T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 265691570,

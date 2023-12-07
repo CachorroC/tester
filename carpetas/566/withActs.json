@@ -16,7 +16,7 @@
       "idProceso": 132041720,
       "isUltimaAct": true,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     },
     {
       "idRegActuacion": 1936125110,
@@ -34,7 +34,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     },
     {
       "idRegActuacion": 1864324160,
@@ -52,7 +52,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     },
     {
       "idRegActuacion": 1860397620,
@@ -70,7 +70,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     },
     {
       "idRegActuacion": 1850795720,
@@ -88,7 +88,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     },
     {
       "idRegActuacion": 1850795710,
@@ -106,7 +106,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     },
     {
       "idRegActuacion": 1850795700,
@@ -124,7 +124,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     },
     {
       "idRegActuacion": 1850795690,
@@ -142,7 +142,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     },
     {
       "idRegActuacion": 1832542990,
@@ -160,7 +160,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     },
     {
       "idRegActuacion": 1832542980,
@@ -178,7 +178,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-03T18:19:08.366Z"
+      "createdAt": "2023-12-06T22:29:33.148Z"
     }
   ],
   "juzgados": [
@@ -188,27 +188,56 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-69-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "28/02/2026",
+    "obligacion": {
+      "A": 6620091753
+    },
+    "capitalAdeudado": "$ 19.218.060",
+    "entregaGarantiasAbogado": "26/07/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 01243",
+    "llaveProceso": "11001400306920230127300"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 69,
+        "tipo": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-69-civil-municipal-de-bogota"
+      },
+      "idProceso": 132041720,
+      "idConexion": 262,
+      "llaveProceso": "11001400306920230127300",
+      "fechaProceso": "2023-08-03T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-23T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: SANDRA MILENA PALACIO RIVERA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": null,
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        6620091753
+      ],
+      "radicado": "2023 - 01243"
+    }
+  ],
   "numero": 566,
   "llaveProceso": "11001400306920230127300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      6620091753
-    ],
-    "radicado": "2023 - 01243",
-    "expediente": "11001400306920230127300"
-  },
   "fecha": "2023-11-23T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1937131740,

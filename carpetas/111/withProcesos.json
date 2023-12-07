@@ -16,7 +16,7 @@
       "idProceso": 12251233,
       "isUltimaAct": true,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474773,
@@ -34,7 +34,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474763,
@@ -52,7 +52,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474863,
@@ -70,7 +70,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474853,
@@ -88,7 +88,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474843,
@@ -106,7 +106,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474833,
@@ -124,7 +124,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474823,
@@ -142,7 +142,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474813,
@@ -160,7 +160,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474803,
@@ -178,7 +178,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474793,
@@ -196,7 +196,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     },
     {
       "idRegActuacion": 159474753,
@@ -214,7 +214,7 @@
       "idProceso": 12251233,
       "isUltimaAct": false,
       "carpetaNumero": 111,
-      "createdAt": "2023-12-03T18:16:46.142Z"
+      "createdAt": "2023-12-07T01:07:30.813Z"
     }
   ],
   "juzgados": [
@@ -224,27 +224,57 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-054-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "26/07/2017",
+    "obligacion": {
+      "A": 12156526
+    },
+    "capitalAdeudado": "$ 12.433.690",
+    "entregaGarantiasAbogado": "1/08/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "PRENDARIO",
+    "radicado": "2017 - 00712",
+    "llaveProceso": "11001400305420170071200",
+    "fechaPresentacion": "8/08/2017"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 54,
+        "tipo": "JUZGADO 054 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-054-civil-municipal-de-bogota"
+      },
+      "idProceso": 12251233,
+      "idConexion": 261,
+      "llaveProceso": "11001400305420170071200",
+      "fechaProceso": "2017-08-11T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-11-15T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: KAREN VIVIANA CASTAÑO CORONADO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
+      "tipoProceso": "PRENDARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": "2017-08-08T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        12156526
+      ],
+      "radicado": "2017 - 00712"
+    }
+  ],
   "numero": 111,
   "llaveProceso": "11001400305420170071200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
-    "tipoProceso": "PRENDARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": "2017-08-08T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      12156526
-    ],
-    "radicado": "2017 - 00712",
-    "expediente": "11001400305420170071200"
-  },
   "fecha": "2017-11-15T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 159474783,

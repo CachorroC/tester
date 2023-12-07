@@ -16,7 +16,7 @@
       "idProceso": 134307840,
       "isUltimaAct": true,
       "carpetaNumero": 590,
-      "createdAt": "2023-12-03T18:19:15.162Z"
+      "createdAt": "2023-12-06T22:29:36.647Z"
     },
     {
       "idRegActuacion": 1928002250,
@@ -34,7 +34,7 @@
       "idProceso": 134307840,
       "isUltimaAct": false,
       "carpetaNumero": 590,
-      "createdAt": "2023-12-03T18:19:15.162Z"
+      "createdAt": "2023-12-06T22:29:36.647Z"
     },
     {
       "idRegActuacion": 1928002240,
@@ -52,7 +52,7 @@
       "idProceso": 134307840,
       "isUltimaAct": false,
       "carpetaNumero": 590,
-      "createdAt": "2023-12-03T18:19:15.162Z"
+      "createdAt": "2023-12-06T22:29:36.647Z"
     },
     {
       "idRegActuacion": 1928002230,
@@ -70,7 +70,7 @@
       "idProceso": 134307840,
       "isUltimaAct": false,
       "carpetaNumero": 590,
-      "createdAt": "2023-12-03T18:19:15.162Z"
+      "createdAt": "2023-12-06T22:29:36.647Z"
     },
     {
       "idRegActuacion": 1916791020,
@@ -88,7 +88,7 @@
       "idProceso": 134307840,
       "isUltimaAct": false,
       "carpetaNumero": 590,
-      "createdAt": "2023-12-03T18:19:15.162Z"
+      "createdAt": "2023-12-06T22:29:36.647Z"
     },
     {
       "idRegActuacion": 1916791010,
@@ -106,7 +106,7 @@
       "idProceso": 134307840,
       "isUltimaAct": false,
       "carpetaNumero": 590,
-      "createdAt": "2023-12-03T18:19:15.162Z"
+      "createdAt": "2023-12-06T22:29:36.647Z"
     }
   ],
   "juzgados": [
@@ -116,29 +116,59 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-015-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "13/12/2025  // 20/06/2026",
+    "obligacion": {
+      "A": 310149501,
+      "B": "101269167 T.C. MASTER CARD 5303730423512131"
+    },
+    "capitalAdeudado": "$ 56.478.909",
+    "entregaGarantiasAbogado": "9/10/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023-980",
+    "llaveProceso": "11001400301520230098000"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 15,
+        "tipo": "JUZGADO 015 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-015-civil-municipal-de-bogota"
+      },
+      "idProceso": 134307840,
+      "idConexion": 259,
+      "llaveProceso": "11001400301520230098000",
+      "fechaProceso": "2023-10-25T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-03T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: EDWIN JARAMILLO GALLEGO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2025-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2023-09-10T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        310149501,
+        "101269167 T.C. MASTER CARD 5303730423512131"
+      ],
+      "radicado": "2023-980"
+    }
+  ],
   "numero": 590,
   "llaveProceso": "11001400301520230098000",
-  "demanda": {
-    "vencimientoPagare": [
-      "2025-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-09-10T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      310149501,
-      "101269167 T.C. MASTER CARD 5303730423512131"
-    ],
-    "radicado": "2023-980",
-    "expediente": "11001400301520230098000"
-  },
   "fecha": "2023-11-03T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1928002260,

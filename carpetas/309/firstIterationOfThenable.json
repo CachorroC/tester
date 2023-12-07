@@ -1,27 +1,37 @@
 {
+  "actuaciones": null,
   "juzgados": [],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "22/04/2017",
+    "obligacion": {
+      "A": 4513080019699192,
+      "B": "0377815686597168"
+    },
+    "capitalAdeudado": "20.515.858.82",
+    "entregaGarantiasAbogado": "24/10/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2017 - 01613",
+    "llaveProceso": "11001400306720170161300",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": "31/10/2017",
+    "mandamientoPago": "12/03/2018",
+    "notificacion": {
+      "tipo": "CERTIMAIL",
+      "autoNotificado": 43256
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedidas": "12/03/2018",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "demandas": [],
   "numero": 309,
   "llaveProceso": "11001400306720170161300",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 2051585882,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": null,
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": "2018-12-03T05:00:00.000Z",
-    "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4513080019699192,
-      "0377815686597168"
-    ],
-    "radicado": "2017 - 01613",
-    "expediente": "11001400306720170161300"
-  },
+  "fecha": null,
+  "ultimaActuacion": null,
   "category": "Terminados",
   "revisado": true,
   "terminado": true,

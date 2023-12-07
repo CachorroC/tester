@@ -16,7 +16,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": true,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-03T18:19:10.493Z"
+      "createdAt": "2023-12-06T22:29:34.368Z"
     },
     {
       "idRegActuacion": 1127170784,
@@ -34,7 +34,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-03T18:19:10.493Z"
+      "createdAt": "2023-12-06T22:29:34.368Z"
     },
     {
       "idRegActuacion": 1125576004,
@@ -52,7 +52,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-03T18:19:10.493Z"
+      "createdAt": "2023-12-06T22:29:34.368Z"
     },
     {
       "idRegActuacion": 1122261754,
@@ -70,7 +70,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-03T18:19:10.493Z"
+      "createdAt": "2023-12-06T22:29:34.368Z"
     },
     {
       "idRegActuacion": 1122261744,
@@ -88,7 +88,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-03T18:19:10.493Z"
+      "createdAt": "2023-12-06T22:29:34.368Z"
     },
     {
       "idRegActuacion": 1122261734,
@@ -106,7 +106,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-03T18:19:10.493Z"
+      "createdAt": "2023-12-06T22:29:34.368Z"
     },
     {
       "idRegActuacion": 1122261724,
@@ -124,7 +124,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-03T18:19:10.493Z"
+      "createdAt": "2023-12-06T22:29:34.368Z"
     },
     {
       "idRegActuacion": 1121675574,
@@ -142,7 +142,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-03T18:19:10.493Z"
+      "createdAt": "2023-12-06T22:29:34.368Z"
     },
     {
       "idRegActuacion": 1121675564,
@@ -160,7 +160,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-03T18:19:10.493Z"
+      "createdAt": "2023-12-06T22:29:34.368Z"
     }
   ],
   "juzgados": [
@@ -170,29 +170,59 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "17/03/2023 // 4/08/2026",
+    "obligacion": {
+      "A": 4020084965,
+      "B": 100260717
+    },
+    "capitalAdeudado": "$ 55.099.216",
+    "entregaGarantiasAbogado": "4/08/2023",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2023 - 001310",
+    "llaveProceso": "11001400305520230074600"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 55,
+        "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
+      },
+      "idProceso": 1829856154,
+      "idConexion": 263,
+      "llaveProceso": "11001400305520230074600",
+      "fechaProceso": "2023-08-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-10T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JAIME ENRIQUE QUINTERO MENDOZA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2023-01-01T05:00:00.000Z",
+        "2026-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": null,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": null,
+      "municipio": "BOGOTA",
+      "obligacion": [
+        4020084965,
+        100260717
+      ],
+      "radicado": "2023 - 001310"
+    }
+  ],
   "numero": 573,
   "llaveProceso": "11001400305520230074600",
-  "demanda": {
-    "vencimientoPagare": [
-      "2023-01-01T05:00:00.000Z",
-      "2026-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": null,
-    "municipio": "BOGOTA",
-    "obligacion": [
-      4020084965,
-      100260717
-    ],
-    "radicado": "2023 - 001310",
-    "expediente": "11001400305520230074600"
-  },
   "fecha": "2023-11-10T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 1137554444,

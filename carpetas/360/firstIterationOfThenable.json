@@ -16,7 +16,7 @@
       "idProceso": 50915500,
       "isUltimaAct": true,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-03T18:18:06.712Z"
+      "createdAt": "2023-12-07T01:08:43.309Z"
     },
     {
       "idRegActuacion": 696659840,
@@ -34,7 +34,7 @@
       "idProceso": 50915500,
       "isUltimaAct": false,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-03T18:18:06.712Z"
+      "createdAt": "2023-12-07T01:08:43.309Z"
     },
     {
       "idRegActuacion": 696659830,
@@ -52,7 +52,7 @@
       "idProceso": 50915500,
       "isUltimaAct": false,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-03T18:18:06.712Z"
+      "createdAt": "2023-12-07T01:08:43.309Z"
     },
     {
       "idRegActuacion": 696659820,
@@ -70,7 +70,7 @@
       "idProceso": 50915500,
       "isUltimaAct": false,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-03T18:18:06.712Z"
+      "createdAt": "2023-12-07T01:08:43.309Z"
     },
     {
       "idRegActuacion": 696659810,
@@ -88,7 +88,7 @@
       "idProceso": 50915500,
       "isUltimaAct": false,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-03T18:18:06.712Z"
+      "createdAt": "2023-12-07T01:08:43.309Z"
     }
   ],
   "juzgados": [
@@ -98,27 +98,57 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-23-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "02/03/2024",
+    "obligacion": {
+      "A": 116252
+    },
+    "capitalAdeudado": "15.576.784.43",
+    "entregaGarantiasAbogado": "04/12/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01452",
+    "llaveProceso": "11001400302320170145200",
+    "fechaPresentacion": "12/12/2017"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 23,
+        "tipo": "JUZGADO 023 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-23-civil-municipal-de-bogota"
+      },
+      "idProceso": 50915500,
+      "idConexion": 259,
+      "llaveProceso": "11001400302320170145200",
+      "fechaProceso": "2017-12-15T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-03-23T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NOHORA DEL PILAR  VARGAS BERNAL ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2024-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 1557678443,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": null,
+      "fechaPresentacion": "2017-12-12T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        116252
+      ],
+      "radicado": "2017 - 01452"
+    }
+  ],
   "numero": 360,
   "llaveProceso": "11001400302320170145200",
-  "demanda": {
-    "vencimientoPagare": [
-      "2024-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 1557678443,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": "2017-12-12T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      116252
-    ],
-    "radicado": "2017 - 01452",
-    "expediente": "11001400302320170145200"
-  },
   "fecha": "2018-03-23T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 696659850,

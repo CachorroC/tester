@@ -16,7 +16,7 @@
       "idProceso": 51786190,
       "isUltimaAct": true,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     },
     {
       "idRegActuacion": 859492650,
@@ -34,7 +34,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     },
     {
       "idRegActuacion": 859492640,
@@ -52,7 +52,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     },
     {
       "idRegActuacion": 859492630,
@@ -70,7 +70,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     },
     {
       "idRegActuacion": 859492620,
@@ -88,7 +88,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     },
     {
       "idRegActuacion": 859492610,
@@ -106,7 +106,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     },
     {
       "idRegActuacion": 859492600,
@@ -124,7 +124,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     },
     {
       "idRegActuacion": 859492590,
@@ -142,7 +142,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     },
     {
       "idRegActuacion": 859492580,
@@ -160,7 +160,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     },
     {
       "idRegActuacion": 859492570,
@@ -178,7 +178,7 @@
       "idProceso": 51786190,
       "isUltimaAct": false,
       "carpetaNumero": 516,
-      "createdAt": "2023-12-03T18:18:55.211Z"
+      "createdAt": "2023-12-06T22:29:26.703Z"
     }
   ],
   "juzgados": [
@@ -188,26 +188,57 @@
       "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "obligacion": {
+      "A": 3778160000000000,
+      "B": 530372000000000
+    },
+    "capitalAdeudado": "16.800.337.38",
+    "entregaGarantiasAbogado": "01/11/2018",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "SINGULAR",
+    "radicado": "2019 - 00190",
+    "llaveProceso": "11001418901420190019000",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": "01/02/2019"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 14,
+        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      },
+      "idProceso": 51786190,
+      "idConexion": 259,
+      "llaveProceso": "11001418901420190019000",
+      "fechaProceso": "2019-03-26T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-09-23T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALVARO LUIS ASPRILLA LUCUMI ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [],
+      "capitalAdeudado": 1680033738,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2018-01-11T05:00:00.000Z",
+      "tipoProceso": "SINGULAR",
+      "mandamientoPago": null,
+      "etapaProcesal": "ADMISION",
+      "fechaPresentacion": "2019-01-02T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        3778160000000000,
+        530372000000000
+      ],
+      "radicado": "2019 - 00190"
+    }
+  ],
   "numero": 516,
   "llaveProceso": "11001418901420190019000",
-  "demanda": {
-    "vencimientoPagare": [],
-    "juzgados": [],
-    "capitalAdeudado": 1680033738,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2018-01-11T05:00:00.000Z",
-    "tipoProceso": "SINGULAR",
-    "mandamientoPago": null,
-    "etapaProcesal": "ADMISION",
-    "fechaPresentacion": "2019-01-02T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      3778160000000000,
-      530372000000000
-    ],
-    "radicado": "2019 - 00190",
-    "expediente": "11001418901420190019000"
-  },
   "fecha": "2019-09-23T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 565577340,

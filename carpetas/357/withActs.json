@@ -16,7 +16,7 @@
       "idProceso": 17054094,
       "isUltimaAct": true,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-03T18:18:05.386Z"
+      "createdAt": "2023-12-07T01:08:42.357Z"
     },
     {
       "idRegActuacion": 93354544,
@@ -34,7 +34,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-03T18:18:05.386Z"
+      "createdAt": "2023-12-07T01:08:42.357Z"
     },
     {
       "idRegActuacion": 93354534,
@@ -52,7 +52,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-03T18:18:05.386Z"
+      "createdAt": "2023-12-07T01:08:42.357Z"
     },
     {
       "idRegActuacion": 93354524,
@@ -70,7 +70,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-03T18:18:05.386Z"
+      "createdAt": "2023-12-07T01:08:42.357Z"
     },
     {
       "idRegActuacion": 93354514,
@@ -88,7 +88,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-03T18:18:05.386Z"
+      "createdAt": "2023-12-07T01:08:42.357Z"
     },
     {
       "idRegActuacion": 93354504,
@@ -106,7 +106,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-03T18:18:05.386Z"
+      "createdAt": "2023-12-07T01:08:42.357Z"
     }
   ],
   "juzgados": [
@@ -116,27 +116,59 @@
       "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
     }
   ],
+  "codeudor": null,
+  "demanda": {
+    "vencimientoPagare": "21/0/2017",
+    "obligacion": {
+      "A": 146999
+    },
+    "capitalAdeudado": "22.149.641.28",
+    "entregaGarantiasAbogado": "04/12/2017",
+    "departamento": "CUNDINAMARCA",
+    "municipio": "BOGOTA",
+    "tipoProceso": "HIPOTECARIO",
+    "radicado": "2017 - 01378",
+    "llaveProceso": "11001400305520170137800",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": "12/12/2017",
+    "mandamientoPago": "19-02-2018"
+  },
+  "demandas": [
+    {
+      "juzgado": {
+        "id": 55,
+        "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
+      },
+      "idProceso": 17054094,
+      "idConexion": 263,
+      "llaveProceso": "11001400305520170137800",
+      "fechaProceso": "2017-12-14T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-05-16T05:00:00.000Z",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA SAYURI RODRIGUEZ GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "notificacion": null,
+      "medidasCautelares": null,
+      "vencimientoPagare": [
+        "2017-01-01T05:00:00.000Z"
+      ],
+      "capitalAdeudado": 2214964128,
+      "departamento": "CUNDINAMARCA",
+      "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
+      "tipoProceso": "HIPOTECARIO",
+      "mandamientoPago": null,
+      "etapaProcesal": "NOTIFICACION",
+      "fechaPresentacion": "2017-12-12T05:00:00.000Z",
+      "municipio": "BOGOTA",
+      "obligacion": [
+        146999
+      ],
+      "radicado": "2017 - 01378"
+    }
+  ],
   "numero": 357,
   "llaveProceso": "11001400305520170137800",
-  "demanda": {
-    "vencimientoPagare": [
-      "2017-01-01T05:00:00.000Z"
-    ],
-    "juzgados": [],
-    "capitalAdeudado": 2214964128,
-    "departamento": "CUNDINAMARCA",
-    "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
-    "tipoProceso": "HIPOTECARIO",
-    "mandamientoPago": null,
-    "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": "2017-12-12T05:00:00.000Z",
-    "municipio": "BOGOTA",
-    "obligacion": [
-      146999
-    ],
-    "radicado": "2017 - 01378",
-    "expediente": "11001400305520170137800"
-  },
   "fecha": "2018-05-16T05:00:00.000Z",
   "ultimaActuacion": {
     "idRegActuacion": 93354554,
