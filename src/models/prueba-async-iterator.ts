@@ -43,55 +43,67 @@ export async function* createAsyncGenerator(
   );
 }
 
-let range = {
-  from: 0,
-  to: 600,
+const range = {
+  from: 0
+  , to  : 600
 
   // esta línea es la misma que [Symbol.asyncIterator]: async function*() {
-  async *[ Symbol.asyncIterator ] ()
-  {
-    for ( let value = this.from; value <= this.to; value++ )
-    {
+  , async *[ Symbol.asyncIterator ] () {
+    for ( let value = this.from; value <= this.to; value++ ) {
 
       // hacer una pausa entre valores, esperar algo
-      await new Promise( resolve => setTimeout( resolve, 1000 ) );
+      await new Promise(
+        resolve => {
+          return setTimeout(
+            resolve, 1000 
+          );
+        } 
+      );
 
       yield value;
     }
   }
 };
 
-( async () =>
-{
+( async () => {
 
-  for await ( let value of range )
-  {
-    alert( value ); // 1, luego 2, luego 3, luego 4, luego 5
+  for await ( const value of range ) {
+    alert(
+      value 
+    ); // 1, luego 2, luego 3, luego 4, luego 5
   }
 
 } )();
 
 
-async function* fetchCommits ( repo )
-{
+async function* fetchCommits (
+  repo 
+) {
   let url = `https://api.github.com/repos/${ repo }/commits`;
 
-  while ( url )
-  {
-    const response = await fetch( url, { // (1)
-      headers: { 'User-Agent': 'Our script' }, // github requiere encabezado de user-agent
-    } );
+  while ( url ) {
+    const response = await fetch(
+      url, { // (1)
+        headers: {
+          'User-Agent': 'Our script' 
+        }, // github requiere encabezado de user-agent
+      } 
+    );
 
     const body = await response.json(); // (2) la respuesta es un JSON (array de commits)
 
     // (3) la URL de la página siguiente está en los encabezados, extráigala
-    let nextPage = response.headers.get( 'Link' ).match( /<(.*?)>; rel="next"/ );
+    let nextPage = response.headers.get(
+      'Link' 
+    )
+      .match(
+        /<(.*?)>; rel="next"/ 
+      );
     nextPage = nextPage?.[ 1 ];
 
     url = nextPage;
 
-    for ( let commit of body )
-    { // (4) concede commits uno por uno, hasta que termine la página
+    for ( const commit of body ) { // (4) concede commits uno por uno, hasta que termine la página
       yield commit;
     }
   }

@@ -1,21 +1,27 @@
 const range = {
-  from: 10,
-  to: 58,
-  [Symbol.asyncIterator]() {
+  from: 10
+  , to  : 58
+  , [ Symbol.asyncIterator ]() {
     return {
-      current: this.from,
-      last: this.to,
+      current: this.from
+      , last   : this.to
 
-      async next() {
+      , async next() {
         // note: we can use "await" inside the async next:
-        await new Promise((resolve) => {
-          return setTimeout(resolve, 1000);
-        }); // (3)
+        await new Promise(
+          (
+            resolve 
+          ) => {
+            return setTimeout(
+              resolve, 1000 
+            );
+          } 
+        ); // (3)
 
-        if (this.current <= this.last) {
+        if ( this.current <= this.last ) {
           return {
-            done: false,
-            value: this.current++,
+            done : false
+            , value: this.current++,
           };
         }
 
@@ -27,11 +33,15 @@ const range = {
   },
 };
 
-(async () => {
-  for await (const value of range) {
+( async () => {
+  for await ( const value of range ) {
     // (4)
     console.log(
-      `${JSON.stringify(value, null, 2)} of ${JSON.stringify(range, null, 2)}`,
+      `${ JSON.stringify(
+        value, null, 2 
+      ) } of ${ JSON.stringify(
+        range, null, 2 
+      ) }`,
     );
   }
-})();
+} )();

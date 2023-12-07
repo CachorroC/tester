@@ -129,24 +129,24 @@ export class CarpetaJudicial implements IntCarpeta {
             ? String(
               codeudor.nombre
             )
-            : null,
-          cedula: codeudor.cedula
+            : null
+          , cedula: codeudor.cedula
             ? String(
               codeudor.cedula
             )
-            : null,
-          direccion: codeudor.direccion
+            : null
+          , direccion: codeudor.direccion
             ? String(
               codeudor.direccion
             )
-            : null,
-          telefono: codeudor.telefono
+            : null
+          , telefono: codeudor.telefono
             ? String(
               codeudor.telefono
             )
-            : null,
-          id           : this.numero,
-          carpetaNumero: this.numero
+            : null
+          , id           : this.numero
+          , carpetaNumero: this.numero
         }
       : null;
     this.demandas = [
@@ -184,67 +184,67 @@ export class CarpetaJudicial implements IntCarpeta {
         {
           where: {
             numero: this.numero,
-          },
-          create: {
-            nombre      : this.nombre,
-            category    : this.category,
-            llaveProceso: this.llaveProceso,
-            numero      : this.numero,
-            demandas    : {
+          }
+          , create: {
+            nombre      : this.nombre
+            , category    : this.category
+            , llaveProceso: this.llaveProceso
+            , numero      : this.numero
+            , demandas    : {
               connectOrCreate: {
                 where: {
                   idProceso: this.numero,
-                },
-                create: new PrismaDemanda(
+                }
+                , create: new PrismaDemanda(
                   this
                 ),
               },
-            },
-            deudor: {
+            }
+            , deudor: {
               connectOrCreate: {
                 where: {
                   carpetaNumero: this.numero,
-                },
-                create: new PrismaDeudor(
+                }
+                , create: new PrismaDeudor(
                   this
                 ),
               },
-            },
-            terminado: this.category === 'Terminados'
+            }
+            , terminado: this.category === 'Terminados'
               ? true
-              : false,
-            tipoProceso: this.tipoProceso,
-            revisado   : false,
-          },
-          update: {
-            nombre  : this.nombre,
-            category: this.category,
-            numero  : this.numero,
-            demandas: {
+              : false
+            , tipoProceso: this.tipoProceso
+            , revisado   : false,
+          }
+          , update: {
+            nombre  : this.nombre
+            , category: this.category
+            , numero  : this.numero
+            , demandas: {
               connectOrCreate: {
                 where: {
                   idProceso: this.numero,
-                },
-                create: new PrismaDemanda(
+                }
+                , create: new PrismaDemanda(
                   this
                 ),
               },
-            },
-            deudor: {
+            }
+            , deudor: {
               connectOrCreate: {
                 where: {
                   carpetaNumero: this.numero,
-                },
-                create: new PrismaDeudor(
+                }
+                , create: new PrismaDeudor(
                   this
                 ),
               },
-            },
-            terminado: this.category === 'Terminados'
+            }
+            , terminado: this.category === 'Terminados'
               ? true
-              : false,
-            tipoProceso : this.tipoProceso,
-            llaveProceso: this.llaveProceso,
+              : false
+            , tipoProceso : this.tipoProceso
+            , llaveProceso: this.llaveProceso,
           },
         }
       );
@@ -284,9 +284,9 @@ export class CarpetaJudicial implements IntCarpeta {
       const json = ( await request.json() ) as ConsultaNumeroRadicacion;
 
       const responseReturn = {
-        StatusCode: request.status,
-        Message   : request.statusText as Message,
-        procesos  : json.procesos,
+        StatusCode: request.status
+        , Message   : request.statusText as Message
+        , procesos  : json.procesos,
       };
 
       const procesosDemandaMap = new Set<IntDemanda>();
@@ -341,8 +341,8 @@ export class CarpetaJudicial implements IntCarpeta {
         );
 
         return {
-          StatusCode: 404,
-          Message   : `${ error.name }: ${ error.message }`,
+          StatusCode: 404
+          , Message   : `${ error.name }: ${ error.message }`,
         };
       }
 
@@ -351,8 +351,8 @@ export class CarpetaJudicial implements IntCarpeta {
       );
 
       return {
-        StatusCode: 404,
-        Message   : JSON.stringify(
+        StatusCode: 404
+        , Message   : JSON.stringify(
           error, null, 2
         ),
       };
@@ -370,8 +370,8 @@ export class CarpetaJudicial implements IntCarpeta {
         {
           where: {
             numero: this.numero,
-          },
-          update: {
+          }
+          , update: {
             idProcesos: {
               set: this.procesos.map(
                 (
@@ -380,48 +380,48 @@ export class CarpetaJudicial implements IntCarpeta {
                   return prc.idProceso;
                 }
               ),
-            },
-            procesos: {
+            }
+            , procesos: {
               upsert: this.procesos.map(
                 (
                   proceso
                 ) => {
                   return {
                     create: {
-                      ...proceso,
-                      fechaProceso: proceso.fechaProceso
+                      ...proceso
+                      , fechaProceso: proceso.fechaProceso
                         ? new Date(
                           proceso.fechaProceso
                         )
-                        : null,
-                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        : null
+                      , fechaUltimaActuacion: proceso.fechaUltimaActuacion
                         ? new Date(
                           proceso.fechaUltimaActuacion
                         )
                         : null,
-                    },
-                    update: {
-                      ...proceso,
-                      fechaProceso: proceso.fechaProceso
+                    }
+                    , update: {
+                      ...proceso
+                      , fechaProceso: proceso.fechaProceso
                         ? new Date(
                           proceso.fechaProceso
                         )
-                        : null,
-                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        : null
+                      , fechaUltimaActuacion: proceso.fechaUltimaActuacion
                         ? new Date(
                           proceso.fechaUltimaActuacion
                         )
                         : null,
-                    },
-                    where: {
+                    }
+                    , where: {
                       idProceso: proceso.idProceso,
                     },
                   };
                 }
               ),
             },
-          },
-          create: {
+          }
+          , create: {
             idProcesos: {
               set: this.procesos.map(
                 (
@@ -430,12 +430,12 @@ export class CarpetaJudicial implements IntCarpeta {
                   return prc.idProceso;
                 }
               ),
-            },
-            nombre      : this.nombre,
-            category    : this.category,
-            numero      : this.numero,
-            llaveProceso: this.llaveProceso,
-            demandas    : {
+            }
+            , nombre      : this.nombre
+            , category    : this.category
+            , numero      : this.numero
+            , llaveProceso: this.llaveProceso
+            , demandas    : {
               connectOrCreate: this.procesos.map(
                 (
                   proceso
@@ -443,57 +443,57 @@ export class CarpetaJudicial implements IntCarpeta {
                   return {
                     where: {
                       idProceso: proceso.idProceso,
-                    },
-                    create: new PrismaDemanda(
+                    }
+                    , create: new PrismaDemanda(
                       this, proceso
                     )
                   };
                 }
               )
-            },
-            deudor: {
+            }
+            , deudor: {
               connectOrCreate: {
                 where: {
                   carpetaNumero: this.numero,
-                },
-                create: new PrismaDeudor(
+                }
+                , create: new PrismaDeudor(
                   this
                 ),
               },
-            },
+            }
 
-            procesos: {
+            , procesos: {
               connectOrCreate: this.procesos.map(
                 (
                   proceso
                 ) => {
                   return {
                     create: {
-                      ...proceso,
-                      fechaProceso: proceso.fechaProceso
+                      ...proceso
+                      , fechaProceso: proceso.fechaProceso
                         ? new Date(
                           proceso.fechaProceso
                         )
-                        : null,
-                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        : null
+                      , fechaUltimaActuacion: proceso.fechaUltimaActuacion
                         ? new Date(
                           proceso.fechaUltimaActuacion
                         )
                         : null,
-                    },
+                    }
 
-                    where: {
+                    , where: {
                       idProceso: proceso.idProceso,
                     },
                   };
                 }
               ),
-            },
-            terminado: this.category === 'Terminados'
+            }
+            , terminado: this.category === 'Terminados'
               ? true
-              : false,
-            tipoProceso: this.tipoProceso,
-            revisado   : false,
+              : false
+            , tipoProceso: this.tipoProceso
+            , revisado   : false,
           },
         }
       );
@@ -551,8 +551,8 @@ export class CarpetaJudicial implements IntCarpeta {
           ) => {
             actuacionesSet.add(
               {
-                ...actuacion,
-                idProceso: idProceso,
+                ...actuacion
+                , idProceso: idProceso,
               }
             );
           }
@@ -560,8 +560,8 @@ export class CarpetaJudicial implements IntCarpeta {
 
         actuacionesMap.set(
           idProceso, {
-            ...ultimaActuacion,
-            idProceso: idProceso,
+            ...ultimaActuacion
+            , idProceso: idProceso,
           }
         );
 
@@ -611,17 +611,17 @@ export class CarpetaJudicial implements IntCarpeta {
             ultimaActuacion.fechaActuacion
           );
           this.ultimaActuacion = {
-            ...ultimaActuacion,
-            idProceso: idProceso,
+            ...ultimaActuacion
+            , idProceso: idProceso,
           };
         }
       }
 
       if ( actuacionesMap.size > 0 ) {
         return {
-          StatusCode : 200,
-          Message    : 'ok' as Message,
-          actuaciones: Array.from(
+          StatusCode : 200
+          , Message    : 'ok' as Message
+          , actuaciones: Array.from(
             actuacionesMap.values()
           ),
         };
@@ -637,8 +637,8 @@ export class CarpetaJudicial implements IntCarpeta {
         );
 
         return {
-          StatusCode: 404,
-          Message   : `${ error.name }: ${ error.message }`,
+          StatusCode: 404
+          , Message   : `${ error.name }: ${ error.message }`,
         };
       }
 
@@ -647,8 +647,8 @@ export class CarpetaJudicial implements IntCarpeta {
       );
 
       return {
-        StatusCode: 404,
-        Message   : JSON.stringify(
+        StatusCode: 404
+        , Message   : JSON.stringify(
           error, null, 2
         ),
       };

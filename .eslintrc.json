@@ -163,7 +163,6 @@
           "const",
           "class",
           "multiline-block-like",
-          "comment",
           "try"
         ],
         "prev": "*"
@@ -173,7 +172,6 @@
         "next": "*",
         "prev": [
           "block",
-          "",
           "block-like",
           "for",
           "if",

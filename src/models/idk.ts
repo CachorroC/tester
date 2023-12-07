@@ -43,7 +43,9 @@ function fechaPresentacionBuilder (
       return [];
     }
 
-    return [fechaFixed];
+    return [
+      fechaFixed
+    ];
 
   }
 
