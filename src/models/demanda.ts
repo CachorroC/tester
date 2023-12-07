@@ -3,6 +3,7 @@ import { Despachos } from '../data/despachos';
 import { DemandaRaw, IntDemanda,  TipoProceso, intNotificacion } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
+import { fechaPresentacionBuilder } from './idk';
 
 function vencimientoPagareFixer(
   rawVencimientoPagare?: string | number
@@ -250,23 +251,9 @@ export class ClassDemanda implements IntDemanda {
       }
     }
 
-    const dateFechaPresentacion = fechaPresentacion
-      ? new Date(
-        fechaPresentacion
-      )
-      : null;
-
-    if ( !dateFechaPresentacion ) {
-      this.fechaPresentacion = null;
-    } else {
-      const isValidDate = dateFechaPresentacion.toString() !== 'Invalid Date';
-
-      if ( !isValidDate ) {
-        this.fechaPresentacion = null;
-      } else {
-        this.fechaPresentacion = dateFechaPresentacion;
-      }
-    }
+    this.fechaPresentacion = fechaPresentacionBuilder(
+      fechaPresentacion
+    );
 
     const dateMandamientoPago = mandamientoPago
       ? new Date(
@@ -394,7 +381,7 @@ export class ClassDemanda implements IntDemanda {
   tipoProceso: TipoProceso;
   mandamientoPago: Date | null;
   etapaProcesal: string | null;
-  fechaPresentacion: Date | null;
+  fechaPresentacion: Date[];
   municipio: string | null;
   obligacion: ( number | string )[];
   radicado: string | null;

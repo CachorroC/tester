@@ -16,7 +16,7 @@
       "idProceso": 50715970,
       "isUltimaAct": true,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T01:08:11.345Z"
+      "createdAt": "2023-12-07T18:58:41.184Z"
     },
     {
       "idRegActuacion": 817031820,
@@ -34,7 +34,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T01:08:11.345Z"
+      "createdAt": "2023-12-07T18:58:41.184Z"
     },
     {
       "idRegActuacion": 817031810,
@@ -52,7 +52,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T01:08:11.345Z"
+      "createdAt": "2023-12-07T18:58:41.184Z"
     },
     {
       "idRegActuacion": 817031800,
@@ -70,7 +70,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T01:08:11.345Z"
+      "createdAt": "2023-12-07T18:58:41.184Z"
     },
     {
       "idRegActuacion": 817031790,
@@ -88,7 +88,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T01:08:11.345Z"
+      "createdAt": "2023-12-07T18:58:41.184Z"
     },
     {
       "idRegActuacion": 817031780,
@@ -106,7 +106,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T01:08:11.345Z"
+      "createdAt": "2023-12-07T18:58:41.184Z"
     },
     {
       "idRegActuacion": 817031770,
@@ -124,7 +124,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T01:08:11.345Z"
+      "createdAt": "2023-12-07T18:58:41.184Z"
     }
   ],
   "juzgados": [
@@ -192,7 +192,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-04-10T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2017-09-14T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         130619

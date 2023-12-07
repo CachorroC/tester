@@ -7,9 +7,7 @@ import { CarpetaBuilder } from './src/models/carpeta';
 async function f() {
   const newCarpetasMap = new Map<number, CarpetaBuilder>();
 
-  const sortedCarpetas = [
-    ...Carpetas
-  ].sort(
+  const sortedCarpetas = [ ...Carpetas ].sort(
     (
       a, b
     ) => {

@@ -55,7 +55,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2017-05-10T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2017-09-27T05:00:00.000Z"
+      ],
       "municipio": "FUSAGASUGA",
       "obligacion": [
         "9450082213 /0377847716751531",

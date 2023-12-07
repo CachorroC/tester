@@ -16,7 +16,7 @@
       "idProceso": 50776700,
       "isUltimaAct": true,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602065010,
@@ -34,7 +34,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602065000,
@@ -52,7 +52,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064990,
@@ -70,7 +70,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064980,
@@ -88,7 +88,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064970,
@@ -106,7 +106,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064960,
@@ -124,7 +124,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064950,
@@ -142,7 +142,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064940,
@@ -160,7 +160,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064930,
@@ -178,7 +178,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064920,
@@ -196,7 +196,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064910,
@@ -214,7 +214,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064900,
@@ -232,7 +232,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064890,
@@ -250,7 +250,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     },
     {
       "idRegActuacion": 602064880,
@@ -268,7 +268,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T01:08:02.007Z"
+      "createdAt": "2023-12-07T18:58:35.534Z"
     }
   ],
   "juzgados": [
@@ -344,7 +344,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-03-11T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": "2017-04-09T05:00:00.000Z",
+      "fechaPresentacion": [
+        "2017-09-04T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         85677
@@ -376,7 +378,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-03-11T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": "2017-04-09T05:00:00.000Z",
+      "fechaPresentacion": [
+        "2017-09-04T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         85677

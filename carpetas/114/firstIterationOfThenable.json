@@ -16,7 +16,7 @@
       "idProceso": 86396721,
       "isUltimaAct": false,
       "carpetaNumero": 114,
-      "createdAt": "2023-12-07T01:07:31.645Z"
+      "createdAt": "2023-12-07T18:58:17.100Z"
     }
   ],
   "juzgados": [
@@ -78,7 +78,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": "2017-11-08T05:00:00.000Z",
+      "fechaPresentacion": [
+        "2017-08-11T05:00:00.000Z"
+      ],
       "municipio": "SOACHA",
       "obligacion": [
         "377813527966924/",

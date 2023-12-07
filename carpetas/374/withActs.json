@@ -56,7 +56,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2018-01-22T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         121543

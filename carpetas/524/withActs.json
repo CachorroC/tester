@@ -16,7 +16,7 @@
       "idProceso": 70545740,
       "isUltimaAct": true,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 869815910,
@@ -34,7 +34,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 867906090,
@@ -52,7 +52,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 867751010,
@@ -70,7 +70,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 865829930,
@@ -88,7 +88,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 865556060,
@@ -106,7 +106,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 565774490,
@@ -124,7 +124,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 565779090,
@@ -142,7 +142,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 565294300,
@@ -160,7 +160,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 565680260,
@@ -178,7 +178,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     },
     {
       "idRegActuacion": 856400000,
@@ -196,7 +196,7 @@
       "idProceso": 70545740,
       "isUltimaAct": false,
       "carpetaNumero": 524,
-      "createdAt": "2023-12-06T22:29:27.652Z"
+      "createdAt": "2023-12-07T18:59:28.378Z"
     }
   ],
   "juzgados": [
@@ -247,7 +247,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": "2019-04-06T05:00:00.000Z",
+      "fechaPresentacion": [
+        "2019-06-04T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         20990138197

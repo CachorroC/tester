@@ -16,7 +16,7 @@
       "idProceso": 50668010,
       "isUltimaAct": true,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968390,
@@ -34,7 +34,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968380,
@@ -52,7 +52,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968370,
@@ -70,7 +70,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968360,
@@ -88,7 +88,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968350,
@@ -106,7 +106,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968340,
@@ -124,7 +124,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968330,
@@ -142,7 +142,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968320,
@@ -160,7 +160,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968310,
@@ -178,7 +178,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968300,
@@ -196,7 +196,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     },
     {
       "idRegActuacion": 630968290,
@@ -214,7 +214,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-07T01:07:45.326Z"
+      "createdAt": "2023-12-07T18:58:26.970Z"
     }
   ],
   "juzgados": [
@@ -273,7 +273,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2017-08-28T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         4513075095312892,

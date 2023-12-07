@@ -16,7 +16,7 @@
       "idProceso": 50738440,
       "isUltimaAct": true,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-07T01:07:19.168Z"
+      "createdAt": "2023-12-07T18:58:06.776Z"
     },
     {
       "idRegActuacion": 707304080,
@@ -34,7 +34,7 @@
       "idProceso": 50738440,
       "isUltimaAct": false,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-07T01:07:19.168Z"
+      "createdAt": "2023-12-07T18:58:06.776Z"
     },
     {
       "idRegActuacion": 707304070,
@@ -52,7 +52,7 @@
       "idProceso": 50738440,
       "isUltimaAct": false,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-07T01:07:19.168Z"
+      "createdAt": "2023-12-07T18:58:06.776Z"
     },
     {
       "idRegActuacion": 707304060,
@@ -70,7 +70,7 @@
       "idProceso": 50738440,
       "isUltimaAct": false,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-07T01:07:19.168Z"
+      "createdAt": "2023-12-07T18:58:06.776Z"
     },
     {
       "idRegActuacion": 707304050,
@@ -88,7 +88,7 @@
       "idProceso": 50738440,
       "isUltimaAct": false,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-07T01:07:19.168Z"
+      "createdAt": "2023-12-07T18:58:06.776Z"
     }
   ],
   "juzgados": [
@@ -146,7 +146,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2017-09-26T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         490098936

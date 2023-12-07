@@ -116,7 +116,7 @@ export class PrismaDemanda implements Demanda {
   idProceso: number;
   mandamientoPago: Date | null;
   etapaProcesal: string | null;
-  fechaPresentacion: Date | null;
+  fechaPresentacion: Date[];
   municipio: string | null;
   obligacion: string[];
   radicado: string | null;
@@ -141,7 +141,7 @@ export class PrismaDemanda implements Demanda {
       entregaGarantiasAbogado,
       capitalAdeudado,
     } = new ClassDemanda(
-      demanda, numero
+      demanda, numero, proceso
     );
     this.llaveProceso = proceso
       ? proceso.llaveProceso
@@ -164,15 +164,7 @@ export class PrismaDemanda implements Demanda {
     this.despacho = proceso
       ? proceso.despacho
       : null;
-    this.fechaPresentacion = fechaPresentacion
-      ? fechaPresentacion.toString() !== 'Invalid Date'
-        || fechaPresentacion.toString()
-          !== '+020184-08-05T05:00:00.000Z'
-        ? new Date(
-          fechaPresentacion.toString()
-        )
-        : null
-      : null;
+    this.fechaPresentacion = fechaPresentacion;
     this.etapaProcesal = etapaProcesal;
     this.mandamientoPago = mandamientoPago
       ? mandamientoPago.toString() !== 'Invalid Date'

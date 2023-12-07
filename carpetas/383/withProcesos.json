@@ -16,7 +16,7 @@
       "idProceso": 51176440,
       "isUltimaAct": true,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-07T01:08:54.695Z"
+      "createdAt": "2023-12-07T18:59:05.271Z"
     },
     {
       "idRegActuacion": 714162850,
@@ -34,7 +34,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-07T01:08:54.695Z"
+      "createdAt": "2023-12-07T18:59:05.271Z"
     },
     {
       "idRegActuacion": 714162840,
@@ -52,7 +52,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-07T01:08:54.695Z"
+      "createdAt": "2023-12-07T18:59:05.271Z"
     },
     {
       "idRegActuacion": 714162830,
@@ -70,7 +70,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-07T01:08:54.695Z"
+      "createdAt": "2023-12-07T18:59:05.271Z"
     },
     {
       "idRegActuacion": 714162820,
@@ -88,7 +88,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-07T01:08:54.695Z"
+      "createdAt": "2023-12-07T18:59:05.271Z"
     },
     {
       "idRegActuacion": 714162810,
@@ -106,7 +106,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-07T01:08:54.695Z"
+      "createdAt": "2023-12-07T18:59:05.271Z"
     }
   ],
   "juzgados": [
@@ -169,7 +169,10 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2018-01-26T05:00:00.000Z",
+        "2018-04-02T05:00:00.000Z"
+      ],
       "municipio": "KENNEDY",
       "obligacion": [
         116650

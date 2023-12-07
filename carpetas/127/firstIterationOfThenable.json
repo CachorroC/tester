@@ -60,7 +60,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-03-11T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2017-10-27T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         6670083892,

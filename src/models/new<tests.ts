@@ -183,9 +183,7 @@ export class Carpeta implements IntCarpeta {
             actuaciones
           } = consultaActuaciones;
 
-          const [
-            ultimaActuacion
-          ] = actuaciones;
+          const [ ultimaActuacion ] = actuaciones;
 
           const incomingDate = new Date(
             ultimaActuacion.fechaActuacion

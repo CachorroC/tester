@@ -224,7 +224,7 @@ export interface IntDemanda {
   tipoProceso: TipoProceso;
   mandamientoPago: Date | null;
   etapaProcesal: string | null;
-  fechaPresentacion: Date | null;
+  fechaPresentacion: Date[]
   municipio: string | null;
   obligacion: ( number | string )[];
   radicado: string | null;

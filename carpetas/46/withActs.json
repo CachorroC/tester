@@ -72,7 +72,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2017-05-30T05:00:00.000Z"
+      ],
       "municipio": "CHOCONTA",
       "obligacion": [
         53037139326557900,

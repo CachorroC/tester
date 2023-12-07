@@ -16,7 +16,7 @@
       "idProceso": 17718250,
       "isUltimaAct": true,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T01:08:34.601Z"
+      "createdAt": "2023-12-07T18:58:55.638Z"
     },
     {
       "idRegActuacion": 266714160,
@@ -34,7 +34,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T01:08:34.601Z"
+      "createdAt": "2023-12-07T18:58:55.638Z"
     },
     {
       "idRegActuacion": 266714150,
@@ -52,7 +52,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T01:08:34.601Z"
+      "createdAt": "2023-12-07T18:58:55.638Z"
     },
     {
       "idRegActuacion": 266714140,
@@ -70,7 +70,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T01:08:34.601Z"
+      "createdAt": "2023-12-07T18:58:55.638Z"
     },
     {
       "idRegActuacion": 266714130,
@@ -88,7 +88,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T01:08:34.601Z"
+      "createdAt": "2023-12-07T18:58:55.638Z"
     },
     {
       "idRegActuacion": 266714120,
@@ -106,7 +106,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T01:08:34.601Z"
+      "createdAt": "2023-12-07T18:58:55.638Z"
     }
   ],
   "juzgados": [
@@ -162,7 +162,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2018-01-15T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         12710799

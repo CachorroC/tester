@@ -55,7 +55,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2017-05-24T05:00:00.000Z"
+      ],
       "municipio": "SUBA",
       "obligacion": [
         2405037

@@ -16,7 +16,7 @@
       "idProceso": 51500810,
       "isUltimaAct": true,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-07T01:08:52.755Z"
+      "createdAt": "2023-12-07T18:59:03.783Z"
     },
     {
       "idRegActuacion": 1820436670,
@@ -34,7 +34,7 @@
       "idProceso": 51500810,
       "isUltimaAct": false,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-07T01:08:52.755Z"
+      "createdAt": "2023-12-07T18:59:03.783Z"
     },
     {
       "idRegActuacion": 1778368160,
@@ -52,7 +52,7 @@
       "idProceso": 51500810,
       "isUltimaAct": false,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-07T01:08:52.755Z"
+      "createdAt": "2023-12-07T18:59:03.783Z"
     },
     {
       "idRegActuacion": 856481100,
@@ -70,7 +70,7 @@
       "idProceso": 51500810,
       "isUltimaAct": false,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-07T01:08:52.755Z"
+      "createdAt": "2023-12-07T18:59:03.783Z"
     }
   ],
   "juzgados": [
@@ -131,7 +131,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EL 22/08/2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2018-08-22T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         118010,

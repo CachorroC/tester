@@ -70,7 +70,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": "2018-01-02T05:00:00.000Z",
+      "fechaPresentacion": [
+        "2018-02-01T05:00:00.000Z"
+      ],
       "municipio": "CAJICA",
       "obligacion": [
         12730779

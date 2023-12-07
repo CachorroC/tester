@@ -1523,7 +1523,7 @@ const Carpetas: CarpetaRaw[] = [
       , radicado               : '2017 - 01190'
       , llaveProceso           : '11001400303520170119000'
       , etapaProcesal          : 'ADMISION'
-      , fechaPresentacion      : '11/08/147'
+      , fechaPresentacion      : '11/08/17'
       , mandamientoPago        : '30/08/2017'
       , notificacion           : {
         tipo: 'OK',
@@ -16875,7 +16875,7 @@ const Carpetas: CarpetaRaw[] = [
       , radicado               : '2018 - 00612'
       , llaveProceso           : '11001400306520180061200'
       , etapaProcesal          : 'NOTIFICACION'
-      , fechaPresentacion      : '08/05/20184'
+      , fechaPresentacion      : '08/05/2018'
       , mandamientoPago        : '18/05/2018'
       , notificacion           : {
         '292': {
@@ -22792,7 +22792,7 @@ const Carpetas: CarpetaRaw[] = [
       , llaveProceso           : 'SinEspecificar'
       , municipio              : 'BOGOTA',
     },
-  }                          
-,];
+  }
+];
 
 export default Carpetas;

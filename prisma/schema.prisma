@@ -117,7 +117,7 @@ model Demanda {
   tipoProceso             TipoProceso        @default(SINGULAR)
   mandamientoPago         DateTime?          @db.Date
   etapaProcesal           String?
-  fechaPresentacion       DateTime?          @db.Date
+  fechaPresentacion       DateTime[]          @db.Date
   municipio               String?
   obligacion              String[]
   radicado                String?

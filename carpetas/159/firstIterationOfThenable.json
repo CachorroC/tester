@@ -16,7 +16,7 @@
       "idProceso": 50765090,
       "isUltimaAct": true,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-07T01:07:42.538Z"
+      "createdAt": "2023-12-07T18:58:25.080Z"
     },
     {
       "idRegActuacion": 855746550,
@@ -34,7 +34,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-07T01:07:42.538Z"
+      "createdAt": "2023-12-07T18:58:25.080Z"
     },
     {
       "idRegActuacion": 855746540,
@@ -52,7 +52,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-07T01:07:42.538Z"
+      "createdAt": "2023-12-07T18:58:25.080Z"
     },
     {
       "idRegActuacion": 855746530,
@@ -70,7 +70,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-07T01:07:42.538Z"
+      "createdAt": "2023-12-07T18:58:25.080Z"
     },
     {
       "idRegActuacion": 855746520,
@@ -88,7 +88,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-07T01:07:42.538Z"
+      "createdAt": "2023-12-07T18:58:25.080Z"
     },
     {
       "idRegActuacion": 855746510,
@@ -106,7 +106,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-07T01:07:42.538Z"
+      "createdAt": "2023-12-07T18:58:25.080Z"
     },
     {
       "idRegActuacion": 855746500,
@@ -124,7 +124,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-07T01:07:42.538Z"
+      "createdAt": "2023-12-07T18:58:25.080Z"
     },
     {
       "idRegActuacion": 855746490,
@@ -142,7 +142,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-07T01:07:42.538Z"
+      "createdAt": "2023-12-07T18:58:25.080Z"
     }
   ],
   "juzgados": [
@@ -193,7 +193,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2017-08-28T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         11932772

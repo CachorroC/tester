@@ -16,7 +16,7 @@
       "idProceso": 51571520,
       "isUltimaAct": true,
       "carpetaNumero": 450,
-      "createdAt": "2023-12-06T22:29:18.567Z"
+      "createdAt": "2023-12-07T18:59:17.094Z"
     },
     {
       "idRegActuacion": 857051540,
@@ -34,7 +34,7 @@
       "idProceso": 51571520,
       "isUltimaAct": false,
       "carpetaNumero": 450,
-      "createdAt": "2023-12-06T22:29:18.567Z"
+      "createdAt": "2023-12-07T18:59:17.094Z"
     }
   ],
   "juzgados": [
@@ -87,7 +87,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2018-04-07T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2018-06-26T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         20990160362

@@ -45,7 +45,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": "2017-08-08T05:00:00.000Z",
+      "fechaPresentacion": [
+        "2017-08-08T05:00:00.000Z"
+      ],
       "municipio": "KENNEDY",
       "obligacion": [
         5306934855078754,

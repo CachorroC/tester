@@ -69,7 +69,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-12-09T05:00:00.000Z",
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2017-08-28T05:00:00.000Z"
+      ],
       "municipio": "SOACHA",
       "obligacion": [
         12725973

@@ -1,8 +1,8 @@
 {
   "env": {
     "browser": true,
-    "es6": true,
     "es2022": true,
+    "es6": true,
     "node": true,
     "serviceworker": true
   },
@@ -15,70 +15,21 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "@stylistic"],
+  "plugins": [
+    "@typescript-eslint",
+    "@stylistic"
+  ],
   "rules": {
-    "array-bracket-newline": [
-      "error",
-      {
-        "minItems": 1
-      }
-    ],
-    "@stylistic/comma-style": [ "error", "first" ],
-    "array-bracket-spacing": ["error", "always"],
     "@stylistic/array-element-newline": [
       "error",
       {
-        "ArrayExpression": {
-          "multiline": true,
-          "minItems": 3
-        },
-        "ArrayPattern": { "minItems": 3, "multiline": true }
-      }
-    ],
-    "array-callback-return": [
-      "error",
-      { "checkForEach": true }
-    ],
-    "max-statements-per-line": "error",
-
-    "array-element-newline": [
-      "error",
-      {
-        "minItems": 1,
+        "minItems": 2,
         "multiline": true
       }
     ],
-    "arrow-body-style": ["error", "always"],
-    "arrow-spacing": "error",
-    "brace-style": "error",
-    "comma-spacing": [
+    "@stylistic/comma-style": [
       "error",
-      {
-        "after": true,
-        "before": false
-      }
-    ],
-    "computed-property-spacing": ["error", "always"],
-    "consistent-return": "error",
-    "curly": "error",
-    "func-call-spacing": ["error", "never"],
-    "function-paren-newline": [
-      "error",
-      {
-        "minItems": 1
-      }
-    ],
-    "getter-return": "error",
-
-    "prefer-destructuring": [
-      "error",
-      {
-        "array": true,
-        "object": true
-      },
-      {
-        "enforceForRenamedProperties": false
-      }
+      "first"
     ],
     "@stylistic/indent": [
       "error",
@@ -104,14 +55,68 @@
         "offsetTernaryExpressions": true
       }
     ],
+    "array-bracket-newline": [
+      "error",
+      {
+        "minItems": 2
+      }
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "always"
+    ],
+    "array-callback-return": [
+      "error",
+      {
+        "checkForEach": true
+      }
+    ],
+    "arrow-body-style": [
+      "error",
+      "always"
+    ],
+    "arrow-spacing": "error",
+    "brace-style": "error",
+    "comma-spacing": [
+      "error",
+      {
+        "after": true,
+        "before": false
+      }
+    ],
+    "computed-property-spacing": [
+      "error",
+      "always"
+    ],
+    "consistent-return": "error",
+    "curly": "error",
+    "func-call-spacing": [
+      "error",
+      "never"
+    ],
+    "function-paren-newline": [
+      "error",
+      {
+        "minItems": 1
+      }
+    ],
+    "getter-return": "error",
     "key-spacing": [
       "error",
       {
         "align": "colon"
       }
     ],
-    "linebreak-style": ["error", "unix"],
-    "multiline-ternary": ["error", "always"],
+    "keyword-spacing": "error",
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "max-statements-per-line": "error",
+    "multiline-ternary": [
+      "error",
+      "always"
+    ],
     "newline-per-chained-call": [
       "error",
       {
@@ -148,9 +153,15 @@
         }
       }
     ],
-    "object-curly-spacing": ["error", "always"],
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
     "object-property-newline": "error",
-    "operator-linebreak": ["error", "before"],
+    "operator-linebreak": [
+      "error",
+      "before"
+    ],
     "padding-line-between-statements": [
       "error",
       {
@@ -182,12 +193,33 @@
         ]
       }
     ],
-    "quotes": ["error", "single"],
+    "prefer-destructuring": [
+      "error",
+      {
+        "array": true,
+        "object": true
+      },
+      {
+        "enforceForRenamedProperties": false
+      }
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
     "semi": "error",
-    "space-in-parens": ["error", "always"],
     "space-before-blocks": "error",
-    "keyword-spacing": "error",
-    "template-curly-spacing": ["error", "always"],
-    "template-tag-spacing": ["error", "always"]
+    "space-in-parens": [
+      "error",
+      "always"
+    ],
+    "template-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "template-tag-spacing": [
+      "error",
+      "always"
+    ]
   }
 }

@@ -245,18 +245,17 @@ router.get(
 
     const or = searchString
       ? {
-          OR: [
-            {
-              title: {
-                contains: searchString as string,
-              },
-            }
-            , {
-              content: {
-                contains: searchString as string,
-              },
-            }                                                                                                                                                          
-,],
+          OR: [ {
+            title: {
+              contains: searchString as string,
+            },
+          }
+          , {
+            content: {
+              contains: searchString as string,
+            },
+          }                                                                                                                                                          
+            , ],
         }
       : {};
 

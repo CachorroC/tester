@@ -16,7 +16,7 @@
       "idProceso": 39001450,
       "isUltimaAct": true,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-06T22:29:27.396Z"
+      "createdAt": "2023-12-07T18:59:28.116Z"
     },
     {
       "idRegActuacion": 559231420,
@@ -34,7 +34,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-06T22:29:27.396Z"
+      "createdAt": "2023-12-07T18:59:28.116Z"
     },
     {
       "idRegActuacion": 555956130,
@@ -52,7 +52,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-06T22:29:27.396Z"
+      "createdAt": "2023-12-07T18:59:28.116Z"
     },
     {
       "idRegActuacion": 552213370,
@@ -70,7 +70,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-06T22:29:27.396Z"
+      "createdAt": "2023-12-07T18:59:28.116Z"
     },
     {
       "idRegActuacion": 552213360,
@@ -88,7 +88,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-06T22:29:27.396Z"
+      "createdAt": "2023-12-07T18:59:28.116Z"
     },
     {
       "idRegActuacion": 368473180,
@@ -106,7 +106,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-06T22:29:27.396Z"
+      "createdAt": "2023-12-07T18:59:28.116Z"
     },
     {
       "idRegActuacion": 367918050,
@@ -124,7 +124,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-06T22:29:27.396Z"
+      "createdAt": "2023-12-07T18:59:28.116Z"
     }
   ],
   "juzgados": [
@@ -176,7 +176,10 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2019-02-26T05:00:00.000Z",
+        "2019-06-04T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         20990146891,

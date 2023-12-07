@@ -149,11 +149,9 @@ export class CarpetaJudicial implements IntCarpeta {
           , carpetaNumero: this.numero
         }
       : null;
-    this.demandas = [
-      new ClassDemanda(
-        demanda, numero
-      )
-    ];
+    this.demandas = [ new ClassDemanda(
+      demanda, numero
+    ) ];
     this.idProcesos = [];
     this.cc = Number(
       deudor.cedula
@@ -169,12 +167,10 @@ export class CarpetaJudicial implements IntCarpeta {
   set nombre(
     nom
   ) {
-    [
-      this.deudor.primerNombre,
+    [ this.deudor.primerNombre,
       this.deudor.segundoNombre,
       this.deudor.primerApellido,
-      this.deudor.segundoApellido,
-    ] = nom.split(
+      this.deudor.segundoApellido, ] = nom.split(
       ' '
     );
   }
@@ -541,9 +537,7 @@ export class CarpetaJudicial implements IntCarpeta {
           actuaciones
         } = data;
 
-        const [
-          ultimaActuacion
-        ] = actuaciones;
+        const [ ultimaActuacion ] = actuaciones;
 
         actuaciones.forEach(
           (

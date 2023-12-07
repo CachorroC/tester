@@ -16,7 +16,7 @@
       "idProceso": 51342910,
       "isUltimaAct": true,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-06T22:29:21.057Z"
+      "createdAt": "2023-12-07T18:59:19.884Z"
     },
     {
       "idRegActuacion": 856768210,
@@ -34,7 +34,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-06T22:29:21.057Z"
+      "createdAt": "2023-12-07T18:59:19.884Z"
     },
     {
       "idRegActuacion": 856768200,
@@ -52,7 +52,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-06T22:29:21.057Z"
+      "createdAt": "2023-12-07T18:59:19.884Z"
     },
     {
       "idRegActuacion": 565848280,
@@ -70,7 +70,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-06T22:29:21.057Z"
+      "createdAt": "2023-12-07T18:59:19.884Z"
     },
     {
       "idRegActuacion": 856768190,
@@ -88,7 +88,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-06T22:29:21.057Z"
+      "createdAt": "2023-12-07T18:59:19.884Z"
     },
     {
       "idRegActuacion": 856768180,
@@ -106,7 +106,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-06T22:29:21.057Z"
+      "createdAt": "2023-12-07T18:59:19.884Z"
     },
     {
       "idRegActuacion": 856768170,
@@ -124,7 +124,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-06T22:29:21.057Z"
+      "createdAt": "2023-12-07T18:59:19.884Z"
     }
   ],
   "juzgados": [
@@ -177,7 +177,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": null,
+      "fechaPresentacion": [
+        "2018-07-31T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         209900000000,

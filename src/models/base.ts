@@ -63,12 +63,10 @@ export class BaseCarpeta implements IntCarpeta {
     nom 
   ) {
     this._nombre = nom;
-    [
-      this.deudor.primerNombre,
+    [ this.deudor.primerNombre,
       this.deudor.segundoNombre,
       this.deudor.primerApellido,
-      this.deudor.segundoApellido,
-    ] = nom.split(
+      this.deudor.segundoApellido, ] = nom.split(
       ' ' 
     );
   }
@@ -139,9 +137,7 @@ export class BaseCarpeta implements IntCarpeta {
           );
         }
 
-        [
-          this.ultimaActuacion
-        ] = response.actuaciones;
+        [ this.ultimaActuacion ] = response.actuaciones;
         actuacionesMap.set(
           idProceso, response.actuaciones 
         );

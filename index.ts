@@ -18,9 +18,7 @@ console.log(
 async function f() {
   const newCarpetasMap = new Map<number, CarpetaJudicial>();
 
-  const sortedCarpetas = [
-    ...Carpetas
-  ].sort(
+  const sortedCarpetas = [ ...Carpetas ].sort(
     (
       a, b 
     ) => {
@@ -268,9 +266,7 @@ async function insertManyCarpetas() {
 
     if ( carpeta.ultimaActuacion ) {
       const prismaActuacionInserter = await insertActuacionesInPrisma(
-        [
-          carpeta.ultimaActuacion
-        ],
+        [ carpeta.ultimaActuacion ],
         numero,
       );
       console.log(

@@ -45,8 +45,7 @@ export async function pruebaIterator () {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     segundaCarpeta,
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    terceraCarpeta
-  ] = carpetas;
+    terceraCarpeta ] = carpetas;
 
   const carpeta = terceraCarpeta;
 

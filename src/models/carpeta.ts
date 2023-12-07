@@ -83,9 +83,7 @@ export class CarpetaBuilder implements IntCarpeta {
       deudor
     );
     this.demanda = demanda;
-    this.demandas = [
-      newDemanda
-    ];
+    this.demandas = [ newDemanda ];
     this.terminado = category === 'Terminados'
       ? true
       : false;
@@ -227,9 +225,7 @@ export class CarpetaBuilder implements IntCarpeta {
             actuaciones
           } = consultaActuaciones;
 
-          const [
-            ultimaActuacion
-          ] = actuaciones;
+          const [ ultimaActuacion ] = actuaciones;
 
           const incomingDate = new Date(
             ultimaActuacion.fechaActuacion
@@ -346,6 +342,7 @@ export class CarpetaBuilder implements IntCarpeta {
   async createPrismaCarpeta () {
 
     const procesosBuilder = this.procesos;
+
     let prismaDemandas;
 
     if ( !procesosBuilder || procesosBuilder.length === 0 ) {
@@ -589,6 +586,7 @@ export class CarpetaBuilder implements IntCarpeta {
               };
             }
           )
+          , skipDuplicates: true,
         }
       );
     } catch ( error ) {

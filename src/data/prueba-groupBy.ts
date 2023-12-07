@@ -26,15 +26,11 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : 'SENTENCIA'
       , municipio              : 'GIRARDOT'
-      , obligacion             : [
-        '2273 320145954'
-      ]
-      , radicado         : '2017 - 00250'
-      , vencimientoPagare: [
-        '2026-11-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , obligacion             : [ '2273 320145954' ]
+      , radicado               : '2017 - 00250'
+      , vencimientoPagare      : [ '2026-11-01T05:00:00.000Z' ]
+      , departamento           : 'CUNDINAMARCA'
+      , juzgados               : [],
     }
     , cc        : 39581581
     , idProcesos: null,
@@ -66,15 +62,13 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : 'EJECUCIÓN'
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        '1930085200  /190184  /377813469298997', "4513070079097239  /5303714507623618"                                                                                                        
-,]
+      , obligacion             : [ '1930085200  /190184  /377813469298997'
+        , '4513070079097239  /5303714507623618'                                                                                                        
+        , ]
       , radicado         : '2017 - 00554'
-      , vencimientoPagare: [
-        '2018-09-01T05:00:00.000Z'
-      ]
-      , departamento: 'BOGOTÁ'
-      , juzgados    : [],
+      , vencimientoPagare: [ '2018-09-01T05:00:00.000Z' ]
+      , departamento     : 'BOGOTÁ'
+      , juzgados         : [],
     }
     , codeudor: {
       cedula   : 1070587091
@@ -83,25 +77,22 @@ const data = [
       , telefono : 2165272,
     }
     , cc        : 1026259010
-    , idProcesos: [
-      52281244
-    ]
-    , procesos: [
-      {
-        idProceso           : 52281244
-        , idConexion          : 310
-        , llaveProceso        : '11001310304320170055400'
-        , fechaProceso        : '2017-10-31T00:00:00'
-        , fechaUltimaActuacion: '2021-09-20T00:00:00'
-        , despacho:
+    , idProcesos: [ 52281244 ]
+    , procesos  : [ {
+      idProceso           : 52281244
+      , idConexion          : 310
+      , llaveProceso        : '11001310304320170055400'
+      , fechaProceso        : '2017-10-31T00:00:00'
+      , fechaUltimaActuacion: '2021-09-20T00:00:00'
+      , despacho:
           'JUZGADO 002 CIVIL DEL CIRCUITO DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ '
-        , departamento: 'BOGOTÁ'
-        , sujetosProcesales:
+      , departamento: 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante: BANCOLOMBIA S.A. | Demandado: EDWIN ANDRES CUERVO VERDUGO Y OTRA | Demandado: DIANA LORENA SANCHEZ JIMENEZ Y OTRO '
-        , esPrivado: false
-        , cantFilas: -1,
-      }                                                                              
-,]
+      , esPrivado: false
+      , cantFilas: -1,
+    }                                                                              
+      , ]
     , fecha          : '2021-09-20T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 978518214
@@ -145,15 +136,11 @@ const data = [
       , tipoProceso            : 'PRENDARIO'
       , etapaProcesal          : 'NOTIFICACION'
       , municipio              : 'CAJICA'
-      , obligacion             : [
-        12204943
-      ]
-      , radicado         : '2017 - 00715'
-      , vencimientoPagare: [
-        '2017-09-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , obligacion             : [ 12204943 ]
+      , radicado               : '2017 - 00715'
+      , vencimientoPagare      : [ '2017-09-01T05:00:00.000Z' ]
+      , departamento           : 'CUNDINAMARCA'
+      , juzgados               : [],
     }
     , cc        : 1018441487
     , idProcesos: []
@@ -186,35 +173,28 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : null
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        '2273 320158101'
-      ]
-      , radicado         : '2017 - 00720'
-      , vencimientoPagare: [
-        '2022-11-01T05:00:00.000Z'
-      ]
-      , departamento: 'BOGOTÁ'
-      , juzgados    : [],
+      , obligacion             : [ '2273 320158101' ]
+      , radicado               : '2017 - 00720'
+      , vencimientoPagare      : [ '2022-11-01T05:00:00.000Z' ]
+      , departamento           : 'BOGOTÁ'
+      , juzgados               : [],
     }
     , cc        : 93437973
-    , idProcesos: [
-      11997693
-    ]
-    , procesos: [
-      {
-        idProceso           : 11997693
-        , idConexion          : 261
-        , llaveProceso        : '11001400305320170072000'
-        , fechaProceso        : '2017-06-01T00:00:00'
-        , fechaUltimaActuacion: '2018-06-14T00:00:00'
-        , despacho            : 'JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ '
-        , departamento        : 'BOGOTÁ'
-        , sujetosProcesales:
+    , idProcesos: [ 11997693 ]
+    , procesos  : [ {
+      idProceso           : 11997693
+      , idConexion          : 261
+      , llaveProceso        : '11001400305320170072000'
+      , fechaProceso        : '2017-06-01T00:00:00'
+      , fechaUltimaActuacion: '2018-06-14T00:00:00'
+      , despacho            : 'JUZGADO 053 CIVIL MUNICIPAL DE BOGOTÁ '
+      , departamento        : 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante: BANCOLOMBIA S.A. | Demandado: DIPSO EUSEBIO  SANCHEZ CASTIBLANCO '
-        , esPrivado: false
-        , cantFilas: -1,
-      }                                                                              
-,]
+      , esPrivado: false
+      , cantFilas: -1,
+    }                                                                              
+      , ]
     , fecha          : '2018-06-14T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 155319973
@@ -258,15 +238,11 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : null
       , municipio              : 'GUASCA'
-      , obligacion             : [
-        '2273 320172490'
-      ]
-      , radicado         : '2017 - 00168'
-      , vencimientoPagare: [
-        '1934-02-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , obligacion             : [ '2273 320172490' ]
+      , radicado               : '2017 - 00168'
+      , vencimientoPagare      : [ '1934-02-01T05:00:00.000Z' ]
+      , departamento           : 'CUNDINAMARCA'
+      , juzgados               : [],
     }
     , cc        : 20645940
     , idProcesos: []
@@ -299,15 +275,11 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : 'NOTIFICACION'
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        '2273 320111490'
-      ]
-      , radicado         : '2017 -00444'
-      , vencimientoPagare: [
-        '2008-09-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , obligacion             : [ '2273 320111490' ]
+      , radicado               : '2017 -00444'
+      , vencimientoPagare      : [ '2008-09-01T05:00:00.000Z' ]
+      , departamento           : 'CUNDINAMARCA'
+      , juzgados               : [],
     }
     , codeudor: {
       cedula   : 46374311
@@ -346,35 +318,28 @@ const data = [
       , tipoProceso            : 'PRENDARIO'
       , etapaProcesal          : 'NOTIFICACION'
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        2553057
-      ]
-      , radicado         : '2017 - 00374'
-      , vencimientoPagare: [
-        '2020-04-01T05:00:00.000Z'
-      ]
-      , departamento: 'BOGOTÁ'
-      , juzgados    : [],
+      , obligacion             : [ 2553057 ]
+      , radicado               : '2017 - 00374'
+      , vencimientoPagare      : [ '2020-04-01T05:00:00.000Z' ]
+      , departamento           : 'BOGOTÁ'
+      , juzgados               : [],
     }
     , cc        : 79733852
-    , idProcesos: [
-      62733402
-    ]
-    , procesos: [
-      {
-        idProceso           : 62733402
-        , idConexion          : 180
-        , llaveProceso        : '11001310302720170037400'
-        , fechaProceso        : '2017-05-25T00:00:00'
-        , fechaUltimaActuacion: '2022-03-09T00:00:00'
-        , despacho            : 'JUZGADO 027 CIVIL DEL CIRCUITO DE BOGOTÁ '
-        , departamento        : 'BOGOTÁ'
-        , sujetosProcesales:
+    , idProcesos: [ 62733402 ]
+    , procesos  : [ {
+      idProceso           : 62733402
+      , idConexion          : 180
+      , llaveProceso        : '11001310302720170037400'
+      , fechaProceso        : '2017-05-25T00:00:00'
+      , fechaUltimaActuacion: '2022-03-09T00:00:00'
+      , despacho            : 'JUZGADO 027 CIVIL DEL CIRCUITO DE BOGOTÁ '
+      , departamento        : 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante: BANCOLOMBIA S. A. | Demandado: JOSE RICARDO PRIETO CRUZ '
-        , esPrivado: false
-        , cantFilas: -1,
-      }                                                                              
-,]
+      , esPrivado: false
+      , cantFilas: -1,
+    }                                                                              
+      , ]
     , fecha          : '2022-03-09T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 1151407522
@@ -418,35 +383,28 @@ const data = [
       , tipoProceso            : 'PRENDARIO'
       , etapaProcesal          : 'NOTIFICACION'
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        2008124
-      ]
-      , radicado         : '2017 - 00667'
-      , vencimientoPagare: [
-        '2020-04-01T05:00:00.000Z'
-      ]
-      , departamento: 'BOGOTÁ'
-      , juzgados    : [],
+      , obligacion             : [ 2008124 ]
+      , radicado               : '2017 - 00667'
+      , vencimientoPagare      : [ '2020-04-01T05:00:00.000Z' ]
+      , departamento           : 'BOGOTÁ'
+      , juzgados               : [],
     }
     , cc        : 79642493
-    , idProcesos: [
-      50465740
-    ]
-    , procesos: [
-      {
-        idProceso           : 50465740
-        , idConexion          : 259
-        , llaveProceso        : '11001400301420170066700'
-        , fechaProceso        : '2017-05-25T00:00:00'
-        , fechaUltimaActuacion: '2017-08-16T00:00:00'
-        , despacho            : 'JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ '
-        , departamento        : 'BOGOTÁ'
-        , sujetosProcesales:
+    , idProcesos: [ 50465740 ]
+    , procesos  : [ {
+      idProceso           : 50465740
+      , idConexion          : 259
+      , llaveProceso        : '11001400301420170066700'
+      , fechaProceso        : '2017-05-25T00:00:00'
+      , fechaUltimaActuacion: '2017-08-16T00:00:00'
+      , despacho            : 'JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ '
+      , departamento        : 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante: BANCOLOMBIA S.A. | Demandado: JOSE  WILSON ROJAS VALDES '
-        , esPrivado: false
-        , cantFilas: -1,
-      }                                                                              
-,]
+      , esPrivado: false
+      , cantFilas: -1,
+    }                                                                              
+      , ]
     , fecha          : '2017-08-16T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 638268360
@@ -490,13 +448,11 @@ const data = [
       , tipoProceso            : 'SINGULAR'
       , etapaProcesal          : 'SENTENCIA'
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        '2290099308    /2170086682'
-      ]
-      , radicado         : '2017 - 00998'
-      , vencimientoPagare: [
-        '2015-01-01T05:00:00.000Z', "2021-01-01T05:00:00.000Z"                                                                                                        
-,]
+      , obligacion             : [ '2290099308    /2170086682' ]
+      , radicado               : '2017 - 00998'
+      , vencimientoPagare      : [ '2015-01-01T05:00:00.000Z'
+        , '2021-01-01T05:00:00.000Z'                                                                                                        
+        , ]
       , departamento: 'CUNDINAMARCA'
       , juzgados    : [],
     }
@@ -530,15 +486,11 @@ const data = [
       , tipoProceso            : 'PRENDARIO'
       , etapaProcesal          : 'ADMISION'
       , municipio              : 'SUBA'
-      , obligacion             : [
-        2405037
-      ]
-      , radicado         : '2017 - 00909'
-      , vencimientoPagare: [
-        '2020-04-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , obligacion             : [ 2405037 ]
+      , radicado               : '2017 - 00909'
+      , vencimientoPagare      : [ '2020-04-01T05:00:00.000Z' ]
+      , departamento           : 'CUNDINAMARCA'
+      , juzgados               : [],
     }
     , cc        : 52396019
     , idProcesos: []
@@ -572,36 +524,30 @@ const data = [
       , etapaProcesal:
         'EL 12-06-2018 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA //EL 4-08-2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. // EL JUEZ NO ACCEDIO A SOLICITUD ENTREGA DESEMBARGO PARTE ACTORA 1-02-2019 SE ARCHIVA PROCESO CAJA 240 // PAGAR DESARCHIVE Y REQUERIR AL JUEZ PARA QUE DE CUMPLIMIENTO A ENTREGA DE OFICIO DADO QUE PERSISTE EL EMBARGO A PESAR QUE EL CLIENTE ESTA AL DIA'
       , municipio : 'BOGOTA'
-      , obligacion: [
-        '12313737//377815899589556', 4513070106144855
-      ]
+      , obligacion: [ '12313737//377815899589556'
+        , 4513070106144855 ]
       , radicado         : '2017 - 00839'
-      , vencimientoPagare: [
-        '2017-08-01T05:00:00.000Z'
-      ]
-      , departamento: 'BOGOTÁ'
-      , juzgados    : [],
+      , vencimientoPagare: [ '2017-08-01T05:00:00.000Z' ]
+      , departamento     : 'BOGOTÁ'
+      , juzgados         : [],
     }
     , cc        : 80743147
-    , idProcesos: [
-      50508570
-    ]
-    , procesos: [
-      {
-        idProceso           : 50508570
-        , idConexion          : 259
-        , llaveProceso        : '11001400303720170083900'
-        , fechaProceso        : '2017-06-15T00:00:00'
-        , fechaUltimaActuacion: '2023-07-10T00:00:00'
-        , despacho:
+    , idProcesos: [ 50508570 ]
+    , procesos  : [ {
+      idProceso           : 50508570
+      , idConexion          : 259
+      , llaveProceso        : '11001400303720170083900'
+      , fechaProceso        : '2017-06-15T00:00:00'
+      , fechaUltimaActuacion: '2023-07-10T00:00:00'
+      , despacho:
           'JUZGADO 014 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ '
-        , departamento: 'BOGOTÁ'
-        , sujetosProcesales:
+      , departamento: 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante: BANCOLOMBIA S.A. | Demandado: JAVIER ROMERO REYES '
-        , esPrivado: false
-        , cantFilas: -1,
-      }                                                                              
-,]
+      , esPrivado: false
+      , cantFilas: -1,
+    }                                                                              
+      , ]
     , fecha          : '2023-07-10T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 1804706930
@@ -645,15 +591,11 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : 'APELACION'
       , municipio              : 'FACATATIVA'
-      , obligacion             : [
-        2273320140425
-      ]
-      , radicado         : '2017 - 00488/ 2018 - 00158'
-      , vencimientoPagare: [
-        '2026-07-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , obligacion             : [ 2273320140425 ]
+      , radicado               : '2017 - 00488/ 2018 - 00158'
+      , vencimientoPagare      : [ '2026-07-01T05:00:00.000Z' ]
+      , departamento           : 'CUNDINAMARCA'
+      , juzgados               : [],
     }
     , cc        : 11436632
     , idProcesos: []
@@ -686,15 +628,11 @@ const data = [
       , tipoProceso            : 'SINGULAR'
       , etapaProcesal          : 'NOTIFICACION'
       , municipio              : 'VIANI'
-      , obligacion             : [
-        3720087139
-      ]
-      , radicado         : '2017 - 00020'
-      , vencimientoPagare: [
-        '2018-07-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , obligacion             : [ 3720087139 ]
+      , radicado               : '2017 - 00020'
+      , vencimientoPagare      : [ '2018-07-01T05:00:00.000Z' ]
+      , departamento           : 'CUNDINAMARCA'
+      , juzgados               : [],
     }
     , codeudor: {
       cedula   : 21094922
@@ -722,9 +660,8 @@ const data = [
       , primerNombre   : 'elsa'
       , segundoNombre  : 'milena'
       , primerApellido : 'sosa'
-      , segundoApellido: [
-        '', 'romero'
-      ],
+      , segundoApellido: [ ''
+        , 'romero' ],
     }
     , demanda: {
       fechaPresentacion      : '2017-09-27T00:00:00.000Z'
@@ -735,15 +672,11 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : null
       , municipio              : 'SIBATE'
-      , obligacion             : [
-        4517
-      ]
-      , radicado         : '2017 - 00284'
-      , vencimientoPagare: [
-        '2023-03-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , obligacion             : [ 4517 ]
+      , radicado               : '2017 - 00284'
+      , vencimientoPagare      : [ '2023-03-01T05:00:00.000Z' ]
+      , departamento           : 'CUNDINAMARCA'
+      , juzgados               : [],
     }
     , cc        : 52441656
     , idProcesos: []
@@ -776,36 +709,31 @@ const data = [
       , tipoProceso            : 'PRENDARIO'
       , etapaProcesal          : 'NOTIFICACION'
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        2450966
-      ]
-      , radicado         : '2017 - 00654'
-      , vencimientoPagare: []
-      , departamento     : 'BOGOTÁ'
-      , juzgados         : [],
+      , obligacion             : [ 2450966 ]
+      , radicado               : '2017 - 00654'
+      , vencimientoPagare      : []
+      , departamento           : 'BOGOTÁ'
+      , juzgados               : [],
     }
     , codeudor: {
       nombre: 0,
     }
     , cc        : 1098678636
-    , idProcesos: [
-      50468310
-    ]
-    , procesos: [
-      {
-        idProceso           : 50468310
-        , idConexion          : 259
-        , llaveProceso        : '11001400307220170065400'
-        , fechaProceso        : '2017-05-26T00:00:00'
-        , fechaUltimaActuacion: '2020-01-15T00:00:00'
-        , despacho            : 'JUZGADO 072 CIVIL MUNICIPAL DE BOGOTÁ '
-        , departamento        : 'BOGOTÁ'
-        , sujetosProcesales:
+    , idProcesos: [ 50468310 ]
+    , procesos  : [ {
+      idProceso           : 50468310
+      , idConexion          : 259
+      , llaveProceso        : '11001400307220170065400'
+      , fechaProceso        : '2017-05-26T00:00:00'
+      , fechaUltimaActuacion: '2020-01-15T00:00:00'
+      , despacho            : 'JUZGADO 072 CIVIL MUNICIPAL DE BOGOTÁ '
+      , departamento        : 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante: BANCOLOMBIA S.A. | Demandado: SILVIA SUSANA SIERRA CASTAÑEDA '
-        , esPrivado: false
-        , cantFilas: -1,
-      }                                                                              
-,]
+      , esPrivado: false
+      , cantFilas: -1,
+    }                                                                              
+      , ]
     , fecha          : '2020-01-15T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 945315380
@@ -849,49 +777,42 @@ const data = [
       , tipoProceso            : 'PRENDARIO'
       , etapaProcesal          : 'EMPLAZAMIENTO'
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        2530444
-      ]
-      , radicado         : '2017 - 00884'
-      , vencimientoPagare: [
-        '2020-05-01T05:00:00.000Z'
-      ]
-      , departamento: 'BOGOTÁ'
-      , juzgados    : [],
+      , obligacion             : [ 2530444 ]
+      , radicado               : '2017 - 00884'
+      , vencimientoPagare      : [ '2020-05-01T05:00:00.000Z' ]
+      , departamento           : 'BOGOTÁ'
+      , juzgados               : [],
     }
     , cc        : 1077969975
-    , idProcesos: [
-      50468620,
-113956611
-    ]
-    , procesos: [
-      {
-        idProceso           : 50468620
-        , idConexion          : 259
-        , llaveProceso        : '11001400300320170088400'
-        , fechaProceso        : '2017-05-26T00:00:00'
-        , fechaUltimaActuacion: '2023-11-21T00:00:00'
-        , despacho            : 'JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ '
-        , departamento        : 'BOGOTÁ'
-        , sujetosProcesales:
+    , idProcesos: [ 50468620
+      , 113956611 ]
+    , procesos: [ {
+      idProceso           : 50468620
+      , idConexion          : 259
+      , llaveProceso        : '11001400300320170088400'
+      , fechaProceso        : '2017-05-26T00:00:00'
+      , fechaUltimaActuacion: '2023-11-21T00:00:00'
+      , despacho            : 'JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ '
+      , departamento        : 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante: BANCOLOMBIA S.A. | Demandado: YESID ALBEIRO RAMOS '
-        , esPrivado: false
-        , cantFilas: -1,
-      }
-      , {
-        idProceso           : 113956611
-        , idConexion          : 320
-        , llaveProceso        : '11001400300320170088400'
-        , fechaProceso        : '2017-05-24T00:00:00'
-        , fechaUltimaActuacion: null
-        , despacho            : 'JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ '
-        , departamento        : 'BOGOTÁ'
-        , sujetosProcesales:
+      , esPrivado: false
+      , cantFilas: -1,
+    }
+    , {
+      idProceso           : 113956611
+      , idConexion          : 320
+      , llaveProceso        : '11001400300320170088400'
+      , fechaProceso        : '2017-05-24T00:00:00'
+      , fechaUltimaActuacion: null
+      , despacho            : 'JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ '
+      , departamento        : 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: YESID ALBEIRO RAMOS  (Emplazado) | Defensor Publico: MARIA HELENA SUAREZ GARCIA '
-        , esPrivado: false
-        , cantFilas: -1,
-      }                                                                              
-,]
+      , esPrivado: false
+      , cantFilas: -1,
+    }                                                                              
+      , ]
     , fecha          : '2023-11-21T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 1936452500
@@ -935,15 +856,11 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : 'NOTIFICACION'
       , municipio              : 'SOACHA'
-      , obligacion             : [
-        '2273 320131950'
-      ]
-      , radicado         : '2017 - 00480'
-      , vencimientoPagare: [
-        '2025-09-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , obligacion             : [ '2273 320131950' ]
+      , radicado               : '2017 - 00480'
+      , vencimientoPagare      : [ '2025-09-01T05:00:00.000Z' ]
+      , departamento           : 'CUNDINAMARCA'
+      , juzgados               : [],
     }
     , cc        : 52953923
     , idProcesos: []
@@ -976,16 +893,12 @@ const data = [
       , tipoProceso            : 'PRENDARIO'
       , etapaProcesal          : 'AUDIENCIA'
       , municipio              : 'CHIA'
-      , obligacion             : [
-        12645083,
-12340733
-      ]
+      , obligacion             : [ 12645083
+        , 12340733 ]
       , radicado         : '2017 - 00269'
-      , vencimientoPagare: [
-        '2017-04-01T05:00:00.000Z'
-      ]
-      , departamento: 'CUNDINAMARCA'
-      , juzgados    : [],
+      , vencimientoPagare: [ '2017-04-01T05:00:00.000Z' ]
+      , departamento     : 'CUNDINAMARCA'
+      , juzgados         : [],
     }
     , cc        : 79205977
     , idProcesos: []
@@ -1018,15 +931,11 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : null
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        103560
-      ]
-      , radicado         : '2017 - 01755'
-      , vencimientoPagare: [
-        '2022-12-01T05:00:00.000Z'
-      ]
-      , departamento: 'BOGOTÁ'
-      , juzgados    : [],
+      , obligacion             : [ 103560 ]
+      , radicado               : '2017 - 01755'
+      , vencimientoPagare      : [ '2022-12-01T05:00:00.000Z' ]
+      , departamento           : 'BOGOTÁ'
+      , juzgados               : [],
     }
     , codeudor: {
       cedula   : 52171586
@@ -1035,24 +944,21 @@ const data = [
       , telefono : 4062058,
     }
     , cc        : 80001905
-    , idProcesos: [
-      50869770
-    ]
-    , procesos: [
-      {
-        idProceso           : 50869770
-        , idConexion          : 259
-        , llaveProceso        : '11001400302120170175500'
-        , fechaProceso        : '2017-11-24T00:00:00'
-        , fechaUltimaActuacion: '2018-02-01T00:00:00'
-        , despacho            : 'JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ '
-        , departamento        : 'BOGOTÁ'
-        , sujetosProcesales:
+    , idProcesos: [ 50869770 ]
+    , procesos  : [ {
+      idProceso           : 50869770
+      , idConexion          : 259
+      , llaveProceso        : '11001400302120170175500'
+      , fechaProceso        : '2017-11-24T00:00:00'
+      , fechaUltimaActuacion: '2018-02-01T00:00:00'
+      , despacho            : 'JUZGADO 021 CIVIL MUNICIPAL DE BOGOTÁ '
+      , departamento        : 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante: BANCOLOMBIA S.A | Demandado: ELIACID CHAVES OBANDO '
-        , esPrivado: false
-        , cantFilas: -1,
-      }                                                                              
-,]
+      , esPrivado: false
+      , cantFilas: -1,
+    }                                                                              
+      , ]
     , fecha          : '2018-02-01T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 683021000
@@ -1085,11 +991,9 @@ const data = [
       , primerNombre   : 'andres'
       , segundoNombre  : 'mauricio'
       , primerApellido : 'fernandez'
-      , segundoApellido: [
-        'de'
+      , segundoApellido: [ 'de'
         , 'soto'
-        , 'dominguez'
-      ],
+        , 'dominguez' ],
     }
     , demanda: {
       fechaPresentacion      : '2017-05-24T00:00:00.000Z'
@@ -1100,35 +1004,28 @@ const data = [
       , tipoProceso            : 'PRENDARIO'
       , etapaProcesal          : null
       , municipio              : 'BOGOTA'
-      , obligacion             : [
-        2551197
-      ]
-      , radicado         : '2017 - 00483'
-      , vencimientoPagare: [
-        '2020-04-01T05:00:00.000Z'
-      ]
-      , departamento: 'BOGOTÁ'
-      , juzgados    : [],
+      , obligacion             : [ 2551197 ]
+      , radicado               : '2017 - 00483'
+      , vencimientoPagare      : [ '2020-04-01T05:00:00.000Z' ]
+      , departamento           : 'BOGOTÁ'
+      , juzgados               : [],
     }
     , cc        : 94482258
-    , idProcesos: [
-      50466490
-    ]
-    , procesos: [
-      {
-        idProceso           : 50466490
-        , idConexion          : 259
-        , llaveProceso        : '11001400302220170048300'
-        , fechaProceso        : '2017-05-25T00:00:00'
-        , fechaUltimaActuacion: '2017-10-13T00:00:00'
-        , despacho            : 'JUZGADO 022 CIVIL MUNICIPAL DE BOGOTÁ '
-        , departamento        : 'BOGOTÁ'
-        , sujetosProcesales:
+    , idProcesos: [ 50466490 ]
+    , procesos  : [ {
+      idProceso           : 50466490
+      , idConexion          : 259
+      , llaveProceso        : '11001400302220170048300'
+      , fechaProceso        : '2017-05-25T00:00:00'
+      , fechaUltimaActuacion: '2017-10-13T00:00:00'
+      , despacho            : 'JUZGADO 022 CIVIL MUNICIPAL DE BOGOTÁ '
+      , departamento        : 'BOGOTÁ'
+      , sujetosProcesales:
           'Demandante: BANCOLOMBIA S.A. | Demandado: ANDRES  MAURICIO  FERNANDEZ  DE SOTO  DOMINGUEZ '
-        , esPrivado: false
-        , cantFilas: -1,
-      }                                                                              
-,]
+      , esPrivado: false
+      , cantFilas: -1,
+    }                                                                              
+      , ]
     , fecha          : '2017-10-13T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 690458400
@@ -1144,7 +1041,7 @@ const data = [
       , conDocumentos : false
       , cant          : 15,
     },
-  }                          
+  }                                              
 ,];
 
 const result = Object.groupBy(

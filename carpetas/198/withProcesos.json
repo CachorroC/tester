@@ -16,7 +16,7 @@
       "idProceso": 19150031,
       "isUltimaAct": true,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-07T01:07:55.908Z"
+      "createdAt": "2023-12-07T18:58:32.182Z"
     },
     {
       "idRegActuacion": 219869011,
@@ -34,7 +34,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-07T01:07:55.908Z"
+      "createdAt": "2023-12-07T18:58:32.182Z"
     },
     {
       "idRegActuacion": 219869001,
@@ -52,7 +52,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-07T01:07:55.908Z"
+      "createdAt": "2023-12-07T18:58:32.182Z"
     },
     {
       "idRegActuacion": 219868991,
@@ -70,7 +70,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-07T01:07:55.908Z"
+      "createdAt": "2023-12-07T18:58:32.182Z"
     },
     {
       "idRegActuacion": 219868981,
@@ -88,7 +88,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-07T01:07:55.908Z"
+      "createdAt": "2023-12-07T18:58:32.182Z"
     },
     {
       "idRegActuacion": 219868971,
@@ -106,7 +106,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-07T01:07:55.908Z"
+      "createdAt": "2023-12-07T18:58:32.182Z"
     }
   ],
   "juzgados": [
@@ -157,7 +157,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": "2017-04-09T05:00:00.000Z",
+      "fechaPresentacion": [
+        "2017-09-04T05:00:00.000Z"
+      ],
       "municipio": "BOGOTA",
       "obligacion": [
         167542
