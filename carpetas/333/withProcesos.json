@@ -16,7 +16,7 @@
       "idProceso": 17718250,
       "isUltimaAct": true,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T18:58:55.638Z"
+      "createdAt": "2023-12-08T03:40:38.928Z"
     },
     {
       "idRegActuacion": 266714160,
@@ -34,7 +34,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T18:58:55.638Z"
+      "createdAt": "2023-12-08T03:40:38.928Z"
     },
     {
       "idRegActuacion": 266714150,
@@ -52,7 +52,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T18:58:55.638Z"
+      "createdAt": "2023-12-08T03:40:38.928Z"
     },
     {
       "idRegActuacion": 266714140,
@@ -70,7 +70,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T18:58:55.638Z"
+      "createdAt": "2023-12-08T03:40:38.928Z"
     },
     {
       "idRegActuacion": 266714130,
@@ -88,7 +88,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T18:58:55.638Z"
+      "createdAt": "2023-12-08T03:40:38.928Z"
     },
     {
       "idRegActuacion": 266714120,
@@ -106,7 +106,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-07T18:58:55.638Z"
+      "createdAt": "2023-12-08T03:40:38.928Z"
     }
   ],
   "juzgados": [
@@ -151,7 +151,12 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AHIDA LUCERO GUEVARA BECERRA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": null,
+        "autoNotificado": null,
+        "notifiers": []
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"

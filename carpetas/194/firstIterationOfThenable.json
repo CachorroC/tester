@@ -16,7 +16,7 @@
       "idProceso": 50679230,
       "isUltimaAct": true,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667570,
@@ -34,7 +34,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667560,
@@ -52,7 +52,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667550,
@@ -70,7 +70,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667540,
@@ -88,7 +88,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667530,
@@ -106,7 +106,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667520,
@@ -124,7 +124,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667510,
@@ -142,7 +142,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667500,
@@ -160,7 +160,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667490,
@@ -178,7 +178,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667480,
@@ -196,7 +196,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667470,
@@ -214,7 +214,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667460,
@@ -232,7 +232,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667450,
@@ -250,7 +250,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     },
     {
       "idRegActuacion": 770667440,
@@ -268,7 +268,7 @@
       "idProceso": 50679230,
       "isUltimaAct": false,
       "carpetaNumero": 194,
-      "createdAt": "2023-12-07T18:58:31.408Z"
+      "createdAt": "2023-12-08T03:39:38.146Z"
     }
   ],
   "juzgados": [
@@ -318,7 +318,19 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: FABIOLA MARTINEZ RUEDA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"

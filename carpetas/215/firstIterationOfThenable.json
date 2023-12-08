@@ -16,7 +16,7 @@
       "idProceso": 50776700,
       "isUltimaAct": true,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602065010,
@@ -34,7 +34,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602065000,
@@ -52,7 +52,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064990,
@@ -70,7 +70,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064980,
@@ -88,7 +88,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064970,
@@ -106,7 +106,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064960,
@@ -124,7 +124,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064950,
@@ -142,7 +142,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064940,
@@ -160,7 +160,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064930,
@@ -178,7 +178,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064920,
@@ -196,7 +196,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064910,
@@ -214,7 +214,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064900,
@@ -232,7 +232,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064890,
@@ -250,7 +250,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     },
     {
       "idRegActuacion": 602064880,
@@ -268,7 +268,7 @@
       "idProceso": 50776700,
       "isUltimaAct": false,
       "carpetaNumero": 215,
-      "createdAt": "2023-12-07T18:58:35.534Z"
+      "createdAt": "2023-12-08T03:39:45.009Z"
     }
   ],
   "juzgados": [
@@ -333,7 +333,25 @@
       "sujetosProcesales": "Demandante: ABOGADOS ESPECIALÑIZADOS EN CONBRANZAS SA - AECSA | Demandado: JORGE ARMANDO LOPEZ CASTAÑO | Demandado: LUZ DARY HURTADO RIOS ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          },
+          {
+            "tipo": "292",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -367,7 +385,25 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          },
+          {
+            "tipo": "292",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"

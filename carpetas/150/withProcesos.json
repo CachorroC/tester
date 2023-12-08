@@ -34,7 +34,10 @@
       "esPrivado": null,
       "cantFilas": null,
       "notificacion": null,
-      "medidasCautelares": null,
+      "medidasCautelares": {
+        "fechaOrdenaMedida": null,
+        "medidaSolicitada": "INMUEBLE"
+      },
       "vencimientoPagare": [
         "2025-01-01T05:00:00.000Z"
       ],

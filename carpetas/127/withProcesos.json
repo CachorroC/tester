@@ -48,8 +48,23 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": null,
+        "fisico": null,
+        "autoNotificado": "2438                  2439",
+        "notifiers": [
+          {
+            "tipo": "292",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": null,
+        "medidaSolicitada": "VEHICULO INMUEBLE"
+      },
       "vencimientoPagare": [
         "2021-01-01T05:00:00.000Z",
         "2017-01-01T05:00:00.000Z"

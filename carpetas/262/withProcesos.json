@@ -44,8 +44,16 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": null,
+        "fisico": null,
+        "autoNotificado": null,
+        "notifiers": []
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": "2017-05-10T05:00:00.000Z",
+        "medidaSolicitada": "INMUEBLE"
+      },
       "vencimientoPagare": [
         "2018-01-01T05:00:00.000Z"
       ],

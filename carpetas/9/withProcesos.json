@@ -38,8 +38,16 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": null,
+        "autoNotificado": "43150",
+        "notifiers": []
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": null,
+        "medidaSolicitada": "VEHICULO"
+      },
       "vencimientoPagare": [
         "2015-01-01T05:00:00.000Z",
         "2021-01-01T05:00:00.000Z"

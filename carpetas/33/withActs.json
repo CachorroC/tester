@@ -53,8 +53,16 @@
       "sujetosProcesales": "Demandante/accionante: Banco Bancolombia SA | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": null,
+        "fisico": null,
+        "autoNotificado": null,
+        "notifiers": []
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": null,
+        "medidaSolicitada": null
+      },
       "vencimientoPagare": [
         "2020-01-01T05:00:00.000Z"
       ],

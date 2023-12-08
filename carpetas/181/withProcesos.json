@@ -44,7 +44,10 @@
       "esPrivado": true,
       "cantFilas": -1,
       "notificacion": null,
-      "medidasCautelares": null,
+      "medidasCautelares": {
+        "fechaOrdenaMedida": "2017-05-10T05:00:00.000Z",
+        "medidaSolicitada": "VEHICULO"
+      },
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
       ],

@@ -16,7 +16,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-07T18:58:10.048Z"
+      "createdAt": "2023-12-08T03:38:48.002Z"
     },
     {
       "idRegActuacion": 964317311,
@@ -34,7 +34,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-07T18:58:10.048Z"
+      "createdAt": "2023-12-08T03:38:48.002Z"
     },
     {
       "idRegActuacion": 961709631,
@@ -52,7 +52,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-07T18:58:10.048Z"
+      "createdAt": "2023-12-08T03:38:48.002Z"
     },
     {
       "idRegActuacion": 961710411,
@@ -70,7 +70,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-07T18:58:10.048Z"
+      "createdAt": "2023-12-08T03:38:48.002Z"
     }
   ],
   "juzgados": [
@@ -127,8 +127,16 @@
       "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: ADELMO  ABRIL FORERO | Demandado/indiciado/causante: STELLA  MARIN GARZON | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": null,
+        "autoNotificado": "PNAL",
+        "notifiers": []
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": null,
+        "medidaSolicitada": "17/07/2017"
+      },
       "vencimientoPagare": [
         "2019-01-01T05:00:00.000Z"
       ],

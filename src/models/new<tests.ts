@@ -313,10 +313,10 @@ export class Carpeta implements IntCarpeta {
         , terminado: ( this.category === 'Terminados' )
           ? true
           : false
-        , demanda: {
+        , demandas: {
           connectOrCreate: {
             where: {
-              carpetaNumero: this.numero
+              idProceso: this.numero
             }
             , create: new PrismaDemanda(
               this
@@ -947,24 +947,5 @@ export class Carpeta implements IntCarpeta {
       );
       return null;
     }
-  }
-}
-
-
-export class CarpetaWithProcesos extends Carpeta {
-  procesos: intProceso[];
-  idProcesos: number[];
-  juzgados: Juzgado[];
-  demandas: {
-    despacho: string;
-    expediente: string;
-    departamento; string;
-  }[];
-  constructor (
-    carpeta: CarpetaRaw, procesos: intProceso[]
-  ) {
-    super(
-      carpeta
-    );
   }
 }

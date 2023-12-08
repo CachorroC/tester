@@ -16,7 +16,7 @@
       "idProceso": 86396721,
       "isUltimaAct": false,
       "carpetaNumero": 114,
-      "createdAt": "2023-12-07T18:58:17.100Z"
+      "createdAt": "2023-12-08T03:39:01.457Z"
     }
   ],
   "juzgados": [
@@ -67,7 +67,19 @@
       "sujetosProcesales": "Demandante/accionante: ALVARO  CARRILLO  | Demandado/indiciado/causante: ABUNDIO  BOHORQUEZ VILLAMIL | Demandado/indiciado/causante: ACREEDORES DE ABUNDIO BOHORQUEZ    (Emplazado) | Defensor Privado: sANDER SENEY SIERRA CORREDOR ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2023-01-01T05:00:00.000Z"

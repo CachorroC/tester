@@ -39,8 +39,23 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": null,
+        "fisico": null,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "292",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": null,
+        "medidaSolicitada": "INMUEBLE"
+      },
       "vencimientoPagare": [
         "2033-01-01T05:00:00.000Z"
       ],

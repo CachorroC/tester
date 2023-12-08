@@ -58,8 +58,29 @@
       "sujetosProcesales": "Demandante/accionante: Banco Bancolombia SA | Demandado/indiciado/causante: JEOVANY  ROJAS CRUZ | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": true,
+        "fisico": false,
+        "autoNotificado": "7/09/2018",
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": "2018-08-28T05:00:00.000Z",
+            "fechaAporta": "2018-08-28T05:00:00.000Z",
+            "resultado": true
+          },
+          {
+            "tipo": "292",
+            "fechaRecibido": null,
+            "fechaAporta": "2018-09-07T05:00:00.000Z",
+            "resultado": true
+          }
+        ]
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": "2017-12-09T05:00:00.000Z",
+        "medidaSolicitada": "EMBARGO DE VEHICULO"
+      },
       "vencimientoPagare": [
         "2020-01-01T05:00:00.000Z"
       ],

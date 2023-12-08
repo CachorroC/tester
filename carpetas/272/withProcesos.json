@@ -16,7 +16,7 @@
       "idProceso": 50760770,
       "isUltimaAct": true,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378280,
@@ -34,7 +34,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378270,
@@ -52,7 +52,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378260,
@@ -70,7 +70,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378250,
@@ -88,7 +88,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378240,
@@ -106,7 +106,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378230,
@@ -124,7 +124,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378220,
@@ -142,7 +142,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378210,
@@ -160,7 +160,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378200,
@@ -178,7 +178,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378190,
@@ -196,7 +196,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378180,
@@ -214,7 +214,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     },
     {
       "idRegActuacion": 587378170,
@@ -232,7 +232,7 @@
       "idProceso": 50760770,
       "isUltimaAct": false,
       "carpetaNumero": 272,
-      "createdAt": "2023-12-07T18:58:45.407Z"
+      "createdAt": "2023-12-08T03:40:13.945Z"
     }
   ],
   "juzgados": [
@@ -282,7 +282,19 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: LUIS FERNANDO GUTIERREZ RODRIGUEZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"

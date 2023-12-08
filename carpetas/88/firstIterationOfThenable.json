@@ -35,7 +35,19 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": null
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2018-01-01T05:00:00.000Z"

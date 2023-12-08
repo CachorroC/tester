@@ -44,7 +44,19 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": null,
+        "fisico": null,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2020-01-01T05:00:00.000Z"

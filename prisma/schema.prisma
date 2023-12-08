@@ -159,6 +159,7 @@ model MedidasCautelares {
 model Notifier {
   id             Int           @id @default(autoincrement())
   fechaRecibido  DateTime?
+  tipo String
   resultado      Boolean?
   fechaAporta    DateTime?
   Notificacion   Notificacion? @relation(fields: [notificacionId], references: [id])

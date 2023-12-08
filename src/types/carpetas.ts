@@ -104,16 +104,19 @@ export interface DemandaRaw {
     A?: number | string;
     B?: number | string;
   };
-  notificacion?: {
-    '291'?: The291;
-    '292'?: The292;
-    certimail?: string;
-    fisico?: FisicoEnum | number;
-    tipo?: number | string;
-    autoNotificado?: number | string;
-  };
+  notificacion?: rawNotificacion;
   radicado?: number | string;
   vencimientoPagare?: number | string;
+}
+
+
+export interface rawNotificacion  {
+  '291'?: The291;
+  '292'?: The292;
+  certimail?: string;
+  fisico?: FisicoEnum | number;
+  tipo?: number | string;
+  autoNotificado?: number | string;
 }
 
 export type ResultadoEnum =
@@ -250,6 +253,7 @@ export interface intNotificacion {
   fisico: boolean | null;
   autoNotificado: string | null;
   notifiers: {
+    tipo: '291' | '292';
     fechaRecibido: Date | null;
     resultado: boolean | null;
     fechaAporta: Date | null;

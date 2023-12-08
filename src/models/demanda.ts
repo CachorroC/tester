@@ -1,9 +1,14 @@
 import { Juzgado } from '@prisma/client';
 import { Despachos } from '../data/despachos';
-import { DemandaRaw, IntDemanda,  TipoProceso, intNotificacion } from '../types/carpetas';
+import { DemandaRaw,
+  IntDemanda,
+  TipoProceso,
+  intNotificacion,
+  rawNotificacion, } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
-import { fechaPresentacionBuilder } from './idk';
+import { fechaPresentacionBuilder,
+  fixSingleFecha, } from './idk';
 
 function vencimientoPagareFixer(
   rawVencimientoPagare?: string | number
@@ -35,13 +40,15 @@ function vencimientoPagareFixer(
         '/', '-'
       );
 
-    const regexMatchStringYear = newPagareString.match(
-      /\d{4}/g
-    );
+    const regexMatchStringYear
+      = newPagareString.match(
+        /\d{4}/g
+      );
 
-    const regexMatchStringMonth = newPagareString.match(
-      /-\d{1,2}-/g
-    );
+    const regexMatchStringMonth
+      = newPagareString.match(
+        /-\d{1,2}-/g
+      );
     console.log(
       regexMatchStringYear
     );
@@ -61,16 +68,20 @@ function vencimientoPagareFixer(
     const stringDate = new Date(
       Number(
         year
-      ), Number(
+      ),
+      Number(
         month
       ) - 1
     );
 
     console.log(
-      `la nueva fecha del pagaré arrojó: ${ stringDate.toDateString() }`,
+      `la nueva fecha del pagaré arrojó: ${ stringDate.toDateString() }`
     );
 
-    if ( !stringDate || stringDate.toString() === 'Invalid Date' ) {
+    if (
+      !stringDate
+      || stringDate.toString() === 'Invalid Date'
+    ) {
       pagaresDateSet.add(
         null
       );
@@ -178,7 +189,9 @@ class NewJuzgado implements Juzgado {
 
         if ( indexOfDesp >= 0 ) {
           console.log(
-            `procesos despacho is in despachos ${ indexOfDesp + 1 }`
+            `procesos despacho is in despachos ${
+              indexOfDesp + 1
+            }`
           );
         }
 
@@ -227,9 +240,12 @@ export class ClassDemanda implements IntDemanda {
       obligacion,
       radicado,
       llaveProceso,
+      medidasCautelares,
+      notificacion,
       vencimientoPagare,
-    }: DemandaRaw, numero: number,
-    proceso?: intProceso,
+    }: DemandaRaw,
+    numero: number,
+    proceso?: intProceso
   ) {
     const obligacionesSet = new Set<string | number>();
 
@@ -264,7 +280,8 @@ export class ClassDemanda implements IntDemanda {
     if ( !dateMandamientoPago ) {
       this.mandamientoPago = null;
     } else {
-      const isValidDate = dateMandamientoPago.toString() !== 'Invalid Date';
+      const isValidDate
+        = dateMandamientoPago.toString() !== 'Invalid Date';
 
       if ( !isValidDate ) {
         this.mandamientoPago = null;
@@ -273,22 +290,25 @@ export class ClassDemanda implements IntDemanda {
       }
     }
 
-    const dateEntregaGarantiasAbogado = entregaGarantiasAbogado
-      ? new Date(
-        entregaGarantiasAbogado
-      )
-      : null;
+    const dateEntregaGarantiasAbogado
+      = entregaGarantiasAbogado
+        ? new Date(
+          entregaGarantiasAbogado
+        )
+        : null;
 
     if ( !dateEntregaGarantiasAbogado ) {
       this.entregaGarantiasAbogado = null;
     } else {
       const isValidDate
-        = dateEntregaGarantiasAbogado.toString() !== 'Invalid Date';
+        = dateEntregaGarantiasAbogado.toString()
+        !== 'Invalid Date';
 
       if ( !isValidDate ) {
         this.entregaGarantiasAbogado = null;
       } else {
-        this.entregaGarantiasAbogado = dateEntregaGarantiasAbogado;
+        this.entregaGarantiasAbogado
+          = dateEntregaGarantiasAbogado;
       }
     }
 
@@ -299,7 +319,7 @@ export class ClassDemanda implements IntDemanda {
     this.capitalAdeudado = capitalBuilder(
       capitalAdeudado
         ? capitalAdeudado
-        : 0,
+        : 0
     );
 
     this.tipoProceso = tipoProcesoBuilder(
@@ -358,10 +378,24 @@ export class ClassDemanda implements IntDemanda {
       ? proceso.cantFilas
       : null;
 
-    this.notificacion = null;
-    this.medidasCautelares = null;
+    this.medidasCautelares = medidasCautelares
+      ? {
+          fechaOrdenaMedida: medidasCautelares.fechaOrdenaMedidas
+            ? new Date(
+              medidasCautelares.fechaOrdenaMedidas
+            )
+            : null
+          , medidaSolicitada: medidasCautelares.medidaSolicitada
+            ? medidasCautelares.medidaSolicitada
+            : null
+        }
+      : null;
 
-
+    this.notificacion = notificacion
+      ? new ClassNotificacion(
+        notificacion
+      )
+      : null;
   }
   juzgado: Juzgado | null;
   idProceso: number;
@@ -373,7 +407,10 @@ export class ClassDemanda implements IntDemanda {
   esPrivado: boolean | null;
   cantFilas: number | null;
   notificacion: intNotificacion | null;
-  medidasCautelares: { fechaOrdenaMedida: Date | null; medidaSolicitada: string | null; } | null;
+  medidasCautelares: {
+    fechaOrdenaMedida: Date | null;
+    medidaSolicitada: string | null;
+  } | null;
   vencimientoPagare: ( Date | null )[];
   capitalAdeudado: number | null;
   departamento: string | null;
@@ -385,5 +422,128 @@ export class ClassDemanda implements IntDemanda {
   municipio: string | null;
   obligacion: ( number | string )[];
   radicado: string | null;
+}
 
+export class ClassNotificacion implements intNotificacion {
+  constructor(
+    notificacion: rawNotificacion
+  ) {
+    const {
+      fisico, certimail, autoNotificado
+    }
+      = notificacion;
+    this.certimail = certimail
+      ? certimail === 'SI'
+        ? true
+        : false
+      : null;
+    this.fisico = fisico
+      ? fisico === 'SI'
+        ? true
+        : false
+      : null;
+    this.autoNotificado = autoNotificado
+      ? typeof autoNotificado === 'number'
+        ? autoNotificado.toString()
+        : autoNotificado
+      : null;
+
+    const notifiersBuilder = new Map<number, {
+      tipo: '291' | '292';
+      fechaRecibido: Date | null;
+      resultado: boolean | null;
+      fechaAporta: Date | null;
+    }>();
+
+    const the291 = notificacion[ '291' ];
+
+    if ( the291 ) {
+      const {
+        fechaRecibido, resultado, fechaAporta
+      }
+        = the291;
+
+      const newFechaRecibido = fechaRecibido
+        ? fixSingleFecha(
+          typeof fechaRecibido === 'number'
+            ? fechaRecibido.toString()
+            : fechaRecibido
+        )
+        : null;
+
+      const newFechaAporta = fechaAporta
+        ? fixSingleFecha(
+          typeof fechaAporta === 'number'
+            ? fechaAporta.toString()
+            : fechaAporta
+        )
+        : null;
+
+      const newResultado = resultado
+        ? resultado === 'POSITIVO'
+          ? true
+          : false
+        : null;
+      notifiersBuilder.set(
+        291,
+        {
+          tipo         : '291'
+          , fechaRecibido: newFechaRecibido
+          , fechaAporta  : newFechaAporta
+          , resultado    : newResultado,
+        }
+      );
+    }
+
+    const the292 = notificacion[ '292' ];
+
+    if ( the292 ) {
+      const {
+        fechaRecibido, resultado, fechaAporta
+      }
+        = the292;
+
+      const newFechaRecibido = fechaRecibido
+        ? fixSingleFecha(
+          fechaRecibido
+        )
+        : null;
+
+      const newFechaAporta = fechaAporta
+        ? fixSingleFecha(
+          typeof fechaAporta === 'number'
+            ? fechaAporta.toString()
+            : fechaAporta
+        )
+        : null;
+
+      const newResultado = resultado
+        ? resultado === 'POSITIVO'
+          ? true
+          : false
+        : null;
+      notifiersBuilder.set(
+        292,
+        {
+          tipo         : '292'
+          , fechaRecibido: newFechaRecibido
+          , fechaAporta  : newFechaAporta
+          , resultado    : newResultado,
+        }
+      );
+    }
+
+    this.notifiers = Array.from(
+      notifiersBuilder.values()
+    );
+  }
+  certimail: boolean | null;
+  fisico: boolean | null;
+  autoNotificado: string | null;
+  notifiers: {
+    tipo: '291' | '292';
+    fechaRecibido: Date | null;
+    resultado: boolean | null;
+    fechaAporta: Date | null;
+  }[];
 }

@@ -167,10 +167,12 @@ export class CarpetaJudicial implements IntCarpeta {
   set nombre(
     nom
   ) {
-    [ this.deudor.primerNombre,
+    [
+      this.deudor.primerNombre,
       this.deudor.segundoNombre,
       this.deudor.primerApellido,
-      this.deudor.segundoApellido, ] = nom.split(
+      this.deudor.segundoApellido,
+    ] = nom.split(
       ' '
     );
   }

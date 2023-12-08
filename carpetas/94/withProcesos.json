@@ -16,7 +16,7 @@
       "idProceso": 17325724,
       "isUltimaAct": true,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-07T18:58:13.311Z"
+      "createdAt": "2023-12-08T03:38:54.341Z"
     },
     {
       "idRegActuacion": 98177794,
@@ -34,7 +34,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-07T18:58:13.311Z"
+      "createdAt": "2023-12-08T03:38:54.341Z"
     },
     {
       "idRegActuacion": 98177784,
@@ -52,7 +52,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-07T18:58:13.311Z"
+      "createdAt": "2023-12-08T03:38:54.341Z"
     },
     {
       "idRegActuacion": 98177774,
@@ -70,7 +70,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-07T18:58:13.311Z"
+      "createdAt": "2023-12-08T03:38:54.341Z"
     },
     {
       "idRegActuacion": 98177764,
@@ -88,7 +88,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-07T18:58:13.311Z"
+      "createdAt": "2023-12-08T03:38:54.341Z"
     },
     {
       "idRegActuacion": 98177754,
@@ -106,7 +106,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-07T18:58:13.311Z"
+      "createdAt": "2023-12-08T03:38:54.341Z"
     },
     {
       "idRegActuacion": 98177744,
@@ -124,7 +124,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-07T18:58:13.311Z"
+      "createdAt": "2023-12-08T03:38:54.341Z"
     },
     {
       "idRegActuacion": 98177734,
@@ -142,7 +142,7 @@
       "idProceso": 17325724,
       "isUltimaAct": false,
       "carpetaNumero": 94,
-      "createdAt": "2023-12-07T18:58:13.311Z"
+      "createdAt": "2023-12-08T03:38:54.341Z"
     }
   ],
   "juzgados": [
@@ -191,7 +191,19 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AIDA YURANY  GRIJALBA MARTINEZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2034-01-01T05:00:00.000Z"

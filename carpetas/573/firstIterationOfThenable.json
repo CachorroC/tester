@@ -1,6 +1,42 @@
 {
   "actuaciones": [
     {
+      "idRegActuacion": 1142615094,
+      "llaveProceso": "11001400305520230074600",
+      "consActuacion": 11,
+      "fechaActuacion": "2023-12-07T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 07/12/2023 a las 15:30:53.",
+      "fechaInicial": "2023-12-11T05:00:00.000Z",
+      "fechaFinal": "2023-12-11T05:00:00.000Z",
+      "fechaRegistro": "2023-12-07T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 11,
+      "idProceso": 1829856154,
+      "isUltimaAct": true,
+      "carpetaNumero": 573,
+      "createdAt": "2023-12-08T03:42:11.863Z"
+    },
+    {
+      "idRegActuacion": 1142615084,
+      "llaveProceso": "11001400305520230074600",
+      "consActuacion": 10,
+      "fechaActuacion": "2023-12-07T05:00:00.000Z",
+      "actuacion": "Auto requiere",
+      "anotacion": " AL DEMANDANTE  NOTIFIQUE NUEVAMENTE- LETRA",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-07T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 11,
+      "idProceso": 1829856154,
+      "isUltimaAct": false,
+      "carpetaNumero": 573,
+      "createdAt": "2023-12-08T03:42:11.863Z"
+    },
+    {
       "idRegActuacion": 1137554444,
       "llaveProceso": "11001400305520230074600",
       "consActuacion": 9,
@@ -12,11 +48,11 @@
       "fechaRegistro": "2023-11-10T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 11,
       "idProceso": 1829856154,
-      "isUltimaAct": true,
+      "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-07T18:59:36.850Z"
+      "createdAt": "2023-12-08T03:42:11.863Z"
     },
     {
       "idRegActuacion": 1127170784,
@@ -30,11 +66,11 @@
       "fechaRegistro": "2023-09-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 11,
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-07T18:59:36.850Z"
+      "createdAt": "2023-12-08T03:42:11.863Z"
     },
     {
       "idRegActuacion": 1125576004,
@@ -48,11 +84,11 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 11,
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-07T18:59:36.850Z"
+      "createdAt": "2023-12-08T03:42:11.863Z"
     },
     {
       "idRegActuacion": 1122261754,
@@ -66,11 +102,11 @@
       "fechaRegistro": "2023-08-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 11,
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-07T18:59:36.850Z"
+      "createdAt": "2023-12-08T03:42:11.863Z"
     },
     {
       "idRegActuacion": 1122261744,
@@ -84,11 +120,11 @@
       "fechaRegistro": "2023-08-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 11,
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-07T18:59:36.850Z"
+      "createdAt": "2023-12-08T03:42:11.863Z"
     },
     {
       "idRegActuacion": 1122261734,
@@ -102,11 +138,11 @@
       "fechaRegistro": "2023-08-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 11,
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-07T18:59:36.850Z"
+      "createdAt": "2023-12-08T03:42:11.863Z"
     },
     {
       "idRegActuacion": 1122261724,
@@ -120,11 +156,11 @@
       "fechaRegistro": "2023-08-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 11,
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-07T18:59:36.850Z"
+      "createdAt": "2023-12-08T03:42:11.863Z"
     },
     {
       "idRegActuacion": 1121675574,
@@ -138,11 +174,11 @@
       "fechaRegistro": "2023-08-09T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 11,
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-07T18:59:36.850Z"
+      "createdAt": "2023-12-08T03:42:11.863Z"
     },
     {
       "idRegActuacion": 1121675564,
@@ -156,11 +192,11 @@
       "fechaRegistro": "2023-08-09T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 9,
+      "cant": 11,
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-07T18:59:36.850Z"
+      "createdAt": "2023-12-08T03:42:11.863Z"
     }
   ],
   "juzgados": [
@@ -196,7 +232,7 @@
       "idConexion": 263,
       "llaveProceso": "11001400305520230074600",
       "fechaProceso": "2023-08-09T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-11-10T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-07T05:00:00.000Z",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JAIME ENRIQUE QUINTERO MENDOZA ",
       "esPrivado": false,
       "cantFilas": -1,
@@ -223,20 +259,20 @@
   ],
   "numero": 573,
   "llaveProceso": "11001400305520230074600",
-  "fecha": "2023-11-10T05:00:00.000Z",
+  "fecha": "2023-12-07T05:00:00.000Z",
   "ultimaActuacion": {
-    "idRegActuacion": 1137554444,
+    "idRegActuacion": 1142615094,
     "llaveProceso": "11001400305520230074600",
-    "consActuacion": 9,
-    "fechaActuacion": "2023-11-10T00:00:00",
-    "actuacion": "Al despacho",
-    "anotacion": null,
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-11-10T00:00:00",
+    "consActuacion": 11,
+    "fechaActuacion": "2023-12-07T00:00:00",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 07/12/2023 a las 15:30:53.",
+    "fechaInicial": "2023-12-11T00:00:00",
+    "fechaFinal": "2023-12-11T00:00:00",
+    "fechaRegistro": "2023-12-07T00:00:00",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 9,
+    "cant": 11,
     "idProceso": 1829856154,
     "isUltimaAct": true
   },
@@ -264,7 +300,7 @@
       "idConexion": 263,
       "llaveProceso": "11001400305520230074600",
       "fechaProceso": "2023-08-09T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-11-10T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-07T05:00:00.000Z",
       "despacho": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JAIME ENRIQUE QUINTERO MENDOZA ",

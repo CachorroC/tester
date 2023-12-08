@@ -59,8 +59,29 @@
       "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: JUAN CAMILO CHINGATE PENAGOS (Emplazado) | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": true,
+        "autoNotificado": "5/0572019",
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": "2018-05-08T05:00:00.000Z",
+            "fechaAporta": "2018-05-08T05:00:00.000Z",
+            "resultado": false
+          },
+          {
+            "tipo": "292",
+            "fechaRecibido": "2018-07-16T05:00:00.000Z",
+            "fechaAporta": "2018-05-03T05:00:00.000Z",
+            "resultado": false
+          }
+        ]
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": null,
+        "medidaSolicitada": "EMBARGO DE VEHICULO"
+      },
       "vencimientoPagare": [
         "2021-01-01T05:00:00.000Z"
       ],

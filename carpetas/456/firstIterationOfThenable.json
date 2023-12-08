@@ -55,8 +55,29 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": "CORREO",
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          },
+          {
+            "tipo": "292",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": null
+          }
+        ]
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": "2018-09-10T05:00:00.000Z",
+        "medidaSolicitada": "25/09/2018"
+      },
       "vencimientoPagare": [
         "2021-01-01T05:00:00.000Z"
       ],

@@ -16,7 +16,7 @@
       "idProceso": 50688520,
       "isUltimaAct": true,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-07T18:58:36.752Z"
+      "createdAt": "2023-12-08T03:39:47.599Z"
     },
     {
       "idRegActuacion": 725462980,
@@ -34,7 +34,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-07T18:58:36.752Z"
+      "createdAt": "2023-12-08T03:39:47.599Z"
     },
     {
       "idRegActuacion": 725462970,
@@ -52,7 +52,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-07T18:58:36.752Z"
+      "createdAt": "2023-12-08T03:39:47.599Z"
     },
     {
       "idRegActuacion": 725462960,
@@ -70,7 +70,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-07T18:58:36.752Z"
+      "createdAt": "2023-12-08T03:39:47.599Z"
     },
     {
       "idRegActuacion": 725462950,
@@ -88,7 +88,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-07T18:58:36.752Z"
+      "createdAt": "2023-12-08T03:39:47.599Z"
     },
     {
       "idRegActuacion": 725462940,
@@ -106,7 +106,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-07T18:58:36.752Z"
+      "createdAt": "2023-12-08T03:39:47.599Z"
     }
   ],
   "juzgados": [
@@ -163,7 +163,19 @@
       "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: LUCY STELLA OSMA RODRIGUEZ | Demandado: DUFRESNY AUGUSTO PINILLA GARCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2022-01-01T05:00:00.000Z"

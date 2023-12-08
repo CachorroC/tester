@@ -16,7 +16,7 @@
       "idProceso": 17941680,
       "isUltimaAct": true,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     },
     {
       "idRegActuacion": 265448170,
@@ -34,7 +34,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     },
     {
       "idRegActuacion": 265448160,
@@ -52,7 +52,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     },
     {
       "idRegActuacion": 265448150,
@@ -70,7 +70,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     },
     {
       "idRegActuacion": 265448140,
@@ -88,7 +88,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     },
     {
       "idRegActuacion": 265448130,
@@ -106,7 +106,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     },
     {
       "idRegActuacion": 265448120,
@@ -124,7 +124,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     },
     {
       "idRegActuacion": 265448110,
@@ -142,7 +142,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     },
     {
       "idRegActuacion": 265448100,
@@ -160,7 +160,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     },
     {
       "idRegActuacion": 265448090,
@@ -178,7 +178,7 @@
       "idProceso": 17941680,
       "isUltimaAct": false,
       "carpetaNumero": 54,
-      "createdAt": "2023-12-07T18:58:05.784Z"
+      "createdAt": "2023-12-08T03:38:40.539Z"
     }
   ],
   "juzgados": [
@@ -229,7 +229,19 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: OLGA GALLEGO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2022-01-01T05:00:00.000Z"

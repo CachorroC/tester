@@ -4,9 +4,7 @@ const carpsMap = carpetas.map(
   (
     carpeta
   ) => {
-    return fechaPresentacionBuilder(
-      carpeta.demanda.fechaPresentacion
-    );
+    return carpeta.demanda.notificacion;
   }
 );
 

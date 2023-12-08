@@ -16,7 +16,7 @@
       "idProceso": 50715970,
       "isUltimaAct": true,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T18:58:41.184Z"
+      "createdAt": "2023-12-08T03:39:56.493Z"
     },
     {
       "idRegActuacion": 817031820,
@@ -34,7 +34,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T18:58:41.184Z"
+      "createdAt": "2023-12-08T03:39:56.493Z"
     },
     {
       "idRegActuacion": 817031810,
@@ -52,7 +52,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T18:58:41.184Z"
+      "createdAt": "2023-12-08T03:39:56.493Z"
     },
     {
       "idRegActuacion": 817031800,
@@ -70,7 +70,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T18:58:41.184Z"
+      "createdAt": "2023-12-08T03:39:56.493Z"
     },
     {
       "idRegActuacion": 817031790,
@@ -88,7 +88,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T18:58:41.184Z"
+      "createdAt": "2023-12-08T03:39:56.493Z"
     },
     {
       "idRegActuacion": 817031780,
@@ -106,7 +106,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T18:58:41.184Z"
+      "createdAt": "2023-12-08T03:39:56.493Z"
     },
     {
       "idRegActuacion": 817031770,
@@ -124,7 +124,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-07T18:58:41.184Z"
+      "createdAt": "2023-12-08T03:39:56.493Z"
     }
   ],
   "juzgados": [
@@ -181,7 +181,19 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HENRY CARRANZA ALBA | Demandado: FELIPE ANDRES CARRANZA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": false,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"

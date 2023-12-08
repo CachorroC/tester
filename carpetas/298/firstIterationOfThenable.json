@@ -16,7 +16,7 @@
       "idProceso": 51570460,
       "isUltimaAct": true,
       "carpetaNumero": 298,
-      "createdAt": "2023-12-07T18:58:49.809Z"
+      "createdAt": "2023-12-08T03:40:27.188Z"
     },
     {
       "idRegActuacion": 857000680,
@@ -34,7 +34,7 @@
       "idProceso": 51570460,
       "isUltimaAct": false,
       "carpetaNumero": 298,
-      "createdAt": "2023-12-07T18:58:49.809Z"
+      "createdAt": "2023-12-08T03:40:27.188Z"
     }
   ],
   "juzgados": [
@@ -86,8 +86,23 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR GABRIEL RAMIREZ BOHORQUEZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": null,
+        "fisico": null,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "292",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          }
+        ]
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": null,
+        "medidaSolicitada": "INMUEBLE"
+      },
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
       ],

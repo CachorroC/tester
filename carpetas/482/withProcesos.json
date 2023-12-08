@@ -16,7 +16,7 @@
       "idProceso": 18597560,
       "isUltimaAct": true,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 559135740,
@@ -34,7 +34,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 559135730,
@@ -52,7 +52,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 557681260,
@@ -70,7 +70,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 267962680,
@@ -88,7 +88,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 267962670,
@@ -106,7 +106,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 267962660,
@@ -124,7 +124,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 267962650,
@@ -142,7 +142,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 267962640,
@@ -160,7 +160,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 267962630,
@@ -178,7 +178,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 267962620,
@@ -196,7 +196,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 267962610,
@@ -214,7 +214,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     },
     {
       "idRegActuacion": 267962600,
@@ -232,7 +232,7 @@
       "idProceso": 18597560,
       "isUltimaAct": false,
       "carpetaNumero": 482,
-      "createdAt": "2023-12-07T18:59:22.218Z"
+      "createdAt": "2023-12-08T03:41:40.369Z"
     }
   ],
   "juzgados": [
@@ -286,7 +286,19 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CLAUDIA JANETH CORTES ROSAS ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": null,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": "2018-11-29T05:00:00.000Z",
+            "fechaAporta": null,
+            "resultado": null
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [],
       "capitalAdeudado": 3532103375,

@@ -16,7 +16,7 @@
       "idProceso": 77695680,
       "isUltimaAct": true,
       "carpetaNumero": 97,
-      "createdAt": "2023-12-07T18:58:13.922Z"
+      "createdAt": "2023-12-08T03:38:55.453Z"
     },
     {
       "idRegActuacion": 976636660,
@@ -34,7 +34,7 @@
       "idProceso": 77695680,
       "isUltimaAct": false,
       "carpetaNumero": 97,
-      "createdAt": "2023-12-07T18:58:13.922Z"
+      "createdAt": "2023-12-08T03:38:55.453Z"
     }
   ],
   "juzgados": [
@@ -82,8 +82,16 @@
       "sujetosProcesales": "Demandante: BANCO PICHINCHA | Demandado: JOSE ALFREDO RIAÑO MALDONADO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": null,
+        "fisico": null,
+        "autoNotificado": "43124",
+        "notifiers": []
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": "2018-12-01T05:00:00.000Z",
+        "medidaSolicitada": "INMUEBLE"
+      },
       "vencimientoPagare": [],
       "capitalAdeudado": 7986288623,
       "departamento": "CUNDINAMARCA",

@@ -61,8 +61,29 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": true,
+        "autoNotificado": "CERTIMAIL",
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          },
+          {
+            "tipo": "292",
+            "fechaRecibido": "2018-03-08T05:00:00.000Z",
+            "fechaAporta": null,
+            "resultado": null
+          }
+        ]
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": "2018-03-05T05:00:00.000Z",
+        "medidaSolicitada": "12/01/2018"
+      },
       "vencimientoPagare": [
         "2020-01-01T05:00:00.000Z"
       ],
@@ -93,8 +114,29 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": null,
-      "medidasCautelares": null,
+      "notificacion": {
+        "certimail": false,
+        "fisico": true,
+        "autoNotificado": "CERTIMAIL",
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": false
+          },
+          {
+            "tipo": "292",
+            "fechaRecibido": "2018-03-08T05:00:00.000Z",
+            "fechaAporta": null,
+            "resultado": null
+          }
+        ]
+      },
+      "medidasCautelares": {
+        "fechaOrdenaMedida": "2018-03-05T05:00:00.000Z",
+        "medidaSolicitada": "12/01/2018"
+      },
       "vencimientoPagare": [
         "2020-01-01T05:00:00.000Z"
       ],

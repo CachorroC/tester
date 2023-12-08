@@ -16,7 +16,7 @@
       "idProceso": 11486153,
       "isUltimaAct": true,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966143,
@@ -34,7 +34,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966233,
@@ -52,7 +52,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966223,
@@ -70,7 +70,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966213,
@@ -88,7 +88,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966203,
@@ -106,7 +106,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966193,
@@ -124,7 +124,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966183,
@@ -142,7 +142,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966173,
@@ -160,7 +160,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966163,
@@ -178,7 +178,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     },
     {
       "idRegActuacion": 144966133,
@@ -196,7 +196,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-07T18:58:04.872Z"
+      "createdAt": "2023-12-08T03:38:38.997Z"
     }
   ],
   "juzgados": [
@@ -249,7 +249,19 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ISRAEL MONROY CORDOBA | Demandado: ANA PATRICIA VILLAMIZAR MONTOYA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
+      "notificacion": {
+        "certimail": null,
+        "fisico": null,
+        "autoNotificado": null,
+        "notifiers": [
+          {
+            "tipo": "291",
+            "fechaRecibido": null,
+            "fechaAporta": null,
+            "resultado": null
+          }
+        ]
+      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2027-01-01T05:00:00.000Z"
