@@ -62,5 +62,18 @@
   "cc": 1030554218,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JEIMY CAROLINA LEGUIZAMON VASQUEZ"
+  "nombre": "JEIMY CAROLINA LEGUIZAMON VASQUEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": "2018-09-17T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "CORREO"
+  }
 }

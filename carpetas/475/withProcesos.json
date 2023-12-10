@@ -63,5 +63,24 @@
   "cc": 4281808,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JOSE LIBRANDO CANDELA MUNEVAR"
+  "nombre": "JOSE LIBRANDO CANDELA MUNEVAR",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-06-19T05:00:00.000Z",
+        "fechaAporta": "2018-05-18T05:00:00.000Z",
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2018-06-19T05:00:00.000Z",
+        "fechaAporta": "2018-05-18T05:00:00.000Z",
+        "resultado": true
+      }
+    ],
+    "certimail": true,
+    "fisico": false,
+    "autoNotificado": "7/06/2018"
+  }
 }

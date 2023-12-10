@@ -1,15 +1,15 @@
 {
-  "numero": 30,
-  "llaveProceso": "11001400303020170095100",
-  "nombre": "MIREYA VIVIANA BELTRAN HERRERA",
+  "category": "Terminados",
+  "fecha": "2018-09-17T05:00:00.000Z",
   "idProcesos": [
     50492700
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2018-09-17T05:00:00.000Z",
+  "idRegUltimaAct": 739098180,
+  "llaveProceso": "11001400303020170095100",
+  "nombre": "MIREYA VIVIANA BELTRAN HERRERA",
+  "numero": 30,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:32.543Z",
   "terminado": true,
-  "idRegUltimaAct": 739098180
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:00:34.883Z"
 }

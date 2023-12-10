@@ -1,15 +1,15 @@
 {
-  "numero": 167,
-  "llaveProceso": "11001310301020170071000",
-  "nombre": "JOSE MAURICIO GONZALEZ CALDERON",
+  "category": "Terminados",
+  "fecha": "2022-09-15T05:00:00.000Z",
   "idProcesos": [
     28842484
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2022-09-15T05:00:00.000Z",
+  "idRegUltimaAct": 1062932784,
+  "llaveProceso": "11001310301020170071000",
+  "nombre": "JOSE MAURICIO GONZALEZ CALDERON",
+  "numero": 167,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:25.913Z",
   "terminado": true,
-  "idRegUltimaAct": 1062932784
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:00:55.818Z"
 }

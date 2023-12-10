@@ -59,5 +59,18 @@
   "cc": 53051476,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "DIANA MARCELA SANCHEZ LOZANO"
+  "nombre": "DIANA MARCELA SANCHEZ LOZANO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

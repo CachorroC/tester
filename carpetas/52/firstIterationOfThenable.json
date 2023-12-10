@@ -59,5 +59,18 @@
   "cc": 35412591,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "MARTHA STELLA GOMEZ BOLIVAR"
+  "nombre": "MARTHA STELLA GOMEZ BOLIVAR",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

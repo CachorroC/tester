@@ -1,15 +1,15 @@
 {
-  "numero": 495,
-  "llaveProceso": "11001400300320180123600",
-  "nombre": "PABLO ELIAS MENDOZA MURILLO",
+  "category": "Terminados",
+  "fecha": "2021-12-06T05:00:00.000Z",
   "idProcesos": [
     51431830
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2021-12-06T05:00:00.000Z",
+  "idRegUltimaAct": 1237275320,
+  "llaveProceso": "11001400300320180123600",
+  "nombre": "PABLO ELIAS MENDOZA MURILLO",
+  "numero": 495,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:41:43.781Z",
   "terminado": true,
-  "idRegUltimaAct": 1237275320
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:45.464Z"
 }

@@ -16,7 +16,7 @@
       "idProceso": 10134513,
       "isUltimaAct": true,
       "carpetaNumero": 212,
-      "createdAt": "2023-12-08T03:39:44.203Z"
+      "createdAt": "2023-12-10T19:01:02.783Z"
     },
     {
       "idRegActuacion": 119895673,
@@ -34,7 +34,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-12-08T03:39:44.203Z"
+      "createdAt": "2023-12-10T19:01:02.783Z"
     },
     {
       "idRegActuacion": 119895663,
@@ -52,7 +52,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-12-08T03:39:44.203Z"
+      "createdAt": "2023-12-10T19:01:02.783Z"
     },
     {
       "idRegActuacion": 119895653,
@@ -70,7 +70,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-12-08T03:39:44.203Z"
+      "createdAt": "2023-12-10T19:01:02.783Z"
     },
     {
       "idRegActuacion": 119895643,
@@ -88,7 +88,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-12-08T03:39:44.203Z"
+      "createdAt": "2023-12-10T19:01:02.783Z"
     },
     {
       "idRegActuacion": 119895633,
@@ -106,7 +106,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-12-08T03:39:44.203Z"
+      "createdAt": "2023-12-10T19:01:02.783Z"
     },
     {
       "idRegActuacion": 119895623,
@@ -124,7 +124,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-12-08T03:39:44.203Z"
+      "createdAt": "2023-12-10T19:01:02.783Z"
     },
     {
       "idRegActuacion": 119895613,
@@ -142,7 +142,7 @@
       "idProceso": 10134513,
       "isUltimaAct": false,
       "carpetaNumero": 212,
-      "createdAt": "2023-12-08T03:39:44.203Z"
+      "createdAt": "2023-12-10T19:01:02.783Z"
     }
   ],
   "juzgados": [
@@ -176,11 +176,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 46,
-        "tipo": "JUZGADO 046 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-46-civil-municipal-de-bogota"
-      },
       "idProceso": 10134513,
       "idConexion": 261,
       "llaveProceso": "11001400304620170103500",
@@ -189,7 +184,6 @@
       "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A HITOS | Demandado: ANA ISABEL OLIVERA | Demandado: FERNANDO VERA FARFAN ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -264,5 +258,6 @@
   "idProcesos": [
     10134513
   ],
-  "nombre": "FERNANDO VERA FARFAN"
+  "nombre": "FERNANDO VERA FARFAN",
+  "notificacion": null
 }

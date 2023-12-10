@@ -1,15 +1,15 @@
 {
-  "numero": 206,
-  "llaveProceso": "11001400306420170146900",
-  "nombre": "EDGAR MARTINEZ VELANDIA",
+  "category": "Terminados",
+  "fecha": "2017-12-01T05:00:00.000Z",
   "idProcesos": [
     17944250
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2017-12-01T05:00:00.000Z",
+  "idRegUltimaAct": 265839730,
+  "llaveProceso": "11001400306420170146900",
+  "nombre": "EDGAR MARTINEZ VELANDIA",
+  "numero": 206,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:42.126Z",
   "terminado": true,
-  "idRegUltimaAct": 265839730
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:01.928Z"
 }

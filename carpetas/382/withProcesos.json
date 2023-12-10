@@ -53,5 +53,18 @@
   "cc": 80403235,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "CARLOS ALBERTO LANCHEROS BARRAGAN"
+  "nombre": "CARLOS ALBERTO LANCHEROS BARRAGAN",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "FISICO"
+  }
 }

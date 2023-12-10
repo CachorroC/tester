@@ -1,15 +1,15 @@
 {
-  "numero": 313,
-  "llaveProceso": "11001400307820170104900",
-  "nombre": "MAURICIO PEREZ PLAZAS",
+  "category": "Terminados",
+  "fecha": "2022-09-01T05:00:00.000Z",
   "idProcesos": [
     51463110
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2022-09-01T05:00:00.000Z",
+  "idRegUltimaAct": 1384688780,
+  "llaveProceso": "11001400307820170104900",
+  "nombre": "MAURICIO PEREZ PLAZAS",
+  "numero": 313,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:40:32.295Z",
   "terminado": true,
-  "idRegUltimaAct": 1384688780
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:19.373Z"
 }

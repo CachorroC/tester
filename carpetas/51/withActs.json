@@ -16,7 +16,7 @@
       "idProceso": 50537040,
       "isUltimaAct": true,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     },
     {
       "idRegActuacion": 607252650,
@@ -34,7 +34,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     },
     {
       "idRegActuacion": 607252640,
@@ -52,7 +52,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     },
     {
       "idRegActuacion": 607252630,
@@ -70,7 +70,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     },
     {
       "idRegActuacion": 607252620,
@@ -88,7 +88,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     },
     {
       "idRegActuacion": 607252610,
@@ -106,7 +106,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     },
     {
       "idRegActuacion": 607252600,
@@ -124,7 +124,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     },
     {
       "idRegActuacion": 607252590,
@@ -142,7 +142,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     },
     {
       "idRegActuacion": 607252580,
@@ -160,7 +160,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     },
     {
       "idRegActuacion": 607252570,
@@ -178,7 +178,7 @@
       "idProceso": 50537040,
       "isUltimaAct": false,
       "carpetaNumero": 51,
-      "createdAt": "2023-12-08T03:38:39.749Z"
+      "createdAt": "2023-12-10T19:00:38.137Z"
     }
   ],
   "juzgados": [
@@ -213,11 +213,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 9,
-        "tipo": "JUZGADO 009 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-009-civil-municipal-de-bogota"
-      },
       "idProceso": 50537040,
       "idConexion": 259,
       "llaveProceso": "11001400300920170060700",
@@ -226,7 +221,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA CAROLINA MARTINEZ VERA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -302,5 +296,6 @@
   "idProcesos": [
     50537040
   ],
-  "nombre": "MARIA CAROLINA MARTINEZ VERA"
+  "nombre": "MARIA CAROLINA MARTINEZ VERA",
+  "notificacion": null
 }

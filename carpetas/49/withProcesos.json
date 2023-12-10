@@ -16,7 +16,7 @@
       "idProceso": 11486153,
       "isUltimaAct": true,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966143,
@@ -34,7 +34,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966233,
@@ -52,7 +52,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966223,
@@ -70,7 +70,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966213,
@@ -88,7 +88,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966203,
@@ -106,7 +106,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966193,
@@ -124,7 +124,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966183,
@@ -142,7 +142,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966173,
@@ -160,7 +160,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966163,
@@ -178,7 +178,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     },
     {
       "idRegActuacion": 144966133,
@@ -196,7 +196,7 @@
       "idProceso": 11486153,
       "isUltimaAct": false,
       "carpetaNumero": 49,
-      "createdAt": "2023-12-08T03:38:38.997Z"
+      "createdAt": "2023-12-10T19:00:37.785Z"
     }
   ],
   "juzgados": [
@@ -236,11 +236,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 51,
-        "tipo": "JUZGADO 051 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-051-civil-municipal-de-bogota"
-      },
       "idProceso": 11486153,
       "idConexion": 261,
       "llaveProceso": "11001400305120170064400",
@@ -249,19 +244,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ISRAEL MONROY CORDOBA | Demandado: ANA PATRICIA VILLAMIZAR MONTOYA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": null,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": null
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2027-01-01T05:00:00.000Z"
@@ -336,5 +318,18 @@
   "idProcesos": [
     11486153
   ],
-  "nombre": "JOSE ISRAEL MONROY CORDOBA"
+  "nombre": "JOSE ISRAEL MONROY CORDOBA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

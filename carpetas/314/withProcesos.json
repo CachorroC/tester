@@ -64,5 +64,24 @@
   "cc": 1075655673,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "TATIANA RAMON PEPICANO"
+  "nombre": "TATIANA RAMON PEPICANO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": "2018-07-06T05:00:00.000Z",
+        "resultado": null
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "0120"
+  }
 }

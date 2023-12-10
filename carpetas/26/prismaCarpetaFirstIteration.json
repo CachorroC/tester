@@ -1,15 +1,15 @@
 {
-  "numero": 26,
-  "llaveProceso": "11001400306520170082700",
-  "nombre": "YUDY RODRIGUEZ",
+  "category": "Terminados",
+  "fecha": "2019-06-25T05:00:00.000Z",
   "idProcesos": [
     18161830
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2019-06-25T05:00:00.000Z",
+  "idRegUltimaAct": 550291430,
+  "llaveProceso": "11001400306520170082700",
+  "nombre": "YUDY RODRIGUEZ",
+  "numero": 26,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:31.658Z",
   "terminado": true,
-  "idRegUltimaAct": 550291430
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:00:34.461Z"
 }

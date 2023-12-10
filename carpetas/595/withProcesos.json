@@ -16,7 +16,7 @@
       "idProceso": 134590090,
       "isUltimaAct": true,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-08T03:42:20.109Z"
+      "createdAt": "2023-12-10T19:01:59.101Z"
     },
     {
       "idRegActuacion": 1937878690,
@@ -34,7 +34,7 @@
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-08T03:42:20.109Z"
+      "createdAt": "2023-12-10T19:01:59.101Z"
     },
     {
       "idRegActuacion": 1937878680,
@@ -52,7 +52,7 @@
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-08T03:42:20.109Z"
+      "createdAt": "2023-12-10T19:01:59.101Z"
     },
     {
       "idRegActuacion": 1937878670,
@@ -70,7 +70,7 @@
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-08T03:42:20.109Z"
+      "createdAt": "2023-12-10T19:01:59.101Z"
     },
     {
       "idRegActuacion": 1937878660,
@@ -88,7 +88,7 @@
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-08T03:42:20.109Z"
+      "createdAt": "2023-12-10T19:01:59.101Z"
     },
     {
       "idRegActuacion": 1927145310,
@@ -106,7 +106,7 @@
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-08T03:42:20.109Z"
+      "createdAt": "2023-12-10T19:01:59.101Z"
     },
     {
       "idRegActuacion": 1927145300,
@@ -124,7 +124,7 @@
       "idProceso": 134590090,
       "isUltimaAct": false,
       "carpetaNumero": 595,
-      "createdAt": "2023-12-08T03:42:20.109Z"
+      "createdAt": "2023-12-10T19:01:59.101Z"
     }
   ],
   "juzgados": [
@@ -150,11 +150,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 69,
-        "tipo": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-69-civil-municipal-de-bogota"
-      },
       "idProceso": 134590090,
       "idConexion": 262,
       "llaveProceso": "11001400306920230166900",
@@ -163,7 +158,6 @@
       "sujetosProcesales": "Demandante: ABOGADOS ESPECIALIZADOS EN COBRANZAS  S.A  AECSA | Demandado: JAVIER ARIAS VEGA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z"
@@ -236,5 +230,6 @@
   "idProcesos": [
     134590090
   ],
-  "nombre": "JAVIER ARIAS VEGA"
+  "nombre": "JAVIER ARIAS VEGA",
+  "notificacion": null
 }

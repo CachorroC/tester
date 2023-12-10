@@ -39,7 +39,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 127,
       "idConexion": null,
       "llaveProceso": "SinEspecificar",
@@ -48,19 +47,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": {
-        "certimail": null,
-        "fisico": null,
-        "autoNotificado": "2438                  2439",
-        "notifiers": [
-          {
-            "tipo": "292",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO INMUEBLE"
@@ -113,5 +99,18 @@
   "cc": 41610065,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "ZOILA IRENE SUAVITA DE TRILLERAS"
+  "nombre": "ZOILA IRENE SUAVITA DE TRILLERAS",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "2438                  2439"
+  }
 }

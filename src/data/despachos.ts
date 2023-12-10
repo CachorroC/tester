@@ -30820,5 +30820,6 @@ export const Despachos = [
     , especialidad: 'PENAL'
     , nombre      : 'TRIBUNAL SUPERIOR DE VILLAVICENCIO SALA PENAL'
     , url         : '/web/sala-penal-del-tribunal-superior-de-villavicencio',
-  }                                              
-,];
+  }                                                    
+  ,
+];

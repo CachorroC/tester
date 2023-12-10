@@ -16,7 +16,7 @@
       "idProceso": 50715970,
       "isUltimaAct": true,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-08T03:39:56.493Z"
+      "createdAt": "2023-12-10T19:01:09.264Z"
     },
     {
       "idRegActuacion": 817031820,
@@ -34,7 +34,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-08T03:39:56.493Z"
+      "createdAt": "2023-12-10T19:01:09.264Z"
     },
     {
       "idRegActuacion": 817031810,
@@ -52,7 +52,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-08T03:39:56.493Z"
+      "createdAt": "2023-12-10T19:01:09.264Z"
     },
     {
       "idRegActuacion": 817031800,
@@ -70,7 +70,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-08T03:39:56.493Z"
+      "createdAt": "2023-12-10T19:01:09.264Z"
     },
     {
       "idRegActuacion": 817031790,
@@ -88,7 +88,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-08T03:39:56.493Z"
+      "createdAt": "2023-12-10T19:01:09.264Z"
     },
     {
       "idRegActuacion": 817031780,
@@ -106,7 +106,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-08T03:39:56.493Z"
+      "createdAt": "2023-12-10T19:01:09.264Z"
     },
     {
       "idRegActuacion": 817031770,
@@ -124,7 +124,7 @@
       "idProceso": 50715970,
       "isUltimaAct": false,
       "carpetaNumero": 248,
-      "createdAt": "2023-12-08T03:39:56.493Z"
+      "createdAt": "2023-12-10T19:01:09.264Z"
     }
   ],
   "juzgados": [
@@ -168,11 +168,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 59,
-        "tipo": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-59-civil-municipal-de-bogota"
-      },
       "idProceso": 50715970,
       "idConexion": 259,
       "llaveProceso": "11001400305920170087100",
@@ -181,19 +176,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HENRY CARRANZA ALBA | Demandado: FELIPE ANDRES CARRANZA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": false,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -268,5 +250,18 @@
   "idProcesos": [
     50715970
   ],
-  "nombre": "HENRY CARRANZA ALBA"
+  "nombre": "HENRY CARRANZA ALBA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

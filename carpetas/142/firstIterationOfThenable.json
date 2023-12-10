@@ -51,5 +51,18 @@
   "cc": 36184358,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "DEISY POLANIA CUELLAR"
+  "nombre": "DEISY POLANIA CUELLAR",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

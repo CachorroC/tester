@@ -16,7 +16,7 @@
       "idProceso": 132041720,
       "isUltimaAct": true,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     },
     {
       "idRegActuacion": 1936125110,
@@ -34,7 +34,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     },
     {
       "idRegActuacion": 1864324160,
@@ -52,7 +52,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     },
     {
       "idRegActuacion": 1860397620,
@@ -70,7 +70,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     },
     {
       "idRegActuacion": 1850795720,
@@ -88,7 +88,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     },
     {
       "idRegActuacion": 1850795710,
@@ -106,7 +106,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     },
     {
       "idRegActuacion": 1850795700,
@@ -124,7 +124,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     },
     {
       "idRegActuacion": 1850795690,
@@ -142,7 +142,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     },
     {
       "idRegActuacion": 1832542990,
@@ -160,7 +160,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     },
     {
       "idRegActuacion": 1832542980,
@@ -178,7 +178,7 @@
       "idProceso": 132041720,
       "isUltimaAct": false,
       "carpetaNumero": 566,
-      "createdAt": "2023-12-08T03:42:08.763Z"
+      "createdAt": "2023-12-10T19:01:55.166Z"
     }
   ],
   "juzgados": [
@@ -204,11 +204,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 69,
-        "tipo": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-69-civil-municipal-de-bogota"
-      },
       "idProceso": 132041720,
       "idConexion": 262,
       "llaveProceso": "11001400306920230127300",
@@ -217,7 +212,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: SANDRA MILENA PALACIO RIVERA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z"
@@ -290,5 +284,6 @@
   "idProcesos": [
     132041720
   ],
-  "nombre": "JOHAN ANDRES QUIROGA GALEANO"
+  "nombre": "JOHAN ANDRES QUIROGA GALEANO",
+  "notificacion": null
 }

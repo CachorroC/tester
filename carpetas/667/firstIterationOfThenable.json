@@ -26,7 +26,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2041-01-01T05:00:00.000Z",
@@ -71,5 +70,6 @@
   "cc": 79975835,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "EDWIN ALBERTO PIÑEROS ECHEVERRIA"
+  "nombre": "EDWIN ALBERTO PIÑEROS ECHEVERRIA",
+  "notificacion": null
 }

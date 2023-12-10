@@ -16,7 +16,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-08T03:38:48.002Z"
+      "createdAt": "2023-12-10T19:00:41.713Z"
     },
     {
       "idRegActuacion": 964317311,
@@ -34,7 +34,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-08T03:38:48.002Z"
+      "createdAt": "2023-12-10T19:00:41.714Z"
     },
     {
       "idRegActuacion": 961709631,
@@ -52,7 +52,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-08T03:38:48.002Z"
+      "createdAt": "2023-12-10T19:00:41.714Z"
     },
     {
       "idRegActuacion": 961710411,
@@ -70,7 +70,7 @@
       "idProceso": 86212271,
       "isUltimaAct": false,
       "carpetaNumero": 76,
-      "createdAt": "2023-12-08T03:38:48.002Z"
+      "createdAt": "2023-12-10T19:00:41.714Z"
     }
   ],
   "juzgados": [
@@ -114,11 +114,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 1,
-        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
-      },
       "idProceso": 86212271,
       "idConexion": 320,
       "llaveProceso": "25183400300120170011900",
@@ -127,12 +122,6 @@
       "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: ADELMO  ABRIL FORERO | Demandado/indiciado/causante: STELLA  MARIN GARZON | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": null,
-        "autoNotificado": "PNAL",
-        "notifiers": []
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "17/07/2017"
@@ -208,5 +197,11 @@
   "idProcesos": [
     86212271
   ],
-  "nombre": "ESTELA MARIN GARZÓN"
+  "nombre": "ESTELA MARIN GARZÓN",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "PNAL"
+  }
 }

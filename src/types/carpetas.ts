@@ -32,6 +32,7 @@ export interface IntCarpeta {
   procesos: intProceso[] | null;
   tipoProceso: TipoProceso;
   ultimaActuacion: intActuacion | null;
+  notificacion: intNotificacion | null;
 }
 
 export interface flatCarpeta {
@@ -232,7 +233,6 @@ export interface IntDemanda {
   obligacion: ( number | string )[];
   radicado: string | null;
   vencimientoPagare: ( Date | null )[];
-  juzgado: Juzgado | null;
   idProceso: number;
   idConexion: number | null;
   llaveProceso: string | null;
@@ -241,7 +241,6 @@ export interface IntDemanda {
   sujetosProcesales: string | null;
   esPrivado: boolean | null;
   cantFilas: number | null;
-  notificacion: intNotificacion | null;
   medidasCautelares: {
     fechaOrdenaMedida: Date | null;
     medidaSolicitada: string | null;
@@ -252,12 +251,16 @@ export interface intNotificacion {
   certimail: boolean | null;
   fisico: boolean | null;
   autoNotificado: string | null;
-  notifiers: {
-    tipo: '291' | '292';
-    fechaRecibido: Date | null;
-    resultado: boolean | null;
-    fechaAporta: Date | null;
-  }[];
+  notifiers: intNotifier[]
+}
+
+export interface intNotifier
+{
+  id: number;
+  tipo: '291' | '292';
+  fechaRecibido: Date | null;
+  resultado: boolean | null;
+  fechaAporta: Date | null;
 }
 
 export interface Juzgado {

@@ -16,7 +16,7 @@
       "idProceso": 39001450,
       "isUltimaAct": true,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-08T03:41:52.821Z"
+      "createdAt": "2023-12-10T19:01:49.215Z"
     },
     {
       "idRegActuacion": 559231420,
@@ -34,7 +34,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-08T03:41:52.821Z"
+      "createdAt": "2023-12-10T19:01:49.215Z"
     },
     {
       "idRegActuacion": 555956130,
@@ -52,7 +52,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-08T03:41:52.821Z"
+      "createdAt": "2023-12-10T19:01:49.215Z"
     },
     {
       "idRegActuacion": 552213370,
@@ -70,7 +70,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-08T03:41:52.821Z"
+      "createdAt": "2023-12-10T19:01:49.215Z"
     },
     {
       "idRegActuacion": 552213360,
@@ -88,7 +88,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-08T03:41:52.821Z"
+      "createdAt": "2023-12-10T19:01:49.215Z"
     },
     {
       "idRegActuacion": 368473180,
@@ -106,7 +106,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-08T03:41:52.821Z"
+      "createdAt": "2023-12-10T19:01:49.215Z"
     },
     {
       "idRegActuacion": 367918050,
@@ -124,7 +124,7 @@
       "idProceso": 39001450,
       "isUltimaAct": false,
       "carpetaNumero": 522,
-      "createdAt": "2023-12-08T03:41:52.821Z"
+      "createdAt": "2023-12-10T19:01:49.215Z"
     }
   ],
   "juzgados": [
@@ -152,11 +152,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 68,
-        "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
-      },
       "idProceso": 39001450,
       "idConexion": 262,
       "llaveProceso": "11001400306820190100400",
@@ -165,7 +160,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: ARMANDO RODRIGUEZ RODRIGUEZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z"
@@ -242,5 +236,6 @@
   "idProcesos": [
     39001450
   ],
-  "nombre": "ARMANDO RODRIGUEZ RODRIGUEZ"
+  "nombre": "ARMANDO RODRIGUEZ RODRIGUEZ",
+  "notificacion": null
 }

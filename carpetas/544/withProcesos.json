@@ -58,5 +58,24 @@
   "cc": 52018939,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "SONIA ANGELICA LOPEZ ORTIZ"
+  "nombre": "SONIA ANGELICA LOPEZ ORTIZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": "CORREO"
+  }
 }

@@ -1,15 +1,15 @@
 {
-  "numero": 401,
-  "llaveProceso": "11001400302520180023700",
-  "nombre": "SANDRA PATRICIA  OJEDA RODRIGUEZ",
+  "category": "Terminados",
+  "fecha": "2018-03-07T05:00:00.000Z",
   "idProcesos": [
     51025410
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2018-03-07T05:00:00.000Z",
+  "idRegUltimaAct": 707397900,
+  "llaveProceso": "11001400302520180023700",
+  "nombre": "SANDRA PATRICIA  OJEDA RODRIGUEZ",
+  "numero": 401,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:41:13.595Z",
   "terminado": true,
-  "idRegUltimaAct": 707397900
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:32.372Z"
 }

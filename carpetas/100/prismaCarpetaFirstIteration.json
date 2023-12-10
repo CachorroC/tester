@@ -1,13 +1,13 @@
 {
-  "numero": 100,
+  "category": "Terminados",
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
   "llaveProceso": "25430418900120170068400",
   "nombre": "JHON JAIRO RUBIO ORTIZ",
-  "idProcesos": [],
-  "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "fecha": null,
+  "numero": 100,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:56.296Z",
   "terminado": true,
-  "idRegUltimaAct": null
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:00:45.381Z"
 }

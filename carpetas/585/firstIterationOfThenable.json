@@ -16,7 +16,7 @@
       "idProceso": 133932120,
       "isUltimaAct": true,
       "carpetaNumero": 585,
-      "createdAt": "2023-12-08T03:42:16.275Z"
+      "createdAt": "2023-12-10T19:01:57.660Z"
     },
     {
       "idRegActuacion": 1938881300,
@@ -34,7 +34,7 @@
       "idProceso": 133932120,
       "isUltimaAct": false,
       "carpetaNumero": 585,
-      "createdAt": "2023-12-08T03:42:16.275Z"
+      "createdAt": "2023-12-10T19:01:57.660Z"
     },
     {
       "idRegActuacion": 1938727050,
@@ -52,7 +52,7 @@
       "idProceso": 133932120,
       "isUltimaAct": false,
       "carpetaNumero": 585,
-      "createdAt": "2023-12-08T03:42:16.275Z"
+      "createdAt": "2023-12-10T19:01:57.660Z"
     },
     {
       "idRegActuacion": 1918057590,
@@ -70,7 +70,7 @@
       "idProceso": 133932120,
       "isUltimaAct": false,
       "carpetaNumero": 585,
-      "createdAt": "2023-12-08T03:42:16.275Z"
+      "createdAt": "2023-12-10T19:01:57.660Z"
     },
     {
       "idRegActuacion": 1918057580,
@@ -88,7 +88,7 @@
       "idProceso": 133932120,
       "isUltimaAct": false,
       "carpetaNumero": 585,
-      "createdAt": "2023-12-08T03:42:16.275Z"
+      "createdAt": "2023-12-10T19:01:57.660Z"
     },
     {
       "idRegActuacion": 1902260070,
@@ -106,7 +106,7 @@
       "idProceso": 133932120,
       "isUltimaAct": false,
       "carpetaNumero": 585,
-      "createdAt": "2023-12-08T03:42:16.275Z"
+      "createdAt": "2023-12-10T19:01:57.660Z"
     },
     {
       "idRegActuacion": 1902260060,
@@ -124,7 +124,7 @@
       "idProceso": 133932120,
       "isUltimaAct": false,
       "carpetaNumero": 585,
-      "createdAt": "2023-12-08T03:42:16.275Z"
+      "createdAt": "2023-12-10T19:01:57.660Z"
     }
   ],
   "juzgados": [
@@ -151,11 +151,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 70,
-        "tipo": "JUZGADO 070 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-070-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      },
       "idProceso": 133932120,
       "idConexion": 259,
       "llaveProceso": "11001418907020230039900",
@@ -164,7 +159,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARIA GEORGINA FORERO DE MENDOZA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -243,5 +237,6 @@
   "idProcesos": [
     133932120
   ],
-  "nombre": "MARIA GEORGINA FORERO DE MENDOZA"
+  "nombre": "MARIA GEORGINA FORERO DE MENDOZA",
+  "notificacion": null
 }

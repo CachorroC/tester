@@ -1,15 +1,15 @@
 {
-  "numero": 112,
-  "llaveProceso": "11001400302020170097400",
-  "nombre": "MARIA TRINIDAD SOTELO TORRES",
+  "category": "Terminados",
+  "fecha": "2022-12-19T05:00:00.000Z",
   "idProcesos": [
     112880210
   ],
-  "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "fecha": "2022-12-19T05:00:00.000Z",
+  "idRegUltimaAct": 1574444740,
+  "llaveProceso": "11001400302020170097400",
+  "nombre": "MARIA TRINIDAD SOTELO TORRES",
+  "numero": 112,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:00.766Z",
   "terminado": true,
-  "idRegUltimaAct": 1574444740
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:00:47.230Z"
 }

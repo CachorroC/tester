@@ -51,5 +51,18 @@
   "cc": 79901800,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "DANIEL ALBERTO IBAÑEZ DELGADO"
+  "nombre": "DANIEL ALBERTO IBAÑEZ DELGADO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

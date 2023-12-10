@@ -18,7 +18,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 534,
       "idConexion": null,
       "llaveProceso": "2589940010020200028900",
@@ -27,7 +26,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [],
       "capitalAdeudado": null,
@@ -69,5 +67,6 @@
   "cc": 11337530,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "PEDRO JULIO TRIVIÑO VALBUENA"
+  "nombre": "PEDRO JULIO TRIVIÑO VALBUENA",
+  "notificacion": null
 }

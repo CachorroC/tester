@@ -56,5 +56,18 @@
   "cc": 52031089,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "YANETH HERNANDEZ SUAREZ"
+  "nombre": "YANETH HERNANDEZ SUAREZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": "2018-05-21T05:00:00.000Z",
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "363"
+  }
 }

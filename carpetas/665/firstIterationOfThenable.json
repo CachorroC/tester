@@ -25,7 +25,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z"
@@ -68,5 +67,6 @@
   "cc": 1104695882,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "MARIO JAVIER LEGUIZAMON BERMUDEZ"
+  "nombre": "MARIO JAVIER LEGUIZAMON BERMUDEZ",
+  "notificacion": null
 }

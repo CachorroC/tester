@@ -57,5 +57,18 @@
   "cc": 52498444,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "SANDRA RAQUEL LOPEZ DE MESA OSES"
+  "nombre": "SANDRA RAQUEL LOPEZ DE MESA OSES",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

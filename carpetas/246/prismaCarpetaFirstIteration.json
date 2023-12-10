@@ -1,15 +1,15 @@
 {
-  "numero": 246,
-  "llaveProceso": "11001400304720180024200",
-  "nombre": "EDWIN BUITRAGO VILLAMIL",
+  "category": "Terminados",
+  "fecha": "2018-02-20T05:00:00.000Z",
   "idProcesos": [
     10416913
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2018-02-20T05:00:00.000Z",
+  "idRegUltimaAct": 125352043,
+  "llaveProceso": "11001400304720180024200",
+  "nombre": "EDWIN BUITRAGO VILLAMIL",
+  "numero": 246,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:55.978Z",
   "terminado": true,
-  "idRegUltimaAct": 125352043
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:09.054Z"
 }

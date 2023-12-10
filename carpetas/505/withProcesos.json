@@ -61,5 +61,24 @@
   "cc": 80156570,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "WILLIAM  GIOVANNY GARZON LOPEZ"
+  "nombre": "WILLIAM  GIOVANNY GARZON LOPEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": "CERTIMAIL"
+  }
 }

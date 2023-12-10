@@ -1,15 +1,15 @@
 {
-  "numero": 298,
-  "llaveProceso": "11001400307820170098600",
-  "nombre": "HECTOR GABRIEL RAMIREZ BOHORQUEZ",
+  "category": "Terminados",
+  "fecha": "2019-01-15T05:00:00.000Z",
   "idProcesos": [
     51570460
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2019-01-15T05:00:00.000Z",
+  "idRegUltimaAct": 857000690,
+  "llaveProceso": "11001400307820170098600",
+  "nombre": "HECTOR GABRIEL RAMIREZ BOHORQUEZ",
+  "numero": 298,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:40:27.235Z",
   "terminado": true,
-  "idRegUltimaAct": 857000690
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:16.936Z"
 }

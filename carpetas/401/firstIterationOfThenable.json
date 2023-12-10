@@ -16,7 +16,7 @@
       "idProceso": 51025410,
       "isUltimaAct": true,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-08T03:41:13.523Z"
+      "createdAt": "2023-12-10T19:01:32.355Z"
     },
     {
       "idRegActuacion": 707397890,
@@ -34,7 +34,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-08T03:41:13.523Z"
+      "createdAt": "2023-12-10T19:01:32.355Z"
     },
     {
       "idRegActuacion": 707397880,
@@ -52,7 +52,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-08T03:41:13.523Z"
+      "createdAt": "2023-12-10T19:01:32.355Z"
     },
     {
       "idRegActuacion": 707397870,
@@ -70,7 +70,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-08T03:41:13.523Z"
+      "createdAt": "2023-12-10T19:01:32.355Z"
     },
     {
       "idRegActuacion": 707397860,
@@ -88,7 +88,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-08T03:41:13.523Z"
+      "createdAt": "2023-12-10T19:01:32.355Z"
     },
     {
       "idRegActuacion": 707397850,
@@ -106,7 +106,7 @@
       "idProceso": 51025410,
       "isUltimaAct": false,
       "carpetaNumero": 401,
-      "createdAt": "2023-12-08T03:41:13.523Z"
+      "createdAt": "2023-12-10T19:01:32.355Z"
     }
   ],
   "juzgados": [
@@ -134,11 +134,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 25,
-        "tipo": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-25-civil-municipal-de-bogota"
-      },
       "idProceso": 51025410,
       "idConexion": 259,
       "llaveProceso": "11001400302520180023700",
@@ -147,7 +142,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA OJEDA RODRIGUEZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -225,5 +219,6 @@
   "idProcesos": [
     51025410
   ],
-  "nombre": "SANDRA PATRICIA  OJEDA RODRIGUEZ"
+  "nombre": "SANDRA PATRICIA  OJEDA RODRIGUEZ",
+  "notificacion": null
 }

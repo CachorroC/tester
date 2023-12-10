@@ -8,25 +8,26 @@ datasource db {
 }
 
 model Carpeta {
-  numero          Int         @id
-  llaveProceso    String
-  nombre          String
-  idProcesos      Int[]
-  category        Category    @default(SinEspecificar)
-  tipoProceso     TipoProceso @default(SINGULAR)
-  fecha           DateTime?
-  revisado        Boolean     @default(false)
-  updatedAt       DateTime    @updatedAt
-  terminado       Boolean     @default(false)
-  idRegUltimaAct  Int?
-  ultimaActuacion Actuacion?  @relation(fields: [idRegUltimaAct], references: [idRegActuacion])
+  category        Category      @default(SinEspecificar)
+  codeudor        Codeudor?
   demandas        Demanda[]
   deudor          Deudor?
-  codeudor        Codeudor?
+  fecha           DateTime?
+  idProcesos      Int[]
+  idRegUltimaAct  Int?
+  juzgados        Juzgado[]
+  llaveProceso    String
+  nombre          String
   notas           Nota[]
-  procesos        Proceso[]
+  numero          Int           @id
+  revisado        Boolean       @default(false)
   tareas          Tarea[]
-  juzgados        Juzgado[]   @relation("CarpetaToJuzgado")
+  terminado       Boolean       @default(false)
+  tipoProceso     TipoProceso   @default(SINGULAR)
+  updatedAt       DateTime      @updatedAt
+  ultimaActuacion Actuacion?    @relation(fields: [idRegUltimaAct], references: [idRegActuacion])
+  procesos        Proceso[]
+  notificacion    Notificacion?
 }
 
 model Deudor {
@@ -117,15 +118,12 @@ model Demanda {
   tipoProceso             TipoProceso        @default(SINGULAR)
   mandamientoPago         DateTime?          @db.Date
   etapaProcesal           String?
-  fechaPresentacion       DateTime[]          @db.Date
   municipio               String?
   obligacion              String[]
   radicado                String?
   vencimientoPagare       DateTime[]         @db.Date
   carpetaNumero           Int
   despacho                String?
-  carpeta                 Carpeta            @relation(fields: [carpetaNumero], references: [numero])
-  JuzgadoDemanda          JuzgadoDemanda[]
   idProceso               Int                @unique
   idConexion              Int?
   llaveProceso            String?
@@ -134,86 +132,65 @@ model Demanda {
   sujetosProcesales       String?
   esPrivado               Boolean?
   cantFilas               Int?
-  notificacion            Notificacion?
+  fechaPresentacion       DateTime[]         @db.Date
+  carpeta                 Carpeta            @relation(fields: [carpetaNumero], references: [numero])
   medidasCautelares       MedidasCautelares?
 }
 
 model Notificacion {
   id             Int        @id @default(autoincrement())
-  notifiers      Notifier[]
   certimail      Boolean?
   fisico         Boolean?
+  carpetaNumero  Int        @unique
+  carpeta        Carpeta    @relation(fields: [carpetaNumero], references: [numero])
   autoNotificado String?
-  Demanda        Demanda    @relation(references: [id], fields: [demandaId])
-  demandaId      Int        @unique
+  notifiers      Notifier[]
 }
 
 model MedidasCautelares {
   id                Int       @id @default(autoincrement())
   fechaOrdenaMedida DateTime?
   medidaSolicitada  String?
-  Demanda           Demanda   @relation(references: [id], fields: [demandaId])
   demandaId         Int       @unique
+  Demanda           Demanda   @relation(fields: [demandaId], references: [idProceso])
 }
 
 model Notifier {
   id             Int           @id @default(autoincrement())
   fechaRecibido  DateTime?
-  tipo String
   resultado      Boolean?
+  tipo           String
   fechaAporta    DateTime?
-  Notificacion   Notificacion? @relation(fields: [notificacionId], references: [id])
   notificacionId Int?
-}
-
-enum NotifierName {
-  DOS91
-  DOS92
+  Notificacion   Notificacion? @relation(fields: [notificacionId], references: [id])
 }
 
 model Juzgado {
-  id               Int
-  tipo             String           @id
-  url              String
-  JuzgadoDemanda   JuzgadoDemanda[]
-  juzgadosProcesos JuzgadoProceso[]
-  carpetas         Carpeta[]        @relation("CarpetaToJuzgado")
+  id       Int
+  tipo     String    @id
+  url      String
+  carpetas Carpeta[]
 }
 
 model Proceso {
-  id                   Int              @id @default(autoincrement())
-  idProceso            Int              @unique
+  id                   Int       @id @default(autoincrement())
+  idProceso            Int       @unique
   idConexion           Int
   llaveProceso         String
-  fechaProceso         DateTime?        @db.Date
-  fechaUltimaActuacion DateTime?        @db.Date
+  fechaProceso         DateTime? @db.Date
+  fechaUltimaActuacion DateTime? @db.Date
   despacho             String
   departamento         String
   sujetosProcesales    String
   carpetaNumero        Int
   esPrivado            Boolean
   cantFilas            Int
-  JuzgadosProcesos     JuzgadoProceso[]
-  Carpeta              Carpeta          @relation(fields: [carpetaNumero], references: [numero])
-
+  Carpeta              Carpeta   @relation(fields: [carpetaNumero], references: [numero])
 }
 
-model JuzgadoDemanda {
-  demandaNumero Int
-  tipo          String
-  demanda       Demanda @relation(fields: [demandaNumero], references: [id])
-  juzgado       Juzgado @relation(fields: [tipo], references: [tipo])
-
-  @@id([demandaNumero, tipo])
-}
-
-model JuzgadoProceso {
-  idProceso Int
-  despacho  String
-  juzgado   Juzgado @relation(fields: [despacho], references: [tipo])
-  proceso   Proceso @relation(fields: [idProceso], references: [idProceso])
-
-  @@id([idProceso, despacho])
+enum NotifierName {
+  DOS91
+  DOS92
 }
 
 enum Category {

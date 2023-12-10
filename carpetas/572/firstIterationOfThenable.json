@@ -18,7 +18,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 572,
       "idConexion": null,
       "llaveProceso": "2547340030012023012900",
@@ -27,7 +26,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -72,5 +70,6 @@
   "cc": 9527771,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "JAIME ENRIQUE QUINTERO MENDOZA"
+  "nombre": "JAIME ENRIQUE QUINTERO MENDOZA",
+  "notificacion": null
 }

@@ -16,7 +16,7 @@
       "idProceso": 51570460,
       "isUltimaAct": true,
       "carpetaNumero": 298,
-      "createdAt": "2023-12-08T03:40:27.188Z"
+      "createdAt": "2023-12-10T19:01:16.890Z"
     },
     {
       "idRegActuacion": 857000680,
@@ -34,7 +34,7 @@
       "idProceso": 51570460,
       "isUltimaAct": false,
       "carpetaNumero": 298,
-      "createdAt": "2023-12-08T03:40:27.188Z"
+      "createdAt": "2023-12-10T19:01:16.890Z"
     }
   ],
   "juzgados": [
@@ -73,11 +73,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 78,
-        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
-      },
       "idProceso": 51570460,
       "idConexion": 259,
       "llaveProceso": "11001400307820170098600",
@@ -86,19 +81,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR GABRIEL RAMIREZ BOHORQUEZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": null,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "292",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
@@ -176,5 +158,18 @@
   "idProcesos": [
     51570460
   ],
-  "nombre": "HECTOR GABRIEL RAMIREZ BOHORQUEZ"
+  "nombre": "HECTOR GABRIEL RAMIREZ BOHORQUEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

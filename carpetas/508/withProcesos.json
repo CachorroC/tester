@@ -60,5 +60,24 @@
   "cc": 11230400,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JOSE ALFONSO VASQUEZ TOVAR"
+  "nombre": "JOSE ALFONSO VASQUEZ TOVAR",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2019-04-24T05:00:00.000Z",
+        "fechaAporta": "2019-04-24T05:00:00.000Z",
+        "resultado": true
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": true
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": null
+  }
 }

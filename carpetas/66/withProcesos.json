@@ -16,7 +16,7 @@
       "idProceso": 50593320,
       "isUltimaAct": true,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670033050,
@@ -34,7 +34,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670033040,
@@ -52,7 +52,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670033030,
@@ -70,7 +70,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670033020,
@@ -88,7 +88,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670033010,
@@ -106,7 +106,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670033000,
@@ -124,7 +124,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670032990,
@@ -142,7 +142,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670032980,
@@ -160,7 +160,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670032970,
@@ -178,7 +178,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670032960,
@@ -196,7 +196,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670032950,
@@ -214,7 +214,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     },
     {
       "idRegActuacion": 670032940,
@@ -232,7 +232,7 @@
       "idProceso": 50593320,
       "isUltimaAct": false,
       "carpetaNumero": 66,
-      "createdAt": "2023-12-08T03:38:44.694Z"
+      "createdAt": "2023-12-10T19:00:40.154Z"
     }
   ],
   "juzgados": [
@@ -272,11 +272,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 19,
-        "tipo": "JUZGADO 019 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-19-civil-municipal-de-bogota"
-      },
       "idProceso": 50593320,
       "idConexion": 259,
       "llaveProceso": "11001400301920170070200",
@@ -285,25 +280,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA PATRICIA SUAREZ GALVIS ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": false,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          },
-          {
-            "tipo": "292",
-            "fechaRecibido": "2017-08-24T05:00:00.000Z",
-            "fechaAporta": null,
-            "resultado": null
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2018-01-01T05:00:00.000Z"
@@ -378,5 +354,24 @@
   "idProcesos": [
     50593320
   ],
-  "nombre": "SANDRA PATRICIA SUAREZ GALVIS"
+  "nombre": "SANDRA PATRICIA SUAREZ GALVIS",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2017-08-24T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

@@ -24,11 +24,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 86,
-        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
-      },
       "idProceso": 81888701,
       "idConexion": 320,
       "llaveProceso": "11001400308620170086300",
@@ -37,7 +32,6 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -97,5 +91,6 @@
   "idProcesos": [
     81888701
   ],
-  "nombre": "MARITZA NATALI RODRIGUEZ URREA"
+  "nombre": "MARITZA NATALI RODRIGUEZ URREA",
+  "notificacion": null
 }

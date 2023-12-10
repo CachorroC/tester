@@ -1,16 +1,16 @@
 {
-  "numero": 500,
-  "llaveProceso": "11001400300620180045400",
-  "nombre": "SMARTITECH S.A.S",
+  "category": "Reintegra",
+  "fecha": "2023-04-10T05:00:00.000Z",
   "idProcesos": [
     51154840,
     81649171
   ],
-  "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2023-04-10T05:00:00.000Z",
+  "idRegUltimaAct": 1705464490,
+  "llaveProceso": "11001400300620180045400",
+  "nombre": "SMARTITECH S.A.S",
+  "numero": 500,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:41:45.069Z",
   "terminado": false,
-  "idRegUltimaAct": 1705464490
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:46.053Z"
 }

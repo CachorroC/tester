@@ -63,5 +63,24 @@
   "cc": 13812570,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JOSE DE JESUS TAPIAS ESTEVEZ"
+  "nombre": "JOSE DE JESUS TAPIAS ESTEVEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": "CURADOR AD LITEM"
+  }
 }

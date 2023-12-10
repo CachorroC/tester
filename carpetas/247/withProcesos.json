@@ -51,5 +51,11 @@
   "cc": 179290,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "DIONISIO LANCHEROS NOVOA"
+  "nombre": "DIONISIO LANCHEROS NOVOA",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "CERTIMIAIL"
+  }
 }

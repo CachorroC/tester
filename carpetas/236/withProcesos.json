@@ -51,5 +51,18 @@
   "cc": 3165933,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "RIGOBERTO MORENO OLAYA"
+  "nombre": "RIGOBERTO MORENO OLAYA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

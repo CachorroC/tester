@@ -60,5 +60,24 @@
   "cc": 79882688,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JORGE ANDRES PORRAS VARGAS"
+  "nombre": "JORGE ANDRES PORRAS VARGAS",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2018-01-18T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": "CORREO"
+  }
 }

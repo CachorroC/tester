@@ -52,5 +52,18 @@
   "cc": 79892208,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "RICARDO RUEDA MELO"
+  "nombre": "RICARDO RUEDA MELO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

@@ -1,15 +1,15 @@
 {
-  "numero": 61,
-  "llaveProceso": "11001400304620170055700",
-  "nombre": "JUAN PABLO RUBIO ESGUERRA",
+  "category": "Terminados",
+  "fecha": "2019-05-24T05:00:00.000Z",
   "idProcesos": [
     10130443
   ],
-  "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "fecha": "2019-05-24T05:00:00.000Z",
+  "idRegUltimaAct": 518868573,
+  "llaveProceso": "11001400304620170055700",
+  "nombre": "JUAN PABLO RUBIO ESGUERRA",
+  "numero": 61,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:42.971Z",
   "terminado": true,
-  "idRegUltimaAct": 518868573
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:00:39.504Z"
 }

@@ -1,15 +1,15 @@
 {
-  "numero": 20,
-  "llaveProceso": "11001400302220170048300",
-  "nombre": "ANDRES MAURICIO FERNANDEZ DE SOTO DOMINGUEZ",
+  "category": "Terminados",
+  "fecha": "2017-10-13T05:00:00.000Z",
   "idProcesos": [
     50466490
   ],
-  "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "fecha": "2017-10-13T05:00:00.000Z",
+  "idRegUltimaAct": 690458400,
+  "llaveProceso": "11001400302220170048300",
+  "nombre": "ANDRES MAURICIO FERNANDEZ DE SOTO DOMINGUEZ",
+  "numero": 20,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:29.891Z",
   "terminado": true,
-  "idRegUltimaAct": 690458400
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:00:33.563Z"
 }

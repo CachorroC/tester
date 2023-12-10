@@ -1,13 +1,13 @@
 {
-  "numero": 27,
+  "category": "Insolvencia",
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
   "llaveProceso": "25320310300120170019500",
   "nombre": "NORBEY LOMBANA MAHECHA",
-  "idProcesos": [],
-  "category": "Insolvencia",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": null,
+  "numero": 27,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:38:31.808Z",
   "terminado": false,
-  "idRegUltimaAct": null
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:00:34.544Z"
 }

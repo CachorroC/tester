@@ -1,16 +1,16 @@
 {
-  "numero": 184,
-  "llaveProceso": "11001400302520170080700",
-  "nombre": "JUAN CARLOS TOVAR TOLEDO",
+  "category": "Reintegra",
+  "fecha": "2023-10-18T05:00:00.000Z",
   "idProcesos": [
     50623380,
     81652411
   ],
-  "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2023-10-18T05:00:00.000Z",
+  "idRegUltimaAct": 1908607380,
+  "llaveProceso": "11001400302520170080700",
+  "nombre": "JUAN CARLOS TOVAR TOLEDO",
+  "numero": 184,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:39:35.612Z",
   "terminado": false,
-  "idRegUltimaAct": 1908607380
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:00:58.812Z"
 }

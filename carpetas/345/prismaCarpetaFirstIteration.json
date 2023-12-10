@@ -1,15 +1,15 @@
 {
-  "numero": 345,
-  "llaveProceso": "11001400304520170147600",
-  "nombre": "SANDRA JEANNETTE PRADA GUTIERREZ",
+  "category": "Terminados",
+  "fecha": "2021-03-10T05:00:00.000Z",
   "idProcesos": [
     50866270
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2021-03-10T05:00:00.000Z",
+  "idRegUltimaAct": 1008479640,
+  "llaveProceso": "11001400304520170147600",
+  "nombre": "SANDRA JEANNETTE PRADA GUTIERREZ",
+  "numero": 345,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:40:43.573Z",
   "terminado": true,
-  "idRegUltimaAct": 1008479640
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:24.030Z"
 }

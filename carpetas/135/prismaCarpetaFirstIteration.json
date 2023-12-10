@@ -1,16 +1,16 @@
 {
-  "numero": 135,
-  "llaveProceso": "11001400300420170063900",
-  "nombre": "RUBER ANDRES VALENZUELA SIERRA",
+  "category": "Terminados",
+  "fecha": "2021-12-14T05:00:00.000Z",
   "idProcesos": [
     50542600,
     81638681
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2021-12-14T05:00:00.000Z",
+  "idRegUltimaAct": 1238361070,
+  "llaveProceso": "11001400300420170063900",
+  "nombre": "RUBER ANDRES VALENZUELA SIERRA",
+  "numero": 135,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:14.383Z",
   "terminado": true,
-  "idRegUltimaAct": 1238361070
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:00:50.958Z"
 }

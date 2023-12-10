@@ -16,7 +16,7 @@
       "idProceso": 50512320,
       "isUltimaAct": true,
       "carpetaNumero": 57,
-      "createdAt": "2023-12-08T03:38:41.438Z"
+      "createdAt": "2023-12-10T19:00:38.903Z"
     },
     {
       "idRegActuacion": 725401840,
@@ -34,7 +34,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-12-08T03:38:41.438Z"
+      "createdAt": "2023-12-10T19:00:38.903Z"
     },
     {
       "idRegActuacion": 725401830,
@@ -52,7 +52,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-12-08T03:38:41.438Z"
+      "createdAt": "2023-12-10T19:00:38.903Z"
     },
     {
       "idRegActuacion": 725401820,
@@ -70,7 +70,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-12-08T03:38:41.438Z"
+      "createdAt": "2023-12-10T19:00:38.903Z"
     },
     {
       "idRegActuacion": 725401810,
@@ -88,7 +88,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-12-08T03:38:41.438Z"
+      "createdAt": "2023-12-10T19:00:38.903Z"
     },
     {
       "idRegActuacion": 725401800,
@@ -106,7 +106,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-12-08T03:38:41.438Z"
+      "createdAt": "2023-12-10T19:00:38.903Z"
     },
     {
       "idRegActuacion": 725401790,
@@ -124,7 +124,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-12-08T03:38:41.438Z"
+      "createdAt": "2023-12-10T19:00:38.903Z"
     },
     {
       "idRegActuacion": 725401780,
@@ -142,7 +142,7 @@
       "idProceso": 50512320,
       "isUltimaAct": false,
       "carpetaNumero": 57,
-      "createdAt": "2023-12-08T03:38:41.438Z"
+      "createdAt": "2023-12-10T19:00:38.903Z"
     }
   ],
   "juzgados": [
@@ -170,11 +170,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 28,
-        "tipo": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-28-civil-municipal-de-bogota"
-      },
       "idProceso": 50512320,
       "idConexion": 259,
       "llaveProceso": "11001400302820170051200",
@@ -183,7 +178,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARMEN CECILIA APONTE ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [],
       "capitalAdeudado": 28250394,
@@ -257,5 +251,6 @@
   "idProcesos": [
     50512320
   ],
-  "nombre": "CARMEN CECILIA APONTE ZAMBRANO"
+  "nombre": "CARMEN CECILIA APONTE ZAMBRANO",
+  "notificacion": null
 }

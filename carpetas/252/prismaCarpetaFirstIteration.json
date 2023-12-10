@@ -1,15 +1,15 @@
 {
-  "numero": 252,
-  "llaveProceso": "11001400303420170123600",
-  "nombre": "ANGEL JOVANI SUAREZ GOMEZ",
+  "category": "Terminados",
+  "fecha": "2018-02-08T05:00:00.000Z",
   "idProcesos": [
     50745490
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2018-02-08T05:00:00.000Z",
+  "idRegUltimaAct": 764095850,
+  "llaveProceso": "11001400303420170123600",
+  "nombre": "ANGEL JOVANI SUAREZ GOMEZ",
+  "numero": 252,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:58.006Z",
   "terminado": true,
-  "idRegUltimaAct": 764095850
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:10.188Z"
 }

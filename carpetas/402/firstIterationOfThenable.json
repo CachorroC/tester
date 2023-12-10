@@ -16,7 +16,7 @@
       "idProceso": 17948440,
       "isUltimaAct": true,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     },
     {
       "idRegActuacion": 266847680,
@@ -34,7 +34,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     },
     {
       "idRegActuacion": 266847670,
@@ -52,7 +52,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     },
     {
       "idRegActuacion": 266847660,
@@ -70,7 +70,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     },
     {
       "idRegActuacion": 266847650,
@@ -88,7 +88,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     },
     {
       "idRegActuacion": 266847640,
@@ -106,7 +106,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     },
     {
       "idRegActuacion": 266847630,
@@ -124,7 +124,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     },
     {
       "idRegActuacion": 266847620,
@@ -142,7 +142,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     },
     {
       "idRegActuacion": 266847610,
@@ -160,7 +160,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     },
     {
       "idRegActuacion": 266847600,
@@ -178,7 +178,7 @@
       "idProceso": 17948440,
       "isUltimaAct": false,
       "carpetaNumero": 402,
-      "createdAt": "2023-12-08T03:41:13.972Z"
+      "createdAt": "2023-12-10T19:01:32.475Z"
     }
   ],
   "juzgados": [
@@ -210,11 +210,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 64,
-        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
-      },
       "idProceso": 17948440,
       "idConexion": 260,
       "llaveProceso": "11001400306420180021800",
@@ -223,12 +218,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: BLANCA CECILIA ARDILA HUERTAS ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": []
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2022-01-01T05:00:00.000Z"
@@ -303,5 +292,11 @@
   "idProcesos": [
     17948440
   ],
-  "nombre": "BLANCA CECILIA ARDILA HUERTAS"
+  "nombre": "BLANCA CECILIA ARDILA HUERTAS",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

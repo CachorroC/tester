@@ -51,5 +51,18 @@
   "cc": 3058707,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "HECTOR JULIO GARZON PEÑA"
+  "nombre": "HECTOR JULIO GARZON PEÑA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

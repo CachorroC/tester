@@ -29,7 +29,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 9,
       "idConexion": null,
       "llaveProceso": "1100140030442017099800",
@@ -38,12 +37,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": {
-        "certimail": false,
-        "fisico": null,
-        "autoNotificado": "43150",
-        "notifiers": []
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
@@ -92,5 +85,11 @@
   "cc": 1020731500,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "DANIELA ALEJANDRA CARDENAS RODRIGUEZ"
+  "nombre": "DANIELA ALEJANDRA CARDENAS RODRIGUEZ",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "43150"
+  }
 }

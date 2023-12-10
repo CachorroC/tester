@@ -16,7 +16,7 @@
       "idProceso": 132581550,
       "isUltimaAct": true,
       "carpetaNumero": 577,
-      "createdAt": "2023-12-08T03:42:13.161Z"
+      "createdAt": "2023-12-10T19:01:56.675Z"
     },
     {
       "idRegActuacion": 1915865360,
@@ -34,7 +34,7 @@
       "idProceso": 132581550,
       "isUltimaAct": false,
       "carpetaNumero": 577,
-      "createdAt": "2023-12-08T03:42:13.161Z"
+      "createdAt": "2023-12-10T19:01:56.675Z"
     },
     {
       "idRegActuacion": 1915865350,
@@ -52,7 +52,7 @@
       "idProceso": 132581550,
       "isUltimaAct": false,
       "carpetaNumero": 577,
-      "createdAt": "2023-12-08T03:42:13.161Z"
+      "createdAt": "2023-12-10T19:01:56.675Z"
     },
     {
       "idRegActuacion": 1854161690,
@@ -70,7 +70,7 @@
       "idProceso": 132581550,
       "isUltimaAct": false,
       "carpetaNumero": 577,
-      "createdAt": "2023-12-08T03:42:13.161Z"
+      "createdAt": "2023-12-10T19:01:56.675Z"
     },
     {
       "idRegActuacion": 1852976720,
@@ -88,7 +88,7 @@
       "idProceso": 132581550,
       "isUltimaAct": false,
       "carpetaNumero": 577,
-      "createdAt": "2023-12-08T03:42:13.161Z"
+      "createdAt": "2023-12-10T19:01:56.675Z"
     }
   ],
   "juzgados": [
@@ -115,11 +115,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 5,
-        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
-      },
       "idProceso": 132581550,
       "idConexion": 259,
       "llaveProceso": "11001400300520230084300",
@@ -128,7 +123,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA | Demandado: JUAN CAMILO VELASQUEZ PEREIRA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -203,5 +197,6 @@
   "idProcesos": [
     132581550
   ],
-  "nombre": "INDIRA MAYERLY FLOREZ CASTRO"
+  "nombre": "INDIRA MAYERLY FLOREZ CASTRO",
+  "notificacion": null
 }

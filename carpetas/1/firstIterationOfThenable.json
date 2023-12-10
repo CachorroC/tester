@@ -28,7 +28,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 1,
       "idConexion": null,
       "llaveProceso": "2530740030012017025000",
@@ -37,12 +36,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": {
-        "certimail": null,
-        "fisico": null,
-        "autoNotificado": "43059",
-        "notifiers": []
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
@@ -90,5 +83,11 @@
   "cc": 39581581,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "ALEXANDRA MILENA JIMENEZ AGUILAR"
+  "nombre": "ALEXANDRA MILENA JIMENEZ AGUILAR",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "43059"
+  }
 }

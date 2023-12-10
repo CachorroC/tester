@@ -16,7 +16,7 @@
       "idProceso": 51571520,
       "isUltimaAct": true,
       "carpetaNumero": 450,
-      "createdAt": "2023-12-08T03:41:30.375Z"
+      "createdAt": "2023-12-10T19:01:39.371Z"
     },
     {
       "idRegActuacion": 857051540,
@@ -34,7 +34,7 @@
       "idProceso": 51571520,
       "isUltimaAct": false,
       "carpetaNumero": 450,
-      "createdAt": "2023-12-08T03:41:30.375Z"
+      "createdAt": "2023-12-10T19:01:39.371Z"
     }
   ],
   "juzgados": [
@@ -63,11 +63,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 78,
-        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
-      },
       "idProceso": 51571520,
       "idConexion": 259,
       "llaveProceso": "11001400307820180064700",
@@ -76,7 +71,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: KELLY YOHANNA MURCIA DUCON ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2021-01-01T05:00:00.000Z"
@@ -151,5 +145,6 @@
   "idProcesos": [
     51571520
   ],
-  "nombre": "KELLY YOHANNA MURCIA DUCON"
+  "nombre": "KELLY YOHANNA MURCIA DUCON",
+  "notificacion": null
 }

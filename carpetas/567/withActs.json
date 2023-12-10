@@ -16,7 +16,7 @@
       "idProceso": 132262030,
       "isUltimaAct": true,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-08T03:42:09.318Z"
+      "createdAt": "2023-12-10T19:01:55.322Z"
     },
     {
       "idRegActuacion": 1895380620,
@@ -34,7 +34,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-08T03:42:09.318Z"
+      "createdAt": "2023-12-10T19:01:55.322Z"
     },
     {
       "idRegActuacion": 1865710460,
@@ -52,7 +52,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-08T03:42:09.318Z"
+      "createdAt": "2023-12-10T19:01:55.322Z"
     },
     {
       "idRegActuacion": 1865710450,
@@ -70,7 +70,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-08T03:42:09.318Z"
+      "createdAt": "2023-12-10T19:01:55.322Z"
     },
     {
       "idRegActuacion": 1865654250,
@@ -88,7 +88,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-08T03:42:09.318Z"
+      "createdAt": "2023-12-10T19:01:55.322Z"
     },
     {
       "idRegActuacion": 1865654240,
@@ -106,7 +106,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-08T03:42:09.318Z"
+      "createdAt": "2023-12-10T19:01:55.322Z"
     },
     {
       "idRegActuacion": 1845938400,
@@ -124,7 +124,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-08T03:42:09.318Z"
+      "createdAt": "2023-12-10T19:01:55.322Z"
     },
     {
       "idRegActuacion": 1840889670,
@@ -142,7 +142,7 @@
       "idProceso": 132262030,
       "isUltimaAct": false,
       "carpetaNumero": 567,
-      "createdAt": "2023-12-08T03:42:09.318Z"
+      "createdAt": "2023-12-10T19:01:55.322Z"
     }
   ],
   "juzgados": [
@@ -168,11 +168,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 65,
-        "tipo": "JUZGADO 065 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-65-civil-municipal-de-bogota"
-      },
       "idProceso": 132262030,
       "idConexion": 260,
       "llaveProceso": "11001400306520230124300",
@@ -181,7 +176,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JOHAN ANDRES QUIROGA GALEANO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2027-01-01T05:00:00.000Z"
@@ -257,5 +251,6 @@
   "idProcesos": [
     132262030
   ],
-  "nombre": "WILSON DE JESUS MOLINA QUIRAMA"
+  "nombre": "WILSON DE JESUS MOLINA QUIRAMA",
+  "notificacion": null
 }

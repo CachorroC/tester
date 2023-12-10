@@ -1,15 +1,15 @@
 {
-  "numero": 64,
-  "llaveProceso": "11001400302920170055700",
-  "nombre": "RAFAEL ERNESTO CADENA PARGA",
+  "category": "Insolvencia",
+  "fecha": "2018-02-22T05:00:00.000Z",
   "idProcesos": [
     50517510
   ],
-  "category": "Insolvencia",
-  "tipoProceso": "PRENDARIO",
-  "fecha": "2018-02-22T05:00:00.000Z",
+  "idRegUltimaAct": 731521580,
+  "llaveProceso": "11001400302920170055700",
+  "nombre": "RAFAEL ERNESTO CADENA PARGA",
+  "numero": 64,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:38:43.968Z",
   "terminado": false,
-  "idRegUltimaAct": 731521580
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:00:39.904Z"
 }

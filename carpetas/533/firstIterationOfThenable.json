@@ -19,7 +19,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 533,
       "idConexion": null,
       "llaveProceso": "2575440030042018000600",
@@ -28,7 +27,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2021-01-01T05:00:00.000Z"
@@ -72,5 +70,6 @@
   "cc": 79522009,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "JAIRO ALFONSO PARDO JAIMES"
+  "nombre": "JAIRO ALFONSO PARDO JAIMES",
+  "notificacion": null
 }

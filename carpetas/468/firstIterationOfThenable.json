@@ -61,5 +61,24 @@
   "cc": 79719969,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "CARLOS EDUARDO NARANJO PIÑEROS"
+  "nombre": "CARLOS EDUARDO NARANJO PIÑEROS",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2019-02-25T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": "CERTIMAIL"
+  }
 }

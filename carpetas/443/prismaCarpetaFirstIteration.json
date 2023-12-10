@@ -1,15 +1,15 @@
 {
-  "numero": 443,
-  "llaveProceso": "11001400301020180078400",
-  "nombre": "DIEGO FERNANDO BENITEZ ALVARADO",
+  "category": "Terminados",
+  "fecha": "2020-02-27T05:00:00.000Z",
   "idProcesos": [
     51264250
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2020-02-27T05:00:00.000Z",
+  "idRegUltimaAct": 960759610,
+  "llaveProceso": "11001400301020180078400",
+  "nombre": "DIEGO FERNANDO BENITEZ ALVARADO",
+  "numero": 443,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:41:28.069Z",
   "terminado": true,
-  "idRegUltimaAct": 960759610
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:38.445Z"
 }

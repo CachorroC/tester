@@ -16,7 +16,7 @@
       "idProceso": 50765090,
       "isUltimaAct": true,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-08T03:39:23.173Z"
+      "createdAt": "2023-12-10T19:00:54.649Z"
     },
     {
       "idRegActuacion": 855746550,
@@ -34,7 +34,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-08T03:39:23.173Z"
+      "createdAt": "2023-12-10T19:00:54.649Z"
     },
     {
       "idRegActuacion": 855746540,
@@ -52,7 +52,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-08T03:39:23.173Z"
+      "createdAt": "2023-12-10T19:00:54.649Z"
     },
     {
       "idRegActuacion": 855746530,
@@ -70,7 +70,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-08T03:39:23.173Z"
+      "createdAt": "2023-12-10T19:00:54.649Z"
     },
     {
       "idRegActuacion": 855746520,
@@ -88,7 +88,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-08T03:39:23.173Z"
+      "createdAt": "2023-12-10T19:00:54.649Z"
     },
     {
       "idRegActuacion": 855746510,
@@ -106,7 +106,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-08T03:39:23.173Z"
+      "createdAt": "2023-12-10T19:00:54.649Z"
     },
     {
       "idRegActuacion": 855746500,
@@ -124,7 +124,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-08T03:39:23.173Z"
+      "createdAt": "2023-12-10T19:00:54.649Z"
     },
     {
       "idRegActuacion": 855746490,
@@ -142,7 +142,7 @@
       "idProceso": 50765090,
       "isUltimaAct": false,
       "carpetaNumero": 159,
-      "createdAt": "2023-12-08T03:39:23.173Z"
+      "createdAt": "2023-12-10T19:00:54.649Z"
     }
   ],
   "juzgados": [
@@ -169,11 +169,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 73,
-        "tipo": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"
-      },
       "idProceso": 50765090,
       "idConexion": 259,
       "llaveProceso": "11001400307320170133300",
@@ -182,7 +177,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALLAN FREDY TOBAR ENCISO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -257,5 +251,6 @@
   "idProcesos": [
     50765090
   ],
-  "nombre": "ALLAN FREDY TOBAR ENCISO"
+  "nombre": "ALLAN FREDY TOBAR ENCISO",
+  "notificacion": null
 }

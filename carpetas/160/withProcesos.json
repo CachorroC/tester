@@ -16,7 +16,7 @@
       "idProceso": 51542360,
       "isUltimaAct": true,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989850,
@@ -34,7 +34,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989840,
@@ -52,7 +52,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989830,
@@ -70,7 +70,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989820,
@@ -88,7 +88,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989810,
@@ -106,7 +106,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989800,
@@ -124,7 +124,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989790,
@@ -142,7 +142,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989780,
@@ -160,7 +160,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989770,
@@ -178,7 +178,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989760,
@@ -196,7 +196,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     },
     {
       "idRegActuacion": 856989750,
@@ -214,7 +214,7 @@
       "idProceso": 51542360,
       "isUltimaAct": false,
       "carpetaNumero": 160,
-      "createdAt": "2023-12-08T03:39:23.573Z"
+      "createdAt": "2023-12-10T19:00:54.800Z"
     }
   ],
   "juzgados": [
@@ -247,11 +247,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 78,
-        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
-      },
       "idProceso": 51542360,
       "idConexion": 259,
       "llaveProceso": "11001400307820170076200",
@@ -260,7 +255,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIRO ALBERTO CARRILLO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
@@ -338,5 +332,6 @@
   "idProcesos": [
     51542360
   ],
-  "nombre": "JAIRO ALBERTO CARRILLO SALINAS"
+  "nombre": "JAIRO ALBERTO CARRILLO SALINAS",
+  "notificacion": null
 }

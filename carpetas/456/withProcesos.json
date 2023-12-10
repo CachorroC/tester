@@ -42,11 +42,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 751,
-        "tipo": "JUZGADO 751 CIVIL MUNICIPAL DE PEQUEÑAS CAUSAS DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-751-civil-municipal-de-pequeñas-causas-de-bogotá-"
-      },
       "idProceso": 95877041,
       "idConexion": 320,
       "llaveProceso": "11001410375120180112100",
@@ -55,25 +50,6 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": false,
-        "autoNotificado": "CORREO",
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          },
-          {
-            "tipo": "292",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": null
-          }
-        ]
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": "2018-09-10T05:00:00.000Z",
         "medidaSolicitada": "25/09/2018"
@@ -137,5 +113,24 @@
   "idProcesos": [
     95877041
   ],
-  "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)"
+  "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": "CORREO"
+  }
 }

@@ -46,11 +46,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 2,
-        "tipo": "JUZGADO 002 PROMISCUO MUNICIPAL DE CAJICÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-002-promiscuo-municipal-de-cajicá-"
-      },
       "idProceso": 86157021,
       "idConexion": 320,
       "llaveProceso": "25126408900220180004800",
@@ -59,25 +54,6 @@
       "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: JUAN CAMILO CHINGATE PENAGOS (Emplazado) | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": true,
-        "autoNotificado": "5/0572019",
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": "2018-05-08T05:00:00.000Z",
-            "fechaAporta": "2018-05-08T05:00:00.000Z",
-            "resultado": false
-          },
-          {
-            "tipo": "292",
-            "fechaRecibido": "2018-07-16T05:00:00.000Z",
-            "fechaAporta": "2018-05-03T05:00:00.000Z",
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE VEHICULO"
@@ -140,5 +116,24 @@
   "idProcesos": [
     86157021
   ],
-  "nombre": "JUAN CAMILO CHINGATE PENAGOS"
+  "nombre": "JUAN CAMILO CHINGATE PENAGOS",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-05-08T05:00:00.000Z",
+        "fechaAporta": "2018-05-08T05:00:00.000Z",
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2018-07-16T05:00:00.000Z",
+        "fechaAporta": "2018-05-03T05:00:00.000Z",
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": "5/0572019"
+  }
 }

@@ -16,7 +16,7 @@
       "idProceso": 50465740,
       "isUltimaAct": true,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268350,
@@ -34,7 +34,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268340,
@@ -52,7 +52,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268330,
@@ -70,7 +70,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268320,
@@ -88,7 +88,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268310,
@@ -106,7 +106,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268300,
@@ -124,7 +124,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268290,
@@ -142,7 +142,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268280,
@@ -160,7 +160,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268270,
@@ -178,7 +178,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     },
     {
       "idRegActuacion": 638268260,
@@ -196,7 +196,7 @@
       "idProceso": 50465740,
       "isUltimaAct": false,
       "carpetaNumero": 8,
-      "createdAt": "2023-12-08T03:38:26.195Z"
+      "createdAt": "2023-12-10T19:00:31.674Z"
     }
   ],
   "juzgados": [
@@ -224,11 +224,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 14,
-        "tipo": "JUZGADO 014 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-014-civil-municipal-de-bogota"
-      },
       "idProceso": 50465740,
       "idConexion": 259,
       "llaveProceso": "11001400301420170066700",
@@ -237,7 +232,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE  WILSON ROJAS VALDES ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2020-01-01T05:00:00.000Z"
@@ -312,5 +306,6 @@
   "idProcesos": [
     50465740
   ],
-  "nombre": "JOSE WILSON ROJAS VALDES"
+  "nombre": "JOSE WILSON ROJAS VALDES",
+  "notificacion": null
 }

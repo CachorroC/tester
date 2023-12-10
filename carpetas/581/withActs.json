@@ -16,7 +16,7 @@
       "idProceso": 132789600,
       "isUltimaAct": true,
       "carpetaNumero": 581,
-      "createdAt": "2023-12-08T03:42:14.846Z"
+      "createdAt": "2023-12-10T19:01:57.249Z"
     },
     {
       "idRegActuacion": 1940194530,
@@ -34,7 +34,7 @@
       "idProceso": 132789600,
       "isUltimaAct": false,
       "carpetaNumero": 581,
-      "createdAt": "2023-12-08T03:42:14.847Z"
+      "createdAt": "2023-12-10T19:01:57.249Z"
     },
     {
       "idRegActuacion": 1939833130,
@@ -52,7 +52,7 @@
       "idProceso": 132789600,
       "isUltimaAct": false,
       "carpetaNumero": 581,
-      "createdAt": "2023-12-08T03:42:14.847Z"
+      "createdAt": "2023-12-10T19:01:57.249Z"
     },
     {
       "idRegActuacion": 1900880330,
@@ -70,7 +70,7 @@
       "idProceso": 132789600,
       "isUltimaAct": false,
       "carpetaNumero": 581,
-      "createdAt": "2023-12-08T03:42:14.847Z"
+      "createdAt": "2023-12-10T19:01:57.249Z"
     },
     {
       "idRegActuacion": 1888902810,
@@ -88,7 +88,7 @@
       "idProceso": 132789600,
       "isUltimaAct": false,
       "carpetaNumero": 581,
-      "createdAt": "2023-12-08T03:42:14.847Z"
+      "createdAt": "2023-12-10T19:01:57.249Z"
     },
     {
       "idRegActuacion": 1884245940,
@@ -106,7 +106,7 @@
       "idProceso": 132789600,
       "isUltimaAct": false,
       "carpetaNumero": 581,
-      "createdAt": "2023-12-08T03:42:14.847Z"
+      "createdAt": "2023-12-10T19:01:57.249Z"
     },
     {
       "idRegActuacion": 1884245930,
@@ -124,7 +124,7 @@
       "idProceso": 132789600,
       "isUltimaAct": false,
       "carpetaNumero": 581,
-      "createdAt": "2023-12-08T03:42:14.847Z"
+      "createdAt": "2023-12-10T19:01:57.249Z"
     },
     {
       "idRegActuacion": 1860392250,
@@ -142,7 +142,7 @@
       "idProceso": 132789600,
       "isUltimaAct": false,
       "carpetaNumero": 581,
-      "createdAt": "2023-12-08T03:42:14.847Z"
+      "createdAt": "2023-12-10T19:01:57.249Z"
     },
     {
       "idRegActuacion": 1860392240,
@@ -160,7 +160,7 @@
       "idProceso": 132789600,
       "isUltimaAct": false,
       "carpetaNumero": 581,
-      "createdAt": "2023-12-08T03:42:14.847Z"
+      "createdAt": "2023-12-10T19:01:57.249Z"
     }
   ],
   "juzgados": [
@@ -194,11 +194,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 33,
-        "tipo": "JUZGADO 033 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-033-civil-municipal-de-bogota"
-      },
       "idProceso": 132789600,
       "idConexion": 259,
       "llaveProceso": "11001400303320230105600",
@@ -207,7 +202,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandante: AECSA SA | Demandado: EDISON ANDRES TUTA FORERO | Demandado: ANGELICA GODOY GUTIERREZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2034-01-01T05:00:00.000Z",
@@ -288,5 +282,6 @@
   "idProcesos": [
     132789600
   ],
-  "nombre": "ANGELICA GODOY GUTIERREZ Y EDISON ANDRES TUTA FORERO"
+  "nombre": "ANGELICA GODOY GUTIERREZ Y EDISON ANDRES TUTA FORERO",
+  "notificacion": null
 }

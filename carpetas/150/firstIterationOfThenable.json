@@ -24,7 +24,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 150,
       "idConexion": null,
       "llaveProceso": "2575440030012017024900",
@@ -33,7 +32,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
@@ -81,5 +79,6 @@
   "cc": 79988076,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "VICTOR TRIANA ALARCON"
+  "nombre": "VICTOR TRIANA ALARCON",
+  "notificacion": null
 }

@@ -1,15 +1,15 @@
 {
-  "numero": 40,
-  "llaveProceso": "11001400303420170080900",
-  "nombre": "JOSÉ ENRIQUE RIAÑO HENRIQUEZ",
+  "category": "Terminados",
+  "fecha": "2019-03-07T05:00:00.000Z",
   "idProcesos": [
     50506330
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2019-03-07T05:00:00.000Z",
+  "idRegUltimaAct": 763999530,
+  "llaveProceso": "11001400303420170080900",
+  "nombre": "JOSÉ ENRIQUE RIAÑO HENRIQUEZ",
+  "numero": 40,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:35.692Z",
   "terminado": true,
-  "idRegUltimaAct": 763999530
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:00:36.313Z"
 }

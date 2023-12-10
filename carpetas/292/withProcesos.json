@@ -69,5 +69,24 @@
   "cc": 80205694,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JOHN FREDY HERREÑO RAMIREZ"
+  "nombre": "JOHN FREDY HERREÑO RAMIREZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-02-27T05:00:00.000Z",
+        "fechaAporta": "2018-07-06T05:00:00.000Z",
+        "resultado": true
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": "2018-07-06T05:00:00.000Z",
+        "resultado": true
+      }
+    ],
+    "certimail": true,
+    "fisico": false,
+    "autoNotificado": "6/03/2018"
+  }
 }

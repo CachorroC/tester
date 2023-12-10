@@ -17,7 +17,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 602,
       "idConexion": null,
       "llaveProceso": "SinEspecificar",
@@ -26,7 +25,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -71,5 +69,6 @@
   "cc": 52928592,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "IVONNE MARITZA BARRETO GUZMAN"
+  "nombre": "IVONNE MARITZA BARRETO GUZMAN",
+  "notificacion": null
 }

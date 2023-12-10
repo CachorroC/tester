@@ -16,7 +16,7 @@
       "idProceso": 50745490,
       "isUltimaAct": true,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-08T03:39:57.966Z"
+      "createdAt": "2023-12-10T19:01:10.129Z"
     },
     {
       "idRegActuacion": 764095840,
@@ -34,7 +34,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-08T03:39:57.966Z"
+      "createdAt": "2023-12-10T19:01:10.129Z"
     },
     {
       "idRegActuacion": 764095830,
@@ -52,7 +52,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-08T03:39:57.966Z"
+      "createdAt": "2023-12-10T19:01:10.129Z"
     },
     {
       "idRegActuacion": 764095820,
@@ -70,7 +70,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-08T03:39:57.966Z"
+      "createdAt": "2023-12-10T19:01:10.129Z"
     },
     {
       "idRegActuacion": 764095810,
@@ -88,7 +88,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-08T03:39:57.966Z"
+      "createdAt": "2023-12-10T19:01:10.129Z"
     },
     {
       "idRegActuacion": 764095800,
@@ -106,7 +106,7 @@
       "idProceso": 50745490,
       "isUltimaAct": false,
       "carpetaNumero": 252,
-      "createdAt": "2023-12-08T03:39:57.966Z"
+      "createdAt": "2023-12-10T19:01:10.129Z"
     }
   ],
   "juzgados": [
@@ -153,11 +153,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 34,
-        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
-      },
       "idProceso": 50745490,
       "idConexion": 259,
       "llaveProceso": "11001400303420170123600",
@@ -166,25 +161,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S,.A | Demandado: ANGEL JOAVANI SUAREZ GOMEZ | Demandado: DAMARIS MILENA CAICEDO FARIETA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": false,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          },
-          {
-            "tipo": "292",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2027-01-01T05:00:00.000Z"
@@ -259,5 +235,24 @@
   "idProcesos": [
     50745490
   ],
-  "nombre": "ANGEL JOVANI SUAREZ GOMEZ"
+  "nombre": "ANGEL JOVANI SUAREZ GOMEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

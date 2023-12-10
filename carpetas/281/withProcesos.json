@@ -55,5 +55,24 @@
   "cc": 1069712582,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "YENNY MARGOTH LARA MUÑOZ"
+  "nombre": "YENNY MARGOTH LARA MUÑOZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": "2018-09-10T05:00:00.000Z",
+        "resultado": null
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "13/04/2018"
+  }
 }

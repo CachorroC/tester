@@ -1,15 +1,15 @@
 {
-  "numero": 235,
-  "llaveProceso": "11001400300820170113400",
-  "nombre": "FANOR DIAZ AGUDELO",
+  "category": "Bancolombia",
+  "fecha": "2023-07-27T05:00:00.000Z",
   "idProcesos": [
     50716620
   ],
-  "category": "Bancolombia",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2023-07-27T05:00:00.000Z",
+  "idRegUltimaAct": 1824361210,
+  "llaveProceso": "11001400300820170113400",
+  "nombre": "FANOR DIAZ AGUDELO",
+  "numero": 235,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:39:52.559Z",
   "terminado": false,
-  "idRegUltimaAct": 1824361210
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:07.319Z"
 }

@@ -1,15 +1,15 @@
 {
-  "numero": 406,
-  "llaveProceso": "11001400300220180020500",
-  "nombre": "SANTIAGO JAVIER SARABIA JIMENEZ",
+  "category": "Terminados",
+  "fecha": "2023-03-22T05:00:00.000Z",
   "idProcesos": [
     51034000
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2023-03-22T05:00:00.000Z",
+  "idRegUltimaAct": 1686593620,
+  "llaveProceso": "11001400300220180020500",
+  "nombre": "SANTIAGO JAVIER SARABIA JIMENEZ",
+  "numero": 406,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:41:15.894Z",
   "terminado": true,
-  "idRegUltimaAct": 1686593620
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:33.154Z"
 }

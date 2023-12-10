@@ -31,11 +31,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 3,
-        "tipo": "JUZGADO 003 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ - LOCALIDAD SUBA",
-        "url": "https://www.ramajudicial.gov.cojuzgado-003-de-pequeñas-causas--y-competencia-múltiple-de-bogotá---localidad-suba"
-      },
       "idProceso": 82112341,
       "idConexion": 320,
       "llaveProceso": "11001418900320170090900",
@@ -44,19 +39,6 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": null,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2020-01-01T05:00:00.000Z"
@@ -116,5 +98,18 @@
   "idProcesos": [
     82112341
   ],
-  "nombre": "MARINA MORALES HERNANDEZ"
+  "nombre": "MARINA MORALES HERNANDEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

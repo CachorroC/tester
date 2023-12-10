@@ -22640,7 +22640,7 @@ const Carpetas: CarpetaRaw[] = [
     },
   }
   , {
-    numero  : 665
+    numero  : 605
     , category: 'Bancolombia'
     , deudor  : {
       cedula  : 1104695882
@@ -22665,7 +22665,7 @@ const Carpetas: CarpetaRaw[] = [
     },
   }
   , {
-    numero  : 666
+    numero  : 606
     , category: 'Bancolombia'
     , deudor  : {
       cedula   : 1058325371
@@ -22689,7 +22689,7 @@ const Carpetas: CarpetaRaw[] = [
     },
   }
   , {
-    numero  : 667
+    numero  : 607
     , category: 'Bancolombia'
     , deudor  : {
       cedula  : 79975835
@@ -22715,7 +22715,7 @@ const Carpetas: CarpetaRaw[] = [
     },
   }
   , {
-    numero  : 668
+    numero  : 608
     , category: 'Bancolombia'
     , deudor  : {
       cedula   : 1015410685
@@ -22739,7 +22739,7 @@ const Carpetas: CarpetaRaw[] = [
     },
   }
   , {
-    numero  : 669
+    numero  : 609
     , category: 'Bancolombia'
     , deudor  : {
       cedula   : 79405797
@@ -22764,7 +22764,7 @@ const Carpetas: CarpetaRaw[] = [
     },
   }
   , {
-    numero  : 670
+    numero  : 610
     , category: 'Bancolombia'
     , deudor  : {
       cedula: 1015458592
@@ -22779,7 +22779,7 @@ const Carpetas: CarpetaRaw[] = [
     },
   }
   , {
-    numero  : 671
+    numero  : 611
     , category: 'Bancolombia'
     , deudor  : {
       nombre: 'ADRIANA LORENA FERNANDEZ SIERRA'

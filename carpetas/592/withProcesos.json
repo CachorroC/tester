@@ -23,7 +23,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 592,
       "idConexion": null,
       "llaveProceso": "SinEspecificar",
@@ -32,7 +31,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2052-01-01T05:00:00.000Z"
@@ -81,5 +79,6 @@
   "cc": 79888775,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "MARCEL LEONARDO MACHADO ROMERO Y VIVIANA MARTINEZ ARIAS"
+  "nombre": "MARCEL LEONARDO MACHADO ROMERO Y VIVIANA MARTINEZ ARIAS",
+  "notificacion": null
 }

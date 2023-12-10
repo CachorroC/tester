@@ -1,15 +1,15 @@
 {
-  "numero": 394,
-  "llaveProceso": "11001400305120180029900",
-  "nombre": "OMAR HERNANDO QUIROGA TORRES",
+  "category": "Terminados",
+  "fecha": "2021-05-27T05:00:00.000Z",
   "idProcesos": [
     11496423
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2021-05-27T05:00:00.000Z",
+  "idRegUltimaAct": 1024250433,
+  "llaveProceso": "11001400305120180029900",
+  "nombre": "OMAR HERNANDO QUIROGA TORRES",
+  "numero": 394,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:41:11.500Z",
   "terminado": true,
-  "idRegUltimaAct": 1024250433
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:31.628Z"
 }

@@ -67,5 +67,24 @@
   "cc": 3208569,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "FLORESMIRO APONTE ACOSTA"
+  "nombre": "FLORESMIRO APONTE ACOSTA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2020-02-18T05:00:00.000Z",
+        "fechaAporta": "2020-02-18T05:00:00.000Z",
+        "resultado": null
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": true
+      }
+    ],
+    "certimail": true,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

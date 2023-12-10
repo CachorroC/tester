@@ -16,7 +16,7 @@
       "idProceso": 9083003,
       "isUltimaAct": true,
       "carpetaNumero": 245,
-      "createdAt": "2023-12-08T03:39:55.651Z"
+      "createdAt": "2023-12-10T19:01:08.870Z"
     },
     {
       "idRegActuacion": 99012263,
@@ -34,7 +34,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-12-08T03:39:55.651Z"
+      "createdAt": "2023-12-10T19:01:08.870Z"
     },
     {
       "idRegActuacion": 99012253,
@@ -52,7 +52,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-12-08T03:39:55.651Z"
+      "createdAt": "2023-12-10T19:01:08.870Z"
     },
     {
       "idRegActuacion": 99012243,
@@ -70,7 +70,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-12-08T03:39:55.651Z"
+      "createdAt": "2023-12-10T19:01:08.870Z"
     },
     {
       "idRegActuacion": 99012233,
@@ -88,7 +88,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-12-08T03:39:55.651Z"
+      "createdAt": "2023-12-10T19:01:08.870Z"
     },
     {
       "idRegActuacion": 99012223,
@@ -106,7 +106,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-12-08T03:39:55.651Z"
+      "createdAt": "2023-12-10T19:01:08.870Z"
     },
     {
       "idRegActuacion": 99012213,
@@ -124,7 +124,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-12-08T03:39:55.651Z"
+      "createdAt": "2023-12-10T19:01:08.870Z"
     },
     {
       "idRegActuacion": 99012203,
@@ -142,7 +142,7 @@
       "idProceso": 9083003,
       "isUltimaAct": false,
       "carpetaNumero": 245,
-      "createdAt": "2023-12-08T03:39:55.651Z"
+      "createdAt": "2023-12-10T19:01:08.870Z"
     }
   ],
   "juzgados": [
@@ -176,11 +176,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 38,
-        "tipo": "JUZGADO 038 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-038-civil-municipal-de-bogota"
-      },
       "idProceso": 9083003,
       "idConexion": 261,
       "llaveProceso": "11001400303820170095700",
@@ -189,7 +184,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAVIER ORLANDO GOMEZ DIAZ | Demandado: LUIS ALONSO GOMEZ DIAZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2022-01-01T05:00:00.000Z"
@@ -264,5 +258,6 @@
   "idProcesos": [
     9083003
   ],
-  "nombre": "JAVIER ORLANDO GOMEZ DIAZ"
+  "nombre": "JAVIER ORLANDO GOMEZ DIAZ",
+  "notificacion": null
 }

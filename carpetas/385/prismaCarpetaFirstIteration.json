@@ -1,15 +1,15 @@
 {
-  "numero": 385,
-  "llaveProceso": "11001400303520180007400",
-  "nombre": "AVELINO SIERRA SIERRA",
+  "category": "Terminados",
+  "fecha": "2023-07-26T05:00:00.000Z",
   "idProcesos": [
     50980350
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2023-07-26T05:00:00.000Z",
+  "idRegUltimaAct": 1823075530,
+  "llaveProceso": "11001400303520180007400",
+  "nombre": "AVELINO SIERRA SIERRA",
+  "numero": 385,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:41:03.277Z",
   "terminado": true,
-  "idRegUltimaAct": 1823075530
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:30.247Z"
 }

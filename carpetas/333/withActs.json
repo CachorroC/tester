@@ -16,7 +16,7 @@
       "idProceso": 17718250,
       "isUltimaAct": true,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-08T03:40:38.928Z"
+      "createdAt": "2023-12-10T19:01:22.192Z"
     },
     {
       "idRegActuacion": 266714160,
@@ -34,7 +34,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-08T03:40:38.928Z"
+      "createdAt": "2023-12-10T19:01:22.192Z"
     },
     {
       "idRegActuacion": 266714150,
@@ -52,7 +52,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-08T03:40:38.928Z"
+      "createdAt": "2023-12-10T19:01:22.192Z"
     },
     {
       "idRegActuacion": 266714140,
@@ -70,7 +70,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-08T03:40:38.928Z"
+      "createdAt": "2023-12-10T19:01:22.192Z"
     },
     {
       "idRegActuacion": 266714130,
@@ -88,7 +88,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-08T03:40:38.928Z"
+      "createdAt": "2023-12-10T19:01:22.192Z"
     },
     {
       "idRegActuacion": 266714120,
@@ -106,7 +106,7 @@
       "idProceso": 17718250,
       "isUltimaAct": false,
       "carpetaNumero": 333,
-      "createdAt": "2023-12-08T03:40:38.928Z"
+      "createdAt": "2023-12-10T19:01:22.192Z"
     }
   ],
   "juzgados": [
@@ -138,11 +138,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 63,
-        "tipo": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
-      },
       "idProceso": 17718250,
       "idConexion": 260,
       "llaveProceso": "11001400306320170131700",
@@ -151,12 +146,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: AHIDA LUCERO GUEVARA BECERRA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": []
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -231,5 +220,11 @@
   "idProcesos": [
     17718250
   ],
-  "nombre": "AHIDA LUCERO GUEVARA BECERRA"
+  "nombre": "AHIDA LUCERO GUEVARA BECERRA",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

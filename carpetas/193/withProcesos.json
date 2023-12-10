@@ -62,5 +62,24 @@
   "cc": 52465691,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "CARMEN ELIZABETH QUESADA MARTINEZ"
+  "nombre": "CARMEN ELIZABETH QUESADA MARTINEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-06-26T05:00:00.000Z",
+        "fechaAporta": "2018-06-26T05:00:00.000Z",
+        "resultado": true
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": "2018-06-26T05:00:00.000Z",
+        "resultado": true
+      }
+    ],
+    "certimail": true,
+    "fisico": false,
+    "autoNotificado": "24/09/2018"
+  }
 }

@@ -1,15 +1,15 @@
 {
-  "numero": 461,
-  "llaveProceso": "11001400303220180095900",
-  "nombre": "JOSE ANTONIO FLOREZ OVIEDO",
+  "category": "Terminados",
+  "fecha": "2021-03-25T05:00:00.000Z",
   "idProcesos": [
     51318660
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2021-03-25T05:00:00.000Z",
+  "idRegUltimaAct": 1010546790,
+  "llaveProceso": "11001400303220180095900",
+  "nombre": "JOSE ANTONIO FLOREZ OVIEDO",
+  "numero": 461,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:41:34.563Z",
   "terminado": true,
-  "idRegUltimaAct": 1010546790
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:41.397Z"
 }

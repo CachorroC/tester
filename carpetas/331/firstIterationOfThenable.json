@@ -63,5 +63,24 @@
   "cc": 1016043191,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "CHRISTIAN DARIO RUIZ AVELLANEDA"
+  "nombre": "CHRISTIAN DARIO RUIZ AVELLANEDA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "43116"
+  }
 }

@@ -35,7 +35,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 195,
       "idConexion": null,
       "llaveProceso": "1100140030122017099100",
@@ -44,12 +43,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": {
-        "certimail": null,
-        "fisico": null,
-        "autoNotificado": "01/03/2018",
-        "notifiers": []
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
@@ -97,5 +90,11 @@
   "cc": 80244664,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "DOUGLAS FABIAN SIZA CORTES"
+  "nombre": "DOUGLAS FABIAN SIZA CORTES",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "01/03/2018"
+  }
 }

@@ -1,15 +1,15 @@
 {
-  "numero": 324,
-  "llaveProceso": "11001400300120170084900",
-  "nombre": "JOSE EDWIN MORALES ALFONSO",
+  "category": "Terminados",
+  "fecha": "2019-01-25T05:00:00.000Z",
   "idProcesos": [
     50548450
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2019-01-25T05:00:00.000Z",
+  "idRegUltimaAct": 379888600,
+  "llaveProceso": "11001400300120170084900",
+  "nombre": "JOSE EDWIN MORALES ALFONSO",
+  "numero": 324,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:40:35.854Z",
   "terminado": true,
-  "idRegUltimaAct": 379888600
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:20.952Z"
 }

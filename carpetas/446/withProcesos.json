@@ -51,5 +51,18 @@
   "cc": 79725365,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "RICARDO CUSPOCA"
+  "nombre": "RICARDO CUSPOCA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

@@ -1,15 +1,15 @@
 {
-  "numero": 434,
-  "llaveProceso": "11001400306820180099900",
-  "nombre": "FRANCISCO JAVIER GIL FLOREZ",
+  "category": "Terminados",
+  "fecha": "2022-06-03T05:00:00.000Z",
   "idProcesos": [
     19222160
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2022-06-03T05:00:00.000Z",
+  "idRegUltimaAct": 1302983770,
+  "llaveProceso": "11001400306820180099900",
+  "nombre": "FRANCISCO JAVIER GIL FLOREZ",
+  "numero": 434,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:41:25.466Z",
   "terminado": true,
-  "idRegUltimaAct": 1302983770
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:37.165Z"
 }

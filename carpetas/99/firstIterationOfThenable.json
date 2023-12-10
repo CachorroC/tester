@@ -25,7 +25,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 99,
       "idConexion": null,
       "llaveProceso": "1100141037512017111000",
@@ -34,7 +33,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
@@ -83,5 +81,6 @@
   "cc": 79996551,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "YONI ALEXANDER RESTREPO PEÑUELA"
+  "nombre": "YONI ALEXANDER RESTREPO PEÑUELA",
+  "notificacion": null
 }

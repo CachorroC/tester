@@ -16,7 +16,7 @@
       "idProceso": 17942390,
       "isUltimaAct": true,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-08T03:38:48.562Z"
+      "createdAt": "2023-12-10T19:00:41.968Z"
     },
     {
       "idRegActuacion": 265691560,
@@ -34,7 +34,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-08T03:38:48.563Z"
+      "createdAt": "2023-12-10T19:00:41.968Z"
     },
     {
       "idRegActuacion": 265691550,
@@ -52,7 +52,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-08T03:38:48.563Z"
+      "createdAt": "2023-12-10T19:00:41.968Z"
     },
     {
       "idRegActuacion": 265691540,
@@ -70,7 +70,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-08T03:38:48.563Z"
+      "createdAt": "2023-12-10T19:00:41.968Z"
     },
     {
       "idRegActuacion": 265691530,
@@ -88,7 +88,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-08T03:38:48.563Z"
+      "createdAt": "2023-12-10T19:00:41.968Z"
     },
     {
       "idRegActuacion": 265691520,
@@ -106,7 +106,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-08T03:38:48.563Z"
+      "createdAt": "2023-12-10T19:00:41.968Z"
     },
     {
       "idRegActuacion": 265691510,
@@ -124,7 +124,7 @@
       "idProceso": 17942390,
       "isUltimaAct": false,
       "carpetaNumero": 78,
-      "createdAt": "2023-12-08T03:38:48.563Z"
+      "createdAt": "2023-12-10T19:00:41.968Z"
     }
   ],
   "juzgados": [
@@ -153,11 +153,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 64,
-        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
-      },
       "idProceso": 17942390,
       "idConexion": 260,
       "llaveProceso": "11001400306420170123100",
@@ -166,7 +161,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAIME EDISSON SANTOS MARTIN ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2016-01-01T05:00:00.000Z",
@@ -243,5 +237,6 @@
   "idProcesos": [
     17942390
   ],
-  "nombre": "JAIME EDISON SANTOS MARTIN"
+  "nombre": "JAIME EDISON SANTOS MARTIN",
+  "notificacion": null
 }

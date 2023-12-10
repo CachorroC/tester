@@ -54,5 +54,11 @@
   "cc": 80879280,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "ROBERTO STIVENSON ACERO BARON"
+  "nombre": "ROBERTO STIVENSON ACERO BARON",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "CERTIMAIL LAURA"
+  }
 }

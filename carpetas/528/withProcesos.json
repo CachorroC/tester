@@ -59,5 +59,24 @@
   "cc": 1065564377,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "YOLADIS ESTHER BLANCO LOPEZ"
+  "nombre": "YOLADIS ESTHER BLANCO LOPEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": "CORREO"
+  }
 }

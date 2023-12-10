@@ -20,7 +20,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 351,
       "idConexion": null,
       "llaveProceso": "1100141037520180002400",
@@ -29,7 +28,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2024-01-01T05:00:00.000Z"
@@ -74,5 +72,6 @@
   "cc": 80800256,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "CRISTIAN JOSUE CARDENAS NORIEGA"
+  "nombre": "CRISTIAN JOSUE CARDENAS NORIEGA",
+  "notificacion": null
 }

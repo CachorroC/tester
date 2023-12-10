@@ -55,5 +55,24 @@
   "cc": 80430881,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JHON JAIRO RUBIO ORTIZ"
+  "nombre": "JHON JAIRO RUBIO ORTIZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2017-09-28T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

@@ -61,5 +61,18 @@
   "cc": 52645617,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "MARIA LILIANA CASTAÑEDA ZAPATA"
+  "nombre": "MARIA LILIANA CASTAÑEDA ZAPATA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "16/01/2018"
+  }
 }

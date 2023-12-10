@@ -54,5 +54,18 @@
   "cc": 39809183,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "TANIA CONSUELO BOTIA CORREA"
+  "nombre": "TANIA CONSUELO BOTIA CORREA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-11-13T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

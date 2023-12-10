@@ -61,5 +61,18 @@
   "cc": 79793904,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JOHN HADER OTALVARO  ROMO"
+  "nombre": "JOHN HADER OTALVARO  ROMO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

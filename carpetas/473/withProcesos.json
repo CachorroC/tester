@@ -42,5 +42,18 @@
   "cc": 52725153,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "SANDRA MILENA VEGA AVILA"
+  "nombre": "SANDRA MILENA VEGA AVILA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": "2018-10-08T05:00:00.000Z",
+        "resultado": null
+      }
+    ],
+    "certimail": null,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

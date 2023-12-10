@@ -1,15 +1,15 @@
 {
-  "numero": 91,
-  "llaveProceso": "11001400303120180040600",
-  "nombre": "JAIME JESUS REYES OROZCO",
+  "category": "Terminados",
+  "fecha": "2023-10-19T05:00:00.000Z",
   "idProcesos": [
     51092120
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2023-10-19T05:00:00.000Z",
+  "idRegUltimaAct": 1910534460,
+  "llaveProceso": "11001400303120180040600",
+  "nombre": "JAIME JESUS REYES OROZCO",
+  "numero": 91,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:53.426Z",
   "terminado": true,
-  "idRegUltimaAct": 1910534460
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:00:44.026Z"
 }

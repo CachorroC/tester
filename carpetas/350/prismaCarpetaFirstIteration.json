@@ -1,15 +1,15 @@
 {
-  "numero": 350,
-  "llaveProceso": "11001400305020170135700",
-  "nombre": "DIEGO FERNEY VERGARA VALDERRAMA",
+  "category": "Terminados",
+  "fecha": "2022-10-24T05:00:00.000Z",
   "idProcesos": [
     11224353
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2022-10-24T05:00:00.000Z",
+  "idRegUltimaAct": 1283273453,
+  "llaveProceso": "11001400305020170135700",
+  "nombre": "DIEGO FERNEY VERGARA VALDERRAMA",
+  "numero": 350,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:40:45.398Z",
   "terminado": true,
-  "idRegUltimaAct": 1283273453
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:24.882Z"
 }

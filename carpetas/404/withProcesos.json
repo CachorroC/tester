@@ -30,7 +30,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 404,
       "idConexion": null,
       "llaveProceso": "257544189003201800177",
@@ -39,19 +38,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": {
-        "certimail": null,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "292",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
@@ -99,5 +85,18 @@
   "cc": 1013586083,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "CESAR AUGUSTO PINEDA RIOS"
+  "nombre": "CESAR AUGUSTO PINEDA RIOS",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

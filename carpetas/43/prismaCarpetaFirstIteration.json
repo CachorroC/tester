@@ -1,15 +1,15 @@
 {
-  "numero": 43,
-  "llaveProceso": "11001400301220170088200",
-  "nombre": "JOSE FREDDY VARGAS RUIZ",
+  "category": "Terminados",
+  "fecha": "2023-09-19T05:00:00.000Z",
   "idProcesos": [
     50631800
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2023-09-19T05:00:00.000Z",
+  "idRegUltimaAct": 1878628460,
+  "llaveProceso": "11001400301220170088200",
+  "nombre": "JOSE FREDDY VARGAS RUIZ",
+  "numero": 43,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:36.690Z",
   "terminado": true,
-  "idRegUltimaAct": 1878628460
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:00:36.750Z"
 }

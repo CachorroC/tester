@@ -16,7 +16,7 @@
       "idProceso": 134525980,
       "isUltimaAct": true,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-08T03:42:18.639Z"
+      "createdAt": "2023-12-10T19:01:58.479Z"
     },
     {
       "idRegActuacion": 1936596830,
@@ -34,7 +34,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-08T03:42:18.639Z"
+      "createdAt": "2023-12-10T19:01:58.479Z"
     },
     {
       "idRegActuacion": 1935520180,
@@ -52,7 +52,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-08T03:42:18.639Z"
+      "createdAt": "2023-12-10T19:01:58.479Z"
     },
     {
       "idRegActuacion": 1935520170,
@@ -70,7 +70,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-08T03:42:18.639Z"
+      "createdAt": "2023-12-10T19:01:58.479Z"
     },
     {
       "idRegActuacion": 1924929040,
@@ -88,7 +88,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-08T03:42:18.639Z"
+      "createdAt": "2023-12-10T19:01:58.479Z"
     },
     {
       "idRegActuacion": 1924929030,
@@ -106,7 +106,7 @@
       "idProceso": 134525980,
       "isUltimaAct": false,
       "carpetaNumero": 591,
-      "createdAt": "2023-12-08T03:42:18.639Z"
+      "createdAt": "2023-12-10T19:01:58.479Z"
     }
   ],
   "juzgados": [
@@ -133,11 +133,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 27,
-        "tipo": "JUZGADO 027 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-027-civil-municipal-de-bogota"
-      },
       "idProceso": 134525980,
       "idConexion": 259,
       "llaveProceso": "11001400302720230116700",
@@ -146,7 +141,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MAYRA ALEJANDRA VALBUENA BARRERO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -224,5 +218,6 @@
   "idProcesos": [
     134525980
   ],
-  "nombre": "MAYRA ALEJANDRA VALBUENA BARRERO"
+  "nombre": "MAYRA ALEJANDRA VALBUENA BARRERO",
+  "notificacion": null
 }

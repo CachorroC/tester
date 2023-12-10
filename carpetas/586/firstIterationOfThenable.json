@@ -17,7 +17,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 586,
       "idConexion": null,
       "llaveProceso": "SinEspecificar",
@@ -26,7 +25,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2052-01-01T05:00:00.000Z"
@@ -69,5 +67,6 @@
   "cc": 35507149,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "MARIA NANCY PINEDA LEON"
+  "nombre": "MARIA NANCY PINEDA LEON",
+  "notificacion": null
 }

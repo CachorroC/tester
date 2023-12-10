@@ -16,7 +16,7 @@
       "idProceso": 51176440,
       "isUltimaAct": true,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-08T03:41:02.283Z"
+      "createdAt": "2023-12-10T19:01:29.922Z"
     },
     {
       "idRegActuacion": 714162850,
@@ -34,7 +34,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-08T03:41:02.283Z"
+      "createdAt": "2023-12-10T19:01:29.922Z"
     },
     {
       "idRegActuacion": 714162840,
@@ -52,7 +52,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-08T03:41:02.283Z"
+      "createdAt": "2023-12-10T19:01:29.922Z"
     },
     {
       "idRegActuacion": 714162830,
@@ -70,7 +70,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-08T03:41:02.283Z"
+      "createdAt": "2023-12-10T19:01:29.922Z"
     },
     {
       "idRegActuacion": 714162820,
@@ -88,7 +88,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-08T03:41:02.283Z"
+      "createdAt": "2023-12-10T19:01:29.922Z"
     },
     {
       "idRegActuacion": 714162810,
@@ -106,7 +106,7 @@
       "idProceso": 51176440,
       "isUltimaAct": false,
       "carpetaNumero": 383,
-      "createdAt": "2023-12-08T03:41:02.283Z"
+      "createdAt": "2023-12-10T19:01:29.922Z"
     }
   ],
   "juzgados": [
@@ -145,11 +145,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 26,
-        "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
-      },
       "idProceso": 51176440,
       "idConexion": 259,
       "llaveProceso": "11001400302620180047900",
@@ -158,12 +153,6 @@
       "sujetosProcesales": "Demandante: CARLOS WEIMAR VARON APONTE | Demandado: CONCEPTO URBANO HOLDING S.A.S. ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": []
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2024-01-01T05:00:00.000Z"
@@ -239,5 +228,11 @@
   "idProcesos": [
     51176440
   ],
-  "nombre": "NOHORA ESPERANZA BARRERO RODRIGUEZ"
+  "nombre": "NOHORA ESPERANZA BARRERO RODRIGUEZ",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

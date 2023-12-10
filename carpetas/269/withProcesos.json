@@ -50,5 +50,11 @@
   "cc": 80162950,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JUAN CARLOS ORTIZ CUERVO"
+  "nombre": "JUAN CARLOS ORTIZ CUERVO",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "PERSONAL"
+  }
 }

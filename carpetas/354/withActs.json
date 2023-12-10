@@ -16,7 +16,7 @@
       "idProceso": 62939862,
       "isUltimaAct": true,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120242,
@@ -34,7 +34,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120232,
@@ -52,7 +52,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120222,
@@ -70,7 +70,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120212,
@@ -88,7 +88,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120202,
@@ -106,7 +106,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120192,
@@ -124,7 +124,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120182,
@@ -142,7 +142,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120172,
@@ -160,7 +160,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120162,
@@ -178,7 +178,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120152,
@@ -196,7 +196,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120142,
@@ -214,7 +214,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     },
     {
       "idRegActuacion": 886120132,
@@ -232,7 +232,7 @@
       "idProceso": 62939862,
       "isUltimaAct": false,
       "carpetaNumero": 354,
-      "createdAt": "2023-12-08T03:40:46.823Z"
+      "createdAt": "2023-12-10T19:01:25.488Z"
     }
   ],
   "juzgados": [
@@ -268,11 +268,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 45,
-        "tipo": "JUZGADO 045 CIVIL DEL CIRCUITO DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-045-civil-del-circuito-de-bogota"
-      },
       "idProceso": 62939862,
       "idConexion": 180,
       "llaveProceso": "11001310304520170035900",
@@ -281,7 +276,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S. A. | Demandado: ELDY CONSUELO MELO VILLALBA | Demandado: BERNARDO ANIBAL GIL TORRES ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2037-01-01T05:00:00.000Z"
@@ -356,5 +350,6 @@
   "idProcesos": [
     62939862
   ],
-  "nombre": "BERNARDO ANIBAL GIL TORRES"
+  "nombre": "BERNARDO ANIBAL GIL TORRES",
+  "notificacion": null
 }

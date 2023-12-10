@@ -60,5 +60,18 @@
   "cc": 79590985,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JORGE PEREZ"
+  "nombre": "JORGE PEREZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

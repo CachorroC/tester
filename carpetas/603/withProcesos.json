@@ -16,7 +16,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 603,
       "idConexion": null,
       "llaveProceso": "SinEspecificar",
@@ -25,7 +24,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2034-01-01T05:00:00.000Z"
@@ -68,5 +66,6 @@
   "cc": 1032411438,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "FRANCY TATIANA LEON TOBARIA"
+  "nombre": "FRANCY TATIANA LEON TOBARIA",
+  "notificacion": null
 }

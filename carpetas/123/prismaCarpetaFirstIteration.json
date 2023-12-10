@@ -1,15 +1,15 @@
 {
-  "numero": 123,
-  "llaveProceso": "11001400306920170075400",
-  "nombre": "GUSTAVO SANTAMARIA MOSQUERA",
+  "category": "Terminados",
+  "fecha": "2020-11-04T05:00:00.000Z",
   "idProcesos": [
     50632410
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2020-11-04T05:00:00.000Z",
+  "idRegUltimaAct": 997260750,
+  "llaveProceso": "11001400306920170075400",
+  "nombre": "GUSTAVO SANTAMARIA MOSQUERA",
+  "numero": 123,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:10.339Z",
   "terminado": true,
-  "idRegUltimaAct": 997260750
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:00:49.109Z"
 }

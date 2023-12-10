@@ -60,5 +60,24 @@
   "cc": 79978846,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JUAN CARLOS GARZON BEJARANO"
+  "nombre": "JUAN CARLOS GARZON BEJARANO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2018-11-29T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": "CORREO"
+  }
 }

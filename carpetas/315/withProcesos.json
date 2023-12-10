@@ -55,5 +55,18 @@
   "cc": 80203869,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "BLADIMIR GUTIERREZ CIFUENTES"
+  "nombre": "BLADIMIR GUTIERREZ CIFUENTES",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": false,
+    "autoNotificado": "43375"
+  }
 }

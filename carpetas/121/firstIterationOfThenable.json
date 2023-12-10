@@ -54,5 +54,18 @@
   "cc": 19453362,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JAIME ORLANDO LUGO RODRIGUEZ"
+  "nombre": "JAIME ORLANDO LUGO RODRIGUEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

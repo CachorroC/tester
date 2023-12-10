@@ -10,12 +10,12 @@ const range = {
         // note: we can use "await" inside the async next:
         await new Promise(
           (
-            resolve 
+            resolve
           ) => {
             return setTimeout(
-              resolve, 1000 
+              resolve, 10
             );
-          } 
+          }
         ); // (3)
 
         if ( this.current <= this.last ) {
@@ -38,9 +38,9 @@ const range = {
     // (4)
     console.log(
       `${ JSON.stringify(
-        value, null, 2 
+        value, null, 2
       ) } of ${ JSON.stringify(
-        range, null, 2 
+        range, null, 2
       ) }`,
     );
   }

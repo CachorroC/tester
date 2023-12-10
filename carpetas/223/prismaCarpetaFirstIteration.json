@@ -1,15 +1,15 @@
 {
-  "numero": 223,
-  "llaveProceso": "11001400305520170086000",
-  "nombre": "GERARDO ANTONIO MONCADA VEGA",
+  "category": "Reintegra",
+  "fecha": "2023-08-03T05:00:00.000Z",
   "idProcesos": [
     86524020
   ],
-  "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2023-08-03T05:00:00.000Z",
+  "idRegUltimaAct": 1832599260,
+  "llaveProceso": "11001400305520170086000",
+  "nombre": "GERARDO ANTONIO MONCADA VEGA",
+  "numero": 223,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:39:48.135Z",
   "terminado": false,
-  "idRegUltimaAct": 1832599260
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:04.606Z"
 }

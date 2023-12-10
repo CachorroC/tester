@@ -16,7 +16,7 @@
       "idProceso": 50667490,
       "isUltimaAct": true,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     },
     {
       "idRegActuacion": 855693880,
@@ -34,7 +34,7 @@
       "idProceso": 50667490,
       "isUltimaAct": false,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     },
     {
       "idRegActuacion": 855693870,
@@ -52,7 +52,7 @@
       "idProceso": 50667490,
       "isUltimaAct": false,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     },
     {
       "idRegActuacion": 855693860,
@@ -70,7 +70,7 @@
       "idProceso": 50667490,
       "isUltimaAct": false,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     },
     {
       "idRegActuacion": 855693850,
@@ -88,7 +88,7 @@
       "idProceso": 50667490,
       "isUltimaAct": false,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     },
     {
       "idRegActuacion": 855693840,
@@ -106,7 +106,7 @@
       "idProceso": 50667490,
       "isUltimaAct": false,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     },
     {
       "idRegActuacion": 855693830,
@@ -124,7 +124,7 @@
       "idProceso": 50667490,
       "isUltimaAct": false,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     },
     {
       "idRegActuacion": 855693820,
@@ -142,7 +142,7 @@
       "idProceso": 50667490,
       "isUltimaAct": false,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     },
     {
       "idRegActuacion": 855693810,
@@ -160,7 +160,7 @@
       "idProceso": 50667490,
       "isUltimaAct": false,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     },
     {
       "idRegActuacion": 855693800,
@@ -178,7 +178,7 @@
       "idProceso": 50667490,
       "isUltimaAct": false,
       "carpetaNumero": 151,
-      "createdAt": "2023-12-08T03:39:20.797Z"
+      "createdAt": "2023-12-10T19:00:53.506Z"
     }
   ],
   "juzgados": [
@@ -214,11 +214,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 73,
-        "tipo": "JUZGADO 073 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-073-civil-municipal-de-bogota"
-      },
       "idProceso": 50667490,
       "idConexion": 259,
       "llaveProceso": "11001400307320170113500",
@@ -227,19 +222,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANDRES FELIPE HIGUITA CARDONA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": false,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [],
       "capitalAdeudado": 0,
@@ -313,5 +295,18 @@
   "idProcesos": [
     50667490
   ],
-  "nombre": "ANDRES FELIPE HIGUITA CARDONA"
+  "nombre": "ANDRES FELIPE HIGUITA CARDONA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

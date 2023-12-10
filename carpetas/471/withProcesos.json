@@ -33,7 +33,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 471,
       "idConexion": null,
       "llaveProceso": "1100140030152018007100",
@@ -42,19 +41,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": {
-        "certimail": false,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": null
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2022-01-01T05:00:00.000Z"
@@ -99,5 +85,18 @@
   "cc": 80742720,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "ADRIANA MIREYA AGUILAR"
+  "nombre": "ADRIANA MIREYA AGUILAR",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

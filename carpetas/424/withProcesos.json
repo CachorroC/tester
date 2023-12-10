@@ -20,7 +20,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 424,
       "idConexion": null,
       "llaveProceso": "110014003015201800459",
@@ -29,7 +28,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "8202-01-01T05:00:00.000Z"
@@ -72,5 +70,6 @@
   "cc": 79742224,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "JAIME LEONARDO SOSA ROODRIGUEZ"
+  "nombre": "JAIME LEONARDO SOSA ROODRIGUEZ",
+  "notificacion": null
 }

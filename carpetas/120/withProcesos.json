@@ -69,5 +69,24 @@
   "cc": 900212673,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JENCELL E.U."
+  "nombre": "JENCELL E.U.",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2017-12-12T05:00:00.000Z",
+        "fechaAporta": "2017-12-12T05:00:00.000Z",
+        "resultado": true
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": "2017-12-12T05:00:00.000Z",
+        "resultado": true
+      }
+    ],
+    "certimail": true,
+    "fisico": false,
+    "autoNotificado": "9/02/2018"
+  }
 }

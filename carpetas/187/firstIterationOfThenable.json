@@ -61,5 +61,24 @@
   "cc": 39624423,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "YAZMIN ALVARADO PINZON"
+  "nombre": "YAZMIN ALVARADO PINZON",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2017-10-23T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": "PERSONAL"
+  }
 }

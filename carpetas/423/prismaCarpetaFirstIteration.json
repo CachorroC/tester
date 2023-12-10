@@ -1,15 +1,15 @@
 {
-  "numero": 423,
-  "llaveProceso": "11001400301920180044300",
-  "nombre": "ANDRES PEDRAZA GARCIA",
+  "category": "Terminados",
+  "fecha": "2019-11-25T05:00:00.000Z",
   "idProcesos": [
     51149980
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2019-11-25T05:00:00.000Z",
+  "idRegUltimaAct": 899044160,
+  "llaveProceso": "11001400301920180044300",
+  "nombre": "ANDRES PEDRAZA GARCIA",
+  "numero": 423,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:41:21.202Z",
   "terminado": true,
-  "idRegUltimaAct": 899044160
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:35.390Z"
 }

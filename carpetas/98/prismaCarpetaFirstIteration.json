@@ -1,15 +1,15 @@
 {
-  "numero": 98,
-  "llaveProceso": "11001400301120170062300",
-  "nombre": "MARIA DEL CARMEN CHAPARRO LEMUS",
+  "category": "Terminados",
+  "fecha": "2018-08-15T05:00:00.000Z",
   "idProcesos": [
     50543070
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2018-08-15T05:00:00.000Z",
+  "idRegUltimaAct": 1934131710,
+  "llaveProceso": "11001400301120170062300",
+  "nombre": "MARIA DEL CARMEN CHAPARRO LEMUS",
+  "numero": 98,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:55.930Z",
   "terminado": true,
-  "idRegUltimaAct": 1934131710
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:00:45.191Z"
 }

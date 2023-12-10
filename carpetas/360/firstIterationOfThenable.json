@@ -16,7 +16,7 @@
       "idProceso": 50915500,
       "isUltimaAct": true,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-08T03:40:49.097Z"
+      "createdAt": "2023-12-10T19:01:26.434Z"
     },
     {
       "idRegActuacion": 696659840,
@@ -34,7 +34,7 @@
       "idProceso": 50915500,
       "isUltimaAct": false,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-08T03:40:49.097Z"
+      "createdAt": "2023-12-10T19:01:26.434Z"
     },
     {
       "idRegActuacion": 696659830,
@@ -52,7 +52,7 @@
       "idProceso": 50915500,
       "isUltimaAct": false,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-08T03:40:49.097Z"
+      "createdAt": "2023-12-10T19:01:26.434Z"
     },
     {
       "idRegActuacion": 696659820,
@@ -70,7 +70,7 @@
       "idProceso": 50915500,
       "isUltimaAct": false,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-08T03:40:49.097Z"
+      "createdAt": "2023-12-10T19:01:26.434Z"
     },
     {
       "idRegActuacion": 696659810,
@@ -88,7 +88,7 @@
       "idProceso": 50915500,
       "isUltimaAct": false,
       "carpetaNumero": 360,
-      "createdAt": "2023-12-08T03:40:49.097Z"
+      "createdAt": "2023-12-10T19:01:26.434Z"
     }
   ],
   "juzgados": [
@@ -115,11 +115,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 23,
-        "tipo": "JUZGADO 023 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-23-civil-municipal-de-bogota"
-      },
       "idProceso": 50915500,
       "idConexion": 259,
       "llaveProceso": "11001400302320170145200",
@@ -128,7 +123,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NOHORA DEL PILAR  VARGAS BERNAL ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2024-01-01T05:00:00.000Z"
@@ -206,5 +200,6 @@
   "idProcesos": [
     50915500
   ],
-  "nombre": "NOHORA DEL PILAR VARGAS BERNAL"
+  "nombre": "NOHORA DEL PILAR VARGAS BERNAL",
+  "notificacion": null
 }

@@ -23,11 +23,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 1,
-        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE MADRID",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-civil-municipal-de-madrid"
-      },
       "idProceso": 160042431,
       "idConexion": 320,
       "llaveProceso": "25430400300120230129500",
@@ -36,7 +31,6 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z"
@@ -94,5 +88,6 @@
   "idProcesos": [
     160042431
   ],
-  "nombre": "PEDRO ANTONIO DUARTE VARGAS"
+  "nombre": "PEDRO ANTONIO DUARTE VARGAS",
+  "notificacion": null
 }

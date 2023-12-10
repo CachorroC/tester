@@ -72,15 +72,20 @@ export class ClassDeudor implements IntDeudor {
 
     switch ( nameArrayLength ) {
         case 4:
-          [ this.primerNombre,
+          [
+            this.primerNombre,
             this.segundoNombre,
             this.primerApellido,
-            this.segundoApellido, ] = nameStringArray;
+            this.segundoApellido, 
+          ] = nameStringArray;
 
           break;
 
         case 2:
-          [ this.primerNombre, this.primerApellido ] = nameStringArray;
+          [
+            this.primerNombre,
+            this.primerApellido 
+          ] = nameStringArray;
 
           this.segundoApellido = null;
           this.segundoNombre = null;
@@ -96,19 +101,23 @@ export class ClassDeudor implements IntDeudor {
           break;
 
         case 3:
-          [ this.primerNombre,
-this.segundoNombre,
-this.primerApellido ]
+          [
+            this.primerNombre,
+            this.segundoNombre,
+            this.primerApellido 
+          ]
           = nameStringArray;
           this.segundoApellido = null;
 
           break;
 
         default:
-          [ this.primerNombre,
+          [
+            this.primerNombre,
             this.segundoNombre,
             this.primerApellido,
-            ...this.segundoApellido ] = nameStringArray;
+            ...this.segundoApellido 
+          ] = nameStringArray;
 
           break;
     }

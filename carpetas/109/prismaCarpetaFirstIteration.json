@@ -1,15 +1,15 @@
 {
-  "numero": 109,
-  "llaveProceso": "11001400302420180011900",
-  "nombre": "OSCAR IVAN AGUDELO MORA",
+  "category": "Terminados",
+  "fecha": "2019-12-10T05:00:00.000Z",
   "idProcesos": [
     50990990
   ],
-  "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "fecha": "2019-12-10T05:00:00.000Z",
+  "idRegUltimaAct": 903204510,
+  "llaveProceso": "11001400302420180011900",
+  "nombre": "OSCAR IVAN AGUDELO MORA",
+  "numero": 109,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:59.682Z",
   "terminado": true,
-  "idRegUltimaAct": 903204510
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:00:46.790Z"
 }

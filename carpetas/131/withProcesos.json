@@ -65,5 +65,24 @@
   "cc": 52830770,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "ROCIO ALEIDA ORTIZ BARRETO"
+  "nombre": "ROCIO ALEIDA ORTIZ BARRETO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "42983"
+  }
 }

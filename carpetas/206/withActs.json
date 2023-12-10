@@ -16,7 +16,7 @@
       "idProceso": 17944250,
       "isUltimaAct": true,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     },
     {
       "idRegActuacion": 265839720,
@@ -34,7 +34,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     },
     {
       "idRegActuacion": 265839710,
@@ -52,7 +52,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     },
     {
       "idRegActuacion": 265839700,
@@ -70,7 +70,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     },
     {
       "idRegActuacion": 265839690,
@@ -88,7 +88,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     },
     {
       "idRegActuacion": 265839680,
@@ -106,7 +106,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     },
     {
       "idRegActuacion": 265839670,
@@ -124,7 +124,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     },
     {
       "idRegActuacion": 265839660,
@@ -142,7 +142,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     },
     {
       "idRegActuacion": 265839650,
@@ -160,7 +160,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     },
     {
       "idRegActuacion": 265839640,
@@ -178,7 +178,7 @@
       "idProceso": 17944250,
       "isUltimaAct": false,
       "carpetaNumero": 206,
-      "createdAt": "2023-12-08T03:39:42.075Z"
+      "createdAt": "2023-12-10T19:01:01.909Z"
     }
   ],
   "juzgados": [
@@ -213,11 +213,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 64,
-        "tipo": "JUZGADO 064 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-064-civil-municipal-de-bogota"
-      },
       "idProceso": 17944250,
       "idConexion": 260,
       "llaveProceso": "11001400306420170146900",
@@ -226,7 +221,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: EDGAR MARTINEZ VELANDIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2015-01-01T05:00:00.000Z",
@@ -303,5 +297,6 @@
   "idProcesos": [
     17944250
   ],
-  "nombre": "EDGAR MARTINEZ VELANDIA"
+  "nombre": "EDGAR MARTINEZ VELANDIA",
+  "notificacion": null
 }

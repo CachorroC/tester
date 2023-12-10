@@ -18,7 +18,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 597,
       "idConexion": null,
       "llaveProceso": "SinEspecificar",
@@ -27,7 +26,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -72,5 +70,6 @@
   "cc": 1016021964,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "DANNY EDUARDO SANCHEZ MORENO"
+  "nombre": "DANNY EDUARDO SANCHEZ MORENO",
+  "notificacion": null
 }

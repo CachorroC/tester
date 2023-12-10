@@ -1,15 +1,15 @@
 {
-  "numero": 45,
-  "llaveProceso": "11001400301920170052800",
-  "nombre": "EDISON PALMA CARDENAL",
+  "category": "Terminados",
+  "fecha": "2020-02-03T05:00:00.000Z",
   "idProcesos": [
     74646350
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2020-02-03T05:00:00.000Z",
+  "idRegUltimaAct": 952387560,
+  "llaveProceso": "11001400301920170052800",
+  "nombre": "EDISON PALMA CARDENAL",
+  "numero": 45,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:37.625Z",
   "terminado": true,
-  "idRegUltimaAct": 952387560
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:00:37.100Z"
 }

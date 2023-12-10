@@ -16,7 +16,7 @@
       "idProceso": 19150031,
       "isUltimaAct": true,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-08T03:39:39.188Z"
+      "createdAt": "2023-12-10T19:01:00.659Z"
     },
     {
       "idRegActuacion": 219869011,
@@ -34,7 +34,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-08T03:39:39.188Z"
+      "createdAt": "2023-12-10T19:01:00.659Z"
     },
     {
       "idRegActuacion": 219869001,
@@ -52,7 +52,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-08T03:39:39.188Z"
+      "createdAt": "2023-12-10T19:01:00.659Z"
     },
     {
       "idRegActuacion": 219868991,
@@ -70,7 +70,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-08T03:39:39.188Z"
+      "createdAt": "2023-12-10T19:01:00.659Z"
     },
     {
       "idRegActuacion": 219868981,
@@ -88,7 +88,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-08T03:39:39.188Z"
+      "createdAt": "2023-12-10T19:01:00.659Z"
     },
     {
       "idRegActuacion": 219868971,
@@ -106,7 +106,7 @@
       "idProceso": 19150031,
       "isUltimaAct": false,
       "carpetaNumero": 198,
-      "createdAt": "2023-12-08T03:39:39.188Z"
+      "createdAt": "2023-12-10T19:01:00.659Z"
     }
   ],
   "juzgados": [
@@ -133,11 +133,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 40,
-        "tipo": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-40-civil-municipal-de-bogota"
-      },
       "idProceso": 19150031,
       "idConexion": 256,
       "llaveProceso": "11001400304020170132900",
@@ -146,7 +141,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR MANUEL RAMIREZ PUENTES ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2028-01-01T05:00:00.000Z"
@@ -221,5 +215,6 @@
   "idProcesos": [
     19150031
   ],
-  "nombre": "HECTOR MANUEL RAMIREZ PUENTES"
+  "nombre": "HECTOR MANUEL RAMIREZ PUENTES",
+  "notificacion": null
 }

@@ -16,7 +16,7 @@
       "idProceso": 132645230,
       "isUltimaAct": true,
       "carpetaNumero": 578,
-      "createdAt": "2023-12-08T03:42:13.624Z"
+      "createdAt": "2023-12-10T19:01:56.811Z"
     },
     {
       "idRegActuacion": 1872445900,
@@ -34,7 +34,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-12-08T03:42:13.624Z"
+      "createdAt": "2023-12-10T19:01:56.811Z"
     },
     {
       "idRegActuacion": 1872445890,
@@ -52,7 +52,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-12-08T03:42:13.624Z"
+      "createdAt": "2023-12-10T19:01:56.811Z"
     },
     {
       "idRegActuacion": 1872445880,
@@ -70,7 +70,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-12-08T03:42:13.624Z"
+      "createdAt": "2023-12-10T19:01:56.811Z"
     },
     {
       "idRegActuacion": 1855375910,
@@ -88,7 +88,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-12-08T03:42:13.624Z"
+      "createdAt": "2023-12-10T19:01:56.811Z"
     },
     {
       "idRegActuacion": 1855375900,
@@ -106,7 +106,7 @@
       "idProceso": 132645230,
       "isUltimaAct": false,
       "carpetaNumero": 578,
-      "createdAt": "2023-12-08T03:42:13.624Z"
+      "createdAt": "2023-12-10T19:01:56.811Z"
     }
   ],
   "juzgados": [
@@ -133,11 +133,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 41,
-        "tipo": "JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-041-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      },
       "idProceso": 132645230,
       "idConexion": 259,
       "llaveProceso": "11001418904120230021200",
@@ -146,7 +141,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: INDIRA MAYERLY FLOREZ CASTRO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -221,5 +215,6 @@
   "idProcesos": [
     132645230
   ],
-  "nombre": "DIANA CRISTINA AREVALO ARBOLEDA"
+  "nombre": "DIANA CRISTINA AREVALO ARBOLEDA",
+  "notificacion": null
 }

@@ -1,16 +1,16 @@
 {
-  "numero": 176,
-  "llaveProceso": "11001400300420170080100",
-  "nombre": "JHON FREDY MURILLO DAZA",
+  "category": "Terminados",
+  "fecha": "2021-12-10T05:00:00.000Z",
   "idProcesos": [
     112783650,
     81628051
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2021-12-10T05:00:00.000Z",
+  "idRegUltimaAct": 1237916570,
+  "llaveProceso": "11001400300420170080100",
+  "nombre": "JHON FREDY MURILLO DAZA",
+  "numero": 176,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:29.470Z",
   "terminado": true,
-  "idRegUltimaAct": 1237916570
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:00:57.395Z"
 }

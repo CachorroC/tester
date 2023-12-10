@@ -67,5 +67,24 @@
   "cc": 17652071,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "SAUL BARBOSA RAMIREZ"
+  "nombre": "SAUL BARBOSA RAMIREZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2018-08-10T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": "PERSONAL SAUL BARBOSA RAMIREZ"
+  }
 }

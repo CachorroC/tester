@@ -16,7 +16,7 @@
       "idProceso": 10955643,
       "isUltimaAct": true,
       "carpetaNumero": 403,
-      "createdAt": "2023-12-08T03:41:14.267Z"
+      "createdAt": "2023-12-10T19:01:32.680Z"
     },
     {
       "idRegActuacion": 135518813,
@@ -34,7 +34,7 @@
       "idProceso": 10955643,
       "isUltimaAct": false,
       "carpetaNumero": 403,
-      "createdAt": "2023-12-08T03:41:14.267Z"
+      "createdAt": "2023-12-10T19:01:32.680Z"
     },
     {
       "idRegActuacion": 135518803,
@@ -52,7 +52,7 @@
       "idProceso": 10955643,
       "isUltimaAct": false,
       "carpetaNumero": 403,
-      "createdAt": "2023-12-08T03:41:14.267Z"
+      "createdAt": "2023-12-10T19:01:32.680Z"
     },
     {
       "idRegActuacion": 135518793,
@@ -70,7 +70,7 @@
       "idProceso": 10955643,
       "isUltimaAct": false,
       "carpetaNumero": 403,
-      "createdAt": "2023-12-08T03:41:14.267Z"
+      "createdAt": "2023-12-10T19:01:32.680Z"
     },
     {
       "idRegActuacion": 135518783,
@@ -88,7 +88,7 @@
       "idProceso": 10955643,
       "isUltimaAct": false,
       "carpetaNumero": 403,
-      "createdAt": "2023-12-08T03:41:14.267Z"
+      "createdAt": "2023-12-10T19:01:32.680Z"
     }
   ],
   "juzgados": [
@@ -123,11 +123,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 49,
-        "tipo": "JUZGADO 049 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-049-civil-municipal-de-bogota"
-      },
       "idProceso": 10955643,
       "idConexion": 261,
       "llaveProceso": "11001400304920180019100",
@@ -136,7 +131,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CLAUDIA YANNET VALENCIA AYA | Demandado: BERTHA JUDITH AYA DE VALENCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -211,5 +205,6 @@
   "idProcesos": [
     10955643
   ],
-  "nombre": "CLAUDIA YANETH VALENCIA AYA"
+  "nombre": "CLAUDIA YANETH VALENCIA AYA",
+  "notificacion": null
 }

@@ -2,13 +2,10 @@ import { Juzgado } from '@prisma/client';
 import { Despachos } from '../data/despachos';
 import { DemandaRaw,
   IntDemanda,
-  TipoProceso,
-  intNotificacion,
-  rawNotificacion, } from '../types/carpetas';
+  TipoProceso, } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
-import { fechaPresentacionBuilder,
-  fixSingleFecha, } from './idk';
+import { fechaPresentacionBuilder, } from './idk';
 
 function vencimientoPagareFixer(
   rawVencimientoPagare?: string | number
@@ -155,7 +152,7 @@ export function juzgadosByProceso(
   );
 }
 
-class NewJuzgado implements Juzgado {
+export class NewJuzgado implements Juzgado {
   constructor(
     proceso: intProceso
   ) {
@@ -241,7 +238,6 @@ export class ClassDemanda implements IntDemanda {
       radicado,
       llaveProceso,
       medidasCautelares,
-      notificacion,
       vencimientoPagare,
     }: DemandaRaw,
     numero: number,
@@ -343,11 +339,6 @@ export class ClassDemanda implements IntDemanda {
     this.departamento = departamento
       ? departamento
       : null;
-    this.juzgado = proceso
-      ? new NewJuzgado(
-        proceso
-      )
-      : null;
     this.idProceso = proceso
       ? proceso.idProceso
       : numero;
@@ -391,13 +382,8 @@ export class ClassDemanda implements IntDemanda {
         }
       : null;
 
-    this.notificacion = notificacion
-      ? new ClassNotificacion(
-        notificacion
-      )
-      : null;
+
   }
-  juzgado: Juzgado | null;
   idProceso: number;
   idConexion: number | null;
   llaveProceso: string | null;
@@ -406,7 +392,6 @@ export class ClassDemanda implements IntDemanda {
   sujetosProcesales: string | null;
   esPrivado: boolean | null;
   cantFilas: number | null;
-  notificacion: intNotificacion | null;
   medidasCautelares: {
     fechaOrdenaMedida: Date | null;
     medidaSolicitada: string | null;
@@ -422,128 +407,4 @@ export class ClassDemanda implements IntDemanda {
   municipio: string | null;
   obligacion: ( number | string )[];
   radicado: string | null;
-}
-
-export class ClassNotificacion implements intNotificacion {
-  constructor(
-    notificacion: rawNotificacion
-  ) {
-    const {
-      fisico, certimail, autoNotificado
-    }
-      = notificacion;
-    this.certimail = certimail
-      ? certimail === 'SI'
-        ? true
-        : false
-      : null;
-    this.fisico = fisico
-      ? fisico === 'SI'
-        ? true
-        : false
-      : null;
-    this.autoNotificado = autoNotificado
-      ? typeof autoNotificado === 'number'
-        ? autoNotificado.toString()
-        : autoNotificado
-      : null;
-
-    const notifiersBuilder = new Map<number, {
-      tipo: '291' | '292';
-      fechaRecibido: Date | null;
-      resultado: boolean | null;
-      fechaAporta: Date | null;
-    }>();
-
-    const the291 = notificacion[ '291' ];
-
-    if ( the291 ) {
-      const {
-        fechaRecibido, resultado, fechaAporta
-      }
-        = the291;
-
-      const newFechaRecibido = fechaRecibido
-        ? fixSingleFecha(
-          typeof fechaRecibido === 'number'
-            ? fechaRecibido.toString()
-            : fechaRecibido
-        )
-        : null;
-
-      const newFechaAporta = fechaAporta
-        ? fixSingleFecha(
-          typeof fechaAporta === 'number'
-            ? fechaAporta.toString()
-            : fechaAporta
-        )
-        : null;
-
-      const newResultado = resultado
-        ? resultado === 'POSITIVO'
-          ? true
-          : false
-        : null;
-      notifiersBuilder.set(
-        291,
-        {
-          tipo         : '291'
-          , fechaRecibido: newFechaRecibido
-          , fechaAporta  : newFechaAporta
-          , resultado    : newResultado,
-        }
-      );
-    }
-
-    const the292 = notificacion[ '292' ];
-
-    if ( the292 ) {
-      const {
-        fechaRecibido, resultado, fechaAporta
-      }
-        = the292;
-
-      const newFechaRecibido = fechaRecibido
-        ? fixSingleFecha(
-          fechaRecibido
-        )
-        : null;
-
-      const newFechaAporta = fechaAporta
-        ? fixSingleFecha(
-          typeof fechaAporta === 'number'
-            ? fechaAporta.toString()
-            : fechaAporta
-        )
-        : null;
-
-      const newResultado = resultado
-        ? resultado === 'POSITIVO'
-          ? true
-          : false
-        : null;
-      notifiersBuilder.set(
-        292,
-        {
-          tipo         : '292'
-          , fechaRecibido: newFechaRecibido
-          , fechaAporta  : newFechaAporta
-          , resultado    : newResultado,
-        }
-      );
-    }
-
-    this.notifiers = Array.from(
-      notifiersBuilder.values()
-    );
-  }
-  certimail: boolean | null;
-  fisico: boolean | null;
-  autoNotificado: string | null;
-  notifiers: {
-    tipo: '291' | '292';
-    fechaRecibido: Date | null;
-    resultado: boolean | null;
-    fechaAporta: Date | null;
-  }[];
 }

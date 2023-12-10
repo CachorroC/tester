@@ -1,15 +1,15 @@
 {
-  "numero": 212,
-  "llaveProceso": "11001400304620170103500",
-  "nombre": "FERNANDO VERA FARFAN",
+  "category": "Terminados",
+  "fecha": "2017-11-28T05:00:00.000Z",
   "idProcesos": [
     10134513
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2017-11-28T05:00:00.000Z",
+  "idRegUltimaAct": 119895683,
+  "llaveProceso": "11001400304620170103500",
+  "nombre": "FERNANDO VERA FARFAN",
+  "numero": 212,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:44.251Z",
   "terminado": true,
-  "idRegUltimaAct": 119895683
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:02.807Z"
 }

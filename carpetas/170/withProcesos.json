@@ -16,7 +16,7 @@
       "idProceso": 50668010,
       "isUltimaAct": true,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968390,
@@ -34,7 +34,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968380,
@@ -52,7 +52,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968370,
@@ -70,7 +70,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968360,
@@ -88,7 +88,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968350,
@@ -106,7 +106,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968340,
@@ -124,7 +124,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968330,
@@ -142,7 +142,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968320,
@@ -160,7 +160,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968310,
@@ -178,7 +178,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968300,
@@ -196,7 +196,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     },
     {
       "idRegActuacion": 630968290,
@@ -214,7 +214,7 @@
       "idProceso": 50668010,
       "isUltimaAct": false,
       "carpetaNumero": 170,
-      "createdAt": "2023-12-08T03:39:27.054Z"
+      "createdAt": "2023-12-10T19:00:56.290Z"
     }
   ],
   "juzgados": [
@@ -251,11 +251,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 13,
-        "tipo": "JUZGADO 013 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-013-civil-municipal-de-bogota"
-      },
       "idProceso": 50668010,
       "idConexion": 259,
       "llaveProceso": "11001400301320170111400",
@@ -264,19 +259,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ISABEL CRISTINA GARCIA DURAN ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": false,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [],
       "capitalAdeudado": 8108220,
@@ -350,5 +332,18 @@
   "idProcesos": [
     50668010
   ],
-  "nombre": "ISABEL CRISTINA GARCIA DURAN"
+  "nombre": "ISABEL CRISTINA GARCIA DURAN",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

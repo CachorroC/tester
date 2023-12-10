@@ -1,15 +1,15 @@
 {
-  "numero": 220,
-  "llaveProceso": "11001400304020170150900",
-  "nombre": "MARIA EUGENIA SALCEDO PINEDA",
+  "category": "Terminados",
+  "fecha": "2020-03-06T05:00:00.000Z",
   "idProcesos": [
     50771340
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2020-03-06T05:00:00.000Z",
+  "idRegUltimaAct": 962639500,
+  "llaveProceso": "11001400304020170150900",
+  "nombre": "MARIA EUGENIA SALCEDO PINEDA",
+  "numero": 220,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:46.899Z",
   "terminado": true,
-  "idRegUltimaAct": 962639500
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:04.131Z"
 }

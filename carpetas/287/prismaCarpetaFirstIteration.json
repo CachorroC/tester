@@ -1,15 +1,15 @@
 {
-  "numero": 287,
-  "llaveProceso": "11001400301620170015700",
-  "nombre": "CARLOS GERMAN RUGE CASTAÑEDA",
+  "category": "Insolvencia",
+  "fecha": "2023-11-03T05:00:00.000Z",
   "idProcesos": [
     50242270
   ],
-  "category": "Insolvencia",
-  "tipoProceso": "PRENDARIO",
-  "fecha": "2023-11-03T05:00:00.000Z",
+  "idRegUltimaAct": 1927140880,
+  "llaveProceso": "11001400301620170015700",
+  "nombre": "CARLOS GERMAN RUGE CASTAÑEDA",
+  "numero": 287,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:40:23.775Z",
   "terminado": false,
-  "idRegUltimaAct": 1927140880
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:01:15.368Z"
 }

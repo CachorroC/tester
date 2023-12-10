@@ -55,5 +55,18 @@
   "cc": 79108747,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "EDGAR HERNANDEZ RUBIO"
+  "nombre": "EDGAR HERNANDEZ RUBIO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": true
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "22/06/2017"
+  }
 }

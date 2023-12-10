@@ -16,7 +16,7 @@
       "idProceso": 17724160,
       "isUltimaAct": true,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829730,
@@ -34,7 +34,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829720,
@@ -52,7 +52,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829710,
@@ -70,7 +70,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829700,
@@ -88,7 +88,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829690,
@@ -106,7 +106,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829680,
@@ -124,7 +124,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829670,
@@ -142,7 +142,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829660,
@@ -160,7 +160,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829650,
@@ -178,7 +178,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829640,
@@ -196,7 +196,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829630,
@@ -214,7 +214,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829620,
@@ -232,7 +232,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     },
     {
       "idRegActuacion": 267829610,
@@ -250,7 +250,7 @@
       "idProceso": 17724160,
       "isUltimaAct": false,
       "carpetaNumero": 436,
-      "createdAt": "2023-12-08T03:41:26.220Z"
+      "createdAt": "2023-12-10T19:01:37.507Z"
     }
   ],
   "juzgados": [
@@ -278,11 +278,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 63,
-        "tipo": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
-      },
       "idProceso": 17724160,
       "idConexion": 260,
       "llaveProceso": "11001400306320180075600",
@@ -291,7 +286,6 @@
       "sujetosProcesales": "Demandante: Bancolombia S.A. | Demandado: JUAN CAMILO BAQUERO BUTTNER ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [],
       "capitalAdeudado": 38569581,
@@ -365,5 +359,6 @@
   "idProcesos": [
     17724160
   ],
-  "nombre": "JUAN CAMILO BAQUERO BUTTNER"
+  "nombre": "JUAN CAMILO BAQUERO BUTTNER",
+  "notificacion": null
 }

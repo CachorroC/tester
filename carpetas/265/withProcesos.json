@@ -39,7 +39,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 265,
       "idConexion": null,
       "llaveProceso": "1100140030202100050100",
@@ -48,25 +47,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": {
-        "certimail": false,
-        "fisico": false,
-        "autoNotificado": "FISICA",
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": "2018-04-03T05:00:00.000Z",
-            "resultado": false
-          },
-          {
-            "tipo": "292",
-            "fechaRecibido": "2018-05-30T05:00:00.000Z",
-            "fechaAporta": null,
-            "resultado": null
-          }
-        ]
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": "2018-01-06T05:00:00.000Z",
         "medidaSolicitada": "9/10/2017"
@@ -113,5 +93,24 @@
   "cc": 7601476,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "JULIO RENE SANCHEZ ARGOTE"
+  "nombre": "JULIO RENE SANCHEZ ARGOTE",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": "2018-04-03T05:00:00.000Z",
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2018-05-30T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": "FISICA"
+  }
 }

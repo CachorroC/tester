@@ -16,7 +16,7 @@
       "idProceso": 132161470,
       "isUltimaAct": true,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-08T03:42:09.801Z"
+      "createdAt": "2023-12-10T19:01:55.488Z"
     },
     {
       "idRegActuacion": 1862825060,
@@ -34,7 +34,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-08T03:42:09.801Z"
+      "createdAt": "2023-12-10T19:01:55.488Z"
     },
     {
       "idRegActuacion": 1844385410,
@@ -52,7 +52,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-08T03:42:09.801Z"
+      "createdAt": "2023-12-10T19:01:55.488Z"
     },
     {
       "idRegActuacion": 1844385400,
@@ -70,7 +70,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-08T03:42:09.801Z"
+      "createdAt": "2023-12-10T19:01:55.488Z"
     },
     {
       "idRegActuacion": 1844385390,
@@ -88,7 +88,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-08T03:42:09.801Z"
+      "createdAt": "2023-12-10T19:01:55.488Z"
     },
     {
       "idRegActuacion": 1844385380,
@@ -106,7 +106,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-08T03:42:09.801Z"
+      "createdAt": "2023-12-10T19:01:55.488Z"
     },
     {
       "idRegActuacion": 1837296480,
@@ -124,7 +124,7 @@
       "idProceso": 132161470,
       "isUltimaAct": false,
       "carpetaNumero": 568,
-      "createdAt": "2023-12-08T03:42:09.801Z"
+      "createdAt": "2023-12-10T19:01:55.488Z"
     }
   ],
   "juzgados": [
@@ -151,11 +151,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 75,
-        "tipo": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-75-civil-municipal-de-bogota"
-      },
       "idProceso": 132161470,
       "idConexion": 259,
       "llaveProceso": "11001400307520230128400",
@@ -164,7 +159,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: WILSON DE JESUS MOLINA QUIRAMA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2028-01-01T05:00:00.000Z",
@@ -239,5 +233,6 @@
   "idProcesos": [
     132161470
   ],
-  "nombre": "LORENA GUISELLE CHAPARRO LEAL"
+  "nombre": "LORENA GUISELLE CHAPARRO LEAL",
+  "notificacion": null
 }

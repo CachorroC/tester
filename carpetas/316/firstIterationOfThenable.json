@@ -62,5 +62,24 @@
   "cc": 8799171,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "MANUEL ENRIQUE ARTEAGA OROZCO"
+  "nombre": "MANUEL ENRIQUE ARTEAGA OROZCO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-02-15T05:00:00.000Z",
+        "fechaAporta": "2018-02-15T05:00:00.000Z",
+        "resultado": true
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": true
+      }
+    ],
+    "certimail": true,
+    "fisico": false,
+    "autoNotificado": "22/02/2018"
+  }
 }

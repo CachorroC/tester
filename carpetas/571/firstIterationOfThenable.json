@@ -16,7 +16,7 @@
       "idProceso": 132234840,
       "isUltimaAct": true,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     },
     {
       "idRegActuacion": 1937624360,
@@ -34,7 +34,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     },
     {
       "idRegActuacion": 1936886140,
@@ -52,7 +52,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     },
     {
       "idRegActuacion": 1921358410,
@@ -70,7 +70,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     },
     {
       "idRegActuacion": 1844668940,
@@ -88,7 +88,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     },
     {
       "idRegActuacion": 1844668930,
@@ -106,7 +106,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     },
     {
       "idRegActuacion": 1844668920,
@@ -124,7 +124,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     },
     {
       "idRegActuacion": 1844668910,
@@ -142,7 +142,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     },
     {
       "idRegActuacion": 1840762420,
@@ -160,7 +160,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     },
     {
       "idRegActuacion": 1839827160,
@@ -178,7 +178,7 @@
       "idProceso": 132234840,
       "isUltimaAct": false,
       "carpetaNumero": 571,
-      "createdAt": "2023-12-08T03:42:11.252Z"
+      "createdAt": "2023-12-10T19:01:56.032Z"
     }
   ],
   "juzgados": [
@@ -204,11 +204,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 14,
-        "tipo": "JUZGADO 014 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-014-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      },
       "idProceso": 132234840,
       "idConexion": 259,
       "llaveProceso": "11001418901420230146500",
@@ -217,7 +212,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: MARTHA CECILIA OSPINA ARENAS ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z"
@@ -290,5 +284,6 @@
   "idProcesos": [
     132234840
   ],
-  "nombre": "ERLI YANETH OYUELA MARTINEZ"
+  "nombre": "ERLI YANETH OYUELA MARTINEZ",
+  "notificacion": null
 }

@@ -51,5 +51,11 @@
   "cc": 79834592,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "YONNY ARTURO PINZON PULIDO"
+  "nombre": "YONNY ARTURO PINZON PULIDO",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "CERTIMAIL"
+  }
 }

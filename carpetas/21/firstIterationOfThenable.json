@@ -56,5 +56,24 @@
   "cc": 11309242,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "RAMIRO CRISTANCHO CONTRERAS"
+  "nombre": "RAMIRO CRISTANCHO CONTRERAS",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

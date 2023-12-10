@@ -26,7 +26,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -71,5 +70,6 @@
   "cc": 79405797,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "ELKIN CARRILLO MARTINEZ"
+  "nombre": "ELKIN CARRILLO MARTINEZ",
+  "notificacion": null
 }

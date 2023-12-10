@@ -58,5 +58,24 @@
   "cc": 52711938,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "ELIANA JANNETH LOZANO ARTURO"
+  "nombre": "ELIANA JANNETH LOZANO ARTURO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": null,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

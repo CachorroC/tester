@@ -64,5 +64,24 @@
   "cc": 24134505,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "CELY MARGOTH ROJAS VELANDIA"
+  "nombre": "CELY MARGOTH ROJAS VELANDIA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-07-08T05:00:00.000Z",
+        "fechaAporta": "2018-08-30T05:00:00.000Z",
+        "resultado": true
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": "2018-08-20T05:00:00.000Z",
+        "resultado": null
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

@@ -1,14 +1,15 @@
 import { Juzgado, Category, TipoProceso, Prisma, PrismaClient, Codeudor } from '@prisma/client';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
 import { intActuacion, ConsultaActuacion } from '../types/actuaciones';
-import { IntCarpeta, CarpetaRaw, IntDemanda, IntDeudor, DemandaRaw } from '../types/carpetas';
+import { IntCarpeta, CarpetaRaw, IntDemanda, IntDeudor, DemandaRaw, intNotificacion } from '../types/carpetas';
 import { intProceso, ConsultaNumeroRadicacion } from '../types/procesos';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
 import { PrismaDemanda, PrismaDeudor } from './prisma-carpeta';
+import { ClassNotificacion, PrismaNotificacion } from './notificacion';
 import { NewJuzgado } from './thenable';
 
-const client = new PrismaClient(
+export const client = new PrismaClient(
   {
     errorFormat: 'pretty',
   }
@@ -97,7 +98,13 @@ export class CarpetaBuilder implements IntCarpeta {
     this.ultimaActuacion = null;
     this.fecha = null;
     this.llaveProceso = demanda.llaveProceso;
+    this.notificacion = demanda.notificacion
+      ? new ClassNotificacion(
+        demanda.notificacion
+      )
+      : null;
   }
+  notificacion: intNotificacion | null;
   set _llaveProceso (
     expediente: string
   ) {
@@ -343,17 +350,21 @@ export class CarpetaBuilder implements IntCarpeta {
 
     const procesosBuilder = this.procesos;
 
+
     let prismaDemandas;
 
     if ( !procesosBuilder || procesosBuilder.length === 0 ) {
+      const thisPrismaDemanda = new PrismaDemanda(
+        this
+      );
 
       prismaDemandas = {
         where: {
           idProceso: this.numero,
         }
-        , create: new PrismaDemanda(
-          this,
-        ),
+        , create: {
+          ...thisPrismaDemanda,
+        },
       };
 
     } else {
@@ -362,13 +373,18 @@ export class CarpetaBuilder implements IntCarpeta {
         (
           proceso
         ) => {
+
+          const thisPrismaDemanda = new PrismaDemanda(
+            this, proceso
+          );
           return {
             where: {
               idProceso: proceso.idProceso
             }
-            , create: new PrismaDemanda(
-              this, proceso
-            ),
+            , create: {
+              ...thisPrismaDemanda
+
+            },
           };
         }
       );
@@ -407,6 +423,18 @@ export class CarpetaBuilder implements IntCarpeta {
                   : null
                 , id: this.numero
               }
+            }
+          }
+        : undefined
+      , notificacion: this.notificacion
+        ? {
+            connectOrCreate: {
+              where: {
+                carpetaNumero: this.numero
+              }
+              , create: new PrismaNotificacion(
+                this
+              )
             }
           }
         : undefined
@@ -632,22 +660,6 @@ export class CarpetaBuilder implements IntCarpeta {
                         )
                         : null
                     }
-                  };
-                }
-              )
-            }
-            , juzgados: {
-              connectOrCreate: procesosBuilder.map(
-                (
-                  proceso
-                ) => {
-                  return {
-                    where: {
-                      tipo: proceso.despacho
-                    }
-                    , create: new NewJuzgado(
-                      proceso
-                    )
                   };
                 }
               )

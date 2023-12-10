@@ -1,13 +1,13 @@
 {
-  "numero": 265,
+  "category": "Insolvencia",
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
   "llaveProceso": "1100140030202100050100",
   "nombre": "JULIO RENE SANCHEZ ARGOTE",
-  "idProcesos": [],
-  "category": "Insolvencia",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": null,
+  "numero": 265,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:40:04.762Z",
   "terminado": false,
-  "idRegUltimaAct": null
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:11.918Z"
 }

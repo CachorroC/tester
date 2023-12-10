@@ -16,7 +16,7 @@
       "idProceso": 50738440,
       "isUltimaAct": true,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-08T03:38:42.202Z"
+      "createdAt": "2023-12-10T19:00:39.219Z"
     },
     {
       "idRegActuacion": 707304080,
@@ -34,7 +34,7 @@
       "idProceso": 50738440,
       "isUltimaAct": false,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-08T03:38:42.202Z"
+      "createdAt": "2023-12-10T19:00:39.219Z"
     },
     {
       "idRegActuacion": 707304070,
@@ -52,7 +52,7 @@
       "idProceso": 50738440,
       "isUltimaAct": false,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-08T03:38:42.202Z"
+      "createdAt": "2023-12-10T19:00:39.219Z"
     },
     {
       "idRegActuacion": 707304060,
@@ -70,7 +70,7 @@
       "idProceso": 50738440,
       "isUltimaAct": false,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-08T03:38:42.202Z"
+      "createdAt": "2023-12-10T19:00:39.219Z"
     },
     {
       "idRegActuacion": 707304050,
@@ -88,7 +88,7 @@
       "idProceso": 50738440,
       "isUltimaAct": false,
       "carpetaNumero": 59,
-      "createdAt": "2023-12-08T03:38:42.202Z"
+      "createdAt": "2023-12-10T19:00:39.219Z"
     }
   ],
   "juzgados": [
@@ -122,11 +122,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 25,
-        "tipo": "JUZGADO 025 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-25-civil-municipal-de-bogota"
-      },
       "idProceso": 50738440,
       "idConexion": 259,
       "llaveProceso": "11001400302520170106400",
@@ -135,7 +130,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: NUBIA RODRIGUEZ GOMEZ | Demandado: NANCY RODRIGUEZ GOMEZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -210,5 +204,6 @@
   "idProcesos": [
     50738440
   ],
-  "nombre": "NANCY RODRIGUEZ  GOMEZ"
+  "nombre": "NANCY RODRIGUEZ  GOMEZ",
+  "notificacion": null
 }

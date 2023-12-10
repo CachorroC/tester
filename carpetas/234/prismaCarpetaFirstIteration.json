@@ -1,15 +1,15 @@
 {
-  "numero": 234,
-  "llaveProceso": "11001400304320170120500",
-  "nombre": "MAURICIO ALEXANDER AGUIRRE BERMUDEZ",
+  "category": "Terminados",
+  "fecha": "2018-10-26T05:00:00.000Z",
   "idProcesos": [
     9334913
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2018-10-26T05:00:00.000Z",
+  "idRegUltimaAct": 105033853,
+  "llaveProceso": "11001400304320170120500",
+  "nombre": "MAURICIO ALEXANDER AGUIRRE BERMUDEZ",
+  "numero": 234,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:52.106Z",
   "terminado": true,
-  "idRegUltimaAct": 105033853
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:07.153Z"
 }

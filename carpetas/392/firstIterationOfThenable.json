@@ -64,5 +64,24 @@
   "cc": 79712791,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "EDGAR JOBANNY MATEUS CASTILLO"
+  "nombre": "EDGAR JOBANNY MATEUS CASTILLO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2019-06-11T05:00:00.000Z",
+        "fechaAporta": "2019-07-31T05:00:00.000Z",
+        "resultado": true
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2019-07-03T05:00:00.000Z",
+        "fechaAporta": "2019-07-31T05:00:00.000Z",
+        "resultado": true
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": "12/12/2019"
+  }
 }

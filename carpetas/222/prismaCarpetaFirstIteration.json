@@ -1,15 +1,15 @@
 {
-  "numero": 222,
-  "llaveProceso": "11001400302820170085800",
-  "nombre": "DUFRESNY AUGUSTO PINILLA",
+  "category": "Terminados",
+  "fecha": "2017-12-07T05:00:00.000Z",
   "idProcesos": [
     50688520
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2017-12-07T05:00:00.000Z",
+  "idRegUltimaAct": 725462990,
+  "llaveProceso": "11001400302820170085800",
+  "nombre": "DUFRESNY AUGUSTO PINILLA",
+  "numero": 222,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:39:47.667Z",
   "terminado": true,
-  "idRegUltimaAct": 725462990
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:04.450Z"
 }

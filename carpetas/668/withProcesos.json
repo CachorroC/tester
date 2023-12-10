@@ -26,7 +26,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -72,5 +71,6 @@
   "cc": 1015410685,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "MADAY SABAD CAMACHO BUITRAGO"
+  "nombre": "MADAY SABAD CAMACHO BUITRAGO",
+  "notificacion": null
 }

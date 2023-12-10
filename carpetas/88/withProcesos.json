@@ -26,7 +26,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 88,
       "idConexion": null,
       "llaveProceso": "1100140030820170052800",
@@ -35,19 +34,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": {
-        "certimail": false,
-        "fisico": false,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": null
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2018-01-01T05:00:00.000Z"
@@ -92,5 +78,18 @@
   "cc": 51890871,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "IDALY FERRO CARDONA"
+  "nombre": "IDALY FERRO CARDONA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

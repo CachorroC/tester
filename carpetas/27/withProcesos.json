@@ -54,5 +54,18 @@
   "cc": 79004127,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "NORBEY LOMBANA MAHECHA"
+  "nombre": "NORBEY LOMBANA MAHECHA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "PERSONAL"
+  }
 }

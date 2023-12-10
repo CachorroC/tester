@@ -16,7 +16,7 @@
       "idProceso": 132663050,
       "isUltimaAct": true,
       "carpetaNumero": 576,
-      "createdAt": "2023-12-08T03:42:12.696Z"
+      "createdAt": "2023-12-10T19:01:56.533Z"
     },
     {
       "idRegActuacion": 1923969150,
@@ -34,7 +34,7 @@
       "idProceso": 132663050,
       "isUltimaAct": false,
       "carpetaNumero": 576,
-      "createdAt": "2023-12-08T03:42:12.696Z"
+      "createdAt": "2023-12-10T19:01:56.533Z"
     },
     {
       "idRegActuacion": 1923863900,
@@ -52,7 +52,7 @@
       "idProceso": 132663050,
       "isUltimaAct": false,
       "carpetaNumero": 576,
-      "createdAt": "2023-12-08T03:42:12.696Z"
+      "createdAt": "2023-12-10T19:01:56.533Z"
     },
     {
       "idRegActuacion": 1870514660,
@@ -70,7 +70,7 @@
       "idProceso": 132663050,
       "isUltimaAct": false,
       "carpetaNumero": 576,
-      "createdAt": "2023-12-08T03:42:12.696Z"
+      "createdAt": "2023-12-10T19:01:56.533Z"
     },
     {
       "idRegActuacion": 1870514650,
@@ -88,7 +88,7 @@
       "idProceso": 132663050,
       "isUltimaAct": false,
       "carpetaNumero": 576,
-      "createdAt": "2023-12-08T03:42:12.696Z"
+      "createdAt": "2023-12-10T19:01:56.533Z"
     },
     {
       "idRegActuacion": 1870514640,
@@ -106,7 +106,7 @@
       "idProceso": 132663050,
       "isUltimaAct": false,
       "carpetaNumero": 576,
-      "createdAt": "2023-12-08T03:42:12.696Z"
+      "createdAt": "2023-12-10T19:01:56.533Z"
     },
     {
       "idRegActuacion": 1870514630,
@@ -124,7 +124,7 @@
       "idProceso": 132663050,
       "isUltimaAct": false,
       "carpetaNumero": 576,
-      "createdAt": "2023-12-08T03:42:12.696Z"
+      "createdAt": "2023-12-10T19:01:56.533Z"
     },
     {
       "idRegActuacion": 1862324600,
@@ -142,7 +142,7 @@
       "idProceso": 132663050,
       "isUltimaAct": false,
       "carpetaNumero": 576,
-      "createdAt": "2023-12-08T03:42:12.696Z"
+      "createdAt": "2023-12-10T19:01:56.533Z"
     },
     {
       "idRegActuacion": 1855965750,
@@ -160,7 +160,7 @@
       "idProceso": 132663050,
       "isUltimaAct": false,
       "carpetaNumero": 576,
-      "createdAt": "2023-12-08T03:42:12.696Z"
+      "createdAt": "2023-12-10T19:01:56.533Z"
     }
   ],
   "juzgados": [
@@ -187,11 +187,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 6,
-        "tipo": "JUZGADO 006 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-006-civil-municipal-de-bogota"
-      },
       "idProceso": 132663050,
       "idConexion": 259,
       "llaveProceso": "11001400300620230086400",
@@ -200,7 +195,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JAVIER ALEJANDRO CARRERA SIACHOQUE ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -275,5 +269,6 @@
   "idProcesos": [
     132663050
   ],
-  "nombre": "JUAN CAMILO VELASQUEZ PEREIRA"
+  "nombre": "JUAN CAMILO VELASQUEZ PEREIRA",
+  "notificacion": null
 }

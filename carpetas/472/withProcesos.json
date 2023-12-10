@@ -50,5 +50,18 @@
   "cc": 91250936,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "SERGIO ESPINEL CORREAL"
+  "nombre": "SERGIO ESPINEL CORREAL",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

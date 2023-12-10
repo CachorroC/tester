@@ -53,5 +53,18 @@
   "cc": 80792987,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JHON ALEXANDER BEJARANO FONSECA"
+  "nombre": "JHON ALEXANDER BEJARANO FONSECA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

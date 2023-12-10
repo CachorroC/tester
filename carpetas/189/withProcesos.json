@@ -55,5 +55,18 @@
   "cc": 4547635,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "WILDER DE JESUS ROMAN GRISALES"
+  "nombre": "WILDER DE JESUS ROMAN GRISALES",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

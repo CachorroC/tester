@@ -1,15 +1,15 @@
 {
-  "numero": 365,
-  "llaveProceso": "11001400305020180014000",
-  "nombre": "RICHARD CAMILO IRIARTE GARCIA",
+  "category": "Terminados",
+  "fecha": "2019-09-11T05:00:00.000Z",
   "idProcesos": [
     11227303
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2019-09-11T05:00:00.000Z",
+  "idRegUltimaAct": 751522103,
+  "llaveProceso": "11001400305020180014000",
+  "nombre": "RICHARD CAMILO IRIARTE GARCIA",
+  "numero": 365,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:40:50.668Z",
   "terminado": true,
-  "idRegUltimaAct": 751522103
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:27.216Z"
 }

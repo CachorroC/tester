@@ -16,7 +16,7 @@
       "idProceso": 134200460,
       "isUltimaAct": true,
       "carpetaNumero": 588,
-      "createdAt": "2023-12-08T03:42:17.531Z"
+      "createdAt": "2023-12-10T19:01:58.082Z"
     },
     {
       "idRegActuacion": 1934876510,
@@ -34,7 +34,7 @@
       "idProceso": 134200460,
       "isUltimaAct": false,
       "carpetaNumero": 588,
-      "createdAt": "2023-12-08T03:42:17.531Z"
+      "createdAt": "2023-12-10T19:01:58.082Z"
     },
     {
       "idRegActuacion": 1912952690,
@@ -52,7 +52,7 @@
       "idProceso": 134200460,
       "isUltimaAct": false,
       "carpetaNumero": 588,
-      "createdAt": "2023-12-08T03:42:17.531Z"
+      "createdAt": "2023-12-10T19:01:58.082Z"
     },
     {
       "idRegActuacion": 1912952680,
@@ -70,7 +70,7 @@
       "idProceso": 134200460,
       "isUltimaAct": false,
       "carpetaNumero": 588,
-      "createdAt": "2023-12-08T03:42:17.531Z"
+      "createdAt": "2023-12-10T19:01:58.082Z"
     }
   ],
   "juzgados": [
@@ -97,11 +97,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 86,
-        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
-      },
       "idProceso": 134200460,
       "idConexion": 259,
       "llaveProceso": "11001400308620230158700",
@@ -110,7 +105,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: KAREN ALEXANDRA CASTAÑEDA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -186,5 +180,6 @@
   "idProcesos": [
     134200460
   ],
-  "nombre": "KAREN ALEXANDRA CASTAÑEDA GUERRERO"
+  "nombre": "KAREN ALEXANDRA CASTAÑEDA GUERRERO",
+  "notificacion": null
 }

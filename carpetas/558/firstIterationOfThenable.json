@@ -16,7 +16,7 @@
       "idProceso": 132018670,
       "isUltimaAct": true,
       "carpetaNumero": 558,
-      "createdAt": "2023-12-08T03:42:06.329Z"
+      "createdAt": "2023-12-10T19:01:54.313Z"
     },
     {
       "idRegActuacion": 1881358620,
@@ -34,7 +34,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-12-08T03:42:06.329Z"
+      "createdAt": "2023-12-10T19:01:54.313Z"
     },
     {
       "idRegActuacion": 1881358610,
@@ -52,7 +52,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-12-08T03:42:06.329Z"
+      "createdAt": "2023-12-10T19:01:54.313Z"
     },
     {
       "idRegActuacion": 1881358600,
@@ -70,7 +70,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-12-08T03:42:06.329Z"
+      "createdAt": "2023-12-10T19:01:54.313Z"
     },
     {
       "idRegActuacion": 1881358590,
@@ -88,7 +88,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-12-08T03:42:06.329Z"
+      "createdAt": "2023-12-10T19:01:54.313Z"
     },
     {
       "idRegActuacion": 1831766840,
@@ -106,7 +106,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-12-08T03:42:06.329Z"
+      "createdAt": "2023-12-10T19:01:54.313Z"
     },
     {
       "idRegActuacion": 1831766830,
@@ -124,7 +124,7 @@
       "idProceso": 132018670,
       "isUltimaAct": false,
       "carpetaNumero": 558,
-      "createdAt": "2023-12-08T03:42:06.329Z"
+      "createdAt": "2023-12-10T19:01:54.313Z"
     }
   ],
   "juzgados": [
@@ -151,11 +151,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 59,
-        "tipo": "JUZGADO 059 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-59-civil-municipal-de-bogota"
-      },
       "idProceso": 132018670,
       "idConexion": 259,
       "llaveProceso": "11001400305920230031500",
@@ -164,7 +159,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA  S.A. | Demandado: CLAUDIA MARCELA ARIAS LOPEZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -239,5 +233,6 @@
   "idProcesos": [
     132018670
   ],
-  "nombre": "CLAUDIA MARCELA ARIAS LÓPEZ"
+  "nombre": "CLAUDIA MARCELA ARIAS LÓPEZ",
+  "notificacion": null
 }

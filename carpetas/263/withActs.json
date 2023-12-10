@@ -16,7 +16,7 @@
       "idProceso": 18366380,
       "isUltimaAct": true,
       "carpetaNumero": 263,
-      "createdAt": "2023-12-08T03:40:04.253Z"
+      "createdAt": "2023-12-10T19:01:11.714Z"
     },
     {
       "idRegActuacion": 265765320,
@@ -34,7 +34,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-12-08T03:40:04.253Z"
+      "createdAt": "2023-12-10T19:01:11.714Z"
     },
     {
       "idRegActuacion": 265765310,
@@ -52,7 +52,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-12-08T03:40:04.253Z"
+      "createdAt": "2023-12-10T19:01:11.714Z"
     },
     {
       "idRegActuacion": 265765300,
@@ -70,7 +70,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-12-08T03:40:04.253Z"
+      "createdAt": "2023-12-10T19:01:11.714Z"
     },
     {
       "idRegActuacion": 265765290,
@@ -88,7 +88,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-12-08T03:40:04.253Z"
+      "createdAt": "2023-12-10T19:01:11.714Z"
     },
     {
       "idRegActuacion": 265765280,
@@ -106,7 +106,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-12-08T03:40:04.253Z"
+      "createdAt": "2023-12-10T19:01:11.714Z"
     },
     {
       "idRegActuacion": 265765270,
@@ -124,7 +124,7 @@
       "idProceso": 18366380,
       "isUltimaAct": false,
       "carpetaNumero": 263,
-      "createdAt": "2023-12-08T03:40:04.253Z"
+      "createdAt": "2023-12-10T19:01:11.714Z"
     }
   ],
   "juzgados": [
@@ -151,11 +151,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 70,
-        "tipo": "JUZGADO 070 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-070-civil-municipal-de-bogota"
-      },
       "idProceso": 18366380,
       "idConexion": 260,
       "llaveProceso": "11001400307020170100700",
@@ -164,7 +159,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANCIZAR GIRALDO BOTERO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -239,5 +233,6 @@
   "idProcesos": [
     18366380
   ],
-  "nombre": "ANCIZAR GIRALDO BOTERO"
+  "nombre": "ANCIZAR GIRALDO BOTERO",
+  "notificacion": null
 }

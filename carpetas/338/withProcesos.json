@@ -63,5 +63,24 @@
   "cc": 20427976,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "BLANCA MELBA MOYANO BELTRAN"
+  "nombre": "BLANCA MELBA MOYANO BELTRAN",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-02-19T05:00:00.000Z",
+        "fechaAporta": "2018-03-06T05:00:00.000Z",
+        "resultado": true
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2018-02-27T05:00:00.000Z",
+        "fechaAporta": "2018-02-27T05:00:00.000Z",
+        "resultado": true
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": "27/02/2018"
+  }
 }

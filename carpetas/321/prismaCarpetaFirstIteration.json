@@ -1,15 +1,15 @@
 {
-  "numero": 321,
-  "llaveProceso": "11001400301620170136700",
-  "nombre": "ADELA BARAJAS MORENO",
+  "category": "Terminados",
+  "fecha": "2019-09-05T05:00:00.000Z",
   "idProcesos": [
     50907660
   ],
-  "category": "Terminados",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2019-09-05T05:00:00.000Z",
+  "idRegUltimaAct": 653568400,
+  "llaveProceso": "11001400301620170136700",
+  "nombre": "ADELA BARAJAS MORENO",
+  "numero": 321,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:40:34.849Z",
   "terminado": true,
-  "idRegUltimaAct": 653568400
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:20.438Z"
 }

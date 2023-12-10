@@ -16,7 +16,7 @@
       "idProceso": 134065610,
       "isUltimaAct": true,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-08T03:42:16.951Z"
+      "createdAt": "2023-12-10T19:01:57.931Z"
     },
     {
       "idRegActuacion": 1935001420,
@@ -34,7 +34,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-08T03:42:16.951Z"
+      "createdAt": "2023-12-10T19:01:57.931Z"
     },
     {
       "idRegActuacion": 1921997320,
@@ -52,7 +52,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-08T03:42:16.951Z"
+      "createdAt": "2023-12-10T19:01:57.931Z"
     },
     {
       "idRegActuacion": 1921997310,
@@ -70,7 +70,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-08T03:42:16.951Z"
+      "createdAt": "2023-12-10T19:01:57.931Z"
     },
     {
       "idRegActuacion": 1921997300,
@@ -88,7 +88,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-08T03:42:16.951Z"
+      "createdAt": "2023-12-10T19:01:57.931Z"
     },
     {
       "idRegActuacion": 1921997290,
@@ -106,7 +106,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-08T03:42:16.951Z"
+      "createdAt": "2023-12-10T19:01:57.931Z"
     },
     {
       "idRegActuacion": 1907655230,
@@ -124,7 +124,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-08T03:42:16.951Z"
+      "createdAt": "2023-12-10T19:01:57.931Z"
     },
     {
       "idRegActuacion": 1907655220,
@@ -142,7 +142,7 @@
       "idProceso": 134065610,
       "isUltimaAct": false,
       "carpetaNumero": 587,
-      "createdAt": "2023-12-08T03:42:16.951Z"
+      "createdAt": "2023-12-10T19:01:57.931Z"
     }
   ],
   "juzgados": [
@@ -169,11 +169,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 63,
-        "tipo": "JUZGADO 063 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-63-civil-municipal-de-bogota"
-      },
       "idProceso": 134065610,
       "idConexion": 260,
       "llaveProceso": "11001400306320230196700",
@@ -182,7 +177,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: EDGAR MAURICIO VERA RODRIGUEZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -257,5 +251,6 @@
   "idProcesos": [
     134065610
   ],
-  "nombre": "EDGAR MAURICIO VERA RODRIGUEZ"
+  "nombre": "EDGAR MAURICIO VERA RODRIGUEZ",
+  "notificacion": null
 }

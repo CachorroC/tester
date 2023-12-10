@@ -16,7 +16,7 @@
       "idProceso": 50688520,
       "isUltimaAct": true,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-08T03:39:47.599Z"
+      "createdAt": "2023-12-10T19:01:04.431Z"
     },
     {
       "idRegActuacion": 725462980,
@@ -34,7 +34,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-08T03:39:47.599Z"
+      "createdAt": "2023-12-10T19:01:04.431Z"
     },
     {
       "idRegActuacion": 725462970,
@@ -52,7 +52,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-08T03:39:47.599Z"
+      "createdAt": "2023-12-10T19:01:04.431Z"
     },
     {
       "idRegActuacion": 725462960,
@@ -70,7 +70,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-08T03:39:47.599Z"
+      "createdAt": "2023-12-10T19:01:04.431Z"
     },
     {
       "idRegActuacion": 725462950,
@@ -88,7 +88,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-08T03:39:47.599Z"
+      "createdAt": "2023-12-10T19:01:04.431Z"
     },
     {
       "idRegActuacion": 725462940,
@@ -106,7 +106,7 @@
       "idProceso": 50688520,
       "isUltimaAct": false,
       "carpetaNumero": 222,
-      "createdAt": "2023-12-08T03:39:47.599Z"
+      "createdAt": "2023-12-10T19:01:04.431Z"
     }
   ],
   "juzgados": [
@@ -150,11 +150,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 28,
-        "tipo": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-28-civil-municipal-de-bogota"
-      },
       "idProceso": 50688520,
       "idConexion": 259,
       "llaveProceso": "11001400302820170085800",
@@ -163,19 +158,6 @@
       "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: LUCY STELLA OSMA RODRIGUEZ | Demandado: DUFRESNY AUGUSTO PINILLA GARCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": false,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2022-01-01T05:00:00.000Z"
@@ -250,5 +232,18 @@
   "idProcesos": [
     50688520
   ],
-  "nombre": "DUFRESNY AUGUSTO PINILLA"
+  "nombre": "DUFRESNY AUGUSTO PINILLA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": null
+  }
 }

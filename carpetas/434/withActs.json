@@ -16,7 +16,7 @@
       "idProceso": 19222160,
       "isUltimaAct": true,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     },
     {
       "idRegActuacion": 262109730,
@@ -34,7 +34,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     },
     {
       "idRegActuacion": 262109720,
@@ -52,7 +52,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     },
     {
       "idRegActuacion": 262109710,
@@ -70,7 +70,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     },
     {
       "idRegActuacion": 262109700,
@@ -88,7 +88,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     },
     {
       "idRegActuacion": 262109690,
@@ -106,7 +106,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     },
     {
       "idRegActuacion": 262109680,
@@ -124,7 +124,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     },
     {
       "idRegActuacion": 262109670,
@@ -142,7 +142,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     },
     {
       "idRegActuacion": 262109660,
@@ -160,7 +160,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     },
     {
       "idRegActuacion": 262109650,
@@ -178,7 +178,7 @@
       "idProceso": 19222160,
       "isUltimaAct": false,
       "carpetaNumero": 434,
-      "createdAt": "2023-12-08T03:41:25.418Z"
+      "createdAt": "2023-12-10T19:01:37.147Z"
     }
   ],
   "juzgados": [
@@ -213,11 +213,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 68,
-        "tipo": "JUZGADO 068 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-068-civil-municipal-de-bogota"
-      },
       "idProceso": 19222160,
       "idConexion": 262,
       "llaveProceso": "11001400306820180099900",
@@ -226,7 +221,6 @@
       "sujetosProcesales": "Demandante: GENARO ALBADAN CARDENAS | Demandado: ALCALDIA LOCAL DE BOSA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2021-01-01T05:00:00.000Z"
@@ -301,5 +295,6 @@
   "idProcesos": [
     19222160
   ],
-  "nombre": "FRANCISCO JAVIER GIL FLOREZ"
+  "nombre": "FRANCISCO JAVIER GIL FLOREZ",
+  "notificacion": null
 }

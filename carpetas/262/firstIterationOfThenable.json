@@ -35,7 +35,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 262,
       "idConexion": null,
       "llaveProceso": "2590400300220170063100",
@@ -44,12 +43,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": {
-        "certimail": null,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": []
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": "2017-05-10T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
@@ -98,5 +91,11 @@
   "cc": 1069737167,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "RAFAEL ANDRES MORENO ZAMORA"
+  "nombre": "RAFAEL ANDRES MORENO ZAMORA",
+  "notificacion": {
+    "notifiers": [],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

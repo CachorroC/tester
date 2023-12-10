@@ -16,7 +16,7 @@
       "idProceso": 51342910,
       "isUltimaAct": true,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-08T03:41:35.790Z"
+      "createdAt": "2023-12-10T19:01:41.943Z"
     },
     {
       "idRegActuacion": 856768210,
@@ -34,7 +34,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-08T03:41:35.790Z"
+      "createdAt": "2023-12-10T19:01:41.943Z"
     },
     {
       "idRegActuacion": 856768200,
@@ -52,7 +52,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-08T03:41:35.790Z"
+      "createdAt": "2023-12-10T19:01:41.943Z"
     },
     {
       "idRegActuacion": 565848280,
@@ -70,7 +70,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-08T03:41:35.790Z"
+      "createdAt": "2023-12-10T19:01:41.943Z"
     },
     {
       "idRegActuacion": 856768190,
@@ -88,7 +88,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-08T03:41:35.790Z"
+      "createdAt": "2023-12-10T19:01:41.943Z"
     },
     {
       "idRegActuacion": 856768180,
@@ -106,7 +106,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-08T03:41:35.790Z"
+      "createdAt": "2023-12-10T19:01:41.943Z"
     },
     {
       "idRegActuacion": 856768170,
@@ -124,7 +124,7 @@
       "idProceso": 51342910,
       "isUltimaAct": false,
       "carpetaNumero": 465,
-      "createdAt": "2023-12-08T03:41:35.790Z"
+      "createdAt": "2023-12-10T19:01:41.943Z"
     }
   ],
   "juzgados": [
@@ -153,11 +153,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 77,
-        "tipo": "JUZGADO 077 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-077-civil-municipal-de-bogota"
-      },
       "idProceso": 51342910,
       "idConexion": 259,
       "llaveProceso": "11001400307720180085400",
@@ -166,7 +161,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: GIOVANNY DURAN ANTONIO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2027-01-01T05:00:00.000Z"
@@ -242,5 +236,6 @@
   "idProcesos": [
     51342910
   ],
-  "nombre": "GIOVANNY DURAN ANTONIO"
+  "nombre": "GIOVANNY DURAN ANTONIO",
+  "notificacion": null
 }

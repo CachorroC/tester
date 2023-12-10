@@ -16,7 +16,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": true,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1142615084,
@@ -34,7 +34,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1137554444,
@@ -52,7 +52,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1127170784,
@@ -70,7 +70,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1125576004,
@@ -88,7 +88,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1122261754,
@@ -106,7 +106,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1122261744,
@@ -124,7 +124,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1122261734,
@@ -142,7 +142,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1122261724,
@@ -160,7 +160,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1121675574,
@@ -178,7 +178,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     },
     {
       "idRegActuacion": 1121675564,
@@ -196,7 +196,7 @@
       "idProceso": 1829856154,
       "isUltimaAct": false,
       "carpetaNumero": 573,
-      "createdAt": "2023-12-08T03:42:11.863Z"
+      "createdAt": "2023-12-10T19:01:56.267Z"
     }
   ],
   "juzgados": [
@@ -223,11 +223,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 55,
-        "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
-      },
       "idProceso": 1829856154,
       "idConexion": 263,
       "llaveProceso": "11001400305520230074600",
@@ -236,7 +231,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: JAIME ENRIQUE QUINTERO MENDOZA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2023-01-01T05:00:00.000Z",
@@ -311,5 +305,6 @@
   "idProcesos": [
     1829856154
   ],
-  "nombre": "SANDRA PATRICIA GALVIS ALMANZA"
+  "nombre": "SANDRA PATRICIA GALVIS ALMANZA",
+  "notificacion": null
 }

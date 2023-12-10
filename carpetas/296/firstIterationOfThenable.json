@@ -48,11 +48,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 24,
-        "tipo": "JUZGADO 024 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-024-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      },
       "idProceso": 127797581,
       "idConexion": 320,
       "llaveProceso": "11001410375220170129100",
@@ -61,25 +56,6 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": true,
-        "autoNotificado": "CERTIMAIL",
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          },
-          {
-            "tipo": "292",
-            "fechaRecibido": "2018-03-08T05:00:00.000Z",
-            "fechaAporta": null,
-            "resultado": null
-          }
-        ]
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": "2018-03-05T05:00:00.000Z",
         "medidaSolicitada": "12/01/2018"
@@ -101,11 +77,6 @@
       "radicado": "2017 - 01291"
     },
     {
-      "juzgado": {
-        "id": 5,
-        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE VILLAVICENCIO",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-villavicencio"
-      },
       "idProceso": 127797591,
       "idConexion": 320,
       "llaveProceso": "11001410375220170129100",
@@ -114,25 +85,6 @@
       "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
       "esPrivado": true,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": true,
-        "autoNotificado": "CERTIMAIL",
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          },
-          {
-            "tipo": "292",
-            "fechaRecibido": "2018-03-08T05:00:00.000Z",
-            "fechaAporta": null,
-            "resultado": null
-          }
-        ]
-      },
       "medidasCautelares": {
         "fechaOrdenaMedida": "2018-03-05T05:00:00.000Z",
         "medidaSolicitada": "12/01/2018"
@@ -206,5 +158,24 @@
     127797581,
     127797591
   ],
-  "nombre": "DIDIER HARVEY PRADA AGUIRRE"
+  "nombre": "DIDIER HARVEY PRADA AGUIRRE",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2018-03-08T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": "CERTIMAIL"
+  }
 }

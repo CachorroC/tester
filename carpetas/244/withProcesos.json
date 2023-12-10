@@ -16,7 +16,7 @@
       "idProceso": 50718800,
       "isUltimaAct": true,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977130,
@@ -34,7 +34,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977120,
@@ -52,7 +52,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977110,
@@ -70,7 +70,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977100,
@@ -88,7 +88,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977090,
@@ -106,7 +106,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977080,
@@ -124,7 +124,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977070,
@@ -142,7 +142,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977060,
@@ -160,7 +160,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977050,
@@ -178,7 +178,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     },
     {
       "idRegActuacion": 713977040,
@@ -196,7 +196,7 @@
       "idProceso": 50718800,
       "isUltimaAct": false,
       "carpetaNumero": 244,
-      "createdAt": "2023-12-08T03:39:55.331Z"
+      "createdAt": "2023-12-10T19:01:08.619Z"
     }
   ],
   "juzgados": [
@@ -239,11 +239,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 26,
-        "tipo": "JUZGADO 026 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-26-civil-municipal-de-bogota"
-      },
       "idProceso": 50718800,
       "idConexion": 259,
       "llaveProceso": "11001400302620170100600",
@@ -252,19 +247,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: RICARDO ANDRES NOCUA GUATAMA | Demandado: JANETH ELIANA SARMIENTO GAMBA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": {
-        "certimail": false,
-        "fisico": null,
-        "autoNotificado": null,
-        "notifiers": [
-          {
-            "tipo": "291",
-            "fechaRecibido": null,
-            "fechaAporta": null,
-            "resultado": false
-          }
-        ]
-      },
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2033-01-01T05:00:00.000Z"
@@ -339,5 +321,18 @@
   "idProcesos": [
     50718800
   ],
-  "nombre": "RICARDO ANDRES NOCUA GUATAMA"
+  "nombre": "RICARDO ANDRES NOCUA GUATAMA",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

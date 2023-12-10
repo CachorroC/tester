@@ -10,15 +10,17 @@ import { Category,
   Codeudor,
   IntCarpeta,
   IntDemanda,
-  DemandaRaw, } from '../types/carpetas';
+  DemandaRaw,
+  intNotificacion, } from '../types/carpetas';
 import { ConsultaNumeroRadicacion,
   Data,
   Message,
   intProceso, } from '../types/procesos';
-import { ClassDemanda } from './demanda';
+import { ClassDemanda, } from './demanda';
 import { ClassDeudor } from './deudor';
 import { PrismaDemanda, PrismaDeudor } from './prisma-carpeta';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
+import { ClassNotificacion } from './notificacion';
 
 const client = new PrismaClient();
 
@@ -156,7 +158,13 @@ export class CarpetaJudicial implements IntCarpeta {
     this.cc = Number(
       deudor.cedula
     );
+    this.notificacion = demanda.notificacion
+      ? new ClassNotificacion(
+        demanda.notificacion
+      )
+      : null;
   }
+  notificacion: intNotificacion | null;
   demandas: IntDemanda[];
   idProcesos: number[] ;
   //!SECTION
@@ -291,7 +299,7 @@ export class CarpetaJudicial implements IntCarpeta {
 
       for ( const proceso of responseReturn.procesos ) {
         const npd = new ClassDemanda(
-          this, this.numero, proceso
+          this.demanda, this.numero, proceso
         );
         procesosDemandaMap.add(
           npd

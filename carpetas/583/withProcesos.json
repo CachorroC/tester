@@ -16,7 +16,7 @@
       "idProceso": 133187160,
       "isUltimaAct": true,
       "carpetaNumero": 583,
-      "createdAt": "2023-12-08T03:42:15.528Z"
+      "createdAt": "2023-12-10T19:01:57.454Z"
     },
     {
       "idRegActuacion": 1874933400,
@@ -34,7 +34,7 @@
       "idProceso": 133187160,
       "isUltimaAct": false,
       "carpetaNumero": 583,
-      "createdAt": "2023-12-08T03:42:15.528Z"
+      "createdAt": "2023-12-10T19:01:57.454Z"
     }
   ],
   "juzgados": [
@@ -61,11 +61,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 81,
-        "tipo": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-081-civil-municipal-de-bogota"
-      },
       "idProceso": 133187160,
       "idConexion": 259,
       "llaveProceso": "11001400308120230141400",
@@ -74,7 +69,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALBA YANETH APARICIO SANDOVAL ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -149,5 +143,6 @@
   "idProcesos": [
     133187160
   ],
-  "nombre": "ALBA YANETH APARICIO SANDOVAL"
+  "nombre": "ALBA YANETH APARICIO SANDOVAL",
+  "notificacion": null
 }

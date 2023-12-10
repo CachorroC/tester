@@ -16,7 +16,7 @@
       "idProceso": 51277500,
       "isUltimaAct": true,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-08T03:41:29.066Z"
+      "createdAt": "2023-12-10T19:01:38.896Z"
     },
     {
       "idRegActuacion": 582442790,
@@ -34,7 +34,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-08T03:41:29.066Z"
+      "createdAt": "2023-12-10T19:01:38.896Z"
     },
     {
       "idRegActuacion": 582442780,
@@ -52,7 +52,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-08T03:41:29.066Z"
+      "createdAt": "2023-12-10T19:01:38.896Z"
     },
     {
       "idRegActuacion": 582442770,
@@ -70,7 +70,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-08T03:41:29.066Z"
+      "createdAt": "2023-12-10T19:01:38.896Z"
     },
     {
       "idRegActuacion": 582442760,
@@ -88,7 +88,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-08T03:41:29.066Z"
+      "createdAt": "2023-12-10T19:01:38.896Z"
     },
     {
       "idRegActuacion": 582442750,
@@ -106,7 +106,7 @@
       "idProceso": 51277500,
       "isUltimaAct": false,
       "carpetaNumero": 447,
-      "createdAt": "2023-12-08T03:41:29.066Z"
+      "createdAt": "2023-12-10T19:01:38.896Z"
     }
   ],
   "juzgados": [
@@ -133,11 +133,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 5,
-        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-bogota"
-      },
       "idProceso": 51277500,
       "idConexion": 259,
       "llaveProceso": "11001400300520180071100",
@@ -146,7 +141,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: CARLOS ANTONIO PACHECO TORRES ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2027-01-01T05:00:00.000Z"
@@ -219,5 +213,6 @@
   "idProcesos": [
     51277500
   ],
-  "nombre": "CARLOS ANTONIO PACHECO TORRES"
+  "nombre": "CARLOS ANTONIO PACHECO TORRES",
+  "notificacion": null
 }

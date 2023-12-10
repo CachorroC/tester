@@ -1,15 +1,15 @@
 {
-  "numero": 375,
-  "llaveProceso": "11001400304020180012300",
-  "nombre": "JHON ALFREDO ZORRO MARTINEZ",
+  "category": "Terminados",
+  "fecha": "2022-10-05T05:00:00.000Z",
   "idProcesos": [
     19155581
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2022-10-05T05:00:00.000Z",
+  "idRegUltimaAct": 1184571551,
+  "llaveProceso": "11001400304020180012300",
+  "nombre": "JHON ALFREDO ZORRO MARTINEZ",
+  "numero": 375,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:40:59.343Z",
   "terminado": true,
-  "idRegUltimaAct": 1184571551
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:28.652Z"
 }

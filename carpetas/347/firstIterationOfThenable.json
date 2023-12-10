@@ -55,5 +55,18 @@
   "cc": 41888857,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "MARIA ELENA ZULUAGA URIBE"
+  "nombre": "MARIA ELENA ZULUAGA URIBE",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": "43266"
+  }
 }

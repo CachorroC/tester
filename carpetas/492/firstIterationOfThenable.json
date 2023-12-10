@@ -51,5 +51,18 @@
   "cc": 22444794,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "MARIBEL DEL ROSARIO RIVERA JIMENEZ"
+  "nombre": "MARIBEL DEL ROSARIO RIVERA JIMENEZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-11-02T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": null,
+    "autoNotificado": null
+  }
 }

@@ -1,16 +1,16 @@
 {
-  "numero": 210,
-  "llaveProceso": "11001400302120180016300",
-  "nombre": "JOSE ANTONIO CASTILLO CORTES",
+  "category": "Reintegra",
+  "fecha": "2023-09-08T05:00:00.000Z",
   "idProcesos": [
     51006610,
     81643141
   ],
-  "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2023-09-08T05:00:00.000Z",
+  "idRegUltimaAct": 1875063180,
+  "llaveProceso": "11001400302120180016300",
+  "nombre": "JOSE ANTONIO CASTILLO CORTES",
+  "numero": 210,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:39:43.788Z",
   "terminado": false,
-  "idRegUltimaAct": 1875063180
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:02.557Z"
 }

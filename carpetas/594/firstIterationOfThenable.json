@@ -16,7 +16,7 @@
       "idProceso": 134565110,
       "isUltimaAct": true,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-08T03:42:19.677Z"
+      "createdAt": "2023-12-10T19:01:58.919Z"
     },
     {
       "idRegActuacion": 1928574000,
@@ -34,7 +34,7 @@
       "idProceso": 134565110,
       "isUltimaAct": false,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-08T03:42:19.677Z"
+      "createdAt": "2023-12-10T19:01:58.919Z"
     },
     {
       "idRegActuacion": 1934776140,
@@ -52,7 +52,7 @@
       "idProceso": 134565110,
       "isUltimaAct": false,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-08T03:42:19.677Z"
+      "createdAt": "2023-12-10T19:01:58.919Z"
     },
     {
       "idRegActuacion": 1926315320,
@@ -70,7 +70,7 @@
       "idProceso": 134565110,
       "isUltimaAct": false,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-08T03:42:19.677Z"
+      "createdAt": "2023-12-10T19:01:58.919Z"
     },
     {
       "idRegActuacion": 1926315310,
@@ -88,7 +88,7 @@
       "idProceso": 134565110,
       "isUltimaAct": false,
       "carpetaNumero": 594,
-      "createdAt": "2023-12-08T03:42:19.677Z"
+      "createdAt": "2023-12-10T19:01:58.919Z"
     }
   ],
   "juzgados": [
@@ -114,11 +114,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 34,
-        "tipo": "JUZGADO 034 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-34-civil-municipal-de-bogota"
-      },
       "idProceso": 134565110,
       "idConexion": 259,
       "llaveProceso": "11001400303420230106500",
@@ -127,7 +122,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SANDRA MAGNOLIA CAMPOS ROBLES ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z"
@@ -200,5 +194,6 @@
   "idProcesos": [
     134565110
   ],
-  "nombre": "SANDRA MAGNOLIA CAMPOS ROBLES"
+  "nombre": "SANDRA MAGNOLIA CAMPOS ROBLES",
+  "notificacion": null
 }

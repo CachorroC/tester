@@ -1,15 +1,15 @@
 {
-  "numero": 2,
-  "llaveProceso": "11001310304320170055400",
-  "nombre": "EDWIN ANDRES CUERVO VERDUGO",
+  "category": "Terminados",
+  "fecha": "2021-09-20T05:00:00.000Z",
   "idProcesos": [
     52281244
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2021-09-20T05:00:00.000Z",
+  "idRegUltimaAct": 978518214,
+  "llaveProceso": "11001310304320170055400",
+  "nombre": "EDWIN ANDRES CUERVO VERDUGO",
+  "numero": 2,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:24.842Z",
   "terminado": true,
-  "idRegUltimaAct": 978518214
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:00:30.756Z"
 }

@@ -18,7 +18,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 589,
       "idConexion": null,
       "llaveProceso": "SinEspecificar",
@@ -27,7 +26,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2052-01-01T05:00:00.000Z"
@@ -71,5 +69,6 @@
   "cc": 1030573651,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "YURLEDY PARRA HERNANDEZ"
+  "nombre": "YURLEDY PARRA HERNANDEZ",
+  "notificacion": null
 }

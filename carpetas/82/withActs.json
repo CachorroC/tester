@@ -16,7 +16,7 @@
       "idProceso": 50527120,
       "isUltimaAct": true,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501150,
@@ -34,7 +34,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501140,
@@ -52,7 +52,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501130,
@@ -70,7 +70,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501120,
@@ -88,7 +88,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501110,
@@ -106,7 +106,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501100,
@@ -124,7 +124,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501090,
@@ -142,7 +142,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501080,
@@ -160,7 +160,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501070,
@@ -178,7 +178,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501060,
@@ -196,7 +196,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501050,
@@ -214,7 +214,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     },
     {
       "idRegActuacion": 570501040,
@@ -232,7 +232,7 @@
       "idProceso": 50527120,
       "isUltimaAct": false,
       "carpetaNumero": 82,
-      "createdAt": "2023-12-08T03:38:50.078Z"
+      "createdAt": "2023-12-10T19:00:42.563Z"
     }
   ],
   "juzgados": [
@@ -267,11 +267,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 3,
-        "tipo": "JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-03-civil-municipal-de-bogota"
-      },
       "idProceso": 50527120,
       "idConexion": 259,
       "llaveProceso": "11001400300320170106500",
@@ -280,7 +275,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ANA LIBIA GARCIA FLOREZ | Demandado: RAFAEL GONZALEZ OLEJUELA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2018-01-01T05:00:00.000Z"
@@ -355,5 +349,6 @@
   "idProcesos": [
     50527120
   ],
-  "nombre": "RAFAEL GONZALEZ OLEJUA"
+  "nombre": "RAFAEL GONZALEZ OLEJUA",
+  "notificacion": null
 }

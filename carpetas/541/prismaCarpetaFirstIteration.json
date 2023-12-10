@@ -1,16 +1,16 @@
 {
-  "numero": 541,
-  "llaveProceso": "11001400308220180096400",
-  "nombre": "JOSE RAMON ESTRADA CASTILLO",
+  "category": "Reintegra",
+  "fecha": "2022-03-24T05:00:00.000Z",
   "idProcesos": [
     52160520,
     112967583
   ],
-  "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2022-03-24T05:00:00.000Z",
+  "idRegUltimaAct": 1266283860,
+  "llaveProceso": "11001400308220180096400",
+  "nombre": "JOSE RAMON ESTRADA CASTILLO",
+  "numero": 541,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:42:00.071Z",
   "terminado": false,
-  "idRegUltimaAct": 1266283860
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:52.134Z"
 }

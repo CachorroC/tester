@@ -61,5 +61,24 @@
   "cc": 13222728,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "MODESTO PINEDA PEREZ"
+  "nombre": "MODESTO PINEDA PEREZ",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": "2018-11-26T05:00:00.000Z",
+        "fechaAporta": "2018-12-06T05:00:00.000Z",
+        "resultado": true
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": true
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": null
+  }
 }

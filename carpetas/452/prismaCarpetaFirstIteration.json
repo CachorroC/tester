@@ -1,15 +1,15 @@
 {
-  "numero": 452,
-  "llaveProceso": "11001400305920180009000",
-  "nombre": "MARIA MARIN DE OROZCO",
+  "category": "Reintegra",
+  "fecha": "2022-03-25T05:00:00.000Z",
   "idProcesos": [
     50989890
   ],
-  "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2022-03-25T05:00:00.000Z",
+  "idRegUltimaAct": 1267048930,
+  "llaveProceso": "11001400305920180009000",
+  "nombre": "MARIA MARIN DE OROZCO",
+  "numero": 452,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:41:31.389Z",
   "terminado": false,
-  "idRegUltimaAct": 1267048930
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:39.788Z"
 }

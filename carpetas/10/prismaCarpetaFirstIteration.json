@@ -1,15 +1,15 @@
 {
-  "numero": 10,
-  "llaveProceso": "11001418900320170090900",
-  "nombre": "MARINA MORALES HERNANDEZ",
+  "category": "Terminados",
+  "fecha": null,
   "idProcesos": [
     82112341
   ],
-  "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "fecha": null,
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418900320170090900",
+  "nombre": "MARINA MORALES HERNANDEZ",
+  "numero": 10,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:26.774Z",
   "terminado": true,
-  "idRegUltimaAct": null
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:00:31.984Z"
 }

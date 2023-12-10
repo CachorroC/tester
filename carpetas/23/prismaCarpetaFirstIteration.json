@@ -1,13 +1,13 @@
 {
-  "numero": 23,
+  "category": "Terminados",
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
   "llaveProceso": "25307400300120170033700",
   "nombre": "EDER ALEXIS HERRERA SAENZ",
-  "idProcesos": [],
-  "category": "Terminados",
-  "tipoProceso": "PRENDARIO",
-  "fecha": null,
+  "numero": 23,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:38:30.656Z",
   "terminado": true,
-  "idRegUltimaAct": null
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:00:34.011Z"
 }

@@ -42,10 +42,12 @@ export class PrisCarp implements Carpeta {
   set nombre(
     nom 
   ) {
-    [ this.primerNombre,
+    [
+      this.primerNombre,
       this.segundoNombre,
       this.primerApellido,
-      this.segundoApellido, ] = nom.split(
+      this.segundoApellido, 
+    ] = nom.split(
       ' ' 
     );
   }

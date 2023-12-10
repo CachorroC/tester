@@ -68,5 +68,24 @@
   "cc": 30339083,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "JENNY  ANDREA AVILA GARZON"
+  "nombre": "JENNY  ANDREA AVILA GARZON",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": false,
+    "autoNotificado": "CORREO"
+  }
 }

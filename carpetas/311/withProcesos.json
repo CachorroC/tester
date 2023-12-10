@@ -55,5 +55,18 @@
   "cc": 32730630,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "PAULA ANDREA PINZON OTALVARO"
+  "nombre": "PAULA ANDREA PINZON OTALVARO",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "292",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      }
+    ],
+    "certimail": null,
+    "fisico": null,
+    "autoNotificado": "-"
+  }
 }

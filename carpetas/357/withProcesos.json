@@ -16,7 +16,7 @@
       "idProceso": 17054094,
       "isUltimaAct": true,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-08T03:40:47.887Z"
+      "createdAt": "2023-12-10T19:01:25.966Z"
     },
     {
       "idRegActuacion": 93354544,
@@ -34,7 +34,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-08T03:40:47.887Z"
+      "createdAt": "2023-12-10T19:01:25.966Z"
     },
     {
       "idRegActuacion": 93354534,
@@ -52,7 +52,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-08T03:40:47.887Z"
+      "createdAt": "2023-12-10T19:01:25.966Z"
     },
     {
       "idRegActuacion": 93354524,
@@ -70,7 +70,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-08T03:40:47.887Z"
+      "createdAt": "2023-12-10T19:01:25.966Z"
     },
     {
       "idRegActuacion": 93354514,
@@ -88,7 +88,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-08T03:40:47.887Z"
+      "createdAt": "2023-12-10T19:01:25.966Z"
     },
     {
       "idRegActuacion": 93354504,
@@ -106,7 +106,7 @@
       "idProceso": 17054094,
       "isUltimaAct": false,
       "carpetaNumero": 357,
-      "createdAt": "2023-12-08T03:40:47.887Z"
+      "createdAt": "2023-12-10T19:01:25.966Z"
     }
   ],
   "juzgados": [
@@ -135,11 +135,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 55,
-        "tipo": "JUZGADO 055 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-55-civil-municipal-de-bogota"
-      },
       "idProceso": 17054094,
       "idConexion": 263,
       "llaveProceso": "11001400305520170137800",
@@ -148,7 +143,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA SAYURI RODRIGUEZ GARCIA ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2017-01-01T05:00:00.000Z"
@@ -223,5 +217,6 @@
   "idProcesos": [
     17054094
   ],
-  "nombre": "DIANA SAYURI RODRIGUEZ GARCIA"
+  "nombre": "DIANA SAYURI RODRIGUEZ GARCIA",
+  "notificacion": null
 }

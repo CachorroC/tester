@@ -60,5 +60,24 @@
   "cc": 80755973,
   "procesos": [],
   "idProcesos": [],
-  "nombre": "YAMID GELVES CACERES"
+  "nombre": "YAMID GELVES CACERES",
+  "notificacion": {
+    "notifiers": [
+      {
+        "tipo": "291",
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      {
+        "tipo": "292",
+        "fechaRecibido": "2019-02-28T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      }
+    ],
+    "certimail": false,
+    "fisico": true,
+    "autoNotificado": "CERTIMAIL"
+  }
 }

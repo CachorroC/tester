@@ -16,7 +16,7 @@
       "idProceso": 132048330,
       "isUltimaAct": true,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1940310030,
@@ -34,7 +34,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1939488370,
@@ -52,7 +52,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1939360760,
@@ -70,7 +70,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1936376060,
@@ -88,7 +88,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1924426900,
@@ -106,7 +106,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1919008980,
@@ -124,7 +124,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1887348680,
@@ -142,7 +142,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1887348670,
@@ -160,7 +160,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1887348660,
@@ -178,7 +178,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1887348650,
@@ -196,7 +196,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1837180590,
@@ -214,7 +214,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     },
     {
       "idRegActuacion": 1832779880,
@@ -232,7 +232,7 @@
       "idProceso": 132048330,
       "isUltimaAct": false,
       "carpetaNumero": 555,
-      "createdAt": "2023-12-08T03:42:05.173Z"
+      "createdAt": "2023-12-10T19:01:53.870Z"
     }
   ],
   "juzgados": [
@@ -258,11 +258,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 32,
-        "tipo": "JUZGADO 032 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-032-civil-municipal-de-bogota"
-      },
       "idProceso": 132048330,
       "idConexion": 259,
       "llaveProceso": "11001400303220230090400",
@@ -271,7 +266,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JEIMMY SOLEY QUIROGA RAMIREZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z"
@@ -344,5 +338,6 @@
   "idProcesos": [
     132048330
   ],
-  "nombre": "JEIMMY SOLEY QUIROGA RAMIREZ"
+  "nombre": "JEIMMY SOLEY QUIROGA RAMIREZ",
+  "notificacion": null
 }

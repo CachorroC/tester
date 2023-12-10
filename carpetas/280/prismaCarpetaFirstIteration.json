@@ -1,15 +1,15 @@
 {
-  "numero": 280,
-  "llaveProceso": "11001400300920170127900",
-  "nombre": "JOSE HERNANDO SANCHEZ VALBUENA",
+  "category": "Reintegra",
+  "fecha": "2022-01-26T05:00:00.000Z",
   "idProcesos": [
     50875780
   ],
-  "category": "Reintegra",
-  "tipoProceso": "SINGULAR",
-  "fecha": "2022-01-26T05:00:00.000Z",
+  "idRegUltimaAct": 1251680650,
+  "llaveProceso": "11001400300920170127900",
+  "nombre": "JOSE HERNANDO SANCHEZ VALBUENA",
+  "numero": 280,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:40:21.053Z",
   "terminado": false,
-  "idRegUltimaAct": 1251680650
+  "tipoProceso": "SINGULAR",
+  "updatedAt": "2023-12-10T19:01:14.385Z"
 }

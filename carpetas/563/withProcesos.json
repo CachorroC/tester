@@ -18,7 +18,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 563,
       "idConexion": null,
       "llaveProceso": "1100141890342023098500",
@@ -27,7 +26,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -74,5 +72,6 @@
   "cc": 7718318,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "MILTON MARINO LUGO GOMEZ"
+  "nombre": "MILTON MARINO LUGO GOMEZ",
+  "notificacion": null
 }

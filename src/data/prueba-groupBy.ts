@@ -62,9 +62,11 @@ const data = [
       , tipoProceso            : 'HIPOTECARIO'
       , etapaProcesal          : 'EJECUCIÓN'
       , municipio              : 'BOGOTA'
-      , obligacion             : [ '1930085200  /190184  /377813469298997'
-        , '4513070079097239  /5303714507623618'                                                                                                        
-        , ]
+      , obligacion             : [
+        '1930085200  /190184  /377813469298997'
+        , '4513070079097239  /5303714507623618'                                                                                                                                 
+        ,
+]
       , radicado         : '2017 - 00554'
       , vencimientoPagare: [ '2018-09-01T05:00:00.000Z' ]
       , departamento     : 'BOGOTÁ'
@@ -450,9 +452,11 @@ const data = [
       , municipio              : 'BOGOTA'
       , obligacion             : [ '2290099308    /2170086682' ]
       , radicado               : '2017 - 00998'
-      , vencimientoPagare      : [ '2015-01-01T05:00:00.000Z'
-        , '2021-01-01T05:00:00.000Z'                                                                                                        
-        , ]
+      , vencimientoPagare      : [
+        '2015-01-01T05:00:00.000Z'
+        , '2021-01-01T05:00:00.000Z'                                                                                                                                 
+        ,
+]
       , departamento: 'CUNDINAMARCA'
       , juzgados    : [],
     }
@@ -524,8 +528,10 @@ const data = [
       , etapaProcesal:
         'EL 12-06-2018 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA //EL 4-08-2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. // EL JUEZ NO ACCEDIO A SOLICITUD ENTREGA DESEMBARGO PARTE ACTORA 1-02-2019 SE ARCHIVA PROCESO CAJA 240 // PAGAR DESARCHIVE Y REQUERIR AL JUEZ PARA QUE DE CUMPLIMIENTO A ENTREGA DE OFICIO DADO QUE PERSISTE EL EMBARGO A PESAR QUE EL CLIENTE ESTA AL DIA'
       , municipio : 'BOGOTA'
-      , obligacion: [ '12313737//377815899589556'
-        , 4513070106144855 ]
+      , obligacion: [
+        '12313737//377815899589556'
+        , 4513070106144855 
+      ]
       , radicado         : '2017 - 00839'
       , vencimientoPagare: [ '2017-08-01T05:00:00.000Z' ]
       , departamento     : 'BOGOTÁ'
@@ -660,8 +666,10 @@ const data = [
       , primerNombre   : 'elsa'
       , segundoNombre  : 'milena'
       , primerApellido : 'sosa'
-      , segundoApellido: [ ''
-        , 'romero' ],
+      , segundoApellido: [
+        ''
+        , 'romero' 
+      ],
     }
     , demanda: {
       fechaPresentacion      : '2017-09-27T00:00:00.000Z'
@@ -784,35 +792,39 @@ const data = [
       , juzgados               : [],
     }
     , cc        : 1077969975
-    , idProcesos: [ 50468620
-      , 113956611 ]
-    , procesos: [ {
-      idProceso           : 50468620
-      , idConexion          : 259
-      , llaveProceso        : '11001400300320170088400'
-      , fechaProceso        : '2017-05-26T00:00:00'
-      , fechaUltimaActuacion: '2023-11-21T00:00:00'
-      , despacho            : 'JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ '
-      , departamento        : 'BOGOTÁ'
-      , sujetosProcesales:
+    , idProcesos: [
+      50468620
+      , 113956611 
+    ]
+    , procesos: [
+      {
+        idProceso           : 50468620
+        , idConexion          : 259
+        , llaveProceso        : '11001400300320170088400'
+        , fechaProceso        : '2017-05-26T00:00:00'
+        , fechaUltimaActuacion: '2023-11-21T00:00:00'
+        , despacho            : 'JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ '
+        , departamento        : 'BOGOTÁ'
+        , sujetosProcesales:
           'Demandante: BANCOLOMBIA S.A. | Demandado: YESID ALBEIRO RAMOS '
-      , esPrivado: false
-      , cantFilas: -1,
-    }
-    , {
-      idProceso           : 113956611
-      , idConexion          : 320
-      , llaveProceso        : '11001400300320170088400'
-      , fechaProceso        : '2017-05-24T00:00:00'
-      , fechaUltimaActuacion: null
-      , despacho            : 'JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ '
-      , departamento        : 'BOGOTÁ'
-      , sujetosProcesales:
+        , esPrivado: false
+        , cantFilas: -1,
+      }
+      , {
+        idProceso           : 113956611
+        , idConexion          : 320
+        , llaveProceso        : '11001400300320170088400'
+        , fechaProceso        : '2017-05-24T00:00:00'
+        , fechaUltimaActuacion: null
+        , despacho            : 'JUZGADO 003 CIVIL MUNICIPAL DE BOGOTÁ '
+        , departamento        : 'BOGOTÁ'
+        , sujetosProcesales:
           'Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: YESID ALBEIRO RAMOS  (Emplazado) | Defensor Publico: MARIA HELENA SUAREZ GARCIA '
-      , esPrivado: false
-      , cantFilas: -1,
-    }                                                                              
-      , ]
+        , esPrivado: false
+        , cantFilas: -1,
+      }                                                                                                 
+      ,
+]
     , fecha          : '2023-11-21T05:00:00.000Z'
     , ultimaActuacion: {
       idRegActuacion: 1936452500
@@ -893,8 +905,10 @@ const data = [
       , tipoProceso            : 'PRENDARIO'
       , etapaProcesal          : 'AUDIENCIA'
       , municipio              : 'CHIA'
-      , obligacion             : [ 12645083
-        , 12340733 ]
+      , obligacion             : [
+        12645083
+        , 12340733 
+      ]
       , radicado         : '2017 - 00269'
       , vencimientoPagare: [ '2017-04-01T05:00:00.000Z' ]
       , departamento     : 'CUNDINAMARCA'
@@ -991,9 +1005,11 @@ const data = [
       , primerNombre   : 'andres'
       , segundoNombre  : 'mauricio'
       , primerApellido : 'fernandez'
-      , segundoApellido: [ 'de'
+      , segundoApellido: [
+        'de'
         , 'soto'
-        , 'dominguez' ],
+        , 'dominguez' 
+      ],
     }
     , demanda: {
       fechaPresentacion      : '2017-05-24T00:00:00.000Z'
@@ -1041,8 +1057,9 @@ const data = [
       , conDocumentos : false
       , cant          : 15,
     },
-  }                                              
-,];
+  }                                                    
+  ,
+];
 
 const result = Object.groupBy(
   data, (

@@ -27,7 +27,6 @@
   },
   "demandas": [
     {
-      "juzgado": null,
       "idProceso": 152,
       "idConexion": null,
       "llaveProceso": "110014007320170113600",
@@ -36,7 +35,6 @@
       "sujetosProcesales": null,
       "esPrivado": null,
       "cantFilas": null,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2035-01-01T05:00:00.000Z"
@@ -79,5 +77,6 @@
   "cc": 1032431042,
   "procesos": null,
   "idProcesos": [],
-  "nombre": "NICOLAS OSORIO RODRIGUEZ"
+  "nombre": "NICOLAS OSORIO RODRIGUEZ",
+  "notificacion": null
 }

@@ -1,16 +1,16 @@
 {
-  "numero": 25,
-  "llaveProceso": "11001310301120170033500",
-  "nombre": "OMAR DARIO ZEA GALVIS",
+  "category": "Reintegra",
+  "fecha": "2023-03-10T05:00:00.000Z",
   "idProcesos": [
     80553011,
     1805257424
   ],
-  "category": "Reintegra",
-  "tipoProceso": "PRENDARIO",
-  "fecha": "2023-03-10T05:00:00.000Z",
+  "idRegUltimaAct": 1096493124,
+  "llaveProceso": "11001310301120170033500",
+  "nombre": "OMAR DARIO ZEA GALVIS",
+  "numero": 25,
   "revisado": false,
-  "updatedAt": "2023-12-08T03:38:31.175Z",
   "terminado": false,
-  "idRegUltimaAct": 1096493124
+  "tipoProceso": "PRENDARIO",
+  "updatedAt": "2023-12-10T19:00:34.295Z"
 }

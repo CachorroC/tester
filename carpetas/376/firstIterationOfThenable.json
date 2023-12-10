@@ -16,7 +16,7 @@
       "idProceso": 51500810,
       "isUltimaAct": true,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-08T03:40:59.633Z"
+      "createdAt": "2023-12-10T19:01:28.790Z"
     },
     {
       "idRegActuacion": 1820436670,
@@ -34,7 +34,7 @@
       "idProceso": 51500810,
       "isUltimaAct": false,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-08T03:40:59.633Z"
+      "createdAt": "2023-12-10T19:01:28.790Z"
     },
     {
       "idRegActuacion": 1778368160,
@@ -52,7 +52,7 @@
       "idProceso": 51500810,
       "isUltimaAct": false,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-08T03:40:59.633Z"
+      "createdAt": "2023-12-10T19:01:28.790Z"
     },
     {
       "idRegActuacion": 856481100,
@@ -70,7 +70,7 @@
       "idProceso": 51500810,
       "isUltimaAct": false,
       "carpetaNumero": 376,
-      "createdAt": "2023-12-08T03:40:59.633Z"
+      "createdAt": "2023-12-10T19:01:28.790Z"
     }
   ],
   "juzgados": [
@@ -107,11 +107,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 76,
-        "tipo": "JUZGADO 076 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-76-civil-municipal-de-bogota"
-      },
       "idProceso": 51500810,
       "idConexion": 259,
       "llaveProceso": "11001400307620180005200",
@@ -120,7 +115,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DORIS GARZON TALERO | Demandado: ROBERTO RICO RUIZ ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2019-01-01T05:00:00.000Z"
@@ -196,5 +190,6 @@
   "idProcesos": [
     51500810
   ],
-  "nombre": "ROBERTO RICO RUIZ"
+  "nombre": "ROBERTO RICO RUIZ",
+  "notificacion": null
 }

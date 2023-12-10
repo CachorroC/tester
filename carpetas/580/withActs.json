@@ -16,7 +16,7 @@
       "idProceso": 132964260,
       "isUltimaAct": true,
       "carpetaNumero": 580,
-      "createdAt": "2023-12-08T03:42:14.398Z"
+      "createdAt": "2023-12-10T19:01:57.098Z"
     },
     {
       "idRegActuacion": 1901987440,
@@ -34,7 +34,7 @@
       "idProceso": 132964260,
       "isUltimaAct": false,
       "carpetaNumero": 580,
-      "createdAt": "2023-12-08T03:42:14.398Z"
+      "createdAt": "2023-12-10T19:01:57.098Z"
     },
     {
       "idRegActuacion": 1866917490,
@@ -52,7 +52,7 @@
       "idProceso": 132964260,
       "isUltimaAct": false,
       "carpetaNumero": 580,
-      "createdAt": "2023-12-08T03:42:14.398Z"
+      "createdAt": "2023-12-10T19:01:57.098Z"
     }
   ],
   "juzgados": [
@@ -79,11 +79,6 @@
   },
   "demandas": [
     {
-      "juzgado": {
-        "id": 44,
-        "tipo": "JUZGADO 044 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-044-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      },
       "idProceso": 132964260,
       "idConexion": 259,
       "llaveProceso": "11001418904420230023900",
@@ -92,7 +87,6 @@
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: IGNACIO GALEANO ALVARADO ",
       "esPrivado": false,
       "cantFilas": -1,
-      "notificacion": null,
       "medidasCautelares": null,
       "vencimientoPagare": [
         "2026-01-01T05:00:00.000Z",
@@ -168,5 +162,6 @@
   "idProcesos": [
     132964260
   ],
-  "nombre": "JOSE IGNACIO GALEANO ALVARADO"
+  "nombre": "JOSE IGNACIO GALEANO ALVARADO",
+  "notificacion": null
 }

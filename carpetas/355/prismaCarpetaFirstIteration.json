@@ -1,15 +1,15 @@
 {
-  "numero": 355,
-  "llaveProceso": "11001400301720170152600",
-  "nombre": "NELSON IVAN SEGURA MENDEZ",
+  "category": "Terminados",
+  "fecha": "2021-03-26T05:00:00.000Z",
   "idProcesos": [
     50875060
   ],
-  "category": "Terminados",
-  "tipoProceso": "HIPOTECARIO",
-  "fecha": "2021-03-26T05:00:00.000Z",
+  "idRegUltimaAct": 1010835420,
+  "llaveProceso": "11001400301720170152600",
+  "nombre": "NELSON IVAN SEGURA MENDEZ",
+  "numero": 355,
   "revisado": true,
-  "updatedAt": "2023-12-08T03:40:47.285Z",
   "terminado": true,
-  "idRegUltimaAct": 1010835420
+  "tipoProceso": "HIPOTECARIO",
+  "updatedAt": "2023-12-10T19:01:25.669Z"
 }
