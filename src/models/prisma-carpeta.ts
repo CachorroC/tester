@@ -19,11 +19,10 @@ export class PrismaCarpeta implements Carpeta {
       numero,
       nombre,
       llaveProceso,
-      tipoProceso,
       idProcesos,
       fecha,
       category,
-    }: IntCarpeta 
+    }: IntCarpeta
   ) {
     this.numero = numero;
     this.nombre = nombre;
@@ -39,20 +38,18 @@ export class PrismaCarpeta implements Carpeta {
       : [];
     this.revisado = false;
     this.terminado = category === 'Terminados';
-    this.tipoProceso = tipoProceso;
+    this.idRegUltimaAct = null;
   }
-  tipoProceso: $Enums.TipoProceso;
-  idRegUltimaAct!: number | null;
-  terminado: boolean;
-  revisado: boolean;
-  updatedAt!: Date;
-  numero: number;
+  category: $Enums.Category;
+  fecha: Date | null;
+  idProcesos: number[];
+  idRegUltimaAct: number | null;
   llaveProceso: string;
   nombre: string;
-  idProcesos: number[];
-  category: Category;
-  fecha: Date | null;
-  id!: number;
+  numero: number;
+  revisado: boolean;
+  terminado: boolean;
+  updatedAt!: Date;
 }
 
 export class PrismaDeudor implements Deudor {
@@ -68,7 +65,7 @@ export class PrismaDeudor implements Deudor {
         direccion,
         cedula,
       },
-    }: IntCarpeta 
+    }: IntCarpeta
   ) {
     this.primerNombre = primerNombre;
     this.segundoNombre = segundoNombre;
@@ -82,16 +79,16 @@ export class PrismaDeudor implements Deudor {
     this.email = email;
     this.telCelular = tel.celular
       ? String(
-        tel.celular 
+        tel.celular
       )
       : null;
     this.telFijo = tel.fijo
       ? String(
-        tel.fijo 
+        tel.fijo
       )
       : null;
     this.cedula = String(
-      cedula 
+      cedula
     );
   }
   telCelular: string | null;
@@ -124,7 +121,7 @@ export class PrismaDemanda implements Demanda {
 
   constructor(
     {
-      numero, demanda 
+      numero, demanda
     }: IntCarpeta,
     proceso?: intProceso
   ) {
@@ -142,7 +139,7 @@ export class PrismaDemanda implements Demanda {
       entregaGarantiasAbogado,
       capitalAdeudado,
     } = new ClassDemanda(
-      demanda, numero, proceso 
+      demanda, numero, proceso
     );
     this.llaveProceso = proceso
       ? proceso.llaveProceso
@@ -157,7 +154,7 @@ export class PrismaDemanda implements Demanda {
       ? entregaGarantiasAbogado.toString()
         !== 'Invalid Date'
         ? new Date(
-          entregaGarantiasAbogado.toString() 
+          entregaGarantiasAbogado.toString()
         )
         : null
       : null;
@@ -171,7 +168,7 @@ export class PrismaDemanda implements Demanda {
     this.mandamientoPago = mandamientoPago
       ? mandamientoPago.toString() !== 'Invalid Date'
         ? new Date(
-          mandamientoPago.toString() 
+          mandamientoPago.toString()
         )
         : null
       : null;
@@ -183,12 +180,12 @@ export class PrismaDemanda implements Demanda {
     );
     this.obligacion = obligacion.map(
       (
-        obl 
+        obl
       ) => {
         return String(
-          obl 
+          obl
         );
-      } 
+      }
     );
     this.departamento = proceso
       ? proceso.departamento
@@ -196,7 +193,7 @@ export class PrismaDemanda implements Demanda {
 
     this.vencimientoPagare = vencimientoPagare.map(
       (
-        venc 
+        venc
       ) => {
         if (
           !venc
@@ -207,7 +204,7 @@ export class PrismaDemanda implements Demanda {
         }
 
         return new Date(
-          venc.toString() 
+          venc.toString()
         );
       }
     );
@@ -217,14 +214,14 @@ export class PrismaDemanda implements Demanda {
     this.fechaProceso = proceso
       ? proceso.fechaProceso
         ? new Date(
-          proceso.fechaProceso 
+          proceso.fechaProceso
         )
         : null
       : null;
     this.fechaUltimaActuacion = proceso
       ? proceso.fechaUltimaActuacion
         ? new Date(
-          proceso.fechaUltimaActuacion 
+          proceso.fechaUltimaActuacion
         )
         : null
       : null;
@@ -284,12 +281,12 @@ export class PrismaProceso implements Proceso {
     this.llaveProceso = llaveProceso;
     this.fechaProceso = fechaProceso
       ? new Date(
-        fechaProceso 
+        fechaProceso
       )
       : null;
     this.fechaUltimaActuacion = fechaUltimaActuacion
       ? new Date(
-        fechaUltimaActuacion 
+        fechaUltimaActuacion
       )
       : null;
     this.despacho = despacho;
@@ -347,20 +344,20 @@ export class PrismaActuacion implements Actuacion {
     this.conDocumentos = conDocumentos;
     this.consActuacion = consActuacion;
     this.fechaActuacion = new Date(
-      fechaActuacion 
+      fechaActuacion
     );
     this.fechaFinal = fechaFinal
       ? new Date(
-        fechaFinal 
+        fechaFinal
       )
       : null;
     this.fechaInicial = fechaInicial
       ? new Date(
-        fechaInicial 
+        fechaInicial
       )
       : null;
     this.fechaRegistro = new Date(
-      fechaRegistro 
+      fechaRegistro
     );
     this.idRegActuacion = idRegActuacion;
     this.llaveProceso = llaveProceso;

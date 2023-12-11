@@ -1,12 +1,13 @@
 generator client {
   provider = "prisma-client-js"
 }
+
 generator jsonSchema {
-  provider = "prisma-json-schema-generator"
-    includeRequiredFields = "true"
-      persistOriginalType = "true"
-       forceAnyOf = "true"
+  provider              = "prisma-json-schema-generator"
+  includeRequiredFields = "true"
+  forceAnyOf            = "true"
 }
+
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
@@ -49,7 +50,7 @@ model Deudor {
 }
 
 model Codeudor {
-  Carpeta       Carpeta @relation(fields: [carpetaNumero], references: [numero])
+  carpeta       Carpeta @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero Int     @unique
   cedula        String?
   direccion     String?
@@ -93,24 +94,24 @@ model SubTarea {
 }
 
 model Actuacion {
-  actuacion        String
-  anotacion        String?
-  cant             Int
-  Carpeta          Carpeta[]
-  carpetaNumero    Int?
-  codRegla         String
-  conDocumentos    Boolean
-  consActuacion    Int
-  createdAt        DateTime  @default(now())
-  fechaActuacion   DateTime  @db.Date
-  fechaFinal       DateTime? @db.Date
-  fechaInicial     DateTime? @db.Date
-  fechaRegistro    DateTime  @db.Date
-  idProceso        Int
-  idRegActuacion   Int       @id
-  isUltimaAct      Boolean
-  llaveProceso     String
-  perteneceA       Proceso  @relation(fields: [idProceso], references: [idProceso])
+  actuacion      String
+  anotacion      String?
+  cant           Int
+  carpetas       Carpeta[]
+  carpetaNumero  Int?
+  codRegla       String
+  conDocumentos  Boolean
+  consActuacion  Int
+  createdAt      DateTime  @default(now())
+  fechaActuacion DateTime  @db.Date
+  fechaFinal     DateTime? @db.Date
+  fechaInicial   DateTime? @db.Date
+  fechaRegistro  DateTime  @db.Date
+  idProceso      Int
+  idRegActuacion Int       @id
+  isUltimaAct    Boolean
+  llaveProceso   String
+  proceso        Proceso   @relation(fields: [idProceso], references: [idProceso])
 }
 
 model Demanda {
@@ -145,7 +146,7 @@ model Notificacion {
 }
 
 model MedidasCautelares {
-  Demanda           Demanda[]
+  demanda           Demanda[]
   fechaOrdenaMedida DateTime?
   id                Int       @id @default(autoincrement())
   medidaSolicitada  String?
@@ -155,7 +156,7 @@ model Notifier {
   fechaAporta    DateTime?
   fechaRecibido  DateTime?
   id             Int           @id @default(autoincrement())
-  Notificacion   Notificacion? @relation(fields: [notificacionId], references: [id])
+  notificacion   Notificacion? @relation(fields: [notificacionId], references: [id])
   notificacionId Int?
   resultado      Boolean?
   tipo           String
@@ -170,7 +171,7 @@ model Juzgado {
 
 model Proceso {
   cantFilas            Int
-  carpetaOfProceso     Carpeta     @relation(fields: [carpetaNumero], references: [numero])
+  carpeta              Carpeta     @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero        Int
   departamento         String
   despacho             String

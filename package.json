@@ -2,7 +2,8 @@
   "name": "tester",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "ts-node newIndex.ts > output"
+    "start": "ts-node newIndex.ts > output",
+    "build": "quicktype -s schema ./prisma/json-schema/json-schema.json -o src/types/schema.ts"
   },
   "dependencies": {
     "@koa/router": "^12.0.1",
@@ -23,6 +24,7 @@
     "mongodb": "^6.3.0",
     "prisma": "^5.7.0",
     "prisma-json-schema-generator": "^5.1.0",
+    "quicktype-core": "^23.0.80",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "typescript": "5.4.0-dev.20231210"

@@ -6,7 +6,6 @@
       "properties": {
         "category": {
           "type": "string",
-          "originalType": "Category",
           "default": "SinEspecificar",
           "enum": [
             "Terminados",
@@ -26,8 +25,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Codeudor"
+          ]
         },
         "demanda": {
           "anyOf": [
@@ -37,8 +35,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Demanda"
+          ]
         },
         "deudor": {
           "anyOf": [
@@ -48,8 +45,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Deudor"
+          ]
         },
         "fecha": {
           "anyOf": [
@@ -60,27 +56,22 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "idProcesos": {
           "type": "array",
-          "originalType": "Int",
           "items": {
             "type": "integer"
           }
         },
         "llaveProceso": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "nombre": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "notas": {
           "type": "array",
-          "originalType": "Nota",
           "items": {
             "$ref": "#/definitions/Nota"
           }
@@ -93,35 +84,29 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Notificacion"
+          ]
         },
         "numero": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "procesos": {
           "type": "array",
-          "originalType": "Proceso",
           "items": {
             "$ref": "#/definitions/Proceso"
           }
         },
         "revisado": {
           "type": "boolean",
-          "originalType": "Boolean",
           "default": false
         },
         "tareas": {
           "type": "array",
-          "originalType": "Tarea",
           "items": {
             "$ref": "#/definitions/Tarea"
           }
         },
         "terminado": {
           "type": "boolean",
-          "originalType": "Boolean",
           "default": false
         },
         "ultimaActuacion": {
@@ -132,12 +117,10 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Actuacion"
+          ]
         },
         "updatedAt": {
           "type": "string",
-          "originalType": "DateTime",
           "format": "date-time"
         }
       },
@@ -156,8 +139,7 @@
           "$ref": "#/definitions/Carpeta"
         },
         "cedula": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "direccion": {
           "anyOf": [
@@ -167,8 +149,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "email": {
           "anyOf": [
@@ -178,20 +159,16 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "primerApellido": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "primerNombre": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "segundoApellido": {
           "anyOf": [
@@ -201,8 +178,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "segundoNombre": {
           "anyOf": [
@@ -212,8 +188,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "telCelular": {
           "anyOf": [
@@ -223,8 +198,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "telFijo": {
           "anyOf": [
@@ -234,8 +208,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         }
       },
       "required": [
@@ -248,7 +221,7 @@
     "Codeudor": {
       "type": "object",
       "properties": {
-        "Carpeta": {
+        "carpeta": {
           "$ref": "#/definitions/Carpeta"
         },
         "cedula": {
@@ -259,8 +232,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "direccion": {
           "anyOf": [
@@ -270,12 +242,10 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "nombre": {
           "anyOf": [
@@ -285,8 +255,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "telefono": {
           "anyOf": [
@@ -296,8 +265,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         }
       },
       "required": [
@@ -316,8 +284,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Carpeta"
+          ]
         },
         "content": {
           "anyOf": [
@@ -327,22 +294,18 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "createdAt": {
           "type": "string",
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "date": {
           "type": "string",
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "pathname": {
           "anyOf": [
@@ -352,16 +315,13 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "title": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "updatedAt": {
           "type": "string",
-          "originalType": "DateTime",
           "format": "date-time"
         }
       },
@@ -382,12 +342,10 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Carpeta"
+          ]
         },
         "complete": {
           "type": "boolean",
-          "originalType": "Boolean",
           "default": false
         },
         "content": {
@@ -398,12 +356,10 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "createdAt": {
           "type": "string",
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "dueDate": {
@@ -415,27 +371,22 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "subTareas": {
           "type": "array",
-          "originalType": "SubTarea",
           "items": {
             "$ref": "#/definitions/SubTarea"
           }
         },
         "title": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "updatedAt": {
           "type": "string",
-          "originalType": "DateTime",
           "format": "date-time"
         }
       },
@@ -456,16 +407,13 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "isComplete": {
           "type": "boolean",
-          "originalType": "Boolean",
           "default": false
         },
         "Tarea": {
@@ -476,12 +424,10 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Tarea"
+          ]
         },
         "text": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         }
       },
       "required": [
@@ -492,8 +438,7 @@
       "type": "object",
       "properties": {
         "actuacion": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "anotacion": {
           "anyOf": [
@@ -503,16 +448,13 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "cant": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
-        "Carpeta": {
+        "carpetas": {
           "type": "array",
-          "originalType": "Carpeta",
           "items": {
             "$ref": "#/definitions/Carpeta"
           }
@@ -525,29 +467,23 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Int"
+          ]
         },
         "codRegla": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "conDocumentos": {
-          "type": "boolean",
-          "originalType": "Boolean"
+          "type": "boolean"
         },
         "consActuacion": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "createdAt": {
           "type": "string",
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "fechaActuacion": {
           "type": "string",
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "fechaFinal": {
@@ -559,7 +495,6 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "fechaInicial": {
@@ -571,27 +506,22 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "fechaRegistro": {
           "type": "string",
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "idRegActuacion": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "isUltimaAct": {
-          "type": "boolean",
-          "originalType": "Boolean"
+          "type": "boolean"
         },
         "llaveProceso": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
-        "perteneceA": {
+        "proceso": {
           "$ref": "#/definitions/Proceso"
         }
       },
@@ -620,8 +550,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Decimal"
+          ]
         },
         "carpeta": {
           "$ref": "#/definitions/Carpeta"
@@ -634,8 +563,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "despacho": {
           "anyOf": [
@@ -645,8 +573,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "entregaGarantiasAbogado": {
           "anyOf": [
@@ -657,7 +584,6 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "etapaProcesal": {
@@ -668,8 +594,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "expediente": {
           "anyOf": [
@@ -679,20 +604,17 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "fechaPresentacion": {
           "type": "array",
-          "originalType": "DateTime",
           "format": "date-time",
           "items": {
             "type": "string"
           }
         },
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "mandamientoPago": {
           "anyOf": [
@@ -703,7 +625,6 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "medidasCautelares": {
@@ -714,8 +635,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "MedidasCautelares"
+          ]
         },
         "municipio": {
           "anyOf": [
@@ -725,12 +645,10 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "obligacion": {
           "type": "array",
-          "originalType": "String",
           "items": {
             "type": "string"
           }
@@ -743,12 +661,10 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "tipoProceso": {
           "type": "string",
-          "originalType": "TipoProceso",
           "default": "SINGULAR",
           "enum": [
             "HIPOTECARIO",
@@ -759,7 +675,6 @@
         },
         "vencimientoPagare": {
           "type": "array",
-          "originalType": "DateTime",
           "format": "date-time",
           "items": {
             "type": "string"
@@ -784,8 +699,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         },
         "carpeta": {
           "$ref": "#/definitions/Carpeta"
@@ -798,8 +712,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Boolean"
+          ]
         },
         "fisico": {
           "anyOf": [
@@ -809,16 +722,13 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Boolean"
+          ]
         },
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "notifiers": {
           "type": "array",
-          "originalType": "Notifier",
           "items": {
             "$ref": "#/definitions/Notifier"
           }
@@ -831,9 +741,8 @@
     "MedidasCautelares": {
       "type": "object",
       "properties": {
-        "Demanda": {
+        "demanda": {
           "type": "array",
-          "originalType": "Demanda",
           "items": {
             "$ref": "#/definitions/Demanda"
           }
@@ -847,12 +756,10 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "medidaSolicitada": {
           "anyOf": [
@@ -862,8 +769,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "String"
+          ]
         }
       },
       "required": []
@@ -880,7 +786,6 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "fechaRecibido": {
@@ -892,14 +797,12 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
-        "Notificacion": {
+        "notificacion": {
           "anyOf": [
             {
               "$ref": "#/definitions/Notificacion"
@@ -907,8 +810,7 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Notificacion"
+          ]
         },
         "resultado": {
           "anyOf": [
@@ -918,12 +820,10 @@
             {
               "type": "null"
             }
-          ],
-          "originalType": "Boolean"
+          ]
         },
         "tipo": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         }
       },
       "required": [
@@ -934,23 +834,19 @@
       "type": "object",
       "properties": {
         "id": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "procesos": {
           "type": "array",
-          "originalType": "Proceso",
           "items": {
             "$ref": "#/definitions/Proceso"
           }
         },
         "tipo": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "url": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         }
       },
       "required": [
@@ -963,23 +859,19 @@
       "type": "object",
       "properties": {
         "cantFilas": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
-        "carpetaOfProceso": {
+        "carpeta": {
           "$ref": "#/definitions/Carpeta"
         },
         "departamento": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "despacho": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "esPrivado": {
-          "type": "boolean",
-          "originalType": "Boolean"
+          "type": "boolean"
         },
         "fechaProceso": {
           "anyOf": [
@@ -990,7 +882,6 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "fechaUltimaActuacion": {
@@ -1002,31 +893,25 @@
               "type": "null"
             }
           ],
-          "originalType": "DateTime",
           "format": "date-time"
         },
         "idConexion": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "idProceso": {
-          "type": "integer",
-          "originalType": "Int"
+          "type": "integer"
         },
         "juzgado": {
           "$ref": "#/definitions/Juzgado"
         },
         "llaveProceso": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "sujetosProcesales": {
-          "type": "string",
-          "originalType": "String"
+          "type": "string"
         },
         "actuaciones": {
           "type": "array",
-          "originalType": "Actuacion",
           "items": {
             "$ref": "#/definitions/Actuacion"
           }
