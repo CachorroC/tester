@@ -1,0 +1,1091 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "Carpeta": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "originalType": "Category",
+          "default": "SinEspecificar",
+          "enum": [
+            "Terminados",
+            "LiosJuridicos",
+            "Bancolombia",
+            "Reintegra",
+            "Insolvencia",
+            "SinEspecificar",
+            "todos"
+          ]
+        },
+        "codeudor": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Codeudor"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Codeudor"
+        },
+        "demanda": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Demanda"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Demanda"
+        },
+        "deudor": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Deudor"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Deudor"
+        },
+        "fecha": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "idProcesos": {
+          "type": "array",
+          "originalType": "Int",
+          "items": {
+            "type": "integer"
+          }
+        },
+        "llaveProceso": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "nombre": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "notas": {
+          "type": "array",
+          "originalType": "Nota",
+          "items": {
+            "$ref": "#/definitions/Nota"
+          }
+        },
+        "notificacion": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Notificacion"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Notificacion"
+        },
+        "numero": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "procesos": {
+          "type": "array",
+          "originalType": "Proceso",
+          "items": {
+            "$ref": "#/definitions/Proceso"
+          }
+        },
+        "revisado": {
+          "type": "boolean",
+          "originalType": "Boolean",
+          "default": false
+        },
+        "tareas": {
+          "type": "array",
+          "originalType": "Tarea",
+          "items": {
+            "$ref": "#/definitions/Tarea"
+          }
+        },
+        "terminado": {
+          "type": "boolean",
+          "originalType": "Boolean",
+          "default": false
+        },
+        "ultimaActuacion": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Actuacion"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Actuacion"
+        },
+        "updatedAt": {
+          "type": "string",
+          "originalType": "DateTime",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "idProcesos",
+        "llaveProceso",
+        "nombre",
+        "numero",
+        "updatedAt"
+      ]
+    },
+    "Deudor": {
+      "type": "object",
+      "properties": {
+        "carpeta": {
+          "$ref": "#/definitions/Carpeta"
+        },
+        "cedula": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "direccion": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "email": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "primerApellido": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "primerNombre": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "segundoApellido": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "segundoNombre": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "telCelular": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "telFijo": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        }
+      },
+      "required": [
+        "carpetaNumero",
+        "cedula",
+        "primerApellido",
+        "primerNombre"
+      ]
+    },
+    "Codeudor": {
+      "type": "object",
+      "properties": {
+        "Carpeta": {
+          "$ref": "#/definitions/Carpeta"
+        },
+        "cedula": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "direccion": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "nombre": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "telefono": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        }
+      },
+      "required": [
+        "carpetaNumero",
+        "id"
+      ]
+    },
+    "Nota": {
+      "type": "object",
+      "properties": {
+        "carpeta": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Carpeta"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Carpeta"
+        },
+        "content": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "createdAt": {
+          "type": "string",
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "date": {
+          "type": "string",
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "pathname": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "title": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "updatedAt": {
+          "type": "string",
+          "originalType": "DateTime",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "date",
+        "title",
+        "updatedAt"
+      ]
+    },
+    "Tarea": {
+      "type": "object",
+      "properties": {
+        "Carpeta": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Carpeta"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Carpeta"
+        },
+        "complete": {
+          "type": "boolean",
+          "originalType": "Boolean",
+          "default": false
+        },
+        "content": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "createdAt": {
+          "type": "string",
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "dueDate": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "subTareas": {
+          "type": "array",
+          "originalType": "SubTarea",
+          "items": {
+            "$ref": "#/definitions/SubTarea"
+          }
+        },
+        "title": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "updatedAt": {
+          "type": "string",
+          "originalType": "DateTime",
+          "format": "date-time"
+        }
+      },
+      "required": [
+        "title",
+        "updatedAt"
+      ]
+    },
+    "SubTarea": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "isComplete": {
+          "type": "boolean",
+          "originalType": "Boolean",
+          "default": false
+        },
+        "Tarea": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Tarea"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Tarea"
+        },
+        "text": {
+          "type": "string",
+          "originalType": "String"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "Actuacion": {
+      "type": "object",
+      "properties": {
+        "actuacion": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "anotacion": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "cant": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "Carpeta": {
+          "type": "array",
+          "originalType": "Carpeta",
+          "items": {
+            "$ref": "#/definitions/Carpeta"
+          }
+        },
+        "carpetaNumero": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Int"
+        },
+        "codRegla": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "conDocumentos": {
+          "type": "boolean",
+          "originalType": "Boolean"
+        },
+        "consActuacion": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "createdAt": {
+          "type": "string",
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "fechaActuacion": {
+          "type": "string",
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "fechaFinal": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "fechaInicial": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "fechaRegistro": {
+          "type": "string",
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "idRegActuacion": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "isUltimaAct": {
+          "type": "boolean",
+          "originalType": "Boolean"
+        },
+        "llaveProceso": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "perteneceA": {
+          "$ref": "#/definitions/Proceso"
+        }
+      },
+      "required": [
+        "actuacion",
+        "cant",
+        "codRegla",
+        "conDocumentos",
+        "consActuacion",
+        "fechaActuacion",
+        "fechaRegistro",
+        "idProceso",
+        "idRegActuacion",
+        "isUltimaAct",
+        "llaveProceso"
+      ]
+    },
+    "Demanda": {
+      "type": "object",
+      "properties": {
+        "capitalAdeudado": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Decimal"
+        },
+        "carpeta": {
+          "$ref": "#/definitions/Carpeta"
+        },
+        "departamento": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "despacho": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "entregaGarantiasAbogado": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "etapaProcesal": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "expediente": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "fechaPresentacion": {
+          "type": "array",
+          "originalType": "DateTime",
+          "format": "date-time",
+          "items": {
+            "type": "string"
+          }
+        },
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "mandamientoPago": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "medidasCautelares": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/MedidasCautelares"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "MedidasCautelares"
+        },
+        "municipio": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "obligacion": {
+          "type": "array",
+          "originalType": "String",
+          "items": {
+            "type": "string"
+          }
+        },
+        "radicado": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "tipoProceso": {
+          "type": "string",
+          "originalType": "TipoProceso",
+          "default": "SINGULAR",
+          "enum": [
+            "HIPOTECARIO",
+            "PRENDARIO",
+            "SINGULAR",
+            "ACUMULADO"
+          ]
+        },
+        "vencimientoPagare": {
+          "type": "array",
+          "originalType": "DateTime",
+          "format": "date-time",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "carpetaNumero",
+        "fechaPresentacion",
+        "obligacion",
+        "vencimientoPagare"
+      ]
+    },
+    "Notificacion": {
+      "type": "object",
+      "properties": {
+        "autoNotificado": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        },
+        "carpeta": {
+          "$ref": "#/definitions/Carpeta"
+        },
+        "certimail": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Boolean"
+        },
+        "fisico": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Boolean"
+        },
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "notifiers": {
+          "type": "array",
+          "originalType": "Notifier",
+          "items": {
+            "$ref": "#/definitions/Notifier"
+          }
+        }
+      },
+      "required": [
+        "carpetaNumero"
+      ]
+    },
+    "MedidasCautelares": {
+      "type": "object",
+      "properties": {
+        "Demanda": {
+          "type": "array",
+          "originalType": "Demanda",
+          "items": {
+            "$ref": "#/definitions/Demanda"
+          }
+        },
+        "fechaOrdenaMedida": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "medidaSolicitada": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "String"
+        }
+      },
+      "required": []
+    },
+    "Notifier": {
+      "type": "object",
+      "properties": {
+        "fechaAporta": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "fechaRecibido": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "Notificacion": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/Notificacion"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Notificacion"
+        },
+        "resultado": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "Boolean"
+        },
+        "tipo": {
+          "type": "string",
+          "originalType": "String"
+        }
+      },
+      "required": [
+        "tipo"
+      ]
+    },
+    "Juzgado": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "procesos": {
+          "type": "array",
+          "originalType": "Proceso",
+          "items": {
+            "$ref": "#/definitions/Proceso"
+          }
+        },
+        "tipo": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "url": {
+          "type": "string",
+          "originalType": "String"
+        }
+      },
+      "required": [
+        "id",
+        "tipo",
+        "url"
+      ]
+    },
+    "Proceso": {
+      "type": "object",
+      "properties": {
+        "cantFilas": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "carpetaOfProceso": {
+          "$ref": "#/definitions/Carpeta"
+        },
+        "departamento": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "despacho": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "esPrivado": {
+          "type": "boolean",
+          "originalType": "Boolean"
+        },
+        "fechaProceso": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "fechaUltimaActuacion": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "originalType": "DateTime",
+          "format": "date-time"
+        },
+        "idConexion": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "idProceso": {
+          "type": "integer",
+          "originalType": "Int"
+        },
+        "juzgado": {
+          "$ref": "#/definitions/Juzgado"
+        },
+        "llaveProceso": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "sujetosProcesales": {
+          "type": "string",
+          "originalType": "String"
+        },
+        "actuaciones": {
+          "type": "array",
+          "originalType": "Actuacion",
+          "items": {
+            "$ref": "#/definitions/Actuacion"
+          }
+        }
+      },
+      "required": [
+        "cantFilas",
+        "carpetaNumero",
+        "departamento",
+        "despacho",
+        "esPrivado",
+        "idConexion",
+        "idProceso",
+        "juzgadoTipo",
+        "llaveProceso",
+        "sujetosProcesales"
+      ]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "carpeta": {
+      "$ref": "#/definitions/Carpeta"
+    },
+    "deudor": {
+      "$ref": "#/definitions/Deudor"
+    },
+    "codeudor": {
+      "$ref": "#/definitions/Codeudor"
+    },
+    "nota": {
+      "$ref": "#/definitions/Nota"
+    },
+    "tarea": {
+      "$ref": "#/definitions/Tarea"
+    },
+    "subTarea": {
+      "$ref": "#/definitions/SubTarea"
+    },
+    "actuacion": {
+      "$ref": "#/definitions/Actuacion"
+    },
+    "demanda": {
+      "$ref": "#/definitions/Demanda"
+    },
+    "notificacion": {
+      "$ref": "#/definitions/Notificacion"
+    },
+    "medidasCautelares": {
+      "$ref": "#/definitions/MedidasCautelares"
+    },
+    "notifier": {
+      "$ref": "#/definitions/Notifier"
+    },
+    "juzgado": {
+      "$ref": "#/definitions/Juzgado"
+    },
+    "proceso": {
+      "$ref": "#/definitions/Proceso"
+    }
+  }
+}

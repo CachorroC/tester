@@ -26,13 +26,20 @@ export interface IntCarpeta {
   deudor: IntDeudor;
   fecha: Date | null;
   idProcesos: number[];
+  idRegUltimaAct: number | null;
+  juzgados: Juzgado[];
   llaveProceso: string;
   nombre: string;
-  numero: number;
-  procesos: intProceso[] | null;
-  tipoProceso: TipoProceso;
-  ultimaActuacion: intActuacion | null;
+  notas: IntNota[];
   notificacion: intNotificacion | null;
+  numero: number;
+  revisado: boolean;
+  tareas: IntTarea[];
+  terminado: boolean;
+  tipoProceso: TipoProceso;
+  updatedAt: Date;
+  procesos: IntProceso[];
+  ultimaActuacion: IntActuacion | null;
 }
 
 export interface flatCarpeta {
@@ -110,8 +117,7 @@ export interface DemandaRaw {
   vencimientoPagare?: number | string;
 }
 
-
-export interface rawNotificacion  {
+export interface rawNotificacion {
   '291'?: The291;
   '292'?: The292;
   certimail?: string;
@@ -223,24 +229,27 @@ export interface IntTel {
 
 export interface IntDemanda {
   capitalAdeudado: number | null;
-  departamento: string | null;
   entregaGarantiasAbogado: Date | null;
-  tipoProceso: TipoProceso;
-  mandamientoPago: Date | null;
-  etapaProcesal: string | null;
-  fechaPresentacion: Date[]
   municipio: string | null;
   obligacion: ( number | string )[];
   radicado: string | null;
-  vencimientoPagare: ( Date | null )[];
+  llaveProceso: string | null;
+  id: number;
+  departamento: string | null;
+  tipoProceso: TipoProceso;
+  mandamientoPago: Date | null;
+  etapaProcesal: null | string;
+  vencimientoPagare: Date[];
+  carpetaNumero: number;
+  despacho: null | string;
   idProceso: number;
   idConexion: number | null;
-  llaveProceso: string | null;
   fechaProceso: Date | null;
   fechaUltimaActuacion: Date | null;
-  sujetosProcesales: string | null;
+  sujetosProcesales: null | string;
   esPrivado: boolean | null;
   cantFilas: number | null;
+  fechaPresentacion: Date[];
   medidasCautelares: {
     fechaOrdenaMedida: Date | null;
     medidaSolicitada: string | null;
@@ -251,11 +260,10 @@ export interface intNotificacion {
   certimail: boolean | null;
   fisico: boolean | null;
   autoNotificado: string | null;
-  notifiers: intNotifier[]
+  notifiers: intNotifier[];
 }
 
-export interface intNotifier
-{
+export interface intNotifier {
   id: number;
   tipo: '291' | '292';
   fechaRecibido: Date | null;

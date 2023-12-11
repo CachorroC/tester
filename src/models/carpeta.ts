@@ -17,7 +17,7 @@ export const client = new PrismaClient(
 
 export class CarpetaBuilder implements IntCarpeta {
   actuaciones: { carpetaNumero: number | null; isUltimaAct: boolean; createdAt: Date; idRegActuacion: number; llaveProceso: string; consActuacion: number; fechaActuacion: Date; actuacion: string; anotacion: string | null; fechaInicial: Date | null; fechaRegistro: Date; fechaFinal: Date | null; codRegla: string; conDocumentos: boolean; cant: number; idProceso: number; }[] | null;
-  juzgados: Juzgado[] | null;
+
   codeudor: Codeudor | null;
   demanda: DemandaRaw;
   demandas: IntDemanda[];
