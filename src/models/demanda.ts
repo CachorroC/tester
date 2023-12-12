@@ -1,11 +1,9 @@
 import { Juzgado } from '@prisma/client';
 import { Despachos } from '../data/despachos';
-import { DemandaRaw,
-  IntDemanda,
-  TipoProceso, } from '../types/carpetas';
+import { DemandaRaw, IntDemanda, TipoProceso, } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
-import { fechaPresentacionBuilder, } from './idk';
+import { fechaPresentacionBuilder, fixSingleFecha, } from './idk';
 
 function vencimientoPagareFixer(
   rawVencimientoPagare?: string | number
@@ -14,87 +12,113 @@ function vencimientoPagareFixer(
     return [];
   }
 
-  let stringPagare;
+  const isNumber = typeof rawVencimientoPagare === 'number';
 
-  if ( typeof rawVencimientoPagare === 'number' ) {
-    stringPagare = rawVencimientoPagare.toString();
-  } else {
-    stringPagare = rawVencimientoPagare;
+
+  if ( isNumber ) {
+    return [ new Date(
+      rawVencimientoPagare
+    ) ];
   }
 
-  const pagaresDateSet = new Set<Date | null>();
+  const {
+    length: rawVencimientoPagareLength
+  } = rawVencimientoPagare;
 
-  const matcherPagare = stringPagare.split(
-    '//'
-  );
-  console.log(
-    `hay ${ matcherPagare?.length } pagarés en este proceso`
-  );
-
-  for ( const pagare of matcherPagare ) {
-    const newPagareString = pagare.trim()
-      .replace(
-        '/', '-'
-      );
-
-    const regexMatchStringYear
-      = newPagareString.match(
-        /\d{4}/g
-      );
-
-    const regexMatchStringMonth
-      = newPagareString.match(
-        /-\d{1,2}-/g
-      );
-    console.log(
-      regexMatchStringYear
+  if ( rawVencimientoPagareLength <= 12 ) {
+    const fechaFixed = fixSingleFecha(
+      rawVencimientoPagare
     );
 
-    const monthConGuiones = regexMatchStringMonth
-      ? regexMatchStringMonth[ 0 ]
-      : '-01-';
-
-    const month = monthConGuiones.replaceAll(
-      '-', ''
-    );
-
-    const year = regexMatchStringYear
-      ? regexMatchStringYear[ 0 ]
-      : '2015';
-
-    const stringDate = new Date(
-      Number(
-        year
-      ),
-      Number(
-        month
-      ) - 1
-    );
-
-    console.log(
-      `la nueva fecha del pagaré arrojó: ${ stringDate.toDateString() }`
-    );
-
-    if (
-      !stringDate
-      || stringDate.toString() === 'Invalid Date'
-    ) {
-      pagaresDateSet.add(
-        null
-      );
+    if ( !fechaFixed || fechaFixed.toString() === 'Invalid Date' ) {
+      return [];
     }
 
-    pagaresDateSet.add(
-      stringDate
-    );
+    return [ fechaFixed ];
   }
 
-  if ( pagaresDateSet.size === 0 ) {
-    return [];
+  const fechasSet = new Set<Date>();
+
+  const [
+    firstFecha,
+    secondFecha,
+    thirdFecha,
+    fourthFecha,
+  ] = rawVencimientoPagare.split(
+    '//'
+  );
+
+  if ( firstFecha && firstFecha.length <= 12 ) {
+    console.log(
+      firstFecha.length
+    );
+
+    //* Es una la primer fecha de presentacion
+    const fechaFixed = fixSingleFecha(
+      firstFecha
+    );
+
+    if ( fechaFixed ) {
+      fechasSet.add(
+        fechaFixed
+      );
+    }
+  }
+
+  if ( secondFecha && secondFecha.length <= 12 ) {
+    console.log(
+      secondFecha.length
+    );
+
+    //* Es una la primer fecha de presentacion
+    const fechaFixed = fixSingleFecha(
+      secondFecha
+    );
+
+    if ( fechaFixed ) {
+      fechasSet.add(
+        fechaFixed
+      );
+    }
+  }
+
+  if ( thirdFecha && thirdFecha.length <= 12 ) {
+    console.log(
+      thirdFecha.length
+    );
+
+    //* Es una la primer fecha de presentacion
+    const fechaFixed = fixSingleFecha(
+      thirdFecha
+    );
+
+    if ( fechaFixed ) {
+      fechasSet.add(
+        fechaFixed
+      );
+    }
+  }
+
+
+  if ( fourthFecha && fourthFecha.length <= 12 ) {
+    console.log(
+      fourthFecha.length
+    );
+
+    //* Es una la primer fecha de presentacion
+    const fechaFixed = fixSingleFecha(
+      fourthFecha
+    );
+
+    if ( fechaFixed ) {
+      fechasSet.add(
+        fechaFixed
+      );
+    }
   }
 
   return Array.from(
-    pagaresDateSet
+    fechasSet
   );
 }
 
@@ -224,6 +248,7 @@ export class NewJuzgado implements Juzgado {
 }
 
 export class ClassDemanda implements IntDemanda {
+  obligacion: string[];
   constructor(
     {
       capitalAdeudado,
@@ -240,10 +265,8 @@ export class ClassDemanda implements IntDemanda {
       medidasCautelares,
       vencimientoPagare,
     }: DemandaRaw,
-    numero: number,
-    proceso?: intProceso
   ) {
-    const obligacionesSet = new Set<string | number>();
+    const obligacionesSet = new Set<string>();
 
     if ( obligacion ) {
       const {
@@ -252,13 +275,17 @@ export class ClassDemanda implements IntDemanda {
 
       if ( A ) {
         obligacionesSet.add(
-          A
+          String(
+            A
+          )
         );
       }
 
       if ( B ) {
         obligacionesSet.add(
-          B
+          String(
+            B
+          )
         );
       }
     }
@@ -308,7 +335,7 @@ export class ClassDemanda implements IntDemanda {
       }
     }
 
-    this.llaveProceso = llaveProceso
+    this.expediente = llaveProceso
       ? llaveProceso
       : null;
 
@@ -339,36 +366,7 @@ export class ClassDemanda implements IntDemanda {
     this.departamento = departamento
       ? departamento
       : null;
-    this.idProceso = proceso
-      ? proceso.idProceso
-      : numero;
-    this.idConexion = proceso
-      ? proceso.idConexion
-      : null;
-    this.fechaProceso = proceso
-      ? proceso.fechaProceso
-        ? new Date(
-          proceso.fechaProceso
-        )
-        : null
-      : null;
-    this.fechaUltimaActuacion = proceso
-      ? proceso.fechaUltimaActuacion
-        ? new Date(
-          proceso.fechaUltimaActuacion
-        )
-        : null
-      : null;
-    this.sujetosProcesales = proceso
-      ? proceso.sujetosProcesales
-      : null;
-    this.esPrivado = proceso
-      ? proceso.esPrivado
-      : null;
-    this.cantFilas = proceso
-      ? proceso.cantFilas
-      : null;
-
+    this.despacho = null;
     this.medidasCautelares = medidasCautelares
       ? {
           fechaOrdenaMedida: medidasCautelares.fechaOrdenaMedidas
@@ -381,30 +379,23 @@ export class ClassDemanda implements IntDemanda {
             : null
         }
       : null;
-
-
+    this.llaveProceso = llaveProceso;
   }
-  idProceso: number;
-  idConexion: number | null;
+
   llaveProceso: string | null;
-  fechaProceso: Date | null;
-  fechaUltimaActuacion: Date | null;
-  sujetosProcesales: string | null;
-  esPrivado: boolean | null;
-  cantFilas: number | null;
-  medidasCautelares: {
-    fechaOrdenaMedida: Date | null;
-    medidaSolicitada: string | null;
-  } | null;
-  vencimientoPagare: ( Date | null )[];
+  medidasCautelares: { fechaOrdenaMedida: Date | null; medidaSolicitada: string | null; } | null;
   capitalAdeudado: number | null;
+  carpetaNumero!: number;
   departamento: string | null;
+  despacho: string | null;
   entregaGarantiasAbogado: Date | null;
-  tipoProceso: TipoProceso;
-  mandamientoPago: Date | null;
   etapaProcesal: string | null;
+  expediente: string | null;
   fechaPresentacion: Date[];
+  id!: number;
+  mandamientoPago: Date | null;
   municipio: string | null;
-  obligacion: ( number | string )[];
   radicado: string | null;
+  tipoProceso: TipoProceso;
+  vencimientoPagare: Date[];
 }

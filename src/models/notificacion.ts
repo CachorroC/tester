@@ -1,5 +1,5 @@
 import { Notificacion,  Prisma } from '@prisma/client';
-import { IntCarpeta, intNotificacion,  intNotifier,  rawNotificacion } from '../types/carpetas';
+import { IntCarpeta,  intNotificacion,  intNotifier,  rawNotificacion } from '../types/carpetas';
 import { fixSingleFecha } from './idk';
 import { client } from './carpeta';
 

@@ -1,16 +1,27 @@
-export class ActuacionJudicial implements  {
-  _actuaciones: intActuacion[] | null;
-  constructor() {
+import { ConsultaActuacion } from '../types/actuaciones';
+import { Actuacion } from '../types/schema';
+
+export class ActuacionJudicial {
+  _fecha: Date | null;
+  _actuaciones: Actuacion[] | null;
+  _ultimaActuacion: Actuacion | null;
+  idProceso: number;
+  carpetaNumero: number;
+  constructor (
+    idProceso: number, carpetaNumero: number
+  ) {
+    this.idProceso = idProceso;
+    this.carpetaNumero = carpetaNumero;
+    this._fecha = null;
+    this._actuaciones = null;
+    this._ultimaActuacion = null;
   }
 
-  async getActuaciones(
-    idProceso: number
-  ) {
+  async getActuaciones() {
 
     try {
-
       const request = await fetch(
-        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`,
+        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ this.idProceso }`,
       );
 
       if ( !request.ok ) {
@@ -41,7 +52,7 @@ export class ActuacionJudicial implements  {
 
       const incomingDay = incomingDate.getDate();
       console.log(
-        `${ this.numero } => la nueva fecha de la actuacion es: ${ new Date(
+        `${ this.carpetaNumero } => la nueva fecha de la actuacion es: ${ new Date(
           incomingYear,
           incomingMonth,
           incomingDay,
@@ -51,13 +62,19 @@ export class ActuacionJudicial implements  {
 
 
 
-      const savedYear = this.fecha?.getFullYear();
+      const savedYear = this._fecha
+        ? this._fecha.getFullYear()
+        : 2015;
 
-      const savedMonth = this.fecha?.getMonth();
+      const savedMonth = this._fecha
+        ?this._fecha.getMonth()
+        : 0;
 
-      const savedDay = this.fecha?.getDate();
+      const savedDay = this._fecha
+        ? this._fecha.getDate()
+        : 1;
       console.log(
-        `${ this.numero
+        `${ this.carpetaNumero
         } => la fecha guardada en el servidor de LINK -  actuacion es: ${ new Date(
           savedYear ?? 0,
           savedMonth ?? 0,
@@ -66,16 +83,32 @@ export class ActuacionJudicial implements  {
       );
 
       if (
-        !this.fecha
-            || this.fecha < incomingDate
-            || this.fecha.toString() === 'Invalid Date'
+        !this._fecha
+            || this._fecha < incomingDate
+            || this._fecha.toString() === 'Invalid Date'
       ) {
-        this.fecha = new Date(
+        this._fecha = new Date(
           ultimaActuacion.fechaActuacion
         );
-        this.ultimaActuacion = {
+        this._ultimaActuacion = {
           ...ultimaActuacion
-          , idProceso  : proceso.idProceso
+          , idProceso     : this.idProceso
+          , fechaActuacion: new Date(
+            ultimaActuacion.fechaActuacion
+          )
+          , fechaRegistro: new Date(
+            ultimaActuacion.fechaRegistro
+          )
+          , fechaFinal: ultimaActuacion.fechaFinal
+            ? new Date(
+              ultimaActuacion.fechaFinal
+            )
+            : null
+          , fechaInicial: ultimaActuacion.fechaInicial
+            ? new Date(
+              ultimaActuacion.fechaInicial
+            )
+            : null
           , isUltimaAct: ultimaActuacion.cant === ultimaActuacion.consActuacion
             ? true
             : false
@@ -83,46 +116,51 @@ export class ActuacionJudicial implements  {
 
       }
 
-      actuaciones.forEach(
+      this._actuaciones = actuaciones.map(
         (
           actuacion
         ) => {
-          actuacionesMap.add(
-            {
-              ...actuacion
-              , idProceso: proceso.idProceso
-              , isUltimaAct:
+          return {
+
+            ...actuacion
+            , idProceso: this.idProceso
+            , isUltimaAct:
                     actuacion.cant === actuacion.consActuacion
                       ? true
                       : false
-              , carpetaNumero : this.numero
-              , createdAt     : new Date
-              , fechaActuacion: new Date(
-                actuacion.fechaActuacion
+            , carpetaNumero : this.carpetaNumero
+            , createdAt     : new Date
+            , fechaActuacion: new Date(
+              actuacion.fechaActuacion
+            )
+            , fechaRegistro: new Date(
+              actuacion.fechaRegistro
+            )
+            , fechaInicial: actuacion.fechaInicial
+              ? new Date(
+                actuacion.fechaInicial
               )
-              , fechaRegistro: new Date(
-                actuacion.fechaRegistro
+              : null
+            , fechaFinal: actuacion.fechaFinal
+              ? new Date(
+                actuacion.fechaFinal
               )
-              , fechaInicial: actuacion.fechaInicial
-                ? new Date(
-                  actuacion.fechaInicial
-                )
-                : null
-              , fechaFinal: actuacion.fechaFinal
-                ? new Date(
-                  actuacion.fechaFinal
-                )
-                : null,
-            }
-          );
+              : null,
+          };
         }
       );
+
+
     } catch ( error ) {
       console.log(
-        `${ this.numero } => Error CarpetaBuilder.getActuaciones.fetchError(${ this.numero } : ${ proceso.idProceso }) => ${ error }`,
+        `${ this.carpetaNumero } => Error CarpetaBuilder.getActuaciones.fetchError(${ this.carpetaNumero } : ${ this.idProceso }) => ${ error }`,
       );
 
     }
 
+  }
+
+  get actuaciones () {
+    return this._actuaciones;
   }
 }

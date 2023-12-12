@@ -21,25 +21,21 @@ export interface CarpetaRaw extends TrulyCruda {
 export interface IntCarpeta {
   category: Category;
   codeudor: Codeudor | null;
-  demanda: DemandaRaw;
-  demandas: IntDemanda[];
+  demanda: IntDemanda;
   deudor: IntDeudor;
   fecha: Date | null;
   idProcesos: number[];
   idRegUltimaAct: number | null;
-  juzgados: Juzgado[];
   llaveProceso: string;
   nombre: string;
-  notas: IntNota[];
   notificacion: intNotificacion | null;
   numero: number;
   revisado: boolean;
-  tareas: IntTarea[];
   terminado: boolean;
   tipoProceso: TipoProceso;
   updatedAt: Date;
-  procesos: IntProceso[];
-  ultimaActuacion: IntActuacion | null;
+  procesos: intProceso[];
+  ultimaActuacion: intActuacion | null;
 }
 
 export interface flatCarpeta {
@@ -218,7 +214,7 @@ export interface IntDeudor {
   primerNombre: string;
   segundoNombre: string | null;
   primerApellido: string;
-  segundoApellido: string | null | string[];
+  segundoApellido: string | null
   tel: IntTel;
 }
 
@@ -242,13 +238,6 @@ export interface IntDemanda {
   vencimientoPagare: Date[];
   carpetaNumero: number;
   despacho: null | string;
-  idProceso: number;
-  idConexion: number | null;
-  fechaProceso: Date | null;
-  fechaUltimaActuacion: Date | null;
-  sujetosProcesales: null | string;
-  esPrivado: boolean | null;
-  cantFilas: number | null;
   fechaPresentacion: Date[];
   medidasCautelares: {
     fechaOrdenaMedida: Date | null;

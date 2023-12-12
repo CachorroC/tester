@@ -4,34 +4,34 @@ export class Tel implements IntTel {
   fijo: number | null;
   celular: number | null;
   constructor(
-    telefono: string 
+    telefono: string
   ) {
     const celularStringArray = telefono.match(
-      /\d{10}/g 
+      /\d{10}/g
     );
 
     const fijoStringArray = telefono.match(
-      /\d{7}\s/g 
+      /\d{7}\s/g
     );
 
     const celularNumber = celularStringArray?.map(
       (
-        f 
+        f
       ) => {
         return Number(
-          f 
+          f
         );
-      } 
+      }
     );
 
     const fijoNumber = fijoStringArray?.map(
       (
-        f 
+        f
       ) => {
         return Number(
-          f 
+          f
         );
-      } 
+      }
     );
 
     this.fijo = fijoNumber
@@ -46,11 +46,11 @@ export class Tel implements IntTel {
 export class ClassDeudor implements IntDeudor {
   constructor(
     {
-      cedula, direccion, email, nombre, telefono = '' 
-    }: DeudorRaw 
+      cedula, direccion, email, nombre, telefono = ''
+    }: DeudorRaw
   ) {
     this.cedula = Number(
-      cedula 
+      cedula
     );
     this.direccion = direccion
       ? direccion.toString()
@@ -60,12 +60,12 @@ export class ClassDeudor implements IntDeudor {
       : null;
     this.tel = new Tel(
       String(
-        telefono 
-      ) 
+        telefono
+      )
     );
 
     const nameStringArray = nombre.split(
-      ' ' 
+      ' '
     );
 
     const nameArrayLength = nameStringArray.length;
@@ -76,7 +76,7 @@ export class ClassDeudor implements IntDeudor {
             this.primerNombre,
             this.segundoNombre,
             this.primerApellido,
-            this.segundoApellido, 
+            this.segundoApellido,
           ] = nameStringArray;
 
           break;
@@ -84,7 +84,7 @@ export class ClassDeudor implements IntDeudor {
         case 2:
           [
             this.primerNombre,
-            this.primerApellido 
+            this.primerApellido
           ] = nameStringArray;
 
           this.segundoApellido = null;
@@ -104,7 +104,7 @@ export class ClassDeudor implements IntDeudor {
           [
             this.primerNombre,
             this.segundoNombre,
-            this.primerApellido 
+            this.primerApellido
           ]
           = nameStringArray;
           this.segundoApellido = null;
@@ -116,7 +116,7 @@ export class ClassDeudor implements IntDeudor {
             this.primerNombre,
             this.segundoNombre,
             this.primerApellido,
-            ...this.segundoApellido 
+            this.segundoApellido
           ] = nameStringArray;
 
           break;
@@ -126,8 +126,11 @@ export class ClassDeudor implements IntDeudor {
   primerNombre: string;
   segundoNombre: string | null;
   primerApellido: string;
-  segundoApellido: string | string[] | null;
+  segundoApellido: string |null;
   cedula: number;
   direccion: string | null;
   email: string | null;
+
+
+
 }

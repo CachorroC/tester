@@ -1,13 +1,13 @@
 import { Juzgado, Category, TipoProceso, Prisma, PrismaClient, Codeudor } from '@prisma/client';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
-import { intActuacion, ConsultaActuacion } from '../types/actuaciones';
-import { IntCarpeta, CarpetaRaw, IntDemanda, IntDeudor, DemandaRaw, intNotificacion } from '../types/carpetas';
-import { intProceso, ConsultaNumeroRadicacion } from '../types/procesos';
+import { ConsultaActuacion, intActuacion, outActuacion } from '../types/actuaciones';
+import { ConsultaNumeroRadicacion, intProceso, outProceso } from '../types/procesos';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
 import { PrismaDemanda, PrismaDeudor } from './prisma-carpeta';
 import { ClassNotificacion, PrismaNotificacion } from './notificacion';
 import { NewJuzgado } from './thenable';
+import { CarpetaRaw, IntCarpeta, IntDemanda, IntDeudor, Juzgado, TipoProcesoRaw } from '../types/carpetas';
 
 export const client = new PrismaClient(
   {
@@ -16,10 +16,9 @@ export const client = new PrismaClient(
 );
 
 export class CarpetaBuilder implements IntCarpeta {
-  actuaciones: { carpetaNumero: number | null; isUltimaAct: boolean; createdAt: Date; idRegActuacion: number; llaveProceso: string; consActuacion: number; fechaActuacion: Date; actuacion: string; anotacion: string | null; fechaInicial: Date | null; fechaRegistro: Date; fechaFinal: Date | null; codRegla: string; conDocumentos: boolean; cant: number; idProceso: number; }[] | null;
+
 
   codeudor: Codeudor | null;
-  demanda: DemandaRaw;
   demandas: IntDemanda[];
   numero: number;
   llaveProceso: string;
@@ -31,7 +30,7 @@ export class CarpetaBuilder implements IntCarpeta {
   tipoProceso: TipoProceso;
   deudor: IntDeudor;
   cc: number;
-  procesos: intProceso[] | null;
+  procesos: intProceso[];
   idProcesos: number[] ;
   nombre: string;
 
@@ -41,7 +40,7 @@ export class CarpetaBuilder implements IntCarpeta {
     }: CarpetaRaw
   ) {
     const newDemanda = new ClassDemanda(
-      demanda, numero
+      demanda
     );
     this.numero = numero;
     this.nombre = deudor.nombre;
@@ -75,6 +74,7 @@ export class CarpetaBuilder implements IntCarpeta {
           , carpetaNumero: this.numero
         }
       : null;
+    this.demandas = [];
     this.tipoProceso = demanda.tipoProceso
       ? tipoProcesoBuilder(
         demanda.tipoProceso
@@ -83,18 +83,15 @@ export class CarpetaBuilder implements IntCarpeta {
     this.deudor = new ClassDeudor(
       deudor
     );
-    this.demanda = demanda;
-    this.demandas = [ newDemanda ];
+    this.demanda = newDemanda;
     this.terminado = category === 'Terminados'
       ? true
       : false;
     this.cc = Number(
       deudor.cedula
     );
-    this.actuaciones = null;
-    this.juzgados = null;
     this.idProcesos = [];
-    this.procesos = null;
+    this.procesos = [];
     this.ultimaActuacion = null;
     this.fecha = null;
     this.llaveProceso = demanda.llaveProceso;
@@ -103,7 +100,17 @@ export class CarpetaBuilder implements IntCarpeta {
         demanda.notificacion
       )
       : null;
+    this.notas = [];
+    this.tareas = [];
+    this.updatedAt = new Date();
+    this.idRegUltimaAct = null;
   }
+  idRegUltimaAct: number | null;
+  juzgados: Juzgado[];
+  demanda: Demanda | null;
+  notas: Nota[];
+  tareas: Tarea[];
+  updatedAt: Date;
   notificacion: intNotificacion | null;
   set _llaveProceso (
     expediente: string
@@ -160,6 +167,9 @@ export class CarpetaBuilder implements IntCarpeta {
                 proceso.fechaUltimaActuacion
               )
               : null
+            , juzgado: new NewJuzgado(
+              proceso
+            )
           };
         }
       );
@@ -1082,5 +1092,117 @@ export class CarpetaBuilder implements IntCarpeta {
       );
       return null;
     }
+  }
+}
+
+export class NewJudicial {
+  _procesos = new Map<number, outProceso>();
+  _actuaciones = new Map<number, outActuacion>();
+  numero: number;
+  fecha: Date | null;
+  ultimaActuacion: outActuacion | null;
+  revisado: boolean;
+  terminado: boolean;
+  tipoProceso: TipoProcesoRaw;
+  codeudor: Codeudor | null;
+  deudor: ClassDeudor;
+  llaveProceso: string;
+  demanda: ClassDemanda;
+  category: string;
+  constructor (
+    {
+      numero, deudor: rawDeudor, demanda: rawDemanda, category
+    }: CarpetaRaw
+  ) {
+    this.numero = numero;
+    this.category = category;
+    this.deudor = new ClassDeudor(
+      rawDeudor
+    );
+
+    this.llaveProceso = rawDemanda.llaveProceso;
+    this.demanda = new ClassDemanda(
+      rawDemanda
+    );
+  }
+  async getProcesos () {
+
+    try {
+      if ( this.llaveProceso === 'SinEspecificar' ) {
+        throw new Error(
+          'no hay llaveProceso en esta carpeta, aborting'
+        );
+      }
+
+      const request = await fetch(
+        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ this.llaveProceso }&SoloActivos=false&pagina=1`
+      );
+
+      if ( !request.ok ) {
+        const json = await request.json();
+
+        const message = `Error
+        Judicial.getProcesos.fetchError(${
+  this.numero
+}) =>
+  ${ JSON.stringify(
+    json, null, 2
+  ) }
+  ${ json }
+  ${ request.status }
+  ${ request.statusText }
+  `;
+        throw new Error(
+          message
+        );
+      }
+
+      const consultaProcesos
+        = ( await request.json() ) as ConsultaNumeroRadicacion;
+
+      const {
+        procesos
+      } = consultaProcesos;
+
+      for ( const proceso of procesos ) {
+        this._procesos.set(
+          proceso.idProceso, {
+            ...proceso
+            , fechaProceso: proceso.fechaProceso
+              ? new Date(
+                proceso.fechaProceso
+              )
+              : null
+            , fechaUltimaActuacion: proceso.fechaUltimaActuacion
+              ? new Date(
+                proceso.fechaUltimaActuacion
+              )
+              : null
+            , juzgado: new NewJuzgado(
+              proceso
+            )
+          }
+        );
+      }
+
+
+    } catch ( error ) {
+      console.log(
+        `${ this.numero } => error en CarpetaBuilder.getProcesos(${ this.numero }) => ${ error }`
+      );
+
+    }
+  }
+  get actuaciones () {
+
+    return Array.from(
+      this._actuaciones.values()
+    );
+
+  }
+  get procesos () {
+    return Array.from(
+      this._procesos.values()
+    );
   }
 }

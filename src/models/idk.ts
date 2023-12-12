@@ -40,7 +40,7 @@ export function fechaPresentacionBuilder(
       rawFechaPresentacion
     );
 
-    if ( !fechaFixed ) {
+    if ( !fechaFixed || fechaFixed.toString() === 'Invalid Date' ) {
       return [];
     }
 

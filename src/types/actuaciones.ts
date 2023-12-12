@@ -31,9 +31,14 @@ export interface intActuacion {
   codRegla: CodRegla;
   conDocumentos: boolean;
   cant: number;
+
+}
+
+export interface outActuacion extends intActuacion
+{
+
   idProceso: number;
   isUltimaAct: boolean;
-
 }
 
 export type CodRegla = '00                              ';

@@ -4,8 +4,6 @@ generator client {
 
 generator jsonSchema {
   provider              = "prisma-json-schema-generator"
-  includeRequiredFields = "true"
-  forceAnyOf            = "true"
 }
 
 datasource db {
