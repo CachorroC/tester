@@ -27,35 +27,6 @@ CREATE TABLE "Carpeta" (
 );
 
 -- CreateTable
-CREATE TABLE "Deudor" (
-    "carpetaNumero" INTEGER NOT NULL,
-    "cedula" TEXT NOT NULL,
-    "direccion" TEXT,
-    "email" TEXT,
-    "id" SERIAL NOT NULL,
-    "primerApellido" TEXT NOT NULL,
-    "primerNombre" TEXT NOT NULL,
-    "segundoApellido" TEXT,
-    "segundoNombre" TEXT,
-    "telCelular" TEXT,
-    "telFijo" TEXT,
-
-    CONSTRAINT "Deudor_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
-CREATE TABLE "Codeudor" (
-    "carpetaNumero" INTEGER NOT NULL,
-    "cedula" TEXT,
-    "direccion" TEXT,
-    "id" INTEGER NOT NULL,
-    "nombre" TEXT,
-    "telefono" TEXT,
-
-    CONSTRAINT "Codeudor_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
 CREATE TABLE "Nota" (
     "carpetaNumero" INTEGER,
     "content" TEXT,
@@ -96,6 +67,7 @@ CREATE TABLE "SubTarea" (
 
 -- CreateTable
 CREATE TABLE "Actuacion" (
+    "id" SERIAL NOT NULL,
     "actuacion" TEXT NOT NULL,
     "anotacion" TEXT,
     "cant" INTEGER NOT NULL,
@@ -113,61 +85,7 @@ CREATE TABLE "Actuacion" (
     "isUltimaAct" BOOLEAN NOT NULL,
     "llaveProceso" TEXT NOT NULL,
 
-    CONSTRAINT "Actuacion_pkey" PRIMARY KEY ("idRegActuacion")
-);
-
--- CreateTable
-CREATE TABLE "Demanda" (
-    "capitalAdeudado" MONEY,
-    "carpetaNumero" INTEGER NOT NULL,
-    "departamento" TEXT,
-    "despacho" TEXT,
-    "entregaGarantiasAbogado" DATE,
-    "etapaProcesal" TEXT,
-    "expediente" TEXT,
-    "fechaPresentacion" DATE[],
-    "id" SERIAL NOT NULL,
-    "mandamientoPago" DATE,
-    "medidasCautelaresId" INTEGER,
-    "municipio" TEXT,
-    "obligacion" TEXT[],
-    "radicado" TEXT,
-    "tipoProceso" "TipoProceso" NOT NULL DEFAULT 'SINGULAR',
-    "vencimientoPagare" DATE[],
-
-    CONSTRAINT "Demanda_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
-CREATE TABLE "Notificacion" (
-    "autoNotificado" TEXT,
-    "carpetaNumero" INTEGER NOT NULL,
-    "certimail" BOOLEAN,
-    "fisico" BOOLEAN,
-    "id" SERIAL NOT NULL,
-
-    CONSTRAINT "Notificacion_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
-CREATE TABLE "MedidasCautelares" (
-    "fechaOrdenaMedida" TIMESTAMP(3),
-    "id" SERIAL NOT NULL,
-    "medidaSolicitada" TEXT,
-
-    CONSTRAINT "MedidasCautelares_pkey" PRIMARY KEY ("id")
-);
-
--- CreateTable
-CREATE TABLE "Notifier" (
-    "fechaAporta" TIMESTAMP(3),
-    "fechaRecibido" TIMESTAMP(3),
-    "id" SERIAL NOT NULL,
-    "notificacionId" INTEGER,
-    "resultado" BOOLEAN,
-    "tipo" TEXT NOT NULL,
-
-    CONSTRAINT "Notifier_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "Actuacion_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
@@ -181,6 +99,7 @@ CREATE TABLE "Juzgado" (
 
 -- CreateTable
 CREATE TABLE "Proceso" (
+    "id" SERIAL NOT NULL,
     "cantFilas" INTEGER NOT NULL,
     "carpetaNumero" INTEGER NOT NULL,
     "departamento" TEXT NOT NULL,
@@ -194,29 +113,17 @@ CREATE TABLE "Proceso" (
     "llaveProceso" TEXT NOT NULL,
     "sujetosProcesales" TEXT NOT NULL,
 
-    CONSTRAINT "Proceso_pkey" PRIMARY KEY ("idProceso")
+    CONSTRAINT "Proceso_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Deudor_carpetaNumero_key" ON "Deudor"("carpetaNumero");
+CREATE UNIQUE INDEX "Actuacion_idRegActuacion_key" ON "Actuacion"("idRegActuacion");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "Codeudor_carpetaNumero_key" ON "Codeudor"("carpetaNumero");
-
--- CreateIndex
-CREATE UNIQUE INDEX "Demanda_carpetaNumero_key" ON "Demanda"("carpetaNumero");
-
--- CreateIndex
-CREATE UNIQUE INDEX "Notificacion_carpetaNumero_key" ON "Notificacion"("carpetaNumero");
+CREATE UNIQUE INDEX "Proceso_idProceso_key" ON "Proceso"("idProceso");
 
 -- AddForeignKey
 ALTER TABLE "Carpeta" ADD CONSTRAINT "Carpeta_idRegUltimaAct_fkey" FOREIGN KEY ("idRegUltimaAct") REFERENCES "Actuacion"("idRegActuacion") ON DELETE SET NULL ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "Deudor" ADD CONSTRAINT "Deudor_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "Codeudor" ADD CONSTRAINT "Codeudor_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Nota" ADD CONSTRAINT "Nota_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE SET NULL ON UPDATE CASCADE;
@@ -229,18 +136,6 @@ ALTER TABLE "SubTarea" ADD CONSTRAINT "SubTarea_tareaId_fkey" FOREIGN KEY ("tare
 
 -- AddForeignKey
 ALTER TABLE "Actuacion" ADD CONSTRAINT "Actuacion_idProceso_fkey" FOREIGN KEY ("idProceso") REFERENCES "Proceso"("idProceso") ON DELETE RESTRICT ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "Demanda" ADD CONSTRAINT "Demanda_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "Demanda" ADD CONSTRAINT "Demanda_medidasCautelaresId_fkey" FOREIGN KEY ("medidasCautelaresId") REFERENCES "MedidasCautelares"("id") ON DELETE SET NULL ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "Notificacion" ADD CONSTRAINT "Notificacion_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;
-
--- AddForeignKey
-ALTER TABLE "Notifier" ADD CONSTRAINT "Notifier_notificacionId_fkey" FOREIGN KEY ("notificacionId") REFERENCES "Notificacion"("id") ON DELETE SET NULL ON UPDATE CASCADE;
 
 -- AddForeignKey
 ALTER TABLE "Proceso" ADD CONSTRAINT "Proceso_carpetaNumero_fkey" FOREIGN KEY ("carpetaNumero") REFERENCES "Carpeta"("numero") ON DELETE RESTRICT ON UPDATE CASCADE;

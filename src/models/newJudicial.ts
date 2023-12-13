@@ -2,14 +2,14 @@ import * as fs from 'fs/promises';
 import Carpetas from '../data/carpetas';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
 import { outActuacion, ConsultaActuacion } from '../types/actuaciones';
-import {  TipoProcesoRaw, CarpetaRaw, Codeudor } from '../types/carpetas';
+import {  TipoProcesoRaw, CarpetaRaw, Codeudor, Category } from '../types/carpetas';
 import { outProceso, ConsultaNumeroRadicacion } from '../types/procesos';
 import { ClassDemanda, NewJuzgado } from './demanda';
 import { ClassDeudor } from './deudor';
-import { connectToDatabase } from '../services/database.service';
+import { client } from './carpeta';
 
 export class NewJudicial {
-  category: string;
+  category: Category;
   codeudor: Codeudor | null;
   demanda: ClassDemanda;
   deudor: ClassDeudor;
@@ -149,6 +149,7 @@ export class NewJudicial {
             )
           }
         );
+
       }
 
 
@@ -259,9 +260,8 @@ export class NewJudicial {
         }
 
         for ( const actuacion of actuaciones ) {
-
-          this.actuaciones.push(
-            {
+          const newActuacion
+            = {
               ...actuacion
               , idProceso: idProceso
               , isUltimaAct:
@@ -285,8 +285,33 @@ export class NewJudicial {
                   actuacion.fechaFinal
                 )
                 : null,
-            }
+            };
+
+          this.actuaciones.push(
+            newActuacion
           );
+
+          try {
+            await client.actuacion.upsert(
+              {
+                where: {
+                  idRegActuacion: newActuacion.idRegActuacion
+                }
+                , create: {
+                  ...newActuacion
+                  , carpetaNumero: this.numero
+                }
+                , update: {
+                  ...newActuacion
+                  , carpetaNumero: this.numero
+                }
+              }
+            );
+          } catch ( e ) {
+            console.log(
+              `error al insertar las actuaciones en prisma ${ e }`
+            );
+          }
         }
 
 
@@ -296,6 +321,92 @@ export class NewJudicial {
         );
         continue;
       }
+    }
+  }
+  async prismaUpdater () {
+    try {
+      const upserter = await client.carpeta.upsert(
+        {
+          where: {
+            numero: this.numero
+          }
+          , create: {
+            llaveProceso  : this.llaveProceso
+            , idProcesos    : this.idProcesos
+            , nombre        : this.nombre
+            , numero        : this.numero
+            , category      : this.category
+            , idRegUltimaAct: this.idRegUltimaAct
+            , fecha         : this.fecha
+            , procesos      : {
+              connectOrCreate: this.procesos.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      idProceso: proceso.idProceso
+                    }
+                    , create: {
+                      ...proceso
+                      , juzgado: {
+                        connectOrCreate: {
+                          where: {
+                            tipo: proceso.juzgado.tipo
+                          }
+                          , create: proceso.juzgado
+                        }
+                      }
+                    }
+                  };
+                }
+              )
+            }
+          }
+          , update:
+          {
+            llaveProceso: this.llaveProceso
+            , idProcesos  : this.idProcesos
+            , nombre      : this.nombre
+            , numero      : this.numero
+            , category    : this.category
+
+            , idRegUltimaAct: this.idRegUltimaAct
+            , fecha         : this.fecha
+            , procesos      : {
+              connectOrCreate: this.procesos.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      idProceso: proceso.idProceso
+                    }
+                    , create: {
+                      ...proceso
+                      , juzgado: {
+                        connectOrCreate: {
+                          where: {
+                            tipo: proceso.juzgado.tipo
+                          }
+                          , create: proceso.juzgado
+                        }
+                      }
+                    }
+                  };
+                }
+              )
+            }
+
+          }
+        }
+      );
+      return upserter;
+    } catch ( error ) {
+      console.log(
+        error
+      );
+      return null;
     }
   }
 
@@ -314,6 +425,8 @@ async function getProcesosIdk() {
 
     await newCarpeta.getActuaciones();
 
+    await newCarpeta.prismaUpdater();
+
 
 
     newCarpetas.push(
@@ -326,6 +439,7 @@ async function getProcesosIdk() {
     );
   }
 
+  /*
   try {
     const collection = await connectToDatabase();
 
@@ -346,7 +460,7 @@ async function getProcesosIdk() {
       error
     );
   }
-
+ */
   fs.writeFile(
     'newNewNewCarpetas.json', JSON.stringify(
       newCarpetas, null, 2
