@@ -1,0 +1,71 @@
+{
+  "category": "Terminados",
+  "codeudor": {
+    "nombre": "BLANCA SENET PINEDA",
+    "cedula": "28550572",
+    "direccion": "CARRERA 13 SUR No. 49-37",
+    "telefono": "3012692815",
+    "id": 31,
+    "carpetaNumero": 31
+  },
+  "demanda": {
+    "obligacion": [
+      "530311042614581",
+      "4513077790909121"
+    ],
+    "llaveProceso": "25754400300320170021100",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "certimail": false,
+      "fisico": false,
+      "autoNotificado": null
+    },
+    "medidasCautelares": null,
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "expediente": "25754400300320170021100",
+    "fechaPresentacion": [
+      "2017-06-09T05:00:00.000Z"
+    ],
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "radicado": "2017 - 00211",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "1936-12-09T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": 7793347,
+      "celular": 3014192323
+    },
+    "primerNombre": "JORGE",
+    "segundoNombre": null,
+    "primerApellido": "PEREZ",
+    "segundoApellido": null,
+    "cedula": 79590985,
+    "direccion": "CARRERA 13 sur No. 49-37 soacha y venida 19 nO. 118-95 ofc 411",
+    "email": "jpkafu@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300320170021100",
+  "numero": 31,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:10:05.437Z",
+  "nombre": "JORGE PEREZ",
+  "actuaciones": [],
+  "procesos": []
+}

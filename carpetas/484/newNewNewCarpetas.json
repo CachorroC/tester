@@ -1,0 +1,76 @@
+{
+  "category": "Terminados",
+  "codeudor": {
+    "nombre": "NELSON MENDEZ VERJAN",
+    "cedula": "14277736",
+    "direccion": "CALLE 68 C No 2-04 SUR ESTE",
+    "telefono": "F 2000631",
+    "id": 484,
+    "carpetaNumero": 484
+  },
+  "demanda": {
+    "obligacion": [
+      "20990157739"
+    ],
+    "llaveProceso": "25754418900320190027000",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      },
+      "certimail": false,
+      "fisico": false,
+      "autoNotificado": "CORREO"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "17/05/2019"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
+    "etapaProcesal": "25754418900320190027000",
+    "expediente": "25754418900320190027000",
+    "fechaPresentacion": [],
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "radicado": "2019 - 00270",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2032-11-21T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "JENNY",
+    "segundoNombre": "",
+    "primerApellido": "ANDREA",
+    "segundoApellido": "AVILA",
+    "cedula": 30339083,
+    "direccion": "CARRERA 7A No  2-94 SUR",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900320190027000",
+  "numero": 484,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:56.939Z",
+  "nombre": "JENNY  ANDREA AVILA GARZON",
+  "actuaciones": [],
+  "procesos": []
+}

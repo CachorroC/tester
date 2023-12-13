@@ -1,0 +1,64 @@
+{
+  "category": "Terminados",
+  "codeudor": {
+    "nombre": "LAURA DEL PILAR ARANDA AROCA",
+    "cedula": "53005799",
+    "direccion": "CALLE 75 C BIS No 2-09 SUR  BOGOTA",
+    "telefono": "3208790281",
+    "id": 299,
+    "carpetaNumero": 299
+  },
+  "demanda": {
+    "obligacion": [
+      "6980085637",
+      "120353"
+    ],
+    "llaveProceso": "25754400300320170034600",
+    "notificacion": {
+      "certimail": false,
+      "fisico": null,
+      "autoNotificado": "CERTIMAIL LAURA"
+    },
+    "medidasCautelares": null,
+    "capitalAdeudado": 2843214977,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "expediente": "25754400300320170034600",
+    "fechaPresentacion": [],
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "radicado": "2017 - 00346",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-07-15T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "ROBERTO",
+    "segundoNombre": "STIVENSON",
+    "primerApellido": "ACERO",
+    "segundoApellido": "BARON",
+    "cedula": 80879280,
+    "direccion": "CARRERA 9 ESTE No 36-59 SUR  SOACHA",
+    "email": "roberto.g12@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300320170034600",
+  "numero": 299,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:13.356Z",
+  "nombre": "ROBERTO STIVENSON ACERO BARON",
+  "actuaciones": [],
+  "procesos": []
+}

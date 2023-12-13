@@ -1,0 +1,77 @@
+{
+  "category": "Terminados",
+  "codeudor": {
+    "nombre": "LUZ ANGELA POVEDA RAMOS",
+    "cedula": "53911221",
+    "direccion": "CARRERA 3 ESTE # 6B - 36 CHIA",
+    "telefono": "8393651",
+    "id": 158,
+    "carpetaNumero": 158
+  },
+  "demanda": {
+    "obligacion": [
+      "173482",
+      "4099849860904006 // AUDIOPRESTAMO"
+    ],
+    "llaveProceso": "25899310300120170039300",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "292": {
+        "fechaRecibido": "2018-05-23T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      },
+      "certimail": false,
+      "fisico": true,
+      "autoNotificado": "PERSONAL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "7/03/2017"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "25899310300120170039300",
+    "expediente": "25899310300120170039300",
+    "fechaPresentacion": [],
+    "mandamientoPago": null,
+    "municipio": "ZIPAQUIRA",
+    "radicado": "2017 - 00393",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2034-03-26T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "JULIAN",
+    "segundoNombre": "JHOHANY",
+    "primerApellido": "GALLEGO",
+    "segundoApellido": "MONTES",
+    "cedula": 80808819,
+    "direccion": "CARRERA 3 ESTE # 6B - 36 CHIA",
+    "email": "jjgallego14@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25899310300120170039300",
+  "numero": 158,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:10:38.205Z",
+  "nombre": "JULIAN JHOHANY GALLEGO MONTES",
+  "actuaciones": [],
+  "procesos": []
+}

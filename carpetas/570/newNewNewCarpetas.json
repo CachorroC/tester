@@ -1,0 +1,190 @@
+{
+  "category": "Bancolombia",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "3990086952"
+    ],
+    "llaveProceso": "11001418907520230016700",
+    "notificacion": null,
+    "medidasCautelares": null,
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2023-04-08T05:00:00.000Z",
+    "etapaProcesal": null,
+    "expediente": "11001418907520230016700",
+    "fechaPresentacion": [],
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "radicado": "2023 - 01465",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2026-03-18T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": 2977768,
+      "celular": 3163096532
+    },
+    "primerNombre": "MARTHA",
+    "segundoNombre": "CECILIA",
+    "primerApellido": "OSPINA",
+    "segundoApellido": "ARENAS",
+    "cedula": 21386342,
+    "direccion": "Av Suba No. 136-80 Bl B Ap 502 Cerros de Suba – Gratamira //Kr 75 No. 65 - 78 Ap 402 Edificio Montreal P.H. Medellín // Vereda Potrerito ?",
+    "email": "martacospina@hotmail.com"
+  },
+  "fecha": "2023-09-22T05:00:00.000Z",
+  "idProcesos": [
+    132240890
+  ],
+  "idRegUltimaAct": 1880990360,
+  "llaveProceso": "11001418907520230016700",
+  "numero": 570,
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": {
+    "idRegActuacion": 1880990360,
+    "llaveProceso": "11001418907520230016700",
+    "consActuacion": 6,
+    "fechaActuacion": "2023-09-22T05:00:00.000Z",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 22/09/2023 a las 18:26:58.",
+    "fechaInicial": "2023-09-25T05:00:00.000Z",
+    "fechaFinal": "2023-09-25T05:00:00.000Z",
+    "fechaRegistro": "2023-09-22T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6,
+    "idProceso": 132240890,
+    "isUltimaAct": true
+  },
+  "updatedAt": "2023-12-13T00:12:15.115Z",
+  "nombre": "MARTHA CECILIA OSPINA ARENAS",
+  "actuaciones": [
+    {
+      "idRegActuacion": 1880990360,
+      "llaveProceso": "11001418907520230016700",
+      "consActuacion": 6,
+      "fechaActuacion": "2023-09-22T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 22/09/2023 a las 18:26:58.",
+      "fechaInicial": "2023-09-25T05:00:00.000Z",
+      "fechaFinal": "2023-09-25T05:00:00.000Z",
+      "fechaRegistro": "2023-09-22T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 132240890,
+      "isUltimaAct": true,
+      "createdAt": "2023-12-13T00:12:15.402Z"
+    },
+    {
+      "idRegActuacion": 1880990350,
+      "llaveProceso": "11001418907520230016700",
+      "consActuacion": 5,
+      "fechaActuacion": "2023-09-22T05:00:00.000Z",
+      "actuacion": "Auto decreta medida cautelar",
+      "anotacion": "Y ORDENA OFICIAR ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-09-22T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 132240890,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-13T00:12:15.402Z"
+    },
+    {
+      "idRegActuacion": 1880990340,
+      "llaveProceso": "11001418907520230016700",
+      "consActuacion": 4,
+      "fechaActuacion": "2023-09-22T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 22/09/2023 a las 18:26:27.",
+      "fechaInicial": "2023-09-25T05:00:00.000Z",
+      "fechaFinal": "2023-09-25T05:00:00.000Z",
+      "fechaRegistro": "2023-09-22T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 132240890,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-13T00:12:15.402Z"
+    },
+    {
+      "idRegActuacion": 1880990330,
+      "llaveProceso": "11001418907520230016700",
+      "consActuacion": 3,
+      "fechaActuacion": "2023-09-22T05:00:00.000Z",
+      "actuacion": "Auto libra mandamiento ejecutivo",
+      "anotacion": "Y RECONOCE PERSONERIA ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-09-22T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 132240890,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-13T00:12:15.402Z"
+    },
+    {
+      "idRegActuacion": 1841783240,
+      "llaveProceso": "11001418907520230016700",
+      "consActuacion": 2,
+      "fechaActuacion": "2023-08-11T05:00:00.000Z",
+      "actuacion": "Al despacho",
+      "anotacion": "DE REPARTO 08/09/2023",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-08-11T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 132240890,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-13T00:12:15.402Z"
+    },
+    {
+      "idRegActuacion": 1840069600,
+      "llaveProceso": "11001418907520230016700",
+      "consActuacion": 1,
+      "fechaActuacion": "2023-08-09T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 09/08/2023 a las 09:32:10",
+      "fechaInicial": "2023-08-09T05:00:00.000Z",
+      "fechaFinal": "2023-08-09T05:00:00.000Z",
+      "fechaRegistro": "2023-08-09T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 132240890,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-13T00:12:15.402Z"
+    }
+  ],
+  "procesos": [
+    {
+      "idProceso": 132240890,
+      "idConexion": 259,
+      "llaveProceso": "11001418907520230016700",
+      "fechaProceso": "2023-08-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-09-22T05:00:00.000Z",
+      "despacho": "JUZGADO 075 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: DIANA PATRICIA SILVARA RODRIGUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 75,
+        "tipo": "JUZGADO 075 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-075-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    }
+  ]
+}

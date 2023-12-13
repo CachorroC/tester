@@ -37,6 +37,7 @@ export interface intActuacion {
 export interface outActuacion extends intActuacion
 {
 
+  createdAt: Date
   idProceso: number;
   isUltimaAct: boolean;
 }

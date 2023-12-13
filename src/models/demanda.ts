@@ -1,9 +1,10 @@
 import { Juzgado } from '@prisma/client';
 import { Despachos } from '../data/despachos';
-import { DemandaRaw, IntDemanda, TipoProceso, } from '../types/carpetas';
+import { DemandaRaw, IntDemanda, TipoProceso, intNotificacion, } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
 import { fechaPresentacionBuilder, fixSingleFecha, } from './idk';
+import { ClassNotificacion } from './notificacion';
 
 function vencimientoPagareFixer(
   rawVencimientoPagare?: string | number
@@ -260,6 +261,7 @@ export class ClassDemanda implements IntDemanda {
       mandamientoPago,
       municipio,
       obligacion,
+      notificacion,
       radicado,
       llaveProceso,
       medidasCautelares,
@@ -293,6 +295,11 @@ export class ClassDemanda implements IntDemanda {
     this.fechaPresentacion = fechaPresentacionBuilder(
       fechaPresentacion
     );
+    this.notificacion = notificacion
+      ? new ClassNotificacion(
+        notificacion
+      )
+      : null;
 
     const dateMandamientoPago = mandamientoPago
       ? new Date(
@@ -383,6 +390,7 @@ export class ClassDemanda implements IntDemanda {
   }
 
   llaveProceso: string | null;
+  notificacion: intNotificacion | null;
   medidasCautelares: { fechaOrdenaMedida: Date | null; medidaSolicitada: string | null; } | null;
   capitalAdeudado: number | null;
   carpetaNumero!: number;

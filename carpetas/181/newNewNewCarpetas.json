@@ -1,0 +1,77 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "12569604"
+    ],
+    "llaveProceso": "11001418901020170011500",
+    "notificacion": null,
+    "medidasCautelares": {
+      "fechaOrdenaMedida": "2017-05-10T05:00:00.000Z",
+      "medidaSolicitada": "VEHICULO"
+    },
+    "capitalAdeudado": 25340036,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "expediente": "11001418901020170011500",
+    "fechaPresentacion": [
+      "2017-08-28T05:00:00.000Z"
+    ],
+    "mandamientoPago": "2017-05-10T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "radicado": "2017 - 00115",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-08-16T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": 7177769,
+      "celular": 3103048137
+    },
+    "primerNombre": "LEONARDO",
+    "segundoNombre": "ALIRIO",
+    "primerApellido": "GARCIA",
+    "segundoApellido": "GUERRERO",
+    "cedula": 1033783222,
+    "direccion": "CALLE 69J # 20B - 52",
+    "email": "leoguegar@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [
+    82132851
+  ],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418901020170011500",
+  "numero": 181,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:10:44.461Z",
+  "nombre": "LEONARDO ALIRIO GARCIA GUERRERO",
+  "actuaciones": [],
+  "procesos": [
+    {
+      "idProceso": 82132851,
+      "idConexion": 320,
+      "llaveProceso": "11001418901020170011500",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 010 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 10,
+        "tipo": "JUZGADO 010 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-010-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "12445450"
+    ],
+    "llaveProceso": "11001410375220170129100",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "292": {
+        "fechaRecibido": "2018-03-08T05:00:00.000Z",
+        "fechaAporta": null,
+        "resultado": null
+      },
+      "certimail": false,
+      "fisico": true,
+      "autoNotificado": "CERTIMAIL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": "2018-03-05T05:00:00.000Z",
+      "medidaSolicitada": "12/01/2018"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-10T05:00:00.000Z",
+    "etapaProcesal": "11001410375220170129100",
+    "expediente": "11001410375220170129100",
+    "fechaPresentacion": [],
+    "mandamientoPago": null,
+    "municipio": "KENNEDY",
+    "radicado": "2017 - 01291",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2020-10-04T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "DIDIER",
+    "segundoNombre": "HARVEY",
+    "primerApellido": "PRADA",
+    "segundoApellido": "AGUIRRE",
+    "cedula": 86074992,
+    "direccion": "DIAGONAL 40 G SUR-  No 72 J - 35 INTERIOR 2A",
+    "email": "diharveypra@yahoo.es"
+  },
+  "fecha": null,
+  "idProcesos": [
+    127797581,
+    127797591
+  ],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001410375220170129100",
+  "numero": 296,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:12.618Z",
+  "nombre": "DIDIER HARVEY PRADA AGUIRRE",
+  "actuaciones": [],
+  "procesos": [
+    {
+      "idProceso": 127797581,
+      "idConexion": 320,
+      "llaveProceso": "11001410375220170129100",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 024 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 24,
+        "tipo": "JUZGADO 024 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-024-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
+      }
+    },
+    {
+      "idProceso": 127797591,
+      "idConexion": 320,
+      "llaveProceso": "11001410375220170129100",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 005 CIVIL MUNICIPAL DE VILLAVICENCIO ",
+      "departamento": "META",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 5,
+        "tipo": "JUZGADO 005 CIVIL MUNICIPAL DE VILLAVICENCIO",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-villavicencio"
+      }
+    }
+  ]
+}

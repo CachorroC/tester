@@ -1,0 +1,78 @@
+{
+  "category": "Bancolombia",
+  "codeudor": {
+    "nombre": "YENY ESPERANZA ARIAS MENDIETA",
+    "cedula": "52771090",
+    "direccion": "CARRERA 3 # 29A - 02 LOCAL 1057",
+    "telefono": "5753416",
+    "id": 120,
+    "carpetaNumero": 120
+  },
+  "demanda": {
+    "obligacion": [
+      "6240082776"
+    ],
+    "llaveProceso": "25754418900320170075500",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "2017-12-12T05:00:00.000Z",
+        "fechaAporta": "2017-12-12T05:00:00.000Z",
+        "resultado": true
+      },
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": "2017-12-12T05:00:00.000Z",
+        "resultado": true
+      },
+      "certimail": true,
+      "fisico": false,
+      "autoNotificado": "9/02/2018"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": "2017-08-09T05:00:00.000Z",
+      "medidaSolicitada": "EMBARGO INMUEBLE DE LA CODEUDORA"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-04-08T05:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "expediente": "25754418900320170075500",
+    "fechaPresentacion": [
+      "2017-08-11T05:00:00.000Z"
+    ],
+    "mandamientoPago": "2017-08-09T05:00:00.000Z",
+    "municipio": "SOACHA",
+    "radicado": "2017 - 00755",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2021-04-12T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "JENCELL",
+    "segundoNombre": null,
+    "primerApellido": "E.U.",
+    "segundoApellido": null,
+    "cedula": 900212673,
+    "direccion": "CARRERA 3 # 29A - 02",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900320170075500",
+  "numero": 120,
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:10:28.709Z",
+  "nombre": "JENCELL E.U.",
+  "actuaciones": [],
+  "procesos": []
+}

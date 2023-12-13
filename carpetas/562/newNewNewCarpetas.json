@@ -1,0 +1,54 @@
+{
+  "category": "Bancolombia",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "9960086465",
+      "TARJETA DE CREDITO MASTER CARD 5303720132348190"
+    ],
+    "llaveProceso": "11001418900420230088400",
+    "notificacion": null,
+    "medidasCautelares": null,
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "expediente": "11001418900420230088400",
+    "fechaPresentacion": [],
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "radicado": "2023 - 00985",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2026-05-10T05:00:00.000Z",
+      "2026-03-06T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "MARIO",
+    "segundoNombre": "HERNAN",
+    "primerApellido": "SALAMANCA",
+    "segundoApellido": "PATIÑO",
+    "cedula": 17139148,
+    "direccion": "Carrera 80 No. 8 - 11 Torre 3 Interior 5 Apartamento 519 Torres de Santa Barbara Conjunto Residencial",
+    "email": "ajasalama@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418900420230088400",
+  "numero": 562,
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:12:13.103Z",
+  "nombre": "MARIO HERNAN SALAMANCA PATIÑO",
+  "actuaciones": [],
+  "procesos": []
+}

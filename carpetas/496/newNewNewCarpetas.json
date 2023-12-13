@@ -1,0 +1,73 @@
+{
+  "category": "Bancolombia",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "5491570347356810"
+    ],
+    "llaveProceso": "25175408900320180060200",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "2018-11-26T05:00:00.000Z",
+        "fechaAporta": "2018-12-06T05:00:00.000Z",
+        "resultado": true
+      },
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": true
+      },
+      "certimail": false,
+      "fisico": true,
+      "autoNotificado": null
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "EMBARGO DE INMUEBLE"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "expediente": "25175408900320180060200",
+    "fechaPresentacion": [
+      "2018-10-04T05:00:00.000Z"
+    ],
+    "mandamientoPago": "2018-12-10T05:00:00.000Z",
+    "municipio": "CHIA",
+    "radicado": "2018 - 00602",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2021-09-14T05:00:00.000Z",
+      "2021-05-07T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "MODESTO",
+    "segundoNombre": "PINEDA",
+    "primerApellido": "PEREZ",
+    "segundoApellido": null,
+    "cedula": 13222728,
+    "direccion": "CARRERA 6 No 6-59",
+    "email": "mopadinco@yahoo.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25175408900320180060200",
+  "numero": 496,
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:59.106Z",
+  "nombre": "MODESTO PINEDA PEREZ",
+  "actuaciones": [],
+  "procesos": []
+}

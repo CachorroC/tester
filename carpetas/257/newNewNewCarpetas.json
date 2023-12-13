@@ -1,0 +1,61 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "20990083482"
+    ],
+    "llaveProceso": "11001418900720170013800",
+    "notificacion": {
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": "43216"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "INMUEBLE"
+    },
+    "capitalAdeudado": 1303610981,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "expediente": "11001418900720170013800",
+    "fechaPresentacion": [
+      "2017-09-21T05:00:00.000Z"
+    ],
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "radicado": "2017 - 00138",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-04-25T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "PAUL",
+    "segundoNombre": "RICHARD",
+    "primerApellido": "CAICEDO",
+    "segundoApellido": null,
+    "cedula": 79706920,
+    "direccion": "CALLE 8 A No 88B - 31 ETAPA 7 CASA 196",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418900720170013800",
+  "numero": 257,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:03.341Z",
+  "nombre": "PAUL RICHARD CAICEDO",
+  "actuaciones": [],
+  "procesos": []
+}

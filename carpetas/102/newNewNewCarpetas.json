@@ -1,0 +1,72 @@
+{
+  "category": "Bancolombia",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "7300080586"
+    ],
+    "llaveProceso": "25245408900120170023900",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": null,
+        "fechaAporta": "2018-05-17T05:00:00.000Z",
+        "resultado": null
+      },
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": "2018-05-17T05:00:00.000Z",
+        "resultado": true
+      },
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": "17/07/2018"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": "2017-07-11T05:00:00.000Z",
+      "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "expediente": "25245408900120170023900",
+    "fechaPresentacion": [
+      "2017-06-15T05:00:00.000Z",
+      "2017-08-29T05:00:00.000Z"
+    ],
+    "mandamientoPago": "2017-07-11T05:00:00.000Z",
+    "municipio": "MESITAS",
+    "radicado": "2017-00239",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2019-07-05T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3114456631
+    },
+    "primerNombre": "ERIKA",
+    "segundoNombre": "ALEJANDRA",
+    "primerApellido": "QUINTERO",
+    "segundoApellido": "REYES",
+    "cedula": 1070329396,
+    "direccion": "CALL 2 No. 8-40 EL COLEGIO",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25245408900120170023900",
+  "numero": 102,
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:10:23.862Z",
+  "nombre": "ERIKA ALEJANDRA QUINTERO REYES",
+  "actuaciones": [],
+  "procesos": []
+}

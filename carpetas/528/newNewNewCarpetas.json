@@ -1,0 +1,69 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "2273 320186673"
+    ],
+    "llaveProceso": "25473400100120190116000",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      },
+      "certimail": false,
+      "fisico": false,
+      "autoNotificado": "CORREO"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "2/12/2019"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "25430400300120190116000",
+    "expediente": "25473400100120190116000",
+    "fechaPresentacion": [],
+    "mandamientoPago": "2019-02-09T05:00:00.000Z",
+    "municipio": "MADRID",
+    "radicado": "2019 - 01160",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2030-08-25T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "YOLADIS",
+    "segundoNombre": "ESTHER",
+    "primerApellido": "BLANCO",
+    "segundoApellido": "LOPEZ",
+    "cedula": 1065564377,
+    "direccion": "CALLE  23 No 12-50 CASA 16 INT 12 MANZANA 1 CONJUNTO QUINTAS DE ZARAGOZA",
+    "email": "yoladisb@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25473400100120190116000",
+  "numero": 528,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:12:05.291Z",
+  "nombre": "YOLADIS ESTHER BLANCO LOPEZ",
+  "actuaciones": [],
+  "procesos": []
+}

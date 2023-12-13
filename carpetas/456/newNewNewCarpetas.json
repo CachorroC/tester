@@ -1,0 +1,89 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "10044000104"
+    ],
+    "llaveProceso": "11001410375120180112100",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      },
+      "certimail": false,
+      "fisico": false,
+      "autoNotificado": "CORREO"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": "2018-09-10T05:00:00.000Z",
+      "medidaSolicitada": "25/09/2018"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "11001410375120180112100",
+    "expediente": "11001410375120180112100",
+    "fechaPresentacion": [],
+    "mandamientoPago": "2018-06-07T05:00:00.000Z",
+    "municipio": "KENNEDY",
+    "radicado": "2018 - 01121",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2021-01-29T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "ANA",
+    "segundoNombre": "LUCIA",
+    "primerApellido": "YAÑEZ",
+    "segundoApellido": "VARGAS",
+    "cedula": 26407097,
+    "direccion": "CALLE  57B BIS No 99B-64 SUR BOSA SANTA FE",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [
+    95877041
+  ],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001410375120180112100",
+  "numero": 456,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:51.103Z",
+  "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)",
+  "actuaciones": [],
+  "procesos": [
+    {
+      "idProceso": 95877041,
+      "idConexion": 320,
+      "llaveProceso": "11001410375120180112100",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 751 CIVIL MUNICIPAL DE PEQUEÑAS CAUSAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 751,
+        "tipo": "JUZGADO 751 CIVIL MUNICIPAL DE PEQUEÑAS CAUSAS DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-751-civil-municipal-de-pequeñas-causas-de-bogotá-"
+      }
+    }
+  ]
+}

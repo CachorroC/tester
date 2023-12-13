@@ -1,0 +1,124 @@
+{
+  "category": "Bancolombia",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "Q 0000000046668139027001",
+      "0377815602619302"
+    ],
+    "llaveProceso": "11001400308120230141400",
+    "notificacion": null,
+    "medidasCautelares": null,
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2023-05-09T05:00:00.000Z",
+    "etapaProcesal": null,
+    "expediente": "11001400308120230141400",
+    "fechaPresentacion": [],
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "radicado": "2023 - 01414",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2026-04-15T05:00:00.000Z",
+      "2026-04-21T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": 3031161,
+      "celular": 3124781732
+    },
+    "primerNombre": "ALBA",
+    "segundoNombre": "YANETH",
+    "primerApellido": "APARICIO",
+    "segundoApellido": "SANDOVAL",
+    "cedula": 46668139,
+    "direccion": "Carrera 53 C No. 4 C 63",
+    "email": "yaneth_apar@hotmail.com"
+  },
+  "fecha": "2023-09-12T05:00:00.000Z",
+  "idProcesos": [
+    133187160
+  ],
+  "idRegUltimaAct": 1877745020,
+  "llaveProceso": "11001400308120230141400",
+  "numero": 583,
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": {
+    "idRegActuacion": 1877745020,
+    "llaveProceso": "11001400308120230141400",
+    "consActuacion": 2,
+    "fechaActuacion": "2023-09-12T05:00:00.000Z",
+    "actuacion": "Al Despacho Por Reparto",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2023-09-12T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 2,
+    "idProceso": 133187160,
+    "isUltimaAct": true
+  },
+  "updatedAt": "2023-12-13T00:12:18.005Z",
+  "nombre": "ALBA YANETH APARICIO SANDOVAL",
+  "actuaciones": [
+    {
+      "idRegActuacion": 1877745020,
+      "llaveProceso": "11001400308120230141400",
+      "consActuacion": 2,
+      "fechaActuacion": "2023-09-12T05:00:00.000Z",
+      "actuacion": "Al Despacho Por Reparto",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-09-12T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 133187160,
+      "isUltimaAct": true,
+      "createdAt": "2023-12-13T00:12:18.293Z"
+    },
+    {
+      "idRegActuacion": 1874933400,
+      "llaveProceso": "11001400308120230141400",
+      "consActuacion": 1,
+      "fechaActuacion": "2023-09-08T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 08/09/2023 a las 16:05:26",
+      "fechaInicial": "2023-09-08T05:00:00.000Z",
+      "fechaFinal": "2023-09-08T05:00:00.000Z",
+      "fechaRegistro": "2023-09-08T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 133187160,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-13T00:12:18.293Z"
+    }
+  ],
+  "procesos": [
+    {
+      "idProceso": 133187160,
+      "idConexion": 259,
+      "llaveProceso": "11001400308120230141400",
+      "fechaProceso": "2023-09-08T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-09-12T05:00:00.000Z",
+      "despacho": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: ALBA YANETH APARICIO SANDOVAL ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 81,
+        "tipo": "JUZGADO 081 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-081-civil-municipal-de-bogota"
+      }
+    }
+  ]
+}

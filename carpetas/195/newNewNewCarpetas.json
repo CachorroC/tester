@@ -1,0 +1,68 @@
+{
+  "category": "Terminados",
+  "codeudor": {
+    "nombre": "JOHANNA ESMERALDA PULIDO DURAN",
+    "cedula": "52347132",
+    "direccion": "CARRERA 6 # 23 - 70 BLOQUE 29 CASA 34",
+    "telefono": "8222969 // 3112842488",
+    "id": 195,
+    "carpetaNumero": 195
+  },
+  "demanda": {
+    "obligacion": [
+      "138546"
+    ],
+    "llaveProceso": "1100140030122017099100",
+    "notificacion": {
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": "01/03/2018"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "INMUEBLE"
+    },
+    "capitalAdeudado": 25303069,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "SENTENCIA",
+    "expediente": "1100140030122017099100",
+    "fechaPresentacion": [
+      "2017-08-30T05:00:00.000Z"
+    ],
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "radicado": "2017 - 0991",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2026-05-04T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": 4429545,
+      "celular": 3118280782
+    },
+    "primerNombre": "DOUGLAS",
+    "segundoNombre": "FABIAN",
+    "primerApellido": "SIZA",
+    "segundoApellido": "CORTES",
+    "cedula": 80244664,
+    "direccion": "CARRERA 95 BIS # 90A - 12",
+    "email": "gufo2299@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "1100140030122017099100",
+  "numero": 195,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:10:47.554Z",
+  "nombre": "DOUGLAS FABIAN SIZA CORTES",
+  "actuaciones": [],
+  "procesos": []
+}

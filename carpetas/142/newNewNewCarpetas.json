@@ -1,0 +1,64 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "20990186969"
+    ],
+    "llaveProceso": "25286310300120170074200",
+    "notificacion": {
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "INMUEBLE"
+    },
+    "capitalAdeudado": 12393343279,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-11-08T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "expediente": "25286310300120170074200",
+    "fechaPresentacion": [
+      "2017-08-23T05:00:00.000Z"
+    ],
+    "mandamientoPago": "2017-09-10T05:00:00.000Z",
+    "municipio": "FUNZA",
+    "radicado": "2017 - 00742",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": []
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "DEISY",
+    "segundoNombre": "POLANIA",
+    "primerApellido": "CUELLAR",
+    "segundoApellido": null,
+    "cedula": 36184358,
+    "direccion": "CARREA 2 # 21 - 55 TO 402 J FUNZA",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25286310300120170074200",
+  "numero": 142,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:10:34.141Z",
+  "nombre": "DEISY POLANIA CUELLAR",
+  "actuaciones": [],
+  "procesos": []
+}

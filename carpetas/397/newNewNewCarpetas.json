@@ -1,0 +1,69 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "430104535"
+    ],
+    "llaveProceso": "25473400300120180010600",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      },
+      "certimail": false,
+      "fisico": true,
+      "autoNotificado": "CURADOR AD LITEM"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "07/07/2018"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "25473400300120180010600",
+    "expediente": "25473400300120180010600",
+    "fechaPresentacion": [],
+    "mandamientoPago": "2018-06-02T05:00:00.000Z",
+    "municipio": "MOSQUERA",
+    "radicado": "2018 - 00106",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2022-05-31T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "JOSE",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
+    "segundoApellido": "TAPIAS",
+    "cedula": 13812570,
+    "direccion": "CALLE 12A No 1B ESTE-80 MANZANA 2 CASA MOSQUERA",
+    "email": "jtapias@pastasdoria.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25473400300120180010600",
+  "numero": 397,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:37.532Z",
+  "nombre": "JOSE DE JESUS TAPIAS ESTEVEZ",
+  "actuaciones": [],
+  "procesos": []
+}

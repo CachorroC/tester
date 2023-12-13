@@ -7,7 +7,7 @@ import { ClassDeudor } from './deudor';
 import { PrismaDemanda, PrismaDeudor } from './prisma-carpeta';
 import { ClassNotificacion, PrismaNotificacion } from './notificacion';
 import { NewJuzgado } from './thenable';
-import { CarpetaRaw, IntCarpeta, IntDemanda, IntDeudor, Juzgado, TipoProcesoRaw } from '../types/carpetas';
+import { CarpetaRaw, IntCarpeta, IntDemanda, IntDeudor, Juzgado, TipoProcesoRaw, intNotificacion } from '../types/carpetas';
 
 export const client = new PrismaClient(
   {
@@ -1092,117 +1092,5 @@ export class CarpetaBuilder implements IntCarpeta {
       );
       return null;
     }
-  }
-}
-
-export class NewJudicial {
-  _procesos = new Map<number, outProceso>();
-  _actuaciones = new Map<number, outActuacion>();
-  numero: number;
-  fecha: Date | null;
-  ultimaActuacion: outActuacion | null;
-  revisado: boolean;
-  terminado: boolean;
-  tipoProceso: TipoProcesoRaw;
-  codeudor: Codeudor | null;
-  deudor: ClassDeudor;
-  llaveProceso: string;
-  demanda: ClassDemanda;
-  category: string;
-  constructor (
-    {
-      numero, deudor: rawDeudor, demanda: rawDemanda, category
-    }: CarpetaRaw
-  ) {
-    this.numero = numero;
-    this.category = category;
-    this.deudor = new ClassDeudor(
-      rawDeudor
-    );
-
-    this.llaveProceso = rawDemanda.llaveProceso;
-    this.demanda = new ClassDemanda(
-      rawDemanda
-    );
-  }
-  async getProcesos () {
-
-    try {
-      if ( this.llaveProceso === 'SinEspecificar' ) {
-        throw new Error(
-          'no hay llaveProceso en esta carpeta, aborting'
-        );
-      }
-
-      const request = await fetch(
-        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ this.llaveProceso }&SoloActivos=false&pagina=1`
-      );
-
-      if ( !request.ok ) {
-        const json = await request.json();
-
-        const message = `Error
-        Judicial.getProcesos.fetchError(${
-  this.numero
-}) =>
-  ${ JSON.stringify(
-    json, null, 2
-  ) }
-  ${ json }
-  ${ request.status }
-  ${ request.statusText }
-  `;
-        throw new Error(
-          message
-        );
-      }
-
-      const consultaProcesos
-        = ( await request.json() ) as ConsultaNumeroRadicacion;
-
-      const {
-        procesos
-      } = consultaProcesos;
-
-      for ( const proceso of procesos ) {
-        this._procesos.set(
-          proceso.idProceso, {
-            ...proceso
-            , fechaProceso: proceso.fechaProceso
-              ? new Date(
-                proceso.fechaProceso
-              )
-              : null
-            , fechaUltimaActuacion: proceso.fechaUltimaActuacion
-              ? new Date(
-                proceso.fechaUltimaActuacion
-              )
-              : null
-            , juzgado: new NewJuzgado(
-              proceso
-            )
-          }
-        );
-      }
-
-
-    } catch ( error ) {
-      console.log(
-        `${ this.numero } => error en CarpetaBuilder.getProcesos(${ this.numero }) => ${ error }`
-      );
-
-    }
-  }
-  get actuaciones () {
-
-    return Array.from(
-      this._actuaciones.values()
-    );
-
-  }
-  get procesos () {
-    return Array.from(
-      this._procesos.values()
-    );
   }
 }

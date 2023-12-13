@@ -1,0 +1,64 @@
+{
+  "category": "Terminados",
+  "codeudor": {
+    "nombre": "YOLANDA RATIVA MESA",
+    "cedula": "28949691",
+    "direccion": "CARRERA 87 D No 42 A-20 SUR IN 6 C",
+    "telefono": "3202780646",
+    "id": 312,
+    "carpetaNumero": 312
+  },
+  "demanda": {
+    "obligacion": [
+      "82317"
+    ],
+    "llaveProceso": "11001418904320170114000",
+    "notificacion": null,
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "INMUEBLE"
+    },
+    "capitalAdeudado": 1066832759,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "expediente": "11001418904320170114000",
+    "fechaPresentacion": [
+      "2017-10-21T05:00:00.000Z"
+    ],
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "radicado": "2017 - 01140",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-06-08T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "PEDRO",
+    "segundoNombre": "PABLO",
+    "primerApellido": "SARMIENTO",
+    "segundoApellido": "MAYORGA",
+    "cedula": 80394456,
+    "direccion": "CARRERA 87 D No 42 A 20 SUR INTERIOR 6",
+    "email": "pedrosebastin394@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418904320170114000",
+  "numero": 312,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:16.401Z",
+  "nombre": "PEDRO PABLO SARMIENTO MAYORGA",
+  "actuaciones": [],
+  "procesos": []
+}

@@ -1,0 +1,78 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "12730731",
+      "377813515714351."
+    ],
+    "llaveProceso": "11001400308620170082600",
+    "notificacion": null,
+    "medidasCautelares": {
+      "fechaOrdenaMedida": "2017-11-12T05:00:00.000Z",
+      "medidaSolicitada": "VEHICULO"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "expediente": "11001400308620170082600",
+    "fechaPresentacion": [
+      "2017-08-22T05:00:00.000Z"
+    ],
+    "mandamientoPago": "2017-11-12T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "radicado": "2017 - 00826",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-08-11T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": 2103564,
+      "celular": 3116216567
+    },
+    "primerNombre": "PEDRO",
+    "segundoNombre": "NEL",
+    "primerApellido": "PELAEZ",
+    "segundoApellido": "TISNES",
+    "cedula": 4520757,
+    "direccion": "TRANVERSAL 3 # 52B - 09 APTO 405",
+    "email": "pelaezpedro@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [
+    81888371
+  ],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400308620170082600",
+  "numero": 146,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:10:35.286Z",
+  "nombre": "PEDRO NEL PELAEZ TISNES",
+  "actuaciones": [],
+  "procesos": [
+    {
+      "idProceso": 81888371,
+      "idConexion": 320,
+      "llaveProceso": "11001400308620170082600",
+      "fechaProceso": null,
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
+      "esPrivado": true,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 86,
+        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
+      }
+    }
+  ]
+}

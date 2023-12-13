@@ -1,0 +1,65 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "200828  / 4513070087585399",
+      "55303710092258330"
+    ],
+    "llaveProceso": "11001400303920170133000",
+    "notificacion": {
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": "43222"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "INMUEBLE"
+    },
+    "capitalAdeudado": 5518603051,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "LIQUIDACION",
+    "expediente": "11001400303920170133000",
+    "fechaPresentacion": [],
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "radicado": "2017 - 01330",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-08-04T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "YEIMMY",
+    "segundoNombre": "CAROLINA",
+    "primerApellido": "FINO",
+    "segundoApellido": "BALLEN",
+    "cedula": 35427969,
+    "direccion": "CARRERA 91 No 157 B - 82  TORRE 2 APARTAMENTO 40",
+    "email": "carof111@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400303920170133000",
+  "numero": 291,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:11.586Z",
+  "nombre": "YEIMMY CAROLINA FINO BALLEN",
+  "actuaciones": [],
+  "procesos": []
+}

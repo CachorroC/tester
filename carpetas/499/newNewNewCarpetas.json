@@ -1,0 +1,79 @@
+{
+  "category": "Bancolombia",
+  "codeudor": {
+    "nombre": "FLOR ANGELA RODRIGUEZ",
+    "cedula": "51955296",
+    "direccion": "DIAGONAL 77B No 119 A-74 APTO 504 INT6",
+    "telefono": "F 2286617",
+    "id": 499,
+    "carpetaNumero": 499
+  },
+  "demanda": {
+    "obligacion": [
+      "20990123680  7/  377813468472239",
+      "4513079359765043 // 53037220341399596"
+    ],
+    "llaveProceso": "11001418901320190070800",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": "2020-02-18T05:00:00.000Z",
+        "fechaAporta": "2020-02-18T05:00:00.000Z",
+        "resultado": null
+      },
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": true
+      },
+      "certimail": true,
+      "fisico": false,
+      "autoNotificado": null
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "EMBARGO DE INMUEBLE"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-08-10T05:00:00.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "expediente": "11001418901320190070800",
+    "fechaPresentacion": [
+      "2018-10-12T05:00:00.000Z"
+    ],
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "radicado": "2019 - 00708",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2024-12-01T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "FLORESMIRO",
+    "segundoNombre": "APONTE",
+    "primerApellido": "ACOSTA",
+    "segundoApellido": null,
+    "cedula": 3208569,
+    "direccion": "DIAGONAL 77B No 119 A-74 APTO 504 INT6",
+    "email": "dcentro@pcpplasticos.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418901320190070800",
+  "numero": 499,
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:59.501Z",
+  "nombre": "FLORESMIRO APONTE ACOSTA",
+  "actuaciones": [],
+  "procesos": []
+}

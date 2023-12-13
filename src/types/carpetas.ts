@@ -30,12 +30,12 @@ export interface IntCarpeta {
   nombre: string;
   notificacion: intNotificacion | null;
   numero: number;
+  procesos: intProceso[];
   revisado: boolean;
   terminado: boolean;
   tipoProceso: TipoProceso;
-  updatedAt: Date;
-  procesos: intProceso[];
   ultimaActuacion: intActuacion | null;
+  updatedAt: Date;
 }
 
 export interface flatCarpeta {
@@ -249,7 +249,16 @@ export interface intNotificacion {
   certimail: boolean | null;
   fisico: boolean | null;
   autoNotificado: string | null;
-  notifiers: intNotifier[];
+  '291'?: the290;
+  '292'?: the290
+}
+
+export interface the290
+{
+  fechaRecibido: Date | null;
+  resultado: boolean | null;
+
+  fechaAporta: Date | null;
 }
 
 export interface intNotifier {

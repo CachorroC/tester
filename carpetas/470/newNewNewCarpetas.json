@@ -1,0 +1,73 @@
+{
+  "category": "Terminados",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "2/4/2032",
+    "telefono": null,
+    "id": 470,
+    "carpetaNumero": 470
+  },
+  "demanda": {
+    "obligacion": [
+      "21.955.632.15"
+    ],
+    "llaveProceso": "25754418900320180084100",
+    "notificacion": {
+      "291": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": false
+      },
+      "292": {
+        "fechaRecibido": null,
+        "fechaAporta": null,
+        "resultado": null
+      },
+      "certimail": null,
+      "fisico": false,
+      "autoNotificado": null
+    },
+    "medidasCautelares": null,
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "09/08/2018",
+    "expediente": "25754418900320180084100",
+    "fechaPresentacion": [
+      "2018-09-07T05:00:00.000Z"
+    ],
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "radicado": "2018 - 00841",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": []
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "ELIANA",
+    "segundoNombre": "JANNETH",
+    "primerApellido": "LOZANO",
+    "segundoApellido": "ARTURO",
+    "cedula": 52711938,
+    "direccion": null,
+    "email": "TRANSVERSAL 2A No 74B-62 SUR"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900320180084100",
+  "numero": 470,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:54.629Z",
+  "nombre": "ELIANA JANNETH LOZANO ARTURO",
+  "actuaciones": [],
+  "procesos": []
+}

@@ -1,0 +1,59 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "182524"
+    ],
+    "llaveProceso": "25286400300120180042100",
+    "notificacion": {
+      "certimail": false,
+      "fisico": null,
+      "autoNotificado": "PERSONAL"
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "13/0620178"
+    },
+    "capitalAdeudado": 10566667022,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "expediente": "25286400300120180042100",
+    "fechaPresentacion": [],
+    "mandamientoPago": null,
+    "municipio": "FUNZA",
+    "radicado": "2018 - 00421",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2025-03-31T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": null
+    },
+    "primerNombre": "JUAN",
+    "segundoNombre": "CARLOS",
+    "primerApellido": "ORTIZ",
+    "segundoApellido": "CUERVO",
+    "cedula": 80162950,
+    "direccion": "CARRERA 16 No 14 - 36",
+    "email": "ju@yahoo.es"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25286400300120180042100",
+  "numero": 269,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:11:05.889Z",
+  "nombre": "JUAN CARLOS ORTIZ CUERVO",
+  "actuaciones": [],
+  "procesos": []
+}

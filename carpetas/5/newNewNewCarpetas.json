@@ -1,0 +1,61 @@
+{
+  "category": "Terminados",
+  "codeudor": null,
+  "demanda": {
+    "obligacion": [
+      "2273 320172490"
+    ],
+    "llaveProceso": "25322418900120170016800",
+    "notificacion": {
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "medidasCautelares": {
+      "fechaOrdenaMedida": "2017-05-10T05:00:00.000Z",
+      "medidaSolicitada": "INMUEBLE"
+    },
+    "capitalAdeudado": null,
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
+    "etapaProcesal": null,
+    "expediente": "25322418900120170016800",
+    "fechaPresentacion": [
+      "2017-06-05T05:00:00.000Z"
+    ],
+    "mandamientoPago": "2017-05-10T05:00:00.000Z",
+    "municipio": "GUASCA",
+    "radicado": "2017 - 00168",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "1934-02-14T05:00:00.000Z"
+    ]
+  },
+  "deudor": {
+    "tel": {
+      "fijo": null,
+      "celular": 3217662673
+    },
+    "primerNombre": "FANY",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "AVELLANEDA",
+    "segundoApellido": "TOVAR",
+    "cedula": 20645940,
+    "direccion": "CARRERA 9 No. 2-03 GUASCA",
+    "email": "patoavella8210@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25322418900120170016800",
+  "numero": 5,
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-13T00:09:59.737Z",
+  "nombre": "FANY PATRICIA AVELLANEDA TOVAR",
+  "actuaciones": [],
+  "procesos": []
+}

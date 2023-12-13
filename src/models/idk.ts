@@ -1,16 +1,3 @@
-import carpetas from '../data/carpetas';
-
-const carpsMap = carpetas.map(
-  (
-    carpeta
-  ) => {
-    return carpeta.demanda.notificacion;
-  }
-);
-
-console.log(
-  carpsMap
-);
 
 export function fechaPresentacionBuilder(
   rawFechaPresentacion?: string | number
