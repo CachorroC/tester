@@ -1,14 +1,21 @@
-import * as fs from 'fs/promises';
-import Carpetas from '../data/carpetas';
+
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
 import { outActuacion, ConsultaActuacion } from '../types/actuaciones';
 import {  TipoProcesoRaw, CarpetaRaw, Codeudor, Category } from '../types/carpetas';
 import { outProceso, ConsultaNumeroRadicacion } from '../types/procesos';
 import { ClassDemanda, NewJuzgado } from './demanda';
 import { ClassDeudor } from './deudor';
-import { client } from './carpeta';
+import { PrismaClient } from '@prisma/client';
+
+export const client = new PrismaClient(
+  {
+    errorFormat: 'pretty',
+  }
+);
 
 export class NewJudicial {
+  _id: number;
+  actuaciones: outActuacion[];
   category: Category;
   codeudor: Codeudor | null;
   demanda: ClassDemanda;
@@ -17,20 +24,20 @@ export class NewJudicial {
   idProcesos: number[];
   idRegUltimaAct: number | null;
   llaveProceso: string;
+  nombre: string;
   numero: number;
+  procesos: outProceso[];
   revisado: boolean;
   terminado: boolean;
   tipoProceso: TipoProcesoRaw;
   ultimaActuacion: outActuacion | null;
   updatedAt: Date;
-  nombre: string;
-  actuaciones: outActuacion[];
-  procesos: outProceso[];
   constructor (
     {
       numero, deudor: rawDeudor, demanda: rawDemanda, category, codeudor
     }: CarpetaRaw
   ) {
+    this._id = numero;
     this.actuaciones = [];
     this.procesos = [];
     this.idProcesos = [];
@@ -128,11 +135,8 @@ export class NewJudicial {
       } = consultaProcesos;
 
       for ( const proceso of procesos ) {
-        this.idProcesos.push(
-          proceso.idProceso
-        );
-        this.procesos.push(
-          {
+        const newProceso
+          = {
             ...proceso
             , fechaProceso: proceso.fechaProceso
               ? new Date(
@@ -147,9 +151,88 @@ export class NewJudicial {
             , juzgado: new NewJuzgado(
               proceso
             )
-          }
+          };
+        this.idProcesos.push(
+          proceso.idProceso
+        );
+        this.procesos.push(
+          newProceso
         );
 
+        try {
+          const prismaUpdateProceso = await client.proceso.upsert(
+            {
+              where: {
+                idProceso: proceso.idProceso
+              }
+              , create: {
+                ...newProceso
+                , juzgado: {
+                  connectOrCreate: {
+                    where: {
+                      tipo: newProceso.juzgado.tipo
+                    }
+                    , create: newProceso.juzgado
+                  }
+                }
+                , carpeta: {
+                  connectOrCreate: {
+                    where: {
+                      numero: this.numero
+                    }
+                    , create: {
+                      llaveProceso: this.llaveProceso
+                      , nombre      : this.nombre
+                      , fecha       : this.fecha
+                      , numero      : this.numero
+                      , category    : this.category
+                      , idProcesos  : this.idProcesos
+                      , revisado    : this.revisado
+                      , terminado   : this.terminado
+                      , updatedAt   : new Date()
+                    }
+                  }
+                }
+              }
+              , update: {
+
+                ...newProceso
+                , juzgado: {
+                  connectOrCreate: {
+                    where: {
+                      tipo: newProceso.juzgado.tipo
+                    }
+                    , create: newProceso.juzgado
+                  }
+                }
+                , carpeta: {
+                  connectOrCreate: {
+                    where: {
+                      numero: this.numero
+                    }
+                    , create: {
+                      llaveProceso: this.llaveProceso
+                      , nombre      : this.nombre
+                      , fecha       : this.fecha
+                      , numero      : this.numero
+                      , category    : this.category
+                      , idProcesos  : this.idProcesos
+                      , revisado    : this.revisado
+                      , terminado   : this.terminado
+                    }
+                  }
+                }
+              }
+            }
+          );
+          console.log(
+            prismaUpdateProceso
+          );
+        } catch ( e ) {
+          console.log(
+            `error al insertar el proceso en prisma: ${ e }`
+          );
+        }
       }
 
 
@@ -203,32 +286,28 @@ export class NewJudicial {
           raw: ${ ultimaActuacion.fechaActuacion }`,
         );
 
-
-
-        const savedYear = this.fecha
-          ? this.fecha.getFullYear()
-          : 2015;
-
-        const savedMonth = this.fecha
-          ?this.fecha.getMonth()
-          : 0;
-
-        const savedDay = this.fecha
-          ? this.fecha.getDate()
-          : 1;
+        const {
+          fecha
+        } = await client.carpeta.findFirstOrThrow(
+          {
+            where: {
+              numero: this.numero
+            }
+          }
+        );
         console.log(
-          `${ this.numero
-          } => la fecha guardada en el servidor de LINK -  actuacion es: ${ new Date(
-            savedYear ?? 0,
-            savedMonth ?? 0,
-            savedDay,
-          ) }`,
+          `la fecha guardada en prisma es: ${ fecha }`
+        );
+        console.log(
+          `${ fecha && fecha  < incomingDate
+            ? 'la fecha en prisma  es menor que incoming date'
+            : 'la fecha en prisma es mayor que incoming dt¡ate ' }`
         );
 
-        if (
-          !this.fecha
-          || this.fecha < incomingDate
-          || this.fecha.toString() === 'Invalid Date'
+        if ( !this.fecha
+          ||!fecha
+          || fecha < incomingDate
+          || fecha.toString() === 'Invalid Date'
         ) {
           this.fecha = new Date(
             ultimaActuacion.fechaActuacion
@@ -293,6 +372,7 @@ export class NewJudicial {
 
           try {
             await client.actuacion.upsert(
+
               {
                 where: {
                   idRegActuacion: newActuacion.idRegActuacion
@@ -410,72 +490,5 @@ export class NewJudicial {
     }
   }
 
+
 }
-
-async function getProcesosIdk() {
-  const newCarpetas = [];
-
-  for ( const carpeta of Carpetas ) {
-    const newCarpeta = new NewJudicial(
-      carpeta
-    );
-
-    await newCarpeta.getProcesos();
-
-
-    await newCarpeta.getActuaciones();
-
-    await newCarpeta.prismaUpdater();
-
-
-
-    newCarpetas.push(
-      newCarpeta
-    );
-    fs.writeFile(
-      `carpetas/${ newCarpeta.numero }/newNewNewCarpetas.json`, JSON.stringify(
-        newCarpeta, null, 2
-      )
-    );
-  }
-
-  /*
-  try {
-    const collection = await connectToDatabase();
-
-    const upsertOne = await collection.insertMany(
-      newCarpetas, {
-        ordered        : true
-        , ignoreUndefined: true
-      }
-    );
-    console.log(
-      `upsert one to mongo: ${ JSON.stringify(
-        upsertOne, null, 2
-      ) } `
-    );
-
-  } catch ( error ) {
-    console.log(
-      error
-    );
-  }
- */
-  fs.writeFile(
-    'newNewNewCarpetas.json', JSON.stringify(
-      newCarpetas, null, 2
-    )
-  );
-}
-
-getProcesosIdk()
-  .then(
-    (
-      rr
-    ) => {
-      console.log(
-        rr
-      );
-      return rr;
-    }
-  );

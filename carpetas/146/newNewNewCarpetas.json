@@ -1,4 +1,6 @@
 {
+  "_id": 146,
+  "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
@@ -48,14 +50,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308620170082600",
-  "numero": 146,
-  "revisado": true,
-  "terminado": true,
-  "tipoProceso": "PRENDARIO",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:16:41.683Z",
   "nombre": "PEDRO NEL PELAEZ TISNES",
-  "actuaciones": [],
+  "numero": 146,
   "procesos": [
     {
       "idProceso": 81888371,
@@ -74,5 +70,10 @@
         "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
       }
     }
-  ]
+  ],
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:27:09.557Z"
 }

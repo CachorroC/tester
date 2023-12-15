@@ -1,4 +1,6 @@
 {
+  "_id": 556,
+  "actuaciones": [],
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
@@ -45,14 +47,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "25430400300120230112700",
-  "numero": 556,
-  "revisado": false,
-  "terminado": false,
-  "tipoProceso": "SINGULAR",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:08:15.900Z",
   "nombre": "CIRO ERQUILIAN ONOFRE",
-  "actuaciones": [],
+  "numero": 556,
   "procesos": [
     {
       "idProceso": 159336301,
@@ -71,5 +67,10 @@
         "url": "https://www.ramajudicial.gov.co/web/juzgado-civil-municipal-de-madrid"
       }
     }
-  ]
+  ],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:29:45.850Z"
 }

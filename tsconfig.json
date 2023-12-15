@@ -7,8 +7,8 @@
     "target": "ESNext",
     "jsx": "react",
     "strict": true,
-    "lib": ["ES2017.Object", "esnext", "DOM", "DOM.Iterable", "WebWorker"],
+    "lib": [ "ESNext.Array", "ESNext.AsyncIterable", "ES2022.Object", "esnext" ],
     "esModuleInterop": true
   },
-  "exclude": ["node_modules"]
+  "exclude": [ "node_modules" ]
 }

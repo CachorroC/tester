@@ -1,4 +1,6 @@
 {
+  "_id": 171,
+  "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
@@ -44,14 +46,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308620170086300",
-  "numero": 171,
-  "revisado": true,
-  "terminado": true,
-  "tipoProceso": "PRENDARIO",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:16:50.735Z",
   "nombre": "MARITZA NATALI RODRIGUEZ URREA",
-  "actuaciones": [],
+  "numero": 171,
   "procesos": [
     {
       "idProceso": 81888701,
@@ -70,5 +66,10 @@
         "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
       }
     }
-  ]
+  ],
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:27:18.734Z"
 }

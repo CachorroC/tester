@@ -18,6 +18,8 @@ export interface CarpetaRaw extends TrulyCruda {
   category: Category;
 }
 
+export type keyOfCarpetaRaw = keyof CarpetaRaw;
+
 export interface IntCarpeta {
   category: Category;
   codeudor: Codeudor | null;

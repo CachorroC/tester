@@ -1,4 +1,6 @@
 {
+  "_id": 33,
+  "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
     "nombre": "NINI CORTES",
@@ -59,14 +61,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308220170064900",
-  "numero": 33,
-  "revisado": true,
-  "terminado": true,
-  "tipoProceso": "SINGULAR",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:15:55.589Z",
   "nombre": "NINI JOHANA CORTES MONROY",
-  "actuaciones": [],
+  "numero": 33,
   "procesos": [
     {
       "idProceso": 81869251,
@@ -85,5 +81,10 @@
         "url": "https://www.ramajudicial.gov.co/web/juzgado-082-civil-municipal-de-bogota"
       }
     }
-  ]
+  ],
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:26:20.339Z"
 }

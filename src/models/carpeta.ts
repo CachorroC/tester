@@ -1,38 +1,29 @@
-import { Juzgado, Category, TipoProceso, Prisma, PrismaClient, Codeudor } from '@prisma/client';
+import { Category, Prisma } from '@prisma/client';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
-import { ConsultaActuacion, intActuacion, outActuacion } from '../types/actuaciones';
-import { ConsultaNumeroRadicacion, intProceso, outProceso } from '../types/procesos';
+import { ConsultaActuacion, intActuacion } from '../types/actuaciones';
+import { ConsultaNumeroRadicacion,  } from '../types/procesos';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
 import { PrismaDemanda, PrismaDeudor } from './prisma-carpeta';
-import { ClassNotificacion, PrismaNotificacion } from './notificacion';
 import { NewJuzgado } from './thenable';
-import { CarpetaRaw, IntCarpeta, IntDemanda, IntDeudor, Juzgado, TipoProcesoRaw, intNotificacion } from '../types/carpetas';
-
-export const client = new PrismaClient(
-  {
-    errorFormat: 'pretty',
-  }
-);
-
-export class CarpetaBuilder implements IntCarpeta {
+import { CarpetaRaw, Codeudor, Juzgado, TipoProceso, } from '../types/carpetas';
 
 
-  codeudor: Codeudor | null;
-  demandas: IntDemanda[];
-  numero: number;
-  llaveProceso: string;
-  fecha: Date | null;
-  ultimaActuacion: intActuacion | null;
+export class CarpetaBuilder {
+
+
+  _id: number;
   category: Category;
-  revisado: boolean;
+  codeudor: Codeudor | null;
+  demanda: ClassDemanda;
+  deudor: ClassDeudor;
+  llaveProceso: string;
+  nombre: string;
+  numero: number;
   terminado: boolean;
   tipoProceso: TipoProceso;
-  deudor: IntDeudor;
-  cc: number;
-  procesos: intProceso[];
-  idProcesos: number[] ;
-  nombre: string;
+  from: number = 0;
+  to: number = 100;
 
   constructor (
     {
@@ -42,12 +33,10 @@ export class CarpetaBuilder implements IntCarpeta {
     const newDemanda = new ClassDemanda(
       demanda
     );
+    this._id = numero;
     this.numero = numero;
     this.nombre = deudor.nombre;
     this.category = category;
-    this.revisado = category === 'Terminados'
-      ? true
-      : false;
     this.codeudor = codeudor
       ?{
           nombre: codeudor.nombre
@@ -74,7 +63,6 @@ export class CarpetaBuilder implements IntCarpeta {
           , carpetaNumero: this.numero
         }
       : null;
-    this.demandas = [];
     this.tipoProceso = demanda.tipoProceso
       ? tipoProcesoBuilder(
         demanda.tipoProceso
@@ -87,31 +75,8 @@ export class CarpetaBuilder implements IntCarpeta {
     this.terminado = category === 'Terminados'
       ? true
       : false;
-    this.cc = Number(
-      deudor.cedula
-    );
-    this.idProcesos = [];
-    this.procesos = [];
-    this.ultimaActuacion = null;
-    this.fecha = null;
     this.llaveProceso = demanda.llaveProceso;
-    this.notificacion = demanda.notificacion
-      ? new ClassNotificacion(
-        demanda.notificacion
-      )
-      : null;
-    this.notas = [];
-    this.tareas = [];
-    this.updatedAt = new Date();
-    this.idRegUltimaAct = null;
   }
-  idRegUltimaAct: number | null;
-  juzgados: Juzgado[];
-  demanda: Demanda | null;
-  notas: Nota[];
-  tareas: Tarea[];
-  updatedAt: Date;
-  notificacion: intNotificacion | null;
   set _llaveProceso (
     expediente: string
   ) {
@@ -119,6 +84,46 @@ export class CarpetaBuilder implements IntCarpeta {
       this.llaveProceso = expediente;
     }
   }
+  [ Symbol.asyncIterator ]() { // (1)
+    return {
+
+
+      async next() { // (2)
+
+        // note: we can use "await" inside the async next:
+        await new Promise(
+          resolve => {
+            return setTimeout(
+              resolve, 1000
+            );
+          }
+        ); // (3)
+
+        if ( this.current <= this.last ) {
+          return {
+            done : false
+            , value: this.current++
+          };
+        }
+
+        return {
+          done: true
+        };
+
+      }
+    };
+  }
+}
+
+
+export class OldCarpeta extends CarpetaBuilder {
+  procesos: { fechaProceso: Date | null; fechaUltimaActuacion: Date | null; juzgado: NewJuzgado; idProceso: number; idConexion: number; llaveProceso: string; despacho: string; departamento: import( '/home/cachorro_cami/Projects/com/rsasesorjuridico/tester/src/types/procesos' ).Departamento; sujetosProcesales: string; esPrivado: boolean; cantFilas: number; }[] = [];
+  idProcesos: number[] = [];
+  juzgados: NewJuzgado[] = [];
+  demandas: ClassDemanda[] = [];
+  fecha?: Date;
+  ultimaActuacion?: { idProceso: number; isUltimaAct: boolean; idRegActuacion: number; llaveProceso: string; consActuacion: number; fechaActuacion: Date; actuacion: string; anotacion: string | null; fechaInicial: Date | null; carpetaNumero: number | null; createdAt: Date; fechaFinal: Date | null; fechaRegistro: Date; codRegla: '00                              '; conDocumentos: boolean; cant: number; };
+  actuaciones: intActuacion[] = [];
 
   async getProcesos () {
     try {
@@ -193,9 +198,7 @@ export class CarpetaBuilder implements IntCarpeta {
         (
           proceso
         ) => {
-          return new ClassDemanda(
-            this.demanda, this.numero, proceso
-          );
+          return this.demanda;
         }
       );
       return this.procesos;

@@ -1,4 +1,6 @@
 {
+  "_id": 582,
+  "actuaciones": [],
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
@@ -42,14 +44,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "25430400300120230129500",
-  "numero": 582,
-  "revisado": false,
-  "terminado": false,
-  "tipoProceso": "SINGULAR",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:08:23.084Z",
   "nombre": "PEDRO ANTONIO DUARTE VARGAS",
-  "actuaciones": [],
+  "numero": 582,
   "procesos": [
     {
       "idProceso": 160042431,
@@ -68,5 +64,10 @@
         "url": "https://www.ramajudicial.gov.co/web/juzgado-civil-municipal-de-madrid"
       }
     }
-  ]
+  ],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:29:52.985Z"
 }

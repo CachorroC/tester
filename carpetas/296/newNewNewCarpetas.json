@@ -1,4 +1,6 @@
 {
+  "_id": 296,
+  "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
@@ -60,14 +62,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "11001410375220170129100",
-  "numero": 296,
-  "revisado": true,
-  "terminado": true,
-  "tipoProceso": "PRENDARIO",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:17:45.683Z",
   "nombre": "DIDIER HARVEY PRADA AGUIRRE",
-  "actuaciones": [],
+  "numero": 296,
   "procesos": [
     {
       "idProceso": 127797581,
@@ -103,5 +99,10 @@
         "url": "https://www.ramajudicial.gov.co/web/juzgado-05-civil-municipal-de-villavicencio"
       }
     }
-  ]
+  ],
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:28:10.582Z"
 }

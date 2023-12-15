@@ -35,6 +35,9 @@ dependencies:
   '@typescript-eslint/parser':
     specifier: latest
     version: 6.13.2(eslint@8.55.0)(typescript@5.4.0-dev.20231210)
+  core-js:
+    specifier: ^3.34.0
+    version: 3.34.0
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
@@ -1206,6 +1209,11 @@ packages:
     dependencies:
       depd: 2.0.0
       keygrip: 1.1.0
+    dev: false
+
+  /core-js@3.34.0:
+    resolution: {integrity: sha512-aDdvlDder8QmY91H88GzNi9EtQi2TjvQhpCX6B1v/dAZHU1AuLgHvRh54RiOerpEhEW46Tkf+vgAViB/CWC0ag==}
+    requiresBuild: true
     dev: false
 
   /core-util-is@1.0.3:

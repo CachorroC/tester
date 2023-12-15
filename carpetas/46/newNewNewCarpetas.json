@@ -1,4 +1,6 @@
 {
+  "_id": 46,
+  "actuaciones": [],
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
@@ -63,14 +65,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "25183400300120170010600",
-  "numero": 46,
-  "revisado": false,
-  "terminado": false,
-  "tipoProceso": "PRENDARIO",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:16:00.329Z",
   "nombre": "ALVARO RODRIGUEZ ALONSO",
-  "actuaciones": [],
+  "numero": 46,
   "procesos": [
     {
       "idProceso": 86212261,
@@ -89,5 +85,10 @@
         "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
       }
     }
-  ]
+  ],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:26:25.593Z"
 }

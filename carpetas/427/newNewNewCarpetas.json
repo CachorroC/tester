@@ -1,4 +1,6 @@
 {
+  "_id": 427,
+  "actuaciones": [],
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
@@ -61,14 +63,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "25126408900220180004800",
-  "numero": 427,
-  "revisado": false,
-  "terminado": false,
-  "tipoProceso": "PRENDARIO",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:18:34.955Z",
   "nombre": "JUAN CAMILO CHINGATE PENAGOS",
-  "actuaciones": [],
+  "numero": 427,
   "procesos": [
     {
       "idProceso": 86157021,
@@ -87,5 +83,10 @@
         "url": "https://www.ramajudicial.gov.cojuzgado-002-promiscuo-municipal-de-cajicá-"
       }
     }
-  ]
+  ],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:29:05.479Z"
 }

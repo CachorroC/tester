@@ -1,4 +1,6 @@
 {
+  "_id": 181,
+  "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
@@ -47,14 +49,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418901020170011500",
-  "numero": 181,
-  "revisado": true,
-  "terminado": true,
-  "tipoProceso": "PRENDARIO",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:16:55.135Z",
   "nombre": "LEONARDO ALIRIO GARCIA GUERRERO",
-  "actuaciones": [],
+  "numero": 181,
   "procesos": [
     {
       "idProceso": 82132851,
@@ -73,5 +69,10 @@
         "url": "https://www.ramajudicial.gov.cojuzgado-010-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
       }
     }
-  ]
+  ],
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:27:23.135Z"
 }

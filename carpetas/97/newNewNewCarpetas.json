@@ -1,4 +1,41 @@
 {
+  "_id": 97,
+  "actuaciones": [
+    {
+      "idRegActuacion": 996537750,
+      "llaveProceso": "11001400308520160031900",
+      "consActuacion": 2,
+      "fechaActuacion": "2020-10-27T05:00:00.000Z",
+      "actuacion": "Archivo Definitivo",
+      "anotacion": "Se envia a archivo definiivo Caja No. 02- 2020 ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2020-10-27T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 77695680,
+      "isUltimaAct": true,
+      "createdAt": "2023-12-14T09:26:46.842Z"
+    },
+    {
+      "idRegActuacion": 976636660,
+      "llaveProceso": "11001400308520160031900",
+      "consActuacion": 1,
+      "fechaActuacion": "2020-06-24T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 24/06/2020 a las 13:24:27",
+      "fechaInicial": "2020-06-24T05:00:00.000Z",
+      "fechaFinal": "2020-06-24T05:00:00.000Z",
+      "fechaRegistro": "2020-06-24T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 77695680,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:26:46.849Z"
+    }
+  ],
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
@@ -47,7 +84,27 @@
   ],
   "idRegUltimaAct": 996537750,
   "llaveProceso": "11001400308520160031900",
+  "nombre": "JOSE ALFREDO RIAÑO MALDONADO",
   "numero": 97,
+  "procesos": [
+    {
+      "idProceso": 77695680,
+      "idConexion": 259,
+      "llaveProceso": "11001400308520160031900",
+      "fechaProceso": "2020-06-24T05:00:00.000Z",
+      "fechaUltimaActuacion": "2020-10-27T05:00:00.000Z",
+      "despacho": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCO PICHINCHA | Demandado: JOSE ALFREDO RIAÑO MALDONADO ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 85,
+        "tipo": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"
+      }
+    }
+  ],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
@@ -67,61 +124,5 @@
     "idProceso": 77695680,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-13T06:16:19.934Z",
-  "nombre": "JOSE ALFREDO RIAÑO MALDONADO",
-  "actuaciones": [
-    {
-      "idRegActuacion": 996537750,
-      "llaveProceso": "11001400308520160031900",
-      "consActuacion": 2,
-      "fechaActuacion": "2020-10-27T05:00:00.000Z",
-      "actuacion": "Archivo Definitivo",
-      "anotacion": "Se envia a archivo definiivo Caja No. 02- 2020 ",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2020-10-27T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 2,
-      "idProceso": 77695680,
-      "isUltimaAct": true,
-      "createdAt": "2023-12-13T06:16:20.232Z"
-    },
-    {
-      "idRegActuacion": 976636660,
-      "llaveProceso": "11001400308520160031900",
-      "consActuacion": 1,
-      "fechaActuacion": "2020-06-24T05:00:00.000Z",
-      "actuacion": " Radicación de Proceso",
-      "anotacion": "Actuación de  Radicación de Proceso  realizada el 24/06/2020 a las 13:24:27",
-      "fechaInicial": "2020-06-24T05:00:00.000Z",
-      "fechaFinal": "2020-06-24T05:00:00.000Z",
-      "fechaRegistro": "2020-06-24T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 2,
-      "idProceso": 77695680,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:16:20.242Z"
-    }
-  ],
-  "procesos": [
-    {
-      "idProceso": 77695680,
-      "idConexion": 259,
-      "llaveProceso": "11001400308520160031900",
-      "fechaProceso": "2020-06-24T05:00:00.000Z",
-      "fechaUltimaActuacion": "2020-10-27T05:00:00.000Z",
-      "despacho": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCO PICHINCHA | Demandado: JOSE ALFREDO RIAÑO MALDONADO ",
-      "esPrivado": false,
-      "cantFilas": -1,
-      "juzgado": {
-        "id": 85,
-        "tipo": "JUZGADO 085 CIVIL MUNICIPAL DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-085-civil-municipal-de-bogotá-"
-      }
-    }
-  ]
+  "updatedAt": "2023-12-14T09:26:46.569Z"
 }

@@ -1,4 +1,41 @@
 {
+  "_id": 298,
+  "actuaciones": [
+    {
+      "idRegActuacion": 857000690,
+      "llaveProceso": "11001400307820170098600",
+      "consActuacion": 2,
+      "fechaActuacion": "2019-01-15T05:00:00.000Z",
+      "actuacion": "Constancia secretarial",
+      "anotacion": "SE ENTREGO DESGLOSE",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2019-01-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 51570460,
+      "isUltimaAct": true,
+      "createdAt": "2023-12-14T09:28:11.267Z"
+    },
+    {
+      "idRegActuacion": 857000680,
+      "llaveProceso": "11001400307820170098600",
+      "consActuacion": 1,
+      "fechaActuacion": "2019-01-15T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 15/01/2019 a las 17:15:32",
+      "fechaInicial": "2019-01-15T05:00:00.000Z",
+      "fechaFinal": "2019-01-15T05:00:00.000Z",
+      "fechaRegistro": "2019-01-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 51570460,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:28:11.271Z"
+    }
+  ],
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
@@ -56,7 +93,27 @@
   ],
   "idRegUltimaAct": 857000690,
   "llaveProceso": "11001400307820170098600",
+  "nombre": "HECTOR GABRIEL RAMIREZ BOHORQUEZ",
   "numero": 298,
+  "procesos": [
+    {
+      "idProceso": 51570460,
+      "idConexion": 259,
+      "llaveProceso": "11001400307820170098600",
+      "fechaProceso": "2019-01-15T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-01-15T05:00:00.000Z",
+      "despacho": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR GABRIEL RAMIREZ BOHORQUEZ ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 78,
+        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
+      }
+    }
+  ],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
@@ -76,61 +133,5 @@
     "idProceso": 51570460,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-13T06:17:46.014Z",
-  "nombre": "HECTOR GABRIEL RAMIREZ BOHORQUEZ",
-  "actuaciones": [
-    {
-      "idRegActuacion": 857000690,
-      "llaveProceso": "11001400307820170098600",
-      "consActuacion": 2,
-      "fechaActuacion": "2019-01-15T05:00:00.000Z",
-      "actuacion": "Constancia secretarial",
-      "anotacion": "SE ENTREGO DESGLOSE",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2019-01-15T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 2,
-      "idProceso": 51570460,
-      "isUltimaAct": true,
-      "createdAt": "2023-12-13T06:17:46.317Z"
-    },
-    {
-      "idRegActuacion": 857000680,
-      "llaveProceso": "11001400307820170098600",
-      "consActuacion": 1,
-      "fechaActuacion": "2019-01-15T05:00:00.000Z",
-      "actuacion": " Radicación de Proceso",
-      "anotacion": "Actuación de  Radicación de Proceso  realizada el 15/01/2019 a las 17:15:32",
-      "fechaInicial": "2019-01-15T05:00:00.000Z",
-      "fechaFinal": "2019-01-15T05:00:00.000Z",
-      "fechaRegistro": "2019-01-15T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 2,
-      "idProceso": 51570460,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:17:46.326Z"
-    }
-  ],
-  "procesos": [
-    {
-      "idProceso": 51570460,
-      "idConexion": 259,
-      "llaveProceso": "11001400307820170098600",
-      "fechaProceso": "2019-01-15T05:00:00.000Z",
-      "fechaUltimaActuacion": "2019-01-15T05:00:00.000Z",
-      "despacho": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR GABRIEL RAMIREZ BOHORQUEZ ",
-      "esPrivado": false,
-      "cantFilas": -1,
-      "juzgado": {
-        "id": 78,
-        "tipo": "JUZGADO 078 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-78-civil-municipal-de-bogota"
-      }
-    }
-  ]
+  "updatedAt": "2023-12-14T09:28:10.967Z"
 }

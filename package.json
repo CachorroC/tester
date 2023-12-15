@@ -2,7 +2,7 @@
   "name": "tester",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "ts-node newIndex.ts > output",
+    "start": "ts-node src/models/newJudicial.ts > output",
     "build": "prisma generate && quicktype -s schema ./prisma/json-schema/json-schema.json -o src/types/schema.ts --no-enums --alphabetize-properties --prefer-unions --converters all-objects --no-runtime-typecheck"
   },
   "dependencies": {
@@ -16,6 +16,7 @@
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
+    "core-js": "^3.34.0",
     "dotenv": "^16.3.1",
     "eslint": "^8.55.0",
     "express": "^4.18.2",

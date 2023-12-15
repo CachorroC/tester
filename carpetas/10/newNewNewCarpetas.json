@@ -1,4 +1,6 @@
 {
+  "_id": 10,
+  "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
@@ -53,14 +55,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418900320170090900",
-  "numero": 10,
-  "revisado": true,
-  "terminado": true,
-  "tipoProceso": "PRENDARIO",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:15:49.068Z",
   "nombre": "MARINA MORALES HERNANDEZ",
-  "actuaciones": [],
+  "numero": 10,
   "procesos": [
     {
       "idProceso": 82112341,
@@ -79,5 +75,10 @@
         "url": "https://www.ramajudicial.gov.cojuzgado-003-de-pequeñas-causas--y-competencia-múltiple-de-bogotá---localidad-suba"
       }
     }
-  ]
+  ],
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:26:13.038Z"
 }

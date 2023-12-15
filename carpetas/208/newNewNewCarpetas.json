@@ -1,4 +1,6 @@
 {
+  "_id": 208,
+  "actuaciones": [],
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
@@ -61,14 +63,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "25754400300220170026500",
-  "numero": 208,
-  "revisado": false,
-  "terminado": false,
-  "tipoProceso": "PRENDARIO",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:17:05.169Z",
   "nombre": "JEOVANY ROJAS CRUZ",
-  "actuaciones": [],
+  "numero": 208,
   "procesos": [
     {
       "idProceso": 86374941,
@@ -87,5 +83,10 @@
         "url": "https://www.ramajudicial.gov.co/web/juzgado-02-civil-municipal-de-soacha"
       }
     }
-  ]
+  ],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:27:33.160Z"
 }

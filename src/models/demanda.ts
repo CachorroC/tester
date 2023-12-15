@@ -6,7 +6,7 @@ import { tipoProcesoBuilder } from '../data/tipoProcesos';
 import { fechaPresentacionBuilder, fixSingleFecha, } from './idk';
 import { ClassNotificacion } from './notificacion';
 
-function vencimientoPagareFixer(
+function vencimientoPagareFixer (
   rawVencimientoPagare?: string | number
 ) {
   if ( !rawVencimientoPagare ) {
@@ -50,9 +50,6 @@ function vencimientoPagareFixer(
   );
 
   if ( firstFecha && firstFecha.length <= 12 ) {
-    console.log(
-      firstFecha.length
-    );
 
     //* Es una la primer fecha de presentacion
     const fechaFixed = fixSingleFecha(
@@ -67,9 +64,6 @@ function vencimientoPagareFixer(
   }
 
   if ( secondFecha && secondFecha.length <= 12 ) {
-    console.log(
-      secondFecha.length
-    );
 
     //* Es una la primer fecha de presentacion
     const fechaFixed = fixSingleFecha(
@@ -84,9 +78,6 @@ function vencimientoPagareFixer(
   }
 
   if ( thirdFecha && thirdFecha.length <= 12 ) {
-    console.log(
-      thirdFecha.length
-    );
 
     //* Es una la primer fecha de presentacion
     const fechaFixed = fixSingleFecha(
@@ -102,9 +93,7 @@ function vencimientoPagareFixer(
 
 
   if ( fourthFecha && fourthFecha.length <= 12 ) {
-    console.log(
-      fourthFecha.length
-    );
+
 
     //* Es una la primer fecha de presentacion
     const fechaFixed = fixSingleFecha(
@@ -123,7 +112,7 @@ function vencimientoPagareFixer(
   );
 }
 
-function capitalBuilder(
+function capitalBuilder (
   capitalAdeudado: string | number
 ) {
   let moneyBuilder;
@@ -145,16 +134,13 @@ function capitalBuilder(
   const commaTaker = dotTaker.replaceAll(
     ',', ''
   );
-  console.log(
-    commaTaker
-  );
 
   return Number(
     commaTaker
   );
 }
 
-export function juzgadosByProceso(
+export function juzgadosByProceso (
   procesos: intProceso[]
 ) {
   if ( procesos.length === 0 ) {
@@ -178,7 +164,7 @@ export function juzgadosByProceso(
 }
 
 export class NewJuzgado implements Juzgado {
-  constructor(
+  constructor (
     proceso: intProceso
   ) {
     const matchedDespacho = Despachos.find(
@@ -211,8 +197,7 @@ export class NewJuzgado implements Juzgado {
 
         if ( indexOfDesp >= 0 ) {
           console.log(
-            `procesos despacho is in despachos ${
-              indexOfDesp + 1
+            `procesos despacho is in despachos ${ indexOfDesp + 1
             }`
           );
         }
@@ -250,7 +235,7 @@ export class NewJuzgado implements Juzgado {
 
 export class ClassDemanda implements IntDemanda {
   obligacion: string[];
-  constructor(
+  constructor (
     {
       capitalAdeudado,
       entregaGarantiasAbogado,

@@ -1,4 +1,6 @@
 {
+  "_id": 374,
+  "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
     "nombre": "ELIZABETH YAYA SIERRA",
@@ -51,14 +53,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308620180006700",
-  "numero": 374,
-  "revisado": true,
-  "terminado": true,
-  "tipoProceso": "HIPOTECARIO",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:18:16.269Z",
   "nombre": "JHOAN ANTONIO BARAJAS MONTENEGRO",
-  "actuaciones": [],
+  "numero": 374,
   "procesos": [
     {
       "idProceso": 81895161,
@@ -77,5 +73,10 @@
         "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
       }
     }
-  ]
+  ],
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:28:41.060Z"
 }

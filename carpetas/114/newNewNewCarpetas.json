@@ -1,4 +1,24 @@
 {
+  "_id": 114,
+  "actuaciones": [
+    {
+      "idRegActuacion": 910128311,
+      "llaveProceso": "25754418900220170075200",
+      "consActuacion": 8615264,
+      "fechaActuacion": "2019-08-22T05:00:00.000Z",
+      "actuacion": "AUTO EMPLAZA",
+      "anotacion": "EMPLAZAMIENTO DE LAS PERSONAS QUE TENGAN CRÉDITOS CON TÍTULOS DE EJECUCIÓN CONTRA ABUNDIO BOHÓRQUEZ.",
+      "fechaInicial": "2019-08-22T05:00:00.000Z",
+      "fechaFinal": "2019-09-12T05:00:00.000Z",
+      "fechaRegistro": "2019-08-22T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 1,
+      "idProceso": 86396721,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:26:54.760Z"
+    }
+  ],
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
@@ -54,7 +74,27 @@
   ],
   "idRegUltimaAct": 910128311,
   "llaveProceso": "25754418900220170075200",
+  "nombre": "JOSE ANTONIO CAICEDO RUIZ",
   "numero": 114,
+  "procesos": [
+    {
+      "idProceso": 86396721,
+      "idConexion": 320,
+      "llaveProceso": "25754418900220170075200",
+      "fechaProceso": "2019-08-22T05:00:00.000Z",
+      "fechaUltimaActuacion": "2019-08-22T05:00:00.000Z",
+      "despacho": "JUZGADO 002 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SOACHA ",
+      "departamento": "CUNDINAMARCA",
+      "sujetosProcesales": "Demandante/accionante: ALVARO  CARRILLO  | Demandado/indiciado/causante: ABUNDIO  BOHORQUEZ VILLAMIL | Demandado/indiciado/causante: ACREEDORES DE ABUNDIO BOHORQUEZ    (Emplazado) | Defensor Privado: sANDER SENEY SIERRA CORREDOR ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 2,
+        "tipo": "JUZGADO 002 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SOACHA ",
+        "url": "https://www.ramajudicial.gov.cojuzgado-002-de-pequeñas-causas--y-competencia-múltiple-de-soacha-"
+      }
+    }
+  ],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
@@ -74,44 +114,5 @@
     "idProceso": 86396721,
     "isUltimaAct": false
   },
-  "updatedAt": "2023-12-13T06:16:27.239Z",
-  "nombre": "JOSE ANTONIO CAICEDO RUIZ",
-  "actuaciones": [
-    {
-      "idRegActuacion": 910128311,
-      "llaveProceso": "25754418900220170075200",
-      "consActuacion": 8615264,
-      "fechaActuacion": "2019-08-22T05:00:00.000Z",
-      "actuacion": "AUTO EMPLAZA",
-      "anotacion": "EMPLAZAMIENTO DE LAS PERSONAS QUE TENGAN CRÉDITOS CON TÍTULOS DE EJECUCIÓN CONTRA ABUNDIO BOHÓRQUEZ.",
-      "fechaInicial": "2019-08-22T05:00:00.000Z",
-      "fechaFinal": "2019-09-12T05:00:00.000Z",
-      "fechaRegistro": "2019-08-22T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 1,
-      "idProceso": 86396721,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:16:27.388Z"
-    }
-  ],
-  "procesos": [
-    {
-      "idProceso": 86396721,
-      "idConexion": 320,
-      "llaveProceso": "25754418900220170075200",
-      "fechaProceso": "2019-08-22T05:00:00.000Z",
-      "fechaUltimaActuacion": "2019-08-22T05:00:00.000Z",
-      "despacho": "JUZGADO 002 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SOACHA ",
-      "departamento": "CUNDINAMARCA",
-      "sujetosProcesales": "Demandante/accionante: ALVARO  CARRILLO  | Demandado/indiciado/causante: ABUNDIO  BOHORQUEZ VILLAMIL | Demandado/indiciado/causante: ACREEDORES DE ABUNDIO BOHORQUEZ    (Emplazado) | Defensor Privado: sANDER SENEY SIERRA CORREDOR ",
-      "esPrivado": false,
-      "cantFilas": -1,
-      "juzgado": {
-        "id": 2,
-        "tipo": "JUZGADO 002 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE SOACHA ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-002-de-pequeñas-causas--y-competencia-múltiple-de-soacha-"
-      }
-    }
-  ]
+  "updatedAt": "2023-12-14T09:26:54.584Z"
 }

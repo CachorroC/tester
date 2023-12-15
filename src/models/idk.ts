@@ -17,9 +17,6 @@ export function fechaPresentacionBuilder(
   const {
     length: rawFechaPresentacionLength
   }= rawFechaPresentacion;
-  console.log(
-    rawFechaPresentacionLength
-  );
 
   if ( rawFechaPresentacionLength <= 12 ) {
     //* Hay solamente una fecha
@@ -48,9 +45,6 @@ export function fechaPresentacionBuilder(
 
 
   if ( firstFecha && firstFecha.length <= 12 ) {
-    console.log(
-      firstFecha.length
-    );
 
     //* Es una la primer fecha de presentacion
     const fechaFixed = fixSingleFecha(
@@ -65,9 +59,6 @@ export function fechaPresentacionBuilder(
   }
 
   if ( secondFecha && secondFecha.length <= 12 ) {
-    console.log(
-      secondFecha.length
-    );
 
     //* Es una la primer fecha de presentacion
     const fechaFixed = fixSingleFecha(
@@ -82,10 +73,6 @@ export function fechaPresentacionBuilder(
   }
 
   if ( thirdFecha && thirdFecha.length <= 12 ) {
-    console.log(
-      thirdFecha.length
-    );
-
     //* Es una la primer fecha de presentacion
     const fechaFixed = fixSingleFecha(
       thirdFecha
@@ -100,9 +87,6 @@ export function fechaPresentacionBuilder(
 
 
   if ( fourthFecha && fourthFecha.length <= 12 ) {
-    console.log(
-      fourthFecha.length
-    );
 
     //* Es una la primer fecha de presentacion
     const fechaFixed = fixSingleFecha(
@@ -138,20 +122,6 @@ export function fixSingleFecha(
     return null;
   }
 
-  console.log(
-    rawDay.padStart(
-      2, '0'
-    )
-  );
-  console.log(
-    rawMonth
-  );
-  console.log(
-    `rawYear ${ rawYear } es ${ rawYear.padStart(
-      4, '20'
-    ) }`
-  );
-
   const stringDate = new Date(
     Number(
       rawYear.padStart(
@@ -166,10 +136,6 @@ export function fixSingleFecha(
         2, '0'
       )
     )
-  );
-
-  console.log(
-    `la nueva fecha del pagaré arrojó: ${ stringDate.toDateString() }`
   );
 
   if ( stringDate.toString() === 'Invalid Date' ) {

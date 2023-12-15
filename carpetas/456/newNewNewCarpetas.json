@@ -1,4 +1,6 @@
 {
+  "_id": 456,
+  "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
@@ -59,14 +61,8 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "11001410375120180112100",
-  "numero": 456,
-  "revisado": true,
-  "terminado": true,
-  "tipoProceso": "SINGULAR",
-  "ultimaActuacion": null,
-  "updatedAt": "2023-12-13T06:18:45.671Z",
   "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)",
-  "actuaciones": [],
+  "numero": 456,
   "procesos": [
     {
       "idProceso": 95877041,
@@ -85,5 +81,10 @@
         "url": "https://www.ramajudicial.gov.cojuzgado-751-civil-municipal-de-pequeñas-causas-de-bogotá-"
       }
     }
-  ]
+  ],
+  "revisado": true,
+  "terminado": true,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2023-12-14T09:29:15.978Z"
 }

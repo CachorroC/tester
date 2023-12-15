@@ -1,4 +1,75 @@
 {
+  "_id": 588,
+  "actuaciones": [
+    {
+      "idRegActuacion": 1934876520,
+      "llaveProceso": "11001400308620230158700",
+      "consActuacion": 4,
+      "fechaActuacion": "2023-11-02T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 02/11/2023 a las 11:27:40.",
+      "fechaInicial": "2023-11-03T05:00:00.000Z",
+      "fechaFinal": "2023-11-03T05:00:00.000Z",
+      "fechaRegistro": "2023-11-02T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 134200460,
+      "isUltimaAct": true,
+      "createdAt": "2023-12-14T09:29:54.591Z"
+    },
+    {
+      "idRegActuacion": 1934876510,
+      "llaveProceso": "11001400308620230158700",
+      "consActuacion": 3,
+      "fechaActuacion": "2023-11-02T05:00:00.000Z",
+      "actuacion": "AUTO RECHAZA DEMANDA",
+      "anotacion": "RECHAZA DEMANDA POR COMPETENCIA",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-11-02T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 134200460,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:29:54.597Z"
+    },
+    {
+      "idRegActuacion": 1912952690,
+      "llaveProceso": "11001400308620230158700",
+      "consActuacion": 2,
+      "fechaActuacion": "2023-10-20T05:00:00.000Z",
+      "actuacion": "Al despacho",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-10-20T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 134200460,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:29:54.601Z"
+    },
+    {
+      "idRegActuacion": 1912952680,
+      "llaveProceso": "11001400308620230158700",
+      "consActuacion": 1,
+      "fechaActuacion": "2023-10-20T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 20/10/2023 a las 18:54:03",
+      "fechaInicial": "2023-10-20T05:00:00.000Z",
+      "fechaFinal": "2023-10-20T05:00:00.000Z",
+      "fechaRegistro": "2023-10-20T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 134200460,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:29:54.606Z"
+    }
+  ],
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
@@ -45,7 +116,27 @@
   ],
   "idRegUltimaAct": 1934876520,
   "llaveProceso": "11001400308620230158700",
+  "nombre": "KAREN ALEXANDRA CASTAÑEDA GUERRERO",
   "numero": 588,
+  "procesos": [
+    {
+      "idProceso": 134200460,
+      "idConexion": 259,
+      "llaveProceso": "11001400308620230158700",
+      "fechaProceso": "2023-10-20T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-11-02T05:00:00.000Z",
+      "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: KAREN ALEXANDRA CASTAÑEDA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 86,
+        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
+      }
+    }
+  ],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
@@ -65,95 +156,5 @@
     "idProceso": 134200460,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-13T06:08:24.105Z",
-  "nombre": "KAREN ALEXANDRA CASTAÑEDA GUERRERO",
-  "actuaciones": [
-    {
-      "idRegActuacion": 1934876520,
-      "llaveProceso": "11001400308620230158700",
-      "consActuacion": 4,
-      "fechaActuacion": "2023-11-02T05:00:00.000Z",
-      "actuacion": "Fijacion estado",
-      "anotacion": "Actuación registrada el 02/11/2023 a las 11:27:40.",
-      "fechaInicial": "2023-11-03T05:00:00.000Z",
-      "fechaFinal": "2023-11-03T05:00:00.000Z",
-      "fechaRegistro": "2023-11-02T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 4,
-      "idProceso": 134200460,
-      "isUltimaAct": true,
-      "createdAt": "2023-12-13T06:08:24.344Z"
-    },
-    {
-      "idRegActuacion": 1934876510,
-      "llaveProceso": "11001400308620230158700",
-      "consActuacion": 3,
-      "fechaActuacion": "2023-11-02T05:00:00.000Z",
-      "actuacion": "AUTO RECHAZA DEMANDA",
-      "anotacion": "RECHAZA DEMANDA POR COMPETENCIA",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-11-02T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 4,
-      "idProceso": 134200460,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:08:24.353Z"
-    },
-    {
-      "idRegActuacion": 1912952690,
-      "llaveProceso": "11001400308620230158700",
-      "consActuacion": 2,
-      "fechaActuacion": "2023-10-20T05:00:00.000Z",
-      "actuacion": "Al despacho",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-10-20T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 4,
-      "idProceso": 134200460,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:08:24.361Z"
-    },
-    {
-      "idRegActuacion": 1912952680,
-      "llaveProceso": "11001400308620230158700",
-      "consActuacion": 1,
-      "fechaActuacion": "2023-10-20T05:00:00.000Z",
-      "actuacion": " Radicación de Proceso",
-      "anotacion": "Actuación de  Radicación de Proceso  realizada el 20/10/2023 a las 18:54:03",
-      "fechaInicial": "2023-10-20T05:00:00.000Z",
-      "fechaFinal": "2023-10-20T05:00:00.000Z",
-      "fechaRegistro": "2023-10-20T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 4,
-      "idProceso": 134200460,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:08:24.367Z"
-    }
-  ],
-  "procesos": [
-    {
-      "idProceso": 134200460,
-      "idConexion": 259,
-      "llaveProceso": "11001400308620230158700",
-      "fechaProceso": "2023-10-20T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-11-02T05:00:00.000Z",
-      "despacho": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: KAREN ALEXANDRA CASTAÑEDA ",
-      "esPrivado": false,
-      "cantFilas": -1,
-      "juzgado": {
-        "id": 86,
-        "tipo": "JUZGADO 086 CIVIL MUNICIPAL DE BOGOTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-086-civil-municipal-de-bogota"
-      }
-    }
-  ]
+  "updatedAt": "2023-12-14T09:29:54.266Z"
 }

@@ -1,4 +1,75 @@
 {
+  "_id": 76,
+  "actuaciones": [
+    {
+      "idRegActuacion": 964317241,
+      "llaveProceso": "25183400300120170011900",
+      "consActuacion": 14540213,
+      "fechaActuacion": "2020-11-04T05:00:00.000Z",
+      "actuacion": "FIJACION ESTADO",
+      "anotacion": "",
+      "fechaInicial": "2020-11-04T05:00:00.000Z",
+      "fechaFinal": "2020-11-06T05:00:00.000Z",
+      "fechaRegistro": "2020-11-03T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 86212271,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:26:38.375Z"
+    },
+    {
+      "idRegActuacion": 964317311,
+      "llaveProceso": "25183400300120170011900",
+      "consActuacion": 14540212,
+      "fechaActuacion": "2020-11-03T05:00:00.000Z",
+      "actuacion": "aUTO DECIDE",
+      "anotacion": "DEJA SIN VALOR Y EFECTO RECONOCE SUBROGATARIO",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2020-11-03T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": true,
+      "cant": 4,
+      "idProceso": 86212271,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:26:38.380Z"
+    },
+    {
+      "idRegActuacion": 961709631,
+      "llaveProceso": "25183400300120170011900",
+      "consActuacion": 14379614,
+      "fechaActuacion": "2020-10-21T05:00:00.000Z",
+      "actuacion": "AL DESPACHO",
+      "anotacion": "",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2020-10-21T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 4,
+      "idProceso": 86212271,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:26:38.384Z"
+    },
+    {
+      "idRegActuacion": 961710411,
+      "llaveProceso": "25183400300120170011900",
+      "consActuacion": 14379604,
+      "fechaActuacion": "2020-10-21T05:00:00.000Z",
+      "actuacion": "CONSTANCIA DE TERMINOS",
+      "anotacion": "",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2020-10-21T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": true,
+      "cant": 4,
+      "idProceso": 86212271,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-14T09:26:38.388Z"
+    }
+  ],
   "category": "Terminados",
   "codeudor": {
     "nombre": "ADELMO ABRIL FORERO",
@@ -56,7 +127,27 @@
   ],
   "idRegUltimaAct": 964317241,
   "llaveProceso": "25183400300120170011900",
+  "nombre": "ESTELA MARIN GARZÓN",
   "numero": 76,
+  "procesos": [
+    {
+      "idProceso": 86212271,
+      "idConexion": 320,
+      "llaveProceso": "25183400300120170011900",
+      "fechaProceso": "2017-06-21T05:00:00.000Z",
+      "fechaUltimaActuacion": "2020-11-04T05:00:00.000Z",
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ ",
+      "departamento": "CUNDINAMARCA",
+      "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: ADELMO  ABRIL FORERO | Demandado/indiciado/causante: STELLA  MARIN GARZON | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
+      }
+    }
+  ],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "SINGULAR",
@@ -76,95 +167,5 @@
     "idProceso": 86212271,
     "isUltimaAct": false
   },
-  "updatedAt": "2023-12-13T06:16:12.284Z",
-  "nombre": "ESTELA MARIN GARZÓN",
-  "actuaciones": [
-    {
-      "idRegActuacion": 964317241,
-      "llaveProceso": "25183400300120170011900",
-      "consActuacion": 14540213,
-      "fechaActuacion": "2020-11-04T05:00:00.000Z",
-      "actuacion": "FIJACION ESTADO",
-      "anotacion": "",
-      "fechaInicial": "2020-11-04T05:00:00.000Z",
-      "fechaFinal": "2020-11-06T05:00:00.000Z",
-      "fechaRegistro": "2020-11-03T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 4,
-      "idProceso": 86212271,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:16:12.398Z"
-    },
-    {
-      "idRegActuacion": 964317311,
-      "llaveProceso": "25183400300120170011900",
-      "consActuacion": 14540212,
-      "fechaActuacion": "2020-11-03T05:00:00.000Z",
-      "actuacion": "aUTO DECIDE",
-      "anotacion": "DEJA SIN VALOR Y EFECTO RECONOCE SUBROGATARIO",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2020-11-03T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": true,
-      "cant": 4,
-      "idProceso": 86212271,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:16:12.403Z"
-    },
-    {
-      "idRegActuacion": 961709631,
-      "llaveProceso": "25183400300120170011900",
-      "consActuacion": 14379614,
-      "fechaActuacion": "2020-10-21T05:00:00.000Z",
-      "actuacion": "AL DESPACHO",
-      "anotacion": "",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2020-10-21T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 4,
-      "idProceso": 86212271,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:16:12.408Z"
-    },
-    {
-      "idRegActuacion": 961710411,
-      "llaveProceso": "25183400300120170011900",
-      "consActuacion": 14379604,
-      "fechaActuacion": "2020-10-21T05:00:00.000Z",
-      "actuacion": "CONSTANCIA DE TERMINOS",
-      "anotacion": "",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2020-10-21T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": true,
-      "cant": 4,
-      "idProceso": 86212271,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-13T06:16:12.416Z"
-    }
-  ],
-  "procesos": [
-    {
-      "idProceso": 86212271,
-      "idConexion": 320,
-      "llaveProceso": "25183400300120170011900",
-      "fechaProceso": "2017-06-21T05:00:00.000Z",
-      "fechaUltimaActuacion": "2020-11-04T05:00:00.000Z",
-      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ ",
-      "departamento": "CUNDINAMARCA",
-      "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: ADELMO  ABRIL FORERO | Demandado/indiciado/causante: STELLA  MARIN GARZON | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
-      "esPrivado": false,
-      "cantFilas": -1,
-      "juzgado": {
-        "id": 1,
-        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
-        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
-      }
-    }
-  ]
+  "updatedAt": "2023-12-14T09:26:38.224Z"
 }
