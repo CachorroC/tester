@@ -1,5 +1,5 @@
 {
-  "_id": 292,
+  "id": 80205694,
   "actuaciones": [],
   "category": "Reintegra",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "52831430",
     "direccion": "DIAGONAL 82B SUR No 7C - 19",
     "telefono": "3105719302",
-    "id": 292,
-    "carpetaNumero": 292
+    "id": 292
   },
   "demanda": {
     "obligacion": [
@@ -39,7 +38,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "expediente": "11001410375220170012800",
     "fechaPresentacion": [
       "2017-09-21T05:00:00.000Z"
     ],
@@ -66,7 +64,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001410375220170012800",
   "nombre": "JOHN FREDY HERREÑO RAMIREZ",
   "numero": 292,
@@ -75,5 +72,5 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:28:08.538Z"
+  "updatedAt": "2023-12-30T21:54:14.424Z"
 }

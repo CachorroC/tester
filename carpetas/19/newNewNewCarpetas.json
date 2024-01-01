@@ -1,5 +1,5 @@
 {
-  "_id": 19,
+  "id": 80001905,
   "actuaciones": [
     {
       "idRegActuacion": 683021000,
@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:26:16.170Z"
+      "createdAt": "2023-12-30T21:53:14.978Z"
     },
     {
       "idRegActuacion": 683020990,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:16.180Z"
+      "createdAt": "2023-12-30T21:53:14.978Z"
     },
     {
       "idRegActuacion": 683020980,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:16.189Z"
+      "createdAt": "2023-12-30T21:53:14.978Z"
     },
     {
       "idRegActuacion": 683020970,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:16.197Z"
+      "createdAt": "2023-12-30T21:53:14.978Z"
     },
     {
       "idRegActuacion": 683020960,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:16.203Z"
+      "createdAt": "2023-12-30T21:53:14.978Z"
     },
     {
       "idRegActuacion": 683020950,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:16.208Z"
+      "createdAt": "2023-12-30T21:53:14.978Z"
     },
     {
       "idRegActuacion": 683020940,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:16.217Z"
+      "createdAt": "2023-12-30T21:53:14.978Z"
     },
     {
       "idRegActuacion": 683020930,
@@ -135,7 +135,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:16.226Z"
+      "createdAt": "2023-12-30T21:53:14.978Z"
     }
   ],
   "category": "Terminados",
@@ -144,8 +144,7 @@
     "cedula": "52171586",
     "direccion": "CARRERA 88 C No 42 - 20 SUR",
     "telefono": "4062058",
-    "id": 19,
-    "carpetaNumero": 19
+    "id": 19
   },
   "demanda": {
     "obligacion": [
@@ -163,7 +162,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "11001400302120170175500",
     "fechaPresentacion": [
       "2017-09-25T05:00:00.000Z"
     ],
@@ -234,5 +232,5 @@
     "idProceso": 50869770,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:26:15.879Z"
+  "updatedAt": "2023-12-30T21:53:14.900Z"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": 38,
+  "id": 39808625,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
@@ -23,7 +23,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-06T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "expediente": "25785418900120170010200",
     "fechaPresentacion": [
       "2017-06-15T05:00:00.000Z"
     ],
@@ -50,7 +49,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25785418900120170010200",
   "nombre": "LUZ MIRYAM GUTÍERREZ MARTÍNEZ",
   "numero": 38,
@@ -59,5 +57,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:26:21.825Z"
+  "updatedAt": "2023-12-30T21:53:17.883Z"
 }

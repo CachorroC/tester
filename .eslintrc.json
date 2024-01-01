@@ -15,10 +15,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "@typescript-eslint",
-    "@stylistic"
-  ],
+  "plugins": ["@typescript-eslint", "@stylistic"],
   "rules": {
     "@stylistic/array-element-newline": [
       "error",
@@ -27,10 +24,7 @@
         "multiline": true
       }
     ],
-    "@stylistic/comma-style": [
-      "error",
-      "first"
-    ],
+    "@stylistic/comma-style": ["error", "last"],
     "@stylistic/indent": [
       "error",
       2,
@@ -61,20 +55,14 @@
         "minItems": 2
       }
     ],
-    "array-bracket-spacing": [
-      "error",
-      "always"
-    ],
+    "array-bracket-spacing": ["error", "always"],
     "array-callback-return": [
       "error",
       {
         "checkForEach": true
       }
     ],
-    "arrow-body-style": [
-      "error",
-      "always"
-    ],
+    "arrow-body-style": ["error", "always"],
     "arrow-spacing": "error",
     "brace-style": "error",
     "comma-spacing": [
@@ -84,16 +72,10 @@
         "before": false
       }
     ],
-    "computed-property-spacing": [
-      "error",
-      "always"
-    ],
+    "computed-property-spacing": ["error", "always"],
     "consistent-return": "error",
     "curly": "error",
-    "func-call-spacing": [
-      "error",
-      "never"
-    ],
+    "func-call-spacing": ["error", "never"],
     "function-paren-newline": [
       "error",
       {
@@ -108,15 +90,9 @@
       }
     ],
     "keyword-spacing": "error",
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
+    "linebreak-style": ["error", "unix"],
     "max-statements-per-line": "error",
-    "multiline-ternary": [
-      "error",
-      "always"
-    ],
+    "multiline-ternary": ["error", "always"],
     "newline-per-chained-call": [
       "error",
       {
@@ -153,15 +129,9 @@
         }
       }
     ],
-    "object-curly-spacing": [
-      "error",
-      "always"
-    ],
+    "object-curly-spacing": ["error", "always"],
     "object-property-newline": "error",
-    "operator-linebreak": [
-      "error",
-      "before"
-    ],
+    "operator-linebreak": ["error", "before"],
     "padding-line-between-statements": [
       "error",
       {
@@ -203,23 +173,11 @@
         "enforceForRenamedProperties": false
       }
     ],
-    "quotes": [
-      "error",
-      "single"
-    ],
+    "quotes": ["error", "single"],
     "semi": "error",
     "space-before-blocks": "error",
-    "space-in-parens": [
-      "error",
-      "always"
-    ],
-    "template-curly-spacing": [
-      "error",
-      "always"
-    ],
-    "template-tag-spacing": [
-      "error",
-      "always"
-    ]
+    "space-in-parens": ["error", "always"],
+    "template-curly-spacing": ["error", "always"],
+    "template-tag-spacing": ["error", "always"]
   }
 }

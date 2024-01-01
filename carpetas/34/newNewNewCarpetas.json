@@ -1,5 +1,5 @@
 {
-  "_id": 34,
+  "id": 1070612757,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": null,
     "telefono": "4762591//3118113651",
-    "id": 34,
-    "carpetaNumero": 34
+    "id": 34
   },
   "demanda": {
     "obligacion": [
@@ -31,7 +30,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "25307400300320170033000",
     "fechaPresentacion": [
       "2017-06-08T05:00:00.000Z"
     ],
@@ -58,7 +56,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25307400300320170033000",
   "nombre": "KAREN JULIETH PINZON GUTIERREZ",
   "numero": 34,
@@ -67,5 +64,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:26:20.504Z"
+  "updatedAt": "2023-12-30T21:53:17.060Z"
 }

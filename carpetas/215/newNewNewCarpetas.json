@@ -1,5 +1,5 @@
 {
-  "_id": 215,
+  "id": 36458257,
   "actuaciones": [
     {
       "idRegActuacion": 602065020,
@@ -16,7 +16,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:27:35.656Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602065010,
@@ -33,7 +33,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.664Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602065000,
@@ -50,7 +50,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.671Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064990,
@@ -67,7 +67,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.678Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064980,
@@ -84,7 +84,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.686Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064970,
@@ -101,7 +101,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.694Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064960,
@@ -118,7 +118,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.704Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064950,
@@ -135,7 +135,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.714Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064940,
@@ -152,7 +152,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.724Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064930,
@@ -169,7 +169,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.733Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064920,
@@ -186,7 +186,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.742Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064910,
@@ -203,7 +203,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.751Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064900,
@@ -220,7 +220,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.760Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064890,
@@ -237,7 +237,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.769Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     },
     {
       "idRegActuacion": 602064880,
@@ -254,7 +254,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:35.778Z"
+      "createdAt": "2023-12-30T21:53:57.343Z"
     }
   ],
   "category": "Terminados",
@@ -263,8 +263,7 @@
     "cedula": "80228299",
     "direccion": "CARRERA 98B # 14 - 06 PUEBLO NUEVO 1",
     "telefono": "4185127",
-    "id": 215,
-    "carpetaNumero": 215
+    "id": 215
   },
   "demanda": {
     "obligacion": [
@@ -292,7 +291,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400300820170127300",
     "fechaPresentacion": [
       "2017-09-04T05:00:00.000Z"
     ],
@@ -319,8 +317,7 @@
   },
   "fecha": "2018-03-08T05:00:00.000Z",
   "idProcesos": [
-    50776700,
-    81589821
+    50776700
   ],
   "idRegUltimaAct": 602065020,
   "llaveProceso": "11001400300820170127300",
@@ -381,5 +378,5 @@
     "idProceso": 50776700,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:27:35.315Z"
+  "updatedAt": "2023-12-30T21:53:57.271Z"
 }

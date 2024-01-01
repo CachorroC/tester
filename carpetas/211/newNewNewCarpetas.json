@@ -1,5 +1,5 @@
 {
-  "_id": 211,
+  "id": 17652071,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "52901502",
     "direccion": "CARRERA 4 # 11 - 44 // CL 64 D No. 69-22",
     "telefono": "7555569",
-    "id": 211,
-    "carpetaNumero": 211
+    "id": 211
   },
   "demanda": {
     "obligacion": [
@@ -39,7 +38,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "25286400300120180010500",
-    "expediente": "25473400300120180010500",
     "fechaPresentacion": [],
     "mandamientoPago": "2017-06-09T05:00:00.000Z",
     "municipio": "MOSQUERA",
@@ -64,7 +62,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25473400300120180010500",
   "nombre": "SAUL BARBOSA RAMIREZ",
   "numero": 211,
@@ -73,5 +70,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:34.580Z"
+  "updatedAt": "2023-12-30T21:53:57.123Z"
 }

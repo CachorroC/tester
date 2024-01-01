@@ -253,6 +253,29 @@ export class ClassDemanda implements IntDemanda {
       vencimientoPagare,
     }: DemandaRaw,
   ) {
+    if ( medidasCautelares ) {
+      const {
+        fechaOrdenaMedidas, medidaSolicitada
+      } = medidasCautelares;
+
+      const newFechaOrdenaMedida =fechaOrdenaMedidas
+        ?  new Date(
+          fechaOrdenaMedidas
+        )
+        : new Date();
+      this.medidasCautelares = {
+
+        fechaOrdenaMedida: newFechaOrdenaMedida.toString() === 'Invalid Date'
+          ? null
+          : newFechaOrdenaMedida,
+        medidaSolicitada: medidaSolicitada
+          ? medidaSolicitada
+          : null
+      };
+    } else {
+      this.medidasCautelares = null;
+    }
+
     const obligacionesSet = new Set<string>();
 
     if ( obligacion ) {
@@ -327,9 +350,6 @@ export class ClassDemanda implements IntDemanda {
       }
     }
 
-    this.expediente = llaveProceso
-      ? llaveProceso
-      : null;
 
     this.capitalAdeudado = capitalBuilder(
       capitalAdeudado
@@ -359,18 +379,6 @@ export class ClassDemanda implements IntDemanda {
       ? departamento
       : null;
     this.despacho = null;
-    this.medidasCautelares = medidasCautelares
-      ? {
-          fechaOrdenaMedida: medidasCautelares.fechaOrdenaMedidas
-            ? new Date(
-              medidasCautelares.fechaOrdenaMedidas
-            )
-            : null
-          , medidaSolicitada: medidasCautelares.medidaSolicitada
-            ? medidasCautelares.medidaSolicitada
-            : null
-        }
-      : null;
     this.llaveProceso = llaveProceso;
   }
 
@@ -383,7 +391,6 @@ export class ClassDemanda implements IntDemanda {
   despacho: string | null;
   entregaGarantiasAbogado: Date | null;
   etapaProcesal: string | null;
-  expediente: string | null;
   fechaPresentacion: Date[];
   id!: number;
   mandamientoPago: Date | null;

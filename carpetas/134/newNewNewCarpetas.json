@@ -1,5 +1,5 @@
 {
-  "_id": 134,
+  "id": 80722626,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "23473890",
     "direccion": "CALLE 31 # 3A 28",
     "telefono": "3138687321",
-    "id": 134,
-    "carpetaNumero": 134
+    "id": 134
   },
   "demanda": {
     "obligacion": [
@@ -23,7 +22,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "25430400300120170108300",
     "fechaPresentacion": [
       "2017-08-24T05:00:00.000Z"
     ],
@@ -50,7 +48,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25430400300120170108300",
   "nombre": "FREDY ALEXANDER BUENO PARADA",
   "numero": 134,
@@ -59,5 +56,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:04.150Z"
+  "updatedAt": "2023-12-30T21:53:40.200Z"
 }

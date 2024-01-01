@@ -1,5 +1,5 @@
 {
-  "_id": 506,
+  "id": 1023891419,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
@@ -24,7 +24,7 @@
       "autoNotificado": "CERTIMAIL"
     },
     "medidasCautelares": {
-      "fechaOrdenaMedida": null,
+      "fechaOrdenaMedida": "2023-12-30T21:54:53.130Z",
       "medidaSolicitada": "24/07/2019"
     },
     "capitalAdeudado": null,
@@ -32,7 +32,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "11001400300420210061100",
-    "expediente": "11001418903120180138000",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -57,7 +56,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001418903120180138000",
   "nombre": "EDWIN CAMILO SARMIENTO GOMEZ",
   "numero": 506,
@@ -66,5 +64,5 @@
   "terminado": true,
   "tipoProceso": "ACUMULADO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:29.249Z"
+  "updatedAt": "2023-12-30T21:54:53.130Z"
 }

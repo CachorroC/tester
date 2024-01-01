@@ -1,5 +1,5 @@
 {
-  "_id": 84,
+  "id": 79108747,
   "actuaciones": [],
   "category": "Reintegra",
   "codeudor": null,
@@ -28,7 +28,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "expediente": "11001400303920170080000",
     "fechaPresentacion": [
       "2017-06-14T05:00:00.000Z"
     ],
@@ -55,7 +54,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001400303920170080000",
   "nombre": "EDGAR HERNANDEZ RUBIO",
   "numero": 84,
@@ -64,5 +62,5 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:26:41.086Z"
+  "updatedAt": "2023-12-30T21:53:28.500Z"
 }

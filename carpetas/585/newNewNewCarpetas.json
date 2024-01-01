@@ -1,5 +1,5 @@
 {
-  "_id": 585,
+  "id": 41336003,
   "actuaciones": [
     {
       "idRegActuacion": 1938881310,
@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:29:53.813Z"
+      "createdAt": "2023-12-30T21:55:03.224Z"
     },
     {
       "idRegActuacion": 1938881300,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:53.818Z"
+      "createdAt": "2023-12-30T21:55:03.224Z"
     },
     {
       "idRegActuacion": 1938727050,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:53.822Z"
+      "createdAt": "2023-12-30T21:55:03.224Z"
     },
     {
       "idRegActuacion": 1918057590,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:53.827Z"
+      "createdAt": "2023-12-30T21:55:03.224Z"
     },
     {
       "idRegActuacion": 1918057580,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:53.832Z"
+      "createdAt": "2023-12-30T21:55:03.224Z"
     },
     {
       "idRegActuacion": 1902260070,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:53.836Z"
+      "createdAt": "2023-12-30T21:55:03.224Z"
     },
     {
       "idRegActuacion": 1902260060,
@@ -118,7 +118,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:53.841Z"
+      "createdAt": "2023-12-30T21:55:03.224Z"
     }
   ],
   "category": "Bancolombia",
@@ -136,7 +136,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "11001418907020230039900",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -207,5 +206,5 @@
     "idProceso": 133932120,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:29:53.515Z"
+  "updatedAt": "2023-12-30T21:55:03.176Z"
 }

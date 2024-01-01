@@ -16,8 +16,8 @@ async function quicktypeJSON(
   // just making one type from one piece of sample JSON.
   await jsonInput.addSource(
     {
-      name   : typeName
-      , samples: [ jsonString ]
+      name   : typeName,
+      samples: [ jsonString ]
     }
   );
 
@@ -28,8 +28,8 @@ async function quicktypeJSON(
 
   return await quicktype(
     {
-      inputData
-      , lang: targetLanguage
+      inputData,
+      lang: targetLanguage
     }
   );
 }
@@ -45,8 +45,8 @@ async function quicktypeJSONSchema(
   // but here we're just making one type from JSON schema.
   await schemaInput.addSource(
     {
-      name  : typeName
-      , schema: jsonSchemaString
+      name  : typeName,
+      schema: jsonSchemaString
     }
   );
 
@@ -57,8 +57,8 @@ async function quicktypeJSONSchema(
 
   return await quicktype(
     {
-      inputData
-      , lang: targetLanguage
+      inputData,
+      lang: targetLanguage
     }
   );
 }

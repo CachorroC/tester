@@ -1,5 +1,5 @@
 {
-  "_id": 76,
+  "id": 20493423,
   "actuaciones": [
     {
       "idRegActuacion": 964317241,
@@ -16,7 +16,7 @@
       "cant": 4,
       "idProceso": 86212271,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.375Z"
+      "createdAt": "2023-12-30T21:53:27.143Z"
     },
     {
       "idRegActuacion": 964317311,
@@ -33,7 +33,7 @@
       "cant": 4,
       "idProceso": 86212271,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.380Z"
+      "createdAt": "2023-12-30T21:53:27.143Z"
     },
     {
       "idRegActuacion": 961709631,
@@ -50,7 +50,7 @@
       "cant": 4,
       "idProceso": 86212271,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.384Z"
+      "createdAt": "2023-12-30T21:53:27.143Z"
     },
     {
       "idRegActuacion": 961710411,
@@ -67,7 +67,7 @@
       "cant": 4,
       "idProceso": 86212271,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.388Z"
+      "createdAt": "2023-12-30T21:53:27.143Z"
     }
   ],
   "category": "Terminados",
@@ -76,8 +76,7 @@
     "cedula": "80394005",
     "direccion": "CALLE 8 # 2 - 32 CHOCONTA",
     "telefono": "3143782313",
-    "id": 76,
-    "carpetaNumero": 76
+    "id": 76
   },
   "demanda": {
     "obligacion": [
@@ -98,7 +97,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "25183400300120170011900",
-    "expediente": "25183400300120170011900",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "CHOCONTA",
@@ -167,5 +165,5 @@
     "idProceso": 86212271,
     "isUltimaAct": false
   },
-  "updatedAt": "2023-12-14T09:26:38.224Z"
+  "updatedAt": "2023-12-30T21:53:27.108Z"
 }

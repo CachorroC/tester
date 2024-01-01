@@ -1,5 +1,5 @@
 {
-  "_id": 53,
+  "id": 53051476,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "79263455",
     "direccion": "calle 64 no. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60",
     "telefono": "2241552//3212307798",
-    "id": 53,
-    "carpetaNumero": 53
+    "id": 53
   },
   "demanda": {
     "obligacion": [
@@ -31,7 +30,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "expediente": "11001400308520170097500",
     "fechaPresentacion": [
       "2017-06-21T05:00:00.000Z"
     ],
@@ -58,7 +56,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001400308520170097500",
   "nombre": "DIANA MARCELA SANCHEZ LOZANO",
   "numero": 53,
@@ -67,5 +64,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:26:28.132Z"
+  "updatedAt": "2023-12-30T21:53:21.071Z"
 }

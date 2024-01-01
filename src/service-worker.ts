@@ -10,42 +10,49 @@ const OFFLINE_URL = '/offline';
 
 self.addEventListener(
   'install', (
-    event 
+    event
   ) => {
     event.waitUntil(
       ( async () => {
         const cache = await caches.open(
-          CACHE_NAME 
+          CACHE_NAME
         );
-        await cache.add(
-          new Request(
-            OFFLINE_URL, {
-              cache: 'reload',
-            } 
-          ),
+        await cache.addAll(
+          [
+            '/despachos.json',
+            'offline.html',
+            new Request(
+              OFFLINE_URL, {
+                cache: 'reload',
+              }
+            ),
+          ]
         );
       } )(),
     );
     self.skipWaiting();
-  } 
+  }
 );
 self.addEventListener(
   'activate', (
-    event 
+    event
   ) => {
     event.waitUntil(
-      ( async () => {
+      ( async ():Promise<void > => {
         if ( 'navigationPreload' in self.registration ) {
+          console.log(
+            `navigationPreload in ${ self.registration }`
+          );
           await self.registration.navigationPreload.enable();
         }
       } )(),
     );
     self.clients.claim();
-  } 
+  }
 );
 self.addEventListener(
   'fetch', (
-    event 
+    event
   ) => {
     if ( event.request.mode === 'navigate' ) {
       event.respondWith(
@@ -58,21 +65,21 @@ self.addEventListener(
             }
 
             const networkResponse = await fetch(
-              event.request 
+              event.request
             );
 
             return networkResponse;
           } catch ( error ) {
             console.log(
-              'Fetch failed; returning offline page instead.', error 
+              'Fetch failed; returning offline page instead.', error
             );
 
             const cache = await caches.open(
-              CACHE_NAME 
+              CACHE_NAME
             );
 
             const cachedResponse = await cache.match(
-              OFFLINE_URL 
+              OFFLINE_URL
             );
 
             return cachedResponse;
@@ -80,5 +87,5 @@ self.addEventListener(
         } )(),
       );
     }
-  } 
+  }
 );

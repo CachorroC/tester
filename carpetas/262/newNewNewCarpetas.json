@@ -1,14 +1,13 @@
 {
-  "_id": 262,
+  "id": 1069737167,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
     "nombre": "RAFAEL ANTONIO MORENO FRANCO",
-    "cedula": "11.383.194",
+    "cedula": "11383194",
     "direccion": "DIAGONAL 1C No 25 B - 18  FUSAGASUFA",
     "telefono": null,
-    "id": 262,
-    "carpetaNumero": 262
+    "id": 262
   },
   "demanda": {
     "obligacion": [
@@ -30,7 +29,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-09T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "2590400300220170063100",
     "fechaPresentacion": [
       "2017-09-27T05:00:00.000Z"
     ],
@@ -57,14 +55,12 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "2590400300220170063100",
   "nombre": "RAFAEL ANDRES MORENO ZAMORA",
   "numero": 262,
-  "procesos": [],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:56.540Z"
+  "updatedAt": "2023-12-30T21:54:08.020Z"
 }

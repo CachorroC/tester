@@ -1,5 +1,5 @@
 {
-  "_id": 507,
+  "id": 80468168,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "6/08/2018",
     "telefono": null,
-    "id": 507,
-    "carpetaNumero": 507
+    "id": 507
   },
   "demanda": {
     "obligacion": [
@@ -27,7 +26,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "25843410300120180049900",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "UBATE",
@@ -50,7 +48,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25843410300120180049900",
   "nombre": "WILLIAM  YOVANY CASALLAS ROMERO",
   "numero": 507,
@@ -59,5 +56,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:29.398Z"
+  "updatedAt": "2023-12-30T21:54:53.155Z"
 }

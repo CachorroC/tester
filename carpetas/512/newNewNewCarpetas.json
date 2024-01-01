@@ -1,5 +1,5 @@
 {
-  "_id": 512,
+  "id": 1014200510,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "09/07/2033",
     "telefono": null,
-    "id": 512,
-    "carpetaNumero": 512
+    "id": 512
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "14/12/2018//13/05/2019",
-    "expediente": "25754418900320180135200",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "SOACHA",
@@ -45,7 +43,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25754418900320180135200",
   "nombre": "SANDRA MILENA MORALES GARCIA",
   "numero": 512,
@@ -54,5 +51,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:30.135Z"
+  "updatedAt": "2023-12-30T21:54:53.408Z"
 }

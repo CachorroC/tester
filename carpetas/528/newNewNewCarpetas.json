@@ -1,5 +1,5 @@
 {
-  "_id": 528,
+  "id": 1065564377,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
@@ -24,7 +24,7 @@
       "autoNotificado": "CORREO"
     },
     "medidasCautelares": {
-      "fechaOrdenaMedida": null,
+      "fechaOrdenaMedida": "2023-12-30T21:54:55.535Z",
       "medidaSolicitada": "2/12/2019"
     },
     "capitalAdeudado": null,
@@ -32,7 +32,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "25430400300120190116000",
-    "expediente": "25473400100120190116000",
     "fechaPresentacion": [],
     "mandamientoPago": "2019-02-09T05:00:00.000Z",
     "municipio": "MADRID",
@@ -57,7 +56,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25473400100120190116000",
   "nombre": "YOLADIS ESTHER BLANCO LOPEZ",
   "numero": 528,
@@ -66,5 +64,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:35.111Z"
+  "updatedAt": "2023-12-30T21:54:55.535Z"
 }

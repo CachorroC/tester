@@ -1,5 +1,5 @@
 {
-  "_id": 13,
+  "id": 447028,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "21094922",
     "direccion": "FINCA EL HOSPICIO VIANI",
     "telefono": "3132796326",
-    "id": 13,
-    "carpetaNumero": 13
+    "id": 13
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "25867418900120170002000",
     "fechaPresentacion": [
       "2017-05-31T05:00:00.000Z"
     ],
@@ -49,7 +47,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25867418900120170002000",
   "nombre": "PASCUAL ORTEGA ENCISO",
   "numero": 13,
@@ -58,5 +55,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:26:13.994Z"
+  "updatedAt": "2023-12-30T21:53:13.694Z"
 }

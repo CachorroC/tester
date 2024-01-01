@@ -5,20 +5,20 @@ async function getCurrent () {
   return await client.carpeta.findMany(
     {
       include: {
-        demandas       : true
-        , deudor         : true
-        , codeudor       : true
-        , procesos       : true
-        , juzgados       : true
-        , ultimaActuacion: true
-        , _count         : true
-        , notas          : true
-        , tareas         : {
+        demandas       : true,
+        deudor         : true,
+        codeudor       : true,
+        procesos       : true,
+        juzgados       : true,
+        ultimaActuacion: true,
+        _count         : true,
+        notas          : true,
+        tareas         : {
           include: {
             subTareas: true
           }
-        }
-        , notificacion: {
+        },
+        notificacion: {
           include: {
             notifiers: true
           }

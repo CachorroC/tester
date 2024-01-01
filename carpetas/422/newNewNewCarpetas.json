@@ -1,5 +1,5 @@
 {
-  "_id": 422,
+  "id": 41722029,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
@@ -32,14 +32,13 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "11001410375220180060200",
-    "expediente": "11001410307520180060200",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "kENNEDY",
     "radicado": "2018 - 00602",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "+082023-12-03T05:00:00.000Z"
+      "2024-08-03T05:00:00.000Z"
     ]
   },
   "deudor": {
@@ -57,7 +56,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001410307520180060200",
   "nombre": "LUZ YOLANDA MUÑOZ MURCIA",
   "numero": 422,
@@ -66,5 +64,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:03.998Z"
+  "updatedAt": "2023-12-30T21:54:41.805Z"
 }

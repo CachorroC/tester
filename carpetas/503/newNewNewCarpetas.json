@@ -1,5 +1,5 @@
 {
-  "_id": 503,
+  "id": 3096755,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
@@ -16,7 +16,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
     "etapaProcesal": "ADMISIION",
-    "expediente": "25436408900120180006300",
     "fechaPresentacion": [
       "2018-10-25T05:00:00.000Z"
     ],
@@ -41,7 +40,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25436408900120180006300",
   "nombre": "JUAN CARLOS LEON MONTENEGRO",
   "numero": 503,
@@ -50,5 +48,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:28.768Z"
+  "updatedAt": "2023-12-30T21:54:53.072Z"
 }

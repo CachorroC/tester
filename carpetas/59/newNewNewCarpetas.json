@@ -1,5 +1,5 @@
 {
-  "_id": 59,
+  "id": 52341348,
   "actuaciones": [
     {
       "idRegActuacion": 707304090,
@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:26:30.554Z"
+      "createdAt": "2023-12-30T21:53:22.335Z"
     },
     {
       "idRegActuacion": 707304080,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:30.560Z"
+      "createdAt": "2023-12-30T21:53:22.335Z"
     },
     {
       "idRegActuacion": 707304070,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:30.564Z"
+      "createdAt": "2023-12-30T21:53:22.335Z"
     },
     {
       "idRegActuacion": 707304060,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:30.573Z"
+      "createdAt": "2023-12-30T21:53:22.335Z"
     },
     {
       "idRegActuacion": 707304050,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:30.582Z"
+      "createdAt": "2023-12-30T21:53:22.335Z"
     }
   ],
   "category": "Terminados",
@@ -93,8 +93,7 @@
     "cedula": "52801359",
     "direccion": "CALLE 70 C - No 105 H - 06",
     "telefono": "3102876473",
-    "id": 59,
-    "carpetaNumero": 59
+    "id": 59
   },
   "demanda": {
     "obligacion": [
@@ -108,7 +107,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "11001400302520170106400",
     "fechaPresentacion": [
       "2017-09-26T05:00:00.000Z"
     ],
@@ -179,5 +177,5 @@
     "idProceso": 50738440,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:26:30.242Z"
+  "updatedAt": "2023-12-30T21:53:22.285Z"
 }

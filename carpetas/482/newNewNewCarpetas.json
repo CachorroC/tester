@@ -1,5 +1,5 @@
 {
-  "_id": 482,
+  "id": 52380535,
   "actuaciones": [
     {
       "idRegActuacion": 559135750,
@@ -16,7 +16,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:29:23.994Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 559135740,
@@ -33,7 +33,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:23.998Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 559135730,
@@ -50,7 +50,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.003Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 557681260,
@@ -67,7 +67,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.007Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 267962680,
@@ -84,7 +84,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.011Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 267962670,
@@ -101,7 +101,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.016Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 267962660,
@@ -118,7 +118,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.020Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 267962650,
@@ -135,7 +135,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.025Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 267962640,
@@ -152,7 +152,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.029Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 267962630,
@@ -169,7 +169,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.034Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 267962620,
@@ -186,7 +186,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.038Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 267962610,
@@ -203,7 +203,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.042Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     },
     {
       "idRegActuacion": 267962600,
@@ -220,7 +220,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:24.047Z"
+      "createdAt": "2023-12-30T21:54:50.877Z"
     }
   ],
   "category": "Terminados",
@@ -229,8 +229,7 @@
     "cedula": "80441668",
     "direccion": null,
     "telefono": "3568112",
-    "id": 482,
-    "carpetaNumero": 482
+    "id": 482
   },
   "demanda": {
     "obligacion": [
@@ -253,7 +252,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400307120180093600",
     "fechaPresentacion": [
       "2018-09-13T05:00:00.000Z"
     ],
@@ -322,5 +320,5 @@
     "idProceso": 18597560,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:29:23.691Z"
+  "updatedAt": "2023-12-30T21:54:50.832Z"
 }

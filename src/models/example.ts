@@ -1,12 +1,12 @@
 const range = {
-  from: 10
-  , to  : 58
-  , [ Symbol.asyncIterator ]() {
+  from: 10,
+  to  : 58,
+  [ Symbol.asyncIterator ]() {
     return {
-      current: this.from
-      , last   : this.to
+      current: this.from,
+      last   : this.to,
 
-      , async next() {
+      async next() {
         // note: we can use "await" inside the async next:
         await new Promise(
           (
@@ -20,8 +20,8 @@ const range = {
 
         if ( this.current <= this.last ) {
           return {
-            done : false
-            , value: this.current++,
+            done : false,
+            value: this.current++,
           };
         }
 

@@ -1,6 +1,40 @@
 {
-  "_id": 568,
+  "id": 1033739670,
   "actuaciones": [
+    {
+      "idRegActuacion": 1942719710,
+      "llaveProceso": "11001400307520230128400",
+      "consActuacion": 9,
+      "fechaActuacion": "2023-12-15T05:00:00.000Z",
+      "actuacion": "Recepción memorial",
+      "anotacion": "Notificación*",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 9,
+      "idProceso": 132161470,
+      "isUltimaAct": true,
+      "createdAt": "2023-12-30T21:55:01.966Z"
+    },
+    {
+      "idRegActuacion": 1942530940,
+      "llaveProceso": "11001400307520230128400",
+      "consActuacion": 8,
+      "fechaActuacion": "2023-12-14T05:00:00.000Z",
+      "actuacion": "Recepción memorial",
+      "anotacion": "TÍTULO ORIGINAL*",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-14T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 9,
+      "idProceso": 132161470,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-30T21:55:01.966Z"
+    },
     {
       "idRegActuacion": 1880432600,
       "llaveProceso": "11001400307520230128400",
@@ -13,10 +47,10 @@
       "fechaRegistro": "2023-09-22T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 9,
       "idProceso": 132161470,
-      "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:29:49.216Z"
+      "isUltimaAct": false,
+      "createdAt": "2023-12-30T21:55:01.966Z"
     },
     {
       "idRegActuacion": 1862825060,
@@ -30,10 +64,10 @@
       "fechaRegistro": "2023-08-30T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:49.221Z"
+      "createdAt": "2023-12-30T21:55:01.966Z"
     },
     {
       "idRegActuacion": 1844385410,
@@ -47,10 +81,10 @@
       "fechaRegistro": "2023-08-14T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:49.226Z"
+      "createdAt": "2023-12-30T21:55:01.966Z"
     },
     {
       "idRegActuacion": 1844385400,
@@ -64,10 +98,10 @@
       "fechaRegistro": "2023-08-14T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:49.231Z"
+      "createdAt": "2023-12-30T21:55:01.966Z"
     },
     {
       "idRegActuacion": 1844385390,
@@ -81,10 +115,10 @@
       "fechaRegistro": "2023-08-14T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:49.235Z"
+      "createdAt": "2023-12-30T21:55:01.966Z"
     },
     {
       "idRegActuacion": 1844385380,
@@ -98,10 +132,10 @@
       "fechaRegistro": "2023-08-14T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:49.239Z"
+      "createdAt": "2023-12-30T21:55:01.966Z"
     },
     {
       "idRegActuacion": 1837296480,
@@ -115,10 +149,10 @@
       "fechaRegistro": "2023-08-08T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 7,
+      "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:49.244Z"
+      "createdAt": "2023-12-30T21:55:01.966Z"
     }
   ],
   "category": "Bancolombia",
@@ -136,7 +170,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2023-02-08T05:00:00.000Z",
     "etapaProcesal": null,
-    "expediente": "11001400307520230128400",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -160,11 +193,11 @@
     "direccion": "Calle 71 No. 46-08 Sur",
     "email": "lorena19081@hotmail.com"
   },
-  "fecha": "2023-09-22T05:00:00.000Z",
+  "fecha": "2023-12-15T05:00:00.000Z",
   "idProcesos": [
     132161470
   ],
-  "idRegUltimaAct": 1880432600,
+  "idRegUltimaAct": 1942719710,
   "llaveProceso": "11001400307520230128400",
   "nombre": "LORENA GUISELLE CHAPARRO LEAL",
   "numero": 568,
@@ -174,7 +207,7 @@
       "idConexion": 259,
       "llaveProceso": "11001400307520230128400",
       "fechaProceso": "2023-08-08T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-09-22T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-15T05:00:00.000Z",
       "despacho": "JUZGADO 075 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: WILSON DE JESUS MOLINA QUIRAMA ",
@@ -191,20 +224,20 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
-    "idRegActuacion": 1880432600,
+    "idRegActuacion": 1942719710,
     "llaveProceso": "11001400307520230128400",
-    "consActuacion": 7,
-    "fechaActuacion": "2023-09-22T05:00:00.000Z",
-    "actuacion": "Comunicación secretarial firmada",
-    "anotacion": "OFICIO FIRMADO",
+    "consActuacion": 9,
+    "fechaActuacion": "2023-12-15T05:00:00.000Z",
+    "actuacion": "Recepción memorial",
+    "anotacion": "Notificación*",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-09-22T05:00:00.000Z",
+    "fechaRegistro": "2023-12-15T05:00:00.000Z",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 7,
+    "cant": 9,
     "idProceso": 132161470,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:29:48.884Z"
+  "updatedAt": "2023-12-30T21:55:01.917Z"
 }

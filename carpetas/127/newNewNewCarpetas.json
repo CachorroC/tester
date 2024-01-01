@@ -1,5 +1,5 @@
 {
-  "_id": 127,
+  "id": 41610065,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "79481751",
     "direccion": null,
     "telefono": null,
-    "id": 127,
-    "carpetaNumero": 127
+    "id": 127
   },
   "demanda": {
     "obligacion": [
@@ -35,7 +34,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "SinEspecificar",
     "fechaPresentacion": [
       "2017-10-27T05:00:00.000Z"
     ],
@@ -63,14 +61,12 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "SinEspecificar",
   "nombre": "ZOILA IRENE SUAVITA DE TRILLERAS",
   "numero": 127,
-  "procesos": [],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:01.191Z"
+  "updatedAt": "2023-12-30T21:53:38.480Z"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": 94,
+  "id": 1030527169,
   "actuaciones": [
     {
       "idRegActuacion": 98177804,
@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 17325724,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:26:45.593Z"
+      "createdAt": "2023-12-30T21:53:30.979Z"
     },
     {
       "idRegActuacion": 98177794,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 17325724,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:45.602Z"
+      "createdAt": "2023-12-30T21:53:30.979Z"
     },
     {
       "idRegActuacion": 98177784,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 17325724,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:45.612Z"
+      "createdAt": "2023-12-30T21:53:30.979Z"
     },
     {
       "idRegActuacion": 98177774,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 17325724,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:45.621Z"
+      "createdAt": "2023-12-30T21:53:30.979Z"
     },
     {
       "idRegActuacion": 98177764,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 17325724,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:45.631Z"
+      "createdAt": "2023-12-30T21:53:30.979Z"
     },
     {
       "idRegActuacion": 98177754,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 17325724,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:45.640Z"
+      "createdAt": "2023-12-30T21:53:30.979Z"
     },
     {
       "idRegActuacion": 98177744,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 17325724,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:45.649Z"
+      "createdAt": "2023-12-30T21:53:30.979Z"
     },
     {
       "idRegActuacion": 98177734,
@@ -135,7 +135,7 @@
       "cant": 8,
       "idProceso": 17325724,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:45.658Z"
+      "createdAt": "2023-12-30T21:53:30.979Z"
     }
   ],
   "category": "Terminados",
@@ -161,7 +161,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400305620170059100",
     "fechaPresentacion": [
       "2017-06-29T05:00:00.000Z"
     ],
@@ -232,5 +231,5 @@
     "idProceso": 17325724,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:26:45.373Z"
+  "updatedAt": "2023-12-30T21:53:30.922Z"
 }

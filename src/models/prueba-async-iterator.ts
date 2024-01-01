@@ -44,11 +44,11 @@ export async function* createAsyncGenerator(
 }
 
 const range = {
-  from: 0
-  , to  : 600
+  from: 0,
+  to  : 600,
 
   // esta línea es la misma que [Symbol.asyncIterator]: async function*() {
-  , async *[ Symbol.asyncIterator ] () {
+  async *[ Symbol.asyncIterator ] () {
     for ( let value = this.from; value <= this.to; value++ ) {
 
       // hacer una pausa entre valores, esperar algo

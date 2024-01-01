@@ -1,5 +1,5 @@
 {
-  "_id": 456,
+  "id": 26407097,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
@@ -32,7 +32,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "11001410375120180112100",
-    "expediente": "11001410375120180112100",
     "fechaPresentacion": [],
     "mandamientoPago": "2018-06-07T05:00:00.000Z",
     "municipio": "KENNEDY",
@@ -56,10 +55,7 @@
     "email": null
   },
   "fecha": null,
-  "idProcesos": [
-    95877041
-  ],
-  "idRegUltimaAct": null,
+  "idProcesos": [],
   "llaveProceso": "11001410375120180112100",
   "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)",
   "numero": 456,
@@ -86,5 +82,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:15.978Z"
+  "updatedAt": "2023-12-30T21:54:47.524Z"
 }

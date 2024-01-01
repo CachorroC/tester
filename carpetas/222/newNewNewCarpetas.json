@@ -1,5 +1,5 @@
 {
-  "_id": 222,
+  "id": 79332273,
   "actuaciones": [
     {
       "idRegActuacion": 725462990,
@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:27:40.131Z"
+      "createdAt": "2023-12-30T21:53:59.780Z"
     },
     {
       "idRegActuacion": 725462980,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:40.136Z"
+      "createdAt": "2023-12-30T21:53:59.780Z"
     },
     {
       "idRegActuacion": 725462970,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:40.141Z"
+      "createdAt": "2023-12-30T21:53:59.780Z"
     },
     {
       "idRegActuacion": 725462960,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:40.145Z"
+      "createdAt": "2023-12-30T21:53:59.780Z"
     },
     {
       "idRegActuacion": 725462950,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:40.151Z"
+      "createdAt": "2023-12-30T21:53:59.780Z"
     },
     {
       "idRegActuacion": 725462940,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:40.155Z"
+      "createdAt": "2023-12-30T21:53:59.780Z"
     }
   ],
   "category": "Terminados",
@@ -110,8 +110,7 @@
     "cedula": "51922265",
     "direccion": "CARRERA 25A # 155 - 88",
     "telefono": "6443645 // 7584507",
-    "id": 222,
-    "carpetaNumero": 222
+    "id": 222
   },
   "demanda": {
     "obligacion": [
@@ -134,7 +133,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400302820170085800",
     "fechaPresentacion": [
       "2017-09-04T05:00:00.000Z"
     ],
@@ -205,5 +203,5 @@
     "idProceso": 50688520,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:27:39.833Z"
+  "updatedAt": "2023-12-30T21:53:59.738Z"
 }

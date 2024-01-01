@@ -1,5 +1,5 @@
 {
-  "_id": 240,
+  "id": 180145973,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "1033683759",
     "direccion": "CARRERA 6 No 7B 03 SUR  SOACHA",
     "telefono": "3134293286",
-    "id": 240,
-    "carpetaNumero": 240
+    "id": 240
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "25754418900220170082900",
     "fechaPresentacion": [
       "2017-09-19T05:00:00.000Z"
     ],
@@ -49,7 +47,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25754418900220170082900",
   "nombre": "CESAR ALIRIO MORENO MONGUI",
   "numero": 240,
@@ -58,5 +55,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:49.143Z"
+  "updatedAt": "2023-12-30T21:54:04.046Z"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": 6,
+  "id": 79645559,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "46374311",
     "direccion": "DIAGONAL 83 N 76 C-22 BOGOTA",
     "telefono": "4380641//3114720261",
-    "id": 6,
-    "carpetaNumero": 6
+    "id": 6
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400307620170044400",
     "fechaPresentacion": [
       "2017-05-30T05:00:00.000Z"
     ],
@@ -49,7 +47,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001400307620170044400",
   "nombre": "FRANCISCO MONTAÑA QUESADA",
   "numero": 6,
@@ -58,5 +55,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:26:12.143Z"
+  "updatedAt": "2023-12-30T21:53:12.968Z"
 }

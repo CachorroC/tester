@@ -1,5 +1,5 @@
 {
-  "_id": 250,
+  "id": 72165243,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "52454328",
     "direccion": "CALLE 3 No 5-56 APARTAMENTO 101 SOPO",
     "telefono": "8715525",
-    "id": 250,
-    "carpetaNumero": 250
+    "id": 250
   },
   "demanda": {
     "obligacion": [
@@ -30,7 +29,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-04-09T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "25758418900120170059900",
     "fechaPresentacion": [
       "2017-09-14T05:00:00.000Z"
     ],
@@ -57,7 +55,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25758418900120170059900",
   "nombre": "FRANCISCO CONTRERAS RAMIREZ",
   "numero": 250,
@@ -66,5 +63,5 @@
   "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:52.604Z"
+  "updatedAt": "2023-12-30T21:54:05.883Z"
 }

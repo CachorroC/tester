@@ -1,5 +1,5 @@
 {
-  "_id": 312,
+  "id": 80394456,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "28949691",
     "direccion": "CARRERA 87 D No 42 A-20 SUR IN 6 C",
     "telefono": "3202780646",
-    "id": 312,
-    "carpetaNumero": 312
+    "id": 312
   },
   "demanda": {
     "obligacion": [
@@ -25,7 +24,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001418904320170114000",
     "fechaPresentacion": [
       "2017-10-21T05:00:00.000Z"
     ],
@@ -52,7 +50,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001418904320170114000",
   "nombre": "PEDRO PABLO SARMIENTO MAYORGA",
   "numero": 312,
@@ -61,5 +58,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:28:15.927Z"
+  "updatedAt": "2023-12-30T21:54:18.602Z"
 }

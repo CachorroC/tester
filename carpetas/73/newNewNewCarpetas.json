@@ -1,6 +1,40 @@
 {
-  "_id": 73,
+  "id": 31877993,
   "actuaciones": [
+    {
+      "idRegActuacion": 1943174440,
+      "llaveProceso": "11001400300420170057500",
+      "consActuacion": 131,
+      "fechaActuacion": "2023-12-18T05:00:00.000Z",
+      "actuacion": "Recepción memorial",
+      "anotacion": "Radicado No. 15602-2023, No. Reloj Radicador: 20124, Entidad o Señor(a): SUSANA MARCELA CHAVES SANCHEZ - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Memorial, Observaciones: SOLICITUD ENTREGA DEL VEHICULO Y REQUERIMIENTO AL PARQUEADERO",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-18T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 130,
+      "idProceso": 50508870,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-30T21:53:26.101Z"
+    },
+    {
+      "idRegActuacion": 1942276500,
+      "llaveProceso": "11001400300420170057500",
+      "consActuacion": 130,
+      "fechaActuacion": "2023-12-14T05:00:00.000Z",
+      "actuacion": "Entrega de oficios",
+      "anotacion": "Se hace envió digital del el/los oficio(s) N° OOECM-1123LG-982, OOECM-1123LG-981,OOECM-1223JR-108  a la entidad y el interesado//proceso pasa a letra//juan diaz",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-14T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 130,
+      "idProceso": 50508870,
+      "isUltimaAct": true,
+      "createdAt": "2023-12-30T21:53:26.101Z"
+    },
     {
       "idRegActuacion": 1942007120,
       "llaveProceso": "11001400300420170057500",
@@ -13,10 +47,10 @@
       "fechaRegistro": "2023-12-13T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.805Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1941270250,
@@ -30,10 +64,10 @@
       "fechaRegistro": "2023-12-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
-      "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:26:36.809Z"
+      "isUltimaAct": false,
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1940921930,
@@ -47,10 +81,10 @@
       "fechaRegistro": "2023-12-07T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.813Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1940857760,
@@ -64,10 +98,10 @@
       "fechaRegistro": "2023-12-07T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.818Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1937899290,
@@ -81,10 +115,10 @@
       "fechaRegistro": "2023-11-27T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.826Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1937382490,
@@ -98,10 +132,10 @@
       "fechaRegistro": "2023-11-24T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.835Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1933140830,
@@ -115,10 +149,10 @@
       "fechaRegistro": "2023-11-14T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.844Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1930140540,
@@ -132,10 +166,10 @@
       "fechaRegistro": "2023-11-10T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.853Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1930140530,
@@ -149,10 +183,10 @@
       "fechaRegistro": "2023-11-10T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.861Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1914362590,
@@ -166,10 +200,10 @@
       "fechaRegistro": "2023-10-23T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.870Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1910532470,
@@ -183,10 +217,10 @@
       "fechaRegistro": "2023-10-19T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.880Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1906682040,
@@ -200,10 +234,10 @@
       "fechaRegistro": "2023-10-17T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.889Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1904657420,
@@ -217,10 +251,10 @@
       "fechaRegistro": "2023-10-13T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.898Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1904657410,
@@ -234,10 +268,10 @@
       "fechaRegistro": "2023-10-13T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.908Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1886989870,
@@ -251,10 +285,10 @@
       "fechaRegistro": "2023-09-28T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.917Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1878584820,
@@ -268,10 +302,10 @@
       "fechaRegistro": "2023-09-22T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.926Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1878284110,
@@ -285,10 +319,10 @@
       "fechaRegistro": "2023-09-13T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.935Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1873155000,
@@ -302,10 +336,10 @@
       "fechaRegistro": "2023-09-07T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.940Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1872440830,
@@ -319,10 +353,10 @@
       "fechaRegistro": "2023-09-07T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.944Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1872440820,
@@ -336,10 +370,10 @@
       "fechaRegistro": "2023-09-07T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.949Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1870403730,
@@ -353,10 +387,10 @@
       "fechaRegistro": "2023-09-06T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.954Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1870403720,
@@ -370,10 +404,10 @@
       "fechaRegistro": "2023-09-06T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.958Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1870403710,
@@ -387,10 +421,10 @@
       "fechaRegistro": "2023-09-06T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.963Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1870403700,
@@ -404,10 +438,10 @@
       "fechaRegistro": "2023-09-06T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.967Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1862882140,
@@ -421,10 +455,10 @@
       "fechaRegistro": "2023-08-30T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.972Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1856899040,
@@ -438,10 +472,10 @@
       "fechaRegistro": "2023-08-24T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.976Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1855368300,
@@ -455,10 +489,10 @@
       "fechaRegistro": "2023-08-23T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.981Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1853398100,
@@ -472,10 +506,10 @@
       "fechaRegistro": "2023-08-22T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.985Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1845272050,
@@ -489,10 +523,10 @@
       "fechaRegistro": "2023-08-15T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.990Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1843468840,
@@ -506,10 +540,10 @@
       "fechaRegistro": "2023-08-14T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.995Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1843468830,
@@ -523,10 +557,10 @@
       "fechaRegistro": "2023-08-14T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:36.999Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1840819360,
@@ -540,10 +574,10 @@
       "fechaRegistro": "2023-08-10T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:37.004Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1837236240,
@@ -557,10 +591,10 @@
       "fechaRegistro": "2023-08-08T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:37.008Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1837236230,
@@ -574,10 +608,10 @@
       "fechaRegistro": "2023-08-08T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:37.013Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1834907150,
@@ -591,10 +625,10 @@
       "fechaRegistro": "2023-08-04T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:37.017Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1834197540,
@@ -608,10 +642,10 @@
       "fechaRegistro": "2023-08-04T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:37.022Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1770974170,
@@ -625,10 +659,10 @@
       "fechaRegistro": "2023-06-09T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:37.027Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     },
     {
       "idRegActuacion": 1769035810,
@@ -642,44 +676,10 @@
       "fechaRegistro": "2023-06-08T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 128,
+      "cant": 130,
       "idProceso": 50508870,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:37.031Z"
-    },
-    {
-      "idRegActuacion": 1769035800,
-      "llaveProceso": "11001400300420170057500",
-      "consActuacion": 91,
-      "fechaActuacion": "2023-06-08T05:00:00.000Z",
-      "actuacion": "Auto reconoce personería",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-06-08T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 128,
-      "idProceso": 50508870,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:37.036Z"
-    },
-    {
-      "idRegActuacion": 1763356090,
-      "llaveProceso": "11001400300420170057500",
-      "consActuacion": 90,
-      "fechaActuacion": "2023-06-02T05:00:00.000Z",
-      "actuacion": "Al despacho",
-      "anotacion": "PROCESO HIBRIDO INGRESA AL DESPACHO //CD2/ CRISTIAN QUINTO\r\n",
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-06-02T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 128,
-      "idProceso": 50508870,
-      "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:37.040Z"
+      "createdAt": "2023-12-30T21:53:26.101Z"
     }
   ],
   "category": "Terminados",
@@ -713,7 +713,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "11001400300420170057500",
-    "expediente": "11001400300420170057500",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -736,11 +735,11 @@
     "direccion": "CARRERA 55 A No. 165-27 int 7 apto 102",
     "email": "mrocha@hotmail.com"
   },
-  "fecha": "2023-12-13T05:00:00.000Z",
+  "fecha": "2023-12-18T05:00:00.000Z",
   "idProcesos": [
     50508870
   ],
-  "idRegUltimaAct": 1942007120,
+  "idRegUltimaAct": 1943174440,
   "llaveProceso": "11001400300420170057500",
   "nombre": "SONIA MAZUERA",
   "numero": 73,
@@ -750,7 +749,7 @@
       "idConexion": 259,
       "llaveProceso": "11001400300420170057500",
       "fechaProceso": "2017-06-15T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-12-13T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-18T05:00:00.000Z",
       "despacho": "JUZGADO 018 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: SONIA MAZUERA ",
@@ -767,20 +766,20 @@
   "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": {
-    "idRegActuacion": 1942007120,
+    "idRegActuacion": 1943174440,
     "llaveProceso": "11001400300420170057500",
-    "consActuacion": 129,
-    "fechaActuacion": "2023-12-13T05:00:00.000Z",
-    "actuacion": "Constancia secretarial",
-    "anotacion": "\r\nOFICIOS FIRMADOS SE DIRECCIONA A ENVIO DE OFICIOS.LILIANA DAZA\t\r\n",
+    "consActuacion": 131,
+    "fechaActuacion": "2023-12-18T05:00:00.000Z",
+    "actuacion": "Recepción memorial",
+    "anotacion": "Radicado No. 15602-2023, No. Reloj Radicador: 20124, Entidad o Señor(a): SUSANA MARCELA CHAVES SANCHEZ - Tercer Interesado, Aportó Documento: Memorial, Con La Solucitud: Memorial, Observaciones: SOLICITUD ENTREGA DEL VEHICULO Y REQUERIMIENTO AL PARQUEADERO",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-12-13T05:00:00.000Z",
+    "fechaRegistro": "2023-12-18T05:00:00.000Z",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 128,
+    "cant": 130,
     "idProceso": 50508870,
     "isUltimaAct": false
   },
-  "updatedAt": "2023-12-14T09:26:36.504Z"
+  "updatedAt": "2023-12-30T21:53:26.044Z"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": 78,
+  "id": 7711481,
   "actuaciones": [
     {
       "idRegActuacion": 265691570,
@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:26:38.766Z"
+      "createdAt": "2023-12-30T21:53:27.278Z"
     },
     {
       "idRegActuacion": 265691560,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.774Z"
+      "createdAt": "2023-12-30T21:53:27.278Z"
     },
     {
       "idRegActuacion": 265691550,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.783Z"
+      "createdAt": "2023-12-30T21:53:27.278Z"
     },
     {
       "idRegActuacion": 265691540,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.792Z"
+      "createdAt": "2023-12-30T21:53:27.278Z"
     },
     {
       "idRegActuacion": 265691530,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.801Z"
+      "createdAt": "2023-12-30T21:53:27.278Z"
     },
     {
       "idRegActuacion": 265691520,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.811Z"
+      "createdAt": "2023-12-30T21:53:27.278Z"
     },
     {
       "idRegActuacion": 265691510,
@@ -118,7 +118,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:38.820Z"
+      "createdAt": "2023-12-30T21:53:27.278Z"
     }
   ],
   "category": "Terminados",
@@ -136,7 +136,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "expediente": "11001400306420170123100",
     "fechaPresentacion": [
       "2017-06-20T05:00:00.000Z"
     ],
@@ -208,5 +207,5 @@
     "idProceso": 17942390,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:26:38.517Z"
+  "updatedAt": "2023-12-30T21:53:27.208Z"
 }

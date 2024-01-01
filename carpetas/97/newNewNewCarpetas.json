@@ -1,5 +1,5 @@
 {
-  "_id": 97,
+  "id": 19270589,
   "actuaciones": [
     {
       "idRegActuacion": 996537750,
@@ -16,7 +16,7 @@
       "cant": 2,
       "idProceso": 77695680,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:26:46.842Z"
+      "createdAt": "2023-12-30T21:53:31.467Z"
     },
     {
       "idRegActuacion": 976636660,
@@ -33,7 +33,7 @@
       "cant": 2,
       "idProceso": 77695680,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:46.849Z"
+      "createdAt": "2023-12-30T21:53:31.467Z"
     }
   ],
   "category": "Terminados",
@@ -57,7 +57,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400308520160031900",
     "fechaPresentacion": [],
     "mandamientoPago": "2018-12-01T05:00:00.000Z",
     "municipio": "BOGOTA",
@@ -124,5 +123,5 @@
     "idProceso": 77695680,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:26:46.569Z"
+  "updatedAt": "2023-12-30T21:53:31.416Z"
 }

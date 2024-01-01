@@ -1,5 +1,5 @@
 {
-  "_id": 457,
+  "id": 900237555,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "12198722   // 79858717",
     "direccion": "CARRERA 70 A No 4-544 APTO 201",
     "telefono": "45840580  //7495406",
-    "id": 457,
-    "carpetaNumero": 457
+    "id": 457
   },
   "demanda": {
     "obligacion": [
@@ -23,7 +22,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-09-07T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "expediente": "11001400307920180087200",
     "fechaPresentacion": [
       "2018-07-18T05:00:00.000Z"
     ],
@@ -50,7 +48,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001400307920180087200",
   "nombre": "SOLINCON LIMITADA",
   "numero": 457,
@@ -59,5 +56,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:16.197Z"
+  "updatedAt": "2023-12-30T21:54:47.571Z"
 }

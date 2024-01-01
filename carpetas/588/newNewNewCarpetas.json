@@ -1,5 +1,5 @@
 {
-  "_id": 588,
+  "id": 52711493,
   "actuaciones": [
     {
       "idRegActuacion": 1934876520,
@@ -16,7 +16,7 @@
       "cant": 4,
       "idProceso": 134200460,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:29:54.591Z"
+      "createdAt": "2023-12-30T21:55:03.540Z"
     },
     {
       "idRegActuacion": 1934876510,
@@ -33,7 +33,7 @@
       "cant": 4,
       "idProceso": 134200460,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:54.597Z"
+      "createdAt": "2023-12-30T21:55:03.540Z"
     },
     {
       "idRegActuacion": 1912952690,
@@ -50,7 +50,7 @@
       "cant": 4,
       "idProceso": 134200460,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:54.601Z"
+      "createdAt": "2023-12-30T21:55:03.540Z"
     },
     {
       "idRegActuacion": 1912952680,
@@ -67,7 +67,7 @@
       "cant": 4,
       "idProceso": 134200460,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:54.606Z"
+      "createdAt": "2023-12-30T21:55:03.540Z"
     }
   ],
   "category": "Bancolombia",
@@ -85,7 +85,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2023-07-10T05:00:00.000Z",
     "etapaProcesal": null,
-    "expediente": "11001400308620230158700",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -156,5 +155,5 @@
     "idProceso": 134200460,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:29:54.266Z"
+  "updatedAt": "2023-12-30T21:55:03.474Z"
 }

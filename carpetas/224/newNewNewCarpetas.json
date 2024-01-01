@@ -1,5 +1,5 @@
 {
-  "_id": 224,
+  "id": 52616509,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "74181815",
     "direccion": "CALLE 4 # 26 - 38",
     "telefono": "8471503",
-    "id": 224,
-    "carpetaNumero": 224
+    "id": 224
   },
   "demanda": {
     "obligacion": [
@@ -25,7 +24,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "25386400300120170040700",
     "fechaPresentacion": [
       "2017-09-08T05:00:00.000Z"
     ],
@@ -52,7 +50,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25386400300120170040700",
   "nombre": "MARIA ROSA ZARATE CORTES",
   "numero": 224,
@@ -61,5 +58,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:40.687Z"
+  "updatedAt": "2023-12-30T21:54:00.198Z"
 }

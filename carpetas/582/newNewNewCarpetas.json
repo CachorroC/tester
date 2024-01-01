@@ -1,5 +1,5 @@
 {
-  "_id": 582,
+  "id": 7228260,
   "actuaciones": [],
   "category": "Bancolombia",
   "codeudor": null,
@@ -15,7 +15,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "25430400300120230129500",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "MADRID",
@@ -39,10 +38,7 @@
     "email": "duartepedroantonio@hotmail.com"
   },
   "fecha": null,
-  "idProcesos": [
-    160042431
-  ],
-  "idRegUltimaAct": null,
+  "idProcesos": [],
   "llaveProceso": "25430400300120230129500",
   "nombre": "PEDRO ANTONIO DUARTE VARGAS",
   "numero": 582,
@@ -69,5 +65,5 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:52.985Z"
+  "updatedAt": "2023-12-30T21:55:03.079Z"
 }

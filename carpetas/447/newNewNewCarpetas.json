@@ -1,5 +1,5 @@
 {
-  "_id": 447,
+  "id": 79698506,
   "actuaciones": [
     {
       "idRegActuacion": 582442800,
@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:29:12.539Z"
+      "createdAt": "2023-12-30T21:54:45.621Z"
     },
     {
       "idRegActuacion": 582442790,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:12.543Z"
+      "createdAt": "2023-12-30T21:54:45.621Z"
     },
     {
       "idRegActuacion": 582442780,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:12.548Z"
+      "createdAt": "2023-12-30T21:54:45.621Z"
     },
     {
       "idRegActuacion": 582442770,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:12.552Z"
+      "createdAt": "2023-12-30T21:54:45.621Z"
     },
     {
       "idRegActuacion": 582442760,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:12.556Z"
+      "createdAt": "2023-12-30T21:54:45.621Z"
     },
     {
       "idRegActuacion": 582442750,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:12.561Z"
+      "createdAt": "2023-12-30T21:54:45.621Z"
     }
   ],
   "category": "Terminados",
@@ -118,7 +118,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "expediente": "11001400300520180071100",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -187,5 +186,5 @@
     "idProceso": 51277500,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:29:12.217Z"
+  "updatedAt": "2023-12-30T21:54:45.580Z"
 }

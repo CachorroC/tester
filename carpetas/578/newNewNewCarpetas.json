@@ -1,5 +1,5 @@
 {
-  "_id": 578,
+  "id": 35422519,
   "actuaciones": [
     {
       "idRegActuacion": 1872445910,
@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:29:52.199Z"
+      "createdAt": "2023-12-30T21:55:02.846Z"
     },
     {
       "idRegActuacion": 1872445900,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:52.209Z"
+      "createdAt": "2023-12-30T21:55:02.846Z"
     },
     {
       "idRegActuacion": 1872445890,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:52.218Z"
+      "createdAt": "2023-12-30T21:55:02.846Z"
     },
     {
       "idRegActuacion": 1872445880,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:52.225Z"
+      "createdAt": "2023-12-30T21:55:02.846Z"
     },
     {
       "idRegActuacion": 1855375910,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:52.231Z"
+      "createdAt": "2023-12-30T21:55:02.846Z"
     },
     {
       "idRegActuacion": 1855375900,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:52.236Z"
+      "createdAt": "2023-12-30T21:55:02.846Z"
     }
   ],
   "category": "Bancolombia",
@@ -119,7 +119,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "11001418904120230021200",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "ZIPAQUIRA",
@@ -189,5 +188,5 @@
     "idProceso": 132645230,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:29:51.866Z"
+  "updatedAt": "2023-12-30T21:55:02.793Z"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": 49,
+  "id": 79532034,
   "actuaciones": [
     {
       "idRegActuacion": 144966153,
@@ -16,7 +16,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:26:27.147Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966143,
@@ -33,7 +33,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.151Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966233,
@@ -50,7 +50,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.160Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966223,
@@ -67,7 +67,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.165Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966213,
@@ -84,7 +84,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.169Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966203,
@@ -101,7 +101,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.174Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966193,
@@ -118,7 +118,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.178Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966183,
@@ -135,7 +135,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.183Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966173,
@@ -152,7 +152,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.187Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966163,
@@ -169,7 +169,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.191Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     },
     {
       "idRegActuacion": 144966133,
@@ -186,7 +186,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.196Z"
+      "createdAt": "2023-12-30T21:53:20.655Z"
     }
   ],
   "category": "Terminados",
@@ -195,8 +195,7 @@
     "cedula": "52507659",
     "direccion": "CARRERA 77 No. 57-H39 SUR//CARRERA 11B No. 12-68 SUR BOGOTA//TRANSVERSAL 31 No. 28-31 Apto 103 bloque 7",
     "telefono": null,
-    "id": 49,
-    "carpetaNumero": 49
+    "id": 49
   },
   "demanda": {
     "obligacion": [
@@ -219,7 +218,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "expediente": "11001400305120170064400",
     "fechaPresentacion": [
       "2017-06-20T05:00:00.000Z"
     ],
@@ -290,5 +288,5 @@
     "idProceso": 11486153,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:26:26.985Z"
+  "updatedAt": "2023-12-30T21:53:20.609Z"
 }

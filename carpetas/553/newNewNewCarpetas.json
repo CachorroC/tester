@@ -1,6 +1,40 @@
 {
-  "_id": 553,
+  "id": 80220698,
   "actuaciones": [
+    {
+      "idRegActuacion": 1943255370,
+      "llaveProceso": "11001400308320230108800",
+      "consActuacion": 12,
+      "fechaActuacion": "2023-12-18T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 18/12/2023 a las 16:57:36.",
+      "fechaInicial": "2023-12-19T05:00:00.000Z",
+      "fechaFinal": "2023-12-19T05:00:00.000Z",
+      "fechaRegistro": "2023-12-18T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 12,
+      "idProceso": 130908640,
+      "isUltimaAct": true,
+      "createdAt": "2023-12-30T21:55:00.685Z"
+    },
+    {
+      "idRegActuacion": 1943255360,
+      "llaveProceso": "11001400308320230108800",
+      "consActuacion": 11,
+      "fechaActuacion": "2023-12-18T05:00:00.000Z",
+      "actuacion": "Otras terminaciones por Auto",
+      "anotacion": "TERMINA POR PAGO DE LAS CUOTAS EN MORA ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2023-12-18T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 12,
+      "idProceso": 130908640,
+      "isUltimaAct": false,
+      "createdAt": "2023-12-30T21:55:00.685Z"
+    },
     {
       "idRegActuacion": 1941931280,
       "llaveProceso": "11001400308320230108800",
@@ -13,10 +47,10 @@
       "fechaRegistro": "2023-12-13T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
-      "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:29:44.721Z"
+      "isUltimaAct": false,
+      "createdAt": "2023-12-30T21:55:00.685Z"
     },
     {
       "idRegActuacion": 1928480170,
@@ -30,10 +64,10 @@
       "fechaRegistro": "2023-11-08T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:44.727Z"
+      "createdAt": "2023-12-30T21:55:00.685Z"
     },
     {
       "idRegActuacion": 1910895210,
@@ -47,10 +81,10 @@
       "fechaRegistro": "2023-10-19T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:44.733Z"
+      "createdAt": "2023-12-30T21:55:00.685Z"
     },
     {
       "idRegActuacion": 1875872500,
@@ -64,10 +98,10 @@
       "fechaRegistro": "2023-09-11T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:44.742Z"
+      "createdAt": "2023-12-30T21:55:00.685Z"
     },
     {
       "idRegActuacion": 1865046880,
@@ -81,10 +115,10 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:44.752Z"
+      "createdAt": "2023-12-30T21:55:00.685Z"
     },
     {
       "idRegActuacion": 1865046870,
@@ -98,10 +132,10 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:44.762Z"
+      "createdAt": "2023-12-30T21:55:00.685Z"
     },
     {
       "idRegActuacion": 1865046860,
@@ -115,10 +149,10 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:44.771Z"
+      "createdAt": "2023-12-30T21:55:00.685Z"
     },
     {
       "idRegActuacion": 1865046850,
@@ -132,10 +166,10 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:44.781Z"
+      "createdAt": "2023-12-30T21:55:00.685Z"
     },
     {
       "idRegActuacion": 1808248440,
@@ -149,10 +183,10 @@
       "fechaRegistro": "2023-07-12T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:44.791Z"
+      "createdAt": "2023-12-30T21:55:00.685Z"
     },
     {
       "idRegActuacion": 1791857070,
@@ -166,10 +200,10 @@
       "fechaRegistro": "2023-06-28T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:44.801Z"
+      "createdAt": "2023-12-30T21:55:00.685Z"
     }
   ],
   "category": "Bancolombia",
@@ -186,7 +220,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "11001400308320230108800",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -209,11 +242,11 @@
     "direccion": "Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12",
     "email": "lxndrlaverde@gmail.com"
   },
-  "fecha": "2023-12-13T05:00:00.000Z",
+  "fecha": "2023-12-18T05:00:00.000Z",
   "idProcesos": [
     130908640
   ],
-  "idRegUltimaAct": 1941931280,
+  "idRegUltimaAct": 1943255370,
   "llaveProceso": "11001400308320230108800",
   "nombre": "JOSE ALEXANDER LAVERDE PENAGOS",
   "numero": 553,
@@ -223,7 +256,7 @@
       "idConexion": 259,
       "llaveProceso": "11001400308320230108800",
       "fechaProceso": "2023-06-28T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-12-13T05:00:00.000Z",
+      "fechaUltimaActuacion": "2023-12-18T05:00:00.000Z",
       "despacho": "JUZGADO 083 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE ALEXANDER LAVERDE PENAGOS ",
@@ -240,20 +273,20 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
-    "idRegActuacion": 1941931280,
+    "idRegActuacion": 1943255370,
     "llaveProceso": "11001400308320230108800",
-    "consActuacion": 10,
-    "fechaActuacion": "2023-12-13T05:00:00.000Z",
-    "actuacion": "Recepción memorial",
-    "anotacion": "IMPULSO TERMINACIÓN",
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-12-13T05:00:00.000Z",
+    "consActuacion": 12,
+    "fechaActuacion": "2023-12-18T05:00:00.000Z",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 18/12/2023 a las 16:57:36.",
+    "fechaInicial": "2023-12-19T05:00:00.000Z",
+    "fechaFinal": "2023-12-19T05:00:00.000Z",
+    "fechaRegistro": "2023-12-18T05:00:00.000Z",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 10,
+    "cant": 12,
     "idProceso": 130908640,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:29:44.411Z"
+  "updatedAt": "2023-12-30T21:55:00.641Z"
 }

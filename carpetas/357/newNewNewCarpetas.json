@@ -1,5 +1,5 @@
 {
-  "_id": 357,
+  "id": 1012330386,
   "actuaciones": [
     {
       "idRegActuacion": 93354554,
@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:28:34.358Z"
+      "createdAt": "2023-12-30T21:54:28.912Z"
     },
     {
       "idRegActuacion": 93354544,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:34.363Z"
+      "createdAt": "2023-12-30T21:54:28.912Z"
     },
     {
       "idRegActuacion": 93354534,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:34.369Z"
+      "createdAt": "2023-12-30T21:54:28.912Z"
     },
     {
       "idRegActuacion": 93354524,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:34.373Z"
+      "createdAt": "2023-12-30T21:54:28.912Z"
     },
     {
       "idRegActuacion": 93354514,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:34.378Z"
+      "createdAt": "2023-12-30T21:54:28.912Z"
     },
     {
       "idRegActuacion": 93354504,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:34.382Z"
+      "createdAt": "2023-12-30T21:54:28.912Z"
     }
   ],
   "category": "Terminados",
@@ -118,7 +118,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-04-12T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400305520170137800",
     "fechaPresentacion": [
       "2017-12-12T05:00:00.000Z"
     ],
@@ -189,5 +188,5 @@
     "idProceso": 17054094,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:28:34.170Z"
+  "updatedAt": "2023-12-30T21:54:28.866Z"
 }

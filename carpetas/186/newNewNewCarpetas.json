@@ -1,5 +1,5 @@
 {
-  "_id": 186,
+  "id": 24134505,
   "actuaciones": [],
   "category": "Reintegra",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "24134635",
     "direccion": "CALLE 172 # 21A - 17",
     "telefono": "3118661189",
-    "id": 186,
-    "carpetaNumero": 186
+    "id": 186
   },
   "demanda": {
     "obligacion": [
@@ -39,7 +38,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-08T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "expediente": "25175408900220170041200",
     "fechaPresentacion": [
       "2017-08-15T05:00:00.000Z"
     ],
@@ -66,7 +64,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25175408900220170041200",
   "nombre": "CELY MARGOTH ROJAS VELANDIA",
   "numero": 186,
@@ -75,5 +72,5 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:25.399Z"
+  "updatedAt": "2023-12-30T21:53:52.154Z"
 }

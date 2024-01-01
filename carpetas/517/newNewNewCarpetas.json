@@ -1,5 +1,5 @@
 {
-  "_id": 517,
+  "id": 52470211,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "17/05/2022",
     "telefono": null,
-    "id": 517,
-    "carpetaNumero": 517
+    "id": 517
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "11001418901020190016200",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -45,7 +43,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001418901020190016200",
   "nombre": "MARYLU VALENCIA SUAREZ",
   "numero": 517,
@@ -54,5 +51,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:32.059Z"
+  "updatedAt": "2023-12-30T21:54:54.271Z"
 }

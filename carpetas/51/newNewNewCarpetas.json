@@ -1,5 +1,5 @@
 {
-  "_id": 51,
+  "id": 37549188,
   "actuaciones": [
     {
       "idRegActuacion": 607252660,
@@ -16,7 +16,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:26:27.864Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     },
     {
       "idRegActuacion": 607252650,
@@ -33,7 +33,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.870Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     },
     {
       "idRegActuacion": 607252640,
@@ -50,7 +50,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.879Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     },
     {
       "idRegActuacion": 607252630,
@@ -67,7 +67,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.888Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     },
     {
       "idRegActuacion": 607252620,
@@ -84,7 +84,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.896Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     },
     {
       "idRegActuacion": 607252610,
@@ -101,7 +101,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.910Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     },
     {
       "idRegActuacion": 607252600,
@@ -118,7 +118,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.925Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     },
     {
       "idRegActuacion": 607252590,
@@ -135,7 +135,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.934Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     },
     {
       "idRegActuacion": 607252580,
@@ -152,7 +152,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.943Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     },
     {
       "idRegActuacion": 607252570,
@@ -169,7 +169,7 @@
       "cant": 10,
       "idProceso": 50537040,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:26:27.953Z"
+      "createdAt": "2023-12-30T21:53:20.964Z"
     }
   ],
   "category": "Terminados",
@@ -178,8 +178,7 @@
     "cedula": "79948168",
     "direccion": "CARRERA 54C No. 143-A-90",
     "telefono": null,
-    "id": 51,
-    "carpetaNumero": 51
+    "id": 51
   },
   "demanda": {
     "obligacion": [
@@ -194,7 +193,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400300920170060700",
     "fechaPresentacion": [
       "2017-06-23T05:00:00.000Z"
     ],
@@ -265,5 +263,5 @@
     "idProceso": 50537040,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:26:27.574Z"
+  "updatedAt": "2023-12-30T21:53:20.919Z"
 }

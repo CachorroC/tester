@@ -1,5 +1,5 @@
 {
-  "_id": 252,
+  "id": 1023863956,
   "actuaciones": [
     {
       "idRegActuacion": 764095850,
@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:27:53.659Z"
+      "createdAt": "2023-12-30T21:54:06.307Z"
     },
     {
       "idRegActuacion": 764095840,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:53.669Z"
+      "createdAt": "2023-12-30T21:54:06.307Z"
     },
     {
       "idRegActuacion": 764095830,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:53.678Z"
+      "createdAt": "2023-12-30T21:54:06.307Z"
     },
     {
       "idRegActuacion": 764095820,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:53.687Z"
+      "createdAt": "2023-12-30T21:54:06.307Z"
     },
     {
       "idRegActuacion": 764095810,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:53.697Z"
+      "createdAt": "2023-12-30T21:54:06.307Z"
     },
     {
       "idRegActuacion": 764095800,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:53.706Z"
+      "createdAt": "2023-12-30T21:54:06.307Z"
     }
   ],
   "category": "Terminados",
@@ -110,8 +110,7 @@
     "cedula": "1032423457",
     "direccion": "CALLE 67 C SUR 1B 23 ESTE APARTAMENTO 503 TORRE 9",
     "telefono": "10324223457",
-    "id": 252,
-    "carpetaNumero": 252
+    "id": 252
   },
   "demanda": {
     "obligacion": [
@@ -139,7 +138,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-05-09T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400303420170123600",
     "fechaPresentacion": [
       "2017-09-14T05:00:00.000Z"
     ],
@@ -210,5 +208,5 @@
     "idProceso": 50745490,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:27:53.337Z"
+  "updatedAt": "2023-12-30T21:54:06.264Z"
 }

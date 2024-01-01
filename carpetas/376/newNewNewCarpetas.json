@@ -1,5 +1,5 @@
 {
-  "_id": 376,
+  "id": 11203111,
   "actuaciones": [
     {
       "idRegActuacion": 1842023050,
@@ -16,7 +16,7 @@
       "cant": 4,
       "idProceso": 51500810,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:28:41.913Z"
+      "createdAt": "2023-12-30T21:54:32.836Z"
     },
     {
       "idRegActuacion": 1820436670,
@@ -33,7 +33,7 @@
       "cant": 4,
       "idProceso": 51500810,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:41.919Z"
+      "createdAt": "2023-12-30T21:54:32.836Z"
     },
     {
       "idRegActuacion": 1778368160,
@@ -50,7 +50,7 @@
       "cant": 4,
       "idProceso": 51500810,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:41.924Z"
+      "createdAt": "2023-12-30T21:54:32.836Z"
     },
     {
       "idRegActuacion": 856481100,
@@ -67,7 +67,7 @@
       "cant": 4,
       "idProceso": 51500810,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:41.929Z"
+      "createdAt": "2023-12-30T21:54:32.836Z"
     }
   ],
   "category": "LiosJuridicos",
@@ -76,8 +76,7 @@
     "cedula": "52804144",
     "direccion": "CALLE 128 96A - 05",
     "telefono": "3491122",
-    "id": 376,
-    "carpetaNumero": 376
+    "id": 376
   },
   "demanda": {
     "obligacion": [
@@ -92,7 +91,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EL 22/08/2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
-    "expediente": "11001400307620180005200",
     "fechaPresentacion": [
       "2018-08-22T05:00:00.000Z"
     ],
@@ -163,5 +161,5 @@
     "idProceso": 51500810,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:28:41.608Z"
+  "updatedAt": "2023-12-30T21:54:32.794Z"
 }

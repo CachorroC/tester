@@ -1,5 +1,5 @@
 {
-  "_id": 504,
+  "id": 52432037,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "22/08/2022",
     "telefono": null,
-    "id": 504,
-    "carpetaNumero": 504
+    "id": 504
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "29/10/2018",
-    "expediente": "25740410300120180037000",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "SIBATE",
@@ -45,7 +43,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25740410300120180037000",
   "nombre": "ANA DEL PILAR MENDEZ AMAYA",
   "numero": 504,
@@ -54,5 +51,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:28.942Z"
+  "updatedAt": "2023-12-30T21:54:53.093Z"
 }

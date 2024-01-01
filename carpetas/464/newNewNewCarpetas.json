@@ -1,5 +1,5 @@
 {
-  "_id": 464,
+  "id": 51944991,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "MARIA ELIZABETH GAVIRIA OSPINA",
     "direccion": "45689",
     "telefono": "TRANSVERSAL 48 No 3-75 MANZAN 5 CASA 44",
-    "id": 464,
-    "carpetaNumero": 464
+    "id": 464
   },
   "demanda": {
     "obligacion": [
@@ -26,7 +25,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "25754418900220180066400",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "SOACHA",
@@ -49,7 +47,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25754418900220180066400",
   "nombre": "RICARDO ARMANDO CELIS ANGEL",
   "numero": 464,
@@ -58,5 +55,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:19.078Z"
+  "updatedAt": "2023-12-30T21:54:49.001Z"
 }

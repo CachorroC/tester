@@ -91,25 +91,25 @@ export class ActuacionJudicial {
           ultimaActuacion.fechaActuacion
         );
         this._ultimaActuacion = {
-          ...ultimaActuacion
-          , idProceso     : this.idProceso
-          , fechaActuacion: new Date(
+          ...ultimaActuacion,
+          idProceso     : this.idProceso,
+          fechaActuacion: new Date(
             ultimaActuacion.fechaActuacion
-          )
-          , fechaRegistro: new Date(
+          ),
+          fechaRegistro: new Date(
             ultimaActuacion.fechaRegistro
-          )
-          , fechaFinal: ultimaActuacion.fechaFinal
+          ),
+          fechaFinal: ultimaActuacion.fechaFinal
             ? new Date(
               ultimaActuacion.fechaFinal
             )
-            : null
-          , fechaInicial: ultimaActuacion.fechaInicial
+            : null,
+          fechaInicial: ultimaActuacion.fechaInicial
             ? new Date(
               ultimaActuacion.fechaInicial
             )
-            : null
-          , isUltimaAct: ultimaActuacion.cant === ultimaActuacion.consActuacion
+            : null,
+          isUltimaAct: ultimaActuacion.cant === ultimaActuacion.consActuacion
             ? true
             : false
         };
@@ -122,26 +122,26 @@ export class ActuacionJudicial {
         ) => {
           return {
 
-            ...actuacion
-            , idProceso: this.idProceso
-            , isUltimaAct:
+            ...actuacion,
+            idProceso: this.idProceso,
+            isUltimaAct:
                     actuacion.cant === actuacion.consActuacion
                       ? true
-                      : false
-            , carpetaNumero : this.carpetaNumero
-            , createdAt     : new Date
-            , fechaActuacion: new Date(
+                      : false,
+            carpetaNumero : this.carpetaNumero,
+            createdAt     : new Date,
+            fechaActuacion: new Date(
               actuacion.fechaActuacion
-            )
-            , fechaRegistro: new Date(
+            ),
+            fechaRegistro: new Date(
               actuacion.fechaRegistro
-            )
-            , fechaInicial: actuacion.fechaInicial
+            ),
+            fechaInicial: actuacion.fechaInicial
               ? new Date(
                 actuacion.fechaInicial
               )
-              : null
-            , fechaFinal: actuacion.fechaFinal
+              : null,
+            fechaFinal: actuacion.fechaFinal
               ? new Date(
                 actuacion.fechaFinal
               )

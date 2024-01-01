@@ -97,18 +97,18 @@ export class Judicial {
           proceso
         ) => {
           return {
-            ...proceso
-            , fechaProceso: proceso.fechaProceso
+            ...proceso,
+            fechaProceso: proceso.fechaProceso
               ? new Date(
                 proceso.fechaProceso
               )
-              : null
-            , fechaUltimaActuacion: proceso.fechaUltimaActuacion
+              : null,
+            fechaUltimaActuacion: proceso.fechaUltimaActuacion
               ? new Date(
                 proceso.fechaUltimaActuacion
               )
-              : null
-            , juzgado: new NewJuzgado(
+              : null,
+            juzgado: new NewJuzgado(
               proceso
             )
           };
@@ -155,36 +155,36 @@ export class Judicial {
           {
             where: {
               idProceso: proceso.idProceso
-            }
-            , create: {
-              ...proceso
-              , Carpeta: {
+            },
+            create: {
+              ...proceso,
+              Carpeta: {
                 connect: {
                   numero: this.numero
                 }
-              }
-              , juzgado: {
+              },
+              juzgado: {
                 connectOrCreate: {
                   where: {
                     tipo: proceso.juzgado.tipo
-                  }
-                  , create: proceso.juzgado
+                  },
+                  create: proceso.juzgado
                 }
               }
-            }
-            , update: {
-              ...proceso
-              , Carpeta: {
+            },
+            update: {
+              ...proceso,
+              Carpeta: {
                 connect: {
                   numero: this.numero
                 }
-              }
-              , juzgado: {
+              },
+              juzgado: {
                 connectOrCreate: {
                   where: {
                     tipo: proceso.juzgado.tipo
-                  }
-                  , create: proceso.juzgado
+                  },
+                  create: proceso.juzgado
                 }
               }
             }

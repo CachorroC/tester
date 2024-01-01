@@ -1,5 +1,5 @@
 {
-  "_id": 242,
+  "id": 79793904,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "1018430139",
     "direccion": "CARRERA 38 No 14-93 BLOQUE  1 CASA 301 SOACHA",
     "telefono": "6680643",
-    "id": 242,
-    "carpetaNumero": 242
+    "id": 242
   },
   "demanda": {
     "obligacion": [
@@ -31,7 +30,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-09T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "25754418900220180036300",
     "fechaPresentacion": [
       "2017-09-19T05:00:00.000Z"
     ],
@@ -58,7 +56,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25754418900220180036300",
   "nombre": "JOHN HADER OTALVARO  ROMO",
   "numero": 242,
@@ -67,5 +64,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:49.894Z"
+  "updatedAt": "2023-12-30T21:54:04.382Z"
 }

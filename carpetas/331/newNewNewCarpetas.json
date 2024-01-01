@@ -1,5 +1,5 @@
 {
-  "_id": 331,
+  "id": 1016043191,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "43059",
     "telefono": null,
-    "id": 331,
-    "carpetaNumero": 331
+    "id": 331
   },
   "demanda": {
     "obligacion": [
@@ -39,7 +38,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "43053",
-    "expediente": "11001410375220170130000",
     "fechaPresentacion": [
       "2018-01-16T05:00:00.000Z"
     ],
@@ -64,7 +62,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001410375220170130000",
   "nombre": "CHRISTIAN DARIO RUIZ AVELLANEDA",
   "numero": 331,
@@ -73,5 +70,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:28:22.744Z"
+  "updatedAt": "2023-12-30T21:54:22.467Z"
 }

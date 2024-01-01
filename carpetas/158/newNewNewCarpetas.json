@@ -1,5 +1,5 @@
 {
-  "_id": 158,
+  "id": 80808819,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "53911221",
     "direccion": "CARRERA 3 ESTE # 6B - 36 CHIA",
     "telefono": "8393651",
-    "id": 158,
-    "carpetaNumero": 158
+    "id": 158
   },
   "demanda": {
     "obligacion": [
@@ -40,7 +39,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "25899310300120170039300",
-    "expediente": "25899310300120170039300",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "ZIPAQUIRA",
@@ -65,7 +63,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25899310300120170039300",
   "nombre": "JULIAN JHOHANY GALLEGO MONTES",
   "numero": 158,
@@ -74,5 +71,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:13.213Z"
+  "updatedAt": "2023-12-30T21:53:44.934Z"
 }

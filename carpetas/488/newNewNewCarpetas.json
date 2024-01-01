@@ -1,5 +1,5 @@
 {
-  "_id": 488,
+  "id": 52837807,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "22/09/2024",
     "telefono": null,
-    "id": 488,
-    "carpetaNumero": 488
+    "id": 488
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "20/09/2018",
-    "expediente": "11001418901020180083400",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -45,7 +43,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001418901020180083400",
   "nombre": "SANDRA MILENA MORENO CAMPUZANO",
   "numero": 488,
@@ -54,5 +51,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:25.082Z"
+  "updatedAt": "2023-12-30T21:54:51.461Z"
 }

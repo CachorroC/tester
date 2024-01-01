@@ -57,9 +57,9 @@ export class ClassNotificacion implements intNotificacion {
           : false
         : null;
       this[ '291' ] = {
-        fechaRecibido: newFechaRecibido
-        , fechaAporta  : newFechaAporta
-        , resultado    : newResultado
+        fechaRecibido: newFechaRecibido,
+        fechaAporta  : newFechaAporta,
+        resultado    : newResultado
       };
     }
 
@@ -91,9 +91,9 @@ export class ClassNotificacion implements intNotificacion {
           : false
         : null;
       this[ '292' ] = {
-        fechaRecibido: newFechaRecibido
-        , fechaAporta  : newFechaAporta
-        , resultado    : newResultado
+        fechaRecibido: newFechaRecibido,
+        fechaAporta  : newFechaAporta,
+        resultado    : newResultado
       };
     }
 

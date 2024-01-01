@@ -1,5 +1,5 @@
 {
-  "_id": 33,
+  "id": 28936365,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "28936365",
     "direccion": "CALLE 401 SUR 72 L -40 CRISTALES  BOGOTA",
     "telefono": "3134775602",
-    "id": 33,
-    "carpetaNumero": 33
+    "id": 33
   },
   "demanda": {
     "obligacion": [
@@ -30,7 +29,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400308220170064900",
     "fechaPresentacion": [
       "2017-06-09T05:00:00.000Z"
     ],
@@ -59,7 +57,6 @@
   "idProcesos": [
     81869251
   ],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001400308220170064900",
   "nombre": "NINI JOHANA CORTES MONROY",
   "numero": 33,
@@ -86,5 +83,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:26:20.339Z"
+  "updatedAt": "2023-12-30T21:53:16.987Z"
 }

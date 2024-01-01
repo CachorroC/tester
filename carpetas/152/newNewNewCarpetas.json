@@ -1,5 +1,5 @@
 {
-  "_id": 152,
+  "id": 1032431042,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "1069729949",
     "direccion": "CARRERA 42 # 22 - 11  // CARRERA 11 BIS # 154A - 30 APTO 1007 TORRE 2",
     "telefono": "8113984",
-    "id": 152,
-    "carpetaNumero": 152
+    "id": 152
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "11001400307320170113600",
-    "expediente": "110014007320170113600",
     "fechaPresentacion": [],
     "mandamientoPago": "2018-05-09T05:00:00.000Z",
     "municipio": "BOGOTA",
@@ -47,14 +45,12 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "110014007320170113600",
   "nombre": "NICOLAS OSORIO RODRIGUEZ",
   "numero": 152,
-  "procesos": [],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:11.522Z"
+  "updatedAt": "2023-12-30T21:53:44.072Z"
 }

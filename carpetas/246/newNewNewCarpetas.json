@@ -1,5 +1,5 @@
 {
-  "_id": 246,
+  "id": 79805533,
   "actuaciones": [
     {
       "idRegActuacion": 125352043,
@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:27:51.380Z"
+      "createdAt": "2023-12-30T21:54:05.345Z"
     },
     {
       "idRegActuacion": 125352033,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.384Z"
+      "createdAt": "2023-12-30T21:54:05.345Z"
     },
     {
       "idRegActuacion": 125352023,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.389Z"
+      "createdAt": "2023-12-30T21:54:05.345Z"
     },
     {
       "idRegActuacion": 125352013,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.394Z"
+      "createdAt": "2023-12-30T21:54:05.345Z"
     },
     {
       "idRegActuacion": 125352003,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.398Z"
+      "createdAt": "2023-12-30T21:54:05.345Z"
     },
     {
       "idRegActuacion": 125351993,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.403Z"
+      "createdAt": "2023-12-30T21:54:05.345Z"
     }
   ],
   "category": "Terminados",
@@ -110,8 +110,7 @@
     "cedula": "52228840",
     "direccion": "CARRERA 26 No 44-76 SUR",
     "telefono": "7692061 /2077527",
-    "id": 246,
-    "carpetaNumero": 246
+    "id": 246
   },
   "demanda": {
     "obligacion": [
@@ -125,7 +124,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "11001400304720180024200",
     "fechaPresentacion": [
       "2017-09-19T05:00:00.000Z"
     ],
@@ -196,5 +194,5 @@
     "idProceso": 10416913,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:27:51.196Z"
+  "updatedAt": "2023-12-30T21:54:05.300Z"
 }

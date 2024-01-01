@@ -1,5 +1,5 @@
 {
-  "_id": 212,
+  "id": 14320811,
   "actuaciones": [
     {
       "idRegActuacion": 119895683,
@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:27:34.934Z"
+      "createdAt": "2023-12-30T21:53:57.183Z"
     },
     {
       "idRegActuacion": 119895673,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:34.939Z"
+      "createdAt": "2023-12-30T21:53:57.183Z"
     },
     {
       "idRegActuacion": 119895663,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:34.944Z"
+      "createdAt": "2023-12-30T21:53:57.183Z"
     },
     {
       "idRegActuacion": 119895653,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:34.948Z"
+      "createdAt": "2023-12-30T21:53:57.183Z"
     },
     {
       "idRegActuacion": 119895643,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:34.966Z"
+      "createdAt": "2023-12-30T21:53:57.183Z"
     },
     {
       "idRegActuacion": 119895633,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:34.971Z"
+      "createdAt": "2023-12-30T21:53:57.183Z"
     },
     {
       "idRegActuacion": 119895623,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:34.980Z"
+      "createdAt": "2023-12-30T21:53:57.183Z"
     },
     {
       "idRegActuacion": 119895613,
@@ -135,7 +135,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:34.985Z"
+      "createdAt": "2023-12-30T21:53:57.183Z"
     }
   ],
   "category": "Terminados",
@@ -144,8 +144,7 @@
     "cedula": "55057911",
     "direccion": "CARRERA 566 # 132 - 40",
     "telefono": "4818738",
-    "id": 212,
-    "carpetaNumero": 212
+    "id": 212
   },
   "demanda": {
     "obligacion": [
@@ -159,7 +158,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "11001400304620170103500",
     "fechaPresentacion": [
       "2017-09-04T05:00:00.000Z"
     ],
@@ -230,5 +228,5 @@
     "idProceso": 10134513,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:27:34.744Z"
+  "updatedAt": "2023-12-30T21:53:57.142Z"
 }

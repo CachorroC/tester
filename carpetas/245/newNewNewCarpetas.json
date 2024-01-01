@@ -1,5 +1,5 @@
 {
-  "_id": 245,
+  "id": 79893549,
   "actuaciones": [
     {
       "idRegActuacion": 99012273,
@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 9083003,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:27:51.154Z"
+      "createdAt": "2023-12-30T21:54:05.214Z"
     },
     {
       "idRegActuacion": 99012263,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 9083003,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.158Z"
+      "createdAt": "2023-12-30T21:54:05.214Z"
     },
     {
       "idRegActuacion": 99012253,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 9083003,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.163Z"
+      "createdAt": "2023-12-30T21:54:05.214Z"
     },
     {
       "idRegActuacion": 99012243,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 9083003,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.167Z"
+      "createdAt": "2023-12-30T21:54:05.214Z"
     },
     {
       "idRegActuacion": 99012233,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 9083003,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.172Z"
+      "createdAt": "2023-12-30T21:54:05.214Z"
     },
     {
       "idRegActuacion": 99012223,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 9083003,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.176Z"
+      "createdAt": "2023-12-30T21:54:05.214Z"
     },
     {
       "idRegActuacion": 99012213,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 9083003,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.181Z"
+      "createdAt": "2023-12-30T21:54:05.214Z"
     },
     {
       "idRegActuacion": 99012203,
@@ -135,7 +135,7 @@
       "cant": 8,
       "idProceso": 9083003,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:27:51.185Z"
+      "createdAt": "2023-12-30T21:54:05.214Z"
     }
   ],
   "category": "Terminados",
@@ -144,8 +144,7 @@
     "cedula": "1061675",
     "direccion": "TRANSVERSAL 40 No 14-93 TORRE 1 APTO 301 SOACHA",
     "telefono": "41777788",
-    "id": 245,
-    "carpetaNumero": 245
+    "id": 245
   },
   "demanda": {
     "obligacion": [
@@ -159,7 +158,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-09T05:00:00.000Z",
     "etapaProcesal": null,
-    "expediente": "11001400303820170095700",
     "fechaPresentacion": [
       "2017-09-19T05:00:00.000Z"
     ],
@@ -230,5 +228,5 @@
     "idProceso": 9083003,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:27:50.970Z"
+  "updatedAt": "2023-12-30T21:54:05.129Z"
 }

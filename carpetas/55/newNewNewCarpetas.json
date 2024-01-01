@@ -1,5 +1,5 @@
 {
-  "_id": 55,
+  "id": 80353430,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "20736637",
     "direccion": "CALLE 11 A No. 3-29 URBANIZACION EL PORVENIR MADRID",
     "telefono": "8252559",
-    "id": 55,
-    "carpetaNumero": 55
+    "id": 55
   },
   "demanda": {
     "obligacion": [
@@ -30,7 +29,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "expediente": "25430400300120170108700",
     "fechaPresentacion": [
       "2017-06-20T05:00:00.000Z"
     ],
@@ -57,7 +55,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25430400300120170108700",
   "nombre": "DOUGLAS AYURE RIOS",
   "numero": 55,
@@ -66,5 +63,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:26:28.699Z"
+  "updatedAt": "2023-12-30T21:53:21.275Z"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": 237,
+  "id": 80237050,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "1078366269",
     "direccion": "CARRERA 9 No 3-93",
     "telefono": "8656241 /3124269483",
-    "id": 237,
-    "carpetaNumero": 237
+    "id": 237
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "25799418900120170024700",
     "fechaPresentacion": [
       "2017-09-19T05:00:00.000Z"
     ],
@@ -49,7 +47,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25799418900120170024700",
   "nombre": "NUMAEL AUGUSTO GONZALEZ SALGUERO",
   "numero": 237,
@@ -58,5 +55,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:48.148Z"
+  "updatedAt": "2023-12-30T21:54:03.561Z"
 }

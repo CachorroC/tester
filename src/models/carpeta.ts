@@ -10,9 +10,7 @@ import { CarpetaRaw, Codeudor, Juzgado, TipoProceso, } from '../types/carpetas';
 
 
 export class CarpetaBuilder {
-
-
-  _id: number;
+  id: number;
   category: Category;
   codeudor: Codeudor | null;
   demanda: ClassDemanda;
@@ -33,7 +31,7 @@ export class CarpetaBuilder {
     const newDemanda = new ClassDemanda(
       demanda
     );
-    this._id = numero;
+    this.id = numero;
     this.numero = numero;
     this.nombre = deudor.nombre;
     this.category = category;
@@ -43,24 +41,24 @@ export class CarpetaBuilder {
             ? String(
               codeudor.nombre
             )
-            : null
-          , cedula: codeudor.cedula
+            : null,
+          cedula: codeudor.cedula
             ? String(
               codeudor.cedula
             )
-            : null
-          , direccion: codeudor.direccion
+            : null,
+          direccion: codeudor.direccion
             ? String(
               codeudor.direccion
             )
-            : null
-          , telefono: codeudor.telefono
+            : null,
+          telefono: codeudor.telefono
             ? String(
               codeudor.telefono
             )
-            : null
-          , id           : this.numero
-          , carpetaNumero: this.numero
+            : null,
+          id           : this.numero,
+          carpetaNumero: this.numero
         }
       : null;
     this.tipoProceso = demanda.tipoProceso
@@ -84,35 +82,7 @@ export class CarpetaBuilder {
       this.llaveProceso = expediente;
     }
   }
-  [ Symbol.asyncIterator ]() { // (1)
-    return {
 
-
-      async next() { // (2)
-
-        // note: we can use "await" inside the async next:
-        await new Promise(
-          resolve => {
-            return setTimeout(
-              resolve, 1000
-            );
-          }
-        ); // (3)
-
-        if ( this.current <= this.last ) {
-          return {
-            done : false
-            , value: this.current++
-          };
-        }
-
-        return {
-          done: true
-        };
-
-      }
-    };
-  }
 }
 
 
@@ -161,18 +131,18 @@ export class OldCarpeta extends CarpetaBuilder {
           proceso
         ) => {
           return {
-            ...proceso
-            , fechaProceso: proceso.fechaProceso
+            ...proceso,
+            fechaProceso: proceso.fechaProceso
               ? new Date(
                 proceso.fechaProceso
               )
-              : null
-            , fechaUltimaActuacion: proceso.fechaUltimaActuacion
+              : null,
+            fechaUltimaActuacion: proceso.fechaUltimaActuacion
               ? new Date(
                 proceso.fechaUltimaActuacion
               )
-              : null
-            , juzgado: new NewJuzgado(
+              : null,
+            juzgado: new NewJuzgado(
               proceso
             )
           };
@@ -195,9 +165,7 @@ export class OldCarpeta extends CarpetaBuilder {
         }
       );
       this.demandas = procesos.map(
-        (
-          proceso
-        ) => {
+        () => {
           return this.demanda;
         }
       );
@@ -290,9 +258,9 @@ export class OldCarpeta extends CarpetaBuilder {
               ultimaActuacion.fechaActuacion
             );
             this.ultimaActuacion = {
-              ...ultimaActuacion
-              , idProceso  : proceso.idProceso
-              , isUltimaAct: ultimaActuacion.cant === ultimaActuacion.consActuacion
+              ...ultimaActuacion,
+              idProceso  : proceso.idProceso,
+              isUltimaAct: ultimaActuacion.cant === ultimaActuacion.consActuacion
                 ? true
                 : false
             };
@@ -305,26 +273,26 @@ export class OldCarpeta extends CarpetaBuilder {
             ) => {
               actuacionesMap.add(
                 {
-                  ...actuacion
-                  , idProceso: proceso.idProceso
-                  , isUltimaAct:
+                  ...actuacion,
+                  idProceso: proceso.idProceso,
+                  isUltimaAct:
                     actuacion.cant === actuacion.consActuacion
                       ? true
-                      : false
-                  , carpetaNumero : this.numero
-                  , createdAt     : new Date
-                  , fechaActuacion: new Date(
+                      : false,
+                  carpetaNumero : this.numero,
+                  createdAt     : new Date,
+                  fechaActuacion: new Date(
                     actuacion.fechaActuacion
-                  )
-                  , fechaRegistro: new Date(
+                  ),
+                  fechaRegistro: new Date(
                     actuacion.fechaRegistro
-                  )
-                  , fechaInicial: actuacion.fechaInicial
+                  ),
+                  fechaInicial: actuacion.fechaInicial
                     ? new Date(
                       actuacion.fechaInicial
                     )
-                    : null
-                  , fechaFinal: actuacion.fechaFinal
+                    : null,
+                  fechaFinal: actuacion.fechaFinal
                     ? new Date(
                       actuacion.fechaFinal
                     )
@@ -374,8 +342,8 @@ export class OldCarpeta extends CarpetaBuilder {
       prismaDemandas = {
         where: {
           idProceso: this.numero,
-        }
-        , create: {
+        },
+        create: {
           ...thisPrismaDemanda,
         },
       };
@@ -393,8 +361,8 @@ export class OldCarpeta extends CarpetaBuilder {
           return {
             where: {
               idProceso: proceso.idProceso
-            }
-            , create: {
+            },
+            create: {
               ...thisPrismaDemanda
 
             },
@@ -404,73 +372,73 @@ export class OldCarpeta extends CarpetaBuilder {
     }
 
     const prismaCarpetaPlain: Prisma.CarpetaCreateInput = {
-      numero      : this.numero
-      , llaveProceso: this.llaveProceso
-      , nombre      : this.nombre
-      , codeudor    : this.codeudor
+      numero      : this.numero,
+      llaveProceso: this.llaveProceso,
+      nombre      : this.nombre,
+      codeudor    : this.codeudor
         ? {
             connectOrCreate: {
               where: {
                 id: this.numero
-              }
-              , create: {
+              },
+              create: {
                 nombre: this.codeudor.nombre
                   ? String(
                     this.codeudor.nombre
                   )
-                  : null
-                , direccion: this.codeudor.direccion
+                  : null,
+                direccion: this.codeudor.direccion
                   ? String(
                     this.codeudor.direccion
                   )
-                  : null
-                , telefono: this.codeudor.telefono
+                  : null,
+                telefono: this.codeudor.telefono
                   ? String(
                     this.codeudor.telefono
                   )
-                  : null
-                , cedula: this.codeudor.cedula
+                  : null,
+                cedula: this.codeudor.cedula
                   ? String(
                     this.codeudor.cedula
                   )
-                  : null
-                , id: this.numero
+                  : null,
+                id: this.numero
               }
             }
           }
-        : undefined
-      , notificacion: this.notificacion
+        : undefined,
+      notificacion: this.notificacion
         ? {
             connectOrCreate: {
               where: {
                 carpetaNumero: this.numero
-              }
-              , create: new PrismaNotificacion(
+              },
+              create: new PrismaNotificacion(
                 this
               )
             }
           }
-        : undefined
-      , category   : this.category
-      , tipoProceso: this.tipoProceso
-      , idProcesos : this.idProcesos
+        : undefined,
+      category   : this.category,
+      tipoProceso: this.tipoProceso,
+      idProcesos : this.idProcesos
         ? this.idProcesos
-        : undefined
-      , revisado: ( this.category === 'Terminados' )
+        : undefined,
+      revisado: ( this.category === 'Terminados' )
         ? true
-        : false
-      , terminado: ( this.category === 'Terminados' )
+        : false,
+      terminado: ( this.category === 'Terminados' )
         ? true
-        : false
-      , demandas: {
+        : false,
+      demandas: {
         connectOrCreate: prismaDemandas
-      }
-      , deudor: {
+      },
+      deudor: {
         connectOrCreate: {
           where: {
             carpetaNumero: this.numero
-          }
-          , create: new PrismaDeudor(
+          },
+          create: new PrismaDeudor(
             this
           )
         }
@@ -482,9 +450,9 @@ export class OldCarpeta extends CarpetaBuilder {
         {
           where: {
             numero: this.numero,
-          }
-          , create: prismaCarpetaPlain
-          , update: prismaCarpetaPlain,
+          },
+          create: prismaCarpetaPlain,
+          update: prismaCarpetaPlain,
         }
       );
     }
@@ -496,59 +464,17 @@ export class OldCarpeta extends CarpetaBuilder {
         {
           where: {
             numero: this.numero,
-          }
-          , create: {
-            ...prismaCarpetaPlain
-            , idProcesos: procesosBuilder.map(
-              (
-                proceso
-              ) => {
-                return proceso.idProceso;
-              }
-            )
-            , procesos: {
-              connectOrCreate: procesosBuilder.map(
-                (
-                  proceso
-                ) => {
-                  return {
-                    where: {
-                      idProceso: proceso.idProceso
-                    }
-                    , create: {
-                      ...proceso,
-
-                    }
-                  };
-                }
-              )
-            }
-            , juzgados: {
-              connectOrCreate: procesosBuilder.map(
-                (
-                  proceso
-                ) => {
-                  return {
-                    where: {
-                      tipo: proceso.despacho
-                    }
-                    , create: new NewJuzgado(
-                      proceso
-                    )
-                  };
-                }
-              )
-            }
-          }
-          , update: {
+          },
+          create: {
+            ...prismaCarpetaPlain,
             idProcesos: procesosBuilder.map(
               (
                 proceso
               ) => {
                 return proceso.idProceso;
               }
-            )
-            , procesos: {
+            ),
+            procesos: {
               connectOrCreate: procesosBuilder.map(
                 (
                   proceso
@@ -556,16 +482,16 @@ export class OldCarpeta extends CarpetaBuilder {
                   return {
                     where: {
                       idProceso: proceso.idProceso
-                    }
-                    , create: {
+                    },
+                    create: {
                       ...proceso,
 
                     }
                   };
                 }
               )
-            }
-            , juzgados: {
+            },
+            juzgados: {
               connectOrCreate: procesosBuilder.map(
                 (
                   proceso
@@ -573,8 +499,50 @@ export class OldCarpeta extends CarpetaBuilder {
                   return {
                     where: {
                       tipo: proceso.despacho
+                    },
+                    create: new NewJuzgado(
+                      proceso
+                    )
+                  };
+                }
+              )
+            }
+          },
+          update: {
+            idProcesos: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return proceso.idProceso;
+              }
+            ),
+            procesos: {
+              connectOrCreate: procesosBuilder.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      idProceso: proceso.idProceso
+                    },
+                    create: {
+                      ...proceso,
+
                     }
-                    , create: new NewJuzgado(
+                  };
+                }
+              )
+            },
+            juzgados: {
+              connectOrCreate: procesosBuilder.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      tipo: proceso.despacho
+                    },
+                    create: new NewJuzgado(
                       proceso
                     )
                   };
@@ -603,31 +571,31 @@ export class OldCarpeta extends CarpetaBuilder {
               actuacion
             ) => {
               return {
-                ...actuacion
-                , fechaActuacion: new Date(
+                ...actuacion,
+                fechaActuacion: new Date(
                   actuacion.fechaActuacion
-                )
-                , fechaRegistro: new Date(
+                ),
+                fechaRegistro: new Date(
                   actuacion.fechaRegistro
-                )
-                , fechaFinal: actuacion.fechaFinal
+                ),
+                fechaFinal: actuacion.fechaFinal
                   ? new Date(
                     actuacion.fechaFinal
                   )
-                  : null
-                , fechaInicial: actuacion.fechaInicial
+                  : null,
+                fechaInicial: actuacion.fechaInicial
                   ? new Date(
                     actuacion.fechaInicial
                   )
-                  : null
-                , idProceso  : actuacion.idProceso
-                , isUltimaAct: actuacion.cant === actuacion.consActuacion
+                  : null,
+                idProceso  : actuacion.idProceso,
+                isUltimaAct: actuacion.cant === actuacion.consActuacion
                   ? true
                   : false
               };
             }
-          )
-          , skipDuplicates: true,
+          ),
+          skipDuplicates: true,
         }
       );
     } catch ( error ) {
@@ -641,85 +609,17 @@ export class OldCarpeta extends CarpetaBuilder {
         {
           where: {
             numero: this.numero,
-          }
-          , create: {
-            ...prismaCarpetaPlain
-            , idProcesos: procesosBuilder.map(
-              (
-                proceso
-              ) => {
-                return proceso.idProceso;
-              }
-            )
-            , procesos: {
-              connectOrCreate: procesosBuilder.map(
-                (
-                  proceso
-                ) => {
-                  return {
-                    where: {
-                      idProceso: proceso.idProceso
-                    }
-                    , create: {
-                      ...proceso
-                      , fechaProceso: proceso.fechaProceso
-                        ? new Date(
-                          proceso.fechaProceso
-                        )
-                        : null
-                      , fechaUltimaActuacion: proceso.fechaUltimaActuacion
-                        ? new Date(
-                          proceso.fechaUltimaActuacion
-                        )
-                        : null
-                    }
-                  };
-                }
-              )
-            }
-            , ultimaActuacion: {
-              connectOrCreate: {
-                where: {
-                  idRegActuacion: defUltimaAct.idRegActuacion
-                }
-                , create: {
-                  ...defUltimaAct
-                  , fechaActuacion: new Date(
-                    defUltimaAct.fechaActuacion
-                  )
-                  , fechaRegistro: new Date(
-                    defUltimaAct.fechaRegistro
-                  )
-                  , fechaFinal: defUltimaAct.fechaFinal
-                    ? new Date(
-                      defUltimaAct.fechaFinal
-                    )
-                    : null
-                  , fechaInicial: defUltimaAct.fechaInicial
-                    ? new Date(
-                      defUltimaAct.fechaInicial
-                    )
-                    : null
-                  , idProceso  : defUltimaAct.idProceso
-                  , isUltimaAct: defUltimaAct.cant === defUltimaAct.consActuacion
-                    ? true
-                    : false
-                }
-              }
-            }
-            , fecha: new Date(
-              defUltimaAct.fechaActuacion
-            )
-          }
-          , update: {
+          },
+          create: {
+            ...prismaCarpetaPlain,
             idProcesos: procesosBuilder.map(
               (
                 proceso
               ) => {
                 return proceso.idProceso;
               }
-            )
-            , procesos: {
+            ),
+            procesos: {
               connectOrCreate: procesosBuilder.map(
                 (
                   proceso
@@ -727,16 +627,15 @@ export class OldCarpeta extends CarpetaBuilder {
                   return {
                     where: {
                       idProceso: proceso.idProceso
-                    }
-                    , create: {
-                      ...proceso
-
-                      , fechaProceso: proceso.fechaProceso
+                    },
+                    create: {
+                      ...proceso,
+                      fechaProceso: proceso.fechaProceso
                         ? new Date(
                           proceso.fechaProceso
                         )
-                        : null
-                      , fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
                         ? new Date(
                           proceso.fechaUltimaActuacion
                         )
@@ -745,8 +644,77 @@ export class OldCarpeta extends CarpetaBuilder {
                   };
                 }
               )
-            }
-            , juzgados: {
+            },
+            ultimaActuacion: {
+              connectOrCreate: {
+                where: {
+                  idRegActuacion: defUltimaAct.idRegActuacion
+                },
+                create: {
+                  ...defUltimaAct,
+                  fechaActuacion: new Date(
+                    defUltimaAct.fechaActuacion
+                  ),
+                  fechaRegistro: new Date(
+                    defUltimaAct.fechaRegistro
+                  ),
+                  fechaFinal: defUltimaAct.fechaFinal
+                    ? new Date(
+                      defUltimaAct.fechaFinal
+                    )
+                    : null,
+                  fechaInicial: defUltimaAct.fechaInicial
+                    ? new Date(
+                      defUltimaAct.fechaInicial
+                    )
+                    : null,
+                  idProceso  : defUltimaAct.idProceso,
+                  isUltimaAct: defUltimaAct.cant === defUltimaAct.consActuacion
+                    ? true
+                    : false
+                }
+              }
+            },
+            fecha: new Date(
+              defUltimaAct.fechaActuacion
+            )
+          },
+          update: {
+            idProcesos: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return proceso.idProceso;
+              }
+            ),
+            procesos: {
+              connectOrCreate: procesosBuilder.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      idProceso: proceso.idProceso
+                    },
+                    create: {
+                      ...proceso,
+
+                      fechaProceso: proceso.fechaProceso
+                        ? new Date(
+                          proceso.fechaProceso
+                        )
+                        : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        ? new Date(
+                          proceso.fechaUltimaActuacion
+                        )
+                        : null
+                    }
+                  };
+                }
+              )
+            },
+            juzgados: {
               connectOrCreate: procesosBuilder.map(
                 (
                   proceso
@@ -754,45 +722,45 @@ export class OldCarpeta extends CarpetaBuilder {
                   return {
                     where: {
                       tipo: proceso.despacho
-                    }
-                    , create: new NewJuzgado(
+                    },
+                    create: new NewJuzgado(
                       proceso
                     )
                   };
                 }
               )
-            }
-            , ultimaActuacion: {
+            },
+            ultimaActuacion: {
               connectOrCreate: {
                 where: {
                   idRegActuacion: defUltimaAct.idRegActuacion
-                }
-                , create: {
-                  ...defUltimaAct
-                  , fechaActuacion: new Date(
+                },
+                create: {
+                  ...defUltimaAct,
+                  fechaActuacion: new Date(
                     defUltimaAct.fechaActuacion
-                  )
-                  , fechaRegistro: new Date(
+                  ),
+                  fechaRegistro: new Date(
                     defUltimaAct.fechaRegistro
-                  )
-                  , fechaFinal: defUltimaAct.fechaFinal
+                  ),
+                  fechaFinal: defUltimaAct.fechaFinal
                     ? new Date(
                       defUltimaAct.fechaFinal
                     )
-                    : null
-                  , fechaInicial: defUltimaAct.fechaInicial
+                    : null,
+                  fechaInicial: defUltimaAct.fechaInicial
                     ? new Date(
                       defUltimaAct.fechaInicial
                     )
-                    : null
-                  , idProceso  : defUltimaAct.idProceso
-                  , isUltimaAct: defUltimaAct.cant === defUltimaAct.consActuacion
+                    : null,
+                  idProceso  : defUltimaAct.idProceso,
+                  isUltimaAct: defUltimaAct.cant === defUltimaAct.consActuacion
                     ? true
                     : false
                 }
               }
-            }
-            , fecha: defUltimaAct.fechaActuacion
+            },
+            fecha: defUltimaAct.fechaActuacion
           },
         }
       );
@@ -802,70 +770,17 @@ export class OldCarpeta extends CarpetaBuilder {
       {
         where: {
           numero: this.numero,
-        }
-        , create: {
-          ...prismaCarpetaPlain
-          , idProcesos: procesosBuilder.map(
-            (
-              proceso
-            ) => {
-              return proceso.idProceso;
-            }
-          )
-          , procesos: {
-            connectOrCreate: procesosBuilder.map(
-              (
-                proceso
-              ) => {
-                return {
-                  where: {
-                    idProceso: proceso.idProceso
-                  }
-                  , create: {
-                    ...proceso
-
-                    , fechaProceso: proceso.fechaProceso
-                      ? new Date(
-                        proceso.fechaProceso
-                      )
-                      : null
-                    , fechaUltimaActuacion: proceso.fechaUltimaActuacion
-                      ? new Date(
-                        proceso.fechaUltimaActuacion
-                      )
-                      : null
-                  }
-                };
-              }
-            )
-          }
-
-          , juzgados: {
-            connectOrCreate: procesosBuilder.map(
-              (
-                proceso
-              ) => {
-                return {
-                  where: {
-                    tipo: proceso.despacho
-                  }
-                  , create: new NewJuzgado(
-                    proceso
-                  )
-                };
-              }
-            )
-          }
-        }
-        , update: {
+        },
+        create: {
+          ...prismaCarpetaPlain,
           idProcesos: procesosBuilder.map(
             (
               proceso
             ) => {
               return proceso.idProceso;
             }
-          )
-          , procesos: {
+          ),
+          procesos: {
             connectOrCreate: procesosBuilder.map(
               (
                 proceso
@@ -873,16 +788,16 @@ export class OldCarpeta extends CarpetaBuilder {
                 return {
                   where: {
                     idProceso: proceso.idProceso
-                  }
-                  , create: {
-                    ...proceso
+                  },
+                  create: {
+                    ...proceso,
 
-                    , fechaProceso: proceso.fechaProceso
+                    fechaProceso: proceso.fechaProceso
                       ? new Date(
                         proceso.fechaProceso
                       )
-                      : null
-                    , fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                      : null,
+                    fechaUltimaActuacion: proceso.fechaUltimaActuacion
                       ? new Date(
                         proceso.fechaUltimaActuacion
                       )
@@ -891,8 +806,9 @@ export class OldCarpeta extends CarpetaBuilder {
                 };
               }
             )
-          }
-          , juzgados: {
+          },
+
+          juzgados: {
             connectOrCreate: procesosBuilder.map(
               (
                 proceso
@@ -900,8 +816,60 @@ export class OldCarpeta extends CarpetaBuilder {
                 return {
                   where: {
                     tipo: proceso.despacho
+                  },
+                  create: new NewJuzgado(
+                    proceso
+                  )
+                };
+              }
+            )
+          }
+        },
+        update: {
+          idProcesos: procesosBuilder.map(
+            (
+              proceso
+            ) => {
+              return proceso.idProceso;
+            }
+          ),
+          procesos: {
+            connectOrCreate: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return {
+                  where: {
+                    idProceso: proceso.idProceso
+                  },
+                  create: {
+                    ...proceso,
+
+                    fechaProceso: proceso.fechaProceso
+                      ? new Date(
+                        proceso.fechaProceso
+                      )
+                      : null,
+                    fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                      ? new Date(
+                        proceso.fechaUltimaActuacion
+                      )
+                      : null
                   }
-                  , create: new NewJuzgado(
+                };
+              }
+            )
+          },
+          juzgados: {
+            connectOrCreate: procesosBuilder.map(
+              (
+                proceso
+              ) => {
+                return {
+                  where: {
+                    tipo: proceso.despacho
+                  },
+                  create: new NewJuzgado(
                     proceso
                   )
                 };
@@ -949,8 +917,8 @@ export class OldCarpeta extends CarpetaBuilder {
             return {
               where: {
                 tipo: juzgado.tipo,
-              }
-              , create: {
+              },
+              create: {
                 ...juzgado,
               },
             };
@@ -970,8 +938,8 @@ export class OldCarpeta extends CarpetaBuilder {
             return {
               where: {
                 idProceso: proceso.idProceso
-              }
-              , create: new PrismaDemanda(
+              },
+              create: new PrismaDemanda(
                 this,
                 proceso
               ),
@@ -982,8 +950,8 @@ export class OldCarpeta extends CarpetaBuilder {
         prismaDemandas = {
           where: {
             idProceso: this.numero,
-          }
-          , create: new PrismaDemanda(
+          },
+          create: new PrismaDemanda(
             this
           ),
         };
@@ -993,43 +961,43 @@ export class OldCarpeta extends CarpetaBuilder {
         {
           where: {
             numero: this.numero,
-          }
-          , create: {
-            nombre      : this.nombre
-            , category    : this.category
-            , numero      : this.numero
-            , tipoProceso : this.tipoProceso
-            , llaveProceso: this.procesos[ 0 ].llaveProceso
-            , idProcesos  : this.procesos.map(
+          },
+          create: {
+            nombre      : this.nombre,
+            category    : this.category,
+            numero      : this.numero,
+            tipoProceso : this.tipoProceso,
+            llaveProceso: this.procesos[ 0 ].llaveProceso,
+            idProcesos  : this.procesos.map(
               (
                 prc
               ) => {
                 return prc.idProceso;
               }
-            )
-            , revisado: this.category === 'Terminados'
+            ),
+            revisado: this.category === 'Terminados'
               ? true
-              : false
-            , terminado: this.category === 'Terminados'
+              : false,
+            terminado: this.category === 'Terminados'
               ? true
-              : false
-            , demandas: {
+              : false,
+            demandas: {
               connectOrCreate: prismaDemandas
-            }
-            , deudor: {
+            },
+            deudor: {
               connectOrCreate: {
                 where: {
                   carpetaNumero: this.numero,
-                }
-                , create: new PrismaDeudor(
+                },
+                create: new PrismaDeudor(
                   this
                 ),
               },
-            }
-            , juzgados: {
+            },
+            juzgados: {
               connectOrCreate: juzgadosInCarpeta,
-            }
-            , procesos: {
+            },
+            procesos: {
               connectOrCreate: this.procesos.map(
                 (
                   proceso
@@ -1037,15 +1005,15 @@ export class OldCarpeta extends CarpetaBuilder {
                   return {
                     where: {
                       idProceso: proceso.idProceso,
-                    }
-                    , create: {
-                      ...proceso
-                      , fechaProceso: proceso.fechaProceso
+                    },
+                    create: {
+                      ...proceso,
+                      fechaProceso: proceso.fechaProceso
                         ? new Date(
                           proceso.fechaProceso
                         )
-                        : null
-                      , fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
                         ? new Date(
                           proceso.fechaUltimaActuacion
                         )
@@ -1055,12 +1023,12 @@ export class OldCarpeta extends CarpetaBuilder {
                 }
               ),
             },
-          }
-          , update: {
+          },
+          update: {
             juzgados: {
               connectOrCreate: juzgadosInCarpeta,
-            }
-            , procesos: {
+            },
+            procesos: {
               connectOrCreate: this.procesos.map(
                 (
                   proceso
@@ -1068,15 +1036,15 @@ export class OldCarpeta extends CarpetaBuilder {
                   return {
                     where: {
                       idProceso: proceso.idProceso,
-                    }
-                    , create: {
-                      ...proceso
-                      , fechaProceso: proceso.fechaProceso
+                    },
+                    create: {
+                      ...proceso,
+                      fechaProceso: proceso.fechaProceso
                         ? new Date(
                           proceso.fechaProceso
                         )
-                        : null
-                      , fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                        : null,
+                      fechaUltimaActuacion: proceso.fechaUltimaActuacion
                         ? new Date(
                           proceso.fechaUltimaActuacion
                         )

@@ -34,8 +34,8 @@ export async function insertCarpetaInPrisma(
       newCarpeta = newPrismaCarpeta;
     } else if ( !ultimaActuacion ) {
       newCarpeta = {
-        ...newPrismaCarpeta
-        , procesos: {
+        ...newPrismaCarpeta,
+        procesos: {
           connectOrCreate: procesos.map(
             (
               proceso 
@@ -43,22 +43,22 @@ export async function insertCarpetaInPrisma(
               return {
                 where: {
                   idProceso: proceso.idProceso,
-                }
-                , create: {
-                  cantFilas        : proceso.cantFilas
-                  , departamento     : proceso.departamento
-                  , despacho         : proceso.despacho
-                  , llaveProceso     : proceso.llaveProceso
-                  , esPrivado        : proceso.esPrivado
-                  , idConexion       : proceso.idConexion
-                  , sujetosProcesales: proceso.sujetosProcesales
-                  , idProceso        : proceso.idProceso
-                  , fechaProceso     : proceso.fechaProceso
+                },
+                create: {
+                  cantFilas        : proceso.cantFilas,
+                  departamento     : proceso.departamento,
+                  despacho         : proceso.despacho,
+                  llaveProceso     : proceso.llaveProceso,
+                  esPrivado        : proceso.esPrivado,
+                  idConexion       : proceso.idConexion,
+                  sujetosProcesales: proceso.sujetosProcesales,
+                  idProceso        : proceso.idProceso,
+                  fechaProceso     : proceso.fechaProceso
                     ? new Date(
                       proceso.fechaProceso 
                     )
-                    : null
-                  , fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                    : null,
+                  fechaUltimaActuacion: proceso.fechaUltimaActuacion
                     ? new Date(
                       proceso.fechaUltimaActuacion 
                     )
@@ -71,8 +71,8 @@ export async function insertCarpetaInPrisma(
       };
     } else {
       newCarpeta = {
-        ...newPrismaCarpeta
-        , procesos: {
+        ...newPrismaCarpeta,
+        procesos: {
           connectOrCreate: procesos.map(
             (
               proceso 
@@ -81,15 +81,15 @@ export async function insertCarpetaInPrisma(
               = {
                 where: {
                   idProceso: proceso.idProceso,
-                }
-                , create: {
-                  ...proceso
-                  , fechaProceso: proceso.fechaProceso
+                },
+                create: {
+                  ...proceso,
+                  fechaProceso: proceso.fechaProceso
                     ? new Date(
                       proceso.fechaProceso 
                     )
-                    : null
-                  , fechaUltimaActuacion: proceso.fechaUltimaActuacion
+                    : null,
+                  fechaUltimaActuacion: proceso.fechaUltimaActuacion
                     ? new Date(
                       proceso.fechaUltimaActuacion 
                     )
@@ -99,45 +99,45 @@ export async function insertCarpetaInPrisma(
               return procesoReturn;
             } 
           ),
-        }
-        , ultimaActuacion: {
+        },
+        ultimaActuacion: {
           connectOrCreate: {
             where: {
               idRegActuacion: ultimaActuacion.idRegActuacion,
-            }
-            , create: {
-              cant          : ultimaActuacion.cant
-              , consActuacion : ultimaActuacion.consActuacion
-              , conDocumentos : ultimaActuacion.conDocumentos
-              , actuacion     : ultimaActuacion.actuacion
-              , codRegla      : ultimaActuacion.codRegla
-              , llaveProceso  : ultimaActuacion.llaveProceso
-              , idRegActuacion: ultimaActuacion.idRegActuacion
-              , carpetaNumero : newPrismaCarpeta.numero
-              , isUltimaAct:
+            },
+            create: {
+              cant          : ultimaActuacion.cant,
+              consActuacion : ultimaActuacion.consActuacion,
+              conDocumentos : ultimaActuacion.conDocumentos,
+              actuacion     : ultimaActuacion.actuacion,
+              codRegla      : ultimaActuacion.codRegla,
+              llaveProceso  : ultimaActuacion.llaveProceso,
+              idRegActuacion: ultimaActuacion.idRegActuacion,
+              carpetaNumero : newPrismaCarpeta.numero,
+              isUltimaAct:
                 ultimaActuacion.cant === ultimaActuacion.consActuacion
                   ? true
-                  : false
-              , fechaActuacion: new Date(
+                  : false,
+              fechaActuacion: new Date(
                 ultimaActuacion.fechaActuacion 
-              )
-              , fechaRegistro: new Date(
+              ),
+              fechaRegistro: new Date(
                 ultimaActuacion.fechaRegistro 
-              )
-              , fechaInicial: ultimaActuacion.fechaInicial
+              ),
+              fechaInicial: ultimaActuacion.fechaInicial
                 ? new Date(
                   ultimaActuacion.fechaInicial 
                 )
-                : null
-              , fechaFinal: ultimaActuacion.fechaFinal
+                : null,
+              fechaFinal: ultimaActuacion.fechaFinal
                 ? new Date(
                   ultimaActuacion.fechaFinal 
                 )
-                : null
-              , anotacion: ultimaActuacion.anotacion
+                : null,
+              anotacion: ultimaActuacion.anotacion
                 ? ultimaActuacion.anotacion
-                : null
-              , idProceso: ultimaActuacion.idProceso,
+                : null,
+              idProceso: ultimaActuacion.idProceso,
             },
           },
         },
@@ -151,9 +151,9 @@ export async function insertCarpetaInPrisma(
         {
           where: {
             numero: numero,
-          }
-          , create: newCarpeta
-          , update: newCarpeta,
+          },
+          create: newCarpeta,
+          update: newCarpeta,
         } 
       );
     } catch ( error ) {
@@ -189,9 +189,9 @@ export async function insertCarpetaInPrisma(
         {
           where: {
             numero: numero,
-          }
-          , create: newPrismaCarpeta
-          , update: newPrismaCarpeta,
+          },
+          create: newPrismaCarpeta,
+          update: newPrismaCarpeta,
         } 
       );
     }
@@ -208,9 +208,9 @@ export async function insertCarpetaInPrisma(
       ),
     );
     return {
-      StatusCode: 200
-      , Message   : 'ok'
-      , data      : createCarpeta,
+      StatusCode: 200,
+      Message   : 'ok',
+      data      : createCarpeta,
     };
   } catch ( e ) {
     if ( e instanceof Prisma.PrismaClientKnownRequestError ) {
@@ -234,15 +234,15 @@ export async function insertCarpetaInPrisma(
               {
                 where: {
                   numero: newPrismaCarpeta.numero,
-                }
-                , create: newNewCarp
-                , update: newNewCarp,
+                },
+                create: newNewCarp,
+                update: newNewCarp,
               } 
             );
             return {
-              StatusCode: 500
-              , Message   : e.message
-              , data      : createCarpeta,
+              StatusCode: 500,
+              Message   : e.message,
+              data      : createCarpeta,
             };
           }
 
@@ -255,9 +255,9 @@ export async function insertCarpetaInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 301
-              , Message   : e.message
-              , data      : e.meta,
+              StatusCode: 301,
+              Message   : e.message,
+              data      : e.meta,
             };
           }
 
@@ -270,18 +270,18 @@ export async function insertCarpetaInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 300
-              , Message   : e.message
-              , data      : e.meta,
+              StatusCode: 300,
+              Message   : e.message,
+              data      : e.meta,
             };
           }
       }
     }
 
     return {
-      StatusCode: 400
-      , Message   : `error at ${ e }`
-      , data      : JSON.stringify(
+      StatusCode: 400,
+      Message   : `error at ${ e }`,
+      data      : JSON.stringify(
         e, null, 2 
       ),
     };
@@ -304,21 +304,21 @@ export async function insertDemandaInPrisma(
       {
         where: {
           carpetaNumero: numero,
-        }
-        , create: {
-          ...newPrismaDemanda
-          , carpetaNumero: numero,
-        }
-        , update: {
-          ...newPrismaDemanda
-          , carpetaNumero: numero,
+        },
+        create: {
+          ...newPrismaDemanda,
+          carpetaNumero: numero,
+        },
+        update: {
+          ...newPrismaDemanda,
+          carpetaNumero: numero,
         },
       } 
     );
     return {
-      StatusCode: 200
-      , Message   : 'ok'
-      , data      : createDemanda,
+      StatusCode: 200,
+      Message   : 'ok',
+      data      : createDemanda,
     };
   } catch ( e ) {
     if ( e instanceof Prisma.PrismaClientKnownRequestError ) {
@@ -333,9 +333,9 @@ export async function insertDemandaInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 202
-              , Message   : e.message
-              , data      : e.meta,
+              StatusCode: 202,
+              Message   : e.message,
+              data      : e.meta,
             };
           }
 
@@ -348,9 +348,9 @@ export async function insertDemandaInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 203
-              , Message   : e.message
-              , data      : e.meta,
+              StatusCode: 203,
+              Message   : e.message,
+              data      : e.meta,
             };
           }
 
@@ -363,18 +363,18 @@ export async function insertDemandaInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 300
-              , Message   : e.message
-              , data      : e.meta,
+              StatusCode: 300,
+              Message   : e.message,
+              data      : e.meta,
             };
           }
       }
     }
 
     return {
-      StatusCode: 400
-      , Message   : `error at ${ e }`
-      , data      : JSON.stringify(
+      StatusCode: 400,
+      Message   : `error at ${ e }`,
+      data      : JSON.stringify(
         e, null, 2 
       ),
     };
@@ -397,21 +397,21 @@ export async function insertDeudorInPrisma(
       {
         where: {
           carpetaNumero: numero,
-        }
-        , create: {
-          ...newPrismaDeudor
-          , carpetaNumero: numero,
-        }
-        , update: {
-          ...newPrismaDeudor
-          , carpetaNumero: numero,
+        },
+        create: {
+          ...newPrismaDeudor,
+          carpetaNumero: numero,
+        },
+        update: {
+          ...newPrismaDeudor,
+          carpetaNumero: numero,
         },
       } 
     );
     return {
-      StatusCode: 200
-      , Message   : 'ok'
-      , data      : createDeudor,
+      StatusCode: 200,
+      Message   : 'ok',
+      data      : createDeudor,
     };
   } catch ( e ) {
     if ( e instanceof Prisma.PrismaClientKnownRequestError ) {
@@ -426,9 +426,9 @@ export async function insertDeudorInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 202
-              , Message   : e.message
-              , data      : e.meta ?? e.message,
+              StatusCode: 202,
+              Message   : e.message,
+              data      : e.meta ?? e.message,
             };
           }
 
@@ -441,9 +441,9 @@ export async function insertDeudorInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 203
-              , Message   : e.message
-              , data      : e.meta ?? e.message,
+              StatusCode: 203,
+              Message   : e.message,
+              data      : e.meta ?? e.message,
             };
           }
 
@@ -456,18 +456,18 @@ export async function insertDeudorInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 300
-              , Message   : e.message
-              , data      : e.meta ?? e.message,
+              StatusCode: 300,
+              Message   : e.message,
+              data      : e.meta ?? e.message,
             };
           }
       }
     }
 
     return {
-      StatusCode: 400
-      , Message   : `error at ${ e }`
-      , data      : JSON.stringify(
+      StatusCode: 400,
+      Message   : `error at ${ e }`,
+      data      : JSON.stringify(
         e, null, 2 
       ),
     };
@@ -499,9 +499,9 @@ export async function insertJuzgadoInPrisma(
         {
           where: {
             tipo: juzgado.tipo,
-          }
-          , create: juzgado
-          , update: juzgado,
+          },
+          create: juzgado,
+          update: juzgado,
         } 
       );
       outputJuzgados.add(
@@ -511,9 +511,9 @@ export async function insertJuzgadoInPrisma(
     }
 
     return {
-      StatusCode: 200
-      , Message   : 'ok'
-      , data      : Array.from(
+      StatusCode: 200,
+      Message   : 'ok',
+      data      : Array.from(
         outputJuzgados 
       ),
     };
@@ -529,9 +529,9 @@ export async function insertJuzgadoInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 302
-              , Message   : e.message
-              , data      : e.meta,
+              StatusCode: 302,
+              Message   : e.message,
+              data      : e.meta,
             };
           }
 
@@ -544,9 +544,9 @@ export async function insertJuzgadoInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 302
-              , Message   : e.message
-              , data      : e.meta,
+              StatusCode: 302,
+              Message   : e.message,
+              data      : e.meta,
             };
           }
 
@@ -559,18 +559,18 @@ export async function insertJuzgadoInPrisma(
               ) }`,
             );
             return {
-              StatusCode: 300
-              , Message   : e.message
-              , data      : e.meta,
+              StatusCode: 300,
+              Message   : e.message,
+              data      : e.meta,
             };
           }
       }
     }
 
     return {
-      StatusCode: 400
-      , Message   : `error at ${ e }`
-      , data      : JSON.stringify(
+      StatusCode: 400,
+      Message   : `error at ${ e }`,
+      data      : JSON.stringify(
         e, null, 2 
       ),
     };

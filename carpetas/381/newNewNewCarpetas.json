@@ -1,5 +1,5 @@
 {
-  "_id": 381,
+  "id": 1032396480,
   "actuaciones": [
     {
       "idRegActuacion": 224371301,
@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:28:44.097Z"
+      "createdAt": "2023-12-30T21:54:34.092Z"
     },
     {
       "idRegActuacion": 224371291,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:44.102Z"
+      "createdAt": "2023-12-30T21:54:34.092Z"
     },
     {
       "idRegActuacion": 224371281,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:44.106Z"
+      "createdAt": "2023-12-30T21:54:34.092Z"
     },
     {
       "idRegActuacion": 224371271,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:44.111Z"
+      "createdAt": "2023-12-30T21:54:34.092Z"
     },
     {
       "idRegActuacion": 224371261,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:44.115Z"
+      "createdAt": "2023-12-30T21:54:34.092Z"
     }
   ],
   "category": "Terminados",
@@ -101,7 +101,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "expediente": "11001400304120180007500",
     "fechaPresentacion": [
       "2018-01-24T05:00:00.000Z"
     ],
@@ -172,5 +171,5 @@
     "idProceso": 19431801,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:28:43.899Z"
+  "updatedAt": "2023-12-30T21:54:34.047Z"
 }

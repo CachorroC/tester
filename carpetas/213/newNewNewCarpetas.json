@@ -1,5 +1,5 @@
 {
-  "_id": 213,
+  "id": 52325613,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "79846140",
     "direccion": null,
     "telefono": null,
-    "id": 213,
-    "carpetaNumero": 213
+    "id": 213
   },
   "demanda": {
     "obligacion": [
@@ -31,7 +30,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400308822017014880",
     "fechaPresentacion": [
       "2017-09-04T05:00:00.000Z"
     ],
@@ -58,7 +56,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001400308822017014880",
   "nombre": "MYRIAM CONSUELO RIOS FONSECA",
   "numero": 213,
@@ -67,5 +64,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:34.995Z"
+  "updatedAt": "2023-12-30T21:53:57.230Z"
 }

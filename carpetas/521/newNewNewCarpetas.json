@@ -1,5 +1,5 @@
 {
-  "_id": 521,
+  "id": 40050052,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": null,
@@ -15,7 +15,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2019-08-02T05:00:00.000Z",
     "etapaProcesal": null,
-    "expediente": "11001418901220190023500",
     "fechaPresentacion": [
       "2019-02-15T05:00:00.000Z"
     ],
@@ -40,7 +39,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001418901220190023500",
   "nombre": "MARIA AQUILINA RODRIGUEZ LANCHEROS",
   "numero": 521,
@@ -49,5 +47,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:33.240Z"
+  "updatedAt": "2023-12-30T21:54:54.933Z"
 }

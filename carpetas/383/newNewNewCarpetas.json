@@ -1,5 +1,5 @@
 {
-  "_id": 383,
+  "id": 65706810,
   "actuaciones": [
     {
       "idRegActuacion": 714162860,
@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:28:44.558Z"
+      "createdAt": "2023-12-30T21:54:34.236Z"
     },
     {
       "idRegActuacion": 714162850,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:44.563Z"
+      "createdAt": "2023-12-30T21:54:34.236Z"
     },
     {
       "idRegActuacion": 714162840,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:44.568Z"
+      "createdAt": "2023-12-30T21:54:34.236Z"
     },
     {
       "idRegActuacion": 714162830,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:44.573Z"
+      "createdAt": "2023-12-30T21:54:34.236Z"
     },
     {
       "idRegActuacion": 714162820,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:44.578Z"
+      "createdAt": "2023-12-30T21:54:34.236Z"
     },
     {
       "idRegActuacion": 714162810,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:28:44.583Z"
+      "createdAt": "2023-12-30T21:54:34.236Z"
     }
   ],
   "category": "Terminados",
@@ -110,8 +110,7 @@
     "cedula": "74327316",
     "direccion": "CARRERA 98 # 15A - 80",
     "telefono": "7340264",
-    "id": 383,
-    "carpetaNumero": 383
+    "id": 383
   },
   "demanda": {
     "obligacion": [
@@ -129,7 +128,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400302620180047900",
     "fechaPresentacion": [
       "2018-01-26T05:00:00.000Z",
       "2018-04-02T05:00:00.000Z"
@@ -201,5 +199,5 @@
     "idProceso": 51176440,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:28:44.269Z"
+  "updatedAt": "2023-12-30T21:54:34.182Z"
 }

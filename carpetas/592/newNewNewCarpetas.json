@@ -1,5 +1,5 @@
 {
-  "_id": 592,
+  "id": 79888775,
   "actuaciones": [],
   "category": "Bancolombia",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "52791903",
     "direccion": "CALLE 6 SUR No. 24 - 180 AP 1203 TO 7 CONJUNTO RESIDENCIAL LA PROSPERIDAD - FONTANA 3 P.H.",
     "telefono": "F 4575011 CELULAR 3209005114",
-    "id": 592,
-    "carpetaNumero": 592
+    "id": 592
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "SinEspecificar",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "MADRID",
@@ -47,14 +45,12 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "SinEspecificar",
   "nombre": "MARCEL LEONARDO MACHADO ROMERO Y VIVIANA MARTINEZ ARIAS",
   "numero": 592,
-  "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:55.466Z"
+  "updatedAt": "2023-12-30T21:55:04.021Z"
 }

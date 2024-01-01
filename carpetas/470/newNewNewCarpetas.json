@@ -1,5 +1,5 @@
 {
-  "_id": 470,
+  "id": 52711938,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "2/4/2032",
     "telefono": null,
-    "id": 470,
-    "carpetaNumero": 470
+    "id": 470
   },
   "demanda": {
     "obligacion": [
@@ -36,7 +35,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "09/08/2018",
-    "expediente": "25754418900320180084100",
     "fechaPresentacion": [
       "2018-09-07T05:00:00.000Z"
     ],
@@ -61,7 +59,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25754418900320180084100",
   "nombre": "ELIANA JANNETH LOZANO ARTURO",
   "numero": 470,
@@ -70,5 +67,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:21.266Z"
+  "updatedAt": "2023-12-30T21:54:49.984Z"
 }

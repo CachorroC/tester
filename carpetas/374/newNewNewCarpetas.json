@@ -1,5 +1,5 @@
 {
-  "_id": 374,
+  "id": 80850549,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "52936062",
     "direccion": "CARRERA 96 D # 6 - 55 CASA 81 ESTAPA 1",
     "telefono": "7326829",
-    "id": 374,
-    "carpetaNumero": 374
+    "id": 374
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400308620180006700",
     "fechaPresentacion": [
       "2018-01-22T05:00:00.000Z"
     ],
@@ -48,10 +46,7 @@
     "email": "jjhoan_27@hotmail.com"
   },
   "fecha": null,
-  "idProcesos": [
-    81895161
-  ],
-  "idRegUltimaAct": null,
+  "idProcesos": [],
   "llaveProceso": "11001400308620180006700",
   "nombre": "JHOAN ANTONIO BARAJAS MONTENEGRO",
   "numero": 374,
@@ -78,5 +73,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:28:41.060Z"
+  "updatedAt": "2023-12-30T21:54:32.537Z"
 }

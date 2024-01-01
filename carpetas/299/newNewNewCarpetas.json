@@ -1,5 +1,5 @@
 {
-  "_id": 299,
+  "id": 80879280,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "53005799",
     "direccion": "CALLE 75 C BIS No 2-09 SUR  BOGOTA",
     "telefono": "3208790281",
-    "id": 299,
-    "carpetaNumero": 299
+    "id": 299
   },
   "demanda": {
     "obligacion": [
@@ -27,7 +26,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "expediente": "25754400300320170034600",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "SOACHA",
@@ -52,7 +50,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25754400300320170034600",
   "nombre": "ROBERTO STIVENSON ACERO BARON",
   "numero": 299,
@@ -61,5 +58,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:28:11.282Z"
+  "updatedAt": "2023-12-30T21:54:15.680Z"
 }

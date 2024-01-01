@@ -1,5 +1,5 @@
 {
-  "_id": 301,
+  "id": 35220385,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "44166",
     "telefono": null,
-    "id": 301,
-    "carpetaNumero": 301
+    "id": 301
   },
   "demanda": {
     "obligacion": [
@@ -23,7 +22,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "43026",
-    "expediente": "25322418900120180002200",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "GUASCA",
@@ -46,7 +44,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25322418900120180002200",
   "nombre": "BLANCA YOLANDA ACOSTA RODRIGUEZ",
   "numero": 301,
@@ -55,5 +52,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:28:11.567Z"
+  "updatedAt": "2023-12-30T21:54:15.796Z"
 }

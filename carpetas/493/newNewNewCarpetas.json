@@ -1,5 +1,5 @@
 {
-  "_id": 493,
+  "id": 53103504,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "1030602928",
     "direccion": "CALLE 7 No 87B-90",
     "telefono": "3208797",
-    "id": 493,
-    "carpetaNumero": 493
+    "id": 493
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
     "etapaProcesal": "SUBSANA",
-    "expediente": "11001410375120180181700",
     "fechaPresentacion": [
       "2018-09-29T05:00:00.000Z"
     ],
@@ -47,7 +45,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001410375120180181700",
   "nombre": "KELLY YULIANA QUINTERO FIERRO",
   "numero": 493,
@@ -56,5 +53,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:26.148Z"
+  "updatedAt": "2023-12-30T21:54:51.889Z"
 }

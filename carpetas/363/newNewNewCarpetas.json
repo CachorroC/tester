@@ -1,5 +1,5 @@
 {
-  "_id": 363,
+  "id": 52645617,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "27/07/2028",
     "telefono": null,
-    "id": 363,
-    "carpetaNumero": 363
+    "id": 363
   },
   "demanda": {
     "obligacion": [
@@ -35,7 +34,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "12/12/2017",
-    "expediente": "25754400300220170040900",
     "fechaPresentacion": [
       "2018-01-16T05:00:00.000Z"
     ],
@@ -60,7 +58,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25754400300220170040900",
   "nombre": "MARIA LILIANA CASTAÑEDA ZAPATA",
   "numero": 363,
@@ -69,5 +66,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:28:36.696Z"
+  "updatedAt": "2023-12-30T21:54:30.102Z"
 }

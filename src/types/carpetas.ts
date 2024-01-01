@@ -80,7 +80,6 @@ export interface Codeudor {
   cedula: string | null;
   nombre: string | null;
   id: number;
-  carpetaNumero: number;
   direccion: string | null;
   telefono: string | null;
 }

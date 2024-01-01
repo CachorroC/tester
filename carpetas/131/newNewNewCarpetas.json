@@ -1,5 +1,5 @@
 {
-  "_id": 131,
+  "id": 52830770,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": "45026",
     "telefono": null,
-    "id": 131,
-    "carpetaNumero": 131
+    "id": 131
   },
   "demanda": {
     "obligacion": [
@@ -39,7 +38,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "42965",
-    "expediente": "25754418900120170077400",
     "fechaPresentacion": [
       "2017-09-05T05:00:00.000Z"
     ],
@@ -66,7 +64,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "25754418900120170077400",
   "nombre": "ROCIO ALEIDA ORTIZ BARRETO",
   "numero": 131,
@@ -75,5 +72,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:02.791Z"
+  "updatedAt": "2023-12-30T21:53:39.493Z"
 }

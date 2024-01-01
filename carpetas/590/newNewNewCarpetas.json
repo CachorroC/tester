@@ -1,5 +1,5 @@
 {
-  "_id": 590,
+  "id": 10051411,
   "actuaciones": [
     {
       "idRegActuacion": 1928002260,
@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 134307840,
       "isUltimaAct": true,
-      "createdAt": "2023-12-14T09:29:54.981Z"
+      "createdAt": "2023-12-30T21:55:03.795Z"
     },
     {
       "idRegActuacion": 1928002250,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 134307840,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:54.986Z"
+      "createdAt": "2023-12-30T21:55:03.795Z"
     },
     {
       "idRegActuacion": 1928002240,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 134307840,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:54.991Z"
+      "createdAt": "2023-12-30T21:55:03.795Z"
     },
     {
       "idRegActuacion": 1928002230,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 134307840,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:54.996Z"
+      "createdAt": "2023-12-30T21:55:03.795Z"
     },
     {
       "idRegActuacion": 1916791020,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 134307840,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:55.000Z"
+      "createdAt": "2023-12-30T21:55:03.795Z"
     },
     {
       "idRegActuacion": 1916791010,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 134307840,
       "isUltimaAct": false,
-      "createdAt": "2023-12-14T09:29:55.004Z"
+      "createdAt": "2023-12-30T21:55:03.795Z"
     }
   ],
   "category": "Bancolombia",
@@ -119,7 +119,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2023-09-10T05:00:00.000Z",
     "etapaProcesal": null,
-    "expediente": "11001400301520230098000",
     "fechaPresentacion": [],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
@@ -189,5 +188,5 @@
     "idProceso": 134307840,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-14T09:29:54.622Z"
+  "updatedAt": "2023-12-30T21:55:03.606Z"
 }

@@ -1,5 +1,5 @@
 {
-  "_id": 421,
+  "id": 79837700,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": null,
     "direccion": null,
     "telefono": "4514661",
-    "id": 421,
-    "carpetaNumero": 421
+    "id": 421
   },
   "demanda": {
     "obligacion": [
@@ -29,7 +28,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "LIQUIDACION",
-    "expediente": "11001400307520180061700",
     "fechaPresentacion": [
       "2018-04-27T05:00:00.000Z"
     ],
@@ -54,7 +52,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001400307520180061700",
   "nombre": "ALEXANDER MUÑOZ ORTIZ",
   "numero": 421,
@@ -63,5 +60,5 @@
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:03.865Z"
+  "updatedAt": "2023-12-30T21:54:41.784Z"
 }

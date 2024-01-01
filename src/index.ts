@@ -29,8 +29,8 @@ router.post(
           post: Prisma.NotaCreateInput 
         ) => {
           return {
-            title  : post.title
-            , content: post.content || undefined,
+            title  : post.title,
+            content: post.content || undefined,
           };
         } 
       )
@@ -39,9 +39,9 @@ router.post(
     const newUser = await prisma.carpeta.create(
       {
         data: {
-          nombre: name
-          , email
-          , notas : {
+          nombre: name,
+          email,
+          notas : {
             create: postData,
           },
         },
@@ -64,9 +64,9 @@ router.post(
     const newPost = await prisma.nota.create(
       {
         data: {
-          title
-          , content
-          , author: {
+          title,
+          content,
+          author: {
             connect: {
               email,
             },
@@ -92,8 +92,8 @@ router.put(
         {
           where: {
             id,
-          }
-          , data: {
+          },
+          data: {
             viewCount: {
               increment: 1,
             },
@@ -139,8 +139,8 @@ router.put(
       {
         where: {
           id,
-        }
-        , data: {
+        },
+        data: {
           published: !postToUpdate.published,
         },
       } 
@@ -250,33 +250,32 @@ router.get(
               title: {
                 contains: searchString as string,
               },
-            }
-            , {
+            },
+            {
               content: {
                 contains: searchString as string,
               },
-            }                                                                                                                                                                                               
-            ,
-],
+            },                                                                                                                                                                                                           
+          ],
         }
       : {};
 
     const posts = await prisma.post.findMany(
       {
         where: {
-          published: true
-          , ...or,
-        }
-        , include: {
+          published: true,
+          ...or,
+        },
+        include: {
           author: true,
-        }
-        , take: Number(
+        },
+        take: Number(
           take 
-        ) || undefined
-        , skip: Number(
+        ) || undefined,
+        skip: Number(
           skip 
-        ) || undefined
-        , orderBy: {
+        ) || undefined,
+        orderBy: {
           updatedAt: orderBy as Prisma.SortOrder,
         },
       } 

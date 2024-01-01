@@ -1,5 +1,5 @@
 {
-  "_id": 499,
+  "id": 3208569,
   "actuaciones": [],
   "category": "Bancolombia",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "51955296",
     "direccion": "DIAGONAL 77B No 119 A-74 APTO 504 INT6",
     "telefono": "F 2286617",
-    "id": 499,
-    "carpetaNumero": 499
+    "id": 499
   },
   "demanda": {
     "obligacion": [
@@ -40,7 +39,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-08-10T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "expediente": "11001418901320190070800",
     "fechaPresentacion": [
       "2018-10-12T05:00:00.000Z"
     ],
@@ -67,7 +65,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001418901320190070800",
   "nombre": "FLORESMIRO APONTE ACOSTA",
   "numero": 499,
@@ -76,5 +73,5 @@
   "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:29:27.333Z"
+  "updatedAt": "2023-12-30T21:54:52.244Z"
 }

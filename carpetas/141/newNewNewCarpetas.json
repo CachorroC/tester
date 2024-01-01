@@ -1,5 +1,5 @@
 {
-  "_id": 141,
+  "id": 79412583,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "1022357168",
     "direccion": "TRANSVERSAL 54 # 18 - 30 SUR INTERIOR 3 APTO 201",
     "telefono": "5103158",
-    "id": 141,
-    "carpetaNumero": 141
+    "id": 141
   },
   "demanda": {
     "obligacion": [
@@ -22,7 +21,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "expediente": "11001400303920170110000",
     "fechaPresentacion": [
       "2017-08-22T05:00:00.000Z"
     ],
@@ -49,7 +47,6 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "11001400303920170110000",
   "nombre": "EDGAR DAVID HERNANDEZ RINCON",
   "numero": 141,
@@ -58,5 +55,5 @@
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:07.329Z"
+  "updatedAt": "2023-12-30T21:53:42.024Z"
 }

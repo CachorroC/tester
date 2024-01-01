@@ -1,5 +1,5 @@
 {
-  "_id": 195,
+  "id": 80244664,
   "actuaciones": [],
   "category": "Terminados",
   "codeudor": {
@@ -7,8 +7,7 @@
     "cedula": "52347132",
     "direccion": "CARRERA 6 # 23 - 70 BLOQUE 29 CASA 34",
     "telefono": "8222969 // 3112842488",
-    "id": 195,
-    "carpetaNumero": 195
+    "id": 195
   },
   "demanda": {
     "obligacion": [
@@ -29,7 +28,6 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SENTENCIA",
-    "expediente": "1100140030122017099100",
     "fechaPresentacion": [
       "2017-08-30T05:00:00.000Z"
     ],
@@ -56,14 +54,12 @@
   },
   "fecha": null,
   "idProcesos": [],
-  "idRegUltimaAct": null,
   "llaveProceso": "1100140030122017099100",
   "nombre": "DOUGLAS FABIAN SIZA CORTES",
   "numero": 195,
-  "procesos": [],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-14T09:27:27.861Z"
+  "updatedAt": "2023-12-30T21:53:53.156Z"
 }
