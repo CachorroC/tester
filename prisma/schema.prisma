@@ -12,11 +12,12 @@ datasource db {
 }
 
 model Carpeta {
-  id              Int
   category        Category    @default(SinEspecificar)
-  tipoProceso     TipoProceso @default(SINGULAR)
   codeudor        Codeudor?
+  demanda         Demanda?
+  deudor          Deudor?
   fecha           DateTime?
+  id              Int
   idProcesos      Int[]
   idRegUltimaAct  Int?
   llaveProceso    String
@@ -26,12 +27,11 @@ model Carpeta {
   procesos        Proceso[]
   revisado        Boolean     @default(false)
   tareas          Tarea[]
+  Task            Task[]
   terminado       Boolean     @default(false)
+  tipoProceso     TipoProceso @default(SINGULAR)
   ultimaActuacion Actuacion?  @relation(fields: [idRegUltimaAct], references: [idRegActuacion])
   updatedAt       DateTime    @updatedAt
-  deudor          Deudor?
-  demanda         Demanda?
-  Task            Task[]
 }
 
 model Deudor {
@@ -67,24 +67,24 @@ model Demanda {
   despacho                String?
   entregaGarantiasAbogado DateTime?          @db.Date
   etapaProcesal           String?
-  llaveProceso            String?
   fechaPresentacion       DateTime[]         @db.Date
   id                      Int                @id
+  llaveProceso            String?
   mandamientoPago         DateTime?          @db.Date
-  tipoProceso             String
   medidasCautelares       MedidasCautelares?
-  notificacion            Notificacion?
   municipio               String?
+  notificacion            Notificacion?
   obligacion              String[]
   radicado                String?
+  tipoProceso             String
   vencimientoPagare       DateTime[]         @db.Date
 }
 
 model Notificacion {
-  demanda        Demanda?   @relation(fields: [demandaId], references: [id])
   autoNotificado String?
-  demandaId      Int?       @unique
   certimail      Boolean?
+  demanda        Demanda?   @relation(fields: [demandaId], references: [id])
+  demandaId      Int?       @unique
   fisico         Boolean?
   id             Int        @id
   notifiers      Notifier[]
@@ -143,10 +143,10 @@ model SubTarea {
 }
 
 model Actuacion {
-  id             Int       @id @default(autoincrement())
   actuacion      String
   anotacion      String?
   cant           Int
+  Carpeta        Carpeta[]
   carpetaNumero  Int?
   codRegla       String
   conDocumentos  Boolean
@@ -156,13 +156,13 @@ model Actuacion {
   fechaFinal     DateTime? @db.Date
   fechaInicial   DateTime? @db.Date
   fechaRegistro  DateTime  @db.Date
+  id             Int       @id @default(autoincrement())
   idProceso      Int
   idRegActuacion Int       @unique
   isUltimaAct    Boolean
   llaveProceso   String
   proceso        Proceso?  @relation(fields: [procesoId], references: [idProceso])
   procesoId      Int?
-  Carpeta        Carpeta[]
 }
 
 model Juzgado {
@@ -173,7 +173,7 @@ model Juzgado {
 }
 
 model Proceso {
-  id                   Int         @id @default(autoincrement())
+  actuaciones          Actuacion[]
   cantFilas            Int
   carpeta              Carpeta     @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero        Int
@@ -182,22 +182,22 @@ model Proceso {
   esPrivado            Boolean
   fechaProceso         DateTime?   @db.Date
   fechaUltimaActuacion DateTime?   @db.Date
+  id                   Int         @id @default(autoincrement())
   idConexion           Int
   idProceso            Int         @unique
   juzgado              Juzgado     @relation(fields: [juzgadoTipo], references: [tipo])
   juzgadoTipo          String
   llaveProceso         String
   sujetosProcesales    String
-  actuaciones          Actuacion[]
 }
 
 model Task {
-  id            Int      @id @default(autoincrement())
-  text          String @unique
-  updatedAt DateTime @updatedAt
-  done          Boolean  @default(false)
   carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero Int?
+  done          Boolean  @default(false)
+  id            Int      @id @default(autoincrement())
+  text          String
+  updatedAt     DateTime @updatedAt
 }
 
 enum NotifierName {
@@ -206,26 +206,26 @@ enum NotifierName {
 }
 
 enum Category {
-  Terminados
-  LiosJuridicos
   Bancolombia
-  Reintegra
   Insolvencia
+  LiosJuridicos
+  Reintegra
   SinEspecificar
+  Terminados
   todos
 }
 
 enum Departamento {
+  ANTIOQUIA
+  ATLANTICO
   BOGOTA
   CUNDINAMARCA
   META
-  ANTIOQUIA
-  ATLANTICO
 }
 
 enum TipoProceso {
+  ACUMULADO
   HIPOTECARIO
   PRENDARIO
   SINGULAR
-  ACUMULADO
 }
