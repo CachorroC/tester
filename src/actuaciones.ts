@@ -228,7 +228,8 @@ async function main () {
       .toLocaleDateString() }/${ new Date()
       .toString() }.json`, JSON.stringify(
       {
-        date: new Date()
+        date       : new Date(),
+        actuaciones: ActsMap
       },
     ), {
 
