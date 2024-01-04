@@ -225,6 +225,7 @@ async function main () {
 
   fs.writeFile(
     `./src/date/${ new Date()
+      .toLocaleDateString() }/${ new Date()
       .toString() }.json`, JSON.stringify(
       {
         date: new Date()
