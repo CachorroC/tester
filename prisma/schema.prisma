@@ -2,9 +2,7 @@ generator client {
   provider = "prisma-client-js"
 }
 
-generator jsonSchema {
-  provider = "prisma-json-schema-generator"
-}
+
 
 datasource db {
   provider = "postgresql"
@@ -12,30 +10,28 @@ datasource db {
 }
 
 model Carpeta {
-  category        Category    @default(SinEspecificar)
-  codeudor        Codeudor?
-  demanda         Demanda?
-  deudor          Deudor?
-  fecha           DateTime?
   id              Int
+  category        Category    @default(SinEspecificar)
+  tipoProceso     TipoProceso @default(SINGULAR)
+  fecha           DateTime?
   idProcesos      Int[]
   idRegUltimaAct  Int?
   llaveProceso    String
   nombre          String
-  notas           Nota[]
   numero          Int         @id
-  procesos        Proceso[]
   revisado        Boolean     @default(false)
-  tareas          Tarea[]
-  Task            Task[]
   terminado       Boolean     @default(false)
-  tipoProceso     TipoProceso @default(SINGULAR)
-  ultimaActuacion Actuacion?  @relation(fields: [idRegUltimaAct], references: [idRegActuacion])
   updatedAt       DateTime    @updatedAt
+  ultimaActuacion Actuacion?  @relation(fields: [idRegUltimaAct], references: [idRegActuacion])
+  codeudor        Codeudor?
+  demanda         Demanda?
+  deudor          Deudor?
+  notas           Nota[]
+  procesos        Proceso[]
+  tareas           Task[]
 }
 
 model Deudor {
-  carpeta         Carpeta? @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero   Int?     @unique
   cedula          String
   direccion       String?
@@ -47,69 +43,69 @@ model Deudor {
   segundoNombre   String?
   telCelular      String?
   telFijo         String?
+  carpeta         Carpeta? @relation(fields: [carpetaNumero], references: [numero])
 }
 
 model Codeudor {
-  carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero Int?     @unique
   cedula        String?
   direccion     String?
   id            Int      @id
   nombre        String?
   telefono      String?
+  carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [numero])
 }
 
 model Demanda {
   capitalAdeudado         Decimal?           @db.Money
-  carpeta                 Carpeta?           @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero           Int?               @unique
   departamento            String?
   despacho                String?
   entregaGarantiasAbogado DateTime?          @db.Date
   etapaProcesal           String?
+  llaveProceso            String?
   fechaPresentacion       DateTime[]         @db.Date
   id                      Int                @id
-  llaveProceso            String?
   mandamientoPago         DateTime?          @db.Date
-  medidasCautelares       MedidasCautelares?
+  tipoProceso             String
   municipio               String?
-  notificacion            Notificacion?
   obligacion              String[]
   radicado                String?
-  tipoProceso             String
   vencimientoPagare       DateTime[]         @db.Date
+  carpeta                 Carpeta?           @relation(fields: [carpetaNumero], references: [numero])
+  medidasCautelares       MedidasCautelares?
+  notificacion            Notificacion?
 }
 
 model Notificacion {
   autoNotificado String?
-  certimail      Boolean?
-  demanda        Demanda?   @relation(fields: [demandaId], references: [id])
   demandaId      Int?       @unique
+  certimail      Boolean?
   fisico         Boolean?
   id             Int        @id
+  demanda        Demanda?   @relation(fields: [demandaId], references: [id])
   notifiers      Notifier[]
 }
 
 model MedidasCautelares {
-  demanda           Demanda?  @relation(fields: [demandaId], references: [id])
   demandaId         Int?      @unique
   fechaOrdenaMedida DateTime?
   id                Int       @id
   medidaSolicitada  String?
+  demanda           Demanda?  @relation(fields: [demandaId], references: [id])
 }
 
 model Notifier {
   fechaAporta    DateTime?
   fechaRecibido  DateTime?
   id             Int           @id @default(autoincrement())
-  notificacion   Notificacion? @relation(fields: [notificacionId], references: [id])
   notificacionId Int?
   resultado      Boolean?
   tipo           String
+  notificacion   Notificacion? @relation(fields: [notificacionId], references: [id])
 }
 
 model Nota {
-  carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero Int?
   content       String?
   createdAt     DateTime @default(now())
@@ -118,35 +114,27 @@ model Nota {
   pathname      String?
   title         String
   updatedAt     DateTime @updatedAt
+  carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [numero])
 }
 
-model Tarea {
-  Carpeta       Carpeta?   @relation(fields: [carpetaNumero], references: [numero])
+
+model Task {
+  Carpeta       Carpeta?  @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero Int?
-  complete      Boolean    @default(false)
-  content       String?
-  createdAt     DateTime   @default(now())
-  dueDate       DateTime?  @db.Date
-  id            Int        @id @default(autoincrement())
-  subTareas     SubTarea[]
-  title         String
-  updatedAt     DateTime   @updatedAt
-}
-
-model SubTarea {
-  date       DateTime?
-  id         Int       @id @default(autoincrement())
-  isComplete Boolean   @default(false)
-  Tarea      Tarea?    @relation(fields: [tareaId], references: [id])
-  tareaId    Int?
-  text       String
+  content     String[]
+  createdAt     DateTime  @default(now())
+  done          Boolean   @default(false)
+  dueDate       DateTime? @db.Date
+  id            Int       @id @default(autoincrement())
+  text          String
+  updatedAt     DateTime  @updatedAt
 }
 
 model Actuacion {
+  id             Int       @id @default(autoincrement())
   actuacion      String
   anotacion      String?
   cant           Int
-  Carpeta        Carpeta[]
   carpetaNumero  Int?
   codRegla       String
   conDocumentos  Boolean
@@ -156,48 +144,39 @@ model Actuacion {
   fechaFinal     DateTime? @db.Date
   fechaInicial   DateTime? @db.Date
   fechaRegistro  DateTime  @db.Date
-  id             Int       @id @default(autoincrement())
   idProceso      Int
   idRegActuacion Int       @unique
   isUltimaAct    Boolean
   llaveProceso   String
-  proceso        Proceso?  @relation(fields: [procesoId], references: [idProceso])
   procesoId      Int?
+  proceso        Proceso?  @relation(fields: [procesoId], references: [idProceso])
+  Carpeta        Carpeta[]
 }
 
 model Juzgado {
   id       Int
-  procesos Proceso[]
   tipo     String    @id
   url      String
+  procesos Proceso[]
 }
 
 model Proceso {
-  actuaciones          Actuacion[]
+  id                   Int         @id @default(autoincrement())
   cantFilas            Int
-  carpeta              Carpeta     @relation(fields: [carpetaNumero], references: [numero])
   carpetaNumero        Int
   departamento         String
   despacho             String
   esPrivado            Boolean
   fechaProceso         DateTime?   @db.Date
   fechaUltimaActuacion DateTime?   @db.Date
-  id                   Int         @id @default(autoincrement())
   idConexion           Int
   idProceso            Int         @unique
-  juzgado              Juzgado     @relation(fields: [juzgadoTipo], references: [tipo])
   juzgadoTipo          String
   llaveProceso         String
   sujetosProcesales    String
-}
-
-model Task {
-  carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [numero])
-  carpetaNumero Int?
-  done          Boolean  @default(false)
-  id            Int      @id @default(autoincrement())
-  text          String
-  updatedAt     DateTime @updatedAt
+  actuaciones          Actuacion[]
+  carpeta              Carpeta     @relation(fields: [carpetaNumero], references: [numero])
+  juzgado              Juzgado     @relation(fields: [juzgadoTipo], references: [tipo])
 }
 
 enum NotifierName {
@@ -206,26 +185,26 @@ enum NotifierName {
 }
 
 enum Category {
-  Bancolombia
-  Insolvencia
-  LiosJuridicos
-  Reintegra
-  SinEspecificar
   Terminados
+  LiosJuridicos
+  Bancolombia
+  Reintegra
+  Insolvencia
+  SinEspecificar
   todos
 }
 
 enum Departamento {
-  ANTIOQUIA
-  ATLANTICO
   BOGOTA
   CUNDINAMARCA
   META
+  ANTIOQUIA
+  ATLANTICO
 }
 
 enum TipoProceso {
-  ACUMULADO
   HIPOTECARIO
   PRENDARIO
   SINGULAR
+  ACUMULADO
 }

@@ -1,6 +1,6 @@
 import { Category, Prisma } from '@prisma/client';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
-import { ConsultaActuacion, intActuacion } from '../types/actuaciones';
+import { ConsultaActuacion, outActuacion } from '../types/actuaciones';
 import { ConsultaNumeroRadicacion,  } from '../types/procesos';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
@@ -93,7 +93,7 @@ export class OldCarpeta extends CarpetaBuilder {
   demandas: ClassDemanda[] = [];
   fecha?: Date;
   ultimaActuacion?: { idProceso: number; isUltimaAct: boolean; idRegActuacion: number; llaveProceso: string; consActuacion: number; fechaActuacion: Date; actuacion: string; anotacion: string | null; fechaInicial: Date | null; carpetaNumero: number | null; createdAt: Date; fechaFinal: Date | null; fechaRegistro: Date; codRegla: '00                              '; conDocumentos: boolean; cant: number; };
-  actuaciones: intActuacion[] = [];
+  actuaciones: outActuacion[] = [];
 
   async getProcesos () {
     try {
@@ -185,7 +185,7 @@ export class OldCarpeta extends CarpetaBuilder {
         );
       }
 
-      const actuacionesMap = new Set<intActuacion>();
+      const actuacionesMap = new Set<outActuacion>();
 
       for ( const proceso of this.procesos ) {
         try {

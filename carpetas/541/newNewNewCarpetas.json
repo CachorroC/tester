@@ -16,7 +16,7 @@
       "cant": 3,
       "idProceso": 112967583,
       "isUltimaAct": true,
-      "createdAt": "2023-12-30T21:54:59.014Z"
+      "createdAt": "2024-01-02T02:11:44.270Z"
     },
     {
       "idRegActuacion": 1124270563,
@@ -33,7 +33,7 @@
       "cant": 3,
       "idProceso": 112967583,
       "isUltimaAct": false,
-      "createdAt": "2023-12-30T21:54:59.014Z"
+      "createdAt": "2024-01-02T02:11:44.270Z"
     },
     {
       "idRegActuacion": 1111340493,
@@ -50,7 +50,7 @@
       "cant": 3,
       "idProceso": 112967583,
       "isUltimaAct": false,
-      "createdAt": "2023-12-30T21:54:59.014Z"
+      "createdAt": "2024-01-02T02:11:44.270Z"
     }
   ],
   "category": "Reintegra",
@@ -110,12 +110,12 @@
     "direccion": "CARRERA 81 G No 48-03 SUR",
     "email": "jrestradacastillo@gmail.com"
   },
-  "fecha": "2022-03-24T05:00:00.000Z",
+  "fecha": "2023-08-29T05:00:00.000Z",
   "idProcesos": [
     52160520,
     112967583
   ],
-  "idRegUltimaAct": 1266283860,
+  "idRegUltimaAct": 1649571513,
   "llaveProceso": "11001400308220180096400",
   "nombre": "JOSE RAMON ESTRADA CASTILLO",
   "numero": 541,
@@ -159,20 +159,20 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
-    "idRegActuacion": 1266283860,
+    "idRegActuacion": 1649571513,
     "llaveProceso": "11001400308220180096400",
-    "consActuacion": 66,
-    "fechaActuacion": "2022-03-24T05:00:00.000Z",
-    "actuacion": "Constancia secretarial",
-    "anotacion": "Pasa para baranda - PaulaA Ramírez ",
+    "consActuacion": 3,
+    "fechaActuacion": "2023-08-29T05:00:00.000Z",
+    "actuacion": "Recepción Memorial Centro de Servicios Administrativos",
+    "anotacion": "dta allegan devulucion despacho comisiorio Nro 74 sin aux",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2022-03-24T05:00:00.000Z",
+    "fechaRegistro": "2023-08-29T05:00:00.000Z",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 66,
-    "idProceso": 52160520,
+    "cant": 3,
+    "idProceso": 112967583,
     "isUltimaAct": true
   },
-  "updatedAt": "2023-12-30T21:54:58.623Z"
+  "updatedAt": "2024-01-02T02:11:43.750Z"
 }

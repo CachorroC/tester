@@ -59,28 +59,10 @@
   "llaveProceso": "11001410375120180112100",
   "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)",
   "numero": 456,
-  "procesos": [
-    {
-      "idProceso": 95877041,
-      "idConexion": 320,
-      "llaveProceso": "11001410375120180112100",
-      "fechaProceso": null,
-      "fechaUltimaActuacion": null,
-      "despacho": "JUZGADO 751 CIVIL MUNICIPAL DE PEQUEÑAS CAUSAS DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
-      "esPrivado": true,
-      "cantFilas": -1,
-      "juzgado": {
-        "id": 751,
-        "tipo": "JUZGADO 751 CIVIL MUNICIPAL DE PEQUEÑAS CAUSAS DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-751-civil-municipal-de-pequeñas-causas-de-bogotá-"
-      }
-    }
-  ],
+  "procesos": [],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-30T21:54:47.524Z"
+  "updatedAt": "2024-01-02T02:11:21.652Z"
 }

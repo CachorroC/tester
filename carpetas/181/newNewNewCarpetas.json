@@ -47,28 +47,10 @@
   "llaveProceso": "11001418901020170011500",
   "nombre": "LEONARDO ALIRIO GARCIA GUERRERO",
   "numero": 181,
-  "procesos": [
-    {
-      "idProceso": 82132851,
-      "idConexion": 320,
-      "llaveProceso": "11001418901020170011500",
-      "fechaProceso": null,
-      "fechaUltimaActuacion": null,
-      "despacho": "JUZGADO 010 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "--- [ PROCESO PRIVADO ] ---",
-      "esPrivado": true,
-      "cantFilas": -1,
-      "juzgado": {
-        "id": 10,
-        "tipo": "JUZGADO 010 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-010-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      }
-    }
-  ],
+  "procesos": [],
   "revisado": true,
   "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2023-12-30T21:53:50.653Z"
+  "updatedAt": "2024-01-02T02:09:45.428Z"
 }

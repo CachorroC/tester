@@ -27,7 +27,7 @@ export class NewJudicial {
   llaveProceso: string;
   nombre: string;
   numero: number;
-  procesos?: outProceso[];
+  procesos: outProceso[] = [];
   revisado: boolean;
   terminado: boolean;
   tipoProceso: TipoProcesoRaw;
@@ -147,31 +147,32 @@ export class NewJudicial {
       } = consultaProcesos;
 
 
-      this.procesos = procesos.map(
-        (
-          proceso
-        ) => {
-          return {
 
-            ...proceso,
-            fechaProceso: proceso.fechaProceso
-              ? new Date(
-                proceso.fechaProceso
-              )
-              : null,
-            fechaUltimaActuacion: proceso.fechaUltimaActuacion
-              ? new Date(
-                proceso.fechaUltimaActuacion
-              )
-              : null,
-            juzgado: new NewJuzgado(
-              proceso
-            )
-          };
+
+      for ( const rawProceso of procesos ) {
+        if ( rawProceso.esPrivado ) {
+          continue;
         }
-      );
 
-      for ( const proceso of this.procesos ) {
+        const proceso = {
+          ...rawProceso,
+          fechaProceso: rawProceso.fechaProceso
+            ? new Date(
+              rawProceso.fechaProceso
+            )
+            : null,
+          fechaUltimaActuacion: rawProceso.fechaUltimaActuacion
+            ? new Date(
+              rawProceso.fechaUltimaActuacion
+            )
+            : null,
+          juzgado: new NewJuzgado(
+            rawProceso
+          )
+        };
+        this.procesos.push(
+          proceso
+        );
 
         try {
           const prismaUpdateProceso = await client.proceso.upsert(
@@ -211,7 +212,6 @@ export class NewJudicial {
                 }
               },
               update: {
-
                 ...proceso,
                 juzgado: {
                   connectOrCreate: {
@@ -250,10 +250,6 @@ export class NewJudicial {
           console.log(
             `error al insertar el proceso en prisma: ${ e }`
           );
-        }
-
-        if ( proceso.esPrivado ) {
-          continue;
         }
 
         this.idProcesos.push(

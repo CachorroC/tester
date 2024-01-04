@@ -3,6 +3,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "start": "ts-node src/models/newJudicial.ts > output",
+    "actuaciones": "ts-node src/actuaciones.ts > outputActuaciones",
+    "procesos": "ts-node src/procesos.ts > outputProcesos",
     "build": "prisma generate && quicktype -s schema ./prisma/json-schema/json-schema.json -o src/types/schema.ts --no-enums --alphabetize-properties --prefer-unions --converters all-objects --no-runtime-typecheck"
   },
   "dependencies": {
