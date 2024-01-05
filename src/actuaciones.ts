@@ -156,6 +156,9 @@ async function prismaUpdaterActuaciones (
       : null ;
 
     if ( !savedDate || savedDate < incomingDate ) {
+      console.log(
+        'no hay saved date o la saved date es menor qque incoming date'
+      );
       await prisma.carpeta.update(
         {
           where: {
@@ -178,6 +181,24 @@ async function prismaUpdaterActuaciones (
             }
           }
         }
+      );
+
+      await fs.mkdir(
+        `./src/date/${ new Date()
+          .toLocaleDateString() }`, {
+          recursive: true
+        }
+      );
+
+      fs.writeFile(
+        `./src/date/${ new Date()
+          .toLocaleDateString() }/${ ultimaActuacion.idRegActuacion }.json`, JSON.stringify(
+          {
+            date           : new Date(),
+            davedDate      : savedDate,
+            ultimaActuacion: ultimaActuacion
+          },
+        )
       );
     }
 
@@ -215,25 +236,6 @@ async function main () {
     'actuacionesOutput.json', JSON.stringify(
       ActsMap
     )
-  );
-  await fs.mkdir(
-    `./src/date/${ new Date()
-      .toLocaleDateString() }`, {
-      recursive: true
-    }
-  );
-
-  fs.writeFile(
-    `./src/date/${ new Date()
-      .toLocaleDateString() }/${ new Date()
-      .toString() }.json`, JSON.stringify(
-      {
-        date       : new Date(),
-        actuaciones: ActsMap
-      },
-    ), {
-
-    }
   );
   return ActsMap;
 }

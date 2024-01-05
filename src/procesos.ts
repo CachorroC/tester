@@ -125,6 +125,8 @@ async function* AsyncGenerateActuaciones (
 async function prismaUpdaterProcesos (
   proceso: outProceso
 ) {
+  const idProcesosSet = new Set<number>();
+
   try {
     const carpeta =  await prisma.carpeta.findFirstOrThrow(
       {
@@ -133,7 +135,19 @@ async function prismaUpdaterProcesos (
         }
       }
     );
+    carpeta.idProcesos.forEach(
+      (
+        idProceso
+      ) => {
+        idProcesosSet.add(
+          idProceso
+        );
+      }
+    );
 
+    idProcesosSet.add(
+      proceso.idProceso
+    );
 
     await prisma.carpeta.update(
       {
@@ -141,6 +155,11 @@ async function prismaUpdaterProcesos (
           numero: carpeta.numero
         },
         data: {
+          idProcesos: {
+            set: Array.from(
+              idProcesosSet 
+            )
+          },
           procesos: {
             connectOrCreate: {
               where: {
