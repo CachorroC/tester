@@ -790,22 +790,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE VEHICULO"
       },
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMRCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-10-17T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-17T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4280023383
-      ],
+      "obligacion": [4280023383],
       "radicado": "2017 - 01016"
     },
     {
@@ -821,22 +815,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE VEHICULO"
       },
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMRCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-10-17T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-17T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4280023383
-      ],
+      "obligacion": [4280023383],
       "radicado": "2017 - 01016"
     }
   ],
@@ -871,10 +859,7 @@
     "primerNombre": "MARIO",
     "segundoNombre": "DE",
     "primerApellido": "JESUS",
-    "segundoApellido": [
-      "OSSA",
-      "PULGARIN"
-    ],
+    "segundoApellido": ["OSSA", "PULGARIN"],
     "cedula": 71992491,
     "direccion": "TRANSVERSAL 2 C BIS No 97 B-05 SUR",
     "email": null
@@ -906,10 +891,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51499790,
-    81847081
-  ],
+  "idProcesos": [51499790, 81847081],
   "nombre": "MARIO DE JESUS OSSA PULGARIN",
   "notificacion": {
     "notifiers": [

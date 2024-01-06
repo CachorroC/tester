@@ -1,33 +1,34 @@
 import * as fs from 'fs/promises';
 import Carpetas from '../data/carpetas';
 
-async function mapperCarpetasToConsultaRaw () {
+async function mapperCarpetasToConsultaRaw() {
   const answers = [];
 
   for ( const carpeta of Carpetas ) {
     const {
-      llaveProceso
+      llaveProceso 
     } = carpeta.demanda;
 
     try {
       const request = await fetcher(
-        llaveProceso
+        llaveProceso 
       );
 
       fs.writeFile(
-        `carpetas/${ carpeta.numero }/outputRawFetch.json`, JSON.stringify(
-          request, null, 2
-        )
+        `carpetas/${ carpeta.numero }/outputRawFetch.json`,
+        JSON.stringify(
+          request, null, 2 
+        ),
       );
       answers.push(
-        request
+        request 
       );
     } catch ( error ) {
       console.log(
-        error
+        error 
       );
       answers.push(
-        error
+        error 
       );
     }
   }
@@ -35,39 +36,36 @@ async function mapperCarpetasToConsultaRaw () {
   return answers;
 }
 
-
-async function fetcher (
-  llaveProceso: string
+async function fetcher(
+  llaveProceso: string 
 ) {
   try {
     const request = await fetch(
-      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false&pagina=1`
-
+      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false&pagina=1`,
     );
 
     return await request.json();
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
     return error;
   }
 }
 
-
 mapperCarpetasToConsultaRaw()
   .then(
     (
-      ff
+      ff 
     ) => {
       fs.writeFile(
         'consultaAllFetch.json', JSON.stringify(
-          ff, null, 2
-        )
+          ff, null, 2 
+        ) 
       );
       console.log(
-        ff
+        ff 
       );
       return ff;
-    }
+    } 
   );

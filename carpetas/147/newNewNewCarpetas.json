@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "4800902204"
-    ],
+    "obligacion": ["4800902204"],
     "llaveProceso": "11001400305920170074700",
     "notificacion": {
       "291": {
@@ -713,9 +711,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00747",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-12-05T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-12-05T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -731,9 +727,7 @@
     "email": "andreslaiton@hotmail.com"
   },
   "fecha": "2021-08-13T05:00:00.000Z",
-  "idProcesos": [
-    50653750
-  ],
+  "idProcesos": [50653750],
   "idRegUltimaAct": 1217932630,
   "llaveProceso": "11001400305920170074700",
   "nombre": "MILTON ANDRES LAITON RINCON",

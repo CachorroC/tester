@@ -215,10 +215,7 @@
     "id": 529
   },
   "demanda": {
-    "obligacion": [
-      "20990171776",
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["20990171776", "AUDIOPRESTAMO"],
     "llaveProceso": "11001400305220190110300",
     "notificacion": null,
     "medidasCautelares": null,
@@ -232,9 +229,7 @@
     "municipio": "BOGOTA",
     "radicado": "2019 - 01103",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2034-01-24T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2034-01-24T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -250,9 +245,7 @@
     "email": "gcontreras@intecq.com"
   },
   "fecha": "2020-02-06T05:00:00.000Z",
-  "idProcesos": [
-    66898433
-  ],
+  "idProcesos": [66898433],
   "idRegUltimaAct": 895745473,
   "llaveProceso": "11001400305220190110300",
   "nombre": "GONZALO CONTRERAS POVEDA",

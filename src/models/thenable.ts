@@ -1,6 +1,4 @@
-import {  Juzgado,
-
-  PrismaClient, } from '@prisma/client';
+import { Juzgado, PrismaClient } from '@prisma/client';
 import { Despachos } from '../data/despachos';
 import { ConsultaActuacion, intActuacion } from '../types/actuaciones';
 import { Category,
@@ -16,7 +14,7 @@ import { ConsultaNumeroRadicacion,
   Data,
   Message,
   intProceso, } from '../types/procesos';
-import { ClassDemanda, } from './demanda';
+import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
 import { PrismaDemanda, PrismaDeudor } from './prisma-carpeta';
 import { tipoProcesoBuilder } from '../data/tipoProcesos';
@@ -26,44 +24,44 @@ const client = new PrismaClient();
 
 export class NewJuzgado implements Juzgado {
   constructor(
-    proceso: intProceso
+    proceso: intProceso 
   ) {
     const matchedDespacho = Despachos.find(
       (
-        despacho
+        despacho 
       ) => {
         const nDesp = despacho.nombre
           .toLowerCase()
           .normalize(
-            'NFD'
+            'NFD' 
           )
           .replace(
-            /\p{Diacritic}/gu, ''
+            /\p{Diacritic}/gu, '' 
           )
           .trim();
 
         const pDesp = proceso.despacho
           .toLowerCase()
           .normalize(
-            'NFD'
+            'NFD' 
           )
           .replace(
-            /\p{Diacritic}/gu, ''
+            /\p{Diacritic}/gu, '' 
           )
           .trim();
 
         const indexOfDesp = nDesp.indexOf(
-          pDesp
+          pDesp 
         );
 
         if ( indexOfDesp >= 0 ) {
           console.log(
-            `procesos despacho is in despachos ${ indexOfDesp + 1 }`
+            `procesos despacho is in despachos ${ indexOfDesp + 1 }` 
           );
         }
 
         return nDesp === pDesp;
-      }
+      } 
     );
 
     const nameN = matchedDespacho
@@ -71,18 +69,18 @@ export class NewJuzgado implements Juzgado {
       : proceso.despacho;
 
     const matchedId = nameN.match(
-      /\d+/g
+      /\d+/g 
     );
 
     this.id = Number(
-      matchedId?.toString()
+      matchedId?.toString() 
     );
     ( this.tipo = proceso.despacho ),
     ( this.url = matchedDespacho
       ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
       : `https://www.ramajudicial.gov.co${ proceso.despacho
         .replaceAll(
-          ' ', '-'
+          ' ', '-' 
         )
         .toLowerCase() }` );
   }
@@ -107,8 +105,8 @@ export class CarpetaJudicial implements IntCarpeta {
   // SECTION constructor
   constructor(
     {
-      codeudor, category, deudor, demanda, numero
-    }: CarpetaRaw
+      codeudor, category, deudor, demanda, numero 
+    }: CarpetaRaw 
   ) {
     this.procesos = null;
     this.fecha = null;
@@ -117,63 +115,63 @@ export class CarpetaJudicial implements IntCarpeta {
     this.numero = numero;
     this.tipoProceso = demanda.tipoProceso
       ? tipoProcesoBuilder(
-        demanda.tipoProceso
+        demanda.tipoProceso 
       )
       : 'SINGULAR';
     this.category = category;
     this.deudor = new ClassDeudor(
-      deudor
+      deudor 
     );
     this.demanda = demanda;
     this.codeudor = codeudor
       ? {
           nombre: codeudor.nombre
             ? String(
-              codeudor.nombre
+              codeudor.nombre 
             )
             : null,
           cedula: codeudor.cedula
             ? String(
-              codeudor.cedula
+              codeudor.cedula 
             )
             : null,
           direccion: codeudor.direccion
             ? String(
-              codeudor.direccion
+              codeudor.direccion 
             )
             : null,
           telefono: codeudor.telefono
             ? String(
-              codeudor.telefono
+              codeudor.telefono 
             )
             : null,
           id           : this.numero,
-          carpetaNumero: this.numero
+          carpetaNumero: this.numero,
         }
       : null;
     this.demandas = [ new ClassDemanda(
-      demanda, numero
+      demanda, numero 
     ) ];
     this.idProcesos = [];
     this.cc = Number(
-      deudor.cedula
+      deudor.cedula 
     );
     this.notificacion = demanda.notificacion
       ? new ClassNotificacion(
-        demanda.notificacion
+        demanda.notificacion 
       )
       : null;
   }
   notificacion: intNotificacion | null;
   demandas: IntDemanda[];
-  idProcesos: number[] ;
+  idProcesos: number[];
   //!SECTION
 
   get nombre() {
     return `${ this.deudor.primerNombre } ${ this.deudor.segundoNombre } ${ this.deudor.primerApellido } ${ this.deudor.segundoApellido }`;
   }
   set nombre(
-    nom
+    nom 
   ) {
     [
       this.deudor.primerNombre,
@@ -181,7 +179,7 @@ export class CarpetaJudicial implements IntCarpeta {
       this.deudor.primerApellido,
       this.deudor.segundoApellido,
     ] = nom.split(
-      ' '
+      ' ' 
     );
   }
   async prismaCarpeta() {
@@ -202,7 +200,7 @@ export class CarpetaJudicial implements IntCarpeta {
                   idProceso: this.numero,
                 },
                 create: new PrismaDemanda(
-                  this
+                  this 
                 ),
               },
             },
@@ -212,7 +210,7 @@ export class CarpetaJudicial implements IntCarpeta {
                   carpetaNumero: this.numero,
                 },
                 create: new PrismaDeudor(
-                  this
+                  this 
                 ),
               },
             },
@@ -232,7 +230,7 @@ export class CarpetaJudicial implements IntCarpeta {
                   idProceso: this.numero,
                 },
                 create: new PrismaDemanda(
-                  this
+                  this 
                 ),
               },
             },
@@ -242,7 +240,7 @@ export class CarpetaJudicial implements IntCarpeta {
                   carpetaNumero: this.numero,
                 },
                 create: new PrismaDeudor(
-                  this
+                  this 
                 ),
               },
             },
@@ -252,7 +250,7 @@ export class CarpetaJudicial implements IntCarpeta {
             tipoProceso : this.tipoProceso,
             llaveProceso: this.llaveProceso,
           },
-        }
+        } 
       );
     } catch ( error ) {
       console.log(
@@ -299,10 +297,10 @@ export class CarpetaJudicial implements IntCarpeta {
 
       for ( const proceso of responseReturn.procesos ) {
         const npd = new ClassDemanda(
-          this.demanda, this.numero, proceso
+          this.demanda, this.numero, proceso 
         );
         procesosDemandaMap.add(
-          npd
+          npd 
         );
 
         if ( proceso.esPrivado ) {
@@ -310,34 +308,32 @@ export class CarpetaJudicial implements IntCarpeta {
         }
 
         idProcesosSet.add(
-          proceso.idProceso
+          proceso.idProceso 
         );
         despachosSet.add(
-          proceso.despacho
+          proceso.despacho 
         );
         juzgadosSet.add(
           new NewJuzgado(
-            proceso
-          )
+            proceso 
+          ) 
         );
         sujetosProcesalesSet.add(
-          proceso.sujetosProcesales
+          proceso.sujetosProcesales 
         );
       }
 
       this.demandas = Array.from(
-        procesosDemandaMap
+        procesosDemandaMap 
       );
       this.procesos = responseReturn.procesos;
       this.idProcesos = responseReturn.procesos.map(
         (
-          prc
+          prc 
         ) => {
           return prc.idProceso;
-        }
+        } 
       );
-
-
 
       return responseReturn;
     } catch ( error ) {
@@ -359,7 +355,7 @@ export class CarpetaJudicial implements IntCarpeta {
       return {
         StatusCode: 404,
         Message   : JSON.stringify(
-          error, null, 2
+          error, null, 2 
         ),
       };
     }
@@ -368,7 +364,7 @@ export class CarpetaJudicial implements IntCarpeta {
     try {
       if ( !this.procesos || this.procesos.length === 0 ) {
         throw new Error(
-          `${ this.numero } => no hay procesos en esta carpeta.`
+          `${ this.numero } => no hay procesos en esta carpeta.` 
         );
       }
 
@@ -381,28 +377,28 @@ export class CarpetaJudicial implements IntCarpeta {
             idProcesos: {
               set: this.procesos.map(
                 (
-                  prc
+                  prc 
                 ) => {
                   return prc.idProceso;
-                }
+                } 
               ),
             },
             procesos: {
               upsert: this.procesos.map(
                 (
-                  proceso
+                  proceso 
                 ) => {
                   return {
                     create: {
                       ...proceso,
                       fechaProceso: proceso.fechaProceso
                         ? new Date(
-                          proceso.fechaProceso
+                          proceso.fechaProceso 
                         )
                         : null,
                       fechaUltimaActuacion: proceso.fechaUltimaActuacion
                         ? new Date(
-                          proceso.fechaUltimaActuacion
+                          proceso.fechaUltimaActuacion 
                         )
                         : null,
                     },
@@ -410,12 +406,12 @@ export class CarpetaJudicial implements IntCarpeta {
                       ...proceso,
                       fechaProceso: proceso.fechaProceso
                         ? new Date(
-                          proceso.fechaProceso
+                          proceso.fechaProceso 
                         )
                         : null,
                       fechaUltimaActuacion: proceso.fechaUltimaActuacion
                         ? new Date(
-                          proceso.fechaUltimaActuacion
+                          proceso.fechaUltimaActuacion 
                         )
                         : null,
                     },
@@ -423,7 +419,7 @@ export class CarpetaJudicial implements IntCarpeta {
                       idProceso: proceso.idProceso,
                     },
                   };
-                }
+                } 
               ),
             },
           },
@@ -431,10 +427,10 @@ export class CarpetaJudicial implements IntCarpeta {
             idProcesos: {
               set: this.procesos.map(
                 (
-                  prc
+                  prc 
                 ) => {
                   return prc.idProceso;
-                }
+                } 
               ),
             },
             nombre      : this.nombre,
@@ -444,18 +440,18 @@ export class CarpetaJudicial implements IntCarpeta {
             demandas    : {
               connectOrCreate: this.procesos.map(
                 (
-                  proceso
+                  proceso 
                 ) => {
                   return {
                     where: {
                       idProceso: proceso.idProceso,
                     },
                     create: new PrismaDemanda(
-                      this, proceso
-                    )
+                      this, proceso 
+                    ),
                   };
-                }
-              )
+                } 
+              ),
             },
             deudor: {
               connectOrCreate: {
@@ -463,7 +459,7 @@ export class CarpetaJudicial implements IntCarpeta {
                   carpetaNumero: this.numero,
                 },
                 create: new PrismaDeudor(
-                  this
+                  this 
                 ),
               },
             },
@@ -471,19 +467,19 @@ export class CarpetaJudicial implements IntCarpeta {
             procesos: {
               connectOrCreate: this.procesos.map(
                 (
-                  proceso
+                  proceso 
                 ) => {
                   return {
                     create: {
                       ...proceso,
                       fechaProceso: proceso.fechaProceso
                         ? new Date(
-                          proceso.fechaProceso
+                          proceso.fechaProceso 
                         )
                         : null,
                       fechaUltimaActuacion: proceso.fechaUltimaActuacion
                         ? new Date(
-                          proceso.fechaUltimaActuacion
+                          proceso.fechaUltimaActuacion 
                         )
                         : null,
                     },
@@ -492,7 +488,7 @@ export class CarpetaJudicial implements IntCarpeta {
                       idProceso: proceso.idProceso,
                     },
                   };
-                }
+                } 
               ),
             },
             terminado: this.category === 'Terminados'
@@ -501,11 +497,11 @@ export class CarpetaJudicial implements IntCarpeta {
             tipoProceso: this.tipoProceso,
             revisado   : false,
           },
-        }
+        } 
       );
     } catch ( error ) {
       console.log(
-        `${ this.numero } => ${ error }`
+        `${ this.numero } => ${ error }` 
       );
       return null;
     }
@@ -532,7 +528,9 @@ export class CarpetaJudicial implements IntCarpeta {
         if ( !request.ok ) {
           const json = ( await request.json() ) as Data;
           console.log(
-            `${ this.numero } => error en fetch consultaActuaciones ${ idProceso } =-=> ${ JSON.stringify(
+            `${
+              this.numero
+            } => error en fetch consultaActuaciones ${ idProceso } =-=> ${ JSON.stringify(
               json,
               null,
               2,
@@ -544,33 +542,33 @@ export class CarpetaJudicial implements IntCarpeta {
         const data = ( await request.json() ) as ConsultaActuacion;
 
         const {
-          actuaciones
+          actuaciones 
         } = data;
 
         const [ ultimaActuacion ] = actuaciones;
 
         actuaciones.forEach(
           (
-            actuacion
+            actuacion 
           ) => {
             actuacionesSet.add(
               {
                 ...actuacion,
                 idProceso: idProceso,
-              }
+              } 
             );
-          }
+          } 
         );
 
         actuacionesMap.set(
           idProceso, {
             ...ultimaActuacion,
             idProceso: idProceso,
-          }
+          } 
         );
 
         const incomingDate = new Date(
-          ultimaActuacion.fechaActuacion
+          ultimaActuacion.fechaActuacion 
         );
 
         const incomingYear = incomingDate.getFullYear();
@@ -612,7 +610,7 @@ export class CarpetaJudicial implements IntCarpeta {
           || savedDate.toString() === 'Invalid Date'
         ) {
           this.fecha = new Date(
-            ultimaActuacion.fechaActuacion
+            ultimaActuacion.fechaActuacion 
           );
           this.ultimaActuacion = {
             ...ultimaActuacion,
@@ -626,13 +624,13 @@ export class CarpetaJudicial implements IntCarpeta {
           StatusCode : 200,
           Message    : 'ok' as Message,
           actuaciones: Array.from(
-            actuacionesMap.values()
+            actuacionesMap.values() 
           ),
         };
       }
 
       throw new Error(
-        'actuaciones size is less than 0'
+        'actuaciones size is less than 0' 
       );
     } catch ( error ) {
       if ( error instanceof Error ) {
@@ -653,7 +651,7 @@ export class CarpetaJudicial implements IntCarpeta {
       return {
         StatusCode: 404,
         Message   : JSON.stringify(
-          error, null, 2
+          error, null, 2 
         ),
       };
     }
@@ -661,17 +659,17 @@ export class CarpetaJudicial implements IntCarpeta {
 }
 
 export const sleep = (
-  ms: number
+  ms: number 
 ) => {
   return new Promise(
     (
-      resolve
+      resolve 
     ) => {
       const newMs = ms;
 
       return setTimeout(
-        resolve, newMs
+        resolve, newMs 
       );
-    }
+    } 
   );
 };

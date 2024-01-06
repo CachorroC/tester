@@ -707,13 +707,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-01-06T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-05-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2450966
-      ],
+      "obligacion": [2450966],
       "radicado": "2017 - 00654"
     }
   ],
@@ -768,9 +764,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50468310
-  ],
+  "idProcesos": [50468310],
   "nombre": "SILVIA SUSANA SIERRA CASTAÑEDA",
   "notificacion": {
     "notifiers": [],

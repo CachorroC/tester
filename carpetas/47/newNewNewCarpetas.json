@@ -685,10 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "377816034633036//45130802058774831",
-      "53003720132046710"
-    ],
+    "obligacion": ["377816034633036//45130802058774831", "53003720132046710"],
     "llaveProceso": "11001400300620170030200",
     "notificacion": {
       "292": {
@@ -709,16 +706,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": [
-      "2017-06-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
     "mandamientoPago": "2017-12-07T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017-00302",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-09-22T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-09-22T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -734,9 +727,7 @@
     "email": null
   },
   "fecha": "2023-09-07T05:00:00.000Z",
-  "idProcesos": [
-    50521190
-  ],
+  "idProcesos": [50521190],
   "idRegUltimaAct": 1873552420,
   "llaveProceso": "11001400300620170030200",
   "nombre": "ANA RITA GUZMAN GOMEZ",

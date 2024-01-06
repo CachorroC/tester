@@ -783,23 +783,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": null
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-11-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-11-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2330087192,
-        2330087423
-      ],
+      "obligacion": [2330087192, 2330087423],
       "radicado": "2017 - 01477"
     }
   ],
@@ -854,9 +847,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50873000
-  ],
+  "idProcesos": [50873000],
   "nombre": "JOSE ANTONIO MONTEALEGRE HERNANDEZ",
   "notificacion": {
     "notifiers": [

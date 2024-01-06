@@ -63,23 +63,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2023-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2023-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-11T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-11T05:00:00.000Z"],
       "municipio": "SOACHA",
-      "obligacion": [
-        "377813527966924/",
-        "000000020990112484."
-      ],
+      "obligacion": ["377813527966924/", "000000020990112484."],
       "radicado": "2017 - 00752"
     }
   ],
@@ -134,9 +127,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    86396721
-  ],
+  "idProcesos": [86396721],
   "nombre": "JOSE ANTONIO CAICEDO RUIZ",
   "notificacion": {
     "notifiers": [

@@ -113,9 +113,7 @@
     "id": 222
   },
   "demanda": {
-    "obligacion": [
-      "96356"
-    ],
+    "obligacion": ["96356"],
     "llaveProceso": "11001400302820170085800",
     "notificacion": {
       "291": {
@@ -133,16 +131,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-09-04T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-04T05:00:00.000Z"],
     "mandamientoPago": "2017-12-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00858",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-05-03T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-05-03T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -158,9 +152,7 @@
     "email": "htcolombia@gmail.com"
   },
   "fecha": "2017-12-07T05:00:00.000Z",
-  "idProcesos": [
-    50688520
-  ],
+  "idProcesos": [50688520],
   "idRegUltimaAct": 725462990,
   "llaveProceso": "11001400302820170085800",
   "nombre": "DUFRESNY AUGUSTO PINILLA",

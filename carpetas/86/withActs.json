@@ -770,22 +770,16 @@
         "fechaOrdenaMedida": "2017-06-09T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
       },
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2017-06-09T05:00:00.000Z",
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-06-14T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-14T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2250084171
-      ],
+      "obligacion": [2250084171],
       "radicado": "2017-00567"
     }
   ],
@@ -840,9 +834,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    111939890
-  ],
+  "idProcesos": [111939890],
   "nombre": "RHONALD MEZA TARAPUES",
   "notificacion": {
     "notifiers": [

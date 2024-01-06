@@ -185,22 +185,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 12660698,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-09-04T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-04T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        99873
-      ],
+      "obligacion": [99873],
       "radicado": "2017 - 01035"
     }
   ],
@@ -255,9 +249,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    10134513
-  ],
+  "idProcesos": [10134513],
   "nombre": "FERNANDO VERA FARFAN",
   "notificacion": null
 }

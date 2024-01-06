@@ -177,22 +177,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 4997106769,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-07-09T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-04-10T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-09-14T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-14T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        130619
-      ],
+      "obligacion": [130619],
       "radicado": "2017 - 00871"
     }
   ],
@@ -247,9 +241,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50715970
-  ],
+  "idProcesos": [50715970],
   "nombre": "HENRY CARRANZA ALBA",
   "notificacion": {
     "notifiers": [

@@ -549,23 +549,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "0332"
       },
-      "vencimientoPagare": [
-        "4594-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["4594-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "43059",
-      "fechaPresentacion": [
-        "2017-12-13T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-12-13T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5303720026675088,
-        "27.570.000.00"
-      ],
+      "obligacion": [5303720026675088, "27.570.000.00"],
       "radicado": "2017 - 01400"
     }
   ],
@@ -620,9 +613,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50858060
-  ],
+  "idProcesos": [50858060],
   "nombre": "GABRIEL AUGUSTO CASTILLO CASTELBLANCO",
   "notificacion": {
     "notifiers": [],

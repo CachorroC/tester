@@ -4,9 +4,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12750180"
-    ],
+    "obligacion": ["12750180"],
     "llaveProceso": "11001400302420170175000",
     "notificacion": {
       "291": {
@@ -32,16 +30,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-08-23T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-23T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01750",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-08-09T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-08-09T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

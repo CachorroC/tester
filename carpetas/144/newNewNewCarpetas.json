@@ -28,9 +28,7 @@
     "id": 144
   },
   "demanda": {
-    "obligacion": [
-      "1980094643"
-    ],
+    "obligacion": ["1980094643"],
     "llaveProceso": "11001400302620170087200",
     "notificacion": {
       "291": {
@@ -61,9 +59,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00872",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-10-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-10-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -79,10 +75,7 @@
     "email": null
   },
   "fecha": "2019-07-30T05:00:00.000Z",
-  "idProcesos": [
-    50652400,
-    81647161
-  ],
+  "idProcesos": [50652400, 81647161],
   "idRegUltimaAct": 888114011,
   "llaveProceso": "11001400302620170087200",
   "nombre": "MARIA FILOMENA GONZALES SALAS",

@@ -775,9 +775,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "30/11/2017 PERSONAL BETTY"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 24193522,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
@@ -786,9 +784,7 @@
       "etapaProcesal": "11001400304720170106500",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12615209
-      ],
+      "obligacion": [12615209],
       "radicado": "2017 - 01065"
     }
   ],
@@ -843,9 +839,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    10404913
-  ],
+  "idProcesos": [10404913],
   "nombre": "BETTY STEPHANI TORRES ROJAS",
   "notificacion": {
     "notifiers": [],

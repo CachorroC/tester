@@ -756,22 +756,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2024-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2024-01-01T05:00:00.000Z"],
       "capitalAdeudado": 3249244300,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2018-07-23T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-07-23T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5470085449
-      ],
+      "obligacion": [5470085449],
       "radicado": "2018 - 00945"
     }
   ],
@@ -826,9 +820,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    64641230
-  ],
+  "idProcesos": [64641230],
   "nombre": "CESAR ARMANDO VANEGAS",
   "notificacion": null
 }

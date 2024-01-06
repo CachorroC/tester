@@ -4,9 +4,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12725973"
-    ],
+    "obligacion": ["12725973"],
     "llaveProceso": "25754400300220170026500",
     "notificacion": {
       "291": {
@@ -32,16 +30,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": "2017-12-09T05:00:00.000Z",
     "municipio": "SOACHA",
     "radicado": "2017 - 00265",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-08-15T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-08-15T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -57,9 +51,7 @@
     "email": "jeovanyrojas@outlook.com"
   },
   "fecha": null,
-  "idProcesos": [
-    86374941
-  ],
+  "idProcesos": [86374941],
   "llaveProceso": "25754400300220170026500",
   "nombre": "JEOVANY ROJAS CRUZ",
   "numero": 208,

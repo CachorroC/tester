@@ -691,9 +691,7 @@
     "id": 221
   },
   "demanda": {
-    "obligacion": [
-      "20990095881"
-    ],
+    "obligacion": ["20990095881"],
     "llaveProceso": "11001400301320170115700",
     "notificacion": {
       "291": {
@@ -724,9 +722,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01157",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-04-19T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-04-19T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -742,9 +738,7 @@
     "email": null
   },
   "fecha": "2021-10-13T05:00:00.000Z",
-  "idProcesos": [
-    50684250
-  ],
+  "idProcesos": [50684250],
   "idRegUltimaAct": 1228395450,
   "llaveProceso": "11001400301320170115700",
   "nombre": "BEATRIZ HELENA MACHADO",

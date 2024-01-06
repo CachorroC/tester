@@ -10,10 +10,7 @@
     "id": 299
   },
   "demanda": {
-    "obligacion": [
-      "6980085637",
-      "120353"
-    ],
+    "obligacion": ["6980085637", "120353"],
     "llaveProceso": "25754400300320170034600",
     "notificacion": {
       "certimail": false,
@@ -31,9 +28,7 @@
     "municipio": "SOACHA",
     "radicado": "2017 - 00346",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-07-15T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-07-15T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

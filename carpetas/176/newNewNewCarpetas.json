@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "113835",
-      "377813623621787"
-    ],
+    "obligacion": ["113835", "377813623621787"],
     "llaveProceso": "11001400300420170080100",
     "notificacion": {
       "291": {
@@ -706,16 +703,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00801",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2023-11-27T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2023-11-27T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -731,9 +724,7 @@
     "email": "ingedibutec@gmail.com"
   },
   "fecha": "2021-12-10T05:00:00.000Z",
-  "idProcesos": [
-    112783650
-  ],
+  "idProcesos": [112783650],
   "idRegUltimaAct": 1237916570,
   "llaveProceso": "11001400300420170080100",
   "nombre": "JHON FREDY MURILLO DAZA",

@@ -521,10 +521,7 @@
     "id": 341
   },
   "demanda": {
-    "obligacion": [
-      "3777816328330786 / 459425002",
-      "5303721445053527"
-    ],
+    "obligacion": ["3777816328330786 / 459425002", "5303721445053527"],
     "llaveProceso": "11001400305720170128900",
     "notificacion": {
       "certimail": null,
@@ -540,16 +537,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-08-11T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-11-15T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-15T05:00:00.000Z"],
     "mandamientoPago": "2017-07-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01289",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2017-07-19T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-07-19T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -565,9 +558,7 @@
     "email": "mariovelezparra@gmail.com"
   },
   "fecha": "2019-07-29T05:00:00.000Z",
-  "idProcesos": [
-    17608484
-  ],
+  "idProcesos": [17608484],
   "idRegUltimaAct": 611922164,
   "llaveProceso": "11001400305720170128900",
   "nombre": "MARIO VELEZ PARRA",

@@ -691,10 +691,7 @@
     "id": 500
   },
   "demanda": {
-    "obligacion": [
-      "68928057402",
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["68928057402", "AUDIOPRESTAMO"],
     "llaveProceso": "11001400300620180045400",
     "notificacion": {
       "291": {
@@ -720,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": [
-      "2018-04-27T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-04-27T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00454",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-05-27T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-05-27T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -745,9 +738,7 @@
     "email": null
   },
   "fecha": "2023-04-10T05:00:00.000Z",
-  "idProcesos": [
-    51154840
-  ],
+  "idProcesos": [51154840],
   "idRegUltimaAct": 1705464490,
   "llaveProceso": "11001400300620180045400",
   "nombre": "SMARTITECH S.A.S",

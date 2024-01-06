@@ -1,10 +1,11 @@
 import { Judicial } from '../models/procesosBuilder';
 import Carpetas from './carpetas';
 
-async function* generatorCarpeta () {
+async function* generatorCarpeta() {
   for ( const carpeta of Carpetas ) {
     const newCarpeta = new Judicial(
-      carpeta.demanda.llaveProceso, carpeta.numero
+      carpeta.demanda.llaveProceso,
+      carpeta.numero,
     );
     await newCarpeta.getProcesos();
 
@@ -12,16 +13,16 @@ async function* generatorCarpeta () {
     console.log(
       JSON.stringify(
         prismaProcesos, null, 2 
-      )
+      ) 
     );
     yield newCarpeta;
   }
 }
 
-async function ProcesosBuilder () {
+async function ProcesosBuilder() {
   for await ( const carpeteer of generatorCarpeta() ) {
     console.log(
-      carpeteer
+      carpeteer 
     );
   }
 }
@@ -29,11 +30,11 @@ async function ProcesosBuilder () {
 ProcesosBuilder()
   .then(
     (
-      rr
+      rr 
     ) => {
       console.log(
-        rr
+        rr 
       );
       return rr;
-    }
+    } 
   );

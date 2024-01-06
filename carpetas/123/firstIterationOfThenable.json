@@ -768,22 +768,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "3731"
       },
-      "vencimientoPagare": [
-        "2419-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2419-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "42958",
-      "fechaPresentacion": [
-        "2017-10-03T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-03T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        48365616
-      ],
+      "obligacion": [48365616],
       "radicado": "2017 - 00754"
     }
   ],
@@ -838,9 +832,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50632410
-  ],
+  "idProcesos": [50632410],
   "nombre": "GUSTAVO SANTAMARIA MOSQUERA",
   "notificacion": {
     "notifiers": [

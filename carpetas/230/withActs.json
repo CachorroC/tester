@@ -766,9 +766,7 @@
         "fechaOrdenaMedida": "2018-05-09T05:00:00.000Z",
         "medidaSolicitada": "16/02/2018"
       },
-      "vencimientoPagare": [
-        "7201-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["7201-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -777,9 +775,7 @@
       "etapaProcesal": "11001400305220170090600",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12519174
-      ],
+      "obligacion": [12519174],
       "radicado": "2017 - 00906"
     }
   ],
@@ -834,9 +830,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    11720143
-  ],
+  "idProcesos": [11720143],
   "nombre": "FREDY ALEXANDER MUÑOZ CASTAÑEDA",
   "notificacion": {
     "notifiers": [],

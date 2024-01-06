@@ -209,9 +209,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "130089828"
-    ],
+    "obligacion": ["130089828"],
     "llaveProceso": "11001400308320230108800",
     "notificacion": null,
     "medidasCautelares": null,
@@ -225,9 +223,7 @@
     "municipio": "BOGOTA",
     "radicado": "2023 - 01088",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2025-02-25T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2025-02-25T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -243,9 +239,7 @@
     "email": "lxndrlaverde@gmail.com"
   },
   "fecha": "2023-12-18T05:00:00.000Z",
-  "idProcesos": [
-    130908640
-  ],
+  "idProcesos": [130908640],
   "idRegUltimaAct": 1943255370,
   "llaveProceso": "11001400308320230108800",
   "nombre": "JOSE ALEXANDER LAVERDE PENAGOS",

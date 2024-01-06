@@ -777,22 +777,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-02-06T05:00:00.000Z",
       "etapaProcesal": "EMPLAZAMIENTO",
-      "fechaPresentacion": [
-        "2017-05-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2530444
-      ],
+      "obligacion": [2530444],
       "radicado": "2017 - 00884"
     },
     {
@@ -808,22 +802,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-02-06T05:00:00.000Z",
       "etapaProcesal": "EMPLAZAMIENTO",
-      "fechaPresentacion": [
-        "2017-05-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2530444
-      ],
+      "obligacion": [2530444],
       "radicado": "2017 - 00884"
     }
   ],
@@ -890,10 +878,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50468620,
-    113956611
-  ],
+  "idProcesos": [50468620, 113956611],
   "nombre": "YESID ALBEIRO RAMOS",
   "notificacion": {
     "notifiers": [

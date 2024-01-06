@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12499205"
-    ],
+    "obligacion": ["12499205"],
     "llaveProceso": "11001400301520170124900",
     "notificacion": {
       "291": {
@@ -718,9 +716,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01249",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-08-30T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-08-30T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -736,9 +732,7 @@
     "email": null
   },
   "fecha": "2022-10-19T05:00:00.000Z",
-  "idProcesos": [
-    50714320
-  ],
+  "idProcesos": [50714320],
   "idRegUltimaAct": 1466106730,
   "llaveProceso": "11001400301520170124900",
   "nombre": "ROSA ELENA MARTINEZ DE DUITAMA",

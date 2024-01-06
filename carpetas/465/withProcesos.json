@@ -162,23 +162,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2027-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2027-01-01T05:00:00.000Z"],
       "capitalAdeudado": 25303711,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2018-07-31T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-07-31T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        209900000000,
-        377816000000000
-      ],
+      "obligacion": [209900000000, 377816000000000],
       "radicado": "2018 - 00854"
     }
   ],
@@ -233,9 +226,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51342910
-  ],
+  "idProcesos": [51342910],
   "nombre": "GIOVANNY DURAN ANTONIO",
   "notificacion": null
 }

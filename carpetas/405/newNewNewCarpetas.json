@@ -685,9 +685,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "87823"
-    ],
+    "obligacion": ["87823"],
     "llaveProceso": "11001400302120180023600",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-02-22T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-22T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00236",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2021-01-27T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-01-27T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "arthurlingo64@hotmail.com"
   },
   "fecha": "2023-12-15T05:00:00.000Z",
-  "idProcesos": [
-    51029180
-  ],
+  "idProcesos": [51029180],
   "idRegUltimaAct": 1942755580,
   "llaveProceso": "11001400302120180023600",
   "nombre": "ARTURO LINCE GOMEZ",

@@ -356,9 +356,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "30/06/2017"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
@@ -367,9 +365,7 @@
       "etapaProcesal": "11001400302920170055700",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        125348220
-      ],
+      "obligacion": [125348220],
       "radicado": "2017 - 00557"
     }
   ],
@@ -424,9 +420,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50517510
-  ],
+  "idProcesos": [50517510],
   "nombre": "RAFAEL ERNESTO CADENA PARGA",
   "notificacion": {
     "notifiers": [

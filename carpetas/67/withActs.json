@@ -742,7 +742,7 @@
     "tipoProceso": "PRENDARIO",
     "radicado": "2017 - 00360",
     "llaveProceso": "11001310301720170036000",
-    "etapaProcesal": 1.10014003047201e+50,
+    "etapaProcesal": 1.10014003047201e50,
     "fechaPresentacion": "SENTENCIA",
     "mandamientoPago": "20/06/2017",
     "notificacion": {
@@ -769,9 +769,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "23/08/2017"
       },
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": 173618623,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
@@ -838,9 +836,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    28881194
-  ],
+  "idProcesos": [28881194],
   "nombre": "HUMBERTO ENRIQUE AVENA CORRALES",
   "notificacion": {
     "notifiers": [],

@@ -368,22 +368,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "8202-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["8202-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1829550100,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-11-20T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-11-20T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        530092248
-      ],
+      "obligacion": [530092248],
       "radicado": "2017 - 01756"
     }
   ],
@@ -438,9 +432,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50861670
-  ],
+  "idProcesos": [50861670],
   "nombre": "JOSE ALFREDO CARDOZO RODRIGUEZ",
   "notificacion": {
     "notifiers": [

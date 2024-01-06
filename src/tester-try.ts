@@ -3,65 +3,62 @@ import { CarpetaBuilder } from './models/carpeta';
 import { CarpetaRaw } from './types/carpetas';
 
 async function myGenerator(
-  carpetaRaw: CarpetaRaw
+  carpetaRaw: CarpetaRaw 
 ) {
   const newCarpeta = new CarpetaBuilder(
-    carpetaRaw
+    carpetaRaw 
   );
   console.log(
-    newCarpeta
+    newCarpeta 
   );
 
   if ( !newCarpeta.llaveProceso ) {
     return Promise.resolve(
-      newCarpeta
+      newCarpeta 
     );
   }
 
   await newCarpeta.getProcesos();
   console.log(
-    newCarpeta
+    newCarpeta 
   );
 
   if ( !newCarpeta.procesos || newCarpeta.procesos.length === 0 ) {
     return Promise.resolve(
-      newCarpeta
+      newCarpeta 
     );
   }
 
   await newCarpeta.getActuaciones();
   console.log(
-    newCarpeta
+    newCarpeta 
   );
   return Promise.resolve(
-    newCarpeta
+    newCarpeta 
   );
 }
 
-export async function pruebaIterator () {
+export async function pruebaIterator() {
   const [
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     primeraCarpeta,
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     segundaCarpeta,
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    terceraCarpeta 
+    terceraCarpeta,
   ] = carpetas;
 
   const carpeta = terceraCarpeta;
 
   for await ( const commit of myGenerator(
-    carpeta
+    carpeta 
   ) ) {
     console.log(
-      commit
+      commit 
     );
   }
-
-
-
 }
 
 console.log(
-  pruebaIterator()
+  pruebaIterator() 
 );

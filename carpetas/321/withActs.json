@@ -767,9 +767,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "BANCOS"
       },
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1386798000,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-02-11T05:00:00.000Z",
@@ -778,9 +776,7 @@
       "etapaProcesal": "NOTIFICACION",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2150091479
-      ],
+      "obligacion": [2150091479],
       "radicado": "2017 - 01367"
     }
   ],
@@ -835,9 +831,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50907660
-  ],
+  "idProcesos": [50907660],
   "nombre": "ADELA BARAJAS MORENO",
   "notificacion": {
     "notifiers": [],

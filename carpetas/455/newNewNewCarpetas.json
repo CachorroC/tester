@@ -277,9 +277,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["AUDIOPRESTAMO"],
     "llaveProceso": "11001400303820180083500",
     "notificacion": {
       "certimail": false,
@@ -292,9 +290,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-07-06T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-07-06T05:00:00.000Z"],
     "mandamientoPago": "2018-02-08T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2018 - 00835",
@@ -315,9 +311,7 @@
     "email": "yemargol@yahoo.es"
   },
   "fecha": "2019-03-06T05:00:00.000Z",
-  "idProcesos": [
-    9093813
-  ],
+  "idProcesos": [9093813],
   "idRegUltimaAct": 524855503,
   "llaveProceso": "11001400303820180083500",
   "nombre": "YENNY MARCELA GOMEZ OLARTE",

@@ -685,10 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2310089458",
-      "4513088545588847// AUDIO PRESTAMO"
-    ],
+    "obligacion": ["2310089458", "4513088545588847// AUDIO PRESTAMO"],
     "llaveProceso": "11001400307620170063500",
     "notificacion": {
       "291": {
@@ -714,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-07-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-07-21T05:00:00.000Z"],
     "mandamientoPago": "2017-03-08T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00635",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-08-18T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-08-18T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,9 +732,7 @@
     "email": "imagenfmr@yahoo.com"
   },
   "fecha": "2023-05-31T05:00:00.000Z",
-  "idProcesos": [
-    51497380
-  ],
+  "idProcesos": [51497380],
   "idRegUltimaAct": 1761826880,
   "llaveProceso": "11001400307620170063500",
   "nombre": "FREDY MENESES",

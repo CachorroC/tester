@@ -780,23 +780,16 @@
         "fechaOrdenaMedida": "2018-01-12T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE VEHICULO"
       },
-      "vencimientoPagare": [
-        "2024-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2024-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2018-01-12T05:00:00.000Z",
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-11-27T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-11-27T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        3550083774,
-        "4513082972339 / 5303714867753385"
-      ],
+      "obligacion": [3550083774, "4513082972339 / 5303714867753385"],
       "radicado": "2017 - 01164"
     }
   ],
@@ -851,9 +844,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51465700
-  ],
+  "idProcesos": [51465700],
   "nombre": "NESTOR ALBERTO CRISTANCHO LOPEZ",
   "notificacion": {
     "notifiers": [

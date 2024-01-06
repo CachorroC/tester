@@ -577,13 +577,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-02-05T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-02-05T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        377816034306740
-      ],
+      "obligacion": [377816034306740],
       "radicado": "2018 - 00149"
     }
   ],
@@ -638,9 +634,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    9088093
-  ],
+  "idProcesos": [9088093],
   "nombre": "MIGUEL ALEJANDRO GARCIA RODRIGUEZ",
   "notificacion": {
     "notifiers": [

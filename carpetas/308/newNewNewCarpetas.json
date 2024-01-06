@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "143579"
-    ],
+    "obligacion": ["143579"],
     "llaveProceso": "11001400302220170117600",
     "notificacion": null,
     "medidasCautelares": {
@@ -699,16 +697,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-10-24T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-24T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01176",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-05-27T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-05-27T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -724,9 +718,7 @@
     "email": "osfacer@hotmail.com"
   },
   "fecha": "2019-05-28T05:00:00.000Z",
-  "idProcesos": [
-    50801010
-  ],
+  "idProcesos": [50801010],
   "idRegUltimaAct": 690632090,
   "llaveProceso": "11001400302220170117600",
   "nombre": "OSCAR ERNESTO SERRANO VELASCO",

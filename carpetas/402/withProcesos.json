@@ -219,22 +219,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2022-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2022-01-01T05:00:00.000Z"],
       "capitalAdeudado": 4114601390,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-02-20T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-02-20T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        154048
-      ],
+      "obligacion": [154048],
       "radicado": "2018 - 00218"
     }
   ],
@@ -289,9 +283,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    17948440
-  ],
+  "idProcesos": [17948440],
   "nombre": "BLANCA CECILIA ARDILA HUERTAS",
   "notificacion": {
     "notifiers": [],

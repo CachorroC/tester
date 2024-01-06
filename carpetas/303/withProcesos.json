@@ -785,9 +785,7 @@
         "fechaOrdenaMedida": "0208-01-06T04:56:16.000Z",
         "medidaSolicitada": "23/10/2017"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -796,10 +794,7 @@
       "etapaProcesal": "11001400303020170157900",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "2620088246 / 3777813457586759",
-        4594250105313477
-      ],
+      "obligacion": ["2620088246 / 3777813457586759", 4594250105313477],
       "radicado": "2017 - 01579"
     }
   ],
@@ -854,9 +849,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50778160
-  ],
+  "idProcesos": [50778160],
   "nombre": "RAFAEL ALFONSO CAMACHO VELANDIA",
   "notificacion": {
     "notifiers": [

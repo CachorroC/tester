@@ -430,23 +430,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": 616552203,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-04-10T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-09-21T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-21T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        40800882948,
-        96296
-      ],
+      "obligacion": [40800882948, 96296],
       "radicado": "2017 - 01410"
     }
   ],
@@ -501,9 +494,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50726160
-  ],
+  "idProcesos": [50726160],
   "nombre": "FREDDY ARIAS MARTINEZ",
   "notificacion": {
     "notifiers": [

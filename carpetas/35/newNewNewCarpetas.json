@@ -691,10 +691,7 @@
     "id": 35
   },
   "demanda": {
-    "obligacion": [
-      "5303722385820750",
-      "AUTOPRESTAMO"
-    ],
+    "obligacion": ["5303722385820750", "AUTOPRESTAMO"],
     "llaveProceso": "11001400302620170051100",
     "notificacion": {
       "292": {
@@ -715,16 +712,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-05-30T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-30T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017-00511",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2016-09-16T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2016-09-16T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -740,9 +733,7 @@
     "email": "luiscagv@yahoo.com"
   },
   "fecha": "2023-04-13T05:00:00.000Z",
-  "idProcesos": [
-    50477000
-  ],
+  "idProcesos": [50477000],
   "idRegUltimaAct": 1709328210,
   "llaveProceso": "11001400302620170051100",
   "nombre": "LUIS CARLOS GUTIERREZ VELANDIA",

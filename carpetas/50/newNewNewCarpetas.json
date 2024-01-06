@@ -311,10 +311,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "1800088260//377813230167802",
-      "4513070115042991"
-    ],
+    "obligacion": ["1800088260//377813230167802", "4513070115042991"],
     "llaveProceso": "11001400303420180061400",
     "notificacion": {
       "certimail": null,
@@ -335,9 +332,7 @@
     "municipio": "BOGOTA",
     "radicado": "2018 - 00614",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-06-01T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-06-01T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -353,9 +348,7 @@
     "email": "gloriaaz@yahoo.com"
   },
   "fecha": "2019-10-01T05:00:00.000Z",
-  "idProcesos": [
-    51259250
-  ],
+  "idProcesos": [51259250],
   "idRegUltimaAct": 565108270,
   "llaveProceso": "11001400303420180061400",
   "nombre": "GLORIA ASTRID RODRÍGUEZ BAQUERO",

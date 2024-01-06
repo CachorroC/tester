@@ -532,23 +532,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "17/12/1909"
       },
-      "vencimientoPagare": [
-        "2015-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2015-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "43270",
-      "fechaPresentacion": [
-        "2018-06-26T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-06-26T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        377816000000000,
-        "36.820.559"
-      ],
+      "obligacion": [377816000000000, "36.820.559"],
       "radicado": "2018 - 00896"
     }
   ],
@@ -603,9 +596,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    19161681
-  ],
+  "idProcesos": [19161681],
   "nombre": "PABLO CESAR SOACHA MORALES",
   "notificacion": {
     "notifiers": [],

@@ -147,9 +147,7 @@
     "id": 19
   },
   "demanda": {
-    "obligacion": [
-      "103560"
-    ],
+    "obligacion": ["103560"],
     "llaveProceso": "11001400302120170175500",
     "notificacion": {
       "certimail": null,
@@ -162,16 +160,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2017-09-25T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-25T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01755",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-12-06T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-12-06T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -187,9 +181,7 @@
     "email": "eliacid@hotmail.com"
   },
   "fecha": "2018-02-01T05:00:00.000Z",
-  "idProcesos": [
-    50869770
-  ],
+  "idProcesos": [50869770],
   "idRegUltimaAct": 683021000,
   "llaveProceso": "11001400302120170175500",
   "nombre": "ELIACID CHAVES OBANDO",

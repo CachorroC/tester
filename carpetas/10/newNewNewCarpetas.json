@@ -4,9 +4,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2405037"
-    ],
+    "obligacion": ["2405037"],
     "llaveProceso": "11001418900320170090900",
     "notificacion": {
       "291": {
@@ -24,16 +22,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2017-05-24T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "SUBA",
     "radicado": "2017 - 00909",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-04-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-04-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

@@ -784,9 +784,7 @@
         "fechaOrdenaMedida": "2018-11-05T05:00:00.000Z",
         "medidaSolicitada": "23/01/2018"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -795,9 +793,7 @@
       "etapaProcesal": "11001400305620170130200",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12727553
-      ],
+      "obligacion": [12727553],
       "radicado": "2017 - 01312"
     }
   ],
@@ -852,9 +848,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50916090
-  ],
+  "idProcesos": [50916090],
   "nombre": "MARIA CAMILA MACIAS PADILLA",
   "notificacion": {
     "notifiers": [

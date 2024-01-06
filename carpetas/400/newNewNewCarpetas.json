@@ -4,9 +4,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "6590084682"
-    ],
+    "obligacion": ["6590084682"],
     "llaveProceso": "25307400300220180007500",
     "notificacion": {
       "certimail": false,
@@ -22,16 +20,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2018-02-09T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-09T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "GIRARDOT",
     "radicado": "2018 - 00075",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2020-12-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-12-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

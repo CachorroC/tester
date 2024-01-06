@@ -691,9 +691,7 @@
     "id": 135
   },
   "demanda": {
-    "obligacion": [
-      "410086468"
-    ],
+    "obligacion": ["410086468"],
     "llaveProceso": "11001400300420170063900",
     "notificacion": {
       "291": {
@@ -724,9 +722,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00639",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-12-31T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-12-31T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -742,10 +738,7 @@
     "email": null
   },
   "fecha": "2021-12-14T05:00:00.000Z",
-  "idProcesos": [
-    50542600,
-    81638681
-  ],
+  "idProcesos": [50542600, 81638681],
   "idRegUltimaAct": 1238361070,
   "llaveProceso": "11001400300420170063900",
   "nombre": "RUBER ANDRES VALENZUELA SIERRA",

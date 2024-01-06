@@ -519,22 +519,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2032-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2032-01-01T05:00:00.000Z"],
       "capitalAdeudado": 0,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2019-06-04T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2019-06-04T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990151954
-      ],
+      "obligacion": [20990151954],
       "radicado": "2019 - 00496"
     }
   ],
@@ -589,9 +583,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51974830
-  ],
+  "idProcesos": [51974830],
   "nombre": "MAGDA LORENA RIASCOS DIAZ",
   "notificacion": null
 }

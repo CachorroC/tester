@@ -569,22 +569,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 54468401,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-03-08T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-06-29T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12545412
-      ],
+      "obligacion": [12545412],
       "radicado": "2017 - 00653"
     }
   ],
@@ -639,9 +633,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50540650
-  ],
+  "idProcesos": [50540650],
   "nombre": "LEILA JOHANNA MARTINEZ MORA",
   "notificacion": {
     "notifiers": [

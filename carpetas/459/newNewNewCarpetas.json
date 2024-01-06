@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "5470085449"
-    ],
+    "obligacion": ["5470085449"],
     "llaveProceso": "11001400305320180094500",
     "notificacion": null,
     "medidasCautelares": null,
@@ -696,16 +694,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-07-23T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-07-23T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00945",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2024-06-30T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2024-06-30T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -721,9 +715,7 @@
     "email": "cesarvanegas1425@gmail.com"
   },
   "fecha": "2020-02-17T05:00:00.000Z",
-  "idProcesos": [
-    64641230
-  ],
+  "idProcesos": [64641230],
   "idRegUltimaAct": 958263380,
   "llaveProceso": "11001400305320180094500",
   "nombre": "CESAR ARMANDO VANEGAS",

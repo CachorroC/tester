@@ -563,9 +563,7 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2015-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2015-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -574,9 +572,7 @@
       "etapaProcesal": "01/02/2019",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "40.290.738"
-      ],
+      "obligacion": ["40.290.738"],
       "radicado": "2019 - 00165"
     }
   ],
@@ -631,9 +627,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    65707550
-  ],
+  "idProcesos": [65707550],
   "nombre": "ERIK RICARDO PINTO RODRIGUEZ",
   "notificacion": null
 }

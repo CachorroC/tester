@@ -748,22 +748,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "8202-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["8202-01-01T05:00:00.000Z"],
       "capitalAdeudado": 6016146778,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-06-12T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-12-14T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-12-14T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        144698
-      ],
+      "obligacion": [144698],
       "radicado": "2017 - 01647"
     }
   ],
@@ -818,9 +812,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50923290
-  ],
+  "idProcesos": [50923290],
   "nombre": "SANDRA PATRICIA SANCHEZ VELASQUEZ",
   "notificacion": {
     "notifiers": [],

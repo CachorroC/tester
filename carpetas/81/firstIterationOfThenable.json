@@ -783,9 +783,7 @@
         "fechaOrdenaMedida": "2018-12-07T05:00:00.000Z",
         "medidaSolicitada": "29/11/2019"
       },
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -794,9 +792,7 @@
       "etapaProcesal": "11001400303620170055400",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        1680096092
-      ],
+      "obligacion": [1680096092],
       "radicado": "2017 - 00554"
     }
   ],
@@ -851,9 +847,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50527610
-  ],
+  "idProcesos": [50527610],
   "nombre": "DS&D SOLUCIONES CONSTRUCTIVAS S.A.S.",
   "notificacion": {
     "notifiers": [

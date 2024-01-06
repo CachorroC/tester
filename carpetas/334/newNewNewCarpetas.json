@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["AUDIOPRESTAMO"],
     "llaveProceso": "11001400306820170130600",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-10-10T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-10T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01306",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-01-15T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-01-15T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "nanbravo04@hotmail.com"
   },
   "fecha": "2022-09-27T05:00:00.000Z",
-  "idProcesos": [
-    50765770
-  ],
+  "idProcesos": [50765770],
   "idRegUltimaAct": 1413328280,
   "llaveProceso": "11001400306820170130600",
   "nombre": "NESTOR JULIO MARTINEZ ORJUELA",

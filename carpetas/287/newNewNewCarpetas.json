@@ -668,9 +668,7 @@
   "category": "Insolvencia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12592504"
-    ],
+    "obligacion": ["12592504"],
     "llaveProceso": "11001400301620170015700",
     "notificacion": {
       "certimail": false,
@@ -691,9 +689,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00157",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-09-29T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-09-29T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -709,9 +705,7 @@
     "email": "carlosgrugec@hotmail.com"
   },
   "fecha": "2023-11-03T05:00:00.000Z",
-  "idProcesos": [
-    50242270
-  ],
+  "idProcesos": [50242270],
   "idRegUltimaAct": 1927140880,
   "llaveProceso": "11001400301620170015700",
   "nombre": "CARLOS GERMAN RUGE CASTAÑEDA",

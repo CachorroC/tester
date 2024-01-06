@@ -589,10 +589,7 @@
     "id": 116
   },
   "demanda": {
-    "obligacion": [
-      "12001404",
-      "4513070579287120."
-    ],
+    "obligacion": ["12001404", "4513070579287120."],
     "llaveProceso": "11001400301020170083000",
     "notificacion": {
       "292": {
@@ -613,16 +610,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00830",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-07-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-07-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -638,9 +631,7 @@
     "email": "karinamantilla@hotmail.com"
   },
   "fecha": "2018-10-30T05:00:00.000Z",
-  "idProcesos": [
-    50624030
-  ],
+  "idProcesos": [50624030],
   "idRegUltimaAct": 613826140,
   "llaveProceso": "11001400301020170083000",
   "nombre": "ANA KARINA MANTILLA PARDO",

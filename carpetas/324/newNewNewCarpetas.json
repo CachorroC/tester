@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "164578",
-      "1380081489"
-    ],
+    "obligacion": ["164578", "1380081489"],
     "llaveProceso": "11001400300120170084900",
     "notificacion": {
       "292": {
@@ -709,16 +706,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "LIQUIDACION",
-    "fechaPresentacion": [
-      "2017-11-01T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-01T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "SOACHA",
     "radicado": "2017 - 00849",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2020-11-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-11-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -734,9 +727,7 @@
     "email": "majupi170301@hotmail.com"
   },
   "fecha": "2020-02-03T05:00:00.000Z",
-  "idProcesos": [
-    50548450
-  ],
+  "idProcesos": [50548450],
   "idRegUltimaAct": 952462630,
   "llaveProceso": "11001400300120170084900",
   "nombre": "JOSE EDWIN MORALES ALFONSO",

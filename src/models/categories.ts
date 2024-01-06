@@ -62,7 +62,7 @@ const carpetasBancolombia = [
   589,
   590,
   591,
-  592,                                                      
+  592,
 ];
 
 const carpetasReintegra = [
@@ -143,7 +143,7 @@ const carpetasReintegra = [
   542,
   543,
   546,
-  491,                                                      
+  491,
 ];
 
 const carpetasTerminados = [
@@ -585,7 +585,7 @@ const carpetasTerminados = [
   550,
   560,
   154,
-  239,                                                      
+  239,
 ];
 
 const carpetasInsolvencia = [

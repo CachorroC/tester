@@ -691,10 +691,7 @@
     "id": 169
   },
   "demanda": {
-    "obligacion": [
-      "12498762",
-      "audioprestamo"
-    ],
+    "obligacion": ["12498762", "audioprestamo"],
     "llaveProceso": "11001400300320170126400",
     "notificacion": {
       "291": {
@@ -720,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-07-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-07-21T05:00:00.000Z"],
     "mandamientoPago": "2017-03-08T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01264",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-03-15T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-03-15T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -745,9 +738,7 @@
     "email": "dorancy1@hotmail.com"
   },
   "fecha": "2023-12-13T05:00:00.000Z",
-  "idProcesos": [
-    50598770
-  ],
+  "idProcesos": [50598770],
   "idRegUltimaAct": 1942014090,
   "llaveProceso": "11001400300320170126400",
   "nombre": "RITA BLANCO DE GOMEZ",

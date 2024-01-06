@@ -10,9 +10,7 @@
     "id": 224
   },
   "demanda": {
-    "obligacion": [
-      "4600"
-    ],
+    "obligacion": ["4600"],
     "llaveProceso": "25386400300120170040700",
     "notificacion": null,
     "medidasCautelares": {
@@ -24,16 +22,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-09-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "LA MESA",
     "radicado": "2017 - 00407",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2023-04-30T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2023-04-30T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

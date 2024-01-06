@@ -176,41 +176,39 @@ export interface DeudorRaw {
   telefono?: number | string;
 }
 
-
-
 const reducedCarpetas = Carpetas.reduce(
   (
-    accum, currVal, currIndex
+    accum, currVal, currIndex 
   ) => {
     console.log(
-      currVal
+      currVal 
     );
     console.log(
-      accum
+      accum 
     );
     return [
       ...accum,
       [
         {
           carpeta: currVal.numero,
-          index  : currIndex
+          index  : currIndex,
         },
-        currVal
-      ]
+        currVal,
+      ],
     ];
-
-  }, [ [
+  },
+  [ [
     {
       carpeta: 0,
-      index  : 0
+      index  : 0,
     },
-    {}
-  ] ]
+    {},
+  ], ],
 );
 
 const mapper = new Map(
-  reducedCarpetas
+  reducedCarpetas 
 );
 console.log(
-  mapper
+  mapper 
 );

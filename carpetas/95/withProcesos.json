@@ -583,22 +583,16 @@
         "fechaOrdenaMedida": "2017-10-07T05:00:00.000Z",
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 19146744,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-10-07T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-06-29T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12099135
-      ],
+      "obligacion": [12099135],
       "radicado": "2017 - 00575"
     }
   ],
@@ -653,9 +647,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50541540
-  ],
+  "idProcesos": [50541540],
   "nombre": "EDWIN JHOBANI PEREZ PITA",
   "notificacion": null
 }

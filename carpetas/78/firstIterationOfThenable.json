@@ -172,14 +172,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2017-06-20T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5303729451744848,
-        "0377816394649010"
-      ],
+      "obligacion": [5303729451744848, "0377816394649010"],
       "radicado": "2017 - 01231"
     }
   ],
@@ -234,9 +229,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    17942390
-  ],
+  "idProcesos": [17942390],
   "nombre": "JAIME EDISON SANTOS MARTIN",
   "notificacion": null
 }

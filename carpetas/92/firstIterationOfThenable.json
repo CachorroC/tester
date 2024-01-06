@@ -777,9 +777,7 @@
         "fechaOrdenaMedida": "2017-05-10T05:00:00.000Z",
         "medidaSolicitada": "30/06/2017"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
@@ -788,10 +786,7 @@
       "etapaProcesal": "11001400301320170084100",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        11875034,
-        5406920000000000
-      ],
+      "obligacion": [11875034, 5406920000000000],
       "radicado": "2017 - 00841"
     }
   ],
@@ -846,9 +841,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50525440
-  ],
+  "idProcesos": [50525440],
   "nombre": "MAGDA MILENA SALINAS RODRIGUEZ",
   "notificacion": {
     "notifiers": [

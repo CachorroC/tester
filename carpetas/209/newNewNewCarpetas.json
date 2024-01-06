@@ -714,16 +714,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": "2017-06-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01191",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-08-31T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-08-31T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,9 +735,7 @@
     "email": "cesa861@hotmail.com"
   },
   "fecha": "2023-11-21T05:00:00.000Z",
-  "idProcesos": [
-    50672820
-  ],
+  "idProcesos": [50672820],
   "idRegUltimaAct": 1936299090,
   "llaveProceso": "11001400306420170119100",
   "nombre": "CESAR ALFONSO UMAÑA CAÑON",

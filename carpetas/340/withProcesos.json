@@ -777,9 +777,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "23/11/2017"
       },
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-04-10T05:00:00.000Z",
@@ -788,9 +786,7 @@
       "etapaProcesal": "11001400306020170101400",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        6690082032
-      ],
+      "obligacion": [6690082032],
       "radicado": "2017 - 01014"
     }
   ],
@@ -845,9 +841,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50788330
-  ],
+  "idProcesos": [50788330],
   "nombre": "WILLIAM CORTES ROJAS",
   "notificacion": {
     "notifiers": [

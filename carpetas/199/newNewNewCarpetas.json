@@ -4,9 +4,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12650694"
-    ],
+    "obligacion": ["12650694"],
     "llaveProceso": "73449408900220170025900",
     "notificacion": {
       "291": {
@@ -32,16 +30,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-08-31T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-31T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "MELGAR",
     "radicado": "2017 - 00259",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-08-16T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-08-16T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

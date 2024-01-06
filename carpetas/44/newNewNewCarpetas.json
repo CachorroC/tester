@@ -691,9 +691,7 @@
     "id": 44
   },
   "demanda": {
-    "obligacion": [
-      "377813731599891"
-    ],
+    "obligacion": ["377813731599891"],
     "llaveProceso": "11001400301220170088200",
     "notificacion": {
       "292": {
@@ -714,16 +712,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-11T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-11T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00882",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2024-11-18T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2024-11-18T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,9 +733,7 @@
     "email": null
   },
   "fecha": "2023-09-19T05:00:00.000Z",
-  "idProcesos": [
-    50631800
-  ],
+  "idProcesos": [50631800],
   "idRegUltimaAct": 1878628460,
   "llaveProceso": "11001400301220170088200",
   "nombre": "JOSE FREDDY VARGAS RUIZ",

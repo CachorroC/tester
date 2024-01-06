@@ -566,9 +566,7 @@
   "category": "Insolvencia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "156791"
-    ],
+    "obligacion": ["156791"],
     "llaveProceso": "11001400306420180102900",
     "notificacion": {
       "291": {
@@ -599,9 +597,7 @@
     "municipio": "BOGOTA",
     "radicado": "2018 - 01029",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-10-05T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-10-05T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -617,9 +613,7 @@
     "email": "sonymarce20@hotmail.com"
   },
   "fecha": "2023-02-07T05:00:00.000Z",
-  "idProcesos": [
-    113353750
-  ],
+  "idProcesos": [113353750],
   "idRegUltimaAct": 1637473990,
   "llaveProceso": "11001400306420180102900",
   "nombre": "SONIA MARCELA MOLINA QUIMBAYO",

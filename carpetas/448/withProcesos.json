@@ -776,9 +776,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "22/08/2018"
       },
-      "vencimientoPagare": [
-        "2021-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2021-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -787,9 +785,7 @@
       "etapaProcesal": "11001400301220180081000",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO"
-      ],
+      "obligacion": ["AUDIOPRESTAMO"],
       "radicado": "2018 - 00810"
     }
   ],
@@ -844,9 +840,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51282150
-  ],
+  "idProcesos": [51282150],
   "nombre": "LUIS ALFREDO NIÑO GARCIA",
   "notificacion": {
     "notifiers": [

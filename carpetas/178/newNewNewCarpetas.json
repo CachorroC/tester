@@ -513,16 +513,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": "2017-06-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01221",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2017-08-15T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-08-15T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -538,9 +534,7 @@
     "email": "maryluzocasiones1104.p@hotmail.com"
   },
   "fecha": "2019-02-12T05:00:00.000Z",
-  "idProcesos": [
-    112657130
-  ],
+  "idProcesos": [112657130],
   "idRegUltimaAct": 1243284510,
   "llaveProceso": "11001400306620170122100",
   "nombre": "MARYLUZ OCASIONES PINZON",

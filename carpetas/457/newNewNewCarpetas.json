@@ -10,10 +10,7 @@
     "id": 457
   },
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "460091173/ 460090745"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "460091173/ 460090745"],
     "llaveProceso": "11001400307920180087200",
     "notificacion": null,
     "medidasCautelares": null,
@@ -22,16 +19,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-09-07T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-07-18T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-07-18T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00872",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-01-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-01-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

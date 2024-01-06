@@ -10,10 +10,7 @@
     "id": 498
   },
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "5306960218152465"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "5306960218152465"],
     "llaveProceso": "25899400300320180042900",
     "notificacion": null,
     "medidasCautelares": null,
@@ -27,9 +24,7 @@
     "municipio": "ZIPAQUIRA",
     "radicado": "2018 - 00429",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2031-05-23T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2031-05-23T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

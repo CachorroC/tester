@@ -754,9 +754,7 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -765,9 +763,7 @@
       "etapaProcesal": "11001400308220170125600",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12048231
-      ],
+      "obligacion": [12048231],
       "radicado": "2017 - 01256"
     }
   ],
@@ -822,9 +818,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51701110
-  ],
+  "idProcesos": [51701110],
   "nombre": "FERNANDO RINCON RODRIGUEZ",
   "notificacion": null
 }

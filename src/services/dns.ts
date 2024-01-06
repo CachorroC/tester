@@ -1,18 +1,12 @@
-
 import * as dns from 'dns/promises';
 
-
-async function dnsFetcher () {
-
-
+async function dnsFetcher() {
   const resolver = await dns.resolve(
-    'heart.rsasesorjuridico.com'
+    'heart.rsasesorjuridico.com' 
   );
 
-
-
   console.log(
-    resolver
+    resolver 
   );
   return dns.getServers();
 }
@@ -21,12 +15,12 @@ console.log(
   dnsFetcher()
     .then(
       (
-        rr
+        rr 
       ) => {
         console.log(
-          rr
+          rr 
         );
         return rr;
-      }
-    )
+      } 
+    ),
 );

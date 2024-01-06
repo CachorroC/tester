@@ -767,9 +767,7 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2022-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2022-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
@@ -778,9 +776,7 @@
       "etapaProcesal": "11001400302720140070300",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "2273 320157242"
-      ],
+      "obligacion": ["2273 320157242"],
       "radicado": "2014 - 00703"
     }
   ],
@@ -835,9 +831,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    29071084
-  ],
+  "idProcesos": [29071084],
   "nombre": "GLADYS HERNANDEZ LOPEZ",
   "notificacion": {
     "notifiers": [],

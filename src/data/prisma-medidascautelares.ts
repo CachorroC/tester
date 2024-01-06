@@ -1,26 +1,25 @@
 import { client } from '../models/newJudicial';
 import Carpetas from './carpetas';
 
-async function prismaMedidasCautelares () {
+async function prismaMedidasCautelares() {
   for ( const carpeta of Carpetas ) {
-
     const {
-      demanda
+      demanda 
     } = carpeta;
 
     const {
-      medidasCautelares
+      medidasCautelares 
     } = demanda;
 
     if ( medidasCautelares ) {
       const {
-        medidaSolicitada, fechaOrdenaMedidas
+        medidaSolicitada, fechaOrdenaMedidas 
       } = medidasCautelares;
       let newFechaOrdenaMedida;
 
       if ( fechaOrdenaMedidas ) {
         const newFecha = new Date(
-          fechaOrdenaMedidas
+          fechaOrdenaMedidas 
         );
 
         const stringer = newFecha.toString();
@@ -42,13 +41,13 @@ async function prismaMedidasCautelares () {
                 ? medidaSolicitada
                 : null,
               fechaOrdenaMedida: newFechaOrdenaMedida,
-              id               : carpeta.numero
-            }
-          }
+              id               : carpeta.numero,
+            },
+          } 
         );
       } catch ( error ) {
         console.log(
-          error
+          error 
         );
       }
     }
@@ -58,11 +57,11 @@ async function prismaMedidasCautelares () {
 prismaMedidasCautelares()
   .then(
     (
-      rr
+      rr 
     ) => {
       console.log(
-        rr
+        rr 
       );
       return rr;
-    }
+    } 
   );

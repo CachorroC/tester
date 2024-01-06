@@ -778,23 +778,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "SALARIOS"
       },
-      "vencimientoPagare": [
-        "2016-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2016-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-05-30T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-05-30T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5303722385820750,
-        "AUTOPRESTAMO"
-      ],
+      "obligacion": [5303722385820750, "AUTOPRESTAMO"],
       "radicado": "2017-00511"
     }
   ],
@@ -849,9 +842,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50477000
-  ],
+  "idProcesos": [50477000],
   "nombre": "LUIS CARLOS GUTIERREZ VELANDIA",
   "notificacion": {
     "notifiers": [

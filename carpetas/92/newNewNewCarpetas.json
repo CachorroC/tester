@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "11875034",
-      "5406920000000000"
-    ],
+    "obligacion": ["11875034", "5406920000000000"],
     "llaveProceso": "11001400301320170084100",
     "notificacion": {
       "291": {
@@ -719,9 +716,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00841",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-06-09T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-06-09T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -737,9 +732,7 @@
     "email": "magda-mile@hotmail.com"
   },
   "fecha": "2022-09-05T05:00:00.000Z",
-  "idProcesos": [
-    50525440
-  ],
+  "idProcesos": [50525440],
   "idRegUltimaAct": 1387234240,
   "llaveProceso": "11001400301320170084100",
   "nombre": "MAGDA MILENA SALINAS RODRIGUEZ",

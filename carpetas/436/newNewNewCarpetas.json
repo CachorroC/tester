@@ -243,10 +243,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "5491590000000",
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["5491590000000", "AUDIOPRESTAMO"],
     "llaveProceso": "11001400306320180075600",
     "notificacion": null,
     "medidasCautelares": null,
@@ -255,9 +252,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-05-31T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-05-31T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00756",
@@ -278,9 +273,7 @@
     "email": "jcbaquerob@gmail.com"
   },
   "fecha": "2022-03-15T05:00:00.000Z",
-  "idProcesos": [
-    17724160
-  ],
+  "idProcesos": [17724160],
   "idRegUltimaAct": 1263596580,
   "llaveProceso": "11001400306320180075600",
   "nombre": "JUAN CAMILO BAQUERO BUTTNER",

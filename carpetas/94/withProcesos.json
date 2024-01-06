@@ -187,22 +187,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2034-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2034-01-01T05:00:00.000Z"],
       "capitalAdeudado": 95244711,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-06-29T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        177994
-      ],
+      "obligacion": [177994],
       "radicado": "2017 - 00591"
     }
   ],
@@ -257,9 +251,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    17325724
-  ],
+  "idProcesos": [17325724],
   "nombre": "AIDA YURANI GRIJALBA MARTINEZ",
   "notificacion": {
     "notifiers": [

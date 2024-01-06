@@ -691,9 +691,7 @@
     "id": 62
   },
   "demanda": {
-    "obligacion": [
-      "320 093516"
-    ],
+    "obligacion": ["320 093516"],
     "llaveProceso": "11001400306320180016800",
     "notificacion": {
       "292": {
@@ -714,16 +712,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-06-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-21T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00537",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-01-31T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-01-31T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,9 +733,7 @@
     "email": null
   },
   "fecha": "2021-11-09T05:00:00.000Z",
-  "idProcesos": [
-    51018210
-  ],
+  "idProcesos": [51018210],
   "idRegUltimaAct": 1232762870,
   "llaveProceso": "11001400306320180016800",
   "nombre": "LUIS EDUARDO CARRANZA BUSTOS",

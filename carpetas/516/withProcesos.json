@@ -222,14 +222,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2019-02-01T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2019-02-01T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        3778160000000000,
-        530372000000000
-      ],
+      "obligacion": [3778160000000000, 530372000000000],
       "radicado": "2019 - 00190"
     }
   ],
@@ -284,9 +279,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51786190
-  ],
+  "idProcesos": [51786190],
   "nombre": "ALVARO LUIS ASPRILLA LUCUMI",
   "notificacion": null
 }

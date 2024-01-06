@@ -149,22 +149,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2023-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2023-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1801212145,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-09-19T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-19T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        113645
-      ],
+      "obligacion": [113645],
       "radicado": "2018 - 00242"
     }
   ],
@@ -219,9 +213,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    10416913
-  ],
+  "idProcesos": [10416913],
   "nombre": "EDWIN BUITRAGO VILLAMIL",
   "notificacion": null
 }

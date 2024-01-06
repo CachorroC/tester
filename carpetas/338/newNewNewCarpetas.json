@@ -4,9 +4,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "7910080245"
-    ],
+    "obligacion": ["7910080245"],
     "llaveProceso": "25148408900120170009600",
     "notificacion": {
       "291": {
@@ -32,16 +30,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-10-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-19T05:00:00.000Z"],
     "mandamientoPago": "2017-09-11T05:00:00.000Z",
     "municipio": "CAPARRAPI",
     "radicado": "2017 - 00096",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-04-01T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-04-01T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

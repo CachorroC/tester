@@ -778,22 +778,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
       },
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-06-10T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-10-12T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-12T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        3880082626
-      ],
+      "obligacion": [3880082626],
       "radicado": "2017 - 00975"
     }
   ],
@@ -848,9 +842,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51465090
-  ],
+  "idProcesos": [51465090],
   "nombre": "JOGLI JOAQUIN OTERO VARGAS",
   "notificacion": {
     "notifiers": [

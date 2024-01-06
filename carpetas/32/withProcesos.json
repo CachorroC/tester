@@ -775,9 +775,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO E INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2028-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2028-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -827,10 +825,7 @@
     "primerNombre": "JONATHAN",
     "segundoNombre": "ANDRES",
     "primerApellido": "",
-    "segundoApellido": [
-      "BERNAL",
-      "PARRA"
-    ],
+    "segundoApellido": ["BERNAL", "PARRA"],
     "cedula": 1022940572,
     "direccion": "CALLE 36 B SUR No. 11-25 APTO 1307 BOGOTA",
     "email": "jhonannicky@hotmail.com"
@@ -850,9 +845,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    114256610
-  ],
+  "idProcesos": [114256610],
   "nombre": "JONATHAN ANDRES  BERNAL PARRA",
   "notificacion": {
     "notifiers": [],

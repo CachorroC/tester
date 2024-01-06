@@ -96,9 +96,7 @@
     "id": 430
   },
   "demanda": {
-    "obligacion": [
-      "20990162905"
-    ],
+    "obligacion": ["20990162905"],
     "llaveProceso": "11001410300120180040400",
     "notificacion": null,
     "medidasCautelares": null,
@@ -107,16 +105,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-05-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-05-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00404",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2028-04-10T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2028-04-10T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -132,10 +126,7 @@
     "email": "alejaso1291@hotmail.com"
   },
   "fecha": "2018-08-28T05:00:00.000Z",
-  "idProcesos": [
-    17487020,
-    50678323
-  ],
+  "idProcesos": [17487020, 50678323],
   "idRegUltimaAct": 737744993,
   "llaveProceso": "11001410300120180040400",
   "nombre": "JHONATAN ALEJANDRO  CUELLAR ARIAS",

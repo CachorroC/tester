@@ -412,22 +412,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2025-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2025-01-01T05:00:00.000Z"],
       "capitalAdeudado": 6182142575,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDSA CAUTELAR  PAQUETE 269",
-      "fechaPresentacion": [
-        "2017-11-08T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-11-08T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        134175
-      ],
+      "obligacion": [134175],
       "radicado": "2017 - 01411"
     }
   ],
@@ -482,9 +476,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50801260
-  ],
+  "idProcesos": [50801260],
   "nombre": "FERNANDO GONZALEZ TELLEZ",
   "notificacion": null
 }

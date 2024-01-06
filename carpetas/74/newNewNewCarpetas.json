@@ -691,9 +691,7 @@
     "id": 74
   },
   "demanda": {
-    "obligacion": [
-      "12185017"
-    ],
+    "obligacion": ["12185017"],
     "llaveProceso": "11001400304820170050700",
     "notificacion": {
       "certimail": null,
@@ -709,16 +707,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-15T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-15T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00507",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-06-07T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-06-07T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -734,9 +728,7 @@
     "email": "carlosborray@gmail.com"
   },
   "fecha": "2022-05-31T05:00:00.000Z",
-  "idProcesos": [
-    10681823
-  ],
+  "idProcesos": [10681823],
   "idRegUltimaAct": 1128845033,
   "llaveProceso": "11001400304820170050700",
   "nombre": "CARLOS ANDRÉS BORRAY ARCE",

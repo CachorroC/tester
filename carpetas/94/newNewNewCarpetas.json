@@ -141,9 +141,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "177994"
-    ],
+    "obligacion": ["177994"],
     "llaveProceso": "11001400305620170059100",
     "notificacion": {
       "291": {
@@ -161,16 +159,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-29T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00591",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2034-10-09T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2034-10-09T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -186,9 +180,7 @@
     "email": "o"
   },
   "fecha": "2017-12-07T05:00:00.000Z",
-  "idProcesos": [
-    17325724
-  ],
+  "idProcesos": [17325724],
   "idRegUltimaAct": 98177804,
   "llaveProceso": "11001400305620170059100",
   "nombre": "AIDA YURANI GRIJALBA MARTINEZ",

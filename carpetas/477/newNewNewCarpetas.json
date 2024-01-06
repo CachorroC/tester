@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["AUDIOPRESTAMO"],
     "llaveProceso": "11001400300420180047500",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-04-25T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-04-25T05:00:00.000Z"],
     "mandamientoPago": "2018-08-05T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2018 - 00475",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-08-15T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-08-15T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "adolfo.daza@gmail.com"
   },
   "fecha": "2023-12-14T05:00:00.000Z",
-  "idProcesos": [
-    51149410
-  ],
+  "idProcesos": [51149410],
   "idRegUltimaAct": 1942500410,
   "llaveProceso": "11001400300420180047500",
   "nombre": "ADOLFO  LEON DAZA FERNANDEZ",

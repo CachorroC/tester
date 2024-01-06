@@ -4,10 +4,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "1680097436",
-      "148653"
-    ],
+    "obligacion": ["1680097436", "148653"],
     "llaveProceso": "2575440030042018000600",
     "notificacion": null,
     "medidasCautelares": null,
@@ -21,9 +18,7 @@
     "municipio": "SOACHA",
     "radicado": "2018 - 00060",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2021-11-15T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-11-15T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

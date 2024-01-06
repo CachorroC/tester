@@ -245,22 +245,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2027-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2027-01-01T05:00:00.000Z"],
       "capitalAdeudado": 35031244,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2017-06-20T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "320 149552"
-      ],
+      "obligacion": ["320 149552"],
       "radicado": "2017 - 00644"
     }
   ],
@@ -315,9 +309,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    11486153
-  ],
+  "idProcesos": [11486153],
   "nombre": "JOSE ISRAEL MONROY CORDOBA",
   "notificacion": {
     "notifiers": [

@@ -778,22 +778,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO VEHICULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-05-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2453698
-      ],
+      "obligacion": [2453698],
       "radicado": "2017 - 00849"
     }
   ],
@@ -848,9 +842,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51935790
-  ],
+  "idProcesos": [51935790],
   "nombre": "JOSE EDWIN GARCES ARDILA",
   "notificacion": {
     "notifiers": [

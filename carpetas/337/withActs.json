@@ -777,9 +777,7 @@
         "fechaOrdenaMedida": "2018-12-04T05:00:00.000Z",
         "medidaSolicitada": "27/11/2017"
       },
-      "vencimientoPagare": [
-        "2026-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2026-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -788,9 +786,7 @@
       "etapaProcesal": "11001400300620170096400",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        140085
-      ],
+      "obligacion": [140085],
       "radicado": "2017 - 00964"
     }
   ],
@@ -845,9 +841,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50857820
-  ],
+  "idProcesos": [50857820],
   "nombre": "HECTOR ALFONSO TORRES RIOS",
   "notificacion": {
     "notifiers": [

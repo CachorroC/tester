@@ -771,9 +771,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "6/02/2018"
       },
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -782,9 +780,7 @@
       "etapaProcesal": null,
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        9450082795
-      ],
+      "obligacion": [9450082795],
       "radicado": "2018 - 00074"
     }
   ],
@@ -839,9 +835,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50980350
-  ],
+  "idProcesos": [50980350],
   "nombre": "AVELINO SIERRA SIERRA",
   "notificacion": {
     "notifiers": [],

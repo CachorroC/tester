@@ -766,22 +766,16 @@
         "fechaOrdenaMedida": "2017-11-09T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2024-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2024-01-01T05:00:00.000Z"],
       "capitalAdeudado": 60804048,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-11-09T05:00:00.000Z",
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-09-04T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-04T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        179104
-      ],
+      "obligacion": [179104],
       "radicado": "2017 - 01060"
     }
   ],
@@ -836,9 +830,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50684220
-  ],
+  "idProcesos": [50684220],
   "nombre": "GONZALO VILLABON MARTINEZ",
   "notificacion": {
     "notifiers": [],

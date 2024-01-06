@@ -188,22 +188,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2022-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2022-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1539150811,
       "departamento": "CUNDINNAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-09-25T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-25T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        103560
-      ],
+      "obligacion": [103560],
       "radicado": "2017 - 01755"
     }
   ],
@@ -258,9 +252,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50869770
-  ],
+  "idProcesos": [50869770],
   "nombre": "ELIACID CHAVES OBANDO",
   "notificacion": {
     "notifiers": [],

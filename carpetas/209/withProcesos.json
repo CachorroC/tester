@@ -778,18 +778,14 @@
         "fechaOrdenaMedida": "2017-06-09T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2017-06-09T05:00:00.000Z",
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
       "obligacion": [
         2170085697,
@@ -849,9 +845,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50672820
-  ],
+  "idProcesos": [50672820],
   "nombre": "CESAR ALFONSO UMAÑA CAÑON",
   "notificacion": {
     "notifiers": [

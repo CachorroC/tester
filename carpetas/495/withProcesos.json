@@ -752,10 +752,7 @@
       "etapaProcesal": "11001400300320180123600",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO",
-        377814000000000
-      ],
+      "obligacion": ["AUDIOPRESTAMO", 377814000000000],
       "radicado": "2018 - 01236"
     }
   ],
@@ -810,9 +807,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51431830
-  ],
+  "idProcesos": [51431830],
   "nombre": "PABLO ELIAS MENDOZA MURILLO",
   "notificacion": {
     "notifiers": [

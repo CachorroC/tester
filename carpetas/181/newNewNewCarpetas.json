@@ -4,9 +4,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12569604"
-    ],
+    "obligacion": ["12569604"],
     "llaveProceso": "11001418901020170011500",
     "notificacion": null,
     "medidasCautelares": {
@@ -18,16 +16,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": "2017-05-10T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00115",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-08-16T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-08-16T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

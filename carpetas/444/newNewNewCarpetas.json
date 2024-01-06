@@ -464,10 +464,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "377816000000000",
-      "36.820.559"
-    ],
+    "obligacion": ["377816000000000", "36.820.559"],
     "llaveProceso": "11001400304020180089600",
     "notificacion": {
       "certimail": null,
@@ -483,9 +480,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "43270",
-    "fechaPresentacion": [
-      "2018-06-26T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-06-26T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00896",
@@ -506,9 +501,7 @@
     "email": "CALLE 34 No 34C- 38 SUR"
   },
   "fecha": "2020-02-07T05:00:00.000Z",
-  "idProcesos": [
-    19161681
-  ],
+  "idProcesos": [19161681],
   "idRegUltimaAct": 733673181,
   "llaveProceso": "11001400304020180089600",
   "nombre": "PABLO CESAR SOACHA MORALES",

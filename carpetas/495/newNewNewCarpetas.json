@@ -651,10 +651,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "377814000000000"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "377814000000000"],
     "llaveProceso": "11001400300320180123600",
     "notificacion": {
       "291": {
@@ -704,9 +701,7 @@
     "email": "pablomendoza44@gmail.com"
   },
   "fecha": "2021-12-06T05:00:00.000Z",
-  "idProcesos": [
-    51431830
-  ],
+  "idProcesos": [51431830],
   "idRegUltimaAct": 1237275320,
   "llaveProceso": "11001400300320180123600",
   "nombre": "PABLO ELIAS MENDOZA MURILLO",

@@ -691,9 +691,7 @@
     "id": 409
   },
   "demanda": {
-    "obligacion": [
-      "4550087219"
-    ],
+    "obligacion": ["4550087219"],
     "llaveProceso": "11001400305620180022100",
     "notificacion": {
       "291": {
@@ -719,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-02-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-28T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00221",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-06-20T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-06-20T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -744,9 +738,7 @@
     "email": "andibarracosta@gmail.com"
   },
   "fecha": "2023-12-07T05:00:00.000Z",
-  "idProcesos": [
-    51042800
-  ],
+  "idProcesos": [51042800],
   "idRegUltimaAct": 1940924630,
   "llaveProceso": "11001400305620180022100",
   "nombre": "CREAS CONSULTORES S.A.S",

@@ -10,10 +10,7 @@
     "id": 33
   },
   "demanda": {
-    "obligacion": [
-      "377813824603022",
-      "4513078713738027"
-    ],
+    "obligacion": ["377813824603022", "4513078713738027"],
     "llaveProceso": "11001400308220170064900",
     "notificacion": {
       "certimail": null,
@@ -29,16 +26,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-09T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-09T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00649",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-03-03T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-03-03T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -54,9 +47,7 @@
     "email": "snaluistol@gmail.com"
   },
   "fecha": null,
-  "idProcesos": [
-    81869251
-  ],
+  "idProcesos": [81869251],
   "llaveProceso": "11001400308220170064900",
   "nombre": "NINI JOHANA CORTES MONROY",
   "numero": 33,

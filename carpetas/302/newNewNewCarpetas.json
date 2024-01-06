@@ -10,9 +10,7 @@
     "id": 302
   },
   "demanda": {
-    "obligacion": [
-      "159541"
-    ],
+    "obligacion": ["159541"],
     "llaveProceso": "25286310300120170100300",
     "notificacion": null,
     "medidasCautelares": null,
@@ -21,16 +19,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-10T05:00:00.000Z",
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2017-10-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-19T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "FUNZA",
     "radicado": "2017 - 01003",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2032-12-24T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2032-12-24T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

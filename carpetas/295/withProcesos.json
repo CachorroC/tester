@@ -779,22 +779,16 @@
         "fechaOrdenaMedida": "2017-02-10T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE VEHÍCULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-02-10T05:00:00.000Z",
       "etapaProcesal": "PENDIENTE SENTENCIA Y OFICIOS",
-      "fechaPresentacion": [
-        "2017-09-21T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-21T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12389160
-      ],
+      "obligacion": [12389160],
       "radicado": "2017 - 01113"
     }
   ],
@@ -849,9 +843,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    110568033
-  ],
+  "idProcesos": [110568033],
   "nombre": "RITA CECILIA FERNANDEZ IBAÑEZ",
   "notificacion": {
     "notifiers": [

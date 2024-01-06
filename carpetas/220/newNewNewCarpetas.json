@@ -691,9 +691,7 @@
     "id": 220
   },
   "demanda": {
-    "obligacion": [
-      "112462"
-    ],
+    "obligacion": ["112462"],
     "llaveProceso": "11001400304020170150900",
     "notificacion": {
       "certimail": null,
@@ -709,16 +707,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-04-09T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-09-11T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-11T05:00:00.000Z"],
     "mandamientoPago": "2017-12-10T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01509",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2023-10-14T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2023-10-14T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -734,9 +728,7 @@
     "email": "mariae131@hotmail.com"
   },
   "fecha": "2020-03-06T05:00:00.000Z",
-  "idProcesos": [
-    50771340
-  ],
+  "idProcesos": [50771340],
   "idRegUltimaAct": 962639500,
   "llaveProceso": "11001400304020170150900",
   "nombre": "MARIA EUGENIA SALCEDO PINEDA",

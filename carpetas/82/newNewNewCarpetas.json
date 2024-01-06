@@ -232,9 +232,7 @@
     "id": 82
   },
   "demanda": {
-    "obligacion": [
-      "1980094471"
-    ],
+    "obligacion": ["1980094471"],
     "llaveProceso": "11001400300320170106500",
     "notificacion": null,
     "medidasCautelares": null,
@@ -243,16 +241,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01065",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-08-27T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-08-27T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -268,9 +262,7 @@
     "email": null
   },
   "fecha": "2017-12-04T05:00:00.000Z",
-  "idProcesos": [
-    50527120
-  ],
+  "idProcesos": [50527120],
   "idRegUltimaAct": 570501160,
   "llaveProceso": "11001400300320170106500",
   "nombre": "RAFAEL GONZALEZ OLEJUA",

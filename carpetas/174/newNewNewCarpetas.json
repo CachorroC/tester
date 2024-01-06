@@ -685,9 +685,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "136962"
-    ],
+    "obligacion": ["136962"],
     "llaveProceso": "11001400302520170090300",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00903",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2026-03-10T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-03-10T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "darnelly-74@hotmail.com"
   },
   "fecha": "2023-12-19T05:00:00.000Z",
-  "idProcesos": [
-    112048180
-  ],
+  "idProcesos": [112048180],
   "idRegUltimaAct": 1943328680,
   "llaveProceso": "11001400302520170090300",
   "nombre": "DARNELLY HERNANDEZ MARTINEZ",

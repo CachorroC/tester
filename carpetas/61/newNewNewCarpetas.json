@@ -413,10 +413,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12653060",
-      "377813471593666//5303720056388123"
-    ],
+    "obligacion": ["12653060", "377813471593666//5303720056388123"],
     "llaveProceso": "11001400304620170055700",
     "notificacion": {
       "certimail": null,
@@ -432,16 +429,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-16T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-16T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00557",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-11-04T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-11-04T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -457,9 +450,7 @@
     "email": "arqrasjuan1989@htmail.com"
   },
   "fecha": "2019-05-24T05:00:00.000Z",
-  "idProcesos": [
-    10130443
-  ],
+  "idProcesos": [10130443],
   "idRegUltimaAct": 518868573,
   "llaveProceso": "11001400304620170055700",
   "nombre": "JUAN PABLO RUBIO ESGUERRA",

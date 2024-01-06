@@ -209,9 +209,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12156526"
-    ],
+    "obligacion": ["12156526"],
     "llaveProceso": "11001400305420170071200",
     "notificacion": null,
     "medidasCautelares": null,
@@ -220,16 +218,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2017-08-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00712",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-07-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-07-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -245,9 +239,7 @@
     "email": "karenvivicastano@gmail.com"
   },
   "fecha": "2017-11-15T05:00:00.000Z",
-  "idProcesos": [
-    12251233
-  ],
+  "idProcesos": [12251233],
   "idRegUltimaAct": 159474783,
   "llaveProceso": "11001400305420170071200",
   "nombre": "KAREN VIVIANA CASTAÑO CORONADO",

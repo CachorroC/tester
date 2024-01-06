@@ -10,10 +10,7 @@
     "id": 478
   },
   "demanda": {
-    "obligacion": [
-      "3450084783 / 3450084855",
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["3450084783 / 3450084855", "AUDIOPRESTAMO"],
     "llaveProceso": "25799418900120180033500",
     "notificacion": null,
     "medidasCautelares": null,
@@ -22,16 +19,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-09-11T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-09-11T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "TENJO",
     "radicado": "2018 - 00335",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-12-13T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-12-13T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

@@ -107,9 +107,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12710799"
-    ],
+    "obligacion": ["12710799"],
     "llaveProceso": "11001400306320170131700",
     "notificacion": {
       "certimail": false,
@@ -122,16 +120,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-01-15T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-01-15T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01317",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-11-08T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-11-08T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -147,9 +141,7 @@
     "email": "ahidaguevara@gmail.com"
   },
   "fecha": "2018-05-16T05:00:00.000Z",
-  "idProcesos": [
-    17718250
-  ],
+  "idProcesos": [17718250],
   "idRegUltimaAct": 266714170,
   "llaveProceso": "11001400306320170131700",
   "nombre": "AHIDA LUCERO GUEVARA BECERRA",

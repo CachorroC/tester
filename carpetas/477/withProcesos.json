@@ -778,22 +778,16 @@
         "fechaOrdenaMedida": "2018-08-05T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2018-08-05T05:00:00.000Z",
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-04-25T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-04-25T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO"
-      ],
+      "obligacion": ["AUDIOPRESTAMO"],
       "radicado": "2018 - 00475"
     }
   ],
@@ -828,10 +822,7 @@
     "primerNombre": "ADOLFO",
     "segundoNombre": "",
     "primerApellido": "LEON",
-    "segundoApellido": [
-      "DAZA",
-      "FERNANDEZ"
-    ],
+    "segundoApellido": ["DAZA", "FERNANDEZ"],
     "cedula": 79568543,
     "direccion": "CALLE 60 No 38-26 APTO 301",
     "email": "adolfo.daza@gmail.com"
@@ -851,9 +842,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51149410
-  ],
+  "idProcesos": [51149410],
   "nombre": "ADOLFO  LEON DAZA FERNANDEZ",
   "notificacion": {
     "notifiers": [

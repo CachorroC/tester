@@ -504,9 +504,7 @@
     "id": 137
   },
   "demanda": {
-    "obligacion": [
-      "235349"
-    ],
+    "obligacion": ["235349"],
     "llaveProceso": "11001400304720170171300",
     "notificacion": {
       "certimail": null,
@@ -522,16 +520,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-23T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-23T05:00:00.000Z"],
     "mandamientoPago": "2017-01-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01713",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2023-10-31T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2023-10-31T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -547,9 +541,7 @@
     "email": "ednita22ms@hotmail.com"
   },
   "fecha": "2018-09-07T05:00:00.000Z",
-  "idProcesos": [
-    10410303
-  ],
+  "idProcesos": [10410303],
   "idRegUltimaAct": 125266573,
   "llaveProceso": "11001400304720170171300",
   "nombre": "EDNA MILENA MUÑOZ SANCHEZ",

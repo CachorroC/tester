@@ -257,9 +257,7 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2034-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2034-01-01T05:00:00.000Z"],
       "capitalAdeudado": 3542453922,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -268,10 +266,7 @@
       "etapaProcesal": null,
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990171776,
-        "AUDIOPRESTAMO"
-      ],
+      "obligacion": [20990171776, "AUDIOPRESTAMO"],
       "radicado": "2019 - 01103"
     }
   ],
@@ -326,9 +321,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    66898433
-  ],
+  "idProcesos": [66898433],
   "nombre": "GONZALO CONTRERAS POVEDA",
   "notificacion": null
 }

@@ -17,13 +17,12 @@ export async function connectToDatabase() {
   await client.connect();
 
   const db: Db = client.db(
-    'RyS'
+    'RyS' 
   );
 
-  const gamesCollection: Collection<NewJudicial>
-    = db.collection(
-      'Carpetas'
-    );
+  const gamesCollection: Collection<NewJudicial> = db.collection(
+    'Carpetas' 
+  );
   collections.carpetas = gamesCollection;
   console.log(
     `Successfully connected to database: ${ db.databaseName } and collection: ${ gamesCollection.collectionName }`,

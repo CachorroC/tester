@@ -691,9 +691,7 @@
     "id": 110
   },
   "demanda": {
-    "obligacion": [
-      "430103643"
-    ],
+    "obligacion": ["430103643"],
     "llaveProceso": "11001400304520170077400",
     "notificacion": {
       "291": {
@@ -724,9 +722,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00774",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-07-18T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-07-18T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -742,9 +738,7 @@
     "email": null
   },
   "fecha": "2022-11-10T05:00:00.000Z",
-  "idProcesos": [
-    50518680
-  ],
+  "idProcesos": [50518680],
   "idRegUltimaAct": 1501180860,
   "llaveProceso": "11001400304520170077400",
   "nombre": "MARLENE RONCANCIO BENITEZ",

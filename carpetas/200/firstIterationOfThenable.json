@@ -776,9 +776,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "17/10/2017"
       },
-      "vencimientoPagare": [
-        "2028-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2028-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -787,9 +785,7 @@
       "etapaProcesal": "11001400301220170101200",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        168737
-      ],
+      "obligacion": [168737],
       "radicado": "2017 - 01012"
     }
   ],
@@ -844,9 +840,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50681670
-  ],
+  "idProcesos": [50681670],
   "nombre": "ALEXANDER ROJAS CASTAÑEDA",
   "notificacion": {
     "notifiers": [

@@ -779,23 +779,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-01-09T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-09-06T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-06T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5470083833,
-        "377813735559305 // 5303724061518310"
-      ],
+      "obligacion": [5470083833, "377813735559305 // 5303724061518310"],
       "radicado": "2017 - 01178"
     }
   ],
@@ -850,9 +843,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50692590
-  ],
+  "idProcesos": [50692590],
   "nombre": "SOL JUDITH BUITRAGO DUQUE",
   "notificacion": {
     "notifiers": [

@@ -161,9 +161,7 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2026-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2026-01-01T05:00:00.000Z"],
       "capitalAdeudado": 2972304763,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2019-12-02T05:00:00.000Z",
@@ -175,10 +173,7 @@
         "2019-06-04T05:00:00.000Z"
       ],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990146891,
-        450091594
-      ],
+      "obligacion": [20990146891, 450091594],
       "radicado": "2019 - 01004"
     }
   ],
@@ -233,9 +228,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    39001450
-  ],
+  "idProcesos": [39001450],
   "nombre": "ARMANDO RODRIGUEZ RODRIGUEZ",
   "notificacion": null
 }

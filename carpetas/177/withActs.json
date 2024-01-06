@@ -565,22 +565,16 @@
         "fechaOrdenaMedida": "2017-01-09T05:00:00.000Z",
         "medidaSolicitada": "BANCOS"
       },
-      "vencimientoPagare": [
-        "2022-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2022-01-01T05:00:00.000Z"],
       "capitalAdeudado": 18696053,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2017-01-09T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2290099501
-      ],
+      "obligacion": [2290099501],
       "radicado": "2017 - 01041"
     }
   ],
@@ -635,9 +629,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    9876793
-  ],
+  "idProcesos": [9876793],
   "nombre": "LEONARDY HERRERA ROJAS",
   "notificacion": null
 }

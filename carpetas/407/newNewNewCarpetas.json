@@ -685,10 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "3550083774",
-      "4513082972339 / 5303714867753385"
-    ],
+    "obligacion": ["3550083774", "4513082972339 / 5303714867753385"],
     "llaveProceso": "11001400307820170116400",
     "notificacion": {
       "291": {
@@ -714,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-11-27T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-27T05:00:00.000Z"],
     "mandamientoPago": "2018-01-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01164",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2024-01-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2024-01-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,9 +732,7 @@
     "email": "nescri64@hotmail.com"
   },
   "fecha": "2023-07-21T05:00:00.000Z",
-  "idProcesos": [
-    51465700
-  ],
+  "idProcesos": [51465700],
   "idRegUltimaAct": 1818568720,
   "llaveProceso": "11001400307820170116400",
   "nombre": "NESTOR ALBERTO CRISTANCHO LOPEZ",

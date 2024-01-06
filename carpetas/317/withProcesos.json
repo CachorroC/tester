@@ -783,22 +783,16 @@
         "fechaOrdenaMedida": "2018-01-02T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2024-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2024-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1500851494,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2018-01-02T05:00:00.000Z",
       "etapaProcesal": "LIQUIDACION",
-      "fechaPresentacion": [
-        "2017-11-07T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-11-07T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        123326
-      ],
+      "obligacion": [123326],
       "radicado": "2017 - 01813"
     }
   ],
@@ -853,9 +847,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50832550
-  ],
+  "idProcesos": [50832550],
   "nombre": "WILSON JAVIER SANCHEZ",
   "notificacion": {
     "notifiers": [

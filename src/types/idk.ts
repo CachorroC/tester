@@ -5,140 +5,156 @@
 //   const intCarpeta = Convert.toIntCarpeta(json);
 
 export interface IntCarpeta {
-  category:        Category;
-  codeudor:        Codeudor | null;
-  demanda:         Demanda;
-  deudor:          Deudor;
-  fecha:           Date | null;
-  idProcesos:      number[];
-  idRegUltimaAct:  null;
-  llaveProceso:    string;
-  notificacion:    Notificacion | null;
-  numero:          number;
-  revisado:        boolean;
-  terminado:       boolean;
-  tipoProceso:     TipoProceso;
+  category: Category;
+  codeudor: Codeudor | null;
+  demanda: Demanda;
+  deudor: Deudor;
+  fecha: Date | null;
+  idProcesos: number[];
+  idRegUltimaAct: null;
+  llaveProceso: string;
+  notificacion: Notificacion | null;
+  numero: number;
+  revisado: boolean;
+  terminado: boolean;
+  tipoProceso: TipoProceso;
   ultimaActuacion: Actuacione | null;
-  updatedAt:       Date;
-  nombre:          string;
-  _idProcesos:     Actuaciones;
-  _procesos:       Actuaciones;
-  _actuaciones:    Actuaciones;
-  actuaciones:     Actuacione[];
-  procesos:        Proceso[];
+  updatedAt: Date;
+  nombre: string;
+  _idProcesos: Actuaciones;
+  _procesos: Actuaciones;
+  _actuaciones: Actuaciones;
+  actuaciones: Actuacione[];
+  procesos: Proceso[];
 }
 
-export interface Actuaciones {
-}
+export interface Actuaciones {}
 
 export interface Actuacione {
   idRegActuacion: number;
-  llaveProceso:   string;
-  consActuacion:  number;
+  llaveProceso: string;
+  consActuacion: number;
   fechaActuacion: Date;
-  actuacion:      string;
-  anotacion:      null | string;
-  fechaInicial:   Date | null;
-  fechaFinal:     Date | null;
-  fechaRegistro:  Date;
-  codRegla:       CodRegla;
-  conDocumentos:  boolean;
-  cant:           number;
-  idProceso:      number;
-  isUltimaAct:    boolean;
-  createdAt?:     Date;
+  actuacion: string;
+  anotacion: null | string;
+  fechaInicial: Date | null;
+  fechaFinal: Date | null;
+  fechaRegistro: Date;
+  codRegla: CodRegla;
+  conDocumentos: boolean;
+  cant: number;
+  idProceso: number;
+  isUltimaAct: boolean;
+  createdAt?: Date;
 }
 
 export type CodRegla = '00                              ';
 
-export type Category = 'Terminados' | 'LiosJuridicos' | 'Bancolombia' | 'Reintegra' | 'Insolvencia';
+export type Category =
+  | 'Terminados'
+  | 'LiosJuridicos'
+  | 'Bancolombia'
+  | 'Reintegra'
+  | 'Insolvencia';
 
 export interface Codeudor {
-  nombre:        null | string;
-  cedula:        null | string;
-  direccion:     null | string;
-  telefono:      null | string;
-  id:            number;
+  nombre: null | string;
+  cedula: null | string;
+  direccion: null | string;
+  telefono: null | string;
+  id: number;
   carpetaNumero: number;
 }
 
 export interface Demanda {
-  obligacion:              string[];
-  llaveProceso:            string;
-  medidasCautelares:       MedidasCautelares | null;
-  capitalAdeudado:         number | null;
-  departamento:            DemandaDepartamento;
-  despacho:                null;
+  obligacion: string[];
+  llaveProceso: string;
+  medidasCautelares: MedidasCautelares | null;
+  capitalAdeudado: number | null;
+  departamento: DemandaDepartamento;
+  despacho: null;
   entregaGarantiasAbogado: Date | null;
-  etapaProcesal:           null | string;
-  expediente:              string;
-  fechaPresentacion:       Date[];
-  mandamientoPago:         Date | null;
-  municipio:               string;
-  radicado:                null | string;
-  tipoProceso:             TipoProceso;
-  vencimientoPagare:       string[];
+  etapaProcesal: null | string;
+  expediente: string;
+  fechaPresentacion: Date[];
+  mandamientoPago: Date | null;
+  municipio: string;
+  radicado: null | string;
+  tipoProceso: TipoProceso;
+  vencimientoPagare: string[];
 }
 
-export type DemandaDepartamento = 'CUNDINAMARCA' | 'CUNDINNAMARCA' | 'TOLIMA' | 'CUN DINAMARCA' | 'BOYACÁ' | 'CUNDINAMRCA' | 'CNDINAMARCA' | 'ATLANTICO';
+export type DemandaDepartamento =
+  | 'CUNDINAMARCA'
+  | 'CUNDINNAMARCA'
+  | 'TOLIMA'
+  | 'CUN DINAMARCA'
+  | 'BOYACÁ'
+  | 'CUNDINAMRCA'
+  | 'CNDINAMARCA'
+  | 'ATLANTICO';
 
 export interface MedidasCautelares {
   fechaOrdenaMedida: null | string;
-  medidaSolicitada:  null | string;
+  medidaSolicitada: null | string;
 }
 
-export type TipoProceso = 'HIPOTECARIO' | 'PRENDARIO' | 'SINGULAR' | 'ACUMULADO';
+export type TipoProceso =
+  | 'HIPOTECARIO'
+  | 'PRENDARIO'
+  | 'SINGULAR'
+  | 'ACUMULADO';
 
 export interface Deudor {
-  tel:             Tel;
-  primerNombre:    string;
-  segundoNombre:   null | string;
-  primerApellido:  string;
+  tel: Tel;
+  primerNombre: string;
+  segundoNombre: null | string;
+  primerApellido: string;
   segundoApellido: null | string;
-  cedula:          number | null;
-  direccion:       null | string;
-  email:           null | string;
+  cedula: number | null;
+  direccion: null | string;
+  email: null | string;
 }
 
 export interface Tel {
-  fijo:    number | null;
+  fijo: number | null;
   celular: number | null;
 }
 
 export interface Notificacion {
-  notifiers:      Notifier[];
-  certimail:      boolean | null;
-  fisico:         boolean | null;
+  notifiers: Notifier[];
+  certimail: boolean | null;
+  fisico: boolean | null;
   autoNotificado: null | string;
 }
 
 export interface Notifier {
-  tipo:          string;
+  tipo: string;
   fechaRecibido: Date | null;
-  fechaAporta:   Date | null;
-  resultado:     boolean | null;
+  fechaAporta: Date | null;
+  resultado: boolean | null;
 }
 
 export interface Proceso {
-  idProceso:            number;
-  idConexion:           number;
-  llaveProceso:         string;
-  fechaProceso:         Date;
+  idProceso: number;
+  idConexion: number;
+  llaveProceso: string;
+  fechaProceso: Date;
   fechaUltimaActuacion: Date | null;
-  despacho:             string;
-  departamento:         ProcesoDepartamento;
-  sujetosProcesales:    string;
-  esPrivado:            boolean;
-  cantFilas:            number;
-  juzgado:              Juzgado;
+  despacho: string;
+  departamento: ProcesoDepartamento;
+  sujetosProcesales: string;
+  esPrivado: boolean;
+  cantFilas: number;
+  juzgado: Juzgado;
 }
 
 export type ProcesoDepartamento = 'BOGOTÁ' | 'CUNDINAMARCA' | 'ANTIOQUIA';
 
 export interface Juzgado {
-  id:   number;
+  id: number;
   tipo: string;
-  url:  string;
+  url: string;
 }
 
 // Converts JSON strings to/from your types

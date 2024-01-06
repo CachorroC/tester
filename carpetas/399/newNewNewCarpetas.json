@@ -283,9 +283,7 @@
     "id": 399
   },
   "demanda": {
-    "obligacion": [
-      "161174"
-    ],
+    "obligacion": ["161174"],
     "llaveProceso": "11001400303720180013200",
     "notificacion": {
       "292": {
@@ -306,16 +304,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-02-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00132",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2033-02-12T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2033-02-12T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -331,9 +325,7 @@
     "email": "giogol5@hotmail.com"
   },
   "fecha": "2019-10-10T05:00:00.000Z",
-  "idProcesos": [
-    8833783
-  ],
+  "idProcesos": [8833783],
   "idRegUltimaAct": 793442093,
   "llaveProceso": "11001400303720180013200",
   "nombre": "GIOVANNI  PERDOMO QUIROGA",

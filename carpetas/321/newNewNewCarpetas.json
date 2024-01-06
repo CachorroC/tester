@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2150091479"
-    ],
+    "obligacion": ["2150091479"],
     "llaveProceso": "11001400301620170136700",
     "notificacion": {
       "certimail": null,
@@ -708,9 +706,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01367",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-09-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-09-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -726,9 +722,7 @@
     "email": null
   },
   "fecha": "2019-09-05T05:00:00.000Z",
-  "idProcesos": [
-    50907660
-  ],
+  "idProcesos": [50907660],
   "idRegUltimaAct": 653568400,
   "llaveProceso": "11001400301620170136700",
   "nombre": "ADELA BARAJAS MORENO",

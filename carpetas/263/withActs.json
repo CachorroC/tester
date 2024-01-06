@@ -160,22 +160,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 2143527832,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-09-27T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-27T05:00:00.000Z"],
       "municipio": "PENSILVANIA",
-      "obligacion": [
-        12603197
-      ],
+      "obligacion": [12603197],
       "radicado": "2017 - 01007"
     }
   ],
@@ -230,9 +224,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    18366380
-  ],
+  "idProcesos": [18366380],
   "nombre": "ANCIZAR GIRALDO BOTERO",
   "notificacion": null
 }

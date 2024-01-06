@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "4513073601094195",
-      "15774711"
-    ],
+    "obligacion": ["4513073601094195", "15774711"],
     "llaveProceso": "11001400304020170119300",
     "notificacion": {
       "291": {
@@ -709,16 +706,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "42958",
-    "fechaPresentacion": [
-      "2017-09-13T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-13T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01193",
     "tipoProceso": "ACUMULADO",
-    "vencimientoPagare": [
-      "1970-01-01T00:02:15.435Z"
-    ]
+    "vencimientoPagare": ["1970-01-01T00:02:15.435Z"]
   },
   "deudor": {
     "tel": {
@@ -734,9 +727,7 @@
     "email": "CALLE 1H # 32A - 17"
   },
   "fecha": "2020-02-07T05:00:00.000Z",
-  "idProcesos": [
-    19148931
-  ],
+  "idProcesos": [19148931],
   "idRegUltimaAct": 733661051,
   "llaveProceso": "11001400304020170119300",
   "nombre": "PAOLA ANDREA FERNANDEZ RINCON",

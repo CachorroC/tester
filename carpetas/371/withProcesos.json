@@ -613,23 +613,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2024-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2024-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR NO HA SIDO ARCHIVADO POR EL JUZGADO",
-      "fechaPresentacion": [
-        "2018-02-19T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-02-19T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        117171,
-        377813401553319
-      ],
+      "obligacion": [117171, 377813401553319],
       "radicado": "2018 - 00143"
     }
   ],
@@ -684,9 +677,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51002530
-  ],
+  "idProcesos": [51002530],
   "nombre": "MARTHA ANDREA MORA COLLAZOS",
   "notificacion": null
 }

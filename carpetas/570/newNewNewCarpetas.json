@@ -107,9 +107,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "3990086952"
-    ],
+    "obligacion": ["3990086952"],
     "llaveProceso": "11001418907520230016700",
     "notificacion": null,
     "medidasCautelares": null,
@@ -123,9 +121,7 @@
     "municipio": "BOGOTA",
     "radicado": "2023 - 01465",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2026-03-18T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-03-18T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -141,9 +137,7 @@
     "email": "martacospina@hotmail.com"
   },
   "fecha": "2023-09-22T05:00:00.000Z",
-  "idProcesos": [
-    132240890
-  ],
+  "idProcesos": [132240890],
   "idRegUltimaAct": 1880990360,
   "llaveProceso": "11001418907520230016700",
   "nombre": "MARTHA CECILIA OSPINA ARENAS",

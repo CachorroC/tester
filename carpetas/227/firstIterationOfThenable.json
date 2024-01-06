@@ -777,9 +777,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "25/10/2017"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-04-09T05:00:00.000Z",
@@ -788,9 +786,7 @@
       "etapaProcesal": "11001400301520170124900",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12499205
-      ],
+      "obligacion": [12499205],
       "radicado": "2017 - 01249"
     }
   ],
@@ -825,10 +821,7 @@
     "primerNombre": "ROSA",
     "segundoNombre": "ELENA",
     "primerApellido": "MARTINEZ",
-    "segundoApellido": [
-      "DE",
-      "DUITAMA"
-    ],
+    "segundoApellido": ["DE", "DUITAMA"],
     "cedula": 23550435,
     "direccion": "CARRERA 50 # 2A - 4 APTO 101",
     "email": null
@@ -848,9 +841,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50714320
-  ],
+  "idProcesos": [50714320],
   "nombre": "ROSA ELENA MARTINEZ DE DUITAMA",
   "notificacion": {
     "notifiers": [

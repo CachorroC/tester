@@ -685,10 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "377813597718262",
-      "4513070908078111 // 5303714709873201"
-    ],
+    "obligacion": ["377813597718262", "4513070908078111 // 5303714709873201"],
     "llaveProceso": "11001400302120180016300",
     "notificacion": {
       "291": {
@@ -714,9 +711,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": "2018-05-03T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2018 - 00163",
@@ -737,9 +732,7 @@
     "email": null
   },
   "fecha": "2023-09-08T05:00:00.000Z",
-  "idProcesos": [
-    51006610
-  ],
+  "idProcesos": [51006610],
   "idRegUltimaAct": 1875063180,
   "llaveProceso": "11001400302120180016300",
   "nombre": "JOSE ANTONIO CASTILLO CORTES",

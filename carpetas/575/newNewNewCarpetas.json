@@ -4,9 +4,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "Q 0000000079780047027001"
-    ],
+    "obligacion": ["Q 0000000079780047027001"],
     "llaveProceso": "11001418900520230134200",
     "notificacion": null,
     "medidasCautelares": null,
@@ -20,9 +18,7 @@
     "municipio": "BOGOTA",
     "radicado": "2023 - 00864",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2026-04-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-04-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

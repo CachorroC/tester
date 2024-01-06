@@ -432,9 +432,7 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2027-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2027-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -443,9 +441,7 @@
       "etapaProcesal": "11001400307020190055100",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "2273 320150109"
-      ],
+      "obligacion": ["2273 320150109"],
       "radicado": "2019 - 00551"
     }
   ],
@@ -500,9 +496,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    112013800
-  ],
+  "idProcesos": [112013800],
   "nombre": "LEIDY CATALINA LOSADA CABRERA",
   "notificacion": null
 }

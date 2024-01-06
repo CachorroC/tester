@@ -421,22 +421,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 19290331,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-06-09T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-09-13T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-13T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12583959
-      ],
+      "obligacion": [12583959],
       "radicado": "2017 - 00943"
     }
   ],
@@ -491,9 +485,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    17050494
-  ],
+  "idProcesos": [17050494],
   "nombre": "NESTOR GERMAN URREGO AGUILERA",
   "notificacion": null
 }

@@ -691,10 +691,7 @@
     "id": 303
   },
   "demanda": {
-    "obligacion": [
-      "2620088246 / 3777813457586759",
-      "4594250105313477"
-    ],
+    "obligacion": ["2620088246 / 3777813457586759", "4594250105313477"],
     "llaveProceso": "11001400303020170157900",
     "notificacion": {
       "291": {
@@ -725,9 +722,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01579",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-07-14T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-07-14T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -743,9 +738,7 @@
     "email": "willintong950@gmail.com  rafaelalfonsocamachovelandia@gmail.com"
   },
   "fecha": "2022-05-11T05:00:00.000Z",
-  "idProcesos": [
-    50778160
-  ],
+  "idProcesos": [50778160],
   "idRegUltimaAct": 1286123160,
   "llaveProceso": "11001400303020170157900",
   "nombre": "RAFAEL ALFONSO CAMACHO VELANDIA",

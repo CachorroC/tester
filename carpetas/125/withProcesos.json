@@ -790,9 +790,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
@@ -804,9 +802,7 @@
         "2017-08-28T05:00:00.000Z"
       ],
       "municipio": "BOGOTA",
-      "obligacion": [
-        300093705
-      ],
+      "obligacion": [300093705],
       "radicado": "2017 - 01520"
     },
     {
@@ -822,9 +818,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
@@ -836,9 +830,7 @@
         "2017-08-28T05:00:00.000Z"
       ],
       "municipio": "BOGOTA",
-      "obligacion": [
-        300093705
-      ],
+      "obligacion": [300093705],
       "radicado": "2017 - 01520"
     }
   ],
@@ -905,10 +897,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    97088411,
-    109959053
-  ],
+  "idProcesos": [97088411, 109959053],
   "nombre": "MILCIADES GALINDO CASTEBLANCO",
   "notificacion": {
     "notifiers": [

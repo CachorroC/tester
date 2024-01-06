@@ -4,9 +4,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12730779"
-    ],
+    "obligacion": ["12730779"],
     "llaveProceso": "25126408900220180004800",
     "notificacion": {
       "291": {
@@ -32,16 +30,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-02-01T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-01T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "CAJICA",
     "radicado": "2018 - 00048",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2021-01-16T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-01-16T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -57,9 +51,7 @@
     "email": null
   },
   "fecha": null,
-  "idProcesos": [
-    86157021
-  ],
+  "idProcesos": [86157021],
   "llaveProceso": "25126408900220180004800",
   "nombre": "JUAN CAMILO CHINGATE PENAGOS",
   "numero": 427,

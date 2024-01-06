@@ -362,9 +362,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "134175"
-    ],
+    "obligacion": ["134175"],
     "llaveProceso": "11001400307320170141100",
     "notificacion": null,
     "medidasCautelares": null,
@@ -373,16 +371,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDSA CAUTELAR  PAQUETE 269",
-    "fechaPresentacion": [
-      "2017-11-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01411",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2025-11-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2025-11-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -398,9 +392,7 @@
     "email": "ferchog01@yahoo.es"
   },
   "fecha": "2020-11-06T05:00:00.000Z",
-  "idProcesos": [
-    50801260
-  ],
+  "idProcesos": [50801260],
   "idRegUltimaAct": 997655690,
   "llaveProceso": "11001400307320170141100",
   "nombre": "FERNANDO GONZALEZ TELLEZ",

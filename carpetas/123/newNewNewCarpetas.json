@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "48365616"
-    ],
+    "obligacion": ["48365616"],
     "llaveProceso": "11001400306920170075400",
     "notificacion": {
       "292": {
@@ -708,16 +706,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "42958",
-    "fechaPresentacion": [
-      "2017-10-03T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-03T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00754",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2419-10-07T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2419-10-07T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -733,9 +727,7 @@
     "email": "DIAGONAL 146 # 136A - 79 IN 3 AP 3"
   },
   "fecha": "2020-11-04T05:00:00.000Z",
-  "idProcesos": [
-    50632410
-  ],
+  "idProcesos": [50632410],
   "idRegUltimaAct": 997260750,
   "llaveProceso": "11001400306920170075400",
   "nombre": "GUSTAVO SANTAMARIA MOSQUERA",

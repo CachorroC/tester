@@ -691,9 +691,7 @@
     "id": 167
   },
   "demanda": {
-    "obligacion": [
-      "197033"
-    ],
+    "obligacion": ["197033"],
     "llaveProceso": "11001310301020170071000",
     "notificacion": {
       "291": {
@@ -724,9 +722,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00710",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2031-10-07T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2031-10-07T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -742,9 +738,7 @@
     "email": "maurgonzal@yahoo.com"
   },
   "fecha": "2022-09-15T05:00:00.000Z",
-  "idProcesos": [
-    28842484
-  ],
+  "idProcesos": [28842484],
   "idRegUltimaAct": 1062932784,
   "llaveProceso": "11001310301020170071000",
   "nombre": "JOSE MAURICIO GONZALEZ CALDERON",

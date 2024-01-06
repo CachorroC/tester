@@ -691,9 +691,7 @@
     "id": 179
   },
   "demanda": {
-    "obligacion": [
-      "5670085162"
-    ],
+    "obligacion": ["5670085162"],
     "llaveProceso": "11001400301120170108400",
     "notificacion": {
       "291": {
@@ -719,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-07-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-07-21T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01084",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-11-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-11-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -744,9 +738,7 @@
     "email": "guillermogonzalez_tagua@hotmail.com"
   },
   "fecha": "2023-12-19T05:00:00.000Z",
-  "idProcesos": [
-    50760030
-  ],
+  "idProcesos": [50760030],
   "idRegUltimaAct": 1943443910,
   "llaveProceso": "11001400301120170108400",
   "nombre": "GUILLERMO GONZALEZ TAGUA",

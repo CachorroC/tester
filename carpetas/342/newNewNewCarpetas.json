@@ -481,10 +481,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "5303720026675088",
-      "27.570.000.00"
-    ],
+    "obligacion": ["5303720026675088", "27.570.000.00"],
     "llaveProceso": "11001400301220170140000",
     "notificacion": {
       "certimail": null,
@@ -500,16 +497,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "43059",
-    "fechaPresentacion": [
-      "2017-12-13T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-12-13T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01400",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "+147555-12-28T10:47:47.309Z"
-    ]
+    "vencimientoPagare": ["+147555-12-28T10:47:47.309Z"]
   },
   "deudor": {
     "tel": {
@@ -525,9 +518,7 @@
     "email": "CARRERA 87 No  17 - 59"
   },
   "fecha": "2019-08-05T05:00:00.000Z",
-  "idProcesos": [
-    50858060
-  ],
+  "idProcesos": [50858060],
   "idRegUltimaAct": 624648550,
   "llaveProceso": "11001400301220170140000",
   "nombre": "GABRIEL AUGUSTO CASTILLO CASTELBLANCO",

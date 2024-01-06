@@ -10,10 +10,7 @@
     "id": 158
   },
   "demanda": {
-    "obligacion": [
-      "173482",
-      "4099849860904006 // AUDIOPRESTAMO"
-    ],
+    "obligacion": ["173482", "4099849860904006 // AUDIOPRESTAMO"],
     "llaveProceso": "25899310300120170039300",
     "notificacion": {
       "291": {
@@ -44,9 +41,7 @@
     "municipio": "ZIPAQUIRA",
     "radicado": "2017 - 00393",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2034-03-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2034-03-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

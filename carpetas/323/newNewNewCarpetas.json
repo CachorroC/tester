@@ -436,9 +436,7 @@
     "id": 323
   },
   "demanda": {
-    "obligacion": [
-      "90669"
-    ],
+    "obligacion": ["90669"],
     "llaveProceso": "11001400303720170150900",
     "notificacion": null,
     "medidasCautelares": {
@@ -450,16 +448,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-11-02T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-02T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01509",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2021-10-20T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-10-20T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -475,9 +469,7 @@
     "email": "fermedina11@gmail.com"
   },
   "fecha": "2018-09-05T05:00:00.000Z",
-  "idProcesos": [
-    8830323
-  ],
+  "idProcesos": [8830323],
   "idRegUltimaAct": 94665993,
   "llaveProceso": "11001400303720170150900",
   "nombre": "LUIS FERNANDO MEDINA POTES",

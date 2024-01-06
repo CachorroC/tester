@@ -659,23 +659,16 @@
         "fechaOrdenaMedida": "2017-10-07T05:00:00.000Z",
         "medidaSolicitada": "BANCOS"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": 24227539,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2017-10-07T05:00:00.000Z",
       "etapaProcesal": "SENTENCIA",
-      "fechaPresentacion": [
-        "2017-06-20T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        6820082421,
-        "377815190381158 // 530371010816"
-      ],
+      "obligacion": [6820082421, "377815190381158 // 530371010816"],
       "radicado": "2017 - 00834"
     }
   ],
@@ -730,9 +723,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50521650
-  ],
+  "idProcesos": [50521650],
   "nombre": "SANDRA PATRICIA MALAVER ALVAREZ",
   "notificacion": {
     "notifiers": [],

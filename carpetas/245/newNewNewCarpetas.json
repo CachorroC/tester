@@ -147,9 +147,7 @@
     "id": 245
   },
   "demanda": {
-    "obligacion": [
-      "103058"
-    ],
+    "obligacion": ["103058"],
     "llaveProceso": "11001400303820170095700",
     "notificacion": null,
     "medidasCautelares": null,
@@ -158,16 +156,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-09T05:00:00.000Z",
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2017-09-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-19T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00957",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-11-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-11-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -183,9 +177,7 @@
     "email": "jaorgodi@hotmail.com"
   },
   "fecha": "2017-11-07T05:00:00.000Z",
-  "idProcesos": [
-    9083003
-  ],
+  "idProcesos": [9083003],
   "idRegUltimaAct": 99012273,
   "llaveProceso": "11001400303820170095700",
   "nombre": "JAVIER ORLANDO GOMEZ DIAZ",

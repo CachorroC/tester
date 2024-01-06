@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "140864"
-    ],
+    "obligacion": ["140864"],
     "llaveProceso": "11001400302720170127200",
     "notificacion": {
       "291": {
@@ -708,16 +706,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-11-23T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-23T05:00:00.000Z"],
     "mandamientoPago": "2017-04-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01272",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2016-07-18T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2016-07-18T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -733,9 +727,7 @@
     "email": "admithel.ltda@yahoo.com"
   },
   "fecha": "2022-03-04T05:00:00.000Z",
-  "idProcesos": [
-    50869240
-  ],
+  "idProcesos": [50869240],
   "idRegUltimaAct": 1260887540,
   "llaveProceso": "11001400302720170127200",
   "nombre": "LILIANA GARCIA ROSERO",

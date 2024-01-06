@@ -504,9 +504,7 @@
     "id": 87
   },
   "demanda": {
-    "obligacion": [
-      "2150091074"
-    ],
+    "obligacion": ["2150091074"],
     "llaveProceso": "11001400304620170056100",
     "notificacion": {
       "certimail": null,
@@ -522,16 +520,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00561",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-04-20T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-04-20T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -547,9 +541,7 @@
     "email": "omar690501@hotmail.com"
   },
   "fecha": "2019-05-24T05:00:00.000Z",
-  "idProcesos": [
-    10130493
-  ],
+  "idProcesos": [10130493],
   "idRegUltimaAct": 518893563,
   "llaveProceso": "11001400304620170056100",
   "nombre": "OMAR ESPITIA REYES",

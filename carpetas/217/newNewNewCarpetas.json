@@ -685,10 +685,7 @@
   "category": "LiosJuridicos",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "182540",
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["182540", "AUDIOPRESTAMO"],
     "llaveProceso": "11001310303720170045300",
     "notificacion": null,
     "medidasCautelares": null,
@@ -697,9 +694,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EL 24/07/2019 JUZGADO 3 DE EJECUCION DECRETA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA // EL 12/12/2019 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A. // EL 31/08/2022 SE VERIFICA Y NO SE HA LEVANTADO MEDIDA CAUTELAR //CAJA  387 DE 2021",
-    "fechaPresentacion": [
-      "2019-12-12T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2019-12-12T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00453",
@@ -720,10 +715,7 @@
     "email": "casas_castillo@hotmail.com"
   },
   "fecha": "2023-12-06T05:00:00.000Z",
-  "idProcesos": [
-    51315290,
-    57718874
-  ],
+  "idProcesos": [51315290, 57718874],
   "idRegUltimaAct": 1142264924,
   "llaveProceso": "11001310303720170045300",
   "nombre": "DIANA VANESSA NARANJO HERNANDEZ",

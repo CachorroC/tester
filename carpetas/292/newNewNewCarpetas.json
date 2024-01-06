@@ -10,9 +10,7 @@
     "id": 292
   },
   "demanda": {
-    "obligacion": [
-      "300094317"
-    ],
+    "obligacion": ["300094317"],
     "llaveProceso": "11001410375220170012800",
     "notificacion": {
       "291": {
@@ -38,16 +36,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-09-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-21T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00128",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-08-31T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-08-31T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

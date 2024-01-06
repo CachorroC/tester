@@ -447,9 +447,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "20990131392"
-    ],
+    "obligacion": ["20990131392"],
     "llaveProceso": "11001400301620180057300",
     "notificacion": null,
     "medidasCautelares": null,
@@ -458,16 +456,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-05-22T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-05-22T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00573",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2025-08-18T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2025-08-18T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -483,9 +477,7 @@
     "email": "marysqs@hotmail.com"
   },
   "fecha": "2019-09-16T05:00:00.000Z",
-  "idProcesos": [
-    51205750
-  ],
+  "idProcesos": [51205750],
   "idRegUltimaAct": 653663500,
   "llaveProceso": "11001400301620180057300",
   "nombre": "MARIBEL REVELO QUIROGA",

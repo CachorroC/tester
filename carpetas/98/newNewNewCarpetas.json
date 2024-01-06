@@ -413,9 +413,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "190459"
-    ],
+    "obligacion": ["190459"],
     "llaveProceso": "11001400301120170062300",
     "notificacion": null,
     "medidasCautelares": {
@@ -427,16 +425,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-29T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
     "mandamientoPago": "2017-08-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00623",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2030-01-25T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2030-01-25T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -452,9 +446,7 @@
     "email": "carmenzachaparro@outlook.com"
   },
   "fecha": "2018-08-15T05:00:00.000Z",
-  "idProcesos": [
-    50543070
-  ],
+  "idProcesos": [50543070],
   "idRegUltimaAct": 1934131710,
   "llaveProceso": "11001400301120170062300",
   "nombre": "MARIA DEL CARMEN CHAPARRO LEMUS",

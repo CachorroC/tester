@@ -691,9 +691,7 @@
     "id": 317
   },
   "demanda": {
-    "obligacion": [
-      "123326"
-    ],
+    "obligacion": ["123326"],
     "llaveProceso": "11001400301820170181300",
     "notificacion": {
       "291": {
@@ -719,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "LIQUIDACION",
-    "fechaPresentacion": [
-      "2017-11-07T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-07T05:00:00.000Z"],
     "mandamientoPago": "2018-01-02T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01813",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2024-10-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2024-10-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -744,9 +738,7 @@
     "email": "wilsoningind@yahoo.es"
   },
   "fecha": "2020-03-05T05:00:00.000Z",
-  "idProcesos": [
-    50832550
-  ],
+  "idProcesos": [50832550],
   "idRegUltimaAct": 962231690,
   "llaveProceso": "11001400301820170181300",
   "nombre": "WILSON JAVIER SANCHEZ",

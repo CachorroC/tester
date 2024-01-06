@@ -215,10 +215,7 @@
       "etapaProcesal": null,
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "22273 320177358",
-        2470088213
-      ],
+      "obligacion": ["22273 320177358", 2470088213],
       "radicado": "2023 - 01056"
     }
   ],
@@ -253,13 +250,7 @@
     "primerNombre": "ANGELICA",
     "segundoNombre": "GODOY",
     "primerApellido": "GUTIERREZ",
-    "segundoApellido": [
-      "Y",
-      "EDISON",
-      "ANDRES",
-      "TUTA",
-      "FORERO"
-    ],
+    "segundoApellido": ["Y", "EDISON", "ANDRES", "TUTA", "FORERO"],
     "cedula": 52760611,
     "direccion": "Carrera 145 144 C 72 Torre 7 Apartamento 904 Conjunto Residencial Almenara P.H  de la ciudad de Bogotá",
     "email": "angelicagodoygutierrez@gmail.com"
@@ -279,9 +270,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    132789600
-  ],
+  "idProcesos": [132789600],
   "nombre": "ANGELICA GODOY GUTIERREZ Y EDISON ANDRES TUTA FORERO",
   "notificacion": null
 }

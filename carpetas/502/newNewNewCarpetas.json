@@ -583,9 +583,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "4594260107010410"
-    ],
+    "obligacion": ["4594260107010410"],
     "llaveProceso": "11001418901620190108500",
     "notificacion": {
       "291": {
@@ -611,16 +609,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-12-10T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-10-24T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-10-24T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2019 - 01085",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-01-05T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-01-05T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -636,9 +630,7 @@
     "email": "Anrf1985@hotmail.com"
   },
   "fecha": "2023-12-19T05:00:00.000Z",
-  "idProcesos": [
-    86958040
-  ],
+  "idProcesos": [86958040],
   "idRegUltimaAct": 1943393000,
   "llaveProceso": "11001418901620190108500",
   "nombre": "ANGELICA NATHALY ROZO FRANCO",

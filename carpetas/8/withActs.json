@@ -233,22 +233,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-05-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2008124
-      ],
+      "obligacion": [2008124],
       "radicado": "2017 - 00667"
     }
   ],
@@ -303,9 +297,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50465740
-  ],
+  "idProcesos": [50465740],
   "nombre": "JOSE WILSON ROJAS VALDES",
   "notificacion": null
 }

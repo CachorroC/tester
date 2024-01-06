@@ -691,9 +691,7 @@
     "id": 90
   },
   "demanda": {
-    "obligacion": [
-      "12330030"
-    ],
+    "obligacion": ["12330030"],
     "llaveProceso": "11001400303420170083600",
     "notificacion": {
       "291": {
@@ -719,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": [
-      "2017-06-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
     "mandamientoPago": "2017-10-07T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00836",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-06-09T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-06-09T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -744,10 +738,7 @@
     "email": "orduzcrit2@hotmail.com"
   },
   "fecha": "2024-01-11T05:00:00.000Z",
-  "idProcesos": [
-    50521480,
-    81728891
-  ],
+  "idProcesos": [50521480, 81728891],
   "idRegUltimaAct": 1943409350,
   "llaveProceso": "11001400303420170083600",
   "nombre": "LUIS ESNEIDER ORDUZ FARFAN",

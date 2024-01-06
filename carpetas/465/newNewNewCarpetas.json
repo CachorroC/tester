@@ -124,10 +124,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "209900000000",
-      "377816000000000"
-    ],
+    "obligacion": ["209900000000", "377816000000000"],
     "llaveProceso": "11001400307720180085400",
     "notificacion": null,
     "medidasCautelares": null,
@@ -136,16 +133,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-07-31T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-07-31T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00854",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2027-03-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2027-03-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -161,9 +154,7 @@
     "email": null
   },
   "fecha": "2018-09-18T05:00:00.000Z",
-  "idProcesos": [
-    51342910
-  ],
+  "idProcesos": [51342910],
   "idRegUltimaAct": 565848290,
   "llaveProceso": "11001400307720180085400",
   "nombre": "GIOVANNY DURAN ANTONIO",

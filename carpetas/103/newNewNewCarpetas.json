@@ -714,16 +714,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-06-16T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-16T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017-00680",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-05-13T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-05-13T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,10 +735,7 @@
     "email": "kikearango@hotmail.com"
   },
   "fecha": "2023-11-08T05:00:00.000Z",
-  "idProcesos": [
-    51619370,
-    81869501
-  ],
+  "idProcesos": [51619370, 81869501],
   "idRegUltimaAct": 1934858360,
   "llaveProceso": "11001400308220170068000",
   "nombre": "EDUARDO ENRIQUE ARANGO CHACON",

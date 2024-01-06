@@ -423,9 +423,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "19/12/2017"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-01-11T05:00:00.000Z",
@@ -434,9 +432,7 @@
       "etapaProcesal": "11001400308520170159600",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        79669
-      ],
+      "obligacion": [79669],
       "radicado": "2017 - 01596"
     }
   ],
@@ -471,10 +467,7 @@
     "primerNombre": "REINALDO",
     "segundoNombre": "ADRIAN",
     "primerApellido": "MELENDEZ",
-    "segundoApellido": [
-      "",
-      "VARON"
-    ],
+    "segundoApellido": ["", "VARON"],
     "cedula": 10180062,
     "direccion": "AVENIDA CALLE 153 No 119 -40 INTERIOR 1 CASA 17 BOSQUES DE CAMINO VERDE AGRUPACION 2",
     "email": "reinaldomelen@hotmail.com"
@@ -494,9 +487,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    65614470
-  ],
+  "idProcesos": [65614470],
   "nombre": "REINALDO ADRIAN MELENDEZ  VARON",
   "notificacion": {
     "notifiers": [

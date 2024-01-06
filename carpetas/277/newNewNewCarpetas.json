@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "1710090192",
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["1710090192", "AUDIOPRESTAMO"],
     "llaveProceso": "11001400308320170098000",
     "notificacion": {
       "291": {
@@ -719,9 +716,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00980",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-08-07T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-08-07T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -737,9 +732,7 @@
     "email": "olgalucia.herazo@gmail.com"
   },
   "fecha": "2023-08-24T05:00:00.000Z",
-  "idProcesos": [
-    51665750
-  ],
+  "idProcesos": [51665750],
   "idRegUltimaAct": 1856488070,
   "llaveProceso": "11001400308320170098000",
   "nombre": "OLGA LUCIA HERAZO PERDOMO",

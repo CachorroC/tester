@@ -59,13 +59,10 @@ export interface intProceso {
   cantFilas: number;
 }
 
-export interface outProceso extends intProceso
-{
+export interface outProceso extends intProceso {
   fechaProceso: Date | null;
   fechaUltimaActuacion: Date | null;
   juzgado: Juzgado;
-
-
 }
 
 export type Departamento = 'BOGOTÁ' | 'CUNDINAMARCA' | 'ANTIOQUIA' | 'META';
@@ -78,7 +75,7 @@ export class Convert {
     json: string,
   ): ConsultaNumeroRadicacion {
     return JSON.parse(
-      json
+      json 
     );
   }
 
@@ -86,55 +83,55 @@ export class Convert {
     value: ConsultaNumeroRadicacion,
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toPaginacion(
-    json: string
+    json: string 
   ): Paginacion {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static paginacionToJson(
-    value: Paginacion
+    value: Paginacion 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toParametros(
-    json: string
+    json: string 
   ): Parametros {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static parametrosToJson(
-    value: Parametros
+    value: Parametros 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toProceso(
-    json: string
+    json: string 
   ): intProceso {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static procesoToJson(
-    value: intProceso
+    value: intProceso 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 }

@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12676248"
-    ],
+    "obligacion": ["12676248"],
     "llaveProceso": "11001400306320170092400",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-09-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-21T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00924",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-09-13T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-09-13T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "hpulecio@cable.net.co"
   },
   "fecha": "2023-07-24T05:00:00.000Z",
-  "idProcesos": [
-    65700110
-  ],
+  "idProcesos": [65700110],
   "idRegUltimaAct": 1820790480,
   "llaveProceso": "11001400306320170092400",
   "nombre": "HERNANDO PULECIO PAREDES",

@@ -757,23 +757,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 21596919,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-07-06T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EL 12/06/2018 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA //EL 4/08/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. // EL JUEZ NO ACCEDIO A SOLICITUD ENTREGA DESEMBARGO PARTE ACTORA 1/02/2019 SE ARCHIVA PROCESO CAJA 240 // PAGAR DESARCHIVE Y REQUERIR AL JUEZ PARA QUE DE CUMPLIMIENTO A ENTREGA DE OFICIO DADO QUE PERSISTE EL EMBARGO A PESAR QUE EL CLIENTE ESTA AL DIA",
-      "fechaPresentacion": [
-        "2018-09-05T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-09-05T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "12313737//377815899589556",
-        4513070106144855
-      ],
+      "obligacion": ["12313737//377815899589556", 4513070106144855],
       "radicado": "2017 - 00839"
     }
   ],
@@ -828,9 +821,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50508570
-  ],
+  "idProcesos": [50508570],
   "nombre": "JAVIER ROMERO REYES",
   "notificacion": null
 }

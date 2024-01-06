@@ -52,23 +52,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": null
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-06-09T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-09T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        377813824603022,
-        4513078713738027
-      ],
+      "obligacion": [377813824603022, 4513078713738027],
       "radicado": "2017 - 00649"
     }
   ],
@@ -108,9 +101,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    81869251
-  ],
+  "idProcesos": [81869251],
   "nombre": "NINI JOHANA CORTES MONROY",
   "notificacion": {
     "notifiers": [],

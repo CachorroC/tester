@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "8470081213"
-    ],
+    "obligacion": ["8470081213"],
     "llaveProceso": "11001400302520170080700",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
     "etapaProcesal": "DESIGNACIÓN CURADOR AD LITEM",
-    "fechaPresentacion": [
-      "2017-08-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00807",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-12-15T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-12-15T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": null
   },
   "fecha": "2023-10-18T05:00:00.000Z",
-  "idProcesos": [
-    50623380
-  ],
+  "idProcesos": [50623380],
   "idRegUltimaAct": 1908607380,
   "llaveProceso": "11001400302520170080700",
   "nombre": "JUAN CARLOS TOVAR TOLEDO",

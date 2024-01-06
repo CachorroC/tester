@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "136483"
-    ],
+    "obligacion": ["136483"],
     "llaveProceso": "11001400301720170152600",
     "notificacion": {
       "292": {
@@ -708,16 +706,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-11-27T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-27T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01526",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2026-02-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-02-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -733,9 +727,7 @@
     "email": "nelsonivansegura@hotmail.com"
   },
   "fecha": "2021-03-26T05:00:00.000Z",
-  "idProcesos": [
-    50875060
-  ],
+  "idProcesos": [50875060],
   "idRegUltimaAct": 1010835420,
   "llaveProceso": "11001400301720170152600",
   "nombre": "NELSON IVAN SEGURA MENDEZ",

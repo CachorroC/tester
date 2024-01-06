@@ -294,10 +294,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "530091199",
-      "377813000000000"
-    ],
+    "obligacion": ["530091199", "377813000000000"],
     "llaveProceso": "11001400308120180058300",
     "notificacion": {
       "certimail": false,
@@ -318,9 +315,7 @@
     "municipio": "BOGOTA",
     "radicado": "2018 - 00583",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2023-04-05T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2023-04-05T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -336,9 +331,7 @@
     "email": "yannisf25@hotmail.com"
   },
   "fecha": "2020-02-03T05:00:00.000Z",
-  "idProcesos": [
-    51914550
-  ],
+  "idProcesos": [51914550],
   "idRegUltimaAct": 952412530,
   "llaveProceso": "11001400308120180058300",
   "nombre": "LILIA YANIRA DIAZ CARO",

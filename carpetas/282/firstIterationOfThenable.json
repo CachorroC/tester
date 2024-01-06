@@ -786,22 +786,16 @@
         "fechaOrdenaMedida": "2017-08-11T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2024-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2024-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-10-10T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-10T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        174366
-      ],
+      "obligacion": [174366],
       "radicado": "2017 - 01394"
     }
   ],
@@ -856,9 +850,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50777890
-  ],
+  "idProcesos": [50777890],
   "nombre": "MATIAS HUMBERTO AVILA AGUILAR",
   "notificacion": {
     "notifiers": [

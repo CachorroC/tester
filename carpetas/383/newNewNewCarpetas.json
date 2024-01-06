@@ -113,9 +113,7 @@
     "id": 383
   },
   "demanda": {
-    "obligacion": [
-      "116650"
-    ],
+    "obligacion": ["116650"],
     "llaveProceso": "11001400302620180047900",
     "notificacion": {
       "certimail": false,
@@ -136,9 +134,7 @@
     "municipio": "KENNEDY",
     "radicado": "2018 - 00479",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2024-03-16T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2024-03-16T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -154,9 +150,7 @@
     "email": "nonbaro@hotmail.com"
   },
   "fecha": "2018-06-15T05:00:00.000Z",
-  "idProcesos": [
-    51176440
-  ],
+  "idProcesos": [51176440],
   "idRegUltimaAct": 714162860,
   "llaveProceso": "11001400302620180047900",
   "nombre": "NOHORA ESPERANZA BARRERO RODRIGUEZ",

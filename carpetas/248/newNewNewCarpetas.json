@@ -130,9 +130,7 @@
     "id": 248
   },
   "demanda": {
-    "obligacion": [
-      "130619"
-    ],
+    "obligacion": ["130619"],
     "llaveProceso": "11001400305920170087100",
     "notificacion": {
       "291": {
@@ -150,16 +148,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-07-09T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-09-14T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-14T05:00:00.000Z"],
     "mandamientoPago": "2017-04-10T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00871",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-04-22T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-04-22T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -175,9 +169,7 @@
     "email": "hemacarblan@hotmail.com"
   },
   "fecha": "2017-11-22T05:00:00.000Z",
-  "idProcesos": [
-    50715970
-  ],
+  "idProcesos": [50715970],
   "idRegUltimaAct": 817031830,
   "llaveProceso": "11001400305920170087100",
   "nombre": "HENRY CARRANZA ALBA",

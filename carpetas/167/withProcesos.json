@@ -783,9 +783,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "21/02/2018"
       },
-      "vencimientoPagare": [
-        "2031-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2031-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -794,9 +792,7 @@
       "etapaProcesal": "11001310301020170071000",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        197033
-      ],
+      "obligacion": [197033],
       "radicado": "2017 - 00710"
     }
   ],
@@ -851,9 +847,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    28842484
-  ],
+  "idProcesos": [28842484],
   "nombre": "JOSE MAURICIO GONZALEZ CALDERON",
   "notificacion": {
     "notifiers": [

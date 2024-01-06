@@ -294,14 +294,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2018-05-31T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-05-31T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5491590000000,
-        "AUDIOPRESTAMO"
-      ],
+      "obligacion": [5491590000000, "AUDIOPRESTAMO"],
       "radicado": "2018 - 00756"
     }
   ],
@@ -356,9 +351,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    17724160
-  ],
+  "idProcesos": [17724160],
   "nombre": "JUAN CAMILO BAQUERO BUTTNER",
   "notificacion": null
 }

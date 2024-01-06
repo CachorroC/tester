@@ -685,10 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "6260082762",
-      "377813367146983"
-    ],
+    "obligacion": ["6260082762", "377813367146983"],
     "llaveProceso": "11001400300120170130900",
     "notificacion": {
       "291": {
@@ -714,9 +711,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-10-06T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-06T05:00:00.000Z"],
     "mandamientoPago": "2017-10-10T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01309",
@@ -737,9 +732,7 @@
     "email": "anabeatrizcorredor@yahoo.es"
   },
   "fecha": "2023-08-29T05:00:00.000Z",
-  "idProcesos": [
-    50764880
-  ],
+  "idProcesos": [50764880],
   "idRegUltimaAct": 1861929370,
   "llaveProceso": "11001400300120170130900",
   "nombre": "ANA BEATRIZ CORREDOR RIVERA",

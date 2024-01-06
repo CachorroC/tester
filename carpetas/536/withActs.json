@@ -776,9 +776,7 @@
         "fechaOrdenaMedida": "2019-11-01T05:00:00.000Z",
         "medidaSolicitada": "4/07/2019"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -787,10 +785,7 @@
       "etapaProcesal": null,
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4513070000000000,
-        5491580000000000
-      ],
+      "obligacion": [4513070000000000, 5491580000000000],
       "radicado": "2018 - 00479"
     }
   ],
@@ -845,9 +840,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51173430
-  ],
+  "idProcesos": [51173430],
   "nombre": "BLANCA LILIA BRAVO PAEZ",
   "notificacion": {
     "notifiers": [

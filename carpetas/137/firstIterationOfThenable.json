@@ -576,22 +576,16 @@
         "fechaOrdenaMedida": "2017-01-12T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2023-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2023-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1992608489,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-01-12T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-23T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-23T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        235349
-      ],
+      "obligacion": [235349],
       "radicado": "2017 - 01713"
     }
   ],
@@ -646,9 +640,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    10410303
-  ],
+  "idProcesos": [10410303],
   "nombre": "EDNA MILENA MUÑOZ SANCHEZ",
   "notificacion": {
     "notifiers": [],

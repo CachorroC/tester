@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "4020082793",
-      "4513070099197613"
-    ],
+    "obligacion": ["4020082793", "4513070099197613"],
     "llaveProceso": "11001400301120180011800",
     "notificacion": null,
     "medidasCautelares": {
@@ -705,9 +702,7 @@
     "municipio": "BOGOTA",
     "radicado": "2018 - 00118",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-11-30T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-11-30T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -723,9 +718,7 @@
     "email": "cam.g.4@hotmail.com"
   },
   "fecha": "2022-10-25T05:00:00.000Z",
-  "idProcesos": [
-    50995460
-  ],
+  "idProcesos": [50995460],
   "idRegUltimaAct": 1931962060,
   "llaveProceso": "11001400301120180011800",
   "nombre": "CRISTIAN CAMILO GARCIA ESCOBAR",

@@ -583,10 +583,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "6820082421",
-      "377815190381158 // 530371010816"
-    ],
+    "obligacion": ["6820082421", "377815190381158 // 530371010816"],
     "llaveProceso": "11001400303420170083400",
     "notificacion": {
       "certimail": null,
@@ -602,16 +599,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-06-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
     "mandamientoPago": "2017-10-07T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00834",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-04-10T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-04-10T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -627,9 +620,7 @@
     "email": "sma9511@hotmail.com"
   },
   "fecha": "2020-02-19T05:00:00.000Z",
-  "idProcesos": [
-    50521650
-  ],
+  "idProcesos": [50521650],
   "idRegUltimaAct": 958756030,
   "llaveProceso": "11001400303420170083400",
   "nombre": "SANDRA PATRICIA MALAVER ALVAREZ",

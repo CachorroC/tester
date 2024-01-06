@@ -107,9 +107,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "1010082679"
-    ],
+    "obligacion": ["1010082679"],
     "llaveProceso": "11001400300520180071100",
     "notificacion": null,
     "medidasCautelares": null,
@@ -123,9 +121,7 @@
     "municipio": "BOGOTA",
     "radicado": "2018 - 00711",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2027-10-27T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2027-10-27T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -141,9 +137,7 @@
     "email": null
   },
   "fecha": "2018-09-06T05:00:00.000Z",
-  "idProcesos": [
-    51277500
-  ],
+  "idProcesos": [51277500],
   "idRegUltimaAct": 582442800,
   "llaveProceso": "11001400300520180071100",
   "nombre": "CARLOS ANTONIO PACHECO TORRES",

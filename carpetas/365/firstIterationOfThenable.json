@@ -415,22 +415,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2023-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2023-01-01T05:00:00.000Z"],
       "capitalAdeudado": 2397014605,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-07-12T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2017-12-14T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-12-14T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        106172
-      ],
+      "obligacion": [106172],
       "radicado": "2018 - 00140"
     }
   ],
@@ -485,9 +479,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    11227303
-  ],
+  "idProcesos": [11227303],
   "nombre": "RICHARD CAMILO IRIARTE GARCIA",
   "notificacion": {
     "notifiers": [

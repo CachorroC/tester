@@ -481,14 +481,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCION",
-      "fechaPresentacion": [
-        "2018-09-13T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-09-13T05:00:00.000Z"],
       "municipio": "GIRARDOT",
-      "obligacion": [
-        "AUDIOPRESTAMO",
-        5306960687119070
-      ],
+      "obligacion": ["AUDIOPRESTAMO", 5306960687119070],
       "radicado": "2021 - 00539"
     }
   ],
@@ -543,9 +538,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    121826111
-  ],
+  "idProcesos": [121826111],
   "nombre": "ADRIANA VANEGAS PEÑA",
   "notificacion": {
     "notifiers": [

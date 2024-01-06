@@ -774,22 +774,16 @@
         "fechaOrdenaMedida": "2017-05-10T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE VEHICULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-05-10T05:00:00.000Z",
       "etapaProcesal": "EN EJECUCIÓN LIQUIDACIÓN CREDITO SOLICITADA A COVINOC",
-      "fechaPresentacion": [
-        "2017-08-31T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-31T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12577419
-      ],
+      "obligacion": [12577419],
       "radicado": "2017 - 00845"
     }
   ],
@@ -844,9 +838,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50675410
-  ],
+  "idProcesos": [50675410],
   "nombre": "MARIA OLGA CASTAÑEDA PERUGACHI",
   "notificacion": {
     "notifiers": [

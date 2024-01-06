@@ -175,9 +175,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "154048"
-    ],
+    "obligacion": ["154048"],
     "llaveProceso": "11001400306420180021800",
     "notificacion": {
       "certimail": false,
@@ -190,16 +188,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-02-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-20T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00218",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-07-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-07-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -215,9 +209,7 @@
     "email": "geraldin316@hotmail.com"
   },
   "fecha": "2018-04-24T05:00:00.000Z",
-  "idProcesos": [
-    17948440
-  ],
+  "idProcesos": [17948440],
   "idRegUltimaAct": 266847690,
   "llaveProceso": "11001400306420180021800",
   "nombre": "BLANCA CECILIA ARDILA HUERTAS",

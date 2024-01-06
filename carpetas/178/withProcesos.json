@@ -566,18 +566,14 @@
         "fechaOrdenaMedida": "2017-06-09T05:00:00.000Z",
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 39243095,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2017-06-09T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
       "obligacion": [
         4099831431615063,
@@ -637,9 +633,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    112657130
-  ],
+  "idProcesos": [112657130],
   "nombre": "MARYLUZ OCASIONES PINZON",
   "notificacion": null
 }

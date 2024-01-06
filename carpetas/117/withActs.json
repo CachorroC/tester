@@ -778,22 +778,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
       },
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-06-20T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        420087224
-      ],
+      "obligacion": [420087224],
       "radicado": "2017 - 00566"
     }
   ],
@@ -848,9 +842,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50522530
-  ],
+  "idProcesos": [50522530],
   "nombre": "NICOLAS FERNANDO MONTOYA CORREA",
   "notificacion": {
     "notifiers": [

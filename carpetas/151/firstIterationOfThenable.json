@@ -230,14 +230,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-11-09T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "2273320123786.",
-        337815690656158
-      ],
+      "obligacion": ["2273320123786.", 337815690656158],
       "radicado": "2017 - 01135"
     }
   ],
@@ -292,9 +287,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50667490
-  ],
+  "idProcesos": [50667490],
   "nombre": "ANDRES FELIPE HIGUITA CARDONA",
   "notificacion": {
     "notifiers": [

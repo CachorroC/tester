@@ -634,10 +634,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "65886140334",
-      "4594260446916180"
-    ],
+    "obligacion": ["65886140334", "4594260446916180"],
     "llaveProceso": "11001400306820200102100",
     "notificacion": null,
     "medidasCautelares": null,
@@ -667,9 +664,7 @@
     "email": null
   },
   "fecha": "2023-12-18T05:00:00.000Z",
-  "idProcesos": [
-    112628300
-  ],
+  "idProcesos": [112628300],
   "idRegUltimaAct": 1942917940,
   "llaveProceso": "11001400306820200102100",
   "nombre": "DIMOIN COLOMBIA S.A.S.",

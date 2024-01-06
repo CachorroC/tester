@@ -779,23 +779,16 @@
         "fechaOrdenaMedida": "2018-01-08T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2021-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2021-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2018-03-07T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-07-11T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-07-11T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2070086628,
-        4594250056606570
-      ],
+      "obligacion": [2070086628, 4594250056606570],
       "radicado": "2018 - 00818"
     }
   ],
@@ -850,9 +843,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51306830
-  ],
+  "idProcesos": [51306830],
   "nombre": "ADRIANA LUCIA MORA PLATA",
   "notificacion": {
     "notifiers": [

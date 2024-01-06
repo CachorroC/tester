@@ -447,10 +447,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "37781300000000000"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "37781300000000000"],
     "llaveProceso": "11001400306820180047600",
     "notificacion": null,
     "medidasCautelares": {
@@ -462,9 +459,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SUSPENDIDO",
-    "fechaPresentacion": [
-      "2018-04-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-04-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00476",
@@ -485,9 +480,7 @@
     "email": "hernando.22.95@hotmail.com"
   },
   "fecha": "2022-06-02T05:00:00.000Z",
-  "idProcesos": [
-    19217890
-  ],
+  "idProcesos": [19217890],
   "idRegUltimaAct": 1302521110,
   "llaveProceso": "11001400306820180047600",
   "nombre": "FELIX  HERNANDO MONTENEGRO GARCIA",

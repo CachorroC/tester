@@ -535,22 +535,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2033-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2033-01-01T05:00:00.000Z"],
       "capitalAdeudado": 25863164,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-02-05T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-02-05T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        165720
-      ],
+      "obligacion": [165720],
       "radicado": "2018 - 00299"
     }
   ],
@@ -605,9 +599,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    11496423
-  ],
+  "idProcesos": [11496423],
   "nombre": "OMAR HERNANDO QUIROGA TORRES",
   "notificacion": {
     "notifiers": [

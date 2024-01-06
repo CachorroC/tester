@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12705806"
-    ],
+    "obligacion": ["12705806"],
     "llaveProceso": "11001310301120170033500",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-05-30T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-30T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00335",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-05-10T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-05-10T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": null
   },
   "fecha": "2023-03-10T05:00:00.000Z",
-  "idProcesos": [
-    1805257424
-  ],
+  "idProcesos": [1805257424],
   "idRegUltimaAct": 1096493124,
   "llaveProceso": "11001310301120170033500",
   "nombre": "OMAR DARIO ZEA GALVIS",

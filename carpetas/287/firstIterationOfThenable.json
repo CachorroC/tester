@@ -747,9 +747,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "27/11/2018"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-04-10T05:00:00.000Z",
@@ -758,9 +756,7 @@
       "etapaProcesal": "11001400371620170015700",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12592504
-      ],
+      "obligacion": [12592504],
       "radicado": "2017 - 00157"
     }
   ],
@@ -815,9 +811,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50242270
-  ],
+  "idProcesos": [50242270],
   "nombre": "CARLOS GERMAN RUGE CASTAÑEDA",
   "notificacion": {
     "notifiers": [],

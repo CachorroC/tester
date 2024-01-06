@@ -61,14 +61,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-03-11T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-10-27T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-27T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        6670083892,
-        12074022
-      ],
+      "obligacion": [6670083892, 12074022],
       "radicado": "2017 - 00735"
     }
   ],
@@ -88,10 +83,7 @@
     "primerNombre": "ZOILA",
     "segundoNombre": "IRENE",
     "primerApellido": "SUAVITA",
-    "segundoApellido": [
-      "DE",
-      "TRILLERAS"
-    ],
+    "segundoApellido": ["DE", "TRILLERAS"],
     "cedula": 41610065,
     "direccion": "CARRERA 23 # 20 - 40 SUR",
     "email": "albertotrilleras@hotmail.com"

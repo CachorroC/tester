@@ -775,9 +775,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "4/12/2017"
       },
-      "vencimientoPagare": [
-        "2021-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2021-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
@@ -786,9 +784,7 @@
       "etapaProcesal": "11001400303020170181700",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        860669
-      ],
+      "obligacion": [860669],
       "radicado": "2017 - 01817"
     }
   ],
@@ -843,9 +839,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50883240
-  ],
+  "idProcesos": [50883240],
   "nombre": "SANDRA BIBIANA URREGO MAYORGA",
   "notificacion": {
     "notifiers": [],

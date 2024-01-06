@@ -779,23 +779,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2022-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2022-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-07-06T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-07-06T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2270085292,
-        3778131949466660
-      ],
+      "obligacion": [2270085292, 3778131949466660],
       "radicado": "2018 - 00850"
     }
   ],
@@ -830,10 +823,7 @@
     "primerNombre": "SANDRA",
     "segundoNombre": "",
     "primerApellido": "LILIANA",
-    "segundoApellido": [
-      "CRUZ",
-      "BELTRAN"
-    ],
+    "segundoApellido": ["CRUZ", "BELTRAN"],
     "cedula": 52155023,
     "direccion": "CALLE 86A No 95A-15 APTO 108",
     "email": "mediconta@gmail.com"
@@ -853,9 +843,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    89137980
-  ],
+  "idProcesos": [89137980],
   "nombre": "SANDRA  LILIANA CRUZ BELTRAN",
   "notificacion": {
     "notifiers": [

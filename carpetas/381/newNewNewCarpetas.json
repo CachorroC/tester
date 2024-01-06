@@ -90,9 +90,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "155586"
-    ],
+    "obligacion": ["155586"],
     "llaveProceso": "11001400304120180007500",
     "notificacion": null,
     "medidasCautelares": null,
@@ -101,16 +99,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-01-24T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-01-24T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00075",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2027-09-06T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2027-09-06T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -126,9 +120,7 @@
     "email": "nimary20@hotmail.com"
   },
   "fecha": "2018-04-06T05:00:00.000Z",
-  "idProcesos": [
-    19431801
-  ],
+  "idProcesos": [19431801],
   "idRegUltimaAct": 224371301,
   "llaveProceso": "11001400304120180007500",
   "nombre": "NIELCEN MARISOL MARIN MELO",

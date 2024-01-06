@@ -90,9 +90,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2230105704"
-    ],
+    "obligacion": ["2230105704"],
     "llaveProceso": "11001400304220230109900",
     "notificacion": null,
     "medidasCautelares": null,
@@ -106,9 +104,7 @@
     "municipio": "BOGOTA",
     "radicado": "2023-1099",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2026-06-04T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-06-04T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -124,9 +120,7 @@
     "email": "mulasycamiones@hotmail.com"
   },
   "fecha": "2023-12-13T05:00:00.000Z",
-  "idProcesos": [
-    162013641
-  ],
+  "idProcesos": [162013641],
   "idRegUltimaAct": 1326461951,
   "llaveProceso": "11001400304220230109900",
   "nombre": "ISMAEL CAMACHO GARCIA",

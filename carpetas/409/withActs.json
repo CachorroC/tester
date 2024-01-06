@@ -785,22 +785,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
       },
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-02-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-02-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4550087219
-      ],
+      "obligacion": [4550087219],
       "radicado": "2018 - 00221"
     }
   ],
@@ -855,9 +849,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51042800
-  ],
+  "idProcesos": [51042800],
   "nombre": "CREAS CONSULTORES S.A.S",
   "notificacion": {
     "notifiers": [

@@ -1,4 +1,4 @@
-import {  PrismaClient } from '@prisma/client';
+import { PrismaClient } from '@prisma/client';
 import * as fs from 'fs/promises';
 import { ConsultaNumeroRadicacion } from './types/procesos';
 import { NewJuzgado } from './models/demanda';
@@ -23,25 +23,22 @@ export interface outProceso extends intProceso {
   juzgado: Juzgado;
 }
 
-
-
 const prisma = new PrismaClient();
 
-async function fetcher (
-  llaveProceso: string
+async function fetcher(
+  llaveProceso: string 
 ): Promise<outProceso[]> {
   try {
-
     const request = await fetch(
-      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false&pagina=1`
+      `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false&pagina=1`,
     );
 
     if ( !request.ok ) {
       throw new Error(
-        `${ llaveProceso }: ${ request.status } ${ request.statusText }${ JSON.stringify(
-          request,
-          null,
-          2,
+        `${ llaveProceso }: ${ request.status } ${
+          request.statusText
+        }${ JSON.stringify(
+          request, null, 2 
         ) }`,
       );
     }
@@ -49,63 +46,63 @@ async function fetcher (
     const json = ( await request.json() ) as ConsultaNumeroRadicacion;
 
     const {
-      procesos
+      procesos 
     } = json;
 
     return procesos.map(
       (
-        proceso
+        proceso 
       ) => {
         return {
           ...proceso,
           fechaProceso: proceso.fechaProceso
             ? new Date(
-              proceso.fechaProceso
+              proceso.fechaProceso 
             )
             : null,
           fechaUltimaActuacion: proceso.fechaUltimaActuacion
             ? new Date(
-              proceso.fechaUltimaActuacion
+              proceso.fechaUltimaActuacion 
             )
             : null,
           juzgado: new NewJuzgado(
-            proceso
-          )
+            proceso 
+          ),
         };
-      }
+      } 
     );
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
     return [];
   }
 }
 
-async function getLLaves () {
+async function getLLaves() {
   const carpetas = await prisma.carpeta.findMany();
   return carpetas.flatMap(
     (
-      carpeta
+      carpeta 
     ) => {
       return carpeta.llaveProceso;
-    }
+    } 
   );
 }
 
-async function* AsyncGenerateActuaciones (
-  llaves: string[]
+async function* AsyncGenerateActuaciones(
+  llaves: string[] 
 ) {
   for ( const llaveProceso of llaves ) {
     const indexOf = llaves.indexOf(
-      llaveProceso
+      llaveProceso 
     );
     console.log(
-      indexOf
+      indexOf 
     );
 
-    const fetcherIdProceso = await  fetcher(
-      llaveProceso
+    const fetcherIdProceso = await fetcher(
+      llaveProceso 
     );
 
     for ( const proceso of fetcherIdProceso ) {
@@ -114,7 +111,7 @@ async function* AsyncGenerateActuaciones (
       }
 
       await prismaUpdaterProcesos(
-        proceso
+        proceso 
       );
     }
 
@@ -122,107 +119,101 @@ async function* AsyncGenerateActuaciones (
   }
 }
 
-async function prismaUpdaterProcesos (
-  proceso: outProceso
+async function prismaUpdaterProcesos(
+  proceso: outProceso 
 ) {
   const idProcesosSet = new Set<number>();
 
   try {
-    const carpeta =  await prisma.carpeta.findFirstOrThrow(
+    const carpeta = await prisma.carpeta.findFirstOrThrow(
       {
         where: {
-          llaveProceso: proceso.llaveProceso
-        }
-      }
+          llaveProceso: proceso.llaveProceso,
+        },
+      } 
     );
     carpeta.idProcesos.forEach(
       (
-        idProceso
+        idProceso 
       ) => {
         idProcesosSet.add(
-          idProceso
+          idProceso 
         );
-      }
+      } 
     );
 
     idProcesosSet.add(
-      proceso.idProceso
+      proceso.idProceso 
     );
 
     await prisma.carpeta.update(
       {
         where: {
-          numero: carpeta.numero
+          numero: carpeta.numero,
         },
         data: {
           idProcesos: {
             set: Array.from(
               idProcesosSet 
-            )
+            ),
           },
           procesos: {
             connectOrCreate: {
               where: {
-                idProceso: proceso.idProceso
+                idProceso: proceso.idProceso,
               },
               create: {
                 ...proceso,
                 juzgado: {
                   connectOrCreate: {
                     where: {
-                      tipo: proceso.juzgado.tipo
+                      tipo: proceso.juzgado.tipo,
                     },
-                    create: proceso.juzgado
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+                    create: proceso.juzgado,
+                  },
+                },
+              },
+            },
+          },
+        },
+      } 
     );
-
-
-
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
   }
 }
 
-async function main () {
+async function main() {
   const ActsMap = [];
 
   const idProcesos = await getLLaves();
   console.log(
-    idProcesos
+    idProcesos 
   );
 
   for await ( const actuacionesJson of AsyncGenerateActuaciones(
-    idProcesos
+    idProcesos 
   ) ) {
     console.log(
-      actuacionesJson
+      actuacionesJson 
     );
     ActsMap.push(
-      actuacionesJson
+      actuacionesJson 
     );
   }
 
-
-
   fs.writeFile(
     'actuacionesOutput.json', JSON.stringify(
-      ActsMap
-    )
+      ActsMap 
+    ) 
   );
   return ActsMap;
 }
 
 const mainer = main();
 
-
 console.log(
-  mainer
+  mainer 
 );

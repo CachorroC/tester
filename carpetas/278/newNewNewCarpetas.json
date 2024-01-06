@@ -691,9 +691,7 @@
     "id": 278
   },
   "demanda": {
-    "obligacion": [
-      "4670083154"
-    ],
+    "obligacion": ["4670083154"],
     "llaveProceso": "11001400303720170139100",
     "notificacion": {
       "291": {
@@ -716,16 +714,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-10-10T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-10T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01391",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-03-18T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-03-18T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -741,9 +735,7 @@
     "email": "natis-rolita@hotmail.con"
   },
   "fecha": "2022-03-09T05:00:00.000Z",
-  "idProcesos": [
-    112945420
-  ],
+  "idProcesos": [112945420],
   "idRegUltimaAct": 1262270900,
   "llaveProceso": "11001400303720170139100",
   "nombre": "LUZ DARY PUERTA JARAMILLO",

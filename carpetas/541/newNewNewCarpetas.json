@@ -56,10 +56,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "5491580436291960"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "5491580436291960"],
     "llaveProceso": "11001400308220180096400",
     "notificacion": {
       "291": {
@@ -85,9 +82,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-09-10T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-09-10T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00964",
@@ -111,10 +106,7 @@
     "email": "jrestradacastillo@gmail.com"
   },
   "fecha": "2023-08-29T05:00:00.000Z",
-  "idProcesos": [
-    52160520,
-    112967583
-  ],
+  "idProcesos": [52160520, 112967583],
   "idRegUltimaAct": 1649571513,
   "llaveProceso": "11001400308220180096400",
   "nombre": "JOSE RAMON ESTRADA CASTILLO",

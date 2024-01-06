@@ -685,10 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2070086628",
-      "4594250056606570"
-    ],
+    "obligacion": ["2070086628", "4594250056606570"],
     "llaveProceso": "11001400303620180081800",
     "notificacion": {
       "291": {
@@ -714,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-03-07T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-07-11T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-07-11T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00818",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-04-10T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-04-10T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,9 +732,7 @@
     "email": "amoplata@yahoo.com"
   },
   "fecha": "2023-10-04T05:00:00.000Z",
-  "idProcesos": [
-    51306830
-  ],
+  "idProcesos": [51306830],
   "idRegUltimaAct": 1893890670,
   "llaveProceso": "11001400303620180081800",
   "nombre": "ADRIANA LUCIA MORA PLATA",

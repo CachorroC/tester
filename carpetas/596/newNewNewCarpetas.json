@@ -4,9 +4,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "90000058700"
-    ],
+    "obligacion": ["90000058700"],
     "llaveProceso": "SinEspecificar",
     "notificacion": null,
     "medidasCautelares": null,
@@ -20,9 +18,7 @@
     "municipio": "BOGOTA",
     "radicado": null,
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2049-02-07T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2049-02-07T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

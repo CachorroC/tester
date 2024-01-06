@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2330087057"
-    ],
+    "obligacion": ["2330087057"],
     "llaveProceso": "11001400300820170105800",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-09-04T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-04T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01058",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-12-07T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-12-07T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": null
   },
   "fecha": "2022-07-21T05:00:00.000Z",
-  "idProcesos": [
-    112758450
-  ],
+  "idProcesos": [112758450],
   "idRegUltimaAct": 1339477370,
   "llaveProceso": "11001400300820170105800",
   "nombre": "ANDRES FELIPE GUTIERREZ TRUJILLO",

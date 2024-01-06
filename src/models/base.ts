@@ -67,7 +67,7 @@ export class BaseCarpeta implements IntCarpeta {
       this.deudor.primerNombre,
       this.deudor.segundoNombre,
       this.deudor.primerApellido,
-      this.deudor.segundoApellido, 
+      this.deudor.segundoApellido,
     ] = nom.split(
       ' ' 
     );

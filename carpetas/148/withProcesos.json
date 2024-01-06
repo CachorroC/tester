@@ -702,22 +702,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 30873492,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-22T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-22T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12447813
-      ],
+      "obligacion": [12447813],
       "radicado": "2017 - 00813"
     }
   ],
@@ -772,9 +766,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50653560
-  ],
+  "idProcesos": [50653560],
   "nombre": "NESTOR GERARDO OSORIO MORALES",
   "notificacion": {
     "notifiers": [],

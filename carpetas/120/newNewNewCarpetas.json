@@ -10,9 +10,7 @@
     "id": 120
   },
   "demanda": {
-    "obligacion": [
-      "6240082776"
-    ],
+    "obligacion": ["6240082776"],
     "llaveProceso": "25754418900320170075500",
     "notificacion": {
       "291": {
@@ -38,16 +36,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-04-08T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-08-11T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-11T05:00:00.000Z"],
     "mandamientoPago": "2017-08-09T05:00:00.000Z",
     "municipio": "SOACHA",
     "radicado": "2017 - 00755",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-04-12T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-04-12T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

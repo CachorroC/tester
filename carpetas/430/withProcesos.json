@@ -857,22 +857,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2028-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2028-01-01T05:00:00.000Z"],
       "capitalAdeudado": 2904538303,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2018-05-08T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-05-08T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990162905
-      ],
+      "obligacion": [20990162905],
       "radicado": "2018 - 00404"
     },
     {
@@ -885,22 +879,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2028-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2028-01-01T05:00:00.000Z"],
       "capitalAdeudado": 2904538303,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2018-05-08T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-05-08T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990162905
-      ],
+      "obligacion": [20990162905],
       "radicado": "2018 - 00404"
     }
   ],
@@ -935,10 +923,7 @@
     "primerNombre": "JHONATAN",
     "segundoNombre": "ALEJANDRO",
     "primerApellido": "",
-    "segundoApellido": [
-      "CUELLAR",
-      "ARIAS"
-    ],
+    "segundoApellido": ["CUELLAR", "ARIAS"],
     "cedula": 1024517216,
     "direccion": "DIAGONAL 68 D No 70C-31",
     "email": "alejaso1291@hotmail.com"
@@ -970,10 +955,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    17487020,
-    50678323
-  ],
+  "idProcesos": [17487020, 50678323],
   "nombre": "JHONATAN ALEJANDRO  CUELLAR ARIAS",
   "notificacion": null
 }

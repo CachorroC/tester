@@ -330,16 +330,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-07-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-13T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-13T05:00:00.000Z"],
     "mandamientoPago": "2017-03-08T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00809",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-07-22T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-07-22T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -355,9 +351,7 @@
     "email": null
   },
   "fecha": "2019-03-07T05:00:00.000Z",
-  "idProcesos": [
-    50506330
-  ],
+  "idProcesos": [50506330],
   "idRegUltimaAct": 763999530,
   "llaveProceso": "11001400303420170080900",
   "nombre": "JOSÉ ENRIQUE RIAÑO HENRIQUEZ",

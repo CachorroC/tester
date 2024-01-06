@@ -777,22 +777,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2022-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2022-01-01T05:00:00.000Z"],
       "capitalAdeudado": 15445371,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "SENTENCIA",
-      "fechaPresentacion": [
-        "2017-06-21T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-21T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "320 093516"
-      ],
+      "obligacion": ["320 093516"],
       "radicado": "2017 - 00537"
     }
   ],
@@ -847,9 +841,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51018210
-  ],
+  "idProcesos": [51018210],
   "nombre": "LUIS EDUARDO CARRANZA BUSTOS",
   "notificacion": {
     "notifiers": [

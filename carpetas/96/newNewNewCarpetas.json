@@ -141,10 +141,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "160742",
-      "377815863029282"
-    ],
+    "obligacion": ["160742", "377815863029282"],
     "llaveProceso": "11001400305320170087100",
     "notificacion": null,
     "medidasCautelares": null,
@@ -153,16 +150,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-29T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00871",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2033-01-30T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2033-01-30T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -178,9 +171,7 @@
     "email": "bluemoontauro@hotmail.com"
   },
   "fecha": "2018-03-23T05:00:00.000Z",
-  "idProcesos": [
-    11998913
-  ],
+  "idProcesos": [11998913],
   "idRegUltimaAct": 155340263,
   "llaveProceso": "11001400305320170087100",
   "nombre": "YURANNY POLANCO CESPEDES",

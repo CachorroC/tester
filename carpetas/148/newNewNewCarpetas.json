@@ -623,9 +623,7 @@
     "id": 148
   },
   "demanda": {
-    "obligacion": [
-      "12447813"
-    ],
+    "obligacion": ["12447813"],
     "llaveProceso": "11001400300920170081300",
     "notificacion": {
       "certimail": null,
@@ -641,16 +639,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-22T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-22T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00813",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-08-10T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-08-10T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -666,9 +660,7 @@
     "email": "nestorg1969@hotmail.com"
   },
   "fecha": "2018-11-30T05:00:00.000Z",
-  "idProcesos": [
-    50653560
-  ],
+  "idProcesos": [50653560],
   "idRegUltimaAct": 607313060,
   "llaveProceso": "11001400300920170081300",
   "nombre": "NESTOR GERARDO OSORIO MORALES",

@@ -779,23 +779,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE VEHICULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-09-01T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-01T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4099838997529750,
-        "5303712728390736 // 12141636"
-      ],
+      "obligacion": [4099838997529750, "5303712728390736 // 12141636"],
       "radicado": "2017 - 00849"
     }
   ],
@@ -850,9 +843,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50685700
-  ],
+  "idProcesos": [50685700],
   "nombre": "JOSE LUIS TORRES TAMAYO",
   "notificacion": {
     "notifiers": [

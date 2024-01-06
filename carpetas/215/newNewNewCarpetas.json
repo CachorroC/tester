@@ -266,9 +266,7 @@
     "id": 215
   },
   "demanda": {
-    "obligacion": [
-      "85677"
-    ],
+    "obligacion": ["85677"],
     "llaveProceso": "11001400300820170127300",
     "notificacion": {
       "291": {
@@ -291,16 +289,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-09-04T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-04T05:00:00.000Z"],
     "mandamientoPago": "2017-03-11T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01273",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-03-30T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-03-30T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -316,9 +310,7 @@
     "email": "luzdary.hurtado.rios@hotmail.com"
   },
   "fecha": "2018-03-08T05:00:00.000Z",
-  "idProcesos": [
-    50776700
-  ],
+  "idProcesos": [50776700],
   "idRegUltimaAct": 602065020,
   "llaveProceso": "11001400300820170127300",
   "nombre": "LUZ DARY HURTADO RIOS",

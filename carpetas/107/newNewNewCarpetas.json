@@ -345,10 +345,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "6900084281",
-      "4513070458359200 // AUDIOPRESTAMO"
-    ],
+    "obligacion": ["6900084281", "4513070458359200 // AUDIOPRESTAMO"],
     "llaveProceso": "11001400305720170079000",
     "notificacion": null,
     "medidasCautelares": {
@@ -360,16 +357,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00790",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2016-01-29T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2016-01-29T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -385,9 +378,7 @@
     "email": "efrain.martinez.1021@hotmail.com"
   },
   "fecha": "2019-07-29T05:00:00.000Z",
-  "idProcesos": [
-    17604554
-  ],
+  "idProcesos": [17604554],
   "idRegUltimaAct": 611917974,
   "llaveProceso": "11001400305720170079000",
   "nombre": "HANYELO EFRAIN MARTINEZ TURRIAGO",

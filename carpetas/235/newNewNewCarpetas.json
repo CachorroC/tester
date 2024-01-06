@@ -685,9 +685,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "148931"
-    ],
+    "obligacion": ["148931"],
     "llaveProceso": "11001400300820170113400",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-09T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-09-18T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-18T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01134",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-02-14T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-02-14T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "fanor.diaz@gmail.com"
   },
   "fecha": "2023-07-27T05:00:00.000Z",
-  "idProcesos": [
-    50716620
-  ],
+  "idProcesos": [50716620],
   "idRegUltimaAct": 1824361210,
   "llaveProceso": "11001400300820170113400",
   "nombre": "FANOR DIAZ AGUDELO",

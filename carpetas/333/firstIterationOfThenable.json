@@ -147,22 +147,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1889842100,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-01-15T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-01-15T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12710799
-      ],
+      "obligacion": [12710799],
       "radicado": "2017 - 01317"
     }
   ],
@@ -217,9 +211,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    17718250
-  ],
+  "idProcesos": [17718250],
   "nombre": "AHIDA LUCERO GUEVARA BECERRA",
   "notificacion": {
     "notifiers": [],

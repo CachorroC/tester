@@ -180,23 +180,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2033-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2033-01-01T05:00:00.000Z"],
       "capitalAdeudado": 46027552,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-06-29T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        160742,
-        377815863029282
-      ],
+      "obligacion": [160742, 377815863029282],
       "radicado": "2017 - 00871"
     }
   ],
@@ -251,9 +244,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    11998913
-  ],
+  "idProcesos": [11998913],
   "nombre": "YURANNY POLANCO CESPEDES",
   "notificacion": null
 }

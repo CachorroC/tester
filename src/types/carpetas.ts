@@ -215,7 +215,7 @@ export interface IntDeudor {
   primerNombre: string;
   segundoNombre: string | null;
   primerApellido: string;
-  segundoApellido: string | null
+  segundoApellido: string | null;
   tel: IntTel;
 }
 
@@ -251,11 +251,10 @@ export interface intNotificacion {
   fisico: boolean | null;
   autoNotificado: string | null;
   '291'?: the290;
-  '292'?: the290
+  '292'?: the290;
 }
 
-export interface the290
-{
+export interface the290 {
   fechaRecibido: Date | null;
   resultado: boolean | null;
 

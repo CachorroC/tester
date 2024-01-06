@@ -4,9 +4,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "152654"
-    ],
+    "obligacion": ["152654"],
     "llaveProceso": "11001400308120180026400",
     "notificacion": {
       "292": {
@@ -27,16 +25,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-02-22T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-22T05:00:00.000Z"],
     "mandamientoPago": "2018-03-04T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2018 - 00264",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2018-06-06T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-06-06T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

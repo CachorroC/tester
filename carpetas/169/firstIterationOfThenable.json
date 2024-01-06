@@ -786,23 +786,16 @@
         "fechaOrdenaMedida": "2017-03-08T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE VEHICULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-03-08T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-07-21T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-07-21T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12498762,
-        "audioprestamo"
-      ],
+      "obligacion": [12498762, "audioprestamo"],
       "radicado": "2017 - 01264"
     }
   ],
@@ -857,9 +850,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50598770
-  ],
+  "idProcesos": [50598770],
   "nombre": "RITA BLANCO DE GOMEZ",
   "notificacion": {
     "notifiers": [

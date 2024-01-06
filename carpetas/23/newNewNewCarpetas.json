@@ -4,10 +4,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12517400",
-      "5306941968938113"
-    ],
+    "obligacion": ["12517400", "5306941968938113"],
     "llaveProceso": "25307400300120170033700",
     "notificacion": {
       "certimail": null,
@@ -23,16 +20,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-05-30T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-30T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "GIRARDOT",
     "radicado": "2017 - 00337",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-04-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-04-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

@@ -772,9 +772,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "6/10/2017"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
@@ -783,9 +781,7 @@
       "etapaProcesal": "11001400303320170089200",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        3890084585
-      ],
+      "obligacion": [3890084585],
       "radicado": "2017 - 00892"
     }
   ],
@@ -840,9 +836,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50514570
-  ],
+  "idProcesos": [50514570],
   "nombre": "CRISTINA CASTAÑO CASTILLO",
   "notificacion": {
     "notifiers": [

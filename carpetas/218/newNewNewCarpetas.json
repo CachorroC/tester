@@ -606,10 +606,7 @@
     "id": 218
   },
   "demanda": {
-    "obligacion": [
-      "20990118584",
-      "0377813642739792"
-    ],
+    "obligacion": ["20990118584", "0377813642739792"],
     "llaveProceso": "11001400300220170084000",
     "notificacion": null,
     "medidasCautelares": {
@@ -621,9 +618,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-09-11T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-11T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00840",
@@ -644,9 +639,7 @@
     "email": null
   },
   "fecha": "2018-09-20T05:00:00.000Z",
-  "idProcesos": [
-    50699960
-  ],
+  "idProcesos": [50699960],
   "idRegUltimaAct": 379973530,
   "llaveProceso": "11001400300220170084000",
   "nombre": "ELIO ALVARADO HERNANDEZ",

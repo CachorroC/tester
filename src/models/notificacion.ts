@@ -1,24 +1,22 @@
-
-import {   intNotificacion,  rawNotificacion, the290 } from '../types/carpetas';
+import { intNotificacion, rawNotificacion, the290 } from '../types/carpetas';
 import { fixSingleFecha } from './idk';
 
 export class ClassNotificacion implements intNotificacion {
   constructor(
-    notificacion: rawNotificacion
+    notificacion: rawNotificacion 
   ) {
     const {
-      fisico, certimail, autoNotificado
-    }
-      = notificacion;
+      fisico, certimail, autoNotificado 
+    } = notificacion;
     this.certimail = certimail
-      ? certimail === 'SI'
-        ? true
-        : false
+      ? ( certimail === 'SI'
+          ? true
+          : false )
       : null;
     this.fisico = fisico
-      ? fisico === 'SI'
-        ? true
-        : false
+      ? ( fisico === 'SI'
+          ? true
+          : false )
       : null;
     this.autoNotificado = autoNotificado
       ? typeof autoNotificado === 'number'
@@ -26,20 +24,18 @@ export class ClassNotificacion implements intNotificacion {
         : autoNotificado
       : null;
 
-
     const the291 = notificacion[ '291' ];
 
     if ( the291 ) {
       const {
-        fechaRecibido, resultado, fechaAporta
-      }
-        = the291;
+        fechaRecibido, resultado, fechaAporta 
+      } = the291;
 
       const newFechaRecibido = fechaRecibido
         ? fixSingleFecha(
           typeof fechaRecibido === 'number'
             ? fechaRecibido.toString()
-            : fechaRecibido
+            : fechaRecibido,
         )
         : null;
 
@@ -47,7 +43,7 @@ export class ClassNotificacion implements intNotificacion {
         ? fixSingleFecha(
           typeof fechaAporta === 'number'
             ? fechaAporta.toString()
-            : fechaAporta
+            : fechaAporta,
         )
         : null;
 
@@ -59,7 +55,7 @@ export class ClassNotificacion implements intNotificacion {
       this[ '291' ] = {
         fechaRecibido: newFechaRecibido,
         fechaAporta  : newFechaAporta,
-        resultado    : newResultado
+        resultado    : newResultado,
       };
     }
 
@@ -67,13 +63,12 @@ export class ClassNotificacion implements intNotificacion {
 
     if ( the292 ) {
       const {
-        fechaRecibido, resultado, fechaAporta
-      }
-        = the292;
+        fechaRecibido, resultado, fechaAporta 
+      } = the292;
 
       const newFechaRecibido = fechaRecibido
         ? fixSingleFecha(
-          fechaRecibido
+          fechaRecibido 
         )
         : null;
 
@@ -81,7 +76,7 @@ export class ClassNotificacion implements intNotificacion {
         ? fixSingleFecha(
           typeof fechaAporta === 'number'
             ? fechaAporta.toString()
-            : fechaAporta
+            : fechaAporta,
         )
         : null;
 
@@ -93,12 +88,9 @@ export class ClassNotificacion implements intNotificacion {
       this[ '292' ] = {
         fechaRecibido: newFechaRecibido,
         fechaAporta  : newFechaAporta,
-        resultado    : newResultado
+        resultado    : newResultado,
       };
     }
-
-
-
   }
   certimail: boolean | null;
   fisico: boolean | null;

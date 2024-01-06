@@ -490,9 +490,7 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-18T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-18T05:00:00.000Z"],
       "municipio": "BOGOTA",
       "obligacion": [
         54744000041,
@@ -552,9 +550,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    9333743
-  ],
+  "idProcesos": [9333743],
   "nombre": "ELENA QUIÑONES",
   "notificacion": {
     "notifiers": [],

@@ -685,10 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2500084774",
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["2500084774", "AUDIOPRESTAMO"],
     "llaveProceso": "11001400300420170126600",
     "notificacion": {
       "291": {
@@ -714,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-11-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-20T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01266",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-07-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-07-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,9 +732,7 @@
     "email": "gilbertojaime@hotmail.com"
   },
   "fecha": "2022-02-04T05:00:00.000Z",
-  "idProcesos": [
-    50859050
-  ],
+  "idProcesos": [50859050],
   "idRegUltimaAct": 1252694420,
   "llaveProceso": "11001400300420170126600",
   "nombre": "GILBERTO JAIME BETANCOURT",

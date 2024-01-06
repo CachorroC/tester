@@ -10,9 +10,7 @@
     "id": 489
   },
   "demanda": {
-    "obligacion": [
-      "20990126542"
-    ],
+    "obligacion": ["20990126542"],
     "llaveProceso": "25754418900320180100800",
     "notificacion": null,
     "medidasCautelares": null,
@@ -21,16 +19,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-09-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-09-20T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "SOACHA",
     "radicado": "2018 - 01008",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2025-02-19T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2025-02-19T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

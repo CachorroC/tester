@@ -43,23 +43,16 @@
         "fechaOrdenaMedida": "2017-11-12T05:00:00.000Z",
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-11-12T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-22T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-22T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12730731,
-        "377813515714351."
-      ],
+      "obligacion": [12730731, "377813515714351."],
       "radicado": "2017 - 00826"
     }
   ],
@@ -99,9 +92,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    81888371
-  ],
+  "idProcesos": [81888371],
   "nombre": "PEDRO NEL PELAEZ TISNES",
   "notificacion": null
 }

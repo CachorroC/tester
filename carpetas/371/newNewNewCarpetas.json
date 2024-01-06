@@ -549,10 +549,7 @@
   "category": "LiosJuridicos",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "117171",
-      "377813401553319"
-    ],
+    "obligacion": ["117171", "377813401553319"],
     "llaveProceso": "11001400302420180014300",
     "notificacion": null,
     "medidasCautelares": null,
@@ -561,16 +558,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR NO HA SIDO ARCHIVADO POR EL JUZGADO",
-    "fechaPresentacion": [
-      "2018-02-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-19T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00143",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2024-03-30T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2024-03-30T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -586,9 +579,7 @@
     "email": "andreato1a@hotmaul.com"
   },
   "fecha": "2019-09-27T05:00:00.000Z",
-  "idProcesos": [
-    51002530
-  ],
+  "idProcesos": [51002530],
   "idRegUltimaAct": 565010300,
   "llaveProceso": "11001400302420180014300",
   "nombre": "MARTHA ANDREA MORA COLLAZOS",

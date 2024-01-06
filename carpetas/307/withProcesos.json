@@ -767,23 +767,16 @@
         "fechaOrdenaMedida": "2017-02-11T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2031-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2031-01-01T05:00:00.000Z"],
       "capitalAdeudado": 7069304783,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-02-11T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-10-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        190522,
-        4594250022871300
-      ],
+      "obligacion": [190522, 4594250022871300],
       "radicado": "2017 - 01125"
     }
   ],
@@ -838,9 +831,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50800110
-  ],
+  "idProcesos": [50800110],
   "nombre": "CARLOS ARTURO CASTAÑO ALDANA",
   "notificacion": {
     "notifiers": [],

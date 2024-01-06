@@ -772,22 +772,16 @@
         "fechaOrdenaMedida": "2017-04-12T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2016-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2016-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1707475531,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-04-12T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-11-23T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-11-23T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        140864
-      ],
+      "obligacion": [140864],
       "radicado": "2017 - 01272"
     }
   ],
@@ -842,9 +836,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50869240
-  ],
+  "idProcesos": [50869240],
   "nombre": "LILIANA GARCIA ROSERO",
   "notificacion": {
     "notifiers": [

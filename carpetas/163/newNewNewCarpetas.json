@@ -10,10 +10,7 @@
     "id": 163
   },
   "demanda": {
-    "obligacion": [
-      "4513082821740149",
-      "20990170294"
-    ],
+    "obligacion": ["4513082821740149", "20990170294"],
     "llaveProceso": "25473418900120170092400",
     "notificacion": null,
     "medidasCautelares": {
@@ -25,16 +22,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-04-08T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": "2017-06-10T05:00:00.000Z",
     "municipio": "MOSQUERA",
     "radicado": "2017 - 00924",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2028-11-29T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2028-11-29T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

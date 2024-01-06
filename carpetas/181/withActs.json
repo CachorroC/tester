@@ -42,22 +42,16 @@
         "fechaOrdenaMedida": "2017-05-10T05:00:00.000Z",
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 25340036,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-05-10T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12569604
-      ],
+      "obligacion": [12569604],
       "radicado": "2017 - 00115"
     }
   ],
@@ -97,9 +91,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    82132851
-  ],
+  "idProcesos": [82132851],
   "nombre": "LEONARDO ALIRIO GARCIA GUERRERO",
   "notificacion": null
 }

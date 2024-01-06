@@ -468,9 +468,7 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2021-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2021-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -479,10 +477,7 @@
       "etapaProcesal": "11001400306920200082300",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        370091753,
-        3700700231
-      ],
+      "obligacion": [370091753, 3700700231],
       "radicado": "2020 - 00823"
     }
   ],
@@ -537,9 +532,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    112082810
-  ],
+  "idProcesos": [112082810],
   "nombre": "AMANDA LUCIA GAITAN RINCÓN",
   "notificacion": null
 }

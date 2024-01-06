@@ -517,14 +517,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "SUSPENDIDO",
-      "fechaPresentacion": [
-        "2018-04-08T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-04-08T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO",
-        37781300000000000
-      ],
+      "obligacion": ["AUDIOPRESTAMO", 37781300000000000],
       "radicado": "2018 - 00476"
     }
   ],
@@ -559,10 +554,7 @@
     "primerNombre": "FELIX",
     "segundoNombre": "",
     "primerApellido": "HERNANDO",
-    "segundoApellido": [
-      "MONTENEGRO",
-      "GARCIA"
-    ],
+    "segundoApellido": ["MONTENEGRO", "GARCIA"],
     "cedula": 19395095,
     "direccion": "CARRERA 151 C No 109A-50",
     "email": "hernando.22.95@hotmail.com"
@@ -582,9 +574,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    19217890
-  ],
+  "idProcesos": [19217890],
   "nombre": "FELIX  HERNANDO MONTENEGRO GARCIA",
   "notificacion": null
 }

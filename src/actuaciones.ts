@@ -2,7 +2,6 @@ import { PrismaClient } from '@prisma/client';
 import { ConsultaActuacion } from './types/actuaciones.js';
 import * as fs from 'fs/promises';
 
-
 export interface intActuacion {
   idRegActuacion: number;
   llaveProceso: string;
@@ -26,13 +25,12 @@ export interface outActuacion extends intActuacion {
   isUltimaAct: boolean;
 }
 
-const prisma = new PrismaClient();
+export const prisma = new PrismaClient();
 
-async function fetcher (
-  idProceso: number
+async function fetcher(
+  idProceso: number 
 ) {
   try {
-
     const request = await fetch(
       `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`,
     );
@@ -50,199 +48,195 @@ async function fetcher (
     const json = ( await request.json() ) as ConsultaActuacion;
 
     const {
-      actuaciones
+      actuaciones 
     } = json;
 
     return actuaciones.map(
       (
-        actuacion
+        actuacion 
       ) => {
         return {
           ...actuacion,
           fechaActuacion: new Date(
-            actuacion.fechaActuacion
+            actuacion.fechaActuacion 
           ),
           fechaRegistro: new Date(
-            actuacion.fechaRegistro
+            actuacion.fechaRegistro 
           ),
           fechaInicial: actuacion.fechaInicial
             ? new Date(
-              actuacion.fechaInicial
+              actuacion.fechaInicial 
             )
             : null,
           fechaFinal: actuacion.fechaFinal
             ? new Date(
-              actuacion.fechaFinal
+              actuacion.fechaFinal 
             )
             : null,
           isUltimaAct: actuacion.cant === actuacion.consActuacion
             ? true
             : false,
-          idProceso: idProceso
+          idProceso: idProceso,
         };
-      }
+      } 
     );
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
     return [];
   }
 }
 
-async function getIdProcesos () {
+async function getIdProcesos() {
   const carpetas = await prisma.carpeta.findMany();
   return carpetas.flatMap(
     (
-      carpeta
+      carpeta 
     ) => {
       return carpeta.idProcesos;
-    }
+    } 
   );
 }
 
-async function* AsyncGenerateActuaciones (
-  idProcesos: number[]
+async function* AsyncGenerateActuaciones(
+  idProcesos: number[] 
 ) {
   for ( const idProceso of idProcesos ) {
     const indexOf = idProcesos.indexOf(
-      idProceso
+      idProceso 
     );
     console.log(
-      indexOf
+      indexOf 
     );
 
-    const fetcherIdProceso = await  fetcher(
-      idProceso
+    const fetcherIdProceso = await fetcher(
+      idProceso 
     );
-
 
     const [ ultimaActuacion ] = fetcherIdProceso;
     await prismaUpdaterActuaciones(
-      ultimaActuacion
+      ultimaActuacion 
     );
     await prisma.actuacion.createMany(
       {
         data          : fetcherIdProceso,
-        skipDuplicates: true
-      }
+        skipDuplicates: true,
+      } 
     );
     yield fetcherIdProceso;
   }
 }
 
-async function prismaUpdaterActuaciones (
-  ultimaActuacion: outActuacion
+async function prismaUpdaterActuaciones(
+  ultimaActuacion: outActuacion 
 ) {
   try {
-    const carpeta =  await prisma.carpeta.findFirstOrThrow(
+    const carpeta = await prisma.carpeta.findFirstOrThrow(
       {
         where: {
-          llaveProceso: ultimaActuacion.llaveProceso
-        }
-      }
+          llaveProceso: ultimaActuacion.llaveProceso,
+        },
+      } 
     );
 
     const incomingDate = new Date(
-      ultimaActuacion.fechaActuacion
+      ultimaActuacion.fechaActuacion 
     )
       .getTime();
 
     const savedDate = carpeta.fecha
-      ?  new Date(
-        carpeta.fecha
+      ? new Date(
+        carpeta.fecha 
       )
         .getTime()
-      : null ;
+      : null;
 
     if ( !savedDate || savedDate < incomingDate ) {
       console.log(
-        'no hay saved date o la saved date es menor qque incoming date'
+        'no hay saved date o la saved date es menor qque incoming date',
       );
       await prisma.carpeta.update(
         {
           where: {
-            numero: carpeta.numero
+            numero: carpeta.numero,
           },
           data: {
             fecha: new Date(
-              ultimaActuacion.fechaActuacion
+              ultimaActuacion.fechaActuacion 
             ),
             revisado       : false,
             ultimaActuacion: {
               connectOrCreate: {
                 where: {
-                  idRegActuacion: ultimaActuacion.idRegActuacion
+                  idRegActuacion: ultimaActuacion.idRegActuacion,
                 },
                 create: {
-                  ...ultimaActuacion
-                }
-              }
-            }
-          }
-        }
+                  ...ultimaActuacion,
+                },
+              },
+            },
+          },
+        } 
       );
 
       await fs.mkdir(
         `./src/date/${ new Date()
           .toLocaleDateString() }`, {
-          recursive: true
-        }
+          recursive: true,
+        } 
       );
 
       fs.writeFile(
         `./src/date/${ new Date()
-          .toLocaleDateString() }/${ ultimaActuacion.idRegActuacion }.json`, JSON.stringify(
+          .toLocaleDateString() }/${
+          ultimaActuacion.idRegActuacion
+        }.json`,
+        JSON.stringify(
           {
             date           : new Date(),
             davedDate      : savedDate,
-            ultimaActuacion: ultimaActuacion
-          },
-        )
+            ultimaActuacion: ultimaActuacion,
+          } 
+        ),
       );
     }
-
-
-
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
   }
 }
 
-async function main () {
+async function main() {
   const ActsMap = [];
 
   const idProcesos = await getIdProcesos();
   console.log(
-    idProcesos
+    idProcesos 
   );
 
   for await ( const actuacionesJson of AsyncGenerateActuaciones(
-    idProcesos
+    idProcesos 
   ) ) {
     console.log(
-      actuacionesJson
+      actuacionesJson 
     );
     ActsMap.push(
-      actuacionesJson
+      actuacionesJson 
     );
   }
 
-
-
   fs.writeFile(
     'actuacionesOutput.json', JSON.stringify(
-      ActsMap
-    )
+      ActsMap 
+    ) 
   );
   return ActsMap;
 }
 
 const mainer = main();
 
-
 console.log(
-  mainer
+  mainer 
 );

@@ -575,9 +575,7 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2015-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2015-01-01T05:00:00.000Z"],
       "capitalAdeudado": 0,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -586,10 +584,7 @@
       "etapaProcesal": "37/0/2018",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5303720000000000,
-        "19.774.658"
-      ],
+      "obligacion": [5303720000000000, "19.774.658"],
       "radicado": "2018 - 00832"
     }
   ],
@@ -644,9 +639,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51345660
-  ],
+  "idProcesos": [51345660],
   "nombre": "MANUEL SANTIAGO CORREAL ZUÑIGA",
   "notificacion": null
 }

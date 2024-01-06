@@ -147,9 +147,7 @@
     "id": 212
   },
   "demanda": {
-    "obligacion": [
-      "99873"
-    ],
+    "obligacion": ["99873"],
     "llaveProceso": "11001400304620170103500",
     "notificacion": null,
     "medidasCautelares": null,
@@ -158,16 +156,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2017-09-04T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-04T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01035",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-05-09T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-05-09T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -183,9 +177,7 @@
     "email": "verafarfan@hotmail.com"
   },
   "fecha": "2017-11-28T05:00:00.000Z",
-  "idProcesos": [
-    10134513
-  ],
+  "idProcesos": [10134513],
   "idRegUltimaAct": 119895683,
   "llaveProceso": "11001400304620170103500",
   "nombre": "FERNANDO VERA FARFAN",

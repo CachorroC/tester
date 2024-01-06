@@ -503,22 +503,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2025-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2025-01-01T05:00:00.000Z"],
       "capitalAdeudado": 32124573,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2018-05-22T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-05-22T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990131392
-      ],
+      "obligacion": [20990131392],
       "radicado": "2018 - 00573"
     }
   ],
@@ -573,9 +567,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51205750
-  ],
+  "idProcesos": [51205750],
   "nombre": "MARIBEL REVELO QUIROGA",
   "notificacion": null
 }

@@ -40,22 +40,16 @@
       "esPrivado": true,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2017-05-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
       "municipio": "SUBA",
-      "obligacion": [
-        2405037
-      ],
+      "obligacion": [2405037],
       "radicado": "2017 - 00909"
     }
   ],
@@ -95,9 +89,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    82112341
-  ],
+  "idProcesos": [82112341],
   "nombre": "MARINA MORALES HERNANDEZ",
   "notificacion": {
     "notifiers": [

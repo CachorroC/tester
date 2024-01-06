@@ -779,18 +779,14 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-10-06T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-06T05:00:00.000Z"],
       "municipio": "BOGOTA",
       "obligacion": [
         "377815565830854  4513071889404813",
@@ -850,9 +846,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50763460
-  ],
+  "idProcesos": [50763460],
   "nombre": "LUIS AUGUSTO SANCHEZ ORTIZ",
   "notificacion": {
     "notifiers": [

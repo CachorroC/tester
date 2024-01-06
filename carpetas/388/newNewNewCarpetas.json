@@ -294,10 +294,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "1310089728",
-      "377813368402583 /AUDIOPRESTAMO"
-    ],
+    "obligacion": ["1310089728", "377813368402583 /AUDIOPRESTAMO"],
     "llaveProceso": "11001400301720180011100",
     "notificacion": {
       "certimail": null,
@@ -313,16 +310,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-02-05T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-05T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00111",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-11-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-11-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -338,9 +331,7 @@
     "email": "ximpucci1@hotmail.com"
   },
   "fecha": "2019-07-31T05:00:00.000Z",
-  "idProcesos": [
-    50993830
-  ],
+  "idProcesos": [50993830],
   "idRegUltimaAct": 659154850,
   "llaveProceso": "11001400301720180011100",
   "nombre": "XIMENA  ESCOBAR PUCCETI",

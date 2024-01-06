@@ -4,9 +4,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "3830095609"
-    ],
+    "obligacion": ["3830095609"],
     "llaveProceso": "25430400300120230129500",
     "notificacion": null,
     "medidasCautelares": null,
@@ -20,9 +18,7 @@
     "municipio": "MADRID",
     "radicado": "2023 - 01295",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2026-03-06T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-03-06T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

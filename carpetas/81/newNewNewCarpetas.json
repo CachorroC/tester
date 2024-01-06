@@ -691,9 +691,7 @@
     "id": 81
   },
   "demanda": {
-    "obligacion": [
-      "1680096092"
-    ],
+    "obligacion": ["1680096092"],
     "llaveProceso": "11001400303620170055400",
     "notificacion": {
       "291": {
@@ -724,9 +722,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00554",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-10-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-10-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -742,9 +738,7 @@
     "email": null
   },
   "fecha": "2021-12-01T05:00:00.000Z",
-  "idProcesos": [
-    50527610
-  ],
+  "idProcesos": [50527610],
   "idRegUltimaAct": 1236558740,
   "llaveProceso": "11001400303620170055400",
   "nombre": "DS&D SOLUCIONES CONSTRUCTIVAS S.A.S.",

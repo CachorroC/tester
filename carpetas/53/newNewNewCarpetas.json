@@ -10,9 +10,7 @@
     "id": 53
   },
   "demanda": {
-    "obligacion": [
-      "320 131802"
-    ],
+    "obligacion": ["320 131802"],
     "llaveProceso": "11001400308520170097500",
     "notificacion": {
       "291": {
@@ -30,16 +28,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2017-06-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-21T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00975",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2025-09-01T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2025-09-01T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

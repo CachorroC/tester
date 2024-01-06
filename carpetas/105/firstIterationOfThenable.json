@@ -664,9 +664,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "14/08/2017"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -675,9 +673,7 @@
       "etapaProcesal": null,
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5850082368
-      ],
+      "obligacion": [5850082368],
       "radicado": "2017 - 01113"
     }
   ],
@@ -712,11 +708,7 @@
     "primerNombre": "ESTELIO",
     "segundoNombre": "DE",
     "primerApellido": "JESUS",
-    "segundoApellido": [
-      "",
-      "ROLDAN",
-      "POZO"
-    ],
+    "segundoApellido": ["", "ROLDAN", "POZO"],
     "cedula": 15319344,
     "direccion": "CALLE 42 A BIS SUR No. 90A -64",
     "email": null
@@ -736,9 +728,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50593940
-  ],
+  "idProcesos": [50593940],
   "nombre": "ESTELIO DE JESUS  ROLDAN POZO",
   "notificacion": {
     "notifiers": [],

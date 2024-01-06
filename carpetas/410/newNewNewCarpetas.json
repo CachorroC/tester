@@ -634,9 +634,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "450089940"
-    ],
+    "obligacion": ["450089940"],
     "llaveProceso": "11001400303520180037000",
     "notificacion": null,
     "medidasCautelares": {
@@ -648,16 +646,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-04-03T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-04-03T05:00:00.000Z"],
     "mandamientoPago": "2018-07-05T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2018 - 00370",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-02-12T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-02-12T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -673,9 +667,7 @@
     "email": "jennymontoyav@hotmail.com"
   },
   "fecha": "2022-08-25T05:00:00.000Z",
-  "idProcesos": [
-    51103200
-  ],
+  "idProcesos": [51103200],
   "idRegUltimaAct": 1376855330,
   "llaveProceso": "11001400303520180037000",
   "nombre": "JENNY LILIANA MONTOYA VILLAMIL",

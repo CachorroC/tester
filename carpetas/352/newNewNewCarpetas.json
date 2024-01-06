@@ -691,9 +691,7 @@
     "id": 352
   },
   "demanda": {
-    "obligacion": [
-      "4280023383"
-    ],
+    "obligacion": ["4280023383"],
     "llaveProceso": "11001400307620170101600",
     "notificacion": {
       "291": {
@@ -719,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-10-17T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-17T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01016",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-05-20T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-05-20T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -744,9 +738,7 @@
     "email": null
   },
   "fecha": "2023-09-13T05:00:00.000Z",
-  "idProcesos": [
-    51499790
-  ],
+  "idProcesos": [51499790],
   "idRegUltimaAct": 1878048030,
   "llaveProceso": "11001400307620170101600",
   "nombre": "MARIO DE JESUS OSSA PULGARIN",

@@ -333,13 +333,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2018-02-08T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-07-06T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-07-06T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO"
-      ],
+      "obligacion": ["AUDIOPRESTAMO"],
       "radicado": "2018 - 00835"
     }
   ],
@@ -394,9 +390,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    9093813
-  ],
+  "idProcesos": [9093813],
   "nombre": "YENNY MARCELA GOMEZ OLARTE",
   "notificacion": {
     "notifiers": [],

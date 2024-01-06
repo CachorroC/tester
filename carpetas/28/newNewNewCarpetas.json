@@ -4,9 +4,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "127011"
-    ],
+    "obligacion": ["127011"],
     "llaveProceso": "25290400300120170036900",
     "notificacion": {
       "291": {
@@ -24,16 +22,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "FUSAGASUGA",
     "radicado": "2017 - 00369",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2025-09-03T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2025-09-03T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

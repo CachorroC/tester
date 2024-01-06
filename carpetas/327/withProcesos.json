@@ -724,14 +724,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-11-14T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-11-14T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        43945,
-        80517
-      ],
+      "obligacion": [43945, 80517],
       "radicado": "2017 - 01369"
     }
   ],
@@ -786,9 +781,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50848760
-  ],
+  "idProcesos": [50848760],
   "nombre": "JOSE DANIEL ESCOBAR PATIÑO",
   "notificacion": {
     "notifiers": [],

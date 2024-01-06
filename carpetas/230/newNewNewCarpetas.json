@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12519174"
-    ],
+    "obligacion": ["12519174"],
     "llaveProceso": "11001400305220170090600",
     "notificacion": {
       "certimail": false,
@@ -708,9 +706,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00906",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "+072017-12-23T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["+072017-12-23T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -726,9 +722,7 @@
     "email": "alexander.arquitecto@gmail.com"
   },
   "fecha": "2023-10-25T05:00:00.000Z",
-  "idProcesos": [
-    11720143
-  ],
+  "idProcesos": [11720143],
   "idRegUltimaAct": 1673133283,
   "llaveProceso": "11001400305220170090600",
   "nombre": "FREDY ALEXANDER MUÑOZ CASTAÑEDA",

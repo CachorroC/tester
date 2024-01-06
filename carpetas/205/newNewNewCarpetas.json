@@ -691,9 +691,7 @@
     "id": 205
   },
   "demanda": {
-    "obligacion": [
-      "430103841"
-    ],
+    "obligacion": ["430103841"],
     "llaveProceso": "11001400301220170097100",
     "notificacion": {
       "291": {
@@ -719,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN SOLICITAR LIQUIDACIÓN A REINTEGRA",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00971",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-09-09T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-09-09T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -744,9 +738,7 @@
     "email": null
   },
   "fecha": "2023-11-20T05:00:00.000Z",
-  "idProcesos": [
-    50669130
-  ],
+  "idProcesos": [50669130],
   "idRegUltimaAct": 1935714050,
   "llaveProceso": "11001400301220170097100",
   "nombre": "NELIDA DEL CARMEN RIVERA MESA",

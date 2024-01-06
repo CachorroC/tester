@@ -96,9 +96,7 @@
     "id": 403
   },
   "demanda": {
-    "obligacion": [
-      "141356"
-    ],
+    "obligacion": ["141356"],
     "llaveProceso": "11001400304920180019100",
     "notificacion": null,
     "medidasCautelares": null,
@@ -107,16 +105,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-02-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-20T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018-0191",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-08-03T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-08-03T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -132,9 +126,7 @@
     "email": "claudia.1120@hotmail.com"
   },
   "fecha": "2018-04-17T05:00:00.000Z",
-  "idProcesos": [
-    10955643
-  ],
+  "idProcesos": [10955643],
   "idRegUltimaAct": 135518823,
   "llaveProceso": "11001400304920180019100",
   "nombre": "CLAUDIA YANETH VALENCIA AYA",

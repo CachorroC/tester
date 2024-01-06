@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "4513070000000000",
-      "5491580000000000"
-    ],
+    "obligacion": ["4513070000000000", "5491580000000000"],
     "llaveProceso": "11001400302020180047900",
     "notificacion": {
       "291": {
@@ -719,9 +716,7 @@
     "municipio": "BOGOTA",
     "radicado": "2018 - 00479",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-08-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-08-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -737,9 +732,7 @@
     "email": "blancall21@hotmail.com"
   },
   "fecha": "2023-07-05T05:00:00.000Z",
-  "idProcesos": [
-    51173430
-  ],
+  "idProcesos": [51173430],
   "idRegUltimaAct": 1799952450,
   "llaveProceso": "11001400302020180047900",
   "nombre": "BLANCA LILIA BRAVO PAEZ",

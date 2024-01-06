@@ -4,9 +4,7 @@
   "category": "Insolvencia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "7910080321"
-    ],
+    "obligacion": ["7910080321"],
     "llaveProceso": "25320310300120170019500",
     "notificacion": {
       "292": {
@@ -32,9 +30,7 @@
     "municipio": "GUADUAS",
     "radicado": "2017 - 00195",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-04-11T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-04-11T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

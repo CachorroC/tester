@@ -589,22 +589,16 @@
         "fechaOrdenaMedida": "2018-01-03T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2033-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2033-01-01T05:00:00.000Z"],
       "capitalAdeudado": 12024877,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2018-01-03T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-02-23T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-02-23T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        112507
-      ],
+      "obligacion": [112507],
       "radicado": "2018 - 00205"
     }
   ],
@@ -659,9 +653,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51034000
-  ],
+  "idProcesos": [51034000],
   "nombre": "SANTIAGO JAVIER SARABIA JIMENEZ",
   "notificacion": {
     "notifiers": [

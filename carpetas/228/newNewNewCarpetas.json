@@ -691,9 +691,7 @@
     "id": 228
   },
   "demanda": {
-    "obligacion": [
-      "119098"
-    ],
+    "obligacion": ["119098"],
     "llaveProceso": "11001400301820170151700",
     "notificacion": {
       "291": {
@@ -724,9 +722,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01517",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2024-06-03T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2024-06-03T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -742,9 +738,7 @@
     "email": "fabianalexanderg@yahoo.es"
   },
   "fecha": "2023-01-27T05:00:00.000Z",
-  "idProcesos": [
-    50710250
-  ],
+  "idProcesos": [50710250],
   "idRegUltimaAct": 1628233540,
   "llaveProceso": "11001400301820170151700",
   "nombre": "FABIAN ALEXANDER GIL GIL",

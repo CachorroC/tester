@@ -767,22 +767,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO CASA"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 9633585,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-06-06T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-06-14T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-14T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        65758
-      ],
+      "obligacion": [65758],
       "radicado": "2017 - 00892"
     }
   ],
@@ -837,9 +831,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    112625340
-  ],
+  "idProcesos": [112625340],
   "nombre": "SANDRA PATRICIA AGUDELO MONTAGUT",
   "notificacion": {
     "notifiers": [],

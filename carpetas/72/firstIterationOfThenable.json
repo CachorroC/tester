@@ -766,22 +766,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 0,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-09T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "SENTENCIA",
-      "fechaPresentacion": [
-        "2017-06-16T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-16T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2474005
-      ],
+      "obligacion": [2474005],
       "radicado": "2017 - 01241"
     }
   ],
@@ -836,9 +830,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50880040
-  ],
+  "idProcesos": [50880040],
   "nombre": "NESTOR FABIAN ESPITIA FRAILE",
   "notificacion": {
     "notifiers": [],

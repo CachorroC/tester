@@ -2,13 +2,13 @@ import { quicktype,
   InputData,
   jsonInputForTargetLanguage,
   JSONSchemaInput,
-  FetchingJSONSchemaStore } from 'quicktype-core';
+  FetchingJSONSchemaStore, } from 'quicktype-core';
 
 async function quicktypeJSON(
-  targetLanguage, typeName, jsonString
+  targetLanguage, typeName, jsonString 
 ) {
   const jsonInput = jsonInputForTargetLanguage(
-    targetLanguage
+    targetLanguage 
   );
 
   // We could add multiple samples for the same desired
@@ -17,28 +17,28 @@ async function quicktypeJSON(
   await jsonInput.addSource(
     {
       name   : typeName,
-      samples: [ jsonString ]
-    }
+      samples: [ jsonString ],
+    } 
   );
 
   const inputData = new InputData();
   inputData.addInput(
-    jsonInput
+    jsonInput 
   );
 
   return await quicktype(
     {
       inputData,
-      lang: targetLanguage
-    }
+      lang: targetLanguage,
+    } 
   );
 }
 
 async function quicktypeJSONSchema(
-  targetLanguage, typeName, jsonSchemaString
+  targetLanguage, typeName, jsonSchemaString 
 ) {
   const schemaInput = new JSONSchemaInput(
-    new FetchingJSONSchemaStore()
+    new FetchingJSONSchemaStore() 
   );
 
   // We could add multiple schemas for multiple types,
@@ -46,44 +46,48 @@ async function quicktypeJSONSchema(
   await schemaInput.addSource(
     {
       name  : typeName,
-      schema: jsonSchemaString
-    }
+      schema: jsonSchemaString,
+    } 
   );
 
   const inputData = new InputData();
   inputData.addInput(
-    schemaInput
+    schemaInput 
   );
 
   return await quicktype(
     {
       inputData,
-      lang: targetLanguage
-    }
+      lang: targetLanguage,
+    } 
   );
 }
 
 async function main() {
   const {
-    lines: swiftPerson
+    lines: swiftPerson 
   } = await quicktypeJSON(
-    'typescript', 'Person', jsonString
+    'typescript',
+    'Person',
+    jsonString,
   );
   console.log(
     swiftPerson.join(
-      '\n'
-    )
+      '\n' 
+    ) 
   );
 
   const {
-    lines: pythonPerson
+    lines: pythonPerson 
   } = await quicktypeJSONSchema(
-    'python', 'Person', jsonSchemaString
+    'python',
+    'Person',
+    jsonSchemaString,
   );
   console.log(
     pythonPerson.join(
-      '\n'
-    )
+      '\n' 
+    ) 
   );
 }
 

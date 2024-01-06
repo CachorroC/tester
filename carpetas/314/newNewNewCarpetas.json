@@ -10,9 +10,7 @@
     "id": 314
   },
   "demanda": {
-    "obligacion": [
-      "161979"
-    ],
+    "obligacion": ["161979"],
     "llaveProceso": "25126408900220170076800",
     "notificacion": {
       "291": {
@@ -38,16 +36,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "TERMINADO",
-    "fechaPresentacion": [
-      "2017-11-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "CAJICA",
     "radicado": "2017 - 00768",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2033-03-06T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2033-03-06T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

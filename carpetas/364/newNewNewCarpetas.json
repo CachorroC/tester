@@ -668,9 +668,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "144698"
-    ],
+    "obligacion": ["144698"],
     "llaveProceso": "11001400307320170164700",
     "notificacion": {
       "certimail": null,
@@ -686,16 +684,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-12T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-12-14T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-12-14T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01647",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2026-10-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-10-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -711,9 +705,7 @@
     "email": "spatriciasanchez2011@hotmail.com"
   },
   "fecha": "2020-11-06T05:00:00.000Z",
-  "idProcesos": [
-    50923290
-  ],
+  "idProcesos": [50923290],
   "idRegUltimaAct": 997570440,
   "llaveProceso": "11001400307320170164700",
   "nombre": "SANDRA PATRICIA SANCHEZ VELASQUEZ",

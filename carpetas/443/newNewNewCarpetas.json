@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "1740087509"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "1740087509"],
     "llaveProceso": "11001400301020180078400",
     "notificacion": {
       "292": {
@@ -709,9 +706,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-08-05T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-06-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-06-19T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00784",
@@ -732,9 +727,7 @@
     "email": "dieben71@gmail.com"
   },
   "fecha": "2020-02-27T05:00:00.000Z",
-  "idProcesos": [
-    51264250
-  ],
+  "idProcesos": [51264250],
   "idRegUltimaAct": 960759610,
   "llaveProceso": "11001400301020180078400",
   "nombre": "DIEGO FERNANDO BENITEZ ALVARADO",

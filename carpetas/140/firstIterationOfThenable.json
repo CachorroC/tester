@@ -776,9 +776,7 @@
         "fechaOrdenaMedida": "2018-08-06T05:00:00.000Z",
         "medidaSolicitada": "01/08/2017"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -787,9 +785,7 @@
       "etapaProcesal": "11001400307720170056800",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12480702
-      ],
+      "obligacion": [12480702],
       "radicado": "2017 - 00568"
     }
   ],
@@ -844,9 +840,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50921080
-  ],
+  "idProcesos": [50921080],
   "nombre": "JHON FABER FORIGUA GARCIA",
   "notificacion": {
     "notifiers": [

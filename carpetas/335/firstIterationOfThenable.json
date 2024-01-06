@@ -763,9 +763,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": null
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1346476514,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-10-11T05:00:00.000Z",
@@ -774,10 +772,7 @@
       "etapaProcesal": "NOTIFICACION",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4020082793,
-        4513070099197613
-      ],
+      "obligacion": [4020082793, 4513070099197613],
       "radicado": "2018 - 00118"
     }
   ],
@@ -832,9 +827,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50995460
-  ],
+  "idProcesos": [50995460],
   "nombre": "CRISTIAN CAMILO GARCIA ESCOBAR",
   "notificacion": null
 }

@@ -484,9 +484,7 @@
         "fechaOrdenaMedida": "2017-10-10T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2031-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2031-01-01T05:00:00.000Z"],
       "capitalAdeudado": 4894505603,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -495,9 +493,7 @@
       "etapaProcesal": null,
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        146247
-      ],
+      "obligacion": [146247],
       "radicado": "2017 - 00951"
     }
   ],
@@ -552,9 +548,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50492700
-  ],
+  "idProcesos": [50492700],
   "nombre": "MIREYA VIVIANA BELTRAN HERRERA",
   "notificacion": {
     "notifiers": [],

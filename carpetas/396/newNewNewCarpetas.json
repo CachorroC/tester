@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "10000090724"
-    ],
+    "obligacion": ["10000090724"],
     "llaveProceso": "11001400306420170162300",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-11-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-21T05:00:00.000Z"],
     "mandamientoPago": "2017-06-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01623",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-06-08T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-06-08T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "orlandonovoa9@gmail.com"
   },
   "fecha": "2023-03-13T05:00:00.000Z",
-  "idProcesos": [
-    112730580
-  ],
+  "idProcesos": [112730580],
   "idRegUltimaAct": 1675500880,
   "llaveProceso": "11001400306420170162300",
   "nombre": "ORLANDO ENRIQUE NOVOA BARRETO",

@@ -211,10 +211,7 @@
     "primerNombre": "MARIA",
     "segundoNombre": "GEORGINA",
     "primerApellido": "FORERO",
-    "segundoApellido": [
-      "DE",
-      "MENDOZA"
-    ],
+    "segundoApellido": ["DE", "MENDOZA"],
     "cedula": 41336003,
     "direccion": "Calle 152 No. 12C - 12 TORRE 1 APTO 704 Conjunto Residencial ENTRECEDROS en Bogotá y/o Carrera 19 A No. 159 -70/84 Interior 4 Apto 503 Conjunto Residencial Sauces del Norte",
     "email": "adrifor_co@hotmail.com"
@@ -234,9 +231,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    133932120
-  ],
+  "idProcesos": [133932120],
   "nombre": "MARIA GEORGINA FORERO DE MENDOZA",
   "notificacion": null
 }

@@ -763,22 +763,16 @@
         "fechaOrdenaMedida": "2017-07-11T05:00:00.000Z",
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 6766091300,
       "departamento": "CUNDINNAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-07-11T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-09-27T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-27T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12468489
-      ],
+      "obligacion": [12468489],
       "radicado": "2017 - 01219"
     }
   ],
@@ -813,10 +807,7 @@
     "primerNombre": "JULIAN",
     "segundoNombre": "DE",
     "primerApellido": "JESUS",
-    "segundoApellido": [
-      "ISAZA",
-      "AGUIRRE"
-    ],
+    "segundoApellido": ["ISAZA", "AGUIRRE"],
     "cedula": 71192974,
     "direccion": "CARRERA 24 H No 23 A - 08 SUR",
     "email": "mayaconfecciones1@gmail.com"
@@ -836,9 +827,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50739310
-  ],
+  "idProcesos": [50739310],
   "nombre": "JULIAN DE JESUS ISAZA AGUIRRE",
   "notificacion": null
 }

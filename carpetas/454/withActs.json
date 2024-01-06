@@ -705,9 +705,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "13/08/2018"
       },
-      "vencimientoPagare": [
-        "2021-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2021-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -716,10 +714,7 @@
       "etapaProcesal": "11001400308420180067300",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4594250000000000,
-        5303710000000000
-      ],
+      "obligacion": [4594250000000000, 5303710000000000],
       "radicado": "2018 - 00673"
     }
   ],
@@ -774,9 +769,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    112068890
-  ],
+  "idProcesos": [112068890],
   "nombre": "NICOLAS ERNESTO COCOMA ARCINIEGAS",
   "notificacion": {
     "notifiers": [

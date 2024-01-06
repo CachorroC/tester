@@ -770,22 +770,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 23404368,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-09-05T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-05T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        112910
-      ],
+      "obligacion": [112910],
       "radicado": "2017 - 01024"
     }
   ],
@@ -840,9 +834,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50727910
-  ],
+  "idProcesos": [50727910],
   "nombre": "SANDRA BIBIANA RUGE RODRIGUEZ",
   "notificacion": {
     "notifiers": [

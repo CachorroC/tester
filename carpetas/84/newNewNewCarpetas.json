@@ -4,10 +4,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "377815178176828",
-      "53037234659826290"
-    ],
+    "obligacion": ["377815178176828", "53037234659826290"],
     "llaveProceso": "11001400303920170080000",
     "notificacion": {
       "292": {
@@ -28,16 +25,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-06-14T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-14T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017-00800",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-11-05T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-11-05T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

@@ -763,22 +763,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 8359216660,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-10-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        143579
-      ],
+      "obligacion": [143579],
       "radicado": "2017 - 01176"
     }
   ],
@@ -833,9 +827,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50801010
-  ],
+  "idProcesos": [50801010],
   "nombre": "OSCAR ERNESTO SERRANO VELASCO",
   "notificacion": null
 }

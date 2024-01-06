@@ -7,12 +7,7 @@
     "target": "ESNext",
     "jsx": "react",
     "strict": true,
-    "lib": [
-      "ESNext.Array",
-      "ESNext.AsyncIterable",
-      "ES2022.Object",
-      "esnext"
-    ],
+    "lib": ["ESNext.Array", "ESNext.AsyncIterable", "ES2022.Object", "esnext"],
     "esModuleInterop": true
   },
   "exclude": ["node_modules"]

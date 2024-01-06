@@ -776,9 +776,7 @@
         "fechaOrdenaMedida": "2018-11-05T05:00:00.000Z",
         "medidaSolicitada": "8/11/2017"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-09T05:00:00.000Z",
@@ -787,10 +785,7 @@
       "etapaProcesal": "11001400300520170132600",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        6900083898,
-        "4513086465970276 // AUDIOPRESTAMO"
-      ],
+      "obligacion": [6900083898, "4513086465970276 // AUDIOPRESTAMO"],
       "radicado": "2017 - 01326"
     }
   ],
@@ -845,9 +840,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50720040
-  ],
+  "idProcesos": [50720040],
   "nombre": "ADRIANA MARIA PEREZ GOMEZ",
   "notificacion": {
     "notifiers": [

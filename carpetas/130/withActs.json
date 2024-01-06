@@ -776,13 +776,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "LIQUIDACION",
-      "fechaPresentacion": [
-        "2017-08-18T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-18T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        377815000000000
-      ],
+      "obligacion": [377815000000000],
       "radicado": "2017 - 01153"
     }
   ],
@@ -837,9 +833,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50648690
-  ],
+  "idProcesos": [50648690],
   "nombre": "ARMANDO ENRIQUE ROSADO MESTRE",
   "notificacion": {
     "notifiers": [

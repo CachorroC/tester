@@ -709,22 +709,16 @@
         "fechaOrdenaMedida": "2018-07-05T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": 22835665,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2018-07-05T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-04-03T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-04-03T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        450089940
-      ],
+      "obligacion": [450089940],
       "radicado": "2018 - 00370"
     }
   ],
@@ -779,9 +773,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51103200
-  ],
+  "idProcesos": [51103200],
   "nombre": "JENNY LILIANA MONTOYA VILLAMIL",
   "notificacion": null
 }

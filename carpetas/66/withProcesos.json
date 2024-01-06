@@ -281,22 +281,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": 12845011,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-07-21T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-07-21T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12525003
-      ],
+      "obligacion": [12525003],
       "radicado": "2017 - 00702"
     }
   ],
@@ -351,9 +345,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50593320
-  ],
+  "idProcesos": [50593320],
   "nombre": "SANDRA PATRICIA SUAREZ GALVIS",
   "notificacion": {
     "notifiers": [

@@ -10,9 +10,7 @@
     "id": 213
   },
   "demanda": {
-    "obligacion": [
-      "85712"
-    ],
+    "obligacion": ["85712"],
     "llaveProceso": "11001400308822017014880",
     "notificacion": {
       "291": {
@@ -30,16 +28,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-09-04T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-04T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01488",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2021-04-25T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-04-25T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

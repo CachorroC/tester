@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "540691617249629400",
-      "1010082331"
-    ],
+    "obligacion": ["540691617249629400", "1010082331"],
     "llaveProceso": "11001400307320170154500",
     "notificacion": {
       "certimail": null,
@@ -704,16 +701,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-09-11T05:00:00.000Z",
     "etapaProcesal": "TERMINADO",
-    "fechaPresentacion": [
-      "2017-11-22T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-22T05:00:00.000Z"],
     "mandamientoPago": "2017-01-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01545",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-03-17T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-03-17T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -729,9 +722,7 @@
     "email": "paulisgomez94@gmail.com"
   },
   "fecha": "2020-11-06T05:00:00.000Z",
-  "idProcesos": [
-    50866190
-  ],
+  "idProcesos": [50866190],
   "idRegUltimaAct": 997570100,
   "llaveProceso": "11001400307320170154500",
   "nombre": "PAULA ANDREA GOMEZ LOPEZ",

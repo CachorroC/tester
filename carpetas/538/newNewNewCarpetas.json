@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "4099840000000000"
-    ],
+    "obligacion": ["4099840000000000"],
     "llaveProceso": "11001400302720180057700",
     "notificacion": {
       "291": {
@@ -718,9 +716,7 @@
     "municipio": "BOGOTA",
     "radicado": "2018 - 00577",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-09-24T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-09-24T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -736,9 +732,7 @@
     "email": "grovida@gmail.com"
   },
   "fecha": "2023-06-21T05:00:00.000Z",
-  "idProcesos": [
-    51206070
-  ],
+  "idProcesos": [51206070],
   "idRegUltimaAct": 1783927580,
   "llaveProceso": "11001400302720180057700",
   "nombre": "GLORIA GIRALDO DE ROVIDA",

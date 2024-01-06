@@ -650,22 +650,16 @@
         "fechaOrdenaMedida": "2019-12-07T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2021-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2021-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2018-12-10T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-10-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-10-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4594260107010410
-      ],
+      "obligacion": [4594260107010410],
       "radicado": "2019 - 01085"
     }
   ],
@@ -720,9 +714,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    86958040
-  ],
+  "idProcesos": [86958040],
   "nombre": "ANGELICA NATHALY ROZO FRANCO",
   "notificacion": {
     "notifiers": [

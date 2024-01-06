@@ -790,22 +790,16 @@
         "fechaOrdenaMedida": "2017-10-07T05:00:00.000Z",
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-10-07T05:00:00.000Z",
       "etapaProcesal": "EJECUCION",
-      "fechaPresentacion": [
-        "2017-06-20T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12330030
-      ],
+      "obligacion": [12330030],
       "radicado": "2017 - 00836"
     },
     {
@@ -821,22 +815,16 @@
         "fechaOrdenaMedida": "2017-10-07T05:00:00.000Z",
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-10-07T05:00:00.000Z",
       "etapaProcesal": "EJECUCION",
-      "fechaPresentacion": [
-        "2017-06-20T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12330030
-      ],
+      "obligacion": [12330030],
       "radicado": "2017 - 00836"
     }
   ],
@@ -903,10 +891,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50521480,
-    81728891
-  ],
+  "idProcesos": [50521480, 81728891],
   "nombre": "LUIS ESNEIDER ORDUZ FARFAN",
   "notificacion": {
     "notifiers": [

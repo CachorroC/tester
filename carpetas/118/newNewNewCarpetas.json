@@ -583,10 +583,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "37813676080923",
-      "20990093604"
-    ],
+    "obligacion": ["37813676080923", "20990093604"],
     "llaveProceso": "11001400305320170145600",
     "notificacion": null,
     "medidasCautelares": {
@@ -598,16 +595,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-04-08T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-08-11T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-11T05:00:00.000Z"],
     "mandamientoPago": "2017-04-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01456",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-02-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-02-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -623,9 +616,7 @@
     "email": "plangeluchis@gmail.com"
   },
   "fecha": "2020-02-26T05:00:00.000Z",
-  "idProcesos": [
-    12003633
-  ],
+  "idProcesos": [12003633],
   "idRegUltimaAct": 899594353,
   "llaveProceso": "11001400305320170145600",
   "nombre": "JAIME ORLANDO PEÑA ROJAS",

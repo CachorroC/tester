@@ -4,10 +4,7 @@
   "category": "Insolvencia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "186718",
-      "3778153354915637 / 4513079095670572"
-    ],
+    "obligacion": ["186718", "3778153354915637 / 4513079095670572"],
     "llaveProceso": "1100140030202100050100",
     "notificacion": {
       "291": {
@@ -38,9 +35,7 @@
     "municipio": "BOGOTA",
     "radicado": "2018 - 00650",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2020-05-04T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-05-04T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

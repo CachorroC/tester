@@ -617,10 +617,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "4594250000000000",
-      "5303710000000000"
-    ],
+    "obligacion": ["4594250000000000", "5303710000000000"],
     "llaveProceso": "11001400308420180067300",
     "notificacion": {
       "291": {
@@ -651,9 +648,7 @@
     "municipio": "BOGOTA",
     "radicado": "2018 - 00673",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-02-04T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-02-04T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -669,9 +664,7 @@
     "email": "cocomarnico@gmail.com"
   },
   "fecha": "2022-07-13T05:00:00.000Z",
-  "idProcesos": [
-    112068890
-  ],
+  "idProcesos": [112068890],
   "idRegUltimaAct": 1335644390,
   "llaveProceso": "11001400308420180067300",
   "nombre": "NICOLAS ERNESTO COCOMA ARCINIEGAS",

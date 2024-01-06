@@ -691,9 +691,7 @@
     "id": 173
   },
   "demanda": {
-    "obligacion": [
-      "166760"
-    ],
+    "obligacion": ["166760"],
     "llaveProceso": "11001400301520170116100",
     "notificacion": {
       "certimail": false,
@@ -714,9 +712,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01161",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2028-08-09T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2028-08-09T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -732,9 +728,7 @@
     "email": "diegoc8a@gmail.com"
   },
   "fecha": "2019-08-06T05:00:00.000Z",
-  "idProcesos": [
-    50674600
-  ],
+  "idProcesos": [50674600],
   "idRegUltimaAct": 646066760,
   "llaveProceso": "11001400301520170116100",
   "nombre": "DIEGO ALEXANDER CAYCEDO OCHOA",

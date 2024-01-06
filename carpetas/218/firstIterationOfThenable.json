@@ -687,14 +687,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-09-11T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-11T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990118584,
-        "0377813642739792"
-      ],
+      "obligacion": [20990118584, "0377813642739792"],
       "radicado": "2017 - 00840"
     }
   ],
@@ -749,9 +744,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50699960
-  ],
+  "idProcesos": [50699960],
   "nombre": "ELIO ALVARADO HERNANDEZ",
   "notificacion": null
 }

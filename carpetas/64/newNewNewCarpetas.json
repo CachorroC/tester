@@ -294,9 +294,7 @@
   "category": "Insolvencia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "125348220"
-    ],
+    "obligacion": ["125348220"],
     "llaveProceso": "11001400302920170055700",
     "notificacion": {
       "292": {
@@ -322,9 +320,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00557",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-10-22T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-10-22T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -340,9 +336,7 @@
     "email": "rafael.cadena@signsas.com"
   },
   "fecha": "2018-02-22T05:00:00.000Z",
-  "idProcesos": [
-    50517510
-  ],
+  "idProcesos": [50517510],
   "idRegUltimaAct": 731521580,
   "llaveProceso": "11001400302920170055700",
   "nombre": "RAFAEL ERNESTO CADENA PARGA",

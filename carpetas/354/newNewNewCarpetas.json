@@ -232,9 +232,7 @@
     "id": 354
   },
   "demanda": {
-    "obligacion": [
-      "199177"
-    ],
+    "obligacion": ["199177"],
     "llaveProceso": "11001310304520170035900",
     "notificacion": null,
     "medidasCautelares": null,
@@ -243,16 +241,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-11-29T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-29T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00359",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2037-03-01T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2037-03-01T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -268,9 +262,7 @@
     "email": "bagilt@yahoo.com"
   },
   "fecha": "2018-08-10T05:00:00.000Z",
-  "idProcesos": [
-    62939862
-  ],
+  "idProcesos": [62939862],
   "idRegUltimaAct": 886120252,
   "llaveProceso": "11001310304520170035900",
   "nombre": "BERNARDO ANIBAL GIL TORRES",

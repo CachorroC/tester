@@ -162,22 +162,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2027-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2027-01-01T05:00:00.000Z"],
       "capitalAdeudado": 2646930975,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-05-09T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-09-14T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-14T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        147600
-      ],
+      "obligacion": [147600],
       "radicado": "2017 - 01236"
     }
   ],
@@ -232,9 +226,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50745490
-  ],
+  "idProcesos": [50745490],
   "nombre": "ANGEL JOVANI SUAREZ GOMEZ",
   "notificacion": {
     "notifiers": [

@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12711612"
-    ],
+    "obligacion": ["12711612"],
     "llaveProceso": "11001400301720170119500",
     "notificacion": {
       "292": {
@@ -708,16 +706,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-09T05:00:00.000Z",
     "etapaProcesal": "CURADOR AD LITEM",
-    "fechaPresentacion": [
-      "2017-09-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-19T05:00:00.000Z"],
     "mandamientoPago": "2017-12-10T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01195",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-09-06T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-09-06T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -733,10 +727,7 @@
     "email": "gerencia.seguridadgf@gmail.com"
   },
   "fecha": "2023-10-03T05:00:00.000Z",
-  "idProcesos": [
-    50721470,
-    127748331
-  ],
+  "idProcesos": [50721470, 127748331],
   "idRegUltimaAct": 1894535150,
   "llaveProceso": "11001400301720170119500",
   "nombre": "ALIRIO HEREDIA BUITRAGO",

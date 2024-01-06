@@ -267,14 +267,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4513075095312892,
-        5303718444914360
-      ],
+      "obligacion": [4513075095312892, 5303718444914360],
       "radicado": "2017 - 01114"
     }
   ],
@@ -329,9 +324,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50668010
-  ],
+  "idProcesos": [50668010],
   "nombre": "ISABEL CRISTINA GARCIA DURAN",
   "notificacion": {
     "notifiers": [

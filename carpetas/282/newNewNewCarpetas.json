@@ -691,9 +691,7 @@
     "id": 282
   },
   "demanda": {
-    "obligacion": [
-      "174366"
-    ],
+    "obligacion": ["174366"],
     "llaveProceso": "11001400301520170139400",
     "notificacion": {
       "291": {
@@ -719,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-10-10T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-10T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01394",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2024-05-05T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2024-05-05T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -744,9 +738,7 @@
     "email": "maifren_13@yahoo.es"
   },
   "fecha": "2023-12-18T05:00:00.000Z",
-  "idProcesos": [
-    50777890
-  ],
+  "idProcesos": [50777890],
   "idRegUltimaAct": 1943026200,
   "llaveProceso": "11001400301520170139400",
   "nombre": "MATIAS HUMBERTO AVILA AGUILAR",

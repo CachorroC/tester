@@ -368,10 +368,7 @@
     "id": 256
   },
   "demanda": {
-    "obligacion": [
-      "40800882948",
-      "96296"
-    ],
+    "obligacion": ["40800882948", "96296"],
     "llaveProceso": "11001400300720170141000",
     "notificacion": {
       "291": {
@@ -389,16 +386,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-09-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-21T05:00:00.000Z"],
     "mandamientoPago": "2017-04-10T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01410",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2019-09-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-09-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -414,9 +407,7 @@
     "email": "freddydanasebas@hotmail.com"
   },
   "fecha": "2018-04-26T05:00:00.000Z",
-  "idProcesos": [
-    50726160
-  ],
+  "idProcesos": [50726160],
   "idRegUltimaAct": 594690170,
   "llaveProceso": "11001400300720170141000",
   "nombre": "FREDDY ARIAS MARTINEZ",

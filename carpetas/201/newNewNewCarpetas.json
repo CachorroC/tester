@@ -685,10 +685,7 @@
   "category": "Insolvencia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "377816483778266",
-      "4513080485378479"
-    ],
+    "obligacion": ["377816483778266", "4513080485378479"],
     "llaveProceso": "11001400307920170114200",
     "notificacion": {
       "certimail": false,
@@ -728,9 +725,7 @@
     "email": "sebantialbeltransprieto@hotmail.com"
   },
   "fecha": "2023-06-05T05:00:00.000Z",
-  "idProcesos": [
-    128433271
-  ],
+  "idProcesos": [128433271],
   "idRegUltimaAct": 1259812941,
   "llaveProceso": "11001400307920170114200",
   "nombre": "PIEDAD MARITZA OLGA ROCIO PRIETO VARGAS",

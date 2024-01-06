@@ -1,6 +1,6 @@
 import * as fs from 'fs/promises';
 import Carpetas from './src/data/carpetas';
-import {  sleep } from './src/models/thenable';
+import { sleep } from './src/models/thenable';
 import { categoryAssignment } from './src/models/categories';
 import { CarpetaBuilder } from './src/models/carpeta';
 
@@ -9,7 +9,7 @@ async function f() {
 
   const sortedCarpetas = [ ...Carpetas ].sort(
     (
-      a, b
+      a, b 
     ) => {
       const x = a.numero;
 
@@ -22,12 +22,12 @@ async function f() {
       }
 
       return 0;
-    }
+    } 
   );
 
   for ( const rawCarpeta of sortedCarpetas ) {
     const carpeta = categoryAssignment(
-      rawCarpeta
+      rawCarpeta 
     );
 
     /*  if ( carpeta.category === 'Terminados' ) {
@@ -35,13 +35,13 @@ async function f() {
     } */
 
     const thener = new CarpetaBuilder(
-      carpeta
+      carpeta 
     );
 
     await fs.mkdir(
       `carpetas/${ thener.numero }/`, {
         recursive: true,
-      }
+      } 
     );
     await thener.getProcesos();
     await thener.getActuaciones();
@@ -51,32 +51,31 @@ async function f() {
     await fs.writeFile(
       `carpetas/${ thener.numero }/prismaCarpetaFirstIteration.json`,
       JSON.stringify(
-        prismaCarpeta, null, 2
+        prismaCarpeta, null, 2 
       ),
     );
 
     await fs.writeFile(
       `carpetas/${ thener.numero }/firstIterationOfThenable.json`,
       JSON.stringify(
-        thener, null, 2
+        thener, null, 2 
       ),
     );
 
     await sleep(
-      50
+      50 
     );
 
     fs.writeFile(
       `carpetas/${ thener.numero }/withProcesos.json`,
       JSON.stringify(
-        thener, null, 2
+        thener, null, 2 
       ),
     );
 
-
     if ( !thener.procesos || thener.procesos.length === 0 ) {
       newCarpetasMap.set(
-        carpeta.numero, thener
+        carpeta.numero, thener 
       );
 
       continue;
@@ -87,25 +86,25 @@ async function f() {
     fs.writeFile(
       `carpetas/${ thener.numero }/withActs.json`,
       JSON.stringify(
-        thener, null, 2
+        thener, null, 2 
       ),
     );
 
     newCarpetasMap.set(
-      carpeta.numero, thener
+      carpeta.numero, thener 
     );
 
     continue;
   }
 
   const resultArray = Array.from(
-    newCarpetasMap.values()
+    newCarpetasMap.values() 
   );
 
   await fs.writeFile(
     'src/provisionalCarpetas.json',
     JSON.stringify(
-      resultArray, null, 2
+      resultArray, null, 2 
     ),
   );
 
@@ -115,19 +114,19 @@ async function f() {
 f()
   .then(
     (
-      ff
+      ff 
     ) => {
       console.log(
-        ff
+        ff 
       );
       return ff;
-    }
+    } 
   )
   .finally(
     () => {
       console.log(
-        'finally'
+        'finally' 
       );
       return;
-    }
+    } 
   );

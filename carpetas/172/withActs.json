@@ -767,22 +767,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 13487506,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        11895200
-      ],
+      "obligacion": [11895200],
       "radicado": "2017 - 00850"
     }
   ],
@@ -817,10 +811,7 @@
     "primerNombre": "ADRIANA",
     "segundoNombre": "DEL",
     "primerApellido": "PILAR",
-    "segundoApellido": [
-      "ALFONSO",
-      "BAQUERO"
-    ],
+    "segundoApellido": ["ALFONSO", "BAQUERO"],
     "cedula": 52475256,
     "direccion": "CARRERA 79B # 45 - 19 SUR",
     "email": null
@@ -840,9 +831,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50666880
-  ],
+  "idProcesos": [50666880],
   "nombre": "ADRIANA DEL PILAR ALFONSO BAQUERO",
   "notificacion": {
     "notifiers": [],

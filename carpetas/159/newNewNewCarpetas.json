@@ -141,9 +141,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "11932772"
-    ],
+    "obligacion": ["11932772"],
     "llaveProceso": "11001400307320170133300",
     "notificacion": null,
     "medidasCautelares": null,
@@ -152,16 +150,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2017-08-28T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01333",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-08-16T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-08-16T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -177,9 +171,7 @@
     "email": "allantobar@gmail.com"
   },
   "fecha": "2017-11-08T05:00:00.000Z",
-  "idProcesos": [
-    50765090
-  ],
+  "idProcesos": [50765090],
   "idRegUltimaAct": 855746560,
   "llaveProceso": "11001400307320170133300",
   "nombre": "ALLAN FREDY TOBAR ENCISO",

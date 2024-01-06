@@ -783,23 +783,16 @@
         "fechaOrdenaMedida": "2018-05-03T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2018-05-03T05:00:00.000Z",
       "etapaProcesal": "EJECUCION",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        377813597718262,
-        "4513070908078111 // 5303714709873201"
-      ],
+      "obligacion": [377813597718262, "4513070908078111 // 5303714709873201"],
       "radicado": "2018 - 00163"
     },
     {
@@ -815,23 +808,16 @@
         "fechaOrdenaMedida": "2018-05-03T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2018-05-03T05:00:00.000Z",
       "etapaProcesal": "EJECUCION",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        377813597718262,
-        "4513070908078111 // 5303714709873201"
-      ],
+      "obligacion": [377813597718262, "4513070908078111 // 5303714709873201"],
       "radicado": "2018 - 00163"
     }
   ],
@@ -898,10 +884,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51006610,
-    81643141
-  ],
+  "idProcesos": [51006610, 81643141],
   "nombre": "JOSE ANTONIO CASTILLO CORTES",
   "notificacion": {
     "notifiers": [

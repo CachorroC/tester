@@ -175,9 +175,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "320095437"
-    ],
+    "obligacion": ["320095437"],
     "llaveProceso": "11001400306420170113800",
     "notificacion": {
       "291": {
@@ -195,16 +193,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-21T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01138",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-04-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-04-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -220,9 +214,7 @@
     "email": "olgagallego63@hotmail.com"
   },
   "fecha": "2018-04-25T05:00:00.000Z",
-  "idProcesos": [
-    17941680
-  ],
+  "idProcesos": [17941680],
   "idRegUltimaAct": 265448180,
   "llaveProceso": "11001400306420170113800",
   "nombre": "OLGA GALLEGO",

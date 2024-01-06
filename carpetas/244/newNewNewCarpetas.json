@@ -198,9 +198,7 @@
     "id": 244
   },
   "demanda": {
-    "obligacion": [
-      "161786"
-    ],
+    "obligacion": ["161786"],
     "llaveProceso": "11001400302620170100600",
     "notificacion": {
       "291": {
@@ -218,16 +216,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-09T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-09-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-19T05:00:00.000Z"],
     "mandamientoPago": "2017-10-10T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01006",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2033-02-28T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2033-02-28T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -243,9 +237,7 @@
     "email": "pajulo8@hotmail.com"
   },
   "fecha": "2017-12-13T05:00:00.000Z",
-  "idProcesos": [
-    50718800
-  ],
+  "idProcesos": [50718800],
   "idRegUltimaAct": 713977140,
   "llaveProceso": "11001400302620170100600",
   "nombre": "RICARDO ANDRES NOCUA GUATAMA",

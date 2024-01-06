@@ -583,10 +583,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "40998833882814000",
-      "5303729887314280"
-    ],
+    "obligacion": ["40998833882814000", "5303729887314280"],
     "llaveProceso": "11001400308120180051400",
     "notificacion": {
       "291": {
@@ -612,16 +609,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-04-25T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-04-25T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00514",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-10-05T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-10-05T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -637,9 +630,7 @@
     "email": "mariaclarareyes@hotmail.com"
   },
   "fecha": "2023-03-14T05:00:00.000Z",
-  "idProcesos": [
-    51918470
-  ],
+  "idProcesos": [51918470],
   "idRegUltimaAct": 1676267630,
   "llaveProceso": "11001400308120180051400",
   "nombre": "MARIA CLARA REYES REYES",

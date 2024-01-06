@@ -116,18 +116,14 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": 27308454,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EL 22/08/2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA //  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
-      "fechaPresentacion": [
-        "2018-08-22T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-08-22T05:00:00.000Z"],
       "municipio": "BOGOTA",
       "obligacion": [
         118010,
@@ -187,9 +183,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51500810
-  ],
+  "idProcesos": [51500810],
   "nombre": "ROBERTO RICO RUIZ",
   "notificacion": null
 }

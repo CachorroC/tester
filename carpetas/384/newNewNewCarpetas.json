@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "130026"
-    ],
+    "obligacion": ["130026"],
     "llaveProceso": "11001400305620180011000",
     "notificacion": {
       "292": {
@@ -708,16 +706,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2018-01-30T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-01-30T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00110",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2025-06-07T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2025-06-07T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -733,9 +727,7 @@
     "email": "d8003galindo@gmail.com"
   },
   "fecha": "2020-02-28T05:00:00.000Z",
-  "idProcesos": [
-    50980370
-  ],
+  "idProcesos": [50980370],
   "idRegUltimaAct": 961171510,
   "llaveProceso": "11001400305620180011000",
   "nombre": "DIEGO JAVIER GALINDO MEJIA",

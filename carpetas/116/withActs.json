@@ -669,23 +669,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-08T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-08T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12001404,
-        "4513070579287120."
-      ],
+      "obligacion": [12001404, "4513070579287120."],
       "radicado": "2017 - 00830"
     }
   ],
@@ -740,9 +733,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50624030
-  ],
+  "idProcesos": [50624030],
   "nombre": "ANA KARINA MANTILLA PARDO",
   "notificacion": {
     "notifiers": [

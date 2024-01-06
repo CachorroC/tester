@@ -691,10 +691,7 @@
     "id": 416
   },
   "demanda": {
-    "obligacion": [
-      "2330087192",
-      "2330087423"
-    ],
+    "obligacion": ["2330087192", "2330087423"],
     "llaveProceso": "11001400302020170147700",
     "notificacion": {
       "291": {
@@ -720,16 +717,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-11-24T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-24T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01477",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-02-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-02-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -745,9 +738,7 @@
     "email": "yulypgarcia.montplas@gmail.com"
   },
   "fecha": "2023-11-03T05:00:00.000Z",
-  "idProcesos": [
-    50873000
-  ],
+  "idProcesos": [50873000],
   "idRegUltimaAct": 1928198460,
   "llaveProceso": "11001400302020170147700",
   "nombre": "JOSE ANTONIO MONTEALEGRE HERNANDEZ",

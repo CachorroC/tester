@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "1220084112"
-    ],
+    "obligacion": ["1220084112"],
     "llaveProceso": "11001400307920170108200",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-08T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-08-23T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-23T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01082",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-11-30T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-11-30T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "jhon.valencia@jvtel.com.co"
   },
   "fecha": "2023-12-04T05:00:00.000Z",
-  "idProcesos": [
-    51357750
-  ],
+  "idProcesos": [51357750],
   "idRegUltimaAct": 1939754720,
   "llaveProceso": "11001400307920170108200",
   "nombre": "JOHN ALEXANDER VALENCIA MARQUEZ",

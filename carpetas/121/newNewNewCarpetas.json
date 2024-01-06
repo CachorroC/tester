@@ -4,10 +4,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "451305630938242.",
-      "20990179915 // AUDIOPRESTAMO"
-    ],
+    "obligacion": ["451305630938242.", "20990179915 // AUDIOPRESTAMO"],
     "llaveProceso": "25430400300120180027300",
     "notificacion": {
       "291": {
@@ -28,16 +25,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-04-08T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-11T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-11T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "MADRID",
     "radicado": "2018 - 00273",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2029-12-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2029-12-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

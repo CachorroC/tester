@@ -192,9 +192,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "20990138197"
-    ],
+    "obligacion": ["20990138197"],
     "llaveProceso": "11001400307520190100800",
     "notificacion": null,
     "medidasCautelares": null,
@@ -203,16 +201,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2019-06-04T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2019-06-04T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2019 - 01008",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2026-04-25T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-04-25T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -228,9 +222,7 @@
     "email": "grpte@hotmail.com"
   },
   "fecha": "2019-11-19T05:00:00.000Z",
-  "idProcesos": [
-    70545740
-  ],
+  "idProcesos": [70545740],
   "idRegUltimaAct": 869815920,
   "llaveProceso": "11001400307520190100800",
   "nombre": "INGRIT YOHANA VASQUEZ ROJAS",

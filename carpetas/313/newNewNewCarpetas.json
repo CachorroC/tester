@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "3000093979"
-    ],
+    "obligacion": ["3000093979"],
     "llaveProceso": "11001400307820170104900",
     "notificacion": {
       "292": {
@@ -713,9 +711,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01049",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2017-06-22T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-06-22T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -731,9 +727,7 @@
     "email": "mauricioperez7314@hotmail.com"
   },
   "fecha": "2022-09-01T05:00:00.000Z",
-  "idProcesos": [
-    51463110
-  ],
+  "idProcesos": [51463110],
   "idRegUltimaAct": 1384688780,
   "llaveProceso": "11001400307820170104900",
   "nombre": "MAURICIO PEREZ PLAZAS",

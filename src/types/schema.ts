@@ -5,423 +5,420 @@
 //   const schema = Convert.toSchema(json);
 
 export interface Schema {
-  actuacion?:         Actuacion;
-  carpeta?:           Carpeta;
-  codeudor?:          Codeudor;
-  demanda?:           Demanda;
-  deudor?:            Deudor;
-  juzgado?:           Juzgado;
+  actuacion?: Actuacion;
+  carpeta?: Carpeta;
+  codeudor?: Codeudor;
+  demanda?: Demanda;
+  deudor?: Deudor;
+  juzgado?: Juzgado;
   medidasCautelares?: MedidasCautelares;
-  nota?:              Nota;
-  notificacion?:      Notificacion;
-  notifier?:          Notifier;
-  proceso?:           Proceso;
-  subTarea?:          SubTarea;
-  tarea?:             Tarea;
-
+  nota?: Nota;
+  notificacion?: Notificacion;
+  notifier?: Notifier;
+  proceso?: Proceso;
+  subTarea?: SubTarea;
+  tarea?: Tarea;
 }
 
 export interface SubTarea {
-  Tarea?:      null | Tarea;
-  date?:       Date | null;
-  id?:         number;
+  Tarea?: null | Tarea;
+  date?: Date | null;
+  id?: number;
   isComplete?: boolean;
-  text?:       string;
-
+  text?: string;
 }
 
 export interface Tarea {
-  Carpeta?:   null | Carpeta;
-  complete?:  boolean;
-  content?:   null | string;
+  Carpeta?: null | Carpeta;
+  complete?: boolean;
+  content?: null | string;
   createdAt?: Date;
-  dueDate?:   Date | null;
-  id?:        number;
+  dueDate?: Date | null;
+  id?: number;
   subTareas?: SubTarea[];
-  title?:     string;
+  title?: string;
   updatedAt?: Date;
-
 }
 
 export interface Juzgado {
-  id?:       number;
+  id?: number;
   procesos?: Proceso[];
-  tipo?:     string;
-  url?:      string;
-
+  tipo?: string;
+  url?: string;
 }
 
 export interface Proceso {
-  actuaciones?:          Actuacion[];
-  cantFilas?:            number;
-  carpeta?:              Carpeta;
-  departamento?:         string;
-  despacho?:             string;
-  esPrivado?:            boolean;
-  fechaProceso?:         Date | null;
+  actuaciones?: Actuacion[];
+  cantFilas?: number;
+  carpeta?: Carpeta;
+  departamento?: string;
+  despacho?: string;
+  esPrivado?: boolean;
+  fechaProceso?: Date | null;
   fechaUltimaActuacion?: Date | null;
-  idConexion?:           number;
-  idProceso?:            number;
-  juzgado?:              Juzgado;
-  llaveProceso?:         string;
-  sujetosProcesales?:    string;
-
+  idConexion?: number;
+  idProceso?: number;
+  juzgado?: Juzgado;
+  llaveProceso?: string;
+  sujetosProcesales?: string;
 }
 
 export interface Notifier {
-  fechaAporta?:   Date | null;
+  fechaAporta?: Date | null;
   fechaRecibido?: Date | null;
-  id?:            number;
-  notificacion?:  null | Notificacion;
-  resultado?:     boolean | null;
-  tipo?:          string;
-
+  id?: number;
+  notificacion?: null | Notificacion;
+  resultado?: boolean | null;
+  tipo?: string;
 }
 
 export interface Notificacion {
   autoNotificado?: null | string;
-  carpeta?:        Carpeta;
-  certimail?:      boolean | null;
-  fisico?:         boolean | null;
-  id?:             number;
-  notifiers?:      Notifier[];
-
+  carpeta?: Carpeta;
+  certimail?: boolean | null;
+  fisico?: boolean | null;
+  id?: number;
+  notifiers?: Notifier[];
 }
 
 export interface Nota {
-  carpeta?:   null | Carpeta;
-  content?:   null | string;
+  carpeta?: null | Carpeta;
+  content?: null | string;
   createdAt?: Date;
-  date?:      Date;
-  id?:        number;
-  pathname?:  null | string;
-  title?:     string;
+  date?: Date;
+  id?: number;
+  pathname?: null | string;
+  title?: string;
   updatedAt?: Date;
-
 }
 
 export interface Deudor {
-  carpeta?:         Carpeta;
-  cedula?:          string;
-  direccion?:       null | string;
-  email?:           null | string;
-  id?:              number;
-  primerApellido?:  string;
-  primerNombre?:    string;
+  carpeta?: Carpeta;
+  cedula?: string;
+  direccion?: null | string;
+  email?: null | string;
+  id?: number;
+  primerApellido?: string;
+  primerNombre?: string;
   segundoApellido?: null | string;
-  segundoNombre?:   null | string;
-  telCelular?:      null | string;
-  telFijo?:         null | string;
-
+  segundoNombre?: null | string;
+  telCelular?: null | string;
+  telFijo?: null | string;
 }
 
 export interface MedidasCautelares {
-  demanda?:           Demanda[];
+  demanda?: Demanda[];
   fechaOrdenaMedida?: Date | null;
-  id?:                number;
-  medidaSolicitada?:  null | string;
-
+  id?: number;
+  medidaSolicitada?: null | string;
 }
 
 export interface Demanda {
-  capitalAdeudado?:         number | null;
-  carpeta?:                 Carpeta;
-  departamento?:            null | string;
-  despacho?:                null | string;
+  capitalAdeudado?: number | null;
+  carpeta?: Carpeta;
+  departamento?: null | string;
+  despacho?: null | string;
   entregaGarantiasAbogado?: Date | null;
-  etapaProcesal?:           null | string;
-  expediente?:              null | string;
-  fechaPresentacion?:       string[];
-  id?:                      number;
-  mandamientoPago?:         Date | null;
-  medidasCautelares?:       null | MedidasCautelares;
-  municipio?:               null | string;
-  obligacion?:              string[];
-  radicado?:                null | string;
-  tipoProceso?:             TipoProceso;
-  vencimientoPagare?:       string[];
-
+  etapaProcesal?: null | string;
+  expediente?: null | string;
+  fechaPresentacion?: string[];
+  id?: number;
+  mandamientoPago?: Date | null;
+  medidasCautelares?: null | MedidasCautelares;
+  municipio?: null | string;
+  obligacion?: string[];
+  radicado?: null | string;
+  tipoProceso?: TipoProceso;
+  vencimientoPagare?: string[];
 }
 
 export interface Codeudor {
-  carpeta?:   Carpeta;
-  cedula?:    null | string;
+  carpeta?: Carpeta;
+  cedula?: null | string;
   direccion?: null | string;
-  id?:        number;
-  nombre?:    null | string;
-  telefono?:  null | string;
-
+  id?: number;
+  nombre?: null | string;
+  telefono?: null | string;
 }
 
 export interface Carpeta {
-  category?:        Category;
-  codeudor?:        null | Codeudor;
-  demanda?:         null | Demanda;
-  deudor?:          null | Deudor;
-  fecha?:           Date | null;
-  idProcesos?:      number[];
-  llaveProceso?:    string;
-  nombre?:          string;
-  notas?:           Nota[];
-  notificacion?:    null | Notificacion;
-  numero?:          number;
-  procesos?:        Proceso[];
-  revisado?:        boolean;
-  tareas?:          Tarea[];
-  terminado?:       boolean;
+  category?: Category;
+  codeudor?: null | Codeudor;
+  demanda?: null | Demanda;
+  deudor?: null | Deudor;
+  fecha?: Date | null;
+  idProcesos?: number[];
+  llaveProceso?: string;
+  nombre?: string;
+  notas?: Nota[];
+  notificacion?: null | Notificacion;
+  numero?: number;
+  procesos?: Proceso[];
+  revisado?: boolean;
+  tareas?: Tarea[];
+  terminado?: boolean;
   ultimaActuacion?: null | Actuacion;
-  updatedAt?:       Date;
-
+  updatedAt?: Date;
 }
 
 export interface Actuacion {
-  actuacion?:      string;
-  anotacion?:      null | string;
-  cant?:           number;
-  carpetaNumero?:  number | null;
-  carpetas?:       Carpeta[];
-  codRegla?:       string;
-  conDocumentos?:  boolean;
-  consActuacion?:  number;
-  createdAt?:      Date;
+  actuacion?: string;
+  anotacion?: null | string;
+  cant?: number;
+  carpetaNumero?: number | null;
+  carpetas?: Carpeta[];
+  codRegla?: string;
+  conDocumentos?: boolean;
+  consActuacion?: number;
+  createdAt?: Date;
   fechaActuacion?: Date;
-  fechaFinal?:     Date | null;
-  fechaInicial?:   Date | null;
-  fechaRegistro?:  Date;
+  fechaFinal?: Date | null;
+  fechaInicial?: Date | null;
+  fechaRegistro?: Date;
   idRegActuacion?: number;
-  isUltimaAct?:    boolean;
-  llaveProceso?:   string;
-  proceso?:        Proceso;
-
+  isUltimaAct?: boolean;
+  llaveProceso?: string;
+  proceso?: Proceso;
 }
 
-export type TipoProceso = 'HIPOTECARIO' | 'PRENDARIO' | 'SINGULAR' | 'ACUMULADO';
+export type TipoProceso =
+  | 'HIPOTECARIO'
+  | 'PRENDARIO'
+  | 'SINGULAR'
+  | 'ACUMULADO';
 
-export type Category = 'Terminados' | 'LiosJuridicos' | 'Bancolombia' | 'Reintegra' | 'Insolvencia' | 'SinEspecificar' | 'todos';
+export type Category =
+  | 'Terminados'
+  | 'LiosJuridicos'
+  | 'Bancolombia'
+  | 'Reintegra'
+  | 'Insolvencia'
+  | 'SinEspecificar'
+  | 'todos';
 
 // Converts JSON strings to/from your types
 export class Convert {
   public static toSchema(
-    json: string
+    json: string 
   ): Schema {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static schemaToJson(
-    value: Schema
+    value: Schema 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toSubTarea(
-    json: string
+    json: string 
   ): SubTarea {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static subTareaToJson(
-    value: SubTarea
+    value: SubTarea 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toTarea(
-    json: string
+    json: string 
   ): Tarea {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static tareaToJson(
-    value: Tarea
+    value: Tarea 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toJuzgado(
-    json: string
+    json: string 
   ): Juzgado {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static juzgadoToJson(
-    value: Juzgado
+    value: Juzgado 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toProceso(
-    json: string
+    json: string 
   ): Proceso {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static procesoToJson(
-    value: Proceso
+    value: Proceso 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toNotifier(
-    json: string
+    json: string 
   ): Notifier {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static notifierToJson(
-    value: Notifier
+    value: Notifier 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toNotificacion(
-    json: string
+    json: string 
   ): Notificacion {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static notificacionToJson(
-    value: Notificacion
+    value: Notificacion 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toNota(
-    json: string
+    json: string 
   ): Nota {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static notaToJson(
-    value: Nota
+    value: Nota 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toDeudor(
-    json: string
+    json: string 
   ): Deudor {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static deudorToJson(
-    value: Deudor
+    value: Deudor 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toMedidasCautelares(
-    json: string
+    json: string 
   ): MedidasCautelares {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static medidasCautelaresToJson(
-    value: MedidasCautelares
+    value: MedidasCautelares 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toDemanda(
-    json: string
+    json: string 
   ): Demanda {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static demandaToJson(
-    value: Demanda
+    value: Demanda 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toCodeudor(
-    json: string
+    json: string 
   ): Codeudor {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static codeudorToJson(
-    value: Codeudor
+    value: Codeudor 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toCarpeta(
-    json: string
+    json: string 
   ): Carpeta {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static carpetaToJson(
-    value: Carpeta
+    value: Carpeta 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 
   public static toActuacion(
-    json: string
+    json: string 
   ): Actuacion {
     return JSON.parse(
-      json
+      json 
     );
   }
 
   public static actuacionToJson(
-    value: Actuacion
+    value: Actuacion 
   ): string {
     return JSON.stringify(
-      value
+      value 
     );
   }
 }

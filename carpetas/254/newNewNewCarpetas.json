@@ -4,10 +4,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "9460081795",
-      "5303727444531025"
-    ],
+    "obligacion": ["9460081795", "5303727444531025"],
     "llaveProceso": "25175408900320170047700",
     "notificacion": {
       "291": {
@@ -33,16 +30,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2017-09-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "CHIA",
     "radicado": "2017 - 00477",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-05-09T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-05-09T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

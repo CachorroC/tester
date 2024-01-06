@@ -317,9 +317,7 @@
     "id": 330
   },
   "demanda": {
-    "obligacion": [
-      "156888"
-    ],
+    "obligacion": ["156888"],
     "llaveProceso": "11001400307020170121800",
     "notificacion": null,
     "medidasCautelares": null,
@@ -328,16 +326,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2017-11-14T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-14T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01218",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2042-10-09T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2042-10-09T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -353,9 +347,7 @@
     "email": "arby3920@hotmail.com"
   },
   "fecha": "2021-09-22T05:00:00.000Z",
-  "idProcesos": [
-    113385910
-  ],
+  "idProcesos": [113385910],
   "idRegUltimaAct": 1250395210,
   "llaveProceso": "11001400307020170121800",
   "nombre": "NELSON ARBEY CANGREJO SUAREZ",

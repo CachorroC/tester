@@ -4,10 +4,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "90000218729",
-      "2010089751"
-    ],
+    "obligacion": ["90000218729", "2010089751"],
     "llaveProceso": "SinEspecificar",
     "notificacion": null,
     "medidasCautelares": null,
@@ -21,9 +18,7 @@
     "municipio": "SOACHA",
     "radicado": "2023-899",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2052-11-18T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2052-11-18T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

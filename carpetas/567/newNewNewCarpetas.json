@@ -141,9 +141,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "1000094307"
-    ],
+    "obligacion": ["1000094307"],
     "llaveProceso": "11001400306520230124300",
     "notificacion": null,
     "medidasCautelares": null,
@@ -157,9 +155,7 @@
     "municipio": "BOGOTA",
     "radicado": "2023 - 01284",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2027-08-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2027-08-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -175,9 +171,7 @@
     "email": "wilsonmolina16@hotmail.com"
   },
   "fecha": "2023-12-05T05:00:00.000Z",
-  "idProcesos": [
-    132262030
-  ],
+  "idProcesos": [132262030],
   "idRegUltimaAct": 1940379920,
   "llaveProceso": "11001400306520230124300",
   "nombre": "WILSON DE JESUS MOLINA QUIRAMA",

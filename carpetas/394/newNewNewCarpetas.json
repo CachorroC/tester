@@ -464,9 +464,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "165720"
-    ],
+    "obligacion": ["165720"],
     "llaveProceso": "11001400305120180029900",
     "notificacion": {
       "292": {
@@ -487,16 +485,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-02-05T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-05T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00299",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2033-07-08T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2033-07-08T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -512,9 +506,7 @@
     "email": "servicioscyga@hotmail.com"
   },
   "fecha": "2021-05-27T05:00:00.000Z",
-  "idProcesos": [
-    11496423
-  ],
+  "idProcesos": [11496423],
   "idRegUltimaAct": 1024250433,
   "llaveProceso": "11001400305120180029900",
   "nombre": "OMAR HERNANDO QUIROGA TORRES",

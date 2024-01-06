@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "71141"
-    ],
+    "obligacion": ["71141"],
     "llaveProceso": "11001400306520170178600",
     "notificacion": {
       "certimail": null,
@@ -703,16 +701,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-12-07T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-12-07T05:00:00.000Z"],
     "mandamientoPago": "2018-02-02T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01786",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2018-07-29T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-07-29T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -728,9 +722,7 @@
     "email": null
   },
   "fecha": "2020-01-14T05:00:00.000Z",
-  "idProcesos": [
-    18169790
-  ],
+  "idProcesos": [18169790],
   "idRegUltimaAct": 944912050,
   "llaveProceso": "11001400306520170178600",
   "nombre": "JOSE DAVID PEÑA SAAVEDRA",

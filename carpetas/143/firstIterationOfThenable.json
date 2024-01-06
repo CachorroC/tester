@@ -482,22 +482,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 9079297,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-22T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-22T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4280023643
-      ],
+      "obligacion": [4280023643],
       "radicado": "2017 - 01089"
     }
   ],
@@ -552,9 +546,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50654580
-  ],
+  "idProcesos": [50654580],
   "nombre": "PAOLA ANDREA RODRIGUEZ MORALES",
   "notificacion": null
 }

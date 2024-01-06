@@ -777,9 +777,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "28/11/2017"
       },
-      "vencimientoPagare": [
-        "2037-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2037-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -846,9 +844,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    28907104
-  ],
+  "idProcesos": [28907104],
   "nombre": "JAIRO TIBATA",
   "notificacion": {
     "notifiers": [

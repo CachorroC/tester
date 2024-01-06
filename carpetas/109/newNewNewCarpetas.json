@@ -600,9 +600,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12491571"
-    ],
+    "obligacion": ["12491571"],
     "llaveProceso": "11001400302420180011900",
     "notificacion": {
       "certimail": false,
@@ -618,16 +616,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-08T05:00:00.000Z"],
     "mandamientoPago": "2018-03-04T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2018 - 00119",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-07-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-07-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -643,9 +637,7 @@
     "email": "oscar.agudelo@crcom.gov.co"
   },
   "fecha": "2019-12-10T05:00:00.000Z",
-  "idProcesos": [
-    50990990
-  ],
+  "idProcesos": [50990990],
   "idRegUltimaAct": 903204510,
   "llaveProceso": "11001400302420180011900",
   "nombre": "OSCAR IVAN AGUDELO MORA",

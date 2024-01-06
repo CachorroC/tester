@@ -10,9 +10,7 @@
     "id": 34
   },
   "demanda": {
-    "obligacion": [
-      "23595"
-    ],
+    "obligacion": ["23595"],
     "llaveProceso": "25307400300320170033000",
     "notificacion": {
       "291": {
@@ -30,16 +28,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-06T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-08T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "GIRARDOT",
     "radicado": "2017 - 00330",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2036-04-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2036-04-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

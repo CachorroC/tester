@@ -480,23 +480,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 21493086,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-06-16T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-16T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12653060,
-        "377813471593666//5303720056388123"
-      ],
+      "obligacion": [12653060, "377813471593666//5303720056388123"],
       "radicado": "2017 - 00557"
     }
   ],
@@ -551,9 +544,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    10130443
-  ],
+  "idProcesos": [10130443],
   "nombre": "JUAN PABLO RUBIO ESGUERRA",
   "notificacion": {
     "notifiers": [],

@@ -691,9 +691,7 @@
     "id": 320
   },
   "demanda": {
-    "obligacion": [
-      "12727553"
-    ],
+    "obligacion": ["12727553"],
     "llaveProceso": "11001400305620170131200",
     "notificacion": {
       "291": {
@@ -724,9 +722,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01312",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-10-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-10-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -742,9 +738,7 @@
     "email": "crisandres12@hotmail.com"
   },
   "fecha": "2023-10-05T05:00:00.000Z",
-  "idProcesos": [
-    50916090
-  ],
+  "idProcesos": [50916090],
   "idRegUltimaAct": 1895582280,
   "llaveProceso": "11001400305620170131200",
   "nombre": "MARIA CAMILA MACIAS PADILLA",

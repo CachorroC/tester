@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "6900083898",
-      "4513086465970276 // AUDIOPRESTAMO"
-    ],
+    "obligacion": ["6900083898", "4513086465970276 // AUDIOPRESTAMO"],
     "llaveProceso": "11001400300520170132600",
     "notificacion": {
       "291": {
@@ -719,9 +716,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01326",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2017-06-10T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-06-10T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -737,9 +732,7 @@
     "email": "adrianitaa@gmail.com"
   },
   "fecha": "2023-05-25T05:00:00.000Z",
-  "idProcesos": [
-    50720040
-  ],
+  "idProcesos": [50720040],
   "idRegUltimaAct": 1754755510,
   "llaveProceso": "11001400300520170132600",
   "nombre": "ADRIANA MARIA PEREZ GOMEZ",

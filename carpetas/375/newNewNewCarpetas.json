@@ -430,9 +430,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "179854"
-    ],
+    "obligacion": ["179854"],
     "llaveProceso": "11001400304020180012300",
     "notificacion": {
       "292": {
@@ -453,16 +451,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-01-22T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-01-22T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00123",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2034-08-24T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2034-08-24T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -478,9 +472,7 @@
     "email": "alfredozorromart@hotmail.com"
   },
   "fecha": "2022-10-05T05:00:00.000Z",
-  "idProcesos": [
-    19155581
-  ],
+  "idProcesos": [19155581],
   "idRegUltimaAct": 1184571551,
   "llaveProceso": "11001400304020180012300",
   "nombre": "JHON ALFREDO ZORRO MARTINEZ",

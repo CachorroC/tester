@@ -685,9 +685,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2530444"
-    ],
+    "obligacion": ["2530444"],
     "llaveProceso": "11001400300320170088400",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
     "etapaProcesal": "EMPLAZAMIENTO",
-    "fechaPresentacion": [
-      "2017-05-24T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
     "mandamientoPago": "2017-02-06T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00884",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-05-04T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-05-04T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,10 +732,7 @@
     "email": "yess_Id@hotmail.com"
   },
   "fecha": "2023-12-18T05:00:00.000Z",
-  "idProcesos": [
-    50468620,
-    113956611
-  ],
+  "idProcesos": [50468620, 113956611],
   "idRegUltimaAct": 1942733750,
   "llaveProceso": "11001400300320170088400",
   "nombre": "YESID ALBEIRO RAMOS",

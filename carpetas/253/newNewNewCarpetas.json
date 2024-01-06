@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12395327"
-    ],
+    "obligacion": ["12395327"],
     "llaveProceso": "11001400302520170099800",
     "notificacion": {
       "291": {
@@ -718,9 +716,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00998",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-09-04T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-09-04T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -736,9 +732,7 @@
     "email": "jan_2504@hotmail.com"
   },
   "fecha": "2022-11-11T05:00:00.000Z",
-  "idProcesos": [
-    50708840
-  ],
+  "idProcesos": [50708840],
   "idRegUltimaAct": 1503714940,
   "llaveProceso": "11001400302520170099800",
   "nombre": "JORGE EDUARDO ACOSTA CORREDOR",

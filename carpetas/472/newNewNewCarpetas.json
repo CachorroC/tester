@@ -4,10 +4,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2010085214",
-      "3778150000000"
-    ],
+    "obligacion": ["2010085214", "3778150000000"],
     "llaveProceso": "11001418900920180038900",
     "notificacion": {
       "291": {
@@ -25,16 +22,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-03-08T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-08-09T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-08-09T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00389",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2022-03-13T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-03-13T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

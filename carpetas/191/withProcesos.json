@@ -778,22 +778,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "ACCIONES SALARIO BANCOS"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-11-08T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-08-23T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-23T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        1220084112
-      ],
+      "obligacion": [1220084112],
       "radicado": "2017 - 01082"
     }
   ],
@@ -848,9 +842,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51357750
-  ],
+  "idProcesos": [51357750],
   "nombre": "JOHN ALEXANDER VALENCIA MARQUEZ",
   "notificacion": {
     "notifiers": [

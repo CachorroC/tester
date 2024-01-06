@@ -107,9 +107,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "103162"
-    ],
+    "obligacion": ["103162"],
     "llaveProceso": "11001400303420170147100",
     "notificacion": {
       "291": {
@@ -127,16 +125,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-11-02T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-02T05:00:00.000Z"],
     "mandamientoPago": "2017-04-12T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01471",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-11-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-11-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -152,9 +146,7 @@
     "email": "elpotegomez@hotmail.com"
   },
   "fecha": "2018-02-27T05:00:00.000Z",
-  "idProcesos": [
-    50834080
-  ],
+  "idProcesos": [50834080],
   "idRegUltimaAct": 764147220,
   "llaveProceso": "11001400303420170147100",
   "nombre": "JORGE ELIECER GOMEZ LOPEZ",

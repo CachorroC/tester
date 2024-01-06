@@ -691,9 +691,7 @@
     "id": 268
   },
   "demanda": {
-    "obligacion": [
-      "12649406"
-    ],
+    "obligacion": ["12649406"],
     "llaveProceso": "11001400303520170147500",
     "notificacion": {
       "291": {
@@ -724,9 +722,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01475",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-09-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-09-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -742,9 +738,7 @@
     "email": "johuleal@gmail.com"
   },
   "fecha": "2021-04-22T05:00:00.000Z",
-  "idProcesos": [
-    50764160
-  ],
+  "idProcesos": [50764160],
   "idRegUltimaAct": 1013262230,
   "llaveProceso": "11001400303520170147500",
   "nombre": "JORGE HUGO LEAL SERRATO",

@@ -107,9 +107,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "142837"
-    ],
+    "obligacion": ["142837"],
     "llaveProceso": "11001400302520180023700",
     "notificacion": null,
     "medidasCautelares": null,
@@ -118,16 +116,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-02-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-20T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018-0237",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-10-15T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-10-15T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -143,9 +137,7 @@
     "email": "dandraojeda_5@hotmail.com"
   },
   "fecha": "2018-03-07T05:00:00.000Z",
-  "idProcesos": [
-    51025410
-  ],
+  "idProcesos": [51025410],
   "idRegUltimaAct": 707397900,
   "llaveProceso": "11001400302520180023700",
   "nombre": "SANDRA PATRICIA  OJEDA RODRIGUEZ",

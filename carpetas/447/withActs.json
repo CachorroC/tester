@@ -142,9 +142,7 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2027-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2027-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1926050000,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -153,9 +151,7 @@
       "etapaProcesal": "ADMISION",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        1010082679
-      ],
+      "obligacion": [1010082679],
       "radicado": "2018 - 00711"
     }
   ],
@@ -210,9 +206,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51277500
-  ],
+  "idProcesos": [51277500],
   "nombre": "CARLOS ANTONIO PACHECO TORRES",
   "notificacion": null
 }

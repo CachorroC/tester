@@ -685,9 +685,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2150091504"
-    ],
+    "obligacion": ["2150091504"],
     "llaveProceso": "11001400300120170100100",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-08-08T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-08T05:00:00.000Z"],
     "mandamientoPago": "2017-05-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01001",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-11-03T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-11-03T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "grupocomerciallasabana@hotmail.com"
   },
   "fecha": "2023-11-16T05:00:00.000Z",
-  "idProcesos": [
-    50621670
-  ],
+  "idProcesos": [50621670],
   "idRegUltimaAct": 1935210120,
   "llaveProceso": "11001400300120170100100",
   "nombre": "WILSON ALFONSO JIMENEZ MENDIETA",

@@ -131,22 +131,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1284794200,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-09-26T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-26T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        490098936
-      ],
+      "obligacion": [490098936],
       "radicado": "2017 - 01064"
     }
   ],
@@ -201,9 +195,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50738440
-  ],
+  "idProcesos": [50738440],
   "nombre": "NANCY RODRIGUEZ  GOMEZ",
   "notificacion": null
 }

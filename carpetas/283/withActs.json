@@ -767,9 +767,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 2110945100,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -778,9 +776,7 @@
       "etapaProcesal": "LIQUIDACION",
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        1860086996
-      ],
+      "obligacion": [1860086996],
       "radicado": "2017 - 01140"
     }
   ],
@@ -835,9 +831,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50772500
-  ],
+  "idProcesos": [50772500],
   "nombre": "JANSON DAVID CARREÑO QUIJANO",
   "notificacion": {
     "notifiers": [],

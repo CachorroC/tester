@@ -785,18 +785,14 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2018-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2018-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-08-09T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-10-27T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-27T05:00:00.000Z"],
       "municipio": "BOGOTA",
       "obligacion": [
         "1930085200  /190184  /377813469298997",
@@ -856,9 +852,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    52281244
-  ],
+  "idProcesos": [52281244],
   "nombre": "EDWIN ANDRES CUERVO VERDUGO",
   "notificacion": {
     "notifiers": [

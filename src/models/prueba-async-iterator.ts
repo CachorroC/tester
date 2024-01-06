@@ -1,18 +1,18 @@
 import { ConsultaNumeroRadicacion } from '../types/procesos';
 
 export async function* generateSequence(
-  start, end
+  start, end 
 ) {
   for ( let i = start; i <= end; i++ ) {
     // Wow, can use await!
     await new Promise(
       (
-        resolve
+        resolve 
       ) => {
         return setTimeout(
-          resolve, 1000
+          resolve, 1000 
         );
-      }
+      } 
     );
 
     yield i;
@@ -20,9 +20,8 @@ export async function* generateSequence(
 }
 
 export async function* createAsyncGenerator(
-  llaveProceso: string
+  llaveProceso: string 
 ) {
-
   if ( llaveProceso === 'SinEspecificar' ) {
     yield null;
   }
@@ -33,13 +32,13 @@ export async function* createAsyncGenerator(
 
   if ( !request.ok ) {
     throw new Error(
-      'request not ok'
+      'request not ok' 
     );
   }
 
   const answer = ( await request.json() ) as ConsultaNumeroRadicacion;
   yield await Promise.resolve(
-    3
+    3 
   );
 }
 
@@ -48,12 +47,13 @@ const range = {
   to  : 600,
 
   // esta línea es la misma que [Symbol.asyncIterator]: async function*() {
-  async *[ Symbol.asyncIterator ] () {
+  async *[ Symbol.asyncIterator ]() {
     for ( let value = this.from; value <= this.to; value++ ) {
-
       // hacer una pausa entre valores, esperar algo
       await new Promise(
-        resolve => {
+        (
+          resolve 
+        ) => {
           return setTimeout(
             resolve, 1000 
           );
@@ -62,30 +62,28 @@ const range = {
 
       yield value;
     }
-  }
+  },
 };
 
 ( async () => {
-
   for await ( const value of range ) {
     alert(
       value 
     ); // 1, luego 2, luego 3, luego 4, luego 5
   }
-
 } )();
 
-
-async function* fetchCommits (
+async function* fetchCommits(
   repo 
 ) {
   let url = `https://api.github.com/repos/${ repo }/commits`;
 
   while ( url ) {
     const response = await fetch(
-      url, { // (1)
+      url, {
+      // (1)
         headers: {
-          'User-Agent': 'Our script' 
+          'User-Agent': 'Our script',
         }, // github requiere encabezado de user-agent
       } 
     );
@@ -103,7 +101,8 @@ async function* fetchCommits (
 
     url = nextPage;
 
-    for ( const commit of body ) { // (4) concede commits uno por uno, hasta que termine la página
+    for ( const commit of body ) {
+      // (4) concede commits uno por uno, hasta que termine la página
       yield commit;
     }
   }

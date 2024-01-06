@@ -777,23 +777,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2022-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2022-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": "2019-11-01T05:00:00.000Z",
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-10-19T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-10-19T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        3880083804,
-        "4513074508682496 // 53037103332223839"
-      ],
+      "obligacion": [3880083804, "4513074508682496 // 53037103332223839"],
       "radicado": "2018 - 00951"
     }
   ],
@@ -848,9 +841,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    64673240
-  ],
+  "idProcesos": [64673240],
   "nombre": "ROSALIA CHARRY  SARMIENTO",
   "notificacion": {
     "notifiers": [

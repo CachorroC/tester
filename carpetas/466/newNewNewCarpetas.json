@@ -685,10 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "37781415851035/",
-      "4099830008406922 / 5303710339142355"
-    ],
+    "obligacion": ["37781415851035/", "4099830008406922 / 5303710339142355"],
     "llaveProceso": "11001400305220180011700",
     "notificacion": {
       "291": {
@@ -714,9 +711,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-02-05T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-05T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00117",
@@ -740,9 +735,7 @@
     "email": "djpaez5@hotmail.com"
   },
   "fecha": "2023-12-15T05:00:00.000Z",
-  "idProcesos": [
-    50990370
-  ],
+  "idProcesos": [50990370],
   "idRegUltimaAct": 1942622510,
   "llaveProceso": "11001400305220180011700",
   "nombre": "DARLEY JULIED PAEZ HIGUERA",

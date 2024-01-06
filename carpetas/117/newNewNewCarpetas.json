@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "420087224"
-    ],
+    "obligacion": ["420087224"],
     "llaveProceso": "11001400307020170056600",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-06-20T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-20T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00566",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-01-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-01-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "3176677592"
   },
   "fecha": "2021-12-13T05:00:00.000Z",
-  "idProcesos": [
-    50522530
-  ],
+  "idProcesos": [50522530],
   "idRegUltimaAct": 1238155890,
   "llaveProceso": "11001400307020170056600",
   "nombre": "NICOLAS FERNANDO MONTOYA CORREA",

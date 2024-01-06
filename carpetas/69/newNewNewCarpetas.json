@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "4200023595"
-    ],
+    "obligacion": ["4200023595"],
     "llaveProceso": "11001400300620170041900",
     "notificacion": {
       "292": {
@@ -716,9 +714,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017-00419",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-08-12T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-08-12T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -734,9 +730,7 @@
     "email": null
   },
   "fecha": "2023-05-10T05:00:00.000Z",
-  "idProcesos": [
-    50593100
-  ],
+  "idProcesos": [50593100],
   "idRegUltimaAct": 1738578630,
   "llaveProceso": "11001400300620170041900",
   "nombre": "DERLY CATHERINE CASTRO IZQUIERDO",

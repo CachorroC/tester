@@ -767,9 +767,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "7/12/2017"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -778,10 +776,7 @@
       "etapaProcesal": null,
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "4513082447756537/4513085528567731",
-        "5303728067784305/"
-      ],
+      "obligacion": ["4513082447756537/4513085528567731", "5303728067784305/"],
       "radicado": "2017 - 01563"
     }
   ],
@@ -836,9 +831,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50873850
-  ],
+  "idProcesos": [50873850],
   "nombre": "RICARDO ARIAS GUZMAN",
   "notificacion": {
     "notifiers": [],

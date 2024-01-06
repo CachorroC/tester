@@ -780,18 +780,14 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-06-16T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-16T05:00:00.000Z"],
       "municipio": "BOGOTA",
       "obligacion": [
         "1800088189//377813488630162",
@@ -812,18 +808,14 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-06-16T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-16T05:00:00.000Z"],
       "municipio": "BOGOTA",
       "obligacion": [
         "1800088189//377813488630162",
@@ -895,10 +887,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51619370,
-    81869501
-  ],
+  "idProcesos": [51619370, 81869501],
   "nombre": "EDUARDO ENRIQUE ARANGO CHACON",
   "notificacion": {
     "notifiers": [

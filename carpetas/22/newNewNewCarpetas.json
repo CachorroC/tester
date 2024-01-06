@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "2453698"
-    ],
+    "obligacion": ["2453698"],
     "llaveProceso": "11001400308520170084900",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-05-24T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00849",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-04-26T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-04-26T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": null
   },
   "fecha": "2023-06-15T05:00:00.000Z",
-  "idProcesos": [
-    51935790
-  ],
+  "idProcesos": [51935790],
   "idRegUltimaAct": 1777734510,
   "llaveProceso": "11001400308520170084900",
   "nombre": "JOSE EDWIN GARCES ARDILA",

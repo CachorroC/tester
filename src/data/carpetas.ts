@@ -2889,13 +2889,12 @@ const Carpetas: CarpetaRaw[] = [
         B: '320 096597',
       },
 
-      entregaGarantiasAbogado:
-        '',
-      departamento: 'CUNDINAMARCA',
-      municipio   : 'BOGOTA',
-      tipoProceso : 'HIPOTECARIO',
-      radicado    : '2017 - 00918',
-      llaveProceso: '11001400305820170091800',
+      entregaGarantiasAbogado: '',
+      departamento           : 'CUNDINAMARCA',
+      municipio              : 'BOGOTA',
+      tipoProceso            : 'HIPOTECARIO',
+      radicado               : '2017 - 00918',
+      llaveProceso           : '11001400305820170091800',
 
       mandamientoPago: '21/06/2017',
       notificacion   : {
@@ -3511,16 +3510,15 @@ const Carpetas: CarpetaRaw[] = [
         A: '05/04/2018 15/01/2021',
         B: 2500083807,
       },
-      capitalAdeudado: '5491580435077256 / 5303719778865608',
-      entregaGarantiasAbogado:
-        '',
-      departamento     : 'CUNDINAMARCA',
-      municipio        : 'BOGOTA',
-      tipoProceso      : 'SINGULAR',
-      radicado         : '2018 - 00406',
-      llaveProceso     : '11001400303120180040600',
-      etapaProcesal    : '2018 - 00406',
-      fechaPresentacion: '11001400301420180040600',
+      capitalAdeudado        : '5491580435077256 / 5303719778865608',
+      entregaGarantiasAbogado: '',
+      departamento           : 'CUNDINAMARCA',
+      municipio              : 'BOGOTA',
+      tipoProceso            : 'SINGULAR',
+      radicado               : '2018 - 00406',
+      llaveProceso           : '11001400303120180040600',
+      etapaProcesal          : '2018 - 00406',
+      fechaPresentacion      : '11001400301420180040600',
     },
   },
   {
@@ -11882,9 +11880,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: 44166,
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         A: 169241,
         B: '24.721.567.58',
       },
@@ -13030,9 +13027,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: 43059,
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '10.670.890.00',
       },
       capitalAdeudado: '$ 43.041',
@@ -16300,9 +16296,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: 49996,
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         A: 5303710000000000,
         B: '33.785.911',
       },
@@ -16467,9 +16462,8 @@ const Carpetas: CarpetaRaw[] = [
     },
 
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         A: 5303710000000000,
         B: '20.453.625',
       },
@@ -16932,9 +16926,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: 44609,
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         A: 5303720000000000,
         B: '15.796.908.07',
       },
@@ -17007,9 +17000,8 @@ const Carpetas: CarpetaRaw[] = [
     },
 
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '24.057.365',
       },
       capitalAdeudado: '$ 43.237',
@@ -17376,9 +17368,8 @@ const Carpetas: CarpetaRaw[] = [
     },
 
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         A: 377816000000000,
         B: '36.820.559',
       },
@@ -17460,9 +17451,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: 45523,
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '16.392.987.23',
       },
       capitalAdeudado: '$ 43.265',
@@ -17994,9 +17984,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: 43168,
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '16.399.509.25',
       },
       capitalAdeudado: '9/07/2018',
@@ -18165,9 +18154,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: 45689,
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '19.080.628.51',
       },
       capitalAdeudado: '$ 43.293',
@@ -18273,9 +18261,8 @@ const Carpetas: CarpetaRaw[] = [
     },
 
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         A: 5303720000000000,
         B: '19.774.658',
       },
@@ -18378,9 +18365,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: '2/4/2032',
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '21.955.632.15',
       },
       capitalAdeudado: '26/07/2018',
@@ -18983,9 +18969,8 @@ const Carpetas: CarpetaRaw[] = [
     },
 
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         A: 4513090000000000,
         B: '12.028.842.57',
       },
@@ -19019,9 +19004,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: '22/09/2024',
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '25.547.970.61',
       },
       capitalAdeudado        : '12/09/2018',
@@ -19083,9 +19067,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: '20/05/2025',
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '17.506.316.71',
       },
       capitalAdeudado        : '13/09/2018',
@@ -19759,9 +19742,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: '6/08/2018',
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         A: 3380087493,
         B: '21.876.281',
       },
@@ -19921,9 +19903,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: '09/07/2033',
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '21.856.062.58',
       },
       capitalAdeudado        : '05/12/2018',
@@ -19949,9 +19930,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: '19/01/2022',
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: '40.290.738',
       },
       capitalAdeudado        : '07/11/2018',
@@ -20094,9 +20074,8 @@ const Carpetas: CarpetaRaw[] = [
       direccion: '17/05/2022',
     },
     demanda: {
-      vencimientoPagare:
-        '',
-      obligacion: {
+      vencimientoPagare: '',
+      obligacion       : {
         B: 16262273,
       },
       capitalAdeudado        : '30/01/2019',
@@ -22788,7 +22767,7 @@ const Carpetas: CarpetaRaw[] = [
       llaveProceso           : 'SinEspecificar',
       municipio              : 'BOGOTA',
     },
-  }
+  },
 ];
 
 export default Carpetas;

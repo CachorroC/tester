@@ -175,9 +175,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "6620091753"
-    ],
+    "obligacion": ["6620091753"],
     "llaveProceso": "11001400306920230127300",
     "notificacion": null,
     "medidasCautelares": null,
@@ -191,9 +189,7 @@
     "municipio": "BOGOTA",
     "radicado": "2023 - 01243",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2026-02-28T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-02-28T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -209,9 +205,7 @@
     "email": "johanesquiroga@gmail.com"
   },
   "fecha": "2023-11-23T05:00:00.000Z",
-  "idProcesos": [
-    132041720
-  ],
+  "idProcesos": [132041720],
   "idRegUltimaAct": 1937131740,
   "llaveProceso": "11001400306920230127300",
   "nombre": "JOHAN ANDRES QUIROGA GALEANO",

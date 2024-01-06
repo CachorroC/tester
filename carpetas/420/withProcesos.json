@@ -780,23 +780,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-01-12T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-12-12T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-12-12T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "377813451010780 / 4513070410107739",
-        5303710165958750
-      ],
+      "obligacion": ["377813451010780 / 4513070410107739", 5303710165958750],
       "radicado": "11001400306320170129000"
     }
   ],
@@ -851,9 +844,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    65701460
-  ],
+  "idProcesos": [65701460],
   "nombre": "DIANA PATRICIA BARRETO OSMA",
   "notificacion": {
     "notifiers": [

@@ -617,10 +617,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "6740081982 / 451308007555923",
-      "5303717744146285"
-    ],
+    "obligacion": ["6740081982 / 451308007555923", "5303717744146285"],
     "llaveProceso": "11001400305020170135700",
     "notificacion": {
       "certimail": null,
@@ -636,16 +633,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-11-23T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-23T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01357",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-05-05T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-05-05T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -661,9 +654,7 @@
     "email": "diegovergarav@hotmail.com"
   },
   "fecha": "2022-10-24T05:00:00.000Z",
-  "idProcesos": [
-    11224353
-  ],
+  "idProcesos": [11224353],
   "idRegUltimaAct": 1283273453,
   "llaveProceso": "11001400305020170135700",
   "nombre": "DIEGO FERNEY VERGARA VALDERRAMA",

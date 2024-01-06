@@ -328,10 +328,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "127061",
-      "540084358"
-    ],
+    "obligacion": ["127061", "540084358"],
     "llaveProceso": "11001400300620170041700",
     "notificacion": {
       "291": {
@@ -349,16 +346,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-07-21T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-07-21T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00417",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2015-08-28T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2015-08-28T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -374,9 +367,7 @@
     "email": "nancy_herrera2@hotmail.es"
   },
   "fecha": "2019-03-04T05:00:00.000Z",
-  "idProcesos": [
-    50596080
-  ],
+  "idProcesos": [50596080],
   "idRegUltimaAct": 587295400,
   "llaveProceso": "11001400300620170041700",
   "nombre": "NANCY HERRERA MENDEZ",

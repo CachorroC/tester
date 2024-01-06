@@ -574,14 +574,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-09-19T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-19T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12541785,
-        186378
-      ],
+      "obligacion": [12541785, 186378],
       "radicado": "2017 - 01106"
     }
   ],
@@ -636,9 +631,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    9334093
-  ],
+  "idProcesos": [9334093],
   "nombre": "FREDY ALEXANDER RUDA ARIAS",
   "notificacion": null
 }

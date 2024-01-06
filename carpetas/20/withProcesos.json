@@ -313,22 +313,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": 58957417,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-11-05T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-09-06T05:00:00.000Z",
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-05-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-05-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        2551197
-      ],
+      "obligacion": [2551197],
       "radicado": "2017 - 00483"
     }
   ],
@@ -363,11 +357,7 @@
     "primerNombre": "ANDRES",
     "segundoNombre": "MAURICIO",
     "primerApellido": "FERNANDEZ",
-    "segundoApellido": [
-      "DE",
-      "SOTO",
-      "DOMINGUEZ"
-    ],
+    "segundoApellido": ["DE", "SOTO", "DOMINGUEZ"],
     "cedula": 94482258,
     "direccion": "Carrera 72 R No. 37-90 SUR",
     "email": "sotocolombiano@gmail.com"
@@ -387,9 +377,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50466490
-  ],
+  "idProcesos": [50466490],
   "nombre": "ANDRES MAURICIO FERNANDEZ DE SOTO DOMINGUEZ",
   "notificacion": {
     "notifiers": [

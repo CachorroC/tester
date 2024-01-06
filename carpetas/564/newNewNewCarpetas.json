@@ -464,9 +464,7 @@
   "category": "Bancolombia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "9460085166"
-    ],
+    "obligacion": ["9460085166"],
     "llaveProceso": "11001418903220230061200",
     "notificacion": null,
     "medidasCautelares": null,
@@ -480,9 +478,7 @@
     "municipio": "BOGOTA",
     "radicado": "2023 - 01280",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2026-03-08T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-03-08T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -498,9 +494,7 @@
     "email": "abadiajorgesa@gmail.com"
   },
   "fecha": "2023-12-19T05:00:00.000Z",
-  "idProcesos": [
-    132020490
-  ],
+  "idProcesos": [132020490],
   "idRegUltimaAct": 1943100670,
   "llaveProceso": "11001418903220230061200",
   "nombre": "JORGE ALEX ABADIA CARRILLO",

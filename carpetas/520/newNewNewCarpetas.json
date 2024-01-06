@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "5470086745"
-    ],
+    "obligacion": ["5470086745"],
     "llaveProceso": "11001400307320190028700",
     "notificacion": null,
     "medidasCautelares": null,
@@ -696,16 +694,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "11001418905520190028700",
-    "fechaPresentacion": [
-      "2019-02-26T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2019-02-26T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2019 - 00287",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2023-09-18T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2023-09-18T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -721,9 +715,7 @@
     "email": "farapaeos@gmail.com"
   },
   "fecha": "2021-07-01T05:00:00.000Z",
-  "idProcesos": [
-    51718410
-  ],
+  "idProcesos": [51718410],
   "idRegUltimaAct": 1021293530,
   "llaveProceso": "11001400307320190028700",
   "nombre": "RAFAEL ADOLFO PAEZ ORTEGA",

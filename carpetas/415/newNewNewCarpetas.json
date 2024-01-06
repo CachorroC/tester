@@ -640,10 +640,7 @@
     "id": 415
   },
   "demanda": {
-    "obligacion": [
-      "5303710000000000",
-      "33.785.911"
-    ],
+    "obligacion": ["5303710000000000", "33.785.911"],
     "llaveProceso": "11001400304320180047400",
     "notificacion": {
       "certimail": null,
@@ -659,9 +656,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "43217",
-    "fechaPresentacion": [
-      "2018-06-13T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-06-13T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00474",
@@ -682,9 +677,7 @@
     "email": "CALLE 61 SUR No 20 D-60 INT11  APTO 501"
   },
   "fecha": "2020-01-14T05:00:00.000Z",
-  "idProcesos": [
-    9342243
-  ],
+  "idProcesos": [9342243],
   "idRegUltimaAct": 886269323,
   "llaveProceso": "11001400304320180047400",
   "nombre": "INGRID CATHERINE TAPIAS RICO",

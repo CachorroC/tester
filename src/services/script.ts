@@ -4,10 +4,8 @@ const prisma = new PrismaClient();
 
 export async function main(
   {
-    incomingCarpeta,
-  }: {
-    incomingCarpeta: Carpeta;
-  } 
+    incomingCarpeta 
+  }: { incomingCarpeta: Carpeta } 
 ) {
   const user = await prisma.carpeta.create(
     {

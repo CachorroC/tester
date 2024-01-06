@@ -771,23 +771,16 @@
         "fechaOrdenaMedida": "2018-12-02T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2030-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2030-01-01T05:00:00.000Z"],
       "capitalAdeudado": 5146633884,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-11-12T05:00:00.000Z",
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2018-12-02T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-12-14T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-12-14T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        180998,
-        3778813729098781
-      ],
+      "obligacion": [180998, 3778813729098781],
       "radicado": "2017 - 01556"
     }
   ],
@@ -842,9 +835,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50918350
-  ],
+  "idProcesos": [50918350],
   "nombre": "LILIAN ANDREA HERNANDEZ SUAREZ",
   "notificacion": {
     "notifiers": [

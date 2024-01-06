@@ -515,9 +515,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12099135"
-    ],
+    "obligacion": ["12099135"],
     "llaveProceso": "11001400302820170057500",
     "notificacion": null,
     "medidasCautelares": {
@@ -529,16 +527,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-29T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
     "mandamientoPago": "2017-10-07T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00575",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-06-13T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-06-13T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -554,9 +548,7 @@
     "email": "edwinperez8302@hotmail.com"
   },
   "fecha": "2021-01-30T05:00:00.000Z",
-  "idProcesos": [
-    50541540
-  ],
+  "idProcesos": [50541540],
   "idRegUltimaAct": 1003778780,
   "llaveProceso": "11001400302820170057500",
   "nombre": "EDWIN JHOBANI PEREZ PITA",

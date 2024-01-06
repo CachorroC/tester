@@ -770,9 +770,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "6/07/2017"
       },
-      "vencimientoPagare": [
-        "2015-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2015-01-01T05:00:00.000Z"],
       "capitalAdeudado": 0,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -781,10 +779,7 @@
       "etapaProcesal": null,
       "fechaPresentacion": [],
       "municipio": "BOGOTA",
-      "obligacion": [
-        44690,
-        "320 096597"
-      ],
+      "obligacion": [44690, "320 096597"],
       "radicado": "2017 - 00918"
     }
   ],
@@ -839,9 +834,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50526190
-  ],
+  "idProcesos": [50526190],
   "nombre": "MARIO ANDRES BOJACA CRUZ",
   "notificacion": {
     "notifiers": [],

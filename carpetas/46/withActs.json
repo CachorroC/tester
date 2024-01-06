@@ -69,14 +69,9 @@
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-05-30T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-05-30T05:00:00.000Z"],
       "municipio": "CHOCONTA",
-      "obligacion": [
-        53037139326557900,
-        4099839496308260
-      ],
+      "obligacion": [53037139326557900, 4099839496308260],
       "radicado": "2017-00106"
     }
   ],
@@ -116,9 +111,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    86212261
-  ],
+  "idProcesos": [86212261],
   "nombre": "ALVARO RODRIGUEZ ALONSO",
   "notificacion": {
     "notifiers": [

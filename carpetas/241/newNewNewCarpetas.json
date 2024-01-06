@@ -691,9 +691,7 @@
     "id": 241
   },
   "demanda": {
-    "obligacion": [
-      "18000088458"
-    ],
+    "obligacion": ["18000088458"],
     "llaveProceso": "11001400302320170104400",
     "notificacion": {
       "292": {
@@ -714,16 +712,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-09T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-09-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-19T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01044",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-07-27T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-07-27T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,9 +733,7 @@
     "email": "publi.magic@hotmail.com"
   },
   "fecha": "2019-10-18T05:00:00.000Z",
-  "idProcesos": [
-    50725030
-  ],
+  "idProcesos": [50725030],
   "idRegUltimaAct": 863844990,
   "llaveProceso": "11001400302320170104400",
   "nombre": "PUBLI MAGIC S..A.S.",

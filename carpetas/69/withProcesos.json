@@ -770,9 +770,7 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "VEHICULO E INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2019-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2019-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-08-06T05:00:00.000Z",
@@ -784,9 +782,7 @@
         "2017-07-21T05:00:00.000Z"
       ],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4200023595
-      ],
+      "obligacion": [4200023595],
       "radicado": "2017-00419"
     }
   ],
@@ -841,9 +837,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50593100
-  ],
+  "idProcesos": [50593100],
   "nombre": "DERLY CATHERINE CASTRO IZQUIERDO",
   "notificacion": {
     "notifiers": [

@@ -678,22 +678,16 @@
         "fechaOrdenaMedida": "2018-03-04T05:00:00.000Z",
         "medidaSolicitada": "VEHICULO"
       },
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 21660562,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2017-01-08T05:00:00.000Z",
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2018-03-04T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-08-08T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-08T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        12491571
-      ],
+      "obligacion": [12491571],
       "radicado": "2018 - 00119"
     }
   ],
@@ -748,9 +742,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50990990
-  ],
+  "idProcesos": [50990990],
   "nombre": "OSCAR IVAN AGUDELO MORA",
   "notificacion": {
     "notifiers": [],

@@ -779,18 +779,14 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO INMUEBLE Y DINEROS BANCOS"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "BOGOTA",
       "obligacion": [
         11903330957,
@@ -850,9 +846,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    86524020
-  ],
+  "idProcesos": [86524020],
   "nombre": "GERARDO ANTONIO MONCADA VEGA",
   "notificacion": {
     "notifiers": [

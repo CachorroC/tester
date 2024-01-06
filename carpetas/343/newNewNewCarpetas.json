@@ -4,10 +4,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "23110089362 / 2044038",
-      "8291213 / 3131312135"
-    ],
+    "obligacion": ["23110089362 / 2044038", "8291213 / 3131312135"],
     "llaveProceso": "11001400303920170151700",
     "notificacion": {
       "certimail": null,
@@ -23,16 +20,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-09T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-11-17T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-17T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01517",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-07-07T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2019-07-07T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

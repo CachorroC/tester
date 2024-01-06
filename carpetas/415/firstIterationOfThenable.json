@@ -718,23 +718,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "17-2313"
       },
-      "vencimientoPagare": [
-        "2015-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2015-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "43217",
-      "fechaPresentacion": [
-        "2018-06-13T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-06-13T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5303710000000000,
-        "33.785.911"
-      ],
+      "obligacion": [5303710000000000, "33.785.911"],
       "radicado": "2018 - 00474"
     }
   ],
@@ -789,9 +782,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    9342243
-  ],
+  "idProcesos": [9342243],
   "nombre": "INGRID CATHERINE TAPIAS RICO",
   "notificacion": {
     "notifiers": [],

@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "134032"
-    ],
+    "obligacion": ["134032"],
     "llaveProceso": "11001400300920170136100",
     "notificacion": {
       "291": {
@@ -718,9 +716,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01361",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2025-11-22T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2025-11-22T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -736,9 +732,7 @@
     "email": "yurisita_05@hotmail.com"
   },
   "fecha": "2021-10-06T05:00:00.000Z",
-  "idProcesos": [
-    50925430
-  ],
+  "idProcesos": [50925430],
   "idRegUltimaAct": 1227144920,
   "llaveProceso": "11001400300920170136100",
   "nombre": "YURI ANDREA GONZALEZ TORRES",

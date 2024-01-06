@@ -125,22 +125,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2027-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2027-01-01T05:00:00.000Z"],
       "capitalAdeudado": 24878276,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2018-01-24T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-01-24T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        155586
-      ],
+      "obligacion": [155586],
       "radicado": "2018 - 00075"
     }
   ],
@@ -195,9 +189,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    19431801
-  ],
+  "idProcesos": [19431801],
   "nombre": "NIELCEN MARISOL MARIN MELO",
   "notificacion": null
 }

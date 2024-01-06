@@ -252,22 +252,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2022-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2022-01-01T05:00:00.000Z"],
       "capitalAdeudado": 14770792,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": "2018-01-08T05:00:00.000Z",
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-08-09T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-08-09T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        21581018168
-      ],
+      "obligacion": [21581018168],
       "radicado": "2017 - 00922"
     }
   ],
@@ -322,9 +316,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    18376650
-  ],
+  "idProcesos": [18376650],
   "nombre": "LUZ MYRIAM VALDERRAMA TUTA",
   "notificacion": null
 }

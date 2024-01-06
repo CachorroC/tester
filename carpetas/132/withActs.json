@@ -439,14 +439,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "SENTENCIA",
-      "fechaPresentacion": [
-        "2017-08-23T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-23T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "1770990 // 4513076455160970",
-        5303711546384996
-      ],
+      "obligacion": ["1770990 // 4513076455160970", 5303711546384996],
       "radicado": "2017 - 01051"
     }
   ],
@@ -501,9 +496,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    19209750
-  ],
+  "idProcesos": [19209750],
   "nombre": "JOVANI EMILIO RESTREPO RAMIREZ",
   "notificacion": {
     "notifiers": [],

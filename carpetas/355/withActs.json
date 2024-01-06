@@ -769,22 +769,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2026-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2026-01-01T05:00:00.000Z"],
       "capitalAdeudado": 3489622494,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "SENTENCIA",
-      "fechaPresentacion": [
-        "2017-11-27T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-11-27T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        136483
-      ],
+      "obligacion": [136483],
       "radicado": "2017 - 01526"
     }
   ],
@@ -839,9 +833,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50875060
-  ],
+  "idProcesos": [50875060],
   "nombre": "NELSON IVAN SEGURA MENDEZ",
   "notificacion": {
     "notifiers": [

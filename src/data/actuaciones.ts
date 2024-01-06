@@ -1,11 +1,10 @@
 import { client } from '../models/newJudicial';
 import { outActuacion } from '../types/actuaciones';
 
-export default async function getActuaciones (
-  idProceso: number
+export default async function getActuaciones(
+  idProceso: number 
 ) {
   try {
-
     const request = await fetch(
       `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`,
     );
@@ -14,36 +13,33 @@ export default async function getActuaciones (
       const json = await request.json();
       throw new Error(
         JSON.stringify(
-          json
-        )
+          json 
+        ) 
       );
     }
 
-    const consultaActuaciones
-            = ( await request.json() ) as ConsultaActuacion;
+    const consultaActuaciones = ( await request.json() ) as ConsultaActuacion;
 
     const {
-      actuaciones
+      actuaciones 
     } = consultaActuaciones;
     return actuaciones;
   } catch ( error ) {
     console.log(
-      `error in getActuaciones ${ idProceso } = ${ error }`
+      `error in getActuaciones ${ idProceso } = ${ error }` 
     );
     return null;
   }
-
 }
 
-
-export async function updateActuaciones (
-  numero: number, actuaciones: outActuacion[]
+export async function updateActuaciones(
+  numero: number,
+  actuaciones: outActuacion[],
 ) {
-
   const [ ultimaActuacion ] = actuaciones;
 
   const incomingDate = new Date(
-    ultimaActuacion.fechaActuacion
+    ultimaActuacion.fechaActuacion 
   );
 
   const incomingYear = incomingDate.getFullYear();
@@ -61,25 +57,25 @@ export async function updateActuaciones (
   );
 
   const {
-    fecha
+    fecha 
   } = await client.carpeta.findFirstOrThrow(
     {
       where: {
-        numero: numero
-      }
-    }
+        numero: numero,
+      },
+    } 
   );
   console.log(
-    `la fecha guardada en prisma es: ${ fecha }`
+    `la fecha guardada en prisma es: ${ fecha }` 
   );
   console.log(
-    `${ fecha && fecha  < incomingDate
-      ? 'la fecha en prisma  es menor que incoming date'
-      : 'la fecha en prisma es mayor que incoming dt¡ate ' }`
+    `${
+      fecha && fecha < incomingDate
+        ? 'la fecha en prisma  es menor que incoming date'
+        : 'la fecha en prisma es mayor que incoming dt¡ate '
+    }`,
   );
 
-  if (  !fecha
-    || fecha < incomingDate
-    || fecha.toString() === 'Invalid Date'
-  ) { }
+  if ( !fecha || fecha < incomingDate || fecha.toString() === 'Invalid Date' ) {
+  }
 }

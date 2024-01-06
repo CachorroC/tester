@@ -849,14 +849,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-09-10T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-09-10T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO",
-        5491580436291960
-      ],
+      "obligacion": ["AUDIOPRESTAMO", 5491580436291960],
       "radicado": "2018 - 00964"
     },
     {
@@ -882,14 +877,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-09-10T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-09-10T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        "AUDIOPRESTAMO",
-        5491580436291960
-      ],
+      "obligacion": ["AUDIOPRESTAMO", 5491580436291960],
       "radicado": "2018 - 00964"
     }
   ],
@@ -956,10 +946,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    52160520,
-    112967583
-  ],
+  "idProcesos": [52160520, 112967583],
   "nombre": "JOSE RAMON ESTRADA CASTILLO",
   "notificacion": {
     "notifiers": [

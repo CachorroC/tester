@@ -351,9 +351,7 @@
     "id": 365
   },
   "demanda": {
-    "obligacion": [
-      "106172"
-    ],
+    "obligacion": ["106172"],
     "llaveProceso": "11001400305020180014000",
     "notificacion": {
       "292": {
@@ -374,16 +372,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-07-12T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2017-12-14T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-12-14T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00140",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2023-03-10T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2023-03-10T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -399,9 +393,7 @@
     "email": "richard.iriarte76@hotmail.com"
   },
   "fecha": "2019-09-11T05:00:00.000Z",
-  "idProcesos": [
-    11227303
-  ],
+  "idProcesos": [11227303],
   "idRegUltimaAct": 751522103,
   "llaveProceso": "11001400305020180014000",
   "nombre": "RICHARD CAMILO IRIARTE GARCIA",

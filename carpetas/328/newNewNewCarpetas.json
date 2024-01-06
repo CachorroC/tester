@@ -379,10 +379,7 @@
   "category": "LiosJuridicos",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "5740084189 /5740084216",
-      "160204/377813372389032"
-    ],
+    "obligacion": ["5740084189 /5740084216", "160204/377813372389032"],
     "llaveProceso": "11001400302620170129300",
     "notificacion": null,
     "medidasCautelares": null,
@@ -391,16 +388,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-01-11T05:00:00.000Z",
     "etapaProcesal": "SIN LEVANTAMIENTO DE MEDIDA CAUTELAR PQQUETE 767 DE 2018",
-    "fechaPresentacion": [
-      "2017-12-18T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-12-18T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01293",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-05-06T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-05-06T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -416,9 +409,7 @@
     "email": "milena125@hotmail.com"
   },
   "fecha": "2018-10-02T05:00:00.000Z",
-  "idProcesos": [
-    50846930
-  ],
+  "idProcesos": [50846930],
   "idRegUltimaAct": 714039960,
   "llaveProceso": "11001400302620170129300",
   "nombre": "SANDRA MILENA BARRETO BERMUDEZ",

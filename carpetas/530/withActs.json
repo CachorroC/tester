@@ -671,23 +671,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-04-25T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-04-25T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        40998833882814000,
-        5303729887314280
-      ],
+      "obligacion": [40998833882814000, 5303729887314280],
       "radicado": "2018 - 00514"
     }
   ],
@@ -742,9 +735,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51918470
-  ],
+  "idProcesos": [51918470],
   "nombre": "MARIA CLARA REYES REYES",
   "notificacion": {
     "notifiers": [

@@ -691,9 +691,7 @@
     "id": 113
   },
   "demanda": {
-    "obligacion": [
-      "860669"
-    ],
+    "obligacion": ["860669"],
     "llaveProceso": "11001400303020170181700",
     "notificacion": {
       "certimail": false,
@@ -714,9 +712,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 01817",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2021-05-16T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-05-16T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -732,9 +728,7 @@
     "email": "bibi0225@hotmail.es"
   },
   "fecha": "2019-09-25T05:00:00.000Z",
-  "idProcesos": [
-    50883240
-  ],
+  "idProcesos": [50883240],
   "idRegUltimaAct": 565247530,
   "llaveProceso": "11001400303020170181700",
   "nombre": "SANDRA BIBIANA URREGO MAYORGA",

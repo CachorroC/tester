@@ -41,22 +41,16 @@
       "esPrivado": true,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2024-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2024-01-01T05:00:00.000Z"],
       "capitalAdeudado": 27006100,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-01-22T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-01-22T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        121543
-      ],
+      "obligacion": [121543],
       "radicado": "2018 - 00067"
     }
   ],
@@ -96,9 +90,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    81895161
-  ],
+  "idProcesos": [81895161],
   "nombre": "JHOAN ANTONIO BARAJAS MONTENEGRO",
   "notificacion": null
 }

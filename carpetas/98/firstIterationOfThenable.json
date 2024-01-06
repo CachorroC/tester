@@ -474,22 +474,16 @@
         "fechaOrdenaMedida": "2017-08-09T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2030-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2030-01-01T05:00:00.000Z"],
       "capitalAdeudado": 0,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-08-09T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-06-29T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        190459
-      ],
+      "obligacion": [190459],
       "radicado": "2017 - 00623"
     }
   ],
@@ -524,10 +518,7 @@
     "primerNombre": "MARIA",
     "segundoNombre": "DEL",
     "primerApellido": "CARMEN",
-    "segundoApellido": [
-      "CHAPARRO",
-      "LEMUS"
-    ],
+    "segundoApellido": ["CHAPARRO", "LEMUS"],
     "cedula": 41672170,
     "direccion": "CARRERA 50A # 68 - 39",
     "email": "carmenzachaparro@outlook.com"
@@ -547,9 +538,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50543070
-  ],
+  "idProcesos": [50543070],
   "nombre": "MARIA DEL CARMEN CHAPARRO LEMUS",
   "notificacion": null
 }

@@ -498,9 +498,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12545412"
-    ],
+    "obligacion": ["12545412"],
     "llaveProceso": "11001400301020170065301",
     "notificacion": {
       "291": {
@@ -523,16 +521,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-06-29T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-29T05:00:00.000Z"],
     "mandamientoPago": "2017-03-08T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00653",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-06-13T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-06-13T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -548,9 +542,7 @@
     "email": "lei.m@hotmail.com"
   },
   "fecha": "2018-08-27T05:00:00.000Z",
-  "idProcesos": [
-    50540650
-  ],
+  "idProcesos": [50540650],
   "idRegUltimaAct": 613787080,
   "llaveProceso": "11001400301020170065301",
   "nombre": "LEILA JOHANNA MARTINEZ MORA",

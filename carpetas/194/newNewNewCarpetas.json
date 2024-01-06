@@ -260,9 +260,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12601534"
-    ],
+    "obligacion": ["12601534"],
     "llaveProceso": "11001400303520170129700",
     "notificacion": {
       "291": {
@@ -280,16 +278,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-31T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-31T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 01297",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-08-23T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2017-08-23T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -305,9 +299,7 @@
     "email": "fabiola_19805@hotmail.com"
   },
   "fecha": "2018-03-08T05:00:00.000Z",
-  "idProcesos": [
-    50679230
-  ],
+  "idProcesos": [50679230],
   "idRegUltimaAct": 770667580,
   "llaveProceso": "11001400303520170129700",
   "nombre": "FABIOLA MARTINEZ RUEDA",

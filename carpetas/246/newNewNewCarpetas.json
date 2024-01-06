@@ -113,9 +113,7 @@
     "id": 246
   },
   "demanda": {
-    "obligacion": [
-      "113645"
-    ],
+    "obligacion": ["113645"],
     "llaveProceso": "11001400304720180024200",
     "notificacion": null,
     "medidasCautelares": null,
@@ -124,16 +122,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2017-09-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-19T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00242",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2023-11-21T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2023-11-21T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -149,9 +143,7 @@
     "email": null
   },
   "fecha": "2018-02-20T05:00:00.000Z",
-  "idProcesos": [
-    10416913
-  ],
+  "idProcesos": [10416913],
   "idRegUltimaAct": 125352043,
   "llaveProceso": "11001400304720180024200",
   "nombre": "EDWIN BUITRAGO VILLAMIL",

@@ -471,23 +471,16 @@
         "fechaOrdenaMedida": "2018-09-05T05:00:00.000Z",
         "medidaSolicitada": "INMUEBLE"
       },
-      "vencimientoPagare": [
-        "2024-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2024-01-01T05:00:00.000Z"],
       "capitalAdeudado": 19715538,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2018-09-05T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-04-25T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-04-25T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990125146,
-        377813000000000
-      ],
+      "obligacion": [20990125146, 377813000000000],
       "radicado": "2018 - 00443"
     }
   ],
@@ -542,9 +535,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51149980
-  ],
+  "idProcesos": [51149980],
   "nombre": "ANDRES PEDRAZA GARCIA",
   "notificacion": {
     "notifiers": [

@@ -691,10 +691,7 @@
     "id": 431
   },
   "demanda": {
-    "obligacion": [
-      "5303720000000000",
-      "15.796.908.07"
-    ],
+    "obligacion": ["5303720000000000", "15.796.908.07"],
     "llaveProceso": "11001400302220180060400",
     "notificacion": {
       "certimail": null,
@@ -710,9 +707,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "43228",
-    "fechaPresentacion": [
-      "2018-06-07T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-06-07T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00604",
@@ -733,9 +728,7 @@
     "email": "CARRERA 75 No 64 A- 22"
   },
   "fecha": "2019-10-10T05:00:00.000Z",
-  "idProcesos": [
-    51173050
-  ],
+  "idProcesos": [51173050],
   "idRegUltimaAct": 861521230,
   "llaveProceso": "11001400302220180060400",
   "nombre": "DUVY MARIELA RODRIGUEZ ROCHA",

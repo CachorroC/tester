@@ -772,23 +772,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "3828"
       },
-      "vencimientoPagare": [
-        "1354-01-01T04:56:16.000Z"
-      ],
+      "vencimientoPagare": ["1354-01-01T04:56:16.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "ACUMULADO",
       "mandamientoPago": null,
       "etapaProcesal": "42958",
-      "fechaPresentacion": [
-        "2017-09-13T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-13T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        4513073601094195,
-        15774711
-      ],
+      "obligacion": [4513073601094195, 15774711],
       "radicado": "2017 - 01193"
     }
   ],
@@ -843,9 +836,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    19148931
-  ],
+  "idProcesos": [19148931],
   "nombre": "PAOLA ANDREA FERNANDEZ RINCON",
   "notificacion": {
     "notifiers": [

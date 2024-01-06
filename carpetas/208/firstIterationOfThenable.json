@@ -57,22 +57,16 @@
         "fechaOrdenaMedida": "2017-12-09T05:00:00.000Z",
         "medidaSolicitada": "EMBARGO DE VEHICULO"
       },
-      "vencimientoPagare": [
-        "2020-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2020-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": "2017-12-09T05:00:00.000Z",
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2017-08-28T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-08-28T05:00:00.000Z"],
       "municipio": "SOACHA",
-      "obligacion": [
-        12725973
-      ],
+      "obligacion": [12725973],
       "radicado": "2017 - 00265"
     }
   ],
@@ -112,9 +106,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    86374941
-  ],
+  "idProcesos": [86374941],
   "nombre": "JEOVANY ROJAS CRUZ",
   "notificacion": {
     "notifiers": [

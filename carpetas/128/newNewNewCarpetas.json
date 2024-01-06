@@ -657,9 +657,7 @@
     "id": 128
   },
   "demanda": {
-    "obligacion": [
-      "4060080684"
-    ],
+    "obligacion": ["4060080684"],
     "llaveProceso": "11001400307820170073300",
     "notificacion": {
       "certimail": null,
@@ -675,16 +673,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-08-18T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-18T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00733",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-05-11T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2018-05-11T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -700,9 +694,7 @@
     "email": "mariagladyys@hotmail.com"
   },
   "fecha": "2022-09-27T05:00:00.000Z",
-  "idProcesos": [
-    51463930
-  ],
+  "idProcesos": [51463930],
   "idRegUltimaAct": 1414014340,
   "llaveProceso": "11001400307820170073300",
   "nombre": "MARIA GLADYS  GONZALEZ SOSA",

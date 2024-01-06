@@ -685,9 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "12743098"
-    ],
+    "obligacion": ["12743098"],
     "llaveProceso": "11001400304520170106300",
     "notificacion": {
       "291": {
@@ -713,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": [
-      "2017-08-30T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-30T05:00:00.000Z"],
     "mandamientoPago": "2017-12-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 01063",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-08-23T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-08-23T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -738,9 +732,7 @@
     "email": "carito220@hotmail.es"
   },
   "fecha": "2023-03-07T05:00:00.000Z",
-  "idProcesos": [
-    110120573
-  ],
+  "idProcesos": [110120573],
   "idRegUltimaAct": 1558599213,
   "llaveProceso": "11001400304520170106300",
   "nombre": "FLOR ESPERANZA GUTIERREZ",

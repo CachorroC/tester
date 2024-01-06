@@ -10,10 +10,7 @@
     "id": 155
   },
   "demanda": {
-    "obligacion": [
-      "4513082821740149",
-      "20990170294"
-    ],
+    "obligacion": ["4513082821740149", "20990170294"],
     "llaveProceso": "11001400308320170071700",
     "notificacion": null,
     "medidasCautelares": {
@@ -25,16 +22,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-04-08T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-08-11T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-11T05:00:00.000Z"],
     "mandamientoPago": "2017-04-09T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00717",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2028-11-29T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2028-11-29T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {

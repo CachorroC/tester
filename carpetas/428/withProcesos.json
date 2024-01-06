@@ -715,13 +715,9 @@
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2018-05-08T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-05-08T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        377814000000000
-      ],
+      "obligacion": [377814000000000],
       "radicado": "2018 - 00520"
     }
   ],
@@ -776,9 +772,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51177440
-  ],
+  "idProcesos": [51177440],
   "nombre": "SERGIO LIBARDO ESPINOSA GOMEZ",
   "notificacion": null
 }

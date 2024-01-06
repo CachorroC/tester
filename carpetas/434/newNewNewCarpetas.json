@@ -181,9 +181,7 @@
     "id": 434
   },
   "demanda": {
-    "obligacion": [
-      "20990085420"
-    ],
+    "obligacion": ["20990085420"],
     "llaveProceso": "11001400306820180099900",
     "notificacion": null,
     "medidasCautelares": null,
@@ -192,16 +190,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-05-22T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-05-22T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2018 - 00999",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2021-04-04T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2021-04-04T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -217,9 +211,7 @@
     "email": "diagonal132@gmail.com"
   },
   "fecha": "2022-06-03T05:00:00.000Z",
-  "idProcesos": [
-    19222160
-  ],
+  "idProcesos": [19222160],
   "idRegUltimaAct": 1302983770,
   "llaveProceso": "11001400306820180099900",
   "nombre": "FRANCISCO JAVIER GIL FLOREZ",

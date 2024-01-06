@@ -685,10 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "377815134447388",
-      "40999835900267587//53037142299024763"
-    ],
+    "obligacion": ["377815134447388", "40999835900267587//53037142299024763"],
     "llaveProceso": "11001400301920170052800",
     "notificacion": {
       "certimail": null,
@@ -704,16 +701,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
     "etapaProcesal": "SENTENCIA",
-    "fechaPresentacion": [
-      "2017-06-14T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-14T05:00:00.000Z"],
     "mandamientoPago": "2017-06-07T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2017 - 00528",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-02-02T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-02-02T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -729,9 +722,7 @@
     "email": null
   },
   "fecha": "2020-02-03T05:00:00.000Z",
-  "idProcesos": [
-    74646350
-  ],
+  "idProcesos": [74646350],
   "idRegUltimaAct": 952387560,
   "llaveProceso": "11001400301920170052800",
   "nombre": "EDISON PALMA CARDENAL",

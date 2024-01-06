@@ -232,14 +232,9 @@
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-09-05T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-05T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        120356,
-        1590082995
-      ],
+      "obligacion": [120356, 1590082995],
       "radicado": "2017 - 01469"
     }
   ],
@@ -294,9 +289,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    17944250
-  ],
+  "idProcesos": [17944250],
   "nombre": "EDGAR MARTINEZ VELANDIA",
   "notificacion": null
 }

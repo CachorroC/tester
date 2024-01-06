@@ -685,9 +685,7 @@
   "category": "Insolvencia",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "140085"
-    ],
+    "obligacion": ["140085"],
     "llaveProceso": "11001400300620170096400",
     "notificacion": {
       "291": {
@@ -718,9 +716,7 @@
     "municipio": "BOGOTA",
     "radicado": "2017 - 00964",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2026-06-22T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2026-06-22T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -736,9 +732,7 @@
     "email": "rubypaez71@hotmail.com"
   },
   "fecha": "2023-07-12T05:00:00.000Z",
-  "idProcesos": [
-    50857820
-  ],
+  "idProcesos": [50857820],
   "idRegUltimaAct": 1808307970,
   "llaveProceso": "11001400300620170096400",
   "nombre": "HECTOR ALFONSO TORRES RIOS",

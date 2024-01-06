@@ -402,10 +402,7 @@
     "id": 423
   },
   "demanda": {
-    "obligacion": [
-      "20990125146",
-      "377813000000000"
-    ],
+    "obligacion": ["20990125146", "377813000000000"],
     "llaveProceso": "11001400301920180044300",
     "notificacion": {
       "292": {
@@ -426,16 +423,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-04-25T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-04-25T05:00:00.000Z"],
     "mandamientoPago": "2018-09-05T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2018 - 00443",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2024-12-30T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2024-12-30T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -451,9 +444,7 @@
     "email": "andrespedraza12933@gmail.com"
   },
   "fecha": "2019-11-25T05:00:00.000Z",
-  "idProcesos": [
-    51149980
-  ],
+  "idProcesos": [51149980],
   "idRegUltimaAct": 899044160,
   "llaveProceso": "11001400301920180044300",
   "nombre": "ANDRES PEDRAZA GARCIA",

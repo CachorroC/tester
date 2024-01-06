@@ -142,22 +142,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2028-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2028-01-01T05:00:00.000Z"],
       "capitalAdeudado": 29204879,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2017-09-04T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-09-04T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        167542
-      ],
+      "obligacion": [167542],
       "radicado": "2017 - 01329"
     }
   ],
@@ -212,9 +206,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    19150031
-  ],
+  "idProcesos": [19150031],
   "nombre": "HECTOR MANUEL RAMIREZ PUENTES",
   "notificacion": null
 }

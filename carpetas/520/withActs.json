@@ -755,22 +755,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2023-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2023-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1387197656,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "SINGULAR",
       "mandamientoPago": null,
       "etapaProcesal": "11001418905520190028700",
-      "fechaPresentacion": [
-        "2019-02-26T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2019-02-26T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        5470086745
-      ],
+      "obligacion": [5470086745],
       "radicado": "2019 - 00287"
     }
   ],
@@ -825,9 +819,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51718410
-  ],
+  "idProcesos": [51718410],
   "nombre": "RAFAEL ADOLFO PAEZ ORTEGA",
   "notificacion": null
 }

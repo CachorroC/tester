@@ -232,22 +232,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2026-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2026-01-01T05:00:00.000Z"],
       "capitalAdeudado": 19951135,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": null,
-      "fechaPresentacion": [
-        "2019-06-04T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2019-06-04T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        20990138197
-      ],
+      "obligacion": [20990138197],
       "radicado": "2019 - 01008"
     }
   ],
@@ -302,9 +296,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    70545740
-  ],
+  "idProcesos": [70545740],
   "nombre": "INGRIT YOHANA VASQUEZ ROJAS",
   "notificacion": null
 }

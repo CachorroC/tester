@@ -54,9 +54,7 @@
         "fechaOrdenaMedida": "2018-09-10T05:00:00.000Z",
         "medidaSolicitada": "25/09/2018"
       },
-      "vencimientoPagare": [
-        "2021-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2021-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
@@ -65,9 +63,7 @@
       "etapaProcesal": "11001410375120180112100",
       "fechaPresentacion": [],
       "municipio": "KENNEDY",
-      "obligacion": [
-        10044000104
-      ],
+      "obligacion": [10044000104],
       "radicado": "2018 - 01121"
     }
   ],
@@ -87,10 +83,7 @@
     "primerNombre": "ANA",
     "segundoNombre": "LUCIA",
     "primerApellido": "YAÑEZ",
-    "segundoApellido": [
-      "VARGAS",
-      "(FALLECIDA)"
-    ],
+    "segundoApellido": ["VARGAS", "(FALLECIDA)"],
     "cedula": 26407097,
     "direccion": "CALLE  57B BIS No 99B-64 SUR BOSA SANTA FE",
     "email": null
@@ -110,9 +103,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    95877041
-  ],
+  "idProcesos": [95877041],
   "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)",
   "notificacion": {
     "notifiers": [

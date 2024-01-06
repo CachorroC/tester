@@ -685,10 +685,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "3880083804",
-      "4513074508682496 // 53037103332223839"
-    ],
+    "obligacion": ["3880083804", "4513074508682496 // 53037103332223839"],
     "llaveProceso": "11001418901220180095100",
     "notificacion": {
       "291": {
@@ -714,16 +711,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-10-19T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-10-19T05:00:00.000Z"],
     "mandamientoPago": "2019-11-01T05:00:00.000Z",
     "municipio": "BOGOTA",
     "radicado": "2018 - 00951",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2022-03-13T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2022-03-13T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -739,9 +732,7 @@
     "email": "rochi2656@hotmail.com"
   },
   "fecha": "2023-05-15T05:00:00.000Z",
-  "idProcesos": [
-    64673240
-  ],
+  "idProcesos": [64673240],
   "idRegUltimaAct": 1743221490,
   "llaveProceso": "11001418901220180095100",
   "nombre": "ROSALIA CHARRY  SARMIENTO",

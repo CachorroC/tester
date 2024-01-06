@@ -58,22 +58,16 @@
         "fechaOrdenaMedida": null,
         "medidaSolicitada": "EMBARGO DE VEHICULO"
       },
-      "vencimientoPagare": [
-        "2021-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2021-01-01T05:00:00.000Z"],
       "capitalAdeudado": null,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "PRENDARIO",
       "mandamientoPago": null,
       "etapaProcesal": "EJECUCIÓN",
-      "fechaPresentacion": [
-        "2018-02-01T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-02-01T05:00:00.000Z"],
       "municipio": "CAJICA",
-      "obligacion": [
-        12730779
-      ],
+      "obligacion": [12730779],
       "radicado": "2018 - 00048"
     }
   ],
@@ -113,9 +107,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    86157021
-  ],
+  "idProcesos": [86157021],
   "nombre": "JUAN CAMILO CHINGATE PENAGOS",
   "notificacion": {
     "notifiers": [

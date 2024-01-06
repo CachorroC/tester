@@ -685,9 +685,7 @@
   "category": "Terminados",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "83616"
-    ],
+    "obligacion": ["83616"],
     "llaveProceso": "11001400305920170097500",
     "notificacion": {
       "certimail": null,
@@ -703,16 +701,12 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "SUSPENDIDO",
-    "fechaPresentacion": [
-      "2017-10-06T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-06T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "BOGOTA",
     "radicado": "2017 - 00975",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2020-12-13T05:00:00.000Z"
-    ]
+    "vencimientoPagare": ["2020-12-13T05:00:00.000Z"]
   },
   "deudor": {
     "tel": {
@@ -728,9 +722,7 @@
     "email": "luz.y31@hotmail.com"
   },
   "fecha": "2020-03-19T05:00:00.000Z",
-  "idProcesos": [
-    50765330
-  ],
+  "idProcesos": [50765330],
   "idRegUltimaAct": 976059170,
   "llaveProceso": "11001400305920170097500",
   "nombre": "ELIZABETH GIL RODRIGUEZ",

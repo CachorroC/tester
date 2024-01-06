@@ -143,22 +143,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 26633997,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": null,
       "etapaProcesal": "ADMISION",
-      "fechaPresentacion": [
-        "2018-02-20T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2018-02-20T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        142837
-      ],
+      "obligacion": [142837],
       "radicado": "2018-0237"
     }
   ],
@@ -193,10 +187,7 @@
     "primerNombre": "SANDRA",
     "segundoNombre": "PATRICIA",
     "primerApellido": "",
-    "segundoApellido": [
-      "OJEDA",
-      "RODRIGUEZ"
-    ],
+    "segundoApellido": ["OJEDA", "RODRIGUEZ"],
     "cedula": 52357813,
     "direccion": "CALLE 50 SUR No 87 D- 81",
     "email": "dandraojeda_5@hotmail.com"
@@ -216,9 +207,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    51025410
-  ],
+  "idProcesos": [51025410],
   "nombre": "SANDRA PATRICIA  OJEDA RODRIGUEZ",
   "notificacion": null
 }

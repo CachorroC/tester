@@ -396,10 +396,7 @@
   "category": "Reintegra",
   "codeudor": null,
   "demanda": {
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "5306960687119070"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "5306960687119070"],
     "llaveProceso": "25307400300320210053900",
     "notificacion": {
       "291": {
@@ -425,9 +422,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": [
-      "2018-09-13T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-09-13T05:00:00.000Z"],
     "mandamientoPago": null,
     "municipio": "GIRARDOT",
     "radicado": "2021 - 00539",
@@ -451,9 +446,7 @@
     "email": "adriana.0806@hotmail.com"
   },
   "fecha": "2023-03-10T05:00:00.000Z",
-  "idProcesos": [
-    121826111
-  ],
+  "idProcesos": [121826111],
   "idRegUltimaAct": 1230524231,
   "llaveProceso": "25307400300320210053900",
   "nombre": "ADRIANA VANEGAS PEÑA",

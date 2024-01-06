@@ -386,22 +386,16 @@
       "esPrivado": false,
       "cantFilas": -1,
       "medidasCautelares": null,
-      "vencimientoPagare": [
-        "2017-01-01T05:00:00.000Z"
-      ],
+      "vencimientoPagare": ["2017-01-01T05:00:00.000Z"],
       "capitalAdeudado": 1291806089,
       "departamento": "CUNDINAMARCA",
       "entregaGarantiasAbogado": null,
       "tipoProceso": "HIPOTECARIO",
       "mandamientoPago": "2017-09-11T05:00:00.000Z",
       "etapaProcesal": "NOTIFICACION",
-      "fechaPresentacion": [
-        "2017-10-05T05:00:00.000Z"
-      ],
+      "fechaPresentacion": ["2017-10-05T05:00:00.000Z"],
       "municipio": "BOGOTA",
-      "obligacion": [
-        109481
-      ],
+      "obligacion": [109481],
       "radicado": "2017 - 01484"
     }
   ],
@@ -456,9 +450,7 @@
       "cantFilas": -1
     }
   ],
-  "idProcesos": [
-    50760230
-  ],
+  "idProcesos": [50760230],
   "nombre": "ANDRES GUILLERMO ACEVEDO BORRAEZ",
   "notificacion": {
     "notifiers": [
