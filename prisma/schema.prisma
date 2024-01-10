@@ -57,7 +57,7 @@ model Codeudor {
 }
 
 model Demanda {
-  capitalAdeudado         Decimal?           @db.Money
+  capitalAdeudado         String?
   carpetaNumero           Int?               @unique
   departamento            String?
   despacho                String?
