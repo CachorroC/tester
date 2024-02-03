@@ -26,7 +26,7 @@ export interface outProceso extends intProceso {
 const prisma = new PrismaClient();
 
 async function fetcher(
-  llaveProceso: string 
+  llaveProceso: string
 ): Promise<outProceso[]> {
   try {
     const request = await fetch(
@@ -38,7 +38,7 @@ async function fetcher(
         `${ llaveProceso }: ${ request.status } ${
           request.statusText
         }${ JSON.stringify(
-          request, null, 2 
+          request, null, 2
         ) }`,
       );
     }
@@ -46,34 +46,34 @@ async function fetcher(
     const json = ( await request.json() ) as ConsultaNumeroRadicacion;
 
     const {
-      procesos 
+      procesos
     } = json;
 
     return procesos.map(
       (
-        proceso 
+        proceso
       ) => {
         return {
           ...proceso,
           fechaProceso: proceso.fechaProceso
             ? new Date(
-              proceso.fechaProceso 
+              proceso.fechaProceso
             )
             : null,
           fechaUltimaActuacion: proceso.fechaUltimaActuacion
             ? new Date(
-              proceso.fechaUltimaActuacion 
+              proceso.fechaUltimaActuacion
             )
             : null,
           juzgado: new NewJuzgado(
-            proceso 
+            proceso
           ),
         };
-      } 
+      }
     );
   } catch ( error ) {
     console.log(
-      error 
+      error
     );
     return [];
   }
@@ -83,44 +83,43 @@ async function getLLaves() {
   const carpetas = await prisma.carpeta.findMany();
   return carpetas.flatMap(
     (
-      carpeta 
+      carpeta
     ) => {
       return carpeta.llaveProceso;
-    } 
+    }
   );
 }
 
 async function* AsyncGenerateActuaciones(
-  llaves: string[] 
+  llaves: string[]
 ) {
   for ( const llaveProceso of llaves ) {
     const indexOf = llaves.indexOf(
-      llaveProceso 
+      llaveProceso
     );
     console.log(
-      indexOf 
+      indexOf
     );
 
     const fetcherIdProceso = await fetcher(
-      llaveProceso 
+      llaveProceso
     );
 
     for ( const proceso of fetcherIdProceso ) {
-      if ( proceso.esPrivado ) {
-        continue;
+      if ( !proceso.esPrivado ) {
+        await prismaUpdaterProcesos(
+          proceso
+        );
       }
-
-      await prismaUpdaterProcesos(
-        proceso 
-      );
     }
+
 
     yield fetcherIdProceso;
   }
 }
 
 async function prismaUpdaterProcesos(
-  proceso: outProceso 
+  proceso: outProceso
 ) {
   const idProcesosSet = new Set<number>();
 
@@ -130,23 +129,23 @@ async function prismaUpdaterProcesos(
         where: {
           llaveProceso: proceso.llaveProceso,
         },
-      } 
+      }
     );
     carpeta.idProcesos.forEach(
       (
-        idProceso 
+        idProceso
       ) => {
         idProcesosSet.add(
-          idProceso 
+          idProceso
         );
-      } 
+      }
     );
 
     idProcesosSet.add(
-      proceso.idProceso 
+      proceso.idProceso
     );
 
-    await prisma.carpeta.update(
+    const updater = await prisma.carpeta.update(
       {
         where: {
           numero: carpeta.numero,
@@ -154,7 +153,7 @@ async function prismaUpdaterProcesos(
         data: {
           idProcesos: {
             set: Array.from(
-              idProcesosSet 
+              idProcesosSet
             ),
           },
           procesos: {
@@ -176,11 +175,38 @@ async function prismaUpdaterProcesos(
             },
           },
         },
-      } 
+      }
     );
+    console.log(
+      updater
+    );
+    /*     await fs.mkdir(
+      `./src/date/${ new Date()
+        .getFullYear() }/${ new Date()
+        .getMonth() }/${ new Date()
+        .getDate() }`, {
+        recursive: true,
+      }
+    );
+
+    fs.writeFile(
+      `./src/date/${ new Date()
+        .getFullYear() }/${ new Date()
+        .getMonth() }/${ new Date()
+        .getDate() }/${
+        proceso.idProceso
+      }.json`,
+      JSON.stringify(
+        {
+          date   : new Date(),
+          proceso: proceso
+        }
+      ),
+    );
+ */
   } catch ( error ) {
     console.log(
-      error 
+      error
     );
   }
 }
@@ -190,24 +216,24 @@ async function main() {
 
   const idProcesos = await getLLaves();
   console.log(
-    idProcesos 
+    idProcesos
   );
 
   for await ( const actuacionesJson of AsyncGenerateActuaciones(
-    idProcesos 
+    idProcesos
   ) ) {
     console.log(
-      actuacionesJson 
+      actuacionesJson
     );
     ActsMap.push(
-      actuacionesJson 
+      actuacionesJson
     );
   }
 
   fs.writeFile(
     'actuacionesOutput.json', JSON.stringify(
-      ActsMap 
-    ) 
+      ActsMap
+    )
   );
   return ActsMap;
 }
@@ -215,5 +241,5 @@ async function main() {
 const mainer = main();
 
 console.log(
-  mainer 
+  mainer
 );

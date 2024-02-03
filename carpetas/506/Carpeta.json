@@ -1,0 +1,80 @@
+{
+  "id": 1023891419,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 506
+  },
+  "demanda": {
+    "capitalAdeudado": "15426758.96",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "11001400300420210061100",
+    "fechaPresentacion": [],
+    "llaveProceso": "11001418903120180138000",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 506,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "54915703924828800"
+    ],
+    "radicado": "2021- 00611",
+    "tipoProceso": "ACUMULADO",
+    "vencimientoPagare": [
+      "2021-06-04T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 506,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.722Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 506,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "EDWIN",
+    "segundoNombre": "CAMILO",
+    "primerApellido": "SARMIENTO",
+    "segundoApellido": "GOMEZ",
+    "cedula": "1023891419",
+    "direccion": "CARRERA 3 No 6-25 SUR TORRE 6 APTO 104",
+    "email": "edwin.sarmiento@altipal.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418903120180138000",
+  "nombre": "EDWIN CAMILO SARMIENTO GOMEZ",
+  "numero": 506,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "ACUMULADO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.723Z"
+}

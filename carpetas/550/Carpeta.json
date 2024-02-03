@@ -1,0 +1,76 @@
+{
+  "id": 1022336662,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 550
+  },
+  "demanda": {
+    "capitalAdeudado": "1000",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "25754418900120190091100",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 550,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [],
+    "radicado": "2019 - 00911",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 550,
+      "fechaOrdenaMedida": "2024-02-03T18:59:53.575Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 550,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANGEL",
+    "primerApellido": "AGUASACO",
+    "segundoApellido": "PEÑUELA",
+    "cedula": "1022336662",
+    "direccion": null,
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900120190091100",
+  "nombre": "MIGUEL ANGEL AGUASACO PEÑUELA",
+  "numero": 550,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:53.575Z"
+}

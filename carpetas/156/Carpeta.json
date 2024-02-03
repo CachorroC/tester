@@ -1,0 +1,81 @@
+{
+  "id": 52431512,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 156
+  },
+  "demanda": {
+    "capitalAdeudado": "41371150.58",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-22T05:00:16.000Z",
+    "etapaProcesal": "25473400300120170077700",
+    "fechaPresentacion": [],
+    "llaveProceso": "25473400300120170077700",
+    "mandamientoPago": "2017-08-28T05:00:16.000Z",
+    "municipio": "MOSQUERA",
+    "notificacion": {
+      "id": 156,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-09-19T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12519120",
+      "12549733"
+    ],
+    "radicado": "2017 - 00777",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2020-08-15T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 156,
+      "fechaOrdenaMedida": "2024-02-03T18:59:12.812Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 156,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "MARTHA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "MORALES",
+    "segundoApellido": "SARMIENTO",
+    "cedula": "52431512",
+    "direccion": "CARRERA 10 # 5 - 62 TORRE 7 APTO 127 ",
+    "email": "gerencia@logimontacargas.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25473400300120170077700",
+  "nombre": "MARTHA PATRICIA MORALES SARMIENTO",
+  "numero": 156,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:12.812Z"
+}

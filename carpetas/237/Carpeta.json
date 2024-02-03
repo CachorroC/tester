@@ -1,0 +1,82 @@
+{
+  "id": 80237050,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "INGRID DAYHANA FORERO PALACIOS ",
+    "cedula": "1078366269",
+    "direccion": "CARRERA 9 No 3-93",
+    "telefono": "8656241 /3124269483",
+    "id": 237
+  },
+  "demanda": {
+    "capitalAdeudado": "90276951",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-29T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.997Z"
+    ],
+    "llaveProceso": "25799418900120170024700",
+    "mandamientoPago": null,
+    "municipio": "TENJO",
+    "notificacion": {
+      "id": 237,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "151792"
+    ],
+    "radicado": "2017 - 00247",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-05-14T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 237,
+      "fechaOrdenaMedida": "2024-02-03T18:59:22.186Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 237,
+    "telCelular": "3114602334",
+    "telFijo": "8656241 ",
+    "primerNombre": "NUMAEL",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "GONZALEZ",
+    "segundoApellido": "SALGUERO",
+    "cedula": "80237050",
+    "direccion": "CARRERA 9 No 3-93",
+    "email": "numasue@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25799418900120170024700",
+  "nombre": "NUMAEL AUGUSTO GONZALEZ SALGUERO",
+  "numero": 237,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:22.186Z"
+}

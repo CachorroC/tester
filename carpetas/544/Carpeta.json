@@ -1,0 +1,82 @@
+{
+  "id": 52018939,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 544
+  },
+  "demanda": {
+    "capitalAdeudado": "26806038",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2019-04-12T05:00:00.000Z",
+    "etapaProcesal": "11001400306120190215900",
+    "fechaPresentacion": [],
+    "llaveProceso": "11001400304320190215900",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 544,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "1800092546",
+      "1800092544"
+    ],
+    "radicado": "2019 - 02159",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2019-03-04T05:00:00.000Z",
+      "2026-02-05T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 544,
+      "fechaOrdenaMedida": "2024-02-03T18:59:53.144Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 544,
+    "telCelular": "3112925970",
+    "telFijo": "8055915 ",
+    "primerNombre": "SONIA",
+    "segundoNombre": "ANGELICA",
+    "primerApellido": "LOPEZ",
+    "segundoApellido": "ORTIZ",
+    "cedula": "52018939",
+    "direccion": "CALLE 78 D 110-22 INTERIOR 16",
+    "email": "sonialo.ejm@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400304320190215900",
+  "nombre": "SONIA ANGELICA LOPEZ ORTIZ",
+  "numero": 544,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:53.144Z"
+}

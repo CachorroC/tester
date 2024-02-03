@@ -1,0 +1,82 @@
+{
+  "id": 1032431042,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "JENNY BRIGITTE BALLEN MESA",
+    "cedula": "1069729949",
+    "direccion": "CARRERA 42 # 22 - 11  // CARRERA 11 BIS # 154A - 30 APTO 1007 TORRE 2 ",
+    "telefono": "8113984",
+    "id": 152
+  },
+  "demanda": {
+    "capitalAdeudado": "76394840",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-23T05:00:16.000Z",
+    "etapaProcesal": "11001400307320170113600",
+    "fechaPresentacion": [
+      "2022-03-25T05:00:00.000Z"
+    ],
+    "llaveProceso": "110014007320170113600",
+    "mandamientoPago": "2018-09-05T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 152,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "180950"
+    ],
+    "radicado": "2017 - 01136",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2035-02-05T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 152,
+      "fechaOrdenaMedida": "2024-02-03T18:59:12.712Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 152,
+    "telCelular": "3142566974",
+    "telFijo": "3142566 ",
+    "primerNombre": "NICOLAS",
+    "segundoNombre": "OSORIO",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": null,
+    "cedula": "1032431042",
+    "direccion": "CARRERA 111 BIS # 154A - 30 TORRE 2 APTO 1007",
+    "email": "nicolas.osorio@finamerica.com.co"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "110014007320170113600",
+  "nombre": "NICOLAS OSORIO RODRIGUEZ",
+  "numero": 152,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:12.712Z"
+}

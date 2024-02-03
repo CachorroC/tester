@@ -1,0 +1,82 @@
+{
+  "id": 80792987,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 408
+  },
+  "demanda": {
+    "capitalAdeudado": "189",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "2018-02-22T05:00:00.000Z"
+    ],
+    "llaveProceso": "11001400308120180026400",
+    "mandamientoPago": "2018-03-04T05:00:00.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 408,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "152654"
+    ],
+    "radicado": "2018 - 00264",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2018-06-06T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 408,
+      "fechaOrdenaMedida": "2018-11-05T05:00:00.000Z",
+      "medidaSolicitada": "CERTIMAIL"
+    }
+  },
+  "deudor": {
+    "id": 408,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JHON",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "BEJARANO",
+    "segundoApellido": "FONSECA",
+    "cedula": "80792987",
+    "direccion": "CALLE 4 D No 39 C-22",
+    "email": "jhonbeja227@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400308120180026400",
+  "nombre": "JHON ALEXANDER BEJARANO FONSECA",
+  "numero": 408,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:42.118Z"
+}

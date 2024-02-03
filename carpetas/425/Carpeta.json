@@ -1,0 +1,82 @@
+{
+  "id": 52498444,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 425
+  },
+  "demanda": {
+    "capitalAdeudado": "283",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-04-25T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.228Z"
+    ],
+    "llaveProceso": "11001400307520180067400",
+    "mandamientoPago": "2018-05-23T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 425,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990126656"
+    ],
+    "radicado": "2018 - 00674",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2025-02-24T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 425,
+      "fechaOrdenaMedida": "1970-01-01T00:00:43.476Z",
+      "medidaSolicitada": "CERTIMAIL"
+    }
+  },
+  "deudor": {
+    "id": 425,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "SANDRA",
+    "segundoNombre": "RAQUEL",
+    "primerApellido": "LOPEZ",
+    "segundoApellido": "DE",
+    "cedula": "52498444",
+    "direccion": "CARRERA 29 No 40 A-53  APTO 604",
+    "email": "sandralopezdemesa@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400307520180067400",
+  "nombre": "SANDRA RAQUEL LOPEZ DE MESA OSES",
+  "numero": 425,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:43.447Z"
+}

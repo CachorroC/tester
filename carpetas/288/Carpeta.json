@@ -1,0 +1,82 @@
+{
+  "id": 20371142,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 288
+  },
+  "demanda": {
+    "capitalAdeudado": "60495232",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-10-03T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.014Z"
+    ],
+    "llaveProceso": "11001400308320170113300",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 288,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "138027"
+    ],
+    "radicado": "2017 - 01133",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-04-15T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 288,
+      "fechaOrdenaMedida": "2024-02-03T18:59:27.061Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 288,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "VIVIANA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "ROA",
+    "segundoApellido": "VIVAS",
+    "cedula": "20371142",
+    "direccion": "DIAGONAL  15 B No 104 - 46 ",
+    "email": "isafrevi@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400308320170113300",
+  "nombre": "VIVIANA MARCELA ROA VIVAS",
+  "numero": 288,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:27.061Z"
+}

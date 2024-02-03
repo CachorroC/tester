@@ -1,0 +1,83 @@
+{
+  "id": 11207272,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 23
+  },
+  "demanda": {
+    "capitalAdeudado": "37209133",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-19T05:00:16.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.885Z"
+    ],
+    "llaveProceso": "25307400300120170033700",
+    "mandamientoPago": "2017-07-26T05:00:16.000Z",
+    "municipio": "GIRARDOT",
+    "notificacion": {
+      "id": 23,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12517400",
+      "5306941968938113"
+    ],
+    "radicado": "2017 - 00337",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-04-26T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 23,
+      "fechaOrdenaMedida": "2024-02-03T18:58:53.942Z",
+      "medidaSolicitada": "OK"
+    }
+  },
+  "deudor": {
+    "id": 23,
+    "telCelular": "3186899839",
+    "telFijo": null,
+    "primerNombre": "EDER",
+    "segundoNombre": "ALEXIS",
+    "primerApellido": "HERRERA",
+    "segundoApellido": "SAENZ",
+    "cedula": "11207272",
+    "direccion": "MANZANA D CS 8 DIAMANTE GIRARDOT",
+    "email": "karendiaz@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25307400300120170033700",
+  "nombre": "EDER ALEXIS HERRERA SAENZ",
+  "numero": 23,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:53.942Z"
+}

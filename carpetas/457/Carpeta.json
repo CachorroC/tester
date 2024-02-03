@@ -1,0 +1,83 @@
+{
+  "id": 900237555,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "OSCAR JAVIER PARDO MORENO // ALUEN DAVID RONCANCIO",
+    "cedula": "12198722   // 79858717",
+    "direccion": "CARRERA 70 A No 4-544 APTO 201",
+    "telefono": "45840580  //7495406",
+    "id": 457
+  },
+  "demanda": {
+    "capitalAdeudado": "24765475",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-07-09T05:00:16.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.299Z"
+    ],
+    "llaveProceso": "11001400307920180087200",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 457,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "460091173/ 460090745"
+    ],
+    "radicado": "2018 - 00872",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2019-01-26T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 457,
+      "fechaOrdenaMedida": "2024-02-03T18:59:47.982Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 457,
+    "telCelular": "3108881287",
+    "telFijo": null,
+    "primerNombre": "SOLINCON",
+    "segundoNombre": null,
+    "primerApellido": "LIMITADA",
+    "segundoApellido": null,
+    "cedula": "900237555",
+    "direccion": "CARRERA 58 No 15-54 PISO 2",
+    "email": "solinconltda@yahoo.es"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400307920180087200",
+  "nombre": "SOLINCON LIMITADA",
+  "numero": 457,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:47.982Z"
+}

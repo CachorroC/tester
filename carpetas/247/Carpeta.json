@@ -1,0 +1,81 @@
+{
+  "id": 179290,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 247
+  },
+  "demanda": {
+    "capitalAdeudado": "17635164",
+    "departamento": "CUNDINNAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-06T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "25035418900120170017300",
+    "mandamientoPago": "2017-09-18T05:00:16.000Z",
+    "municipio": "ANAPOIMA",
+    "notificacion": {
+      "id": 247,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-10-24T05:00:16.000Z",
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "377815356092904//45130711799741999",
+      "5303714068687853"
+    ],
+    "radicado": "2017 - 00173",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2017-03-20T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 247,
+      "fechaOrdenaMedida": "2024-02-03T18:59:23.111Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 247,
+    "telCelular": "3115221604",
+    "telFijo": null,
+    "primerNombre": "DIONISIO",
+    "segundoNombre": "LANCHEROS",
+    "primerApellido": "NOVOA",
+    "segundoApellido": null,
+    "cedula": "179290",
+    "direccion": "CALLE 5 No  0-19 ANAPOIMA",
+    "email": "dlancheros92@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25035418900120170017300",
+  "nombre": "DIONISIO LANCHEROS NOVOA",
+  "numero": 247,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:23.111Z"
+}

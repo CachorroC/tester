@@ -1,0 +1,82 @@
+{
+  "id": 80203869,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 315
+  },
+  "demanda": {
+    "capitalAdeudado": "47230309",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-10-28T05:00:16.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.040Z"
+    ],
+    "llaveProceso": "25754400300320170036400",
+    "mandamientoPago": "2018-02-13T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 315,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "170453"
+    ],
+    "radicado": "2017 - 00364",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2033-12-05T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 315,
+      "fechaOrdenaMedida": "1970-01-01T00:00:43.315Z",
+      "medidaSolicitada": "FISICA"
+    }
+  },
+  "deudor": {
+    "id": 315,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "BLADIMIR",
+    "segundoNombre": "GUTIERREZ",
+    "primerApellido": "CIFUENTES",
+    "segundoApellido": null,
+    "cedula": "80203869",
+    "direccion": "CALLE 34 A SUR No 13 - 46  SOACHA",
+    "email": "bladimir0612@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300320170036400",
+  "nombre": "BLADIMIR GUTIERREZ CIFUENTES",
+  "numero": 315,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:29.582Z"
+}

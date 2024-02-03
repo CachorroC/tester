@@ -1,0 +1,82 @@
+{
+  "id": 830105220,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "OSCAR WILLIAM FAJARDO GARCIA",
+    "cedula": "19436512",
+    "direccion": "AUT NORTE No 122 - 56 OFICINA 704 / CALLE 119 No 13-61",
+    "telefono": "F 8028680",
+    "id": 501
+  },
+  "demanda": {
+    "capitalAdeudado": "31627561.81",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-09-10T05:00:00.000Z",
+    "etapaProcesal": "11001400305520180131600",
+    "fechaPresentacion": [],
+    "llaveProceso": "11001400305520180131600",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 501,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2019-11-09T05:00:00.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "19353965852// 4549260357738974",
+      "4594260246320690"
+    ],
+    "radicado": "2018 - 01316",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2021-06-01T05:00:00.000Z",
+      "2021-10-04T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 501,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.630Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 501,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ASOCIACION",
+    "segundoNombre": "AGROPECUARIA",
+    "primerApellido": "UCEBUL",
+    "segundoApellido": null,
+    "cedula": "830105220",
+    "direccion": "AVENIDA EL DORADO No 68C-61 OFICINA 702",
+    "email": "ucebul@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400305520180131600",
+  "nombre": "ASOCIACION AGROPECUARIA UCEBUL",
+  "numero": 501,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.630Z"
+}

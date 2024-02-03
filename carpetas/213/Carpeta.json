@@ -1,0 +1,82 @@
+{
+  "id": 52325613,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "OSCAR GONZALEZ GONZALEZ ",
+    "cedula": "79846140",
+    "direccion": null,
+    "telefono": null,
+    "id": 213
+  },
+  "demanda": {
+    "capitalAdeudado": "12573628.72",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-30T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.982Z"
+    ],
+    "llaveProceso": "110014003088220170148800",
+    "mandamientoPago": "2017-12-13T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 213,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-12-13T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "0049-01-01T00:00:00.000Z",
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "85712"
+    ],
+    "radicado": "2017 - 01488",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2021-04-25T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 213,
+      "fechaOrdenaMedida": "2024-02-03T18:59:18.784Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 213,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "MYRIAM",
+    "segundoNombre": "CONSUELO",
+    "primerApellido": "RIOS",
+    "segundoApellido": "FONSECA",
+    "cedula": "52325613",
+    "direccion": "CARRERA 98B # 14 - 06 CASA 166",
+    "email": "miricu143@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "110014003088220170148800",
+  "nombre": "MYRIAM CONSUELO RIOS FONSECA",
+  "numero": 213,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:18.784Z"
+}

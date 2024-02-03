@@ -1,0 +1,82 @@
+{
+  "id": 21016631,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 180
+  },
+  "demanda": {
+    "capitalAdeudado": "68421268.51",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-22T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.976Z"
+    ],
+    "llaveProceso": "25878418900120170021800",
+    "mandamientoPago": "2017-09-18T05:00:16.000Z",
+    "municipio": "VIOTA",
+    "notificacion": {
+      "id": 180,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12594582"
+    ],
+    "radicado": "2017 - 00218",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-08-15T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 180,
+      "fechaOrdenaMedida": "2024-02-03T18:59:16.016Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 180,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ALCIRA",
+    "segundoNombre": "DELIA",
+    "primerApellido": "SAENZ",
+    "segundoApellido": "GARAVIS",
+    "cedula": "21016631",
+    "direccion": "CALLE 3 # 5 - 31 VIOTA",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25878418900120170021800",
+  "nombre": "ALCIRA DELIA SAENZ GARAVIS",
+  "numero": 180,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:16.016Z"
+}

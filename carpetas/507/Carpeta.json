@@ -1,0 +1,79 @@
+{
+  "id": 80468168,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "6/08/2018",
+    "telefono": null,
+    "id": 507
+  },
+  "demanda": {
+    "capitalAdeudado": "2112018",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "25843410300120180049900",
+    "fechaPresentacion": [],
+    "llaveProceso": "2.58434003001201e+22",
+    "mandamientoPago": null,
+    "municipio": "UBATE",
+    "notificacion": {
+      "id": 507,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "3380087493",
+      "21.876.281,00"
+    ],
+    "radicado": "2018 - 00499",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 507,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.747Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 507,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "WILLIAM",
+    "segundoNombre": "",
+    "primerApellido": "YOVANY",
+    "segundoApellido": "CASALLAS",
+    "cedula": "80468168",
+    "direccion": null,
+    "email": "CARRERA 4 A No 16 B-14  TORRE2"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "2.58434003001201e+22",
+  "nombre": "WILLIAM  YOVANY CASALLAS ROMERO",
+  "numero": 507,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.747Z"
+}

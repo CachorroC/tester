@@ -1,0 +1,78 @@
+{
+  "id": 3116420,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 433
+  },
+  "demanda": {
+    "capitalAdeudado": "43237",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "25899400300120180022200",
+    "mandamientoPago": null,
+    "municipio": "ZIPAQUIRA",
+    "notificacion": {
+      "id": 433,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "24,057,365,00"
+    ],
+    "radicado": "2018 - 00222",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 433,
+      "fechaOrdenaMedida": "2024-02-03T18:59:45.009Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 433,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JORGE",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "BELTRAN",
+    "segundoApellido": "PAEZ",
+    "cedula": "3116420",
+    "direccion": null,
+    "email": "CALLE 3 No 17-36"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25899400300120180022200",
+  "nombre": "JORGE ALBERTO BELTRAN PAEZ",
+  "numero": 433,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:45.009Z"
+}

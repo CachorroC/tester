@@ -1,0 +1,82 @@
+{
+  "id": 80722943,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "YURANI VERGARA NAGLES",
+    "cedula": "53011591",
+    "direccion": "DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204",
+    "telefono": "7340105//304410804",
+    "id": 62
+  },
+  "demanda": {
+    "capitalAdeudado": "15445371",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.907Z"
+    ],
+    "llaveProceso": " 11001400306320180016800",
+    "mandamientoPago": "2018-03-21T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 62,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "320 093516"
+    ],
+    "radicado": "2017 - 00537",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2022-01-31T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 62,
+      "fechaOrdenaMedida": "2018-06-07T05:00:00.000Z",
+      "medidaSolicitada": "CERTIMAI"
+    }
+  },
+  "deudor": {
+    "id": 62,
+    "telCelular": "3138253554",
+    "telFijo": null,
+    "primerNombre": "LUIS",
+    "segundoNombre": "EDUARDO",
+    "primerApellido": "CARRANZA",
+    "segundoApellido": "BUSTOS",
+    "cedula": "80722943",
+    "direccion": "DIAGONAL 60 SUR NO. 28-I 72 INTERIOR 3 APTO 204",
+    "email": " "
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": " 11001400306320180016800",
+  "nombre": "LUIS EDUARDO CARRANZA BUSTOS",
+  "numero": 62,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:58.163Z"
+}

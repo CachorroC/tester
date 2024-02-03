@@ -1,0 +1,78 @@
+{
+  "id": 52470211,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "17/05/2022",
+    "telefono": null,
+    "id": 517
+  },
+  "demanda": {
+    "capitalAdeudado": "30012019",
+    "departamento": "CUNDINAMARCA ",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "11001418901020190016200",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 517,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "16262273,30"
+    ],
+    "radicado": "2019 - 00162",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 517,
+      "fechaOrdenaMedida": "2024-02-03T18:59:51.344Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 517,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "MARYLU",
+    "segundoNombre": "VALENCIA",
+    "primerApellido": "SUAREZ",
+    "segundoApellido": null,
+    "cedula": "52470211",
+    "direccion": null,
+    "email": "CARRERA 53A # 4F-67"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418901020190016200",
+  "nombre": "MARYLU VALENCIA SUAREZ",
+  "numero": 517,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:51.345Z"
+}

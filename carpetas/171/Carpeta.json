@@ -1,0 +1,82 @@
+{
+  "id": 1024468871,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 171
+  },
+  "demanda": {
+    "capitalAdeudado": "46042338",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-24T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.975Z"
+    ],
+    "llaveProceso": "11001400308620170086300",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 171,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12766386"
+    ],
+    "radicado": "2017 - 00863",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-08-14T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 171,
+      "fechaOrdenaMedida": "2024-02-03T18:59:14.556Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 171,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "MARITZA",
+    "segundoNombre": "NATALI",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "URREA",
+    "cedula": "1024468871",
+    "direccion": "CALLE 59C SUR # 87K - 64 APTO 1016",
+    "email": "jlaura00@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400308620170086300",
+  "nombre": "MARITZA NATALI RODRIGUEZ URREA",
+  "numero": 171,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:14.557Z"
+}

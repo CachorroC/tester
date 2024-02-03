@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": true,
-      "createdAt": "2024-01-02T02:11:56.478Z"
+      "createdAt": "2024-02-03T00:36:37.847Z"
     },
     {
       "idRegActuacion": 1314970781,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.478Z"
+      "createdAt": "2024-02-03T00:36:37.847Z"
     },
     {
       "idRegActuacion": 1314970771,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.478Z"
+      "createdAt": "2024-02-03T00:36:37.847Z"
     },
     {
       "idRegActuacion": 1313440011,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.478Z"
+      "createdAt": "2024-02-03T00:36:37.847Z"
     },
     {
       "idRegActuacion": 1313440001,
@@ -84,43 +84,77 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.478Z"
+      "createdAt": "2024-02-03T00:36:37.847Z"
     }
   ],
   "category": "Bancolombia",
-  "codeudor": null,
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 593
+  },
   "demanda": {
-    "obligacion": ["2230105704"],
-    "llaveProceso": "11001400304220230109900",
-    "notificacion": null,
-    "medidasCautelares": null,
-    "capitalAdeudado": null,
+    "capitalAdeudado": "70393714",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": null,
+    "entregaGarantiasAbogado": "2023-10-20T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "llaveProceso": "11001400304220230109900",
     "mandamientoPago": null,
     "municipio": "BOGOTA",
-    "radicado": "2023-1099",
+    "notificacion": {
+      "id": 593,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2230105704"
+    ],
+    "radicado": "2023 - 1099",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": ["2026-06-04T05:00:00.000Z"]
+    "vencimientoPagare": [
+      "2026-06-04T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 593,
+      "fechaOrdenaMedida": "2024-02-03T00:36:37.605Z",
+      "medidaSolicitada": null
+    }
   },
   "deudor": {
-    "tel": {
-      "fijo": 3042545,
-      "celular": 3103296632
-    },
+    "id": 593,
+    "telCelular": "3103296632",
+    "telFijo": "3042545 ",
     "primerNombre": "ISMAEL",
     "segundoNombre": "CAMACHO",
     "primerApellido": "GARCIA",
     "segundoApellido": null,
-    "cedula": 79823203,
+    "cedula": "79823203",
     "direccion": "Calle 6 A No. 89 – 47 Casa 561 Conjunto Residencial TINTALA Fase VI de la ciudad de Bogotá",
     "email": "mulasycamiones@hotmail.com"
   },
   "fecha": "2023-12-13T05:00:00.000Z",
-  "idProcesos": [162013641],
+  "idProcesos": [
+    162013641
+  ],
   "idRegUltimaAct": 1326461951,
   "llaveProceso": "11001400304220230109900",
   "nombre": "ISMAEL CAMACHO GARCIA",
@@ -163,5 +197,5 @@
     "idProceso": 162013641,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-01-02T02:11:56.357Z"
+  "updatedAt": "2024-02-03T00:36:37.606Z"
 }

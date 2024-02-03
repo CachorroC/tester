@@ -1,0 +1,81 @@
+{
+  "id": 39809183,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 479
+  },
+  "demanda": {
+    "capitalAdeudado": "12821536",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "2018-09-06T05:00:00.000Z"
+    ],
+    "llaveProceso": "25785418900120180017100",
+    "mandamientoPago": null,
+    "municipio": "TABIO",
+    "notificacion": {
+      "id": 479,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4594250481433800",
+      "5303720342826530"
+    ],
+    "radicado": "2018 - 00171",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 479,
+      "fechaOrdenaMedida": "2024-02-03T18:59:49.587Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 479,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "TANIA",
+    "segundoNombre": "CONSUELO",
+    "primerApellido": "BOTIA",
+    "segundoApellido": "CORREA",
+    "cedula": "39809183",
+    "direccion": "CALLE 8 No 0-105  TABIO",
+    "email": "tani_botia@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25785418900120180017100",
+  "nombre": "TANIA CONSUELO BOTIA CORREA",
+  "numero": 479,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:49.587Z"
+}

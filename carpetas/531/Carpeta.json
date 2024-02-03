@@ -1,0 +1,79 @@
+{
+  "id": 51813018,
+  "actuaciones": [],
+  "category": "Reintegra",
+  "codeudor": {
+    "nombre": "MARCO TULIO SANCHEZ MEDINA",
+    "cedula": "19299851",
+    "direccion": "KR 81 No. 127 - 46 Torre 1 Apt 401",
+    "telefono": "6139147",
+    "id": 531
+  },
+  "demanda": {
+    "capitalAdeudado": "35608653",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2020-10-07T05:00:16.000Z",
+    "etapaProcesal": "11001400300320170088400",
+    "fechaPresentacion": [],
+    "llaveProceso": "2020 - 00535",
+    "mandamientoPago": "2020-10-07T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 531,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": true,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2020084294",
+      "2020087484 // 4594250317705437 //5303723260933890"
+    ],
+    "radicado": "HMM PISO 13",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 531,
+      "fechaOrdenaMedida": "2024-02-03T19:00:10.778Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 531,
+    "telCelular": "3134386087",
+    "telFijo": "6139147 ",
+    "primerNombre": "SANDRA",
+    "segundoNombre": "LEONOR",
+    "primerApellido": "PAEZ",
+    "segundoApellido": "MURCIA",
+    "cedula": "51813018",
+    "direccion": "KR 81 No. 127 A - 46 CONJUNTO MONTE AZUL BOGOTA",
+    "email": "yadelcis@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "2020 - 00535",
+  "nombre": "SANDRA LEONOR PAEZ MURCIA",
+  "numero": 531,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T19:00:10.778Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 71557211,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": " SULLMAN JANETH SABOGAL JIMENEZ ",
+    "cedula": "53063756",
+    "direccion": " CL 7 5 29 TR 8 AP 303   ",
+    "telefono": "6197842 // 3112563218",
+    "id": 163
+  },
+  "demanda": {
+    "capitalAdeudado": "40423614.08",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-04T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.975Z"
+    ],
+    "llaveProceso": "25473418900120170092400",
+    "mandamientoPago": "2017-10-06T05:00:16.000Z",
+    "municipio": "MOSQUERA",
+    "notificacion": {
+      "id": 163,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4513082821740149",
+      "20990170294"
+    ],
+    "radicado": "2017 - 00924",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2028-11-29T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 163,
+      "fechaOrdenaMedida": "2024-02-03T18:59:13.629Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 163,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ARTURO",
+    "primerApellido": "RUEDA",
+    "segundoApellido": "ALZATE",
+    "cedula": "71557211",
+    "direccion": "CALLE 7 # 5 - 29 TORRE 8 APTO 303",
+    "email": "ruedacarlos47@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25473418900120170092400",
+  "nombre": "CARLOS ARTURO RUEDA ALZATE ",
+  "numero": 163,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:13.630Z"
+}

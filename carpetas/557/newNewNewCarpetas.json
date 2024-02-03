@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": true,
-      "createdAt": "2024-01-02T02:11:48.782Z"
+      "createdAt": "2024-02-03T00:36:31.105Z"
     },
     {
       "idRegActuacion": 1937617870,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:48.782Z"
+      "createdAt": "2024-02-03T00:36:31.105Z"
     },
     {
       "idRegActuacion": 1937617860,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:48.782Z"
+      "createdAt": "2024-02-03T00:36:31.105Z"
     },
     {
       "idRegActuacion": 1937617850,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:48.782Z"
+      "createdAt": "2024-02-03T00:36:31.105Z"
     },
     {
       "idRegActuacion": 1937617840,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:48.782Z"
+      "createdAt": "2024-02-03T00:36:31.105Z"
     },
     {
       "idRegActuacion": 1844973770,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:48.782Z"
+      "createdAt": "2024-02-03T00:36:31.105Z"
     },
     {
       "idRegActuacion": 1844913080,
@@ -118,52 +118,82 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:48.782Z"
+      "createdAt": "2024-02-03T00:36:31.105Z"
     }
   ],
   "category": "Bancolombia",
-  "codeudor": null,
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 557
+  },
   "demanda": {
+    "capitalAdeudado": "49329779",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "11001400301720230078200",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 557,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
     "obligacion": [
       "840093593",
       "PAGARE SIN NUMERO T. AMERICAN EXPRESS 0377844069636757"
     ],
-    "llaveProceso": "11001400301720230078200",
-    "notificacion": null,
-    "medidasCautelares": null,
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "despacho": null,
-    "entregaGarantiasAbogado": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": [],
-    "mandamientoPago": null,
-    "municipio": "BOGOTA",
     "radicado": "2023 - 00782",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
       "2026-07-18T05:00:00.000Z",
       "2026-03-04T05:00:00.000Z"
-    ]
+    ],
+    "medidasCautelares": {
+      "id": 557,
+      "fechaOrdenaMedida": "2024-02-03T00:36:30.966Z",
+      "medidaSolicitada": null
+    }
   },
   "deudor": {
-    "tel": {
-      "fijo": 6485655,
-      "celular": 3002985587
-    },
+    "id": 557,
+    "telCelular": "3002985587",
+    "telFijo": "6485655 ",
     "primerNombre": "CARLOS",
     "segundoNombre": "HERNEY",
     "primerApellido": "QUINTERO",
-    "segundoApellido": null,
-    "cedula": 71685758,
+    "segundoApellido": "",
+    "cedula": "71685758",
     "direccion": "KR 32 A 1 19 BARRIO SANTA MATILDE",
     "email": "cahequi8097@gmail.com  fundaoyuki@gmail.com"
   },
   "fecha": "2023-12-01T05:00:00.000Z",
-  "idProcesos": [132372990],
+  "idProcesos": [
+    132372990
+  ],
   "idRegUltimaAct": 1941737090,
   "llaveProceso": "11001400301720230078200",
-  "nombre": "CARLOS HERNEY QUINTERO",
+  "nombre": "CARLOS HERNEY QUINTERO ",
   "numero": 557,
   "procesos": [
     {
@@ -203,5 +233,5 @@
     "idProceso": 132372990,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-01-02T02:11:48.561Z"
+  "updatedAt": "2024-02-03T00:36:30.967Z"
 }

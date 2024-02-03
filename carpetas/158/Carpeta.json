@@ -1,0 +1,81 @@
+{
+  "id": 80808819,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "LUZ ANGELA POVEDA RAMOS ",
+    "cedula": "53911221",
+    "direccion": "CARRERA 3 ESTE # 6B - 36 CHIA",
+    "telefono": "8393651 ",
+    "id": 158
+  },
+  "demanda": {
+    "capitalAdeudado": "183128611.42",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-17T05:00:16.000Z",
+    "etapaProcesal": "25899310300120170039300",
+    "fechaPresentacion": [],
+    "llaveProceso": "25899310300120170039300",
+    "mandamientoPago": "2017-08-29T05:00:16.000Z",
+    "municipio": "ZIPAQUIRA",
+    "notificacion": {
+      "id": 158,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-03-07T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "173482",
+      "4099849860904006 // AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 00393",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2034-03-26T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 158,
+      "fechaOrdenaMedida": "2024-02-03T18:59:13.068Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 158,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JULIAN",
+    "segundoNombre": "JHOHANY",
+    "primerApellido": "GALLEGO",
+    "segundoApellido": "MONTES",
+    "cedula": "80808819",
+    "direccion": "CARRERA 3 ESTE # 6B - 36 CHIA",
+    "email": "jjgallego14@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25899310300120170039300",
+  "nombre": "JULIAN JHOHANY GALLEGO MONTES",
+  "numero": 158,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:13.068Z"
+}

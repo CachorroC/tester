@@ -1,0 +1,84 @@
+{
+  "id": 91284725,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 332
+  },
+  "demanda": {
+    "capitalAdeudado": "38034170",
+    "departamento": "CUNDINAMARCA ",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-11-08T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "2017-11-16T05:00:00.000Z",
+      "2018-03-15T05:00:00.000Z"
+    ],
+    "llaveProceso": "25754400100420180009800",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 332,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "161947 /377813179503108",
+      "377813223799561"
+    ],
+    "radicado": "2018   00098",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-06-05T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 332,
+      "fechaOrdenaMedida": "2024-02-03T18:59:31.929Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 332,
+    "telCelular": "3168017488",
+    "telFijo": "9032416 ",
+    "primerNombre": "MIGUEL",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "MARROQUIN",
+    "cedula": "91284725",
+    "direccion": "CARRERA 7 A  No  2 A - 35 TORRE 10 APARTAMENTO 303",
+    "email": "nichemen@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400100420180009800",
+  "nombre": "MIGUEL ANTONIO SANCHEZ MARROQUIN",
+  "numero": 332,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:31.930Z"
+}

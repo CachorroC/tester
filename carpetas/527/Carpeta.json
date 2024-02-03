@@ -1,0 +1,82 @@
+{
+  "id": 80654935,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "SANDRA MILENA VALBUENA RINCON",
+    "cedula": "52661952",
+    "direccion": "CALLE 7A # 7A-15 FUNZA",
+    "telefono": "F 8259768",
+    "id": 527
+  },
+  "demanda": {
+    "capitalAdeudado": "29140667.39",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "25286400300120190041800",
+    "fechaPresentacion": [],
+    "llaveProceso": "25286400300120190041800",
+    "mandamientoPago": "2019-05-06T05:00:00.000Z",
+    "municipio": "FUNZA",
+    "notificacion": {
+      "id": 527,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2019-03-07T05:00:00.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2273 320097153",
+      "REF 42796745"
+    ],
+    "radicado": "2019 - 00418",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2022-01-03T05:00:00.000Z",
+      "2022-05-25T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 527,
+      "fechaOrdenaMedida": "2024-02-03T18:59:52.397Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 527,
+    "telCelular": "3108090708",
+    "telFijo": "8233553 ",
+    "primerNombre": "JAIRO",
+    "segundoNombre": "MARCELO",
+    "primerApellido": "GUIZA",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": "80654935",
+    "direccion": "CALLE 7A #7A-15 FUNZA",
+    "email": "jmarcelo_78@yahoo.com // samvari12@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25286400300120190041800",
+  "nombre": "JAIRO MARCELO GUIZA RODRIGUEZ",
+  "numero": 527,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:52.397Z"
+}

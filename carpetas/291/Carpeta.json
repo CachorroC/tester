@@ -1,0 +1,81 @@
+{
+  "id": 35427969,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 291
+  },
+  "demanda": {
+    "capitalAdeudado": "55186030",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-29T05:00:16.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": [],
+    "llaveProceso": "11001400303920170133000",
+    "mandamientoPago": "2017-10-20T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 291,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "200828  / 4513070087585399",
+      "55303710092258331"
+    ],
+    "radicado": "2017 - 01330",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-08-04T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 291,
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 291,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "YEIMMY",
+    "segundoNombre": "CAROLINA",
+    "primerApellido": "FINO",
+    "segundoApellido": "BALLEN",
+    "cedula": "35427969",
+    "direccion": "CARRERA 91 No 157 B - 82  TORRE 2 APARTAMENTO 40",
+    "email": "carof111@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400303920170133000",
+  "nombre": "YEIMMY CAROLINA FINO BALLEN",
+  "numero": 291,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:27.375Z"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 3096755,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 503
+  },
+  "demanda": {
+    "capitalAdeudado": "15631923",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-10-10T05:00:00.000Z",
+    "etapaProcesal": "ADMISIION",
+    "fechaPresentacion": [
+      "2018-10-25T05:00:00.000Z"
+    ],
+    "llaveProceso": "25436408900120180006300",
+    "mandamientoPago": "2018-07-11T05:00:00.000Z",
+    "municipio": "MANTA",
+    "notificacion": {
+      "id": 503,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "3360084365 / 3360084819"
+    ],
+    "radicado": "2018 - 00063",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 503,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.652Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 503,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JUAN",
+    "segundoNombre": "CARLOS",
+    "primerApellido": "LEON",
+    "segundoApellido": "MONTENEGRO",
+    "cedula": "3096755",
+    "direccion": "DIAGONAL 2 No 6 A-29",
+    "email": "jclm152@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25436408900120180006300",
+  "nombre": "JUAN CARLOS LEON MONTENEGRO",
+  "numero": 503,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.652Z"
+}

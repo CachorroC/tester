@@ -1,0 +1,81 @@
+{
+  "id": 41888857,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 347
+  },
+  "demanda": {
+    "capitalAdeudado": "11831747",
+    "departamento": "CUNDINAMARCA ",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-11-10T05:00:16.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.060Z"
+    ],
+    "llaveProceso": "11001400303920170152500",
+    "mandamientoPago": "2018-02-01T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 347,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4513080135113862",
+      "AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 01525",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 347,
+      "fechaOrdenaMedida": "1970-01-01T00:00:43.236Z",
+      "medidaSolicitada": "CERTIMAIL"
+    }
+  },
+  "deudor": {
+    "id": 347,
+    "telCelular": null,
+    "telFijo": "2869149 ",
+    "primerNombre": "MARIA",
+    "segundoNombre": "ELENA",
+    "primerApellido": "ZULUAGA",
+    "segundoApellido": "URIBE",
+    "cedula": "41888857",
+    "direccion": "CALLE 19 No  18 - 54 APARTAMENTO 301",
+    "email": "equiposysuministroscapital@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400303920170152500",
+  "nombre": "MARIA ELENA ZULUAGA URIBE",
+  "numero": 347,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:34.237Z"
+}

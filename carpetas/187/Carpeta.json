@@ -1,0 +1,82 @@
+{
+  "id": 39624423,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 187
+  },
+  "demanda": {
+    "capitalAdeudado": "10928053.07",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-23T05:00:16.000Z",
+    "etapaProcesal": "25290400300220170055200",
+    "fechaPresentacion": [],
+    "llaveProceso": "25290400300220170055200",
+    "mandamientoPago": "2017-08-28T05:00:16.000Z",
+    "municipio": "FUSAGASUGA",
+    "notificacion": {
+      "id": 187,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-08-31T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4513070122193330",
+      "AUDIOPRESTAMO"
+    ],
+    "radicado": "2017 - 00552",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2020-03-19T05:00:00.000Z",
+      "2019-10-15T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 187,
+      "fechaOrdenaMedida": "2024-02-03T18:59:16.431Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 187,
+    "telCelular": "3138851725",
+    "telFijo": "8717658 ",
+    "primerNombre": "YAZMIN",
+    "segundoNombre": "ALVARADO",
+    "primerApellido": "PINZON",
+    "segundoApellido": "",
+    "cedula": "39624423",
+    "direccion": "CARRERA 6 # 16A - 84 FUSAGASUGA ",
+    "email": "  "
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25290400300220170055200",
+  "nombre": "YAZMIN ALVARADO PINZON ",
+  "numero": 187,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:16.432Z"
+}

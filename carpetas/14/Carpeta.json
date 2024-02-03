@@ -1,0 +1,82 @@
+{
+  "id": 52441656,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 14
+  },
+  "demanda": {
+    "capitalAdeudado": "15987259",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-19T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.005Z"
+    ],
+    "llaveProceso": "25740418900120170028400",
+    "mandamientoPago": null,
+    "municipio": "SIBATE",
+    "notificacion": {
+      "id": 14,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4517"
+    ],
+    "radicado": "2017 - 00284",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2023-03-05T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 14,
+      "fechaOrdenaMedida": "2024-02-03T18:58:53.285Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 14,
+    "telCelular": "3133743400",
+    "telFijo": "5295780 ",
+    "primerNombre": "ELSA",
+    "segundoNombre": "MILENA",
+    "primerApellido": "SOSA",
+    "segundoApellido": "",
+    "cedula": "52441656",
+    "direccion": "TRANSVERSAL 6 B  No 12 A - 18   SIBATE",
+    "email": "elmisosro1@hotmail,com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25740418900120170028400",
+  "nombre": "ELSA MILENA SOSA  ROMERO",
+  "numero": 14,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:53.285Z"
+}

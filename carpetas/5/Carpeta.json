@@ -1,0 +1,82 @@
+{
+  "id": 20645940,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 5
+  },
+  "demanda": {
+    "capitalAdeudado": "25184150",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-11T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.891Z"
+    ],
+    "llaveProceso": "25322418900120170016800",
+    "mandamientoPago": "2017-10-05T05:00:16.000Z",
+    "municipio": "GUASCA",
+    "notificacion": {
+      "id": 5,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2273 320172490"
+    ],
+    "radicado": "2017 - 00168",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "1934-02-14T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 5,
+      "fechaOrdenaMedida": "2024-02-03T18:58:52.863Z",
+      "medidaSolicitada": "OK"
+    }
+  },
+  "deudor": {
+    "id": 5,
+    "telCelular": "3217662673",
+    "telFijo": null,
+    "primerNombre": "FANY",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "AVELLANEDA",
+    "segundoApellido": "TOVAR",
+    "cedula": "20645940",
+    "direccion": "CARRERA 9 No. 2-03 GUASCA",
+    "email": "patoavella8210@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25322418900120170016800",
+  "nombre": "FANY PATRICIA AVELLANEDA TOVAR",
+  "numero": 5,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:52.863Z"
+}

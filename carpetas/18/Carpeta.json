@@ -1,0 +1,83 @@
+{
+  "id": 79205977,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 18
+  },
+  "demanda": {
+    "capitalAdeudado": "67068123",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-11T05:00:16.000Z",
+    "etapaProcesal": "AUDIENCIA",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.885Z"
+    ],
+    "llaveProceso": "25175400300320170026900",
+    "mandamientoPago": "2017-07-10T05:00:16.000Z",
+    "municipio": "CHIA",
+    "notificacion": {
+      "id": 18,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12645083",
+      "12340733"
+    ],
+    "radicado": "2017 - 00269",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-04-27T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 18,
+      "fechaOrdenaMedida": "2024-02-03T18:58:53.623Z",
+      "medidaSolicitada": "PERSONAL"
+    }
+  },
+  "deudor": {
+    "id": 18,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "LUIS",
+    "segundoNombre": "ENRIQUE",
+    "primerApellido": "ACOSTA",
+    "segundoApellido": "CHAVARRIA",
+    "cedula": "79205977",
+    "direccion": "cra 4 No. 5-51 Chía",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25175400300320170026900",
+  "nombre": "LUIS ENRIQUE ACOSTA CHAVARRIA",
+  "numero": 18,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:53.623Z"
+}

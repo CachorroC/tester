@@ -1,0 +1,82 @@
+{
+  "id": 52465691,
+  "actuaciones": [],
+  "category": "Reintegra",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 193
+  },
+  "demanda": {
+    "capitalAdeudado": "24590710",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-16T05:00:16.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": [
+      "2017-08-23T05:00:16.000Z"
+    ],
+    "llaveProceso": "11001400302420170175000",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 193,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": true
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-06-26T05:00:16.000Z",
+          "resultado": true
+        }
+      ],
+      "certimail": true,
+      "fisico": false,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12750180"
+    ],
+    "radicado": "2017 - 01750",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2020-08-09T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 193,
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "EMBARGO DE VEHICULO"
+    }
+  },
+  "deudor": {
+    "id": 193,
+    "telCelular": "3204792977",
+    "telFijo": "7829236 ",
+    "primerNombre": "CARMEN",
+    "segundoNombre": "ELIZABETH",
+    "primerApellido": "QUESADA",
+    "segundoApellido": "MARTINEZ",
+    "cedula": "52465691",
+    "direccion": "CARRERA 80 # 70A - 09",
+    "email": "equesada01@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400302420170175000",
+  "nombre": "CARMEN ELIZABETH QUESADA MARTINEZ",
+  "numero": 193,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:59.495Z"
+}

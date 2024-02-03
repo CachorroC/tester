@@ -1,0 +1,79 @@
+{
+  "id": 79834592,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 126
+  },
+  "demanda": {
+    "capitalAdeudado": "14675091",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-11T05:00:16.000Z",
+    "etapaProcesal": "25754418900320170076200",
+    "fechaPresentacion": [],
+    "llaveProceso": "25754418900320170076200",
+    "mandamientoPago": "2017-08-16T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 126,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-08-24T05:00:16.000Z",
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "4513075306389036 // 5303715369427808"
+    ],
+    "radicado": "2017 - 00762",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 126,
+      "fechaOrdenaMedida": "2024-02-03T18:59:08.049Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 126,
+    "telCelular": "3138725407",
+    "telFijo": "8211035 ",
+    "primerNombre": "YONNY",
+    "segundoNombre": "ARTURO",
+    "primerApellido": "PINZON",
+    "segundoApellido": "PULIDO",
+    "cedula": "79834592",
+    "direccion": "CALLE 34 # 2- 07 TORRE 23 APTO 101 ",
+    "email": "japp161@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900320170076200",
+  "nombre": "YONNY ARTURO PINZON PULIDO",
+  "numero": 126,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:08.049Z"
+}

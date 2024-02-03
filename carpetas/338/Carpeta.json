@@ -1,0 +1,82 @@
+{
+  "id": 20427976,
+  "actuaciones": [],
+  "category": "Reintegra",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 338
+  },
+  "demanda": {
+    "capitalAdeudado": "42530688",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-21T05:00:16.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": [
+      "2017-10-19T05:00:16.000Z"
+    ],
+    "llaveProceso": "25148408900120170009600",
+    "mandamientoPago": "2017-11-09T05:00:16.000Z",
+    "municipio": "CAPARRAPI",
+    "notificacion": {
+      "id": 338,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-06-03T05:00:00.000Z",
+          "resultado": true
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": "2018-02-27T05:00:16.000Z",
+          "fechaAporta": "2018-02-27T05:00:16.000Z",
+          "resultado": true
+        }
+      ],
+      "certimail": false,
+      "fisico": true,
+      "autoNotificado": "2018-02-27T05:00:16.000Z"
+    },
+    "obligacion": [
+      "7910080245"
+    ],
+    "radicado": "2017 - 00096",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2020-04-01T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 338,
+      "fechaOrdenaMedida": "2017-11-09T05:00:16.000Z",
+      "medidaSolicitada": "EMBARGO DE INMUEBLE"
+    }
+  },
+  "deudor": {
+    "id": 338,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "BLANCA",
+    "segundoNombre": "MELBA",
+    "primerApellido": "MOYANO",
+    "segundoApellido": "BELTRAN",
+    "cedula": "20427976",
+    "direccion": "CARRERA 3 No 9 - 02 /08  CAPARRAPI (CUNDINAMARCA)",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25148408900120170009600",
+  "nombre": "BLANCA MELBA MOYANO BELTRAN",
+  "numero": 338,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T19:00:04.548Z"
+}

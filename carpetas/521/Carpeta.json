@@ -1,0 +1,80 @@
+{
+  "id": 40050052,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 521
+  },
+  "demanda": {
+    "capitalAdeudado": "20616779",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2019-08-02T05:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "2019-02-15T05:00:00.000Z"
+    ],
+    "llaveProceso": "11001418901220190023500",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 521,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4099830177563670"
+    ],
+    "radicado": "2019 - 00235",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 521,
+      "fechaOrdenaMedida": "2024-02-03T18:59:51.856Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 521,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "MARIA",
+    "segundoNombre": "AQUILINA",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "LANCHEROS",
+    "cedula": "40050052",
+    "direccion": "CARRERA 4A No 93-11p 1",
+    "email": "aquimaria1965@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418901220190023500",
+  "nombre": "MARIA AQUILINA RODRIGUEZ LANCHEROS",
+  "numero": 521,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:51.856Z"
+}

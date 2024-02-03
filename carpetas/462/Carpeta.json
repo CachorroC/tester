@@ -1,0 +1,80 @@
+{
+  "id": 80755973,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 462
+  },
+  "demanda": {
+    "capitalAdeudado": "21997013.43",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-07-06T05:00:16.000Z",
+    "etapaProcesal": "25754418900120180070000",
+    "fechaPresentacion": [],
+    "llaveProceso": "25754418900120180070000",
+    "mandamientoPago": "2018-07-12T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 462,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-08-01T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990165644"
+    ],
+    "radicado": "2018 - 00700",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2043-07-04T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 462,
+      "fechaOrdenaMedida": "2024-02-03T18:59:48.763Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 462,
+    "telCelular": "3114915425",
+    "telFijo": "7279254 ",
+    "primerNombre": "YAMID",
+    "segundoNombre": "GELVES",
+    "primerApellido": "CACERES",
+    "segundoApellido": null,
+    "cedula": "80755973",
+    "direccion": "CARRERA 87 No 69-165",
+    "email": "yamid11@hotmail.es"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900120180070000",
+  "nombre": "YAMID GELVES CACERES",
+  "numero": 462,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:48.763Z"
+}

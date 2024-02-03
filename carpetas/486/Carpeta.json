@@ -1,0 +1,80 @@
+{
+  "id": 40776578,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 486
+  },
+  "demanda": {
+    "capitalAdeudado": "12827556",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-10-08T05:00:00.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [
+      "2018-09-18T05:00:00.000Z"
+    ],
+    "llaveProceso": "11001418900520180021000",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 486,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2330066914"
+    ],
+    "radicado": "2018 - 00210",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 486,
+      "fechaOrdenaMedida": "2024-02-03T18:59:49.913Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 486,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "LONDOÑO",
+    "segundoApellido": "MURCIA",
+    "cedula": "40776578",
+    "direccion": "CARRERA 26B No 28-30  SUR INT 2",
+    "email": "salonmur@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418900520180021000",
+  "nombre": "SANDRA PATRICIA LONDOÑO MURCIA",
+  "numero": 486,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:49.914Z"
+}

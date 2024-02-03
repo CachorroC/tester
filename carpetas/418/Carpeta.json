@@ -1,0 +1,79 @@
+{
+  "id": 35521020,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 418
+  },
+  "demanda": {
+    "capitalAdeudado": "598",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-04-12T05:00:16.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [],
+    "llaveProceso": "25269400300120180024600",
+    "mandamientoPago": null,
+    "municipio": "FACATATIVA",
+    "notificacion": {
+      "id": 418,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "377816809738564",
+      "451387592504913"
+    ],
+    "radicado": "2018 - 00246",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 418,
+      "fechaOrdenaMedida": "2024-02-03T18:59:43.127Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 418,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "AURA",
+    "segundoNombre": "LETICIA",
+    "primerApellido": "GAMEZ",
+    "segundoApellido": "ROJAS",
+    "cedula": "35521020",
+    "direccion": "CALLE 11B- No 10-21  ",
+    "email": "aurag2599@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25269400300120180024600",
+  "nombre": "AURA LETICIA GAMEZ ROJAS ",
+  "numero": 418,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:43.127Z"
+}

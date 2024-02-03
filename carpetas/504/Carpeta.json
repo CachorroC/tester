@@ -1,0 +1,78 @@
+{
+  "id": 52432037,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "22/08/2022",
+    "telefono": null,
+    "id": 504
+  },
+  "demanda": {
+    "capitalAdeudado": "22102018",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "29/10/2018",
+    "fechaPresentacion": [],
+    "llaveProceso": "25740410300120180037000",
+    "mandamientoPago": null,
+    "municipio": "SIBATE",
+    "notificacion": {
+      "id": 504,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "26.315.289.23"
+    ],
+    "radicado": "2018 - 00370",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 504,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.676Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 504,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ANA",
+    "segundoNombre": "DEL",
+    "primerApellido": "PILAR",
+    "segundoApellido": "MENDEZ",
+    "cedula": "52432037",
+    "direccion": null,
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25740410300120180037000",
+  "nombre": "ANA DEL PILAR MENDEZ AMAYA",
+  "numero": 504,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.676Z"
+}

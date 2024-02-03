@@ -28,7 +28,7 @@ export interface outActuacion extends intActuacion {
 export const prisma = new PrismaClient();
 
 async function fetcher(
-  idProceso: number 
+  idProceso: number
 ) {
   try {
     const request = await fetch(
@@ -48,29 +48,29 @@ async function fetcher(
     const json = ( await request.json() ) as ConsultaActuacion;
 
     const {
-      actuaciones 
+      actuaciones
     } = json;
 
     return actuaciones.map(
       (
-        actuacion 
+        actuacion
       ) => {
         return {
           ...actuacion,
           fechaActuacion: new Date(
-            actuacion.fechaActuacion 
+            actuacion.fechaActuacion
           ),
           fechaRegistro: new Date(
-            actuacion.fechaRegistro 
+            actuacion.fechaRegistro
           ),
           fechaInicial: actuacion.fechaInicial
             ? new Date(
-              actuacion.fechaInicial 
+              actuacion.fechaInicial
             )
             : null,
           fechaFinal: actuacion.fechaFinal
             ? new Date(
-              actuacion.fechaFinal 
+              actuacion.fechaFinal
             )
             : null,
           isUltimaAct: actuacion.cant === actuacion.consActuacion
@@ -78,11 +78,11 @@ async function fetcher(
             : false,
           idProceso: idProceso,
         };
-      } 
+      }
     );
   } catch ( error ) {
     console.log(
-      error 
+      error
     );
     return [];
   }
@@ -92,44 +92,44 @@ async function getIdProcesos() {
   const carpetas = await prisma.carpeta.findMany();
   return carpetas.flatMap(
     (
-      carpeta 
+      carpeta
     ) => {
       return carpeta.idProcesos;
-    } 
+    }
   );
 }
 
 async function* AsyncGenerateActuaciones(
-  idProcesos: number[] 
+  idProcesos: number[]
 ) {
   for ( const idProceso of idProcesos ) {
     const indexOf = idProcesos.indexOf(
-      idProceso 
+      idProceso
     );
     console.log(
-      indexOf 
+      indexOf
     );
 
     const fetcherIdProceso = await fetcher(
-      idProceso 
+      idProceso
     );
 
     const [ ultimaActuacion ] = fetcherIdProceso;
     await prismaUpdaterActuaciones(
-      ultimaActuacion 
+      ultimaActuacion
     );
     await prisma.actuacion.createMany(
       {
         data          : fetcherIdProceso,
         skipDuplicates: true,
-      } 
+      }
     );
     yield fetcherIdProceso;
   }
 }
 
 async function prismaUpdaterActuaciones(
-  ultimaActuacion: outActuacion 
+  ultimaActuacion: outActuacion
 ) {
   try {
     const carpeta = await prisma.carpeta.findFirstOrThrow(
@@ -137,17 +137,17 @@ async function prismaUpdaterActuaciones(
         where: {
           llaveProceso: ultimaActuacion.llaveProceso,
         },
-      } 
+      }
     );
 
     const incomingDate = new Date(
-      ultimaActuacion.fechaActuacion 
+      ultimaActuacion.fechaActuacion
     )
       .getTime();
 
     const savedDate = carpeta.fecha
       ? new Date(
-        carpeta.fecha 
+        carpeta.fecha
       )
         .getTime()
       : null;
@@ -163,7 +163,7 @@ async function prismaUpdaterActuaciones(
           },
           data: {
             fecha: new Date(
-              ultimaActuacion.fechaActuacion 
+              ultimaActuacion.fechaActuacion
             ),
             revisado       : false,
             ultimaActuacion: {
@@ -177,33 +177,37 @@ async function prismaUpdaterActuaciones(
               },
             },
           },
-        } 
+        }
       );
 
       await fs.mkdir(
         `./src/date/${ new Date()
-          .toLocaleDateString() }`, {
+          .getFullYear() }/${ new Date()
+          .getMonth() }/${ new Date()
+          .getDate() }`, {
           recursive: true,
-        } 
+        }
       );
 
       fs.writeFile(
         `./src/date/${ new Date()
-          .toLocaleDateString() }/${
+          .getFullYear() }/${ new Date()
+          .getMonth() }/${ new Date()
+          .getDate() }/${
           ultimaActuacion.idRegActuacion
         }.json`,
         JSON.stringify(
           {
             date           : new Date(),
-            davedDate      : savedDate,
+            savedDate      : savedDate,
             ultimaActuacion: ultimaActuacion,
-          } 
+          }
         ),
       );
     }
   } catch ( error ) {
     console.log(
-      error 
+      error
     );
   }
 }
@@ -213,24 +217,24 @@ async function main() {
 
   const idProcesos = await getIdProcesos();
   console.log(
-    idProcesos 
+    idProcesos
   );
 
   for await ( const actuacionesJson of AsyncGenerateActuaciones(
-    idProcesos 
+    idProcesos
   ) ) {
     console.log(
-      actuacionesJson 
+      actuacionesJson
     );
     ActsMap.push(
-      actuacionesJson 
+      actuacionesJson
     );
   }
 
   fs.writeFile(
     'actuacionesOutput.json', JSON.stringify(
-      ActsMap 
-    ) 
+      ActsMap
+    )
   );
   return ActsMap;
 }
@@ -238,5 +242,5 @@ async function main() {
 const mainer = main();
 
 console.log(
-  mainer 
+  mainer
 );

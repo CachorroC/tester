@@ -1,0 +1,82 @@
+{
+  "id": 79793904,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "LUISA FERNANDA SALAZAR PATARROYO",
+    "cedula": "1018430139",
+    "direccion": "CARRERA 38 No 14-93 BLOQUE  1 CASA 301 SOACHA",
+    "telefono": "6680643",
+    "id": 242
+  },
+  "demanda": {
+    "capitalAdeudado": "21740168",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-11T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.997Z"
+    ],
+    "llaveProceso": "25754418900220180036300",
+    "mandamientoPago": "2017-10-06T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 242,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-10-06T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "1339-01-01T00:00:00.000Z",
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990182990"
+    ],
+    "radicado": "2017 - 00903",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2023-04-20T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 242,
+      "fechaOrdenaMedida": "2024-02-03T18:59:22.742Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 242,
+    "telCelular": "3223968514",
+    "telFijo": "4805457 ",
+    "primerNombre": "JOHN",
+    "segundoNombre": "HADER",
+    "primerApellido": "OTALVARO",
+    "segundoApellido": "",
+    "cedula": "79793904",
+    "direccion": "CALLE 183 No11 -55 BLOQUE 9 APARTAMENTO 102",
+    "email": "johnhader70@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900220180036300",
+  "nombre": "JOHN HADER OTALVARO  ROMO",
+  "numero": 242,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:22.742Z"
+}

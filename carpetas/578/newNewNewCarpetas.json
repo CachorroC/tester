@@ -1,190 +1,82 @@
 {
   "id": 35422519,
-  "actuaciones": [
-    {
-      "idRegActuacion": 1872445910,
-      "llaveProceso": "11001418904120230021200",
-      "consActuacion": 6,
-      "fechaActuacion": "2023-09-07T05:00:00.000Z",
-      "actuacion": "Fijacion estado",
-      "anotacion": "Actuación registrada el 07/09/2023 a las 09:58:14.",
-      "fechaInicial": "2023-09-08T05:00:00.000Z",
-      "fechaFinal": "2023-09-08T05:00:00.000Z",
-      "fechaRegistro": "2023-09-07T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6,
-      "idProceso": 132645230,
-      "isUltimaAct": true,
-      "createdAt": "2024-01-02T02:11:53.740Z"
-    },
-    {
-      "idRegActuacion": 1872445900,
-      "llaveProceso": "11001418904120230021200",
-      "consActuacion": 5,
-      "fechaActuacion": "2023-09-07T05:00:00.000Z",
-      "actuacion": "Auto libra mandamiento ejecutivo",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-09-07T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6,
-      "idProceso": 132645230,
-      "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:53.740Z"
-    },
-    {
-      "idRegActuacion": 1872445890,
-      "llaveProceso": "11001418904120230021200",
-      "consActuacion": 4,
-      "fechaActuacion": "2023-09-07T05:00:00.000Z",
-      "actuacion": "Fijacion estado",
-      "anotacion": "Actuación registrada el 07/09/2023 a las 09:56:59.",
-      "fechaInicial": "2023-09-08T05:00:00.000Z",
-      "fechaFinal": "2023-09-08T05:00:00.000Z",
-      "fechaRegistro": "2023-09-07T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6,
-      "idProceso": 132645230,
-      "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:53.740Z"
-    },
-    {
-      "idRegActuacion": 1872445880,
-      "llaveProceso": "11001418904120230021200",
-      "consActuacion": 3,
-      "fechaActuacion": "2023-09-07T05:00:00.000Z",
-      "actuacion": "Auto decreta medida cautelar",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-09-07T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6,
-      "idProceso": 132645230,
-      "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:53.740Z"
-    },
-    {
-      "idRegActuacion": 1855375910,
-      "llaveProceso": "11001418904120230021200",
-      "consActuacion": 2,
-      "fechaActuacion": "2023-08-23T05:00:00.000Z",
-      "actuacion": "Al despacho por reparto",
-      "anotacion": null,
-      "fechaInicial": null,
-      "fechaFinal": null,
-      "fechaRegistro": "2023-08-23T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6,
-      "idProceso": 132645230,
-      "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:53.740Z"
-    },
-    {
-      "idRegActuacion": 1855375900,
-      "llaveProceso": "11001418904120230021200",
-      "consActuacion": 1,
-      "fechaActuacion": "2023-08-23T05:00:00.000Z",
-      "actuacion": " Radicación de Proceso",
-      "anotacion": "Actuación de  Radicación de Proceso  realizada el 23/08/2023 a las 16:51:35",
-      "fechaInicial": "2023-08-23T05:00:00.000Z",
-      "fechaFinal": "2023-08-23T05:00:00.000Z",
-      "fechaRegistro": "2023-08-23T05:00:00.000Z",
-      "codRegla": "00                              ",
-      "conDocumentos": false,
-      "cant": 6,
-      "idProceso": 132645230,
-      "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:53.740Z"
-    }
-  ],
+  "actuaciones": [],
   "category": "Bancolombia",
-  "codeudor": null,
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 578
+  },
   "demanda": {
+    "capitalAdeudado": "140332319",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2021-08-18T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "2023-00442",
+    "mandamientoPago": null,
+    "municipio": "ZIPAQUIRA",
+    "notificacion": {
+      "id": 578,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
     "obligacion": [
       "3320096675",
       "83942050 X T.C MASTER 5491580158404844 Y AMERICAN 377816059851588"
     ],
-    "llaveProceso": "11001418904120230021200",
-    "notificacion": null,
-    "medidasCautelares": null,
-    "capitalAdeudado": null,
-    "departamento": "CUNDINAMARCA",
-    "despacho": null,
-    "entregaGarantiasAbogado": null,
-    "etapaProcesal": null,
-    "fechaPresentacion": [],
-    "mandamientoPago": null,
-    "municipio": "ZIPAQUIRA",
     "radicado": "2023 - 00442",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
       "2026-03-15T05:00:00.000Z",
       "2026-08-17T05:00:00.000Z"
-    ]
+    ],
+    "medidasCautelares": {
+      "id": 578,
+      "fechaOrdenaMedida": "2024-02-03T00:36:35.147Z",
+      "medidaSolicitada": null
+    }
   },
   "deudor": {
-    "tel": {
-      "fijo": null,
-      "celular": 3203172020
-    },
+    "id": 578,
+    "telCelular": "3203172020",
+    "telFijo": null,
     "primerNombre": "DIANA",
     "segundoNombre": "CRISTINA",
     "primerApellido": "AREVALO",
     "segundoApellido": "ARBOLEDA",
-    "cedula": 35422519,
-    "direccion": "CL 4 16 10 AP 201 Barrio Algarra III",
+    "cedula": "35422519",
+    "direccion": " CL 4 16 10 AP 201 Barrio Algarra III",
     "email": "dicrisare@gmail.com"
   },
-  "fecha": "2023-09-07T05:00:00.000Z",
-  "idProcesos": [132645230],
-  "idRegUltimaAct": 1872445910,
-  "llaveProceso": "11001418904120230021200",
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "2023-00442",
   "nombre": "DIANA CRISTINA AREVALO ARBOLEDA",
   "numero": 578,
-  "procesos": [
-    {
-      "idProceso": 132645230,
-      "idConexion": 259,
-      "llaveProceso": "11001418904120230021200",
-      "fechaProceso": "2023-08-23T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-09-07T05:00:00.000Z",
-      "despacho": "JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-      "departamento": "BOGOTÁ",
-      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: INDIRA MAYERLY FLOREZ CASTRO ",
-      "esPrivado": false,
-      "cantFilas": -1,
-      "juzgado": {
-        "id": 41,
-        "tipo": "JUZGADO 041 DE PEQUEÑAS CAUSAS  Y COMPETENCIA MÚLTIPLE DE BOGOTÁ ",
-        "url": "https://www.ramajudicial.gov.cojuzgado-041-de-pequeñas-causas--y-competencia-múltiple-de-bogotá-"
-      }
-    }
-  ],
+  "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
-  "ultimaActuacion": {
-    "idRegActuacion": 1872445910,
-    "llaveProceso": "11001418904120230021200",
-    "consActuacion": 6,
-    "fechaActuacion": "2023-09-07T05:00:00.000Z",
-    "actuacion": "Fijacion estado",
-    "anotacion": "Actuación registrada el 07/09/2023 a las 09:58:14.",
-    "fechaInicial": "2023-09-08T05:00:00.000Z",
-    "fechaFinal": "2023-09-08T05:00:00.000Z",
-    "fechaRegistro": "2023-09-07T05:00:00.000Z",
-    "codRegla": "00                              ",
-    "conDocumentos": false,
-    "cant": 6,
-    "idProceso": 132645230,
-    "isUltimaAct": true
-  },
-  "updatedAt": "2024-01-02T02:11:53.527Z"
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T00:36:35.148Z"
 }

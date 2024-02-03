@@ -1,0 +1,83 @@
+{
+  "id": 19453362,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 121
+  },
+  "demanda": {
+    "capitalAdeudado": "55929373",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-04T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.958Z"
+    ],
+    "llaveProceso": "25430400300120180027300",
+    "mandamientoPago": "2018-05-16T05:00:16.000Z",
+    "municipio": "MADRID",
+    "notificacion": {
+      "id": 121,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "1970-01-01T00:00:43.244Z",
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "451305630938242.",
+      "20990179915 // AUDIOPRESTAMO "
+    ],
+    "radicado": "2018 - 00273",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2029-12-26T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 121,
+      "fechaOrdenaMedida": "2024-02-03T18:59:07.324Z",
+      "medidaSolicitada": "FISICA"
+    }
+  },
+  "deudor": {
+    "id": 121,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JAIME",
+    "segundoNombre": "ORLANDO",
+    "primerApellido": "LUGO",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": "19453362",
+    "direccion": "CARRERA 22 A # 8D - 08 SUR",
+    "email": "orlandolugo.r@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25430400300120180027300",
+  "nombre": "JAIME ORLANDO LUGO RODRIGUEZ",
+  "numero": 121,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:07.324Z"
+}

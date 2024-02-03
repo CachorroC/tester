@@ -1,0 +1,80 @@
+{
+  "id": 1014185022,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 523
+  },
+  "demanda": {
+    "capitalAdeudado": "22144741",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "11001418907620190043400",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 523,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990158449"
+    ],
+    "radicado": "2019 -00434",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2018-11-26T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 523,
+      "fechaOrdenaMedida": "2024-02-03T18:59:52.029Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 523,
+    "telCelular": "3123704906",
+    "telFijo": null,
+    "primerNombre": "LUISA",
+    "segundoNombre": "ALEJANDRA",
+    "primerApellido": "ESCOBAR",
+    "segundoApellido": "ANDRADE",
+    "cedula": "1014185022",
+    "direccion": "CALLE 90A No 45 A- 05",
+    "email": "aleja202007@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418907620190043400",
+  "nombre": "LUISA ALEJANDRA ESCOBAR ANDRADE",
+  "numero": 523,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:52.029Z"
+}

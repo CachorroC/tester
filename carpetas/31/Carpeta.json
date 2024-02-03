@@ -1,0 +1,81 @@
+{
+  "id": 79590985,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "BLANCA SENET PINEDA ",
+    "cedula": "28550572",
+    "direccion": "CARRERA 13 SUR No. 49-37",
+    "telefono": "3012692815",
+    "id": 31
+  },
+  "demanda": {
+    "capitalAdeudado": "1000",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-30T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.895Z"
+    ],
+    "llaveProceso": "25754400300320170021100",
+    "mandamientoPago": "2018-01-25T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 31,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-01-25T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "1990-01-01T05:00:00.000Z",
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "530311042614581",
+      "4513077790909121"
+    ],
+    "radicado": "2017 - 00211",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 31,
+      "fechaOrdenaMedida": "2024-02-03T18:58:54.689Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 31,
+    "telCelular": "3014192323",
+    "telFijo": "7793347 ",
+    "primerNombre": "JORGE",
+    "segundoNombre": null,
+    "primerApellido": "PEREZ",
+    "segundoApellido": null,
+    "cedula": "79590985",
+    "direccion": "CARRERA 13 sur No. 49-37 soacha y venida 19 nO. 118-95 ofc 411",
+    "email": "jpkafu@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300320170021100",
+  "nombre": "JORGE PEREZ",
+  "numero": 31,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:54.689Z"
+}

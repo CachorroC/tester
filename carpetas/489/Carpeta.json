@@ -1,0 +1,82 @@
+{
+  "id": 80257279,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "LUZ MERY SALCEDO ESPINOSA",
+    "cedula": "10336884340",
+    "direccion": "TRANSVERSAL 4B No 3-75 CASA 87",
+    "telefono": "7308097",
+    "id": 489
+  },
+  "demanda": {
+    "capitalAdeudado": "23041704",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [
+      "2018-09-20T05:00:00.000Z"
+    ],
+    "llaveProceso": "25754418900320180100800",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 489,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990126542"
+    ],
+    "radicado": "2018 - 01008",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2025-02-19T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 489,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.187Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 489,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ORLANDO",
+    "segundoNombre": "SILVA",
+    "primerApellido": "CALDERON",
+    "segundoApellido": null,
+    "cedula": "80257279",
+    "direccion": "CALLE 72 G- SUR No 35-13 SUR",
+    "email": "jjanzola@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900320180100800",
+  "nombre": "ORLANDO SILVA CALDERON",
+  "numero": 489,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.187Z"
+}

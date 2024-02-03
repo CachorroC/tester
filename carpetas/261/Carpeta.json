@@ -1,0 +1,82 @@
+{
+  "id": 79901800,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 261
+  },
+  "demanda": {
+    "capitalAdeudado": "18220483",
+    "departamento": "CUNDINNAMARCA ",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-18T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.005Z"
+    ],
+    "llaveProceso": "11001400308220170111600",
+    "mandamientoPago": "2017-10-05T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 261,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-10-05T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "3481-01-01T00:00:00.000Z",
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12686980"
+    ],
+    "radicado": "2017 - 01116",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-09-11T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 261,
+      "fechaOrdenaMedida": "2024-02-03T18:59:24.574Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 261,
+    "telCelular": "3125489014",
+    "telFijo": "2737360 ",
+    "primerNombre": "DANIEL",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "IBAÑEZ",
+    "segundoApellido": "DELGADO",
+    "cedula": "79901800",
+    "direccion": "CALLE 1 No 78 M 21 BLOQUE H4 APARTAMENTO 502",
+    "email": "dsenna_22@yahoo.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400308220170111600",
+  "nombre": "DANIEL ALBERTO IBAÑEZ DELGADO",
+  "numero": 261,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:24.574Z"
+}

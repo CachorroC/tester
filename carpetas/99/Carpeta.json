@@ -1,0 +1,81 @@
+{
+  "id": 79996551,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 99
+  },
+  "demanda": {
+    "capitalAdeudado": "16215928",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-28T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "2017-08-08T05:00:00.000Z"
+    ],
+    "llaveProceso": "1100141037512017111000",
+    "mandamientoPago": "2018-01-24T05:00:16.000Z",
+    "municipio": "KENNEDY",
+    "notificacion": {
+      "id": 99,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "5306934855078754",
+      "12378896"
+    ],
+    "radicado": "2017 - 01110",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 99,
+      "fechaOrdenaMedida": "2024-02-03T18:59:03.828Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 99,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "YONI",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "RESTREPO",
+    "segundoApellido": "PEÑUELA",
+    "cedula": "79996551",
+    "direccion": "TRANSVERSAL 78A # 71A - 71 SUR",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "1100141037512017111000",
+  "nombre": "YONI ALEXANDER RESTREPO PEÑUELA",
+  "numero": 99,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:03.828Z"
+}

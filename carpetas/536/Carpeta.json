@@ -1,0 +1,81 @@
+{
+  "id": 39544073,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 536
+  },
+  "demanda": {
+    "capitalAdeudado": "18772901.56",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-04-26T05:00:16.000Z",
+    "etapaProcesal": "11001400302020180047900",
+    "fechaPresentacion": [],
+    "llaveProceso": "1.10014003020201e+22",
+    "mandamientoPago": "2018-05-08T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 536,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-06-14T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4513072334510690",
+      "5491580398400380"
+    ],
+    "radicado": "2018 - 00479",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2020-08-02T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 536,
+      "fechaOrdenaMedida": "2024-02-03T18:59:52.780Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 536,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "BLANCA",
+    "segundoNombre": "LILIA",
+    "primerApellido": "BRAVO",
+    "segundoApellido": "PAEZ",
+    "cedula": "39544073",
+    "direccion": "CALLE 64 C No 105-88",
+    "email": "blancall21@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "1.10014003020201e+22",
+  "nombre": "BLANCA LILIA BRAVO PAEZ",
+  "numero": 536,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:52.780Z"
+}

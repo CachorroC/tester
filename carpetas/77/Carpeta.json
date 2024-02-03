@@ -1,0 +1,81 @@
+{
+  "id": 1030554218,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "JEIMY CAROLINA LEGUIZAMON VASQUEZ",
+    "cedula": "1030554218",
+    "direccion": "CALLE 16 A No. 44-C-S.28 MANZANA 6 ET 1 SOACHA",
+    "telefono": "5663711/3174386730",
+    "id": 77
+  },
+  "demanda": {
+    "capitalAdeudado": "19693962.83",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
+    "etapaProcesal": "25754400300120170083700",
+    "fechaPresentacion": [],
+    "llaveProceso": "25754418900120170083700",
+    "mandamientoPago": "2017-08-11T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 77,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-09-29T05:00:16.000Z",
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": "1970-01-01T00:00:43.360Z",
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "320 157362",
+      "157362//377813499486349"
+    ],
+    "radicado": "2017 - 00837",
+    "tipoProceso": "ACUMULADO",
+    "vencimientoPagare": [
+      "2027-10-24T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 77,
+      "fechaOrdenaMedida": "2024-02-03T18:59:00.832Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 77,
+    "telCelular": "3174386730",
+    "telFijo": "5663711 ",
+    "primerNombre": "JEIMY",
+    "segundoNombre": "CAROLINA",
+    "primerApellido": "LEGUIZAMON",
+    "segundoApellido": "VASQUEZ",
+    "cedula": "1030554218",
+    "direccion": "CALLE 16 A No. 44-C-S.28 MANZANA 6 ET 1 SOACHA",
+    "email": "carito_abril3@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900120170083700",
+  "nombre": "JEIMY CAROLINA LEGUIZAMON VASQUEZ",
+  "numero": 77,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "ACUMULADO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:00.832Z"
+}

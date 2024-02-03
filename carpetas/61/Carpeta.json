@@ -1,0 +1,83 @@
+{
+  "id": 80197126,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 61
+  },
+  "demanda": {
+    "capitalAdeudado": "21493086",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.902Z"
+    ],
+    "llaveProceso": " 11001400304620170055700",
+    "mandamientoPago": "2017-07-19T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 61,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12653060",
+      "377813471593666//5303720056388123"
+    ],
+    "radicado": "2017 - 00557",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-11-04T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 61,
+      "fechaOrdenaMedida": "2024-02-03T18:58:58.141Z",
+      "medidaSolicitada": "PERSONAL"
+    }
+  },
+  "deudor": {
+    "id": 61,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JUAN",
+    "segundoNombre": "PABLO",
+    "primerApellido": "RUBIO",
+    "segundoApellido": "ESGUERRA",
+    "cedula": "80197126",
+    "direccion": "CALLE 165 No. 74 C-07 CASA 1",
+    "email": "arqrasjuan1989@htmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": " 11001400304620170055700",
+  "nombre": "JUAN PABLO RUBIO ESGUERRA",
+  "numero": 61,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:58.141Z"
+}

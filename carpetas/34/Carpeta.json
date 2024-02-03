@@ -1,0 +1,82 @@
+{
+  "id": 1070612757,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": "4762591//3118113651",
+    "id": 34
+  },
+  "demanda": {
+    "capitalAdeudado": "26815877",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-06T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.894Z"
+    ],
+    "llaveProceso": "25307400300320170033000",
+    "mandamientoPago": "2017-06-21T05:00:16.000Z",
+    "municipio": "GIRARDOT",
+    "notificacion": {
+      "id": 34,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-06-21T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "1292-01-01T00:00:00.000Z",
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "23595"
+    ],
+    "radicado": "2017 - 00330",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2036-04-26T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 34,
+      "fechaOrdenaMedida": "2024-02-03T18:58:54.779Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 34,
+    "telCelular": "3006308169",
+    "telFijo": null,
+    "primerNombre": "KAREN",
+    "segundoNombre": "JULIETH",
+    "primerApellido": "PINZON",
+    "segundoApellido": "GUTIERREZ",
+    "cedula": "1070612757",
+    "direccion": "M 7 TORRE 6 APTO 404 GIRARDOT// CALLE 3 No. 27-01 edificio torr 6 manzana 7 ciudadela Cafam del Sol apto 404",
+    "email": "kjpg_11@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25307400300320170033000",
+  "nombre": "KAREN JULIETH PINZON GUTIERREZ",
+  "numero": 34,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:54.780Z"
+}

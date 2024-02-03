@@ -1,0 +1,83 @@
+{
+  "id": 35412591,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "HECTOR MANUEL MANJARRES VEGA",
+    "cedula": "11337901",
+    "direccion": "CARRERA 7 No. 25-51 BQ/ TO 9 APTO 104 PARQUE RESIDENCIAL VILLAZO ZIPAQUIRA",
+    "telefono": "3114720151",
+    "id": 52
+  },
+  "demanda": {
+    "capitalAdeudado": "16302624",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.908Z"
+    ],
+    "llaveProceso": "25899400300220170025600",
+    "mandamientoPago": "2017-06-29T05:00:16.000Z",
+    "municipio": "ZIPAQUIRA",
+    "notificacion": {
+      "id": 52,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-06-29T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "1086-01-01T00:00:00.000Z",
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "320 160226",
+      "160226//377813713927961"
+    ],
+    "radicado": "2017 - 00256",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2031-01-18T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 52,
+      "fechaOrdenaMedida": "2024-02-03T18:58:57.199Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 52,
+    "telCelular": "3114720151",
+    "telFijo": null,
+    "primerNombre": "MARTHA",
+    "segundoNombre": "STELLA",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": "BOLIVAR",
+    "cedula": "35412591",
+    "direccion": "CARRERA 7 No. 25-51 BQ/ TO 9 APTO 104 PARQUE RESIDENCIAL VILLAZO ZIPAQUIRA",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25899400300220170025600",
+  "nombre": "MARTHA STELLA GOMEZ BOLIVAR",
+  "numero": 52,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:57.199Z"
+}

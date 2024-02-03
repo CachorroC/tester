@@ -1,0 +1,82 @@
+{
+  "id": 52788376,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 474
+  },
+  "demanda": {
+    "capitalAdeudado": "23110934",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [
+      "2018-09-10T05:00:00.000Z"
+    ],
+    "llaveProceso": "11001418903220180127100",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 474,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990125162"
+    ],
+    "radicado": "2018 - 01271",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2030-01-04T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 474,
+      "fechaOrdenaMedida": "2024-02-03T18:59:49.490Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 474,
+    "telCelular": "3144765126",
+    "telFijo": "4383117 ",
+    "primerNombre": "NADIA",
+    "segundoNombre": "KATERINE",
+    "primerApellido": "MORENO",
+    "segundoApellido": "CAMACHO",
+    "cedula": "52788376",
+    "direccion": "TRANSVERSAL 83 A No 73-10   ALMERIA",
+    "email": "katiusaka79@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418903220180127100",
+  "nombre": "NADIA KATERINE MORENO CAMACHO",
+  "numero": 474,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:49.490Z"
+}

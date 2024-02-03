@@ -1,0 +1,82 @@
+{
+  "id": 1032362698,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 411
+  },
+  "demanda": {
+    "capitalAdeudado": "515",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-04-16T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.216Z"
+    ],
+    "llaveProceso": "25754418900220180036500",
+    "mandamientoPago": "2018-05-18T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 411,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990175542"
+    ],
+    "radicado": "2018-0365",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2034-06-24T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 411,
+      "fechaOrdenaMedida": "2024-02-03T18:59:42.456Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 411,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "NATALI",
+    "segundoNombre": "VASQUEZ",
+    "primerApellido": "RUBIO",
+    "segundoApellido": null,
+    "cedula": "1032362698",
+    "direccion": "DIAGONAL 24 No 42-95 - HORTENSIA",
+    "email": "natis2596@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900220180036500",
+  "nombre": "NATALI VASQUEZ RUBIO",
+  "numero": 411,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:42.456Z"
+}

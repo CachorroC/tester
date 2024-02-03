@@ -1,0 +1,80 @@
+{
+  "id": 1072421639,
+  "actuaciones": [],
+  "category": "Reintegra",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 42
+  },
+  "demanda": {
+    "capitalAdeudado": "12956286",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-19T05:00:16.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": [
+      "2017-05-31T05:00:16.000Z"
+    ],
+    "llaveProceso": "25035408900120170010800",
+    "mandamientoPago": "2017-07-28T05:00:16.000Z",
+    "municipio": "ANAPOIMA",
+    "notificacion": {
+      "id": 42,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": "2018-03-01T05:00:16.000Z"
+    },
+    "obligacion": [
+      "3840082880"
+    ],
+    "radicado": "2017 - 00108",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 42,
+      "fechaOrdenaMedida": "2024-02-03T18:59:55.050Z",
+      "medidaSolicitada": "SALARIOS"
+    }
+  },
+  "deudor": {
+    "id": 42,
+    "telCelular": "3126139284",
+    "telFijo": null,
+    "primerNombre": "JUAN",
+    "segundoNombre": "DANIEL",
+    "primerApellido": "MORENO",
+    "segundoApellido": "CIFUENTES",
+    "cedula": "1072421639",
+    "direccion": "BARRIO SANTA ANA FC LA CAMPIÑA ANAPOIMA",
+    "email": "jdanielmoreno87@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25035408900120170010800",
+  "nombre": "JUAN DANIEL MORENO CIFUENTES",
+  "numero": 42,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:55.050Z"
+}

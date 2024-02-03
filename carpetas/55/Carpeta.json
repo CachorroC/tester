@@ -1,0 +1,83 @@
+{
+  "id": 80353430,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "ANA ISABEL JURADO LEON",
+    "cedula": "20736637",
+    "direccion": "CALLE 11 A No. 3-29 URBANIZACION EL PORVENIR MADRID",
+    "telefono": "8252559",
+    "id": 55
+  },
+  "demanda": {
+    "capitalAdeudado": "35544456",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.906Z"
+    ],
+    "llaveProceso": "25430400300120170108700",
+    "mandamientoPago": "2017-12-06T05:00:16.000Z",
+    "municipio": "MADRID",
+    "notificacion": {
+      "id": 55,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "3830084858//4090832249783283",
+      "AUTOPRESTAMO"
+    ],
+    "radicado": "2017 - 01087",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2018-03-06T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 55,
+      "fechaOrdenaMedida": "2024-02-03T18:58:57.353Z",
+      "medidaSolicitada": "PERSONAL"
+    }
+  },
+  "deudor": {
+    "id": 55,
+    "telCelular": "3124488945",
+    "telFijo": null,
+    "primerNombre": "DOUGLAS",
+    "segundoNombre": "AYURE",
+    "primerApellido": "RIOS",
+    "segundoApellido": "",
+    "cedula": "80353430",
+    "direccion": "CALLE 11 A No. 3-29 URBANIZACION EL PORVENIR MADRID",
+    "email": "faride1109@yahoo.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25430400300120170108700",
+  "nombre": "DOUGLAS AYURE RIOS ",
+  "numero": 55,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:57.353Z"
+}

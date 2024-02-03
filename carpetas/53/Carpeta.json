@@ -1,0 +1,82 @@
+{
+  "id": 53051476,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "EDGAR BUSTAMANTE ANGEL",
+    "cedula": "79263455",
+    "direccion": "calle 64 no. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60 ",
+    "telefono": "2241552//3212307798",
+    "id": 53
+  },
+  "demanda": {
+    "capitalAdeudado": "97712903",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.907Z"
+    ],
+    "llaveProceso": "11001400308520170097500",
+    "mandamientoPago": "2017-07-31T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 53,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "4625-01-01T00:00:00.000Z",
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "320 131802"
+    ],
+    "radicado": "2017 - 00975",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2025-09-01T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 53,
+      "fechaOrdenaMedida": "2024-02-03T18:58:57.222Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 53,
+    "telCelular": "3212307798",
+    "telFijo": null,
+    "primerNombre": "DIANA",
+    "segundoNombre": "MARCELA",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "LOZANO",
+    "cedula": "53051476",
+    "direccion": "calle 64 No. 85-60 INTERIOR 1 LOTE 19 MANZANA 36 URBANIZACION LA ISABELA  ETAPA IIcalle 64 I No. 86-60 ",
+    "email": "dimarce1513@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400308520170097500",
+  "nombre": "DIANA MARCELA SANCHEZ LOZANO",
+  "numero": 53,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:57.222Z"
+}

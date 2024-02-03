@@ -1,0 +1,82 @@
+{
+  "id": 79412583,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "LEIDY FERNANDA SANCHEZ GAMBA",
+    "cedula": "1022357168",
+    "direccion": "TRANSVERSAL 54 # 18 - 30 SUR INTERIOR 3 APTO 201",
+    "telefono": "5103158",
+    "id": 141
+  },
+  "demanda": {
+    "capitalAdeudado": "28130302.27",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-15T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.969Z"
+    ],
+    "llaveProceso": "11001400303920170110000",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 141,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "156285"
+    ],
+    "radicado": "2017 - 01100",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-09-24T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 141,
+      "fechaOrdenaMedida": "2024-02-03T18:59:10.982Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 141,
+    "telCelular": "3003932311",
+    "telFijo": "4137430 ",
+    "primerNombre": "EDGAR",
+    "segundoNombre": "DAVID",
+    "primerApellido": "HERNANDEZ",
+    "segundoApellido": "RINCON",
+    "cedula": "79412583",
+    "direccion": "CARREA 54 # 18 - 30 SUR APTO 201",
+    "email": "edgardavid302@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400303920170110000",
+  "nombre": "EDGAR DAVID HERNANDEZ RINCON",
+  "numero": 141,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:10.982Z"
+}

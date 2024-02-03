@@ -1,0 +1,82 @@
+{
+  "id": 80850549,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": " ELIZABETH YAYA SIERRA",
+    "cedula": "52936062",
+    "direccion": "CARRERA 96 D # 6 - 55 CASA 81 ESTAPA 1",
+    "telefono": "7326829",
+    "id": 374
+  },
+  "demanda": {
+    "capitalAdeudado": "27006100",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "2018-01-22T05:00:00.000Z"
+    ],
+    "llaveProceso": "11001400308620180006700",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 374,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "121543"
+    ],
+    "radicado": "2018 - 00067",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2024-08-26T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 374,
+      "fechaOrdenaMedida": "2024-02-03T18:59:37.977Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 374,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JHOAN",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "BARAJAS",
+    "segundoApellido": "MONTENEGRO",
+    "cedula": "80850549",
+    "direccion": "CALLE 2 SUR 16 - 36 MANZANA 104 // CARRERA 96 D 6 - 55 CADA 81 ET 1 ",
+    "email": "jjhoan_27@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400308620180006700",
+  "nombre": "JHOAN ANTONIO BARAJAS MONTENEGRO",
+  "numero": 374,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:37.977Z"
+}

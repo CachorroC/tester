@@ -1,0 +1,82 @@
+{
+  "id": 52064928,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 441
+  },
+  "demanda": {
+    "capitalAdeudado": "891",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-05-23T05:00:16.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.251Z"
+    ],
+    "llaveProceso": "25899408900120180060900",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 441,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990156079"
+    ],
+    "radicado": "2018 - 00609",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2032-09-18T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 441,
+      "fechaOrdenaMedida": "2024-02-03T18:59:45.582Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 441,
+    "telCelular": "3102762216",
+    "telFijo": null,
+    "primerNombre": "YANETH",
+    "segundoNombre": "MILLAN",
+    "primerApellido": "PRIETO",
+    "segundoApellido": null,
+    "cedula": "52064928",
+    "direccion": "CARRERA 5 No 7-40 SUR",
+    "email": "janeth2609@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25899408900120180060900",
+  "nombre": "YANETH MILLAN PRIETO",
+  "numero": 441,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:45.582Z"
+}

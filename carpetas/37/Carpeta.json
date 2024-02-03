@@ -1,0 +1,83 @@
+{
+  "id": 1030536736,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "LUIS ALBERTO AFONSO GIRALDO",
+    "cedula": "1030536736",
+    "direccion": "CALLE 14 Mo. 8 -04 BARRIO SAN JUAN SIBATE",
+    "telefono": "3208091862",
+    "id": 37
+  },
+  "demanda": {
+    "capitalAdeudado": "12707877",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-06T05:00:16.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "2017-06-09T05:00:00.000Z",
+      "2017-07-27T05:00:00.000Z"
+    ],
+    "llaveProceso": "25740418900120170021700",
+    "mandamientoPago": "2017-08-11T05:00:16.000Z",
+    "municipio": "SIBATE",
+    "notificacion": {
+      "id": 37,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12548843"
+    ],
+    "radicado": "2017 - 00217",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2020-05-26T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 37,
+      "fechaOrdenaMedida": "2024-02-03T18:58:54.846Z",
+      "medidaSolicitada": "PERSONAL"
+    }
+  },
+  "deudor": {
+    "id": 37,
+    "telCelular": "3208091862",
+    "telFijo": null,
+    "primerNombre": "LUIS",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "ALFONSO",
+    "segundoApellido": "GIRALDO",
+    "cedula": "1030536736",
+    "direccion": "CALLE 14 Mo. 8 -04 BARRIO SAN JUAN SIBATE",
+    "email": "luis.alfonso@correo.polica.gov.co"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25740418900120170021700",
+  "nombre": "LUIS ALBERTO ALFONSO GIRALDO",
+  "numero": 37,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:54.846Z"
+}

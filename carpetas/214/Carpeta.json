@@ -1,0 +1,82 @@
+{
+  "id": 52702559,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 214
+  },
+  "demanda": {
+    "capitalAdeudado": "27490437.92",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-17T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.982Z"
+    ],
+    "llaveProceso": "257544189002220170086700",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 214,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "147381"
+    ],
+    "radicado": "2017 - 00867",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-06-28T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 214,
+      "fechaOrdenaMedida": "2024-02-03T18:59:18.808Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 214,
+    "telCelular": "3204297147",
+    "telFijo": "7290666 ",
+    "primerNombre": "YENNY",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "RUBIO",
+    "segundoApellido": "MAHECHA",
+    "cedula": "52702559",
+    "direccion": "CALLE 6D # 5 - 60 MANZANA C CASA 17",
+    "email": "jennyprm@hotmail.com "
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "257544189002220170086700",
+  "nombre": "YENNY PATRICIA RUBIO MAHECHA",
+  "numero": 214,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:18.808Z"
+}

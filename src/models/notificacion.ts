@@ -1,13 +1,16 @@
-import { intNotificacion, rawNotificacion, the290 } from '../types/carpetas';
-import { fixSingleFecha } from './idk';
+import { intNotificacion, intNotifier, } from '../types/carpetas';
+import {  RawDb, } from '../types/raw-db';
 
 export class ClassNotificacion implements intNotificacion {
   constructor(
-    notificacion: rawNotificacion 
+    rawDb: RawDb
   ) {
     const {
-      fisico, certimail, autoNotificado 
-    } = notificacion;
+      FISICO: fisico, CERTIMAIL: certimail, FECHA_AUTO_NOTIFICADO: autoNotificado, NUMERO, FECHA_RECIBO_291: fechaRecibido291, FECHA_APORTA_NOTIFICACION_291: fechaAporta291, RESULTADO_291: resultado291, FECHA_RECIBO_292: fechaRecibido292, FECHA_APORTA_NOTIFICACION_292: fechaAporta292, RESULTADO_292: resultado292
+    } = rawDb;
+    this.id = Number(
+      NUMERO
+    );
     this.certimail = certimail
       ? ( certimail === 'SI'
           ? true
@@ -19,82 +22,86 @@ export class ClassNotificacion implements intNotificacion {
           : false )
       : null;
     this.autoNotificado = autoNotificado
-      ? typeof autoNotificado === 'number'
-        ? autoNotificado.toString()
-        : autoNotificado
+      ? new Date(
+        autoNotificado
+      )
       : null;
 
-    const the291 = notificacion[ '291' ];
+    if ( autoNotificado ) {
+      const newAutoDate = new Date(
+        autoNotificado
+      );
 
-    if ( the291 ) {
-      const {
-        fechaRecibido, resultado, fechaAporta 
-      } = the291;
+      if ( newAutoDate.toString() === 'Invalid Date' ) {
+        this.autoNotificado = null;
+      } else {
+        this.autoNotificado = newAutoDate;
+      }
 
-      const newFechaRecibido = fechaRecibido
-        ? fixSingleFecha(
-          typeof fechaRecibido === 'number'
-            ? fechaRecibido.toString()
-            : fechaRecibido,
-        )
-        : null;
-
-      const newFechaAporta = fechaAporta
-        ? fixSingleFecha(
-          typeof fechaAporta === 'number'
-            ? fechaAporta.toString()
-            : fechaAporta,
-        )
-        : null;
-
-      const newResultado = resultado
-        ? resultado === 'POSITIVO'
-          ? true
-          : false
-        : null;
-      this[ '291' ] = {
-        fechaRecibido: newFechaRecibido,
-        fechaAporta  : newFechaAporta,
-        resultado    : newResultado,
-      };
+    } else {
+      this.autoNotificado = null;
     }
 
-    const the292 = notificacion[ '292' ];
 
-    if ( the292 ) {
-      const {
-        fechaRecibido, resultado, fechaAporta 
-      } = the292;
 
-      const newFechaRecibido = fechaRecibido
-        ? fixSingleFecha(
-          fechaRecibido 
-        )
-        : null;
+    const newFechaRecibido291 = fechaRecibido291
+      ? new Date(
+        fechaRecibido291
+      )
+      : null;
 
-      const newFechaAporta = fechaAporta
-        ? fixSingleFecha(
-          typeof fechaAporta === 'number'
-            ? fechaAporta.toString()
-            : fechaAporta,
-        )
-        : null;
+    const newFechaAporta291 = fechaAporta291
+      ? new Date(
+        fechaAporta291
+      )
+      : null;
 
-      const newResultado = resultado
-        ? resultado === 'POSITIVO'
-          ? true
-          : false
-        : null;
-      this[ '292' ] = {
-        fechaRecibido: newFechaRecibido,
-        fechaAporta  : newFechaAporta,
-        resultado    : newResultado,
-      };
-    }
+    const newResultado291 = resultado291
+      ? resultado291 === 'POSITIVO' || resultado291 === 'ABIERTO'
+        ? true
+        : false
+      : null;
+    this.notifiers.push(
+      {
+        tipo         : '291',
+        fechaRecibido: newFechaRecibido291,
+        fechaAporta  : newFechaAporta291,
+        resultado    : newResultado291,
+      }
+    ) ;
+
+
+
+    const newFechaRecibido292 = fechaRecibido292
+      ? new Date(
+        fechaRecibido292
+      )
+      : null;
+
+    const newFechaAporta292 = fechaAporta292
+      ?  new Date(
+        fechaAporta292
+      )
+      : null;
+
+    const newResultado292 = resultado292
+      ? resultado292 === 'POSITIVO' || resultado292 === 'ABIERTO'
+        ? true
+        : false
+      : null;
+    this.notifiers.push(
+      {
+        tipo         : '292',
+        fechaRecibido: newFechaRecibido292,
+        fechaAporta  : newFechaAporta292,
+        resultado    : newResultado292,
+      }
+    );
+
   }
+  id: number;
+  notifiers: intNotifier[] =[];
   certimail: boolean | null;
   fisico: boolean | null;
-  autoNotificado: string | null;
-  '291'?: the290;
-  '292'?: the290;
+  autoNotificado: Date | null;
 }

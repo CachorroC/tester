@@ -1,0 +1,83 @@
+{
+  "id": 51987570,
+  "actuaciones": [],
+  "category": "Reintegra",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 491
+  },
+  "demanda": {
+    "capitalAdeudado": "18100698.65",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-03-09T05:00:00.000Z",
+    "etapaProcesal": "11001418900820180078500",
+    "fechaPresentacion": [],
+    "llaveProceso": "2018 - 00785",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 491,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": "2018-02-11T05:00:00.000Z",
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": false,
+      "fisico": true,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "0377816345049476 // 4513070259455355 // 5303720114305077"
+    ],
+    "radicado": "JUZGADOS EJECUCION",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2021-05-15T05:00:00.000Z",
+      "2021-07-05T05:00:00.000Z",
+      "2021-07-05T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 491,
+      "fechaOrdenaMedida": "2024-02-03T19:00:09.907Z",
+      "medidaSolicitada": "20/11/2018"
+    }
+  },
+  "deudor": {
+    "id": 491,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "SANDRA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "PACHECO",
+    "segundoApellido": "RAMIREZ",
+    "cedula": "51987570",
+    "direccion": "CALLE 163 B No 50-80  INTERIOR 10 APT 231 CONJUNTO LA ESTANCIA III",
+    "email": "sandrabogota2007@yahoo.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "2018 - 00785",
+  "nombre": "SANDRA PATRICIA PACHECO RAMIREZ",
+  "numero": 491,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T19:00:09.907Z"
+}

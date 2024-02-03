@@ -1,0 +1,80 @@
+{
+  "id": 79837700,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": "4514661",
+    "id": 421
+  },
+  "demanda": {
+    "capitalAdeudado": "853",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-04-24T05:00:16.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.217Z"
+    ],
+    "llaveProceso": "11001400307520180061700",
+    "mandamientoPago": "2018-05-11T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 421,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4099840209665970"
+    ],
+    "radicado": "2018 - 00617",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 421,
+      "fechaOrdenaMedida": "2024-02-03T18:59:43.174Z",
+      "medidaSolicitada": "CERTIMAIL"
+    }
+  },
+  "deudor": {
+    "id": 421,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ALEXANDER",
+    "segundoNombre": "MUÑOZ",
+    "primerApellido": "ORTIZ",
+    "segundoApellido": null,
+    "cedula": "79837700",
+    "direccion": "DIAGONAL 2 No 79 A-45 BLOQ 2 APTO 402",
+    "email": "alexmortiz76@yahoo.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400307520180061700",
+  "nombre": "ALEXANDER MUÑOZ ORTIZ",
+  "numero": 421,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:43.174Z"
+}

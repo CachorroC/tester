@@ -1,0 +1,82 @@
+{
+  "id": 79652256,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 400
+  },
+  "demanda": {
+    "capitalAdeudado": "376",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "2018-02-09T05:00:00.000Z"
+    ],
+    "llaveProceso": "25307400300220180007500",
+    "mandamientoPago": null,
+    "municipio": "GIRARDOT",
+    "notificacion": {
+      "id": 400,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "6590084682"
+    ],
+    "radicado": "2018 - 00075",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2020-12-21T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 400,
+      "fechaOrdenaMedida": "2024-02-03T18:59:41.521Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 400,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "OSCAR",
+    "segundoNombre": "GUILLERMO",
+    "primerApellido": "LOZANO",
+    "segundoApellido": "GONZALEZ",
+    "cedula": "79652256",
+    "direccion": "XARRERA 2 No 10-30B CENTENARIO - GIRARDOT",
+    "email": "ocaelmejor@yahoo.es"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25307400300220180007500",
+  "nombre": "OSCAR GUILLERMO LOZANO GONZALEZ",
+  "numero": 400,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:41.521Z"
+}

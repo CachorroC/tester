@@ -1,0 +1,80 @@
+{
+  "id": 80220698,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 553
+  },
+  "demanda": {
+    "capitalAdeudado": "31804872",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2023-06-20T05:00:16.000Z",
+    "etapaProcesal": "HMM PISO",
+    "fechaPresentacion": [],
+    "llaveProceso": null,
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 553,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "130089828"
+    ],
+    "radicado": null,
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2025-02-25T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 553,
+      "fechaOrdenaMedida": "2024-02-03T18:59:53.853Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 553,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JOSE",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "LAVERDE",
+    "segundoApellido": "PENAGOS",
+    "cedula": "80220698",
+    "direccion": "Carrera 7 # 180 75 // Carrera 8 A No. 182 - 12",
+    "email": "lxndrlaverde@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "undefined",
+  "nombre": "JOSE ALEXANDER LAVERDE PENAGOS",
+  "numero": 553,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:53.853Z"
+}

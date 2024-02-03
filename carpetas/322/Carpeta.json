@@ -1,0 +1,82 @@
+{
+  "id": 63395806,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 322
+  },
+  "demanda": {
+    "capitalAdeudado": "87015973",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-10-25T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.046Z"
+    ],
+    "llaveProceso": "11001400308620170120500",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 322,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "155766"
+    ],
+    "radicado": "2017 - 01205",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2027-09-11T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 322,
+      "fechaOrdenaMedida": "2024-02-03T18:59:30.654Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 322,
+    "telCelular": "3112326151",
+    "telFijo": "5205695 ",
+    "primerNombre": "CLAUDIA",
+    "segundoNombre": "YAMILE",
+    "primerApellido": "SUAREZ",
+    "segundoApellido": "POBLADOR",
+    "cedula": "63395806",
+    "direccion": "CALLE 127 C - No  2 B - 18  APARTAMENTO 101",
+    "email": "claudiasuarezp@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400308620170120500",
+  "nombre": "CLAUDIA YAMILE SUAREZ POBLADOR",
+  "numero": 322,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:30.654Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 19332163,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 309
+  },
+  "demanda": {
+    "capitalAdeudado": "20515858",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-10-24T05:00:16.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.039Z"
+    ],
+    "llaveProceso": "11001400306720170161300",
+    "mandamientoPago": "2018-03-12T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 309,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4513080019699192",
+      "0377815686597168"
+    ],
+    "radicado": "2017 - 01613",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2017-04-22T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 309,
+      "fechaOrdenaMedida": "2024-02-03T18:59:29.204Z",
+      "medidaSolicitada": "CERTIMAIL"
+    }
+  },
+  "deudor": {
+    "id": 309,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "HENRY",
+    "segundoNombre": "NOEL",
+    "primerApellido": "CASTELBLANCO",
+    "segundoApellido": "SOSA",
+    "cedula": "19332163",
+    "direccion": "CARRERA 69 C No 98A -50 ",
+    "email": "hencast@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400306720170161300",
+  "nombre": "HENRY NOEL CASTELBLANCO SOSA",
+  "numero": 309,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:29.204Z"
+}

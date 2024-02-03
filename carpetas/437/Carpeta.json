@@ -1,0 +1,82 @@
+{
+  "id": 80162319,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 437
+  },
+  "demanda": {
+    "capitalAdeudado": "22725077.61",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-05-29T05:00:16.000Z",
+    "etapaProcesal": "11001418901520180021200",
+    "fechaPresentacion": [],
+    "llaveProceso": "11001400371520180021200",
+    "mandamientoPago": "2018-05-31T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 437,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-06-20T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": "1970-01-01T00:00:43.293Z",
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "4513073535490930"
+    ],
+    "radicado": "2018 - 00212",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2021-05-23T05:00:00.000Z",
+      "2020-11-15T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 437,
+      "fechaOrdenaMedida": "2024-02-03T18:59:45.487Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 437,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JAVIER",
+    "segundoNombre": "ANTONIO",
+    "primerApellido": "ZIPA",
+    "segundoApellido": "SALAMANCA",
+    "cedula": "80162319",
+    "direccion": "CARRERA 79A No 13-10",
+    "email": "javierzipa83@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400371520180021200",
+  "nombre": "JAVIER ANTONIO ZIPA SALAMANCA",
+  "numero": 437,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:45.487Z"
+}

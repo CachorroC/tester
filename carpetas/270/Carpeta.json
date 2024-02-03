@@ -1,0 +1,82 @@
+{
+  "id": 1018423770,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 270
+  },
+  "demanda": {
+    "capitalAdeudado": "15921423",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "2017-10-05T05:00:00.000Z"
+    ],
+    "llaveProceso": "11001408903420170113900",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 270,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12327160"
+    ],
+    "radicado": "2017 - 01139",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-09-21T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 270,
+      "fechaOrdenaMedida": "2024-02-03T18:59:25.634Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 270,
+    "telCelular": "3107727822",
+    "telFijo": "4566333 ",
+    "primerNombre": "WILMER",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "QUIÑONES",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": "1018423770",
+    "direccion": "CALLE 37 B No 68 I - 23 SUR",
+    "email": "andresxaw@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001408903420170113900",
+  "nombre": "WILMER ANDRES QUIÑONES HERNANDEZ",
+  "numero": 270,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:25.634Z"
+}

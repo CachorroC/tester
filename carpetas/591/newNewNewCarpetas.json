@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": true,
-      "createdAt": "2024-01-02T02:11:56.229Z"
+      "createdAt": "2024-02-03T00:36:37.488Z"
     },
     {
       "idRegActuacion": 1941181430,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.229Z"
+      "createdAt": "2024-02-03T00:36:37.488Z"
     },
     {
       "idRegActuacion": 1938540880,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.229Z"
+      "createdAt": "2024-02-03T00:36:37.488Z"
     },
     {
       "idRegActuacion": 1936596830,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.229Z"
+      "createdAt": "2024-02-03T00:36:37.488Z"
     },
     {
       "idRegActuacion": 1935520180,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.229Z"
+      "createdAt": "2024-02-03T00:36:37.488Z"
     },
     {
       "idRegActuacion": 1935520170,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.229Z"
+      "createdAt": "2024-02-03T00:36:37.488Z"
     },
     {
       "idRegActuacion": 1924929040,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.229Z"
+      "createdAt": "2024-02-03T00:36:37.488Z"
     },
     {
       "idRegActuacion": 1924929030,
@@ -135,48 +135,82 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-01-02T02:11:56.229Z"
+      "createdAt": "2024-02-03T00:36:37.488Z"
     }
   ],
   "category": "Bancolombia",
-  "codeudor": null,
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 591
+  },
   "demanda": {
-    "obligacion": ["2170096325", "2170097811 //2170097810 // 2170097809 //"],
-    "llaveProceso": "11001400302720230116700",
-    "notificacion": null,
-    "medidasCautelares": null,
-    "capitalAdeudado": null,
+    "capitalAdeudado": "106398151",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": null,
+    "entregaGarantiasAbogado": "2023-10-13T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "llaveProceso": "11001400302720230116700",
     "mandamientoPago": null,
     "municipio": "BOGOTA",
-    "radicado": "2023-1167",
+    "notificacion": {
+      "id": 591,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2170096325",
+      "2170097811 //2170097810 // 2170097809 //"
+    ],
+    "radicado": "2023 - 1167",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
       "2026-02-04T05:00:00.000Z",
       "2026-05-17T05:00:00.000Z",
       "2026-05-17T05:00:00.000Z",
-      "2026-02-02T05:00:00.000Z"
-    ]
+      "2026-02-02T05:00:00.000Z",
+      "2026-05-17T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 591,
+      "fechaOrdenaMedida": "2024-02-03T00:36:37.334Z",
+      "medidaSolicitada": null
+    }
   },
   "deudor": {
-    "tel": {
-      "fijo": null,
-      "celular": 3105821483
-    },
+    "id": 591,
+    "telCelular": "3105821483",
+    "telFijo": null,
     "primerNombre": "MAYRA",
     "segundoNombre": "ALEJANDRA",
     "primerApellido": "VALBUENA",
     "segundoApellido": "BARRERO",
-    "cedula": 1110450902,
-    "direccion": "Calle 139 7 C - 80 Apartamento 307. Edificio Andaluz",
+    "cedula": "1110450902",
+    "direccion": "Calle 139 7 C - 80 Apartamento 307, Edificio Andaluz",
     "email": "alejavalbar@hotmail.com"
   },
   "fecha": "2023-12-11T05:00:00.000Z",
-  "idProcesos": [134525980],
+  "idProcesos": [
+    134525980
+  ],
   "idRegUltimaAct": 1941181440,
   "llaveProceso": "11001400302720230116700",
   "nombre": "MAYRA ALEJANDRA VALBUENA BARRERO",
@@ -219,5 +253,5 @@
     "idProceso": 134525980,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-01-02T02:11:56.046Z"
+  "updatedAt": "2024-02-03T00:36:37.334Z"
 }

@@ -1,0 +1,81 @@
+{
+  "id": 11309242,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 21
+  },
+  "demanda": {
+    "capitalAdeudado": "1000",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "42886",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.941Z"
+    ],
+    "llaveProceso": "25290400300120170043700",
+    "mandamientoPago": "2017-07-25T05:00:16.000Z",
+    "municipio": "FUSAGASUGA",
+    "notificacion": {
+      "id": 21,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "1970-01-01T00:00:42.948Z",
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "15537944",
+      "42874"
+    ],
+    "radicado": "2017 - 00437",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 21,
+      "fechaOrdenaMedida": "1970-01-01T00:00:43.250Z",
+      "medidaSolicitada": "CERTIMAIL"
+    }
+  },
+  "deudor": {
+    "id": 21,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "RAMIRO",
+    "segundoNombre": "CRISTANCHO",
+    "primerApellido": "CONTRERAS",
+    "segundoApellido": null,
+    "cedula": "11309242",
+    "direccion": "CALLE 522 -68 fusagasuga",
+    "email": "edware960720@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25290400300120170043700",
+  "nombre": "RAMIRO CRISTANCHO CONTRERAS",
+  "numero": 21,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:53.919Z"
+}

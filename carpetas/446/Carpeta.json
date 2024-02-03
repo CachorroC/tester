@@ -1,0 +1,78 @@
+{
+  "id": 79725365,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "45523",
+    "telefono": null,
+    "id": 446
+  },
+  "demanda": {
+    "capitalAdeudado": "43265",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "25899418900120180057300",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 446,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "16.392,987.23"
+    ],
+    "radicado": "2018 - 00573",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 446,
+      "fechaOrdenaMedida": "2024-02-03T18:59:46.439Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 446,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "RICARDO",
+    "segundoNombre": null,
+    "primerApellido": "CUSPOCA",
+    "segundoApellido": null,
+    "cedula": "79725365",
+    "direccion": null,
+    "email": "CALLE 36 No 69-56 SUR. B CARVAJAL"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25899418900120180057300",
+  "nombre": "RICARDO CUSPOCA",
+  "numero": 446,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:46.439Z"
+}

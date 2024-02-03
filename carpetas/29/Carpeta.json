@@ -1,0 +1,82 @@
+{
+  "id": 80814800,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 29
+  },
+  "demanda": {
+    "capitalAdeudado": "51217496",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-19T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.004Z"
+    ],
+    "llaveProceso": "25175400300120170051100",
+    "mandamientoPago": null,
+    "municipio": "CHIA",
+    "notificacion": {
+      "id": 29,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "179301"
+    ],
+    "radicado": "2017 - 00511",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2029-12-05T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 29,
+      "fechaOrdenaMedida": "2024-02-03T18:58:54.454Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 29,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "WHITMAN",
+    "segundoNombre": "JEFERSON",
+    "primerApellido": "NAJAR",
+    "segundoApellido": "RAMIREZ",
+    "cedula": "80814800",
+    "direccion": "CARRERA  9 No 19 - 59 CHIA ",
+    "email": "whitman.najarramirez@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25175400300120170051100",
+  "nombre": "WHITMAN JEFERSON NAJAR RAMIREZ",
+  "numero": 29,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:54.454Z"
+}

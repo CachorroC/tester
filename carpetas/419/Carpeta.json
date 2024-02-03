@@ -1,0 +1,81 @@
+{
+  "id": 73133278,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 419
+  },
+  "demanda": {
+    "capitalAdeudado": "43211",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "43217",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.231Z"
+    ],
+    "llaveProceso": "25175410300120180023700",
+    "mandamientoPago": null,
+    "municipio": "CHIA",
+    "notificacion": {
+      "id": 419,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "5303711851549150",
+      "20,453,625,97"
+    ],
+    "radicado": "2018 - 00237",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 419,
+      "fechaOrdenaMedida": "2024-02-03T18:59:43.150Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 419,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ALVARO",
+    "segundoNombre": "HERNAN",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "HERNANDEZ",
+    "cedula": "73133278",
+    "direccion": null,
+    "email": "CALLE 1 SUR No 5A- 179 CASA 26 "
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25175410300120180023700",
+  "nombre": "ALVARO HERNAN RUIZ HERNANDEZ",
+  "numero": 419,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:43.150Z"
+}

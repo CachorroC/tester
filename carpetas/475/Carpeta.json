@@ -1,0 +1,80 @@
+{
+  "id": 4281808,
+  "actuaciones": [],
+  "category": "Reintegra",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 475
+  },
+  "demanda": {
+    "capitalAdeudado": "39146947",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": [
+      "2018-02-22T05:00:16.000Z"
+    ],
+    "llaveProceso": "25754408900220180011300",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 475,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": true
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": "2018-06-19T05:00:16.000Z",
+          "fechaAporta": null,
+          "resultado": true
+        }
+      ],
+      "certimail": true,
+      "fisico": false,
+      "autoNotificado": "2018-07-06T05:00:00.000Z"
+    },
+    "obligacion": [
+      "1000090987"
+    ],
+    "radicado": "2018 - 00113",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 475,
+      "fechaOrdenaMedida": "2018-02-04T05:00:00.000Z",
+      "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
+    }
+  },
+  "deudor": {
+    "id": 475,
+    "telCelular": null,
+    "telFijo": "7113967 ",
+    "primerNombre": "JOSE",
+    "segundoNombre": "LIBRANDO",
+    "primerApellido": "CANDELA",
+    "segundoApellido": "MUNEVAR",
+    "cedula": "4281808",
+    "direccion": "CALLE 1 A No 13-30  SOACHA ",
+    "email": "eedibrando600@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754408900220180011300",
+  "nombre": "JOSE LIBRANDO CANDELA MUNEVAR",
+  "numero": 475,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T19:00:09.232Z"
+}

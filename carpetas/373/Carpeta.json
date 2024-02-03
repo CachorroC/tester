@@ -1,0 +1,81 @@
+{
+  "id": 79616846,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 373
+  },
+  "demanda": {
+    "capitalAdeudado": "10725698",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "2018-01-22T05:00:00.000Z"
+    ],
+    "llaveProceso": "25599400300120180000500",
+    "mandamientoPago": null,
+    "municipio": "APULO",
+    "notificacion": {
+      "id": 373,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4513087158442953",
+      "5306966000650228"
+    ],
+    "radicado": "2018 - 00005",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 373,
+      "fechaOrdenaMedida": "2024-02-03T18:59:37.952Z",
+      "medidaSolicitada": "PERSONAL"
+    }
+  },
+  "deudor": {
+    "id": 373,
+    "telCelular": "3112764286",
+    "telFijo": null,
+    "primerNombre": "RODRIGO",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "VILLALBA",
+    "cedula": "79616846",
+    "direccion": "CARRERA 5 # 12 - 53 APULO",
+    "email": "rodrigo_ruiz33@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25599400300120180000500",
+  "nombre": "RODRIGO ALBERTO RUIZ VILLALBA",
+  "numero": 373,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:37.952Z"
+}

@@ -2,43 +2,75 @@
   "id": 52151784,
   "actuaciones": [],
   "category": "Bancolombia",
-  "codeudor": null,
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 599
+  },
   "demanda": {
-    "obligacion": ["5820090959", "83118231"],
-    "llaveProceso": "SinEspecificar",
-    "notificacion": null,
-    "medidasCautelares": null,
-    "capitalAdeudado": null,
+    "capitalAdeudado": "48451989",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": null,
+    "entregaGarantiasAbogado": "2023-11-21T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "llaveProceso": " 11001400305320230150600",
     "mandamientoPago": null,
     "municipio": "BOGOTA",
-    "radicado": null,
+    "notificacion": {
+      "id": 599,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "5820090959",
+      "83118231"
+    ],
+    "radicado": "2023 - 1506",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
       "2026-07-09T05:00:00.000Z",
       "2026-07-08T05:00:00.000Z"
-    ]
+    ],
+    "medidasCautelares": {
+      "id": 599,
+      "fechaOrdenaMedida": "2024-02-03T00:36:38.638Z",
+      "medidaSolicitada": null
+    }
   },
   "deudor": {
-    "tel": {
-      "fijo": 7396130,
-      "celular": 3176483774
-    },
+    "id": 599,
+    "telCelular": "3176483774",
+    "telFijo": "7396130 ",
     "primerNombre": "CLAUDIA",
     "segundoNombre": "BEATRIZ",
     "primerApellido": "PRIETO",
     "segundoApellido": "RINCON",
-    "cedula": 52151784,
+    "cedula": "52151784",
     "direccion": "Calle 154 A 94 - 80 // CARRERA 56 No. 167 A - 25 TORRE 2 APARTAMENTO 1102 EDIFICIO PRADO VERDE",
     "email": "claudiaprietorincon1@hotmail.com"
   },
   "fecha": null,
   "idProcesos": [],
-  "llaveProceso": "SinEspecificar",
+  "idRegUltimaAct": null,
+  "llaveProceso": " 11001400305320230150600",
   "nombre": "CLAUDIA BEATRIZ PRIETO RINCON",
   "numero": 599,
   "procesos": [],
@@ -46,5 +78,5 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-01-02T02:11:57.080Z"
+  "updatedAt": "2024-02-03T00:36:38.638Z"
 }

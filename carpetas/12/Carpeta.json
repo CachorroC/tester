@@ -1,0 +1,82 @@
+{
+  "id": 11436632,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 12
+  },
+  "demanda": {
+    "capitalAdeudado": "1000",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-11T05:00:16.000Z",
+    "etapaProcesal": "APELACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.885Z"
+    ],
+    "llaveProceso": "25269400300220180015800",
+    "mandamientoPago": "2017-09-18T05:00:16.000Z",
+    "municipio": "FACATATIVA",
+    "notificacion": {
+      "id": 12,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2273320140425"
+    ],
+    "radicado": "2017 - 00488/ 2018 - 00158",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2026-07-05T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 12,
+      "fechaOrdenaMedida": "2024-02-03T18:58:53.238Z",
+      "medidaSolicitada": "PERSONAL"
+    }
+  },
+  "deudor": {
+    "id": 12,
+    "telCelular": "3214791915",
+    "telFijo": null,
+    "primerNombre": "OSCAR",
+    "segundoNombre": "MANUEL",
+    "primerApellido": "TRIVIÑO",
+    "segundoApellido": "GARCIA",
+    "cedula": "11436632",
+    "direccion": "CALLE 2 E 1 A-85 SUR FACATATIVA",
+    "email": "triracso25@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25269400300220180015800",
+  "nombre": "OSCAR MANUEL TRIVIÑO GARCIA",
+  "numero": 12,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:53.238Z"
+}

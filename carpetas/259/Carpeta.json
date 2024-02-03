@@ -1,0 +1,82 @@
+{
+  "id": 52770471,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 259
+  },
+  "demanda": {
+    "capitalAdeudado": "79266368",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-13T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.999Z"
+    ],
+    "llaveProceso": "11001400303920170125600",
+    "mandamientoPago": "2017-11-01T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 259,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "153884"
+    ],
+    "radicado": "2017 - 01256",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-04-23T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 259,
+      "fechaOrdenaMedida": "2024-02-03T18:59:24.527Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 259,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "LUZ",
+    "segundoNombre": "NELLY",
+    "primerApellido": "RUIZ",
+    "segundoApellido": "LARA",
+    "cedula": "52770471",
+    "direccion": "CARRERA 87 F - No 26-74 SUR",
+    "email": "nelly_ruiz1980@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400303920170125600",
+  "nombre": "LUZ NELLY RUIZ LARA ",
+  "numero": 259,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:24.527Z"
+}

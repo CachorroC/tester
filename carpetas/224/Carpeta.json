@@ -1,0 +1,82 @@
+{
+  "id": 52616509,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "GILBERANIO SUAREZ RODRIGUEZ",
+    "cedula": "74181815",
+    "direccion": "CALLE 4 # 26 - 38 ",
+    "telefono": "8471503",
+    "id": 224
+  },
+  "demanda": {
+    "capitalAdeudado": "36182458.1",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-29T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.986Z"
+    ],
+    "llaveProceso": "25386400300120170040700",
+    "mandamientoPago": null,
+    "municipio": "LA MESA",
+    "notificacion": {
+      "id": 224,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4600"
+    ],
+    "radicado": "2017 - 00407",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2023-04-30T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 224,
+      "fechaOrdenaMedida": "2024-02-03T18:59:20.338Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 224,
+    "telCelular": "3114881698",
+    "telFijo": null,
+    "primerNombre": "MARIA",
+    "segundoNombre": "ROSA",
+    "primerApellido": "ZARATE",
+    "segundoApellido": "CORTES",
+    "cedula": "52616509",
+    "direccion": "CALLE 5 # 21 - 76",
+    "email": "mariarosacortes2233@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25386400300120170040700",
+  "nombre": "MARIA ROSA ZARATE CORTES",
+  "numero": 224,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:20.338Z"
+}

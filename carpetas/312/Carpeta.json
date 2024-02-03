@@ -1,0 +1,82 @@
+{
+  "id": 80394456,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "YOLANDA RATIVA MESA",
+    "cedula": "28949691",
+    "direccion": "CARRERA 87 D No 42 A-20 SUR IN 6 C",
+    "telefono": "3202780646",
+    "id": 312
+  },
+  "demanda": {
+    "capitalAdeudado": "10668327",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-10-26T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.029Z"
+    ],
+    "llaveProceso": "11001418904320170114000",
+    "mandamientoPago": "2017-11-30T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 312,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "82317"
+    ],
+    "radicado": "2017 - 01140",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-06-08T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 312,
+      "fechaOrdenaMedida": "2024-02-03T18:59:29.250Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 312,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "PEDRO",
+    "segundoNombre": "PABLO",
+    "primerApellido": "SARMIENTO",
+    "segundoApellido": "MAYORGA",
+    "cedula": "80394456",
+    "direccion": "CARRERA 87 D No 42 A 20 SUR INTERIOR 6",
+    "email": "pedrosebastin394@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418904320170114000",
+  "nombre": "PEDRO PABLO SARMIENTO MAYORGA ",
+  "numero": 312,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:29.250Z"
+}

@@ -1,0 +1,104 @@
+{
+  "id": 11251297,
+  "actuaciones": [],
+  "category": "Reintegra",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 46
+  },
+  "demanda": {
+    "capitalAdeudado": "12537973",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-19T05:00:16.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": [
+      "2017-05-30T05:00:16.000Z"
+    ],
+    "llaveProceso": "25183400300120170010600",
+    "mandamientoPago": "2017-06-21T05:00:16.000Z",
+    "municipio": "CHOCONTA",
+    "notificacion": {
+      "id": 46,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": "2019-07-18T05:00:16.000Z",
+          "fechaAporta": "2019-07-29T05:00:16.000Z",
+          "resultado": true
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": "2019-07-30T05:00:16.000Z",
+          "fechaAporta": "2019-08-01T05:00:16.000Z",
+          "resultado": true
+        }
+      ],
+      "certimail": false,
+      "fisico": true,
+      "autoNotificado": "2019-08-02T05:00:16.000Z"
+    },
+    "obligacion": [
+      "53037139326557900",
+      "4099839496308260"
+    ],
+    "radicado": "2017-00106",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2020-04-18T05:00:00.000Z",
+      "2020-05-04T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 46,
+      "fechaOrdenaMedida": "2017-06-21T05:00:16.000Z",
+      "medidaSolicitada": "EMBARGO VEHICULO"
+    }
+  },
+  "deudor": {
+    "id": 46,
+    "telCelular": "3166182970",
+    "telFijo": null,
+    "primerNombre": "ALVARO",
+    "segundoNombre": "RODRIGUEZ",
+    "primerApellido": "ALONSO",
+    "segundoApellido": null,
+    "cedula": "11251297",
+    "direccion": "Carrera 2B No.14-04 BARRIO VILLA ALEJANDRA CHOCONTA",
+    "email": "alvaro.r@live.com"
+  },
+  "fecha": null,
+  "idProcesos": [
+    86212261
+  ],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25183400300120170010600",
+  "nombre": "ALVARO RODRIGUEZ ALONSO",
+  "numero": 46,
+  "procesos": [
+    {
+      "idProceso": 86212261,
+      "idConexion": 320,
+      "llaveProceso": "25183400300120170010600",
+      "fechaProceso": "2017-05-30T05:00:00.000Z",
+      "fechaUltimaActuacion": null,
+      "despacho": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ ",
+      "departamento": "CUNDINAMARCA",
+      "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: ALVARO  RODRIGUEZ ALONSO | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 1,
+        "tipo": "JUZGADO 001 CIVIL MUNICIPAL DE CHOCONTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-001-civil-municipal-de-choconta"
+      }
+    }
+  ],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:55.074Z"
+}

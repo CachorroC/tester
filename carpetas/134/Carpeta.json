@@ -1,0 +1,83 @@
+{
+  "id": 80722626,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "CLEMENCIA PARADA AMAYA",
+    "cedula": "23473890",
+    "direccion": "CALLE 31 # 3A 28 ",
+    "telefono": "3138687321",
+    "id": 134
+  },
+  "demanda": {
+    "capitalAdeudado": "54428394.17",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-16T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.971Z"
+    ],
+    "llaveProceso": "25430400300120170108300",
+    "mandamientoPago": null,
+    "municipio": "MADRID",
+    "notificacion": {
+      "id": 134,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "167364",
+      "377813624212172."
+    ],
+    "radicado": "2017 - 01083",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2028-08-28T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 134,
+      "fechaOrdenaMedida": "2024-02-03T18:59:09.467Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 134,
+    "telCelular": "3105519200",
+    "telFijo": "8284768 ",
+    "primerNombre": "FREDY",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "BUENO",
+    "segundoApellido": "PARADA",
+    "cedula": "80722626",
+    "direccion": "CARRERA 2 # 1 - 04 BLOQUE 8 APTO 101",
+    "email": "fredy8221@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25430400300120170108300",
+  "nombre": "FREDY ALEXANDER BUENO PARADA",
+  "numero": 134,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:09.467Z"
+}

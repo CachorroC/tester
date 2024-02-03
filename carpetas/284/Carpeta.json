@@ -1,0 +1,80 @@
+{
+  "id": 93119101,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 284
+  },
+  "demanda": {
+    "capitalAdeudado": "15488696",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-27T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.018Z"
+    ],
+    "llaveProceso": "25214400300120170070400",
+    "mandamientoPago": null,
+    "municipio": "COTA",
+    "notificacion": {
+      "id": 284,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "300093754"
+    ],
+    "radicado": "2017 - 00704",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 284,
+      "fechaOrdenaMedida": "2024-02-03T18:59:26.697Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 284,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ARMANDO",
+    "segundoNombre": "BARRIOS",
+    "primerApellido": "VARGAS",
+    "segundoApellido": "",
+    "cedula": "93119101",
+    "direccion": "VEREDA EL TIME  ( COTA )",
+    "email": "abarriosleg@yahoo.es"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25214400300120170070400",
+  "nombre": "ARMANDO BARRIOS VARGAS ",
+  "numero": 284,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:26.697Z"
+}

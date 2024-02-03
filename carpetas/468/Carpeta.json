@@ -1,0 +1,81 @@
+{
+  "id": 79719969,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 468
+  },
+  "demanda": {
+    "capitalAdeudado": "16881706.3",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-08-03T05:00:16.000Z",
+    "etapaProcesal": "11001418900420180038400",
+    "fechaPresentacion": [],
+    "llaveProceso": "11001408900420180038400",
+    "mandamientoPago": "2018-08-09T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 468,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-09-03T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "3880083739",
+      "377813300070688"
+    ],
+    "radicado": "2018 - 00384",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2020-06-08T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 468,
+      "fechaOrdenaMedida": "2024-02-03T18:59:49.130Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 468,
+    "telCelular": "3102438242",
+    "telFijo": "2400591 ",
+    "primerNombre": "CARLOS",
+    "segundoNombre": "EDUARDO",
+    "primerApellido": "NARANJO",
+    "segundoApellido": "PIÑEROS",
+    "cedula": "79719969",
+    "direccion": "CALLE 63 BIS No 69 a-29",
+    "email": "cenp11@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001408900420180038400",
+  "nombre": "CARLOS EDUARDO NARANJO PIÑEROS",
+  "numero": 468,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:49.130Z"
+}

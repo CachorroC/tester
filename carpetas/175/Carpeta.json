@@ -1,0 +1,82 @@
+{
+  "id": 91354321,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "LUZ HELENA SOLANO ARDILA ",
+    "cedula": "53065435",
+    "direccion": "CALLE 36 # 1 - 81 CASA 11 BLOQUE 21 ",
+    "telefono": "3118570587 // 7515699",
+    "id": 175
+  },
+  "demanda": {
+    "capitalAdeudado": "16618551.39",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-24T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.978Z"
+    ],
+    "llaveProceso": "25754418900220170076100",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 175,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990117740"
+    ],
+    "radicado": "2017 - 00761",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2024-04-22T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 175,
+      "fechaOrdenaMedida": "2024-02-03T18:59:15.158Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 175,
+    "telCelular": "3118866968",
+    "telFijo": "8212461 ",
+    "primerNombre": "OMAR",
+    "segundoNombre": "GUSTAVO",
+    "primerApellido": "FULA",
+    "segundoApellido": "AVILA",
+    "cedula": "91354321",
+    "direccion": "CALLE 36 # 1 ESTE - 81 BLOQUE 21 CASA 11 SOACHA",
+    "email": "omarfula@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900220170076100",
+  "nombre": "OMAR GUSTAVO FULA AVILA ",
+  "numero": 175,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:15.158Z"
+}

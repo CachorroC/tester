@@ -1,0 +1,81 @@
+{
+  "id": 80546020,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "MONICA MAYELI  CRISTANCHO  BALLEN ",
+    "cedula": "21022941",
+    "direccion": "CALLE 5 No 1 A-12",
+    "telefono": "8513122/3132518401",
+    "id": 498
+  },
+  "demanda": {
+    "capitalAdeudado": "19491278",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "25899400300320180042900",
+    "fechaPresentacion": [],
+    "llaveProceso": "25899400300320180042900",
+    "mandamientoPago": "2018-08-10T05:00:00.000Z",
+    "municipio": "ZIPAQUIRA",
+    "notificacion": {
+      "id": 498,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "5306960218152465"
+    ],
+    "radicado": "2018 - 00429",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2031-05-23T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 498,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.600Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 498,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JOSE",
+    "segundoNombre": "ALEXANDER",
+    "primerApellido": "BECERRA",
+    "segundoApellido": "BARRERA",
+    "cedula": "80546020",
+    "direccion": "CARRERA 7 No 4-11  CENTRO",
+    "email": "kristal6020@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25899400300320180042900",
+  "nombre": "JOSE ALEXANDER BECERRA BARRERA",
+  "numero": 498,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.600Z"
+}

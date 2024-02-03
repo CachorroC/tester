@@ -1,0 +1,82 @@
+{
+  "id": 20563933,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 28
+  },
+  "demanda": {
+    "capitalAdeudado": "1000",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-30T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.894Z"
+    ],
+    "llaveProceso": "25290400300120170036900",
+    "mandamientoPago": "2017-06-28T05:00:16.000Z",
+    "municipio": "FUSAGASUGA",
+    "notificacion": {
+      "id": 28,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-06-28T05:00:16.000Z",
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "127011"
+    ],
+    "radicado": "2017 - 00369",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2025-09-03T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 28,
+      "fechaOrdenaMedida": "2024-02-03T18:58:54.257Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 28,
+    "telCelular": "3102301734",
+    "telFijo": "8671269 ",
+    "primerNombre": "MARIA",
+    "segundoNombre": "SOCORRO",
+    "primerApellido": "TORRES",
+    "segundoApellido": "DE",
+    "cedula": "20563933",
+    "direccion": "CALLE 17 No 8-41 APTO 101 FUSAGASUGA",
+    "email": "anyelicllau2006@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25290400300120170036900",
+  "nombre": "MARIA SOCORRO TORRES DE GONZALEZ",
+  "numero": 28,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:54.257Z"
+}

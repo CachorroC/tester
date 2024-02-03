@@ -1,0 +1,82 @@
+{
+  "id": 1072642976,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 526
+  },
+  "demanda": {
+    "capitalAdeudado": "13180105",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "2019-06-05T05:00:00.000Z"
+    ],
+    "llaveProceso": "25175400300120190030400",
+    "mandamientoPago": null,
+    "municipio": "CHIA",
+    "notificacion": {
+      "id": 526,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "9320086222"
+    ],
+    "radicado": "2019 - 00304",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2024-10-25T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 526,
+      "fechaOrdenaMedida": "2024-02-03T18:59:52.370Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 526,
+    "telCelular": "3202954313",
+    "telFijo": null,
+    "primerNombre": "CRISTIAN",
+    "segundoNombre": "DAVID",
+    "primerApellido": "GUTIERREZ",
+    "segundoApellido": "RODRIGUEZ",
+    "cedula": "1072642976",
+    "direccion": "CALLE 17 #5-10 CHIA",
+    "email": "cristian20g@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25175400300120190030400",
+  "nombre": "CRISTIAN DAVID GUTIERREZ RODRIGUEZ",
+  "numero": 526,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:52.370Z"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 80052004,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "2741459/  3125766946",
+    "cedula": "BIBIANA ANGELICA NUÑEZ RIVERA",
+    "direccion": "20/05/2025",
+    "telefono": "TRANSVERSAL 18C No 9C-11 SUR MANZANA 5",
+    "id": 490
+  },
+  "demanda": {
+    "capitalAdeudado": "13092018",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "20/09/2018",
+    "fechaPresentacion": [
+      "2018-11-02T05:00:00.000Z"
+    ],
+    "llaveProceso": "25754418900120180098800",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 490,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "17.506.316.71"
+    ],
+    "radicado": "2018 - 00988",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 490,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.210Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 490,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "DIEGO",
+    "segundoNombre": "ARMANDO",
+    "primerApellido": "MATEUS",
+    "segundoApellido": "ESPITIA",
+    "cedula": "80052004",
+    "direccion": "396776067",
+    "email": "TRANSVERSAL 18 C- No 9C-11 SUR MANZANA 5 CASA 134"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900120180098800",
+  "nombre": "DIEGO ARMANDO MATEUS ESPITIA",
+  "numero": 490,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.210Z"
+}

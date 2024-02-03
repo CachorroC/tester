@@ -1,0 +1,81 @@
+{
+  "id": 23553904,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "NIDIA DORANCY GOMEZ BLANCO",
+    "cedula": "46453644",
+    "direccion": null,
+    "telefono": null,
+    "id": 169
+  },
+  "demanda": {
+    "capitalAdeudado": "13144437",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-01T05:00:16.000Z",
+    "etapaProcesal": "2017 - 01264",
+    "fechaPresentacion": [],
+    "llaveProceso": "HMM PISO 1",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 169,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12498762",
+      "audioprestamo"
+    ],
+    "radicado": "PRENDARIO",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2020-03-15T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 169,
+      "fechaOrdenaMedida": "2024-02-03T18:59:53.800Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 169,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "RITA",
+    "segundoNombre": "BLANCO",
+    "primerApellido": "DE",
+    "segundoApellido": "GOMEZ",
+    "cedula": "23553904",
+    "direccion": "Carrera 67 No. 65-22 sur Torre 15 Apto 559",
+    "email": "dorancy1@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "HMM PISO 1",
+  "nombre": "RITA BLANCO DE GOMEZ",
+  "numero": 169,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:53.800Z"
+}

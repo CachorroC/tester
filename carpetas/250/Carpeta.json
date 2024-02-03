@@ -1,0 +1,83 @@
+{
+  "id": 72165243,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "VIVIANA ANDREA ARBOLEDA HERNANDEZ",
+    "cedula": "52454328",
+    "direccion": "CALLE 3 No 5-56 APARTAMENTO 101 SOPO",
+    "telefono": "8715525",
+    "id": 250
+  },
+  "demanda": {
+    "capitalAdeudado": "46432606",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-04T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.992Z"
+    ],
+    "llaveProceso": "25758418900120170059900",
+    "mandamientoPago": "2017-11-16T05:00:16.000Z",
+    "municipio": "SOPO",
+    "notificacion": {
+      "id": 250,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "37781325203 /4513088996703762",
+      "5303729275150891 /12642123"
+    ],
+    "radicado": "2017 - 00599",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-08-29T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 250,
+      "fechaOrdenaMedida": "2024-02-03T18:59:23.226Z",
+      "medidaSolicitada": "PERSONAL"
+    }
+  },
+  "deudor": {
+    "id": 250,
+    "telCelular": "3135348199",
+    "telFijo": "8715525 ",
+    "primerNombre": "FRANCISCO",
+    "segundoNombre": "CONTRERAS",
+    "primerApellido": "RAMIREZ",
+    "segundoApellido": null,
+    "cedula": "72165243",
+    "direccion": "CALLE 3 A No 5-56 APARTAAMENTO 101 SOPO",
+    "email": "vivipu@hotmail.com.co"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25758418900120170059900",
+  "nombre": "FRANCISCO CONTRERAS RAMIREZ",
+  "numero": 250,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:23.226Z"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 4520757,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 146
+  },
+  "demanda": {
+    "capitalAdeudado": "1000",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-17T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.969Z"
+    ],
+    "llaveProceso": "11001400308620170082600",
+    "mandamientoPago": "2017-12-11T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 146,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12730731",
+      "377813515714351."
+    ],
+    "radicado": "2017 - 00826",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-08-11T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 146,
+      "fechaOrdenaMedida": "2024-02-03T18:59:11.868Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 146,
+    "telCelular": "3116216567",
+    "telFijo": "2103564 ",
+    "primerNombre": "PEDRO",
+    "segundoNombre": "NEL",
+    "primerApellido": "PELAEZ",
+    "segundoApellido": "TISNES",
+    "cedula": "4520757",
+    "direccion": "TRANVERSAL 3 # 52B - 09 APTO 405",
+    "email": "pelaezpedro@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400308620170082600",
+  "nombre": "PEDRO NEL PELAEZ TISNES",
+  "numero": 146,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:11.868Z"
+}

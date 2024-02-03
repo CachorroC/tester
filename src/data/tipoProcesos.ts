@@ -1,14 +1,13 @@
-import { TipoProcesoRaw } from '../types/carpetas';
 
 export function tipoProcesoBuilder(
-  tipoProceso?: TipoProcesoRaw 
+  tipoProceso?: string
 ) {
   if ( !tipoProceso ) {
     return 'SINGULAR';
   }
 
   const tipoProcesoMatchAcumulado = tipoProceso.match(
-    /[Aa][Cc][Uu][Mm]...../g 
+    /[Aa][Cc][Uu][Mm]...../g
   );
 
   const isAcumulado = tipoProcesoMatchAcumulado !== null;
@@ -20,13 +19,13 @@ export function tipoProcesoBuilder(
   const isHipotecario = tipoProcesoMatchHipotecario !== null;
 
   const tipoProcesoMatchPrendario = tipoProceso.match(
-    /[Pp][Rr][Ee][Nn]...../g 
+    /[Pp][Rr][Ee][Nn]...../g
   );
 
   const isPrendario = tipoProcesoMatchPrendario !== null;
 
   const tipoProcesoMatchSingular = tipoProceso.match(
-    /[Ss][Ii][Nn][Gg]...../g 
+    /[Ss][Ii][Nn][Gg]...../g
   );
 
   const isSingular = tipoProcesoMatchSingular !== null;

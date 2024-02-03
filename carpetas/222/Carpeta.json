@@ -1,0 +1,220 @@
+{
+  "id": 79332273,
+  "actuaciones": [
+    {
+      "idRegActuacion": 725462990,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 6,
+      "fechaActuacion": "2017-12-07T05:00:00.000Z",
+      "actuacion": "Retiro demanda admitida - Art.88",
+      "anotacion": "RETIRADA POR DIANA TRIANA AUTORIZADA ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-12-07T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": true,
+      "createdAt": "2024-02-03T18:59:20.296Z"
+    },
+    {
+      "idRegActuacion": 725462980,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 5,
+      "fechaActuacion": "2017-10-04T05:00:00.000Z",
+      "actuacion": "Oficio Elaborado",
+      "anotacion": "OFICIO No;: 2000 EMBARGO ",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-10-04T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:20.296Z"
+    },
+    {
+      "idRegActuacion": 725462970,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 4,
+      "fechaActuacion": "2017-09-12T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 12/09/2017 a las 15:24:17.",
+      "fechaInicial": "2017-09-13T05:00:00.000Z",
+      "fechaFinal": "2017-09-13T05:00:00.000Z",
+      "fechaRegistro": "2017-09-12T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:20.296Z"
+    },
+    {
+      "idRegActuacion": 725462960,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 3,
+      "fechaActuacion": "2017-09-12T05:00:00.000Z",
+      "actuacion": "Auto libra mandamiento ejecutivo",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-09-12T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:20.296Z"
+    },
+    {
+      "idRegActuacion": 725462950,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 2,
+      "fechaActuacion": "2017-09-06T05:00:00.000Z",
+      "actuacion": "Al despacho por reparto",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-09-06T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:20.296Z"
+    },
+    {
+      "idRegActuacion": 725462940,
+      "llaveProceso": "11001400302820170085800",
+      "consActuacion": 1,
+      "fechaActuacion": "2017-09-06T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 06/09/2017 a las 17:11:28",
+      "fechaInicial": "2017-09-06T05:00:00.000Z",
+      "fechaFinal": "2017-09-06T05:00:00.000Z",
+      "fechaRegistro": "2017-09-06T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 50688520,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:20.296Z"
+    }
+  ],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "LUCY STELLA OSMA RODRIGUEZ",
+    "cedula": "51922265",
+    "direccion": "CARRERA 25A # 155 - 88 ",
+    "telefono": "6443645 // 7584507",
+    "id": 222
+  },
+  "demanda": {
+    "capitalAdeudado": "51145474.58",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-30T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.982Z"
+    ],
+    "llaveProceso": "11001400302820170085800",
+    "mandamientoPago": "2017-09-12T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 222,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-09-12T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "2000-01-01T00:00:00.000Z",
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "96356"
+    ],
+    "radicado": "2017 - 00858",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2022-05-03T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 222,
+      "fechaOrdenaMedida": "2024-02-03T18:59:20.254Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 222,
+    "telCelular": "3005705869",
+    "telFijo": "5705869 ",
+    "primerNombre": "DUFRESNY",
+    "segundoNombre": "AUGUSTO",
+    "primerApellido": "PINILLA",
+    "segundoApellido": null,
+    "cedula": "79332273",
+    "direccion": "CARRERA 13 # 155 - 88 CASA 39",
+    "email": "htcolombia@gmail.com"
+  },
+  "fecha": "2017-12-07T05:00:00.000Z",
+  "idProcesos": [
+    50688520
+  ],
+  "idRegUltimaAct": 725462990,
+  "llaveProceso": "11001400302820170085800",
+  "nombre": "DUFRESNY AUGUSTO PINILLA",
+  "numero": 222,
+  "procesos": [
+    {
+      "idProceso": 50688520,
+      "idConexion": 259,
+      "llaveProceso": "11001400302820170085800",
+      "fechaProceso": "2017-09-06T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-12-07T05:00:00.000Z",
+      "despacho": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: TITULARIZADORA COLOMBIANA S.A. HITOS | Demandado: LUCY STELLA OSMA RODRIGUEZ | Demandado: DUFRESNY AUGUSTO PINILLA GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 28,
+        "tipo": "JUZGADO 028 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-28-civil-municipal-de-bogota"
+      }
+    }
+  ],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": {
+    "idRegActuacion": 725462990,
+    "llaveProceso": "11001400302820170085800",
+    "consActuacion": 6,
+    "fechaActuacion": "2017-12-07T05:00:00.000Z",
+    "actuacion": "Retiro demanda admitida - Art.88",
+    "anotacion": "RETIRADA POR DIANA TRIANA AUTORIZADA ",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-12-07T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6,
+    "idProceso": 50688520,
+    "isUltimaAct": true
+  },
+  "updatedAt": "2024-02-03T18:59:20.254Z"
+}

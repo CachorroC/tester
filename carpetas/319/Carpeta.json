@@ -1,0 +1,83 @@
+{
+  "id": 33307437,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 319
+  },
+  "demanda": {
+    "capitalAdeudado": "24165959",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-10-25T05:00:16.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.047Z"
+    ],
+    "llaveProceso": "25126400300120170075600",
+    "mandamientoPago": "2018-04-30T05:00:16.000Z",
+    "municipio": "CAJICA",
+    "notificacion": {
+      "id": 319,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "335008770 /3350086329",
+      "53003710116636165/0377813180199052"
+    ],
+    "radicado": "2017 - 00756",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2017-12-05T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 319,
+      "fechaOrdenaMedida": "2024-02-03T18:59:30.045Z",
+      "medidaSolicitada": "CERTIMAIL"
+    }
+  },
+  "deudor": {
+    "id": 319,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "GLORIA",
+    "segundoNombre": "ANGELICA",
+    "primerApellido": "PRASCA",
+    "segundoApellido": "MEJIA",
+    "cedula": "33307437",
+    "direccion": " CARRERA 2 No 1 - 23  cajica",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25126400300120170075600",
+  "nombre": "GLORIA ANGELICA PRASCA MEJIA",
+  "numero": 319,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:30.045Z"
+}

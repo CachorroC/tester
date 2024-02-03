@@ -1,0 +1,80 @@
+{
+  "id": 52850427,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": "22/09/2017",
+    "telefono": null,
+    "id": 271
+  },
+  "demanda": {
+    "capitalAdeudado": "26092017",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "05/10/2017",
+    "fechaPresentacion": [
+      "2017-10-17T05:00:00.000Z"
+    ],
+    "llaveProceso": "11001400405420170099000",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 271,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "39.495.993.87"
+    ],
+    "radicado": "2017 - 00990",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 271,
+      "fechaOrdenaMedida": "2024-02-03T18:59:25.660Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 271,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "AURA",
+    "segundoNombre": "GEOVANA",
+    "primerApellido": "RODRIGUEZ",
+    "segundoApellido": "MORA",
+    "cedula": "52850427",
+    "direccion": null,
+    "email": "CARRERA 16 No  24 - 34 APARTAMENTO 302"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400405420170099000",
+  "nombre": "AURA GEOVANA RODRIGUEZ MORA",
+  "numero": 271,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:25.660Z"
+}

@@ -47,16 +47,16 @@ export interface Parametros {
 }
 
 export interface intProceso {
-  idProceso: number;
-  idConexion: number;
-  llaveProceso: string;
+  cantFilas: number;
+  departamento: Departamento;
+  despacho: string;
+  esPrivado: boolean;
   fechaProceso: Date | string | null;
   fechaUltimaActuacion: Date | string | null;
-  despacho: string;
-  departamento: Departamento;
+  idConexion: number;
+  idProceso: number;
+  llaveProceso: string;
   sujetosProcesales: string;
-  esPrivado: boolean;
-  cantFilas: number;
 }
 
 export interface outProceso extends intProceso {
@@ -75,7 +75,7 @@ export class Convert {
     json: string,
   ): ConsultaNumeroRadicacion {
     return JSON.parse(
-      json 
+      json
     );
   }
 
@@ -83,55 +83,55 @@ export class Convert {
     value: ConsultaNumeroRadicacion,
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toPaginacion(
-    json: string 
+    json: string
   ): Paginacion {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static paginacionToJson(
-    value: Paginacion 
+    value: Paginacion
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toParametros(
-    json: string 
+    json: string
   ): Parametros {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static parametrosToJson(
-    value: Parametros 
+    value: Parametros
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toProceso(
-    json: string 
+    json: string
   ): intProceso {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static procesoToJson(
-    value: intProceso 
+    value: intProceso
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 }

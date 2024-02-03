@@ -1,0 +1,82 @@
+{
+  "id": 1129565798,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 560
+  },
+  "demanda": {
+    "capitalAdeudado": "40696764",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
+    "etapaProcesal": "PALACIO DE JUSTICIA BARRAQNUILLA",
+    "fechaPresentacion": [],
+    "llaveProceso": "SINGULAR",
+    "mandamientoPago": null,
+    "municipio": "BARRANQUILLA",
+    "notificacion": {
+      "id": 560,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "4770111750",
+      "PAGARÉ SIN NÚMERO T. MASTER CARD 5303720229555616 // T. VISA 4513070377907980"
+    ],
+    "radicado": null,
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2026-03-06T05:00:00.000Z",
+      "2026-07-04T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 560,
+      "fechaOrdenaMedida": "2024-02-03T18:59:53.600Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 560,
+    "telCelular": "3043463859",
+    "telFijo": "3930210 ",
+    "primerNombre": "HANSEL",
+    "segundoNombre": "MARTINEZ",
+    "primerApellido": "BARROS",
+    "segundoApellido": null,
+    "cedula": "1129565798",
+    "direccion": "CR 51 43 04 Barrio Abajo Barranquilla // Carrera 71 No. 88A - 31 Barranquilla // Calle 42 A No. 46 - 04 Barrio El Parque en Soledad (Atlantico)",
+    "email": "inghanselmartinez@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "SINGULAR",
+  "nombre": "HANSEL MARTINEZ BARROS",
+  "numero": 560,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:53.600Z"
+}

@@ -1,0 +1,82 @@
+{
+  "id": 180145973,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "MARIA LORENA MORALES SEGURA",
+    "cedula": "1033683759",
+    "direccion": "CARRERA 6 No 7B 03 SUR  SOACHA ",
+    "telefono": "3134293286",
+    "id": 240
+  },
+  "demanda": {
+    "capitalAdeudado": "21616444",
+    "departamento": "CUN DINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.997Z"
+    ],
+    "llaveProceso": "25754418900220170082900",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 240,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "140122"
+    ],
+    "radicado": "2017 - 00829",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2026-06-23T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 240,
+      "fechaOrdenaMedida": "2024-02-03T18:59:22.431Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 240,
+    "telCelular": "3134293286",
+    "telFijo": "5774513 ",
+    "primerNombre": "CESAR",
+    "segundoNombre": "ALIRIO",
+    "primerApellido": "MORENO",
+    "segundoApellido": "MONGUI",
+    "cedula": "180145973",
+    "direccion": "CARRERA 8 No 3-33",
+    "email": "cesarramm09@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900220170082900",
+  "nombre": "CESAR ALIRIO MORENO MONGUI",
+  "numero": 240,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:22.431Z"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 1069712582,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 281
+  },
+  "demanda": {
+    "capitalAdeudado": "2102017",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "10/10/2017 // 13/03/2018",
+    "fechaPresentacion": [
+      "2018-04-13T05:00:00.000Z"
+    ],
+    "llaveProceso": "25053408900120180004900",
+    "mandamientoPago": null,
+    "municipio": "ARBELAEZ",
+    "notificacion": {
+      "id": 281,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": "2018-10-09T05:00:00.000Z"
+    },
+    "obligacion": [
+      "112.243.598.43"
+    ],
+    "radicado": "2018 - 00049",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 281,
+      "fechaOrdenaMedida": "2024-02-03T18:59:26.370Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 281,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "YENNY",
+    "segundoNombre": "MARGOTH",
+    "primerApellido": "LARA",
+    "segundoApellido": "MUÑOZ",
+    "cedula": "1069712582",
+    "direccion": null,
+    "email": " CALLE 34 No 2 - 15 SOACHA"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25053408900120180004900",
+  "nombre": "YENNY MARGOTH LARA MUÑOZ",
+  "numero": 281,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:26.370Z"
+}

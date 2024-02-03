@@ -1,0 +1,83 @@
+{
+  "id": 80803306,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 343
+  },
+  "demanda": {
+    "capitalAdeudado": "12767956",
+    "departamento": "CUNDINAMARCA ",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-01T05:00:16.000Z",
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.056Z"
+    ],
+    "llaveProceso": "11001400303920170151700",
+    "mandamientoPago": "2018-01-31T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 343,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "23110089362 / 2044038",
+      "8291213 / 3131312135"
+    ],
+    "radicado": "2017 - 01517",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2019-07-07T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 343,
+      "fechaOrdenaMedida": "2024-02-03T18:59:33.607Z",
+      "medidaSolicitada": "P/NAL "
+    }
+  },
+  "deudor": {
+    "id": 343,
+    "telCelular": "3188426582",
+    "telFijo": "5470813 ",
+    "primerNombre": "EDUARDO",
+    "segundoNombre": "ALFONSO",
+    "primerApellido": "RICO",
+    "segundoApellido": "JIMENEZ",
+    "cedula": "80803306",
+    "direccion": "CALLE 22 L  No 123 A - 35",
+    "email": "magia.orfen@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400303920170151700",
+  "nombre": "EDUARDO ALFONSO RICO JIMENEZ",
+  "numero": 343,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:33.607Z"
+}

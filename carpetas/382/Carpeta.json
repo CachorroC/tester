@@ -1,0 +1,80 @@
+{
+  "id": 80403235,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 382
+  },
+  "demanda": {
+    "capitalAdeudado": "11224313",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "25662408900120180000400",
+    "mandamientoPago": null,
+    "municipio": "SAN JUAN DE RIOSECO",
+    "notificacion": {
+      "id": 382,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-02-22T05:00:16.000Z",
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "3720086711"
+    ],
+    "radicado": "2018 - 00004",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2019-09-08T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 382,
+      "fechaOrdenaMedida": "2024-02-03T18:59:39.301Z",
+      "medidaSolicitada": "43378"
+    }
+  },
+  "deudor": {
+    "id": 382,
+    "telCelular": "3107518479",
+    "telFijo": null,
+    "primerNombre": "CARLOS",
+    "segundoNombre": "ALBERTO",
+    "primerApellido": "LANCHEROS",
+    "segundoApellido": "BARRAGAN",
+    "cedula": "80403235",
+    "direccion": "CARRERA 4 NO 5 - 02 SAN JUAN DE RIO SECO",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25662408900120180000400",
+  "nombre": "CARLOS ALBERTO LANCHEROS BARRAGAN",
+  "numero": 382,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:39.301Z"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 80854028,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 510
+  },
+  "demanda": {
+    "capitalAdeudado": "40828299",
+    "departamento": "CUNDINAMARCA ",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "25754400300220190041500",
+    "fechaPresentacion": [],
+    "llaveProceso": "25754400300220180041500",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 510,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990164067",
+      "6980087352"
+    ],
+    "radicado": "2018 - 00415",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2033-05-17T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 510,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.821Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 510,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "MANUEL",
+    "segundoNombre": "ARNULFO",
+    "primerApellido": "ARAQUE",
+    "segundoApellido": "MUÑOZ",
+    "cedula": "80854028",
+    "direccion": "CALLE 68 No 81 G-16",
+    "email": "huesos254@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300220180041500",
+  "nombre": "MANUEL ARNULFO ARAQUE MUÑOZ",
+  "numero": 510,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.821Z"
+}

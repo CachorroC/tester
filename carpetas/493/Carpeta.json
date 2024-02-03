@@ -1,0 +1,80 @@
+{
+  "id": 53103504,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "LEINY ANDREA QUINTERO FIERRO",
+    "cedula": "1030602928",
+    "direccion": "CALLE 7 No 87B-90",
+    "telefono": "3208797",
+    "id": 493
+  },
+  "demanda": {
+    "capitalAdeudado": "21035323",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
+    "etapaProcesal": "SUBSANA",
+    "fechaPresentacion": [
+      "2018-09-29T05:00:00.000Z"
+    ],
+    "llaveProceso": "11001410375120180181700",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 493,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990155357"
+    ],
+    "radicado": "2018 - 01817",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 493,
+      "fechaOrdenaMedida": "2024-02-03T18:59:50.259Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 493,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "KELLY",
+    "segundoNombre": "YULIANA",
+    "primerApellido": "QUINTERO",
+    "segundoApellido": "FIERRO",
+    "cedula": "53103504",
+    "direccion": "CALLE 7 No 87B-90",
+    "email": "juliana.4455@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001410375120180181700",
+  "nombre": "KELLY YULIANA QUINTERO FIERRO",
+  "numero": 493,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:50.259Z"
+}

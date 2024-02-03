@@ -1,0 +1,83 @@
+{
+  "id": 91250936,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 472
+  },
+  "demanda": {
+    "capitalAdeudado": "15720013",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-03-08T05:00:00.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "2018-08-09T05:00:00.000Z"
+    ],
+    "llaveProceso": "11001418900920180038900",
+    "mandamientoPago": "2018-10-25T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 472,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "1970-01-01T00:00:43.417Z",
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2010085214",
+      "3778151023327"
+    ],
+    "radicado": "2018 - 00389",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2022-03-13T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 472,
+      "fechaOrdenaMedida": "2024-02-03T18:59:49.365Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 472,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "SERGIO",
+    "segundoNombre": "ESPINEL",
+    "primerApellido": "CORREAL",
+    "segundoApellido": null,
+    "cedula": "91250936",
+    "direccion": "CARRERA 7 D No 151-40 APTO 101",
+    "email": "sergioespinel5@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418900920180038900",
+  "nombre": "SERGIO ESPINEL CORREAL",
+  "numero": 472,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:49.365Z"
+}

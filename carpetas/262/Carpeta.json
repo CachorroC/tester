@@ -1,0 +1,83 @@
+{
+  "id": 1069737167,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "RAFAEL ANTONIO MORENO FRANCO ",
+    "cedula": "11.383.194",
+    "direccion": "DIAGONAL 1C No 25 B - 18  FUSAGASUFA",
+    "telefono": null,
+    "id": 262
+  },
+  "demanda": {
+    "capitalAdeudado": "15840545",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-12T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.005Z"
+    ],
+    "llaveProceso": "2590400300220170063100",
+    "mandamientoPago": "2017-10-05T05:00:16.000Z",
+    "municipio": "FUSAGASUGA",
+    "notificacion": {
+      "id": 262,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "9450082213 /0377847716751531",
+      "0377847593768038"
+    ],
+    "radicado": "2017 - 00631",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2018-08-01T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 262,
+      "fechaOrdenaMedida": "2024-02-03T18:59:24.598Z",
+      "medidaSolicitada": "SOLICITUD EPS"
+    }
+  },
+  "deudor": {
+    "id": 262,
+    "telCelular": "3103247146",
+    "telFijo": null,
+    "primerNombre": "RAFAEL",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "MORENO",
+    "segundoApellido": "ZAMORA",
+    "cedula": "1069737167",
+    "direccion": "DIAGONAL 1C No 25B -18  FUSAGASUGA",
+    "email": "rafael_moreno.z@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "2590400300220170063100",
+  "nombre": "RAFAEL ANDRES MORENO ZAMORA",
+  "numero": 262,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:24.598Z"
+}

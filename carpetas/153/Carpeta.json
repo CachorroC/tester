@@ -1,0 +1,80 @@
+{
+  "id": 52230614,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 153
+  },
+  "demanda": {
+    "capitalAdeudado": "20221005.96",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-24T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.975Z"
+    ],
+    "llaveProceso": "25754418900220170071400",
+    "mandamientoPago": "2018-04-04T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 153,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "179883"
+    ],
+    "radicado": "2017 - 00714",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 153,
+      "fechaOrdenaMedida": "2024-02-03T18:59:12.762Z",
+      "medidaSolicitada": "43194"
+    }
+  },
+  "deudor": {
+    "id": 153,
+    "telCelular": "3214064280",
+    "telFijo": "5168872 ",
+    "primerNombre": "MARBELL",
+    "segundoNombre": "ROCIO",
+    "primerApellido": "DOMINGUEZ",
+    "segundoApellido": "ALVAREZ",
+    "cedula": "52230614",
+    "direccion": "CARRERA 15B # 6 - 32 TORRE 8 APTO 202",
+    "email": "rocio4332@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900220170071400",
+  "nombre": "MARBELL ROCIO DOMINGUEZ ALVAREZ",
+  "numero": 153,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:12.762Z"
+}

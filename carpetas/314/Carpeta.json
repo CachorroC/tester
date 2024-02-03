@@ -1,0 +1,82 @@
+{
+  "id": 1075655673,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "NORBEY RAMON CHAVARRO",
+    "cedula": "17644906",
+    "direccion": "NO SE CONOCE",
+    "telefono": null,
+    "id": 314
+  },
+  "demanda": {
+    "capitalAdeudado": "21139648",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-10-31T05:00:16.000Z",
+    "etapaProcesal": "TERMINADO",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.047Z"
+    ],
+    "llaveProceso": "25126408900220170076800",
+    "mandamientoPago": null,
+    "municipio": "CAJICA",
+    "notificacion": {
+      "id": 314,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": "2018-06-07T05:00:00.000Z",
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "161979"
+    ],
+    "radicado": "2017 - 00768",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2033-03-06T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 314,
+      "fechaOrdenaMedida": "1970-01-01T00:00:43.123Z",
+      "medidaSolicitada": "INMUEBLE"
+    }
+  },
+  "deudor": {
+    "id": 314,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "TATIANA",
+    "segundoNombre": "RAMON",
+    "primerApellido": "PEPICANO",
+    "segundoApellido": null,
+    "cedula": "1075655673",
+    "direccion": "CARRERA 2 B - No 2 J - 55  LOTE 6 MZ 25",
+    "email": "revisionvillavicencio@gmail.co"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25126408900220170076800",
+  "nombre": "TATIANA RAMON PEPICANO",
+  "numero": 314,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:29.558Z"
+}

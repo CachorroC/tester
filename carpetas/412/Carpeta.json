@@ -1,0 +1,82 @@
+{
+  "id": 80896755,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "MARTHA LILIANA POLOCHE AGUJA",
+    "cedula": "53122368",
+    "direccion": "CALLE 4 No 4J-09 QUINTANARE",
+    "telefono": "3006354505",
+    "id": 412
+  },
+  "demanda": {
+    "capitalAdeudado": "454",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-04-16T05:00:16.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.216Z"
+    ],
+    "llaveProceso": "25754418900220180036400",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 412,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990147276"
+    ],
+    "radicado": "2018 - 00364",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2026-12-28T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 412,
+      "fechaOrdenaMedida": "2024-02-03T18:59:42.481Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 412,
+    "telCelular": "3204063623",
+    "telFijo": null,
+    "primerNombre": "FABIO",
+    "segundoNombre": "NELSON",
+    "primerApellido": "PEREZ",
+    "segundoApellido": "CRISTIANO",
+    "cedula": "80896755",
+    "direccion": "CARRERA 7C- No 02-85 SUR",
+    "email": "fabiop0917@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900220180036400",
+  "nombre": "FABIO NELSON PEREZ CRISTIANO",
+  "numero": 412,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:42.482Z"
+}

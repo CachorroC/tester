@@ -4,8 +4,9 @@
 //
 //   const CarpetaRaw = Convert.toCarpetaRaw(json);
 
-import { intActuacion } from './actuaciones';
-import { intProceso } from './procesos';
+import { Prisma } from '@prisma/client';
+import {  outActuacion } from './actuaciones';
+import {  outProceso } from './procesos';
 
 export interface TrulyCruda {
   demanda: DemandaRaw;
@@ -23,21 +24,20 @@ export type keyOfCarpetaRaw = keyof CarpetaRaw;
 export interface IntCarpeta {
   category: Category;
   codeudor: Codeudor | null;
-  demanda: IntDemanda;
-  deudor: IntDeudor;
+  demanda: IntDemanda | null;
+  deudor: IntDeudor | null;
   fecha: Date | null;
+  id: number;
   idProcesos: number[];
   idRegUltimaAct: number | null;
   llaveProceso: string;
   nombre: string;
-  notificacion: intNotificacion | null;
   numero: number;
-  procesos: intProceso[];
+  procesos: outProceso[];
   revisado: boolean;
   terminado: boolean;
   tipoProceso: TipoProceso;
-  ultimaActuacion: intActuacion | null;
-  updatedAt: Date;
+  ultimaActuacion: outActuacion | null;
 }
 
 export interface flatCarpeta {
@@ -78,9 +78,9 @@ export type Category =
 
 export interface Codeudor {
   cedula: string | null;
-  nombre: string | null;
-  id: number;
   direccion: string | null;
+  id: number;
+  nombre: string | null;
   telefono: string | null;
 }
 
@@ -209,14 +209,16 @@ export interface DeudorRaw {
 }
 
 export interface IntDeudor {
-  cedula: number;
+  cedula: string;
   direccion: string | null;
   email: string | null;
+  id: number;
   primerNombre: string;
   segundoNombre: string | null;
   primerApellido: string;
   segundoApellido: string | null;
-  tel: IntTel;
+  telCelular: string | null;
+  telFijo: string | null;
 }
 
 export interface IntTel {
@@ -225,44 +227,44 @@ export interface IntTel {
 }
 
 export interface IntDemanda {
-  capitalAdeudado: number | null;
-  entregaGarantiasAbogado: Date | null;
-  municipio: string | null;
-  obligacion: ( number | string )[];
-  radicado: string | null;
-  llaveProceso: string | null;
-  id: number;
+  capitalAdeudado: Prisma.Decimal;
   departamento: string | null;
-  tipoProceso: TipoProceso;
-  mandamientoPago: Date | null;
-  etapaProcesal: null | string;
-  vencimientoPagare: Date[];
-  carpetaNumero: number;
   despacho: null | string;
+  entregaGarantiasAbogado: Date | null;
+  etapaProcesal: null | string;
   fechaPresentacion: Date[];
-  medidasCautelares: {
-    fechaOrdenaMedida: Date | null;
-    medidaSolicitada: string | null;
-  } | null;
+  id: number;
+  llaveProceso: string | null;
+  mandamientoPago: Date | null;
+  medidasCautelares: intMedidasCautelares | null;
+  municipio: string | null;
+  notificacion: intNotificacion | null;
+  obligacion: string[];
+  radicado: string | null;
+  tipoProceso: TipoProceso;
+  vencimientoPagare: Date[];
 }
 
-export interface intNotificacion {
+export interface intMedidasCautelares
+{
+  id: number;
+  fechaOrdenaMedida: Date | null;
+  medidaSolicitada: string | null;
+}
+
+
+export interface intNotificacion
+{
+  id: number;
   certimail: boolean | null;
   fisico: boolean | null;
-  autoNotificado: string | null;
-  '291'?: the290;
-  '292'?: the290;
+  autoNotificado: Date | null;
+  notifiers: intNotifier[];
 }
 
-export interface the290 {
-  fechaRecibido: Date | null;
-  resultado: boolean | null;
-
-  fechaAporta: Date | null;
-}
 
 export interface intNotifier {
-  id: number;
+  id?: number;
   tipo: '291' | '292';
   fechaRecibido: Date | null;
   resultado: boolean | null;

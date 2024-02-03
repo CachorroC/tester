@@ -1,0 +1,82 @@
+{
+  "id": 1033783222,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 181
+  },
+  "demanda": {
+    "capitalAdeudado": "25340036.69",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-22T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.975Z"
+    ],
+    "llaveProceso": "11001418901020170011500",
+    "mandamientoPago": "2017-10-05T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 181,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12569604"
+    ],
+    "radicado": "2017 - 00115",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2017-08-16T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 181,
+      "fechaOrdenaMedida": "2024-02-03T18:59:16.039Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 181,
+    "telCelular": "3103048137",
+    "telFijo": "7177769 ",
+    "primerNombre": "LEONARDO",
+    "segundoNombre": "ALIRIO",
+    "primerApellido": "GARCIA",
+    "segundoApellido": "GUERRERO",
+    "cedula": "1033783222",
+    "direccion": "CALLE 69J # 20B - 52 ",
+    "email": "leoguegar@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418901020170011500",
+  "nombre": "LEONARDO ALIRIO GARCIA GUERRERO ",
+  "numero": 181,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:16.039Z"
+}

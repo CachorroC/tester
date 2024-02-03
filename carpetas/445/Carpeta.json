@@ -1,0 +1,80 @@
+{
+  "id": 79978846,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 445
+  },
+  "demanda": {
+    "capitalAdeudado": "29143861.48",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-06-14T05:00:16.000Z",
+    "etapaProcesal": "25754418900120180057200",
+    "fechaPresentacion": [],
+    "llaveProceso": "25754400300120180057200",
+    "mandamientoPago": "2018-06-19T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 445,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-07-18T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990165615"
+    ],
+    "radicado": "2018 - 00572",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2028-07-03T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 445,
+      "fechaOrdenaMedida": "2024-02-03T18:59:46.413Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 445,
+    "telCelular": "3212282328",
+    "telFijo": "3654986 ",
+    "primerNombre": "JUAN",
+    "segundoNombre": "CARLOS",
+    "primerApellido": "GARZON",
+    "segundoApellido": "BEJARANO",
+    "cedula": "79978846",
+    "direccion": "CARRERA 10BIS B ESTE No 63-44 SUR",
+    "email": "juangarzon21@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300120180057200",
+  "nombre": "JUAN CARLOS GARZON BEJARANO",
+  "numero": 445,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:46.413Z"
+}

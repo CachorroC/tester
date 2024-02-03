@@ -1,0 +1,82 @@
+{
+  "id": 23181779,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 149
+  },
+  "demanda": {
+    "capitalAdeudado": "51748331.77",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-18T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.969Z"
+    ],
+    "llaveProceso": "25754400300220170025600",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 149,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "155176"
+    ],
+    "radicado": "2017 - 00256",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2042-08-29T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 149,
+      "fechaOrdenaMedida": "2024-02-03T18:59:12.524Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 149,
+    "telCelular": "3138172167",
+    "telFijo": "7867106 ",
+    "primerNombre": "MAGDA",
+    "segundoNombre": "TATIANA",
+    "primerApellido": "TORRES",
+    "segundoApellido": "GONZALEZ",
+    "cedula": "23181779",
+    "direccion": "CENTRO COMERCIAL SURICENTRO LOCAL 6 -97 (MONTERIA) 77 CARRERA 4 ESTE # 38 - 56 ESTAPA H4 CASA 62",
+    "email": "tatianamag12@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300220170025600",
+  "nombre": "MAGDA TATIANA TORRES GONZALEZ",
+  "numero": 149,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:12.524Z"
+}

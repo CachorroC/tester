@@ -1,0 +1,82 @@
+{
+  "id": 52465659,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 398
+  },
+  "demanda": {
+    "capitalAdeudado": "78",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "SENTENCIA",
+    "fechaPresentacion": [
+      "2018-02-07T05:00:00.000Z"
+    ],
+    "llaveProceso": "25754400300120180006400",
+    "mandamientoPago": "2018-10-04T05:00:00.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 398,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "171882"
+    ],
+    "radicado": "2018 - 00064",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2044-01-29T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 398,
+      "fechaOrdenaMedida": "2024-02-03T18:59:41.260Z",
+      "medidaSolicitada": "PERSONAL"
+    }
+  },
+  "deudor": {
+    "id": 398,
+    "telCelular": "3214771295",
+    "telFijo": null,
+    "primerNombre": "LILIANA",
+    "segundoNombre": "ANDREA",
+    "primerApellido": "ERAZO",
+    "segundoApellido": "LOPEZ",
+    "cedula": "52465659",
+    "direccion": "CARRERA 87 BIS No 50 SUR-75 PISO 2",
+    "email": "liancridana@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300120180006400",
+  "nombre": "LILIANA ANDREA ERAZO LOPEZ",
+  "numero": 398,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:41.261Z"
+}

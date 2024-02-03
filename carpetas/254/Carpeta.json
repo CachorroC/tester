@@ -1,0 +1,83 @@
+{
+  "id": 52344904,
+  "actuaciones": [],
+  "category": "Reintegra",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 254
+  },
+  "demanda": {
+    "capitalAdeudado": "12993948",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-28T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "2017-09-08T05:00:16.000Z"
+    ],
+    "llaveProceso": "25175408900320170047700",
+    "mandamientoPago": null,
+    "municipio": "CHIA",
+    "notificacion": {
+      "id": 254,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": "2018-11-01T05:00:16.000Z",
+          "fechaAporta": "2018-11-01T05:00:16.000Z",
+          "resultado": true
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-11-22T05:00:16.000Z",
+          "resultado": true
+        }
+      ],
+      "certimail": true,
+      "fisico": false,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "9460081795",
+      "5303727444531025"
+    ],
+    "radicado": "2017 - 00477",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2018-05-09T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 254,
+      "fechaOrdenaMedida": "2017-11-03T05:00:16.000Z",
+      "medidaSolicitada": "EMBARGO DE VEHICULO"
+    }
+  },
+  "deudor": {
+    "id": 254,
+    "telCelular": "3103291690",
+    "telFijo": "8615372 ",
+    "primerNombre": "YOHAIRA",
+    "segundoNombre": "PRADO",
+    "primerApellido": "VALOYES",
+    "segundoApellido": null,
+    "cedula": "52344904",
+    "direccion": "CARRERA 9A 14F - 28C - UNIDAD 22 CHIA",
+    "email": "yohairapadro@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25175408900320170047700",
+  "nombre": "YOHAIRA PRADO VALOYES",
+  "numero": 254,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T19:00:02.094Z"
+}

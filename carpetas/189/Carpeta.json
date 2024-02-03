@@ -1,0 +1,83 @@
+{
+  "id": 4547635,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 189
+  },
+  "demanda": {
+    "capitalAdeudado": "71966685.93",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-22T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "2017-08-29T05:00:00.000Z"
+    ],
+    "llaveProceso": "25817418900120170049400",
+    "mandamientoPago": null,
+    "municipio": "TOCANCIPA",
+    "notificacion": {
+      "id": 189,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "2629-01-01T00:00:00.000Z",
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "175217",
+      "5303718084430842"
+    ],
+    "radicado": "2017 - 00494",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2034-06-09T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 189,
+      "fechaOrdenaMedida": "2024-02-03T18:59:16.724Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 189,
+    "telCelular": "3142125039",
+    "telFijo": "3213559 ",
+    "primerNombre": "WILDER",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
+    "segundoApellido": "ROMAN",
+    "cedula": "4547635",
+    "direccion": "CALLE 10 # 8 - 07 TOCANCIPA",
+    "email": "wilderj11@yahoo.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25817418900120170049400",
+  "nombre": "WILDER DE JESUS ROMAN GRISALES",
+  "numero": 189,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:16.724Z"
+}

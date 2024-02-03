@@ -1,0 +1,83 @@
+{
+  "id": 32730630,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 311
+  },
+  "demanda": {
+    "capitalAdeudado": "10761991",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-10-24T05:00:16.000Z",
+    "etapaProcesal": "LIQUIDACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.039Z"
+    ],
+    "llaveProceso": "11001400370820170018400",
+    "mandamientoPago": "2017-11-02T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 311,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "AUDIOPRESTAMO",
+      "00377815346213420"
+    ],
+    "radicado": "2017 - 00184",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2017-07-20T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 311,
+      "fechaOrdenaMedida": null,
+      "medidaSolicitada": "CERTIMAIL"
+    }
+  },
+  "deudor": {
+    "id": 311,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "PAULA",
+    "segundoNombre": "ANDREA",
+    "primerApellido": "PINZON",
+    "segundoApellido": "OTALVARO",
+    "cedula": "32730630",
+    "direccion": "CARRERA 65 No 22 A- 43 APARTAMENTO 1002- 5",
+    "email": "pa_pinzon@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001400370820170018400",
+  "nombre": "PAULA ANDREA PINZON OTALVARO",
+  "numero": 311,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:29.227Z"
+}

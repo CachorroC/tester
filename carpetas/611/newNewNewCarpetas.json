@@ -1,47 +1,76 @@
 {
-  "id": 123456789,
+  "id": 80068928,
   "actuaciones": [],
   "category": "Bancolombia",
-  "codeudor": null,
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 611
+  },
   "demanda": {
-    "obligacion": [],
-    "llaveProceso": "SinEspecificar",
-    "notificacion": null,
-    "medidasCautelares": null,
-    "capitalAdeudado": 0,
+    "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": null,
+    "entregaGarantiasAbogado": "2023-11-27T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "llaveProceso": null,
     "mandamientoPago": null,
     "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 611,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [],
     "radicado": null,
-    "tipoProceso": "SINGULAR",
-    "vencimientoPagare": []
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 611,
+      "fechaOrdenaMedida": "2024-02-03T00:36:40.454Z",
+      "medidaSolicitada": null
+    }
   },
   "deudor": {
-    "tel": {
-      "fijo": null,
-      "celular": null
-    },
-    "primerNombre": "ADRIANA",
-    "segundoNombre": "LORENA",
-    "primerApellido": "FERNANDEZ",
-    "segundoApellido": "SIERRA",
-    "cedula": 123456789,
+    "id": 611,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "EDWIN",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "TORRES",
+    "segundoApellido": "TAMAYO",
+    "cedula": "80068928",
     "direccion": null,
     "email": null
   },
   "fecha": null,
   "idProcesos": [],
-  "llaveProceso": "SinEspecificar",
-  "nombre": "ADRIANA LORENA FERNANDEZ SIERRA",
+  "idRegUltimaAct": null,
+  "llaveProceso": "undefined",
+  "nombre": "EDWIN ANDRES TORRES TAMAYO ",
   "numero": 611,
   "procesos": [],
   "revisado": false,
   "terminado": false,
-  "tipoProceso": "SINGULAR",
+  "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-01-02T02:11:57.180Z"
+  "updatedAt": "2024-02-03T00:36:40.454Z"
 }

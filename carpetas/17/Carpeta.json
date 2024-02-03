@@ -1,0 +1,82 @@
+{
+  "id": 52953923,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 17
+  },
+  "demanda": {
+    "capitalAdeudado": "13684674",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-11T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.885Z"
+    ],
+    "llaveProceso": "25754418900220170048000",
+    "mandamientoPago": "2017-08-22T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 17,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2273 320131950"
+    ],
+    "radicado": "2017 - 00480",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2025-09-07T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 17,
+      "fechaOrdenaMedida": "2024-02-03T18:58:53.571Z",
+      "medidaSolicitada": "OK"
+    }
+  },
+  "deudor": {
+    "id": 17,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "YEDSY",
+    "segundoNombre": "CAROLAY",
+    "primerApellido": "ROJAS",
+    "segundoApellido": "GAMBOA",
+    "cedula": "52953923",
+    "direccion": "CALLE 17 No. 24 C-17 SUR BOGOTA",
+    "email": "importex1112@gmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900220170048000",
+  "nombre": "YEDSY CAROLAY ROJAS GAMBOA",
+  "numero": 17,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:53.571Z"
+}

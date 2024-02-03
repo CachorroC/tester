@@ -1,0 +1,78 @@
+{
+  "id": 1081395456,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 476
+  },
+  "demanda": {
+    "capitalAdeudado": "21082018",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "05/09/2018",
+    "fechaPresentacion": [],
+    "llaveProceso": "11001418901220180064200",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 476,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "28.251.567.19"
+    ],
+    "radicado": "O",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 476,
+      "fechaOrdenaMedida": "2024-02-03T18:59:49.537Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 476,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ARNULFO",
+    "segundoNombre": "PASTES",
+    "primerApellido": "DAZA",
+    "segundoApellido": null,
+    "cedula": "1081395456",
+    "direccion": null,
+    "email": "CARRERA 24B No 44-24"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418901220180064200",
+  "nombre": "ARNULFO PASTES DAZA",
+  "numero": 476,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:49.537Z"
+}

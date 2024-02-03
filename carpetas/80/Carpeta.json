@@ -1,0 +1,80 @@
+{
+  "id": 79882688,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 80
+  },
+  "demanda": {
+    "capitalAdeudado": "16208318",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
+    "etapaProcesal": "25817408900120170035100",
+    "fechaPresentacion": [],
+    "llaveProceso": "25817418900120170035100",
+    "mandamientoPago": "2017-06-22T05:00:16.000Z",
+    "municipio": "TOCANCIPA",
+    "notificacion": {
+      "id": 80,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-06-29T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "377816861734105"
+    ],
+    "radicado": "2017 - 00351",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2019-09-01T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 80,
+      "fechaOrdenaMedida": "2024-02-03T18:59:01.240Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 80,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JORGE",
+    "segundoNombre": "ANDRES",
+    "primerApellido": "PORRAS",
+    "segundoApellido": "VARGAS",
+    "cedula": "79882688",
+    "direccion": "CALLE 11 # 4 - 39 TOCANCIPA",
+    "email": "joranpo@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25817418900120170035100",
+  "nombre": "JORGE ANDRES PORRAS VARGAS",
+  "numero": 80,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:01.240Z"
+}

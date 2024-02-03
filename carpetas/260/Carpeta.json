@@ -1,0 +1,83 @@
+{
+  "id": 11384155,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 260
+  },
+  "demanda": {
+    "capitalAdeudado": "16242560",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-18T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.005Z"
+    ],
+    "llaveProceso": "25290400300120170063400",
+    "mandamientoPago": "2017-10-18T05:00:16.000Z",
+    "municipio": "FUSAGASUGA",
+    "notificacion": {
+      "id": 260,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "132687",
+      "3778133800181884"
+    ],
+    "radicado": "2017 - 00634",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-09-12T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 260,
+      "fechaOrdenaMedida": "2024-02-03T18:59:24.551Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 260,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "HERNAN",
+    "segundoNombre": "ALVAREZ",
+    "primerApellido": "PARDO",
+    "segundoApellido": null,
+    "cedula": "11384155",
+    "direccion": "CARRERA 4 ESTE 4-42  FUSAGASUGA ",
+    "email": "heralvarezpa@misena.edu.co"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25290400300120170063400",
+  "nombre": "HERNAN ALVAREZ PARDO",
+  "numero": 260,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:24.551Z"
+}

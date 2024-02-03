@@ -1,0 +1,82 @@
+{
+  "id": 52396019,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 10
+  },
+  "demanda": {
+    "capitalAdeudado": "15946341",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-05-11T05:00:16.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.879Z"
+    ],
+    "llaveProceso": "11001418900320170090900",
+    "mandamientoPago": null,
+    "municipio": "SUBA",
+    "notificacion": {
+      "id": 10,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2405037"
+    ],
+    "radicado": "2017 - 00909",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2020-04-26T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 10,
+      "fechaOrdenaMedida": "2024-02-03T18:58:53.214Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 10,
+    "telCelular": "3202705987",
+    "telFijo": null,
+    "primerNombre": "MARINA",
+    "segundoNombre": "MORALES",
+    "primerApellido": "HERNANDEZ",
+    "segundoApellido": null,
+    "cedula": "52396019",
+    "direccion": "CARRERA 109A No. 148-91 BOGOTA",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418900320170090900",
+  "nombre": "MARINA MORALES HERNANDEZ",
+  "numero": 10,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:58:53.215Z"
+}

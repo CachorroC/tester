@@ -1,0 +1,84 @@
+{
+  "id": 79742224,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 424
+  },
+  "demanda": {
+    "capitalAdeudado": "978",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-04-12T05:00:16.000Z",
+    "etapaProcesal": "11001400301520180045900",
+    "fechaPresentacion": [
+      "2019-09-04T05:00:00.000Z",
+      "2019-03-18T05:00:00.000Z",
+      "2022-11-02T05:00:00.000Z"
+    ],
+    "llaveProceso": "110014003015201800459",
+    "mandamientoPago": "2019-07-04T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 424,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "6980085367"
+    ],
+    "radicado": "2018 - 00459",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "8202-02-18T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 424,
+      "fechaOrdenaMedida": "2024-02-03T18:59:43.404Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 424,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JAIME",
+    "segundoNombre": "LEONARDO",
+    "primerApellido": "SOSA",
+    "segundoApellido": "ROODRIGUEZ",
+    "cedula": "79742224",
+    "direccion": "CALLE 31A No 22-13 SUR",
+    "email": "leo-sosa44@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "110014003015201800459",
+  "nombre": "JAIME LEONARDO SOSA ROODRIGUEZ",
+  "numero": 424,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:43.404Z"
+}

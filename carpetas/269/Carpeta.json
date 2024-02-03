@@ -1,0 +1,80 @@
+{
+  "id": 80162950,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 269
+  },
+  "demanda": {
+    "capitalAdeudado": "105666670",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "25286400300120180042100",
+    "mandamientoPago": null,
+    "municipio": "FUNZA ",
+    "notificacion": {
+      "id": 269,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "182524"
+    ],
+    "radicado": "2018 - 00421",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2025-03-31T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 269,
+      "fechaOrdenaMedida": "2024-02-03T18:59:25.612Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 269,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JUAN",
+    "segundoNombre": "CARLOS",
+    "primerApellido": "ORTIZ",
+    "segundoApellido": "CUERVO",
+    "cedula": "80162950",
+    "direccion": "CARRERA 16 No 14 - 36 ",
+    "email": "ju@yahoo.es"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25286400300120180042100",
+  "nombre": "JUAN CARLOS ORTIZ CUERVO",
+  "numero": 269,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:25.612Z"
+}

@@ -1,0 +1,80 @@
+{
+  "id": 1065564377,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 528
+  },
+  "demanda": {
+    "capitalAdeudado": "46371154.05",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "25430400300120190116000",
+    "fechaPresentacion": [],
+    "llaveProceso": "25473400100120190116000",
+    "mandamientoPago": "2019-02-09T05:00:00.000Z",
+    "municipio": "MADRID",
+    "notificacion": {
+      "id": 528,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2019-10-10T05:00:00.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": "1970-01-01T00:00:43.861Z",
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2273 320186673"
+    ],
+    "radicado": "2019 - 01160",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2030-08-25T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 528,
+      "fechaOrdenaMedida": "2024-02-03T18:59:52.420Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 528,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "YOLADIS",
+    "segundoNombre": "ESTHER",
+    "primerApellido": "BLANCO",
+    "segundoApellido": "LOPEZ",
+    "cedula": "1065564377",
+    "direccion": "CALLE  23 No 12-50 CASA 16 INT 12 MANZANA 1 CONJUNTO QUINTAS DE ZARAGOZA",
+    "email": "yoladisb@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25473400100120190116000",
+  "nombre": "YOLADIS ESTHER BLANCO LOPEZ",
+  "numero": 528,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:52.421Z"
+}

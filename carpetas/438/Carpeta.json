@@ -1,0 +1,80 @@
+{
+  "id": 52132383,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 438
+  },
+  "demanda": {
+    "capitalAdeudado": "934",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-05-29T05:00:16.000Z",
+    "etapaProcesal": "EXCEPCIONES",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.251Z"
+    ],
+    "llaveProceso": "11001418900620180021000",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 438,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "15400866488"
+    ],
+    "radicado": "2018 - 00210",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 438,
+      "fechaOrdenaMedida": "2024-02-03T18:59:45.513Z",
+      "medidaSolicitada": "PERSONAL"
+    }
+  },
+  "deudor": {
+    "id": 438,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "LUZ",
+    "segundoNombre": "DARY",
+    "primerApellido": "VELANDIA",
+    "segundoApellido": "GARCIA",
+    "cedula": "52132383",
+    "direccion": "CARRERA 24 B No 31C-64",
+    "email": "velandialuzd@yahooo.es"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418900620180021000",
+  "nombre": "LUZ DARY VELANDIA GARCIA",
+  "numero": 438,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:45.513Z"
+}

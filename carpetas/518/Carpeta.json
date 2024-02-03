@@ -1,0 +1,79 @@
+{
+  "id": 80222254,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 518
+  },
+  "demanda": {
+    "capitalAdeudado": "12203649",
+    "departamento": "CUNDINAMARCA ",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "11001418900920190016200",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 518,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "377816507543324",
+      "4513070013675100"
+    ],
+    "radicado": "2019 - 00162",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 518,
+      "fechaOrdenaMedida": "2024-02-03T18:59:51.367Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 518,
+    "telCelular": "3124487509",
+    "telFijo": null,
+    "primerNombre": "JORGE",
+    "segundoNombre": "IVAN",
+    "primerApellido": "AVENDAÑO",
+    "segundoApellido": "VANEGAS",
+    "cedula": "80222254",
+    "direccion": "CARRERA 86 # 77 - 35 INT 13 APTO 339",
+    "email": "CYBERGEORGE82@HOTMAIL.COM"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001418900920190016200",
+  "nombre": "JORGE IVAN AVENDAÑO VANEGAS",
+  "numero": 518,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:51.367Z"
+}

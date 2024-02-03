@@ -1,0 +1,82 @@
+{
+  "id": 80800256,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 351
+  },
+  "demanda": {
+    "capitalAdeudado": "16487437",
+    "departamento": "CUNDINAMARCA ",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-11-22T05:00:16.000Z",
+    "etapaProcesal": "ADMISION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:43.066Z"
+    ],
+    "llaveProceso": "1100141037520180002400",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 351,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "116080"
+    ],
+    "radicado": "2018 - 00024",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2024-02-24T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 351,
+      "fechaOrdenaMedida": "2024-02-03T18:59:34.817Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 351,
+    "telCelular": "3134704885",
+    "telFijo": "7612712 ",
+    "primerNombre": "CRISTIAN",
+    "segundoNombre": "JOSUE",
+    "primerApellido": "CARDENAS",
+    "segundoApellido": "NORIEGA",
+    "cedula": "80800256",
+    "direccion": "CALLE 73 B  SUR No 1A - 06",
+    "email": "sariguella35@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "1100141037520180002400",
+  "nombre": "CRISTIAN JOSUE CARDENAS NORIEGA",
+  "numero": 351,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:34.817Z"
+}

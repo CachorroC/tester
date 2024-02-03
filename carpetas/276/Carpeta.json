@@ -1,0 +1,82 @@
+{
+  "id": 79200345,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 276
+  },
+  "demanda": {
+    "capitalAdeudado": "46086886",
+    "departamento": "CUNDINAMARCA ",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "2017-10-05T05:00:00.000Z"
+    ],
+    "llaveProceso": "25754400300420170038100",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 276,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "190886"
+    ],
+    "radicado": "2017 - 00381",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2017-02-05T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 276,
+      "fechaOrdenaMedida": "2024-02-03T18:59:26.000Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 276,
+    "telCelular": "3204283595",
+    "telFijo": "9008364 ",
+    "primerNombre": "NELSON",
+    "segundoNombre": "MAYORGA",
+    "primerApellido": "GOMEZ",
+    "segundoApellido": null,
+    "cedula": "79200345",
+    "direccion": "CARRERA 5  No 5 - 30 APARTAMENTO 202 SOACHA ",
+    "email": "nelson_mayorga@outlook.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300420170038100",
+  "nombre": "NELSON MAYORGA GOMEZ",
+  "numero": 276,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:26.000Z"
+}

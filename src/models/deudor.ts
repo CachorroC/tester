@@ -1,37 +1,38 @@
-import { DeudorRaw, IntDeudor, IntTel } from '../types/carpetas';
+import { IntDeudor } from '../types/carpetas';
+import { RawDb } from '../types/raw-db';
 
-export class Tel implements IntTel {
-  fijo: number | null;
-  celular: number | null;
+export class Tel {
+  fijo: string | null;
+  celular: string | null;
   constructor(
-    telefono: string 
+    telefono: string
   ) {
     const celularStringArray = telefono.match(
-      /\d{10}/g 
+      /\d{10}/g
     );
 
     const fijoStringArray = telefono.match(
-      /\d{7}\s/g 
+      /\d{7}\s/g
     );
 
     const celularNumber = celularStringArray?.map(
       (
-        f 
+        f
       ) => {
-        return Number(
-          f 
+        return String(
+          f
         );
-      } 
+      }
     );
 
     const fijoNumber = fijoStringArray?.map(
       (
-        f 
+        f
       ) => {
-        return Number(
-          f 
+        return String(
+          f
         );
-      } 
+      }
     );
 
     this.fijo = fijoNumber
@@ -45,12 +46,17 @@ export class Tel implements IntTel {
 
 export class ClassDeudor implements IntDeudor {
   constructor(
-    {
-      cedula, direccion, email, nombre, telefono = '' 
-    }: DeudorRaw 
+    rawCarpeta: RawDb
   ) {
-    this.cedula = Number(
-      cedula 
+
+    const {
+      DEUDOR_CEDULA: cedula, DEUDOR_DIRECCION: direccion, DEUDOR_EMAIL: email, DEUDOR_TELEFONOS: telefono, DEUDOR_NOMBRE: nombre, NUMERO: id
+    } = rawCarpeta;
+    this.id = Number(
+      id
+    );
+    this.cedula = String(
+      cedula
     );
     this.direccion = direccion
       ? direccion.toString()
@@ -58,14 +64,19 @@ export class ClassDeudor implements IntDeudor {
     this.email = email
       ? email.toString()
       : null;
-    this.tel = new Tel(
+
+    const {
+      fijo, celular
+    } = new Tel(
       String(
-        telefono 
-      ) 
+        telefono
+      )
     );
+    this.telCelular = celular;
+    this.telFijo = fijo;
 
     const nameStringArray = nombre.split(
-      ' ' 
+      ' '
     );
 
     const nameArrayLength = nameStringArray.length;
@@ -122,12 +133,14 @@ export class ClassDeudor implements IntDeudor {
           break;
     }
   }
-  tel: IntTel;
+  id: number;
+  telCelular: string | null;
+  telFijo: string | null;
   primerNombre: string;
   segundoNombre: string | null;
   primerApellido: string;
   segundoApellido: string | null;
-  cedula: number;
+  cedula: string;
   direccion: string | null;
   email: string | null;
 }

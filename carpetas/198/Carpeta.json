@@ -1,0 +1,220 @@
+{
+  "id": 1012318156,
+  "actuaciones": [
+    {
+      "idRegActuacion": 219869021,
+      "llaveProceso": "11001400304020170132900",
+      "consActuacion": 6,
+      "fechaActuacion": "2017-11-02T05:00:00.000Z",
+      "actuacion": "Retiro de demanada",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-11-02T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 19150031,
+      "isUltimaAct": true,
+      "createdAt": "2024-02-03T18:59:17.484Z"
+    },
+    {
+      "idRegActuacion": 219869011,
+      "llaveProceso": "11001400304020170132900",
+      "consActuacion": 5,
+      "fechaActuacion": "2017-09-27T05:00:00.000Z",
+      "actuacion": "Oficio Elaborado",
+      "anotacion": "OFICIO ELABORADO EL 22 DE SEPTIEMBRE",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-09-27T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 19150031,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:17.484Z"
+    },
+    {
+      "idRegActuacion": 219869001,
+      "llaveProceso": "11001400304020170132900",
+      "consActuacion": 4,
+      "fechaActuacion": "2017-09-15T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 15/09/2017 a las 17:29:25.",
+      "fechaInicial": "2017-09-18T05:00:00.000Z",
+      "fechaFinal": "2017-09-18T05:00:00.000Z",
+      "fechaRegistro": "2017-09-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 19150031,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:17.484Z"
+    },
+    {
+      "idRegActuacion": 219868991,
+      "llaveProceso": "11001400304020170132900",
+      "consActuacion": 3,
+      "fechaActuacion": "2017-09-15T05:00:00.000Z",
+      "actuacion": "Auto libra mandamiento ejecutivo",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-09-15T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 19150031,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:17.484Z"
+    },
+    {
+      "idRegActuacion": 219868981,
+      "llaveProceso": "11001400304020170132900",
+      "consActuacion": 2,
+      "fechaActuacion": "2017-09-12T05:00:00.000Z",
+      "actuacion": "Al despacho",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2017-09-12T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 19150031,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:17.484Z"
+    },
+    {
+      "idRegActuacion": 219868971,
+      "llaveProceso": "11001400304020170132900",
+      "consActuacion": 1,
+      "fechaActuacion": "2017-09-12T05:00:00.000Z",
+      "actuacion": " Radicación de Proceso",
+      "anotacion": "Actuación de  Radicación de Proceso  realizada el 12/09/2017 a las 08:41:03",
+      "fechaInicial": "2017-09-12T05:00:00.000Z",
+      "fechaFinal": "2017-09-12T05:00:00.000Z",
+      "fechaRegistro": "2017-09-12T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 6,
+      "idProceso": 19150031,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T18:59:17.484Z"
+    }
+  ],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 198
+  },
+  "demanda": {
+    "capitalAdeudado": "29204879.5",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-29T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.982Z"
+    ],
+    "llaveProceso": "11001400304020170132900",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 198,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "167542"
+    ],
+    "radicado": "2017 - 01329",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2028-09-03T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 198,
+      "fechaOrdenaMedida": "2024-02-03T18:59:17.440Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 198,
+    "telCelular": "3142998727",
+    "telFijo": "3142498 ",
+    "primerNombre": "HECTOR",
+    "segundoNombre": "MANUEL",
+    "primerApellido": "RAMIREZ",
+    "segundoApellido": "PUENTES",
+    "cedula": "1012318156",
+    "direccion": "CARRERA 80M # 74 - 04 SUR ",
+    "email": "hectormanuelverdolaga@gmail.com"
+  },
+  "fecha": "2017-11-02T05:00:00.000Z",
+  "idProcesos": [
+    19150031
+  ],
+  "idRegUltimaAct": 219869021,
+  "llaveProceso": "11001400304020170132900",
+  "nombre": "HECTOR MANUEL RAMIREZ PUENTES",
+  "numero": 198,
+  "procesos": [
+    {
+      "idProceso": 19150031,
+      "idConexion": 256,
+      "llaveProceso": "11001400304020170132900",
+      "fechaProceso": "2017-09-12T05:00:00.000Z",
+      "fechaUltimaActuacion": "2017-11-02T05:00:00.000Z",
+      "despacho": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: HECTOR MANUEL RAMIREZ PUENTES ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 40,
+        "tipo": "JUZGADO 040 CIVIL MUNICIPAL DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-40-civil-municipal-de-bogota"
+      }
+    }
+  ],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": {
+    "idRegActuacion": 219869021,
+    "llaveProceso": "11001400304020170132900",
+    "consActuacion": 6,
+    "fechaActuacion": "2017-11-02T05:00:00.000Z",
+    "actuacion": "Retiro de demanada",
+    "anotacion": null,
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2017-11-02T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 6,
+    "idProceso": 19150031,
+    "isUltimaAct": true
+  },
+  "updatedAt": "2024-02-03T18:59:17.441Z"
+}

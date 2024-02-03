@@ -1,0 +1,80 @@
+{
+  "id": 13812570,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 397
+  },
+  "demanda": {
+    "capitalAdeudado": "14467701",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": null,
+    "etapaProcesal": "25473400300120180010600",
+    "fechaPresentacion": [],
+    "llaveProceso": "25473400300120180010600",
+    "mandamientoPago": "2018-06-02T05:00:00.000Z",
+    "municipio": "MOSQUERA",
+    "notificacion": {
+      "id": 397,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-07-07T05:00:00.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "430104535"
+    ],
+    "radicado": "2018 - 00106",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2022-05-31T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 397,
+      "fechaOrdenaMedida": "2024-02-03T18:59:41.236Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 397,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JOSE",
+    "segundoNombre": "DE",
+    "primerApellido": "JESUS",
+    "segundoApellido": "TAPIAS",
+    "cedula": "13812570",
+    "direccion": "CALLE 12A No 1B ESTE-80 MANZANA 2 CASA MOSQUERA",
+    "email": "jtapias@pastasdoria.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25473400300120180010600",
+  "nombre": "JOSE DE JESUS TAPIAS ESTEVEZ",
+  "numero": 397,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:41.236Z"
+}

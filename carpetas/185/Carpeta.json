@@ -1,0 +1,79 @@
+{
+  "id": 10294828,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 185
+  },
+  "demanda": {
+    "capitalAdeudado": "41262275.97",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-11T05:00:16.000Z",
+    "etapaProcesal": null,
+    "fechaPresentacion": [],
+    "llaveProceso": "25754400300320170028300",
+    "mandamientoPago": "2017-08-28T05:00:16.000Z",
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 185,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2017-12-15T05:00:16.000Z",
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "    ",
+      "20990158916"
+    ],
+    "radicado": "2017 - 00283",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [],
+    "medidasCautelares": {
+      "id": 185,
+      "fechaOrdenaMedida": "2024-02-03T18:59:16.409Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 185,
+    "telCelular": "3103397090",
+    "telFijo": "3351000 ",
+    "primerNombre": "WILLIAM",
+    "segundoNombre": "GIOVANNI",
+    "primerApellido": "DORADO",
+    "segundoApellido": "FERNANDEZ",
+    "cedula": "10294828",
+    "direccion": "CARRERA 4 ESTE # 38 - 56",
+    "email": "willdany@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754400300320170028300",
+  "nombre": "WILLIAM GIOVANNI DORADO FERNANDEZ",
+  "numero": 185,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:16.409Z"
+}

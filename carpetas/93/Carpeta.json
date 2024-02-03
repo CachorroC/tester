@@ -1,0 +1,82 @@
+{
+  "id": 1140835529,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 93
+  },
+  "demanda": {
+    "capitalAdeudado": "37074975",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-06-28T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "1970-01-01T00:00:42.906Z"
+    ],
+    "llaveProceso": "25126408900120170049600",
+    "mandamientoPago": "2017-10-05T05:00:16.000Z",
+    "municipio": "CAJICA",
+    "notificacion": {
+      "id": 93,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "166689"
+    ],
+    "radicado": "2017 - 00496",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2031-08-06T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 93,
+      "fechaOrdenaMedida": "2024-02-03T18:59:03.101Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 93,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "VIVIAN",
+    "segundoNombre": "PAOLA",
+    "primerApellido": "BRUGES",
+    "segundoApellido": "MEDINA",
+    "cedula": "1140835529",
+    "direccion": "CALLE 133 # 53 - 365CJ LOMAS DE (BARRANQUILLA)",
+    "email": "vivibruges@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25126408900120170049600",
+  "nombre": "VIVIAN PAOLA BRUGES MEDINA",
+  "numero": 93,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:03.101Z"
+}

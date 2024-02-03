@@ -1,0 +1,80 @@
+{
+  "id": 30339083,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": "NELSON MENDEZ VERJAN",
+    "cedula": "14277736",
+    "direccion": "CALLE 68 C No 2-04 SUR ESTE",
+    "telefono": "F 2000631",
+    "id": 484
+  },
+  "demanda": {
+    "capitalAdeudado": "26503794.57",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
+    "etapaProcesal": "25754418900320190027000",
+    "fechaPresentacion": [],
+    "llaveProceso": "25754418900320190027000",
+    "mandamientoPago": null,
+    "municipio": "SOACHA",
+    "notificacion": {
+      "id": 484,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "20990157739"
+    ],
+    "radicado": "2019 - 00270",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2032-11-21T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 484,
+      "fechaOrdenaMedida": "2024-02-03T18:59:49.868Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 484,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JENNY",
+    "segundoNombre": "",
+    "primerApellido": "ANDREA",
+    "segundoApellido": "AVILA",
+    "cedula": "30339083",
+    "direccion": "CARRERA 7A No  2-94 SUR",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25754418900320190027000",
+  "nombre": "JENNY  ANDREA AVILA GARZON ",
+  "numero": 484,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:49.868Z"
+}

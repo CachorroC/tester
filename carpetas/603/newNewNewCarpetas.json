@@ -2,40 +2,73 @@
   "id": 1032411438,
   "actuaciones": [],
   "category": "Bancolombia",
-  "codeudor": null,
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 603
+  },
   "demanda": {
-    "obligacion": ["2273 320178028"],
-    "llaveProceso": "SinEspecificar",
-    "notificacion": null,
-    "medidasCautelares": null,
-    "capitalAdeudado": null,
-    "departamento": "BOYACÁ",
+    "capitalAdeudado": "168578525",
+    "departamento": "BOYACA",
     "despacho": null,
-    "entregaGarantiasAbogado": null,
+    "entregaGarantiasAbogado": "2023-11-23T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "llaveProceso": " 15001405300420230047400",
     "mandamientoPago": null,
     "municipio": "TUNJA",
-    "radicado": null,
+    "notificacion": {
+      "id": 603,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "2273 320178028"
+    ],
+    "radicado": "2023 - 474",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": ["2034-10-10T05:00:00.000Z"]
+    "vencimientoPagare": [
+      "2034-10-10T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 603,
+      "fechaOrdenaMedida": "2024-02-03T00:36:39.160Z",
+      "medidaSolicitada": null
+    }
   },
   "deudor": {
-    "tel": {
-      "fijo": 3403190,
-      "celular": 3203403190
-    },
+    "id": 603,
+    "telCelular": "3203403190",
+    "telFijo": "3403190 ",
     "primerNombre": "FRANCY",
     "segundoNombre": "TATIANA",
     "primerApellido": "LEON",
     "segundoApellido": "TOBARIA",
-    "cedula": 1032411438,
+    "cedula": "1032411438",
     "direccion": "Carrera 2 BIS No. 41 A - 90  Urbanización Terraza santa Ines Tunja (Boyacá)",
     "email": "tatianaleon_6@hotmail.com"
   },
   "fecha": null,
   "idProcesos": [],
-  "llaveProceso": "SinEspecificar",
+  "idRegUltimaAct": null,
+  "llaveProceso": " 15001405300420230047400",
   "nombre": "FRANCY TATIANA LEON TOBARIA",
   "numero": 603,
   "procesos": [],
@@ -43,5 +76,5 @@
   "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-01-02T02:11:57.115Z"
+  "updatedAt": "2024-02-03T00:36:39.160Z"
 }

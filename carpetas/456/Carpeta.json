@@ -1,0 +1,80 @@
+{
+  "id": 26407097,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 456
+  },
+  "demanda": {
+    "capitalAdeudado": "24310470",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2018-06-29T05:00:16.000Z",
+    "etapaProcesal": "11001410375120180112100",
+    "fechaPresentacion": [],
+    "llaveProceso": "11001410375120180112100",
+    "mandamientoPago": "2018-07-06T05:00:16.000Z",
+    "municipio": "KENNEDY",
+    "notificacion": {
+      "id": 456,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-09-13T05:00:16.000Z",
+          "resultado": false
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": false
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "10044000104"
+    ],
+    "radicado": "2018 - 01121",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2021-01-29T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 456,
+      "fechaOrdenaMedida": "2024-02-03T18:59:47.955Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 456,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ANA",
+    "segundoNombre": "LUCIA",
+    "primerApellido": "YAÑEZ",
+    "segundoApellido": "VARGAS",
+    "cedula": "26407097",
+    "direccion": "CALLE  57B BIS No 99B-64 SUR BOSA SANTA FE",
+    "email": null
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "11001410375120180112100",
+  "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)",
+  "numero": 456,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:47.956Z"
+}

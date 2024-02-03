@@ -2,60 +2,76 @@
   "id": 1070329396,
   "actuaciones": [],
   "category": "Bancolombia",
-  "codeudor": null,
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 102
+  },
   "demanda": {
-    "obligacion": ["7300080586"],
-    "llaveProceso": "25245408900120170023900",
-    "notificacion": {
-      "291": {
-        "fechaRecibido": null,
-        "fechaAporta": "2018-05-17T05:00:00.000Z",
-        "resultado": null
-      },
-      "292": {
-        "fechaRecibido": null,
-        "fechaAporta": "2018-05-17T05:00:00.000Z",
-        "resultado": true
-      },
-      "certimail": null,
-      "fisico": null,
-      "autoNotificado": "17/07/2018"
-    },
-    "medidasCautelares": {
-      "fechaOrdenaMedida": "2017-07-11T05:00:00.000Z",
-      "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
-    },
-    "capitalAdeudado": null,
+    "capitalAdeudado": "50000000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-12-06T05:00:00.000Z",
+    "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": [
       "2017-06-15T05:00:00.000Z",
-      "2017-08-29T05:00:00.000Z"
+      "2017-08-09T05:00:00.000Z"
     ],
-    "mandamientoPago": "2017-07-11T05:00:00.000Z",
+    "llaveProceso": "201700239",
+    "mandamientoPago": "2017-11-07T05:00:16.000Z",
     "municipio": "MESITAS",
-    "radicado": "2017-00239",
+    "notificacion": {
+      "id": 102,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-05-17T05:00:16.000Z",
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": "2018-05-17T05:00:16.000Z",
+          "resultado": true
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": "2018-07-17T05:00:16.000Z"
+    },
+    "obligacion": [
+      "7300080586"
+    ],
+    "radicado": "2017 - 00239",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": ["2019-07-05T05:00:00.000Z"]
+    "vencimientoPagare": [
+      "2019-07-05T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 102,
+      "fechaOrdenaMedida": "2017-11-07T05:00:16.000Z",
+      "medidaSolicitada": "EMBARGO DE DINEROS EN BANCOS"
+    }
   },
   "deudor": {
-    "tel": {
-      "fijo": null,
-      "celular": 3114456631
-    },
+    "id": 102,
+    "telCelular": "3114456631",
+    "telFijo": null,
     "primerNombre": "ERIKA",
     "segundoNombre": "ALEJANDRA",
     "primerApellido": "QUINTERO",
     "segundoApellido": "REYES",
-    "cedula": 1070329396,
+    "cedula": "1070329396",
     "direccion": "CALL 2 No. 8-40 EL COLEGIO",
     "email": null
   },
   "fecha": null,
   "idProcesos": [],
-  "llaveProceso": "25245408900120170023900",
+  "idRegUltimaAct": null,
+  "llaveProceso": "201700239",
   "nombre": "ERIKA ALEJANDRA QUINTERO REYES",
   "numero": 102,
   "procesos": [],
@@ -63,5 +79,5 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-01-02T02:09:16.433Z"
+  "updatedAt": "2024-02-03T00:36:24.884Z"
 }

@@ -1,0 +1,170 @@
+{
+  "id": 12229243,
+  "actuaciones": [
+    {
+      "idRegActuacion": 888101471,
+      "llaveProceso": "11001400301820170152200",
+      "consActuacion": 5322608,
+      "fechaActuacion": "2018-10-23T05:00:00.000Z",
+      "actuacion": "REMITE A JUZGADO DE ORIGEN",
+      "anotacion": "",
+      "fechaInicial": "2018-10-23T05:00:00.000Z",
+      "fechaFinal": "2018-10-23T05:00:00.000Z",
+      "fechaRegistro": "2018-10-23T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 2,
+      "idProceso": 165614511,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T19:00:03.634Z"
+    },
+    {
+      "idRegActuacion": 888080711,
+      "llaveProceso": "11001400301820170152200",
+      "consActuacion": 5202040,
+      "fechaActuacion": "2018-10-09T05:00:00.000Z",
+      "actuacion": "RADICACIÓN Y REPARTO",
+      "anotacion": "ACTUACIÓN RADICACIÓN Y REPARTO",
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2018-10-09T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": true,
+      "cant": 2,
+      "idProceso": 165614511,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-03T19:00:03.634Z"
+    }
+  ],
+  "category": "Reintegra",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 289
+  },
+  "demanda": {
+    "capitalAdeudado": "14645610.58",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-09-11T05:00:16.000Z",
+    "etapaProcesal": "EJECUCIÓN",
+    "fechaPresentacion": [
+      "2017-09-14T05:00:16.000Z"
+    ],
+    "llaveProceso": "11001400301820170152200",
+    "mandamientoPago": "2017-09-26T05:00:16.000Z",
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 289,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": true
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": true
+        }
+      ],
+      "certimail": true,
+      "fisico": false,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "5306940432740470"
+    ],
+    "radicado": "2017 - 01522",
+    "tipoProceso": "SINGULAR",
+    "vencimientoPagare": [
+      "2020-03-22T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 289,
+      "fechaOrdenaMedida": "2017-09-26T05:00:16.000Z",
+      "medidaSolicitada": "EMBARGO DE INMUEBLE"
+    }
+  },
+  "deudor": {
+    "id": 289,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "JOSE",
+    "segundoNombre": "AHINSONJOBER",
+    "primerApellido": "TORO",
+    "segundoApellido": "VARGAS",
+    "cedula": "12229243",
+    "direccion": "AVENIDA 1 DE MAYO No 29-06 ",
+    "email": "serdiajo@gmail.com"
+  },
+  "fecha": "2018-10-23T05:00:00.000Z",
+  "idProcesos": [
+    50711570,
+    165614511
+  ],
+  "idRegUltimaAct": 888101471,
+  "llaveProceso": "11001400301820170152200",
+  "nombre": "JOSE AHINSONJOBER TORO VARGAS",
+  "numero": 289,
+  "procesos": [
+    {
+      "idProceso": 50711570,
+      "idConexion": 259,
+      "llaveProceso": "11001400301820170152200",
+      "fechaProceso": "2017-09-18T05:00:00.000Z",
+      "fechaUltimaActuacion": "2024-01-29T05:00:00.000Z",
+      "despacho": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ ",
+      "departamento": "BOGOTÁ",
+      "sujetosProcesales": "Demandante: BANCOLOMBIA S.A. | Demandado: JOSE AHINSONJOVER TORO VARGAS ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 16,
+        "tipo": "JUZGADO 016 CIVIL MUNICIPAL DE EJECUCIÓN DE SENTENCIAS DE BOGOTÁ",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-16-de-ejecucion-civil-municipal-de-bogota"
+      }
+    },
+    {
+      "idProceso": 165614511,
+      "idConexion": 320,
+      "llaveProceso": "11001400301820170152200",
+      "fechaProceso": "2018-10-09T05:00:00.000Z",
+      "fechaUltimaActuacion": "2018-10-23T05:00:00.000Z",
+      "despacho": "JUZGADO 002 CIVIL MUNICIPAL DE PITALITO ",
+      "departamento": "HUILA",
+      "sujetosProcesales": "Demandante/accionante: BANCOLOMBIA SA | Demandado/indiciado/causante: jose ahinsonjober toro vargas | Defensor Privado: MARIA HELENA SUAREZ GARCIA ",
+      "esPrivado": false,
+      "cantFilas": -1,
+      "juzgado": {
+        "id": 2,
+        "tipo": "JUZGADO 002 CIVIL MUNICIPAL DE PITALITO",
+        "url": "https://www.ramajudicial.gov.co/web/juzgado-002-civil-municipal-de-pitalito"
+      }
+    }
+  ],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "SINGULAR",
+  "ultimaActuacion": {
+    "idRegActuacion": 888101471,
+    "llaveProceso": "11001400301820170152200",
+    "consActuacion": 5322608,
+    "fechaActuacion": "2018-10-23T05:00:00.000Z",
+    "actuacion": "REMITE A JUZGADO DE ORIGEN",
+    "anotacion": "",
+    "fechaInicial": "2018-10-23T05:00:00.000Z",
+    "fechaFinal": "2018-10-23T05:00:00.000Z",
+    "fechaRegistro": "2018-10-23T05:00:00.000Z",
+    "codRegla": "00                              ",
+    "conDocumentos": false,
+    "cant": 2,
+    "idProceso": 165614511,
+    "isUltimaAct": false
+  },
+  "updatedAt": "2024-02-03T19:00:03.345Z"
+}

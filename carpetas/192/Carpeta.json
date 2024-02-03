@@ -1,0 +1,84 @@
+{
+  "id": 53053612,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 192
+  },
+  "demanda": {
+    "capitalAdeudado": "38393691.1",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-08-17T05:00:16.000Z",
+    "etapaProcesal": "NOTIFICACION",
+    "fechaPresentacion": [
+      "2017-09-01T05:00:00.000Z"
+    ],
+    "llaveProceso": "1100140030732017015300",
+    "mandamientoPago": null,
+    "municipio": "BOGOTA",
+    "notificacion": {
+      "id": 192,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "490098495",
+      "128775"
+    ],
+    "radicado": "2017 - 01532",
+    "tipoProceso": "HIPOTECARIO",
+    "vencimientoPagare": [
+      "2021-02-22T05:00:00.000Z",
+      "2025-05-19T05:00:00.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 192,
+      "fechaOrdenaMedida": "2024-02-03T18:59:16.769Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 192,
+    "telCelular": null,
+    "telFijo": "2572857 ",
+    "primerNombre": "DIANA",
+    "segundoNombre": "PATRICIA",
+    "primerApellido": "SANCHEZ",
+    "segundoApellido": "SALCEDO",
+    "cedula": "53053612",
+    "direccion": "TRANVERSAL 142 # 150 - 50 CASA 2 ET 8 ",
+    "email": "baldini@mybosi.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "1100140030732017015300",
+  "nombre": "DIANA PATRICIA SANCHEZ SALCEDO ",
+  "numero": 192,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "HIPOTECARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:16.770Z"
+}

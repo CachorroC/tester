@@ -1,0 +1,80 @@
+{
+  "id": 1070950842,
+  "actuaciones": [],
+  "category": "Insolvencia",
+  "codeudor": {
+    "nombre": null,
+    "cedula": null,
+    "direccion": null,
+    "telefono": null,
+    "id": 386
+  },
+  "demanda": {
+    "capitalAdeudado": "26468936",
+    "departamento": "CUNDINAMARCA",
+    "despacho": null,
+    "entregaGarantiasAbogado": "2017-11-16T05:00:16.000Z",
+    "etapaProcesal": "25269408900120170074400",
+    "fechaPresentacion": [],
+    "llaveProceso": "25269400300120170074400",
+    "mandamientoPago": null,
+    "municipio": "FACATATIVA",
+    "notificacion": {
+      "id": 386,
+      "notifiers": [
+        {
+          "tipo": "291",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        },
+        {
+          "tipo": "292",
+          "fechaRecibido": null,
+          "fechaAporta": null,
+          "resultado": null
+        }
+      ],
+      "certimail": null,
+      "fisico": null,
+      "autoNotificado": null
+    },
+    "obligacion": [
+      "12722464"
+    ],
+    "radicado": "2017 - 00744",
+    "tipoProceso": "PRENDARIO",
+    "vencimientoPagare": [
+      "2020-11-10T05:00:16.000Z"
+    ],
+    "medidasCautelares": {
+      "id": 386,
+      "fechaOrdenaMedida": "2024-02-03T18:59:40.089Z",
+      "medidaSolicitada": null
+    }
+  },
+  "deudor": {
+    "id": 386,
+    "telCelular": null,
+    "telFijo": null,
+    "primerNombre": "ALEXANDER",
+    "segundoNombre": "PRADA",
+    "primerApellido": "PALMAR",
+    "segundoApellido": null,
+    "cedula": "1070950842",
+    "direccion": "CARRERA 4 B  SUR No 4 - 30  FACATATIVA",
+    "email": "pradalexander@hotmail.com"
+  },
+  "fecha": null,
+  "idProcesos": [],
+  "idRegUltimaAct": null,
+  "llaveProceso": "25269400300120170074400",
+  "nombre": "ALEXANDER PRADA PALMAR",
+  "numero": 386,
+  "procesos": [],
+  "revisado": false,
+  "terminado": false,
+  "tipoProceso": "PRENDARIO",
+  "ultimaActuacion": null,
+  "updatedAt": "2024-02-03T18:59:40.089Z"
+}
