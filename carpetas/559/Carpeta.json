@@ -10,14 +10,17 @@
     "id": 559
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "42598393",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 559,
     "llaveProceso": " 2023-00886",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 559,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 559,
-      "fechaOrdenaMedida": "2024-02-03T18:58:45.184Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.710Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,62 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": " 2023-00886",
-  "nombre": "EDWIN ALEXANDER SALCEDO PEREZ",
+  "nombre": "edwin alexander salcedo perez",
   "numero": 559,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:45.184Z"
+  "notas": [
+    {
+      "carpetaNumero": 559,
+      "createdAt": "2024-02-07T03:34:23.710Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "31 JULIO RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 559,
+      "createdAt": "2024-02-07T03:34:23.710Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " ENTRA AL DESPACHO 4 AGOSTO PARA CALIFICAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 559,
+      "createdAt": "2024-02-07T03:34:23.710Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 7 SEPT 2023 INADMITE DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 559,
+      "createdAt": "2024-02-07T03:34:23.710Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 22 SEPT 2023 SUBSANA DEMANDA  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 559,
+      "createdAt": "2024-02-07T03:34:23.710Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 3 NOV LIBRA MANDAMIENTO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 559,
+      "createdAt": "2024-02-07T03:34:23.710Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " REVISAR MANDAMIENTO ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.710Z"
 }

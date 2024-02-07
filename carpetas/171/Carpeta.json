@@ -1,7 +1,7 @@
 {
   "id": 1024468871,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 171
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "46042338",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.975Z"
     ],
+    "id": 171,
     "llaveProceso": "11001400308620170086300",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 171,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 171,
-      "fechaOrdenaMedida": "2024-02-03T18:59:14.556Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:47.342Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308620170086300",
-  "nombre": "MARITZA NATALI RODRIGUEZ URREA",
+  "nombre": "maritza natali rodriguez urrea",
   "numero": 171,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:14.557Z"
+  "notas": [
+    {
+      "carpetaNumero": 171,
+      "createdAt": "2024-02-07T03:33:47.342Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "19 DE ENERO DE 2018 SE DEVOLVIERON GARANTIAS PAGARE Y PRENDA DE VEHICULO A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 171,
+      "createdAt": "2024-02-07T03:33:47.342Z",
+      "pathname": null,
+      "dueDate": "2017-12-17T05:00:00.000Z",
+      "text": "17/11/2017 APODERADA DE LA DEMANDANTE RETIRA LA DEMANDA DEL JUZGADO SIN MEDIDAS CAUTELARES DECRETADAS",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:47.342Z"
 }

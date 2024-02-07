@@ -10,14 +10,17 @@
     "id": 534
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "33000833",
     "departamento": "CNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2020-09-05T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
     "fechaPresentacion": [],
+    "id": 534,
     "llaveProceso": "2589940010020200028900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "ZIPAQUIRA",
     "notificacion": {
       "id": 534,
@@ -48,7 +51,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 534,
-      "fechaOrdenaMedida": "2024-02-03T19:00:10.824Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:21.568Z",
       "medidaSolicitada": null
     }
   },
@@ -68,12 +71,62 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2589940010020200028900",
-  "nombre": "PEDRO JULIO TRIVIÑO VALBUENA",
+  "nombre": "pedro julio triviño valbuena",
   "numero": 534,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:10.824Z"
+  "notas": [
+    {
+      "carpetaNumero": 534,
+      "createdAt": "2024-02-07T03:34:21.568Z",
+      "pathname": null,
+      "dueDate": "2023-12-11T05:00:00.000Z",
+      "text": "11/23/2022 SE APORTA LIQUIDACION DE CREDITO A JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 534,
+      "createdAt": "2024-02-07T03:34:21.568Z",
+      "pathname": null,
+      "dueDate": "2022-02-18T05:00:00.000Z",
+      "text": " 18/01/2022 SE ENVIA DERECHO DE PETICIÓN A FAMISANAR PARA PEDIR DATOS BASE DE DATOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 534,
+      "createdAt": "2024-02-07T03:34:21.568Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 ENERO RTA FAMISANAR SOLICTANDO INFO PROCESO Y DESPACHO PARA ENVIAR INFO A JUEZ ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 534,
+      "createdAt": "2024-02-07T03:34:21.568Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 26 ENERO 2023 SE CONTESTA REQUERIMIENTO A FAMISANAR APORTANDO DATOS PROCESO Y JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 534,
+      "createdAt": "2024-02-07T03:34:21.568Z",
+      "pathname": null,
+      "dueDate": "2023-04-03T05:00:00.000Z",
+      "text": " 3/03/2023 SE ENVIA MEMORIAL AL JUZGADO SOLICITANDO INFORMACION NO SUMINISTRADA POR FAMISANAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 534,
+      "createdAt": "2024-02-07T03:34:21.568Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 6 JUNIO 2023 SE ENVIA OFICIO A FAMISANAR.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:21.568Z"
 }

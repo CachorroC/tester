@@ -8,7 +8,7 @@ datasource db {
 }
 
 model Carpeta {
-  category        String    @default("SinEspecificar")
+  category        String     @default("SinEspecificar")
   codeudor        Codeudor?
   demanda         Demanda?
   deudor          Deudor?
@@ -20,14 +20,14 @@ model Carpeta {
   llaveProceso    String
   nombre          String
   notas           Nota[]
-  numero          Int         @id
+  numero          Int        @id
   procesos        Proceso[]
-  revisado        Boolean     @default(false)
+  revisado        Boolean    @default(false)
   tareas          Task[]
-  terminado       Boolean     @default(false)
-  tipoProceso     String @default("SINGULAR")
-  ultimaActuacion Actuacion?  @relation(fields: [idRegUltimaAct], references: [idRegActuacion])
-  updatedAt       DateTime    @updatedAt
+  terminado       Boolean    @default(false)
+  tipoProceso     String     @default("SINGULAR")
+  ultimaActuacion Actuacion? @relation(fields: [idRegUltimaAct], references: [idRegActuacion])
+  updatedAt       DateTime   @updatedAt
 }
 
 model Factura {
@@ -109,7 +109,7 @@ model Demanda {
   fechaPresentacion       DateTime[]         @db.Date
   id                      Int                @id
   llaveProceso            String?
-  mandamientoPago         DateTime?          @db.Date
+  mandamientoPago         DateTime[]         @db.Date
   medidasCautelares       MedidasCautelares?
   municipio               String?
   notificacion            Notificacion?
@@ -117,6 +117,8 @@ model Demanda {
   radicado                String?
   tipoProceso             String
   vencimientoPagare       DateTime[]         @db.Date
+  liquidacion             Decimal            @default(1000) @db.Money
+  avaluo                  Decimal            @default(1000) @db.Money
 }
 
 model Notificacion {

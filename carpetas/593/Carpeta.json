@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:49.575Z"
+      "createdAt": "2024-02-07T03:34:26.825Z"
     },
     {
       "idRegActuacion": 1314970781,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.575Z"
+      "createdAt": "2024-02-07T03:34:26.825Z"
     },
     {
       "idRegActuacion": 1314970771,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.575Z"
+      "createdAt": "2024-02-07T03:34:26.825Z"
     },
     {
       "idRegActuacion": 1313440011,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.575Z"
+      "createdAt": "2024-02-07T03:34:26.825Z"
     },
     {
       "idRegActuacion": 1313440001,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.575Z"
+      "createdAt": "2024-02-07T03:34:26.825Z"
     }
   ],
   "category": "Bancolombia",
@@ -96,14 +96,17 @@
     "id": 593
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "70393714",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-10-20T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 593,
     "llaveProceso": "11001400304220230109900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 593,
@@ -135,7 +138,7 @@
     ],
     "medidasCautelares": {
       "id": 593,
-      "fechaOrdenaMedida": "2024-02-03T18:58:49.501Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.774Z",
       "medidaSolicitada": null
     }
   },
@@ -157,7 +160,7 @@
   ],
   "idRegUltimaAct": 1326461951,
   "llaveProceso": "11001400304220230109900",
-  "nombre": "ISMAEL CAMACHO GARCIA",
+  "nombre": "ismael camacho garcia",
   "numero": 593,
   "procesos": [
     {
@@ -197,5 +200,39 @@
     "idProceso": 162013641,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:49.501Z"
+  "notas": [
+    {
+      "carpetaNumero": 593,
+      "createdAt": "2024-02-07T03:34:26.774Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "23 OCTUBRE SE RADICA DEMANDA",
+      "content": []
+    },
+    {
+      "carpetaNumero": 593,
+      "createdAt": "2024-02-07T03:34:26.774Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 2 NOV 2023 AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 593,
+      "createdAt": "2024-02-07T03:34:26.774Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 10 NOV 2023 LIBRA MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 593,
+      "createdAt": "2024-02-07T03:34:26.774Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "MANDAMIENTO OK ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.774Z"
 }

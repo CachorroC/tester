@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 39001450,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:51.980Z"
+      "createdAt": "2024-02-07T03:34:20.808Z"
     },
     {
       "idRegActuacion": 559231420,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 39001450,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:51.980Z"
+      "createdAt": "2024-02-07T03:34:20.808Z"
     },
     {
       "idRegActuacion": 555956130,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 39001450,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:51.980Z"
+      "createdAt": "2024-02-07T03:34:20.808Z"
     },
     {
       "idRegActuacion": 552213370,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 39001450,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:51.980Z"
+      "createdAt": "2024-02-07T03:34:20.808Z"
     },
     {
       "idRegActuacion": 552213360,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 39001450,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:51.980Z"
+      "createdAt": "2024-02-07T03:34:20.808Z"
     },
     {
       "idRegActuacion": 368473180,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 39001450,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:51.980Z"
+      "createdAt": "2024-02-07T03:34:20.808Z"
     },
     {
       "idRegActuacion": 367918050,
@@ -118,10 +118,10 @@
       "cant": 7,
       "idProceso": 39001450,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:51.980Z"
+      "createdAt": "2024-02-07T03:34:20.808Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -130,6 +130,8 @@
     "id": 522
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "29723047",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -139,8 +141,9 @@
       "2019-02-26T05:00:00.000Z",
       "2019-06-04T05:00:00.000Z"
     ],
+    "id": 522,
     "llaveProceso": "11001400306820190100400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 522,
@@ -173,7 +176,7 @@
     ],
     "medidasCautelares": {
       "id": 522,
-      "fechaOrdenaMedida": "2024-02-03T18:59:51.893Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:20.718Z",
       "medidaSolicitada": null
     }
   },
@@ -195,7 +198,7 @@
   ],
   "idRegUltimaAct": 1303040130,
   "llaveProceso": "11001400306820190100400",
-  "nombre": "ARMANDO RODRIGUEZ RODRIGUEZ",
+  "nombre": "armando rodriguez rodriguez",
   "numero": 522,
   "procesos": [
     {
@@ -217,7 +220,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 1303040130,
@@ -235,5 +238,31 @@
     "idProceso": 39001450,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:51.893Z"
+  "notas": [
+    {
+      "carpetaNumero": 522,
+      "createdAt": "2024-02-07T03:34:20.718Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 4 DE JULIO DE 2019 SE TERMINA E PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 522,
+      "createdAt": "2024-02-07T03:34:20.718Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 29 DE AGOSTO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 522,
+      "createdAt": "2024-02-07T03:34:20.718Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 22 DE JULIO DE 2.019 SE RETIRO LA DEMANDA Y SUS ANEXOS SIN DECRETO DE MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:20.718Z"
 }

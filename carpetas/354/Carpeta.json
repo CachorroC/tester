@@ -16,7 +16,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120242,
@@ -33,7 +33,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120232,
@@ -50,7 +50,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120222,
@@ -67,7 +67,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120212,
@@ -84,7 +84,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120202,
@@ -101,7 +101,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120192,
@@ -118,7 +118,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120182,
@@ -135,7 +135,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120172,
@@ -152,7 +152,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120162,
@@ -169,7 +169,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120152,
@@ -186,7 +186,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120142,
@@ -203,7 +203,7 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     },
     {
       "idRegActuacion": 886120132,
@@ -220,10 +220,10 @@
       "cant": 13,
       "idProceso": 62939862,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:35.335Z"
+      "createdAt": "2024-02-07T03:34:06.491Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "ELDY CONSUELO MELO VILLALBA",
     "cedula": "1032388321",
@@ -232,6 +232,8 @@
     "id": 354
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "162645743",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -240,8 +242,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.068Z"
     ],
+    "id": 354,
     "llaveProceso": "11001310304520170035900",
-    "mandamientoPago": "2018-01-31T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-01-31T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 354,
@@ -273,7 +278,7 @@
     ],
     "medidasCautelares": {
       "id": 354,
-      "fechaOrdenaMedida": "2024-02-03T18:59:35.151Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:06.375Z",
       "medidaSolicitada": null
     }
   },
@@ -295,7 +300,7 @@
   ],
   "idRegUltimaAct": 886120252,
   "llaveProceso": "11001310304520170035900",
-  "nombre": "BERNARDO ANIBAL GIL TORRES",
+  "nombre": "bernardo anibal gil torres",
   "numero": 354,
   "procesos": [
     {
@@ -317,7 +322,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 886120252,
@@ -335,5 +340,31 @@
     "idProceso": 62939862,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:35.151Z"
+  "notas": [
+    {
+      "carpetaNumero": 354,
+      "createdAt": "2024-02-07T03:34:06.375Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "25 DE MAYO DE 2018 EL JUZGADO ORDENA OFICIAR A ISNTRUMENTOS PUBLICOS NO SALIO OFICIO DE EMBARGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 354,
+      "createdAt": "2024-02-07T03:34:06.375Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 DE JUNIO TERMINA PROCESO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 354,
+      "createdAt": "2024-02-07T03:34:06.375Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 16 DE JULIO DE 2018 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:06.376Z"
 }

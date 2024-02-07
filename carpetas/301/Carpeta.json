@@ -1,7 +1,7 @@
 {
   "id": 35220385,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 301
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "43021",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "43026",
     "fechaPresentacion": [],
+    "id": 301,
     "llaveProceso": "25322418900120180002200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "GUASCA",
     "notificacion": {
       "id": 301,
@@ -48,7 +51,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 301,
-      "fechaOrdenaMedida": "2024-02-03T18:59:27.531Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:01.265Z",
       "medidaSolicitada": null
     }
   },
@@ -68,12 +71,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25322418900120180002200",
-  "nombre": "BLANCA YOLANDA ACOSTA RODRIGUEZ",
+  "nombre": "blanca yolanda acosta rodriguez",
   "numero": 301,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:27.531Z"
+  "notas": [
+    {
+      "carpetaNumero": 301,
+      "createdAt": "2024-02-07T03:34:01.265Z",
+      "pathname": null,
+      "dueDate": "2019-06-02T05:00:00.000Z",
+      "text": "EL 2/05/2019 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 301,
+      "createdAt": "2024-02-07T03:34:01.265Z",
+      "pathname": null,
+      "dueDate": "2019-12-29T05:00:00.000Z",
+      "text": " EL 29/11/2019 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 301,
+      "createdAt": "2024-02-07T03:34:01.265Z",
+      "pathname": null,
+      "dueDate": "2019-11-01T05:00:00.000Z",
+      "text": " EL 1/10/2019 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:01.265Z"
 }

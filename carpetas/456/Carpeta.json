@@ -1,7 +1,7 @@
 {
   "id": 26407097,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 456
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "24310470",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2018-06-29T05:00:16.000Z",
     "etapaProcesal": "11001410375120180112100",
     "fechaPresentacion": [],
+    "id": 456,
     "llaveProceso": "11001410375120180112100",
-    "mandamientoPago": "2018-07-06T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-07-06T05:00:16.000Z"
+    ],
     "municipio": "KENNEDY",
     "notificacion": {
       "id": 456,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 456,
-      "fechaOrdenaMedida": "2024-02-03T18:59:47.955Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:16.186Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001410375120180112100",
-  "nombre": "ANA LUCIA YAÑEZ VARGAS (FALLECIDA)",
+  "nombre": "ana lucia yañez vargas (fallecida)",
   "numero": 456,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:47.956Z"
+  "notas": [
+    {
+      "carpetaNumero": 456,
+      "createdAt": "2024-02-07T03:34:16.186Z",
+      "pathname": null,
+      "dueDate": "2021-05-21T05:00:00.000Z",
+      "text": "EL 21/04/2021 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 456,
+      "createdAt": "2024-02-07T03:34:16.186Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR Y A CARGO DE LA PARTE DEMANDADA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:16.186Z"
 }

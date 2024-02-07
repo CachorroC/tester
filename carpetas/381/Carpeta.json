@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:39.264Z"
+      "createdAt": "2024-02-07T03:34:09.436Z"
     },
     {
       "idRegActuacion": 224371291,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:39.264Z"
+      "createdAt": "2024-02-07T03:34:09.436Z"
     },
     {
       "idRegActuacion": 224371281,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:39.264Z"
+      "createdAt": "2024-02-07T03:34:09.436Z"
     },
     {
       "idRegActuacion": 224371271,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:39.264Z"
+      "createdAt": "2024-02-07T03:34:09.436Z"
     },
     {
       "idRegActuacion": 224371261,
@@ -84,10 +84,10 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:39.264Z"
+      "createdAt": "2024-02-07T03:34:09.436Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -96,6 +96,8 @@
     "id": 381
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "24878276",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -104,8 +106,9 @@
     "fechaPresentacion": [
       "2018-01-24T05:00:00.000Z"
     ],
+    "id": 381,
     "llaveProceso": "11001400304120180007500",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 381,
@@ -137,7 +140,7 @@
     ],
     "medidasCautelares": {
       "id": 381,
-      "fechaOrdenaMedida": "2024-02-03T18:59:39.216Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:09.361Z",
       "medidaSolicitada": null
     }
   },
@@ -159,7 +162,7 @@
   ],
   "idRegUltimaAct": 224371301,
   "llaveProceso": "11001400304120180007500",
-  "nombre": "NIELCEN MARISOL MARIN MELO",
+  "nombre": "nielcen marisol marin melo",
   "numero": 381,
   "procesos": [
     {
@@ -181,7 +184,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 224371301,
@@ -199,5 +202,31 @@
     "idProceso": 19431801,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:39.216Z"
+  "notas": [
+    {
+      "carpetaNumero": 381,
+      "createdAt": "2024-02-07T03:34:09.361Z",
+      "pathname": null,
+      "dueDate": "2018-05-06T05:00:00.000Z",
+      "text": "EL 6/04/2018 SE RETIRO LA DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 381,
+      "createdAt": "2024-02-07T03:34:09.361Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 6 /04/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 381,
+      "createdAt": "2024-02-07T03:34:09.361Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO HUBO MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:09.362Z"
 }

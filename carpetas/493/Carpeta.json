@@ -1,7 +1,7 @@
 {
   "id": 53103504,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "LEINY ANDREA QUINTERO FIERRO",
     "cedula": "1030602928",
@@ -10,6 +10,8 @@
     "id": 493
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "21035323",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "2018-09-29T05:00:00.000Z"
     ],
+    "id": 493,
     "llaveProceso": "11001410375120180181700",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 493,
@@ -49,7 +52,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 493,
-      "fechaOrdenaMedida": "2024-02-03T18:59:50.259Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:18.805Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001410375120180181700",
-  "nombre": "KELLY YULIANA QUINTERO FIERRO",
+  "nombre": "kelly yuliana quintero fierro",
   "numero": 493,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:50.259Z"
+  "notas": [
+    {
+      "carpetaNumero": 493,
+      "createdAt": "2024-02-07T03:34:18.805Z",
+      "pathname": null,
+      "dueDate": "2019-02-04T05:00:00.000Z",
+      "text": "EL  4/01/2019 EL JUZDADO TERMINA PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 493,
+      "createdAt": "2024-02-07T03:34:18.805Z",
+      "pathname": null,
+      "dueDate": "2020-02-14T05:00:00.000Z",
+      "text": " EL 14/01/2020 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 493,
+      "createdAt": "2024-02-07T03:34:18.805Z",
+      "pathname": null,
+      "dueDate": "2023-02-19T05:00:00.000Z",
+      "text": " EL 19/01/2023 SE SOLICITO CERTIFICADO DE TRADICIÓN SIN MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:18.805Z"
 }

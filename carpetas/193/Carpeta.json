@@ -10,6 +10,8 @@
     "id": 193
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "24590710",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-08-23T05:00:16.000Z"
     ],
+    "id": 193,
     "llaveProceso": "11001400302420170175000",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-02-15T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 193,
@@ -71,12 +76,70 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400302420170175000",
-  "nombre": "CARMEN ELIZABETH QUESADA MARTINEZ",
+  "nombre": "carmen elizabeth quesada martinez",
   "numero": 193,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:59.495Z"
+  "notas": [
+    {
+      "carpetaNumero": 193,
+      "createdAt": "2024-02-07T03:33:49.164Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "HIBRIDO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 193,
+      "createdAt": "2024-02-07T03:33:49.164Z",
+      "pathname": null,
+      "dueDate": "2023-03-20T05:00:00.000Z",
+      "text": "20/02/2023 SE ENVIA MEMORIAL SOLICITANDO DESPACHO COMISORIO SECUESTRO DEL AUTOMOTOR PARA GUASCA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 193,
+      "createdAt": "2024-02-07T03:33:49.164Z",
+      "pathname": null,
+      "dueDate": "2023-03-24T05:00:00.000Z",
+      "text": " 24/02/2023 PROCESO INGRESA AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 193,
+      "createdAt": "2024-02-07T03:33:49.164Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 JULIO 2023 SE REENVIA MEMORIAL SOLICITANDO SECUESTRO EN GUASCA Y NO TENER EN CUENTA CAUCION.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 193,
+      "createdAt": "2024-02-07T03:33:49.164Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 12 DE JULIO SE ENVIA NUEVAMNTE SOLICITUD SECUESTRO GUASCA SIN TENER EN CUENYTA CAUCION.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 193,
+      "createdAt": "2024-02-07T03:33:49.164Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 27 SEPT 2023 REINTEGRA RADICA CESION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 193,
+      "createdAt": "2024-02-07T03:33:49.164Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 OCTUBRE 2023 SE ENVIA MEMORIAL NO ACPTANDO CAUCION",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:49.165Z"
 }

@@ -16,7 +16,7 @@
       "cant": 2,
       "idProceso": 51570460,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:27.462Z"
+      "createdAt": "2024-02-07T03:34:01.129Z"
     },
     {
       "idRegActuacion": 857000680,
@@ -33,10 +33,10 @@
       "cant": 2,
       "idProceso": 51570460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:27.462Z"
+      "createdAt": "2024-02-07T03:34:01.129Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -45,6 +45,8 @@
     "id": 298
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "96442977",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -53,8 +55,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.025Z"
     ],
+    "id": 298,
     "llaveProceso": "11001400307820170098600",
-    "mandamientoPago": "2017-10-20T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-20T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 298,
@@ -108,7 +113,7 @@
   ],
   "idRegUltimaAct": 857000690,
   "llaveProceso": "11001400307820170098600",
-  "nombre": "HECTOR GABRIEL RAMIREZ BOHORQUEZ",
+  "nombre": "hector gabriel ramirez bohorquez",
   "numero": 298,
   "procesos": [
     {
@@ -130,7 +135,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 857000690,
@@ -148,5 +153,31 @@
     "idProceso": 51570460,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:27.421Z"
+  "notas": [
+    {
+      "carpetaNumero": 298,
+      "createdAt": "2024-02-07T03:34:01.017Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 22 DE OCTUBRE DE 2018 SE TERMINO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 298,
+      "createdAt": "2024-02-07T03:34:01.017Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 17 DE ENERO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 298,
+      "createdAt": "2024-02-07T03:34:01.017Z",
+      "pathname": null,
+      "dueDate": "2018-11-23T05:00:00.000Z",
+      "text": "EL 23/10/2018 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR SEGÚN CERTIFICADO DE TRADICIÓN",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:01.017Z"
 }

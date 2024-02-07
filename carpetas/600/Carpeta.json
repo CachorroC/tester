@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 162562561,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:50.173Z"
+      "createdAt": "2024-02-07T03:34:27.366Z"
     },
     {
       "idRegActuacion": 1325547101,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 162562561,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.173Z"
+      "createdAt": "2024-02-07T03:34:27.366Z"
     },
     {
       "idRegActuacion": 1325547091,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 162562561,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.173Z"
+      "createdAt": "2024-02-07T03:34:27.366Z"
     },
     {
       "idRegActuacion": 1320276671,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 162562561,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.173Z"
+      "createdAt": "2024-02-07T03:34:27.366Z"
     },
     {
       "idRegActuacion": 1320276661,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 162562561,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.173Z"
+      "createdAt": "2024-02-07T03:34:27.366Z"
     }
   ],
   "category": "Bancolombia",
@@ -96,14 +96,17 @@
     "id": 600
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "85581623",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-21T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 600,
     "llaveProceso": "11001400304220230122300",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 600,
@@ -137,7 +140,7 @@
     ],
     "medidasCautelares": {
       "id": 600,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.124Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.289Z",
       "medidaSolicitada": null
     }
   },
@@ -159,7 +162,7 @@
   ],
   "idRegUltimaAct": 1329110771,
   "llaveProceso": "11001400304220230122300",
-  "nombre": "DIANA PATRICIA ESCOBAR CASTRO",
+  "nombre": "diana patricia escobar castro",
   "numero": 600,
   "procesos": [
     {
@@ -199,5 +202,15 @@
     "idProceso": 162562561,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:50.124Z"
+  "notas": [
+    {
+      "carpetaNumero": 600,
+      "createdAt": "2024-02-07T03:34:27.289Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "22 NOV SE RADICA DEMANDA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.290Z"
 }

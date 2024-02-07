@@ -1,5 +1,6 @@
 import { IntDeudor } from '../types/carpetas';
 import { RawDb } from '../types/raw-db';
+import { client } from './newJudicial';
 
 export class Tel {
   fijo: string | null;
@@ -143,4 +144,55 @@ export class ClassDeudor implements IntDeudor {
   cedula: string;
   direccion: string | null;
   email: string | null;
+  async prismaUpdateDeudor () {
+    try {
+      const upserter = await client.deudor.upsert(
+        {
+          where: {
+            id: this.id
+          },
+          create: {
+            id             : this.id,
+            telCelular     : this.telCelular,
+            cedula         : this.cedula,
+            primerApellido : this.primerApellido,
+            primerNombre   : this.primerNombre,
+            segundoApellido: this.segundoApellido,
+            direccion      : this.direccion,
+            segundoNombre  : this.segundoNombre,
+            email          : this.email,
+            carpeta        : {
+              connect: {
+                numero: this.id
+              }
+            },
+          },
+          update: {
+            id             : this.id,
+            telCelular     : this.telCelular,
+            cedula         : this.cedula,
+            primerApellido : this.primerApellido,
+            primerNombre   : this.primerNombre,
+            segundoApellido: this.segundoApellido,
+            direccion      : this.direccion,
+            segundoNombre  : this.segundoNombre,
+            email          : this.email,
+            carpeta        : {
+              connect: {
+                numero: this.id
+              }
+            },
+          }
+        }
+      );
+      return upserter;
+    } catch ( error ) {
+      console.log(
+        `ClassDemanda prismaUpdateDemanda ${ JSON.stringify(
+          error
+        ) }`
+      );
+      return null;
+    }
+  }
 }

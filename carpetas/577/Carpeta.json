@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:47.788Z"
+      "createdAt": "2024-02-07T03:34:25.440Z"
     },
     {
       "idRegActuacion": 1872445900,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.788Z"
+      "createdAt": "2024-02-07T03:34:25.440Z"
     },
     {
       "idRegActuacion": 1872445890,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.788Z"
+      "createdAt": "2024-02-07T03:34:25.440Z"
     },
     {
       "idRegActuacion": 1872445880,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.788Z"
+      "createdAt": "2024-02-07T03:34:25.440Z"
     },
     {
       "idRegActuacion": 1855375910,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.788Z"
+      "createdAt": "2024-02-07T03:34:25.440Z"
     },
     {
       "idRegActuacion": 1855375900,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 132645230,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.788Z"
+      "createdAt": "2024-02-07T03:34:25.440Z"
     }
   ],
   "category": "Bancolombia",
@@ -113,14 +113,17 @@
     "id": 577
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "26690131",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2021-08-18T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 577,
     "llaveProceso": "11001418904120230021200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 577,
@@ -154,7 +157,7 @@
     ],
     "medidasCautelares": {
       "id": 577,
-      "fechaOrdenaMedida": "2024-02-03T18:58:47.732Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.330Z",
       "medidaSolicitada": null
     }
   },
@@ -176,7 +179,7 @@
   ],
   "idRegUltimaAct": 1872445910,
   "llaveProceso": "11001418904120230021200",
-  "nombre": "INDIRA MAYERLY FLOREZ CASTRO",
+  "nombre": "indira mayerly florez castro",
   "numero": 577,
   "procesos": [
     {
@@ -216,5 +219,63 @@
     "idProceso": 132645230,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:47.732Z"
+  "notas": [
+    {
+      "carpetaNumero": 577,
+      "createdAt": "2024-02-07T03:34:25.330Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "22 DE AGOSTO DE 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 577,
+      "createdAt": "2024-02-07T03:34:25.330Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 7 SEPT 2023 AUTO LIBRA MANDAMIENTO DE PAGO Y MEDIDA CAUTELAR  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 577,
+      "createdAt": "2024-02-07T03:34:25.330Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MANDAMIENTO OK ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 577,
+      "createdAt": "2024-02-07T03:34:25.330Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 9 NOV LLEGAN OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 577,
+      "createdAt": "2024-02-07T03:34:25.330Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 NOV 2023 SE RADICA OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 577,
+      "createdAt": "2024-02-07T03:34:25.330Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "24 NOV 2023 SE ENVIA NOTIFICACION + A JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 577,
+      "createdAt": "2024-02-07T03:34:25.330Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.330Z"
 }

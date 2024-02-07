@@ -1,7 +1,7 @@
 {
   "id": 1018430139,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "JHON  HADER OTALVARO  ROMO",
     "cedula": "79793904",
@@ -10,6 +10,8 @@
     "id": 413
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "52",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.216Z"
     ],
+    "id": 413,
     "llaveProceso": "25754418900220180036300",
-    "mandamientoPago": "2018-05-18T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-05-18T05:00:16.000Z"
+    ],
     "municipio": "SOACHA ",
     "notificacion": {
       "id": 413,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 413,
-      "fechaOrdenaMedida": "2024-02-03T18:59:42.506Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:12.685Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754418900220180036300",
-  "nombre": "LUISA FERNANDA SALAZAR  PATARROYO",
+  "nombre": "luisa fernanda salazar  patarroyo",
   "numero": 413,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:42.506Z"
+  "notas": [
+    {
+      "carpetaNumero": 413,
+      "createdAt": "2024-02-07T03:34:12.685Z",
+      "pathname": null,
+      "dueDate": "2019-02-21T05:00:00.000Z",
+      "text": "21/01/2019 EL JUZGADO DICTA AUTO TERMINA PROCESO POR PAGO DE LA MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 413,
+      "createdAt": "2024-02-07T03:34:12.685Z",
+      "pathname": null,
+      "dueDate": "2018-12-01T05:00:00.000Z",
+      "text": " 1/11/2018 SE DEVUELVEN GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 413,
+      "createdAt": "2024-02-07T03:34:12.685Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 19 DE OCTUBRE DE 2020 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:12.685Z"
 }

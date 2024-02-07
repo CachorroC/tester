@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 51342910,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:48.858Z"
+      "createdAt": "2024-02-07T03:34:17.038Z"
     },
     {
       "idRegActuacion": 856768210,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 51342910,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:48.858Z"
+      "createdAt": "2024-02-07T03:34:17.038Z"
     },
     {
       "idRegActuacion": 856768200,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 51342910,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:48.858Z"
+      "createdAt": "2024-02-07T03:34:17.038Z"
     },
     {
       "idRegActuacion": 565848280,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 51342910,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:48.858Z"
+      "createdAt": "2024-02-07T03:34:17.038Z"
     },
     {
       "idRegActuacion": 856768190,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 51342910,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:48.858Z"
+      "createdAt": "2024-02-07T03:34:17.038Z"
     },
     {
       "idRegActuacion": 856768180,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 51342910,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:48.858Z"
+      "createdAt": "2024-02-07T03:34:17.038Z"
     },
     {
       "idRegActuacion": 856768170,
@@ -118,10 +118,10 @@
       "cant": 7,
       "idProceso": 51342910,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:48.858Z"
+      "createdAt": "2024-02-07T03:34:17.038Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -130,6 +130,8 @@
     "id": 465
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "711",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -138,8 +140,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.312Z"
     ],
+    "id": 465,
     "llaveProceso": "11001400307720180085400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 465,
@@ -172,7 +175,7 @@
     ],
     "medidasCautelares": {
       "id": 465,
-      "fechaOrdenaMedida": "2024-02-03T18:59:48.813Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:16.976Z",
       "medidaSolicitada": null
     }
   },
@@ -194,7 +197,7 @@
   ],
   "idRegUltimaAct": 565848290,
   "llaveProceso": "11001400307720180085400",
-  "nombre": "GIOVANNY DURAN ANTONIO",
+  "nombre": "giovanny duran antonio",
   "numero": 465,
   "procesos": [
     {
@@ -216,7 +219,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 565848290,
@@ -234,5 +237,31 @@
     "idProceso": 51342910,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:48.813Z"
+  "notas": [
+    {
+      "carpetaNumero": 465,
+      "createdAt": "2024-02-07T03:34:16.976Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 18 DE SEPTIEMBRE DE 2018 SE TERMINO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 465,
+      "createdAt": "2024-02-07T03:34:16.976Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 17 DE ENERO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 465,
+      "createdAt": "2024-02-07T03:34:16.976Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE REGISTRARON MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:16.976Z"
 }

@@ -10,14 +10,19 @@
     "id": 491
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "18100698.65",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2018-03-09T05:00:00.000Z",
     "etapaProcesal": "11001418900820180078500",
     "fechaPresentacion": [],
+    "id": 491,
     "llaveProceso": "2018 - 00785",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-09-20T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 491,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 491,
-      "fechaOrdenaMedida": "2024-02-03T19:00:09.907Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:18.699Z",
       "medidaSolicitada": "20/11/2018"
     }
   },
@@ -72,12 +77,13 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2018 - 00785",
-  "nombre": "SANDRA PATRICIA PACHECO RAMIREZ",
+  "nombre": "sandra patricia pacheco ramirez",
   "numero": 491,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:09.907Z"
+  "notas": [],
+  "updatedAt": "2024-02-07T03:34:18.699Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 1018441487,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 3
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "33175721",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.371Z"
     ],
+    "id": 3,
     "llaveProceso": "25126408900220170071500",
-    "mandamientoPago": "2018-02-02T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-02-02T05:00:16.000Z"
+    ],
     "municipio": "CAJICA",
     "notificacion": {
       "id": 3,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 3,
-      "fechaOrdenaMedida": "2024-02-03T18:58:52.670Z",
+      "fechaOrdenaMedida": "2024-02-07T03:24:26.678Z",
       "medidaSolicitada": "OK"
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25126408900220170071500",
-  "nombre": "MARIA CLAUDIA REATIGA URREA",
+  "nombre": "maria claudia reatiga urrea",
   "numero": 3,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:52.670Z"
+  "notas": [
+    {
+      "carpetaNumero": 3,
+      "createdAt": "2024-02-07T03:24:26.678Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 11 DE FEBRERO DE 2019 SE DIO POR TERMINADO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 3,
+      "createdAt": "2024-02-07T03:24:26.678Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 12 DE DICIEMBRE DE 2021 SE CONSULTO EL RUNT Y EL VEHICULO ESTA SIN MEDIDAS CAUTELARES ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 3,
+      "createdAt": "2024-02-07T03:24:26.678Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 4 DE ABRIL DE 2019 SE DEVOLVIERON GARANTIAS A AECSA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:24:26.682Z"
 }

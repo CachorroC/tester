@@ -10,6 +10,8 @@
     "id": 427
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "21049111.79",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-02-01T05:00:16.000Z"
     ],
+    "id": 427,
     "llaveProceso": "25126408900220180004800",
-    "mandamientoPago": "2018-02-26T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-02-26T05:00:16.000Z"
+    ],
     "municipio": "CAJICA",
     "notificacion": {
       "id": 427,
@@ -73,7 +78,7 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "25126408900220180004800",
-  "nombre": "JUAN CAMILO CHINGATE PENAGOS",
+  "nombre": "juan camilo chingate penagos",
   "numero": 427,
   "procesos": [
     {
@@ -98,5 +103,63 @@
   "terminado": false,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:08.098Z"
+  "notas": [
+    {
+      "carpetaNumero": 427,
+      "createdAt": "2024-02-07T03:34:13.603Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "13NOV 2022 SE RADICA CESION REINTEGRA Y PODER CONFERIDO CCR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 427,
+      "createdAt": "2024-02-07T03:34:13.603Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 16 NOV 2022 SE ENVIA OFICIO CAPTURA NO 0348 A CORREO DE RADICACION DE LA SIJIN ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 427,
+      "createdAt": "2024-02-07T03:34:13.603Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 NOV 2022 SE RADICA LIQUIDACION CREDITO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 427,
+      "createdAt": "2024-02-07T03:34:13.603Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 13  MARZO TRTASLADO LIQUIDACION ENTRA DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 427,
+      "createdAt": "2024-02-07T03:34:13.603Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 ABRIL 2023 CONTINUA AL DESPACHO, SE SOLICITA LINK CONSUTA ROCESO AL JUZGADO.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 427,
+      "createdAt": "2024-02-07T03:34:13.603Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 22 NOV 2023 ACEPTA CESION Y APRUEBA LIQUIDACION DE CREDITO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 427,
+      "createdAt": "2024-02-07T03:34:13.603Z",
+      "pathname": null,
+      "dueDate": "2024-01-14T05:00:00.000Z",
+      "text": " 14/12/2023 SE REQUIERA A SIJIN PARA VERIFICAR QUE EL VEHICULO TIENE CUBRIMIENTO NACIONAL DE APREHENSIÓN",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:13.603Z"
 }

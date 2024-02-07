@@ -1,7 +1,7 @@
 {
   "id": 53053612,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 192
   },
   "demanda": {
+    "liquidacion": "29062018",
+    "avaluo": "1000",
     "capitalAdeudado": "38393691.1",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-09-01T05:00:00.000Z"
     ],
+    "id": 192,
     "llaveProceso": "1100140030732017015300",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2017-11-28T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 192,
@@ -53,7 +58,7 @@
     ],
     "medidasCautelares": {
       "id": 192,
-      "fechaOrdenaMedida": "2024-02-03T18:59:16.769Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:49.109Z",
       "medidaSolicitada": null
     }
   },
@@ -73,12 +78,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "1100140030732017015300",
-  "nombre": "DIANA PATRICIA SANCHEZ SALCEDO ",
+  "nombre": "diana patricia sanchez salcedo ",
   "numero": 192,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:16.770Z"
+  "notas": [
+    {
+      "carpetaNumero": 192,
+      "createdAt": "2024-02-07T03:33:49.109Z",
+      "pathname": null,
+      "dueDate": "2019-02-18T05:00:00.000Z",
+      "text": "EL 18/01/2019 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 192,
+      "createdAt": "2024-02-07T03:33:49.109Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL DESGLOSE DE GARANTIAS Y EL LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO DE LA DEUDORA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:49.110Z"
 }

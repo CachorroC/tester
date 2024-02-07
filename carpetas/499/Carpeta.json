@@ -10,6 +10,8 @@
     "id": 499
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "24807317",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-10-12T05:00:16.000Z"
     ],
+    "id": 499,
     "llaveProceso": "2019-708",
-    "mandamientoPago": "2019-07-31T05:00:16.000Z",
+    "mandamientoPago": [
+      "2019-07-31T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 499,
@@ -72,12 +77,158 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2019-708",
-  "nombre": "FLORESMIRO APONTE ACOSTA",
+  "nombre": "floresmiro aponte acosta",
   "numero": 499,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:43.249Z"
+  "notas": [
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": "2018-11-12T05:00:00.000Z",
+      "text": "12/10/2018 RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": "2019-02-11T05:00:00.000Z",
+      "text": " 11/01/2019 INADMITE LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": "2019-03-02T05:00:00.000Z",
+      "text": " 30/01/2019 SUBSANA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": "2019-04-12T05:00:00.000Z",
+      "text": " 12/03/2019 SE RETIRA LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": "2019-06-23T05:00:00.000Z",
+      "text": " 23/05/2019 SE RADICA NUEVAMENTE DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": "2019-09-15T05:00:00.000Z",
+      "text": " 15/08/2019 SE REVOCA PODER A LAURA Y ASUME MHSG ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": "2019-09-08T05:00:00.000Z",
+      "text": " 8/08/2019 SE LIBRA MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": "2020-03-18T05:00:00.000Z",
+      "text": " 18/02/2020 SE ENVIA 291 ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": "2020-03-27T05:00:00.000Z",
+      "text": "27/02/2020 SE DEVOLVIO MEDIDA DE EMBARGO POR ERROR EN EL FOLIO DE MATRICULA INMOBILIARIA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 21 DE NOVIEMBRE DE 2022 SE RADICA MEMORIAL PIDIENDO RECONSTRUCCION DEL PROCESO EL JUZGADO EXTRAVIO EL EXPEDIENTE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " PROCESO PENDIENTE DAR POR TERMINADO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " PENDIENTE TERMINACION Y EXPEDICION PAGARE CON CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIGUE AL DESPACHO PARA RECOSTRUCCION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 25 ABRIL DE 2023 SE ENVIA MEMORIAL SOLICITANDO OFICIEN A NOTARIA 45 PARA PRIMERA COPIA DE ESCRITURA PUBLICA PARA DESGLOSE.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 8 MAYO 2023 INGRESA AL DESPACHO PARA DEICIR MEMORIAL DE ESCRITURA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 27 JUNIO EN AUTOS NADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "22 AGOSOTO SE SOLICITA CORRECION OFICIO PARA ESCRITURA",
+      "content": []
+    },
+    {
+      "carpetaNumero": 499,
+      "createdAt": "2024-02-07T03:34:19.085Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 29 SEPT SALI AUTO DE OFICIO PERO INFORMARON QUE LO ENVIAN LA SIGUIENTE SEMANA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:19.085Z"
 }

@@ -40,6 +40,7 @@ export interface IntCarpeta {
   ultimaActuacion: outActuacion | null;
 }
 
+
 export interface flatCarpeta {
   llaveProceso?: string;
   idProcesos?: number[];
@@ -235,7 +236,7 @@ export interface IntDemanda {
   fechaPresentacion: Date[];
   id: number;
   llaveProceso: string | null;
-  mandamientoPago: Date | null;
+  mandamientoPago: Date[];
   medidasCautelares: intMedidasCautelares | null;
   municipio: string | null;
   notificacion: intNotificacion | null;
@@ -243,6 +244,8 @@ export interface IntDemanda {
   radicado: string | null;
   tipoProceso: TipoProceso;
   vencimientoPagare: Date[];
+  liquidacion: Prisma.Decimal
+  avaluo: Prisma.Decimal
 }
 
 export interface intMedidasCautelares

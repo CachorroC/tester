@@ -1,7 +1,7 @@
 {
   "id": 52711938,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 470
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "26072018",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.350Z"
     ],
+    "id": 470,
     "llaveProceso": "25754418900320180084100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 470,
@@ -49,7 +52,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 470,
-      "fechaOrdenaMedida": "2024-02-03T18:59:49.300Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:17.393Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754418900320180084100",
-  "nombre": "ELIANA JANNETH LOZANO ARTURO",
+  "nombre": "eliana janneth lozano arturo",
   "numero": 470,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:49.300Z"
+  "notas": [
+    {
+      "carpetaNumero": 470,
+      "createdAt": "2024-02-07T03:34:17.393Z",
+      "pathname": null,
+      "dueDate": "2019-08-12T05:00:00.000Z",
+      "text": "EL 12/07/2019 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 470,
+      "createdAt": "2024-02-07T03:34:17.393Z",
+      "pathname": null,
+      "dueDate": "2019-11-01T05:00:00.000Z",
+      "text": " EL 1/10/2019 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 470,
+      "createdAt": "2024-02-07T03:34:17.393Z",
+      "pathname": null,
+      "dueDate": "2019-11-26T05:00:00.000Z",
+      "text": " EL 26/10/2019 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR DE EMBARGO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:17.393Z"
 }

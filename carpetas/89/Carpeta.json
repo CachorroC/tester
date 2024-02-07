@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 18162740,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:02.452Z"
+      "createdAt": "2024-02-07T03:33:37.533Z"
     },
     {
       "idRegActuacion": 265091210,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 18162740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:02.452Z"
+      "createdAt": "2024-02-07T03:33:37.533Z"
     },
     {
       "idRegActuacion": 265091200,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 18162740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:02.452Z"
+      "createdAt": "2024-02-07T03:33:37.533Z"
     },
     {
       "idRegActuacion": 265091190,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 18162740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:02.452Z"
+      "createdAt": "2024-02-07T03:33:37.533Z"
     },
     {
       "idRegActuacion": 265091180,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 18162740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:02.452Z"
+      "createdAt": "2024-02-07T03:33:37.533Z"
     },
     {
       "idRegActuacion": 265091170,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 18162740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:02.452Z"
+      "createdAt": "2024-02-07T03:33:37.533Z"
     },
     {
       "idRegActuacion": 265091160,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 18162740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:02.452Z"
+      "createdAt": "2024-02-07T03:33:37.533Z"
     },
     {
       "idRegActuacion": 265091150,
@@ -135,10 +135,10 @@
       "cant": 8,
       "idProceso": 18162740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:02.452Z"
+      "createdAt": "2024-02-07T03:33:37.533Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -147,6 +147,8 @@
     "id": 89
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "8451598",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -156,8 +158,9 @@
       "2017-07-21T05:00:00.000Z",
       "2017-09-18T05:00:00.000Z"
     ],
+    "id": 89,
     "llaveProceso": "11001400306520170093400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 89,
@@ -189,7 +192,7 @@
     ],
     "medidasCautelares": {
       "id": 89,
-      "fechaOrdenaMedida": "2024-02-03T18:59:02.397Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:37.460Z",
       "medidaSolicitada": null
     }
   },
@@ -211,7 +214,7 @@
   ],
   "idRegUltimaAct": 265091220,
   "llaveProceso": "11001400306520170093400",
-  "nombre": "JULIAN ARMANDO ACOSTA RODRIGUEZ",
+  "nombre": "julian armando acosta rodriguez",
   "numero": 89,
   "procesos": [
     {
@@ -233,7 +236,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": {
     "idRegActuacion": 265091220,
@@ -251,5 +254,23 @@
     "idProceso": 18162740,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:02.398Z"
+  "notas": [
+    {
+      "carpetaNumero": 89,
+      "createdAt": "2024-02-07T03:33:37.460Z",
+      "pathname": null,
+      "dueDate": "2017-11-17T05:00:00.000Z",
+      "text": "EL 17/10/2017 LA APODERADA DEL BANCOLOMBIA S.A. RETIRA LA DEMANDA DEL JUZGADO EN ETAPA DE MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 89,
+      "createdAt": "2024-02-07T03:33:37.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN MEDIDAS CAUTELARES DICTADAS POR EL JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:37.461Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 1065564377,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 528
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "46371154.05",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "25430400300120190116000",
     "fechaPresentacion": [],
+    "id": 528,
     "llaveProceso": "25473400100120190116000",
-    "mandamientoPago": "2019-02-09T05:00:00.000Z",
+    "mandamientoPago": [
+      "2019-09-02T05:00:00.000Z"
+    ],
     "municipio": "MADRID",
     "notificacion": {
       "id": 528,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 528,
-      "fechaOrdenaMedida": "2024-02-03T18:59:52.420Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:21.103Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25473400100120190116000",
-  "nombre": "YOLADIS ESTHER BLANCO LOPEZ",
+  "nombre": "yoladis esther blanco lopez",
   "numero": 528,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:52.421Z"
+  "notas": [
+    {
+      "carpetaNumero": 528,
+      "createdAt": "2024-02-07T03:34:21.103Z",
+      "pathname": null,
+      "dueDate": "2021-01-01T05:00:00.000Z",
+      "text": "EL 1/12/2020 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 528,
+      "createdAt": "2024-02-07T03:34:21.103Z",
+      "pathname": null,
+      "dueDate": "2021-12-11T05:00:00.000Z",
+      "text": "EL 11/11/2021 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 528,
+      "createdAt": "2024-02-07T03:34:21.103Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "Y LEVANTAMIENTO MEDIDAS CAUTELARES CON CERTIFICADO DE TRADICION",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:21.103Z"
 }

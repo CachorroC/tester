@@ -1,7 +1,7 @@
 {
   "id": 79996551,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 99
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "16215928",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-08-08T05:00:00.000Z"
     ],
+    "id": 99,
     "llaveProceso": "1100141037512017111000",
-    "mandamientoPago": "2018-01-24T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-01-24T05:00:16.000Z"
+    ],
     "municipio": "KENNEDY",
     "notificacion": {
       "id": 99,
@@ -50,7 +55,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 99,
-      "fechaOrdenaMedida": "2024-02-03T18:59:03.828Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:38.741Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +75,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "1100141037512017111000",
-  "nombre": "YONI ALEXANDER RESTREPO PEÑUELA",
+  "nombre": "yoni alexander restrepo peñuela",
   "numero": 99,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:03.828Z"
+  "notas": [
+    {
+      "carpetaNumero": 99,
+      "createdAt": "2024-02-07T03:33:38.741Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 24 DE AGOSTO DE 2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 99,
+      "createdAt": "2024-02-07T03:33:38.741Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 12 DE DICIEMBRE SE CONSULTO EL RUNT Y NO EXISTE MEDIDA CAUTELAR SOBRE EL VEHICULO ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:38.741Z"
 }

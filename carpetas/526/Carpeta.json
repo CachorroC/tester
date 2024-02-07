@@ -1,7 +1,7 @@
 {
   "id": 1072642976,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 526
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "13180105",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "2019-06-05T05:00:00.000Z"
     ],
+    "id": 526,
     "llaveProceso": "25175400300120190030400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "CHIA",
     "notificacion": {
       "id": 526,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 526,
-      "fechaOrdenaMedida": "2024-02-03T18:59:52.370Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:21.021Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25175400300120190030400",
-  "nombre": "CRISTIAN DAVID GUTIERREZ RODRIGUEZ",
+  "nombre": "cristian david gutierrez rodriguez",
   "numero": 526,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:52.370Z"
+  "notas": [
+    {
+      "carpetaNumero": 526,
+      "createdAt": "2024-02-07T03:34:21.021Z",
+      "pathname": null,
+      "dueDate": "2019-11-10T05:00:00.000Z",
+      "text": "EL 10/10/2019 EL JUZGADO DIO POR TERMINADO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 526,
+      "createdAt": "2024-02-07T03:34:21.021Z",
+      "pathname": null,
+      "dueDate": "2020-06-22T05:00:00.000Z",
+      "text": " EL 22/05/2020 SE HIZO LEVANTAMIENTO MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 526,
+      "createdAt": "2024-02-07T03:34:21.021Z",
+      "pathname": null,
+      "dueDate": "2021-06-25T05:00:00.000Z",
+      "text": " EL 25/05/2021 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:21.021Z"
 }

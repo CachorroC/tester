@@ -16,7 +16,7 @@
       "cant": 9,
       "idProceso": 134590090,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:49.669Z"
+      "createdAt": "2024-02-07T03:34:26.936Z"
     },
     {
       "idRegActuacion": 1941302050,
@@ -33,7 +33,7 @@
       "cant": 9,
       "idProceso": 134590090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.669Z"
+      "createdAt": "2024-02-07T03:34:26.936Z"
     },
     {
       "idRegActuacion": 1940178650,
@@ -50,7 +50,7 @@
       "cant": 9,
       "idProceso": 134590090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.669Z"
+      "createdAt": "2024-02-07T03:34:26.936Z"
     },
     {
       "idRegActuacion": 1937878690,
@@ -67,7 +67,7 @@
       "cant": 9,
       "idProceso": 134590090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.669Z"
+      "createdAt": "2024-02-07T03:34:26.936Z"
     },
     {
       "idRegActuacion": 1937878680,
@@ -84,7 +84,7 @@
       "cant": 9,
       "idProceso": 134590090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.669Z"
+      "createdAt": "2024-02-07T03:34:26.936Z"
     },
     {
       "idRegActuacion": 1937878670,
@@ -101,7 +101,7 @@
       "cant": 9,
       "idProceso": 134590090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.669Z"
+      "createdAt": "2024-02-07T03:34:26.936Z"
     },
     {
       "idRegActuacion": 1937878660,
@@ -118,7 +118,7 @@
       "cant": 9,
       "idProceso": 134590090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.669Z"
+      "createdAt": "2024-02-07T03:34:26.936Z"
     },
     {
       "idRegActuacion": 1927145310,
@@ -135,7 +135,7 @@
       "cant": 9,
       "idProceso": 134590090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.669Z"
+      "createdAt": "2024-02-07T03:34:26.936Z"
     },
     {
       "idRegActuacion": 1927145300,
@@ -152,7 +152,7 @@
       "cant": 9,
       "idProceso": 134590090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.669Z"
+      "createdAt": "2024-02-07T03:34:26.936Z"
     }
   ],
   "category": "Bancolombia",
@@ -164,14 +164,17 @@
     "id": 595
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "17492978",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-10-20T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 595,
     "llaveProceso": "11001400306920230166900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 595,
@@ -203,7 +206,7 @@
     ],
     "medidasCautelares": {
       "id": 595,
-      "fechaOrdenaMedida": "2024-02-03T18:58:49.616Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.894Z",
       "medidaSolicitada": null
     }
   },
@@ -225,7 +228,7 @@
   ],
   "idRegUltimaAct": 1944800570,
   "llaveProceso": "11001400306920230166900",
-  "nombre": "JAVIER ARIAS VEGA",
+  "nombre": "javier arias vega",
   "numero": 595,
   "procesos": [
     {
@@ -265,5 +268,55 @@
     "idProceso": 134590090,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:49.616Z"
+  "notas": [
+    {
+      "carpetaNumero": 595,
+      "createdAt": "2024-02-07T03:34:26.894Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "26 OCT 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 595,
+      "createdAt": "2024-02-07T03:34:26.894Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 3 NOV INGRESA A DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 595,
+      "createdAt": "2024-02-07T03:34:26.894Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 27 NOV LIBRA MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 595,
+      "createdAt": "2024-02-07T03:34:26.894Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "/ MANDAMIENTO OK CCR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 595,
+      "createdAt": "2024-02-07T03:34:26.894Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 DIC 2023 LLEGAN OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 595,
+      "createdAt": "2024-02-07T03:34:26.894Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " RADICAR OFICIOS MAGDALENA ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.894Z"
 }

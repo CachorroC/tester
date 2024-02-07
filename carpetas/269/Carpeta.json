@@ -1,7 +1,7 @@
 {
   "id": 80162950,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 269
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "105666670",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 269,
     "llaveProceso": "25286400300120180042100",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-04-20T05:00:00.000Z"
+    ],
     "municipio": "FUNZA ",
     "notificacion": {
       "id": 269,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 269,
-      "fechaOrdenaMedida": "2024-02-03T18:59:25.612Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:58.144Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25286400300120180042100",
-  "nombre": "JUAN CARLOS ORTIZ CUERVO",
+  "nombre": "juan carlos ortiz cuervo",
   "numero": 269,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:25.612Z"
+  "notas": [
+    {
+      "carpetaNumero": 269,
+      "createdAt": "2024-02-07T03:33:58.144Z",
+      "pathname": null,
+      "dueDate": "2019-03-27T05:00:00.000Z",
+      "text": "EL 27/02/2019 EL JUZGADO DECRETO TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 269,
+      "createdAt": "2024-02-07T03:33:58.144Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL DESGLOSE CON GARANTIAS Y EL LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:58.144Z"
 }

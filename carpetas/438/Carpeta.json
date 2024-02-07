@@ -1,7 +1,7 @@
 {
   "id": 52132383,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 438
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "934",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.251Z"
     ],
+    "id": 438,
     "llaveProceso": "11001418900620180021000",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 438,
@@ -49,7 +52,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 438,
-      "fechaOrdenaMedida": "2024-02-03T18:59:45.513Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:14.735Z",
       "medidaSolicitada": "PERSONAL"
     }
   },
@@ -69,12 +72,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418900620180021000",
-  "nombre": "LUZ DARY VELANDIA GARCIA",
+  "nombre": "luz dary velandia garcia",
   "numero": 438,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:45.513Z"
+  "notas": [
+    {
+      "carpetaNumero": 438,
+      "createdAt": "2024-02-07T03:34:14.735Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 10 DE OCTUBRE DE 2018 SE DA POR TERMINADO EL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 438,
+      "createdAt": "2024-02-07T03:34:14.735Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 31 DE ENERO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:14.735Z"
 }

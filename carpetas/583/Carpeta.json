@@ -16,7 +16,7 @@
       "cant": 2,
       "idProceso": 133187160,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:48.481Z"
+      "createdAt": "2024-02-07T03:34:26.054Z"
     },
     {
       "idRegActuacion": 1874933400,
@@ -33,7 +33,7 @@
       "cant": 2,
       "idProceso": 133187160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.481Z"
+      "createdAt": "2024-02-07T03:34:26.054Z"
     }
   ],
   "category": "Bancolombia",
@@ -45,14 +45,17 @@
     "id": 583
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "21652918",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-09-05T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 583,
     "llaveProceso": "11001400308120230141400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 583,
@@ -86,7 +89,7 @@
     ],
     "medidasCautelares": {
       "id": 583,
-      "fechaOrdenaMedida": "2024-02-03T18:58:48.353Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.976Z",
       "medidaSolicitada": null
     }
   },
@@ -108,7 +111,7 @@
   ],
   "idRegUltimaAct": 1877745020,
   "llaveProceso": "11001400308120230141400",
-  "nombre": "ALBA YANETH APARICIO SANDOVAL",
+  "nombre": "alba yaneth aparicio sandoval",
   "numero": 583,
   "procesos": [
     {
@@ -148,5 +151,31 @@
     "idProceso": 133187160,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:48.354Z"
+  "notas": [
+    {
+      "carpetaNumero": 583,
+      "createdAt": "2024-02-07T03:34:25.975Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "7 SEPTIEMBRE SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 583,
+      "createdAt": "2024-02-07T03:34:25.976Z",
+      "pathname": null,
+      "dueDate": "2023-10-12T05:00:00.000Z",
+      "text": " 12/09/2023 AL DESPACHO POR REPARTO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 583,
+      "createdAt": "2024-02-07T03:34:25.976Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 25 ENERO 2023 SE ENVIA IMPULSO PROCESAL A JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.976Z"
 }

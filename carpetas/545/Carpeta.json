@@ -1,7 +1,7 @@
 {
   "id": 79295686,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 545
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 545,
     "llaveProceso": null,
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 545,
@@ -45,7 +48,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 545,
-      "fechaOrdenaMedida": "2024-02-03T18:59:53.168Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:22.727Z",
       "medidaSolicitada": null
     }
   },
@@ -65,12 +68,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "undefined",
-  "nombre": "JAIRO ALDANA VILLAMIZAR",
+  "nombre": "jairo aldana villamizar",
   "numero": 545,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:53.168Z"
+  "notas": [
+    {
+      "carpetaNumero": 545,
+      "createdAt": "2024-02-07T03:34:22.727Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "PROCESO ELECTRONICO NO HUBO NECESIDAD DE DEVOLVER GARANTIAS FISICAS DECRETO 806 DE 2020",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:22.727Z"
 }

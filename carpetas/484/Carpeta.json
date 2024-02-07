@@ -1,7 +1,7 @@
 {
   "id": 30339083,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "NELSON MENDEZ VERJAN",
     "cedula": "14277736",
@@ -10,14 +10,19 @@
     "id": 484
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "26503794.57",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2018-06-09T05:00:00.000Z",
     "etapaProcesal": "25754418900320190027000",
     "fechaPresentacion": [],
+    "id": 484,
     "llaveProceso": "25754418900320190027000",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-09-18T05:00:00.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 484,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 484,
-      "fechaOrdenaMedida": "2024-02-03T18:59:49.868Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:18.255Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754418900320190027000",
-  "nombre": "JENNY  ANDREA AVILA GARZON ",
+  "nombre": "jenny  andrea avila garzon ",
   "numero": 484,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:49.868Z"
+  "notas": [
+    {
+      "carpetaNumero": 484,
+      "createdAt": "2024-02-07T03:34:18.255Z",
+      "pathname": null,
+      "dueDate": "2021-11-28T05:00:00.000Z",
+      "text": "EL 28/10/2021 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 484,
+      "createdAt": "2024-02-07T03:34:18.255Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " DESGLOSE DE GARANTIAS Y LEVANTAMIENTO DE MEDIDA CAUTELAR A CARGO Y EN FAVOR DE LA PARTE DEMANDADA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:18.255Z"
 }

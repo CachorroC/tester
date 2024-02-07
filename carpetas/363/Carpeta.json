@@ -16,10 +16,10 @@
       "cant": 1,
       "idProceso": 167403471,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.541Z"
+      "createdAt": "2024-02-07T03:34:07.404Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -28,6 +28,8 @@
     "id": 363
   },
   "demanda": {
+    "liquidacion": "9102018",
+    "avaluo": "1981000",
     "capitalAdeudado": "4122017",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -36,8 +38,9 @@
     "fechaPresentacion": [
       "2018-01-16T05:00:00.000Z"
     ],
+    "id": 363,
     "llaveProceso": "25754400300220170040900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 363,
@@ -90,7 +93,7 @@
   ],
   "idRegUltimaAct": 910129771,
   "llaveProceso": "25754400300220170040900",
-  "nombre": "MARIA LILIANA CASTAÑEDA ZAPATA",
+  "nombre": "maria liliana castañeda zapata",
   "numero": 363,
   "procesos": [
     {
@@ -112,7 +115,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 910129771,
@@ -130,5 +133,31 @@
     "idProceso": 167403471,
     "isUltimaAct": false
   },
-  "updatedAt": "2024-02-03T18:59:36.507Z"
+  "notas": [
+    {
+      "carpetaNumero": 363,
+      "createdAt": "2024-02-07T03:34:07.365Z",
+      "pathname": null,
+      "dueDate": "2019-10-06T05:00:00.000Z",
+      "text": "EL 6/09/2019 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 363,
+      "createdAt": "2024-02-07T03:34:07.365Z",
+      "pathname": null,
+      "dueDate": "2019-11-02T05:00:00.000Z",
+      "text": " EL 2/10/2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 363,
+      "createdAt": "2024-02-07T03:34:07.365Z",
+      "pathname": null,
+      "dueDate": "2019-11-28T05:00:00.000Z",
+      "text": "  EL 28/10/2019 SE HIZO EL LEVANTAMIENTO DE LAS MEDIDAS CAUTELARES DESEMBARGO DEL INMUEBLE",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:07.365Z"
 }

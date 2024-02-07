@@ -1,7 +1,7 @@
 {
   "id": 11339859,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 497
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "23678920",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "2018-10-03T05:00:00.000Z"
     ],
+    "id": 497,
     "llaveProceso": "25899410300120180043500",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "ZIPAQUIRA",
     "notificacion": {
       "id": 497,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 497,
-      "fechaOrdenaMedida": "2024-02-03T18:59:50.576Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:19.016Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25899410300120180043500",
-  "nombre": "ROQUE ANTONIO SANCHEZ",
+  "nombre": "roque antonio sanchez",
   "numero": 497,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:50.576Z"
+  "notas": [
+    {
+      "carpetaNumero": 497,
+      "createdAt": "2024-02-07T03:34:19.016Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 27 DE OCTUBRE DE 2018 SE RETIRA LA DEMANDA DEL JUZGADO Y SE DEVUELVEN GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:19.016Z"
 }

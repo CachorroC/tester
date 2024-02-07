@@ -16,7 +16,7 @@
       "cant": 3,
       "idProceso": 112967583,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T19:00:12.080Z"
+      "createdAt": "2024-02-07T03:34:22.412Z"
     },
     {
       "idRegActuacion": 1124270563,
@@ -33,7 +33,7 @@
       "cant": 3,
       "idProceso": 112967583,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T19:00:12.080Z"
+      "createdAt": "2024-02-07T03:34:22.412Z"
     },
     {
       "idRegActuacion": 1111340493,
@@ -50,7 +50,7 @@
       "cant": 3,
       "idProceso": 112967583,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T19:00:12.080Z"
+      "createdAt": "2024-02-07T03:34:22.412Z"
     }
   ],
   "category": "Reintegra",
@@ -62,6 +62,8 @@
     "id": 541
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "39855851",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -70,8 +72,11 @@
     "fechaPresentacion": [
       "2018-09-10T05:00:00.000Z"
     ],
+    "id": 541,
     "llaveProceso": "11001400308220180096400",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-09-17T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 541,
@@ -121,14 +126,14 @@
     "direccion": "CARRERA 81 G No 48-03 SUR",
     "email": "jrestradacastillo@gmail.com"
   },
-  "fecha": "2023-08-29T05:00:00.000Z",
+  "fecha": "2022-03-24T05:00:00.000Z",
   "idProcesos": [
     52160520,
     112967583
   ],
-  "idRegUltimaAct": 1649571513,
+  "idRegUltimaAct": 1266283860,
   "llaveProceso": "11001400308220180096400",
-  "nombre": "JOSE RAMON ESTRADA CASTILLO",
+  "nombre": "jose ramon estrada castillo",
   "numero": 541,
   "procesos": [
     {
@@ -170,20 +175,70 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
-    "idRegActuacion": 1649571513,
+    "idRegActuacion": 1266283860,
     "llaveProceso": "11001400308220180096400",
-    "consActuacion": 3,
-    "fechaActuacion": "2023-08-29T05:00:00.000Z",
-    "actuacion": "Recepción Memorial Centro de Servicios Administrativos",
-    "anotacion": "dta allegan devulucion despacho comisiorio Nro 74 sin aux",
+    "consActuacion": 66,
+    "fechaActuacion": "2022-03-24T05:00:00.000Z",
+    "actuacion": "Constancia secretarial",
+    "anotacion": "Pasa para baranda - PaulaA Ramírez ",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2023-08-29T05:00:00.000Z",
+    "fechaRegistro": "2022-03-24T05:00:00.000Z",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 3,
-    "idProceso": 112967583,
+    "cant": 66,
+    "idProceso": 52160520,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T19:00:11.752Z"
+  "notas": [
+    {
+      "carpetaNumero": 541,
+      "createdAt": "2024-02-07T03:34:22.350Z",
+      "pathname": null,
+      "dueDate": "2023-04-01T05:00:00.000Z",
+      "text": "1/03/2023 RESPUESTA DERECHO DE PETICION SE PROGRAMARÁ DESPACHO COMISORIO Y SE AVISARÁ POR CORREO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 541,
+      "createdAt": "2024-02-07T03:34:22.350Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SE ENVIA INVITACION A REGULARIZAR EL CREDITO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 541,
+      "createdAt": "2024-02-07T03:34:22.350Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " DILIGENCIA SECUESTRO 15 AGOSOTO 2023 ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 541,
+      "createdAt": "2024-02-07T03:34:22.350Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 AGOSTO 2023 BNO SE REALIZO DILIGENCIA ERROR EN DIRECCION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 541,
+      "createdAt": "2024-02-07T03:34:22.350Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SOLICITAR A COMISARIA DEVOLUCION DC Y JUZGADO OFICIAR OFICINA DE INSTRUMENTOIS ENVIGADO SOBRE CORRECCION DIRECCION  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 541,
+      "createdAt": "2024-02-07T03:34:22.351Z",
+      "pathname": null,
+      "dueDate": "2024-01-13T05:00:00.000Z",
+      "text": " 13/12/2023 SE ENVIO SOLICITUD PARA REALIZAR DILIGENCIA DE SECUESTRO DEL INMUEBLE A LA ALCALDIA DE ENVIGADO INSPECCION DE POLICIA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:22.351Z"
 }

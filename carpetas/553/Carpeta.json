@@ -1,7 +1,7 @@
 {
   "id": 80220698,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 553
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "31804872",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-06-20T05:00:16.000Z",
     "etapaProcesal": "HMM PISO",
     "fechaPresentacion": [],
+    "id": 553,
     "llaveProceso": null,
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 553,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 553,
-      "fechaOrdenaMedida": "2024-02-03T18:59:53.853Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.256Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,62 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "undefined",
-  "nombre": "JOSE ALEXANDER LAVERDE PENAGOS",
+  "nombre": "jose alexander laverde penagos",
   "numero": 553,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:53.853Z"
+  "notas": [
+    {
+      "carpetaNumero": 553,
+      "createdAt": "2024-02-07T03:34:23.256Z",
+      "pathname": null,
+      "dueDate": "2023-07-21T05:00:00.000Z",
+      "text": "21/06/2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 553,
+      "createdAt": "2024-02-07T03:34:23.256Z",
+      "pathname": null,
+      "dueDate": "2023-08-12T05:00:00.000Z",
+      "text": " 12/07/2023 INGRESA AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 553,
+      "createdAt": "2024-02-07T03:34:23.256Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 31 AGOSTO 2023 AUTO LIBRA MANDAMIENTO PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 553,
+      "createdAt": "2024-02-07T03:34:23.256Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 SEPTIEMBRE ELABORA OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 553,
+      "createdAt": "2024-02-07T03:34:23.256Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 19 OCT 2023 SE ENVIA MEMORIAL CON TERMINACION PAGO DE LA MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 553,
+      "createdAt": "2024-02-07T03:34:23.256Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 18 DIC 2023 AUTO TERMINA POR PAGO DE LA MORA / SIN DESGLOSE DIGITAL",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.256Z"
 }

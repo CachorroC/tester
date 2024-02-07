@@ -1,7 +1,7 @@
 {
   "id": 52770471,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 259
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "79266368",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.999Z"
     ],
+    "id": 259,
     "llaveProceso": "11001400303920170125600",
-    "mandamientoPago": "2017-11-01T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-11-01T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 259,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 259,
-      "fechaOrdenaMedida": "2024-02-03T18:59:24.527Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:56.952Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400303920170125600",
-  "nombre": "LUZ NELLY RUIZ LARA ",
+  "nombre": "luz nelly ruiz lara ",
   "numero": 259,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:24.527Z"
+  "notas": [
+    {
+      "carpetaNumero": 259,
+      "createdAt": "2024-02-07T03:33:56.952Z",
+      "pathname": null,
+      "dueDate": "2018-08-17T05:00:00.000Z",
+      "text": "EL 17/07/2018 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 259,
+      "createdAt": "2024-02-07T03:33:56.952Z",
+      "pathname": null,
+      "dueDate": "2018-12-27T05:00:00.000Z",
+      "text": " EL 27/11/2018 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 259,
+      "createdAt": "2024-02-07T03:33:56.952Z",
+      "pathname": null,
+      "dueDate": "2018-09-08T05:00:00.000Z",
+      "text": " EL 8/08/2018 SE DEVOLVIERON LAS GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:56.952Z"
 }

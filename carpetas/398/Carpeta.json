@@ -1,7 +1,7 @@
 {
   "id": 52465659,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 398
   },
   "demanda": {
+    "liquidacion": "10082018",
+    "avaluo": "1000",
     "capitalAdeudado": "78",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-02-07T05:00:00.000Z"
     ],
+    "id": 398,
     "llaveProceso": "25754400300120180006400",
-    "mandamientoPago": "2018-10-04T05:00:00.000Z",
+    "mandamientoPago": [
+      "2018-04-10T05:00:00.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 398,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 398,
-      "fechaOrdenaMedida": "2024-02-03T18:59:41.260Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:11.188Z",
       "medidaSolicitada": "PERSONAL"
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754400300120180006400",
-  "nombre": "LILIANA ANDREA ERAZO LOPEZ",
+  "nombre": "liliana andrea erazo lopez",
   "numero": 398,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:41.261Z"
+  "notas": [
+    {
+      "carpetaNumero": 398,
+      "createdAt": "2024-02-07T03:34:11.188Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 9 DE OCTUBRE DE 2018 SE TERMINO EL PROCESO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 398,
+      "createdAt": "2024-02-07T03:34:11.188Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 16 DE NOVIEMBRE DE 2018 SE DEVOLVIERON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 398,
+      "createdAt": "2024-02-07T03:34:11.188Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 18 DE DICIEMBRE DE 2018 SE LEVANTARON MEDIDAS CAUTELARES ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:11.188Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 80162319,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 437
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "22725077.61",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2018-05-29T05:00:16.000Z",
     "etapaProcesal": "11001418901520180021200",
     "fechaPresentacion": [],
+    "id": 437,
     "llaveProceso": "11001400371520180021200",
-    "mandamientoPago": "2018-05-31T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-05-31T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 437,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 437,
-      "fechaOrdenaMedida": "2024-02-03T18:59:45.487Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:14.701Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400371520180021200",
-  "nombre": "JAVIER ANTONIO ZIPA SALAMANCA",
+  "nombre": "javier antonio zipa salamanca",
   "numero": 437,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:45.487Z"
+  "notas": [
+    {
+      "carpetaNumero": 437,
+      "createdAt": "2024-02-07T03:34:14.701Z",
+      "pathname": null,
+      "dueDate": "2021-08-02T05:00:00.000Z",
+      "text": "EL 2/07/2021 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 437,
+      "createdAt": "2024-02-07T03:34:14.701Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR Y A CARGO DE LA PARTE DEMANDADA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:14.701Z"
 }

@@ -1,6 +1,7 @@
-import { Juzgado, } from '@prisma/client';
+
 import { Despachos } from '../data/despachos';
 import { IntDemanda,
+  Juzgado,
   TipoProceso,
   intNotificacion, } from '../types/carpetas';
 import { intProceso } from '../types/procesos';
@@ -10,7 +11,7 @@ import { RawDb } from '../types/raw-db';
 import { Decimal } from '@prisma/client/runtime/library';
 import { dateArrayBuilder } from './date-array-builder';
 import { capitalBuilder } from './capital-builder';
-
+import { client } from './newJudicial';
 
 export function juzgadosByProceso(
   procesos: intProceso[]
@@ -125,6 +126,8 @@ export class ClassDemanda implements IntDemanda {
       MEDIDA_SOLICITADA: medidaSolicitada,
       OBLIGACION_0: A,
       OBLIGACION_1: B,
+      VALOR_LIQUIDACION,
+      VALOR_AVALUO
 
     } = rawCarpeta;
     rawCarpeta.FECHA_PRESENTACION_DEMANDA;
@@ -134,6 +137,9 @@ export class ClassDemanda implements IntDemanda {
         fechaOrdenaMedidas
       )
       : new Date();
+    this.id = Number(
+      NUMERO
+    );
     this.medidasCautelares = {
       id: Number(
         NUMERO
@@ -177,24 +183,9 @@ export class ClassDemanda implements IntDemanda {
     this.notificacion = new ClassNotificacion(
       rawCarpeta
     );
-
-    const dateMandamientoPago = mandamientoPago
-      ? new Date(
-        mandamientoPago
-      )
-      : null;
-
-    if ( !dateMandamientoPago ) {
-      this.mandamientoPago = null;
-    } else {
-      const isValidDate = dateMandamientoPago.toString() !== 'Invalid Date';
-
-      if ( !isValidDate ) {
-        this.mandamientoPago = null;
-      } else {
-        this.mandamientoPago = dateMandamientoPago;
-      }
-    }
+    this.mandamientoPago = dateArrayBuilder(
+      mandamientoPago
+    );
 
     const dateEntregaGarantiasAbogado = entregaGarantiasAbogado
       ? new Date(
@@ -248,7 +239,18 @@ export class ClassDemanda implements IntDemanda {
         llaveProceso
       )
       : null;
+    this.avaluo=  capitalBuilder(
+      VALOR_AVALUO
+    );
+    this.liquidacion=  capitalBuilder(
+      VALOR_LIQUIDACION
+    );
+
+
+
   }
+  liquidacion: Decimal;
+  avaluo: Decimal;
   capitalAdeudado: Decimal;
   carpetaNumero!: number;
   departamento: string | null;
@@ -256,9 +258,9 @@ export class ClassDemanda implements IntDemanda {
   entregaGarantiasAbogado: Date | null;
   etapaProcesal: string | null;
   fechaPresentacion: Date[];
-  id!: number;
+  id: number;
   llaveProceso: string | null;
-  mandamientoPago: Date | null;
+  mandamientoPago: Date[];
   municipio: string | null;
   notificacion: intNotificacion | null;
   obligacion: string[];
@@ -266,5 +268,128 @@ export class ClassDemanda implements IntDemanda {
   tipoProceso: TipoProceso;
   vencimientoPagare: Date[];
   medidasCautelares: { id: number; fechaOrdenaMedida: Date | null; medidaSolicitada: string | null; } | null;
+  async prismaUpdateDemanda () {
+    try {
+      const upserter = await client.demanda.upsert(
+        {
+          where: {
+            id: this.id
+          },
+          create: {
+            municipio              : this.municipio,
+            obligacion             : this.obligacion,
+            radicado               : this.radicado,
+            vencimientoPagare      : this.vencimientoPagare,
+            tipoProceso            : this.tipoProceso,
+            capitalAdeudado        : this.capitalAdeudado,
+            departamento           : this.departamento,
+            id                     : this.id,
+            despacho               : this.despacho,
+            entregaGarantiasAbogado: this.entregaGarantiasAbogado,
+            etapaProcesal          : this.etapaProcesal,
+            fechaPresentacion      : this.fechaPresentacion,
+            llaveProceso           : this.llaveProceso,
+            mandamientoPago        : this.mandamientoPago,
+            notificacion           : {
+              connectOrCreate: {
+                where: {
+                  id: this.id
+                },
+                create: {
+                  ...this.notificacion,
+                  id       : this.id,
+                  notifiers: {
+                    createMany: {
+                      data          : this.notificacion?.notifiers ?? [],
+                      skipDuplicates: true
+                    }
+                  }
+                }
+              }
+            },
+            carpeta: {
+              connect: {
+                numero: this.id
+              }
+            },
+            medidasCautelares: {
+              connectOrCreate: {
+                where: {
+                  id: this.id
+                },
+                create: {
+                  fechaOrdenaMedida: this.medidasCautelares?.fechaOrdenaMedida,
+                  id               : this.id,
+                  medidaSolicitada : this.medidasCautelares?.medidaSolicitada
+                }
+              }
+            },
 
+
+
+          },
+          update: {
+            municipio              : this.municipio,
+            obligacion             : this.obligacion,
+            radicado               : this.radicado,
+            vencimientoPagare      : this.vencimientoPagare,
+            tipoProceso            : this.tipoProceso,
+            capitalAdeudado        : this.capitalAdeudado,
+            departamento           : this.departamento,
+            id                     : this.id,
+            despacho               : this.despacho,
+            entregaGarantiasAbogado: this.entregaGarantiasAbogado,
+            etapaProcesal          : this.etapaProcesal,
+            fechaPresentacion      : this.fechaPresentacion,
+            llaveProceso           : this.llaveProceso,
+            mandamientoPago        : this.mandamientoPago,
+            notificacion           : {
+              connectOrCreate: {
+                where: {
+                  id: this.id
+                },
+                create: {
+                  ...this.notificacion,
+                  id       : this.id,
+                  notifiers: {
+                    createMany: {
+                      data          : this.notificacion?.notifiers ?? [],
+                      skipDuplicates: true
+                    }
+                  }
+                }
+              }
+            },
+            carpeta: {
+              connect: {
+                numero: this.id
+              }
+            },
+            medidasCautelares: {
+              connectOrCreate: {
+                where: {
+                  id: this.id
+                },
+                create: {
+                  fechaOrdenaMedida: this.medidasCautelares?.fechaOrdenaMedida,
+                  id               : this.id,
+                  medidaSolicitada : this.medidasCautelares?.medidaSolicitada
+                }
+              }
+            },
+
+
+          }
+        }
+      );
+      return upserter;
+    } catch ( error ) {
+      console.log(
+        `ClassDemanda prismaUpdateDemanda ${ JSON.stringify(
+          error
+        ) }`
+      );
+      return null;
+    }
+  }
 }

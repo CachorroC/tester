@@ -10,14 +10,17 @@
     "id": 562
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "25252953",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 562,
     "llaveProceso": "2023-00985",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 562,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 562,
-      "fechaOrdenaMedida": "2024-02-03T18:58:45.248Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.821Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2023-00985",
-  "nombre": "MARIO HERNAN SALAMANCA PATIÑO",
+  "nombre": "mario hernan salamanca patiño",
   "numero": 562,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:45.249Z"
+  "notas": [
+    {
+      "carpetaNumero": 562,
+      "createdAt": "2024-02-07T03:34:23.821Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "31 JULIO RADIICO DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 562,
+      "createdAt": "2024-02-07T03:34:23.821Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 9 AGOSTO INGRESA AL DESPACHO.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 562,
+      "createdAt": "2024-02-07T03:34:23.821Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 2 OCT 2023 CONTINUA AL DESPACHO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.821Z"
 }

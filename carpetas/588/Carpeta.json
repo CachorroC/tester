@@ -16,7 +16,7 @@
       "cant": 4,
       "idProceso": 134200460,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:49.110Z"
+      "createdAt": "2024-02-07T03:34:26.462Z"
     },
     {
       "idRegActuacion": 1934876510,
@@ -33,7 +33,7 @@
       "cant": 4,
       "idProceso": 134200460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.110Z"
+      "createdAt": "2024-02-07T03:34:26.462Z"
     },
     {
       "idRegActuacion": 1912952690,
@@ -50,7 +50,7 @@
       "cant": 4,
       "idProceso": 134200460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.110Z"
+      "createdAt": "2024-02-07T03:34:26.462Z"
     },
     {
       "idRegActuacion": 1912952680,
@@ -67,7 +67,7 @@
       "cant": 4,
       "idProceso": 134200460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.110Z"
+      "createdAt": "2024-02-07T03:34:26.462Z"
     }
   ],
   "category": "Bancolombia",
@@ -79,14 +79,17 @@
     "id": 588
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "89544516",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-10-07T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 588,
     "llaveProceso": "11001400308620230158700",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 588,
@@ -121,7 +124,7 @@
     ],
     "medidasCautelares": {
       "id": 588,
-      "fechaOrdenaMedida": "2024-02-03T18:58:49.066Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.417Z",
       "medidaSolicitada": null
     }
   },
@@ -143,7 +146,7 @@
   ],
   "idRegUltimaAct": 1934876520,
   "llaveProceso": "11001400308620230158700",
-  "nombre": "KAREN ALEXANDRA CASTAÑEDA GUERRERO",
+  "nombre": "karen alexandra castañeda guerrero",
   "numero": 588,
   "procesos": [
     {
@@ -183,5 +186,39 @@
     "idProceso": 134200460,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:49.067Z"
+  "notas": [
+    {
+      "carpetaNumero": 588,
+      "createdAt": "2024-02-07T03:34:26.417Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "9 OCT 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 588,
+      "createdAt": "2024-02-07T03:34:26.417Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 20 OCT 2023 AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 588,
+      "createdAt": "2024-02-07T03:34:26.417Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 2 NOV 2023 RECHAZA DEMANDA X COMPETENCIA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 588,
+      "createdAt": "2024-02-07T03:34:26.417Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 23 NOV 2023 QUEDA POR REPARTO N EL 46 CM ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.417Z"
 }

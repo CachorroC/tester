@@ -16,10 +16,10 @@
       "cant": 1,
       "idProceso": 86396721,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:06.289Z"
+      "createdAt": "2024-02-07T03:33:40.612Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -28,6 +28,8 @@
     "id": 114
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "20501855",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -36,8 +38,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.958Z"
     ],
+    "id": 114,
     "llaveProceso": "25754418900220170075200",
-    "mandamientoPago": "2017-08-24T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-08-24T05:00:16.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 114,
@@ -70,7 +75,7 @@
     ],
     "medidasCautelares": {
       "id": 114,
-      "fechaOrdenaMedida": "2024-02-03T18:59:06.052Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:40.541Z",
       "medidaSolicitada": null
     }
   },
@@ -92,7 +97,7 @@
   ],
   "idRegUltimaAct": 910128311,
   "llaveProceso": "25754418900220170075200",
-  "nombre": "JOSE ANTONIO CAICEDO RUIZ",
+  "nombre": "jose antonio caicedo ruiz",
   "numero": 114,
   "procesos": [
     {
@@ -114,7 +119,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 910128311,
@@ -132,5 +137,31 @@
     "idProceso": 86396721,
     "isUltimaAct": false
   },
-  "updatedAt": "2024-02-03T18:59:06.052Z"
+  "notas": [
+    {
+      "carpetaNumero": 114,
+      "createdAt": "2024-02-07T03:33:40.541Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "17 DE ABRIL SE RETIRO LA DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 114,
+      "createdAt": "2024-02-07T03:33:40.541Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 21 DE ABRIL DE 2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 114,
+      "createdAt": "2024-02-07T03:33:40.541Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 19 DE JUNIO DE 2018 SE LEVANTARON MEDIDAS CAUTELARES ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:40.541Z"
 }

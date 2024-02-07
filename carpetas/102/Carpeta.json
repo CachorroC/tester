@@ -10,6 +10,8 @@
     "id": 102
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "50000000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -19,8 +21,11 @@
       "2017-06-15T05:00:00.000Z",
       "2017-08-09T05:00:00.000Z"
     ],
+    "id": 102,
     "llaveProceso": "201700239",
-    "mandamientoPago": "2017-11-07T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-11-07T05:00:16.000Z"
+    ],
     "municipio": "MESITAS",
     "notificacion": {
       "id": 102,
@@ -72,12 +77,62 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "201700239",
-  "nombre": "ERIKA ALEJANDRA QUINTERO REYES",
+  "nombre": "erika alejandra quintero reyes",
   "numero": 102,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:39.784Z"
+  "notas": [
+    {
+      "carpetaNumero": 102,
+      "createdAt": "2024-02-07T03:33:39.019Z",
+      "pathname": null,
+      "dueDate": "2023-04-01T05:00:00.000Z",
+      "text": "1/03/2023 SE LE OTORGA SUSTITUCION PODER ANA ISABEL SUAREZ GARCIA PARA ACTUAR EN MESITAS DEL COLEGIO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 102,
+      "createdAt": "2024-02-07T03:33:39.019Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 ABRIL 2023 INFORME ISABEL NO HA ENTRADO AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 102,
+      "createdAt": "2024-02-07T03:33:39.019Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "/26 JULIO 2023 SE APORTA ACTUA LIQUI CREDITO A JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 102,
+      "createdAt": "2024-02-07T03:33:39.019Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " A AUTOS 25 JULIO NADA DE CESION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 102,
+      "createdAt": "2024-02-07T03:33:39.019Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SUSTITUIR PROCESO AISG/ PEDIR CMARA COMERCIO R y S ACTUALIZADA /PEDIR VIGILANCIA JUDICIAL CON MHSG. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 102,
+      "createdAt": "2024-02-07T03:33:39.019Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:39.020Z"
 }

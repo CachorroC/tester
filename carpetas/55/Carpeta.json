@@ -1,7 +1,7 @@
 {
   "id": 80353430,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "ANA ISABEL JURADO LEON",
     "cedula": "20736637",
@@ -10,6 +10,8 @@
     "id": 55
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "35544456",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.906Z"
     ],
+    "id": 55,
     "llaveProceso": "25430400300120170108700",
-    "mandamientoPago": "2017-12-06T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-12-06T05:00:16.000Z"
+    ],
     "municipio": "MADRID",
     "notificacion": {
       "id": 55,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 55,
-      "fechaOrdenaMedida": "2024-02-03T18:58:57.353Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:33.768Z",
       "medidaSolicitada": "PERSONAL"
     }
   },
@@ -72,12 +77,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25430400300120170108700",
-  "nombre": "DOUGLAS AYURE RIOS ",
+  "nombre": "douglas ayure rios ",
   "numero": 55,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:57.353Z"
+  "notas": [
+    {
+      "carpetaNumero": 55,
+      "createdAt": "2024-02-07T03:33:33.768Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "16 DE NOVIEMBRE DE 2018 AUTO TERMINA POR PAGO TOTAL ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 55,
+      "createdAt": "2024-02-07T03:33:33.768Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "31 DE ENERO DE 2019 SE DEVOLVIERON GARANTIAS EN FAVOR DEL DEUDOR / LAS MEDIDAS CAUTELARES A CARGO DEL DEUDOR ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:33.769Z"
 }

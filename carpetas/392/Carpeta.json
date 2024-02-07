@@ -10,6 +10,8 @@
     "id": 392
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "38847950",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-11-20T05:00:16.000Z"
     ],
+    "id": 392,
     "llaveProceso": "25899400300220170013100",
-    "mandamientoPago": "2018-04-12T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-04-12T05:00:16.000Z"
+    ],
     "municipio": "ZIPAQUIRA",
     "notificacion": {
       "id": 392,
@@ -72,12 +77,70 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25899400300220170013100",
-  "nombre": "EDGAR JOBANNY MATEUS CASTILLO",
+  "nombre": "edgar jobanny mateus castillo",
   "numero": 392,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:06.960Z"
+  "notas": [
+    {
+      "carpetaNumero": 392,
+      "createdAt": "2024-02-07T03:34:10.493Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "PROCESO DIGITALIZADO NUBE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 392,
+      "createdAt": "2024-02-07T03:34:10.493Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "RETIRAR DEL JUZGADO DESPACHO COMISORIO DE EMBARGO DE SALARIOS Y RADICAR EN LADRILLERA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 392,
+      "createdAt": "2024-02-07T03:34:10.493Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 15 NIOV 2022 SE RADICA OFICIO EMBARGO SALARIOS LADRILLERA SAN MATEO VIA CORREO ELECTRONICO.  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 392,
+      "createdAt": "2024-02-07T03:34:10.493Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 29 MARZO 23 SE SOLICITA LIQUIDACION DE CREDITO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 392,
+      "createdAt": "2024-02-07T03:34:10.493Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " CUANDO LA ALLEGUEN, APORTARLA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 392,
+      "createdAt": "2024-02-07T03:34:10.493Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 28 ABRIL 2023 SE APORTA LIQUIDACION DE CREDITO.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 392,
+      "createdAt": "2024-02-07T03:34:10.493Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 27 SEPT 2023 SE ENVIA OFICIO REQUIERE EMBARGO SALARIOS A ARCILLAS SAN MATEO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:10.493Z"
 }

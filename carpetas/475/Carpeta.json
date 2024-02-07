@@ -10,6 +10,8 @@
     "id": 475
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "39146947",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-02-22T05:00:16.000Z"
     ],
+    "id": 475,
     "llaveProceso": "25754408900220180011300",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-03-22T05:00:00.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 475,
@@ -69,12 +74,54 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754408900220180011300",
-  "nombre": "JOSE LIBRANDO CANDELA MUNEVAR",
+  "nombre": "jose librando candela munevar",
   "numero": 475,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:09.232Z"
+  "notas": [
+    {
+      "carpetaNumero": 475,
+      "createdAt": "2024-02-07T03:34:17.682Z",
+      "pathname": null,
+      "dueDate": "2023-02-18T05:00:00.000Z",
+      "text": "18/01/2023 PEDIR LIQUIDACIÓN DEL CRÉDITO A REINTEGRA S.A.S.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 475,
+      "createdAt": "2024-02-07T03:34:17.682Z",
+      "pathname": null,
+      "dueDate": "2023-04-03T05:00:00.000Z",
+      "text": " 25 ENERO 2023 SOLICITA ACTUALIZACION LIQUIDACIÓN CREDITO A REINTEGRA SAS SE REITERA EL 3/03/2023 SE SOLICITA CERTIFICADO DE VEHICULO DE PLACAS ICM 217 ESTA VENDIENDO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 475,
+      "createdAt": "2024-02-07T03:34:17.682Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " ESTA TRAMITANDO TARJETA DE CREDITO EN AV VILLAS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 475,
+      "createdAt": "2024-02-07T03:34:17.682Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " TIENE CARNICERIA PARA EMBARGO DE ESTABLECIMIENTO DE COMERCIO CAMARA DE COMERCIO SOLICITADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 475,
+      "createdAt": "2024-02-07T03:34:17.682Z",
+      "pathname": null,
+      "dueDate": "2024-01-13T05:00:00.000Z",
+      "text": "13/12/2023 SE RADICA AMPLIACION MEDIDAS EMBARGO ACCIONES ETB EN JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:17.682Z"
 }

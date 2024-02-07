@@ -1,7 +1,7 @@
 {
   "id": 4520757,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 146
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.969Z"
     ],
+    "id": 146,
     "llaveProceso": "11001400308620170082600",
-    "mandamientoPago": "2017-12-11T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-12-11T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 146,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 146,
-      "fechaOrdenaMedida": "2024-02-03T18:59:11.868Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:44.483Z",
       "medidaSolicitada": null
     }
   },
@@ -72,12 +77,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308620170082600",
-  "nombre": "PEDRO NEL PELAEZ TISNES",
+  "nombre": "pedro nel pelaez tisnes",
   "numero": 146,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:11.868Z"
+  "notas": [
+    {
+      "carpetaNumero": 146,
+      "createdAt": "2024-02-07T03:33:44.483Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "25 DE MAYO DE 2018 EL JUZGADO TERMINA PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 146,
+      "createdAt": "2024-02-07T03:33:44.483Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 4 DE AGOSTO DE 2018 SE DEVOLVIERON GARANTIAS A AECSA /7 EL 12 DE DICIEMBRE DE 2021 SE CONSULTO EL RUNT EMBARGO DE OTRO PROCESO DIFERENTE A R & S",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:44.483Z"
 }

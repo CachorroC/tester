@@ -16,7 +16,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602065010,
@@ -33,7 +33,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602065000,
@@ -50,7 +50,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064990,
@@ -67,7 +67,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064980,
@@ -84,7 +84,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064970,
@@ -101,7 +101,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064960,
@@ -118,7 +118,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064950,
@@ -135,7 +135,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064940,
@@ -152,7 +152,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064930,
@@ -169,7 +169,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064920,
@@ -186,7 +186,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064910,
@@ -203,7 +203,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064900,
@@ -220,7 +220,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064890,
@@ -237,7 +237,7 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     },
     {
       "idRegActuacion": 602064880,
@@ -254,10 +254,10 @@
       "cant": 15,
       "idProceso": 50776700,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.872Z"
+      "createdAt": "2024-02-07T03:33:51.537Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "JORGE ARMANDO LOPEZ CASTAÑO",
     "cedula": "80228299",
@@ -266,6 +266,8 @@
     "id": 215
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12241665.48",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -274,8 +276,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.982Z"
     ],
+    "id": 215,
     "llaveProceso": "11001400300820170127300",
-    "mandamientoPago": "2017-11-03T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-11-03T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 215,
@@ -329,7 +334,7 @@
   ],
   "idRegUltimaAct": 602065020,
   "llaveProceso": "11001400300820170127300",
-  "nombre": "LUZ DARY HURTADO RIOS",
+  "nombre": "luz dary hurtado rios",
   "numero": 215,
   "procesos": [
     {
@@ -351,7 +356,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 602065020,
@@ -369,5 +374,31 @@
     "idProceso": 50776700,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:18.831Z"
+  "notas": [
+    {
+      "carpetaNumero": 215,
+      "createdAt": "2024-02-07T03:33:51.420Z",
+      "pathname": null,
+      "dueDate": "2018-04-08T05:00:00.000Z",
+      "text": "EL 8/03/2018 LA APODERADA DEL BANCO RETIRO LA DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 215,
+      "createdAt": "2024-02-07T03:33:51.420Z",
+      "pathname": null,
+      "dueDate": "2018-04-13T05:00:00.000Z",
+      "text": " EL 13/03/2018 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 215,
+      "createdAt": "2024-02-07T03:33:51.420Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE RETIRAN OFICIOS DE EMBARGO ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:51.420Z"
 }

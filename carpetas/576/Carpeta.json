@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 134585460,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:47.676Z"
+      "createdAt": "2024-02-07T03:34:25.308Z"
     },
     {
       "idRegActuacion": 1937123950,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 134585460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.676Z"
+      "createdAt": "2024-02-07T03:34:25.308Z"
     },
     {
       "idRegActuacion": 1937123940,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 134585460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.676Z"
+      "createdAt": "2024-02-07T03:34:25.308Z"
     },
     {
       "idRegActuacion": 1937123930,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 134585460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.676Z"
+      "createdAt": "2024-02-07T03:34:25.308Z"
     },
     {
       "idRegActuacion": 1937123920,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 134585460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.676Z"
+      "createdAt": "2024-02-07T03:34:25.308Z"
     },
     {
       "idRegActuacion": 1932794930,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 134585460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.676Z"
+      "createdAt": "2024-02-07T03:34:25.308Z"
     },
     {
       "idRegActuacion": 1926960840,
@@ -118,7 +118,7 @@
       "cant": 7,
       "idProceso": 134585460,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.676Z"
+      "createdAt": "2024-02-07T03:34:25.308Z"
     }
   ],
   "category": "Bancolombia",
@@ -130,14 +130,17 @@
     "id": 576
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "94472793",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-08-17T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 576,
     "llaveProceso": "11001400301620230122200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 576,
@@ -171,7 +174,7 @@
     ],
     "medidasCautelares": {
       "id": 576,
-      "fechaOrdenaMedida": "2024-02-03T18:58:47.618Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.240Z",
       "medidaSolicitada": null
     }
   },
@@ -193,7 +196,7 @@
   ],
   "idRegUltimaAct": 1943926140,
   "llaveProceso": "11001400301620230122200",
-  "nombre": "JUAN CAMILO VELASQUEZ PEREIRA",
+  "nombre": "juan camilo velasquez pereira",
   "numero": 576,
   "procesos": [
     {
@@ -233,5 +236,71 @@
     "idProceso": 134585460,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:47.618Z"
+  "notas": [
+    {
+      "carpetaNumero": 576,
+      "createdAt": "2024-02-07T03:34:25.240Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "18 DE AGOSOTO 2023 SE RADICA DEMANDA",
+      "content": []
+    },
+    {
+      "carpetaNumero": 576,
+      "createdAt": "2024-02-07T03:34:25.240Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 23 AGOSTO AL DEPACHO POR REPARTO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 576,
+      "createdAt": "2024-02-07T03:34:25.240Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 OCTUBRE RECHAZA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 576,
+      "createdAt": "2024-02-07T03:34:25.240Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 25 OCTUBRE SE PRESENTA NUEVAMENTE  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 576,
+      "createdAt": "2024-02-07T03:34:25.240Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 3 NOV 2023 INGRESA AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 576,
+      "createdAt": "2024-02-07T03:34:25.240Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 23 NOV 2023 MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 576,
+      "createdAt": "2024-02-07T03:34:25.240Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "/ MANDAMIENTO OK CCR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 576,
+      "createdAt": "2024-02-07T03:34:25.240Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 12 ENERO 2024 RADICAR OFICIOS EMBARGO CUOTA PARTE BIEN GIRARDOT Y EMBARGO SALARIOS DOS EMPRESAS",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.240Z"
 }

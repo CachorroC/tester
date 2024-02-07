@@ -10,14 +10,17 @@
     "id": 606
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "25015388",
     "departamento": "ATLANTICO",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-24T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 606,
     "llaveProceso": "08001418901020230119600",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BARRANQUILLA",
     "notificacion": {
       "id": 606,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 606,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.478Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.708Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "08001418901020230119600",
-  "nombre": "CAMILO ANDRES SANCHEZ CUESTA",
+  "nombre": "camilo andres sanchez cuesta",
   "numero": 606,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:50.479Z"
+  "notas": [
+    {
+      "carpetaNumero": 606,
+      "createdAt": "2024-02-07T03:34:27.708Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "27 NOV SE RADICA DEMANDA ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.708Z"
 }

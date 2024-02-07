@@ -16,10 +16,10 @@
       "cant": 1,
       "idProceso": 167403911,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:37.937Z"
+      "createdAt": "2024-02-07T03:34:08.212Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "CARLOS ANDRES SUAREZ GORDILLO",
     "cedula": "1014202066",
@@ -28,6 +28,8 @@
     "id": 372
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "17921982",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -36,8 +38,9 @@
     "fechaPresentacion": [
       "2018-01-19T05:00:00.000Z"
     ],
+    "id": 372,
     "llaveProceso": "25754400300220180007000",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 372,
@@ -69,7 +72,7 @@
     ],
     "medidasCautelares": {
       "id": 372,
-      "fechaOrdenaMedida": "2024-02-03T18:59:37.901Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:08.156Z",
       "medidaSolicitada": null
     }
   },
@@ -91,7 +94,7 @@
   ],
   "idRegUltimaAct": 910105801,
   "llaveProceso": "25754400300220180007000",
-  "nombre": "JANETH RUBIELA GORDILLO PINZON",
+  "nombre": "janeth rubiela gordillo pinzon",
   "numero": 372,
   "procesos": [
     {
@@ -113,7 +116,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 910105801,
@@ -131,5 +134,23 @@
     "idProceso": 167403911,
     "isUltimaAct": false
   },
-  "updatedAt": "2024-02-03T18:59:37.901Z"
+  "notas": [
+    {
+      "carpetaNumero": 372,
+      "createdAt": "2024-02-07T03:34:08.156Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 21 DE ABRIL DE 2.018 SE RETIRO LA DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 372,
+      "createdAt": "2024-02-07T03:34:08.156Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SE DICTO MANDAMIENTO DE PAGO NO SE REGISTRARON MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:08.157Z"
 }

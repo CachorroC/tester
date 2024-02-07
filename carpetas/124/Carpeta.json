@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 50643180,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:07.993Z"
+      "createdAt": "2024-02-07T03:33:41.835Z"
     },
     {
       "idRegActuacion": 758102530,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 50643180,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:07.993Z"
+      "createdAt": "2024-02-07T03:33:41.835Z"
     },
     {
       "idRegActuacion": 758102520,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 50643180,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:07.993Z"
+      "createdAt": "2024-02-07T03:33:41.835Z"
     },
     {
       "idRegActuacion": 758102510,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 50643180,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:07.993Z"
+      "createdAt": "2024-02-07T03:33:41.835Z"
     },
     {
       "idRegActuacion": 758102500,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 50643180,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:07.993Z"
+      "createdAt": "2024-02-07T03:33:41.835Z"
     },
     {
       "idRegActuacion": 758102490,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 50643180,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:07.993Z"
+      "createdAt": "2024-02-07T03:33:41.835Z"
     },
     {
       "idRegActuacion": 758102480,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 50643180,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:07.993Z"
+      "createdAt": "2024-02-07T03:33:41.835Z"
     },
     {
       "idRegActuacion": 758102470,
@@ -135,10 +135,10 @@
       "cant": 8,
       "idProceso": 50643180,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:07.993Z"
+      "createdAt": "2024-02-07T03:33:41.835Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -147,6 +147,8 @@
     "id": 124
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -155,8 +157,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.963Z"
     ],
+    "id": 124,
     "llaveProceso": "11001400303320170118000",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 124,
@@ -187,7 +190,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 124,
-      "fechaOrdenaMedida": "2024-02-03T18:59:07.949Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:41.736Z",
       "medidaSolicitada": null
     }
   },
@@ -209,7 +212,7 @@
   ],
   "idRegUltimaAct": 758102540,
   "llaveProceso": "11001400303320170118000",
-  "nombre": "BLANCA EDELMIRA ARIAS MELO",
+  "nombre": "blanca edelmira arias melo",
   "numero": 124,
   "procesos": [
     {
@@ -231,7 +234,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 758102540,
@@ -249,5 +252,31 @@
     "idProceso": 50643180,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:07.949Z"
+  "notas": [
+    {
+      "carpetaNumero": 124,
+      "createdAt": "2024-02-07T03:33:41.735Z",
+      "pathname": null,
+      "dueDate": "2017-12-02T05:00:00.000Z",
+      "text": "EL 2/11/2017 LA APODERADA DEL BANCOLOMBIA S.A. RETIRO LA DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 124,
+      "createdAt": "2024-02-07T03:33:41.735Z",
+      "pathname": null,
+      "dueDate": "2017-12-08T05:00:00.000Z",
+      "text": " EL 8/11/2017 SE DEVOLVIO EL DESGLOSE CON LAS GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 124,
+      "createdAt": "2024-02-07T03:33:41.735Z",
+      "pathname": null,
+      "dueDate": "2017-12-08T05:00:00.000Z",
+      "text": " EL 8/11/2017 SE VERIFICA QUE EL PROCESO ESTA SIN MEDIDAS CAUTELARES EN CONTRA DE LA DEUDORA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:41.736Z"
 }

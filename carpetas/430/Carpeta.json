@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 50678323,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:44.536Z"
+      "createdAt": "2024-02-07T03:34:14.039Z"
     },
     {
       "idRegActuacion": 737744983,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 50678323,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:44.536Z"
+      "createdAt": "2024-02-07T03:34:14.039Z"
     },
     {
       "idRegActuacion": 737744973,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 50678323,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:44.536Z"
+      "createdAt": "2024-02-07T03:34:14.039Z"
     },
     {
       "idRegActuacion": 737744963,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 50678323,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:44.536Z"
+      "createdAt": "2024-02-07T03:34:14.039Z"
     },
     {
       "idRegActuacion": 737744953,
@@ -84,10 +84,10 @@
       "cant": 5,
       "idProceso": 50678323,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:44.536Z"
+      "createdAt": "2024-02-07T03:34:14.039Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "JESSICA ALEXANDRA SANTOS AVENDAÑO",
     "cedula": "1024527755",
@@ -96,6 +96,8 @@
     "id": 430
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "29045383",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -104,8 +106,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.228Z"
     ],
+    "id": 430,
     "llaveProceso": "11001410300120180040400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 430,
@@ -137,7 +140,7 @@
     ],
     "medidasCautelares": {
       "id": 430,
-      "fechaOrdenaMedida": "2024-02-03T18:59:44.131Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:13.946Z",
       "medidaSolicitada": null
     }
   },
@@ -153,14 +156,14 @@
     "direccion": "DIAGONAL 68 D No 70C-31",
     "email": "alejaso1291@hotmail.com"
   },
-  "fecha": "2018-08-28T05:00:00.000Z",
+  "fecha": "2019-12-19T05:00:00.000Z",
   "idProcesos": [
     17487020,
     50678323
   ],
-  "idRegUltimaAct": 737744993,
+  "idRegUltimaAct": 909598440,
   "llaveProceso": "11001410300120180040400",
-  "nombre": "JHONATAN ALEJANDRO  CUELLAR ARIAS",
+  "nombre": "jhonatan alejandro  cuellar arias",
   "numero": 430,
   "procesos": [
     {
@@ -199,23 +202,49 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
-    "idRegActuacion": 737744993,
+    "idRegActuacion": 909598440,
     "llaveProceso": "11001410300120180040400",
-    "consActuacion": 5,
-    "fechaActuacion": "2018-08-28T05:00:00.000Z",
-    "actuacion": "Envio Expediente Centro Servicios Administrativos",
-    "anotacion": "COMPETENCIA OFICIO 925 - JUZGADO 37 CIVIL MUNICIPAL",
+    "consActuacion": 46,
+    "fechaActuacion": "2019-12-19T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "CAJA 150 DE 2019\r\n",
     "fechaInicial": null,
     "fechaFinal": null,
-    "fechaRegistro": "2018-08-28T05:00:00.000Z",
+    "fechaRegistro": "2019-12-19T05:00:00.000Z",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 5,
-    "idProceso": 50678323,
+    "cant": 46,
+    "idProceso": 17487020,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:44.131Z"
+  "notas": [
+    {
+      "carpetaNumero": 430,
+      "createdAt": "2024-02-07T03:34:13.946Z",
+      "pathname": null,
+      "dueDate": "2019-12-22T05:00:00.000Z",
+      "text": "EL 22/11/2019 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 430,
+      "createdAt": "2024-02-07T03:34:13.946Z",
+      "pathname": null,
+      "dueDate": "2020-06-22T05:00:00.000Z",
+      "text": "EL 22/05/2020 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 430,
+      "createdAt": "2024-02-07T03:34:13.946Z",
+      "pathname": null,
+      "dueDate": "2020-02-14T05:00:00.000Z",
+      "text": " EL 14/01/2020 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:13.946Z"
 }

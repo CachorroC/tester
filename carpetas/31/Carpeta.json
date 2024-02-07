@@ -1,7 +1,7 @@
 {
   "id": 79590985,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "BLANCA SENET PINEDA ",
     "cedula": "28550572",
@@ -10,6 +10,8 @@
     "id": 31
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.895Z"
     ],
+    "id": 31,
     "llaveProceso": "25754400300320170021100",
-    "mandamientoPago": "2018-01-25T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-01-25T05:00:16.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 31,
@@ -50,7 +55,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 31,
-      "fechaOrdenaMedida": "2024-02-03T18:58:54.689Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:30.506Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +75,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754400300320170021100",
-  "nombre": "JORGE PEREZ",
+  "nombre": "jorge perez",
   "numero": 31,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:54.689Z"
+  "notas": [
+    {
+      "carpetaNumero": 31,
+      "createdAt": "2024-02-07T03:33:30.506Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 9 DE MAYO DE 2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 31,
+      "createdAt": "2024-02-07T03:33:30.506Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE RETIRO OFICIO DE EMBARGO DE INMUEBLE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 31,
+      "createdAt": "2024-02-07T03:33:30.506Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:30.506Z"
 }

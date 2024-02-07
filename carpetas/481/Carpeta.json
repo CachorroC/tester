@@ -1,7 +1,7 @@
 {
   "id": 80019013,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 481
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12768627",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-09-13T05:00:00.000Z"
     ],
+    "id": 481,
     "llaveProceso": "11001410375120190027600",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-09-27T05:00:00.000Z"
+    ],
     "municipio": "kENNEDY",
     "notificacion": {
       "id": 481,
@@ -49,7 +54,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 481,
-      "fechaOrdenaMedida": "2024-02-03T18:59:49.611Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:18.112Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001410375120190027600",
-  "nombre": "WILLINTONG MARIO  YARURO PEÑARANDA",
+  "nombre": "willintong mario  yaruro peñaranda",
   "numero": 481,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:49.611Z"
+  "notas": [
+    {
+      "carpetaNumero": 481,
+      "createdAt": "2024-02-07T03:34:18.112Z",
+      "pathname": null,
+      "dueDate": "2020-01-05T05:00:00.000Z",
+      "text": "EL 5/12/2019 EL JUGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 481,
+      "createdAt": "2024-02-07T03:34:18.112Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GRANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR Y A CARGO DE LA PARTE DEMANDADA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:18.113Z"
 }

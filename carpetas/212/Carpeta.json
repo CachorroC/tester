@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:18.734Z"
+      "createdAt": "2024-02-07T03:33:51.307Z"
     },
     {
       "idRegActuacion": 119895673,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.734Z"
+      "createdAt": "2024-02-07T03:33:51.307Z"
     },
     {
       "idRegActuacion": 119895663,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.734Z"
+      "createdAt": "2024-02-07T03:33:51.307Z"
     },
     {
       "idRegActuacion": 119895653,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.734Z"
+      "createdAt": "2024-02-07T03:33:51.307Z"
     },
     {
       "idRegActuacion": 119895643,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.734Z"
+      "createdAt": "2024-02-07T03:33:51.307Z"
     },
     {
       "idRegActuacion": 119895633,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.734Z"
+      "createdAt": "2024-02-07T03:33:51.307Z"
     },
     {
       "idRegActuacion": 119895623,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.734Z"
+      "createdAt": "2024-02-07T03:33:51.307Z"
     },
     {
       "idRegActuacion": 119895613,
@@ -135,10 +135,10 @@
       "cant": 8,
       "idProceso": 10134513,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.734Z"
+      "createdAt": "2024-02-07T03:33:51.307Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "ANA ISABEL OLIVERA",
     "cedula": "55057911",
@@ -147,6 +147,8 @@
     "id": 212
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12660698.89",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -155,8 +157,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.982Z"
     ],
+    "id": 212,
     "llaveProceso": "11001400304620170103500",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 212,
@@ -188,7 +191,7 @@
     ],
     "medidasCautelares": {
       "id": 212,
-      "fechaOrdenaMedida": "2024-02-03T18:59:18.685Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:51.255Z",
       "medidaSolicitada": null
     }
   },
@@ -210,7 +213,7 @@
   ],
   "idRegUltimaAct": 119895683,
   "llaveProceso": "11001400304620170103500",
-  "nombre": "FERNANDO VERA FARFAN",
+  "nombre": "fernando vera farfan",
   "numero": 212,
   "procesos": [
     {
@@ -232,7 +235,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 119895683,
@@ -250,5 +253,39 @@
     "idProceso": 10134513,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:18.685Z"
+  "notas": [
+    {
+      "carpetaNumero": 212,
+      "createdAt": "2024-02-07T03:33:51.255Z",
+      "pathname": null,
+      "dueDate": "2017-12-23T05:00:00.000Z",
+      "text": "23/11/2017 SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 212,
+      "createdAt": "2024-02-07T03:33:51.255Z",
+      "pathname": null,
+      "dueDate": "2017-12-28T05:00:00.000Z",
+      "text": " 28/11/2017 LA APODERADA DEL BANCO RETIRA LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 212,
+      "createdAt": "2024-02-07T03:33:51.255Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN OFICIOS DE EMBARGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 212,
+      "createdAt": "2024-02-07T03:33:51.255Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO HUBO MEDIDAS CAUTELARES ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:51.255Z"
 }

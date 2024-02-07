@@ -1,7 +1,7 @@
 {
   "id": 52325613,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "OSCAR GONZALEZ GONZALEZ ",
     "cedula": "79846140",
@@ -10,6 +10,8 @@
     "id": 213
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "43216",
     "capitalAdeudado": "12573628.72",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.982Z"
     ],
+    "id": 213,
     "llaveProceso": "110014003088220170148800",
-    "mandamientoPago": "2017-12-13T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-12-13T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 213,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 213,
-      "fechaOrdenaMedida": "2024-02-03T18:59:18.784Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:51.330Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "110014003088220170148800",
-  "nombre": "MYRIAM CONSUELO RIOS FONSECA",
+  "nombre": "myriam consuelo rios fonseca",
   "numero": 213,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:18.784Z"
+  "notas": [
+    {
+      "carpetaNumero": 213,
+      "createdAt": "2024-02-07T03:33:51.330Z",
+      "pathname": null,
+      "dueDate": "2018-05-26T05:00:00.000Z",
+      "text": "EL 26/04/2018 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 213,
+      "createdAt": "2024-02-07T03:33:51.330Z",
+      "pathname": null,
+      "dueDate": "2018-07-01T05:00:00.000Z",
+      "text": " EL 1/06/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 213,
+      "createdAt": "2024-02-07T03:33:51.330Z",
+      "pathname": null,
+      "dueDate": "2018-07-27T05:00:00.000Z",
+      "text": " EL 27/06/2018 SE HIZO LEVANTAMIENTO DE MEDIDAS CAUTELARES CON CERTIFICADO DE TRADICION",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:51.330Z"
 }

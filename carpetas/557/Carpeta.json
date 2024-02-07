@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:44.853Z"
+      "createdAt": "2024-02-07T03:34:23.598Z"
     },
     {
       "idRegActuacion": 1937617870,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.853Z"
+      "createdAt": "2024-02-07T03:34:23.598Z"
     },
     {
       "idRegActuacion": 1937617860,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.853Z"
+      "createdAt": "2024-02-07T03:34:23.598Z"
     },
     {
       "idRegActuacion": 1937617850,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.853Z"
+      "createdAt": "2024-02-07T03:34:23.598Z"
     },
     {
       "idRegActuacion": 1937617840,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.853Z"
+      "createdAt": "2024-02-07T03:34:23.598Z"
     },
     {
       "idRegActuacion": 1844973770,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.853Z"
+      "createdAt": "2024-02-07T03:34:23.598Z"
     },
     {
       "idRegActuacion": 1844913080,
@@ -118,7 +118,7 @@
       "cant": 7,
       "idProceso": 132372990,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.853Z"
+      "createdAt": "2024-02-07T03:34:23.598Z"
     }
   ],
   "category": "Bancolombia",
@@ -130,14 +130,17 @@
     "id": 557
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "49329779",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 557,
     "llaveProceso": "11001400301720230078200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 557,
@@ -171,7 +174,7 @@
     ],
     "medidasCautelares": {
       "id": 557,
-      "fechaOrdenaMedida": "2024-02-03T18:58:44.799Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.539Z",
       "medidaSolicitada": null
     }
   },
@@ -193,7 +196,7 @@
   ],
   "idRegUltimaAct": 1941737090,
   "llaveProceso": "11001400301720230078200",
-  "nombre": "CARLOS HERNEY QUINTERO ",
+  "nombre": "carlos herney quintero ",
   "numero": 557,
   "procesos": [
     {
@@ -233,5 +236,55 @@
     "idProceso": 132372990,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:44.799Z"
+  "notas": [
+    {
+      "carpetaNumero": 557,
+      "createdAt": "2024-02-07T03:34:23.539Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "31 JULIO RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 557,
+      "createdAt": "2024-02-07T03:34:23.539Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 AGOSOTO INGRESA AL DESPACHO  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 557,
+      "createdAt": "2024-02-07T03:34:23.539Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 NOV 2023 AUTO LIBRA MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 557,
+      "createdAt": "2024-02-07T03:34:23.539Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "MANDAMIENTO OK ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 557,
+      "createdAt": "2024-02-07T03:34:23.539Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 1 DIC 2023 LLEGAN OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 557,
+      "createdAt": "2024-02-07T03:34:23.539Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " RADICAR OFICIOS ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.539Z"
 }

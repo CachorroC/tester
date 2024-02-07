@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:45.841Z"
+      "createdAt": "2024-02-07T03:34:24.227Z"
     },
     {
       "idRegActuacion": 1895380620,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.841Z"
+      "createdAt": "2024-02-07T03:34:24.227Z"
     },
     {
       "idRegActuacion": 1865710460,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.841Z"
+      "createdAt": "2024-02-07T03:34:24.227Z"
     },
     {
       "idRegActuacion": 1865710450,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.841Z"
+      "createdAt": "2024-02-07T03:34:24.227Z"
     },
     {
       "idRegActuacion": 1865654250,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.841Z"
+      "createdAt": "2024-02-07T03:34:24.227Z"
     },
     {
       "idRegActuacion": 1865654240,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.841Z"
+      "createdAt": "2024-02-07T03:34:24.227Z"
     },
     {
       "idRegActuacion": 1845938400,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.841Z"
+      "createdAt": "2024-02-07T03:34:24.227Z"
     },
     {
       "idRegActuacion": 1840889670,
@@ -135,7 +135,7 @@
       "cant": 8,
       "idProceso": 132262030,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.841Z"
+      "createdAt": "2024-02-07T03:34:24.227Z"
     }
   ],
   "category": "Bancolombia",
@@ -147,14 +147,17 @@
     "id": 566
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "19218060",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 566,
     "llaveProceso": "11001400306520230124300",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 566,
@@ -186,7 +189,7 @@
     ],
     "medidasCautelares": {
       "id": 566,
-      "fechaOrdenaMedida": "2024-02-03T18:58:45.779Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:24.174Z",
       "medidaSolicitada": null
     }
   },
@@ -208,7 +211,7 @@
   ],
   "idRegUltimaAct": 1940379920,
   "llaveProceso": "11001400306520230124300",
-  "nombre": "JOHAN ANDRES QUIROGA GALEANO",
+  "nombre": "johan andres quiroga galeano",
   "numero": 566,
   "procesos": [
     {
@@ -248,5 +251,47 @@
     "idProceso": 132262030,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:45.779Z"
+  "notas": [
+    {
+      "carpetaNumero": 566,
+      "createdAt": "2024-02-07T03:34:24.174Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "31 JULIO RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 566,
+      "createdAt": "2024-02-07T03:34:24.174Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 31 AGOSTO 2023 AUTO LIBRA MANDAMIENTO Y DECRETA MEDIDA CAUTELAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 566,
+      "createdAt": "2024-02-07T03:34:24.174Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 OCTUBRE SE RADICA OFICIO MEDIDA CAUTELAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 566,
+      "createdAt": "2024-02-07T03:34:24.174Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 9 NOV SE HACE NOTIFICACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 566,
+      "createdAt": "2024-02-07T03:34:24.174Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "  21 NOVI 2023 SE ENVIA NOTIFICACION + A JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:24.174Z"
 }

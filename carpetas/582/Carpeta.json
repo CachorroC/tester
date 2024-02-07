@@ -10,14 +10,17 @@
     "id": 582
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "16827889",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-08-24T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 582,
     "llaveProceso": "25430400300120230129500",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "MADRID",
     "notificacion": {
       "id": 582,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 582,
-      "fechaOrdenaMedida": "2024-02-03T18:58:48.250Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.901Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,46 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25430400300120230129500",
-  "nombre": "PEDRO ANTONIO DUARTE VARGAS",
+  "nombre": "pedro antonio duarte vargas",
   "numero": 582,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:48.250Z"
+  "notas": [
+    {
+      "carpetaNumero": 582,
+      "createdAt": "2024-02-07T03:34:25.901Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "25 AGOSTO 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 582,
+      "createdAt": "2024-02-07T03:34:25.901Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 28 AGOSTO INGRESA A DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 582,
+      "createdAt": "2024-02-07T03:34:25.901Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " A 15 NOV AUTOS NO HA SALIDO NADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 582,
+      "createdAt": "2024-02-07T03:34:25.901Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " ENVIAR IMPULSO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.901Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 80197126,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 61
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "21493086",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.902Z"
     ],
+    "id": 61,
     "llaveProceso": " 11001400304620170055700",
-    "mandamientoPago": "2017-07-19T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-07-19T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 61,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 61,
-      "fechaOrdenaMedida": "2024-02-03T18:58:58.141Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:34.464Z",
       "medidaSolicitada": "PERSONAL"
     }
   },
@@ -72,12 +77,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": " 11001400304620170055700",
-  "nombre": "JUAN PABLO RUBIO ESGUERRA",
+  "nombre": "juan pablo rubio esguerra",
   "numero": 61,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:58.141Z"
+  "notas": [
+    {
+      "carpetaNumero": 61,
+      "createdAt": "2024-02-07T03:33:34.464Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 3 DE SEPTIEMBRE DE 2018 SE TERMINO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 61,
+      "createdAt": "2024-02-07T03:33:34.464Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 12 DE DICIEMBRE DE 2021 SE VERIFICO EN RUNT Y NO EXISTE MEDIDA CAUTELAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 61,
+      "createdAt": "2024-02-07T03:33:34.464Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 7 DE FEBRERO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:34.464Z"
 }

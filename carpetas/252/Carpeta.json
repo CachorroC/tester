@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:23.577Z"
+      "createdAt": "2024-02-07T03:33:56.005Z"
     },
     {
       "idRegActuacion": 764095840,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.577Z"
+      "createdAt": "2024-02-07T03:33:56.005Z"
     },
     {
       "idRegActuacion": 764095830,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.577Z"
+      "createdAt": "2024-02-07T03:33:56.005Z"
     },
     {
       "idRegActuacion": 764095820,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.577Z"
+      "createdAt": "2024-02-07T03:33:56.005Z"
     },
     {
       "idRegActuacion": 764095810,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.577Z"
+      "createdAt": "2024-02-07T03:33:56.005Z"
     },
     {
       "idRegActuacion": 764095800,
@@ -101,10 +101,10 @@
       "cant": 6,
       "idProceso": 50745490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.577Z"
+      "createdAt": "2024-02-07T03:33:56.005Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "DAMARIS MILENA CAICEDO FARIETA",
     "cedula": "1032423457",
@@ -113,6 +113,8 @@
     "id": 252
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "26469309",
     "departamento": "CUNDINAMARCA ",
     "despacho": null,
@@ -121,8 +123,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.992Z"
     ],
+    "id": 252,
     "llaveProceso": "11001400303420170123600",
-    "mandamientoPago": "2017-10-25T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-25T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 252,
@@ -176,7 +181,7 @@
   ],
   "idRegUltimaAct": 764095850,
   "llaveProceso": "11001400303420170123600",
-  "nombre": "ANGEL JOVANI SUAREZ GOMEZ",
+  "nombre": "angel jovani suarez gomez",
   "numero": 252,
   "procesos": [
     {
@@ -198,7 +203,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 764095850,
@@ -216,5 +221,31 @@
     "idProceso": 50745490,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:23.532Z"
+  "notas": [
+    {
+      "carpetaNumero": 252,
+      "createdAt": "2024-02-07T03:33:55.944Z",
+      "pathname": null,
+      "dueDate": "2018-03-08T05:00:00.000Z",
+      "text": "EL 8/02/2018 LA APODERADA DEL BANCO RETIRO LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 252,
+      "createdAt": "2024-02-07T03:33:55.944Z",
+      "pathname": null,
+      "dueDate": "2018-03-15T05:00:00.000Z",
+      "text": " EL 15/02/2018 SE DEVOLVIO DESGLOSE CON GARANTIAS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 252,
+      "createdAt": "2024-02-07T03:33:55.944Z",
+      "pathname": null,
+      "dueDate": "2017-12-01T05:00:00.000Z",
+      "text": " EL 1/11/2017 SE ELABORO OFICIO DE EMBARGO Y NO SE RADICO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:55.944Z"
 }

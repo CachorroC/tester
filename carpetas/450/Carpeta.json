@@ -16,7 +16,7 @@
       "cant": 2,
       "idProceso": 51571520,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:47.217Z"
+      "createdAt": "2024-02-07T03:34:15.683Z"
     },
     {
       "idRegActuacion": 857051540,
@@ -33,10 +33,10 @@
       "cant": 2,
       "idProceso": 51571520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:47.217Z"
+      "createdAt": "2024-02-07T03:34:15.683Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -45,6 +45,8 @@
     "id": 450
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "21550202",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -53,8 +55,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.277Z"
     ],
+    "id": 450,
     "llaveProceso": "11001400307820180064700",
-    "mandamientoPago": "2018-04-07T05:00:00.000Z",
+    "mandamientoPago": [
+      "2018-07-04T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 450,
@@ -86,7 +91,7 @@
     ],
     "medidasCautelares": {
       "id": 450,
-      "fechaOrdenaMedida": "2024-02-03T18:59:47.143Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:15.635Z",
       "medidaSolicitada": null
     }
   },
@@ -108,7 +113,7 @@
   ],
   "idRegUltimaAct": 857051550,
   "llaveProceso": "11001400307820180064700",
-  "nombre": "KELLY YOHANNA MURCIA DUCON",
+  "nombre": "kelly yohanna murcia ducon",
   "numero": 450,
   "procesos": [
     {
@@ -130,7 +135,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 857051550,
@@ -148,5 +153,31 @@
     "idProceso": 51571520,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:47.143Z"
+  "notas": [
+    {
+      "carpetaNumero": 450,
+      "createdAt": "2024-02-07T03:34:15.634Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 18 DE SEPTIEMBRE DE 2018 SE TERMINO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 450,
+      "createdAt": "2024-02-07T03:34:15.634Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 17 DE ENERO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 450,
+      "createdAt": "2024-02-07T03:34:15.634Z",
+      "pathname": null,
+      "dueDate": "2023-02-19T05:00:00.000Z",
+      "text": " 19/01/2023 SE SOLICITO CERTIFICADO DE TRADICIÓN SIN MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:15.635Z"
 }

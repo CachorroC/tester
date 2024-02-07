@@ -16,7 +16,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     },
     {
       "idRegActuacion": 266847680,
@@ -33,7 +33,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     },
     {
       "idRegActuacion": 266847670,
@@ -50,7 +50,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     },
     {
       "idRegActuacion": 266847660,
@@ -67,7 +67,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     },
     {
       "idRegActuacion": 266847650,
@@ -84,7 +84,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     },
     {
       "idRegActuacion": 266847640,
@@ -101,7 +101,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     },
     {
       "idRegActuacion": 266847630,
@@ -118,7 +118,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     },
     {
       "idRegActuacion": 266847620,
@@ -135,7 +135,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     },
     {
       "idRegActuacion": 266847610,
@@ -152,7 +152,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     },
     {
       "idRegActuacion": 266847600,
@@ -169,10 +169,10 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.698Z"
+      "createdAt": "2024-02-07T03:34:11.690Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -181,6 +181,8 @@
     "id": 402
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "41146013",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -189,8 +191,11 @@
     "fechaPresentacion": [
       "2018-02-20T05:00:00.000Z"
     ],
+    "id": 402,
     "llaveProceso": "11001400306420180021800",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-02-26T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 402,
@@ -222,7 +227,7 @@
     ],
     "medidasCautelares": {
       "id": 402,
-      "fechaOrdenaMedida": "2024-02-03T18:59:41.654Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:11.571Z",
       "medidaSolicitada": null
     }
   },
@@ -244,7 +249,7 @@
   ],
   "idRegUltimaAct": 266847690,
   "llaveProceso": "11001400306420180021800",
-  "nombre": "BLANCA CECILIA ARDILA HUERTAS",
+  "nombre": "blanca cecilia ardila huertas",
   "numero": 402,
   "procesos": [
     {
@@ -266,7 +271,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 266847690,
@@ -284,5 +289,23 @@
     "idProceso": 17948440,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:41.655Z"
+  "notas": [
+    {
+      "carpetaNumero": 402,
+      "createdAt": "2024-02-07T03:34:11.571Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "RETIRO DE LA DEMANDA SIN MEDIDAS CAUTELARES 26 DE ABRIL DE 2018 SE ENVIARON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 402,
+      "createdAt": "2024-02-07T03:34:11.571Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " PAGARES EN FAVOR DEL DEUDOR POR PAGO TOTAL DE LA OBLIGACION",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:11.571Z"
 }

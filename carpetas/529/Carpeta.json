@@ -16,7 +16,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 894580873,
@@ -33,7 +33,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 894580863,
@@ -50,7 +50,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 893025103,
@@ -67,7 +67,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 886333993,
@@ -84,7 +84,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 886333983,
@@ -101,7 +101,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 843644673,
@@ -118,7 +118,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 843464713,
@@ -135,7 +135,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 841592803,
@@ -152,7 +152,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 841592793,
@@ -169,7 +169,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 838670823,
@@ -186,7 +186,7 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     },
     {
       "idRegActuacion": 838260823,
@@ -203,10 +203,10 @@
       "cant": 12,
       "idProceso": 66898433,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.498Z"
+      "createdAt": "2024-02-07T03:34:21.217Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "SUSANA CONTRERAS POVEDA",
     "cedula": "35402673",
@@ -215,14 +215,17 @@
     "id": 529
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "35424539",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 529,
     "llaveProceso": "11001400305220190110300",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 529,
@@ -255,7 +258,7 @@
     ],
     "medidasCautelares": {
       "id": 529,
-      "fechaOrdenaMedida": "2024-02-03T18:59:52.445Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:21.136Z",
       "medidaSolicitada": null
     }
   },
@@ -277,7 +280,7 @@
   ],
   "idRegUltimaAct": 895745473,
   "llaveProceso": "11001400305220190110300",
-  "nombre": "GONZALO CONTRERAS POVEDA",
+  "nombre": "gonzalo contreras poveda",
   "numero": 529,
   "procesos": [
     {
@@ -299,7 +302,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 895745473,
@@ -317,5 +320,23 @@
     "idProceso": 66898433,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:52.445Z"
+  "notas": [
+    {
+      "carpetaNumero": 529,
+      "createdAt": "2024-02-07T03:34:21.136Z",
+      "pathname": null,
+      "dueDate": "2020-03-06T05:00:00.000Z",
+      "text": "EL 6/02/2020 APODERADA RENUNCIA A TERMINOS Y RETIRA LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 529,
+      "createdAt": "2024-02-07T03:34:21.136Z",
+      "pathname": null,
+      "dueDate": "2020-04-02T05:00:00.000Z",
+      "text": " 2/03/2020 SE DEVUELVEN GARANTIAS A AECSA POR FALTA DE INFORMACION DEL ACREEEDOR HIPOTECARIO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:21.137Z"
 }

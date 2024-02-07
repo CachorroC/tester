@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:20.296Z"
+      "createdAt": "2024-02-07T03:33:52.501Z"
     },
     {
       "idRegActuacion": 725462980,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:20.296Z"
+      "createdAt": "2024-02-07T03:33:52.501Z"
     },
     {
       "idRegActuacion": 725462970,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:20.296Z"
+      "createdAt": "2024-02-07T03:33:52.501Z"
     },
     {
       "idRegActuacion": 725462960,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:20.296Z"
+      "createdAt": "2024-02-07T03:33:52.501Z"
     },
     {
       "idRegActuacion": 725462950,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:20.296Z"
+      "createdAt": "2024-02-07T03:33:52.501Z"
     },
     {
       "idRegActuacion": 725462940,
@@ -101,10 +101,10 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:20.296Z"
+      "createdAt": "2024-02-07T03:33:52.501Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "LUCY STELLA OSMA RODRIGUEZ",
     "cedula": "51922265",
@@ -113,6 +113,8 @@
     "id": 222
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "51145474.58",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -121,8 +123,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.982Z"
     ],
+    "id": 222,
     "llaveProceso": "11001400302820170085800",
-    "mandamientoPago": "2017-09-12T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-09-12T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 222,
@@ -154,7 +159,7 @@
     ],
     "medidasCautelares": {
       "id": 222,
-      "fechaOrdenaMedida": "2024-02-03T18:59:20.254Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:52.384Z",
       "medidaSolicitada": null
     }
   },
@@ -176,7 +181,7 @@
   ],
   "idRegUltimaAct": 725462990,
   "llaveProceso": "11001400302820170085800",
-  "nombre": "DUFRESNY AUGUSTO PINILLA",
+  "nombre": "dufresny augusto pinilla",
   "numero": 222,
   "procesos": [
     {
@@ -198,7 +203,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 725462990,
@@ -216,5 +221,39 @@
     "idProceso": 50688520,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:20.254Z"
+  "notas": [
+    {
+      "carpetaNumero": 222,
+      "createdAt": "2024-02-07T03:33:52.384Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "16 DE DICIEMBRE DE 2017 SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 222,
+      "createdAt": "2024-02-07T03:33:52.384Z",
+      "pathname": null,
+      "dueDate": "2018-01-07T05:00:00.000Z",
+      "text": " EL 7/12/2017 SE RETIRO DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 222,
+      "createdAt": "2024-02-07T03:33:52.384Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE RETIRO OFICIO DE EMBARGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 222,
+      "createdAt": "2024-02-07T03:33:52.384Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE RADICARON MEDIDAS CAUTELARES EN CONTRA DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:52.384Z"
 }

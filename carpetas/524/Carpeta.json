@@ -16,7 +16,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 869815910,
@@ -33,7 +33,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 867906090,
@@ -50,7 +50,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 867751010,
@@ -67,7 +67,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 865829930,
@@ -84,7 +84,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 865556060,
@@ -101,7 +101,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 565774490,
@@ -118,7 +118,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 565779090,
@@ -135,7 +135,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 565294300,
@@ -152,7 +152,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 565680260,
@@ -169,7 +169,7 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     },
     {
       "idRegActuacion": 856400000,
@@ -186,10 +186,10 @@
       "cant": 11,
       "idProceso": 70545740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:52.097Z"
+      "createdAt": "2024-02-07T03:34:20.921Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -198,6 +198,8 @@
     "id": 524
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "135",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -206,8 +208,9 @@
     "fechaPresentacion": [
       "2019-06-04T05:00:00.000Z"
     ],
+    "id": 524,
     "llaveProceso": "11001400307520190100800",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 524,
@@ -239,7 +242,7 @@
     ],
     "medidasCautelares": {
       "id": 524,
-      "fechaOrdenaMedida": "2024-02-03T18:59:52.052Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:20.881Z",
       "medidaSolicitada": null
     }
   },
@@ -261,7 +264,7 @@
   ],
   "idRegUltimaAct": 869815920,
   "llaveProceso": "11001400307520190100800",
-  "nombre": "INGRIT YOHANA VASQUEZ ROJAS",
+  "nombre": "ingrit yohana vasquez rojas",
   "numero": 524,
   "procesos": [
     {
@@ -283,7 +286,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 869815920,
@@ -301,5 +304,31 @@
     "idProceso": 70545740,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:52.052Z"
+  "notas": [
+    {
+      "carpetaNumero": 524,
+      "createdAt": "2024-02-07T03:34:20.881Z",
+      "pathname": null,
+      "dueDate": "2019-12-19T05:00:00.000Z",
+      "text": "EL 19/11/2019 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 524,
+      "createdAt": "2024-02-07T03:34:20.881Z",
+      "pathname": null,
+      "dueDate": "2020-06-20T05:00:00.000Z",
+      "text": " EL 20/05/2020 SE HIZO EL LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 524,
+      "createdAt": "2024-02-07T03:34:20.881Z",
+      "pathname": null,
+      "dueDate": "2019-03-21T05:00:00.000Z",
+      "text": " EL 21/02/2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:20.882Z"
 }

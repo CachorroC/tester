@@ -16,7 +16,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713213,
@@ -33,7 +33,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713203,
@@ -50,7 +50,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713193,
@@ -67,7 +67,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713183,
@@ -84,7 +84,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713173,
@@ -101,7 +101,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713163,
@@ -118,7 +118,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713293,
@@ -135,7 +135,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713283,
@@ -152,7 +152,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713273,
@@ -169,7 +169,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713263,
@@ -186,7 +186,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713253,
@@ -203,7 +203,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713243,
@@ -220,7 +220,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713233,
@@ -237,7 +237,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713223,
@@ -254,7 +254,7 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     },
     {
       "idRegActuacion": 94713153,
@@ -271,10 +271,10 @@
       "cant": 16,
       "idProceso": 8833783,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.421Z"
+      "createdAt": "2024-02-07T03:34:11.343Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "ANGELICA MARIA TORRES QUIROGA",
     "cedula": "1030559747",
@@ -283,6 +283,8 @@
     "id": 399
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "377",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -291,8 +293,11 @@
     "fechaPresentacion": [
       "2018-02-08T05:00:00.000Z"
     ],
+    "id": 399,
     "llaveProceso": "11001400303720180013200",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-04-26T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 399,
@@ -346,7 +351,7 @@
   ],
   "idRegUltimaAct": 793442093,
   "llaveProceso": "11001400303720180013200",
-  "nombre": "GIOVANNI  PERDOMO QUIROGA",
+  "nombre": "giovanni  perdomo quiroga",
   "numero": 399,
   "procesos": [
     {
@@ -368,7 +373,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 793442093,
@@ -386,5 +391,31 @@
     "idProceso": 8833783,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:41.285Z"
+  "notas": [
+    {
+      "carpetaNumero": 399,
+      "createdAt": "2024-02-07T03:34:11.222Z",
+      "pathname": null,
+      "dueDate": "2018-08-16T05:00:00.000Z",
+      "text": "EL 16/07/2018 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 399,
+      "createdAt": "2024-02-07T03:34:11.222Z",
+      "pathname": null,
+      "dueDate": "2018-08-31T05:00:00.000Z",
+      "text": " EL 31/07/2018 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICIÓN ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 399,
+      "createdAt": "2024-02-07T03:34:11.222Z",
+      "pathname": null,
+      "dueDate": "2018-10-15T05:00:00.000Z",
+      "text": " EL 15/09/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:11.222Z"
 }

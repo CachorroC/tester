@@ -1,7 +1,7 @@
 {
   "id": 79840930,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "ELDORA ANDREA TRIANA SILVA",
     "cedula": "53114743",
@@ -10,6 +10,8 @@
     "id": 154
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "29366625",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -20,8 +22,11 @@
       "2018-09-05T05:00:00.000Z",
       "2022-08-30T05:00:00.000Z"
     ],
+    "id": 154,
     "llaveProceso": "2017 - 00841",
-    "mandamientoPago": "2018-09-05T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-09-05T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 154,
@@ -55,7 +60,7 @@
     ],
     "medidasCautelares": {
       "id": 154,
-      "fechaOrdenaMedida": "2024-02-03T18:59:53.651Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:45.283Z",
       "medidaSolicitada": null
     }
   },
@@ -75,12 +80,13 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2017 - 00841",
-  "nombre": "GABRIEL EDUARDO MEJIA LADINO ",
+  "nombre": "gabriel eduardo mejia ladino ",
   "numero": 154,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:53.651Z"
+  "notas": [],
+  "updatedAt": "2024-02-07T03:33:45.290Z"
 }

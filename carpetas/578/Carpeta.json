@@ -10,14 +10,17 @@
     "id": 578
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "140332319",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2021-08-18T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 578,
     "llaveProceso": "2023-00442",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "ZIPAQUIRA",
     "notificacion": {
       "id": 578,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 578,
-      "fechaOrdenaMedida": "2024-02-03T18:58:47.834Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.460Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,86 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2023-00442",
-  "nombre": "DIANA CRISTINA AREVALO ARBOLEDA",
+  "nombre": "diana cristina arevalo arboleda",
   "numero": 578,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:47.834Z"
+  "notas": [
+    {
+      "carpetaNumero": 578,
+      "createdAt": "2024-02-07T03:34:25.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "23 AGOSTO 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 578,
+      "createdAt": "2024-02-07T03:34:25.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "6 SEPT 2023 INADMITE DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 578,
+      "createdAt": "2024-02-07T03:34:25.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 SEPT 2023 SUBSANA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 578,
+      "createdAt": "2024-02-07T03:34:25.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 28 SEPT 2023 AUTO LIBRA MANDAMIENTO DE PAGO",
+      "content": []
+    },
+    {
+      "carpetaNumero": 578,
+      "createdAt": "2024-02-07T03:34:25.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MANDAMIENTO OK ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 578,
+      "createdAt": "2024-02-07T03:34:25.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 2 NOV 2023 SE RADICA OFICIO DE ZIPAQUIRA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 578,
+      "createdAt": "2024-02-07T03:34:25.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 NOV 2023 SE RAFDICA NOTI + ANTE JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 578,
+      "createdAt": "2024-02-07T03:34:25.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " FALTA RADICAR OFICIO PACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 578,
+      "createdAt": "2024-02-07T03:34:25.460Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 NOV SE RADICA AMPLIACION MED CAUTELAR VEHICULO ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.461Z"
 }

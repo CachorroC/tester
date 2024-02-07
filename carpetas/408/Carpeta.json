@@ -1,7 +1,7 @@
 {
   "id": 80792987,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 408
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "189",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-02-22T05:00:00.000Z"
     ],
+    "id": 408,
     "llaveProceso": "11001400308120180026400",
-    "mandamientoPago": "2018-03-04T05:00:00.000Z",
+    "mandamientoPago": [
+      "2018-04-03T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 408,
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308120180026400",
-  "nombre": "JHON ALEXANDER BEJARANO FONSECA",
+  "nombre": "jhon alexander bejarano fonseca",
   "numero": 408,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:42.118Z"
+  "notas": [
+    {
+      "carpetaNumero": 408,
+      "createdAt": "2024-02-07T03:34:12.325Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 11 DE FEBRERO DE 2019 SE TERMINO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 408,
+      "createdAt": "2024-02-07T03:34:12.325Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 24 DE AGOSTO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 408,
+      "createdAt": "2024-02-07T03:34:12.325Z",
+      "pathname": null,
+      "dueDate": "2019-04-18T05:00:00.000Z",
+      "text": " EL 18/03/2019 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR SEGÙN CERTIFICADO DE TRADICION",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:12.325Z"
 }

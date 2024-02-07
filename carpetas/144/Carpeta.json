@@ -16,10 +16,10 @@
       "cant": 1,
       "idProceso": 81647161,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:11.559Z"
+      "createdAt": "2024-02-07T03:33:44.298Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "JHON EDER CHACON GONZALEZ",
     "cedula": "1019036435",
@@ -28,14 +28,19 @@
     "id": 144
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "10481215",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-08-16T05:00:16.000Z",
     "etapaProcesal": "11001400302620170087200",
     "fechaPresentacion": [],
+    "id": 144,
     "llaveProceso": "11001400302620170087200",
-    "mandamientoPago": "2017-08-22T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-08-22T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 144,
@@ -83,14 +88,14 @@
     "direccion": "CALLE 136A # 100A - 07",
     "email": null
   },
-  "fecha": "2019-07-30T05:00:00.000Z",
+  "fecha": "2022-02-23T05:00:00.000Z",
   "idProcesos": [
     50652400,
     81647161
   ],
-  "idRegUltimaAct": 888114011,
+  "idRegUltimaAct": 1259118680,
   "llaveProceso": "11001400302620170087200",
-  "nombre": "MARIA FILOMENA GONZALES SALAS ",
+  "nombre": "maria filomena gonzales salas ",
   "numero": 144,
   "procesos": [
     {
@@ -129,23 +134,49 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
-    "idRegActuacion": 888114011,
+    "idRegActuacion": 1259118680,
     "llaveProceso": "11001400302620170087200",
-    "consActuacion": 8282236,
-    "fechaActuacion": "2019-07-30T05:00:00.000Z",
-    "actuacion": "AUTO EMPLAZA",
-    "anotacion": "AUTO LIBRA MANDAMIENTO DE PAGO DE FECHA: 29 DE AGOSTO DE 2017",
-    "fechaInicial": "2019-07-30T05:00:00.000Z",
-    "fechaFinal": "2019-08-22T05:00:00.000Z",
-    "fechaRegistro": "2019-07-30T05:00:00.000Z",
+    "consActuacion": 90,
+    "fechaActuacion": "2022-02-23T05:00:00.000Z",
+    "actuacion": "Archivo Definitivo",
+    "anotacion": "TERMINACION CAJA NO 0033 DE 2022",
+    "fechaInicial": null,
+    "fechaFinal": null,
+    "fechaRegistro": "2022-02-23T05:00:00.000Z",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 1,
-    "idProceso": 81647161,
-    "isUltimaAct": false
+    "cant": 90,
+    "idProceso": 50652400,
+    "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:11.264Z"
+  "notas": [
+    {
+      "carpetaNumero": 144,
+      "createdAt": "2024-02-07T03:33:44.137Z",
+      "pathname": null,
+      "dueDate": "2021-10-02T05:00:00.000Z",
+      "text": "2/09/2021 JUZGADO DECRETA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 144,
+      "createdAt": "2024-02-07T03:33:44.137Z",
+      "pathname": null,
+      "dueDate": "2021-11-06T05:00:00.000Z",
+      "text": " 6/10/2021 NO ADMITE PAGO PARCIAL 50% ES DE CISA NIEGA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 144,
+      "createdAt": "2024-02-07T03:33:44.137Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " DESGLOSE DE GARANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO DE LA DEUDORA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:44.138Z"
 }

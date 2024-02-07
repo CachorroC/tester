@@ -16,7 +16,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     },
     {
       "idRegActuacion": 1940194540,
@@ -33,7 +33,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     },
     {
       "idRegActuacion": 1940194530,
@@ -50,7 +50,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     },
     {
       "idRegActuacion": 1939833130,
@@ -67,7 +67,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     },
     {
       "idRegActuacion": 1900880330,
@@ -84,7 +84,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     },
     {
       "idRegActuacion": 1888902810,
@@ -101,7 +101,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     },
     {
       "idRegActuacion": 1884245940,
@@ -118,7 +118,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     },
     {
       "idRegActuacion": 1884245930,
@@ -135,7 +135,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     },
     {
       "idRegActuacion": 1860392250,
@@ -152,7 +152,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     },
     {
       "idRegActuacion": 1860392240,
@@ -169,7 +169,7 @@
       "cant": 10,
       "idProceso": 132789600,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.131Z"
+      "createdAt": "2024-02-07T03:34:25.873Z"
     }
   ],
   "category": "Bancolombia",
@@ -181,14 +181,17 @@
     "id": 581
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "51081164",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-08-24T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 581,
     "llaveProceso": "11001400303320230105600",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 581,
@@ -222,7 +225,7 @@
     ],
     "medidasCautelares": {
       "id": 581,
-      "fechaOrdenaMedida": "2024-02-03T18:58:48.082Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.813Z",
       "medidaSolicitada": null
     }
   },
@@ -244,7 +247,7 @@
   ],
   "idRegUltimaAct": 1949521190,
   "llaveProceso": "11001400303320230105600",
-  "nombre": "ANGELICA GODOY GUTIERREZ Y EDISON ANDRES TUTA FORERO",
+  "nombre": "angelica godoy gutierrez y edison andres tuta forero",
   "numero": 581,
   "procesos": [
     {
@@ -284,5 +287,47 @@
     "idProceso": 132789600,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:48.083Z"
+  "notas": [
+    {
+      "carpetaNumero": 581,
+      "createdAt": "2024-02-07T03:34:25.813Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "25 AGOSTO 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 581,
+      "createdAt": "2024-02-07T03:34:25.813Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 26 SEPT AUTO INADMITE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 581,
+      "createdAt": "2024-02-07T03:34:25.813Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 29 SEPT SE RADICA SUBSANACION",
+      "content": []
+    },
+    {
+      "carpetaNumero": 581,
+      "createdAt": "2024-02-07T03:34:25.813Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 10 OCT 2023 AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 581,
+      "createdAt": "2024-02-07T03:34:25.813Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 NOV 2023 SE ENVIA SOLICITUD TERMINACION O RETIRO PAGO MORA A JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.813Z"
 }

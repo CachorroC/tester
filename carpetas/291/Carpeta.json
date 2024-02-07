@@ -1,7 +1,7 @@
 {
   "id": 35427969,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 291
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "55186030",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-09-29T05:00:16.000Z",
     "etapaProcesal": "LIQUIDACION",
     "fechaPresentacion": [],
+    "id": 291,
     "llaveProceso": "11001400303920170133000",
-    "mandamientoPago": "2017-10-20T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-20T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 291,
@@ -70,12 +75,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400303920170133000",
-  "nombre": "YEIMMY CAROLINA FINO BALLEN",
+  "nombre": "yeimmy carolina fino ballen",
   "numero": 291,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:27.375Z"
+  "notas": [
+    {
+      "carpetaNumero": 291,
+      "createdAt": "2024-02-07T03:34:00.402Z",
+      "pathname": null,
+      "dueDate": "2019-03-15T05:00:00.000Z",
+      "text": "EL 15/02/2019 EL JUZGADO 39 CM DECRETO TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 291,
+      "createdAt": "2024-02-07T03:34:00.402Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL DESGLOSE CON GARANTIAS Y EL LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:00.403Z"
 }

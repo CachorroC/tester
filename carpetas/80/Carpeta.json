@@ -1,7 +1,7 @@
 {
   "id": 79882688,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 80
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "16208318",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
     "etapaProcesal": "25817408900120170035100",
     "fechaPresentacion": [],
+    "id": 80,
     "llaveProceso": "25817418900120170035100",
-    "mandamientoPago": "2017-06-22T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-06-22T05:00:16.000Z"
+    ],
     "municipio": "TOCANCIPA",
     "notificacion": {
       "id": 80,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 80,
-      "fechaOrdenaMedida": "2024-02-03T18:59:01.240Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:36.501Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25817418900120170035100",
-  "nombre": "JORGE ANDRES PORRAS VARGAS",
+  "nombre": "jorge andres porras vargas",
   "numero": 80,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:01.240Z"
+  "notas": [
+    {
+      "carpetaNumero": 80,
+      "createdAt": "2024-02-07T03:33:36.501Z",
+      "pathname": null,
+      "dueDate": "2021-02-21T05:00:00.000Z",
+      "text": "EL 21/01/2021 EL JUZGADO DA POR TERMINADO EL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 80,
+      "createdAt": "2024-02-07T03:33:36.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS Y MEDIDAS CAUTELARES A CARGO DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:36.501Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 11436632,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 12
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.885Z"
     ],
+    "id": 12,
     "llaveProceso": "25269400300220180015800",
-    "mandamientoPago": "2017-09-18T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-09-18T05:00:16.000Z"
+    ],
     "municipio": "FACATATIVA",
     "notificacion": {
       "id": 12,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 12,
-      "fechaOrdenaMedida": "2024-02-03T18:58:53.238Z",
+      "fechaOrdenaMedida": "2024-02-07T03:24:29.330Z",
       "medidaSolicitada": "PERSONAL"
     }
   },
@@ -71,12 +76,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25269400300220180015800",
-  "nombre": "OSCAR MANUEL TRIVIÑO GARCIA",
+  "nombre": "oscar manuel triviño garcia",
   "numero": 12,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:53.238Z"
+  "notas": [
+    {
+      "carpetaNumero": 12,
+      "createdAt": "2024-02-07T03:24:29.329Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "GARANTIAS DEVUELTAS EN FAVOR DEL DEUDOR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 12,
+      "createdAt": "2024-02-07T03:24:29.330Z",
+      "pathname": null,
+      "dueDate": "2019-12-19T05:00:00.000Z",
+      "text": "18/11/2019 AUTO DE TERMINACION POR PAGO TOTAL DE LA OBLIGACION ESTADO No. 079 DEL 19/11/2019",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:24:29.330Z"
 }

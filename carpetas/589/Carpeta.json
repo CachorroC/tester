@@ -10,14 +10,17 @@
     "id": 589
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "58421147",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-10-07T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 589,
     "llaveProceso": "202300899",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 589,
@@ -50,7 +53,7 @@
     ],
     "medidasCautelares": {
       "id": 589,
-      "fechaOrdenaMedida": "2024-02-03T18:58:49.144Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.482Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +73,62 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "202300899",
-  "nombre": "YURLEDY PARRA HERNANDEZ",
+  "nombre": "yurledy parra hernandez",
   "numero": 589,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:49.144Z"
+  "notas": [
+    {
+      "carpetaNumero": 589,
+      "createdAt": "2024-02-07T03:34:26.482Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "10 OCTUBRE 2023 RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 589,
+      "createdAt": "2024-02-07T03:34:26.482Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 OCT INGRESA AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 589,
+      "createdAt": "2024-02-07T03:34:26.482Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 23 OCT DESPACHO HACE ENVIO DE LINK EXPEDIENTE DIGITAL QUEDA EN LA NUBE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 589,
+      "createdAt": "2024-02-07T03:34:26.482Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "14 NOV 2023 A AUTOS DE 10 NOV NO HA SALIDO NADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 589,
+      "createdAt": "2024-02-07T03:34:26.482Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 23 NOV 2023 AUTO LIBRA MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 589,
+      "createdAt": "2024-02-07T03:34:26.482Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MANDAMIENTO OK  CCR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.482Z"
 }

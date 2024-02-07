@@ -1,7 +1,7 @@
 {
   "id": 53131901,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 239
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "17882476",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2023-01-18T05:00:00.000Z"
     ],
+    "id": 239,
     "llaveProceso": "2017 - 01164",
-    "mandamientoPago": "2017-10-25T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-25T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 239,
@@ -49,7 +54,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 239,
-      "fechaOrdenaMedida": "2024-02-03T18:59:53.698Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:54.620Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,13 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2017 - 01164",
-  "nombre": "NIDIA JACQUELINE RIVEROS ARAQUE",
+  "nombre": "nidia jacqueline riveros araque",
   "numero": 239,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:53.698Z"
+  "notas": [],
+  "updatedAt": "2024-02-07T03:33:54.620Z"
 }

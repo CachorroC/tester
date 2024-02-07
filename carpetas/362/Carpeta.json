@@ -1,7 +1,7 @@
 {
   "id": 52031089,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 362
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "42269",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-12-12T05:00:00.000Z"
     ],
+    "id": 362,
     "llaveProceso": "25754400300220180003100",
-    "mandamientoPago": "2018-08-03T05:00:00.000Z",
+    "mandamientoPago": [
+      "2018-03-08T05:00:00.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 362,
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754400300220180003100",
-  "nombre": "YANETH HERNANDEZ SUAREZ",
+  "nombre": "yaneth hernandez suarez",
   "numero": 362,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:36.483Z"
+  "notas": [
+    {
+      "carpetaNumero": 362,
+      "createdAt": "2024-02-07T03:34:07.332Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 9 DE NOVIEMBRE DE 2018 AUTO TERMINA PROCESO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 362,
+      "createdAt": "2024-02-07T03:34:07.332Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 17 DE DICIEMBRE DE 2018 SE LEVANTA MEDIDA CAUTELAR DE EMBARGO DEL INMUEBLE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 362,
+      "createdAt": "2024-02-07T03:34:07.332Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 7 DE DICIEMBRE DE 2018 SE DEVOLVIERON GARANTIAS A AECSA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:07.332Z"
 }

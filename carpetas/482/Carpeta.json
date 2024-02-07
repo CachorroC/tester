@@ -16,7 +16,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 559135740,
@@ -33,7 +33,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 559135730,
@@ -50,7 +50,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 557681260,
@@ -67,7 +67,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 267962680,
@@ -84,7 +84,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 267962670,
@@ -101,7 +101,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 267962660,
@@ -118,7 +118,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 267962650,
@@ -135,7 +135,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 267962640,
@@ -152,7 +152,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 267962630,
@@ -169,7 +169,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 267962620,
@@ -186,7 +186,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 267962610,
@@ -203,7 +203,7 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     },
     {
       "idRegActuacion": 267962600,
@@ -220,10 +220,10 @@
       "cant": 13,
       "idProceso": 18597560,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.689Z"
+      "createdAt": "2024-02-07T03:34:18.189Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "OSCAR CASTIBLANCO NIÑO",
     "cedula": "80441668",
@@ -232,6 +232,8 @@
     "id": 482
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "35321033",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -240,8 +242,11 @@
     "fechaPresentacion": [
       "2018-09-13T05:00:00.000Z"
     ],
+    "id": 482,
     "llaveProceso": "11001400307120180093600",
-    "mandamientoPago": "2018-08-10T05:00:00.000Z",
+    "mandamientoPago": [
+      "2018-10-08T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 482,
@@ -271,7 +276,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 482,
-      "fechaOrdenaMedida": "2024-02-03T18:59:49.635Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:18.140Z",
       "medidaSolicitada": null
     }
   },
@@ -293,7 +298,7 @@
   ],
   "idRegUltimaAct": 559135750,
   "llaveProceso": "11001400307120180093600",
-  "nombre": "CLAUDIA JANETH CORTES ROSAS",
+  "nombre": "claudia janeth cortes rosas",
   "numero": 482,
   "procesos": [
     {
@@ -315,7 +320,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 559135750,
@@ -333,5 +338,31 @@
     "idProceso": 18597560,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:49.635Z"
+  "notas": [
+    {
+      "carpetaNumero": 482,
+      "createdAt": "2024-02-07T03:34:18.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 13 DE FEBRERO DE 2019 SE TERMINO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 482,
+      "createdAt": "2024-02-07T03:34:18.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO HAY OFICIOS DE MEDIDAS CAUTELARES PORQUE NO SE RADICARON ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 482,
+      "createdAt": "2024-02-07T03:34:18.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 30 DE AGOSTO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:18.140Z"
 }

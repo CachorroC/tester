@@ -1,7 +1,7 @@
 {
   "id": 91250936,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 472
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "15720013",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-08-09T05:00:00.000Z"
     ],
+    "id": 472,
     "llaveProceso": "11001418900920180038900",
-    "mandamientoPago": "2018-10-25T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-10-25T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 472,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 472,
-      "fechaOrdenaMedida": "2024-02-03T18:59:49.365Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:17.475Z",
       "medidaSolicitada": null
     }
   },
@@ -72,12 +77,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418900920180038900",
-  "nombre": "SERGIO ESPINEL CORREAL",
+  "nombre": "sergio espinel correal",
   "numero": 472,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:49.365Z"
+  "notas": [
+    {
+      "carpetaNumero": 472,
+      "createdAt": "2024-02-07T03:34:17.475Z",
+      "pathname": null,
+      "dueDate": "2020-04-03T05:00:00.000Z",
+      "text": "EL 3/03/2020 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 472,
+      "createdAt": "2024-02-07T03:34:17.475Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL DESGLOSE DE LAS GARANTIAS Y EL LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:17.475Z"
 }

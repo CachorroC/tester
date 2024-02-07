@@ -1,7 +1,7 @@
 {
   "id": 1016043191,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 331
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "43041",
     "departamento": "CUNDINAMARCA ",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.116Z"
     ],
+    "id": 331,
     "llaveProceso": "11001410375220170130000",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 331,
@@ -69,12 +72,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001410375220170130000",
-  "nombre": "CHRISTIAN DARIO RUIZ AVELLANEDA",
+  "nombre": "christian dario ruiz avellaneda",
   "numero": 331,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:31.904Z"
+  "notas": [
+    {
+      "carpetaNumero": 331,
+      "createdAt": "2024-02-07T03:34:04.133Z",
+      "pathname": null,
+      "dueDate": "2019-10-25T05:00:00.000Z",
+      "text": "25/09/2019 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 331,
+      "createdAt": "2024-02-07T03:34:04.133Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO DE LA PARTE DEMANDADA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:04.133Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 3034074,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 24
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.921Z"
     ],
+    "id": 24,
     "llaveProceso": "25299418900120170002400",
-    "mandamientoPago": "2017-07-05T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-07-05T05:00:16.000Z"
+    ],
     "municipio": "GAMA",
     "notificacion": {
       "id": 24,
@@ -53,7 +58,7 @@
     ],
     "medidasCautelares": {
       "id": 24,
-      "fechaOrdenaMedida": "2024-02-03T18:58:53.966Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:29.887Z",
       "medidaSolicitada": "OK"
     }
   },
@@ -73,12 +78,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25299418900120170002400",
-  "nombre": "WILSON ARMANDO RODRIGUEZ MORA",
+  "nombre": "wilson armando rodriguez mora",
   "numero": 24,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:53.966Z"
+  "notas": [
+    {
+      "carpetaNumero": 24,
+      "createdAt": "2024-02-07T03:33:29.887Z",
+      "pathname": null,
+      "dueDate": "2018-03-08T05:00:00.000Z",
+      "text": "8/02/2018 AUTO TERMINA PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 24,
+      "createdAt": "2024-02-07T03:33:29.887Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "GARANTIAS DEVUELTAS EN FAVOR DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:29.887Z"
 }

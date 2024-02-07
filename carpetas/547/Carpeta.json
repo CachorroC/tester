@@ -1,7 +1,7 @@
 {
   "id": 348774,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 547
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 547,
     "llaveProceso": "25754400300120210015300",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 547,
@@ -45,7 +48,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 547,
-      "fechaOrdenaMedida": "2024-02-03T18:59:53.216Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:22.892Z",
       "medidaSolicitada": null
     }
   },
@@ -65,12 +68,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754400300120210015300",
-  "nombre": "JOSE EDGAR ACHURI GONZALEZ",
+  "nombre": "jose edgar achuri gonzalez",
   "numero": 547,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:53.216Z"
+  "notas": [
+    {
+      "carpetaNumero": 547,
+      "createdAt": "2024-02-07T03:34:22.892Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "NO SE DEVOLVIERON GARANTIAS POR SER PROCESO ELECTRONICO DECRETO 806 DE 2020 ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 547,
+      "createdAt": "2024-02-07T03:34:22.892Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO EXISTE AUTO DE TERMINACION DEL PROCESO POR CUANTO SE INADMITIO LA DEMANDA ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:22.893Z"
 }

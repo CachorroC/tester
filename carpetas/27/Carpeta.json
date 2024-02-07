@@ -1,7 +1,7 @@
 {
   "id": 79004127,
   "actuaciones": [],
-  "category": "LiosJuridicos",
+  "category": "Insolvencia",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 27
   },
   "demanda": {
+    "liquidacion": "19102017",
+    "avaluo": "1000",
     "capitalAdeudado": "96608106",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-05-19T05:00:16.000Z",
     "etapaProcesal": "25320318900120170019500",
     "fechaPresentacion": [],
+    "id": 27,
     "llaveProceso": "25320310300120170019500",
-    "mandamientoPago": "2017-05-31T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-05-31T05:00:16.000Z"
+    ],
     "municipio": "GUADUAS",
     "notificacion": {
       "id": 27,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 27,
-      "fechaOrdenaMedida": "2024-02-03T19:00:13.053Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:30.232Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25320310300120170019500",
-  "nombre": " NORBEY LOMBANA MAHECHA",
+  "nombre": " norbey lombana mahecha",
   "numero": 27,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:13.053Z"
+  "notas": [
+    {
+      "carpetaNumero": 27,
+      "createdAt": "2024-02-07T03:33:30.232Z",
+      "pathname": null,
+      "dueDate": "2021-07-22T05:00:00.000Z",
+      "text": "22/06/2021 JUZGADO SUSPENDE PROCESO Y REMITE ACUTACION A CENTRO DE CONCILIACION DE ACUERDO CON DECISION DE JUZGADO DE GUADUAS",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:30.232Z"
 }

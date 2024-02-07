@@ -1,7 +1,7 @@
 {
   "id": 2869326,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 395
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "554",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "2018-02-05T05:00:00.000Z"
     ],
+    "id": 395,
     "llaveProceso": "11001400308420180009000",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 395,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 395,
-      "fechaOrdenaMedida": "2024-02-03T18:59:41.208Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:10.946Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308420180009000",
-  "nombre": "JORGE BERMEO ROJAS",
+  "nombre": "jorge bermeo rojas",
   "numero": 395,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:41.208Z"
+  "notas": [
+    {
+      "carpetaNumero": 395,
+      "createdAt": "2024-02-07T03:34:10.946Z",
+      "pathname": null,
+      "dueDate": "2019-09-23T05:00:00.000Z",
+      "text": "EL 23/08/2019 SE DEVOLVIERON GARANTIAS A AECSA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:10.946Z"
 }

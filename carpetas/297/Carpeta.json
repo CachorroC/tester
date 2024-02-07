@@ -10,6 +10,8 @@
     "id": 297
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "28485816",
     "departamento": "BOYACÁ",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-10-12T05:00:00.000Z"
     ],
+    "id": 297,
     "llaveProceso": "15842408900120170009500",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2017-10-23T05:00:00.000Z"
+    ],
     "municipio": "UMBITA",
     "notificacion": {
       "id": 297,
@@ -72,12 +77,46 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "15842408900120170009500",
-  "nombre": "MIGUEL ANGEL MARTINEZ HUERTAS",
+  "nombre": "miguel angel martinez huertas",
   "numero": 297,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:04.248Z"
+  "notas": [
+    {
+      "carpetaNumero": 297,
+      "createdAt": "2024-02-07T03:34:00.969Z",
+      "pathname": null,
+      "dueDate": "2023-01-08T05:00:00.000Z",
+      "text": "8/12/2022 SE SOLICITA AL JUZGADO INSPECCION OCULAR CULTIVOS CREDITO FINAGRO Y RENDICION CUENTAS SECUESTRE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 297,
+      "createdAt": "2024-02-07T03:34:00.969Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 26 ENERO REQUIERE PODER CINFERIDO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 297,
+      "createdAt": "2024-02-07T03:34:00.969Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 3 FEB 2023 SE ENVIA MEMORIAL PODER CONFERIDO CCR Y CAMARA DE COMERCIO RYS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 297,
+      "createdAt": "2024-02-07T03:34:00.969Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "3 DE AGOSTO DE 2023 SE ENVIA CESION REINTEGRA Y RATIFIICACION PODER A CCR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:00.970Z"
 }

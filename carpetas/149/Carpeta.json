@@ -1,7 +1,7 @@
 {
   "id": 23181779,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 149
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "51748331.77",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.969Z"
     ],
+    "id": 149,
     "llaveProceso": "25754400300220170025600",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 149,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 149,
-      "fechaOrdenaMedida": "2024-02-03T18:59:12.524Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:44.853Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754400300220170025600",
-  "nombre": "MAGDA TATIANA TORRES GONZALEZ",
+  "nombre": "magda tatiana torres gonzalez",
   "numero": 149,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:12.524Z"
+  "notas": [
+    {
+      "carpetaNumero": 149,
+      "createdAt": "2024-02-07T03:33:44.853Z",
+      "pathname": null,
+      "dueDate": "2017-12-01T05:00:00.000Z",
+      "text": "1/11/2017 APODERADA DEL BANCO RETIRA DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 149,
+      "createdAt": "2024-02-07T03:33:44.853Z",
+      "pathname": null,
+      "dueDate": "2017-12-08T05:00:00.000Z",
+      "text": " EL 8/11/2017 SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA A AAECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 149,
+      "createdAt": "2024-02-07T03:33:44.853Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN MEDIDAS CAUTELARES EN CONTRA DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:44.853Z"
 }

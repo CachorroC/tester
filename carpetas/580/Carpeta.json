@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:48.043Z"
+      "createdAt": "2024-02-07T03:34:25.785Z"
     },
     {
       "idRegActuacion": 1945278330,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.043Z"
+      "createdAt": "2024-02-07T03:34:25.785Z"
     },
     {
       "idRegActuacion": 1901987450,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.043Z"
+      "createdAt": "2024-02-07T03:34:25.785Z"
     },
     {
       "idRegActuacion": 1901987440,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.043Z"
+      "createdAt": "2024-02-07T03:34:25.785Z"
     },
     {
       "idRegActuacion": 1866917490,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.043Z"
+      "createdAt": "2024-02-07T03:34:25.785Z"
     }
   ],
   "category": "Bancolombia",
@@ -96,14 +96,17 @@
     "id": 580
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "42647591",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-08-24T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 580,
     "llaveProceso": "11001418904420230023900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 580,
@@ -138,7 +141,7 @@
     ],
     "medidasCautelares": {
       "id": 580,
-      "fechaOrdenaMedida": "2024-02-03T18:58:47.993Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.667Z",
       "medidaSolicitada": null
     }
   },
@@ -160,7 +163,7 @@
   ],
   "idRegUltimaAct": 1945278340,
   "llaveProceso": "11001418904420230023900",
-  "nombre": "JOSE IGNACIO GALEANO ALVARADO",
+  "nombre": "jose ignacio galeano alvarado",
   "numero": 580,
   "procesos": [
     {
@@ -200,5 +203,47 @@
     "idProceso": 132964260,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:47.993Z"
+  "notas": [
+    {
+      "carpetaNumero": 580,
+      "createdAt": "2024-02-07T03:34:25.667Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "25 AGOSTO 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 580,
+      "createdAt": "2024-02-07T03:34:25.667Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 2 SEPT INGRESA A DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 580,
+      "createdAt": "2024-02-07T03:34:25.667Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 OCT 2023 INADMITE DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 580,
+      "createdAt": "2024-02-07T03:34:25.667Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 12 OCT 2023 SE ENVIA SUBSANACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 580,
+      "createdAt": "2024-02-07T03:34:25.667Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " ENVIAR IMPULSO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.667Z"
 }

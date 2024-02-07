@@ -1,7 +1,7 @@
 {
   "id": 79405147,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 549
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 549,
     "llaveProceso": null,
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 549,
@@ -45,7 +48,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 549,
-      "fechaOrdenaMedida": "2024-02-03T18:59:53.518Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.018Z",
       "medidaSolicitada": null
     }
   },
@@ -65,12 +68,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "undefined",
-  "nombre": "JOSE ANTONIO BEJARANO CARREÑO",
+  "nombre": "jose antonio bejarano carreño",
   "numero": 549,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:53.518Z"
+  "notas": [
+    {
+      "carpetaNumero": 549,
+      "createdAt": "2024-02-07T03:34:23.018Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 11 DE SEPTIEMBRE DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 549,
+      "createdAt": "2024-02-07T03:34:23.018Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN MEDIDAS CAUTELARES ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 549,
+      "createdAt": "2024-02-07T03:34:23.018Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " PROCESO SE RETIRO DEL JUZGADO SIN ACTUACION ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.018Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 11207272,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 23
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "149",
     "capitalAdeudado": "37209133",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.885Z"
     ],
+    "id": 23,
     "llaveProceso": "25307400300120170033700",
-    "mandamientoPago": "2017-07-26T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-07-26T05:00:16.000Z"
+    ],
     "municipio": "GIRARDOT",
     "notificacion": {
       "id": 23,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 23,
-      "fechaOrdenaMedida": "2024-02-03T18:58:53.942Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:29.849Z",
       "medidaSolicitada": "OK"
     }
   },
@@ -72,12 +77,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25307400300120170033700",
-  "nombre": "EDER ALEXIS HERRERA SAENZ",
+  "nombre": "eder alexis herrera saenz",
   "numero": 23,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:53.942Z"
+  "notas": [
+    {
+      "carpetaNumero": 23,
+      "createdAt": "2024-02-07T03:33:29.849Z",
+      "pathname": null,
+      "dueDate": "2019-07-06T05:00:00.000Z",
+      "text": "6/06/2019 AUTO TERMINA POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 23,
+      "createdAt": "2024-02-07T03:33:29.849Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "GARANTIAS DEVUELTAS EN FAVOR DEL DEUDOR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 23,
+      "createdAt": "2024-02-07T03:33:29.849Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR DE LA PARTE DEMANDADA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:29.849Z"
 }

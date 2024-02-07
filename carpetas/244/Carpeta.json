@@ -16,7 +16,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977130,
@@ -33,7 +33,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977120,
@@ -50,7 +50,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977110,
@@ -67,7 +67,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977100,
@@ -84,7 +84,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977090,
@@ -101,7 +101,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977080,
@@ -118,7 +118,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977070,
@@ -135,7 +135,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977060,
@@ -152,7 +152,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977050,
@@ -169,7 +169,7 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     },
     {
       "idRegActuacion": 713977040,
@@ -186,10 +186,10 @@
       "cant": 11,
       "idProceso": 50718800,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:22.848Z"
+      "createdAt": "2024-02-07T03:33:55.235Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "JANETH ELIANA SARMIENTO GAMBA",
     "cedula": "1012324304",
@@ -198,6 +198,8 @@
     "id": 244
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "37800911",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -206,8 +208,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.997Z"
     ],
+    "id": 244,
     "llaveProceso": "11001400302620170100600",
-    "mandamientoPago": "2017-10-10T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-10T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 244,
@@ -239,7 +244,7 @@
     ],
     "medidasCautelares": {
       "id": 244,
-      "fechaOrdenaMedida": "2024-02-03T18:59:22.792Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:55.112Z",
       "medidaSolicitada": null
     }
   },
@@ -261,7 +266,7 @@
   ],
   "idRegUltimaAct": 713977140,
   "llaveProceso": "11001400302620170100600",
-  "nombre": "RICARDO ANDRES NOCUA GUATAMA",
+  "nombre": "ricardo andres nocua guatama",
   "numero": 244,
   "procesos": [
     {
@@ -283,7 +288,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 713977140,
@@ -301,5 +306,39 @@
     "idProceso": 50718800,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:22.792Z"
+  "notas": [
+    {
+      "carpetaNumero": 244,
+      "createdAt": "2024-02-07T03:33:55.112Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "13 DE DICEMEBRE 2017 SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 244,
+      "createdAt": "2024-02-07T03:33:55.112Z",
+      "pathname": null,
+      "dueDate": "2018-01-13T05:00:00.000Z",
+      "text": " EL 13/12/2017 SE RETIRO LA DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 244,
+      "createdAt": "2024-02-07T03:33:55.112Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN RETIRO DE OFICIOS DE EMBARGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 244,
+      "createdAt": "2024-02-07T03:33:55.112Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE REGISTRO MEDIDA CAUTELAR CONTRA EL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:55.113Z"
 }

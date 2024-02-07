@@ -1,7 +1,7 @@
 {
   "id": 79512506,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "YULI MARCELA PEÑA GARCIA",
     "cedula": "52730300",
@@ -10,14 +10,19 @@
     "id": 416
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "51606071",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-14T05:00:16.000Z",
     "etapaProcesal": "11001400302020170147700",
     "fechaPresentacion": [],
+    "id": 416,
     "llaveProceso": "2017 - 01477",
-    "mandamientoPago": "2017-11-24T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-11-24T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 416,
@@ -50,7 +55,7 @@
     ],
     "medidasCautelares": {
       "id": 416,
-      "fechaOrdenaMedida": "2024-02-03T18:59:43.082Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:12.861Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +75,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2017 - 01477",
-  "nombre": "JOSE ANTONIO MONTEALEGRE HERNANDEZ",
+  "nombre": "jose antonio montealegre hernandez",
   "numero": 416,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:43.082Z"
+  "notas": [
+    {
+      "carpetaNumero": 416,
+      "createdAt": "2024-02-07T03:34:12.861Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "25 ABRIL 2023 EN COMUNICACION CON AECSA SE NOS INFOMOR POR EL DR CARLOS DANIEL Y LA DRA  DIANA LEON QUE PROCESO FUE CEDIDO EL N 100% A CISA. ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:12.861Z"
 }

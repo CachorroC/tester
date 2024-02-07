@@ -10,14 +10,17 @@
     "id": 604
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "25852498",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-23T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 604,
     "llaveProceso": null,
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 604,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 604,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.319Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.552Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "undefined",
-  "nombre": "CARLOS ALBERTO MONCADA MORALES",
+  "nombre": "carlos alberto moncada morales",
   "numero": 604,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:50.319Z"
+  "notas": [
+    {
+      "carpetaNumero": 604,
+      "createdAt": "2024-02-07T03:34:27.552Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "24 NOV 2023 SE RADICA DEMANDA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.552Z"
 }

@@ -10,6 +10,8 @@
     "id": 338
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "42530688",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-10-19T05:00:16.000Z"
     ],
+    "id": 338,
     "llaveProceso": "25148408900120170009600",
-    "mandamientoPago": "2017-11-09T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-11-09T05:00:16.000Z"
+    ],
     "municipio": "CAPARRAPI",
     "notificacion": {
       "id": 338,
@@ -71,12 +76,54 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25148408900120170009600",
-  "nombre": "BLANCA MELBA MOYANO BELTRAN",
+  "nombre": "blanca melba moyano beltran",
   "numero": 338,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:04.548Z"
+  "notas": [
+    {
+      "carpetaNumero": 338,
+      "createdAt": "2024-02-07T03:34:04.740Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "SE SRECIBIO RESPUESTA NEGATIVA ACCIONES DE ECOPETROL ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 338,
+      "createdAt": "2024-02-07T03:34:04.740Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " RECONOCE PODER CCR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 338,
+      "createdAt": "2024-02-07T03:34:04.740Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 18 MAYO 2023 SE ENVIA SOLICTUD EMBARGO ACCIONES ETB. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 338,
+      "createdAt": "2024-02-07T03:34:04.740Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "  A AUTOS DE 27 JULIO 2023 NO HAY NINGUN PRONUNCIAMENTO. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 338,
+      "createdAt": "2024-02-07T03:34:04.741Z",
+      "pathname": null,
+      "dueDate": "2024-01-13T05:00:00.000Z",
+      "text": " 13/12/2023 SE ENVIA AMPLIACION DE MEDIDAS CAUTELARES EMBARGO ACCIONES EN LA ETB",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:04.741Z"
 }

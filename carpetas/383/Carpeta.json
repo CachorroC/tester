@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:39.372Z"
+      "createdAt": "2024-02-07T03:34:09.599Z"
     },
     {
       "idRegActuacion": 714162850,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:39.372Z"
+      "createdAt": "2024-02-07T03:34:09.599Z"
     },
     {
       "idRegActuacion": 714162840,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:39.372Z"
+      "createdAt": "2024-02-07T03:34:09.599Z"
     },
     {
       "idRegActuacion": 714162830,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:39.372Z"
+      "createdAt": "2024-02-07T03:34:09.599Z"
     },
     {
       "idRegActuacion": 714162820,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:39.372Z"
+      "createdAt": "2024-02-07T03:34:09.599Z"
     },
     {
       "idRegActuacion": 714162810,
@@ -101,10 +101,10 @@
       "cant": 6,
       "idProceso": 51176440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:39.372Z"
+      "createdAt": "2024-02-07T03:34:09.599Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "RODEGAN LOPEZ MENDOZA",
     "cedula": "74327316",
@@ -113,6 +113,8 @@
     "id": 383
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "14735254",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -122,8 +124,11 @@
       "2018-01-26T05:00:00.000Z",
       "2018-04-02T05:00:00.000Z"
     ],
+    "id": 383,
     "llaveProceso": "11001400302620180047900",
-    "mandamientoPago": "2018-05-22T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-05-22T05:00:16.000Z"
+    ],
     "municipio": "KENNEDY",
     "notificacion": {
       "id": 383,
@@ -155,7 +160,7 @@
     ],
     "medidasCautelares": {
       "id": 383,
-      "fechaOrdenaMedida": "2024-02-03T18:59:39.325Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:09.505Z",
       "medidaSolicitada": null
     }
   },
@@ -177,7 +182,7 @@
   ],
   "idRegUltimaAct": 714162860,
   "llaveProceso": "11001400302620180047900",
-  "nombre": "NOHORA ESPERANZA BARRERO RODRIGUEZ",
+  "nombre": "nohora esperanza barrero rodriguez",
   "numero": 383,
   "procesos": [
     {
@@ -199,7 +204,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 714162860,
@@ -217,5 +222,23 @@
     "idProceso": 51176440,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:39.325Z"
+  "notas": [
+    {
+      "carpetaNumero": 383,
+      "createdAt": "2024-02-07T03:34:09.505Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 18 DE JUNIO DE 2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 383,
+      "createdAt": "2024-02-07T03:34:09.505Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 22 DE MAYO DE 2018 SE DICTO MANDAMIENTO DE PAGO NO SE REGISTRARON MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:09.505Z"
 }

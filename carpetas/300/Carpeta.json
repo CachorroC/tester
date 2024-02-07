@@ -1,7 +1,7 @@
 {
   "id": 79617611,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 300
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "19678334",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.026Z"
     ],
+    "id": 300,
     "llaveProceso": "25286400300120170081600",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "FUNZA",
     "notificacion": {
       "id": 300,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 300,
-      "fechaOrdenaMedida": "2024-02-03T18:59:27.507Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:01.209Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25286400300120170081600",
-  "nombre": "FABIO EDILBERTO JARA SANCHEZ",
+  "nombre": "fabio edilberto jara sanchez",
   "numero": 300,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:27.507Z"
+  "notas": [
+    {
+      "carpetaNumero": 300,
+      "createdAt": "2024-02-07T03:34:01.209Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 28 DE NOVIEMBRE DE 2018 SE TERMINO EL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 300,
+      "createdAt": "2024-02-07T03:34:01.209Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 31 DE ENERO DE 2019 SE DEVOLVIERON GRANTIAS EN FAVOR DEL DEUDOR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 300,
+      "createdAt": "2024-02-07T03:34:01.209Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MEDIDAS CAUTELARES A CARGO DEL DEDUOR ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:01.209Z"
 }

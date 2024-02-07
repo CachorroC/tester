@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 50915500,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:36.445Z"
+      "createdAt": "2024-02-07T03:34:07.132Z"
     },
     {
       "idRegActuacion": 696659840,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 50915500,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.445Z"
+      "createdAt": "2024-02-07T03:34:07.132Z"
     },
     {
       "idRegActuacion": 696659830,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 50915500,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.445Z"
+      "createdAt": "2024-02-07T03:34:07.132Z"
     },
     {
       "idRegActuacion": 696659820,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 50915500,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.445Z"
+      "createdAt": "2024-02-07T03:34:07.132Z"
     },
     {
       "idRegActuacion": 696659810,
@@ -84,10 +84,10 @@
       "cant": 5,
       "idProceso": 50915500,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.445Z"
+      "createdAt": "2024-02-07T03:34:07.132Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -96,6 +96,8 @@
     "id": 360
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "15576784",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -104,8 +106,9 @@
     "fechaPresentacion": [
       "2017-12-12T05:00:00.000Z"
     ],
+    "id": 360,
     "llaveProceso": "11001400302320170145200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 360,
@@ -137,7 +140,7 @@
     ],
     "medidasCautelares": {
       "id": 360,
-      "fechaOrdenaMedida": "2024-02-03T18:59:36.405Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:07.046Z",
       "medidaSolicitada": null
     }
   },
@@ -159,7 +162,7 @@
   ],
   "idRegUltimaAct": 696659850,
   "llaveProceso": "11001400302320170145200",
-  "nombre": "NOHORA DEL PILAR VARGAS BERNAL",
+  "nombre": "nohora del pilar vargas bernal",
   "numero": 360,
   "procesos": [
     {
@@ -181,7 +184,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 696659850,
@@ -199,5 +202,31 @@
     "idProceso": 50915500,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:36.405Z"
+  "notas": [
+    {
+      "carpetaNumero": 360,
+      "createdAt": "2024-02-07T03:34:07.046Z",
+      "pathname": null,
+      "dueDate": "2018-04-23T05:00:00.000Z",
+      "text": "23/03/2018 SE RETIRO LA DEMANDA DEL JUZGADO ENTREGA DEL EXPEDIENTE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 360,
+      "createdAt": "2024-02-07T03:34:07.046Z",
+      "pathname": null,
+      "dueDate": "2018-04-23T05:00:00.000Z",
+      "text": " EL 23/03/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 360,
+      "createdAt": "2024-02-07T03:34:07.046Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN MEDIDAS CAUTELARES DECRETADAS",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:07.046Z"
 }

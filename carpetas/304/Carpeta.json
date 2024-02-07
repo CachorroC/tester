@@ -1,7 +1,7 @@
 {
   "id": 79892240,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 304
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "61821425",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-10-18T05:00:16.000Z",
     "etapaProcesal": "11001400307320170141100",
     "fechaPresentacion": [],
+    "id": 304,
     "llaveProceso": "2017 - 01411",
-    "mandamientoPago": "2017-08-11T05:00:00.000Z",
+    "mandamientoPago": [
+      "2017-11-08T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 304,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 304,
-      "fechaOrdenaMedida": "2024-02-03T18:59:27.920Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:01.489Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2017 - 01411",
-  "nombre": "FERNANDO GONZALEZ TELLEZ",
+  "nombre": "fernando gonzalez tellez",
   "numero": 304,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:27.920Z"
+  "notas": [
+    {
+      "carpetaNumero": 304,
+      "createdAt": "2024-02-07T03:34:01.488Z",
+      "pathname": null,
+      "dueDate": "2018-04-09T05:00:00.000Z",
+      "text": "9/03/2018 JUZGADO DA POR TERMINADO PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 304,
+      "createdAt": "2024-02-07T03:34:01.488Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN LEVANTAMIENTO DE MEDIDAS CAUTEALRES POR PROCESO ANTERIOR 2016-00689",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:01.489Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 1013586083,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 404
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "88",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-02-21T05:00:00.000Z"
     ],
+    "id": 404,
     "llaveProceso": "257544189003201800177",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-03-14T05:00:00.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 404,
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "257544189003201800177",
-  "nombre": "CESAR AUGUSTO PINEDA RIOS",
+  "nombre": "cesar augusto pineda rios",
   "numero": 404,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:41.850Z"
+  "notas": [
+    {
+      "carpetaNumero": 404,
+      "createdAt": "2024-02-07T03:34:11.825Z",
+      "pathname": null,
+      "dueDate": "2019-02-18T05:00:00.000Z",
+      "text": " EL 18/01/2019 EL JUZGADO TERMINA EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 404,
+      "createdAt": "2024-02-07T03:34:11.825Z",
+      "pathname": null,
+      "dueDate": "2020-02-14T05:00:00.000Z",
+      "text": " EL 14/01/2020 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 404,
+      "createdAt": "2024-02-07T03:34:11.825Z",
+      "pathname": null,
+      "dueDate": "2019-03-01T05:00:00.000Z",
+      "text": " EL 29/01/2019 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR DE EMBARGO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:11.825Z"
 }

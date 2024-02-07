@@ -10,14 +10,17 @@
     "id": 556
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "149444779",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 556,
     "llaveProceso": "25430400300120230112700",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "MADRID",
     "notificacion": {
       "id": 556,
@@ -52,7 +55,7 @@
     ],
     "medidasCautelares": {
       "id": 556,
-      "fechaOrdenaMedida": "2024-02-03T18:58:44.770Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.490Z",
       "medidaSolicitada": null
     }
   },
@@ -72,12 +75,62 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25430400300120230112700",
-  "nombre": "CIRO ERQUILIAN ONOFRE",
+  "nombre": "ciro erquilian onofre",
   "numero": 556,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:44.770Z"
+  "notas": [
+    {
+      "carpetaNumero": 556,
+      "createdAt": "2024-02-07T03:34:23.490Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "1 AGOSTO 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 556,
+      "createdAt": "2024-02-07T03:34:23.490Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " A AUTOS 3 OCT NO HAY NADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 556,
+      "createdAt": "2024-02-07T03:34:23.490Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 10 NOV 2023 SE ENVIA IMPULSO PROCESAL ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 556,
+      "createdAt": "2024-02-07T03:34:23.490Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "/ 22 NOV LIBRA MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 556,
+      "createdAt": "2024-02-07T03:34:23.490Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MANDAMIENTO OK ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 556,
+      "createdAt": "2024-02-07T03:34:23.490Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " PEDIR OFICIOS ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.490Z"
 }

@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:53.714Z"
+      "createdAt": "2024-02-07T03:25:32.351Z"
     },
     {
       "idRegActuacion": 683020990,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:53.714Z"
+      "createdAt": "2024-02-07T03:25:32.351Z"
     },
     {
       "idRegActuacion": 683020980,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:53.714Z"
+      "createdAt": "2024-02-07T03:25:32.351Z"
     },
     {
       "idRegActuacion": 683020970,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:53.714Z"
+      "createdAt": "2024-02-07T03:25:32.351Z"
     },
     {
       "idRegActuacion": 683020960,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:53.714Z"
+      "createdAt": "2024-02-07T03:25:32.351Z"
     },
     {
       "idRegActuacion": 683020950,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:53.714Z"
+      "createdAt": "2024-02-07T03:25:32.351Z"
     },
     {
       "idRegActuacion": 683020940,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:53.714Z"
+      "createdAt": "2024-02-07T03:25:32.351Z"
     },
     {
       "idRegActuacion": 683020930,
@@ -135,10 +135,10 @@
       "cant": 8,
       "idProceso": 50869770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:53.714Z"
+      "createdAt": "2024-02-07T03:25:32.351Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "SANDRA PATRICIA RODRIIGUEZ RODRRIIGUEZ",
     "cedula": "52171586",
@@ -147,6 +147,8 @@
     "id": 19
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "15391508",
     "departamento": "CUNDINNAMARCA",
     "despacho": null,
@@ -155,8 +157,9 @@
     "fechaPresentacion": [
       "2017-09-25T05:00:00.000Z"
     ],
+    "id": 19,
     "llaveProceso": "11001400302120170175500",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 19,
@@ -188,7 +191,7 @@
     ],
     "medidasCautelares": {
       "id": 19,
-      "fechaOrdenaMedida": "2024-02-03T18:58:53.660Z",
+      "fechaOrdenaMedida": "2024-02-07T03:24:36.557Z",
       "medidaSolicitada": "OK"
     }
   },
@@ -210,7 +213,7 @@
   ],
   "idRegUltimaAct": 683021000,
   "llaveProceso": "11001400302120170175500",
-  "nombre": "ELIACID CHAVES OBANDO",
+  "nombre": "eliacid chaves obando",
   "numero": 19,
   "procesos": [
     {
@@ -232,7 +235,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 683021000,
@@ -250,5 +253,23 @@
     "idProceso": 50869770,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:53.661Z"
+  "notas": [
+    {
+      "carpetaNumero": 19,
+      "createdAt": "2024-02-07T03:24:36.557Z",
+      "pathname": null,
+      "dueDate": "2018-03-01T05:00:00.000Z",
+      "text": "1/02/2018 LA APODERADA DEL BANCO RETIRA LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 19,
+      "createdAt": "2024-02-07T03:24:36.557Z",
+      "pathname": null,
+      "dueDate": "2018-10-15T05:00:00.000Z",
+      "text": "GARANTIAS DEVUELTAS A AECSA EL 15/09/2018",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:24:36.558Z"
 }

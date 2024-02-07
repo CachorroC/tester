@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 18366380,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:24.682Z"
+      "createdAt": "2024-02-07T03:33:57.474Z"
     },
     {
       "idRegActuacion": 265765320,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 18366380,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:24.682Z"
+      "createdAt": "2024-02-07T03:33:57.474Z"
     },
     {
       "idRegActuacion": 265765310,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 18366380,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:24.682Z"
+      "createdAt": "2024-02-07T03:33:57.474Z"
     },
     {
       "idRegActuacion": 265765300,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 18366380,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:24.682Z"
+      "createdAt": "2024-02-07T03:33:57.474Z"
     },
     {
       "idRegActuacion": 265765290,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 18366380,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:24.682Z"
+      "createdAt": "2024-02-07T03:33:57.474Z"
     },
     {
       "idRegActuacion": 265765280,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 18366380,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:24.682Z"
+      "createdAt": "2024-02-07T03:33:57.474Z"
     },
     {
       "idRegActuacion": 265765270,
@@ -118,10 +118,10 @@
       "cant": 7,
       "idProceso": 18366380,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:24.682Z"
+      "createdAt": "2024-02-07T03:33:57.474Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -130,6 +130,8 @@
     "id": 263
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "21435278",
     "departamento": "CUNDINAMARCA ",
     "despacho": null,
@@ -138,8 +140,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.005Z"
     ],
+    "id": 263,
     "llaveProceso": "11001400307020170100700",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "PENSILVANIA",
     "notificacion": {
       "id": 263,
@@ -171,7 +174,7 @@
     ],
     "medidasCautelares": {
       "id": 263,
-      "fechaOrdenaMedida": "2024-02-03T18:59:24.639Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:57.338Z",
       "medidaSolicitada": null
     }
   },
@@ -193,7 +196,7 @@
   ],
   "idRegUltimaAct": 265765330,
   "llaveProceso": "11001400307020170100700",
-  "nombre": "ANCIZAR GIRALDO BOTERO",
+  "nombre": "ancizar giraldo botero",
   "numero": 263,
   "procesos": [
     {
@@ -215,7 +218,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": {
     "idRegActuacion": 265765330,
@@ -233,5 +236,23 @@
     "idProceso": 18366380,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:24.639Z"
+  "notas": [
+    {
+      "carpetaNumero": 263,
+      "createdAt": "2024-02-07T03:33:57.338Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 22 DE NOVIEMBRE DE 2017 SE RETIRA LA DEMANDA DEL JUZGADO 70 CM POR COMPETENCIA TERRITORIAL PROCESO DEBE TRAMITARSE EN PENSILVANIA (CALDAS) ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 263,
+      "createdAt": "2024-02-07T03:33:57.338Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SE DEVULVE DESGLOSE CON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:57.338Z"
 }

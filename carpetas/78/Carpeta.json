@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:00.904Z"
+      "createdAt": "2024-02-07T03:33:36.373Z"
     },
     {
       "idRegActuacion": 265691560,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.904Z"
+      "createdAt": "2024-02-07T03:33:36.373Z"
     },
     {
       "idRegActuacion": 265691550,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.904Z"
+      "createdAt": "2024-02-07T03:33:36.373Z"
     },
     {
       "idRegActuacion": 265691540,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.904Z"
+      "createdAt": "2024-02-07T03:33:36.373Z"
     },
     {
       "idRegActuacion": 265691530,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.904Z"
+      "createdAt": "2024-02-07T03:33:36.373Z"
     },
     {
       "idRegActuacion": 265691520,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.904Z"
+      "createdAt": "2024-02-07T03:33:36.373Z"
     },
     {
       "idRegActuacion": 265691510,
@@ -118,10 +118,10 @@
       "cant": 7,
       "idProceso": 17942390,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.904Z"
+      "createdAt": "2024-02-07T03:33:36.373Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -130,6 +130,8 @@
     "id": 78
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "11590469",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -138,8 +140,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.906Z"
     ],
+    "id": 78,
     "llaveProceso": "11001400306420170123100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 78,
@@ -173,7 +176,7 @@
     ],
     "medidasCautelares": {
       "id": 78,
-      "fechaOrdenaMedida": "2024-02-03T18:59:00.854Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:36.286Z",
       "medidaSolicitada": null
     }
   },
@@ -195,7 +198,7 @@
   ],
   "idRegUltimaAct": 265691570,
   "llaveProceso": "11001400306420170123100",
-  "nombre": "JAIME EDISON SANTOS MARTIN",
+  "nombre": "jaime edison santos martin",
   "numero": 78,
   "procesos": [
     {
@@ -217,7 +220,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
     "idRegActuacion": 265691570,
@@ -235,5 +238,23 @@
     "idProceso": 17942390,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:00.854Z"
+  "notas": [
+    {
+      "carpetaNumero": 78,
+      "createdAt": "2024-02-07T03:33:36.286Z",
+      "pathname": null,
+      "dueDate": "2017-12-28T05:00:00.000Z",
+      "text": "28/11/2017 APODERADA DEL BANCO RETIRO LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 78,
+      "createdAt": "2024-02-07T03:33:36.286Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 DE NOVIEMBRE SE DEVOLVIERON GARANTIAS A AECSA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:36.286Z"
 }

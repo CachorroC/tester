@@ -16,7 +16,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1941954290,
@@ -33,7 +33,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1941615470,
@@ -50,7 +50,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1936708160,
@@ -67,7 +67,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1907111750,
@@ -84,7 +84,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1882262370,
@@ -101,7 +101,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1882262360,
@@ -118,7 +118,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1882262350,
@@ -135,7 +135,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1882262340,
@@ -152,7 +152,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1848382040,
@@ -169,7 +169,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1834975130,
@@ -186,7 +186,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1829320340,
@@ -203,7 +203,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1829320330,
@@ -220,7 +220,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1793220780,
@@ -237,7 +237,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     },
     {
       "idRegActuacion": 1793220770,
@@ -254,7 +254,7 @@
       "cant": 15,
       "idProceso": 130946630,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.094Z"
+      "createdAt": "2024-02-07T03:34:23.227Z"
     }
   ],
   "category": "Bancolombia",
@@ -266,14 +266,17 @@
     "id": 552
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "77376262",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-06-20T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 552,
     "llaveProceso": "11001400300420230062200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 552,
@@ -307,7 +310,7 @@
     ],
     "medidasCautelares": {
       "id": 552,
-      "fechaOrdenaMedida": "2024-02-03T18:58:44.028Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.189Z",
       "medidaSolicitada": null
     }
   },
@@ -329,7 +332,7 @@
   ],
   "idRegUltimaAct": 1948791000,
   "llaveProceso": "11001400300420230062200",
-  "nombre": "OSCAR MAURICIO GOMEZ MENDOZA",
+  "nombre": "oscar mauricio gomez mendoza",
   "numero": 552,
   "procesos": [
     {
@@ -369,5 +372,71 @@
     "idProceso": 130946630,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:44.029Z"
+  "notas": [
+    {
+      "carpetaNumero": 552,
+      "createdAt": "2024-02-07T03:34:23.189Z",
+      "pathname": null,
+      "dueDate": "2023-07-21T05:00:00.000Z",
+      "text": "21/06/2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 552,
+      "createdAt": "2024-02-07T03:34:23.189Z",
+      "pathname": null,
+      "dueDate": "2023-07-29T05:00:00.000Z",
+      "text": " 29/06/2023 INGRESA AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 552,
+      "createdAt": "2024-02-07T03:34:23.189Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 2 AGOSTO DE 2023 INADMITE DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 552,
+      "createdAt": "2024-02-07T03:34:23.189Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 4 AGOSTO 2023 SE RADICA SUBSANACION ANTE JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 552,
+      "createdAt": "2024-02-07T03:34:23.189Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 25 SEPTIEMBRE 2023 AUTO LIBRA MANDAMIENTO DE PAGO Y MC ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 552,
+      "createdAt": "2024-02-07T03:34:23.189Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 29 SEP 2023 SE ENVIO IMPULSO PROCESA PARA OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 552,
+      "createdAt": "2024-02-07T03:34:23.189Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 NOV 2023 SE HACE NOTIFICACION ANTES DE RADICACION DE OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 552,
+      "createdAt": "2024-02-07T03:34:23.189Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " OJO PEDIR OFICIOS PARA RADICAR ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.190Z"
 }

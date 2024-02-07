@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 138696760,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:50.789Z"
+      "createdAt": "2024-02-07T03:34:28.106Z"
     },
     {
       "idRegActuacion": 1944972200,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 138696760,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.789Z"
+      "createdAt": "2024-02-07T03:34:28.106Z"
     },
     {
       "idRegActuacion": 1944328600,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 138696760,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.789Z"
+      "createdAt": "2024-02-07T03:34:28.106Z"
     },
     {
       "idRegActuacion": 1941377080,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 138696760,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.789Z"
+      "createdAt": "2024-02-07T03:34:28.106Z"
     },
     {
       "idRegActuacion": 1940922400,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 138696760,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.789Z"
+      "createdAt": "2024-02-07T03:34:28.106Z"
     },
     {
       "idRegActuacion": 1940922390,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 138696760,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.789Z"
+      "createdAt": "2024-02-07T03:34:28.106Z"
     },
     {
       "idRegActuacion": 1940192390,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 138696760,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.789Z"
+      "createdAt": "2024-02-07T03:34:28.106Z"
     },
     {
       "idRegActuacion": 1940105920,
@@ -135,7 +135,7 @@
       "cant": 8,
       "idProceso": 138696760,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.789Z"
+      "createdAt": "2024-02-07T03:34:28.106Z"
     }
   ],
   "category": "Bancolombia",
@@ -147,14 +147,17 @@
     "id": 610
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-27T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 610,
     "llaveProceso": "11001400300920230130200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 610,
@@ -182,7 +185,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 610,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.747Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.966Z",
       "medidaSolicitada": null
     }
   },
@@ -204,7 +207,7 @@
   ],
   "idRegUltimaAct": 1944972210,
   "llaveProceso": "11001400300920230130200",
-  "nombre": "JOJAN ANDRES LOPEZ PARADA",
+  "nombre": "jojan andres lopez parada",
   "numero": 610,
   "procesos": [
     {
@@ -244,5 +247,31 @@
     "idProceso": 138696760,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:50.747Z"
+  "notas": [
+    {
+      "carpetaNumero": 610,
+      "createdAt": "2024-02-07T03:34:27.966Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "30 NOV 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 610,
+      "createdAt": "2024-02-07T03:34:27.966Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 7 DIC 2023 INADMITE DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 610,
+      "createdAt": "2024-02-07T03:34:27.966Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 DIC 2023 SE SUBSANA DEMANDA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.966Z"
 }

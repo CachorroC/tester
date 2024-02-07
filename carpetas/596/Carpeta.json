@@ -16,7 +16,7 @@
       "cant": 9,
       "idProceso": 162523441,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:49.838Z"
+      "createdAt": "2024-02-07T03:34:27.066Z"
     },
     {
       "idRegActuacion": 1334047651,
@@ -33,7 +33,7 @@
       "cant": 9,
       "idProceso": 162523441,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.838Z"
+      "createdAt": "2024-02-07T03:34:27.066Z"
     },
     {
       "idRegActuacion": 1332799721,
@@ -50,7 +50,7 @@
       "cant": 9,
       "idProceso": 162523441,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.838Z"
+      "createdAt": "2024-02-07T03:34:27.066Z"
     },
     {
       "idRegActuacion": 1332423251,
@@ -67,7 +67,7 @@
       "cant": 9,
       "idProceso": 162523441,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.838Z"
+      "createdAt": "2024-02-07T03:34:27.066Z"
     },
     {
       "idRegActuacion": 1329110741,
@@ -84,7 +84,7 @@
       "cant": 9,
       "idProceso": 162523441,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.838Z"
+      "createdAt": "2024-02-07T03:34:27.066Z"
     },
     {
       "idRegActuacion": 1325365371,
@@ -101,7 +101,7 @@
       "cant": 9,
       "idProceso": 162523441,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.838Z"
+      "createdAt": "2024-02-07T03:34:27.066Z"
     },
     {
       "idRegActuacion": 1325365361,
@@ -118,7 +118,7 @@
       "cant": 9,
       "idProceso": 162523441,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.838Z"
+      "createdAt": "2024-02-07T03:34:27.066Z"
     },
     {
       "idRegActuacion": 1319804361,
@@ -135,7 +135,7 @@
       "cant": 9,
       "idProceso": 162523441,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.838Z"
+      "createdAt": "2024-02-07T03:34:27.066Z"
     },
     {
       "idRegActuacion": 1319804351,
@@ -152,7 +152,7 @@
       "cant": 9,
       "idProceso": 162523441,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.838Z"
+      "createdAt": "2024-02-07T03:34:27.066Z"
     }
   ],
   "category": "Bancolombia",
@@ -164,14 +164,17 @@
     "id": 596
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "78458975",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-14T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 596,
     "llaveProceso": "11001400304220230121200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 596,
@@ -203,7 +206,7 @@
     ],
     "medidasCautelares": {
       "id": 596,
-      "fechaOrdenaMedida": "2024-02-03T18:58:49.762Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.961Z",
       "medidaSolicitada": null
     }
   },
@@ -225,7 +228,7 @@
   ],
   "idRegUltimaAct": 1334047661,
   "llaveProceso": "11001400304220230121200",
-  "nombre": "ELSA CONSUELO ROBAYO",
+  "nombre": "elsa consuelo robayo",
   "numero": 596,
   "procesos": [
     {
@@ -265,5 +268,47 @@
     "idProceso": 162523441,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:49.763Z"
+  "notas": [
+    {
+      "carpetaNumero": 596,
+      "createdAt": "2024-02-07T03:34:26.961Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "21 NOV 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 596,
+      "createdAt": "2024-02-07T03:34:26.961Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 DIC 2023 AUTO LIBRA MANBDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 596,
+      "createdAt": "2024-02-07T03:34:26.961Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MANDAMIENTO OK CCR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 596,
+      "createdAt": "2024-02-07T03:34:26.961Z",
+      "pathname": null,
+      "dueDate": "2024-01-18T05:00:00.000Z",
+      "text": "18/12/2023 OFICIO ELABPRADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 596,
+      "createdAt": "2024-02-07T03:34:26.961Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 DE ENERO DE 2023 SE ENVIA TERMINACION POR PAGO DE LA MORA POR INSTRUCCION",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.961Z"
 }

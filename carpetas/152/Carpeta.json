@@ -1,7 +1,7 @@
 {
   "id": 1032431042,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "JENNY BRIGITTE BALLEN MESA",
     "cedula": "1069729949",
@@ -10,6 +10,8 @@
     "id": 152
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "76394840",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2022-03-25T05:00:00.000Z"
     ],
+    "id": 152,
     "llaveProceso": "110014007320170113600",
-    "mandamientoPago": "2018-09-05T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-09-05T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 152,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 152,
-      "fechaOrdenaMedida": "2024-02-03T18:59:12.712Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:45.146Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "110014007320170113600",
-  "nombre": "NICOLAS OSORIO RODRIGUEZ",
+  "nombre": "nicolas osorio rodriguez",
   "numero": 152,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:12.712Z"
+  "notas": [
+    {
+      "carpetaNumero": 152,
+      "createdAt": "2024-02-07T03:33:45.146Z",
+      "pathname": null,
+      "dueDate": "2021-04-02T05:00:00.000Z",
+      "text": "2/03/2021 SE TERMINA PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 152,
+      "createdAt": "2024-02-07T03:33:45.146Z",
+      "pathname": null,
+      "dueDate": "2022-09-30T05:00:00.000Z",
+      "text": " 30/08/2022 SE ENVIAN GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 152,
+      "createdAt": "2024-02-07T03:33:45.146Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SE ENVIA LEVANTAMINETO MEDIDA CAUTELAR A AECSA 3 FEB 2023 ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:45.147Z"
 }

@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 19150031,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:17.484Z"
+      "createdAt": "2024-02-07T03:33:49.779Z"
     },
     {
       "idRegActuacion": 219869011,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 19150031,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:17.484Z"
+      "createdAt": "2024-02-07T03:33:49.779Z"
     },
     {
       "idRegActuacion": 219869001,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 19150031,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:17.484Z"
+      "createdAt": "2024-02-07T03:33:49.779Z"
     },
     {
       "idRegActuacion": 219868991,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 19150031,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:17.484Z"
+      "createdAt": "2024-02-07T03:33:49.779Z"
     },
     {
       "idRegActuacion": 219868981,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 19150031,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:17.484Z"
+      "createdAt": "2024-02-07T03:33:49.779Z"
     },
     {
       "idRegActuacion": 219868971,
@@ -101,10 +101,10 @@
       "cant": 6,
       "idProceso": 19150031,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:17.484Z"
+      "createdAt": "2024-02-07T03:33:49.779Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -113,6 +113,8 @@
     "id": 198
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "29204879.5",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -121,8 +123,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.982Z"
     ],
+    "id": 198,
     "llaveProceso": "11001400304020170132900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 198,
@@ -154,7 +157,7 @@
     ],
     "medidasCautelares": {
       "id": 198,
-      "fechaOrdenaMedida": "2024-02-03T18:59:17.440Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:49.728Z",
       "medidaSolicitada": null
     }
   },
@@ -176,7 +179,7 @@
   ],
   "idRegUltimaAct": 219869021,
   "llaveProceso": "11001400304020170132900",
-  "nombre": "HECTOR MANUEL RAMIREZ PUENTES",
+  "nombre": "hector manuel ramirez puentes",
   "numero": 198,
   "procesos": [
     {
@@ -198,7 +201,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 219869021,
@@ -216,5 +219,23 @@
     "idProceso": 19150031,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:17.441Z"
+  "notas": [
+    {
+      "carpetaNumero": 198,
+      "createdAt": "2024-02-07T03:33:49.728Z",
+      "pathname": null,
+      "dueDate": "1917-12-08T05:00:00.000Z",
+      "text": "EL 8/11/017 SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 198,
+      "createdAt": "2024-02-07T03:33:49.728Z",
+      "pathname": null,
+      "dueDate": "1917-12-02T05:00:00.000Z",
+      "text": " 2/11/017 LA ABOGADA RETIRO LA DEMANDA SIN MEDIDAS CAUTELARES EN CONTRA DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:49.728Z"
 }

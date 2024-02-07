@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 10955643,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:41.812Z"
+      "createdAt": "2024-02-07T03:34:11.801Z"
     },
     {
       "idRegActuacion": 135518813,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 10955643,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.812Z"
+      "createdAt": "2024-02-07T03:34:11.801Z"
     },
     {
       "idRegActuacion": 135518803,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 10955643,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.812Z"
+      "createdAt": "2024-02-07T03:34:11.801Z"
     },
     {
       "idRegActuacion": 135518793,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 10955643,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.812Z"
+      "createdAt": "2024-02-07T03:34:11.801Z"
     },
     {
       "idRegActuacion": 135518783,
@@ -84,10 +84,10 @@
       "cant": 5,
       "idProceso": 10955643,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:41.812Z"
+      "createdAt": "2024-02-07T03:34:11.801Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "BERTHA JUDITH AYA DE VALENCIA",
     "cedula": "21046617",
@@ -96,6 +96,8 @@
     "id": 403
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "878",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -104,8 +106,9 @@
     "fechaPresentacion": [
       "2018-02-20T05:00:00.000Z"
     ],
+    "id": 403,
     "llaveProceso": "11001400304920180019100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 403,
@@ -137,7 +140,7 @@
     ],
     "medidasCautelares": {
       "id": 403,
-      "fechaOrdenaMedida": "2024-02-03T18:59:41.764Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:11.711Z",
       "medidaSolicitada": null
     }
   },
@@ -159,7 +162,7 @@
   ],
   "idRegUltimaAct": 135518823,
   "llaveProceso": "11001400304920180019100",
-  "nombre": "CLAUDIA YANETH VALENCIA AYA",
+  "nombre": "claudia yaneth valencia aya",
   "numero": 403,
   "procesos": [
     {
@@ -181,7 +184,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 135518823,
@@ -199,5 +202,23 @@
     "idProceso": 10955643,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:41.765Z"
+  "notas": [
+    {
+      "carpetaNumero": 403,
+      "createdAt": "2024-02-07T03:34:11.711Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 28 DE ABRIL DE 2.018 SE RETIRO LA DEMANDA DEL JUZGADO CON MANDAMIENTO DE PAGO SIN MEDIDAS CAUTELARES DICTADAS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 403,
+      "createdAt": "2024-02-07T03:34:11.711Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SE DEVOLVIERON GARANTIAS A AECSA EN LA MISMA FECHA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:11.711Z"
 }

@@ -10,14 +10,17 @@
     "id": 574
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "43725000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-08-17T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 574,
     "llaveProceso": "11001418900520230134200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 574,
@@ -53,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 574,
-      "fechaOrdenaMedida": "2024-02-03T18:58:47.360Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.051Z",
       "medidaSolicitada": null
     }
   },
@@ -73,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418900520230134200",
-  "nombre": "INGRID LIZETH PATARROYO BAEZ",
+  "nombre": "ingrid lizeth patarroyo baez",
   "numero": 574,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:47.361Z"
+  "notas": [
+    {
+      "carpetaNumero": 574,
+      "createdAt": "2024-02-07T03:34:25.051Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "18 DE AGOSOTO 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 574,
+      "createdAt": "2024-02-07T03:34:25.051Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 AGOSTO ENTRO AL DESPACHO.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 574,
+      "createdAt": "2024-02-07T03:34:25.051Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "/ MANDAMIENTO OK CCR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.052Z"
 }

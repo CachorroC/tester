@@ -1,7 +1,7 @@
 {
   "id": 80808819,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "LUZ ANGELA POVEDA RAMOS ",
     "cedula": "53911221",
@@ -10,14 +10,19 @@
     "id": 158
   },
   "demanda": {
+    "liquidacion": "43313",
+    "avaluo": "1000",
     "capitalAdeudado": "183128611.42",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-08-17T05:00:16.000Z",
     "etapaProcesal": "25899310300120170039300",
     "fechaPresentacion": [],
+    "id": 158,
     "llaveProceso": "25899310300120170039300",
-    "mandamientoPago": "2017-08-29T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-08-29T05:00:16.000Z"
+    ],
     "municipio": "ZIPAQUIRA",
     "notificacion": {
       "id": 158,
@@ -50,7 +55,7 @@
     ],
     "medidasCautelares": {
       "id": 158,
-      "fechaOrdenaMedida": "2024-02-03T18:59:13.068Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:45.742Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +75,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25899310300120170039300",
-  "nombre": "JULIAN JHOHANY GALLEGO MONTES",
+  "nombre": "julian jhohany gallego montes",
   "numero": 158,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:13.068Z"
+  "notas": [
+    {
+      "carpetaNumero": 158,
+      "createdAt": "2024-02-07T03:33:45.742Z",
+      "pathname": null,
+      "dueDate": "2020-11-01T05:00:00.000Z",
+      "text": "EL 1/10/2020 EL JUZGADO DECRETO TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 158,
+      "createdAt": "2024-02-07T03:33:45.742Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL DESGLOSE DE GARANTIAS Y EL LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO DE LOS DEUDORES ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 158,
+      "createdAt": "2024-02-07T03:33:45.742Z",
+      "pathname": null,
+      "dueDate": "2021-12-03T05:00:00.000Z",
+      "text": " EL 3/11/2021 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:45.743Z"
 }

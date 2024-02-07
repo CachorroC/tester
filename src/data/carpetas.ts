@@ -35,18 +35,21 @@ const mapSheetsObject = Object.fromEntries(
 const mapSheetsArray = Array.from(
   mapSheets.values()
 );
+foro;
 
 const procesosBancolombia = Sheets[ SheetNames[ 0 ] ];
 
 const procesosReintegra = Sheets[ SheetNames[ 1 ] ];
 
-const procesosInsolvencia = Sheets[ SheetNames[ 2 ] ];
+const procesosTerminados = Sheets[ SheetNames[ 2 ] ];
 
-const procesosLiosJuridicos = Sheets[ SheetNames[ 3 ] ];
+const procesosInsolvencia = Sheets[ SheetNames[ 3 ] ];
 
-const procesosTerminados = Sheets[ SheetNames[ 4 ] ];
+const procesosLiosJuridicos= Sheets[ SheetNames[ 4 ] ];
 
-
+console.log(
+  procesosBancolombia[ 'W3' ]
+);
 
 
 const tableBancolombia: Bancolombia[] = xlsx.utils.sheet_to_json(
@@ -144,7 +147,24 @@ const Carpetas = [
   ...mapInsolvencia,
   ...mapReintegra,
   ...mapLiosJuridicos
-];
+].sort(
+  (
+    a, b
+  ) => {
+
+    const x = a.NUMERO;
+
+    const y = b.NUMERO;
+
+    if ( x < y ) {
+      return -1;
+    } else if ( x > y ) {
+      return 1;
+    }
+
+    return 0;
+  }
+);
 
 console.log(
   Carpetas

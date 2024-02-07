@@ -1,10 +1,9 @@
 import { Decimal } from '@prisma/client/runtime/library';
 
-
 export function capitalBuilder(
   capitalAdeudado?: string | number | null
 ) {
-  if ( !capitalAdeudado ) {
+  if ( !capitalAdeudado || typeof capitalAdeudado === 'object' ) {
     return new Decimal(
       1000
     );
@@ -17,6 +16,7 @@ export function capitalBuilder(
     );
   }
 
+
   const copTaker = capitalAdeudado.matchAll(
     /([\d.]+)(\.\d{2}|,\d{2})$/gm
   );
@@ -25,7 +25,7 @@ export function capitalBuilder(
 
     if ( !cap ) {
       return new Decimal(
-        1000 
+        1000
       );
     }
 
@@ -42,7 +42,7 @@ export function capitalBuilder(
     );
 
     const valueReplacer = value.replaceAll(
-      /([.,\s\n\r/A-Za-z])/gm, ''
+      /([.,\s\n\r/A-Za-zÁáÉéÍíÓóÚúÑñ-])/gm, ''
     );
     console.log(
       valueReplacer
@@ -52,10 +52,21 @@ export function capitalBuilder(
     );
   }
 
+  const newCapital = capitalAdeudado.replaceAll(
+    /([.,\s\n\r/A-Za-zÁáÉéÍíÓóÚúÑñ-])/gm, ''
+  );
+  console.log(
+    newCapital
+  );
+
+  if ( !newCapital ) {
+    return new Decimal(
+      1000
+    );
+  }
+
   return new Decimal(
-    capitalAdeudado.replaceAll(
-      /([.,\s\n\r/A-Za-z])/gm, ''
-    )
+    newCapital
   );
 
 }

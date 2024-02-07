@@ -1,7 +1,7 @@
 {
   "id": 80546020,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "MONICA MAYELI  CRISTANCHO  BALLEN ",
     "cedula": "21022941",
@@ -10,14 +10,19 @@
     "id": 498
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "19491278",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "25899400300320180042900",
     "fechaPresentacion": [],
+    "id": 498,
     "llaveProceso": "25899400300320180042900",
-    "mandamientoPago": "2018-08-10T05:00:00.000Z",
+    "mandamientoPago": [
+      "2018-10-08T05:00:00.000Z"
+    ],
     "municipio": "ZIPAQUIRA",
     "notificacion": {
       "id": 498,
@@ -50,7 +55,7 @@
     ],
     "medidasCautelares": {
       "id": 498,
-      "fechaOrdenaMedida": "2024-02-03T18:59:50.600Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:19.041Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +75,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25899400300320180042900",
-  "nombre": "JOSE ALEXANDER BECERRA BARRERA",
+  "nombre": "jose alexander becerra barrera",
   "numero": 498,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:50.600Z"
+  "notas": [
+    {
+      "carpetaNumero": 498,
+      "createdAt": "2024-02-07T03:34:19.041Z",
+      "pathname": null,
+      "dueDate": "2019-12-19T05:00:00.000Z",
+      "text": "EL 19/11/2019 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 498,
+      "createdAt": "2024-02-07T03:34:19.041Z",
+      "pathname": null,
+      "dueDate": "2023-05-14T05:00:00.000Z",
+      "text": " EL 14/04/2023 SE HIZO EL LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 498,
+      "createdAt": "2024-02-07T03:34:19.041Z",
+      "pathname": null,
+      "dueDate": "2019-12-19T05:00:00.000Z",
+      "text": " EL 19/11/2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:19.041Z"
 }

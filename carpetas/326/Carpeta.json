@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:31.256Z"
+      "createdAt": "2024-02-07T03:34:03.692Z"
     },
     {
       "idRegActuacion": 764147210,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:31.256Z"
+      "createdAt": "2024-02-07T03:34:03.692Z"
     },
     {
       "idRegActuacion": 764147200,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:31.256Z"
+      "createdAt": "2024-02-07T03:34:03.692Z"
     },
     {
       "idRegActuacion": 764147190,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:31.256Z"
+      "createdAt": "2024-02-07T03:34:03.692Z"
     },
     {
       "idRegActuacion": 764147180,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:31.256Z"
+      "createdAt": "2024-02-07T03:34:03.692Z"
     },
     {
       "idRegActuacion": 764147170,
@@ -101,10 +101,10 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:31.256Z"
+      "createdAt": "2024-02-07T03:34:03.692Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -113,6 +113,8 @@
     "id": 326
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "19550288",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -121,8 +123,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.041Z"
     ],
+    "id": 326,
     "llaveProceso": "11001400303420170147100",
-    "mandamientoPago": "2017-12-04T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-12-04T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 326,
@@ -154,7 +159,7 @@
     ],
     "medidasCautelares": {
       "id": 326,
-      "fechaOrdenaMedida": "2024-02-03T18:59:31.201Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:03.611Z",
       "medidaSolicitada": null
     }
   },
@@ -176,7 +181,7 @@
   ],
   "idRegUltimaAct": 764147220,
   "llaveProceso": "11001400303420170147100",
-  "nombre": "JORGE ELIECER GOMEZ LOPEZ",
+  "nombre": "jorge eliecer gomez lopez",
   "numero": 326,
   "procesos": [
     {
@@ -198,7 +203,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 764147220,
@@ -216,5 +221,31 @@
     "idProceso": 50834080,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:31.201Z"
+  "notas": [
+    {
+      "carpetaNumero": 326,
+      "createdAt": "2024-02-07T03:34:03.611Z",
+      "pathname": null,
+      "dueDate": "2018-03-27T05:00:00.000Z",
+      "text": "EL 27/02/2018 SE DIO POR TERMINADO EL PROCESO CON RETIRO DE LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 326,
+      "createdAt": "2024-02-07T03:34:03.611Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 1(03/2018 SE DEVOLVIERON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 326,
+      "createdAt": "2024-02-07T03:34:03.611Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " CON MANDAMIENTO DE PAGO NO SE RETIRO OFICIO DE EMBARGO NI SE RADICO EMBAEGO DEL INMUEBLE",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:03.612Z"
 }

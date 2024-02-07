@@ -1,7 +1,7 @@
 {
   "id": 28936365,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "NINI CORTES",
     "cedula": "28936365",
@@ -10,6 +10,8 @@
     "id": 33
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.895Z"
     ],
+    "id": 33,
     "llaveProceso": "11001400308220170064900",
-    "mandamientoPago": "2017-06-15T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-06-15T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 33,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 33,
-      "fechaOrdenaMedida": "2024-02-03T18:58:54.713Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:30.683Z",
       "medidaSolicitada": "OK"
     }
   },
@@ -74,7 +79,7 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308220170064900",
-  "nombre": "NINI JOHANA CORTES MONROY ",
+  "nombre": "nini johana cortes monroy ",
   "numero": 33,
   "procesos": [
     {
@@ -96,8 +101,26 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:54.713Z"
+  "notas": [
+    {
+      "carpetaNumero": 33,
+      "createdAt": "2024-02-07T03:33:30.683Z",
+      "pathname": null,
+      "dueDate": "2018-06-21T05:00:00.000Z",
+      "text": "21/05/2018 AUTO TERMINA PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 33,
+      "createdAt": "2024-02-07T03:33:30.683Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "GARANTIAS DEVUELTAS EN FAVOR DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:30.683Z"
 }

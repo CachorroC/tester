@@ -1,7 +1,7 @@
 {
   "id": 1070950842,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 386
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "26468936",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-16T05:00:16.000Z",
     "etapaProcesal": "25269408900120170074400",
     "fechaPresentacion": [],
+    "id": 386,
     "llaveProceso": "25269400300120170074400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "FACATATIVA",
     "notificacion": {
       "id": 386,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 386,
-      "fechaOrdenaMedida": "2024-02-03T18:59:40.089Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:09.841Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25269400300120170074400",
-  "nombre": "ALEXANDER PRADA PALMAR",
+  "nombre": "alexander prada palmar",
   "numero": 386,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:40.089Z"
+  "notas": [
+    {
+      "carpetaNumero": 386,
+      "createdAt": "2024-02-07T03:34:09.840Z",
+      "pathname": null,
+      "dueDate": "2022-09-18T05:00:00.000Z",
+      "text": "EL 18/08/2022 TERMINA EL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 386,
+      "createdAt": "2024-02-07T03:34:09.840Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS, DESGLOSE Y LEVANTAMIENTO DE MEDIDA CAUTELAR A CARGO DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:09.841Z"
 }

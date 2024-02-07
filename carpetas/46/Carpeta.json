@@ -10,6 +10,8 @@
     "id": 46
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12537973",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-05-30T05:00:16.000Z"
     ],
+    "id": 46,
     "llaveProceso": "25183400300120170010600",
-    "mandamientoPago": "2017-06-21T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-06-21T05:00:16.000Z"
+    ],
     "municipio": "CHOCONTA",
     "notificacion": {
       "id": 46,
@@ -75,7 +80,7 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "25183400300120170010600",
-  "nombre": "ALVARO RODRIGUEZ ALONSO",
+  "nombre": "alvaro rodriguez alonso",
   "numero": 46,
   "procesos": [
     {
@@ -100,5 +105,63 @@
   "terminado": false,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:55.074Z"
+  "notas": [
+    {
+      "carpetaNumero": 46,
+      "createdAt": "2024-02-07T03:33:32.431Z",
+      "pathname": null,
+      "dueDate": "2022-11-29T05:00:00.000Z",
+      "text": "29/10/2022 AUTORIZA ALLANAMIENTO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 46,
+      "createdAt": "2024-02-07T03:33:32.431Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "JUZGADO ENVIA OFICIO A ESTACION DE POLICIA CHOCONTA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 46,
+      "createdAt": "2024-02-07T03:33:32.431Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 6 DIC 2022 SIN INFORMACION DE POLICIA PARA ALLANAMIENTO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 46,
+      "createdAt": "2024-02-07T03:33:32.431Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 27 ENERO 2023 SE SOLICITA LIQUIDACION DE CREDITO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 46,
+      "createdAt": "2024-02-07T03:33:32.431Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "9 FEB SE APORTA LIQUIDACION  CREDITO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 46,
+      "createdAt": "2024-02-07T03:33:32.431Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "POSIBLE FECHA DE DILIGENCIA JUNIO DE 2023 ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 46,
+      "createdAt": "2024-02-07T03:33:32.431Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 18 JULIO 2018 PASAR A MIRAR FECHA ALLANAMIENTO POLICIA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:32.431Z"
 }

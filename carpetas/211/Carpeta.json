@@ -1,7 +1,7 @@
 {
   "id": 17652071,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "MARIA NUBIA MARTINEZ CELY ",
     "cedula": "52901502",
@@ -10,14 +10,19 @@
     "id": 211
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "36520798.77",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-08-24T05:00:16.000Z",
     "etapaProcesal": "25286400300120180010500",
     "fechaPresentacion": [],
+    "id": 211,
     "llaveProceso": "25473400300120180010500",
-    "mandamientoPago": "2017-09-06T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-09-06T05:00:16.000Z"
+    ],
     "municipio": "MOSQUERA",
     "notificacion": {
       "id": 211,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 211,
-      "fechaOrdenaMedida": "2024-02-03T18:59:18.662Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:51.220Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25473400300120180010500",
-  "nombre": "SAUL BARBOSA RAMIREZ",
+  "nombre": "saul barbosa ramirez",
   "numero": 211,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:18.662Z"
+  "notas": [
+    {
+      "carpetaNumero": 211,
+      "createdAt": "2024-02-07T03:33:51.220Z",
+      "pathname": null,
+      "dueDate": "2021-06-11T05:00:00.000Z",
+      "text": "EL 11/05/2021 EL JUZGADO DECRETO TERMINACION PROCESO PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 211,
+      "createdAt": "2024-02-07T03:33:51.220Z",
+      "pathname": null,
+      "dueDate": "2021-09-25T05:00:00.000Z",
+      "text": " EL 25/08/2021 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 211,
+      "createdAt": "2024-02-07T03:33:51.220Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 14/11/ 2021 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:51.220Z"
 }

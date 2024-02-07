@@ -1,7 +1,7 @@
 {
   "id": 80879280,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "LAURA DEL PILAR ARANDA AROCA",
     "cedula": "53005799",
@@ -10,14 +10,19 @@
     "id": 299
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "28432149",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-10-13T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 299,
     "llaveProceso": "25754400300320170034600",
-    "mandamientoPago": "2017-10-17T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-17T05:00:16.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 299,
@@ -50,7 +55,7 @@
     ],
     "medidasCautelares": {
       "id": 299,
-      "fechaOrdenaMedida": "2024-02-03T18:59:27.484Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:01.151Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +75,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754400300320170034600",
-  "nombre": "ROBERTO STIVENSON ACERO BARON",
+  "nombre": "roberto stivenson acero baron",
   "numero": 299,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:27.484Z"
+  "notas": [
+    {
+      "carpetaNumero": 299,
+      "createdAt": "2024-02-07T03:34:01.151Z",
+      "pathname": null,
+      "dueDate": "2020-04-05T05:00:00.000Z",
+      "text": "EL 5/03/2020 EL JUZGADO DECRETA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 299,
+      "createdAt": "2024-02-07T03:34:01.151Z",
+      "pathname": null,
+      "dueDate": "2022-04-02T05:00:00.000Z",
+      "text": " EL 2/03/2022 SE DEVOLVIERON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 299,
+      "createdAt": "2024-02-07T03:34:01.151Z",
+      "pathname": null,
+      "dueDate": "2020-04-15T05:00:00.000Z",
+      "text": "  EL 15/03/2020 SE LEVANTARON MEDIDAS CAUTELARES DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:01.152Z"
 }

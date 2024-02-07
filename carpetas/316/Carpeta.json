@@ -10,6 +10,8 @@
     "id": 316
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "44944657",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-11-01T05:00:16.000Z"
     ],
+    "id": 316,
     "llaveProceso": "2017-0323",
-    "mandamientoPago": "2017-11-24T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-11-24T05:00:16.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 316,
@@ -72,12 +77,230 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2017-0323",
-  "nombre": "MANUEL ENRIQUE ARTEAGA OROZCO",
+  "nombre": "manuel enrique arteaga orozco",
   "numero": 316,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:42.065Z"
+  "notas": [
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "01-11-2017 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 07-11-2017  INADMITE DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "********* ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "23-11-2017 L.M.P.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 06-12-2018 SE RETIRA OFICIO n° 1777 R.I.P. SOACHA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "/ 22-02-2018 TIENE POR NOTIFICADO DEMANDADO UNA VEZ INSCRITA MEDIDA DE EMBARGO SE CONTINUARA TRAMITE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 22-03-2018 LIBRESE NUEVAMENTE OFICIO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "18-04-2018 SE RETIRA NUEVO FICIO N° 0415 R.I.P. SOAC-A ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "19-06-2018 AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 22-06-2018 TIENE EN CUENTA ABONOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 03-08-2018 =",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 13-08-2018 =",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 28-08-2018 =",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 07-09-2018 =",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17-09-2018 =",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "11 DE OCTUBRE ORDENO FECHA DE SECUESTRO, 11 DE OCTUBRE RECONOCIO PRI A LINA,6 DE NOVIEMBRE 2018 DICTO SENTENCIA,27DE NOVIEMBRE APRUEBA COSTAS, 11 DICIEMBRE DE 2018 REALIZAN SECUESTRO,28 FEBRERO 2019 ORDENA CALARAR LIQUIDACION, 16 DE MAYO DE 2019 APRUEBA LIQUIDACION DEL CREDITO....PENDIENTE APORTAR AVALUO.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "5 DE JULIO ==",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 5 DE JULIO 2019 ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": "2020-06-25T05:00:00.000Z",
+      "text": " 25/05/2020 DERECHO DE PETICION AL IGAG Y SECRETARIA DE SOACHA",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "CESIO PARCIAL HIPOTECARIO ES BANCOLOMBIA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": "2022-11-18T05:00:00.000Z",
+      "text": " 18/10/2022 ENVIA MEMORIAL RENDICION SECUESTRE INMUEBLE DESOCUPADO HACE TRES (3) AÑOS Y PEDIR NUEVA FECHA. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": "2022-04-25T05:00:00.000Z",
+      "text": "  25/03/2022 SE APORTO NUEVA LIQUIDACION DEL CRÉDITO",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " CEDIDO A REINTEGRA NIEGA PODER CCR / ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "3 AGOSTO 2023 SE ENVIA RATIFICACION PODER DE REINTEGRA A CCR.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 29 OCT 2023 CORRE TRASLADO AVALUO, ACEPTA PODER CCR, REQUIERE A SECUESTRE PARA RENDICION DE CUENTAS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " A 10 ENERO EN ESTADOS NADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 316,
+      "createdAt": "2024-02-07T03:34:02.501Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 ENERO 2024 SE SOLICITA NUEVA FECHA REMATE",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:02.501Z"
 }

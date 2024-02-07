@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 17718250,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:32.047Z"
+      "createdAt": "2024-02-07T03:34:04.249Z"
     },
     {
       "idRegActuacion": 266714160,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 17718250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:32.047Z"
+      "createdAt": "2024-02-07T03:34:04.249Z"
     },
     {
       "idRegActuacion": 266714150,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 17718250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:32.047Z"
+      "createdAt": "2024-02-07T03:34:04.249Z"
     },
     {
       "idRegActuacion": 266714140,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 17718250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:32.047Z"
+      "createdAt": "2024-02-07T03:34:04.249Z"
     },
     {
       "idRegActuacion": 266714130,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 17718250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:32.047Z"
+      "createdAt": "2024-02-07T03:34:04.249Z"
     },
     {
       "idRegActuacion": 266714120,
@@ -101,10 +101,10 @@
       "cant": 6,
       "idProceso": 17718250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:32.047Z"
+      "createdAt": "2024-02-07T03:34:04.249Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -113,6 +113,8 @@
     "id": 333
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "18898421",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -121,8 +123,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.115Z"
     ],
+    "id": 333,
     "llaveProceso": "11001400306320170131700",
-    "mandamientoPago": "2018-01-15T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-01-15T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 333,
@@ -154,7 +159,7 @@
     ],
     "medidasCautelares": {
       "id": 333,
-      "fechaOrdenaMedida": "2024-02-03T18:59:31.951Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:04.202Z",
       "medidaSolicitada": null
     }
   },
@@ -176,7 +181,7 @@
   ],
   "idRegUltimaAct": 266714170,
   "llaveProceso": "11001400306320170131700",
-  "nombre": "  AHIDA LUCERO GUEVARA BECERRA ",
+  "nombre": "  ahida lucero guevara becerra ",
   "numero": 333,
   "procesos": [
     {
@@ -198,7 +203,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": {
     "idRegActuacion": 266714170,
@@ -216,5 +221,23 @@
     "idProceso": 17718250,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:31.951Z"
+  "notas": [
+    {
+      "carpetaNumero": 333,
+      "createdAt": "2024-02-07T03:34:04.202Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 18 DE MAYO DE 2.018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 333,
+      "createdAt": "2024-02-07T03:34:04.202Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 12 DE DICIEMBRE DE 2021 SE CONSULTO EL RUNT Y NO EXISTE MEDIDA CAUTELAR POR ENAJENACION DEL VEHICULO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:04.202Z"
 }

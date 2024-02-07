@@ -1,7 +1,7 @@
 {
   "id": 1030536736,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "LUIS ALBERTO AFONSO GIRALDO",
     "cedula": "1030536736",
@@ -10,6 +10,8 @@
     "id": 37
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12707877",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -19,8 +21,11 @@
       "2017-06-09T05:00:00.000Z",
       "2017-07-27T05:00:00.000Z"
     ],
+    "id": 37,
     "llaveProceso": "25740418900120170021700",
-    "mandamientoPago": "2017-08-11T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-08-11T05:00:16.000Z"
+    ],
     "municipio": "SIBATE",
     "notificacion": {
       "id": 37,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 37,
-      "fechaOrdenaMedida": "2024-02-03T18:58:54.846Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:31.217Z",
       "medidaSolicitada": "PERSONAL"
     }
   },
@@ -72,12 +77,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25740418900120170021700",
-  "nombre": "LUIS ALBERTO ALFONSO GIRALDO",
+  "nombre": "luis alberto alfonso giraldo",
   "numero": 37,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:54.846Z"
+  "notas": [
+    {
+      "carpetaNumero": 37,
+      "createdAt": "2024-02-07T03:33:31.217Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 25 DE AGOSTO DE 2018 SE TERMINO EL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 37,
+      "createdAt": "2024-02-07T03:33:31.217Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 21 DE FEBRERO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 37,
+      "createdAt": "2024-02-07T03:33:31.217Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MEDIDAS CAUTELARES A CARGO DEL DEUDOR DE LA OBLIGACION",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:31.217Z"
 }

@@ -16,7 +16,7 @@
       "cant": 9,
       "idProceso": 132663050,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:47.511Z"
+      "createdAt": "2024-02-07T03:34:25.218Z"
     },
     {
       "idRegActuacion": 1923969150,
@@ -33,7 +33,7 @@
       "cant": 9,
       "idProceso": 132663050,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.511Z"
+      "createdAt": "2024-02-07T03:34:25.218Z"
     },
     {
       "idRegActuacion": 1923863900,
@@ -50,7 +50,7 @@
       "cant": 9,
       "idProceso": 132663050,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.511Z"
+      "createdAt": "2024-02-07T03:34:25.218Z"
     },
     {
       "idRegActuacion": 1870514660,
@@ -67,7 +67,7 @@
       "cant": 9,
       "idProceso": 132663050,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.511Z"
+      "createdAt": "2024-02-07T03:34:25.218Z"
     },
     {
       "idRegActuacion": 1870514650,
@@ -84,7 +84,7 @@
       "cant": 9,
       "idProceso": 132663050,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.511Z"
+      "createdAt": "2024-02-07T03:34:25.218Z"
     },
     {
       "idRegActuacion": 1870514640,
@@ -101,7 +101,7 @@
       "cant": 9,
       "idProceso": 132663050,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.511Z"
+      "createdAt": "2024-02-07T03:34:25.218Z"
     },
     {
       "idRegActuacion": 1870514630,
@@ -118,7 +118,7 @@
       "cant": 9,
       "idProceso": 132663050,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.511Z"
+      "createdAt": "2024-02-07T03:34:25.218Z"
     },
     {
       "idRegActuacion": 1862324600,
@@ -135,7 +135,7 @@
       "cant": 9,
       "idProceso": 132663050,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.511Z"
+      "createdAt": "2024-02-07T03:34:25.218Z"
     },
     {
       "idRegActuacion": 1855965750,
@@ -152,7 +152,7 @@
       "cant": 9,
       "idProceso": 132663050,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.511Z"
+      "createdAt": "2024-02-07T03:34:25.218Z"
     }
   ],
   "category": "Bancolombia",
@@ -164,14 +164,17 @@
     "id": 575
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "86945177",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-08-17T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 575,
     "llaveProceso": "11001400300620230086400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 575,
@@ -203,7 +206,7 @@
     ],
     "medidasCautelares": {
       "id": 575,
-      "fechaOrdenaMedida": "2024-02-03T18:58:47.453Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.103Z",
       "medidaSolicitada": null
     }
   },
@@ -225,7 +228,7 @@
   ],
   "idRegUltimaAct": 1923969160,
   "llaveProceso": "11001400300620230086400",
-  "nombre": "JAVIER ALEJANDRO CARRERA SIACHOQUE",
+  "nombre": "javier alejandro carrera siachoque",
   "numero": 575,
   "procesos": [
     {
@@ -265,5 +268,55 @@
     "idProceso": 132663050,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:47.453Z"
+  "notas": [
+    {
+      "carpetaNumero": 575,
+      "createdAt": "2024-02-07T03:34:25.103Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "18 DE AGOSOTO  2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 575,
+      "createdAt": "2024-02-07T03:34:25.103Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 29 AGOSTO AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 575,
+      "createdAt": "2024-02-07T03:34:25.103Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 5 SEPTIEMBRE 2023 AUTO LIBRA MANDAMIENTO Y MEDIDA CAUTELAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 575,
+      "createdAt": "2024-02-07T03:34:25.103Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MANDAMIENTO OK  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 575,
+      "createdAt": "2024-02-07T03:34:25.103Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 19 OCT SE ENVIA MEMORIAL CON PAGO TOTAL. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 575,
+      "createdAt": "2024-02-07T03:34:25.103Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 1 NOV 2023 AUTO TERMINA POR PAGO TOTAL",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.103Z"
 }

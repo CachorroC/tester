@@ -1,7 +1,7 @@
 {
   "id": 11384155,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 260
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "16242560",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.005Z"
     ],
+    "id": 260,
     "llaveProceso": "25290400300120170063400",
-    "mandamientoPago": "2017-10-18T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-18T05:00:16.000Z"
+    ],
     "municipio": "FUSAGASUGA",
     "notificacion": {
       "id": 260,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 260,
-      "fechaOrdenaMedida": "2024-02-03T18:59:24.551Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:57.021Z",
       "medidaSolicitada": null
     }
   },
@@ -72,12 +77,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25290400300120170063400",
-  "nombre": "HERNAN ALVAREZ PARDO",
+  "nombre": "hernan alvarez pardo",
   "numero": 260,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:24.551Z"
+  "notas": [
+    {
+      "carpetaNumero": 260,
+      "createdAt": "2024-02-07T03:33:57.021Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 7 DE DICIEMBRE DE 2018 SE DEVOLVIERON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 260,
+      "createdAt": "2024-02-07T03:33:57.021Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 18 DE ENERO DE 2019 SE LEVANTARON MEDIDAS CAUTELARES SOBRE EL INMUEBLE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 260,
+      "createdAt": "2024-02-07T03:33:57.021Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 31 DE JULIO DE 2.018 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:57.022Z"
 }

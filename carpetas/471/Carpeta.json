@@ -1,7 +1,7 @@
 {
   "id": 80742720,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "ADRIANA MIREYA AGUILAR",
     "cedula": "52742707",
@@ -10,6 +10,8 @@
     "id": 471
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12555416",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-08-09T05:00:00.000Z"
     ],
+    "id": 471,
     "llaveProceso": "1100140030152018007100",
-    "mandamientoPago": "2018-10-17T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-10-17T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 471,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 471,
-      "fechaOrdenaMedida": "2024-02-03T18:59:49.323Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:17.423Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "1100140030152018007100",
-  "nombre": "ADRIANA MIREYA AGUILAR",
+  "nombre": "adriana mireya aguilar",
   "numero": 471,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:49.323Z"
+  "notas": [
+    {
+      "carpetaNumero": 471,
+      "createdAt": "2024-02-07T03:34:17.422Z",
+      "pathname": null,
+      "dueDate": "2019-03-01T05:00:00.000Z",
+      "text": "29/01/2019 EL JUZGADO TERMINA EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 471,
+      "createdAt": "2024-02-07T03:34:17.422Z",
+      "pathname": null,
+      "dueDate": "2020-02-14T05:00:00.000Z",
+      "text": " EL 14/01/2020 SE DEVOLVIO DESGLOSE CON GARANTIAS PARA AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 471,
+      "createdAt": "2024-02-07T03:34:17.423Z",
+      "pathname": null,
+      "dueDate": "2019-03-21T05:00:00.000Z",
+      "text": " EL 21/02/2019 SE DEVOLVIERON AL JUZGADO OFICIO DE EMBARGO NO RADICADOS",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:17.423Z"
 }

@@ -10,14 +10,17 @@
     "id": 551
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "28018855",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-06-20T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 551,
     "llaveProceso": "202300763",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "FUSAGASUGA",
     "notificacion": {
       "id": 551,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 551,
-      "fechaOrdenaMedida": "2024-02-03T18:58:43.948Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.140Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,102 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "202300763",
-  "nombre": "PEDRO JONATHAN RAMIREZ GOMEZ",
+  "nombre": "pedro jonathan ramirez gomez",
   "numero": 551,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:43.948Z"
+  "notas": [
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": "2023-07-21T05:00:00.000Z",
+      "text": "EL 21/06/2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": "2023-07-22T05:00:00.000Z",
+      "text": " AUTO 22/06/2023 INGRESA A DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 AGOSTO INADMITE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 7 SEPT 2023 SUBSANACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " APENAS ADMITAN DEMANDA CAMBIAR MEDIDAS CAUTELARES SE FUERON MAL EN DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 27 SEPT 2023 LIBRA MANDAMIENTO DE PAGO Y MC ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "  OK MANDAMIENTO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 12 OCTUBRE SE ENVIA SOLICITUD NUEVAS MEDIDAS CAUTELARES  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 NOV 2023 SE ENVIA NOTI A DEUDOR SIN RADICACIONN DE OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "/13 DIC 2023 SE RADICA MEMORIAL CON NOTIFICACION POSITIVA ANTE JUZGADO",
+      "content": []
+    },
+    {
+      "carpetaNumero": 551,
+      "createdAt": "2024-02-07T03:34:23.140Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " OJO ESTAR PENDIENTE OFICIOS",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.140Z"
 }

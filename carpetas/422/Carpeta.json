@@ -1,7 +1,7 @@
 {
   "id": 41722029,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 422
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "23440287.8",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2018-04-16T05:00:16.000Z",
     "etapaProcesal": "11001410375220180060200",
     "fechaPresentacion": [],
+    "id": 422,
     "llaveProceso": "11001410307520180060200",
-    "mandamientoPago": "2018-04-25T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-04-25T05:00:16.000Z"
+    ],
     "municipio": "kENNEDY",
     "notificacion": {
       "id": 422,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 422,
-      "fechaOrdenaMedida": "2024-02-03T18:59:43.197Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:13.276Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +74,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001410307520180060200",
-  "nombre": "LUZ YOLANDA MUÑOZ MURCIA",
+  "nombre": "luz yolanda muñoz murcia",
   "numero": 422,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:43.197Z"
+  "notas": [
+    {
+      "carpetaNumero": 422,
+      "createdAt": "2024-02-07T03:34:13.275Z",
+      "pathname": null,
+      "dueDate": "2021-03-16T05:00:00.000Z",
+      "text": "EL 16/02/2021 EL JUZGADO TERMINO EL PROCESO POR PAGO TOTAL CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 422,
+      "createdAt": "2024-02-07T03:34:13.276Z",
+      "pathname": null,
+      "dueDate": "2022-04-02T05:00:00.000Z",
+      "text": "  2/03/2022 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 422,
+      "createdAt": "2024-02-07T03:34:13.276Z",
+      "pathname": null,
+      "dueDate": "2021-03-24T05:00:00.000Z",
+      "text": " EL 24/02/2021 SE LEVANTARON MEDIDAS CAUTELARES DE LA DEUDORA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:13.276Z"
 }

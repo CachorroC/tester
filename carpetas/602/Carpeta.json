@@ -10,14 +10,17 @@
     "id": 602
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "100379249",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-22T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 602,
     "llaveProceso": null,
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 602,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 602,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.245Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.441Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "undefined",
-  "nombre": "IVONNE MARITZA BARRETO GUZMAN",
+  "nombre": "ivonne maritza barreto guzman",
   "numero": 602,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:50.246Z"
+  "notas": [
+    {
+      "carpetaNumero": 602,
+      "createdAt": "2024-02-07T03:34:27.441Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "23 NOV SE RADICA DEMANDA  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 602,
+      "createdAt": "2024-02-07T03:34:27.441Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 15 DIC NO HAN ENVIADO ACTA REPARTO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.441Z"
 }

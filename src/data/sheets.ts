@@ -2,6 +2,7 @@
 import * as fs from 'fs/promises';
 import xlsx from 'xlsx';
 import { RawDb,  } from '../types/raw-db';
+import { NotasBuilder } from '../models/nota';
 
 const workbook = xlsx.readFile(
   '/srv/new/nube/bases_de_datos/general.xlsx', {
@@ -48,6 +49,30 @@ const capitalesAdeudados = mapSheetsArray.map(
   }
 );
 
+const notas = mapSheetsArray.flatMap(
+  (
+    sheet
+  ) => {
+    return [
+      sheet.OBSERVACIONES,
+      sheet.EXTRA,
+      sheet.EXTRA_2
+    ];
+  }
+);
+
+for ( const nota of notas ) {
+  if ( typeof nota === 'string' ) {
+    const noter = new NotasBuilder(
+      nota
+    );
+    console.log(
+      noter 
+    );
+  }
+
+}
+
 
 fs.writeFile(
   'fechasDePresentacion.json', JSON.stringify(
@@ -57,5 +82,10 @@ fs.writeFile(
 fs.writeFile(
   'capitalesAdeudados.json', JSON.stringify(
     capitalesAdeudados
+  )
+);
+fs.writeFile(
+  'notas.json', JSON.stringify(
+    notas
   )
 );

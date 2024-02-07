@@ -16,7 +16,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654292,
@@ -33,7 +33,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654282,
@@ -50,7 +50,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654272,
@@ -67,7 +67,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654262,
@@ -84,7 +84,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654252,
@@ -101,7 +101,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654242,
@@ -118,7 +118,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654232,
@@ -135,7 +135,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654222,
@@ -152,7 +152,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654212,
@@ -169,7 +169,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654202,
@@ -186,7 +186,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654192,
@@ -203,7 +203,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654182,
@@ -220,7 +220,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654172,
@@ -237,7 +237,7 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     },
     {
       "idRegActuacion": 848654162,
@@ -254,10 +254,10 @@
       "cant": 15,
       "idProceso": 62733402,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.955Z"
+      "createdAt": "2024-02-07T03:24:27.925Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -266,6 +266,8 @@
     "id": 7
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "134026609",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -274,8 +276,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.879Z"
     ],
+    "id": 7,
     "llaveProceso": "11001310302720170037400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 7,
@@ -307,7 +310,7 @@
     ],
     "medidasCautelares": {
       "id": 7,
-      "fechaOrdenaMedida": "2024-02-03T18:58:52.909Z",
+      "fechaOrdenaMedida": "2024-02-07T03:24:27.813Z",
       "medidaSolicitada": null
     }
   },
@@ -329,7 +332,7 @@
   ],
   "idRegUltimaAct": 1151407522,
   "llaveProceso": "11001310302720170037400",
-  "nombre": "JOSE RICARDO PRIETO CRUZ",
+  "nombre": "jose ricardo prieto cruz",
   "numero": 7,
   "procesos": [
     {
@@ -351,7 +354,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": {
     "idRegActuacion": 1151407522,
@@ -369,5 +372,15 @@
     "idProceso": 62733402,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:52.910Z"
+  "notas": [
+    {
+      "carpetaNumero": 7,
+      "createdAt": "2024-02-07T03:24:27.813Z",
+      "pathname": null,
+      "dueDate": "2022-01-12T05:00:00.000Z",
+      "text": "1 DE SEPTIEMBRE DE 2017 SE DEVOLVIO A GARANTIAS SE RETIRO DEMANDA SIN MEDIDAS CAUTELARES DE EMBARGO VEHICULO REVISADO EL RUNT 12/12/2021",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:24:27.813Z"
 }

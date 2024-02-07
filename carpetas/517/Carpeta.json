@@ -1,7 +1,7 @@
 {
   "id": 52470211,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 517
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "30012019",
     "departamento": "CUNDINAMARCA ",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 517,
     "llaveProceso": "11001418901020190016200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 517,
@@ -47,7 +50,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 517,
-      "fechaOrdenaMedida": "2024-02-03T18:59:51.344Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:20.375Z",
       "medidaSolicitada": null
     }
   },
@@ -67,12 +70,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418901020190016200",
-  "nombre": "MARYLU VALENCIA SUAREZ",
+  "nombre": "marylu valencia suarez",
   "numero": 517,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:51.345Z"
+  "notas": [
+    {
+      "carpetaNumero": 517,
+      "createdAt": "2024-02-07T03:34:20.375Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 14 DE MAYO DE 2019 SE TERMINO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 517,
+      "createdAt": "2024-02-07T03:34:20.375Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE RADICARON MEDIDAS CAUTELARES ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 517,
+      "createdAt": "2024-02-07T03:34:20.375Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 12 DE SEPTIEMBRE DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:20.376Z"
 }

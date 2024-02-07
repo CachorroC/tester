@@ -1,7 +1,7 @@
 {
   "id": 1033783222,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 181
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "25340036.69",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.975Z"
     ],
+    "id": 181,
     "llaveProceso": "11001418901020170011500",
-    "mandamientoPago": "2017-10-05T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-05T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 181,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 181,
-      "fechaOrdenaMedida": "2024-02-03T18:59:16.039Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:48.317Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418901020170011500",
-  "nombre": "LEONARDO ALIRIO GARCIA GUERRERO ",
+  "nombre": "leonardo alirio garcia guerrero ",
   "numero": 181,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:16.039Z"
+  "notas": [
+    {
+      "carpetaNumero": 181,
+      "createdAt": "2024-02-07T03:33:48.317Z",
+      "pathname": null,
+      "dueDate": "2018-10-18T05:00:00.000Z",
+      "text": "EL 18/09/2018 EL JUZGADO DECRETA TERMINACION PROCESO POR PAGO TOTAL DE LA OBLIGACIÓN ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 181,
+      "createdAt": "2024-02-07T03:33:48.317Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " DESGLOSE DE GARANTIAS Y LEVANTAMIENTO DE MEDIDA CAUTELAR A CARGO DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:48.317Z"
 }

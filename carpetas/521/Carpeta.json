@@ -1,7 +1,7 @@
 {
   "id": 40050052,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 521
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "20616779",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "2019-02-15T05:00:00.000Z"
     ],
+    "id": 521,
     "llaveProceso": "11001418901220190023500",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 521,
@@ -49,7 +52,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 521,
-      "fechaOrdenaMedida": "2024-02-03T18:59:51.856Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:20.687Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418901220190023500",
-  "nombre": "MARIA AQUILINA RODRIGUEZ LANCHEROS",
+  "nombre": "maria aquilina rodriguez lancheros",
   "numero": 521,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:51.856Z"
+  "notas": [
+    {
+      "carpetaNumero": 521,
+      "createdAt": "2024-02-07T03:34:20.687Z",
+      "pathname": null,
+      "dueDate": "2019-10-18T05:00:00.000Z",
+      "text": "EL 18/09/2019 EL JUZGADO DECRETO TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 521,
+      "createdAt": "2024-02-07T03:34:20.687Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS EN FAVOR DE LA PARTE DEMANDADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 521,
+      "createdAt": "2024-02-07T03:34:20.687Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR DE LA PARTE DEUDORA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:20.687Z"
 }

@@ -10,6 +10,8 @@
     "id": 208
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "27819414.85",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-08-28T05:00:16.000Z"
     ],
+    "id": 208,
     "llaveProceso": "25754400300220170026500",
-    "mandamientoPago": "2017-09-12T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-09-12T05:00:16.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 208,
@@ -73,7 +78,7 @@
   ],
   "idRegUltimaAct": null,
   "llaveProceso": "25754400300220170026500",
-  "nombre": "JEOVANY ROJAS CRUZ",
+  "nombre": "jeovany rojas cruz",
   "numero": 208,
   "procesos": [
     {
@@ -98,5 +103,79 @@
   "terminado": false,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:00.147Z"
+  "notas": [
+    {
+      "carpetaNumero": 208,
+      "createdAt": "2024-02-07T03:33:50.975Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " LINK GERENCIA@ PARA VERLO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 208,
+      "createdAt": "2024-02-07T03:33:50.975Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " PROCESO DIGITALIZADO DESCARGADO EN NUBE  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 208,
+      "createdAt": "2024-02-07T03:33:50.975Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 18 NOV 2022 SE  ENVA AVALUO DEL VEHÍCULO PARA APROBACIÓN ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 208,
+      "createdAt": "2024-02-07T03:33:50.975Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 7 DIC 2022 NO APRUEBA AVALUO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 208,
+      "createdAt": "2024-02-07T03:33:50.975Z",
+      "pathname": null,
+      "dueDate": "2023-03-27T05:00:00.000Z",
+      "text": " 27/02/2023 DESISTIMIENTO AVALUO Y SE APORTA NUEVO A TRAVES DE SIGBA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 208,
+      "createdAt": "2024-02-07T03:33:50.975Z",
+      "pathname": null,
+      "dueDate": "2023-04-03T05:00:00.000Z",
+      "text": " 3/03/2023 RESPUESTA REQUIERE DE JUZGADO VILLAVICENCIO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 208,
+      "createdAt": "2024-02-07T03:33:50.975Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 JUNIO 2023 AUTO APRUEBA AVALUO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 208,
+      "createdAt": "2024-02-07T03:33:50.975Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 AGOSTO 2023 SE ENVIA SOLICITUD REMATE.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 208,
+      "createdAt": "2024-02-07T03:33:50.975Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 28 SEPT FIJA FECHA REMATE PARA 17 ENERO 2024 FECHA LIMITE PUBICACION 1 DIC",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:50.975Z"
 }

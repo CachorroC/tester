@@ -10,14 +10,17 @@
     "id": 609
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "46179087",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-27T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 609,
     "llaveProceso": null,
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 609,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 609,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.697Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.918Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "undefined",
-  "nombre": "ELKIN CARRILLO MARTINEZ",
+  "nombre": "elkin carrillo martinez",
   "numero": 609,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:50.698Z"
+  "notas": [
+    {
+      "carpetaNumero": 609,
+      "createdAt": "2024-02-07T03:34:27.918Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "28 NOV SE RADICA DEMANDA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.919Z"
 }

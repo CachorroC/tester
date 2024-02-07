@@ -1,7 +1,7 @@
 {
   "id": 79205977,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 18
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "67068123",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.885Z"
     ],
+    "id": 18,
     "llaveProceso": "25175400300320170026900",
-    "mandamientoPago": "2017-07-10T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-07-10T05:00:16.000Z"
+    ],
     "municipio": "CHIA",
     "notificacion": {
       "id": 18,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 18,
-      "fechaOrdenaMedida": "2024-02-03T18:58:53.623Z",
+      "fechaOrdenaMedida": "2024-02-07T03:24:33.138Z",
       "medidaSolicitada": "PERSONAL"
     }
   },
@@ -72,12 +77,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25175400300320170026900",
-  "nombre": "LUIS ENRIQUE ACOSTA CHAVARRIA",
+  "nombre": "luis enrique acosta chavarria",
   "numero": 18,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:53.623Z"
+  "notas": [
+    {
+      "carpetaNumero": 18,
+      "createdAt": "2024-02-07T03:24:33.138Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 17 DE NERO DE 2019 SE DEVOLVIERON GARANTIAS EN FAVOR DEL DEUDOR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 18,
+      "createdAt": "2024-02-07T03:24:33.138Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " LAS MEDIDAS CAUTELARES LE CORRESPONDEN LEVANTAR AL DEUDOR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 18,
+      "createdAt": "2024-02-07T03:24:33.138Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "CONSULTADO EL RUNT NO TIENE MEDIDAS CAUTELARES EN ESTE PROCESO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:24:33.138Z"
 }

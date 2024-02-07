@@ -16,7 +16,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901680,
@@ -33,7 +33,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901670,
@@ -50,7 +50,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901660,
@@ -67,7 +67,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901650,
@@ -84,7 +84,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901640,
@@ -101,7 +101,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901630,
@@ -118,7 +118,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901620,
@@ -135,7 +135,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901610,
@@ -152,7 +152,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901600,
@@ -169,7 +169,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901590,
@@ -186,7 +186,7 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     },
     {
       "idRegActuacion": 267901580,
@@ -203,10 +203,10 @@
       "cant": 12,
       "idProceso": 18376650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:49.222Z"
+      "createdAt": "2024-02-07T03:34:17.368Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -215,6 +215,8 @@
     "id": 469
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "792",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -223,8 +225,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.321Z"
     ],
+    "id": 469,
     "llaveProceso": "11001400307020180092200",
-    "mandamientoPago": "2018-09-21T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-09-21T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 469,
@@ -256,7 +261,7 @@
     ],
     "medidasCautelares": {
       "id": 469,
-      "fechaOrdenaMedida": "2024-02-03T18:59:49.153Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:17.318Z",
       "medidaSolicitada": null
     }
   },
@@ -278,7 +283,7 @@
   ],
   "idRegUltimaAct": 952710890,
   "llaveProceso": "11001400307020180092200",
-  "nombre": "LUZ MYRIAM VALDERRAMA TUTA",
+  "nombre": "luz myriam valderrama tuta",
   "numero": 469,
   "procesos": [
     {
@@ -300,7 +305,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
     "idRegActuacion": 952710890,
@@ -318,5 +323,31 @@
     "idProceso": 18376650,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:49.154Z"
+  "notas": [
+    {
+      "carpetaNumero": 469,
+      "createdAt": "2024-02-07T03:34:17.318Z",
+      "pathname": null,
+      "dueDate": "2019-05-03T05:00:00.000Z",
+      "text": "EL 3/04/2019 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 469,
+      "createdAt": "2024-02-07T03:34:17.318Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS EN FAVOR DE LA PARTE DEMANDADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 469,
+      "createdAt": "2024-02-07T03:34:17.318Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR DE LA PARTE DEUDORA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:17.318Z"
 }

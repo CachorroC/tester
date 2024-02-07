@@ -1,7 +1,7 @@
 {
   "id": 52115085,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 485
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "16492041",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "2018-09-18T05:00:00.000Z"
     ],
+    "id": 485,
     "llaveProceso": "11001418900820180076100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 485,
@@ -50,7 +53,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 485,
-      "fechaOrdenaMedida": "2024-02-03T18:59:49.892Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:18.296Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +73,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418900820180076100",
-  "nombre": "DIANA MARGARITA BUSTOS BALLEN",
+  "nombre": "diana margarita bustos ballen",
   "numero": 485,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:49.892Z"
+  "notas": [
+    {
+      "carpetaNumero": 485,
+      "createdAt": "2024-02-07T03:34:18.296Z",
+      "pathname": null,
+      "dueDate": "2020-03-07T05:00:00.000Z",
+      "text": "EL 7/02/2020 EL JUZGADO DA POR TERMINADO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 485,
+      "createdAt": "2024-02-07T03:34:18.296Z",
+      "pathname": null,
+      "dueDate": "2020-10-17T05:00:00.000Z",
+      "text": " EL 17/09/2020 SE DEVUELVE DESGLOSE DE GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 485,
+      "createdAt": "2024-02-07T03:34:18.296Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE DECRETARON MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:18.296Z"
 }

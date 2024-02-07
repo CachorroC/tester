@@ -16,7 +16,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:46.011Z"
+      "createdAt": "2024-02-07T03:34:24.308Z"
     },
     {
       "idRegActuacion": 1942530940,
@@ -33,7 +33,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:46.011Z"
+      "createdAt": "2024-02-07T03:34:24.308Z"
     },
     {
       "idRegActuacion": 1880432600,
@@ -50,7 +50,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:46.011Z"
+      "createdAt": "2024-02-07T03:34:24.308Z"
     },
     {
       "idRegActuacion": 1862825060,
@@ -67,7 +67,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:46.011Z"
+      "createdAt": "2024-02-07T03:34:24.308Z"
     },
     {
       "idRegActuacion": 1844385410,
@@ -84,7 +84,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:46.011Z"
+      "createdAt": "2024-02-07T03:34:24.308Z"
     },
     {
       "idRegActuacion": 1844385400,
@@ -101,7 +101,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:46.011Z"
+      "createdAt": "2024-02-07T03:34:24.308Z"
     },
     {
       "idRegActuacion": 1844385390,
@@ -118,7 +118,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:46.011Z"
+      "createdAt": "2024-02-07T03:34:24.308Z"
     },
     {
       "idRegActuacion": 1844385380,
@@ -135,7 +135,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:46.011Z"
+      "createdAt": "2024-02-07T03:34:24.308Z"
     },
     {
       "idRegActuacion": 1837296480,
@@ -152,7 +152,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:46.011Z"
+      "createdAt": "2024-02-07T03:34:24.308Z"
     }
   ],
   "category": "Bancolombia",
@@ -164,14 +164,17 @@
     "id": 567
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "19188290",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 567,
     "llaveProceso": "11001400307520230128400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 567,
@@ -203,7 +206,7 @@
     ],
     "medidasCautelares": {
       "id": 567,
-      "fechaOrdenaMedida": "2024-02-03T18:58:45.937Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:24.248Z",
       "medidaSolicitada": null
     }
   },
@@ -225,7 +228,7 @@
   ],
   "idRegUltimaAct": 1942719710,
   "llaveProceso": "11001400307520230128400",
-  "nombre": "WILSON DE JESUS MOLINA QUIRAMA",
+  "nombre": "wilson de jesus molina quirama",
   "numero": 567,
   "procesos": [
     {
@@ -265,5 +268,87 @@
     "idProceso": 132161470,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:45.937Z"
+  "notas": [
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "31 JULIO RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 15 AGOSTO 2023 AUTO LIBRA MANDAMIENTO DE PAGO NO ESTA AUTO MEDIDA CAUTELAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 AGOSTO ELABORA OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 9 NOV 2023 SE ENVIA IMPULSO PROCESAL OFICIOS MEDIDA CAUTELAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "22 NOV 2023 SE ALLEGA OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 NOV 2023 SE RADICAN OFICIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 NOV 2023 SE SOLICITO A AECSA ORIGINAL PAGARES O SO PENA 317 ANTES DE SENTENCIA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 NOV 2023 SE ENVIA NOTIF A DEUDOR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 DIC 2023 SE RADICA PAGARE ORIGINAL EN JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 567,
+      "createdAt": "2024-02-07T03:34:24.248Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 DIC 2023 SE ENVIA NOTI POSITIVA A JUZGADO ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:24.248Z"
 }

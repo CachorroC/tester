@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:46.511Z"
+      "createdAt": "2024-02-07T03:34:15.386Z"
     },
     {
       "idRegActuacion": 582442790,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:46.511Z"
+      "createdAt": "2024-02-07T03:34:15.386Z"
     },
     {
       "idRegActuacion": 582442780,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:46.511Z"
+      "createdAt": "2024-02-07T03:34:15.386Z"
     },
     {
       "idRegActuacion": 582442770,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:46.511Z"
+      "createdAt": "2024-02-07T03:34:15.386Z"
     },
     {
       "idRegActuacion": 582442760,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:46.511Z"
+      "createdAt": "2024-02-07T03:34:15.386Z"
     },
     {
       "idRegActuacion": 582442750,
@@ -101,10 +101,10 @@
       "cant": 6,
       "idProceso": 51277500,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:46.511Z"
+      "createdAt": "2024-02-07T03:34:15.386Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -113,14 +113,17 @@
     "id": 447
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "19260500",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2018-06-21T05:00:16.000Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": [],
+    "id": 447,
     "llaveProceso": "11001400300520180071100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 447,
@@ -152,7 +155,7 @@
     ],
     "medidasCautelares": {
       "id": 447,
-      "fechaOrdenaMedida": "2024-02-03T18:59:46.468Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:15.333Z",
       "medidaSolicitada": null
     }
   },
@@ -174,7 +177,7 @@
   ],
   "idRegUltimaAct": 582442800,
   "llaveProceso": "11001400300520180071100",
-  "nombre": "CARLOS ANTONIO PACHECO TORRES",
+  "nombre": "carlos antonio pacheco torres",
   "numero": 447,
   "procesos": [
     {
@@ -196,7 +199,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
     "idRegActuacion": 582442800,
@@ -214,5 +217,23 @@
     "idProceso": 51277500,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:46.468Z"
+  "notas": [
+    {
+      "carpetaNumero": 447,
+      "createdAt": "2024-02-07T03:34:15.333Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "11 DE JULIO DE 2018 APODERADA DE LA DEMANDANTE RETIRO LA DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 447,
+      "createdAt": "2024-02-07T03:34:15.333Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN MEDIDAS CAUTELARES DICTADAS POR EL JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:15.334Z"
 }

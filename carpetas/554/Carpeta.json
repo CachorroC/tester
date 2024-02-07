@@ -16,7 +16,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1897883780,
@@ -33,7 +33,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1879141660,
@@ -50,7 +50,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1879141650,
@@ -67,7 +67,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1879141640,
@@ -84,7 +84,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1879141630,
@@ -101,7 +101,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1868593300,
@@ -118,7 +118,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1855104180,
@@ -135,7 +135,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1855104170,
@@ -152,7 +152,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1842493530,
@@ -169,7 +169,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     },
     {
       "idRegActuacion": 1834915640,
@@ -186,7 +186,7 @@
       "cant": 11,
       "idProceso": 132102980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:44.321Z"
+      "createdAt": "2024-02-07T03:34:23.387Z"
     }
   ],
   "category": "Bancolombia",
@@ -198,14 +198,17 @@
     "id": 554
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "22111021",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 554,
     "llaveProceso": "11001418901820230131100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 554,
@@ -240,7 +243,7 @@
     ],
     "medidasCautelares": {
       "id": 554,
-      "fechaOrdenaMedida": "2024-02-03T18:58:44.260Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.314Z",
       "medidaSolicitada": null
     }
   },
@@ -262,7 +265,7 @@
   ],
   "idRegUltimaAct": 1948366030,
   "llaveProceso": "11001418901820230131100",
-  "nombre": "SANDRA PATRICIA ALVAREZ RODRIGUEZ",
+  "nombre": "sandra patricia alvarez rodriguez",
   "numero": 554,
   "procesos": [
     {
@@ -302,5 +305,71 @@
     "idProceso": 132102980,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:44.261Z"
+  "notas": [
+    {
+      "carpetaNumero": 554,
+      "createdAt": "2024-02-07T03:34:23.314Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "31 DE JULIO 2023 RADICA DEMANDA. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 554,
+      "createdAt": "2024-02-07T03:34:23.314Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 AGOSTO 2023 ENTRA A DESPACHO",
+      "content": []
+    },
+    {
+      "carpetaNumero": 554,
+      "createdAt": "2024-02-07T03:34:23.314Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 23 AGOSTO 2023 INADMITE DEMANDA",
+      "content": []
+    },
+    {
+      "carpetaNumero": 554,
+      "createdAt": "2024-02-07T03:34:23.314Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 28 AGOSTO SE RADICA MEMORIAL SUBSANATORIO.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 554,
+      "createdAt": "2024-02-07T03:34:23.314Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 13 SEPT 2023 AUTO LIBRA MANDAMIENTO DE PAGO  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 554,
+      "createdAt": "2024-02-07T03:34:23.314Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 OCT 2023 SE ENVIA IMPULSO PROCESAL MEDIDAS CAUTELARES.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 554,
+      "createdAt": "2024-02-07T03:34:23.314Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 16 NOV 2023 ENTREGAN OFICIO Y SE RADICA OFICIO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 554,
+      "createdAt": "2024-02-07T03:34:23.314Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 NOV 2023 SE ENVIA NOTI + A JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.314Z"
 }

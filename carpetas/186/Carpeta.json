@@ -10,6 +10,8 @@
     "id": 186
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "13319130",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-08-15T05:00:16.000Z"
     ],
+    "id": 186,
     "llaveProceso": "25175408900220170041200",
-    "mandamientoPago": "2017-09-19T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-09-19T05:00:16.000Z"
+    ],
     "municipio": "CHIA",
     "notificacion": {
       "id": 186,
@@ -71,12 +76,62 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25175408900220170041200",
-  "nombre": "CELY MARGOTH ROJAS VELANDIA",
+  "nombre": "cely margoth rojas velandia",
   "numero": 186,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:59.186Z"
+  "notas": [
+    {
+      "carpetaNumero": 186,
+      "createdAt": "2024-02-07T03:33:48.748Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "DIGITALIZADO NUBE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 186,
+      "createdAt": "2024-02-07T03:33:48.748Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "REITERAR SOLICITUD EMBARGO DE REMANTES PROCESO EJECUTIVO HIPOTECARIO DE BANCO CAJA SOCIAL EN JUZGADO 001 CM DE CHIA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 186,
+      "createdAt": "2024-02-07T03:33:48.748Z",
+      "pathname": null,
+      "dueDate": "2022-09-17T05:00:00.000Z",
+      "text": " 17/08/2022 ACEPTA PERSONERIA A CCRM Y ACEPTA CESION CREDITO A CISA % ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 186,
+      "createdAt": "2024-02-07T03:33:48.748Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 MAYO 2023 SE SOLICITA LINK Y HACEN ENVIO LINK EXPPEDIENTE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 186,
+      "createdAt": "2024-02-07T03:33:48.748Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 OCT 2023 PROCESO DE REMANTENTES TERMINADO  NEGATIVO EMBARGO",
+      "content": []
+    },
+    {
+      "carpetaNumero": 186,
+      "createdAt": "2024-02-07T03:33:48.748Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "  IMPRODUCTIVO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:48.749Z"
 }

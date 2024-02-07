@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 137788650,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:50.552Z"
+      "createdAt": "2024-02-07T03:34:27.781Z"
     },
     {
       "idRegActuacion": 1947689460,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 137788650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.553Z"
+      "createdAt": "2024-02-07T03:34:27.781Z"
     },
     {
       "idRegActuacion": 1946591530,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 137788650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.553Z"
+      "createdAt": "2024-02-07T03:34:27.781Z"
     },
     {
       "idRegActuacion": 1946066040,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 137788650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.553Z"
+      "createdAt": "2024-02-07T03:34:27.781Z"
     },
     {
       "idRegActuacion": 1942928600,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 137788650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.553Z"
+      "createdAt": "2024-02-07T03:34:27.781Z"
     },
     {
       "idRegActuacion": 1942928590,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 137788650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.553Z"
+      "createdAt": "2024-02-07T03:34:27.781Z"
     },
     {
       "idRegActuacion": 1938552510,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 137788650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.553Z"
+      "createdAt": "2024-02-07T03:34:27.781Z"
     },
     {
       "idRegActuacion": 1938552500,
@@ -135,7 +135,7 @@
       "cant": 8,
       "idProceso": 137788650,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.553Z"
+      "createdAt": "2024-02-07T03:34:27.781Z"
     }
   ],
   "category": "Bancolombia",
@@ -147,14 +147,17 @@
     "id": 607
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "150043737",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-24T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 607,
     "llaveProceso": "11001400301020230121200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 607,
@@ -188,7 +191,7 @@
     ],
     "medidasCautelares": {
       "id": 607,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.505Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.733Z",
       "medidaSolicitada": null
     }
   },
@@ -210,7 +213,7 @@
   ],
   "idRegUltimaAct": 1947689470,
   "llaveProceso": "11001400301020230121200",
-  "nombre": "EDWIN ALBERTO PIÑEROS ECHEVERRIA",
+  "nombre": "edwin alberto piñeros echeverria",
   "numero": 607,
   "procesos": [
     {
@@ -250,5 +253,31 @@
     "idProceso": 137788650,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:50.505Z"
+  "notas": [
+    {
+      "carpetaNumero": 607,
+      "createdAt": "2024-02-07T03:34:27.733Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "27 NOV SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 607,
+      "createdAt": "2024-02-07T03:34:27.733Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 15 DIC 2023 AUTO LIBRA MANDAMIENTO DE PAGO Y LIBRA MEDIDA CAUTELAR. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 607,
+      "createdAt": "2024-02-07T03:34:27.733Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "/ 18 ENERO 2023 SE ENVIA SOLICITUD CORRECCION MANDAMIENTO DE PAGO ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.733Z"
 }

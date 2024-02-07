@@ -16,7 +16,7 @@
       "cant": 4,
       "idProceso": 128522533,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:50.665Z"
+      "createdAt": "2024-02-07T03:34:27.894Z"
     },
     {
       "idRegActuacion": 1930255303,
@@ -33,7 +33,7 @@
       "cant": 4,
       "idProceso": 128522533,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.665Z"
+      "createdAt": "2024-02-07T03:34:27.894Z"
     },
     {
       "idRegActuacion": 1741959313,
@@ -50,7 +50,7 @@
       "cant": 4,
       "idProceso": 128522533,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.665Z"
+      "createdAt": "2024-02-07T03:34:27.894Z"
     },
     {
       "idRegActuacion": 1741959303,
@@ -67,7 +67,7 @@
       "cant": 4,
       "idProceso": 128522533,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.665Z"
+      "createdAt": "2024-02-07T03:34:27.894Z"
     }
   ],
   "category": "Bancolombia",
@@ -79,14 +79,17 @@
     "id": 608
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "73608894",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-24T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 608,
     "llaveProceso": "11001400303820230113800",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 608,
@@ -121,7 +124,7 @@
     ],
     "medidasCautelares": {
       "id": 608,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.610Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.802Z",
       "medidaSolicitada": null
     }
   },
@@ -143,7 +146,7 @@
   ],
   "idRegUltimaAct": 1930255313,
   "llaveProceso": "11001400303820230113800",
-  "nombre": "MADAY SABAD CAMACHO BUITRAGO",
+  "nombre": "maday sabad camacho buitrago",
   "numero": 608,
   "procesos": [
     {
@@ -183,5 +186,15 @@
     "idProceso": 128522533,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:50.610Z"
+  "notas": [
+    {
+      "carpetaNumero": 608,
+      "createdAt": "2024-02-07T03:34:27.802Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "28 NOV SE RADICA DEMANDA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.803Z"
 }

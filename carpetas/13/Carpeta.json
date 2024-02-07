@@ -1,7 +1,7 @@
 {
   "id": 447028,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "CARMEN JULIA MORA RODRIGUEZ",
     "cedula": "21094922",
@@ -10,6 +10,8 @@
     "id": 13
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "23326974",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.886Z"
     ],
+    "id": 13,
     "llaveProceso": "25867418900120170002000",
-    "mandamientoPago": "2007-06-02T05:00:16.000Z",
+    "mandamientoPago": [
+      "2007-06-02T05:00:16.000Z"
+    ],
     "municipio": "VIANI",
     "notificacion": {
       "id": 13,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 13,
-      "fechaOrdenaMedida": "2024-02-03T18:58:53.263Z",
+      "fechaOrdenaMedida": "2024-02-07T03:24:29.381Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25867418900120170002000",
-  "nombre": "PASCUAL ORTEGA ENCISO",
+  "nombre": "pascual ortega enciso",
   "numero": 13,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:53.263Z"
+  "notas": [
+    {
+      "carpetaNumero": 13,
+      "createdAt": "2024-02-07T03:24:29.381Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "25 DE SEPTIEMBRE DE 2017 SE DEVOLVIERON GARANTIAS PAGARE A AECSA SIN MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:24:29.382Z"
 }

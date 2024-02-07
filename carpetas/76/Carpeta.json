@@ -16,7 +16,7 @@
       "cant": 4,
       "idProceso": 86212271,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.800Z"
+      "createdAt": "2024-02-07T03:33:36.218Z"
     },
     {
       "idRegActuacion": 964317311,
@@ -33,7 +33,7 @@
       "cant": 4,
       "idProceso": 86212271,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.800Z"
+      "createdAt": "2024-02-07T03:33:36.218Z"
     },
     {
       "idRegActuacion": 961709631,
@@ -50,7 +50,7 @@
       "cant": 4,
       "idProceso": 86212271,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.800Z"
+      "createdAt": "2024-02-07T03:33:36.218Z"
     },
     {
       "idRegActuacion": 961710411,
@@ -67,10 +67,10 @@
       "cant": 4,
       "idProceso": 86212271,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:00.800Z"
+      "createdAt": "2024-02-07T03:33:36.218Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "ADELMO ABRIL FORERO",
     "cedula": "80394005",
@@ -79,14 +79,19 @@
     "id": 76
   },
   "demanda": {
+    "liquidacion": "42985",
+    "avaluo": "1000",
     "capitalAdeudado": "17517434",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
     "etapaProcesal": "25183400300120170011900",
     "fechaPresentacion": [],
+    "id": 76,
     "llaveProceso": "25183400300120170011900",
-    "mandamientoPago": "2017-06-21T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-06-21T05:00:16.000Z"
+    ],
     "municipio": "CHOCONTA",
     "notificacion": {
       "id": 76,
@@ -118,7 +123,7 @@
     ],
     "medidasCautelares": {
       "id": 76,
-      "fechaOrdenaMedida": "2024-02-03T18:59:00.767Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:36.171Z",
       "medidaSolicitada": null
     }
   },
@@ -140,7 +145,7 @@
   ],
   "idRegUltimaAct": 964317241,
   "llaveProceso": "25183400300120170011900",
-  "nombre": "ESTELA MARIN GARZÓN",
+  "nombre": "estela marin garzón",
   "numero": 76,
   "procesos": [
     {
@@ -162,7 +167,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
     "idRegActuacion": 964317241,
@@ -180,5 +185,23 @@
     "idProceso": 86212271,
     "isUltimaAct": false
   },
-  "updatedAt": "2024-02-03T18:59:00.767Z"
+  "notas": [
+    {
+      "carpetaNumero": 76,
+      "createdAt": "2024-02-07T03:33:36.171Z",
+      "pathname": null,
+      "dueDate": "2021-05-29T05:00:00.000Z",
+      "text": "29/04/2021 JUZGADODIO POR TERMINADO EL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 76,
+      "createdAt": "2024-02-07T03:33:36.171Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " PROCESO CONTINUA SIN LEVANTAMIENTO DE MEDIDAS CUATELARES PUES CONTINUA COBRO DE CISA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:36.172Z"
 }

@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:23.178Z"
+      "createdAt": "2024-02-07T03:33:55.663Z"
     },
     {
       "idRegActuacion": 817031820,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.178Z"
+      "createdAt": "2024-02-07T03:33:55.663Z"
     },
     {
       "idRegActuacion": 817031810,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.178Z"
+      "createdAt": "2024-02-07T03:33:55.663Z"
     },
     {
       "idRegActuacion": 817031800,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.178Z"
+      "createdAt": "2024-02-07T03:33:55.663Z"
     },
     {
       "idRegActuacion": 817031790,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.178Z"
+      "createdAt": "2024-02-07T03:33:55.663Z"
     },
     {
       "idRegActuacion": 817031780,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.178Z"
+      "createdAt": "2024-02-07T03:33:55.663Z"
     },
     {
       "idRegActuacion": 817031770,
@@ -118,10 +118,10 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:23.178Z"
+      "createdAt": "2024-02-07T03:33:55.663Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "FELIPE ANDRES CARRANZA BLANCO",
     "cedula": "1013592416",
@@ -130,6 +130,8 @@
     "id": 248
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "49971067",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -138,8 +140,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.992Z"
     ],
+    "id": 248,
     "llaveProceso": "11001400305920170087100",
-    "mandamientoPago": "2017-10-04T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-04T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 248,
@@ -171,7 +176,7 @@
     ],
     "medidasCautelares": {
       "id": 248,
-      "fechaOrdenaMedida": "2024-02-03T18:59:23.134Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:55.541Z",
       "medidaSolicitada": null
     }
   },
@@ -193,7 +198,7 @@
   ],
   "idRegUltimaAct": 817031830,
   "llaveProceso": "11001400305920170087100",
-  "nombre": "HENRY CARRANZA ALBA",
+  "nombre": "henry carranza alba",
   "numero": 248,
   "procesos": [
     {
@@ -215,7 +220,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 817031830,
@@ -233,5 +238,39 @@
     "idProceso": 50715970,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:23.134Z"
+  "notas": [
+    {
+      "carpetaNumero": 248,
+      "createdAt": "2024-02-07T03:33:55.541Z",
+      "pathname": null,
+      "dueDate": "2017-12-23T05:00:00.000Z",
+      "text": "23/11/2017 SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 248,
+      "createdAt": "2024-02-07T03:33:55.541Z",
+      "pathname": null,
+      "dueDate": "2017-12-22T05:00:00.000Z",
+      "text": " 22/11/2017 LA DEMANDA SE RETIRO POR LA APODERADA DEL BANCO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 248,
+      "createdAt": "2024-02-07T03:33:55.541Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE RETIRO OFICIO DE EMBARGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 248,
+      "createdAt": "2024-02-07T03:33:55.541Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN REGISTRO DE MEDIDAS CAUTELARES ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:55.541Z"
 }

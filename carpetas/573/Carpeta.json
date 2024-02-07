@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 128037283,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:47.257Z"
+      "createdAt": "2024-02-07T03:34:25.024Z"
     },
     {
       "idRegActuacion": 1725975863,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 128037283,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.257Z"
+      "createdAt": "2024-02-07T03:34:25.024Z"
     },
     {
       "idRegActuacion": 1678440473,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 128037283,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.257Z"
+      "createdAt": "2024-02-07T03:34:25.024Z"
     },
     {
       "idRegActuacion": 1675073273,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 128037283,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.257Z"
+      "createdAt": "2024-02-07T03:34:25.024Z"
     },
     {
       "idRegActuacion": 1670379463,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 128037283,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.257Z"
+      "createdAt": "2024-02-07T03:34:25.024Z"
     },
     {
       "idRegActuacion": 1670379453,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 128037283,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.257Z"
+      "createdAt": "2024-02-07T03:34:25.024Z"
     },
     {
       "idRegActuacion": 1670144933,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 128037283,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.257Z"
+      "createdAt": "2024-02-07T03:34:25.024Z"
     },
     {
       "idRegActuacion": 1665940443,
@@ -135,7 +135,7 @@
       "cant": 8,
       "idProceso": 128037283,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.257Z"
+      "createdAt": "2024-02-07T03:34:25.024Z"
     }
   ],
   "category": "Bancolombia",
@@ -147,14 +147,17 @@
     "id": 573
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "55099216",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-08-04T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 573,
     "llaveProceso": "11001400303720230099100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 573,
@@ -188,7 +191,7 @@
     ],
     "medidasCautelares": {
       "id": 573,
-      "fechaOrdenaMedida": "2024-02-03T18:58:47.209Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:24.954Z",
       "medidaSolicitada": null
     }
   },
@@ -210,7 +213,7 @@
   ],
   "idRegUltimaAct": 1769052913,
   "llaveProceso": "11001400303720230099100",
-  "nombre": "SANDRA PATRICIA GALVIS ALMANZA",
+  "nombre": "sandra patricia galvis almanza",
   "numero": 573,
   "procesos": [
     {
@@ -250,5 +253,79 @@
     "idProceso": 128037283,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:47.210Z"
+  "notas": [
+    {
+      "carpetaNumero": 573,
+      "createdAt": "2024-02-07T03:34:24.954Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "8 AGOSTO 2023 RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 573,
+      "createdAt": "2024-02-07T03:34:24.954Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " A AUTOS DE 11 SEPT NADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 573,
+      "createdAt": "2024-02-07T03:34:24.954Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " QUEDO RADICADO EN EL 9 PCCM 15 DE AGOSTO LA INADMITEN ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 573,
+      "createdAt": "2024-02-07T03:34:24.954Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " ESTA PARA RECHAZO A 22 SEPT 2023",
+      "content": []
+    },
+    {
+      "carpetaNumero": 573,
+      "createdAt": "2024-02-07T03:34:24.954Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "  27 SEPT SE RADICA DEMANDA NUEVAMENTE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 573,
+      "createdAt": "2024-02-07T03:34:24.954Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 19 OCT 2023 AUTO MANDAMIENTO DE PAGO Y LIBRA MEDIDA CAUTELAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 573,
+      "createdAt": "2024-02-07T03:34:24.954Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 OCT 2023 ENVIAN OFICIOS ENVARGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 573,
+      "createdAt": "2024-02-07T03:34:24.954Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 16 NOV 2023 SE RADICA OFICIO DE EMBARGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 573,
+      "createdAt": "2024-02-07T03:34:24.954Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 NOV 2023 SE ENVIA NOTI + A JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:24.954Z"
 }

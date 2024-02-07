@@ -1,7 +1,7 @@
 {
   "id": 72165243,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "VIVIANA ANDREA ARBOLEDA HERNANDEZ",
     "cedula": "52454328",
@@ -10,6 +10,8 @@
     "id": 250
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "46432606",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.992Z"
     ],
+    "id": 250,
     "llaveProceso": "25758418900120170059900",
-    "mandamientoPago": "2017-11-16T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-11-16T05:00:16.000Z"
+    ],
     "municipio": "SOPO",
     "notificacion": {
       "id": 250,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 250,
-      "fechaOrdenaMedida": "2024-02-03T18:59:23.226Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:55.810Z",
       "medidaSolicitada": "PERSONAL"
     }
   },
@@ -72,12 +77,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25758418900120170059900",
-  "nombre": "FRANCISCO CONTRERAS RAMIREZ",
+  "nombre": "francisco contreras ramirez",
   "numero": 250,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:23.226Z"
+  "notas": [
+    {
+      "carpetaNumero": 250,
+      "createdAt": "2024-02-07T03:33:55.810Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 27 DE FEBRERO DE 2019 SE TERMINO EL PROCESO POR TRANSACCION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 250,
+      "createdAt": "2024-02-07T03:33:55.810Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 27 DE JUNIO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 250,
+      "createdAt": "2024-02-07T03:33:55.810Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL VEHICULO YA NO FIGURA EN RUNT A NOMBRE DEL DEMANDADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:55.810Z"
 }

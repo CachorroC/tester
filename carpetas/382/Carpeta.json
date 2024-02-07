@@ -1,7 +1,7 @@
 {
   "id": 80403235,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 382
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "11224313",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2018-11-01T05:00:00.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 382,
     "llaveProceso": "25662408900120180000400",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-01-25T05:00:00.000Z"
+    ],
     "municipio": "SAN JUAN DE RIOSECO",
     "notificacion": {
       "id": 382,
@@ -49,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 382,
-      "fechaOrdenaMedida": "2024-02-03T18:59:39.301Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:09.458Z",
       "medidaSolicitada": "43378"
     }
   },
@@ -69,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25662408900120180000400",
-  "nombre": "CARLOS ALBERTO LANCHEROS BARRAGAN",
+  "nombre": "carlos alberto lancheros barragan",
   "numero": 382,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:39.301Z"
+  "notas": [
+    {
+      "carpetaNumero": 382,
+      "createdAt": "2024-02-07T03:34:09.458Z",
+      "pathname": null,
+      "dueDate": "2020-10-17T05:00:00.000Z",
+      "text": "EL 17/09/2020 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 382,
+      "createdAt": "2024-02-07T03:34:09.458Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO DE LA PARTE DEMANDADA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:09.458Z"
 }

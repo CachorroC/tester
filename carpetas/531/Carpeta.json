@@ -10,14 +10,19 @@
     "id": 531
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "35608653",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2020-10-07T05:00:16.000Z",
     "etapaProcesal": "11001400300320170088400",
     "fechaPresentacion": [],
+    "id": 531,
     "llaveProceso": "2020 - 00535",
-    "mandamientoPago": "2020-10-07T05:00:16.000Z",
+    "mandamientoPago": [
+      "2020-10-07T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 531,
@@ -48,7 +53,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 531,
-      "fechaOrdenaMedida": "2024-02-03T19:00:10.778Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:21.340Z",
       "medidaSolicitada": null
     }
   },
@@ -68,12 +73,54 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2020 - 00535",
-  "nombre": "SANDRA LEONOR PAEZ MURCIA",
+  "nombre": "sandra leonor paez murcia",
   "numero": 531,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:10.778Z"
+  "notas": [
+    {
+      "carpetaNumero": 531,
+      "createdAt": "2024-02-07T03:34:21.340Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "DIGITALIZACION PROCESO DESCARGADO NUBE LINK EN GERENCIA@ ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 531,
+      "createdAt": "2024-02-07T03:34:21.340Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 2 MAYO 2023 DC RADICADO EN MARZO DR JUAN REPORTA Q NO HAN ASIGNADO FECHA.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 531,
+      "createdAt": "2024-02-07T03:34:21.340Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " DILIGENCIA SECUESTRO 21 SEPT 2023 ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 531,
+      "createdAt": "2024-02-07T03:34:21.340Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 JULIO SE ENVIA INFORME AECSA Y VALOR HONORARIOS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 531,
+      "createdAt": "2024-02-07T03:34:21.340Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 29 AGOSTO SE ENVIA CORREO A AECSA SOLICITANDO SE INFORME SI DEUDORA TIENE ACUERDO O SE HACE SECUESTRO.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:21.340Z"
 }

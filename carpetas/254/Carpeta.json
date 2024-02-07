@@ -10,6 +10,8 @@
     "id": 254
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12993948",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-09-08T05:00:16.000Z"
     ],
+    "id": 254,
     "llaveProceso": "25175408900320170047700",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-10-22T05:00:00.000Z"
+    ],
     "municipio": "CHIA",
     "notificacion": {
       "id": 254,
@@ -72,12 +77,78 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25175408900320170047700",
-  "nombre": "YOHAIRA PRADO VALOYES",
+  "nombre": "yohaira prado valoyes",
   "numero": 254,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:02.094Z"
+  "notas": [
+    {
+      "carpetaNumero": 254,
+      "createdAt": "2024-02-07T03:33:56.298Z",
+      "pathname": null,
+      "dueDate": "2021-10-16T05:00:00.000Z",
+      "text": "SE ENVIA MEMORIAL CON RADICADO CAPTURA DEL VEHICULO 16/09/2021 ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 254,
+      "createdAt": "2024-02-07T03:33:56.298Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SE RADICA LIQUIDACION DE CREDITO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 254,
+      "createdAt": "2024-02-07T03:33:56.298Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 9 FEB 2023 AUTO APRUEBA LIQUIDACION DE CREDITO , NO TIERNE EN CUENTA REINTEGRA SIN CESION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 254,
+      "createdAt": "2024-02-07T03:33:56.298Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 12 DE JULIO DE 2023 SE ENVIA  AZGADO SOLICITUD SECUESTRO DE VEHICULO Y  RESPECTIVO DC. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 254,
+      "createdAt": "2024-02-07T03:33:56.298Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 19 JULIO 2023 AUTO ORDENA COMISIONAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 254,
+      "createdAt": "2024-02-07T03:33:56.298Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 21 SEPT SE RADICA DC ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 254,
+      "createdAt": "2024-02-07T03:33:56.298Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 4 OCT DESIGNA FECHA 3 NOV SECUESTRO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 254,
+      "createdAt": "2024-02-07T03:33:56.298Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 NOV SE PRESENTA AVALUO ANTE JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:56.298Z"
 }

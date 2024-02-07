@@ -16,7 +16,7 @@
       "cant": 2,
       "idProceso": 138297000,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:50.061Z"
+      "createdAt": "2024-02-07T03:34:27.226Z"
     },
     {
       "idRegActuacion": 1939464680,
@@ -33,7 +33,7 @@
       "cant": 2,
       "idProceso": 138297000,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:50.061Z"
+      "createdAt": "2024-02-07T03:34:27.226Z"
     }
   ],
   "category": "Bancolombia",
@@ -45,14 +45,17 @@
     "id": 598
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "73348449",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-14T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 598,
     "llaveProceso": "11001400302920230115900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 598,
@@ -84,7 +87,7 @@
     ],
     "medidasCautelares": {
       "id": 598,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.015Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.154Z",
       "medidaSolicitada": null
     }
   },
@@ -106,7 +109,7 @@
   ],
   "idRegUltimaAct": 1939464690,
   "llaveProceso": "11001400302920230115900",
-  "nombre": "RODOLFO RAMIREZ CUBIDES ",
+  "nombre": "rodolfo ramirez cubides ",
   "numero": 598,
   "procesos": [
     {
@@ -146,5 +149,15 @@
     "idProceso": 138297000,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:50.016Z"
+  "notas": [
+    {
+      "carpetaNumero": 598,
+      "createdAt": "2024-02-07T03:34:27.154Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "21 NOV SE RADICA DEMANDA ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.154Z"
 }

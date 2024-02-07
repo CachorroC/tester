@@ -16,7 +16,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1943255370,
@@ -33,7 +33,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1943255360,
@@ -50,7 +50,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1941931280,
@@ -67,7 +67,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1928480170,
@@ -84,7 +84,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1910895210,
@@ -101,7 +101,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1875872500,
@@ -118,7 +118,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1865046880,
@@ -135,7 +135,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1865046870,
@@ -152,7 +152,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1865046860,
@@ -169,7 +169,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1865046850,
@@ -186,7 +186,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1808248440,
@@ -203,7 +203,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     },
     {
       "idRegActuacion": 1791857070,
@@ -220,7 +220,7 @@
       "cant": 13,
       "idProceso": 130908640,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:43.815Z"
+      "createdAt": "2024-02-07T03:34:21.546Z"
     }
   ],
   "category": "Bancolombia",
@@ -232,14 +232,17 @@
     "id": 533
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "56987692",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-14T05:00:16.000Z",
     "etapaProcesal": "EJECUCION",
     "fechaPresentacion": [],
+    "id": 533,
     "llaveProceso": "11001400308320230108800",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 533,
@@ -272,7 +275,7 @@
     ],
     "medidasCautelares": {
       "id": 533,
-      "fechaOrdenaMedida": "2024-02-03T18:58:43.758Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:21.488Z",
       "medidaSolicitada": null
     }
   },
@@ -294,7 +297,7 @@
   ],
   "idRegUltimaAct": 1944054930,
   "llaveProceso": "11001400308320230108800",
-  "nombre": "JAIRO ALFONSO PARDO JAIMES",
+  "nombre": "jairo alfonso pardo jaimes",
   "numero": 533,
   "procesos": [
     {
@@ -334,5 +337,55 @@
     "idProceso": 130908640,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:43.759Z"
+  "notas": [
+    {
+      "carpetaNumero": 533,
+      "createdAt": "2024-02-07T03:34:21.488Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "3 CM SOACHA",
+      "content": []
+    },
+    {
+      "carpetaNumero": 533,
+      "createdAt": "2024-02-07T03:34:21.488Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "2 DIC 2021 NIEGA MODIFICACION DEMANDA Y AUTO SUSPENDE POIR INSOLVENCIA FENALCO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 533,
+      "createdAt": "2024-02-07T03:34:21.488Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 FEB 2023 ACEPTA CESION REINTEGRA Y MH ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 533,
+      "createdAt": "2024-02-07T03:34:21.488Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 ABRIL 2023 SE ENVIA SOLICITUD VERIFICAR SUSPENCION DEMANDADO ERRONEO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 533,
+      "createdAt": "2024-02-07T03:34:21.488Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "24 AGOSTO MODIFICA DEMANDA , ACEPTA CESION, RECONOCE PODER CCR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 533,
+      "createdAt": "2024-02-07T03:34:21.488Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 OCT 2023 SE RADICA NOTIFICACION POSITIVA A JUZGADO.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:21.489Z"
 }

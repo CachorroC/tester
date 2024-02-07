@@ -16,7 +16,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474773,
@@ -33,7 +33,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474763,
@@ -50,7 +50,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474863,
@@ -67,7 +67,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474853,
@@ -84,7 +84,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474843,
@@ -101,7 +101,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474833,
@@ -118,7 +118,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474823,
@@ -135,7 +135,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474813,
@@ -152,7 +152,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474803,
@@ -169,7 +169,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474793,
@@ -186,7 +186,7 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     },
     {
       "idRegActuacion": 159474753,
@@ -203,10 +203,10 @@
       "cant": 12,
       "idProceso": 12251233,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:05.395Z"
+      "createdAt": "2024-02-07T03:33:40.288Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -215,6 +215,8 @@
     "id": 111
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12433690",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -223,8 +225,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.955Z"
     ],
+    "id": 111,
     "llaveProceso": "11001400305420170071200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 111,
@@ -256,7 +259,7 @@
     ],
     "medidasCautelares": {
       "id": 111,
-      "fechaOrdenaMedida": "2024-02-03T18:59:05.345Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:40.190Z",
       "medidaSolicitada": null
     }
   },
@@ -278,7 +281,7 @@
   ],
   "idRegUltimaAct": 159474783,
   "llaveProceso": "11001400305420170071200",
-  "nombre": "KAREN VIVIANA CASTAÑO CORONADO",
+  "nombre": "karen viviana castaño coronado",
   "numero": 111,
   "procesos": [
     {
@@ -300,7 +303,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": {
     "idRegActuacion": 159474783,
@@ -318,5 +321,31 @@
     "idProceso": 12251233,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:05.345Z"
+  "notas": [
+    {
+      "carpetaNumero": 111,
+      "createdAt": "2024-02-07T03:33:40.190Z",
+      "pathname": null,
+      "dueDate": "2017-12-15T05:00:00.000Z",
+      "text": "15/11/2017 LA APODERADA DEL BANCO RETIRO LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 111,
+      "createdAt": "2024-02-07T03:33:40.190Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE RETIRO OFICIO DE EMBARGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 111,
+      "createdAt": "2024-02-07T03:33:40.190Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN MEDIDAS CAUTELARES EN CONTRA DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:40.190Z"
 }

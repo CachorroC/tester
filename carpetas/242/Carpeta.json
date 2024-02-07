@@ -1,7 +1,7 @@
 {
   "id": 79793904,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "LUISA FERNANDA SALAZAR PATARROYO",
     "cedula": "1018430139",
@@ -10,6 +10,8 @@
     "id": 242
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "21740168",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.997Z"
     ],
+    "id": 242,
     "llaveProceso": "25754418900220180036300",
-    "mandamientoPago": "2017-10-06T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-06T05:00:16.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 242,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 242,
-      "fechaOrdenaMedida": "2024-02-03T18:59:22.742Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:54.913Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754418900220180036300",
-  "nombre": "JOHN HADER OTALVARO  ROMO",
+  "nombre": "john hader otalvaro  romo",
   "numero": 242,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:22.742Z"
+  "notas": [
+    {
+      "carpetaNumero": 242,
+      "createdAt": "2024-02-07T03:33:54.912Z",
+      "pathname": null,
+      "dueDate": "2019-02-21T05:00:00.000Z",
+      "text": "EL 21/01/2019 EL JUZGADO DA POR TERMINADO EL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 242,
+      "createdAt": "2024-02-07T03:33:54.912Z",
+      "pathname": null,
+      "dueDate": "2019-10-30T05:00:00.000Z",
+      "text": " EL 30/09/2019 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR SEGÚN CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 242,
+      "createdAt": "2024-02-07T03:33:54.912Z",
+      "pathname": null,
+      "dueDate": "2018-02-11T05:00:00.000Z",
+      "text": " EL 11/01/2018 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:54.913Z"
 }

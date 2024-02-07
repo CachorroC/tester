@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 50765090,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:13.134Z"
+      "createdAt": "2024-02-07T03:33:45.977Z"
     },
     {
       "idRegActuacion": 855746550,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 50765090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:13.134Z"
+      "createdAt": "2024-02-07T03:33:45.977Z"
     },
     {
       "idRegActuacion": 855746540,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 50765090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:13.134Z"
+      "createdAt": "2024-02-07T03:33:45.977Z"
     },
     {
       "idRegActuacion": 855746530,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 50765090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:13.134Z"
+      "createdAt": "2024-02-07T03:33:45.977Z"
     },
     {
       "idRegActuacion": 855746520,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 50765090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:13.134Z"
+      "createdAt": "2024-02-07T03:33:45.977Z"
     },
     {
       "idRegActuacion": 855746510,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 50765090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:13.134Z"
+      "createdAt": "2024-02-07T03:33:45.977Z"
     },
     {
       "idRegActuacion": 855746500,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 50765090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:13.134Z"
+      "createdAt": "2024-02-07T03:33:45.977Z"
     },
     {
       "idRegActuacion": 855746490,
@@ -135,10 +135,10 @@
       "cant": 8,
       "idProceso": 50765090,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:13.134Z"
+      "createdAt": "2024-02-07T03:33:45.977Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -147,6 +147,8 @@
     "id": 159
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "18653826",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -155,8 +157,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.975Z"
     ],
+    "id": 159,
     "llaveProceso": "11001400307320170133300",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 159,
@@ -188,7 +191,7 @@
     ],
     "medidasCautelares": {
       "id": 159,
-      "fechaOrdenaMedida": "2024-02-03T18:59:13.091Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:45.825Z",
       "medidaSolicitada": null
     }
   },
@@ -210,7 +213,7 @@
   ],
   "idRegUltimaAct": 855746560,
   "llaveProceso": "11001400307320170133300",
-  "nombre": "ALLAN FREDY TOBAR ENCISO ",
+  "nombre": "allan fredy tobar enciso ",
   "numero": 159,
   "procesos": [
     {
@@ -232,7 +235,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": {
     "idRegActuacion": 855746560,
@@ -250,5 +253,23 @@
     "idProceso": 50765090,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:13.092Z"
+  "notas": [
+    {
+      "carpetaNumero": 159,
+      "createdAt": "2024-02-07T03:33:45.825Z",
+      "pathname": null,
+      "dueDate": "2017-12-02T05:00:00.000Z",
+      "text": "2/11/2017 LA APODERADA DEL BANCO RETIRO LA DEMANDA DEL JUZGADO NO SE RETIRO OFICIO DE EMBARGO SIN MEDIDAS CAUTELARES ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 159,
+      "createdAt": "2024-02-07T03:33:45.825Z",
+      "pathname": null,
+      "dueDate": "2017-12-08T05:00:00.000Z",
+      "text": " EL 8/11/2017 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:45.825Z"
 }

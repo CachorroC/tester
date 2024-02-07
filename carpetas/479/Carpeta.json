@@ -1,7 +1,7 @@
 {
   "id": 39809183,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 479
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12821536",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-09-06T05:00:00.000Z"
     ],
+    "id": 479,
     "llaveProceso": "25785418900120180017100",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-10-22T05:00:00.000Z"
+    ],
     "municipio": "TABIO",
     "notificacion": {
       "id": 479,
@@ -50,7 +55,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 479,
-      "fechaOrdenaMedida": "2024-02-03T18:59:49.587Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:17.938Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +75,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25785418900120180017100",
-  "nombre": "TANIA CONSUELO BOTIA CORREA",
+  "nombre": "tania consuelo botia correa",
   "numero": 479,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:49.587Z"
+  "notas": [
+    {
+      "carpetaNumero": 479,
+      "createdAt": "2024-02-07T03:34:17.938Z",
+      "pathname": null,
+      "dueDate": "2020-02-21T05:00:00.000Z",
+      "text": "EL 21/01/2020 EL JUZGADO DECRETA LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 479,
+      "createdAt": "2024-02-07T03:34:17.938Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR Y A CARGO DE LA PARTE DEMANDANTE ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:17.938Z"
 }

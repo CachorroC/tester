@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:36.048Z"
+      "createdAt": "2024-02-07T03:34:06.758Z"
     },
     {
       "idRegActuacion": 93354544,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.048Z"
+      "createdAt": "2024-02-07T03:34:06.758Z"
     },
     {
       "idRegActuacion": 93354534,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.048Z"
+      "createdAt": "2024-02-07T03:34:06.758Z"
     },
     {
       "idRegActuacion": 93354524,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.048Z"
+      "createdAt": "2024-02-07T03:34:06.758Z"
     },
     {
       "idRegActuacion": 93354514,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.048Z"
+      "createdAt": "2024-02-07T03:34:06.758Z"
     },
     {
       "idRegActuacion": 93354504,
@@ -101,10 +101,10 @@
       "cant": 6,
       "idProceso": 17054094,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:36.048Z"
+      "createdAt": "2024-02-07T03:34:06.758Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -113,6 +113,8 @@
     "id": 357
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "22149641",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -121,8 +123,11 @@
     "fechaPresentacion": [
       "2017-12-12T05:00:00.000Z"
     ],
+    "id": 357,
     "llaveProceso": "11001400305520170137800",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2019-02-20T05:00:00.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 357,
@@ -154,7 +159,7 @@
     ],
     "medidasCautelares": {
       "id": 357,
-      "fechaOrdenaMedida": "2024-02-03T18:59:35.999Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:06.720Z",
       "medidaSolicitada": null
     }
   },
@@ -176,7 +181,7 @@
   ],
   "idRegUltimaAct": 93354554,
   "llaveProceso": "11001400305520170137800",
-  "nombre": "DIANA SAYURI RODRIGUEZ GARCIA",
+  "nombre": "diana sayuri rodriguez garcia",
   "numero": 357,
   "procesos": [
     {
@@ -198,7 +203,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 93354554,
@@ -216,5 +221,31 @@
     "idProceso": 17054094,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:35.999Z"
+  "notas": [
+    {
+      "carpetaNumero": 357,
+      "createdAt": "2024-02-07T03:34:06.720Z",
+      "pathname": null,
+      "dueDate": "2018-04-08T05:00:00.000Z",
+      "text": "EL 8/03/2018 EL JUZGADO DEVOLVIO LAS GARANTIAS POR RETIRO LA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 357,
+      "createdAt": "2024-02-07T03:34:06.720Z",
+      "pathname": null,
+      "dueDate": "2018-04-12T05:00:00.000Z",
+      "text": " EL 12/03/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 357,
+      "createdAt": "2024-02-07T03:34:06.720Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO HUBO MEDIDAS CAUTELARES DECRETADAS",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:06.721Z"
 }

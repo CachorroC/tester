@@ -16,7 +16,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1147938594,
@@ -33,7 +33,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1147938584,
@@ -50,7 +50,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1142615094,
@@ -67,7 +67,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1142615084,
@@ -84,7 +84,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1137554444,
@@ -101,7 +101,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1127170784,
@@ -118,7 +118,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1125576004,
@@ -135,7 +135,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1122261754,
@@ -152,7 +152,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1122261744,
@@ -169,7 +169,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1122261734,
@@ -186,7 +186,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1122261724,
@@ -203,7 +203,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1121675574,
@@ -220,7 +220,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     },
     {
       "idRegActuacion": 1121675564,
@@ -237,7 +237,7 @@
       "cant": 14,
       "idProceso": 1829856154,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.051Z"
+      "createdAt": "2024-02-07T03:34:24.931Z"
     }
   ],
   "category": "Bancolombia",
@@ -249,14 +249,17 @@
     "id": 572
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "91487785",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-08-04T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 572,
     "llaveProceso": "11001400305520230074600",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 572,
@@ -290,7 +293,7 @@
     ],
     "medidasCautelares": {
       "id": 572,
-      "fechaOrdenaMedida": "2024-02-03T18:58:46.941Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:24.809Z",
       "medidaSolicitada": null
     }
   },
@@ -312,7 +315,7 @@
   ],
   "idRegUltimaAct": 1147991384,
   "llaveProceso": "11001400305520230074600",
-  "nombre": "JAIME ENRIQUE QUINTERO MENDOZA",
+  "nombre": "jaime enrique quintero mendoza",
   "numero": 572,
   "procesos": [
     {
@@ -352,5 +355,55 @@
     "idProceso": 1829856154,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:46.941Z"
+  "notas": [
+    {
+      "carpetaNumero": 572,
+      "createdAt": "2024-02-07T03:34:24.809Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "8 AGOSTO 2023 RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 572,
+      "createdAt": "2024-02-07T03:34:24.809Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " / 11 AGOSOTO 2023 AUTO LIBRA MANDAMIENTO Y DE  MEDIDA CAUTELAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 572,
+      "createdAt": "2024-02-07T03:34:24.809Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 SEPT 2023 SE RADICA OFICIO EN INSTRUMENTOS DEL NORTE. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 572,
+      "createdAt": "2024-02-07T03:34:24.809Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 26 OCT SE ENVIA NOTIFICACION + A JUZGADO",
+      "content": []
+    },
+    {
+      "carpetaNumero": 572,
+      "createdAt": "2024-02-07T03:34:24.809Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 7 DIC AUTO REQUIERE",
+      "content": []
+    },
+    {
+      "carpetaNumero": 572,
+      "createdAt": "2024-02-07T03:34:24.809Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 23 ENERO 2023 SE ENVIA CORRECCION NOTIFICACION A JUZGADO.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:24.809Z"
 }

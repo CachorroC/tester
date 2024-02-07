@@ -10,14 +10,17 @@
     "id": 584
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "43869730",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-09-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 584,
     "llaveProceso": "11001418901520230153100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 584,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 584,
-      "fechaOrdenaMedida": "2024-02-03T18:58:48.505Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.075Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,46 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418901520230153100",
-  "nombre": "MARIA CAMILA MORALES RAMIREZ",
+  "nombre": "maria camila morales ramirez",
   "numero": 584,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:48.505Z"
+  "notas": [
+    {
+      "carpetaNumero": 584,
+      "createdAt": "2024-02-07T03:34:26.075Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "27 DE SEPTIEMBRE SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 584,
+      "createdAt": "2024-02-07T03:34:26.075Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " A ESTADOS 14 NOV 2023 NADA  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 584,
+      "createdAt": "2024-02-07T03:34:26.075Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 24 NOV 2023 RECHAZA POR COMPETENCIA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 584,
+      "createdAt": "2024-02-07T03:34:26.075Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.075Z"
 }

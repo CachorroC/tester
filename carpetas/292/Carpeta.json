@@ -10,6 +10,8 @@
     "id": 292
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "25766204",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-09-21T05:00:16.000Z"
     ],
+    "id": 292,
     "llaveProceso": "11001410375220170012800",
-    "mandamientoPago": "2017-10-17T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-10-17T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 292,
@@ -71,12 +76,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001410375220170012800",
-  "nombre": "JOHN FREDY HERREÑO RAMIREZ ",
+  "nombre": "john fredy herreño ramirez ",
   "numero": 292,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T19:00:03.657Z"
+  "notas": [
+    {
+      "carpetaNumero": 292,
+      "createdAt": "2024-02-07T03:34:00.446Z",
+      "pathname": null,
+      "dueDate": "2020-01-02T05:00:00.000Z",
+      "text": "VERIFICAR SI HAY OFICIO PARA RADICAR EN RESPUESTA COMPENSAR SOLICITUD DE INFORMACIÓN 2/12/2019 ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 292,
+      "createdAt": "2024-02-07T03:34:00.447Z",
+      "pathname": null,
+      "dueDate": "2022-03-04T05:00:00.000Z",
+      "text": "/ RECONOCE PERSONERIA CCR 04/2/2022",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:00.447Z"
 }

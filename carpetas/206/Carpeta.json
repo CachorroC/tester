@@ -16,7 +16,7 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     },
     {
       "idRegActuacion": 265839720,
@@ -33,7 +33,7 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     },
     {
       "idRegActuacion": 265839710,
@@ -50,7 +50,7 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     },
     {
       "idRegActuacion": 265839700,
@@ -67,7 +67,7 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     },
     {
       "idRegActuacion": 265839690,
@@ -84,7 +84,7 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     },
     {
       "idRegActuacion": 265839680,
@@ -101,7 +101,7 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     },
     {
       "idRegActuacion": 265839670,
@@ -118,7 +118,7 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     },
     {
       "idRegActuacion": 265839660,
@@ -135,7 +135,7 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     },
     {
       "idRegActuacion": 265839650,
@@ -152,7 +152,7 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     },
     {
       "idRegActuacion": 265839640,
@@ -169,10 +169,10 @@
       "cant": 10,
       "idProceso": 17944250,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:18.331Z"
+      "createdAt": "2024-02-07T03:33:50.837Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "ANGIE PAOLA DIAZ PASTAS",
     "cedula": "53067213",
@@ -181,6 +181,8 @@
     "id": 206
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "30556160.98",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -189,8 +191,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.983Z"
     ],
+    "id": 206,
     "llaveProceso": "11001400306420170146900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 206,
@@ -221,7 +224,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 206,
-      "fechaOrdenaMedida": "2024-02-03T18:59:18.287Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:50.591Z",
       "medidaSolicitada": null
     }
   },
@@ -243,7 +246,7 @@
   ],
   "idRegUltimaAct": 265839730,
   "llaveProceso": "11001400306420170146900",
-  "nombre": "EDGAR MARTINEZ VELANDIA ",
+  "nombre": "edgar martinez velandia ",
   "numero": 206,
   "procesos": [
     {
@@ -265,7 +268,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 265839730,
@@ -283,5 +286,31 @@
     "idProceso": 17944250,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:18.287Z"
+  "notas": [
+    {
+      "carpetaNumero": 206,
+      "createdAt": "2024-02-07T03:33:50.591Z",
+      "pathname": null,
+      "dueDate": "2018-01-01T05:00:00.000Z",
+      "text": "1/12/2017 APODERADA DE LA DEMANDANTE RETIRO LA DEMANDA CON GARANTIAS ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 206,
+      "createdAt": "2024-02-07T03:33:50.591Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 16 DE DICIEMBRE DE 2017  SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 206,
+      "createdAt": "2024-02-07T03:33:50.591Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " SIN DECRETO DE MEDIDAS CAUTELARES EN CONTRA DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:50.591Z"
 }

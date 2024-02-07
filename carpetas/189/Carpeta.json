@@ -1,7 +1,7 @@
 {
   "id": 4547635,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 189
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "71966685.93",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-08-29T05:00:00.000Z"
     ],
+    "id": 189,
     "llaveProceso": "25817418900120170049400",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2017-08-31T05:00:00.000Z"
+    ],
     "municipio": "TOCANCIPA",
     "notificacion": {
       "id": 189,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 189,
-      "fechaOrdenaMedida": "2024-02-03T18:59:16.724Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:48.931Z",
       "medidaSolicitada": null
     }
   },
@@ -72,12 +77,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25817418900120170049400",
-  "nombre": "WILDER DE JESUS ROMAN GRISALES",
+  "nombre": "wilder de jesus roman grisales",
   "numero": 189,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:16.724Z"
+  "notas": [
+    {
+      "carpetaNumero": 189,
+      "createdAt": "2024-02-07T03:33:48.931Z",
+      "pathname": null,
+      "dueDate": "2018-05-03T05:00:00.000Z",
+      "text": "EL 3/04/2018 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 189,
+      "createdAt": "2024-02-07T03:33:48.931Z",
+      "pathname": null,
+      "dueDate": "2018-06-09T05:00:00.000Z",
+      "text": " EL 9/05/2018 SE DEVOLVIERON GARANTIAS A ECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 189,
+      "createdAt": "2024-02-07T03:33:48.931Z",
+      "pathname": null,
+      "dueDate": "2022-09-30T05:00:00.000Z",
+      "text": " EL 30/08/2022 SE SOLICITO CERTIFICADO DE TRADICION SIN REGISTRO DE MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:48.931Z"
 }

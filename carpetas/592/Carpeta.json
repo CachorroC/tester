@@ -10,14 +10,17 @@
     "id": 592
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "104393034",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-10-13T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 592,
     "llaveProceso": null,
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "MADRID",
     "notificacion": {
       "id": 592,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 592,
-      "fechaOrdenaMedida": "2024-02-03T18:58:49.439Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.721Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,22 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "undefined",
-  "nombre": "MARCEL LEONARDO MACHADO ROMERO Y VIVIANA MARTINEZ ARIAS",
+  "nombre": "marcel leonardo machado romero y viviana martinez arias",
   "numero": 592,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:49.439Z"
+  "notas": [
+    {
+      "carpetaNumero": 592,
+      "createdAt": "2024-02-07T03:34:26.721Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "17 OCT 2023 SE RADICA DEMANDA ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.721Z"
 }

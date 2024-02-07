@@ -1,7 +1,7 @@
 {
   "id": 80156570,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 505
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "14634268.88",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "11001410375120180246200",
     "fechaPresentacion": [],
+    "id": 505,
     "llaveProceso": "11001418902520180246200",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-10-30T05:00:00.000Z"
+    ],
     "municipio": "KENNEDY",
     "notificacion": {
       "id": 505,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 505,
-      "fechaOrdenaMedida": "2024-02-03T18:59:50.699Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:19.595Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001418902520180246200",
-  "nombre": "WILLIAM  GIOVANNY GARZON LOPEZ",
+  "nombre": "william  giovanny garzon lopez",
   "numero": 505,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:50.699Z"
+  "notas": [
+    {
+      "carpetaNumero": 505,
+      "createdAt": "2024-02-07T03:34:19.595Z",
+      "pathname": null,
+      "dueDate": "2020-10-18T05:00:00.000Z",
+      "text": "EL 18/09/2020 EL JUZGADO DECRETA LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 505,
+      "createdAt": "2024-02-07T03:34:19.595Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS EN FAVOR DE LA PARTE DEMANDADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 505,
+      "createdAt": "2024-02-07T03:34:19.595Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR DE LA DEUDORA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:19.595Z"
 }

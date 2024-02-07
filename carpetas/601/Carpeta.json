@@ -10,14 +10,17 @@
     "id": 601
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "50683098",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-22T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 601,
     "llaveProceso": " 11001400300220230119000",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 601,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 601,
-      "fechaOrdenaMedida": "2024-02-03T18:58:50.214Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.385Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": " 11001400300220230119000",
-  "nombre": "JERONIMO LEONARDO GONZALEZ CASTAÑEDA",
+  "nombre": "jeronimo leonardo gonzalez castañeda",
   "numero": 601,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:50.214Z"
+  "notas": [
+    {
+      "carpetaNumero": 601,
+      "createdAt": "2024-02-07T03:34:27.385Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "23 NOV SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 601,
+      "createdAt": "2024-02-07T03:34:27.385Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 1 DIC 2023 AUTO LIBRA MANDAMIENTO DE PAGO Y MEDIDA CAUTELAR",
+      "content": []
+    },
+    {
+      "carpetaNumero": 601,
+      "createdAt": "2024-02-07T03:34:27.385Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MANDAMIENTO OK  CCR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.386Z"
 }

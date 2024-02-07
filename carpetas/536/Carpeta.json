@@ -1,7 +1,7 @@
 {
   "id": 39544073,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 536
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "18772901.56",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2018-04-26T05:00:16.000Z",
     "etapaProcesal": "11001400302020180047900",
     "fechaPresentacion": [],
+    "id": 536,
     "llaveProceso": "1.10014003020201e+22",
-    "mandamientoPago": "2018-05-08T05:00:16.000Z",
+    "mandamientoPago": [
+      "2018-05-08T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 536,
@@ -50,7 +55,7 @@
     ],
     "medidasCautelares": {
       "id": 536,
-      "fechaOrdenaMedida": "2024-02-03T18:59:52.780Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:21.735Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +75,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "1.10014003020201e+22",
-  "nombre": "BLANCA LILIA BRAVO PAEZ",
+  "nombre": "blanca lilia bravo paez",
   "numero": 536,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:52.780Z"
+  "notas": [
+    {
+      "carpetaNumero": 536,
+      "createdAt": "2024-02-07T03:34:21.735Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "HIBRIDO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 536,
+      "createdAt": "2024-02-07T03:34:21.735Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 ABRIL 2023 AUTO TERMINA POR PAGO TOTAL ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 536,
+      "createdAt": "2024-02-07T03:34:21.735Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 18 ABRIL 2023 SE LE ENVIA CORREO A LA DEUDORA INFORMANDOLE SOBRE RETIRO DE DESGLOSE Y RETIRO DE OFICIO DE DESEMBARGO POR SU CUENTA. ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:21.736Z"
 }

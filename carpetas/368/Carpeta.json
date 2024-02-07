@@ -1,7 +1,7 @@
 {
   "id": 39577914,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 368
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "36307716",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -19,8 +21,11 @@
       "2017-12-18T05:00:00.000Z",
       "2018-02-09T05:00:00.000Z"
     ],
+    "id": 368,
     "llaveProceso": "25307400300120180006600",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-02-19T05:00:00.000Z"
+    ],
     "municipio": "GIRARDOT",
     "notificacion": {
       "id": 368,
@@ -52,7 +57,7 @@
     ],
     "medidasCautelares": {
       "id": 368,
-      "fechaOrdenaMedida": "2024-02-03T18:59:37.593Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:07.815Z",
       "medidaSolicitada": null
     }
   },
@@ -72,12 +77,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25307400300120180006600",
-  "nombre": "CAROLINA MARTINEZ CALDERON",
+  "nombre": "carolina martinez calderon",
   "numero": 368,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:37.593Z"
+  "notas": [
+    {
+      "carpetaNumero": 368,
+      "createdAt": "2024-02-07T03:34:07.815Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 26 DE JUNIO DE 2019 SE LEVANTO MEDIDA CAUTELAR DE EMBARGO DE INMUEBLE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 368,
+      "createdAt": "2024-02-07T03:34:07.815Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 27 DE JUNIO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:07.815Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 80896755,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "MARTHA LILIANA POLOCHE AGUJA",
     "cedula": "53122368",
@@ -10,6 +10,8 @@
     "id": 412
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "454",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.216Z"
     ],
+    "id": 412,
     "llaveProceso": "25754418900220180036400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 412,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 412,
-      "fechaOrdenaMedida": "2024-02-03T18:59:42.481Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:12.651Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754418900220180036400",
-  "nombre": "FABIO NELSON PEREZ CRISTIANO",
+  "nombre": "fabio nelson perez cristiano",
   "numero": 412,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:42.482Z"
+  "notas": [
+    {
+      "carpetaNumero": 412,
+      "createdAt": "2024-02-07T03:34:12.651Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 28 DE JULIO DE 2.018 SE DEVOLVIERON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 412,
+      "createdAt": "2024-02-07T03:34:12.651Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE REGISTRARON MEDIDAS CAUTELARES DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:12.651Z"
 }

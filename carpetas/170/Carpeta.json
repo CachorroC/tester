@@ -16,7 +16,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968390,
@@ -33,7 +33,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968380,
@@ -50,7 +50,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968370,
@@ -67,7 +67,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968360,
@@ -84,7 +84,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968350,
@@ -101,7 +101,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968340,
@@ -118,7 +118,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968330,
@@ -135,7 +135,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968320,
@@ -152,7 +152,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968310,
@@ -169,7 +169,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968300,
@@ -186,7 +186,7 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     },
     {
       "idRegActuacion": 630968290,
@@ -203,10 +203,10 @@
       "cant": 12,
       "idProceso": 50668010,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:14.467Z"
+      "createdAt": "2024-02-07T03:33:47.318Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -215,6 +215,8 @@
     "id": 170
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "8108220.66",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -223,8 +225,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.975Z"
     ],
+    "id": 170,
     "llaveProceso": "11001400301320170111400",
-    "mandamientoPago": "2017-08-30T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-08-30T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 170,
@@ -255,7 +260,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 170,
-      "fechaOrdenaMedida": "2024-02-03T18:59:14.414Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:47.172Z",
       "medidaSolicitada": null
     }
   },
@@ -277,7 +282,7 @@
   ],
   "idRegUltimaAct": 630968400,
   "llaveProceso": "11001400301320170111400",
-  "nombre": "ISABEL CRISTINA GARCIA DURAN ",
+  "nombre": "isabel cristina garcia duran ",
   "numero": 170,
   "procesos": [
     {
@@ -299,7 +304,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
     "idRegActuacion": 630968400,
@@ -317,5 +322,23 @@
     "idProceso": 50668010,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:14.415Z"
+  "notas": [
+    {
+      "carpetaNumero": 170,
+      "createdAt": "2024-02-07T03:33:47.172Z",
+      "pathname": null,
+      "dueDate": "2018-03-23T05:00:00.000Z",
+      "text": "EL 23/02/2018 EL JUZGADO DA POR TERMINADO EL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 170,
+      "createdAt": "2024-02-07T03:33:47.172Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " DESGLOSE DE GARANTIAS Y LEVANTAMIENTO DE MEDIDA CAUTELAR A CARGO DEL DEUDOR",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:47.172Z"
 }

@@ -16,7 +16,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1950124550,
@@ -33,7 +33,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1946900860,
@@ -50,7 +50,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1945925250,
@@ -67,7 +67,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1944544720,
@@ -84,7 +84,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1944544710,
@@ -101,7 +101,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1941566280,
@@ -118,7 +118,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1937772410,
@@ -135,7 +135,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1935001420,
@@ -152,7 +152,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1921997320,
@@ -169,7 +169,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1921997310,
@@ -186,7 +186,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1921997300,
@@ -203,7 +203,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1921997290,
@@ -220,7 +220,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1907655230,
@@ -237,7 +237,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     },
     {
       "idRegActuacion": 1907655220,
@@ -254,7 +254,7 @@
       "cant": 15,
       "idProceso": 134065610,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.896Z"
+      "createdAt": "2024-02-07T03:34:26.391Z"
     }
   ],
   "category": "Bancolombia",
@@ -266,14 +266,17 @@
     "id": 587
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "34080282",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-10-03T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 587,
     "llaveProceso": "11001400306320230196700",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 587,
@@ -307,7 +310,7 @@
     ],
     "medidasCautelares": {
       "id": 587,
-      "fechaOrdenaMedida": "2024-02-03T18:58:48.815Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.310Z",
       "medidaSolicitada": null
     }
   },
@@ -329,7 +332,7 @@
   ],
   "idRegUltimaAct": 1950124560,
   "llaveProceso": "11001400306320230196700",
-  "nombre": "EDGAR MAURICIO VERA RODRIGUEZ",
+  "nombre": "edgar mauricio vera rodriguez",
   "numero": 587,
   "procesos": [
     {
@@ -369,5 +372,47 @@
     "idProceso": 134065610,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:48.816Z"
+  "notas": [
+    {
+      "carpetaNumero": 587,
+      "createdAt": "2024-02-07T03:34:26.310Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "5 OCTUBRE 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 587,
+      "createdAt": "2024-02-07T03:34:26.310Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 30 OCT 2023 LIBRA MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 587,
+      "createdAt": "2024-02-07T03:34:26.310Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " MANDAMIENTO OK  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 587,
+      "createdAt": "2024-02-07T03:34:26.310Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "  17 ENERO 2023 AUTO SENTENCIA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 587,
+      "createdAt": "2024-02-07T03:34:26.310Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 22 enero 2023 se solicita liquidacion credito",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.310Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 52431512,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,19 @@
     "id": 156
   },
   "demanda": {
+    "liquidacion": "43180",
+    "avaluo": "43364",
     "capitalAdeudado": "41371150.58",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2017-08-22T05:00:16.000Z",
     "etapaProcesal": "25473400300120170077700",
     "fechaPresentacion": [],
+    "id": 156,
     "llaveProceso": "25473400300120170077700",
-    "mandamientoPago": "2017-08-28T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-08-28T05:00:16.000Z"
+    ],
     "municipio": "MOSQUERA",
     "notificacion": {
       "id": 156,
@@ -50,7 +55,7 @@
     ],
     "medidasCautelares": {
       "id": 156,
-      "fechaOrdenaMedida": "2024-02-03T18:59:12.812Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:45.456Z",
       "medidaSolicitada": null
     }
   },
@@ -70,12 +75,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25473400300120170077700",
-  "nombre": "MARTHA PATRICIA MORALES SARMIENTO",
+  "nombre": "martha patricia morales sarmiento",
   "numero": 156,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:12.812Z"
+  "notas": [
+    {
+      "carpetaNumero": 156,
+      "createdAt": "2024-02-07T03:33:45.456Z",
+      "pathname": null,
+      "dueDate": "2020-12-05T05:00:00.000Z",
+      "text": "EL 5/11/2020 EL JUZGADO RECONOCE LA CESION DE REINTEGRA EN FAVOR DE SU SOCIEDAD VINCULADA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 156,
+      "createdAt": "2024-02-07T03:33:45.456Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE RECONOCIERON HONORARIOS SOBRE LA GESTION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 156,
+      "createdAt": "2024-02-07T03:33:45.456Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " BANDIDOS",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:45.456Z"
 }

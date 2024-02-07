@@ -16,7 +16,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966143,
@@ -33,7 +33,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966233,
@@ -50,7 +50,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966223,
@@ -67,7 +67,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966213,
@@ -84,7 +84,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966203,
@@ -101,7 +101,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966193,
@@ -118,7 +118,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966183,
@@ -135,7 +135,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966173,
@@ -152,7 +152,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966163,
@@ -169,7 +169,7 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     },
     {
       "idRegActuacion": 144966133,
@@ -186,10 +186,10 @@
       "cant": 11,
       "idProceso": 11486153,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:56.862Z"
+      "createdAt": "2024-02-07T03:33:33.097Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "ANA PATRICIA VILLAMIZAR MONTOYA",
     "cedula": "52507659",
@@ -198,6 +198,8 @@
     "id": 49
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "35031244",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -206,8 +208,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.906Z"
     ],
+    "id": 49,
     "llaveProceso": "11001400305120170064400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 49,
@@ -239,7 +242,7 @@
     ],
     "medidasCautelares": {
       "id": 49,
-      "fechaOrdenaMedida": "2024-02-03T18:58:56.815Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:32.969Z",
       "medidaSolicitada": null
     }
   },
@@ -261,7 +264,7 @@
   ],
   "idRegUltimaAct": 144966153,
   "llaveProceso": "11001400305120170064400",
-  "nombre": "JOSE ISRAEL MONROY CORDOBA",
+  "nombre": "jose israel monroy cordoba",
   "numero": 49,
   "procesos": [
     {
@@ -283,7 +286,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 144966153,
@@ -301,5 +304,23 @@
     "idProceso": 11486153,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:56.815Z"
+  "notas": [
+    {
+      "carpetaNumero": 49,
+      "createdAt": "2024-02-07T03:33:32.969Z",
+      "pathname": null,
+      "dueDate": "2017-12-23T05:00:00.000Z",
+      "text": "23/11/2017 SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA POR DEMANDA ENVIADA A SOACHA POR COMPETENCIA DE ACUERDO CON DECISION JUEZ 51 CIVIL MUNICIPAL DE BOGOTA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 49,
+      "createdAt": "2024-02-07T03:33:32.969Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " DEMANDA RETIRADA DEL JUZGADO 3 CIVIL MUNICIPAL DE SOACHA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:32.970Z"
 }

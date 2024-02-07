@@ -1,7 +1,7 @@
 {
   "id": 79742224,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 424
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "978",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -20,8 +22,11 @@
       "2019-03-18T05:00:00.000Z",
       "2022-11-02T05:00:00.000Z"
     ],
+    "id": 424,
     "llaveProceso": "110014003015201800459",
-    "mandamientoPago": "2019-07-04T05:00:16.000Z",
+    "mandamientoPago": [
+      "2019-07-04T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 424,
@@ -53,7 +58,7 @@
     ],
     "medidasCautelares": {
       "id": 424,
-      "fechaOrdenaMedida": "2024-02-03T18:59:43.404Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:13.415Z",
       "medidaSolicitada": null
     }
   },
@@ -73,12 +78,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "110014003015201800459",
-  "nombre": "JAIME LEONARDO SOSA ROODRIGUEZ",
+  "nombre": "jaime leonardo sosa roodriguez",
   "numero": 424,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:43.404Z"
+  "notas": [
+    {
+      "carpetaNumero": 424,
+      "createdAt": "2024-02-07T03:34:13.415Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 4/072019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 424,
+      "createdAt": "2024-02-07T03:34:13.415Z",
+      "pathname": null,
+      "dueDate": "2019-04-26T05:00:00.000Z",
+      "text": " EL 26/03/2019 SE REALIZO LEVANTAMIENTO DE MEDIDA CAUTELAR DE EMBARGO DEL INMUEBLE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 424,
+      "createdAt": "2024-02-07T03:34:13.415Z",
+      "pathname": null,
+      "dueDate": "2019-04-18T05:00:00.000Z",
+      "text": " EL  18/03/2019 JUZGADO TERMINO PROCESO POR PAGO CUOTAS EN MORA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:13.415Z"
 }

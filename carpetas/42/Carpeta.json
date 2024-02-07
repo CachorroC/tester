@@ -10,6 +10,8 @@
     "id": 42
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12956286",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2017-05-31T05:00:16.000Z"
     ],
+    "id": 42,
     "llaveProceso": "25035408900120170010800",
-    "mandamientoPago": "2017-07-28T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-07-28T05:00:16.000Z"
+    ],
     "municipio": "ANAPOIMA",
     "notificacion": {
       "id": 42,
@@ -49,7 +54,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 42,
-      "fechaOrdenaMedida": "2024-02-03T18:59:55.050Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:31.835Z",
       "medidaSolicitada": "SALARIOS"
     }
   },
@@ -69,12 +74,70 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25035408900120170010800",
-  "nombre": "JUAN DANIEL MORENO CIFUENTES",
+  "nombre": "juan daniel moreno cifuentes",
   "numero": 42,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:55.050Z"
+  "notas": [
+    {
+      "carpetaNumero": 42,
+      "createdAt": "2024-02-07T03:33:31.835Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "VERIFICAR EN JUZGADO RESPUESTA DE SECRETARIA DE TRANSITO DE MOSQUERA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 42,
+      "createdAt": "2024-02-07T03:33:31.835Z",
+      "pathname": null,
+      "dueDate": "2022-10-01T05:00:00.000Z",
+      "text": " 1/09/2022 VERIFICAR EN JUZGADO RESPUESTA DE MOSQUERA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 42,
+      "createdAt": "2024-02-07T03:33:31.835Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 19 SEPT 2022 RESPUESTA NEGATIVA TRANSITO MOSQUERA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 42,
+      "createdAt": "2024-02-07T03:33:31.835Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 1 NOV 2022 SE APORTA LIQUID CREDITO ACTUALIZADA POR REINTEGRA. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 42,
+      "createdAt": "2024-02-07T03:33:31.835Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 3 FEBRERO 2023 APRUEBA  ACTU LIQUIDACION CREDITO",
+      "content": []
+    },
+    {
+      "carpetaNumero": 42,
+      "createdAt": "2024-02-07T03:33:31.835Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 OCT 2023 SE ENVIA DERECHO PETICION EPS PARA SABER DIRECCION DEUDOR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 42,
+      "createdAt": "2024-02-07T03:33:31.835Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " PEDIR CERTIFICADO VEHICULO EN MOSQUERA A EVR DONDE TRABAJA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:31.836Z"
 }

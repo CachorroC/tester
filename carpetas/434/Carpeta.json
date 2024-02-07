@@ -16,7 +16,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     },
     {
       "idRegActuacion": 262109730,
@@ -33,7 +33,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     },
     {
       "idRegActuacion": 262109720,
@@ -50,7 +50,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     },
     {
       "idRegActuacion": 262109710,
@@ -67,7 +67,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     },
     {
       "idRegActuacion": 262109700,
@@ -84,7 +84,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     },
     {
       "idRegActuacion": 262109690,
@@ -101,7 +101,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     },
     {
       "idRegActuacion": 262109680,
@@ -118,7 +118,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     },
     {
       "idRegActuacion": 262109670,
@@ -135,7 +135,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     },
     {
       "idRegActuacion": 262109660,
@@ -152,7 +152,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     },
     {
       "idRegActuacion": 262109650,
@@ -169,10 +169,10 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:45.076Z"
+      "createdAt": "2024-02-07T03:34:14.413Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "LUZ ANGELA RODRIGUEZ ROZO",
     "cedula": "52484859",
@@ -181,6 +181,8 @@
     "id": 434
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "639",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -189,8 +191,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.242Z"
     ],
+    "id": 434,
     "llaveProceso": "11001400306820180099900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 434,
@@ -222,7 +225,7 @@
     ],
     "medidasCautelares": {
       "id": 434,
-      "fechaOrdenaMedida": "2024-02-03T18:59:45.032Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:14.323Z",
       "medidaSolicitada": null
     }
   },
@@ -244,7 +247,7 @@
   ],
   "idRegUltimaAct": 1302983770,
   "llaveProceso": "11001400306820180099900",
-  "nombre": "FRANCISCO JAVIER GIL FLOREZ",
+  "nombre": "francisco javier gil florez",
   "numero": 434,
   "procesos": [
     {
@@ -266,7 +269,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 1302983770,
@@ -284,5 +287,31 @@
     "idProceso": 19222160,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:45.032Z"
+  "notas": [
+    {
+      "carpetaNumero": 434,
+      "createdAt": "2024-02-07T03:34:14.323Z",
+      "pathname": null,
+      "dueDate": "2019-10-20T05:00:00.000Z",
+      "text": "EL 20/09/2019 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 434,
+      "createdAt": "2024-02-07T03:34:14.323Z",
+      "pathname": null,
+      "dueDate": "2020-01-17T05:00:00.000Z",
+      "text": " EL 17/12/2019 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 434,
+      "createdAt": "2024-02-07T03:34:14.323Z",
+      "pathname": null,
+      "dueDate": "2020-01-11T05:00:00.000Z",
+      "text": " EL 11/12/2019 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:14.324Z"
 }

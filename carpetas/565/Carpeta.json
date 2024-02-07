@@ -2,6 +2,40 @@
   "id": 1061047348,
   "actuaciones": [
     {
+      "idRegActuacion": 1950373250,
+      "llaveProceso": "11001400306920230127300",
+      "consActuacion": 12,
+      "fechaActuacion": "2024-02-05T05:00:00.000Z",
+      "actuacion": "Fijacion estado",
+      "anotacion": "Actuación registrada el 05/02/2024 a las 12:27:16.",
+      "fechaInicial": "2024-02-06T05:00:00.000Z",
+      "fechaFinal": "2024-02-06T05:00:00.000Z",
+      "fechaRegistro": "2024-02-05T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 12,
+      "idProceso": 132041720,
+      "isUltimaAct": true,
+      "createdAt": "2024-02-07T03:34:24.148Z"
+    },
+    {
+      "idRegActuacion": 1950373240,
+      "llaveProceso": "11001400306920230127300",
+      "consActuacion": 11,
+      "fechaActuacion": "2024-02-05T05:00:00.000Z",
+      "actuacion": "Auto ordena Seguir adelante la Ejecucion  Ley 1395/2010",
+      "anotacion": null,
+      "fechaInicial": null,
+      "fechaFinal": null,
+      "fechaRegistro": "2024-02-05T05:00:00.000Z",
+      "codRegla": "00                              ",
+      "conDocumentos": false,
+      "cant": 12,
+      "idProceso": 132041720,
+      "isUltimaAct": false,
+      "createdAt": "2024-02-07T03:34:24.148Z"
+    },
+    {
       "idRegActuacion": 1937131740,
       "llaveProceso": "11001400306920230127300",
       "consActuacion": 10,
@@ -13,10 +47,10 @@
       "fechaRegistro": "2023-11-23T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
-      "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "isUltimaAct": false,
+      "createdAt": "2024-02-07T03:34:24.148Z"
     },
     {
       "idRegActuacion": 1936125110,
@@ -30,10 +64,10 @@
       "fechaRegistro": "2023-11-20T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "createdAt": "2024-02-07T03:34:24.148Z"
     },
     {
       "idRegActuacion": 1864324160,
@@ -47,10 +81,10 @@
       "fechaRegistro": "2023-08-31T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "createdAt": "2024-02-07T03:34:24.148Z"
     },
     {
       "idRegActuacion": 1860397620,
@@ -64,10 +98,10 @@
       "fechaRegistro": "2023-08-28T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "createdAt": "2024-02-07T03:34:24.148Z"
     },
     {
       "idRegActuacion": 1850795720,
@@ -81,10 +115,10 @@
       "fechaRegistro": "2023-08-18T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "createdAt": "2024-02-07T03:34:24.148Z"
     },
     {
       "idRegActuacion": 1850795710,
@@ -98,10 +132,10 @@
       "fechaRegistro": "2023-08-18T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "createdAt": "2024-02-07T03:34:24.148Z"
     },
     {
       "idRegActuacion": 1850795700,
@@ -115,10 +149,10 @@
       "fechaRegistro": "2023-08-18T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "createdAt": "2024-02-07T03:34:24.148Z"
     },
     {
       "idRegActuacion": 1850795690,
@@ -132,10 +166,10 @@
       "fechaRegistro": "2023-08-18T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "createdAt": "2024-02-07T03:34:24.148Z"
     },
     {
       "idRegActuacion": 1832542990,
@@ -149,10 +183,10 @@
       "fechaRegistro": "2023-08-03T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "createdAt": "2024-02-07T03:34:24.148Z"
     },
     {
       "idRegActuacion": 1832542980,
@@ -166,10 +200,10 @@
       "fechaRegistro": "2023-08-03T05:00:00.000Z",
       "codRegla": "00                              ",
       "conDocumentos": false,
-      "cant": 10,
+      "cant": 12,
       "idProceso": 132041720,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:45.660Z"
+      "createdAt": "2024-02-07T03:34:24.148Z"
     }
   ],
   "category": "Bancolombia",
@@ -181,14 +215,17 @@
     "id": 565
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "24994278",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-07-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 565,
     "llaveProceso": "11001400306920230127300",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 565,
@@ -220,7 +257,7 @@
     ],
     "medidasCautelares": {
       "id": 565,
-      "fechaOrdenaMedida": "2024-02-03T18:58:45.618Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:24.079Z",
       "medidaSolicitada": null
     }
   },
@@ -236,13 +273,13 @@
     "direccion": "Transversal 96 B No. 20 D - 70 Casa 23 Conjunto Residencial Casas del Portal de Hayuelos",
     "email": "sammy_1722@hotmail.es"
   },
-  "fecha": "2023-11-23T05:00:00.000Z",
+  "fecha": "2024-02-05T05:00:00.000Z",
   "idProcesos": [
     132041720
   ],
-  "idRegUltimaAct": 1937131740,
+  "idRegUltimaAct": 1950373250,
   "llaveProceso": "11001400306920230127300",
-  "nombre": "SANDRA MILENA PALACIO RIVERA",
+  "nombre": "sandra milena palacio rivera",
   "numero": 565,
   "procesos": [
     {
@@ -250,7 +287,7 @@
       "idConexion": 262,
       "llaveProceso": "11001400306920230127300",
       "fechaProceso": "2023-08-03T05:00:00.000Z",
-      "fechaUltimaActuacion": "2023-11-23T05:00:00.000Z",
+      "fechaUltimaActuacion": "2024-02-05T05:00:00.000Z",
       "despacho": "JUZGADO 069 CIVIL MUNICIPAL DE BOGOTÁ ",
       "departamento": "BOGOTÁ",
       "sujetosProcesales": "Demandante: BANCOLOMBIA S.A | Demandado: SANDRA MILENA PALACIO RIVERA ",
@@ -267,20 +304,78 @@
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
-    "idRegActuacion": 1937131740,
+    "idRegActuacion": 1950373250,
     "llaveProceso": "11001400306920230127300",
-    "consActuacion": 10,
-    "fechaActuacion": "2023-11-23T05:00:00.000Z",
-    "actuacion": "Al despacho",
-    "anotacion": null,
-    "fechaInicial": null,
-    "fechaFinal": null,
-    "fechaRegistro": "2023-11-23T05:00:00.000Z",
+    "consActuacion": 12,
+    "fechaActuacion": "2024-02-05T05:00:00.000Z",
+    "actuacion": "Fijacion estado",
+    "anotacion": "Actuación registrada el 05/02/2024 a las 12:27:16.",
+    "fechaInicial": "2024-02-06T05:00:00.000Z",
+    "fechaFinal": "2024-02-06T05:00:00.000Z",
+    "fechaRegistro": "2024-02-05T05:00:00.000Z",
     "codRegla": "00                              ",
     "conDocumentos": false,
-    "cant": 10,
+    "cant": 12,
     "idProceso": 132041720,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:45.618Z"
+  "notas": [
+    {
+      "carpetaNumero": 565,
+      "createdAt": "2024-02-07T03:34:24.079Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "31 JULIO RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 565,
+      "createdAt": "2024-02-07T03:34:24.079Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 18 AGOSTO 2023 AUTO LIBRA MANDAMIENTO Y MEDIDA CAUTELAR ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 565,
+      "createdAt": "2024-02-07T03:34:24.079Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 31 AGOSTO ENVIAN OFICIOS A MOVILIDAD COTA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 565,
+      "createdAt": "2024-02-07T03:34:24.079Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 1 SEPT 2023 LF CCR RADICAN OFICIO EN COTA TAMB ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 565,
+      "createdAt": "2024-02-07T03:34:24.079Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 22 SEPT 2023 SE ENVIA NOTIFICACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 565,
+      "createdAt": "2024-02-07T03:34:24.079Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "  19 OCT 2023 SE ENVIA NOTIFICACION CON RESULTADO POSITIVO A JUZGADO  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 565,
+      "createdAt": "2024-02-07T03:34:24.079Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 15 NOV 2023 SE ENVIA CORREO  JUZGADO SOLICITANDO ACUSE RECIBIDO Y ALCANCE A MEMORIAL NOTIFICACION",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:24.079Z"
 }

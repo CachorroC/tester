@@ -1,7 +1,7 @@
 {
   "id": 1022336662,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 550
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 550,
     "llaveProceso": "25754418900120190091100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 550,
@@ -45,7 +48,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 550,
-      "fechaOrdenaMedida": "2024-02-03T18:59:53.575Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:23.068Z",
       "medidaSolicitada": null
     }
   },
@@ -65,12 +68,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754418900120190091100",
-  "nombre": "MIGUEL ANGEL AGUASACO PEÑUELA",
+  "nombre": "miguel angel aguasaco peñuela",
   "numero": 550,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:53.575Z"
+  "notas": [
+    {
+      "carpetaNumero": 550,
+      "createdAt": "2024-02-07T03:34:23.068Z",
+      "pathname": null,
+      "dueDate": "2020-04-02T05:00:00.000Z",
+      "text": "EL 2/03/2020 SE DEVUELVE DESGLOSE CON GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 550,
+      "createdAt": "2024-02-07T03:34:23.068Z",
+      "pathname": null,
+      "dueDate": "2020-03-10T05:00:00.000Z",
+      "text": " EL 10/02/2020 LA APODERADA DE LA ACTORA RETIRO LA DEMANDA DEL JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:23.068Z"
 }

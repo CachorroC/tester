@@ -16,7 +16,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     },
     {
       "idRegActuacion": 855693880,
@@ -33,7 +33,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     },
     {
       "idRegActuacion": 855693870,
@@ -50,7 +50,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     },
     {
       "idRegActuacion": 855693860,
@@ -67,7 +67,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     },
     {
       "idRegActuacion": 855693850,
@@ -84,7 +84,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     },
     {
       "idRegActuacion": 855693840,
@@ -101,7 +101,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     },
     {
       "idRegActuacion": 855693830,
@@ -118,7 +118,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     },
     {
       "idRegActuacion": 855693820,
@@ -135,7 +135,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     },
     {
       "idRegActuacion": 855693810,
@@ -152,7 +152,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     },
     {
       "idRegActuacion": 855693800,
@@ -169,10 +169,10 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:59:12.647Z"
+      "createdAt": "2024-02-07T03:33:45.123Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -181,6 +181,8 @@
     "id": 151
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -189,8 +191,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.975Z"
     ],
+    "id": 151,
     "llaveProceso": "11001400307320170113500",
-    "mandamientoPago": "2017-09-11T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-09-11T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 151,
@@ -221,7 +226,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 151,
-      "fechaOrdenaMedida": "2024-02-03T18:59:12.601Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:44.963Z",
       "medidaSolicitada": null
     }
   },
@@ -243,7 +248,7 @@
   ],
   "idRegUltimaAct": 855693890,
   "llaveProceso": "11001400307320170113500",
-  "nombre": "ANDRES FELIPE HIGUITA CARDONA ",
+  "nombre": "andres felipe higuita cardona ",
   "numero": 151,
   "procesos": [
     {
@@ -265,7 +270,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 855693890,
@@ -283,5 +288,31 @@
     "idProceso": 50667490,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:59:12.601Z"
+  "notas": [
+    {
+      "carpetaNumero": 151,
+      "createdAt": "2024-02-07T03:33:44.962Z",
+      "pathname": null,
+      "dueDate": "2018-05-03T05:00:00.000Z",
+      "text": "EL 3/04/2018 LA APODERADA DEL BANCO RETIRA DEMANDA DEL JUZGADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 151,
+      "createdAt": "2024-02-07T03:33:44.963Z",
+      "pathname": null,
+      "dueDate": "2018-05-06T05:00:00.000Z",
+      "text": " EL 6/04/2018 SE DEVUELVE DESGLOSE CON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 151,
+      "createdAt": "2024-02-07T03:33:44.963Z",
+      "pathname": null,
+      "dueDate": "2018-05-06T05:00:00.000Z",
+      "text": " EL 6/04/2018 SE ENTEGRAN OFICIOS DE EMBARGO SIN TRAMITAR AL JUZGADO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:44.963Z"
 }

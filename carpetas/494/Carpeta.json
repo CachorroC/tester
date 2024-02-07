@@ -1,7 +1,7 @@
 {
   "id": 1022332681,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 494
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "16225494",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "2018-09-26T05:00:00.000Z"
     ],
+    "id": 494,
     "llaveProceso": "25754418900320180102200",
-    "mandamientoPago": null,
+    "mandamientoPago": [
+      "2018-10-25T05:00:00.000Z"
+    ],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 494,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 494,
-      "fechaOrdenaMedida": "2024-02-03T18:59:50.283Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:18.836Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25754418900320180102200",
-  "nombre": "LUISA ENELLY GUGU VITOPIA",
+  "nombre": "luisa enelly gugu vitopia",
   "numero": 494,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:50.283Z"
+  "notas": [
+    {
+      "carpetaNumero": 494,
+      "createdAt": "2024-02-07T03:34:18.835Z",
+      "pathname": null,
+      "dueDate": "2019-03-15T05:00:00.000Z",
+      "text": "EL 15/02/2019 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 494,
+      "createdAt": "2024-02-07T03:34:18.835Z",
+      "pathname": null,
+      "dueDate": "2019-11-01T05:00:00.000Z",
+      "text": " EL 1/10/2019 SE DEVOLVIO DESGLOSE DE GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 494,
+      "createdAt": "2024-02-07T03:34:18.835Z",
+      "pathname": null,
+      "dueDate": "2023-03-03T05:00:00.000Z",
+      "text": " NO SE REGISTRARON MEDIDAS CAUTELARES EL 31/01/2023 SE CONSULTO INMUEBLE YA NO FIGURA A NOMBRE DE LA DEMANDADA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:18.836Z"
 }

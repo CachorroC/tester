@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:48.676Z"
+      "createdAt": "2024-02-07T03:34:26.240Z"
     },
     {
       "idRegActuacion": 1938881300,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.676Z"
+      "createdAt": "2024-02-07T03:34:26.240Z"
     },
     {
       "idRegActuacion": 1938727050,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.676Z"
+      "createdAt": "2024-02-07T03:34:26.240Z"
     },
     {
       "idRegActuacion": 1918057590,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.676Z"
+      "createdAt": "2024-02-07T03:34:26.240Z"
     },
     {
       "idRegActuacion": 1918057580,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.676Z"
+      "createdAt": "2024-02-07T03:34:26.240Z"
     },
     {
       "idRegActuacion": 1902260070,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.676Z"
+      "createdAt": "2024-02-07T03:34:26.240Z"
     },
     {
       "idRegActuacion": 1902260060,
@@ -118,7 +118,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:48.676Z"
+      "createdAt": "2024-02-07T03:34:26.240Z"
     }
   ],
   "category": "Bancolombia",
@@ -130,14 +130,17 @@
     "id": 585
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "25766202",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-09-26T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 585,
     "llaveProceso": "11001418907020230039900",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 585,
@@ -172,7 +175,7 @@
     ],
     "medidasCautelares": {
       "id": 585,
-      "fechaOrdenaMedida": "2024-02-03T18:58:48.529Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.169Z",
       "medidaSolicitada": null
     }
   },
@@ -194,7 +197,7 @@
   ],
   "idRegUltimaAct": 1938881310,
   "llaveProceso": "11001418907020230039900",
-  "nombre": "MARIA GEORGINA FORERO DE MENDOZA",
+  "nombre": "maria georgina forero de mendoza",
   "numero": 585,
   "procesos": [
     {
@@ -234,5 +237,63 @@
     "idProceso": 133932120,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:48.529Z"
+  "notas": [
+    {
+      "carpetaNumero": 585,
+      "createdAt": "2024-02-07T03:34:26.169Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "28 DE SEPTIEMBURE SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 585,
+      "createdAt": "2024-02-07T03:34:26.169Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 6 OCT AL DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 585,
+      "createdAt": "2024-02-07T03:34:26.169Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 26 OCT RECHAZA DEMANDA X ERROR PAGARE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 585,
+      "createdAt": "2024-02-07T03:34:26.169Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 27 OCT SE PRESENTA X 2DA VEZ ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 585,
+      "createdAt": "2024-02-07T03:34:26.169Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 15 NOV AUTO LIBRA MANDAMIENTO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 585,
+      "createdAt": "2024-02-07T03:34:26.169Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 27 NOV MANDAMIENTO INCOMPLETO PENDIENTE ENVIAR CORRECCION  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 585,
+      "createdAt": "2024-02-07T03:34:26.169Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 4 DIC 2023 SE ENVIA CORRECION MANDAMIENTO DE PAGO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.169Z"
 }

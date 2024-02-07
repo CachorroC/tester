@@ -10,14 +10,17 @@
     "id": 597
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "73309267",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-11-14T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 597,
     "llaveProceso": null,
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "MOSQUERA",
     "notificacion": {
       "id": 597,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 597,
-      "fechaOrdenaMedida": "2024-02-03T18:58:49.954Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:27.093Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "undefined",
-  "nombre": "DANNY EDUARDO SANCHEZ MORENO",
+  "nombre": "danny eduardo sanchez moreno",
   "numero": 597,
   "procesos": [],
   "revisado": false,
   "terminado": false,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:49.954Z"
+  "notas": [
+    {
+      "carpetaNumero": 597,
+      "createdAt": "2024-02-07T03:34:27.093Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "21 NOV SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 597,
+      "createdAt": "2024-02-07T03:34:27.093Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 13 DICIEMBRE 2023 MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 597,
+      "createdAt": "2024-02-07T03:34:27.093Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " REVISAR MANDAMIENTO ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:27.093Z"
 }

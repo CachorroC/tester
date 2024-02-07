@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 134910360,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:47.950Z"
+      "createdAt": "2024-02-07T03:34:25.643Z"
     },
     {
       "idRegActuacion": 1939013440,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 134910360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.950Z"
+      "createdAt": "2024-02-07T03:34:25.643Z"
     },
     {
       "idRegActuacion": 1939013430,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 134910360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.950Z"
+      "createdAt": "2024-02-07T03:34:25.643Z"
     },
     {
       "idRegActuacion": 1939013420,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 134910360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.950Z"
+      "createdAt": "2024-02-07T03:34:25.643Z"
     },
     {
       "idRegActuacion": 1931898770,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 134910360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.950Z"
+      "createdAt": "2024-02-07T03:34:25.643Z"
     },
     {
       "idRegActuacion": 1931898760,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 134910360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:47.950Z"
+      "createdAt": "2024-02-07T03:34:25.643Z"
     }
   ],
   "category": "Bancolombia",
@@ -113,14 +113,17 @@
     "id": 579
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "20488522",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2021-08-18T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 579,
     "llaveProceso": "11001418907020230053800",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 579,
@@ -154,7 +157,7 @@
     ],
     "medidasCautelares": {
       "id": 579,
-      "fechaOrdenaMedida": "2024-02-03T18:58:47.885Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:25.543Z",
       "medidaSolicitada": null
     }
   },
@@ -176,7 +179,7 @@
   ],
   "idRegUltimaAct": 1939013450,
   "llaveProceso": "11001418907020230053800",
-  "nombre": "ANDREA CAROLINA DIAZ BARRETO ",
+  "nombre": "andrea carolina diaz barreto ",
   "numero": 579,
   "procesos": [
     {
@@ -216,5 +219,31 @@
     "idProceso": 134910360,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:47.885Z"
+  "notas": [
+    {
+      "carpetaNumero": 579,
+      "createdAt": "2024-02-07T03:34:25.543Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "11 AGOSTO  2021 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 579,
+      "createdAt": "2024-02-07T03:34:25.543Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " A AUTOS DE 26 SEPT EN JUZGADO 10 CM NO HAY DEMANDA.",
+      "content": []
+    },
+    {
+      "carpetaNumero": 579,
+      "createdAt": "2024-02-07T03:34:25.543Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 OCT 2023 SE RADICA DEMANDA NUEVAMENTE",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:25.543Z"
 }

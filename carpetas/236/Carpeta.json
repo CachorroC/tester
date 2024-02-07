@@ -1,7 +1,7 @@
 {
   "id": 3165933,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 236
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "31688075",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.996Z"
     ],
+    "id": 236,
     "llaveProceso": "11001400308520170136200",
-    "mandamientoPago": "2017-09-21T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-09-21T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 236,
@@ -51,7 +56,7 @@
     ],
     "medidasCautelares": {
       "id": 236,
-      "fechaOrdenaMedida": "2024-02-03T18:59:22.164Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:54.390Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +76,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001400308520170136200",
-  "nombre": "RIGOBERTO MORENO OLAYA",
+  "nombre": "rigoberto moreno olaya",
   "numero": 236,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:22.164Z"
+  "notas": [
+    {
+      "carpetaNumero": 236,
+      "createdAt": "2024-02-07T03:33:54.390Z",
+      "pathname": null,
+      "dueDate": "2018-03-22T05:00:00.000Z",
+      "text": "22/02/2018 SE DEVUELVE DESGLOSE DE GARANTIAS A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 236,
+      "createdAt": "2024-02-07T03:33:54.390Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE REGISTRARON MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:54.390Z"
 }

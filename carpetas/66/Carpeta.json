@@ -16,7 +16,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670033050,
@@ -33,7 +33,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670033040,
@@ -50,7 +50,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670033030,
@@ -67,7 +67,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670033020,
@@ -84,7 +84,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670033010,
@@ -101,7 +101,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670033000,
@@ -118,7 +118,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670032990,
@@ -135,7 +135,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670032980,
@@ -152,7 +152,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670032970,
@@ -169,7 +169,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670032960,
@@ -186,7 +186,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670032950,
@@ -203,7 +203,7 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     },
     {
       "idRegActuacion": 670032940,
@@ -220,10 +220,10 @@
       "cant": 13,
       "idProceso": 50593320,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:58.547Z"
+      "createdAt": "2024-02-07T03:33:35.036Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -232,6 +232,8 @@
     "id": 66
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12845011",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -240,8 +242,11 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:42.937Z"
     ],
+    "id": 66,
     "llaveProceso": "11001400301920170070200",
-    "mandamientoPago": "2017-07-27T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-07-27T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 66,
@@ -273,7 +278,7 @@
     ],
     "medidasCautelares": {
       "id": 66,
-      "fechaOrdenaMedida": "2024-02-03T18:58:58.504Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:34.950Z",
       "medidaSolicitada": null
     }
   },
@@ -295,7 +300,7 @@
   ],
   "idRegUltimaAct": 670033060,
   "llaveProceso": "11001400301920170070200",
-  "nombre": "SANDRA PATRICIA SUAREZ GALVIS",
+  "nombre": "sandra patricia suarez galvis",
   "numero": 66,
   "procesos": [
     {
@@ -317,7 +322,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "PRENDARIO",
   "ultimaActuacion": {
     "idRegActuacion": 670033060,
@@ -335,5 +340,31 @@
     "idProceso": 50593320,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:58.504Z"
+  "notas": [
+    {
+      "carpetaNumero": 66,
+      "createdAt": "2024-02-07T03:33:34.949Z",
+      "pathname": null,
+      "dueDate": "2018-03-03T05:00:00.000Z",
+      "text": "EL 31/01/2018 JUZGADO DECRETA TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 66,
+      "createdAt": "2024-02-07T03:33:34.949Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "EL 15 /02/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 66,
+      "createdAt": "2024-02-07T03:33:34.950Z",
+      "pathname": null,
+      "dueDate": "2022-02-05T05:00:00.000Z",
+      "text": "  5/02/2022 SE CONSULTA EL 5/01/2022 SE CONSULTA EL RUNT Y NO EXISTEN MEDIDAS CAUTELARES SOBRE EL VEHICULO",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:34.950Z"
 }

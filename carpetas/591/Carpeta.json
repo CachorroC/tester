@@ -16,7 +16,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:49.360Z"
+      "createdAt": "2024-02-07T03:34:26.700Z"
     },
     {
       "idRegActuacion": 1941181430,
@@ -33,7 +33,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.360Z"
+      "createdAt": "2024-02-07T03:34:26.700Z"
     },
     {
       "idRegActuacion": 1938540880,
@@ -50,7 +50,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.360Z"
+      "createdAt": "2024-02-07T03:34:26.700Z"
     },
     {
       "idRegActuacion": 1936596830,
@@ -67,7 +67,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.360Z"
+      "createdAt": "2024-02-07T03:34:26.700Z"
     },
     {
       "idRegActuacion": 1935520180,
@@ -84,7 +84,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.360Z"
+      "createdAt": "2024-02-07T03:34:26.700Z"
     },
     {
       "idRegActuacion": 1935520170,
@@ -101,7 +101,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.360Z"
+      "createdAt": "2024-02-07T03:34:26.700Z"
     },
     {
       "idRegActuacion": 1924929040,
@@ -118,7 +118,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.360Z"
+      "createdAt": "2024-02-07T03:34:26.700Z"
     },
     {
       "idRegActuacion": 1924929030,
@@ -135,7 +135,7 @@
       "cant": 8,
       "idProceso": 134525980,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:49.360Z"
+      "createdAt": "2024-02-07T03:34:26.700Z"
     }
   ],
   "category": "Bancolombia",
@@ -147,14 +147,17 @@
     "id": 591
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "106398151",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-10-13T05:00:16.000Z",
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 591,
     "llaveProceso": "11001400302720230116700",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 591,
@@ -191,7 +194,7 @@
     ],
     "medidasCautelares": {
       "id": 591,
-      "fechaOrdenaMedida": "2024-02-03T18:58:49.294Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.655Z",
       "medidaSolicitada": null
     }
   },
@@ -213,7 +216,7 @@
   ],
   "idRegUltimaAct": 1941181440,
   "llaveProceso": "11001400302720230116700",
-  "nombre": "MAYRA ALEJANDRA VALBUENA BARRERO",
+  "nombre": "mayra alejandra valbuena barrero",
   "numero": 591,
   "procesos": [
     {
@@ -253,5 +256,47 @@
     "idProceso": 134525980,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:49.295Z"
+  "notas": [
+    {
+      "carpetaNumero": 591,
+      "createdAt": "2024-02-07T03:34:26.655Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "17 OCT 2023 SE RADICA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 591,
+      "createdAt": "2024-02-07T03:34:26.655Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 1 NOV INGRESA A DESPACHO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 591,
+      "createdAt": "2024-02-07T03:34:26.655Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 16 NOV 2023 INADMITE DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 591,
+      "createdAt": "2024-02-07T03:34:26.655Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 7 DIC AUTO RECHAZA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 591,
+      "createdAt": "2024-02-07T03:34:26.655Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 14 DIC SE PRESENTA DEMANDA POR 2DA VEZ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.655Z"
 }

@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:57.804Z"
+      "createdAt": "2024-02-07T03:33:34.270Z"
     },
     {
       "idRegActuacion": 707304080,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:57.804Z"
+      "createdAt": "2024-02-07T03:33:34.270Z"
     },
     {
       "idRegActuacion": 707304070,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:57.804Z"
+      "createdAt": "2024-02-07T03:33:34.270Z"
     },
     {
       "idRegActuacion": 707304060,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:57.804Z"
+      "createdAt": "2024-02-07T03:33:34.270Z"
     },
     {
       "idRegActuacion": 707304050,
@@ -84,10 +84,10 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:57.804Z"
+      "createdAt": "2024-02-07T03:33:34.270Z"
     }
   ],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": "NUBIA RODRIGUEZ GOMEZ ",
     "cedula": "52801359",
@@ -96,6 +96,8 @@
     "id": 59
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "12847942",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -104,8 +106,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.004Z"
     ],
+    "id": 59,
     "llaveProceso": "11001400302520170106400",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 59,
@@ -137,7 +140,7 @@
     ],
     "medidasCautelares": {
       "id": 59,
-      "fechaOrdenaMedida": "2024-02-03T18:58:57.760Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:34.206Z",
       "medidaSolicitada": null
     }
   },
@@ -159,7 +162,7 @@
   ],
   "idRegUltimaAct": 707304090,
   "llaveProceso": "11001400302520170106400",
-  "nombre": "NANCY RODRIGUEZ  GOMEZ",
+  "nombre": "nancy rodriguez  gomez",
   "numero": 59,
   "procesos": [
     {
@@ -181,7 +184,7 @@
     }
   ],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": {
     "idRegActuacion": 707304090,
@@ -199,5 +202,23 @@
     "idProceso": 50738440,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:57.761Z"
+  "notas": [
+    {
+      "carpetaNumero": 59,
+      "createdAt": "2024-02-07T03:33:34.205Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "14 DE OCTUBRE DE 2017 SE DEVOLVIERON GARANTIAS PAGARE A AECSA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 59,
+      "createdAt": "2024-02-07T03:33:34.206Z",
+      "pathname": null,
+      "dueDate": "2017-11-06T05:00:00.000Z",
+      "text": " DEMANDA SE RETIRO DEL JUZGADO SIN MEDIDAS CAUTELARES EL 6/10/2017",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:34.206Z"
 }

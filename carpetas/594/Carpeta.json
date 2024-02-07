@@ -1,7 +1,7 @@
 {
   "id": 63359557,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 594
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "65371302",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-10-20T05:00:16.000Z",
     "etapaProcesal": "11001400303420230106500",
     "fechaPresentacion": [],
+    "id": 594,
     "llaveProceso": "2023-1065",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 594,
@@ -49,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 594,
-      "fechaOrdenaMedida": "2024-02-03T18:59:53.750Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:26.844Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,46 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2023-1065",
-  "nombre": "SANDRA MAGNOLIA CAMPOS ROBLES",
+  "nombre": "sandra magnolia campos robles",
   "numero": 594,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:53.750Z"
+  "notas": [
+    {
+      "carpetaNumero": 594,
+      "createdAt": "2024-02-07T03:34:26.844Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "23 OCTUBRE SE RADICA DEMANDA  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 594,
+      "createdAt": "2024-02-07T03:34:26.844Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " RETIRAR DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 594,
+      "createdAt": "2024-02-07T03:34:26.844Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 7 NOV 2023 SE RADICA ANTE JUZGADO RETIRO O SUSPENCION DEMANDA  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 594,
+      "createdAt": "2024-02-07T03:34:26.844Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 9 NOV AUTO RETIRA DEMANDA ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:26.845Z"
 }

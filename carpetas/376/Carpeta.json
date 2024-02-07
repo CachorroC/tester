@@ -16,7 +16,7 @@
       "cant": 4,
       "idProceso": 51500810,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:52.109Z"
+      "createdAt": "2024-02-07T03:34:08.645Z"
     },
     {
       "idRegActuacion": 1820436670,
@@ -33,7 +33,7 @@
       "cant": 4,
       "idProceso": 51500810,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.109Z"
+      "createdAt": "2024-02-07T03:34:08.645Z"
     },
     {
       "idRegActuacion": 1778368160,
@@ -50,7 +50,7 @@
       "cant": 4,
       "idProceso": 51500810,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.109Z"
+      "createdAt": "2024-02-07T03:34:08.645Z"
     },
     {
       "idRegActuacion": 856481100,
@@ -67,10 +67,10 @@
       "cant": 4,
       "idProceso": 51500810,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:52.109Z"
+      "createdAt": "2024-02-07T03:34:08.645Z"
     }
   ],
-  "category": "Terminados",
+  "category": "LiosJuridicos",
   "codeudor": {
     "nombre": "DORIS GARZON TALERO",
     "cedula": "52804144",
@@ -79,14 +79,17 @@
     "id": 376
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "27308454",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
     "fechaPresentacion": [],
+    "id": 376,
     "llaveProceso": "11001400307620180005200",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 376,
@@ -119,7 +122,7 @@
     ],
     "medidasCautelares": {
       "id": 376,
-      "fechaOrdenaMedida": "2024-02-03T18:58:52.062Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:08.502Z",
       "medidaSolicitada": null
     }
   },
@@ -141,7 +144,7 @@
   ],
   "idRegUltimaAct": 1842023050,
   "llaveProceso": "11001400307620180005200",
-  "nombre": "ROBERTO RICO RUIZ",
+  "nombre": "roberto rico ruiz",
   "numero": 376,
   "procesos": [
     {
@@ -163,7 +166,7 @@
     }
   ],
   "revisado": false,
-  "terminado": true,
+  "terminado": false,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": {
     "idRegActuacion": 1842023050,
@@ -181,5 +184,31 @@
     "idProceso": 51500810,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:52.062Z"
+  "notas": [
+    {
+      "carpetaNumero": 376,
+      "createdAt": "2024-02-07T03:34:08.502Z",
+      "pathname": null,
+      "dueDate": "2018-09-22T05:00:00.000Z",
+      "text": "EL 22/08/2018 EL JUZGADO DECRETO LA TERMINACIÓN DEL PROCESO POR PAGO CUOTAS EN MORA DE LA OBLIGACIÓN HIPOTECARIA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 376,
+      "createdAt": "2024-02-07T03:34:08.502Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "  SE ENVIO SOLICITUD DESARCHIVE EL 18 DE AGOSOTO DE 2023 A ARCHIVO CENTRAL .",
+      "content": []
+    },
+    {
+      "carpetaNumero": 376,
+      "createdAt": "2024-02-07T03:34:08.502Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "18 AGOSTO SE ENVIO SOLICTUD DESARCHIVE A ARCHIVO CENTRAL ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:08.502Z"
 }

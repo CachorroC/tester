@@ -1,7 +1,7 @@
 {
   "id": 80468168,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,14 +10,17 @@
     "id": 507
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "2112018",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "25843410300120180049900",
     "fechaPresentacion": [],
+    "id": 507,
     "llaveProceso": "2.58434003001201e+22",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "UBATE",
     "notificacion": {
       "id": 507,
@@ -48,7 +51,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 507,
-      "fechaOrdenaMedida": "2024-02-03T18:59:50.747Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:19.681Z",
       "medidaSolicitada": null
     }
   },
@@ -68,12 +71,38 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "2.58434003001201e+22",
-  "nombre": "WILLIAM  YOVANY CASALLAS ROMERO",
+  "nombre": "william  yovany casallas romero",
   "numero": 507,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:50.747Z"
+  "notas": [
+    {
+      "carpetaNumero": 507,
+      "createdAt": "2024-02-07T03:34:19.681Z",
+      "pathname": null,
+      "dueDate": "2019-11-01T05:00:00.000Z",
+      "text": "EL 1/10/2019 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 507,
+      "createdAt": "2024-02-07T03:34:19.681Z",
+      "pathname": null,
+      "dueDate": "2023-03-23T05:00:00.000Z",
+      "text": " EL 23/02/2023 SE HIZO EL LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 507,
+      "createdAt": "2024-02-07T03:34:19.681Z",
+      "pathname": null,
+      "dueDate": "2019-11-01T05:00:00.000Z",
+      "text": " EL 1/10/2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:19.681Z"
 }

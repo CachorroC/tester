@@ -1,7 +1,7 @@
 {
   "id": 30387764,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 440
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "23",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.251Z"
     ],
+    "id": 440,
     "llaveProceso": "11001408900820180022300",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 440,
@@ -49,7 +52,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 440,
-      "fechaOrdenaMedida": "2024-02-03T18:59:45.558Z",
+      "fechaOrdenaMedida": "2024-02-07T03:34:14.793Z",
       "medidaSolicitada": null
     }
   },
@@ -69,12 +72,30 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "11001408900820180022300",
-  "nombre": "BLANCA ESTHER QUIROGA GIRALDO",
+  "nombre": "blanca esther quiroga giraldo",
   "numero": 440,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "SINGULAR",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:59:45.558Z"
+  "notas": [
+    {
+      "carpetaNumero": 440,
+      "createdAt": "2024-02-07T03:34:14.793Z",
+      "pathname": null,
+      "dueDate": "2020-07-09T05:00:00.000Z",
+      "text": "EL 9/06/2020 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 440,
+      "createdAt": "2024-02-07T03:34:14.793Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " GARANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTEARES EN FAVOR Y A CARGO DE LA PARTE DEMANDADA",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:34:14.793Z"
 }

@@ -1,7 +1,7 @@
 {
   "id": 80814800,
   "actuaciones": [],
-  "category": "Insolvencia",
+  "category": "Terminados",
   "codeudor": {
     "nombre": null,
     "cedula": null,
@@ -10,6 +10,8 @@
     "id": 29
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "1000",
     "capitalAdeudado": "51217496",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -18,8 +20,9 @@
     "fechaPresentacion": [
       "1970-01-01T00:00:43.004Z"
     ],
+    "id": 29,
     "llaveProceso": "25175400300120170051100",
-    "mandamientoPago": null,
+    "mandamientoPago": [],
     "municipio": "CHIA",
     "notificacion": {
       "id": 29,
@@ -51,7 +54,7 @@
     ],
     "medidasCautelares": {
       "id": 29,
-      "fechaOrdenaMedida": "2024-02-03T18:58:54.454Z",
+      "fechaOrdenaMedida": "2024-02-07T03:33:30.338Z",
       "medidaSolicitada": null
     }
   },
@@ -71,12 +74,46 @@
   "idProcesos": [],
   "idRegUltimaAct": null,
   "llaveProceso": "25175400300120170051100",
-  "nombre": "WHITMAN JEFERSON NAJAR RAMIREZ",
+  "nombre": "whitman jeferson najar ramirez",
   "numero": 29,
   "procesos": [],
   "revisado": false,
-  "terminado": false,
+  "terminado": true,
   "tipoProceso": "HIPOTECARIO",
   "ultimaActuacion": null,
-  "updatedAt": "2024-02-03T18:58:54.454Z"
+  "notas": [
+    {
+      "carpetaNumero": 29,
+      "createdAt": "2024-02-07T03:33:30.338Z",
+      "pathname": null,
+      "dueDate": "2018-04-01T05:00:00.000Z",
+      "text": "EL 1/03/2018 AUTO TERMINA PROCESO POR PAGO CUOTAS EN MORA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 29,
+      "createdAt": "2024-02-07T03:33:30.338Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " EL 9 DE MAYO DE 2.018 SE DEVOLVIERON GARANTIAS A AECSA S.A.  ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 29,
+      "createdAt": "2024-02-07T03:33:30.338Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " NO SE RETIRO OFICIO DE EMBARGO DEL INMUEBLE ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 29,
+      "createdAt": "2024-02-07T03:33:30.338Z",
+      "pathname": null,
+      "dueDate": "2021-03-17T05:00:00.000Z",
+      "text": " 17/02/2021 SE SOLICITO CERTIFICADO DE TRADICION SIN MEDIDAS CAUTELARES",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:30.339Z"
 }

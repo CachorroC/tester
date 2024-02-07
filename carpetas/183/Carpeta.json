@@ -16,7 +16,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": true,
-      "createdAt": "2024-02-03T18:58:40.312Z"
+      "createdAt": "2024-02-07T03:33:48.576Z"
     },
     {
       "idRegActuacion": 1942530940,
@@ -33,7 +33,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:40.312Z"
+      "createdAt": "2024-02-07T03:33:48.576Z"
     },
     {
       "idRegActuacion": 1880432600,
@@ -50,7 +50,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:40.312Z"
+      "createdAt": "2024-02-07T03:33:48.576Z"
     },
     {
       "idRegActuacion": 1862825060,
@@ -67,7 +67,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:40.312Z"
+      "createdAt": "2024-02-07T03:33:48.576Z"
     },
     {
       "idRegActuacion": 1844385410,
@@ -84,7 +84,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:40.312Z"
+      "createdAt": "2024-02-07T03:33:48.576Z"
     },
     {
       "idRegActuacion": 1844385400,
@@ -101,7 +101,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:40.312Z"
+      "createdAt": "2024-02-07T03:33:48.576Z"
     },
     {
       "idRegActuacion": 1844385390,
@@ -118,7 +118,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:40.312Z"
+      "createdAt": "2024-02-07T03:33:48.576Z"
     },
     {
       "idRegActuacion": 1844385380,
@@ -135,7 +135,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:40.312Z"
+      "createdAt": "2024-02-07T03:33:48.576Z"
     },
     {
       "idRegActuacion": 1837296480,
@@ -152,7 +152,7 @@
       "cant": 9,
       "idProceso": 132161470,
       "isUltimaAct": false,
-      "createdAt": "2024-02-03T18:58:40.312Z"
+      "createdAt": "2024-02-07T03:33:48.576Z"
     }
   ],
   "category": "Bancolombia",
@@ -164,6 +164,8 @@
     "id": 183
   },
   "demanda": {
+    "liquidacion": "1000",
+    "avaluo": "2343101229",
     "capitalAdeudado": "25833335",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
@@ -172,8 +174,11 @@
     "fechaPresentacion": [
       "2017-08-08T05:00:16.000Z"
     ],
+    "id": 183,
     "llaveProceso": "11001400307520230128400",
-    "mandamientoPago": "2017-09-05T05:00:16.000Z",
+    "mandamientoPago": [
+      "2017-09-05T05:00:16.000Z"
+    ],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 183,
@@ -227,7 +232,7 @@
   ],
   "idRegUltimaAct": 1942719710,
   "llaveProceso": "11001400307520230128400",
-  "nombre": "WILSON ALFONSO JIMENEZ MENDIETA ",
+  "nombre": "wilson alfonso jimenez mendieta ",
   "numero": 183,
   "procesos": [
     {
@@ -267,5 +272,47 @@
     "idProceso": 132161470,
     "isUltimaAct": true
   },
-  "updatedAt": "2024-02-03T18:58:40.266Z"
+  "notas": [
+    {
+      "carpetaNumero": 183,
+      "createdAt": "2024-02-07T03:33:48.505Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": "HIBRIDO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 183,
+      "createdAt": "2024-02-07T03:33:48.505Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " APODERADOS BANCOLOMBIA EN EL 50% ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 183,
+      "createdAt": "2024-02-07T03:33:48.505Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 11 MAYO 2023 APORTO MEMORIAL ACLARANDO ERROS EN MEMORIAL RADICADO Y APORTANDO CERTIFICADO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 183,
+      "createdAt": "2024-02-07T03:33:48.505Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 17 DE JULIO 2023 LLEGAN FICIOS SIJIN A CORREO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 183,
+      "createdAt": "2024-02-07T03:33:48.505Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 22 AGOSTO 2023 SE RADICA OFICIOS EN LA SIJIN ",
+      "content": []
+    }
+  ],
+  "updatedAt": "2024-02-07T03:33:48.505Z"
 }
