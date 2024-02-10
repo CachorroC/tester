@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 18852280,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:16.527Z"
+      "createdAt": "2024-02-10T00:55:01.010Z"
     },
     {
       "idRegActuacion": 920378860,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 18852280,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:16.527Z"
+      "createdAt": "2024-02-10T00:55:01.010Z"
     },
     {
       "idRegActuacion": 920378850,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 18852280,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:16.527Z"
+      "createdAt": "2024-02-10T00:55:01.010Z"
     },
     {
       "idRegActuacion": 920378840,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 18852280,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:16.527Z"
+      "createdAt": "2024-02-10T00:55:01.010Z"
     },
     {
       "idRegActuacion": 920378830,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 18852280,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:16.527Z"
+      "createdAt": "2024-02-10T00:55:01.010Z"
     }
   ],
   "category": "Terminados",
@@ -133,10 +133,12 @@
     ],
     "radicado": "2019 - 00409",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [],
+    "vencimientoPagare": [
+      "1970-08-31T22:35:27.766Z"
+    ],
     "medidasCautelares": {
       "id": 460,
-      "fechaOrdenaMedida": "2024-02-07T03:34:16.473Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:00.970Z",
       "medidaSolicitada": null
     }
   },
@@ -201,7 +203,7 @@
   "notas": [
     {
       "carpetaNumero": 460,
-      "createdAt": "2024-02-07T03:34:16.473Z",
+      "createdAt": "2024-02-10T00:55:00.970Z",
       "pathname": null,
       "dueDate": "2019-05-23T05:00:00.000Z",
       "text": "DEVOLUCION DE GARANTIAS 23/04/2019 ",
@@ -209,12 +211,12 @@
     },
     {
       "carpetaNumero": 460,
-      "createdAt": "2024-02-07T03:34:16.473Z",
+      "createdAt": "2024-02-10T00:55:00.970Z",
       "pathname": null,
       "dueDate": null,
       "text": " EL 11 DE ABRIL DE 2019 POR INSTRUCCIÓN DE AECSA SE RETIRO LA DEMANDA Y GARANTIAS SIN MEDIDAS CAUTELARES VER ACTUACIONES EN EL JUZGADO",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:16.473Z"
+  "updatedAt": "2024-02-10T00:55:00.970Z"
 }

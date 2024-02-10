@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:26.240Z"
+      "createdAt": "2024-02-10T00:55:09.455Z"
     },
     {
       "idRegActuacion": 1938881300,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.240Z"
+      "createdAt": "2024-02-10T00:55:09.455Z"
     },
     {
       "idRegActuacion": 1938727050,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.240Z"
+      "createdAt": "2024-02-10T00:55:09.455Z"
     },
     {
       "idRegActuacion": 1918057590,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.240Z"
+      "createdAt": "2024-02-10T00:55:09.455Z"
     },
     {
       "idRegActuacion": 1918057580,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.240Z"
+      "createdAt": "2024-02-10T00:55:09.455Z"
     },
     {
       "idRegActuacion": 1902260070,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.240Z"
+      "createdAt": "2024-02-10T00:55:09.455Z"
     },
     {
       "idRegActuacion": 1902260060,
@@ -118,7 +118,7 @@
       "cant": 7,
       "idProceso": 133932120,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.240Z"
+      "createdAt": "2024-02-10T00:55:09.455Z"
     }
   ],
   "category": "Bancolombia",
@@ -139,7 +139,7 @@
     "etapaProcesal": null,
     "fechaPresentacion": [],
     "id": 585,
-    "llaveProceso": "11001418907020230039900",
+    "llaveProceso": "11001418907020230039900\r\n",
     "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
@@ -166,7 +166,7 @@
       "31035862",
       "377816195788645 X TC AMERICAN // 4099843107499631 X T.C. VISA"
     ],
-    "radicado": "2023 - 399",
+    "radicado": "2023-399",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
       "2026-09-15T05:00:00.000Z",
@@ -175,7 +175,7 @@
     ],
     "medidasCautelares": {
       "id": 585,
-      "fechaOrdenaMedida": "2024-02-07T03:34:26.169Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:09.415Z",
       "medidaSolicitada": null
     }
   },
@@ -188,7 +188,7 @@
     "primerApellido": "FORERO",
     "segundoApellido": "DE",
     "cedula": "41336003",
-    "direccion": " Calle 152 No. 12C - 12 TORRE 1 APTO 704 Conjunto Residencial ENTRECEDROS en Bogotá y/o Carrera 19 A No. 159 -70/84 Interior 4 Apto 503 Conjunto Residencial Sauces del Norte",
+    "direccion": " Calle 152 NO. 12C - 12 TORRE 1 APTO 704 Conjunto ReSIdencial ENTRECEDROS en Bogotá y/o Carrera 19 A NO. 159 -70/84 Interior 4 Apto 503 Conjunto ReSIdencial Sauces del NOrte",
     "email": "adrifor_co@hotmail.com"
   },
   "fecha": "2023-11-30T05:00:00.000Z",
@@ -196,7 +196,7 @@
     133932120
   ],
   "idRegUltimaAct": 1938881310,
-  "llaveProceso": "11001418907020230039900",
+  "llaveProceso": "11001418907020230039900\r\n",
   "nombre": "maria georgina forero de mendoza",
   "numero": 585,
   "procesos": [
@@ -240,7 +240,7 @@
   "notas": [
     {
       "carpetaNumero": 585,
-      "createdAt": "2024-02-07T03:34:26.169Z",
+      "createdAt": "2024-02-10T00:55:09.415Z",
       "pathname": null,
       "dueDate": null,
       "text": "28 DE SEPTIEMBURE SE RADICA DEMANDA ",
@@ -248,7 +248,7 @@
     },
     {
       "carpetaNumero": 585,
-      "createdAt": "2024-02-07T03:34:26.169Z",
+      "createdAt": "2024-02-10T00:55:09.415Z",
       "pathname": null,
       "dueDate": null,
       "text": " 6 OCT AL DESPACHO ",
@@ -256,7 +256,7 @@
     },
     {
       "carpetaNumero": 585,
-      "createdAt": "2024-02-07T03:34:26.169Z",
+      "createdAt": "2024-02-10T00:55:09.415Z",
       "pathname": null,
       "dueDate": null,
       "text": " 26 OCT RECHAZA DEMANDA X ERROR PAGARE ",
@@ -264,7 +264,7 @@
     },
     {
       "carpetaNumero": 585,
-      "createdAt": "2024-02-07T03:34:26.169Z",
+      "createdAt": "2024-02-10T00:55:09.415Z",
       "pathname": null,
       "dueDate": null,
       "text": " 27 OCT SE PRESENTA X 2DA VEZ ",
@@ -272,7 +272,7 @@
     },
     {
       "carpetaNumero": 585,
-      "createdAt": "2024-02-07T03:34:26.169Z",
+      "createdAt": "2024-02-10T00:55:09.415Z",
       "pathname": null,
       "dueDate": null,
       "text": " 15 NOV AUTO LIBRA MANDAMIENTO ",
@@ -280,7 +280,7 @@
     },
     {
       "carpetaNumero": 585,
-      "createdAt": "2024-02-07T03:34:26.169Z",
+      "createdAt": "2024-02-10T00:55:09.415Z",
       "pathname": null,
       "dueDate": null,
       "text": " 27 NOV MANDAMIENTO INCOMPLETO PENDIENTE ENVIAR CORRECCION  ",
@@ -288,12 +288,20 @@
     },
     {
       "carpetaNumero": 585,
-      "createdAt": "2024-02-07T03:34:26.169Z",
+      "createdAt": "2024-02-10T00:55:09.415Z",
       "pathname": null,
       "dueDate": null,
-      "text": " 4 DIC 2023 SE ENVIA CORRECION MANDAMIENTO DE PAGO",
+      "text": " 4 DIC 2023 SE ENVIA CORRECION MANDAMIENTO DE PAGO ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 585,
+      "createdAt": "2024-02-10T00:55:09.415Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 7-02-2024 SE ENVIA SOLICITUD OFICIOS A JUZGADO",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:26.169Z"
+  "updatedAt": "2024-02-10T00:55:09.415Z"
 }

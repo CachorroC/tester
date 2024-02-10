@@ -47,10 +47,12 @@
     ],
     "radicado": "2019 - 00162",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [],
+    "vencimientoPagare": [
+      "1970-08-31T22:34:56.925Z"
+    ],
     "medidasCautelares": {
       "id": 517,
-      "fechaOrdenaMedida": "2024-02-07T03:34:20.375Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:04.245Z",
       "medidaSolicitada": null
     }
   },
@@ -80,7 +82,7 @@
   "notas": [
     {
       "carpetaNumero": 517,
-      "createdAt": "2024-02-07T03:34:20.375Z",
+      "createdAt": "2024-02-10T00:55:04.245Z",
       "pathname": null,
       "dueDate": null,
       "text": "EL 14 DE MAYO DE 2019 SE TERMINO EL PROCESO POR PAGO CUOTAS EN MORA ",
@@ -88,7 +90,7 @@
     },
     {
       "carpetaNumero": 517,
-      "createdAt": "2024-02-07T03:34:20.375Z",
+      "createdAt": "2024-02-10T00:55:04.245Z",
       "pathname": null,
       "dueDate": null,
       "text": " NO SE RADICARON MEDIDAS CAUTELARES ",
@@ -96,12 +98,12 @@
     },
     {
       "carpetaNumero": 517,
-      "createdAt": "2024-02-07T03:34:20.375Z",
+      "createdAt": "2024-02-10T00:55:04.245Z",
       "pathname": null,
       "dueDate": null,
       "text": " EL 12 DE SEPTIEMBRE DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:20.376Z"
+  "updatedAt": "2024-02-10T00:55:04.245Z"
 }

@@ -15,30 +15,28 @@
     "capitalAdeudado": "21740168",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-09-11T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.989Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.997Z"
     ],
     "id": 242,
     "llaveProceso": "25754418900220180036300",
-    "mandamientoPago": [
-      "2017-10-06T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 242,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2017-10-06T05:00:16.000Z",
+          "fechaRecibido": "1970-01-01T00:00:43.014Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
           "tipo": "292",
-          "fechaRecibido": null,
-          "fechaAporta": "1339-01-01T00:00:00.000Z",
+          "fechaRecibido": "1339-01-01T00:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         }
       ],
@@ -52,11 +50,11 @@
     "radicado": "2017 - 00903",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2023-04-20T05:00:16.000Z"
+      "1970-01-01T00:00:45.036Z"
     ],
     "medidasCautelares": {
       "id": 242,
-      "fechaOrdenaMedida": "2024-02-07T03:33:54.913Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:41.902Z",
       "medidaSolicitada": null
     }
   },
@@ -86,7 +84,7 @@
   "notas": [
     {
       "carpetaNumero": 242,
-      "createdAt": "2024-02-07T03:33:54.912Z",
+      "createdAt": "2024-02-10T00:54:41.902Z",
       "pathname": null,
       "dueDate": "2019-02-21T05:00:00.000Z",
       "text": "EL 21/01/2019 EL JUZGADO DA POR TERMINADO EL PROCESO POR PAGO CUOTAS EN MORA ",
@@ -94,7 +92,7 @@
     },
     {
       "carpetaNumero": 242,
-      "createdAt": "2024-02-07T03:33:54.912Z",
+      "createdAt": "2024-02-10T00:54:41.902Z",
       "pathname": null,
       "dueDate": "2019-10-30T05:00:00.000Z",
       "text": " EL 30/09/2019 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR SEGÚN CERTIFICADO DE TRADICION ",
@@ -102,12 +100,12 @@
     },
     {
       "carpetaNumero": 242,
-      "createdAt": "2024-02-07T03:33:54.912Z",
+      "createdAt": "2024-02-10T00:54:41.902Z",
       "pathname": null,
       "dueDate": "2018-02-11T05:00:00.000Z",
       "text": " EL 11/01/2018 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA S.A.",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:54.913Z"
+  "updatedAt": "2024-02-10T00:54:41.903Z"
 }

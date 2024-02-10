@@ -15,22 +15,20 @@
     "capitalAdeudado": "23440287.8",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2018-04-16T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:43.206Z",
     "etapaProcesal": "11001410375220180060200",
     "fechaPresentacion": [],
     "id": 422,
     "llaveProceso": "11001410307520180060200",
-    "mandamientoPago": [
-      "2018-04-25T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "kENNEDY",
     "notificacion": {
       "id": 422,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2018-06-18T05:00:16.000Z",
+          "fechaRecibido": "1970-01-01T00:00:43.269Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
@@ -54,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 422,
-      "fechaOrdenaMedida": "2024-02-07T03:34:13.276Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:58.048Z",
       "medidaSolicitada": null
     }
   },
@@ -84,7 +82,7 @@
   "notas": [
     {
       "carpetaNumero": 422,
-      "createdAt": "2024-02-07T03:34:13.275Z",
+      "createdAt": "2024-02-10T00:54:58.047Z",
       "pathname": null,
       "dueDate": "2021-03-16T05:00:00.000Z",
       "text": "EL 16/02/2021 EL JUZGADO TERMINO EL PROCESO POR PAGO TOTAL CUOTAS EN MORA ",
@@ -92,7 +90,7 @@
     },
     {
       "carpetaNumero": 422,
-      "createdAt": "2024-02-07T03:34:13.276Z",
+      "createdAt": "2024-02-10T00:54:58.047Z",
       "pathname": null,
       "dueDate": "2022-04-02T05:00:00.000Z",
       "text": "  2/03/2022 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
@@ -100,12 +98,12 @@
     },
     {
       "carpetaNumero": 422,
-      "createdAt": "2024-02-07T03:34:13.276Z",
+      "createdAt": "2024-02-10T00:54:58.048Z",
       "pathname": null,
       "dueDate": "2021-03-24T05:00:00.000Z",
       "text": " EL 24/02/2021 SE LEVANTARON MEDIDAS CAUTELARES DE LA DEUDORA",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:13.276Z"
+  "updatedAt": "2024-02-10T00:54:58.048Z"
 }

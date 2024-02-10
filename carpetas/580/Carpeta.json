@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:25.785Z"
+      "createdAt": "2024-02-10T00:55:09.192Z"
     },
     {
       "idRegActuacion": 1945278330,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:25.785Z"
+      "createdAt": "2024-02-10T00:55:09.192Z"
     },
     {
       "idRegActuacion": 1901987450,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:25.785Z"
+      "createdAt": "2024-02-10T00:55:09.192Z"
     },
     {
       "idRegActuacion": 1901987440,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:25.785Z"
+      "createdAt": "2024-02-10T00:55:09.192Z"
     },
     {
       "idRegActuacion": 1866917490,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 132964260,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:25.785Z"
+      "createdAt": "2024-02-10T00:55:09.192Z"
     }
   ],
   "category": "Bancolombia",
@@ -141,7 +141,7 @@
     ],
     "medidasCautelares": {
       "id": 580,
-      "fechaOrdenaMedida": "2024-02-07T03:34:25.667Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:09.122Z",
       "medidaSolicitada": null
     }
   },
@@ -154,8 +154,8 @@
     "primerApellido": "GALEANO",
     "segundoApellido": "ALVARADO",
     "cedula": "19488050",
-    "direccion": "Transversal 78 No. 40J - 14 Sur",
-    "email": "joseignaciogaleanoa@gmail.com"
+    "direccion": "Transversal 78 NO. 40J - 14 Sur",
+    "email": "joseignaciogaleaNOa@gmail.com"
   },
   "fecha": "2024-01-17T05:00:00.000Z",
   "idProcesos": [
@@ -206,7 +206,7 @@
   "notas": [
     {
       "carpetaNumero": 580,
-      "createdAt": "2024-02-07T03:34:25.667Z",
+      "createdAt": "2024-02-10T00:55:09.122Z",
       "pathname": null,
       "dueDate": null,
       "text": "25 AGOSTO 2023 SE RADICA DEMANDA ",
@@ -214,23 +214,7 @@
     },
     {
       "carpetaNumero": 580,
-      "createdAt": "2024-02-07T03:34:25.667Z",
-      "pathname": null,
-      "dueDate": null,
-      "text": " 2 SEPT INGRESA A DESPACHO ",
-      "content": []
-    },
-    {
-      "carpetaNumero": 580,
-      "createdAt": "2024-02-07T03:34:25.667Z",
-      "pathname": null,
-      "dueDate": null,
-      "text": " 11 OCT 2023 INADMITE DEMANDA ",
-      "content": []
-    },
-    {
-      "carpetaNumero": 580,
-      "createdAt": "2024-02-07T03:34:25.667Z",
+      "createdAt": "2024-02-10T00:55:09.122Z",
       "pathname": null,
       "dueDate": null,
       "text": " 12 OCT 2023 SE ENVIA SUBSANACION ",
@@ -238,12 +222,20 @@
     },
     {
       "carpetaNumero": 580,
-      "createdAt": "2024-02-07T03:34:25.667Z",
+      "createdAt": "2024-02-10T00:55:09.122Z",
       "pathname": null,
       "dueDate": null,
-      "text": " ENVIAR IMPULSO",
+      "text": " 16 ENERO 2024 RECHAZA DEMANDA ",
+      "content": []
+    },
+    {
+      "carpetaNumero": 580,
+      "createdAt": "2024-02-10T00:55:09.122Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 31 ENERO 2023 SE PRESENTA DEMANDA 2DA VEZ.",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:25.667Z"
+  "updatedAt": "2024-02-10T00:55:09.122Z"
 }

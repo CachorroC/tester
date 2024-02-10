@@ -15,24 +15,22 @@
     "capitalAdeudado": "31688075",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-09-06T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.984Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.996Z"
     ],
     "id": 236,
     "llaveProceso": "11001400308520170136200",
-    "mandamientoPago": [
-      "2017-09-21T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 236,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2017-09-21T05:00:16.000Z",
+          "fechaRecibido": "1970-01-01T00:00:42.999Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
@@ -52,11 +50,11 @@
     "radicado": "2017 - 01362",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2032-12-21T05:00:16.000Z"
+      "1970-01-01T00:00:48.569Z"
     ],
     "medidasCautelares": {
       "id": 236,
-      "fechaOrdenaMedida": "2024-02-07T03:33:54.390Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:41.327Z",
       "medidaSolicitada": null
     }
   },
@@ -86,7 +84,7 @@
   "notas": [
     {
       "carpetaNumero": 236,
-      "createdAt": "2024-02-07T03:33:54.390Z",
+      "createdAt": "2024-02-10T00:54:41.327Z",
       "pathname": null,
       "dueDate": "2018-03-22T05:00:00.000Z",
       "text": "22/02/2018 SE DEVUELVE DESGLOSE DE GARANTIAS A AECSA ",
@@ -94,12 +92,12 @@
     },
     {
       "carpetaNumero": 236,
-      "createdAt": "2024-02-07T03:33:54.390Z",
+      "createdAt": "2024-02-10T00:54:41.327Z",
       "pathname": null,
       "dueDate": null,
       "text": " NO SE REGISTRARON MEDIDAS CAUTELARES",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:54.390Z"
+  "updatedAt": "2024-02-10T00:54:41.327Z"
 }

@@ -12,6 +12,7 @@ import { Decimal } from '@prisma/client/runtime/library';
 import { dateArrayBuilder } from './date-array-builder';
 import { capitalBuilder } from './capital-builder';
 import { client } from './newJudicial';
+import { NewJuzgado } from './juzgado';
 
 export function juzgadosByProceso(
   procesos: intProceso[]
@@ -36,84 +37,15 @@ export function juzgadosByProceso(
   );
 }
 
-export class NewJuzgado implements Juzgado {
-  constructor(
-    proceso: intProceso
-  ) {
-    const matchedDespacho = Despachos.find(
-      (
-        despacho
-      ) => {
-        const nDesp = despacho.nombre
-          .toLowerCase()
-          .normalize(
-            'NFD'
-          )
-          .replace(
-            /\p{Diacritic}/gu, ''
-          )
-          .trim();
-
-        const pDesp = proceso.despacho
-          .toLowerCase()
-          .normalize(
-            'NFD'
-          )
-          .replace(
-            /\p{Diacritic}/gu, ''
-          )
-          .trim();
-
-        const indexOfDesp = nDesp.indexOf(
-          pDesp
-        );
-
-        if ( indexOfDesp >= 0 ) {
-          console.log(
-            `procesos despacho is in despachos ${ indexOfDesp + 1 }`
-          );
-        }
-
-        return nDesp === pDesp;
-      }
-    );
-
-    const nameN = matchedDespacho
-      ? matchedDespacho.nombre
-      : proceso.despacho;
-
-    const matchedId = nameN.match(
-      /\d+/g
-    );
-
-    this.id = Number(
-      matchedId?.toString()
-    );
-    ( this.tipo = matchedDespacho
-      ? matchedDespacho.nombre
-      : proceso.despacho ),
-    ( this.url = matchedDespacho
-      ? `https://www.ramajudicial.gov.co${ matchedDespacho.url }`
-      : `https://www.ramajudicial.gov.co${ proceso.despacho
-        .replaceAll(
-          ' ', '-'
-        )
-        .toLowerCase() }` );
-  }
-  id: number;
-  tipo: string;
-  url: string;
-}
-
 export class ClassDemanda implements IntDemanda {
   constructor(
     rawCarpeta: RawDb
   ) {
     const {
-      VALOR_CAPITAL_ADEUDADO: capitalAdeudado,
+      CAPITAL_ADEUDADO: capitalAdeudado,
       FECHA_ENTREGA_GARANTIAS_ABOGADO: entregaGarantiasAbogado,
       ETAPA_PROCESAL: etapaProcesal,
-      JUZGADO_DEPARTAMENTO: departamento,
+      DEPARTAMENTO: departamento,
       NUMERO,
       FECHA_PRESENTACION_DEMANDA: fechaPresentacion,
       TIPO_PROCESO: tipoProceso,
@@ -124,9 +56,9 @@ export class ClassDemanda implements IntDemanda {
       FECHA_VENCIMIENTO_PAGARE: vencimientoPagare,
       FECHA_ORDENA_MEDIDAS_CAUTELARES: fechaOrdenaMedidas,
       MEDIDA_SOLICITADA: medidaSolicitada,
-      OBLIGACION_0: A,
-      OBLIGACION_1: B,
-      VALOR_LIQUIDACION,
+      OBLIGACION_1: A,
+      OBLIGACION_2: B,
+      VALOR_LIQUIDACION_DEL_CREDITO,
       VALOR_AVALUO
 
     } = rawCarpeta;
@@ -243,7 +175,7 @@ export class ClassDemanda implements IntDemanda {
       VALOR_AVALUO
     );
     this.liquidacion=  capitalBuilder(
-      VALOR_LIQUIDACION
+      VALOR_LIQUIDACION_DEL_CREDITO
     );
 
 

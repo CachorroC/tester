@@ -16,7 +16,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     },
     {
       "idRegActuacion": 262109730,
@@ -33,7 +33,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     },
     {
       "idRegActuacion": 262109720,
@@ -50,7 +50,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     },
     {
       "idRegActuacion": 262109710,
@@ -67,7 +67,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     },
     {
       "idRegActuacion": 262109700,
@@ -84,7 +84,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     },
     {
       "idRegActuacion": 262109690,
@@ -101,7 +101,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     },
     {
       "idRegActuacion": 262109680,
@@ -118,7 +118,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     },
     {
       "idRegActuacion": 262109670,
@@ -135,7 +135,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     },
     {
       "idRegActuacion": 262109660,
@@ -152,7 +152,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     },
     {
       "idRegActuacion": 262109650,
@@ -169,7 +169,7 @@
       "cant": 10,
       "idProceso": 19222160,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:14.413Z"
+      "createdAt": "2024-02-10T00:54:59.120Z"
     }
   ],
   "category": "Terminados",
@@ -186,7 +186,7 @@
     "capitalAdeudado": "639",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2018-05-15T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:43.235Z",
     "etapaProcesal": "ADMISION",
     "fechaPresentacion": [
       "1970-01-01T00:00:43.242Z"
@@ -221,11 +221,11 @@
     "radicado": "2018 - 00999",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2021-04-04T05:00:16.000Z"
+      "1970-01-01T00:00:44.290Z"
     ],
     "medidasCautelares": {
       "id": 434,
-      "fechaOrdenaMedida": "2024-02-07T03:34:14.323Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:59.079Z",
       "medidaSolicitada": null
     }
   },
@@ -290,7 +290,7 @@
   "notas": [
     {
       "carpetaNumero": 434,
-      "createdAt": "2024-02-07T03:34:14.323Z",
+      "createdAt": "2024-02-10T00:54:59.079Z",
       "pathname": null,
       "dueDate": "2019-10-20T05:00:00.000Z",
       "text": "EL 20/09/2019 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO CUOTAS EN MORA ",
@@ -298,7 +298,7 @@
     },
     {
       "carpetaNumero": 434,
-      "createdAt": "2024-02-07T03:34:14.323Z",
+      "createdAt": "2024-02-10T00:54:59.079Z",
       "pathname": null,
       "dueDate": "2020-01-17T05:00:00.000Z",
       "text": " EL 17/12/2019 SE HIZO LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
@@ -306,12 +306,12 @@
     },
     {
       "carpetaNumero": 434,
-      "createdAt": "2024-02-07T03:34:14.323Z",
+      "createdAt": "2024-02-10T00:54:59.079Z",
       "pathname": null,
       "dueDate": "2020-01-11T05:00:00.000Z",
       "text": " EL 11/12/2019 SE DEVOLVIO DESGLOSE CON GARANTIAS A AECSA",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:14.324Z"
+  "updatedAt": "2024-02-10T00:54:59.079Z"
 }

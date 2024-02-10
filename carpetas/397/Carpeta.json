@@ -20,17 +20,15 @@
     "fechaPresentacion": [],
     "id": 397,
     "llaveProceso": "25473400300120180010600",
-    "mandamientoPago": [
-      "2018-02-06T05:00:00.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "MOSQUERA",
     "notificacion": {
       "id": 397,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2018-07-07T05:00:00.000Z",
+          "fechaRecibido": "2018-07-07T05:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
@@ -54,7 +52,7 @@
     ],
     "medidasCautelares": {
       "id": 397,
-      "fechaOrdenaMedida": "2024-02-07T03:34:11.140Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:56.150Z",
       "medidaSolicitada": null
     }
   },
@@ -84,7 +82,7 @@
   "notas": [
     {
       "carpetaNumero": 397,
-      "createdAt": "2024-02-07T03:34:11.140Z",
+      "createdAt": "2024-02-10T00:54:56.150Z",
       "pathname": null,
       "dueDate": "2021-05-27T05:00:00.000Z",
       "text": "EL 27/04/2021 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
@@ -92,7 +90,7 @@
     },
     {
       "carpetaNumero": 397,
-      "createdAt": "2024-02-07T03:34:11.140Z",
+      "createdAt": "2024-02-10T00:54:56.150Z",
       "pathname": null,
       "dueDate": null,
       "text": " LAS GARANTIAS EN FAVOR DE LA PARTE  DEMANDADA ",
@@ -100,12 +98,12 @@
     },
     {
       "carpetaNumero": 397,
-      "createdAt": "2024-02-07T03:34:11.140Z",
+      "createdAt": "2024-02-10T00:54:56.150Z",
       "pathname": null,
       "dueDate": null,
       "text": " EL LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO Y EN FAVOR DE LA PARTE DEMANDADA",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:11.140Z"
+  "updatedAt": "2024-02-10T00:54:56.150Z"
 }

@@ -74,7 +74,7 @@ model EmisorDeFactura {
 }
 
 model Deudor {
-  carpetaNumero   Int?     @unique
+  carpetaNumero   Int     @unique
   cedula          String
   direccion       String?
   email           String?
@@ -85,12 +85,12 @@ model Deudor {
   segundoNombre   String?
   telCelular      String?
   telFijo         String?
-  carpeta         Carpeta? @relation(fields: [carpetaNumero], references: [numero])
+  carpeta         Carpeta @relation(fields: [carpetaNumero], references: [numero])
 }
 
 model Codeudor {
-  carpeta       Carpeta? @relation(fields: [carpetaNumero], references: [numero])
-  carpetaNumero Int?     @unique
+  carpeta       Carpeta @relation(fields: [carpetaNumero], references: [numero])
+  carpetaNumero Int     @unique
   cedula        String?
   direccion     String?
   id            Int      @id
@@ -100,8 +100,8 @@ model Codeudor {
 
 model Demanda {
   capitalAdeudado         Decimal            @default(1000) @db.Money
-  carpeta                 Carpeta?           @relation(fields: [carpetaNumero], references: [numero])
-  carpetaNumero           Int?               @unique
+  carpeta                 Carpeta           @relation(fields: [carpetaNumero], references: [numero])
+  carpetaNumero           Int               @unique
   departamento            String?
   despacho                String?
   entregaGarantiasAbogado DateTime?          @db.Date
@@ -122,41 +122,41 @@ model Demanda {
 }
 
 model Notificacion {
-  demandaId      Int?       @unique
+  demandaId      Int       @unique
   certimail      Boolean?
   fisico         Boolean?
   id             Int        @id
   autoNotificado DateTime?  @db.Date
-  demanda        Demanda?   @relation(fields: [demandaId], references: [id])
+  demanda        Demanda   @relation(fields: [demandaId], references: [id])
   notifiers      Notifier[]
 }
 
 model MedidasCautelares {
-  demandaId         Int?      @unique
+  demandaId         Int      @unique
   fechaOrdenaMedida DateTime?
   id                Int       @id
   medidaSolicitada  String?
-  demanda           Demanda?  @relation(fields: [demandaId], references: [id])
+  demanda           Demanda  @relation(fields: [demandaId], references: [id])
 }
 
 model Notifier {
   fechaAporta    DateTime?
   fechaRecibido  DateTime?
   id             Int           @id @default(autoincrement())
-  notificacionId Int?
+  notificacionId Int
   resultado      Boolean?
   tipo           String
-  notificacion   Notificacion? @relation(fields: [notificacionId], references: [id])
+  notificacion   Notificacion @relation(fields: [notificacionId], references: [id])
 }
 
 model Nota {
   carpetaNumero Int?
   createdAt     DateTime  @default(now())
-  id            Int       @id @default(autoincrement())
+  id            Int      @default(autoincrement())
   pathname      String?
   updatedAt     DateTime  @updatedAt
   dueDate       DateTime? @db.Date
-  text          String
+  text          String @id
   content       String[]
   carpeta       Carpeta?  @relation(fields: [carpetaNumero], references: [numero])
 }

@@ -12,7 +12,7 @@
   "demanda": {
     "liquidacion": "1000",
     "avaluo": "1000",
-    "capitalAdeudado": "255635733",
+    "capitalAdeudado": "255635733.43",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": "2023-10-02T05:00:16.000Z",
@@ -45,14 +45,14 @@
     "obligacion": [
       "90000222424"
     ],
-    "radicado": "2023 - 00310",
+    "radicado": "2023-00310",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
       "2052-12-07T05:00:16.000Z"
     ],
     "medidasCautelares": {
       "id": 586,
-      "fechaOrdenaMedida": "2024-02-07T03:34:26.261Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:09.484Z",
       "medidaSolicitada": null
     }
   },
@@ -65,7 +65,7 @@
     "primerApellido": "PINEDA",
     "segundoApellido": "LEON",
     "cedula": "35507149",
-    "direccion": "Carrera 3a. No. 1 - 18 Silvania (Cundinamarca)",
+    "direccion": "Carrera 3a. NO. 1 - 18 SIlvania (Cundinamarca)",
     "email": "nancypleon13gmail.com"
   },
   "fecha": null,
@@ -82,7 +82,7 @@
   "notas": [
     {
       "carpetaNumero": 586,
-      "createdAt": "2024-02-07T03:34:26.261Z",
+      "createdAt": "2024-02-10T00:55:09.484Z",
       "pathname": null,
       "dueDate": null,
       "text": "3 OCTUBRE 2023 SE RADICA DEMANDA ",
@@ -90,7 +90,7 @@
     },
     {
       "carpetaNumero": 586,
-      "createdAt": "2024-02-07T03:34:26.261Z",
+      "createdAt": "2024-02-10T00:55:09.484Z",
       "pathname": null,
       "dueDate": null,
       "text": " 19 OCT 2023 MANDAMIENTO DE PAGO ",
@@ -98,20 +98,20 @@
     },
     {
       "carpetaNumero": 586,
-      "createdAt": "2024-02-07T03:34:26.261Z",
+      "createdAt": "2024-02-10T00:55:09.484Z",
       "pathname": null,
       "dueDate": null,
-      "text": " REVISAR MANDAMIENTO ",
+      "text": " 1 FEBRERO 2024 SE ENVIA SOLICITUD OFICIOS A JUZGADO ",
       "content": []
     },
     {
       "carpetaNumero": 586,
-      "createdAt": "2024-02-07T03:34:26.261Z",
+      "createdAt": "2024-02-10T00:55:09.484Z",
       "pathname": null,
       "dueDate": null,
-      "text": " ENVIAR IMPULSO MEIDA CAUTELAR",
+      "text": " REVISAR MANDAMIENTO ",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:26.261Z"
+  "updatedAt": "2024-02-10T00:55:09.484Z"
 }

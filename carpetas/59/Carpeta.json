@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:33:34.270Z"
+      "createdAt": "2024-02-10T00:54:25.512Z"
     },
     {
       "idRegActuacion": 707304080,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:34.270Z"
+      "createdAt": "2024-02-10T00:54:25.512Z"
     },
     {
       "idRegActuacion": 707304070,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:34.270Z"
+      "createdAt": "2024-02-10T00:54:25.512Z"
     },
     {
       "idRegActuacion": 707304060,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:34.270Z"
+      "createdAt": "2024-02-10T00:54:25.512Z"
     },
     {
       "idRegActuacion": 707304050,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 50738440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:34.270Z"
+      "createdAt": "2024-02-10T00:54:25.512Z"
     }
   ],
   "category": "Terminados",
@@ -101,7 +101,7 @@
     "capitalAdeudado": "12847942",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-09-19T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.997Z",
     "etapaProcesal": null,
     "fechaPresentacion": [
       "1970-01-01T00:00:43.004Z"
@@ -136,11 +136,11 @@
     "radicado": "2017 - 01064",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
-      "2017-10-04T05:00:16.000Z"
+      "1970-01-01T00:00:43.012Z"
     ],
     "medidasCautelares": {
       "id": 59,
-      "fechaOrdenaMedida": "2024-02-07T03:33:34.206Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:25.467Z",
       "medidaSolicitada": null
     }
   },
@@ -205,7 +205,7 @@
   "notas": [
     {
       "carpetaNumero": 59,
-      "createdAt": "2024-02-07T03:33:34.205Z",
+      "createdAt": "2024-02-10T00:54:25.466Z",
       "pathname": null,
       "dueDate": null,
       "text": "14 DE OCTUBRE DE 2017 SE DEVOLVIERON GARANTIAS PAGARE A AECSA ",
@@ -213,12 +213,12 @@
     },
     {
       "carpetaNumero": 59,
-      "createdAt": "2024-02-07T03:33:34.206Z",
+      "createdAt": "2024-02-10T00:54:25.467Z",
       "pathname": null,
       "dueDate": "2017-11-06T05:00:00.000Z",
       "text": " DEMANDA SE RETIRO DEL JUZGADO SIN MEDIDAS CAUTELARES EL 6/10/2017",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:34.206Z"
+  "updatedAt": "2024-02-10T00:54:25.468Z"
 }

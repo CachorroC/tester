@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:03.692Z"
+      "createdAt": "2024-02-10T00:54:49.515Z"
     },
     {
       "idRegActuacion": 764147210,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:03.692Z"
+      "createdAt": "2024-02-10T00:54:49.515Z"
     },
     {
       "idRegActuacion": 764147200,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:03.692Z"
+      "createdAt": "2024-02-10T00:54:49.515Z"
     },
     {
       "idRegActuacion": 764147190,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:03.692Z"
+      "createdAt": "2024-02-10T00:54:49.515Z"
     },
     {
       "idRegActuacion": 764147180,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:03.692Z"
+      "createdAt": "2024-02-10T00:54:49.515Z"
     },
     {
       "idRegActuacion": 764147170,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 50834080,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:03.692Z"
+      "createdAt": "2024-02-10T00:54:49.515Z"
     }
   ],
   "category": "Terminados",
@@ -118,30 +118,28 @@
     "capitalAdeudado": "19550288",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-10-27T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:43.035Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:43.041Z"
     ],
     "id": 326,
     "llaveProceso": "11001400303420170147100",
-    "mandamientoPago": [
-      "2017-12-04T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 326,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2017-12-04T05:00:16.000Z",
+          "fechaRecibido": "1970-01-01T00:00:43.073Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
           "tipo": "292",
-          "fechaRecibido": null,
-          "fechaAporta": "2515-01-01T00:00:00.000Z",
+          "fechaRecibido": "2515-01-01T00:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         }
       ],
@@ -155,11 +153,11 @@
     "radicado": "2017 - 01471",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2022-11-26T05:00:16.000Z"
+      "1970-01-01T00:00:44.891Z"
     ],
     "medidasCautelares": {
       "id": 326,
-      "fechaOrdenaMedida": "2024-02-07T03:34:03.611Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:49.482Z",
       "medidaSolicitada": null
     }
   },
@@ -224,7 +222,7 @@
   "notas": [
     {
       "carpetaNumero": 326,
-      "createdAt": "2024-02-07T03:34:03.611Z",
+      "createdAt": "2024-02-10T00:54:49.482Z",
       "pathname": null,
       "dueDate": "2018-03-27T05:00:00.000Z",
       "text": "EL 27/02/2018 SE DIO POR TERMINADO EL PROCESO CON RETIRO DE LA DEMANDA ",
@@ -232,7 +230,7 @@
     },
     {
       "carpetaNumero": 326,
-      "createdAt": "2024-02-07T03:34:03.611Z",
+      "createdAt": "2024-02-10T00:54:49.482Z",
       "pathname": null,
       "dueDate": null,
       "text": " EL 1(03/2018 SE DEVOLVIERON GARANTIAS A AECSA ",
@@ -240,12 +238,12 @@
     },
     {
       "carpetaNumero": 326,
-      "createdAt": "2024-02-07T03:34:03.611Z",
+      "createdAt": "2024-02-10T00:54:49.482Z",
       "pathname": null,
       "dueDate": null,
       "text": " CON MANDAMIENTO DE PAGO NO SE RETIRO OFICIO DE EMBARGO NI SE RADICO EMBAEGO DEL INMUEBLE",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:03.612Z"
+  "updatedAt": "2024-02-10T00:54:49.482Z"
 }

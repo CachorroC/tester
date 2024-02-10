@@ -47,10 +47,12 @@
     ],
     "radicado": "2018 - 00834",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [],
+    "vencimientoPagare": [
+      "1970-08-31T22:35:22.480Z"
+    ],
     "medidasCautelares": {
       "id": 488,
-      "fechaOrdenaMedida": "2024-02-07T03:34:18.558Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:02.595Z",
       "medidaSolicitada": null
     }
   },
@@ -80,7 +82,7 @@
   "notas": [
     {
       "carpetaNumero": 488,
-      "createdAt": "2024-02-07T03:34:18.558Z",
+      "createdAt": "2024-02-10T00:55:02.595Z",
       "pathname": null,
       "dueDate": null,
       "text": "EL 5 DE ABRIL DE 2019 SE DIO POR TERMINADO EL PROCESO POR PAGO CUOTAS EN MORA ",
@@ -88,7 +90,7 @@
     },
     {
       "carpetaNumero": 488,
-      "createdAt": "2024-02-07T03:34:18.558Z",
+      "createdAt": "2024-02-10T00:55:02.595Z",
       "pathname": null,
       "dueDate": null,
       "text": " EL 28 DE AGOSTO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
@@ -96,12 +98,12 @@
     },
     {
       "carpetaNumero": 488,
-      "createdAt": "2024-02-07T03:34:18.558Z",
+      "createdAt": "2024-02-10T00:55:02.595Z",
       "pathname": null,
       "dueDate": "2023-02-19T05:00:00.000Z",
       "text": " 19/01/2023 SE SOLICITO CERTIFICADO DE TRADICIÓN SIN MEDIDAS CAUTELARES",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:18.558Z"
+  "updatedAt": "2024-02-10T00:55:02.595Z"
 }

@@ -16,7 +16,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     },
     {
       "idRegActuacion": 266847680,
@@ -33,7 +33,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     },
     {
       "idRegActuacion": 266847670,
@@ -50,7 +50,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     },
     {
       "idRegActuacion": 266847660,
@@ -67,7 +67,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     },
     {
       "idRegActuacion": 266847650,
@@ -84,7 +84,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     },
     {
       "idRegActuacion": 266847640,
@@ -101,7 +101,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     },
     {
       "idRegActuacion": 266847630,
@@ -118,7 +118,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     },
     {
       "idRegActuacion": 266847620,
@@ -135,7 +135,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     },
     {
       "idRegActuacion": 266847610,
@@ -152,7 +152,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     },
     {
       "idRegActuacion": 266847600,
@@ -169,7 +169,7 @@
       "cant": 10,
       "idProceso": 17948440,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:11.690Z"
+      "createdAt": "2024-02-10T00:54:56.671Z"
     }
   ],
   "category": "Terminados",
@@ -193,9 +193,7 @@
     ],
     "id": 402,
     "llaveProceso": "11001400306420180021800",
-    "mandamientoPago": [
-      "2018-02-26T05:00:00.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 402,
@@ -227,7 +225,7 @@
     ],
     "medidasCautelares": {
       "id": 402,
-      "fechaOrdenaMedida": "2024-02-07T03:34:11.571Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:56.617Z",
       "medidaSolicitada": null
     }
   },
@@ -292,7 +290,7 @@
   "notas": [
     {
       "carpetaNumero": 402,
-      "createdAt": "2024-02-07T03:34:11.571Z",
+      "createdAt": "2024-02-10T00:54:56.617Z",
       "pathname": null,
       "dueDate": null,
       "text": "RETIRO DE LA DEMANDA SIN MEDIDAS CAUTELARES 26 DE ABRIL DE 2018 SE ENVIARON GARANTIAS A AECSA ",
@@ -300,12 +298,12 @@
     },
     {
       "carpetaNumero": 402,
-      "createdAt": "2024-02-07T03:34:11.571Z",
+      "createdAt": "2024-02-10T00:54:56.617Z",
       "pathname": null,
       "dueDate": null,
       "text": " PAGARES EN FAVOR DEL DEUDOR POR PAGO TOTAL DE LA OBLIGACION",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:11.571Z"
+  "updatedAt": "2024-02-10T00:54:56.617Z"
 }

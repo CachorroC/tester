@@ -48,10 +48,12 @@
     ],
     "radicado": "2018 - 00499",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [],
+    "vencimientoPagare": [
+      "1970-08-31T22:35:31.121Z"
+    ],
     "medidasCautelares": {
       "id": 507,
-      "fechaOrdenaMedida": "2024-02-07T03:34:19.681Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:03.277Z",
       "medidaSolicitada": null
     }
   },
@@ -81,7 +83,7 @@
   "notas": [
     {
       "carpetaNumero": 507,
-      "createdAt": "2024-02-07T03:34:19.681Z",
+      "createdAt": "2024-02-10T00:55:03.276Z",
       "pathname": null,
       "dueDate": "2019-11-01T05:00:00.000Z",
       "text": "EL 1/10/2019 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
@@ -89,7 +91,7 @@
     },
     {
       "carpetaNumero": 507,
-      "createdAt": "2024-02-07T03:34:19.681Z",
+      "createdAt": "2024-02-10T00:55:03.277Z",
       "pathname": null,
       "dueDate": "2023-03-23T05:00:00.000Z",
       "text": " EL 23/02/2023 SE HIZO EL LEVANTAMIENTO DE MEDIDA CAUTELAR CON CERTIFICADO DE TRADICION ",
@@ -97,12 +99,12 @@
     },
     {
       "carpetaNumero": 507,
-      "createdAt": "2024-02-07T03:34:19.681Z",
+      "createdAt": "2024-02-10T00:55:03.277Z",
       "pathname": null,
       "dueDate": "2019-11-01T05:00:00.000Z",
       "text": " EL 1/10/2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:19.681Z"
+  "updatedAt": "2024-02-10T00:55:03.277Z"
 }

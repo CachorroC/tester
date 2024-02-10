@@ -12,33 +12,31 @@
   "demanda": {
     "liquidacion": "1000",
     "avaluo": "1000",
-    "capitalAdeudado": "1000",
+    "capitalAdeudado": "3.77813522815548209901793015e+26",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-05-30T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.885Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.895Z"
     ],
     "id": 31,
     "llaveProceso": "25754400300320170021100",
-    "mandamientoPago": [
-      "2018-01-25T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "SOACHA",
     "notificacion": {
       "id": 31,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2018-01-25T05:00:16.000Z",
+          "fechaRecibido": "1970-01-01T00:00:43.125Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
           "tipo": "292",
-          "fechaRecibido": null,
-          "fechaAporta": "1990-01-01T05:00:00.000Z",
+          "fechaRecibido": "1990-01-01T05:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         }
       ],
@@ -52,10 +50,12 @@
     ],
     "radicado": "2017 - 00211",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [],
+    "vencimientoPagare": [
+      "1970-01-01T00:00:13.493Z"
+    ],
     "medidasCautelares": {
       "id": 31,
-      "fechaOrdenaMedida": "2024-02-07T03:33:30.506Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:22.794Z",
       "medidaSolicitada": null
     }
   },
@@ -85,7 +85,7 @@
   "notas": [
     {
       "carpetaNumero": 31,
-      "createdAt": "2024-02-07T03:33:30.506Z",
+      "createdAt": "2024-02-10T00:54:22.794Z",
       "pathname": null,
       "dueDate": null,
       "text": "EL 9 DE MAYO DE 2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
@@ -93,7 +93,7 @@
     },
     {
       "carpetaNumero": 31,
-      "createdAt": "2024-02-07T03:33:30.506Z",
+      "createdAt": "2024-02-10T00:54:22.794Z",
       "pathname": null,
       "dueDate": null,
       "text": " NO SE RETIRO OFICIO DE EMBARGO DE INMUEBLE ",
@@ -101,12 +101,12 @@
     },
     {
       "carpetaNumero": 31,
-      "createdAt": "2024-02-07T03:33:30.506Z",
+      "createdAt": "2024-02-10T00:54:22.794Z",
       "pathname": null,
       "dueDate": null,
       "text": " SIN MEDIDAS CAUTELARES",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:30.506Z"
+  "updatedAt": "2024-02-10T00:54:22.794Z"
 }

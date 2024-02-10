@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:09.436Z"
+      "createdAt": "2024-02-10T00:54:54.789Z"
     },
     {
       "idRegActuacion": 224371291,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:09.436Z"
+      "createdAt": "2024-02-10T00:54:54.789Z"
     },
     {
       "idRegActuacion": 224371281,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:09.436Z"
+      "createdAt": "2024-02-10T00:54:54.789Z"
     },
     {
       "idRegActuacion": 224371271,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:09.436Z"
+      "createdAt": "2024-02-10T00:54:54.789Z"
     },
     {
       "idRegActuacion": 224371261,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 19431801,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:09.436Z"
+      "createdAt": "2024-02-10T00:54:54.789Z"
     }
   ],
   "category": "Terminados",
@@ -136,11 +136,11 @@
     "radicado": "2018 - 00075",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2027-09-06T05:00:16.000Z"
+      "1970-01-01T00:00:46.636Z"
     ],
     "medidasCautelares": {
       "id": 381,
-      "fechaOrdenaMedida": "2024-02-07T03:34:09.361Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:54.744Z",
       "medidaSolicitada": null
     }
   },
@@ -205,7 +205,7 @@
   "notas": [
     {
       "carpetaNumero": 381,
-      "createdAt": "2024-02-07T03:34:09.361Z",
+      "createdAt": "2024-02-10T00:54:54.744Z",
       "pathname": null,
       "dueDate": "2018-05-06T05:00:00.000Z",
       "text": "EL 6/04/2018 SE RETIRO LA DEMANDA DEL JUZGADO ",
@@ -213,7 +213,7 @@
     },
     {
       "carpetaNumero": 381,
-      "createdAt": "2024-02-07T03:34:09.361Z",
+      "createdAt": "2024-02-10T00:54:54.744Z",
       "pathname": null,
       "dueDate": null,
       "text": " EL 6 /04/2018 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
@@ -221,12 +221,12 @@
     },
     {
       "carpetaNumero": 381,
-      "createdAt": "2024-02-07T03:34:09.361Z",
+      "createdAt": "2024-02-10T00:54:54.744Z",
       "pathname": null,
       "dueDate": null,
       "text": " NO HUBO MEDIDAS CAUTELARES",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:09.362Z"
+  "updatedAt": "2024-02-10T00:54:54.745Z"
 }

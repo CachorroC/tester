@@ -50,10 +50,12 @@
     ],
     "radicado": "2018 - 00237",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [],
+    "vencimientoPagare": [
+      "+013942-07-09T15:06:21.049Z"
+    ],
     "medidasCautelares": {
       "id": 419,
-      "fechaOrdenaMedida": "2024-02-07T03:34:13.059Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:57.869Z",
       "medidaSolicitada": null
     }
   },
@@ -83,7 +85,7 @@
   "notas": [
     {
       "carpetaNumero": 419,
-      "createdAt": "2024-02-07T03:34:13.059Z",
+      "createdAt": "2024-02-10T00:54:57.869Z",
       "pathname": null,
       "dueDate": "2018-08-05T05:00:00.000Z",
       "text": "EL 5/07/2018 EL JUZGADO DECRETO LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
@@ -91,12 +93,12 @@
     },
     {
       "carpetaNumero": 419,
-      "createdAt": "2024-02-07T03:34:13.059Z",
+      "createdAt": "2024-02-10T00:54:57.869Z",
       "pathname": null,
       "dueDate": null,
       "text": " GARANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO Y EN FAVOR DE LA PARTE DEMANDADA",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:13.059Z"
+  "updatedAt": "2024-02-10T00:54:57.869Z"
 }

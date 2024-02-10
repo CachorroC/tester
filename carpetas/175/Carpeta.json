@@ -12,10 +12,10 @@
   "demanda": {
     "liquidacion": "1000",
     "avaluo": "1000",
-    "capitalAdeudado": "16618551.39",
+    "capitalAdeudado": "16618551",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-08-24T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.971Z",
     "etapaProcesal": null,
     "fechaPresentacion": [
       "1970-01-01T00:00:42.978Z"
@@ -50,11 +50,11 @@
     "radicado": "2017 - 00761",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2024-04-22T05:00:16.000Z"
+      "1970-01-01T00:00:45.404Z"
     ],
     "medidasCautelares": {
       "id": 175,
-      "fechaOrdenaMedida": "2024-02-07T03:33:47.805Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:36.112Z",
       "medidaSolicitada": null
     }
   },
@@ -84,7 +84,7 @@
   "notas": [
     {
       "carpetaNumero": 175,
-      "createdAt": "2024-02-07T03:33:47.805Z",
+      "createdAt": "2024-02-10T00:54:36.112Z",
       "pathname": null,
       "dueDate": "2018-09-29T05:00:00.000Z",
       "text": "EL 29/08/2018 EL JUZGADO DA POR TERMINADO EL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
@@ -92,12 +92,12 @@
     },
     {
       "carpetaNumero": 175,
-      "createdAt": "2024-02-07T03:33:47.805Z",
+      "createdAt": "2024-02-10T00:54:36.112Z",
       "pathname": null,
       "dueDate": null,
       "text": " DESGLOSE DE GARANTIAS Y LEVANTAMIENTO DE MEDADAS CAUTELARES A CARGO DEL DEUDOR",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:47.805Z"
+  "updatedAt": "2024-02-10T00:54:36.113Z"
 }

@@ -15,16 +15,14 @@
     "capitalAdeudado": "37209133",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-05-19T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.874Z",
     "etapaProcesal": "SENTENCIA",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.885Z"
     ],
     "id": 23,
     "llaveProceso": "25307400300120170033700",
-    "mandamientoPago": [
-      "2017-07-26T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "GIRARDOT",
     "notificacion": {
       "id": 23,
@@ -53,11 +51,11 @@
     "radicado": "2017 - 00337",
     "tipoProceso": "PRENDARIO",
     "vencimientoPagare": [
-      "2017-04-26T05:00:16.000Z"
+      "1970-01-01T00:00:42.851Z"
     ],
     "medidasCautelares": {
       "id": 23,
-      "fechaOrdenaMedida": "2024-02-07T03:33:29.849Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:22.377Z",
       "medidaSolicitada": "OK"
     }
   },
@@ -87,7 +85,7 @@
   "notas": [
     {
       "carpetaNumero": 23,
-      "createdAt": "2024-02-07T03:33:29.849Z",
+      "createdAt": "2024-02-10T00:54:22.377Z",
       "pathname": null,
       "dueDate": "2019-07-06T05:00:00.000Z",
       "text": "6/06/2019 AUTO TERMINA POR PAGO TOTAL DE LA OBLIGACION ",
@@ -95,7 +93,7 @@
     },
     {
       "carpetaNumero": 23,
-      "createdAt": "2024-02-07T03:33:29.849Z",
+      "createdAt": "2024-02-10T00:54:22.377Z",
       "pathname": null,
       "dueDate": null,
       "text": "GARANTIAS DEVUELTAS EN FAVOR DEL DEUDOR ",
@@ -103,12 +101,12 @@
     },
     {
       "carpetaNumero": 23,
-      "createdAt": "2024-02-07T03:33:29.849Z",
+      "createdAt": "2024-02-10T00:54:22.377Z",
       "pathname": null,
       "dueDate": null,
       "text": " LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR DE LA PARTE DEMANDADA",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:29.849Z"
+  "updatedAt": "2024-02-10T00:54:22.377Z"
 }

@@ -22,9 +22,7 @@
     ],
     "id": 492,
     "llaveProceso": "25736408900120180013500",
-    "mandamientoPago": [
-      "2018-10-03T05:00:00.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "SESQUILE",
     "notificacion": {
       "id": 492,
@@ -37,8 +35,8 @@
         },
         {
           "tipo": "292",
-          "fechaRecibido": null,
-          "fechaAporta": "2018-02-11T05:00:00.000Z",
+          "fechaRecibido": "2018-02-11T05:00:00.000Z",
+          "fechaAporta": null,
           "resultado": null
         }
       ],
@@ -54,7 +52,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 492,
-      "fechaOrdenaMedida": "2024-02-07T03:34:18.752Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:02.708Z",
       "medidaSolicitada": null
     }
   },
@@ -84,7 +82,7 @@
   "notas": [
     {
       "carpetaNumero": 492,
-      "createdAt": "2024-02-07T03:34:18.752Z",
+      "createdAt": "2024-02-10T00:55:02.707Z",
       "pathname": null,
       "dueDate": "2019-11-17T05:00:00.000Z",
       "text": "EL 17/10/2019 EL JUZGADO DECRETA LA TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
@@ -92,7 +90,7 @@
     },
     {
       "carpetaNumero": 492,
-      "createdAt": "2024-02-07T03:34:18.752Z",
+      "createdAt": "2024-02-10T00:55:02.707Z",
       "pathname": null,
       "dueDate": null,
       "text": " GARANTIAS EN FAVOR DE LA PARTE DEMANDADA ",
@@ -100,12 +98,12 @@
     },
     {
       "carpetaNumero": 492,
-      "createdAt": "2024-02-07T03:34:18.752Z",
+      "createdAt": "2024-02-10T00:55:02.707Z",
       "pathname": null,
       "dueDate": null,
       "text": " LEVANTAMIENTO DE MEDIDAS CAUTELARES EN FAVOR DE LA DEUDORA",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:18.752Z"
+  "updatedAt": "2024-02-10T00:55:02.708Z"
 }

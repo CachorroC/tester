@@ -6,7 +6,7 @@ export class ClassNotificacion implements intNotificacion {
     rawDb: RawDb
   ) {
     const {
-      FISICO: fisico, CERTIMAIL: certimail, FECHA_AUTO_NOTIFICADO: autoNotificado, NUMERO, FECHA_RECIBO_291: fechaRecibido291, FECHA_APORTA_NOTIFICACION_291: fechaAporta291, RESULTADO_291: resultado291, FECHA_RECIBO_292: fechaRecibido292, FECHA_APORTA_NOTIFICACION_292: fechaAporta292, RESULTADO_292: resultado292
+      FISICO: fisico, CERTIMAIL: certimail, FECHA_AUTO_NOTIFICADO: autoNotificado, NUMERO, FECHA_RECIBO_291: fechaRecibido291, FECHA_APORTA_NOTIFICACION_291: fechaAporta291, RESULTADO_291: resultado291, FECHA_RECIBO_AVISO_292: fechaRecibido292, FECHA_APORTA_NOTIFICACION_292: fechaAporta292, RESULTADO_292: resultado292
     } = rawDb;
     this.id = Number(
       NUMERO

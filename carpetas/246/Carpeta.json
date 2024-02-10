@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:33:55.458Z"
+      "createdAt": "2024-02-10T00:54:42.392Z"
     },
     {
       "idRegActuacion": 125352033,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.458Z"
+      "createdAt": "2024-02-10T00:54:42.392Z"
     },
     {
       "idRegActuacion": 125352023,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.458Z"
+      "createdAt": "2024-02-10T00:54:42.392Z"
     },
     {
       "idRegActuacion": 125352013,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.458Z"
+      "createdAt": "2024-02-10T00:54:42.392Z"
     },
     {
       "idRegActuacion": 125352003,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.458Z"
+      "createdAt": "2024-02-10T00:54:42.392Z"
     },
     {
       "idRegActuacion": 125351993,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 10416913,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.458Z"
+      "createdAt": "2024-02-10T00:54:42.392Z"
     }
   ],
   "category": "Terminados",
@@ -118,7 +118,7 @@
     "capitalAdeudado": "18012121",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-09-13T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.991Z",
     "etapaProcesal": null,
     "fechaPresentacion": [
       "1970-01-01T00:00:42.997Z"
@@ -153,11 +153,11 @@
     "radicado": "2018 - 00242",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2023-11-21T05:00:16.000Z"
+      "1970-01-01T00:00:45.251Z"
     ],
     "medidasCautelares": {
       "id": 246,
-      "fechaOrdenaMedida": "2024-02-07T03:33:55.369Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:42.342Z",
       "medidaSolicitada": null
     }
   },
@@ -222,7 +222,7 @@
   "notas": [
     {
       "carpetaNumero": 246,
-      "createdAt": "2024-02-07T03:33:55.369Z",
+      "createdAt": "2024-02-10T00:54:42.342Z",
       "pathname": null,
       "dueDate": null,
       "text": "17 DE ABRIL SE RETIRO LA DEMANDA DESPUES DE PASEAR POR EL 64 DE BOGOTA Y EL 1 DE SOACHA ",
@@ -230,7 +230,7 @@
     },
     {
       "carpetaNumero": 246,
-      "createdAt": "2024-02-07T03:33:55.369Z",
+      "createdAt": "2024-02-10T00:54:42.342Z",
       "pathname": null,
       "dueDate": null,
       "text": " SE DEVUELVEN GARANTIAS EL 21Q DE ABRIL DE 2018 A AECSA S.A. ",
@@ -238,12 +238,12 @@
     },
     {
       "carpetaNumero": 246,
-      "createdAt": "2024-02-07T03:33:55.369Z",
+      "createdAt": "2024-02-10T00:54:42.342Z",
       "pathname": null,
       "dueDate": null,
       "text": " SIN MEDIDAS CAUTELARES ",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:55.369Z"
+  "updatedAt": "2024-02-10T00:54:42.342Z"
 }

@@ -16,7 +16,7 @@
       "cant": 2,
       "idProceso": 51571520,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:15.683Z"
+      "createdAt": "2024-02-10T00:55:00.242Z"
     },
     {
       "idRegActuacion": 857051540,
@@ -33,7 +33,7 @@
       "cant": 2,
       "idProceso": 51571520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:15.683Z"
+      "createdAt": "2024-02-10T00:55:00.242Z"
     }
   ],
   "category": "Terminados",
@@ -50,16 +50,14 @@
     "capitalAdeudado": "21550202",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2018-06-19T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:43.270Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:43.277Z"
     ],
     "id": 450,
     "llaveProceso": "11001400307820180064700",
-    "mandamientoPago": [
-      "2018-07-04T05:00:00.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 450,
@@ -87,11 +85,11 @@
     "radicado": "2018 - 00647",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2021-01-22T05:00:16.000Z"
+      "1970-01-01T00:00:44.218Z"
     ],
     "medidasCautelares": {
       "id": 450,
-      "fechaOrdenaMedida": "2024-02-07T03:34:15.635Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:00.201Z",
       "medidaSolicitada": null
     }
   },
@@ -156,7 +154,7 @@
   "notas": [
     {
       "carpetaNumero": 450,
-      "createdAt": "2024-02-07T03:34:15.634Z",
+      "createdAt": "2024-02-10T00:55:00.201Z",
       "pathname": null,
       "dueDate": null,
       "text": "EL 18 DE SEPTIEMBRE DE 2018 SE TERMINO EL PROCESO POR PAGO CUOTAS EN MORA ",
@@ -164,7 +162,7 @@
     },
     {
       "carpetaNumero": 450,
-      "createdAt": "2024-02-07T03:34:15.634Z",
+      "createdAt": "2024-02-10T00:55:00.201Z",
       "pathname": null,
       "dueDate": null,
       "text": " EL 17 DE ENERO DE 2019 SE DEVOLVIERON GARANTIAS A AECSA S.A. ",
@@ -172,12 +170,12 @@
     },
     {
       "carpetaNumero": 450,
-      "createdAt": "2024-02-07T03:34:15.634Z",
+      "createdAt": "2024-02-10T00:55:00.201Z",
       "pathname": null,
       "dueDate": "2023-02-19T05:00:00.000Z",
       "text": " 19/01/2023 SE SOLICITO CERTIFICADO DE TRADICIÓN SIN MEDIDAS CAUTELARES",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:15.635Z"
+  "updatedAt": "2024-02-10T00:55:00.201Z"
 }

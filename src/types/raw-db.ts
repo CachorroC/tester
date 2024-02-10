@@ -8,99 +8,127 @@
 //   import { Convert } from "./file";
 //
 //   const rawDb = Convert.toRawDb(json);
+// To parse this data:
+//
+//   import { Convert } from "./file";
+//
+//   const rawDb = Convert.toRawDb(json);
 
 import { Category } from './carpetas';
 
-export interface RawDb {
-  BIENES?:                                     number | string;
-  DESCRIPCION_MEDIDA?:                         number | string;
-  DEUDOR_CEDULA: number | string;
-  category: Category;
-  DEUDOR_CONTACTO?:                            number | string;
-  DEUDOR_DIRECCION?:                           number | string;
-  DEUDOR_EMAIL?:                               number | string;
-  DEUDOR_NOMBRE:                               string;
-  DEUDOR_TELEFONOS?:                           number | string;
-  ETAPA_PROCESAL?:                             number | string;
-  EXPEDIENTE?:                                 number | string;
-  EXTRA?:                                      string;
-  FECHA_APORTA_NOTIFICACION_291?:              number | string;
-  FECHA_APORTA_NOTIFICACION_292?:              number | string;
-  FECHA_AUTO_NOTIFICADO?:                      number | string;
-  FECHA_CAPTURA_O_SECUESTRO?:                  number | string;
-  FECHA_DECRETO_SECUESTRO_O_CAPTURA?:          number | string;
-  FECHA_ENTREGA_GARANTIAS_ABOGADO?:            number | string;
-  FECHA_MANDAMIENTO_PAGO?:                     number | string;
-  FECHA_PRESENTACION_DEMANDA?:                 number | string;
-  FECHA_RADICACION?:                           number | string;
-  FECHA_RETIRO_OFICIOS?:                       number | string;
-  FECHA_SECUESTRO?:                            number | string;
-  FECHA_SOLICITUD_CAPTURA_O_SECUESTRO?:        number | string;
-  FECHA_VENCIMIENTO_PAGARE?:                   number | null | string;
-  JUZGADO_CIUDAD:                              number | string;
-  JUZGADO_DE_ORIGEN?:                          string;
-  JUZGADO_DEPARTAMENTO:                        JuzgadoDepartamento;
-  JUZGADO_UBICACION?:                          string;
-  MEDIDA_SOLICITADA?:                          number | string;
-  NUMERO:                                      number | string;
-  OBLIGACION_0?:                               number | string;
-  OBSERVACIONES?:                              string;
-  OFICIO_NUMERO?:                              number | string;
-  PLACAS_O_MATRICULA?:                         number | string;
-  RADICADO?:                                   string;
-  RESPUESTA_EMBARGO?:                          number | string;
-  TIPO_DE_NOTIFICACION?:                       number | string;
-  TIPO_PROCESO?:                               TipoProceso;
-  VALOR_CAPITAL_ADEUDADO?:                     number | string;
-  CERTIMAIL?:                                  Certimail;
-  CODEUDOR_CEDULA?:                            number | string;
-  CODEUDOR_NOMBRE?:                            number | string;
-  FECHA_OFICIO?:                               number | string;
-  FECHA_ORDENA_MEDIDAS_CAUTELARES?:            number | string;
-  FECHA_RECIBO_291?:                           string;
-  FISICO?:                                     Certimail;
-  JUZGADO_DE_EJECUCION?:                       string;
-  RESULTADO_291?:                              number | string;
-  RESULTADO_292?:                              number | string;
-  FECHA_PRESENTACION_LIQUIDACION?:             number | string;
-  FECHA_SOLICITUD_LIQUIDACION?:                number | string;
-  VALOR_AVALUO?:                               number | string;
-  CODEUDOR_DIRECCION?:                         number | string;
-  CODEUDOR_TELEFONOS?:                         number | string;
-  FECHA_APROBACION_LIQUIDACION?:               number | string;
-  FECHA_SENTENCIA?:                            string;
-  VALOR_LIQUIDACION?:                          number | string;
-  FECHA_RECIBO_292?:                           number | string;
-  OBLIGACION_1?:                               number | string;
-  VALOR_COSTAS?:                               number | string;
-  FECHA_APROBACION_COSTAS?:                    number | string;
-  FECHA_NOMBRAMIENTO_CURADOR?:                 number | string;
-  FECHA_PUBLICACION_EMPLAZAMIENTO?:            number | string;
-  FECHA_SOLICITUD_SENTENCIA?:                  string;
-  PARQUEADERO?:                                ParqueaderoEnum | number;
-  BIENES_SECUESTRADOS?:                        number | string;
-  NOMBRE_SECUESTRO?:                           number | string;
-  CAUSAL_TERMINACION?:                         string;
-  FECHA_DEVOLUCION_GARANTIAS?:                 number | string;
-  FECHA_AUTO_TERMINACION_PROCESO?:             number | string;
-  FECHA_ADJUDICACION?:                         number | string;
-  FECHA_REMATE?:                               number | string;
-  FECHA_RADICACION_MEMORIAL_TERMINACION?:      number | string;
-  ' ULTIMO_MOVIMIENTO_IMPEDIR_DESISTIMIENTO'?: string;
-  FECHA_SUSPENSION_PROCESO?:                   string;
-  'TERMINO_SUSPENSION '?:                      string;
-  FECHA_CAPTURA?:                              string;
-  EXTRA_2?:                                    string;
-  FECHA_CIERRE?:                               string;
+export interface RawDb
+{
+  NUMERO: number | string;
+  DEMANDADO_IDENTIFICACION:                  number | string;
+  DEMANDADO_NOMBRE:                          string;
+  DEMANDADO_TELEFONOS?:                      number | string;
+  DEMANDADO_EMAIL?:                          number | string;
+  DEMANDADO_DIRECCION?:                      number | string;
+  FECHA_VENCIMIENTO_PAGARE?:                 number | string;
+  OBLIGACION_1?:                             number | string;
+  OBLIGACION_2?:                             number | string;
+  CAPITAL_ADEUDADO?:                         number | string;
+  FECHA_ENTREGA_GARANTIAS_ABOGADO?:          number | string;
+  DEPARTAMENTO:                              Departamento;
+  JUZGADO_CIUDAD:                            number | string;
+  JUZGADO_ORIGEN?:                           string;
+  TIPO_PROCESO?:                             TipoProceso;
+  RADICADO?:                                 string;
+  EXPEDIENTE?:                               number | string;
+  OBSERVACIONES?:                            string;
+  FECHA_CIERRE?:                             string;
+  EXTRA?:                                    string;
+  category:                                  Category;
+  JUZGADO_CIUDAD_1?:                         string;
+  ETAPA_PROCESAL?:                           number | string;
+  FECHA_PRESENTACION_DEMANDA?:               number | string;
+  FECHA_MANDAMIENTO_DE_PAGO?:                number | string;
+  MEDIDA_SOLICITADA?:                        number | string;
+  NUMERO_DE_OFICIO?:                         number | string;
+  FECHA_DEL_OFICIO?:                         number | string;
+  BIENES?:                                   number | string;
+  PLACAS_O_NUMERO_DE_MATRICULA?:             number | string;
+  DESCRIPCION_DE_LA_MEDIDA?:                 number | string;
+  FECHA_RETIRO_DE_OFICIOS?:                  number | string;
+  FECHA_RADICACION?:                         number | string;
+  RESPUESTA_EMBARGO?:                        number | string;
+  FECHA_SOLICITUD_CAPTURA_O_SECUESTRO?:      number | string;
+  BIENES_SECUESTRADOS?:                      number | string;
+  PARQUEADERO?:                              number | string;
+  FECHA_SOLICITUD_SENTENCIA?:                string;
+  CAUSAL_DE_TERMINACION?:                    string;
+  FECHA_DEVOLUCION_GARANTIAS?:               number | string;
+  CODEUDOR_IDENTIFICACION?:                  number | string;
+  CODEUDOR_NOMBRE?:                          number | string;
+  CODEUDOR_TELEFONOS?:                       number | string;
+  CODEUDOR_DIRECCION?:                       number | string;
+  FECHA_RECIBO_291?:                         number | string;
+  RESULTADO_291?:                            number | string;
+  FECHA_RECIBO_AVISO_292?:                   number | string;
+  RESULTADO_292?:                            number | string;
+  FECHA_PUBLICACION_EMPLAZAMIENTO?:          number | string;
+  FECHA_APORTA_NOTIFICACION_291?:            number | string;
+  TIPO_NOTIFICACION?:                        number | string;
+  FECHA_DECRETO_SECUESTRO_O_CAPTURA?:        number | string;
+  FECHA_CAPTURA?:                            number | string;
+  FECHA_SECUESTRO?:                          number | string;
+  VALOR_COSTAS?:                             number | string;
+  FECHA_NOMBRAMIENTO_CURADOR?:               number | string;
+  FECHA_AUTO_TERMINACION_PROCESO?:           number | string;
+  NOMBRE_SECUESTRE?:                         number | string;
+  FECHA_SOLICITUD_LIQUIDACION?:              number | string;
+  FECHA_APROBACION_LIQUIDACION_DEL_CREDITO?: number | string;
+  FECHA_APROBACION_COSTAS?:                  number | string;
+  VALOR_AVALUO?:                             number | string;
+  FECHA_REMATE?:                             number | string;
+  FECHA_ADJUDICACION?:                       number | string;
+  FECHA_RADICACION_MEMORIAL_TERMINACION?:    number | string;
+  JUZGADO_EJECUCION?:                        string;
+  FECHA_MANDAMIENTO_PAGO?:                   number | string;
+  FECHA_APORTA_NOTIFICACION_292?:            number | string;
+  FECHA_AUTO_NOTIFICADO?:                    number | string;
+  RESPESTA_EMBARGO?:                         number | string;
+  CONTACTO?:                                 number | string;
+  FECHA_ORDENA_MEDIDAS_CAUTELARES?:          number | string;
+  CERTIMAIL?:                                Certimail;
+  FISICO?:                                   Certimail;
+  VALOR_LIQUIDACION_DEL_CREDITO?:            number | string;
+  FECHA_SENTENCIA?:                          string;
+  FECHA_DE_PRESENTACION_LIQUIDACION?:        string;
+  FECHA_PRESENTACION_LIQUIDACION?:           number | string;
+  FECHA_NOTIFICACION?:                       Date | FechaNotificacionEnum | number;
+  ULTIMO_MOVIMIENTO_IMPEDIR_DESISTIMIENTO?:  string;
+  FECHA_DE_SUSPENSION_DEL_PROCESO?:          string;
+  TERMINO_DE_SUSPENSION?:                    string;
+  __EMPTY?:                                  string;
 }
 
-export type Certimail = 'NO' | 'SI' | '04/10/2018';
+export type Certimail = 'SI' | 'NO' | 'FALSE' | 'TRUE' | '04/10/2018';
 
-export type JuzgadoDepartamento = 'CUNDINAMARCA' | 'BOYACA' | 'ATLANTICO' | 'TOLIMA' | 'CUNDINNAMARCA' | 'BOYACÁ' | 'CUNDINAMRCA' | 'CNDINAMARCA' | 'CUNDINAMARCA ' | 'CUN DINAMARCA' | 'CUNDINNAMARCA ';
+export type Departamento = 'CUNDINAMARCA' | 'CUNDINNAMARCA' | 'CUNDINAMARCA ' | 'TOLIMA' | 'CUN DINAMARCA' | 'CUNDINNAMARCA ' | 'BOYACÁ' | 'CUNDINAMRCA' | 'CNDINAMARCA' | 'BOYACA' | 'ATLANTICO';
 
-export type ParqueaderoEnum = 'LA PRINCIPAL SAS' | 'N/A' | 'ORDENADO' | '31/05/2018' | '19/07/2019' | '23/07/2018';
+export type FechaNotificacionEnum = '9/04/2018' | 'POSITIVO' | 'NEGATIVO' | '10/09/2018' | '21/05/2018' | '08/10/2018' | '|';
 
-export type TipoProceso = 'PRENDARIO' | 'SINGULAR' | 'HIPOTECARIO' | 'HIPOTECARO' | 'SINGULAR ' | 'HMM PISO 1' | '  SINGULAR' | '5 CME' | 'SINGULAR ACUMULADO CON HIPOTECARIO' | 'SINGULAR ACUM HIPOTECARIO' | 'PRENDARO' | ' HIPOTECARIO' | '7 CME' | 'HIPOTECARIA' | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL' | 'SOACHA' | 'HIPOTECARIO ' | '18 PROMISCUO PCC';
+export type TipoProceso = 'HIPOTECARIO' | 'PRENDARIO' | 'SINGULAR' | 'SINGULAR ACUMULADO CON HIPOTECARIO' | 'SINGULAR ACUM HIPOTECARIO' | 'PRENDARO' | ' HIPOTECARIO' | '7 CME' | 'HMM PISO 1' | '  SINGULAR' | 'HIPOTECARIA' | '5 CME' | 'HIPOTECARO' | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL' | 'SOACHA' | 'HIPOTECARIO ' | '18 PROMISCUO PCC' | 'SINGULAR ';
+
+// Converts JSON strings to/from your types
+export class ConvertRawDb {
+  public static toRawDb(
+    json: string
+  ): RawDb {
+    return JSON.parse(
+      json
+    );
+  }
+
+  public static rawDbToJson(
+    value: RawDb
+  ): string {
+    return JSON.stringify(
+      value
+    );
+  }
+}
 
 // Converts JSON strings to/from your types
 

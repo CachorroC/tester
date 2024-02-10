@@ -16,7 +16,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:33:55.663Z"
+      "createdAt": "2024-02-10T00:54:42.576Z"
     },
     {
       "idRegActuacion": 817031820,
@@ -33,7 +33,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.663Z"
+      "createdAt": "2024-02-10T00:54:42.576Z"
     },
     {
       "idRegActuacion": 817031810,
@@ -50,7 +50,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.663Z"
+      "createdAt": "2024-02-10T00:54:42.576Z"
     },
     {
       "idRegActuacion": 817031800,
@@ -67,7 +67,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.663Z"
+      "createdAt": "2024-02-10T00:54:42.576Z"
     },
     {
       "idRegActuacion": 817031790,
@@ -84,7 +84,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.663Z"
+      "createdAt": "2024-02-10T00:54:42.577Z"
     },
     {
       "idRegActuacion": 817031780,
@@ -101,7 +101,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.663Z"
+      "createdAt": "2024-02-10T00:54:42.577Z"
     },
     {
       "idRegActuacion": 817031770,
@@ -118,7 +118,7 @@
       "cant": 7,
       "idProceso": 50715970,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:55.663Z"
+      "createdAt": "2024-02-10T00:54:42.577Z"
     }
   ],
   "category": "Terminados",
@@ -135,30 +135,28 @@
     "capitalAdeudado": "49971067",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-09-07T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.985Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.992Z"
     ],
     "id": 248,
     "llaveProceso": "11001400305920170087100",
-    "mandamientoPago": [
-      "2017-10-04T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 248,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2017-04-10T05:00:00.000Z",
+          "fechaRecibido": "2017-04-10T05:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
           "tipo": "292",
-          "fechaRecibido": null,
-          "fechaAporta": "4071-01-01T00:00:00.000Z",
+          "fechaRecibido": "4071-01-01T00:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         }
       ],
@@ -172,11 +170,11 @@
     "radicado": "2017 - 00871",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2017-04-22T05:00:16.000Z"
+      "1970-01-01T00:00:42.847Z"
     ],
     "medidasCautelares": {
       "id": 248,
-      "fechaOrdenaMedida": "2024-02-07T03:33:55.541Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:42.481Z",
       "medidaSolicitada": null
     }
   },
@@ -241,7 +239,7 @@
   "notas": [
     {
       "carpetaNumero": 248,
-      "createdAt": "2024-02-07T03:33:55.541Z",
+      "createdAt": "2024-02-10T00:54:42.481Z",
       "pathname": null,
       "dueDate": "2017-12-23T05:00:00.000Z",
       "text": "23/11/2017 SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA A AECSA ",
@@ -249,7 +247,7 @@
     },
     {
       "carpetaNumero": 248,
-      "createdAt": "2024-02-07T03:33:55.541Z",
+      "createdAt": "2024-02-10T00:54:42.481Z",
       "pathname": null,
       "dueDate": "2017-12-22T05:00:00.000Z",
       "text": " 22/11/2017 LA DEMANDA SE RETIRO POR LA APODERADA DEL BANCO ",
@@ -257,7 +255,7 @@
     },
     {
       "carpetaNumero": 248,
-      "createdAt": "2024-02-07T03:33:55.541Z",
+      "createdAt": "2024-02-10T00:54:42.481Z",
       "pathname": null,
       "dueDate": null,
       "text": " NO SE RETIRO OFICIO DE EMBARGO ",
@@ -265,12 +263,12 @@
     },
     {
       "carpetaNumero": 248,
-      "createdAt": "2024-02-07T03:33:55.541Z",
+      "createdAt": "2024-02-10T00:54:42.481Z",
       "pathname": null,
       "dueDate": null,
       "text": " SIN REGISTRO DE MEDIDAS CAUTELARES ",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:55.541Z"
+  "updatedAt": "2024-02-10T00:54:42.481Z"
 }

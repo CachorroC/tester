@@ -12,8 +12,8 @@ import { ClassDemanda, NewJuzgado } from './demanda';
 import { ClassDeudor } from './deudor';
 import { PrismaClient } from '@prisma/client';
 import Carpetas from '../data/carpetas';
-import { RawDb } from '../types/raw-db';
 import { NotasBuilder } from './nota';
+import { RawDb } from '../types/raw-db';
 
 export const client = new PrismaClient(
   {
@@ -47,22 +47,22 @@ export class NewJudicial implements IntCarpeta {
   ) {
     const {
       NUMERO: numero,
-      DEUDOR_CEDULA: cedula,
+      DEMANDADO_IDENTIFICACION: cedula,
       EXPEDIENTE: llaveProceso,
-      DEUDOR_NOMBRE,
+      DEMANDADO_NOMBRE,
       CODEUDOR_NOMBRE,
-      CODEUDOR_CEDULA,
+      CODEUDOR_IDENTIFICACION,
       CODEUDOR_DIRECCION,
       CODEUDOR_TELEFONOS,
       TIPO_PROCESO,
       EXTRA,
-      EXTRA_2,
       OBSERVACIONES,
     } = rawCarpeta;
 
     let idBuilder;
 
     if ( OBSERVACIONES ) {
+
       const extras = OBSERVACIONES.split(
         '//'
       );
@@ -81,23 +81,6 @@ export class NewJudicial implements IntCarpeta {
 
     if ( EXTRA ) {
       const extras = EXTRA.split(
-        '//'
-      );
-
-      for ( const extra of extras ) {
-        const newNoter = new NotasBuilder(
-          extra, Number(
-            numero
-          )
-        );
-        this.notas.push(
-          newNoter
-        );
-      }
-    }
-
-    if ( EXTRA_2 ) {
-      const extras = EXTRA_2.split(
         '//'
       );
 
@@ -144,7 +127,7 @@ export class NewJudicial implements IntCarpeta {
       rawCarpeta
     );
     this.nombre = String(
-      DEUDOR_NOMBRE
+      DEMANDADO_NOMBRE
     )
       .toLocaleLowerCase();
     this.revisado = false;
@@ -154,9 +137,9 @@ export class NewJudicial implements IntCarpeta {
           CODEUDOR_NOMBRE
         )
         : null,
-      cedula: CODEUDOR_CEDULA
+      cedula: CODEUDOR_IDENTIFICACION
         ? String(
-          CODEUDOR_CEDULA
+          CODEUDOR_IDENTIFICACION
         )
         : null,
       direccion: CODEUDOR_DIRECCION
@@ -251,36 +234,52 @@ export class NewJudicial implements IntCarpeta {
           proceso.idProceso
         );
       }
+
+
     } catch ( error ) {
       console.log(
         `${ this.numero } => error en CarpetaBuilder.getProcesos(${ this.numero }) => ${ error }`
       );
     }
+
+    return this.procesos;
   }
 
-  async updateProcesosinPrisma() {
-    const prismaInserter = await client.proceso.createMany(
-      {
-        data: this.procesos.map(
-          (
-            proceso
-          ) => {
-            const {
-              juzgado, ...fixedProceso
-            } = proceso;
-            return {
-              ...fixedProceso,
-              juzgadoTipo  : juzgado.tipo,
-              carpetaNumero: this.numero,
-            };
-          }
-        ),
-        skipDuplicates: true,
-      }
-    );
-    console.log(
-      prismaInserter
-    );
+  async updateProcesosinPrisma () {
+    try {
+      const prismaInserter = await client.proceso.createMany(
+        {
+          data: this.procesos.map(
+            (
+              proceso
+            ) => {
+              const {
+                juzgado, ...fixedProceso
+              } = proceso;
+              return {
+                ...fixedProceso,
+                juzgadoTipo  : juzgado.tipo,
+                carpetaNumero: this.numero,
+              };
+            }
+          ),
+          skipDuplicates: true,
+        }
+      );
+      console.log(
+        prismaInserter
+      );
+    } catch ( error ) {
+
+      console.log(
+        `${ this.numero } error al intentar insertar los procesos en prisma: ${ JSON.stringify(
+          error,
+          null,
+          2
+        ) }`
+      );
+    }
+
 
     for ( const proceso of this.procesos ) {
       try {
@@ -347,7 +346,7 @@ export class NewJudicial implements IntCarpeta {
     }
   }
   async getActuaciones() {
-    if ( !this.idProcesos ) {
+    if ( !this.idProcesos || this.idProcesos.length === 0 ) {
       return;
     }
 
@@ -526,400 +525,400 @@ export class NewJudicial implements IntCarpeta {
     }
   }
   async prismaUpdater() {
-    /*  try { */
-    const upserter = await client.carpeta.upsert(
-      {
-        where: {
-          numero: this.numero,
-        },
-        create: {
-          id          : this.id,
-          revisado    : false,
-          tipoProceso : this.tipoProceso as TipoProceso,
-          llaveProceso: this.llaveProceso,
-          idProcesos  : this.idProcesos,
-          nombre      : this.nombre.toLocaleLowerCase(),
-          numero      : this.numero,
-          category    : this.category,
-          fecha       : this.fecha,
-          terminado:
+    try {
+      const upserter = await client.carpeta.upsert(
+        {
+          where: {
+            numero: this.numero,
+          },
+          create: {
+            id          : this.id,
+            revisado    : false,
+            tipoProceso : this.tipoProceso as TipoProceso,
+            llaveProceso: this.llaveProceso,
+            idProcesos  : this.idProcesos,
+            nombre      : this.nombre.toLocaleLowerCase(),
+            numero      : this.numero,
+            category    : this.category,
+            fecha       : this.fecha,
+            terminado:
           this.category === 'Terminados'
             ? true
             : false,
-          ultimaActuacion: this.ultimaActuacion
-            ? {
-                connectOrCreate: {
-                  where: {
-                    idRegActuacion:
+            ultimaActuacion: this.ultimaActuacion
+              ? {
+                  connectOrCreate: {
+                    where: {
+                      idRegActuacion:
                     this.ultimaActuacion.idRegActuacion,
+                    },
+                    create: {
+                      ...this.ultimaActuacion,
+                    },
                   },
-                  create: {
-                    ...this.ultimaActuacion,
-                  },
-                },
-              }
-            : undefined,
-          notas: {
-            createMany: {
-              data: this.notas.map(
-                (
-                  nota, index
-                ) => {
-                  console.log(
-                    index
-                  );
-                  return {
-                    text     : nota.text,
-                    dueDate  : nota.dueDate,
-                    createdAt: nota.createdAt,
-                    pathname : nota.pathname,
-                    content  : nota.content
-                  };
                 }
-              ),
-              skipDuplicates: true,
-            },
-          },
-          demanda: {
-            connectOrCreate: {
-              where: {
-                id: this.numero,
+              : undefined,
+            notas: {
+              createMany: {
+                data: this.notas.map(
+                  (
+                    nota, index
+                  ) => {
+                    console.log(
+                      index
+                    );
+                    return {
+                      text     : nota.text,
+                      dueDate  : nota.dueDate,
+                      createdAt: nota.createdAt,
+                      pathname : nota.pathname,
+                      content  : nota.content
+                    };
+                  }
+                ),
+                skipDuplicates: true,
               },
-              create: {
-                ...this.demanda,
-                id               : this.numero,
-                medidasCautelares: {
-                  connectOrCreate: {
-                    where: {
-                      demandaId: this.numero,
-                    },
-                    create: {
-                      ...this.demanda.medidasCautelares,
-                      id: this.numero,
+            },
+            demanda: {
+              connectOrCreate: {
+                where: {
+                  id: this.numero,
+                },
+                create: {
+                  ...this.demanda,
+                  id               : this.numero,
+                  medidasCautelares: {
+                    connectOrCreate: {
+                      where: {
+                        demandaId: this.numero,
+                      },
+                      create: {
+                        ...this.demanda.medidasCautelares,
+                        id: this.numero,
+                      },
                     },
                   },
-                },
-                notificacion: {
-                  connectOrCreate: {
-                    where: {
-                      demandaId: this.numero,
-                    },
-                    create: {
-                      autoNotificado:
+                  notificacion: {
+                    connectOrCreate: {
+                      where: {
+                        demandaId: this.numero,
+                      },
+                      create: {
+                        autoNotificado:
                       this.demanda.notificacion
                         ?.autoNotificado,
-                      certimail: this.demanda.notificacion
-                        ?.certimail
-                        ? this.demanda.notificacion.certimail
-                        : false,
-                      fisico: this.demanda.notificacion
-                        ?.fisico
-                        ? this.demanda.notificacion.fisico
-                        : false,
-                      id       : this.numero,
-                      notifiers: this.demanda.notificacion
-                        ?.notifiers
-                        ? {
-                            createMany: {
-                              data: this.demanda.notificacion?.notifiers.map(
-                                (
-                                  notifier
-                                ) => {
-                                  return {
-                                    tipo: notifier.tipo,
-                                    fechaAporta:
+                        certimail: this.demanda.notificacion
+                          ?.certimail
+                          ? this.demanda.notificacion.certimail
+                          : false,
+                        fisico: this.demanda.notificacion
+                          ?.fisico
+                          ? this.demanda.notificacion.fisico
+                          : false,
+                        id       : this.numero,
+                        notifiers: this.demanda.notificacion
+                          ?.notifiers
+                          ? {
+                              createMany: {
+                                data: this.demanda.notificacion?.notifiers.map(
+                                  (
+                                    notifier
+                                  ) => {
+                                    return {
+                                      tipo: notifier.tipo,
+                                      fechaAporta:
                                     notifier.fechaAporta?.toString()
                                     === 'Invalid Date'
                                       ? null
                                       : notifier.fechaAporta,
-                                    fechaRecibido:
+                                      fechaRecibido:
                                     notifier.fechaRecibido?.toString()
                                     === 'Invalid Date'
                                       ? null
                                       : notifier.fechaRecibido,
-                                    resultado:
+                                      resultado:
                                     notifier.resultado,
-                                  };
-                                }
-                              ),
-                              skipDuplicates: true,
-                            },
-                          }
-                        : undefined,
+                                    };
+                                  }
+                                ),
+                                skipDuplicates: true,
+                              },
+                            }
+                          : undefined,
+                      },
                     },
                   },
                 },
               },
             },
-          },
-          deudor: {
-            connectOrCreate: {
-              where: {
-                id: this.numero,
-              },
-              create: {
-                primerNombre   : this.deudor.primerNombre,
-                primerApellido : this.deudor.primerApellido,
-                segundoNombre  : this.deudor.segundoNombre,
-                segundoApellido: this.deudor.segundoApellido,
-                email          : this.deudor.email,
-                direccion      : this.deudor.direccion,
-                id             : this.numero,
-                cedula         : String(
-                  this.deudor.cedula
-                ),
-                telCelular: this.deudor.telCelular
-                  ? String(
-                    this.deudor.telCelular
-                  )
-                  : null,
-                telFijo: this.deudor.telFijo
-                  ? String(
-                    this.deudor.telFijo
-                  )
-                  : null,
-              },
-            },
-          },
-          codeudor: {
-            connectOrCreate: {
-              where: {
-                id: this.numero,
-              },
-              create: {
-                ...this.codeudor,
-                id: this.numero,
+            deudor: {
+              connectOrCreate: {
+                where: {
+                  id: this.numero,
+                },
+                create: {
+                  primerNombre   : this.deudor.primerNombre,
+                  primerApellido : this.deudor.primerApellido,
+                  segundoNombre  : this.deudor.segundoNombre,
+                  segundoApellido: this.deudor.segundoApellido,
+                  email          : this.deudor.email,
+                  direccion      : this.deudor.direccion,
+                  id             : this.numero,
+                  cedula         : String(
+                    this.deudor.cedula
+                  ),
+                  telCelular: this.deudor.telCelular
+                    ? String(
+                      this.deudor.telCelular
+                    )
+                    : null,
+                  telFijo: this.deudor.telFijo
+                    ? String(
+                      this.deudor.telFijo
+                    )
+                    : null,
+                },
               },
             },
-          },
-          procesos: {
-            connectOrCreate: this.procesos?.map(
-              (
-                proceso
-              ) => {
-                return {
-                  where: {
-                    idProceso: proceso.idProceso,
-                  },
-                  create: {
-                    ...proceso,
-                    juzgado: {
-                      connectOrCreate: {
-                        where: {
-                          tipo: proceso.juzgado.tipo,
-                        },
-                        create: proceso.juzgado,
-                      },
+            codeudor: {
+              connectOrCreate: {
+                where: {
+                  id: this.numero,
+                },
+                create: {
+                  ...this.codeudor,
+                  id: this.numero,
+                },
+              },
+            },
+            procesos: {
+              connectOrCreate: this.procesos?.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      idProceso: proceso.idProceso,
                     },
-                    actuaciones: {
-                      createMany: {
-                        data: this.actuaciones.map(
-                          (
-                            actuacion
-                          ) => {
-                            return {
-                              ...actuacion,
-                              isUltimaAct:
+                    create: {
+                      ...proceso,
+                      juzgado: {
+                        connectOrCreate: {
+                          where: {
+                            tipo: proceso.juzgado.tipo,
+                          },
+                          create: proceso.juzgado,
+                        },
+                      },
+                      actuaciones: {
+                        createMany: {
+                          data: this.actuaciones.map(
+                            (
+                              actuacion
+                            ) => {
+                              return {
+                                ...actuacion,
+                                isUltimaAct:
                             actuacion.cant
                             === actuacion.consActuacion
                               ? true
                               : false,
-                              createdAt     : new Date(),
-                              fechaActuacion: new Date(
-                                actuacion.fechaActuacion
-                              ),
-                              fechaRegistro: new Date(
-                                actuacion.fechaRegistro
-                              ),
-                              fechaInicial:
+                                createdAt     : new Date(),
+                                fechaActuacion: new Date(
+                                  actuacion.fechaActuacion
+                                ),
+                                fechaRegistro: new Date(
+                                  actuacion.fechaRegistro
+                                ),
+                                fechaInicial:
                             actuacion.fechaInicial
                               ? new Date(
                                 actuacion.fechaInicial
                               )
                               : null,
-                              fechaFinal: actuacion.fechaFinal
-                                ? new Date(
-                                  actuacion.fechaFinal
-                                )
-                                : null,
-                            };
-                          }
-                        ),
-                        skipDuplicates: true,
+                                fechaFinal: actuacion.fechaFinal
+                                  ? new Date(
+                                    actuacion.fechaFinal
+                                  )
+                                  : null,
+                              };
+                            }
+                          ),
+                          skipDuplicates: true,
+                        },
                       },
                     },
-                  },
-                };
-              }
-            ),
-          },
-        },
-        update: {
-          id          : this.id,
-          llaveProceso: this.llaveProceso,
-          idProcesos  : this.idProcesos,
-          nombre      : this.nombre.toLocaleLowerCase(),
-          numero      : this.numero,
-          category    : this.category,
-          fecha       : this.fecha,
-          terminado:
-          this.category === 'Terminados'
-            ? true
-            : false,
-          ultimaActuacion: this.ultimaActuacion
-            ? {
-                connectOrCreate: {
-                  where: {
-                    idRegActuacion:
-                    this.ultimaActuacion.idRegActuacion,
-                  },
-                  create: {
-                    ...this.ultimaActuacion,
-                  },
-                },
-              }
-            : undefined,
-          notas: {
-            createMany: {
-              data: this.notas.map(
-                (
-                  nota, index
-                ) => {
-                  console.log(
-                    index
-                  );
-                  return {
-                    text     : nota.text,
-                    createdAt: nota.createdAt,
-                    dueDate  : nota.dueDate,
-                    pathname : nota.pathname,
-                    content  : nota.content,
                   };
                 }
               ),
-              skipDuplicates: true,
             },
           },
-          demanda: {
-            connectOrCreate: {
-              where: {
-                id: this.numero,
-              },
-              create: {
-                ...this.demanda,
-                id               : this.numero,
-                medidasCautelares: {
+          update: {
+            id          : this.id,
+            llaveProceso: this.llaveProceso,
+            idProcesos  : this.idProcesos,
+            nombre      : this.nombre.toLocaleLowerCase(),
+            numero      : this.numero,
+            category    : this.category,
+            fecha       : this.fecha,
+            terminado:
+          this.category === 'Terminados'
+            ? true
+            : false,
+            ultimaActuacion: this.ultimaActuacion
+              ? {
                   connectOrCreate: {
                     where: {
-                      demandaId: this.numero,
+                      idRegActuacion:
+                    this.ultimaActuacion.idRegActuacion,
                     },
                     create: {
-                      ...this.demanda.medidasCautelares,
-                      id: this.numero,
+                      ...this.ultimaActuacion,
                     },
                   },
-                },
-                notificacion: {
-                  connectOrCreate: {
-                    where: {
-                      demandaId: this.numero,
-                    },
-                    create: {
-                      autoNotificado:
-                      this.demanda.notificacion
-                        ?.autoNotificado,
-                      certimail: this.demanda.notificacion
-                        ?.certimail
-                        ? this.demanda.notificacion.certimail
-                        : false,
-                      fisico: this.demanda.notificacion
-                        ?.fisico
-                        ? this.demanda.notificacion.fisico
-                        : false,
-                      id: this.numero,
-                    },
-                  },
-                },
-              },
-            },
-          },
-          deudor: {
-            connectOrCreate: {
-              where: {
-                id: this.numero,
-              },
-              create: {
-                primerNombre   : this.deudor.primerNombre,
-                primerApellido : this.deudor.primerApellido,
-                segundoNombre  : this.deudor.segundoNombre,
-                segundoApellido: this.deudor.segundoApellido,
-                email          : this.deudor.email,
-                direccion      : this.deudor.direccion,
-                id             : this.numero,
-                cedula         : String(
-                  this.deudor.cedula
+                }
+              : undefined,
+            notas: {
+              createMany: {
+                data: this.notas.map(
+                  (
+                    nota, index
+                  ) => {
+                    console.log(
+                      index
+                    );
+                    return {
+                      text     : nota.text,
+                      createdAt: nota.createdAt,
+                      dueDate  : nota.dueDate,
+                      pathname : nota.pathname,
+                      content  : nota.content,
+                    };
+                  }
                 ),
-                telCelular: this.deudor.telCelular
-                  ? String(
-                    this.deudor.telCelular
-                  )
-                  : null,
-                telFijo: this.deudor.telFijo
-                  ? String(
-                    this.deudor.telFijo
-                  )
-                  : null,
+                skipDuplicates: true,
               },
             },
-          },
-          codeudor: {
-            connectOrCreate: {
-              where: {
-                id: this.numero,
-              },
-              create: {
-                ...this.codeudor,
-                id: this.numero,
-              },
-            },
-          },
-          procesos: {
-            connectOrCreate: this.procesos?.map(
-              (
-                proceso
-              ) => {
-                return {
-                  where: {
-                    idProceso: proceso.idProceso,
-                  },
-                  create: {
-                    ...proceso,
-                    juzgado: {
-                      connectOrCreate: {
-                        where: {
-                          tipo: proceso.juzgado.tipo,
-                        },
-                        create: proceso.juzgado,
+            demanda: {
+              connectOrCreate: {
+                where: {
+                  id: this.numero,
+                },
+                create: {
+                  ...this.demanda,
+                  id               : this.numero,
+                  medidasCautelares: {
+                    connectOrCreate: {
+                      where: {
+                        demandaId: this.numero,
+                      },
+                      create: {
+                        ...this.demanda.medidasCautelares,
+                        id: this.numero,
                       },
                     },
                   },
-                };
-              }
-            ),
+                  notificacion: {
+                    connectOrCreate: {
+                      where: {
+                        demandaId: this.numero,
+                      },
+                      create: {
+                        autoNotificado:
+                      this.demanda.notificacion
+                        ?.autoNotificado,
+                        certimail: this.demanda.notificacion
+                          ?.certimail
+                          ? this.demanda.notificacion.certimail
+                          : false,
+                        fisico: this.demanda.notificacion
+                          ?.fisico
+                          ? this.demanda.notificacion.fisico
+                          : false,
+                        id: this.numero,
+                      },
+                    },
+                  },
+                },
+              },
+            },
+            deudor: {
+              connectOrCreate: {
+                where: {
+                  id: this.numero,
+                },
+                create: {
+                  primerNombre   : this.deudor.primerNombre,
+                  primerApellido : this.deudor.primerApellido,
+                  segundoNombre  : this.deudor.segundoNombre,
+                  segundoApellido: this.deudor.segundoApellido,
+                  email          : this.deudor.email,
+                  direccion      : this.deudor.direccion,
+                  id             : this.numero,
+                  cedula         : String(
+                    this.deudor.cedula
+                  ),
+                  telCelular: this.deudor.telCelular
+                    ? String(
+                      this.deudor.telCelular
+                    )
+                    : null,
+                  telFijo: this.deudor.telFijo
+                    ? String(
+                      this.deudor.telFijo
+                    )
+                    : null,
+                },
+              },
+            },
+            codeudor: {
+              connectOrCreate: {
+                where: {
+                  id: this.numero,
+                },
+                create: {
+                  ...this.codeudor,
+                  id: this.numero,
+                },
+              },
+            },
+            procesos: {
+              connectOrCreate: this.procesos?.map(
+                (
+                  proceso
+                ) => {
+                  return {
+                    where: {
+                      idProceso: proceso.idProceso,
+                    },
+                    create: {
+                      ...proceso,
+                      juzgado: {
+                        connectOrCreate: {
+                          where: {
+                            tipo: proceso.juzgado.tipo,
+                          },
+                          create: proceso.juzgado,
+                        },
+                      },
+                    },
+                  };
+                }
+              ),
+            },
           },
-        },
-      }
-    );
-    return upserter;
-    /*   } catch ( error ) {
-      throw new Error(
-        `prismaUpdaterError => ${ JSON.stringify(
+        }
+      );
+      return upserter;
+    } catch ( error ) {
+      console.log(
+        `${ this.numero } prismaUpdaterError => ${ JSON.stringify(
           error, null, 2
         ) }`
 
       );
-
-    } */
+      return null;
+    }
   }
 }
 
@@ -961,6 +960,10 @@ async function getProcesosIdk() {
   const newCarpetas = new Map();
 
   for ( const carpeta of Carpetas ) {
+    console.log(
+      `inicia la carpeta numero ${ carpeta.NUMERO }`
+    );
+
     const newCarpeta = new NewJudicial(
       carpeta,
       carpeta.category

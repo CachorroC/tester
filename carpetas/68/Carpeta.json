@@ -12,27 +12,25 @@
   "demanda": {
     "liquidacion": "1000",
     "avaluo": "1000",
-    "capitalAdeudado": "16302624",
+    "capitalAdeudado": "16302624.57",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.898Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.908Z"
     ],
     "id": 68,
     "llaveProceso": "25899400300220170027000",
-    "mandamientoPago": [
-      "2017-07-13T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "ZIPAQUIRA",
     "notificacion": {
       "id": 68,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2017-07-13T05:00:16.000Z",
+          "fechaRecibido": "1970-01-01T00:00:42.929Z",
+          "fechaAporta": null,
           "resultado": null
         },
         {
@@ -53,11 +51,11 @@
     "radicado": "2017 - 00270",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2031-01-18T05:00:16.000Z"
+      "1970-01-01T00:00:47.866Z"
     ],
     "medidasCautelares": {
       "id": 68,
-      "fechaOrdenaMedida": "2024-02-07T03:33:35.185Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:26.313Z",
       "medidaSolicitada": null
     }
   },
@@ -87,7 +85,7 @@
   "notas": [
     {
       "carpetaNumero": 68,
-      "createdAt": "2024-02-07T03:33:35.185Z",
+      "createdAt": "2024-02-10T00:54:26.313Z",
       "pathname": null,
       "dueDate": "2017-11-01T05:00:00.000Z",
       "text": "EL 1/10/2017 SE RETIRO LA DEMANDA DEL JUZGADO SIN MEDIDAS CAUTELARES EFECTIVAS ",
@@ -95,12 +93,12 @@
     },
     {
       "carpetaNumero": 68,
-      "createdAt": "2024-02-07T03:33:35.185Z",
+      "createdAt": "2024-02-10T00:54:26.313Z",
       "pathname": null,
       "dueDate": "2017-12-23T05:00:00.000Z",
       "text": " 23/11/2017 SE DEVOLVIERON LAS GARANTIAS A AECSA S.A.",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:35.185Z"
+  "updatedAt": "2024-02-10T00:54:26.313Z"
 }

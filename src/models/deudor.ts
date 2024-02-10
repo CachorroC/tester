@@ -51,7 +51,7 @@ export class ClassDeudor implements IntDeudor {
   ) {
 
     const {
-      DEUDOR_CEDULA: cedula, DEUDOR_DIRECCION: direccion, DEUDOR_EMAIL: email, DEUDOR_TELEFONOS: telefono, DEUDOR_NOMBRE: nombre, NUMERO: id
+      DEMANDADO_IDENTIFICACION: cedula, DEMANDADO_DIRECCION: direccion, DEMANDADO_EMAIL: email, DEMANDADO_TELEFONOS: telefono, DEMANDADO_NOMBRE: nombre, NUMERO: id
     } = rawCarpeta;
     this.id = Number(
       id

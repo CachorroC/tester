@@ -16,7 +16,7 @@
       "cant": 3,
       "idProceso": 112967583,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:22.412Z"
+      "createdAt": "2024-02-10T00:55:06.053Z"
     },
     {
       "idRegActuacion": 1124270563,
@@ -33,7 +33,7 @@
       "cant": 3,
       "idProceso": 112967583,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:22.412Z"
+      "createdAt": "2024-02-10T00:55:06.053Z"
     },
     {
       "idRegActuacion": 1111340493,
@@ -50,7 +50,7 @@
       "cant": 3,
       "idProceso": 112967583,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:22.412Z"
+      "createdAt": "2024-02-10T00:55:06.053Z"
     }
   ],
   "category": "Reintegra",
@@ -64,7 +64,7 @@
   "demanda": {
     "liquidacion": "1000",
     "avaluo": "1000",
-    "capitalAdeudado": "39855851",
+    "capitalAdeudado": "39855851.41",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
     "entregaGarantiasAbogado": null,
@@ -193,7 +193,7 @@
   "notas": [
     {
       "carpetaNumero": 541,
-      "createdAt": "2024-02-07T03:34:22.350Z",
+      "createdAt": "2024-02-10T00:55:05.986Z",
       "pathname": null,
       "dueDate": "2023-04-01T05:00:00.000Z",
       "text": "1/03/2023 RESPUESTA DERECHO DE PETICION SE PROGRAMARÁ DESPACHO COMISORIO Y SE AVISARÁ POR CORREO ",
@@ -201,7 +201,7 @@
     },
     {
       "carpetaNumero": 541,
-      "createdAt": "2024-02-07T03:34:22.350Z",
+      "createdAt": "2024-02-10T00:55:05.986Z",
       "pathname": null,
       "dueDate": null,
       "text": " SE ENVIA INVITACION A REGULARIZAR EL CREDITO ",
@@ -209,7 +209,7 @@
     },
     {
       "carpetaNumero": 541,
-      "createdAt": "2024-02-07T03:34:22.350Z",
+      "createdAt": "2024-02-10T00:55:05.986Z",
       "pathname": null,
       "dueDate": null,
       "text": " DILIGENCIA SECUESTRO 15 AGOSOTO 2023 ",
@@ -217,7 +217,7 @@
     },
     {
       "carpetaNumero": 541,
-      "createdAt": "2024-02-07T03:34:22.350Z",
+      "createdAt": "2024-02-10T00:55:05.986Z",
       "pathname": null,
       "dueDate": null,
       "text": " 24 AGOSTO 2023 BNO SE REALIZO DILIGENCIA ERROR EN DIRECCION ",
@@ -225,7 +225,7 @@
     },
     {
       "carpetaNumero": 541,
-      "createdAt": "2024-02-07T03:34:22.350Z",
+      "createdAt": "2024-02-10T00:55:05.986Z",
       "pathname": null,
       "dueDate": null,
       "text": " SOLICITAR A COMISARIA DEVOLUCION DC Y JUZGADO OFICIAR OFICINA DE INSTRUMENTOIS ENVIGADO SOBRE CORRECCION DIRECCION  ",
@@ -233,12 +233,12 @@
     },
     {
       "carpetaNumero": 541,
-      "createdAt": "2024-02-07T03:34:22.351Z",
+      "createdAt": "2024-02-10T00:55:05.986Z",
       "pathname": null,
       "dueDate": "2024-01-13T05:00:00.000Z",
       "text": " 13/12/2023 SE ENVIO SOLICITUD PARA REALIZAR DILIGENCIA DE SECUESTRO DEL INMUEBLE A LA ALCALDIA DE ENVIGADO INSPECCION DE POLICIA",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:22.351Z"
+  "updatedAt": "2024-02-10T00:55:05.986Z"
 }

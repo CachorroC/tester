@@ -16,7 +16,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:24:28.301Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268350,
@@ -33,7 +33,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.301Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268340,
@@ -50,7 +50,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.301Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268330,
@@ -67,7 +67,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.301Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268320,
@@ -84,7 +84,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.301Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268310,
@@ -101,7 +101,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.301Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268300,
@@ -118,7 +118,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.301Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268290,
@@ -135,7 +135,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.301Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268280,
@@ -152,7 +152,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.302Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268270,
@@ -169,7 +169,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.302Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     },
     {
       "idRegActuacion": 638268260,
@@ -186,7 +186,7 @@
       "cant": 11,
       "idProceso": 50465740,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:24:28.302Z"
+      "createdAt": "2024-02-10T00:54:21.405Z"
     }
   ],
   "category": "Terminados",
@@ -203,7 +203,7 @@
     "capitalAdeudado": "25758912",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-05-11T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.866Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.879Z"
@@ -238,11 +238,11 @@
     "radicado": "2017 - 00667",
     "tipoProceso": "PRENDARIO",
     "vencimientoPagare": [
-      "2020-04-20T05:00:16.000Z"
+      "1970-01-01T00:00:43.941Z"
     ],
     "medidasCautelares": {
       "id": 8,
-      "fechaOrdenaMedida": "2024-02-07T03:24:27.965Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:21.346Z",
       "medidaSolicitada": null
     }
   },
@@ -307,12 +307,12 @@
   "notas": [
     {
       "carpetaNumero": 8,
-      "createdAt": "2024-02-07T03:24:27.965Z",
+      "createdAt": "2024-02-10T00:54:21.345Z",
       "pathname": null,
       "dueDate": "2022-01-12T05:00:00.000Z",
       "text": "1 DE SEPTIEMBRE DE 2017 RETIRO DE LA DEMANDA SIN MEDIDAS CAUTELARES VERIFICADAS EN EL RUNT EL 12/12/2021 SE DEVOLVIERON GARANTIAS EL 11 DE SEPTIEMBRE DE 2017",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:24:27.966Z"
+  "updatedAt": "2024-02-10T00:54:21.347Z"
 }

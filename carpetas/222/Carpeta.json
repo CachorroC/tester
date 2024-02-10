@@ -16,7 +16,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:33:52.501Z"
+      "createdAt": "2024-02-10T00:54:39.838Z"
     },
     {
       "idRegActuacion": 725462980,
@@ -33,7 +33,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:52.501Z"
+      "createdAt": "2024-02-10T00:54:39.838Z"
     },
     {
       "idRegActuacion": 725462970,
@@ -50,7 +50,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:52.501Z"
+      "createdAt": "2024-02-10T00:54:39.838Z"
     },
     {
       "idRegActuacion": 725462960,
@@ -67,7 +67,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:52.501Z"
+      "createdAt": "2024-02-10T00:54:39.838Z"
     },
     {
       "idRegActuacion": 725462950,
@@ -84,7 +84,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:52.501Z"
+      "createdAt": "2024-02-10T00:54:39.838Z"
     },
     {
       "idRegActuacion": 725462940,
@@ -101,7 +101,7 @@
       "cant": 6,
       "idProceso": 50688520,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:52.501Z"
+      "createdAt": "2024-02-10T00:54:39.838Z"
     }
   ],
   "category": "Terminados",
@@ -115,33 +115,31 @@
   "demanda": {
     "liquidacion": "1000",
     "avaluo": "1000",
-    "capitalAdeudado": "51145474.58",
+    "capitalAdeudado": "51145474",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-08-30T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.977Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.982Z"
     ],
     "id": 222,
     "llaveProceso": "11001400302820170085800",
-    "mandamientoPago": [
-      "2017-09-12T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 222,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2017-09-12T05:00:16.000Z",
+          "fechaRecibido": "1970-01-01T00:00:42.990Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
           "tipo": "292",
-          "fechaRecibido": null,
-          "fechaAporta": "2000-01-01T00:00:00.000Z",
+          "fechaRecibido": "2000-01-01T00:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         }
       ],
@@ -155,11 +153,11 @@
     "radicado": "2017 - 00858",
     "tipoProceso": "HIPOTECARIO",
     "vencimientoPagare": [
-      "2022-05-03T05:00:16.000Z"
+      "1970-01-01T00:00:44.684Z"
     ],
     "medidasCautelares": {
       "id": 222,
-      "fechaOrdenaMedida": "2024-02-07T03:33:52.384Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:39.799Z",
       "medidaSolicitada": null
     }
   },
@@ -224,7 +222,7 @@
   "notas": [
     {
       "carpetaNumero": 222,
-      "createdAt": "2024-02-07T03:33:52.384Z",
+      "createdAt": "2024-02-10T00:54:39.799Z",
       "pathname": null,
       "dueDate": null,
       "text": "16 DE DICIEMBRE DE 2017 SE DEVOLVIERON GARANTIAS PAGARE Y ESCRITURA A AECSA ",
@@ -232,7 +230,7 @@
     },
     {
       "carpetaNumero": 222,
-      "createdAt": "2024-02-07T03:33:52.384Z",
+      "createdAt": "2024-02-10T00:54:39.799Z",
       "pathname": null,
       "dueDate": "2018-01-07T05:00:00.000Z",
       "text": " EL 7/12/2017 SE RETIRO DEMANDA DEL JUZGADO ",
@@ -240,7 +238,7 @@
     },
     {
       "carpetaNumero": 222,
-      "createdAt": "2024-02-07T03:33:52.384Z",
+      "createdAt": "2024-02-10T00:54:39.799Z",
       "pathname": null,
       "dueDate": null,
       "text": " NO SE RETIRO OFICIO DE EMBARGO ",
@@ -248,12 +246,12 @@
     },
     {
       "carpetaNumero": 222,
-      "createdAt": "2024-02-07T03:33:52.384Z",
+      "createdAt": "2024-02-10T00:54:39.799Z",
       "pathname": null,
       "dueDate": null,
       "text": " NO SE RADICARON MEDIDAS CAUTELARES EN CONTRA DEL DEUDOR",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:52.384Z"
+  "updatedAt": "2024-02-10T00:54:39.800Z"
 }

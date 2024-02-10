@@ -16,7 +16,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     },
     {
       "idRegActuacion": 855693880,
@@ -33,7 +33,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     },
     {
       "idRegActuacion": 855693870,
@@ -50,7 +50,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     },
     {
       "idRegActuacion": 855693860,
@@ -67,7 +67,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     },
     {
       "idRegActuacion": 855693850,
@@ -84,7 +84,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     },
     {
       "idRegActuacion": 855693840,
@@ -101,7 +101,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     },
     {
       "idRegActuacion": 855693830,
@@ -118,7 +118,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     },
     {
       "idRegActuacion": 855693820,
@@ -135,7 +135,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     },
     {
       "idRegActuacion": 855693810,
@@ -152,7 +152,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     },
     {
       "idRegActuacion": 855693800,
@@ -169,7 +169,7 @@
       "cant": 10,
       "idProceso": 50667490,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:45.123Z"
+      "createdAt": "2024-02-10T00:54:33.921Z"
     }
   ],
   "category": "Terminados",
@@ -186,30 +186,28 @@
     "capitalAdeudado": "1000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-08-22T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.969Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.975Z"
     ],
     "id": 151,
     "llaveProceso": "11001400307320170113500",
-    "mandamientoPago": [
-      "2017-09-11T05:00:16.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 151,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2017-09-11T05:00:16.000Z",
+          "fechaRecibido": "1970-01-01T00:00:42.989Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
           "tipo": "292",
-          "fechaRecibido": null,
-          "fechaAporta": "3675-01-01T00:00:00.000Z",
+          "fechaRecibido": "3675-01-01T00:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         }
       ],
@@ -226,7 +224,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 151,
-      "fechaOrdenaMedida": "2024-02-07T03:33:44.963Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:33.879Z",
       "medidaSolicitada": null
     }
   },
@@ -291,7 +289,7 @@
   "notas": [
     {
       "carpetaNumero": 151,
-      "createdAt": "2024-02-07T03:33:44.962Z",
+      "createdAt": "2024-02-10T00:54:33.879Z",
       "pathname": null,
       "dueDate": "2018-05-03T05:00:00.000Z",
       "text": "EL 3/04/2018 LA APODERADA DEL BANCO RETIRA DEMANDA DEL JUZGADO ",
@@ -299,7 +297,7 @@
     },
     {
       "carpetaNumero": 151,
-      "createdAt": "2024-02-07T03:33:44.963Z",
+      "createdAt": "2024-02-10T00:54:33.879Z",
       "pathname": null,
       "dueDate": "2018-05-06T05:00:00.000Z",
       "text": " EL 6/04/2018 SE DEVUELVE DESGLOSE CON GARANTIAS A AECSA S.A. ",
@@ -307,12 +305,12 @@
     },
     {
       "carpetaNumero": 151,
-      "createdAt": "2024-02-07T03:33:44.963Z",
+      "createdAt": "2024-02-10T00:54:33.879Z",
       "pathname": null,
       "dueDate": "2018-05-06T05:00:00.000Z",
       "text": " EL 6/04/2018 SE ENTEGRAN OFICIOS DE EMBARGO SIN TRAMITAR AL JUZGADO",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:44.963Z"
+  "updatedAt": "2024-02-10T00:54:33.879Z"
 }

@@ -16,7 +16,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:34:26.825Z"
+      "createdAt": "2024-02-10T00:55:10.292Z"
     },
     {
       "idRegActuacion": 1314970781,
@@ -33,7 +33,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.825Z"
+      "createdAt": "2024-02-10T00:55:10.292Z"
     },
     {
       "idRegActuacion": 1314970771,
@@ -50,7 +50,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.825Z"
+      "createdAt": "2024-02-10T00:55:10.292Z"
     },
     {
       "idRegActuacion": 1313440011,
@@ -67,7 +67,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.825Z"
+      "createdAt": "2024-02-10T00:55:10.292Z"
     },
     {
       "idRegActuacion": 1313440001,
@@ -84,7 +84,7 @@
       "cant": 5,
       "idProceso": 162013641,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:34:26.825Z"
+      "createdAt": "2024-02-10T00:55:10.292Z"
     }
   ],
   "category": "Bancolombia",
@@ -131,14 +131,14 @@
     "obligacion": [
       "2230105704"
     ],
-    "radicado": "2023 - 1099",
+    "radicado": "2023-1099",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
       "2026-06-04T05:00:16.000Z"
     ],
     "medidasCautelares": {
       "id": 593,
-      "fechaOrdenaMedida": "2024-02-07T03:34:26.774Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:10.234Z",
       "medidaSolicitada": null
     }
   },
@@ -151,7 +151,7 @@
     "primerApellido": "GARCIA",
     "segundoApellido": null,
     "cedula": "79823203",
-    "direccion": "Calle 6 A No. 89 – 47 Casa 561 Conjunto Residencial TINTALA Fase VI de la ciudad de Bogotá",
+    "direccion": "Calle 6 A NO. 89 – 47 Casa 561 Conjunto ReSIdencial TINTALA Fase VI de la ciudad de Bogotá",
     "email": "mulasycamiones@hotmail.com"
   },
   "fecha": "2023-12-13T05:00:00.000Z",
@@ -203,7 +203,7 @@
   "notas": [
     {
       "carpetaNumero": 593,
-      "createdAt": "2024-02-07T03:34:26.774Z",
+      "createdAt": "2024-02-10T00:55:10.234Z",
       "pathname": null,
       "dueDate": null,
       "text": "23 OCTUBRE SE RADICA DEMANDA",
@@ -211,7 +211,7 @@
     },
     {
       "carpetaNumero": 593,
-      "createdAt": "2024-02-07T03:34:26.774Z",
+      "createdAt": "2024-02-10T00:55:10.234Z",
       "pathname": null,
       "dueDate": null,
       "text": " 2 NOV 2023 AL DESPACHO ",
@@ -219,7 +219,7 @@
     },
     {
       "carpetaNumero": 593,
-      "createdAt": "2024-02-07T03:34:26.774Z",
+      "createdAt": "2024-02-10T00:55:10.234Z",
       "pathname": null,
       "dueDate": null,
       "text": " 10 NOV 2023 LIBRA MANDAMIENTO DE PAGO ",
@@ -227,12 +227,20 @@
     },
     {
       "carpetaNumero": 593,
-      "createdAt": "2024-02-07T03:34:26.774Z",
+      "createdAt": "2024-02-10T00:55:10.234Z",
       "pathname": null,
       "dueDate": null,
       "text": "MANDAMIENTO OK ",
       "content": []
+    },
+    {
+      "carpetaNumero": 593,
+      "createdAt": "2024-02-10T00:55:10.234Z",
+      "pathname": null,
+      "dueDate": null,
+      "text": " 5 FEBRERO 2023 SE RADICA SOLICITUD OFICIOS ",
+      "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:26.774Z"
+  "updatedAt": "2024-02-10T00:55:10.235Z"
 }

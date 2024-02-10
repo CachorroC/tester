@@ -16,7 +16,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378280,
@@ -33,7 +33,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378270,
@@ -50,7 +50,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378260,
@@ -67,7 +67,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378250,
@@ -84,7 +84,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378240,
@@ -101,7 +101,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378230,
@@ -118,7 +118,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378220,
@@ -135,7 +135,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378210,
@@ -152,7 +152,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378200,
@@ -169,7 +169,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378190,
@@ -186,7 +186,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378180,
@@ -203,7 +203,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     },
     {
       "idRegActuacion": 587378170,
@@ -220,7 +220,7 @@
       "cant": 13,
       "idProceso": 50760770,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:58.419Z"
+      "createdAt": "2024-02-10T00:54:44.581Z"
     }
   ],
   "category": "Terminados",
@@ -244,23 +244,21 @@
     ],
     "id": 272,
     "llaveProceso": "11001400300620170076300",
-    "mandamientoPago": [
-      "2017-10-09T05:00:00.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 272,
       "notifiers": [
         {
           "tipo": "291",
-          "fechaRecibido": null,
-          "fechaAporta": "2017-09-10T05:00:00.000Z",
+          "fechaRecibido": "2017-09-10T05:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         },
         {
           "tipo": "292",
-          "fechaRecibido": null,
-          "fechaAporta": "2064-01-01T00:00:00.000Z",
+          "fechaRecibido": "2064-01-01T00:00:00.000Z",
+          "fechaAporta": null,
           "resultado": false
         }
       ],
@@ -278,7 +276,7 @@
     ],
     "medidasCautelares": {
       "id": 272,
-      "fechaOrdenaMedida": "2024-02-07T03:33:58.303Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:44.537Z",
       "medidaSolicitada": null
     }
   },
@@ -343,7 +341,7 @@
   "notas": [
     {
       "carpetaNumero": 272,
-      "createdAt": "2024-02-07T03:33:58.303Z",
+      "createdAt": "2024-02-10T00:54:44.537Z",
       "pathname": null,
       "dueDate": null,
       "text": "12 DE DICIEMBRE DE 2017 SE DEVOLVIERON GARANTIAS PAGARE Y PRENDA A AECSA ",
@@ -351,7 +349,7 @@
     },
     {
       "carpetaNumero": 272,
-      "createdAt": "2024-02-07T03:33:58.303Z",
+      "createdAt": "2024-02-10T00:54:44.537Z",
       "pathname": null,
       "dueDate": "2018-01-07T05:00:00.000Z",
       "text": " 7/12/2017 SE RETIRO POR LA APODERADA DEL BANCO LA DEMANDA ",
@@ -359,7 +357,7 @@
     },
     {
       "carpetaNumero": 272,
-      "createdAt": "2024-02-07T03:33:58.303Z",
+      "createdAt": "2024-02-10T00:54:44.537Z",
       "pathname": null,
       "dueDate": null,
       "text": " NO SE RETIRO OFICIO DE EMBARGO ",
@@ -367,12 +365,12 @@
     },
     {
       "carpetaNumero": 272,
-      "createdAt": "2024-02-07T03:33:58.303Z",
+      "createdAt": "2024-02-10T00:54:44.537Z",
       "pathname": null,
       "dueDate": null,
       "text": " NO SE REGISTRO MEDIDA CAUTELAR CONTRA EL DEUDOR",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:58.303Z"
+  "updatedAt": "2024-02-10T00:54:44.538Z"
 }

@@ -16,7 +16,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": true,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989850,
@@ -33,7 +33,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989840,
@@ -50,7 +50,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989830,
@@ -67,7 +67,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989820,
@@ -84,7 +84,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989810,
@@ -101,7 +101,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989800,
@@ -118,7 +118,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989790,
@@ -135,7 +135,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989780,
@@ -152,7 +152,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989770,
@@ -169,7 +169,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989760,
@@ -186,7 +186,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     },
     {
       "idRegActuacion": 856989750,
@@ -203,7 +203,7 @@
       "cant": 12,
       "idProceso": 51542360,
       "isUltimaAct": false,
-      "createdAt": "2024-02-07T03:33:46.118Z"
+      "createdAt": "2024-02-10T00:54:34.496Z"
     }
   ],
   "category": "Terminados",
@@ -220,16 +220,14 @@
     "capitalAdeudado": "12000000",
     "departamento": "CUNDINAMARCA",
     "despacho": null,
-    "entregaGarantiasAbogado": "2017-08-22T05:00:16.000Z",
+    "entregaGarantiasAbogado": "1970-01-01T00:00:42.969Z",
     "etapaProcesal": "NOTIFICACION",
     "fechaPresentacion": [
       "1970-01-01T00:00:42.975Z"
     ],
     "id": 160,
     "llaveProceso": "11001400307820170076200",
-    "mandamientoPago": [
-      "2017-08-31T05:00:00.000Z"
-    ],
+    "mandamientoPago": [],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 160,
@@ -261,7 +259,7 @@
     ],
     "medidasCautelares": {
       "id": 160,
-      "fechaOrdenaMedida": "2024-02-07T03:33:46.004Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:34.403Z",
       "medidaSolicitada": null
     }
   },
@@ -326,7 +324,7 @@
   "notas": [
     {
       "carpetaNumero": 160,
-      "createdAt": "2024-02-07T03:33:46.004Z",
+      "createdAt": "2024-02-10T00:54:34.402Z",
       "pathname": null,
       "dueDate": "2019-08-02T05:00:00.000Z",
       "text": "EL 2/07/2019 EL JUZGADO DECRETO TERMINACION DEL PROCESO POR PAGO TOTAL DE LA OBLIGACION ",
@@ -334,12 +332,12 @@
     },
     {
       "carpetaNumero": 160,
-      "createdAt": "2024-02-07T03:33:46.004Z",
+      "createdAt": "2024-02-10T00:54:34.402Z",
       "pathname": null,
       "dueDate": null,
       "text": " DESGLOSE DE GARANTIAS Y LEVANTAMIENTO DE MEDIDAS CAUTELARES A CARGO DEL DEUDOR",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:46.004Z"
+  "updatedAt": "2024-02-10T00:54:34.403Z"
 }

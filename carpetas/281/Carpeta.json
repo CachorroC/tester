@@ -42,7 +42,7 @@
       ],
       "certimail": null,
       "fisico": null,
-      "autoNotificado": "2018-10-09T05:00:00.000Z"
+      "autoNotificado": null
     },
     "obligacion": [
       "112.243.598.43"
@@ -52,7 +52,7 @@
     "vencimientoPagare": [],
     "medidasCautelares": {
       "id": 281,
-      "fechaOrdenaMedida": "2024-02-07T03:33:59.367Z",
+      "fechaOrdenaMedida": "2024-02-10T00:54:45.992Z",
       "medidaSolicitada": null
     }
   },
@@ -82,7 +82,7 @@
   "notas": [
     {
       "carpetaNumero": 281,
-      "createdAt": "2024-02-07T03:33:59.366Z",
+      "createdAt": "2024-02-10T00:54:45.992Z",
       "pathname": null,
       "dueDate": "2019-08-29T05:00:00.000Z",
       "text": "EL 29/07/2019 EL JUZGADO DECRETO TERMINACION PROCESO POR PAGO CUOTAS EN MORA ",
@@ -90,7 +90,7 @@
     },
     {
       "carpetaNumero": 281,
-      "createdAt": "2024-02-07T03:33:59.367Z",
+      "createdAt": "2024-02-10T00:54:45.992Z",
       "pathname": null,
       "dueDate": "2019-10-30T05:00:00.000Z",
       "text": " EL 30/09/2019 SE RADICO LEVANTAMIENTO MEDIDA CAUTELAR DE EMBARGO ",
@@ -98,12 +98,12 @@
     },
     {
       "carpetaNumero": 281,
-      "createdAt": "2024-02-07T03:33:59.367Z",
+      "createdAt": "2024-02-10T00:54:45.992Z",
       "pathname": null,
       "dueDate": "2019-11-01T05:00:00.000Z",
       "text": " EL 1/10/2019 SE DEVOLVIERON GARANTIAS Y DESGLOSE A AECSA",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:33:59.367Z"
+  "updatedAt": "2024-02-10T00:54:45.992Z"
 }

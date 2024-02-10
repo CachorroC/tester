@@ -49,10 +49,12 @@
     ],
     "radicado": "2018 - 00988",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [],
+    "vencimientoPagare": [
+      "1970-08-31T22:35:28.826Z"
+    ],
     "medidasCautelares": {
       "id": 490,
-      "fechaOrdenaMedida": "2024-02-07T03:34:18.647Z",
+      "fechaOrdenaMedida": "2024-02-10T00:55:02.640Z",
       "medidaSolicitada": null
     }
   },
@@ -82,7 +84,7 @@
   "notas": [
     {
       "carpetaNumero": 490,
-      "createdAt": "2024-02-07T03:34:18.647Z",
+      "createdAt": "2024-02-10T00:55:02.639Z",
       "pathname": null,
       "dueDate": "2019-04-26T05:00:00.000Z",
       "text": "EL 26/03/2019 EL JUZGADO DIO POR TERMINADO EL PROCESO POR PAGO CUOTAS EN MORA ",
@@ -90,7 +92,7 @@
     },
     {
       "carpetaNumero": 490,
-      "createdAt": "2024-02-07T03:34:18.647Z",
+      "createdAt": "2024-02-10T00:55:02.639Z",
       "pathname": null,
       "dueDate": null,
       "text": " EL 4 DE SEPTIEMBRE DE 2019 SE LEVANTO EMBARGO DEL INMUEBLE CERTIFICADO DE TRADICION ",
@@ -98,12 +100,12 @@
     },
     {
       "carpetaNumero": 490,
-      "createdAt": "2024-02-07T03:34:18.647Z",
+      "createdAt": "2024-02-10T00:55:02.640Z",
       "pathname": null,
       "dueDate": "2019-10-19T05:00:00.000Z",
       "text": " EL 19/09/2019 SE DEVOLVIERON GARANTIAS A AECSA S.A.",
       "content": []
     }
   ],
-  "updatedAt": "2024-02-07T03:34:18.647Z"
+  "updatedAt": "2024-02-10T00:55:02.640Z"
 }
