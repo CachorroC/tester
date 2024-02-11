@@ -698,9 +698,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:43.025Z",
     "etapaProcesal": "LIQUIDACION",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:43.040Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:43.040Z"],
     "id": 324,
     "llaveProceso": "11001400300120170084900",
     "mandamientoPago": [],
@@ -725,15 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "164578",
-      "1380081489"
-    ],
+    "obligacion": ["164578", "1380081489"],
     "radicado": "2017 - 00849",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:44.156Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:44.156Z"],
     "medidasCautelares": {
       "id": 324,
       "fechaOrdenaMedida": null,
@@ -753,9 +746,7 @@
     "email": "majupi170301@hotmail.com"
   },
   "fecha": "2020-02-03T05:00:00.000Z",
-  "idProcesos": [
-    50548450
-  ],
+  "idProcesos": [50548450],
   "idRegUltimaAct": 952462630,
   "llaveProceso": "11001400300120170084900",
   "nombre": "jose edwin morales alfonso",

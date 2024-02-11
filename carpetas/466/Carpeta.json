@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-02-05T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-05T05:00:00.000Z"],
     "id": 466,
     "llaveProceso": "11001400305220180011700",
-    "mandamientoPago": [
-      "2018-05-29T05:00:00.000Z"
-    ],
+    "mandamientoPago": ["2018-05-29T05:00:00.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 466,
@@ -727,10 +723,7 @@
       "fisico": false,
       "autoNotificado": "2018-10-12T05:00:16.000Z"
     },
-    "obligacion": [
-      "37781415851035/",
-      "4099830008406922 / 5303710339142355"
-    ],
+    "obligacion": ["37781415851035/", "4099830008406922 / 5303710339142355"],
     "radicado": "2018 - 00117",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
@@ -756,9 +749,7 @@
     "email": "djpaez5@hotmail.com"
   },
   "fecha": "2024-01-22T05:00:00.000Z",
-  "idProcesos": [
-    50990370
-  ],
+  "idProcesos": [50990370],
   "idRegUltimaAct": 1945093300,
   "llaveProceso": "11001400305220180011700",
   "nombre": "darley julied paez higuera",

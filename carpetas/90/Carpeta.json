@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2019-01-01T05:00:16.000Z",
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": [
-      "2017-06-20T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-20T05:00:16.000Z"],
     "id": 90,
     "llaveProceso": "11001400303420170083600",
-    "mandamientoPago": [
-      "2017-07-10T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-07-10T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 90,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2019-01-25T05:00:16.000Z"
     },
-    "obligacion": [
-      "12330030"
-    ],
+    "obligacion": ["12330030"],
     "radicado": "2017 - 00836",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-06-09T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-06-09T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 90,
       "fechaOrdenaMedida": "2017-07-10T05:00:16.000Z",
@@ -754,10 +746,7 @@
     "email": "orduzcrit2@hotmail.com"
   },
   "fecha": "2024-01-11T05:00:00.000Z",
-  "idProcesos": [
-    50521480,
-    81728891
-  ],
+  "idProcesos": [50521480, 81728891],
   "idRegUltimaAct": 1943409350,
   "llaveProceso": "11001400303420170083600",
   "nombre": "luis esneider orduz farfan ",

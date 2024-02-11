@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-08-11T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-08-23T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-23T05:00:16.000Z"],
     "id": 191,
     "llaveProceso": "11001400307920170108200",
-    "mandamientoPago": [
-      "2017-09-13T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-09-13T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 191,
@@ -727,14 +723,10 @@
       "fisico": true,
       "autoNotificado": "2018-05-22T05:00:16.000Z"
     },
-    "obligacion": [
-      "1220084112"
-    ],
+    "obligacion": ["1220084112"],
     "radicado": "2017 - 01082",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-11-30T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-11-30T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 191,
       "fechaOrdenaMedida": "2017-09-13T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": "jhon.valencia@jvtel.com.co"
   },
   "fecha": "2024-01-23T05:00:00.000Z",
-  "idProcesos": [
-    51357750
-  ],
+  "idProcesos": [51357750],
   "idRegUltimaAct": 1947136300,
   "llaveProceso": "11001400307920170108200",
   "nombre": "john alexander valencia marquez",

@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-05-19T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN ",
-    "fechaPresentacion": [
-      "2017-05-30T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-30T05:00:16.000Z"],
     "id": 25,
     "llaveProceso": "11001310301120170033500",
-    "mandamientoPago": [
-      "2017-08-14T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-08-14T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 25,
@@ -727,14 +723,10 @@
       "fisico": true,
       "autoNotificado": "2019-08-21T05:00:16.000Z"
     },
-    "obligacion": [
-      "12705806"
-    ],
+    "obligacion": ["12705806"],
     "radicado": "2017 - 00335",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-05-10T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-05-10T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 25,
       "fechaOrdenaMedida": "2017-08-14T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": null
   },
   "fecha": "2023-03-10T05:00:00.000Z",
-  "idProcesos": [
-    1805257424
-  ],
+  "idProcesos": [1805257424],
   "idRegUltimaAct": 1096493124,
   "llaveProceso": "11001310301120170033500",
   "nombre": "omar dario zea galvis",

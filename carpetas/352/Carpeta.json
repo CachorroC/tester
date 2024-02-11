@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-09-29T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-10-17T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-17T05:00:16.000Z"],
     "id": 352,
     "llaveProceso": "11001400307620170101600",
-    "mandamientoPago": [
-      "2017-10-25T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-10-25T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 352,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": null
     },
-    "obligacion": [
-      "4280023383"
-    ],
+    "obligacion": ["4280023383"],
     "radicado": "2017 - 01016",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-05-20T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2019-05-20T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 352,
       "fechaOrdenaMedida": "2017-10-25T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": null
   },
   "fecha": "2024-02-09T05:00:00.000Z",
-  "idProcesos": [
-    51499790
-  ],
+  "idProcesos": [51499790],
   "idRegUltimaAct": 1951820950,
   "llaveProceso": "11001400307620170101600",
   "nombre": "mario de jesus ossa pulgarin",

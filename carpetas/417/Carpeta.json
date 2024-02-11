@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-12-06T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-12-06T05:00:00.000Z"],
     "id": 417,
     "llaveProceso": "11001400307120170125000",
-    "mandamientoPago": [
-      "2020-02-20T05:00:00.000Z"
-    ],
+    "mandamientoPago": ["2020-02-20T05:00:00.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 417,
@@ -727,10 +723,7 @@
       "fisico": false,
       "autoNotificado": null
     },
-    "obligacion": [
-      "5740084511",
-      "6390082501"
-    ],
+    "obligacion": ["5740084511", "6390082501"],
     "radicado": "2017 - 01250",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
@@ -756,9 +749,7 @@
     "email": "oscarmultibog@hotmail.com"
   },
   "fecha": "2022-03-10T05:00:00.000Z",
-  "idProcesos": [
-    64793050
-  ],
+  "idProcesos": [64793050],
   "idRegUltimaAct": 1262834390,
   "llaveProceso": "11001400307120170125000",
   "nombre": "oscar humberto gomez chuchin",

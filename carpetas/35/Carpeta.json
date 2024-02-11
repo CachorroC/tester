@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-05-19T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-05-30T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-30T05:00:16.000Z"],
     "id": 35,
     "llaveProceso": "11001400302620170051100",
-    "mandamientoPago": [
-      "2017-06-30T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-06-30T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 35,
@@ -727,15 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "5303722385820750",
-      "AUTOPRESTAMO"
-    ],
+    "obligacion": ["5303722385820750", "AUTOPRESTAMO"],
     "radicado": "2017-00511",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2016-09-16T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2016-09-16T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 35,
       "fechaOrdenaMedida": "2017-06-30T05:00:16.000Z",
@@ -755,9 +746,7 @@
     "email": "luiscagv@yahoo.com"
   },
   "fecha": "2023-04-13T05:00:00.000Z",
-  "idProcesos": [
-    50477000
-  ],
+  "idProcesos": [50477000],
   "idRegUltimaAct": 1709328210,
   "llaveProceso": "11001400302620170051100",
   "nombre": "luis carlos gutierrez velandia",

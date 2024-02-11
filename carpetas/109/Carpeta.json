@@ -613,9 +613,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:42.948Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.955Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.955Z"],
     "id": 109,
     "llaveProceso": "11001400302420180011900",
     "mandamientoPago": [],
@@ -640,14 +638,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "12491571"
-    ],
+    "obligacion": ["12491571"],
     "radicado": "2018 - 00119",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:42.942Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:42.942Z"],
     "medidasCautelares": {
       "id": 109,
       "fechaOrdenaMedida": "2024-02-10T00:54:30.095Z",
@@ -667,9 +661,7 @@
     "email": "oscar.agudelo@crcom.gov.co"
   },
   "fecha": "2019-12-10T05:00:00.000Z",
-  "idProcesos": [
-    50990990
-  ],
+  "idProcesos": [50990990],
   "idRegUltimaAct": 903204510,
   "llaveProceso": "11001400302420180011900",
   "nombre": "oscar ivan agudelo mora",

@@ -375,9 +375,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:42.984Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.991Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.991Z"],
     "id": 226,
     "llaveProceso": "11001400305520170094300",
     "mandamientoPago": [],
@@ -402,14 +400,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "12583959"
-    ],
+    "obligacion": ["12583959"],
     "radicado": "2017 - 00943",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:42.978Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:42.978Z"],
     "medidasCautelares": {
       "id": 226,
       "fechaOrdenaMedida": "2024-02-10T00:54:40.124Z",
@@ -429,9 +423,7 @@
     "email": "ngurrero@hotmail.com"
   },
   "fecha": "2019-01-28T05:00:00.000Z",
-  "idProcesos": [
-    17050494
-  ],
+  "idProcesos": [17050494],
   "idRegUltimaAct": 458509034,
   "llaveProceso": "11001400305520170094300",
   "nombre": "nestor german urrego aguilera",

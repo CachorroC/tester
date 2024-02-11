@@ -409,14 +409,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": [
-      "2018-09-13T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-09-13T05:00:00.000Z"],
     "id": 480,
     "llaveProceso": "25307400300320210053900",
-    "mandamientoPago": [
-      "2018-09-27T05:00:00.000Z"
-    ],
+    "mandamientoPago": ["2018-09-27T05:00:00.000Z"],
     "municipio": "GIRARDOT",
     "notificacion": {
       "id": 480,
@@ -438,10 +434,7 @@
       "fisico": true,
       "autoNotificado": null
     },
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "5306960687119070"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "5306960687119070"],
     "radicado": "2021 - 00539",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
@@ -467,9 +460,7 @@
     "email": "adriana.0806@hotmail.com"
   },
   "fecha": "2023-03-10T05:00:00.000Z",
-  "idProcesos": [
-    121826111
-  ],
+  "idProcesos": [121826111],
   "idRegUltimaAct": 1230524231,
   "llaveProceso": "25307400300320210053900",
   "nombre": "adriana vanegas peña",

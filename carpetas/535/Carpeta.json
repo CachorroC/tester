@@ -451,15 +451,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "370091753",
-      "3700700231"
-    ],
+    "obligacion": ["370091753", "3700700231"],
     "radicado": "2020 - 00823",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2022-11-01T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2022-11-01T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 535,
       "fechaOrdenaMedida": "2024-02-10T00:55:05.441Z",
@@ -479,9 +474,7 @@
     "email": "amandagaitan@hotmail.com"
   },
   "fecha": "2022-04-25T05:00:00.000Z",
-  "idProcesos": [
-    112082810
-  ],
+  "idProcesos": [112082810],
   "idRegUltimaAct": 1275698720,
   "llaveProceso": "11001400306920200082300",
   "nombre": "amanda lucia gaitan rincón ",

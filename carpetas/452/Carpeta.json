@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-02-05T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-05T05:00:00.000Z"],
     "id": 452,
     "llaveProceso": "11001400305920180009000",
-    "mandamientoPago": [
-      "2018-02-26T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2018-02-26T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 452,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2018-09-10T05:00:16.000Z"
     },
-    "obligacion": [
-      "1740087269"
-    ],
+    "obligacion": ["1740087269"],
     "radicado": "2018 - 00090",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-03-07T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2020-03-07T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 452,
       "fechaOrdenaMedida": "2018-02-26T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": "mauriciosamu1128@gmail.com"
   },
   "fecha": "2022-03-25T05:00:00.000Z",
-  "idProcesos": [
-    50989890
-  ],
+  "idProcesos": [50989890],
   "idRegUltimaAct": 1267048930,
   "llaveProceso": "11001400305920180009000",
   "nombre": "maria marin de orozco",

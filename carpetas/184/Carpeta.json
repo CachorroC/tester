@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-08-01T05:00:16.000Z",
     "etapaProcesal": "DESIGNACIÓN CURADOR AD LITEM",
-    "fechaPresentacion": [
-      "2017-08-08T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-08T05:00:16.000Z"],
     "id": 184,
     "llaveProceso": "11001400302520170080700",
-    "mandamientoPago": [
-      "2017-08-14T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-08-14T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 184,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2019-10-06T05:00:16.000Z"
     },
-    "obligacion": [
-      "8470081213"
-    ],
+    "obligacion": ["8470081213"],
     "radicado": "2017 - 00807",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2021-12-15T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2021-12-15T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 184,
       "fechaOrdenaMedida": "2017-08-14T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": null
   },
   "fecha": "2024-02-05T05:00:00.000Z",
-  "idProcesos": [
-    50623380
-  ],
+  "idProcesos": [50623380],
   "idRegUltimaAct": 1950207900,
   "llaveProceso": "11001400302520170080700",
   "nombre": "juan carlos tovar toledo",

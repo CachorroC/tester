@@ -723,14 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "3990086952"
-    ],
+    "obligacion": ["3990086952"],
     "radicado": "2023 - 01465",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2026-03-18T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2026-03-18T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 570,
       "fechaOrdenaMedida": "2024-02-10T00:55:08.064Z",
@@ -750,10 +746,7 @@
     "email": "martacospina@hotmail.com"
   },
   "fecha": "2023-12-18T05:00:00.000Z",
-  "idProcesos": [
-    50468620,
-    113956611
-  ],
+  "idProcesos": [50468620, 113956611],
   "idRegUltimaAct": 1942733750,
   "llaveProceso": "11001400300320170088400",
   "nombre": "martha cecilia ospina arenas",

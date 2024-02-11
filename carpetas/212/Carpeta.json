@@ -154,9 +154,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:42.976Z",
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.982Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.982Z"],
     "id": 212,
     "llaveProceso": "11001400304620170103500",
     "mandamientoPago": [],
@@ -181,14 +179,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "99873"
-    ],
+    "obligacion": ["99873"],
     "radicado": "2017 - 01035",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:42.864Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:42.864Z"],
     "medidasCautelares": {
       "id": 212,
       "fechaOrdenaMedida": "2024-02-10T00:54:39.121Z",
@@ -208,9 +202,7 @@
     "email": "verafarfan@hotmail.com"
   },
   "fecha": "2017-11-28T05:00:00.000Z",
-  "idProcesos": [
-    10134513
-  ],
+  "idProcesos": [10134513],
   "idRegUltimaAct": 119895683,
   "llaveProceso": "11001400304620170103500",
   "nombre": "fernando vera farfan",

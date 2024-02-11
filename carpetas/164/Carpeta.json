@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-07-19T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-07-21T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-07-21T05:00:16.000Z"],
     "id": 164,
     "llaveProceso": "11001400304520170090500",
-    "mandamientoPago": [
-      "2017-09-01T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-09-01T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 164,
@@ -727,14 +723,10 @@
       "fisico": true,
       "autoNotificado": "2018-02-28T05:00:16.000Z"
     },
-    "obligacion": [
-      "6240082772"
-    ],
+    "obligacion": ["6240082772"],
     "radicado": "2017 - 00905",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-09-30T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2019-09-30T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 164,
       "fechaOrdenaMedida": "2017-09-01T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": null
   },
   "fecha": "2022-02-25T05:00:00.000Z",
-  "idProcesos": [
-    50593640
-  ],
+  "idProcesos": [50593640],
   "idRegUltimaAct": 1259912110,
   "llaveProceso": "11001400304520170090500",
   "nombre": "uriel ruiz diaz",

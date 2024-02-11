@@ -324,9 +324,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-01-24T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-01-24T05:00:00.000Z"],
     "id": 377,
     "llaveProceso": "11001400304620180010700",
     "mandamientoPago": [],
@@ -351,14 +349,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "2150091493"
-    ],
+    "obligacion": ["2150091493"],
     "radicado": "2018 - 00107",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:43.370Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:43.370Z"],
     "medidasCautelares": {
       "id": 377,
       "fechaOrdenaMedida": null,
@@ -378,9 +372,7 @@
     "email": "sacave22@gmail.com"
   },
   "fecha": "2018-10-30T05:00:00.000Z",
-  "idProcesos": [
-    10138483
-  ],
+  "idProcesos": [10138483],
   "idRegUltimaAct": 522544993,
   "llaveProceso": "11001400304620180010700",
   "nombre": "gladis velasquez castro",

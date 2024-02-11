@@ -477,9 +477,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "2019-06-04T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2019-06-04T05:00:00.000Z"],
     "id": 525,
     "llaveProceso": "11001400303620190049600",
     "mandamientoPago": [],
@@ -504,14 +502,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "20990151954"
-    ],
+    "obligacion": ["20990151954"],
     "radicado": "2019 - 00496",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2032-05-16T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2032-05-16T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 525,
       "fechaOrdenaMedida": "2024-02-10T00:55:04.764Z",
@@ -531,9 +525,7 @@
     "email": "magda.riascos.diaz@gmail.com"
   },
   "fecha": "2020-10-30T05:00:00.000Z",
-  "idProcesos": [
-    51974830
-  ],
+  "idProcesos": [51974830],
   "idRegUltimaAct": 996984210,
   "llaveProceso": "11001400303620190049600",
   "nombre": "magda lorena riascos diaz",

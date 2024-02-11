@@ -15,16 +15,14 @@ const quokka = {
   isAwesome: true,
 };
 
-console.log(
-  quokka 
-);
+console.log(quokka);
 
 // See the value of a variable simply by typing its name
 quokka;
 
 // Use sequence expression to compare objects
 const wallaby = {
-  'is Quokka\'s BigBrother': true,
+  "is Quokka's BigBrother": true,
 };
 
 quokka, wallaby;
@@ -33,25 +31,19 @@ quokka, wallaby;
 
 // Orange indicators means only part of the line was executed
 // because JavaScript stops processing after first false value
-console.log(
-  'partialCoverage', false && true 
-);
+console.log("partialCoverage", false && true);
 
 // Green indicators means that Quokka executed all statements
 // on a line of code
-if ( false ) {
+if (false) {
   // White indicators means that a line of code was never
   // executed by Quokka
-  console.log(
-    'noCoverage', true 
-  );
+  console.log("noCoverage", true);
 }
 
 // Red indicators show where an error occurred. The error message
 // is also shown beside the error
-throw new Error(
-  'Something went wrong' 
-);
+throw new Error("Something went wrong");
 
 // There's a lot more Quokka can do! Visit our docs to learn more:
 // - https://quokkajs.com/docs/

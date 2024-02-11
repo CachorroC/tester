@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-09T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-11-20T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-20T05:00:16.000Z"],
     "id": 387,
     "llaveProceso": "11001400305020170133600",
-    "mandamientoPago": [
-      "2018-02-12T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2018-02-12T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 387,
@@ -727,15 +723,10 @@
       "fisico": true,
       "autoNotificado": "2018-10-12T05:00:16.000Z"
     },
-    "obligacion": [
-      "2500085167",
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["2500085167", "AUDIOPRESTAMO"],
     "radicado": "2017 - 01336",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-05-05T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2019-05-05T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 387,
       "fechaOrdenaMedida": "2018-02-12T05:00:16.000Z",
@@ -755,9 +746,7 @@
     "email": "leo.sanabria@live.com.mx"
   },
   "fecha": "2024-01-23T05:00:00.000Z",
-  "idProcesos": [
-    106185210
-  ],
+  "idProcesos": [106185210],
   "idRegUltimaAct": 1947004300,
   "llaveProceso": "11001400305020170133600",
   "nombre": "leonardo sanabria sanabria",

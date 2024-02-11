@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-09-28T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-10-06T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-06T05:00:16.000Z"],
     "id": 348,
     "llaveProceso": "11001400300120170130900",
-    "mandamientoPago": [
-      "2017-10-10T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-10-10T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 348,
@@ -727,10 +723,7 @@
       "fisico": true,
       "autoNotificado": null
     },
-    "obligacion": [
-      "6260082762",
-      "377813367146983"
-    ],
+    "obligacion": ["6260082762", "377813367146983"],
     "radicado": "2017 - 01309",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
@@ -756,9 +749,7 @@
     "email": "anabeatrizcorredor@yahoo.es"
   },
   "fecha": "2023-08-29T05:00:00.000Z",
-  "idProcesos": [
-    50764880
-  ],
+  "idProcesos": [50764880],
   "idRegUltimaAct": 1861929370,
   "llaveProceso": "11001400300120170130900",
   "nombre": "ana beatriz corredor rivera",

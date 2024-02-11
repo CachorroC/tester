@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-16T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-11-27T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-27T05:00:16.000Z"],
     "id": 407,
     "llaveProceso": "11001400307820170116400",
-    "mandamientoPago": [
-      "2018-12-01T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2018-12-01T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 407,
@@ -727,15 +723,10 @@
       "fisico": false,
       "autoNotificado": null
     },
-    "obligacion": [
-      "3550083774",
-      "4513082972339 / 5303714867753385"
-    ],
+    "obligacion": ["3550083774", "4513082972339 / 5303714867753385"],
     "radicado": "2017 - 01164",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2024-01-26T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2024-01-26T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 407,
       "fechaOrdenaMedida": "2018-12-01T05:00:16.000Z",
@@ -755,9 +746,7 @@
     "email": "nescri64@hotmail.com"
   },
   "fecha": "2023-07-21T05:00:00.000Z",
-  "idProcesos": [
-    51465700
-  ],
+  "idProcesos": [51465700],
   "idRegUltimaAct": 1818568720,
   "llaveProceso": "11001400307820170116400",
   "nombre": "nestor alberto cristancho lopez ",

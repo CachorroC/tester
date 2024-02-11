@@ -647,9 +647,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "43217",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:43.264Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:43.264Z"],
     "id": 415,
     "llaveProceso": "11001400304320180047400",
     "mandamientoPago": [],
@@ -674,15 +672,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "5303710076309980",
-      "33,785,911,61"
-    ],
+    "obligacion": ["5303710076309980", "33,785,911,61"],
     "radicado": "2018 - 00474",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-14T01:54:43.892Z"
-    ],
+    "vencimientoPagare": ["1970-01-14T01:54:43.892Z"],
     "medidasCautelares": {
       "id": 415,
       "fechaOrdenaMedida": "2024-02-10T00:54:57.606Z",
@@ -702,9 +695,7 @@
     "email": "CALLE 61 SUR No 20 D-60 INT11  APTO 501"
   },
   "fecha": "2020-01-14T05:00:00.000Z",
-  "idProcesos": [
-    9342243
-  ],
+  "idProcesos": [9342243],
   "idRegUltimaAct": 886269323,
   "llaveProceso": "11001400304320180047400",
   "nombre": "ingrid catherine tapias rico",

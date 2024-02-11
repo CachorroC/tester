@@ -239,9 +239,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-10-05T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-05T05:00:00.000Z"],
     "id": 272,
     "llaveProceso": "11001400300620170076300",
     "mandamientoPago": [],
@@ -266,14 +264,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "12381866"
-    ],
+    "obligacion": ["12381866"],
     "radicado": "2017 - 00763",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-09-21T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2017-09-21T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 272,
       "fechaOrdenaMedida": "2024-02-10T00:54:44.537Z",
@@ -293,9 +287,7 @@
     "email": "nellyandreabotiab@hotmail.com"
   },
   "fecha": "2019-03-08T05:00:00.000Z",
-  "idProcesos": [
-    50760770
-  ],
+  "idProcesos": [50760770],
   "idRegUltimaAct": 587378290,
   "llaveProceso": "11001400300620170076300",
   "nombre": "luis fernando gutierrez rodriguez",

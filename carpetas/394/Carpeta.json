@@ -477,9 +477,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-02-05T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-05T05:00:00.000Z"],
     "id": 394,
     "llaveProceso": "11001400305120180029900",
     "mandamientoPago": [],
@@ -504,14 +502,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "165720"
-    ],
+    "obligacion": ["165720"],
     "radicado": "2018 - 00299",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2033-07-08T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2033-07-08T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 394,
       "fechaOrdenaMedida": "2018-06-06T05:00:00.000Z",
@@ -531,9 +525,7 @@
     "email": "servicioscyga@hotmail.com"
   },
   "fecha": "2021-05-27T05:00:00.000Z",
-  "idProcesos": [
-    11496423
-  ],
+  "idProcesos": [11496423],
   "idRegUltimaAct": 1024250433,
   "llaveProceso": "11001400305120180029900",
   "nombre": "omar hernando quiroga torres",

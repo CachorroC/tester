@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-06-20T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-20T05:00:16.000Z"],
     "id": 108,
     "llaveProceso": "11001310302520170073600",
-    "mandamientoPago": [
-      "2017-10-23T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-10-23T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 108,
@@ -727,15 +723,10 @@
       "fisico": null,
       "autoNotificado": "2018-11-05T05:00:00.000Z"
     },
-    "obligacion": [
-      "12455661",
-      "12657330//12748966"
-    ],
+    "obligacion": ["12455661", "12657330//12748966"],
     "radicado": "2017 - 00736",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-06-07T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-06-07T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 108,
       "fechaOrdenaMedida": "2017-10-23T05:00:16.000Z",
@@ -755,9 +746,7 @@
     "email": "miguelangelhuertasv@hotmail.com"
   },
   "fecha": "2024-02-09T05:00:00.000Z",
-  "idProcesos": [
-    28937944
-  ],
+  "idProcesos": [28937944],
   "idRegUltimaAct": 1150421844,
   "llaveProceso": "11001310302520170073600",
   "nombre": "miguel angel huertas valencia",

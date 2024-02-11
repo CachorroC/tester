@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-08-29T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-09-01T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-01T05:00:16.000Z"],
     "id": 233,
     "llaveProceso": "11001400302820170084900",
-    "mandamientoPago": [
-      "2017-10-19T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-10-19T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 233,
@@ -727,15 +723,10 @@
       "fisico": true,
       "autoNotificado": "2018-04-30T05:00:16.000Z"
     },
-    "obligacion": [
-      "4099838997529750",
-      "5303712728390736 // 12141636"
-    ],
+    "obligacion": ["4099838997529750", "5303712728390736 // 12141636"],
     "radicado": "2017 - 00849",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-08-24T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-08-24T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 233,
       "fechaOrdenaMedida": "2017-10-19T05:00:16.000Z",
@@ -755,9 +746,7 @@
     "email": "jotorres@perosnalsoft.com.co"
   },
   "fecha": "2024-01-25T05:00:00.000Z",
-  "idProcesos": [
-    50685700
-  ],
+  "idProcesos": [50685700],
   "idRegUltimaAct": 1947690560,
   "llaveProceso": "11001400302820170084900",
   "nombre": "jose luis torres tamayo ",

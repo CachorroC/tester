@@ -17,9 +17,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "42886",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.941Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.941Z"],
     "id": 21,
     "llaveProceso": "25290400300120170043700",
     "mandamientoPago": [],
@@ -44,15 +42,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "15537944",
-      "42874"
-    ],
+    "obligacion": ["15537944", "42874"],
     "radicado": "2017 - 00437",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "1970-01-31T13:21:28.728Z"
-    ],
+    "vencimientoPagare": ["1970-01-31T13:21:28.728Z"],
     "medidasCautelares": {
       "id": 21,
       "fechaOrdenaMedida": "1970-01-01T00:00:43.250Z",

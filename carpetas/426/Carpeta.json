@@ -460,9 +460,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:43.216Z",
     "etapaProcesal": "SUSPENDIDO",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:43.198Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:43.198Z"],
     "id": 426,
     "llaveProceso": "11001400306820180047600",
     "mandamientoPago": [],
@@ -487,10 +485,7 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "37781319895595500"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "37781319895595500"],
     "radicado": "2018 - 00476",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [],
@@ -513,9 +508,7 @@
     "email": "hernando.22.95@hotmail.com"
   },
   "fecha": "2022-06-02T05:00:00.000Z",
-  "idProcesos": [
-    19217890
-  ],
+  "idProcesos": [19217890],
   "idRegUltimaAct": 1302521110,
   "llaveProceso": "11001400306820180047600",
   "nombre": "felix  hernando montenegro garcia",

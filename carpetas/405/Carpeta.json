@@ -698,15 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-02-15T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-02-22T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-22T05:00:16.000Z"],
     "id": 405,
     "llaveProceso": "11001400302120180023600",
-    "mandamientoPago": [
-      "2010-03-01T05:00:00.000Z",
-      "2018-03-02T05:00:00.000Z"
-    ],
+    "mandamientoPago": ["2010-03-01T05:00:00.000Z", "2018-03-02T05:00:00.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 405,
@@ -728,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2018-04-19T05:00:16.000Z"
     },
-    "obligacion": [
-      "87823"
-    ],
+    "obligacion": ["87823"],
     "radicado": "2018 - 00236",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2020-12-27T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2020-12-27T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 405,
       "fechaOrdenaMedida": "2018-03-01T05:00:16.000Z",
@@ -755,9 +746,7 @@
     "email": "arthurlingo64@hotmail.com"
   },
   "fecha": "2024-02-07T05:00:00.000Z",
-  "idProcesos": [
-    51029180
-  ],
+  "idProcesos": [51029180],
   "idRegUltimaAct": 1951122050,
   "llaveProceso": "11001400302120180023600",
   "nombre": "arturo lince gomez",

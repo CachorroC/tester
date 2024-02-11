@@ -414,15 +414,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "5740084189 /5740084216",
-      "160204/377813372389032"
-    ],
+    "obligacion": ["5740084189 /5740084216", "160204/377813372389032"],
     "radicado": "2017 - 01293",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-05-06T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2017-05-06T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 328,
       "fechaOrdenaMedida": "2024-02-03T00:36:41.530Z",
@@ -442,9 +437,7 @@
     "email": "milena125@hotmail.com"
   },
   "fecha": "2018-10-02T05:00:00.000Z",
-  "idProcesos": [
-    50846930
-  ],
+  "idProcesos": [50846930],
   "idRegUltimaAct": 714039960,
   "llaveProceso": "11001400302620170129300",
   "nombre": "SANDRA MILENA BARRETO BERMUDEZ",

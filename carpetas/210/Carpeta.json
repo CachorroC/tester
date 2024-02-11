@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCION",
-    "fechaPresentacion": [
-      "2017-08-28T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-08-28T05:00:16.000Z"],
     "id": 210,
     "llaveProceso": "11001400302120180016300",
-    "mandamientoPago": [
-      "2018-03-05T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2018-03-05T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 210,
@@ -727,10 +723,7 @@
       "fisico": true,
       "autoNotificado": null
     },
-    "obligacion": [
-      "377813597718262",
-      "4513070908078111 // 5303714709873201 "
-    ],
+    "obligacion": ["377813597718262", "4513070908078111 // 5303714709873201 "],
     "radicado": "2018 - 00163",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
@@ -756,9 +749,7 @@
     "email": null
   },
   "fecha": "2023-09-08T05:00:00.000Z",
-  "idProcesos": [
-    51006610
-  ],
+  "idProcesos": [51006610],
   "idRegUltimaAct": 1875063180,
   "llaveProceso": "11001400302120180016300",
   "nombre": "jose antonio castillo cortes",

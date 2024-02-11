@@ -723,15 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "4513082447756537/4513085528567731",
-      "5303728067784305/"
-    ],
+    "obligacion": ["4513082447756537/4513085528567731", "5303728067784305/"],
     "radicado": "2017 - 01563",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:42.870Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:42.870Z"],
     "medidasCautelares": {
       "id": 353,
       "fechaOrdenaMedida": "2024-02-10T00:54:52.036Z",
@@ -751,9 +746,7 @@
     "email": "ricardoagi1955@gmail.com"
   },
   "fecha": "2022-03-15T05:00:00.000Z",
-  "idProcesos": [
-    50873850
-  ],
+  "idProcesos": [50873850],
   "idRegUltimaAct": 1263708100,
   "llaveProceso": "11001400307320170156300",
   "nombre": "ricardo arias guzman",

@@ -667,9 +667,7 @@
     "fechaPresentacion": [],
     "id": 265,
     "llaveProceso": "11001400302020170050100",
-    "mandamientoPago": [
-      "2017-09-27T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-09-27T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 265,
@@ -691,15 +689,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "186718",
-      "3778153354915637 / 4513079095670572"
-    ],
+    "obligacion": ["186718", "3778153354915637 / 4513079095670572"],
     "radicado": "2018 - 00650",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2020-05-04T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-05-04T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 265,
       "fechaOrdenaMedida": "2024-02-10T00:54:43.977Z",
@@ -719,10 +712,7 @@
     "email": "jsanchezargote@gmail.com"
   },
   "fecha": "2024-02-02T05:00:00.000Z",
-  "idProcesos": [
-    50366660,
-    81621491
-  ],
+  "idProcesos": [50366660, 81621491],
   "idRegUltimaAct": 1950046710,
   "llaveProceso": "11001400302020170050100",
   "nombre": "julio rene sanchez argote",

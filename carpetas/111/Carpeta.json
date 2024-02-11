@@ -222,9 +222,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:42.948Z",
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.955Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.955Z"],
     "id": 111,
     "llaveProceso": "11001400305420170071200",
     "mandamientoPago": [],
@@ -249,14 +247,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "12156526"
-    ],
+    "obligacion": ["12156526"],
     "radicado": "2017 - 00712",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:42.942Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:42.942Z"],
     "medidasCautelares": {
       "id": 111,
       "fechaOrdenaMedida": "2024-02-10T00:54:30.254Z",
@@ -276,9 +270,7 @@
     "email": "karenvivicastano@gmail.com"
   },
   "fecha": "2017-11-15T05:00:00.000Z",
-  "idProcesos": [
-    12251233
-  ],
+  "idProcesos": [12251233],
   "idRegUltimaAct": 159474783,
   "llaveProceso": "11001400305420170071200",
   "nombre": "karen viviana castaño coronado",

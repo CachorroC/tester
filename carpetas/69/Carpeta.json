@@ -704,9 +704,7 @@
     ],
     "id": 69,
     "llaveProceso": "11001400300620170041900",
-    "mandamientoPago": [
-      "2017-07-27T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-07-27T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 69,
@@ -728,14 +726,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "4200023595"
-    ],
+    "obligacion": ["4200023595"],
     "radicado": "2017-00419",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-08-12T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2019-08-12T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 69,
       "fechaOrdenaMedida": "2017-07-27T05:00:16.000Z",
@@ -755,9 +749,7 @@
     "email": null
   },
   "fecha": "2023-05-10T05:00:00.000Z",
-  "idProcesos": [
-    50593100
-  ],
+  "idProcesos": [50593100],
   "idRegUltimaAct": 1738578630,
   "llaveProceso": "11001400300620170041900",
   "nombre": "derly catherine castro izquierdo",

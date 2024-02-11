@@ -698,9 +698,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-12-07T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-12-07T05:00:00.000Z"],
     "id": 359,
     "llaveProceso": "11001400306520170178600",
     "mandamientoPago": [],
@@ -725,14 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "71141"
-    ],
+    "obligacion": ["71141"],
     "radicado": "2017 - 01786",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2018-07-29T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2018-07-29T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 359,
       "fechaOrdenaMedida": "2024-02-10T00:54:52.828Z",
@@ -752,9 +746,7 @@
     "email": " "
   },
   "fecha": "2020-01-14T05:00:00.000Z",
-  "idProcesos": [
-    18169790
-  ],
+  "idProcesos": [18169790],
   "idRegUltimaAct": 944912050,
   "llaveProceso": "11001400306520170178600",
   "nombre": "jose david peña saavedra",

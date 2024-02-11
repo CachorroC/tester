@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-09-11T05:00:16.000Z",
     "etapaProcesal": "CURADOR AD LITEM",
-    "fechaPresentacion": [
-      "2017-09-19T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-19T05:00:16.000Z"],
     "id": 286,
     "llaveProceso": "11001400301720170119500",
-    "mandamientoPago": [
-      "2017-10-12T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-10-12T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 286,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": null
     },
-    "obligacion": [
-      "12711612"
-    ],
+    "obligacion": ["12711612"],
     "radicado": "2017 - 01195",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-09-06T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-09-06T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 286,
       "fechaOrdenaMedida": "2017-10-12T05:00:16.000Z",
@@ -754,10 +746,7 @@
     "email": "gerencia.seguridadgf@gmail.com"
   },
   "fecha": "2023-10-03T05:00:00.000Z",
-  "idProcesos": [
-    50721470,
-    127748331
-  ],
+  "idProcesos": [50721470, 127748331],
   "idRegUltimaAct": 1894535150,
   "llaveProceso": "11001400301720170119500",
   "nombre": "alirio heredia buitrago",

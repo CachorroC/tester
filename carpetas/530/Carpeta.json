@@ -596,14 +596,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-04-21T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-04-25T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2018-04-25T05:00:16.000Z"],
     "id": 530,
     "llaveProceso": "11001400308120180051400",
-    "mandamientoPago": [
-      "2018-04-30T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2018-04-30T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 530,
@@ -625,15 +621,10 @@
       "fisico": false,
       "autoNotificado": "2018-06-08T05:00:16.000Z"
     },
-    "obligacion": [
-      "40998833882814000",
-      "5303729887314280"
-    ],
+    "obligacion": ["40998833882814000", "5303729887314280"],
     "radicado": "2018 - 00514",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-10-05T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-10-05T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 530,
       "fechaOrdenaMedida": "2018-04-30T05:00:16.000Z",
@@ -653,9 +644,7 @@
     "email": "mariaclarareyes@hotmail.com"
   },
   "fecha": "2023-03-14T05:00:00.000Z",
-  "idProcesos": [
-    51918470
-  ],
+  "idProcesos": [51918470],
   "idRegUltimaAct": 1676267630,
   "llaveProceso": "11001400308120180051400",
   "nombre": "maria clara reyes reyes",

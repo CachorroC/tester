@@ -4,9 +4,9 @@
 //
 //   const CarpetaRaw = Convert.toCarpetaRaw(json);
 
-import { Prisma } from '@prisma/client';
-import {  outActuacion } from './actuaciones';
-import {  outProceso } from './procesos';
+import { Prisma } from "@prisma/client";
+import { outActuacion } from "./actuaciones";
+import { outProceso } from "./procesos";
 
 export interface TrulyCruda {
   demanda: DemandaRaw;
@@ -21,11 +21,11 @@ export interface CarpetaRaw extends TrulyCruda {
 
 export type keyOfCarpetaRaw = keyof CarpetaRaw;
 
-export interface IntCarpeta {
+export type IntCarpeta = {
   category: Category;
-  codeudor: Codeudor | null;
-  demanda: IntDemanda | null;
-  deudor: IntDeudor | null;
+  codeudor: Codeudor;
+  demanda: IntDemanda;
+  deudor: IntDeudor;
   fecha: Date | null;
   id: number;
   idProcesos: number[];
@@ -38,8 +38,7 @@ export interface IntCarpeta {
   terminado: boolean;
   tipoProceso: TipoProceso;
   ultimaActuacion: outActuacion | null;
-}
-
+};
 
 export interface flatCarpeta {
   llaveProceso?: string;
@@ -69,13 +68,13 @@ export type Obligacion = {
 };
 
 export type Category =
-  | 'Terminados'
-  | 'LiosJuridicos'
-  | 'Bancolombia'
-  | 'Reintegra'
-  | 'Insolvencia'
-  | 'SinEspecificar'
-  | 'todos';
+  | "Terminados"
+  | "LiosJuridicos"
+  | "Bancolombia"
+  | "Reintegra"
+  | "Insolvencia"
+  | "SinEspecificar"
+  | "todos";
 
 export interface Codeudor {
   cedula: string | null;
@@ -116,8 +115,8 @@ export interface DemandaRaw {
 }
 
 export interface rawNotificacion {
-  '291'?: The291;
-  '292'?: The292;
+  "291"?: The291;
+  "292"?: The292;
   certimail?: string;
   fisico?: FisicoEnum | number;
   tipo?: number | string;
@@ -125,52 +124,52 @@ export interface rawNotificacion {
 }
 
 export type ResultadoEnum =
-  | ''
-  | '31/03/1901'
-  | 'POSITIVO'
-  | 'CERTIMAIL'
-  | '06/07/2018'
-  | 'FISICA'
-  | 'NEGATIVO'
-  | 'FISICO'
-  | '20/06/2018 JAIME'
-  | '28/11/2017'
-  | '09/04/2018 CERTIMAIL'
-  | '15/06/2018'
-  | '14/09/2018 WILSON'
-  | 'PERSONAL'
-  | '20/06/2018'
-  | '8/03/2018'
-  | '16/05/2018'
-  | '14/09/2018 GLADIS'
-  | '04/05/2018'
-  | '06/06/2018'
-  | '20/06 ANGELICA FISICO'
-  | '10/06/2018'
-  | '18/07/2018'
-  | '11/05/2018';
+  | ""
+  | "31/03/1901"
+  | "POSITIVO"
+  | "CERTIMAIL"
+  | "06/07/2018"
+  | "FISICA"
+  | "NEGATIVO"
+  | "FISICO"
+  | "20/06/2018 JAIME"
+  | "28/11/2017"
+  | "09/04/2018 CERTIMAIL"
+  | "15/06/2018"
+  | "14/09/2018 WILSON"
+  | "PERSONAL"
+  | "20/06/2018"
+  | "8/03/2018"
+  | "16/05/2018"
+  | "14/09/2018 GLADIS"
+  | "04/05/2018"
+  | "06/06/2018"
+  | "20/06 ANGELICA FISICO"
+  | "10/06/2018"
+  | "18/07/2018"
+  | "11/05/2018";
 
 export type FisicoEnum =
-  | ''
-  | 'NO'
-  | 'PERSONAL'
-  | 'EMBARGO VEHICULO'
-  | 'SI'
-  | 'INMUEBLE'
-  | 'EMBARGO APTO'
-  | 'NO TIENE EN CUENTA'
-  | 'VEHICULO'
-  | 'INMUEBLE/BANCOS'
-  | 'CERTIMAIL'
-  | '13/09/2017'
-  | 'X'
-  | 'ENVIADO 292 24/08/2018'
-  | 'FISICO'
-  | 'ENVIADO 24/08'
-  | 'OK'
-  | '17/09/2018 ENVIO 291'
-  | '30/10/2018'
-  | '13/11/2018';
+  | ""
+  | "NO"
+  | "PERSONAL"
+  | "EMBARGO VEHICULO"
+  | "SI"
+  | "INMUEBLE"
+  | "EMBARGO APTO"
+  | "NO TIENE EN CUENTA"
+  | "VEHICULO"
+  | "INMUEBLE/BANCOS"
+  | "CERTIMAIL"
+  | "13/09/2017"
+  | "X"
+  | "ENVIADO 292 24/08/2018"
+  | "FISICO"
+  | "ENVIADO 24/08"
+  | "OK"
+  | "17/09/2018 ENVIO 291"
+  | "30/10/2018"
+  | "13/11/2018";
 
 export interface The291 {
   fechaRecibido?: number | string;
@@ -185,21 +184,21 @@ export interface The292 {
 }
 
 export type DepartamentoRaw =
-  | 'CUNDINAMARCA'
-  | 'ATLANTICO'
-  | 'META'
-  | 'CUNDINNAMARCA'
-  | 'CUNDINAMARCA '
-  | '18/01/2018'
-  | 'SINGULAR'
-  | 'HIPOTECARIO'
-  | 'TOLIMA'
-  | 'CUN DINAMARCA'
-  | 'CUNDINNAMARCA '
-  | 'BOYACÁ'
-  | 'CUNDINAMRCA'
-  | 'CNDINAMARCA'
-  | '';
+  | "CUNDINAMARCA"
+  | "ATLANTICO"
+  | "META"
+  | "CUNDINNAMARCA"
+  | "CUNDINAMARCA "
+  | "18/01/2018"
+  | "SINGULAR"
+  | "HIPOTECARIO"
+  | "TOLIMA"
+  | "CUN DINAMARCA"
+  | "CUNDINNAMARCA "
+  | "BOYACÁ"
+  | "CUNDINAMRCA"
+  | "CNDINAMARCA"
+  | "";
 
 export interface DeudorRaw {
   cedula: number | string;
@@ -230,6 +229,8 @@ export interface IntTel {
 export interface IntDemanda {
   capitalAdeudado: Prisma.Decimal;
   departamento: string | null;
+
+  carpetaNumero: number;
   despacho: null | string;
   entregaGarantiasAbogado: Date | null;
   etapaProcesal: null | string;
@@ -237,27 +238,24 @@ export interface IntDemanda {
   id: number;
   llaveProceso: string | null;
   mandamientoPago: Date[];
-  medidasCautelares: intMedidasCautelares | null;
+  medidasCautelares: intMedidasCautelares;
   municipio: string | null;
-  notificacion: intNotificacion | null;
+  notificacion: intNotificacion;
   obligacion: string[];
   radicado: string | null;
   tipoProceso: TipoProceso;
   vencimientoPagare: Date[];
-  liquidacion: Prisma.Decimal
-  avaluo: Prisma.Decimal
+  liquidacion: Prisma.Decimal;
+  avaluo: Prisma.Decimal;
 }
 
-export interface intMedidasCautelares
-{
+export interface intMedidasCautelares {
   id: number;
   fechaOrdenaMedida: Date | null;
   medidaSolicitada: string | null;
 }
 
-
-export interface intNotificacion
-{
+export interface intNotificacion {
   id: number;
   certimail: boolean | null;
   fisico: boolean | null;
@@ -265,10 +263,9 @@ export interface intNotificacion
   notifiers: intNotifier[];
 }
 
-
 export interface intNotifier {
-  id?: number;
-  tipo: '291' | '292';
+  tipo: "291" | "292";
+  carpetaNumero: number;
   fechaRecibido: Date | null;
   resultado: boolean | null;
   fechaAporta: Date | null;
@@ -281,26 +278,26 @@ export interface Juzgado {
 }
 
 export type TipoProcesoRaw =
-  | 'HIPOTECARIO'
-  | 'PRENDARIO'
-  | 'SINGULAR'
-  | 'SINGULAR ACUMULADO CON HIPOTECARIO'
-  | 'SINGULAR ACUM HIPOTECARIO'
-  | '11001400308320170071700'
-  | '25473418900120170092400'
-  | 'PRENDARO'
-  | ' HIPOTECARIO'
-  | 'HMM PISO 1'
-  | '  SINGULAR'
-  | 'HIPOTECARIA'
-  | 'HIPOTECARO'
-  | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL'
-  | 'SOACHA'
-  | 'ACUMULADO'
-  | 'HIPOTECARIO ';
+  | "HIPOTECARIO"
+  | "PRENDARIO"
+  | "SINGULAR"
+  | "SINGULAR ACUMULADO CON HIPOTECARIO"
+  | "SINGULAR ACUM HIPOTECARIO"
+  | "11001400308320170071700"
+  | "25473418900120170092400"
+  | "PRENDARO"
+  | " HIPOTECARIO"
+  | "HMM PISO 1"
+  | "  SINGULAR"
+  | "HIPOTECARIA"
+  | "HIPOTECARO"
+  | "SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL"
+  | "SOACHA"
+  | "ACUMULADO"
+  | "HIPOTECARIO ";
 
 export type TipoProceso =
-  | 'HIPOTECARIO'
-  | 'PRENDARIO'
-  | 'SINGULAR'
-  | 'ACUMULADO';
+  | "HIPOTECARIO"
+  | "PRENDARIO"
+  | "SINGULAR"
+  | "ACUMULADO";

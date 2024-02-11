@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-05-11T05:00:16.000Z",
     "etapaProcesal": "EMPLAZAMIENTO",
-    "fechaPresentacion": [
-      "2017-05-24T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-24T05:00:16.000Z"],
     "id": 16,
     "llaveProceso": "11001400300320170088400",
-    "mandamientoPago": [
-      "2017-06-02T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-06-02T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 16,
@@ -727,14 +723,10 @@
       "fisico": null,
       "autoNotificado": "2018-07-11T05:00:16.000Z"
     },
-    "obligacion": [
-      "2530444"
-    ],
+    "obligacion": ["2530444"],
     "radicado": "2017 - 00884",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-05-04T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-05-04T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 16,
       "fechaOrdenaMedida": "2024-02-10T00:54:21.819Z",
@@ -754,10 +746,7 @@
     "email": "yess_Id@hotmail.com"
   },
   "fecha": "2023-12-18T05:00:00.000Z",
-  "idProcesos": [
-    50468620,
-    113956611
-  ],
+  "idProcesos": [50468620, 113956611],
   "idRegUltimaAct": 1942733750,
   "llaveProceso": "11001400300320170088400",
   "nombre": "yesid albeiro ramos",

@@ -460,9 +460,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:43.236Z",
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:43.242Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:43.242Z"],
     "id": 435,
     "llaveProceso": "11001400301620180057300",
     "mandamientoPago": [],
@@ -487,14 +485,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "20990131392"
-    ],
+    "obligacion": ["20990131392"],
     "radicado": "2018 - 00573",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:45.887Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:45.887Z"],
     "medidasCautelares": {
       "id": 435,
       "fechaOrdenaMedida": "2024-02-10T00:54:59.141Z",
@@ -514,9 +508,7 @@
     "email": "marysqs@hotmail.com"
   },
   "fecha": "2019-09-16T05:00:00.000Z",
-  "idProcesos": [
-    51205750
-  ],
+  "idProcesos": [51205750],
   "idRegUltimaAct": 653663500,
   "llaveProceso": "11001400301620180057300",
   "nombre": "maribel revelo quiroga ",

@@ -1,26 +1,18 @@
-import { $Enums, Carpeta } from '@prisma/client';
-import { CarpetaRaw } from '../types/carpetas';
+import { $Enums, Carpeta } from "@prisma/client";
+import { CarpetaRaw } from "../types/carpetas";
 
 export class PrisCarp implements Carpeta {
   [x: string]: unknown;
   constructor(
-    {
-      llaveProceso, category, deudor, numero 
-    }: CarpetaRaw,
+    { llaveProceso, category, deudor, numero }: CarpetaRaw,
     demandaId?: number,
   ) {
-    this.llaveProceso = llaveProceso
-      ? llaveProceso
-      : null;
+    this.llaveProceso = llaveProceso ? llaveProceso : null;
     this.numero = numero;
     this.category = category;
-    this.deudorCedula = String(
-      deudor.cedula 
-    );
+    this.deudorCedula = String(deudor.cedula);
 
-    this.demandaId = demandaId
-      ? demandaId
-      : null;
+    this.demandaId = demandaId ? demandaId : null;
   }
   numero: number;
   llaveProceso: string | null;
@@ -31,63 +23,47 @@ export class PrisCarp implements Carpeta {
   get idProcesos() {
     return this.idProcesos;
   }
-  set idProcesos(
-    idps: number[] 
-  ) {
+  set idProcesos(idps: number[]) {
     this.idProcesos = idps;
   }
   get nombre() {
-    return `${ this.primerNombre } ${ this.segundoNombre } ${ this.primerApellido } ${ this.segundoApellido }`;
+    return `${this.primerNombre} ${this.segundoNombre} ${this.primerApellido} ${this.segundoApellido}`;
   }
-  set nombre(
-    nom 
-  ) {
+  set nombre(nom) {
     [
       this.primerNombre,
       this.segundoNombre,
       this.primerApellido,
       this.segundoApellido,
-    ] = nom.split(
-      ' ' 
-    );
+    ] = nom.split(" ");
   }
 
-  async getIdProcesos(
-    llaveProceso = this.llaveProceso 
-  ) {
+  async getIdProcesos(llaveProceso = this.llaveProceso) {
     try {
-      if ( !llaveProceso || llaveProceso === null ) {
-        throw new Error(
-          'no hay un expediente adjunto a este proceso;' 
-        );
+      if (!llaveProceso || llaveProceso === null) {
+        throw new Error("no hay un expediente adjunto a este proceso;");
       }
 
-      if ( llaveProceso.length < 23 ) {
+      if (llaveProceso.length < 23) {
         throw new Error(
-          `este expediente no es del largo apropiado, tiene menos de 23 caracteres: ${ llaveProceso }`,
+          `este expediente no es del largo apropiado, tiene menos de 23 caracteres: ${llaveProceso}`,
         );
       }
 
       const request = await fetch(
-        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false&pagina=1`,
+        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${llaveProceso}&SoloActivos=false&pagina=1`,
       );
 
-      if ( !request.ok ) {
+      if (!request.ok) {
         const json = await request.json();
         throw new Error(
-          `error al realizar el fetch: json: ${ JSON.stringify(
-            json, null, 2 
-          ) }`,
+          `error al realizar el fetch: json: ${JSON.stringify(json, null, 2)}`,
         );
       }
 
       return request.json();
-    } catch ( error ) {
-      console.log(
-        JSON.stringify(
-          error, null, 2 
-        ) 
-      );
+    } catch (error) {
+      console.log(JSON.stringify(error, null, 2));
 
       return error;
     }

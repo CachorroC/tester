@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-09-18T05:00:16.000Z",
     "etapaProcesal": "PENDIENTE SENTENCIA Y OFICIOS",
-    "fechaPresentacion": [
-      "2017-09-21T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-21T05:00:16.000Z"],
     "id": 295,
     "llaveProceso": "11001400305120170111300",
-    "mandamientoPago": [
-      "2017-10-02T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-10-02T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 295,
@@ -727,14 +723,10 @@
       "fisico": true,
       "autoNotificado": "2018-06-14T05:00:16.000Z"
     },
-    "obligacion": [
-      "12389160"
-    ],
+    "obligacion": ["12389160"],
     "radicado": "2017 - 01113",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-09-12T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-09-12T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 295,
       "fechaOrdenaMedida": "2017-10-02T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": null
   },
   "fecha": "2024-01-23T05:00:00.000Z",
-  "idProcesos": [
-    110568033
-  ],
+  "idProcesos": [110568033],
   "idRegUltimaAct": 1935399803,
   "llaveProceso": "11001400305120170111300",
   "nombre": "rita cecilia fernandez ibañez",

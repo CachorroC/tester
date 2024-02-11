@@ -145,14 +145,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "1010082679"
-    ],
+    "obligacion": ["1010082679"],
     "radicado": "2018 - 00711",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:46.687Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:46.687Z"],
     "medidasCautelares": {
       "id": 447,
       "fechaOrdenaMedida": "2024-02-10T00:55:00.002Z",
@@ -172,9 +168,7 @@
     "email": null
   },
   "fecha": "2018-09-06T05:00:00.000Z",
-  "idProcesos": [
-    51277500
-  ],
+  "idProcesos": [51277500],
   "idRegUltimaAct": 582442800,
   "llaveProceso": "11001400300520180071100",
   "nombre": "carlos antonio pacheco torres",

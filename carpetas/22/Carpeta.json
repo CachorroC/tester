@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-05-11T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-05-24T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-05-24T05:00:16.000Z"],
     "id": 22,
     "llaveProceso": "11001400308520170084900",
-    "mandamientoPago": [
-      "2017-07-21T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-07-21T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 22,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2018-08-08T05:00:16.000Z"
     },
-    "obligacion": [
-      "2453698"
-    ],
+    "obligacion": ["2453698"],
     "radicado": "2017 - 00849",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-04-26T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-04-26T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 22,
       "fechaOrdenaMedida": "2018-05-30T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": null
   },
   "fecha": "2023-06-15T05:00:00.000Z",
-  "idProcesos": [
-    51935790
-  ],
+  "idProcesos": [51935790],
   "idRegUltimaAct": 1777734510,
   "llaveProceso": "11001400308520170084900",
   "nombre": "jose edwin garces ardila",

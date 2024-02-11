@@ -582,9 +582,7 @@
     "fechaPresentacion": [],
     "id": 273,
     "llaveProceso": "11001400306420180102900",
-    "mandamientoPago": [
-      "2017-10-05T05:00:00.000Z"
-    ],
+    "mandamientoPago": ["2017-10-05T05:00:00.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 273,
@@ -606,14 +604,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "156791"
-    ],
+    "obligacion": ["156791"],
     "radicado": "2018 - 01029",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2022-10-05T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2022-10-05T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 273,
       "fechaOrdenaMedida": "2024-02-10T00:54:44.606Z",
@@ -633,9 +627,7 @@
     "email": "sonymarce20@hotmail.com"
   },
   "fecha": "2023-02-07T05:00:00.000Z",
-  "idProcesos": [
-    113353750
-  ],
+  "idProcesos": [113353750],
   "idRegUltimaAct": 1637473990,
   "llaveProceso": "11001400306420180102900",
   "nombre": "sonia marcela molina quimbayo",

@@ -494,9 +494,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "43059",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:43.082Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:43.082Z"],
     "id": 342,
     "llaveProceso": "11001400301220170140000",
     "mandamientoPago": [],
@@ -521,10 +519,7 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "5303720026675088",
-      "27.570.000.00"
-    ],
+    "obligacion": ["5303720026675088", "27.570.000.00"],
     "radicado": "2017 - 01400",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [],
@@ -547,9 +542,7 @@
     "email": "CARRERA 87 No  17 - 59 "
   },
   "fecha": "2019-08-05T05:00:00.000Z",
-  "idProcesos": [
-    50858060
-  ],
+  "idProcesos": [50858060],
   "idRegUltimaAct": 624648550,
   "llaveProceso": "11001400301220170140000",
   "nombre": "gabriel augusto castillo castelblanco",

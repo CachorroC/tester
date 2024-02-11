@@ -358,9 +358,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-07-12T05:00:00.000Z",
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2017-12-14T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-12-14T05:00:00.000Z"],
     "id": 365,
     "llaveProceso": "11001400305020180014000",
     "mandamientoPago": [],
@@ -385,14 +383,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "106172"
-    ],
+    "obligacion": ["106172"],
     "radicado": "2018 - 00140",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2023-03-10T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2023-03-10T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 365,
       "fechaOrdenaMedida": null,
@@ -412,9 +406,7 @@
     "email": "richard.iriarte76@hotmail.com"
   },
   "fecha": "2019-09-11T05:00:00.000Z",
-  "idProcesos": [
-    11227303
-  ],
+  "idProcesos": [11227303],
   "idRegUltimaAct": 751522103,
   "llaveProceso": "11001400305020180014000",
   "nombre": "richard camilo iriarte garcia",

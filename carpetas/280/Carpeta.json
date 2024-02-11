@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-09-11T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-09-19T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-19T05:00:16.000Z"],
     "id": 280,
     "llaveProceso": "11001400300920170127900",
-    "mandamientoPago": [
-      "2017-12-12T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-12-12T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 280,
@@ -727,9 +723,7 @@
       "fisico": false,
       "autoNotificado": null
     },
-    "obligacion": [
-      "8920084662"
-    ],
+    "obligacion": ["8920084662"],
     "radicado": "2017 - 01279",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [],
@@ -752,9 +746,7 @@
     "email": "jhernandosanchez@yahoo.es"
   },
   "fecha": "2022-01-26T05:00:00.000Z",
-  "idProcesos": [
-    50875780
-  ],
+  "idProcesos": [50875780],
   "idRegUltimaAct": 1251680650,
   "llaveProceso": "11001400300920170127900",
   "nombre": "jose hernando sanchez valbuena",

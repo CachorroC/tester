@@ -1,41 +1,25 @@
-import carpetas from './data/carpetas';
-import { CarpetaBuilder } from './models/carpeta';
-import { CarpetaRaw } from './types/carpetas';
+import carpetas from "./data/carpetas";
+import { CarpetaBuilder } from "./models/carpeta";
+import { CarpetaRaw } from "./types/carpetas";
 
-async function myGenerator(
-  carpetaRaw: CarpetaRaw 
-) {
-  const newCarpeta = new CarpetaBuilder(
-    carpetaRaw 
-  );
-  console.log(
-    newCarpeta 
-  );
+async function myGenerator(carpetaRaw: CarpetaRaw) {
+  const newCarpeta = new CarpetaBuilder(carpetaRaw);
+  console.log(newCarpeta);
 
-  if ( !newCarpeta.llaveProceso ) {
-    return Promise.resolve(
-      newCarpeta 
-    );
+  if (!newCarpeta.llaveProceso) {
+    return Promise.resolve(newCarpeta);
   }
 
   await newCarpeta.getProcesos();
-  console.log(
-    newCarpeta 
-  );
+  console.log(newCarpeta);
 
-  if ( !newCarpeta.procesos || newCarpeta.procesos.length === 0 ) {
-    return Promise.resolve(
-      newCarpeta 
-    );
+  if (!newCarpeta.procesos || newCarpeta.procesos.length === 0) {
+    return Promise.resolve(newCarpeta);
   }
 
   await newCarpeta.getActuaciones();
-  console.log(
-    newCarpeta 
-  );
-  return Promise.resolve(
-    newCarpeta 
-  );
+  console.log(newCarpeta);
+  return Promise.resolve(newCarpeta);
 }
 
 export async function pruebaIterator() {
@@ -50,15 +34,9 @@ export async function pruebaIterator() {
 
   const carpeta = terceraCarpeta;
 
-  for await ( const commit of myGenerator(
-    carpeta 
-  ) ) {
-    console.log(
-      commit 
-    );
+  for await (const commit of myGenerator(carpeta)) {
+    console.log(commit);
   }
 }
 
-console.log(
-  pruebaIterator() 
-);
+console.log(pruebaIterator());

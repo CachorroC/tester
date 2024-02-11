@@ -723,14 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "20990095881"
-    ],
+    "obligacion": ["20990095881"],
     "radicado": "2017 - 01157",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:44.670Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:44.670Z"],
     "medidasCautelares": {
       "id": 221,
       "fechaOrdenaMedida": "2024-02-10T00:54:39.725Z",
@@ -750,9 +746,7 @@
     "email": null
   },
   "fecha": "2021-10-13T05:00:00.000Z",
-  "idProcesos": [
-    50684250
-  ],
+  "idProcesos": [50684250],
   "idRegUltimaAct": 1228395450,
   "llaveProceso": "11001400301320170115700",
   "nombre": "beatriz helena machado",

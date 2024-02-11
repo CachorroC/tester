@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-04-21T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-04-25T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2018-04-25T05:00:16.000Z"],
     "id": 477,
     "llaveProceso": "11001400300420180047500",
-    "mandamientoPago": [
-      "2018-05-08T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2018-05-08T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 477,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2018-06-12T05:00:16.000Z"
     },
-    "obligacion": [
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["AUDIOPRESTAMO"],
     "radicado": "2018 - 00475",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-08-15T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-08-15T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 477,
       "fechaOrdenaMedida": "2018-05-08T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": "adolfo.daza@gmail.com"
   },
   "fecha": "2024-01-29T05:00:00.000Z",
-  "idProcesos": [
-    51149410
-  ],
+  "idProcesos": [51149410],
   "idRegUltimaAct": 1948581820,
   "llaveProceso": "11001400300420180047500",
   "nombre": "adolfo  leon daza fernandez",

@@ -358,9 +358,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:42.948Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.955Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.955Z"],
     "id": 107,
     "llaveProceso": "11001400305720170079000",
     "mandamientoPago": [],
@@ -385,15 +383,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "6900084281",
-      "4513070458359200 // AUDIOPRESTAMO"
-    ],
+    "obligacion": ["6900084281", "4513070458359200 // AUDIOPRESTAMO"],
     "radicado": "2017 - 00790",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:42.398Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:42.398Z"],
     "medidasCautelares": {
       "id": 107,
       "fechaOrdenaMedida": "2024-02-10T00:54:29.940Z",
@@ -413,9 +406,7 @@
     "email": "efrain.martinez.1021@hotmail.com"
   },
   "fecha": "2019-07-29T05:00:00.000Z",
-  "idProcesos": [
-    17604554
-  ],
+  "idProcesos": [17604554],
   "idRegUltimaAct": 611917974,
   "llaveProceso": "11001400305720170079000",
   "nombre": "hanyelo efrain martinez turriago",

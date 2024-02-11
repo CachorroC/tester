@@ -723,14 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "12703441"
-    ],
+    "obligacion": ["12703441"],
     "radicado": "2017 - 01162",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2017-08-22T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2017-08-22T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 251,
       "fechaOrdenaMedida": null,
@@ -750,9 +746,7 @@
     "email": "cajux@hotmail.com"
   },
   "fecha": "2023-09-04T05:00:00.000Z",
-  "idProcesos": [
-    50685530
-  ],
+  "idProcesos": [50685530],
   "idRegUltimaAct": 1868347000,
   "llaveProceso": "11001400301320170116200",
   "nombre": "carlos javier becerra benavides",

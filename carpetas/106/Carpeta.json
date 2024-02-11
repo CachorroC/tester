@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-06-16T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-06-16T05:00:16.000Z"],
     "id": 106,
     "llaveProceso": "11001400305920170048300",
-    "mandamientoPago": [
-      "2017-07-19T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-07-19T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 106,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2018-05-15T05:00:16.000Z"
     },
-    "obligacion": [
-      "12515504"
-    ],
+    "obligacion": ["12515504"],
     "radicado": "2017 - 00483",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2018-08-28T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2018-08-28T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 106,
       "fechaOrdenaMedida": "2017-07-19T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": "danielher84@gmail.com"
   },
   "fecha": "2023-02-27T05:00:00.000Z",
-  "idProcesos": [
-    50514310
-  ],
+  "idProcesos": [50514310],
   "idRegUltimaAct": 1659007230,
   "llaveProceso": "11001400305920170048300",
   "nombre": "daniel hernandez gonzalez",

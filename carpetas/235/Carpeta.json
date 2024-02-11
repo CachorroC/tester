@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-09-06T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-09-18T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-09-18T05:00:16.000Z"],
     "id": 235,
     "llaveProceso": "11001400300820170113400",
-    "mandamientoPago": [
-      "2017-09-21T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-09-21T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 235,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2018-05-07T05:00:16.000Z"
     },
-    "obligacion": [
-      "148931"
-    ],
+    "obligacion": ["148931"],
     "radicado": "2017 - 01134",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2017-02-14T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2017-02-14T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 235,
       "fechaOrdenaMedida": "2017-09-21T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": "faNOr.diaz@gmail.com "
   },
   "fecha": "2024-02-05T05:00:00.000Z",
-  "idProcesos": [
-    50716620
-  ],
+  "idProcesos": [50716620],
   "idRegUltimaAct": 1950441870,
   "llaveProceso": "11001400300820170113400",
   "nombre": "fanor diaz agudelo",

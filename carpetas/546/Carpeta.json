@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-10-06T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-10-12T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-10-12T05:00:16.000Z"],
     "id": 546,
     "llaveProceso": "11001400300220170100200",
-    "mandamientoPago": [
-      "2017-11-27T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2017-11-27T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 546,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2018-10-03T05:00:16.000Z"
     },
-    "obligacion": [
-      "12541235"
-    ],
+    "obligacion": ["12541235"],
     "radicado": "2017 - 01002",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "2020-10-04T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-10-04T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 546,
       "fechaOrdenaMedida": "2017-11-27T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": "juanotero1989@gmail.com"
   },
   "fecha": "2023-03-14T05:00:00.000Z",
-  "idProcesos": [
-    50780430
-  ],
+  "idProcesos": [50780430],
   "idRegUltimaAct": 1676204610,
   "llaveProceso": "11001400300220170100200",
   "nombre": "jogli joaquin otero vargas",

@@ -698,9 +698,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:42.989Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.997Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.997Z"],
     "id": 241,
     "llaveProceso": "11001400302320170104400",
     "mandamientoPago": [],
@@ -725,14 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "18000088458"
-    ],
+    "obligacion": ["18000088458"],
     "radicado": "2017 - 01044",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:43.308Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:43.308Z"],
     "medidasCautelares": {
       "id": 241,
       "fechaOrdenaMedida": null,
@@ -752,9 +746,7 @@
     "email": "publi.magic@hotmail.com"
   },
   "fecha": "2019-10-18T05:00:00.000Z",
-  "idProcesos": [
-    50725030
-  ],
+  "idProcesos": [50725030],
   "idRegUltimaAct": 863844990,
   "llaveProceso": "11001400302320170104400",
   "nombre": "publi magic s..a.s.",

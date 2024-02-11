@@ -426,9 +426,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:42.914Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.915Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.915Z"],
     "id": 98,
     "llaveProceso": "11001400301120170062300",
     "mandamientoPago": [],
@@ -453,14 +451,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "190459"
-    ],
+    "obligacion": ["190459"],
     "radicado": "2017 - 00623",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:47.508Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:47.508Z"],
     "medidasCautelares": {
       "id": 98,
       "fechaOrdenaMedida": "2024-02-10T00:54:29.114Z",
@@ -480,9 +474,7 @@
     "email": "carmenzachaparro@outlook.com"
   },
   "fecha": "2018-08-15T05:00:00.000Z",
-  "idProcesos": [
-    50543070
-  ],
+  "idProcesos": [50543070],
   "idRegUltimaAct": 1934131710,
   "llaveProceso": "11001400301120170062300",
   "nombre": "maria del carmen chaparro lemus",

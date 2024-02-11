@@ -698,9 +698,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "42958",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.991Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.991Z"],
     "id": 122,
     "llaveProceso": "11001400304020170119300",
     "mandamientoPago": [],
@@ -725,10 +723,7 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "4513073601094195",
-      "15774711,08"
-    ],
+    "obligacion": ["4513073601094195", "15774711,08"],
     "radicado": "2017 - 01193",
     "tipoProceso": "ACUMULADO",
     "vencimientoPagare": [],
@@ -751,9 +746,7 @@
     "email": "CALLE 1H # 32A - 17"
   },
   "fecha": "2020-02-07T05:00:00.000Z",
-  "idProcesos": [
-    19148931
-  ],
+  "idProcesos": [19148931],
   "idRegUltimaAct": 733661051,
   "llaveProceso": "11001400304020170119300",
   "nombre": " paola andrea fernandez rincon",

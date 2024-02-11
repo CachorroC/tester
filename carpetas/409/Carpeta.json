@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2018-02-15T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-02-28T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-28T05:00:16.000Z"],
     "id": 409,
     "llaveProceso": "11001400305620180022100",
-    "mandamientoPago": [
-      "2018-03-22T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2018-03-22T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 409,
@@ -727,14 +723,10 @@
       "fisico": false,
       "autoNotificado": "2018-05-18T05:00:16.000Z"
     },
-    "obligacion": [
-      "4550087219"
-    ],
+    "obligacion": ["4550087219"],
     "radicado": "2018 - 00221",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2018-06-20T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2018-06-20T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 409,
       "fechaOrdenaMedida": "2018-03-22T05:00:16.000Z",
@@ -754,9 +746,7 @@
     "email": "andibarracosta@gmail.com"
   },
   "fecha": "2024-02-09T05:00:00.000Z",
-  "idProcesos": [
-    51042800
-  ],
+  "idProcesos": [51042800],
   "idRegUltimaAct": 1951995520,
   "llaveProceso": "11001400305620180022100",
   "nombre": "creas consultores s.a.s",

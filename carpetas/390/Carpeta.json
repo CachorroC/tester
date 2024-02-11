@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-16T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2017-11-20T05:00:16.000Z"
-    ],
+    "fechaPresentacion": ["2017-11-20T05:00:16.000Z"],
     "id": 390,
     "llaveProceso": "11001400300420170126600",
-    "mandamientoPago": [
-      "2018-01-17T05:00:16.000Z"
-    ],
+    "mandamientoPago": ["2018-01-17T05:00:16.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 390,
@@ -727,15 +723,10 @@
       "fisico": true,
       "autoNotificado": "2020-04-09T05:00:16.000Z"
     },
-    "obligacion": [
-      "2500084774",
-      "AUDIOPRESTAMO"
-    ],
+    "obligacion": ["2500084774", "AUDIOPRESTAMO"],
     "radicado": "2017 - 01266",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2020-07-21T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2020-07-21T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 390,
       "fechaOrdenaMedida": "2018-01-17T05:00:16.000Z",
@@ -755,9 +746,7 @@
     "email": "gilbertojaime@hotmail.com"
   },
   "fecha": "2022-02-04T05:00:00.000Z",
-  "idProcesos": [
-    50859050
-  ],
+  "idProcesos": [50859050],
   "idRegUltimaAct": 1252694420,
   "llaveProceso": "11001400300420170126600",
   "nombre": "gilberto jaime betancourt",

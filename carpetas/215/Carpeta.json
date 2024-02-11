@@ -273,9 +273,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:42.970Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.982Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.982Z"],
     "id": 215,
     "llaveProceso": "11001400300820170127300",
     "mandamientoPago": [],
@@ -300,14 +298,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "85677"
-    ],
+    "obligacion": ["85677"],
     "radicado": "2017 - 01273",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:42.824Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:42.824Z"],
     "medidasCautelares": {
       "id": 215,
       "fechaOrdenaMedida": "1970-01-01T00:00:43.063Z",
@@ -327,9 +321,7 @@
     "email": "luzdary.hurtado.rios@hotmail.com"
   },
   "fecha": "2018-03-08T05:00:00.000Z",
-  "idProcesos": [
-    50776700
-  ],
+  "idProcesos": [50776700],
   "idRegUltimaAct": 602065020,
   "llaveProceso": "11001400300820170127300",
   "nombre": "luz dary hurtado rios",

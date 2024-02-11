@@ -12,7 +12,6 @@ flowchart TB
     M --> N((Actuaciones))
 ```
 
-
 ```mermaid
 flowchart LR
  A{Carpeta} === B{{Demanda}}

@@ -69,14 +69,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "2018-09-10T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-09-10T05:00:00.000Z"],
     "id": 541,
     "llaveProceso": "11001400308220180096400",
-    "mandamientoPago": [
-      "2018-09-17T05:00:00.000Z"
-    ],
+    "mandamientoPago": ["2018-09-17T05:00:00.000Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 541,
@@ -98,10 +94,7 @@
       "fisico": false,
       "autoNotificado": null
     },
-    "obligacion": [
-      "AUDIOPRESTAMO",
-      "5491580436291960"
-    ],
+    "obligacion": ["AUDIOPRESTAMO", "5491580436291960"],
     "radicado": "2018 - 00964",
     "tipoProceso": "SINGULAR",
     "vencimientoPagare": [
@@ -127,10 +120,7 @@
     "email": "jrestradacastillo@gmail.com"
   },
   "fecha": "2022-03-24T05:00:00.000Z",
-  "idProcesos": [
-    52160520,
-    112967583
-  ],
+  "idProcesos": [52160520, 112967583],
   "idRegUltimaAct": 1266283860,
   "llaveProceso": "11001400308220180096400",
   "nombre": "jose ramon estrada castillo",

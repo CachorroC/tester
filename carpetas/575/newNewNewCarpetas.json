@@ -193,14 +193,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "Q 0000000079780047027001"
-    ],
+    "obligacion": ["Q 0000000079780047027001"],
     "radicado": "2023 - 00864",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2026-04-02T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2026-04-02T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 575,
       "fechaOrdenaMedida": "2024-02-03T00:36:34.428Z",
@@ -220,9 +216,7 @@
     "email": "carrerasiachoque@yahoo.com"
   },
   "fecha": "2023-10-31T05:00:00.000Z",
-  "idProcesos": [
-    132663050
-  ],
+  "idProcesos": [132663050],
   "idRegUltimaAct": 1923969160,
   "llaveProceso": "11001400300620230086400",
   "nombre": "JAVIER ALEJANDRO CARRERA SIACHOQUE",

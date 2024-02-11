@@ -273,9 +273,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "1970-01-01T00:00:42.866Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.879Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.879Z"],
     "id": 7,
     "llaveProceso": "11001310302720170037400",
     "mandamientoPago": [],
@@ -300,14 +298,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "2553057"
-    ],
+    "obligacion": ["2553057"],
     "radicado": "2017 - 00374",
     "tipoProceso": "PRENDARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:43.947Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:43.947Z"],
     "medidasCautelares": {
       "id": 7,
       "fechaOrdenaMedida": "2024-02-10T00:54:21.134Z",
@@ -327,9 +321,7 @@
     "email": null
   },
   "fecha": "2022-03-09T05:00:00.000Z",
-  "idProcesos": [
-    62733402
-  ],
+  "idProcesos": [62733402],
   "idRegUltimaAct": 1151407522,
   "llaveProceso": "11001310302720170037400",
   "nombre": "jose ricardo prieto cruz",

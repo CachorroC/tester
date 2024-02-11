@@ -443,9 +443,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-01-22T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-01-22T05:00:00.000Z"],
     "id": 375,
     "llaveProceso": "11001400304020180012300",
     "mandamientoPago": [],
@@ -470,14 +468,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "179854"
-    ],
+    "obligacion": ["179854"],
     "radicado": "2018 - 00123",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:49.180Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:49.180Z"],
     "medidasCautelares": {
       "id": 375,
       "fechaOrdenaMedida": "1970-01-01T00:00:43.257Z",
@@ -497,9 +491,7 @@
     "email": "alfredozorromart@hotmail.com"
   },
   "fecha": "2022-10-05T05:00:00.000Z",
-  "idProcesos": [
-    19155581
-  ],
+  "idProcesos": [19155581],
   "idRegUltimaAct": 1184571551,
   "llaveProceso": "11001400304020180012300",
   "nombre": "jhon alfredo zorro martinez",

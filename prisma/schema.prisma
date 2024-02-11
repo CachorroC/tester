@@ -142,11 +142,12 @@ model MedidasCautelares {
 model Notifier {
   fechaAporta    DateTime?
   fechaRecibido  DateTime?
-  id             Int           @id @default(autoincrement())
   notificacionId Int
   resultado      Boolean?
   tipo           String
+  carpetaNumero Int
   notificacion   Notificacion @relation(fields: [notificacionId], references: [id])
+  @@id([tipo, carpetaNumero])
 }
 
 model Nota {

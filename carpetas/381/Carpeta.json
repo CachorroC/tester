@@ -103,9 +103,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "ADMISION",
-    "fechaPresentacion": [
-      "2018-01-24T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-01-24T05:00:00.000Z"],
     "id": 381,
     "llaveProceso": "11001400304120180007500",
     "mandamientoPago": [],
@@ -130,14 +128,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "155586"
-    ],
+    "obligacion": ["155586"],
     "radicado": "2018 - 00075",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:46.636Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:46.636Z"],
     "medidasCautelares": {
       "id": 381,
       "fechaOrdenaMedida": "2024-02-10T00:54:54.744Z",
@@ -157,9 +151,7 @@
     "email": "nimary20@hotmail.com"
   },
   "fecha": "2018-04-06T05:00:00.000Z",
-  "idProcesos": [
-    19431801
-  ],
+  "idProcesos": [19431801],
   "idRegUltimaAct": 224371301,
   "llaveProceso": "11001400304120180007500",
   "nombre": "nielcen marisol marin melo",

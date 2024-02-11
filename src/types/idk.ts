@@ -48,14 +48,14 @@ export interface Actuacione {
   createdAt?: Date;
 }
 
-export type CodRegla = '00                              ';
+export type CodRegla = "00                              ";
 
 export type Category =
-  | 'Terminados'
-  | 'LiosJuridicos'
-  | 'Bancolombia'
-  | 'Reintegra'
-  | 'Insolvencia';
+  | "Terminados"
+  | "LiosJuridicos"
+  | "Bancolombia"
+  | "Reintegra"
+  | "Insolvencia";
 
 export interface Codeudor {
   nombre: null | string;
@@ -85,14 +85,14 @@ export interface Demanda {
 }
 
 export type DemandaDepartamento =
-  | 'CUNDINAMARCA'
-  | 'CUNDINNAMARCA'
-  | 'TOLIMA'
-  | 'CUN DINAMARCA'
-  | 'BOYACÁ'
-  | 'CUNDINAMRCA'
-  | 'CNDINAMARCA'
-  | 'ATLANTICO';
+  | "CUNDINAMARCA"
+  | "CUNDINNAMARCA"
+  | "TOLIMA"
+  | "CUN DINAMARCA"
+  | "BOYACÁ"
+  | "CUNDINAMRCA"
+  | "CNDINAMARCA"
+  | "ATLANTICO";
 
 export interface MedidasCautelares {
   fechaOrdenaMedida: null | string;
@@ -100,10 +100,10 @@ export interface MedidasCautelares {
 }
 
 export type TipoProceso =
-  | 'HIPOTECARIO'
-  | 'PRENDARIO'
-  | 'SINGULAR'
-  | 'ACUMULADO';
+  | "HIPOTECARIO"
+  | "PRENDARIO"
+  | "SINGULAR"
+  | "ACUMULADO";
 
 export interface Deudor {
   tel: Tel;
@@ -149,7 +149,7 @@ export interface Proceso {
   juzgado: Juzgado;
 }
 
-export type ProcesoDepartamento = 'BOGOTÁ' | 'CUNDINAMARCA' | 'ANTIOQUIA';
+export type ProcesoDepartamento = "BOGOTÁ" | "CUNDINAMARCA" | "ANTIOQUIA";
 
 export interface Juzgado {
   id: number;
@@ -159,195 +159,99 @@ export interface Juzgado {
 
 // Converts JSON strings to/from your types
 export class Convert {
-  public static toIntCarpeta(
-    json: string 
-  ): IntCarpeta {
-    return JSON.parse(
-      json 
-    );
+  public static toIntCarpeta(json: string): IntCarpeta {
+    return JSON.parse(json);
   }
 
-  public static intCarpetaToJson(
-    value: IntCarpeta 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static intCarpetaToJson(value: IntCarpeta): string {
+    return JSON.stringify(value);
   }
 
-  public static toActuaciones(
-    json: string 
-  ): Actuaciones {
-    return JSON.parse(
-      json 
-    );
+  public static toActuaciones(json: string): Actuaciones {
+    return JSON.parse(json);
   }
 
-  public static actuacionesToJson(
-    value: Actuaciones 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static actuacionesToJson(value: Actuaciones): string {
+    return JSON.stringify(value);
   }
 
-  public static toActuacione(
-    json: string 
-  ): Actuacione {
-    return JSON.parse(
-      json 
-    );
+  public static toActuacione(json: string): Actuacione {
+    return JSON.parse(json);
   }
 
-  public static actuacioneToJson(
-    value: Actuacione 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static actuacioneToJson(value: Actuacione): string {
+    return JSON.stringify(value);
   }
 
-  public static toCodeudor(
-    json: string 
-  ): Codeudor {
-    return JSON.parse(
-      json 
-    );
+  public static toCodeudor(json: string): Codeudor {
+    return JSON.parse(json);
   }
 
-  public static codeudorToJson(
-    value: Codeudor 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static codeudorToJson(value: Codeudor): string {
+    return JSON.stringify(value);
   }
 
-  public static toDemanda(
-    json: string 
-  ): Demanda {
-    return JSON.parse(
-      json 
-    );
+  public static toDemanda(json: string): Demanda {
+    return JSON.parse(json);
   }
 
-  public static demandaToJson(
-    value: Demanda 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static demandaToJson(value: Demanda): string {
+    return JSON.stringify(value);
   }
 
-  public static toMedidasCautelares(
-    json: string 
-  ): MedidasCautelares {
-    return JSON.parse(
-      json 
-    );
+  public static toMedidasCautelares(json: string): MedidasCautelares {
+    return JSON.parse(json);
   }
 
-  public static medidasCautelaresToJson(
-    value: MedidasCautelares 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static medidasCautelaresToJson(value: MedidasCautelares): string {
+    return JSON.stringify(value);
   }
 
-  public static toDeudor(
-    json: string 
-  ): Deudor {
-    return JSON.parse(
-      json 
-    );
+  public static toDeudor(json: string): Deudor {
+    return JSON.parse(json);
   }
 
-  public static deudorToJson(
-    value: Deudor 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static deudorToJson(value: Deudor): string {
+    return JSON.stringify(value);
   }
 
-  public static toTel(
-    json: string 
-  ): Tel {
-    return JSON.parse(
-      json 
-    );
+  public static toTel(json: string): Tel {
+    return JSON.parse(json);
   }
 
-  public static telToJson(
-    value: Tel 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static telToJson(value: Tel): string {
+    return JSON.stringify(value);
   }
 
-  public static toNotificacion(
-    json: string 
-  ): Notificacion {
-    return JSON.parse(
-      json 
-    );
+  public static toNotificacion(json: string): Notificacion {
+    return JSON.parse(json);
   }
 
-  public static notificacionToJson(
-    value: Notificacion 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static notificacionToJson(value: Notificacion): string {
+    return JSON.stringify(value);
   }
 
-  public static toNotifier(
-    json: string 
-  ): Notifier {
-    return JSON.parse(
-      json 
-    );
+  public static toNotifier(json: string): Notifier {
+    return JSON.parse(json);
   }
 
-  public static notifierToJson(
-    value: Notifier 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static notifierToJson(value: Notifier): string {
+    return JSON.stringify(value);
   }
 
-  public static toProceso(
-    json: string 
-  ): Proceso {
-    return JSON.parse(
-      json 
-    );
+  public static toProceso(json: string): Proceso {
+    return JSON.parse(json);
   }
 
-  public static procesoToJson(
-    value: Proceso 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static procesoToJson(value: Proceso): string {
+    return JSON.stringify(value);
   }
 
-  public static toJuzgado(
-    json: string 
-  ): Juzgado {
-    return JSON.parse(
-      json 
-    );
+  public static toJuzgado(json: string): Juzgado {
+    return JSON.parse(json);
   }
 
-  public static juzgadoToJson(
-    value: Juzgado 
-  ): string {
-    return JSON.stringify(
-      value 
-    );
+  public static juzgadoToJson(value: Juzgado): string {
+    return JSON.stringify(value);
   }
 }

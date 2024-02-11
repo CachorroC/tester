@@ -698,9 +698,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-11-12T05:00:00.000Z",
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2017-12-14T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2017-12-14T05:00:00.000Z"],
     "id": 370,
     "llaveProceso": "11001400302020170155600",
     "mandamientoPago": [],
@@ -725,15 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "180998",
-      "3778813729098781"
-    ],
+    "obligacion": ["180998", "3778813729098781"],
     "radicado": "2017 - 01556",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2030-02-06T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2030-02-06T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 370,
       "fechaOrdenaMedida": null,
@@ -753,9 +746,7 @@
     "email": "hernandezsuarez28@hotmail.com"
   },
   "fecha": "2020-02-18T05:00:00.000Z",
-  "idProcesos": [
-    50918350
-  ],
+  "idProcesos": [50918350],
   "idRegUltimaAct": 958473880,
   "llaveProceso": "11001400302020170155600",
   "nombre": "lilian andrea hernandez suarez",

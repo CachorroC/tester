@@ -528,9 +528,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": "NOTIFICACION",
-    "fechaPresentacion": [
-      "2018-02-23T05:00:00.000Z"
-    ],
+    "fechaPresentacion": ["2018-02-23T05:00:00.000Z"],
     "id": 406,
     "llaveProceso": "11001400300220180020500",
     "mandamientoPago": [],
@@ -555,14 +553,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "112507"
-    ],
+    "obligacion": ["112507"],
     "radicado": "2018 - 00205",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "2033-10-15T05:00:00.000Z"
-    ],
+    "vencimientoPagare": ["2033-10-15T05:00:00.000Z"],
     "medidasCautelares": {
       "id": 406,
       "fechaOrdenaMedida": null,
@@ -582,9 +576,7 @@
     "email": null
   },
   "fecha": "2023-03-22T05:00:00.000Z",
-  "idProcesos": [
-    51034000
-  ],
+  "idProcesos": [51034000],
   "idRegUltimaAct": 1686593620,
   "llaveProceso": "11001400300220180020500",
   "nombre": "santiago javier sarabia jimenez",

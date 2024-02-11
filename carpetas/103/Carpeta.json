@@ -698,14 +698,10 @@
     "despacho": null,
     "entregaGarantiasAbogado": "2017-06-12T05:00:16.000Z",
     "etapaProcesal": "EJECUCIÓN",
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.902Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.902Z"],
     "id": 103,
     "llaveProceso": "11001400308220170068000",
-    "mandamientoPago": [
-      "1970-01-01T00:00:42.933Z"
-    ],
+    "mandamientoPago": ["1970-01-01T00:00:42.933Z"],
     "municipio": "BOGOTA",
     "notificacion": {
       "id": 103,
@@ -733,9 +729,7 @@
     ],
     "radicado": "2017-00680",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "2019-05-13T05:00:16.000Z"
-    ],
+    "vencimientoPagare": ["2019-05-13T05:00:16.000Z"],
     "medidasCautelares": {
       "id": 103,
       "fechaOrdenaMedida": "1970-01-01T00:00:42.933Z",
@@ -755,10 +749,7 @@
     "email": "kikearango@hotmail.com"
   },
   "fecha": "2023-11-08T05:00:00.000Z",
-  "idProcesos": [
-    51619370,
-    81869501
-  ],
+  "idProcesos": [51619370, 81869501],
   "idRegUltimaAct": 1934858360,
   "llaveProceso": "11001400308220170068000",
   "nombre": "eduardo enrique arango chacon",

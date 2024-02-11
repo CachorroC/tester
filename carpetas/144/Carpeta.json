@@ -60,14 +60,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "1980094643"
-    ],
+    "obligacion": ["1980094643"],
     "radicado": "2017 - 00872",
     "tipoProceso": "SINGULAR",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:44.130Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:44.130Z"],
     "medidasCautelares": {
       "id": 144,
       "fechaOrdenaMedida": "1970-01-01T00:00:43.646Z",
@@ -87,10 +83,7 @@
     "email": null
   },
   "fecha": "2022-02-23T05:00:00.000Z",
-  "idProcesos": [
-    50652400,
-    81647161
-  ],
+  "idProcesos": [50652400, 81647161],
   "idRegUltimaAct": 1259118680,
   "llaveProceso": "11001400302620170087200",
   "nombre": "maria filomena gonzales salas ",

@@ -1,46 +1,14 @@
-
-import { Despachos } from '../data/despachos';
-import { IntDemanda,
-  Juzgado,
-  TipoProceso,
-  intNotificacion, } from '../types/carpetas';
-import { intProceso } from '../types/procesos';
-import { tipoProcesoBuilder } from '../data/tipoProcesos';
-import { ClassNotificacion } from './notificacion';
-import { RawDb } from '../types/raw-db';
-import { Decimal } from '@prisma/client/runtime/library';
-import { dateArrayBuilder } from './date-array-builder';
-import { capitalBuilder } from './capital-builder';
-import { client } from './newJudicial';
-import { NewJuzgado } from './juzgado';
-
-export function juzgadosByProceso(
-  procesos: intProceso[]
-) {
-  if ( procesos.length === 0 ) {
-    return [];
-  }
-
-  const juzgados = new Set<Juzgado>();
-
-  for ( const proceso of procesos ) {
-    const newJ = new NewJuzgado(
-      proceso
-    );
-    juzgados.add(
-      newJ
-    );
-  }
-
-  return Array.from(
-    juzgados
-  );
-}
+import { IntDemanda, TipoProceso, intNotificacion } from "../types/carpetas";
+import { tipoProcesoBuilder } from "../data/tipoProcesos";
+import { ClassNotificacion } from "./notificacion";
+import { RawDb } from "../types/raw-db";
+import { Decimal } from "@prisma/client/runtime/library";
+import { dateArrayBuilder } from "./date-array-builder";
+import { capitalBuilder } from "./capital-builder";
+import { client } from "../services/prisma";
 
 export class ClassDemanda implements IntDemanda {
-  constructor(
-    rawCarpeta: RawDb
-  ) {
+  constructor(rawCarpeta: RawDb) {
     const {
       CAPITAL_ADEUDADO: capitalAdeudado,
       FECHA_ENTREGA_GARANTIAS_ABOGADO: entregaGarantiasAbogado,
@@ -59,127 +27,67 @@ export class ClassDemanda implements IntDemanda {
       OBLIGACION_1: A,
       OBLIGACION_2: B,
       VALOR_LIQUIDACION_DEL_CREDITO,
-      VALOR_AVALUO
-
+      VALOR_AVALUO,
     } = rawCarpeta;
     rawCarpeta.FECHA_PRESENTACION_DEMANDA;
 
     const newFechaOrdenaMedida = fechaOrdenaMedidas
-      ? new Date(
-        fechaOrdenaMedidas
-      )
+      ? new Date(fechaOrdenaMedidas)
       : new Date();
-    this.id = Number(
-      NUMERO
-    );
+    this.id = Number(NUMERO);
     this.medidasCautelares = {
-      id: Number(
-        NUMERO
-      ),
+      id: Number(NUMERO),
       fechaOrdenaMedida:
-          newFechaOrdenaMedida.toString() === 'Invalid Date'
-            ? null
-            : newFechaOrdenaMedida,
-      medidaSolicitada: medidaSolicitada
-        ? String(
-          medidaSolicitada
-        )
-        : null,
+        newFechaOrdenaMedida.toString() === "Invalid Date"
+          ? null
+          : newFechaOrdenaMedida,
+      medidaSolicitada: medidaSolicitada ? String(medidaSolicitada) : null,
     };
-
 
     const obligacionesSet = new Set<string>();
 
-
-
-    if ( A ) {
-      obligacionesSet.add(
-        String(
-          A
-        )
-      );
+    if (A) {
+      obligacionesSet.add(String(A));
     }
 
-    if ( B ) {
-      obligacionesSet.add(
-        String(
-          B
-        )
-      );
+    if (B) {
+      obligacionesSet.add(String(B));
     }
 
-
-    this.fechaPresentacion = dateArrayBuilder(
-      fechaPresentacion
-    );
-    this.notificacion = new ClassNotificacion(
-      rawCarpeta
-    );
-    this.mandamientoPago = dateArrayBuilder(
-      mandamientoPago
-    );
+    this.fechaPresentacion = dateArrayBuilder(fechaPresentacion);
+    this.notificacion = new ClassNotificacion(rawCarpeta);
+    this.mandamientoPago = dateArrayBuilder(mandamientoPago);
 
     const dateEntregaGarantiasAbogado = entregaGarantiasAbogado
-      ? new Date(
-        entregaGarantiasAbogado
-      )
+      ? new Date(entregaGarantiasAbogado)
       : null;
 
-    if ( !dateEntregaGarantiasAbogado ) {
+    if (!dateEntregaGarantiasAbogado) {
       this.entregaGarantiasAbogado = null;
     } else {
-      const isValidDate
-        = dateEntregaGarantiasAbogado.toString() !== 'Invalid Date';
+      const isValidDate =
+        dateEntregaGarantiasAbogado.toString() !== "Invalid Date";
 
-      if ( !isValidDate ) {
+      if (!isValidDate) {
         this.entregaGarantiasAbogado = null;
       } else {
         this.entregaGarantiasAbogado = dateEntregaGarantiasAbogado;
       }
     }
 
-    this.capitalAdeudado = capitalBuilder(
-      capitalAdeudado
-    );
+    this.capitalAdeudado = capitalBuilder(capitalAdeudado);
 
-    this.tipoProceso = tipoProcesoBuilder(
-      tipoProceso
-    );
-    this.etapaProcesal = etapaProcesal
-      ? `${ etapaProcesal }`
-      : null;
-    this.municipio = municipio
-      ? String(
-        municipio
-      )
-      : null;
-    this.obligacion = Array.from(
-      obligacionesSet
-    );
-    this.radicado = radicado
-      ? `${ radicado }`
-      : null;
-    this.vencimientoPagare = dateArrayBuilder(
-      vencimientoPagare
-    );
-    this.departamento = departamento
-      ? departamento
-      : null;
+    this.tipoProceso = tipoProcesoBuilder(tipoProceso);
+    this.etapaProcesal = etapaProcesal ? `${etapaProcesal}` : null;
+    this.municipio = municipio ? String(municipio) : null;
+    this.obligacion = Array.from(obligacionesSet);
+    this.radicado = radicado ? `${radicado}` : null;
+    this.vencimientoPagare = dateArrayBuilder(vencimientoPagare);
+    this.departamento = departamento ? departamento : null;
     this.despacho = null;
-    this.llaveProceso = llaveProceso
-      ? String(
-        llaveProceso
-      )
-      : null;
-    this.avaluo=  capitalBuilder(
-      VALOR_AVALUO
-    );
-    this.liquidacion=  capitalBuilder(
-      VALOR_LIQUIDACION_DEL_CREDITO
-    );
-
-
-
+    this.llaveProceso = llaveProceso ? String(llaveProceso) : null;
+    this.avaluo = capitalBuilder(VALOR_AVALUO);
+    this.liquidacion = capitalBuilder(VALOR_LIQUIDACION_DEL_CREDITO);
   }
   liquidacion: Decimal;
   avaluo: Decimal;
@@ -194,133 +102,126 @@ export class ClassDemanda implements IntDemanda {
   llaveProceso: string | null;
   mandamientoPago: Date[];
   municipio: string | null;
-  notificacion: intNotificacion | null;
+  notificacion: intNotificacion;
   obligacion: string[];
   radicado: string | null;
   tipoProceso: TipoProceso;
   vencimientoPagare: Date[];
-  medidasCautelares: { id: number; fechaOrdenaMedida: Date | null; medidaSolicitada: string | null; } | null;
-  async prismaUpdateDemanda () {
+  medidasCautelares: {
+    id: number;
+    fechaOrdenaMedida: Date | null;
+    medidaSolicitada: string | null;
+  };
+  async prismaUpdateDemanda() {
     try {
-      const upserter = await client.demanda.upsert(
-        {
-          where: {
-            id: this.id
+      const upserter = await client.demanda.upsert({
+        where: {
+          id: this.id,
+        },
+        create: {
+          municipio: this.municipio,
+          obligacion: this.obligacion,
+          radicado: this.radicado,
+          vencimientoPagare: this.vencimientoPagare,
+          tipoProceso: this.tipoProceso,
+          capitalAdeudado: this.capitalAdeudado,
+          departamento: this.departamento,
+          id: this.id,
+          despacho: this.despacho,
+          entregaGarantiasAbogado: this.entregaGarantiasAbogado,
+          etapaProcesal: this.etapaProcesal,
+          fechaPresentacion: this.fechaPresentacion,
+          llaveProceso: this.llaveProceso,
+          mandamientoPago: this.mandamientoPago,
+          notificacion: {
+            connectOrCreate: {
+              where: {
+                id: this.id,
+              },
+              create: {
+                ...this.notificacion,
+                id: this.id,
+                notifiers: {
+                  createMany: {
+                    data: this.notificacion?.notifiers ?? [],
+                    skipDuplicates: true,
+                  },
+                },
+              },
+            },
           },
-          create: {
-            municipio              : this.municipio,
-            obligacion             : this.obligacion,
-            radicado               : this.radicado,
-            vencimientoPagare      : this.vencimientoPagare,
-            tipoProceso            : this.tipoProceso,
-            capitalAdeudado        : this.capitalAdeudado,
-            departamento           : this.departamento,
-            id                     : this.id,
-            despacho               : this.despacho,
-            entregaGarantiasAbogado: this.entregaGarantiasAbogado,
-            etapaProcesal          : this.etapaProcesal,
-            fechaPresentacion      : this.fechaPresentacion,
-            llaveProceso           : this.llaveProceso,
-            mandamientoPago        : this.mandamientoPago,
-            notificacion           : {
-              connectOrCreate: {
-                where: {
-                  id: this.id
-                },
-                create: {
-                  ...this.notificacion,
-                  id       : this.id,
-                  notifiers: {
-                    createMany: {
-                      data          : this.notificacion?.notifiers ?? [],
-                      skipDuplicates: true
-                    }
-                  }
-                }
-              }
+          carpeta: {
+            connect: {
+              numero: this.id,
             },
-            carpeta: {
-              connect: {
-                numero: this.id
-              }
-            },
-            medidasCautelares: {
-              connectOrCreate: {
-                where: {
-                  id: this.id
-                },
-                create: {
-                  fechaOrdenaMedida: this.medidasCautelares?.fechaOrdenaMedida,
-                  id               : this.id,
-                  medidaSolicitada : this.medidasCautelares?.medidaSolicitada
-                }
-              }
-            },
-
-
-
           },
-          update: {
-            municipio              : this.municipio,
-            obligacion             : this.obligacion,
-            radicado               : this.radicado,
-            vencimientoPagare      : this.vencimientoPagare,
-            tipoProceso            : this.tipoProceso,
-            capitalAdeudado        : this.capitalAdeudado,
-            departamento           : this.departamento,
-            id                     : this.id,
-            despacho               : this.despacho,
-            entregaGarantiasAbogado: this.entregaGarantiasAbogado,
-            etapaProcesal          : this.etapaProcesal,
-            fechaPresentacion      : this.fechaPresentacion,
-            llaveProceso           : this.llaveProceso,
-            mandamientoPago        : this.mandamientoPago,
-            notificacion           : {
-              connectOrCreate: {
-                where: {
-                  id: this.id
+          medidasCautelares: {
+            connectOrCreate: {
+              where: {
+                id: this.id,
+              },
+              create: {
+                fechaOrdenaMedida: this.medidasCautelares?.fechaOrdenaMedida,
+                id: this.id,
+                medidaSolicitada: this.medidasCautelares?.medidaSolicitada,
+              },
+            },
+          },
+        },
+        update: {
+          municipio: this.municipio,
+          obligacion: this.obligacion,
+          radicado: this.radicado,
+          vencimientoPagare: this.vencimientoPagare,
+          tipoProceso: this.tipoProceso,
+          capitalAdeudado: this.capitalAdeudado,
+          departamento: this.departamento,
+          id: this.id,
+          despacho: this.despacho,
+          entregaGarantiasAbogado: this.entregaGarantiasAbogado,
+          etapaProcesal: this.etapaProcesal,
+          fechaPresentacion: this.fechaPresentacion,
+          llaveProceso: this.llaveProceso,
+          mandamientoPago: this.mandamientoPago,
+          notificacion: {
+            connectOrCreate: {
+              where: {
+                id: this.id,
+              },
+              create: {
+                ...this.notificacion,
+                id: this.id,
+                notifiers: {
+                  createMany: {
+                    data: this.notificacion?.notifiers ?? [],
+                    skipDuplicates: true,
+                  },
                 },
-                create: {
-                  ...this.notificacion,
-                  id       : this.id,
-                  notifiers: {
-                    createMany: {
-                      data          : this.notificacion?.notifiers ?? [],
-                      skipDuplicates: true
-                    }
-                  }
-                }
-              }
+              },
             },
-            carpeta: {
-              connect: {
-                numero: this.id
-              }
+          },
+          carpeta: {
+            connect: {
+              numero: this.id,
             },
-            medidasCautelares: {
-              connectOrCreate: {
-                where: {
-                  id: this.id
-                },
-                create: {
-                  fechaOrdenaMedida: this.medidasCautelares?.fechaOrdenaMedida,
-                  id               : this.id,
-                  medidaSolicitada : this.medidasCautelares?.medidaSolicitada
-                }
-              }
+          },
+          medidasCautelares: {
+            connectOrCreate: {
+              where: {
+                id: this.id,
+              },
+              create: {
+                fechaOrdenaMedida: this.medidasCautelares?.fechaOrdenaMedida,
+                id: this.id,
+                medidaSolicitada: this.medidasCautelares?.medidaSolicitada,
+              },
             },
-
-
-          }
-        }
-      );
+          },
+        },
+      });
       return upserter;
-    } catch ( error ) {
-      console.log(
-        `ClassDemanda prismaUpdateDemanda ${ JSON.stringify(
-          error
-        ) }`
-      );
+    } catch (error) {
+      console.log(`ClassDemanda prismaUpdateDemanda ${JSON.stringify(error)}`);
       return null;
     }
   }

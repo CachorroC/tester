@@ -698,9 +698,7 @@
     "despacho": null,
     "entregaGarantiasAbogado": null,
     "etapaProcesal": null,
-    "fechaPresentacion": [
-      "1970-01-01T00:00:42.982Z"
-    ],
+    "fechaPresentacion": ["1970-01-01T00:00:42.982Z"],
     "id": 203,
     "llaveProceso": "11001400300820170106000",
     "mandamientoPago": [],
@@ -725,14 +723,10 @@
       "fisico": null,
       "autoNotificado": null
     },
-    "obligacion": [
-      "179104"
-    ],
+    "obligacion": ["179104"],
     "radicado": "2017 - 01060",
     "tipoProceso": "HIPOTECARIO",
-    "vencimientoPagare": [
-      "1970-01-01T00:00:45.624Z"
-    ],
+    "vencimientoPagare": ["1970-01-01T00:00:45.624Z"],
     "medidasCautelares": {
       "id": 203,
       "fechaOrdenaMedida": "2024-02-10T00:54:38.137Z",
@@ -752,9 +746,7 @@
     "email": "fantavillabon@hotmail.com"
   },
   "fecha": "2019-07-17T05:00:00.000Z",
-  "idProcesos": [
-    50684220
-  ],
+  "idProcesos": [50684220],
   "idRegUltimaAct": 602011100,
   "llaveProceso": "11001400300820170106000",
   "nombre": "gonzalo villabon martinez",
