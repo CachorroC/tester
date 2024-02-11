@@ -1,24 +1,40 @@
-import { PrismaClient } from "@prisma/client";
-import * as fs from "fs/promises";
-import xlsx from "xlsx";
-import { Convert, RawDb } from "./types/raw-db";
-import { Prisma } from "@prisma/client";
+import { PrismaClient } from '@prisma/client';
+import * as fs from 'fs/promises';
+import xlsx from 'xlsx';
+import { Convert, RawDb } from './types/raw-db';
+import { Prisma } from '@prisma/client';
 
-const workbook = xlsx.readFile("/srv/new/nube/bases_de_datos/general.xlsx", {
-  cellDates: true,
-});
+const workbook = xlsx.readFile(
+  '/srv/new/nube/bases_de_datos/general.xlsx', {
+    cellDates: true,
+  } 
+);
 
-const procesosBancolombia = workbook.Sheets[workbook.SheetNames[0]];
+const procesosBancolombia = workbook.Sheets[ workbook.SheetNames[ 0 ] ];
 
-const table: RawDb[] = xlsx.utils.sheet_to_json(procesosBancolombia);
+const table: RawDb[] = xlsx.utils.sheet_to_json(
+  procesosBancolombia 
+);
 
-console.log(workbook.Sheets);
-fs.writeFile("worksheets.json", JSON.stringify(workbook.Sheets));
+console.log(
+  workbook.Sheets 
+);
+fs.writeFile(
+  'worksheets.json', JSON.stringify(
+    workbook.Sheets 
+  ) 
+);
 
-const jsonTable = JSON.stringify(table);
-fs.writeFile(`${workbook.SheetNames[0]}.json`, jsonTable);
+const jsonTable = JSON.stringify(
+  table 
+);
+fs.writeFile(
+  `${ workbook.SheetNames[ 0 ] }.json`, jsonTable 
+);
 
-const rawDb = Convert.toRawDb(jsonTable);
+const rawDb = Convert.toRawDb(
+  jsonTable 
+);
 
 /* const arrayMapper = []
 for ( const workSheet of workSheetsFromFile )
@@ -40,7 +56,11 @@ return
 
 const prisma = new PrismaClient();
 
-async function updateCarpeta({ rawCarpeta }: { rawCarpeta: RawDb }) {
+async function updateCarpeta(
+  {
+    rawCarpeta 
+  }: { rawCarpeta: RawDb } 
+) {
   const {
     NUMERO,
     VALOR_CAPITAL_ADEUDADO,
@@ -53,10 +73,10 @@ async function updateCarpeta({ rawCarpeta }: { rawCarpeta: RawDb }) {
 
   try {
     const prismaDemanda: Prisma.DemandaUncheckedCreateWithoutCarpetaInput = {
-      id: NUMERO,
+      id          : NUMERO,
       departamento: JUZGADO_DEPARTAMENTO,
 
-      tipoProceso: TIPO_PROCESO,
+      tipoProceso : TIPO_PROCESO,
       notificacion: {
         connectOrCreate: {
           where: {
@@ -67,57 +87,67 @@ async function updateCarpeta({ rawCarpeta }: { rawCarpeta: RawDb }) {
       },
     };
 
-    const updater = await prisma.carpeta.update({
-      where: {
-        numero: NUMERO,
-      },
-      data: {
-        demanda: {
-          connectOrCreate: {
-            where: {
-              id: NUMERO,
+    const updater = await prisma.carpeta.update(
+      {
+        where: {
+          numero: NUMERO,
+        },
+        data: {
+          demanda: {
+            connectOrCreate: {
+              where: {
+                id: NUMERO,
+              },
+              create: prismaDemanda,
             },
-            create: prismaDemanda,
           },
         },
-      },
-      include: {
-        demanda: {
-          include: {
-            medidasCautelares: true,
-            notificacion: {
-              include: {
-                notifiers: true,
+        include: {
+          demanda: {
+            include: {
+              medidasCautelares: true,
+              notificacion     : {
+                include: {
+                  notifiers: true,
+                },
               },
             },
           },
-        },
-        deudor: true,
-        procesos: {
-          include: {
-            juzgado: true,
+          deudor  : true,
+          procesos: {
+            include: {
+              juzgado: true,
+            },
           },
         },
-      },
-    });
+      } 
+    );
     return updater;
-  } catch (error) {}
+  } catch ( error ) {}
 }
 
 async function getDemandas() {
-  const demandas = await prisma.demanda.findMany({
-    include: {
-      notificacion: {
-        include: {
-          notifiers: true,
+  const demandas = await prisma.demanda.findMany(
+    {
+      include: {
+        notificacion: {
+          include: {
+            notifiers: true,
+          },
         },
+        medidasCautelares: true,
       },
-      medidasCautelares: true,
-    },
-  });
+    } 
+  );
 
-  fs.writeFile("demandas.json", JSON.stringify(demandas));
+  fs.writeFile(
+    'demandas.json', JSON.stringify(
+      demandas 
+    ) 
+  );
   return demandas;
 }
 
-console.log(getDemandas());
+console.log(
+  getDemandas() 
+);

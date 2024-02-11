@@ -1,44 +1,72 @@
-import { Decimal } from "@prisma/client/runtime/library";
+import { Decimal } from '@prisma/client/runtime/library';
 
-export function capitalBuilder(capitalAdeudado?: string | number | null) {
-  if (!capitalAdeudado || typeof capitalAdeudado === "object") {
-    return new Decimal(1000);
+export function capitalBuilder(
+  capitalAdeudado?: string | number | null 
+) {
+  if ( !capitalAdeudado || typeof capitalAdeudado === 'object' ) {
+    return new Decimal(
+      1000 
+    );
   }
 
-  if (typeof capitalAdeudado === "number") {
-    return new Decimal(capitalAdeudado);
+  if ( typeof capitalAdeudado === 'number' ) {
+    return new Decimal(
+      capitalAdeudado 
+    );
   }
 
-  const copTaker = capitalAdeudado.matchAll(/([\d.]+)(\.\d{2}|,\d{2})$/gm);
+  const copTaker = capitalAdeudado.matchAll(
+    /([\d.]+)(\.\d{2}|,\d{2})$/gm 
+  );
 
-  for (const cap of copTaker) {
-    if (!cap) {
-      return new Decimal(1000);
+  for ( const cap of copTaker ) {
+    if ( !cap ) {
+      return new Decimal(
+        1000 
+      );
     }
 
-    const [orig, value, cents] = cap;
-    console.log(orig);
-    console.log(cents);
+    const [
+      orig,
+      value,
+      cents
+    ] = cap;
+    console.log(
+      orig 
+    );
+    console.log(
+      cents 
+    );
 
     const valueReplacer = value.replaceAll(
       /([.,\s\n\r/A-Za-zÁáÉéÍíÓóÚúÑñ-])/gm,
-      "",
+      '',
     );
-    console.log(valueReplacer);
-    return new Decimal(valueReplacer);
+    console.log(
+      valueReplacer 
+    );
+    return new Decimal(
+      valueReplacer 
+    );
   }
 
   const newCapital = capitalAdeudado.replaceAll(
     /([.,\s\n\r/A-Za-zÁáÉéÍíÓóÚúÑñ-])/gm,
-    "",
+    '',
   );
-  console.log(newCapital);
+  console.log(
+    newCapital 
+  );
 
-  if (!newCapital) {
-    return new Decimal(1000);
+  if ( !newCapital ) {
+    return new Decimal(
+      1000 
+    );
   }
 
-  return new Decimal(newCapital);
+  return new Decimal(
+    newCapital 
+  );
 }
 /*
 const caps = [

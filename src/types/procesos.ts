@@ -4,8 +4,8 @@
 //
 //   const consultaNumeroRadicacion = Convert.toConsultaNumeroRadicacion(json);
 
-import { intActuacion } from "./actuaciones";
-import { Juzgado } from "./carpetas";
+import { intActuacion } from './actuaciones';
+import { Juzgado } from './carpetas';
 
 export interface Data {
   StatusCode: number;
@@ -22,10 +22,10 @@ export interface ConsultaNumeroRadicacion {
 }
 
 export type Message =
-  | "OK"
+  | 'OK'
   | 'El parametro "NumeroRadicacion" ha de contener 23 digitos.'
-  | "Object reference not set to an instance of an object."
-  | "No se pueden ver actuaciones de un proceso privado";
+  | 'Object reference not set to an instance of an object.'
+  | 'No se pueden ver actuaciones de un proceso privado';
 
 export interface Paginacion {
   cantidadRegistros: number;
@@ -65,45 +65,73 @@ export interface outProceso extends intProceso {
   juzgado: Juzgado;
 }
 
-export type Departamento = "BOGOTÁ" | "CUNDINAMARCA" | "ANTIOQUIA" | "META";
+export type Departamento = 'BOGOTÁ' | 'CUNDINAMARCA' | 'ANTIOQUIA' | 'META';
 
-export type TipoConsulta = "NumeroRadicacion";
+export type TipoConsulta = 'NumeroRadicacion';
 
 // Converts JSON strings to/from your types
 export class Convert {
   public static toConsultaNumeroRadicacion(
     json: string,
   ): ConsultaNumeroRadicacion {
-    return JSON.parse(json);
+    return JSON.parse(
+      json 
+    );
   }
 
   public static consultaNumeroRadicacionToJson(
     value: ConsultaNumeroRadicacion,
   ): string {
-    return JSON.stringify(value);
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static toPaginacion(json: string): Paginacion {
-    return JSON.parse(json);
+  public static toPaginacion(
+    json: string 
+  ): Paginacion {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static paginacionToJson(value: Paginacion): string {
-    return JSON.stringify(value);
+  public static paginacionToJson(
+    value: Paginacion 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static toParametros(json: string): Parametros {
-    return JSON.parse(json);
+  public static toParametros(
+    json: string 
+  ): Parametros {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static parametrosToJson(value: Parametros): string {
-    return JSON.stringify(value);
+  public static parametrosToJson(
+    value: Parametros 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static toProceso(json: string): intProceso {
-    return JSON.parse(json);
+  public static toProceso(
+    json: string 
+  ): intProceso {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static procesoToJson(value: intProceso): string {
-    return JSON.stringify(value);
+  public static procesoToJson(
+    value: intProceso 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 }

@@ -14,7 +14,7 @@
 //
 //   const rawDb = Convert.toRawDb(json);
 
-import { Category } from "./carpetas";
+import { Category } from './carpetas';
 
 export interface RawDb {
   NUMERO: number | string;
@@ -102,58 +102,66 @@ export interface RawDb {
   __EMPTY?: string;
 }
 
-export type Certimail = "SI" | "NO" | "FALSE" | "TRUE" | "04/10/2018";
+export type Certimail = 'SI' | 'NO' | 'FALSE' | 'TRUE' | '04/10/2018';
 
 export type Departamento =
-  | "CUNDINAMARCA"
-  | "CUNDINNAMARCA"
-  | "CUNDINAMARCA "
-  | "TOLIMA"
-  | "CUN DINAMARCA"
-  | "CUNDINNAMARCA "
-  | "BOYACÁ"
-  | "CUNDINAMRCA"
-  | "CNDINAMARCA"
-  | "BOYACA"
-  | "ATLANTICO";
+  | 'CUNDINAMARCA'
+  | 'CUNDINNAMARCA'
+  | 'CUNDINAMARCA '
+  | 'TOLIMA'
+  | 'CUN DINAMARCA'
+  | 'CUNDINNAMARCA '
+  | 'BOYACÁ'
+  | 'CUNDINAMRCA'
+  | 'CNDINAMARCA'
+  | 'BOYACA'
+  | 'ATLANTICO';
 
 export type FechaNotificacionEnum =
-  | "9/04/2018"
-  | "POSITIVO"
-  | "NEGATIVO"
-  | "10/09/2018"
-  | "21/05/2018"
-  | "08/10/2018"
-  | "|";
+  | '9/04/2018'
+  | 'POSITIVO'
+  | 'NEGATIVO'
+  | '10/09/2018'
+  | '21/05/2018'
+  | '08/10/2018'
+  | '|';
 
 export type TipoProceso =
-  | "HIPOTECARIO"
-  | "PRENDARIO"
-  | "SINGULAR"
-  | "SINGULAR ACUMULADO CON HIPOTECARIO"
-  | "SINGULAR ACUM HIPOTECARIO"
-  | "PRENDARO"
-  | " HIPOTECARIO"
-  | "7 CME"
-  | "HMM PISO 1"
-  | "  SINGULAR"
-  | "HIPOTECARIA"
-  | "5 CME"
-  | "HIPOTECARO"
-  | "SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL"
-  | "SOACHA"
-  | "HIPOTECARIO "
-  | "18 PROMISCUO PCC"
-  | "SINGULAR ";
+  | 'HIPOTECARIO'
+  | 'PRENDARIO'
+  | 'SINGULAR'
+  | 'SINGULAR ACUMULADO CON HIPOTECARIO'
+  | 'SINGULAR ACUM HIPOTECARIO'
+  | 'PRENDARO'
+  | ' HIPOTECARIO'
+  | '7 CME'
+  | 'HMM PISO 1'
+  | '  SINGULAR'
+  | 'HIPOTECARIA'
+  | '5 CME'
+  | 'HIPOTECARO'
+  | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL'
+  | 'SOACHA'
+  | 'HIPOTECARIO '
+  | '18 PROMISCUO PCC'
+  | 'SINGULAR ';
 
 // Converts JSON strings to/from your types
 export class ConvertRawDb {
-  public static toRawDb(json: string): RawDb {
-    return JSON.parse(json);
+  public static toRawDb(
+    json: string 
+  ): RawDb {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static rawDbToJson(value: RawDb): string {
-    return JSON.stringify(value);
+  public static rawDbToJson(
+    value: RawDb 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 }
 
@@ -232,23 +240,23 @@ export interface Bancolombia {
 }
 
 export type BancolombiaJuzgadoDepartamento =
-  | "CUNDINAMARCA"
-  | "BOYACA"
-  | "ATLANTICO";
+  | 'CUNDINAMARCA'
+  | 'BOYACA'
+  | 'ATLANTICO';
 
 export type Resultado291 =
-  | "POSITIVO"
-  | "ABIERTO"
-  | "NEGATIVO"
-  | "02/11/2018"
-  | "N/A";
+  | 'POSITIVO'
+  | 'ABIERTO'
+  | 'NEGATIVO'
+  | '02/11/2018'
+  | 'N/A';
 
 export type BancolombiaTipoProceso =
-  | "PRENDARIO"
-  | "SINGULAR"
-  | "HIPOTECARIO"
-  | "HIPOTECARO"
-  | "SINGULAR ";
+  | 'PRENDARIO'
+  | 'SINGULAR'
+  | 'HIPOTECARIO'
+  | 'HIPOTECARO'
+  | 'SINGULAR ';
 
 export interface Insolvencia {
   BIENES: number | string;
@@ -320,15 +328,15 @@ export interface Insolvencia {
 }
 
 export type OficioNumero =
-  | "EMPLAZAMIENTO"
-  | "CERTIMAIL"
-  | "PERSONAL"
-  | "CORREO"
-  | "OK"
-  | "AVISO"
-  | "CORREO // DESISTIMIENDO DE NELIDA"
-  | "N/A"
-  | "FISICA";
+  | 'EMPLAZAMIENTO'
+  | 'CERTIMAIL'
+  | 'PERSONAL'
+  | 'CORREO'
+  | 'OK'
+  | 'AVISO'
+  | 'CORREO // DESISTIMIENDO DE NELIDA'
+  | 'N/A'
+  | 'FISICA';
 
 export interface LiosJuridico {
   DEUDOR_CEDULA: number;
@@ -426,36 +434,36 @@ export interface Reintegra {
 }
 
 export type CodeudorTelefonosEnum =
-  | "N/A"
-  | "2067151//3015485509"
-  | "7264921//3203987609"
-  | "5643632//3125598323"
-  | "3118869672"
-  | "3144245852"
-  | "3114472300";
+  | 'N/A'
+  | '2067151//3015485509'
+  | '7264921//3203987609'
+  | '5643632//3125598323'
+  | '3118869672'
+  | '3144245852'
+  | '3114472300';
 
 export type FechaCapturaOSecuestro =
-  | "     "
-  | "A LA ESPERA"
-  | "19/11/2018"
-  | "N/A";
+  | '     '
+  | 'A LA ESPERA'
+  | '19/11/2018'
+  | 'N/A';
 
 export type ReintegraJuzgadoDepartamento =
-  | "CUNDINAMARCA"
-  | "TOLIMA"
-  | "CUNDINNAMARCA"
-  | "BOYACÁ"
-  | "CUNDINAMRCA"
-  | "CNDINAMARCA";
+  | 'CUNDINAMARCA'
+  | 'TOLIMA'
+  | 'CUNDINNAMARCA'
+  | 'BOYACÁ'
+  | 'CUNDINAMRCA'
+  | 'CNDINAMARCA';
 
-export type Parqueadero = "LA PRINCIPAL SAS" | "N/A";
+export type Parqueadero = 'LA PRINCIPAL SAS' | 'N/A';
 
 export type ReintegraTipoProceso =
-  | "PRENDARIO"
-  | "SINGULAR"
-  | "HMM PISO 1"
-  | "  SINGULAR"
-  | "5 CME";
+  | 'PRENDARIO'
+  | 'SINGULAR'
+  | 'HMM PISO 1'
+  | '  SINGULAR'
+  | '5 CME';
 
 export interface Terminado {
   BIENES?: number | string;
@@ -524,98 +532,154 @@ export interface Terminado {
   FECHA_RADICACION_MEMORIAL_TERMINACION?: number | string;
   FECHA_PRESENTACION_LIQUIDACION?: number | string;
   VALOR_LIQUIDACION?: number | string;
-  " ULTIMO_MOVIMIENTO_IMPEDIR_DESISTIMIENTO"?: string;
+  ' ULTIMO_MOVIMIENTO_IMPEDIR_DESISTIMIENTO'?: string;
   FECHA_SUSPENSION_PROCESO?: string;
-  "TERMINO_SUSPENSION "?: string;
+  'TERMINO_SUSPENSION '?: string;
   FECHA_SENTENCIA?: string;
 }
 
 export type FechaAutoNotificadoEnum =
-  | "N/A"
-  | "POSITIVO"
-  | "NEGATIVO"
-  | "9/04/2018"
-  | "10/09/2018"
-  | "21/05/2018"
-  | "08/10/2018"
-  | "|";
+  | 'N/A'
+  | 'POSITIVO'
+  | 'NEGATIVO'
+  | '9/04/2018'
+  | '10/09/2018'
+  | '21/05/2018'
+  | '08/10/2018'
+  | '|';
 
 export type TerminadoJuzgadoDepartamento =
-  | "CUNDINAMARCA"
-  | "CUNDINNAMARCA"
-  | "CUNDINAMARCA "
-  | "CUN DINAMARCA"
-  | "CUNDINNAMARCA ";
+  | 'CUNDINAMARCA'
+  | 'CUNDINNAMARCA'
+  | 'CUNDINAMARCA '
+  | 'CUN DINAMARCA'
+  | 'CUNDINNAMARCA ';
 
 export type TerminadoTipoProceso =
-  | "HIPOTECARIO"
-  | "PRENDARIO"
-  | "SINGULAR"
-  | "SINGULAR ACUMULADO CON HIPOTECARIO"
-  | "SINGULAR ACUM HIPOTECARIO"
-  | "PRENDARO"
-  | " HIPOTECARIO"
-  | "7 CME"
-  | "HIPOTECARIA"
-  | "SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL"
-  | "SOACHA"
-  | "HIPOTECARIO "
-  | "18 PROMISCUO PCC";
+  | 'HIPOTECARIO'
+  | 'PRENDARIO'
+  | 'SINGULAR'
+  | 'SINGULAR ACUMULADO CON HIPOTECARIO'
+  | 'SINGULAR ACUM HIPOTECARIO'
+  | 'PRENDARO'
+  | ' HIPOTECARIO'
+  | '7 CME'
+  | 'HIPOTECARIA'
+  | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL'
+  | 'SOACHA'
+  | 'HIPOTECARIO '
+  | '18 PROMISCUO PCC';
 
 // Converts JSON strings to/from your types
 export class Convert {
-  public static toRawDb(json: string): RawDb {
-    return JSON.parse(json);
+  public static toRawDb(
+    json: string 
+  ): RawDb {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static rawDbToJson(value: RawDb): string {
-    return JSON.stringify(value);
+  public static rawDbToJson(
+    value: RawDb 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
-  public static toRawWorkSheets(json: string): RawWorkSheets {
-    return JSON.parse(json);
-  }
-
-  public static welcomeToJson(value: RawWorkSheets): string {
-    return JSON.stringify(value);
-  }
-
-  public static toBancolombia(json: string): Bancolombia {
-    return JSON.parse(json);
-  }
-
-  public static bancolombiaToJson(value: Bancolombia): string {
-    return JSON.stringify(value);
+  public static toRawWorkSheets(
+    json: string 
+  ): RawWorkSheets {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static toInsolvencia(json: string): Insolvencia {
-    return JSON.parse(json);
+  public static welcomeToJson(
+    value: RawWorkSheets 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static insolvenciaToJson(value: Insolvencia): string {
-    return JSON.stringify(value);
+  public static toBancolombia(
+    json: string 
+  ): Bancolombia {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static toLiosJuridico(json: string): LiosJuridico {
-    return JSON.parse(json);
+  public static bancolombiaToJson(
+    value: Bancolombia 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static liosJuridicoToJson(value: LiosJuridico): string {
-    return JSON.stringify(value);
+  public static toInsolvencia(
+    json: string 
+  ): Insolvencia {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static toReintegra(json: string): Reintegra {
-    return JSON.parse(json);
+  public static insolvenciaToJson(
+    value: Insolvencia 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static reintegraToJson(value: Reintegra): string {
-    return JSON.stringify(value);
+  public static toLiosJuridico(
+    json: string 
+  ): LiosJuridico {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static toTerminado(json: string): Terminado {
-    return JSON.parse(json);
+  public static liosJuridicoToJson(
+    value: LiosJuridico 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static terminadoToJson(value: Terminado): string {
-    return JSON.stringify(value);
+  public static toReintegra(
+    json: string 
+  ): Reintegra {
+    return JSON.parse(
+      json 
+    );
+  }
+
+  public static reintegraToJson(
+    value: Reintegra 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
+  }
+
+  public static toTerminado(
+    json: string 
+  ): Terminado {
+    return JSON.parse(
+      json 
+    );
+  }
+
+  public static terminadoToJson(
+    value: Terminado 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 }

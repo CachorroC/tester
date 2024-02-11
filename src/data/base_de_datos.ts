@@ -1,27 +1,39 @@
-import xlsx from "xlsx";
-import { RawDb } from "../types/raw-db";
+import xlsx from 'xlsx';
+import { RawDb } from '../types/raw-db';
 
 const workbook = xlsx.readFile(
-  "/srv/new/nube/bases_de_datos/BASE DE DATOS GENERAL BANCOLOMBIA A 8 DE FEBRERO DE 2024.xlsx",
+  '/srv/new/nube/bases_de_datos/BASE DE DATOS GENERAL BANCOLOMBIA A 8 DE FEBRERO DE 2024.xlsx',
   {
     cellDates: true,
   },
 );
 
-const { SheetNames, Sheets } = workbook;
+const {
+  SheetNames, Sheets 
+} = workbook;
 
-const mapperSheets = SheetNames.flatMap((sheetname) => {
-  const sheet = Sheets[sheetname];
+const mapperSheets = SheetNames.flatMap(
+  (
+    sheetname 
+  ) => {
+    const sheet = Sheets[ sheetname ];
 
-  const tableSheet = xlsx.utils.sheet_to_json<RawDb>(sheet, {
-    raw: true,
-    blankrows: false,
-    header: "A",
-  });
-  return tableSheet.map((table) => {
-    return {
-      ...table,
-      category: sheetname as Category,
-    };
-  });
-});
+    const tableSheet = xlsx.utils.sheet_to_json<RawDb>(
+      sheet, {
+        raw      : true,
+        blankrows: false,
+        header   : 'A',
+      } 
+    );
+    return tableSheet.map(
+      (
+        table 
+      ) => {
+        return {
+          ...table,
+          category: sheetname as Category,
+        };
+      } 
+    );
+  } 
+);

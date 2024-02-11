@@ -1,22 +1,30 @@
-import { client } from "../models/newJudicial";
-import Carpetas from "./carpetas";
+import { client } from '../models/newJudicial';
+import Carpetas from './carpetas';
 
 async function prismaMedidasCautelares() {
-  for (const carpeta of Carpetas) {
-    const { demanda } = carpeta;
+  for ( const carpeta of Carpetas ) {
+    const {
+      demanda 
+    } = carpeta;
 
-    const { medidasCautelares } = demanda;
+    const {
+      medidasCautelares 
+    } = demanda;
 
-    if (medidasCautelares) {
-      const { medidaSolicitada, fechaOrdenaMedidas } = medidasCautelares;
+    if ( medidasCautelares ) {
+      const {
+        medidaSolicitada, fechaOrdenaMedidas 
+      } = medidasCautelares;
       let newFechaOrdenaMedida;
 
-      if (fechaOrdenaMedidas) {
-        const newFecha = new Date(fechaOrdenaMedidas);
+      if ( fechaOrdenaMedidas ) {
+        const newFecha = new Date(
+          fechaOrdenaMedidas 
+        );
 
         const stringer = newFecha.toString();
 
-        if (stringer === "Invalid Date") {
+        if ( stringer === 'Invalid Date' ) {
           newFechaOrdenaMedida = null;
         } else {
           newFechaOrdenaMedida = newFecha;
@@ -26,21 +34,34 @@ async function prismaMedidasCautelares() {
       }
 
       try {
-        await client.medidasCautelares.create({
-          data: {
-            medidaSolicitada: medidaSolicitada ? medidaSolicitada : null,
-            fechaOrdenaMedida: newFechaOrdenaMedida,
-            id: carpeta.numero,
-          },
-        });
-      } catch (error) {
-        console.log(error);
+        await client.medidasCautelares.create(
+          {
+            data: {
+              medidaSolicitada: medidaSolicitada
+                ? medidaSolicitada
+                : null,
+              fechaOrdenaMedida: newFechaOrdenaMedida,
+              id               : carpeta.numero,
+            },
+          } 
+        );
+      } catch ( error ) {
+        console.log(
+          error 
+        );
       }
     }
   }
 }
 
-prismaMedidasCautelares().then((rr) => {
-  console.log(rr);
-  return rr;
-});
+prismaMedidasCautelares()
+  .then(
+    (
+      rr 
+    ) => {
+      console.log(
+        rr 
+      );
+      return rr;
+    } 
+  );

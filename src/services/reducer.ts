@@ -1,4 +1,4 @@
-import Carpetas from "../data/carpetas";
+import Carpetas from '../data/carpetas';
 
 export interface TrulyCruda {
   demanda: DemandaRaw;
@@ -17,13 +17,13 @@ export type Obligacion = {
 };
 
 export type Category =
-  | "Terminados"
-  | "LiosJuridicos"
-  | "Bancolombia"
-  | "Reintegra"
-  | "Insolvencia"
-  | "SinEspecificar"
-  | "todos";
+  | 'Terminados'
+  | 'LiosJuridicos'
+  | 'Bancolombia'
+  | 'Reintegra'
+  | 'Insolvencia'
+  | 'SinEspecificar'
+  | 'todos';
 
 export interface Codeudor {
   cedula: string | null;
@@ -64,27 +64,27 @@ export interface DemandaRaw {
 }
 
 export type TipoProcesoRaw =
-  | "HIPOTECARIO"
-  | "PRENDARIO"
-  | "SINGULAR"
-  | "SINGULAR ACUMULADO CON HIPOTECARIO"
-  | "SINGULAR ACUM HIPOTECARIO"
-  | "11001400308320170071700"
-  | "25473418900120170092400"
-  | "PRENDARO"
-  | " HIPOTECARIO"
-  | "HMM PISO 1"
-  | "  SINGULAR"
-  | "HIPOTECARIA"
-  | "HIPOTECARO"
-  | "SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL"
-  | "SOACHA"
-  | "ACUMULADO"
-  | "HIPOTECARIO ";
+  | 'HIPOTECARIO'
+  | 'PRENDARIO'
+  | 'SINGULAR'
+  | 'SINGULAR ACUMULADO CON HIPOTECARIO'
+  | 'SINGULAR ACUM HIPOTECARIO'
+  | '11001400308320170071700'
+  | '25473418900120170092400'
+  | 'PRENDARO'
+  | ' HIPOTECARIO'
+  | 'HMM PISO 1'
+  | '  SINGULAR'
+  | 'HIPOTECARIA'
+  | 'HIPOTECARO'
+  | 'SINGULAR ACUMULADO CON HIPOTECARIO CAJA SOCIAL'
+  | 'SOACHA'
+  | 'ACUMULADO'
+  | 'HIPOTECARIO ';
 
 export interface rawNotificacion {
-  "291"?: The291;
-  "292"?: The292;
+  '291'?: The291;
+  '292'?: The292;
   certimail?: string;
   fisico?: FisicoEnum | number;
   tipo?: number | string;
@@ -92,52 +92,52 @@ export interface rawNotificacion {
 }
 
 export type ResultadoEnum =
-  | ""
-  | "31/03/1901"
-  | "POSITIVO"
-  | "CERTIMAIL"
-  | "06/07/2018"
-  | "FISICA"
-  | "NEGATIVO"
-  | "FISICO"
-  | "20/06/2018 JAIME"
-  | "28/11/2017"
-  | "09/04/2018 CERTIMAIL"
-  | "15/06/2018"
-  | "14/09/2018 WILSON"
-  | "PERSONAL"
-  | "20/06/2018"
-  | "8/03/2018"
-  | "16/05/2018"
-  | "14/09/2018 GLADIS"
-  | "04/05/2018"
-  | "06/06/2018"
-  | "20/06 ANGELICA FISICO"
-  | "10/06/2018"
-  | "18/07/2018"
-  | "11/05/2018";
+  | ''
+  | '31/03/1901'
+  | 'POSITIVO'
+  | 'CERTIMAIL'
+  | '06/07/2018'
+  | 'FISICA'
+  | 'NEGATIVO'
+  | 'FISICO'
+  | '20/06/2018 JAIME'
+  | '28/11/2017'
+  | '09/04/2018 CERTIMAIL'
+  | '15/06/2018'
+  | '14/09/2018 WILSON'
+  | 'PERSONAL'
+  | '20/06/2018'
+  | '8/03/2018'
+  | '16/05/2018'
+  | '14/09/2018 GLADIS'
+  | '04/05/2018'
+  | '06/06/2018'
+  | '20/06 ANGELICA FISICO'
+  | '10/06/2018'
+  | '18/07/2018'
+  | '11/05/2018';
 
 export type FisicoEnum =
-  | ""
-  | "NO"
-  | "PERSONAL"
-  | "EMBARGO VEHICULO"
-  | "SI"
-  | "INMUEBLE"
-  | "EMBARGO APTO"
-  | "NO TIENE EN CUENTA"
-  | "VEHICULO"
-  | "INMUEBLE/BANCOS"
-  | "CERTIMAIL"
-  | "13/09/2017"
-  | "X"
-  | "ENVIADO 292 24/08/2018"
-  | "FISICO"
-  | "ENVIADO 24/08"
-  | "OK"
-  | "17/09/2018 ENVIO 291"
-  | "30/10/2018"
-  | "13/11/2018";
+  | ''
+  | 'NO'
+  | 'PERSONAL'
+  | 'EMBARGO VEHICULO'
+  | 'SI'
+  | 'INMUEBLE'
+  | 'EMBARGO APTO'
+  | 'NO TIENE EN CUENTA'
+  | 'VEHICULO'
+  | 'INMUEBLE/BANCOS'
+  | 'CERTIMAIL'
+  | '13/09/2017'
+  | 'X'
+  | 'ENVIADO 292 24/08/2018'
+  | 'FISICO'
+  | 'ENVIADO 24/08'
+  | 'OK'
+  | '17/09/2018 ENVIO 291'
+  | '30/10/2018'
+  | '13/11/2018';
 
 export interface The291 {
   fechaRecibido?: number | string;
@@ -152,21 +152,21 @@ export interface The292 {
 }
 
 export type DepartamentoRaw =
-  | "CUNDINAMARCA"
-  | "ATLANTICO"
-  | "META"
-  | "CUNDINNAMARCA"
-  | "CUNDINAMARCA "
-  | "18/01/2018"
-  | "SINGULAR"
-  | "HIPOTECARIO"
-  | "TOLIMA"
-  | "CUN DINAMARCA"
-  | "CUNDINNAMARCA "
-  | "BOYACÁ"
-  | "CUNDINAMRCA"
-  | "CNDINAMARCA"
-  | "";
+  | 'CUNDINAMARCA'
+  | 'ATLANTICO'
+  | 'META'
+  | 'CUNDINNAMARCA'
+  | 'CUNDINAMARCA '
+  | '18/01/2018'
+  | 'SINGULAR'
+  | 'HIPOTECARIO'
+  | 'TOLIMA'
+  | 'CUN DINAMARCA'
+  | 'CUNDINNAMARCA '
+  | 'BOYACÁ'
+  | 'CUNDINAMRCA'
+  | 'CNDINAMARCA'
+  | '';
 
 export interface DeudorRaw {
   cedula: number | string;
@@ -177,30 +177,38 @@ export interface DeudorRaw {
 }
 
 const reducedCarpetas = Carpetas.reduce(
-  (accum, currVal, currIndex) => {
-    console.log(currVal);
-    console.log(accum);
+  (
+    accum, currVal, currIndex 
+  ) => {
+    console.log(
+      currVal 
+    );
+    console.log(
+      accum 
+    );
     return [
       ...accum,
       [
         {
           carpeta: currVal.numero,
-          index: currIndex,
+          index  : currIndex,
         },
         currVal,
       ],
     ];
   },
-  [
-    [
-      {
-        carpeta: 0,
-        index: 0,
-      },
-      {},
-    ],
-  ],
+  [ [
+    {
+      carpeta: 0,
+      index  : 0,
+    },
+    {},
+  ], ],
 );
 
-const mapper = new Map(reducedCarpetas);
-console.log(mapper);
+const mapper = new Map(
+  reducedCarpetas 
+);
+console.log(
+  mapper 
+);

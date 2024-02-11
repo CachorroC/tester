@@ -1,11 +1,13 @@
-import { Prisma } from "@prisma/client";
-import { client } from "../services/prisma";
-import { Carpeta } from "./carpeta";
-import { ClassDeudor } from "./deudor";
-import { ClassNotificacion } from "./notificacion";
+import { Prisma } from '@prisma/client';
+import { client } from '../services/prisma';
+import { Carpeta } from './carpeta';
+import { ClassDeudor } from './deudor';
+import { ClassNotificacion } from './notificacion';
 
 export class PrismaCarpeta {
-  static async insertCarpeta(incomingCarpeta: Carpeta) {
+  static async insertCarpeta(
+    incomingCarpeta: Carpeta 
+  ) {
     const {
       idRegUltimaAct,
       ultimaActuacion,
@@ -17,36 +19,42 @@ export class PrismaCarpeta {
       notas,
       ...restCarpeta
     } = incomingCarpeta;
-    console.log(idRegUltimaAct);
+    console.log(
+      idRegUltimaAct 
+    );
 
-    const { medidasCautelares, notificacion } = demanda;
+    const {
+      medidasCautelares, notificacion 
+    } = demanda;
 
     const newMedidas: Prisma.MedidasCautelaresCreateWithoutDemandaInput = {
-      id: incomingCarpeta.numero,
+      id               : incomingCarpeta.numero,
       fechaOrdenaMedida: medidasCautelares.fechaOrdenaMedida,
-      medidaSolicitada: medidasCautelares.medidaSolicitada,
+      medidaSolicitada : medidasCautelares.medidaSolicitada,
     };
 
-    const newNotificacion: Prisma.NotificacionCreateWithoutDemandaInput =
-      ClassNotificacion.prismaNotificacion(notificacion);
+    const newNotificacion: Prisma.NotificacionCreateWithoutDemandaInput
+      = ClassNotificacion.prismaNotificacion(
+        notificacion 
+      );
 
     const newDemanda: Prisma.DemandaCreateWithoutCarpetaInput = {
-      id: incomingCarpeta.numero,
-      tipoProceso: demanda.tipoProceso,
-      avaluo: demanda.avaluo,
-      capitalAdeudado: demanda.capitalAdeudado,
-      departamento: demanda.departamento,
-      despacho: demanda.despacho,
+      id                     : incomingCarpeta.numero,
+      tipoProceso            : demanda.tipoProceso,
+      avaluo                 : demanda.avaluo,
+      capitalAdeudado        : demanda.capitalAdeudado,
+      departamento           : demanda.departamento,
+      despacho               : demanda.despacho,
       entregaGarantiasAbogado: demanda.entregaGarantiasAbogado,
-      fechaPresentacion: demanda.fechaPresentacion,
-      etapaProcesal: demanda.etapaProcesal,
-      liquidacion: demanda.liquidacion,
-      llaveProceso: demanda.llaveProceso,
-      mandamientoPago: demanda.mandamientoPago,
-      municipio: demanda.municipio,
-      obligacion: demanda.obligacion,
-      radicado: demanda.radicado,
-      medidasCautelares: {
+      fechaPresentacion      : demanda.fechaPresentacion,
+      etapaProcesal          : demanda.etapaProcesal,
+      liquidacion            : demanda.liquidacion,
+      llaveProceso           : demanda.llaveProceso,
+      mandamientoPago        : demanda.mandamientoPago,
+      municipio              : demanda.municipio,
+      obligacion             : demanda.obligacion,
+      radicado               : demanda.radicado,
+      medidasCautelares      : {
         connectOrCreate: {
           where: {
             id: incomingCarpeta.numero,
@@ -64,54 +72,60 @@ export class PrismaCarpeta {
       },
     };
 
-    const newDeudor = ClassDeudor.prismaDeudor(deudor);
+    const newDeudor = ClassDeudor.prismaDeudor(
+      deudor 
+    );
 
     try {
-      const inserter = await client.carpeta.create({
-        data: {
-          ...restCarpeta,
-          ultimaActuacion: ultimaActuacion
-            ? {
-                connectOrCreate: {
-                  where: {
-                    idRegActuacion: ultimaActuacion.idRegActuacion,
+      const inserter = await client.carpeta.create(
+        {
+          data: {
+            ...restCarpeta,
+            ultimaActuacion: ultimaActuacion
+              ? {
+                  connectOrCreate: {
+                    where: {
+                      idRegActuacion: ultimaActuacion.idRegActuacion,
+                    },
+                    create: {
+                      ...ultimaActuacion,
+                    },
                   },
-                  create: {
-                    ...ultimaActuacion,
-                  },
+                }
+              : undefined,
+            deudor: {
+              connectOrCreate: {
+                where: {
+                  id: incomingCarpeta.numero,
                 },
-              }
-            : undefined,
-          deudor: {
-            connectOrCreate: {
-              where: {
-                id: incomingCarpeta.numero,
-              },
-              create: newDeudor,
-            },
-          },
-          demanda: {
-            connectOrCreate: {
-              where: {
-                id: incomingCarpeta.numero,
-              },
-              create: newDemanda,
-            },
-          },
-          codeudor: {
-            connectOrCreate: {
-              where: {
-                id: incomingCarpeta.numero,
-              },
-              create: {
-                ...codeudor,
+                create: newDeudor,
               },
             },
-          },
-          notas: {
-            connectOrCreate: notas.map((nota) => {
-              const notaConnectOrCreate: Prisma.NotaCreateOrConnectWithoutCarpetaInput =
-                {
+            demanda: {
+              connectOrCreate: {
+                where: {
+                  id: incomingCarpeta.numero,
+                },
+                create: newDemanda,
+              },
+            },
+            codeudor: {
+              connectOrCreate: {
+                where: {
+                  id: incomingCarpeta.numero,
+                },
+                create: {
+                  ...codeudor,
+                },
+              },
+            },
+            notas: {
+              connectOrCreate: notas.map(
+                (
+                  nota 
+                ) => {
+                  const notaConnectOrCreate: Prisma.NotaCreateOrConnectWithoutCarpetaInput
+                = {
                   where: {
                     text: nota.text,
                   },
@@ -119,15 +133,21 @@ export class PrismaCarpeta {
                     ...nota,
                   },
                 };
-              return notaConnectOrCreate;
-            }),
-          },
-          procesos: {
-            connectOrCreate: procesos.map((proceso) => {
-              const { juzgado, ...restProceso } = proceso;
+                  return notaConnectOrCreate;
+                } 
+              ),
+            },
+            procesos: {
+              connectOrCreate: procesos.map(
+                (
+                  proceso 
+                ) => {
+                  const {
+                    juzgado, ...restProceso 
+                  } = proceso;
 
-              const procesoCreateorConnect: Prisma.ProcesoCreateOrConnectWithoutCarpetaInput =
-                {
+                  const procesoCreateorConnect: Prisma.ProcesoCreateOrConnectWithoutCarpetaInput
+                = {
                   where: {
                     idProceso: proceso.idProceso,
                   },
@@ -144,9 +164,12 @@ export class PrismaCarpeta {
                       },
                     },
                     actuaciones: {
-                      connectOrCreate: actuaciones.map((actuacion) => {
-                        const actuacionCreateOrConnect: Prisma.ActuacionCreateOrConnectWithoutCarpetaInput =
-                          {
+                      connectOrCreate: actuaciones.map(
+                        (
+                          actuacion 
+                        ) => {
+                          const actuacionCreateOrConnect: Prisma.ActuacionCreateOrConnectWithoutCarpetaInput
+                          = {
                             where: {
                               idRegActuacion: actuacion.idRegActuacion,
                             },
@@ -154,20 +177,27 @@ export class PrismaCarpeta {
                               ...actuacion,
                             },
                           };
-                        return actuacionCreateOrConnect;
-                      }),
+                          return actuacionCreateOrConnect;
+                        } 
+                      ),
                     },
                   },
                 };
 
-              return procesoCreateorConnect;
-            }),
+                  return procesoCreateorConnect;
+                } 
+              ),
+            },
           },
-        },
-      });
-      console.log(inserter);
-    } catch (error) {
-      throw new Error("");
+        } 
+      );
+      console.log(
+        inserter 
+      );
+    } catch ( error ) {
+      throw new Error(
+        '' 
+      );
     }
   }
 }

@@ -4,12 +4,12 @@
 //
 //   const consultaActuacion = Convert.toConsultaActuacion(json);
 
-import { Data } from "./procesos";
+import { Data } from './procesos';
 
 export type Message =
-  | "OK"
-  | "Object reference not set to an instance of an object."
-  | "No se pueden ver actuaciones de un proceso privado";
+  | 'OK'
+  | 'Object reference not set to an instance of an object.'
+  | 'No se pueden ver actuaciones de un proceso privado';
 
 export interface ConsultaActuacion {
   actuaciones: intActuacion[];
@@ -39,7 +39,7 @@ export interface outActuacion extends intActuacion {
   isUltimaAct: boolean;
 }
 
-export type CodRegla = "00                              ";
+export type CodRegla = '00                              ';
 
 export interface Paginacion {
   cantidadRegistros: number;
@@ -51,35 +51,67 @@ export interface Paginacion {
 
 // Converts JSON strings to/from your types
 export class actuacionConvert {
-  public static actuacioneToJson(value: intActuacion): string {
-    return JSON.stringify(value);
+  public static actuacioneToJson(
+    value: intActuacion 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static consultaActuacionToJson(value: ConsultaActuacion): string {
-    return JSON.stringify(value);
+  public static consultaActuacionToJson(
+    value: ConsultaActuacion 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static dataToJson(value: Data): string {
-    return JSON.stringify(value);
+  public static dataToJson(
+    value: Data 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static paginacionToJson(value: Paginacion): string {
-    return JSON.stringify(value);
+  public static paginacionToJson(
+    value: Paginacion 
+  ): string {
+    return JSON.stringify(
+      value 
+    );
   }
 
-  public static toActuacione(json: string): intActuacion {
-    return JSON.parse(json);
+  public static toActuacione(
+    json: string 
+  ): intActuacion {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static toConsultaActuacion(json: string): ConsultaActuacion {
-    return JSON.parse(json);
+  public static toConsultaActuacion(
+    json: string 
+  ): ConsultaActuacion {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static toData(json: string): Data {
-    return JSON.parse(json);
+  public static toData(
+    json: string 
+  ): Data {
+    return JSON.parse(
+      json 
+    );
   }
 
-  public static toPaginacion(json: string): Paginacion {
-    return JSON.parse(json);
+  public static toPaginacion(
+    json: string 
+  ): Paginacion {
+    return JSON.parse(
+      json 
+    );
   }
 }
