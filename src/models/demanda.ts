@@ -98,10 +98,11 @@ export class ClassDemanda implements IntDemanda {
       }
     }
 
-    this.capitalAdeudado = capitalBuilder(
-      capitalAdeudado 
+    this.capitalAdeudado = new Decimal(
+      capitalBuilder(
+        capitalAdeudado 
+      ) 
     );
-
     this.tipoProceso = tipoProcesoBuilder(
       tipoProceso 
     );
@@ -131,11 +132,15 @@ export class ClassDemanda implements IntDemanda {
         llaveProceso 
       )
       : null;
-    this.avaluo = capitalBuilder(
-      VALOR_AVALUO 
+    this.avaluo = new Decimal(
+      capitalBuilder(
+        VALOR_AVALUO 
+      ) 
     );
-    this.liquidacion = capitalBuilder(
-      VALOR_LIQUIDACION_DEL_CREDITO 
+    this.liquidacion = new Decimal(
+      capitalBuilder(
+        VALOR_LIQUIDACION_DEL_CREDITO 
+      ),
     );
   }
   liquidacion: Decimal;

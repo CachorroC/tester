@@ -1,5 +1,6 @@
 import xlsx from 'xlsx';
 import { RawDb } from '../types/raw-db';
+import { Category } from '../types/carpetas';
 
 const workbook = xlsx.readFile(
   '/srv/new/nube/bases_de_datos/BASE DE DATOS GENERAL BANCOLOMBIA A 8 DE FEBRERO DE 2024.xlsx',

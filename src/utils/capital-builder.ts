@@ -1,4 +1,3 @@
-import { Decimal } from '@prisma/client/runtime/library';
 import { Carpetas } from '../data/carpetas';
 import * as fs from 'fs/promises';
 
@@ -74,14 +73,11 @@ export function capitalBuilder(
   capitalAdeudado?: string | number | null | Date,
 ) {
   if ( !capitalAdeudado || typeof capitalAdeudado === 'object' ) {
-    return -1;
+    return 0;
   }
 
   if ( typeof capitalAdeudado === 'number' ) {
-    return new Decimal(
-      capitalAdeudado 
-    )
-      .toNumber();
+    return capitalAdeudado;
   }
 
   const copTaker = capitalAdeudado.matchAll(
@@ -99,10 +95,9 @@ export function capitalBuilder(
     const valueReplacer = value.replaceAll(
       /([.,]+)/gm, '' 
     );
-    return new Decimal(
+    return Number(
       valueReplacer 
-    )
-      .toNumber();
+    );
   }
 
   const newCapital = capitalAdeudado.search(
@@ -116,7 +111,7 @@ export function capitalBuilder(
     console.log(
       `es mayor a 0 ${ newCapital }` 
     );
-    return -1;
+    return 0;
   }
 
   console.log(
@@ -128,17 +123,16 @@ export function capitalBuilder(
   );
 
   if ( !outGoingMatch ) {
-    return -1;
+    return 0;
   }
 
   const valueReplacer = capitalAdeudado.replaceAll(
     /([.,]+)/gm, '' 
   );
 
-  return new Decimal(
+  return Number(
     valueReplacer 
-  )
-    .toNumber();
+  );
 }
 
 fs.writeFile(
