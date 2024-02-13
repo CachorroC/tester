@@ -1,10 +1,11 @@
 import { Prisma } from '@prisma/client';
 import { intNotificacion, intNotifier } from '../types/carpetas';
 import { RawDb } from '../types/raw-db';
+import { datesExtractor } from '../utils/date-validator';
 
 export class ClassNotificacion implements intNotificacion {
   constructor(
-    rawDb: RawDb 
+    rawDb: RawDb
   ) {
     const {
       FISICO: fisico,
@@ -19,7 +20,7 @@ export class ClassNotificacion implements intNotificacion {
       RESULTADO_292: resultado292,
     } = rawDb;
     this.id = Number(
-      NUMERO 
+      NUMERO
     );
     this.certimail = certimail
       ? ( certimail === 'SI'
@@ -33,35 +34,26 @@ export class ClassNotificacion implements intNotificacion {
       : null;
     this.autoNotificado = autoNotificado
       ? new Date(
-        autoNotificado 
+        autoNotificado
       )
       : null;
 
     if ( autoNotificado ) {
-      const newAutoDate = new Date(
-        autoNotificado 
+      const [ newAutoNotificado ] = datesExtractor(
+        autoNotificado
       );
-
-      if ( newAutoDate.toString() === 'Invalid Date' ) {
-        this.autoNotificado = null;
-      } else {
-        this.autoNotificado = newAutoDate;
-      }
+      this.autoNotificado = newAutoNotificado ?? null;
     } else {
       this.autoNotificado = null;
     }
 
-    const newFechaRecibido291 = fechaRecibido291
-      ? new Date(
-        fechaRecibido291 
-      )
-      : null;
+    const [ newFechaRecibido291 ] = datesExtractor(
+      fechaRecibido291
+    );
 
-    const newFechaAporta291 = fechaAporta291
-      ? new Date(
-        fechaAporta291 
-      )
-      : null;
+    const [ newFechaAporta291 ] = datesExtractor(
+      fechaAporta291
+    );
 
     const newResultado291 = resultado291
       ? resultado291 === 'POSITIVO' || resultado291 === 'ABIERTO'
@@ -71,26 +63,22 @@ export class ClassNotificacion implements intNotificacion {
     this.notifiers.push(
       {
         tipo         : '291',
-        fechaRecibido: newFechaRecibido291,
-        fechaAporta  : newFechaAporta291,
+        fechaRecibido: newFechaRecibido291 ?? null,
+        fechaAporta  : newFechaAporta291 ?? null,
         resultado    : newResultado291,
         carpetaNumero: Number(
-          NUMERO 
+          NUMERO
         ),
-      } 
+      }
     );
 
-    const newFechaRecibido292 = fechaRecibido292
-      ? new Date(
-        fechaRecibido292 
-      )
-      : null;
+    const [ newFechaRecibido292 ] = datesExtractor(
+      fechaRecibido292
+    );
 
-    const newFechaAporta292 = fechaAporta292
-      ? new Date(
-        fechaAporta292 
-      )
-      : null;
+    const [ newFechaAporta292 ] = datesExtractor(
+      fechaAporta292
+    );
 
     const newResultado292 = resultado292
       ? resultado292 === 'POSITIVO' || resultado292 === 'ABIERTO'
@@ -100,13 +88,13 @@ export class ClassNotificacion implements intNotificacion {
     this.notifiers.push(
       {
         tipo         : '292',
-        fechaRecibido: newFechaRecibido292,
-        fechaAporta  : newFechaAporta292,
+        fechaRecibido: newFechaRecibido292 ?? null,
+        fechaAporta  : newFechaAporta292?? null,
         resultado    : newResultado292,
         carpetaNumero: Number(
-          NUMERO 
+          NUMERO
         ),
-      } 
+      }
     );
   }
   id: number;
@@ -116,7 +104,7 @@ export class ClassNotificacion implements intNotificacion {
   autoNotificado: Date | null;
 
   static prismaNotificacion(
-    notificacion: intNotificacion 
+    notificacion: intNotificacion
   ) {
     const newNotificacion: Prisma.NotificacionCreateWithoutDemandaInput = {
       id            : notificacion.id,
@@ -126,7 +114,7 @@ export class ClassNotificacion implements intNotificacion {
       notifiers     : {
         connectOrCreate: notificacion.notifiers.map(
           (
-            notif 
+            notif
           ) => {
             const notifCarpetaInput: Prisma.NotifierTipoCarpetaNumeroCompoundUniqueInput
             = {
@@ -149,7 +137,7 @@ export class ClassNotificacion implements intNotificacion {
             };
 
             return notifierConnectOrCreate;
-          } 
+          }
         ),
       },
     };

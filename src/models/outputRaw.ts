@@ -1,34 +1,34 @@
 import * as fs from 'fs/promises';
-import Carpetas from '../data/carpetas';
+import { Carpetas } from '../data/carpetas';
 
 async function mapperCarpetasToConsultaRaw() {
   const answers = [];
 
   for ( const carpeta of Carpetas ) {
     const {
-      llaveProceso 
+      llaveProceso
     } = carpeta.demanda;
 
     try {
       const request = await fetcher(
-        llaveProceso 
+        llaveProceso
       );
 
       fs.writeFile(
         `carpetas/${ carpeta.numero }/outputRawFetch.json`,
         JSON.stringify(
-          request, null, 2 
+          request, null, 2
         ),
       );
       answers.push(
-        request 
+        request
       );
     } catch ( error ) {
       console.log(
-        error 
+        error
       );
       answers.push(
-        error 
+        error
       );
     }
   }
@@ -37,7 +37,7 @@ async function mapperCarpetasToConsultaRaw() {
 }
 
 async function fetcher(
-  llaveProceso: string 
+  llaveProceso: string
 ) {
   try {
     const request = await fetch(
@@ -47,7 +47,7 @@ async function fetcher(
     return await request.json();
   } catch ( error ) {
     console.log(
-      error 
+      error
     );
     return error;
   }
@@ -56,16 +56,16 @@ async function fetcher(
 mapperCarpetasToConsultaRaw()
   .then(
     (
-      ff 
+      ff
     ) => {
       fs.writeFile(
         'consultaAllFetch.json', JSON.stringify(
-          ff, null, 2 
-        ) 
+          ff, null, 2
+        )
       );
       console.log(
-        ff 
+        ff
       );
       return ff;
-    } 
+    }
   );
