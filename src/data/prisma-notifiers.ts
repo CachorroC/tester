@@ -4,11 +4,11 @@ import { Carpetas } from './carpetas';
 async function prismaNotifiersUpdater() {
   for ( const carpeta of Carpetas ) {
     const {
-      demanda
+      demanda 
     } = carpeta;
 
     const {
-      notificacion
+      notificacion 
     } = demanda;
 
     if ( notificacion ) {
@@ -19,12 +19,12 @@ async function prismaNotifiersUpdater() {
 
         try {
           const {
-            fechaAporta, fechaRecibido, resultado
+            fechaAporta, fechaRecibido, resultado 
           } = the291;
 
           if ( fechaAporta ) {
             const newAporta = new Date(
-              fechaAporta
+              fechaAporta 
             );
 
             if ( newAporta.toString() === 'Invalid Date' ) {
@@ -38,7 +38,7 @@ async function prismaNotifiersUpdater() {
 
           if ( fechaRecibido ) {
             const newRecibido = new Date(
-              fechaRecibido
+              fechaRecibido 
             );
 
             if ( newRecibido.toString() === 'Invalid Date' ) {
@@ -63,11 +63,11 @@ async function prismaNotifiersUpdater() {
                   : null,
                 notificacionId: carpeta.numero,
               },
-            }
+            } 
           );
         } catch ( error ) {
           console.log(
-            error
+            error 
           );
         }
       }
@@ -79,17 +79,17 @@ async function prismaNotifiersUpdater() {
 
         try {
           const {
-            fechaAporta, fechaRecibido, resultado
+            fechaAporta, fechaRecibido, resultado 
           } = the292;
 
           if ( fechaAporta ) {
             const newAporta = new Date(
-              fechaAporta
+              fechaAporta 
             );
 
             const stringer = newAporta.toString();
             console.log(
-              stringer
+              stringer 
             );
 
             if ( stringer === 'Invalid Date' ) {
@@ -103,12 +103,12 @@ async function prismaNotifiersUpdater() {
 
           if ( fechaRecibido ) {
             const newRecibido = new Date(
-              fechaRecibido
+              fechaRecibido 
             );
 
             const stringer = newRecibido.toString();
             console.log(
-              stringer
+              stringer 
             );
 
             if ( stringer === 'Invalid Date' ) {
@@ -133,11 +133,11 @@ async function prismaNotifiersUpdater() {
                   : null,
                 notificacionId: carpeta.numero,
               },
-            }
+            } 
           );
         } catch ( error ) {
           console.log(
-            error
+            error 
           );
         }
       }
@@ -148,11 +148,11 @@ async function prismaNotifiersUpdater() {
 prismaNotifiersUpdater()
   .then(
     (
-      rr
+      rr 
     ) => {
       console.log(
-        rr
+        rr 
       );
       return rr;
-    }
+    } 
   );

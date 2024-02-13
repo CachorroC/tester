@@ -37,3 +37,6 @@ const mapperSheets = SheetNames.flatMap(
     );
   } 
 );
+console.log(
+  mapperSheets 
+);

@@ -9,7 +9,7 @@ import { Prisma } from '@prisma/client';
 
 export class ClassDemanda implements IntDemanda {
   constructor(
-    rawCarpeta: RawDb
+    rawCarpeta: RawDb 
   ) {
     const {
       VALOR_CAPITAL_ADEUDADO: capitalAdeudado,
@@ -34,19 +34,19 @@ export class ClassDemanda implements IntDemanda {
     rawCarpeta.FECHA_PRESENTACION_DEMANDA;
 
     const [ newFechaOrdenaMedida ] = datesExtractor(
-      fechaOrdenaMedidas
+      fechaOrdenaMedidas 
     );
     this.id = Number(
-      NUMERO
+      NUMERO 
     );
     this.medidasCautelares = {
       id: Number(
-        NUMERO
+        NUMERO 
       ),
-      fechaOrdenaMedida: newFechaOrdenaMedida?? null,
+      fechaOrdenaMedida: newFechaOrdenaMedida ?? null,
       medidaSolicitada : medidaSolicitada
         ? String(
-          medidaSolicitada
+          medidaSolicitada 
         )
         : null,
     };
@@ -56,32 +56,32 @@ export class ClassDemanda implements IntDemanda {
     if ( A ) {
       obligacionesSet.add(
         String(
-          A
-        )
+          A 
+        ) 
       );
     }
 
     if ( B ) {
       obligacionesSet.add(
         String(
-          B
-        )
+          B 
+        ) 
       );
     }
 
     this.fechaPresentacion = datesExtractor(
-      fechaPresentacion
-    )?? null;
+      fechaPresentacion 
+    ) ?? null;
     this.notificacion = new ClassNotificacion(
-      rawCarpeta
+      rawCarpeta 
     );
     this.mandamientoPago = datesExtractor(
-      mandamientoPago
-    )?? null;
+      mandamientoPago 
+    ) ?? null;
 
     const dateEntregaGarantiasAbogado = entregaGarantiasAbogado
       ? new Date(
-        entregaGarantiasAbogado
+        entregaGarantiasAbogado 
       )
       : null;
 
@@ -99,43 +99,43 @@ export class ClassDemanda implements IntDemanda {
     }
 
     this.capitalAdeudado = capitalBuilder(
-      capitalAdeudado
+      capitalAdeudado 
     );
 
     this.tipoProceso = tipoProcesoBuilder(
-      tipoProceso
+      tipoProceso 
     );
     this.etapaProcesal = etapaProcesal
       ? `${ etapaProcesal }`
       : null;
     this.municipio = municipio
       ? String(
-        municipio
+        municipio 
       )
       : null;
     this.obligacion = Array.from(
-      obligacionesSet
+      obligacionesSet 
     );
     this.radicado = radicado
       ? `${ radicado }`
       : null;
     this.vencimientoPagare = datesExtractor(
-      vencimientoPagare
-    )?? null;
+      vencimientoPagare 
+    ) ?? null;
     this.departamento = departamento
       ? departamento
       : null;
     this.despacho = null;
     this.llaveProceso = llaveProceso
       ? String(
-        llaveProceso
+        llaveProceso 
       )
       : null;
     this.avaluo = capitalBuilder(
-      VALOR_AVALUO
+      VALOR_AVALUO 
     );
     this.liquidacion = capitalBuilder(
-      VALOR_LIQUIDACION_DEL_CREDITO
+      VALOR_LIQUIDACION_DEL_CREDITO 
     );
   }
   liquidacion: Decimal;
@@ -161,8 +161,8 @@ export class ClassDemanda implements IntDemanda {
     fechaOrdenaMedida: Date | null;
     medidaSolicitada: string | null;
   };
-  static prismaDemanda (
-    demanda: IntDemanda
+  static prismaDemanda(
+    demanda: IntDemanda 
   ) {
     const newMedidas: Prisma.MedidasCautelaresCreateWithoutDemandaInput = {
       id               : demanda.id,
@@ -172,7 +172,7 @@ export class ClassDemanda implements IntDemanda {
 
     const newNotificacion: Prisma.NotificacionCreateWithoutDemandaInput
       = ClassNotificacion.prismaNotificacion(
-        demanda.notificacion
+        demanda.notificacion 
       );
 
     const newDemanda: Prisma.DemandaCreateWithoutCarpetaInput = {

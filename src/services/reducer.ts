@@ -178,13 +178,13 @@ export interface DeudorRaw {
 
 const reducedCarpetas = Carpetas.reduce(
   (
-    accum, currVal, currIndex
+    accum, currVal, currIndex 
   ) => {
     console.log(
-      currVal
+      currVal 
     );
     console.log(
-      accum
+      accum 
     );
     return [
       ...accum,
@@ -207,8 +207,8 @@ const reducedCarpetas = Carpetas.reduce(
 );
 
 const mapper = new Map(
-  reducedCarpetas
+  reducedCarpetas 
 );
 console.log(
-  mapper
+  mapper 
 );

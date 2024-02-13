@@ -2,40 +2,37 @@ import { Decimal } from '@prisma/client/runtime/library';
 import { Carpetas } from '../data/carpetas';
 import * as fs from 'fs/promises';
 
-
 const outGoingValuesMap = new Map();
 
 const regexMap = [];
 
 for ( const carpeta of Carpetas ) {
   const indexOfCarpeta = Carpetas.indexOf(
-    carpeta
+    carpeta 
   );
 
   const dateEntries = new Map();
 
   dateEntries.set(
-    'numero', carpeta.NUMERO
+    'numero', carpeta.NUMERO 
   );
   dateEntries.set(
-    'index', indexOfCarpeta
+    'index', indexOfCarpeta 
   );
 
   const carpetaEntries = Object.entries(
-    carpeta
+    carpeta 
   );
-
 
   for ( const [
     key,
     value
   ] of carpetaEntries ) {
-
     const matchedFechansKey = key.search(
-      /(VALOR+)/gm
+      /(VALOR+)/gm 
     );
     console.log(
-      matchedFechansKey
+      matchedFechansKey 
     );
 
     if ( matchedFechansKey === -1 ) {
@@ -43,39 +40,38 @@ for ( const carpeta of Carpetas ) {
     }
 
     regexMap.push(
-      value
+      value 
     );
 
     const dateValue = capitalBuilder(
-      value
+      value 
     );
     console.log(
-      `OUT_${ value } ====> ${ dateValue }`
+      `OUT_${ value } ====> ${ dateValue }` 
     );
     dateEntries.set(
-      key, dateValue
+      key, dateValue 
     );
     dateEntries.set(
-      `IN_${ key }`, value
+      `IN_${ key }`, value 
     );
-
   }
 
   const fechaCarpeta = Object.fromEntries(
-    dateEntries
+    dateEntries 
   );
   console.log(
     JSON.stringify(
-      fechaCarpeta, null, 2
-    )
+      fechaCarpeta, null, 2 
+    ) 
   );
   outGoingValuesMap.set(
-    carpeta.NUMERO, fechaCarpeta
+    carpeta.NUMERO, fechaCarpeta 
   );
 }
 
 export function capitalBuilder(
-  capitalAdeudado?: string | number | null | Date
+  capitalAdeudado?: string | number | null | Date,
 ) {
   if ( !capitalAdeudado || typeof capitalAdeudado === 'object' ) {
     return -1;
@@ -83,55 +79,52 @@ export function capitalBuilder(
 
   if ( typeof capitalAdeudado === 'number' ) {
     return new Decimal(
-      capitalAdeudado
+      capitalAdeudado 
     )
       .toNumber();
   }
 
   const copTaker = capitalAdeudado.matchAll(
-    /([\d.]+)([.,])(\d{2}|\d{2})$/gm
+    /([\d.]+)([.,])(\d{2}|\d{2})$/gm 
   );
   console.log(
-    copTaker
+    copTaker 
   );
 
   for ( const cap of copTaker ) {
-
     const [
-      /*  */,
-      value,
+      , /*  */ value
     ] = cap;
 
     const valueReplacer = value.replaceAll(
-      /([.,]+)/gm,
-      '',
+      /([.,]+)/gm, '' 
     );
     return new Decimal(
-      valueReplacer
+      valueReplacer 
     )
       .toNumber();
   }
 
   const newCapital = capitalAdeudado.search(
-    /([/A-Za-z@]+)/gm
+    /([/A-Za-z@]+)/gm 
   );
   console.log(
-    newCapital
+    newCapital 
   );
 
   if ( newCapital >= 0 ) {
     console.log(
-      `es mayor a 0 ${ newCapital }`
+      `es mayor a 0 ${ newCapital }` 
     );
     return -1;
   }
 
   console.log(
-    capitalAdeudado
+    capitalAdeudado 
   );
 
   const outGoingMatch = capitalAdeudado.match(
-    /(\d+)/gm
+    /(\d+)/gm 
   );
 
   if ( !outGoingMatch ) {
@@ -139,31 +132,30 @@ export function capitalBuilder(
   }
 
   const valueReplacer = capitalAdeudado.replaceAll(
-    /([.,]+)/gm,
-    '',
+    /([.,]+)/gm, '' 
   );
 
   return new Decimal(
-    valueReplacer
+    valueReplacer 
   )
     .toNumber();
-
 }
 
-
 fs.writeFile(
-  'valores.json', JSON.stringify(
+  'valores.json',
+  JSON.stringify(
     Array.from(
-      outGoingValuesMap.values()
-    ), null, 2
-  )
+      outGoingValuesMap.values() 
+    ), null, 2 
+  ),
 );
 
 fs.writeFile(
-  'regexValores.json', JSON.stringify(
+  'regexValores.json',
+  JSON.stringify(
     regexMap.toString()
       .replaceAll(
-        /,/gm, '\n'
-      ), null, 2
-  )
+        /,/gm, '\n' 
+      ), null, 2 
+  ),
 );

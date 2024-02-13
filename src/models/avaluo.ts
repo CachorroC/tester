@@ -4,40 +4,40 @@ import * as fs from 'fs/promises';
 
 const avaluos = Carpetas.map(
   (
-    carpeta
+    carpeta 
   ) => {
     return carpeta.VALOR_AVALUO;
-  }
+  } 
 );
 fs.writeFile(
   'avaluos.json', JSON.stringify(
-    avaluos
-  )
+    avaluos 
+  ) 
 );
 
 const liquidaciones = Carpetas.map(
   (
-    carpeta
+    carpeta 
   ) => {
     return carpeta.VALOR_LIQUIDACION;
-  }
+  } 
 );
 fs.writeFile(
   'liquidaciones.json', JSON.stringify(
-    liquidaciones
-  )
+    liquidaciones 
+  ) 
 );
 
 const mapperAvaluos = avaluos.map(
   (
-    avaluo
+    avaluo 
   ) => {
     return capitalBuilder(
-      avaluo
+      avaluo 
     );
-  }
+  } 
 );
 
 console.log(
-  mapperAvaluos
+  mapperAvaluos 
 );

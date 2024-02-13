@@ -12,8 +12,8 @@ async function* generatorCarpeta() {
     const prismaProcesos = await newCarpeta.prismaProcesos();
     console.log(
       JSON.stringify(
-        prismaProcesos, null, 2
-      )
+        prismaProcesos, null, 2 
+      ) 
     );
     yield newCarpeta;
   }
@@ -22,7 +22,7 @@ async function* generatorCarpeta() {
 async function ProcesosBuilder() {
   for await ( const carpeteer of generatorCarpeta() ) {
     console.log(
-      carpeteer
+      carpeteer 
     );
   }
 }
@@ -30,11 +30,11 @@ async function ProcesosBuilder() {
 ProcesosBuilder()
   .then(
     (
-      rr
+      rr 
     ) => {
       console.log(
-        rr
+        rr 
       );
       return rr;
-    }
+    } 
   );
