@@ -5,12 +5,12 @@ import { PrismaCarpeta } from '../models/prisma-carpeta';
 
 const carpetasMap = Carpetas.map(
   (
-    carpeta 
+    carpeta
   ) => {
     return new Carpeta(
-      carpeta 
+      carpeta
     );
-  } 
+  }
 );
 
 async function* generateCarpetas() {
@@ -26,30 +26,30 @@ async function tryAsyncCarpetas() {
 
   fs.writeFile(
     'carpetasModelPreAwait.json', JSON.stringify(
-      carpetasMap 
-    ) 
+      carpetasMap
+    )
   );
 
   for await ( const carpeta of generateCarpetas() ) {
     mapCarpetas.set(
-      carpeta.numero, carpeta 
+      carpeta.numero, carpeta
     );
 
     await PrismaCarpeta.insertCarpeta(
-      carpeta 
+      carpeta
     );
   }
 
   fs.writeFile(
     'carpetasModelPostAwait.json', JSON.stringify(
-      carpetasMap 
-    ) 
+      carpetasMap
+    )
   );
   return Array.from(
-    mapCarpetas.values() 
+    mapCarpetas.values()
   );
 }
 
 console.log(
-  tryAsyncCarpetas() 
+  tryAsyncCarpetas()
 );

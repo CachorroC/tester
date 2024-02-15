@@ -80,7 +80,7 @@ export class ClassDemanda implements IntDemanda {
     ) ?? null;
 
     const NewEntregaDeGarantias = datesExtractor(
-      entregaGarantiasAbogado 
+      entregaGarantiasAbogado
     );
 
     if ( NewEntregaDeGarantias.length === 0 ) {
@@ -114,7 +114,7 @@ export class ClassDemanda implements IntDemanda {
       : null;
     this.vencimientoPagare = datesExtractor(
       vencimientoPagare
-    ) ?? null;
+    );
     this.departamento = departamento
       ? departamento
       : null;
