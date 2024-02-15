@@ -1,4 +1,5 @@
 import { IntNota } from '../types/notas';
+import { datesExtractor } from '../utils/date-validator';
 
 export class NotasBuilder implements IntNota {
   createdAt: Date;
@@ -7,36 +8,18 @@ export class NotasBuilder implements IntNota {
   text: string;
   content: string[] = [];
   constructor(
-    incomingNote: string 
+    incomingNote: string
   ) {
-    const matchDates = incomingNote.matchAll(
-      /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/gm,
+    const dateExtract = datesExtractor(
+      incomingNote
     );
-    this.dueDate = null;
 
-    for ( const matchedDate of matchDates ) {
-      const [
-        newDueDate,
-        newDay,
-        newMonth,
-        newYear
-      ] = matchedDate;
-      console.log(
-        newDueDate 
-      );
-      this.dueDate = new Date(
-        Number(
-          newYear 
-        ),
-        Number(
-          newMonth 
-        ),
-        Number(
-          newDay 
-        ),
-      );
+    if ( dateExtract.length === 0 ) {
+      this.dueDate = null;
     }
 
+    const [ firstDate ] = dateExtract;
+    this.dueDate = firstDate;
     this.text = incomingNote;
     this.createdAt = new Date();
     this.pathname = null;

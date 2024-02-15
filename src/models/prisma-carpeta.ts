@@ -6,7 +6,7 @@ import { ClassDemanda } from './demanda';
 
 export class PrismaCarpeta {
   static async insertCarpeta(
-    incomingCarpeta: Carpeta 
+    incomingCarpeta: Carpeta
   ) {
     const {
       idRegUltimaAct,
@@ -19,19 +19,19 @@ export class PrismaCarpeta {
       notas,
     } = incomingCarpeta;
     console.log(
-      idRegUltimaAct 
+      idRegUltimaAct
     );
 
     const newDemanda = ClassDemanda.prismaDemanda(
-      demanda 
+      demanda
     );
 
     const newDeudor = ClassDeudor.prismaDeudor(
-      deudor 
+      deudor
     );
 
     const newCarpeta = Carpeta.prismaCarpeta(
-      incomingCarpeta 
+      incomingCarpeta
     );
 
     const inserter = await client.carpeta.upsert(
@@ -80,30 +80,17 @@ export class PrismaCarpeta {
             },
           },
           notas: {
-            connectOrCreate: notas.map(
-              (
-                nota 
-              ) => {
-                const notaConnectOrCreate: Prisma.NotaCreateOrConnectWithoutCarpetaInput
-              = {
-                where: {
-                  text: nota.text,
-                },
-                create: {
-                  ...nota,
-                },
-              };
-                return notaConnectOrCreate;
-              } 
-            ),
+            createMany: {
+              data: notas
+            }
           },
           procesos: {
             connectOrCreate: procesos.map(
               (
-                proceso 
+                proceso
               ) => {
                 const {
-                  juzgado, ...restProceso 
+                  juzgado, ...restProceso
                 } = proceso;
 
                 const procesoCreateorConnect: Prisma.ProcesoCreateOrConnectWithoutCarpetaInput
@@ -126,7 +113,7 @@ export class PrismaCarpeta {
                   actuaciones: {
                     connectOrCreate: actuaciones.map(
                       (
-                        actuacion 
+                        actuacion
                       ) => {
                         const actuacionCreateOrConnect: Prisma.ActuacionCreateOrConnectWithoutCarpetaInput
                         = {
@@ -138,24 +125,32 @@ export class PrismaCarpeta {
                           },
                         };
                         return actuacionCreateOrConnect;
-                      } 
+                      }
                     ),
                   },
                 },
               };
 
                 return procesoCreateorConnect;
-              } 
+              }
             ),
           },
         },
         update: {
           ...newCarpeta,
+          demanda: {
+            connectOrCreate: {
+              where: {
+                id: incomingCarpeta.numero,
+              },
+              create: newDemanda,
+            },
+          },
         },
-      } 
+      }
     );
     console.log(
-      inserter 
+      inserter
     );
   }
 }

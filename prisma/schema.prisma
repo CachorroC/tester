@@ -78,7 +78,7 @@ model Deudor {
   cedula          String
   direccion       String?
   email           String?
-  id              Int      @id
+  id              Int     @id
   primerApellido  String
   primerNombre    String
   segundoApellido String?
@@ -93,15 +93,15 @@ model Codeudor {
   carpetaNumero Int     @unique
   cedula        String?
   direccion     String?
-  id            Int      @id
+  id            Int     @id
   nombre        String?
   telefono      String?
 }
 
 model Demanda {
-  capitalAdeudado         Decimal            @default(1000) @db.Money
-  carpeta                 Carpeta           @relation(fields: [carpetaNumero], references: [numero])
-  carpetaNumero           Int               @unique
+  capitalAdeudado         Decimal            @default(0) @db.Money
+  carpeta                 Carpeta            @relation(fields: [carpetaNumero], references: [numero])
+  carpetaNumero           Int                @unique
   departamento            String?
   despacho                String?
   entregaGarantiasAbogado DateTime?          @db.Date
@@ -117,26 +117,26 @@ model Demanda {
   radicado                String?
   tipoProceso             String
   vencimientoPagare       DateTime[]         @db.Date
-  liquidacion             Decimal            @default(1000) @db.Money
-  avaluo                  Decimal            @default(1000) @db.Money
+  liquidacion             Decimal            @default(0) @db.Money
+  avaluo                  Decimal            @default(0) @db.Money
 }
 
 model Notificacion {
-  demandaId      Int       @unique
+  demandaId      Int        @unique
   certimail      Boolean?
   fisico         Boolean?
   id             Int        @id
   autoNotificado DateTime?  @db.Date
-  demanda        Demanda   @relation(fields: [demandaId], references: [id])
+  demanda        Demanda    @relation(fields: [demandaId], references: [id])
   notifiers      Notifier[]
 }
 
 model MedidasCautelares {
-  demandaId         Int      @unique
+  demandaId         Int       @unique
   fechaOrdenaMedida DateTime?
   id                Int       @id
   medidaSolicitada  String?
-  demanda           Demanda  @relation(fields: [demandaId], references: [id])
+  demanda           Demanda   @relation(fields: [demandaId], references: [id])
 }
 
 model Notifier {
@@ -145,21 +145,24 @@ model Notifier {
   notificacionId Int
   resultado      Boolean?
   tipo           String
-  carpetaNumero Int
+  carpetaNumero  Int
   notificacion   Notificacion @relation(fields: [notificacionId], references: [id])
+
   @@id([tipo, carpetaNumero])
 }
 
 model Nota {
   carpetaNumero Int?
   createdAt     DateTime  @default(now())
-  id            Int      @default(autoincrement())
+  id            Int       @default(autoincrement())
   pathname      String?
   updatedAt     DateTime  @updatedAt
   dueDate       DateTime? @db.Date
-  text          String @id
+  text          String
   content       String[]
   carpeta       Carpeta?  @relation(fields: [carpetaNumero], references: [numero])
+
+  @@id([id, text])
 }
 
 model Task {

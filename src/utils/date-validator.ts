@@ -1,4 +1,5 @@
-/*
+import { Carpetas } from '../data/carpetas';
+
 
 //SECTION Carpeta example
 for ( const carpeta of Carpetas ) {
@@ -42,12 +43,12 @@ for ( const carpeta of Carpetas ) {
       fechaCarpeta, null, 2
     )
   );
-} */
+}
 
 //!SECTION
 //SECTION first step: extract the date
 export function datesExtractor(
-  incomingDate?: string | number | Date | null 
+  incomingDate?: string | number | Date | null
 ) {
   const outputDates: Date[] = [];
 
@@ -57,54 +58,58 @@ export function datesExtractor(
 
   if ( typeof incomingDate === 'object' ) {
     outputDates.push(
-      incomingDate 
+      incomingDate
     );
     return outputDates;
   }
 
   if ( typeof incomingDate === 'number' ) {
+    if ( incomingDate > 55000 ) {
+      return outputDates;
+    }
+
     const outgoingDate = new Date(
-      ( incomingDate - ( 25567 + 1 ) ) * 86400 * 1000 
+      ( incomingDate - ( 25567 + 1 ) ) * 86400 * 1000
     );
     console.log(
-      `${ incomingDate } ===> ${ outgoingDate }` 
+      `${ incomingDate } ===> ${ outgoingDate }`
     );
     outputDates.push(
-      outgoingDate 
+      outgoingDate
     );
     return outputDates;
   }
 
   const splitByDoubleSlash = incomingDate.split(
-    '//' 
+    '//'
   );
 
   for ( const splitted of splitByDoubleSlash ) {
     const fixed = fixSingleFecha(
-      splitted 
+      splitted
     );
 
     for ( const fixedDate of fixed ) {
       outputDates.push(
-        fixedDate 
+        fixedDate
       );
     }
   }
 
   return dateArrayValidator(
-    outputDates 
+    outputDates
   );
 }
 //!SECTION
 //SECTION secondStep: fix the extracted date
 
 export function fixSingleFecha(
-  rawFecha: string 
+  rawFecha: string
 ) {
   const datesOutput: Date[] = [];
 
   const utcStyleMatch = rawFecha.matchAll(
-    /(\d{2,4})-(\d{1,2})-(\d{1,2})/gm 
+    /(\d{2,4})-(\d{1,2})-(\d{1,2})/gm
   );
 
   const melissaStyleFecha = rawFecha.matchAll(
@@ -120,19 +125,12 @@ export function fixSingleFecha(
     ] = utcStyleMatched;
     let newYear;
     console.log(
-      allmatched 
+      allmatched
     );
 
     if ( yearMatched.length === 2 ) {
       newYear = yearMatched.padStart(
-        4, '20' 
-      );
-    } else if ( yearMatched.length === 3 ) {
-      const postYear = yearMatched.substring(
-        1, 3 
-      );
-      newYear = postYear.padStart(
-        4, '20' 
+        4, '20'
       );
     } else {
       newYear = yearMatched;
@@ -140,20 +138,20 @@ export function fixSingleFecha(
 
     const outputDate = new Date(
       Number(
-        newYear 
+        newYear
       ),
       Number(
-        monthMatched 
+        monthMatched
       ) - 1,
       Number(
         dayMatched.padStart(
-          2, '0' 
-        ) 
+          2, '0'
+        )
       ),
     );
 
     datesOutput.push(
-      outputDate 
+      outputDate
     );
   }
 
@@ -167,19 +165,19 @@ export function fixSingleFecha(
       = melissaStyleMatched;
     let newYear;
     console.log(
-      allmatched 
+      allmatched
     );
 
     if ( yearMatched.length === 2 ) {
       newYear = yearMatched.padStart(
-        4, '20' 
+        4, '20'
       );
     } else if ( yearMatched.length === 3 ) {
       const postYear = yearMatched.substring(
-        1, 3 
+        1, 3
       );
       newYear = postYear.padStart(
-        4, '20' 
+        4, '20'
       );
     } else {
       newYear = yearMatched;
@@ -187,20 +185,20 @@ export function fixSingleFecha(
 
     const outputDate = new Date(
       Number(
-        newYear 
+        newYear
       ),
       Number(
-        monthMatched 
+        monthMatched
       ) - 1,
       Number(
         dayMatched.padStart(
-          2, '0' 
-        ) 
+          2, '0'
+        )
       ),
     );
 
     datesOutput.push(
-      outputDate 
+      outputDate
     );
   }
 
@@ -209,32 +207,54 @@ export function fixSingleFecha(
 
 //!SECTION
 export function dateValidator(
-  incomingDate: Date 
+  incomingDate: Date
 ): Date | null {
+
   const stringifiedDate = incomingDate.toString();
+  console.log(
+    stringifiedDate
+  );
+  console.log(
+    `
+    string date:
+    ${ String(
+    incomingDate
+  ) }
+    `
+  );
 
   const dateYear = incomingDate.getFullYear();
+  console.log(
+    dateYear
+  );
 
-  if ( stringifiedDate === 'Invalid Date' || dateYear <= 2000 ) {
+
+  if ( stringifiedDate === 'Invalid Date' || dateYear <= 2000 || dateYear > 2200 ) {
+    console.log(
+      dateYear
+    );
     return null;
   }
 
+  console.log(
+    incomingDate
+  );
   return incomingDate;
 }
 
 export function dateArrayValidator(
-  incomingDates: Date[] 
+  incomingDates: Date[]
 ): Date[] {
   const outPutDates = [];
 
   for ( const date of incomingDates ) {
     const ndate = dateValidator(
-      date 
+      date
     );
 
     if ( ndate ) {
       outPutDates.push(
-        ndate 
+        ndate
       );
     }
   }
