@@ -18,89 +18,89 @@ import { Category } from './carpetas';
 
 export interface RawDb {
   /*   [ x: string ]: string | number | undefined | Date | null; */
-  NUMERO: number | string;
-  DEMANDADO_IDENTIFICACION: number | string;
-  DEMANDADO_NOMBRE: string;
-  DEMANDADO_TELEFONOS?: number | string;
-  DEMANDADO_EMAIL?: number | string;
-  DEMANDADO_DIRECCION?: number | string;
-  FECHA_VENCIMIENTO_PAGARE?: number | string;
-  OBLIGACION_1?: number | string;
-  OBLIGACION_2?: number | string;
-  VALOR_CAPITAL_ADEUDADO?: number | string;
-  FECHA_ENTREGA_GARANTIAS_ABOGADO?: number | string;
-  DEPARTAMENTO: Departamento;
-  JUZGADO_CIUDAD: number | string;
-  JUZGADO_ORIGEN?: string;
-  TIPO_PROCESO?: TipoProceso;
-  RADICADO?: string;
-  EXPEDIENTE?: number | string;
-  OBSERVACIONES?: string;
-  FECHA_CIERRE?: string;
-  EXTRA?: string;
-  category: Category;
-  JUZGADO_CIUDAD_1?: string;
-  ETAPA_PROCESAL?: number | string;
-  FECHA_PRESENTACION_DEMANDA?: number | string;
-  FECHA_MANDAMIENTO_DE_PAGO?: number | string;
-  MEDIDA_SOLICITADA?: number | string;
-  NUMERO_DE_OFICIO?: number | string;
-  FECHA_DEL_OFICIO?: number | string;
-  BIENES?: number | string;
-  PLACAS_O_NUMERO_DE_MATRICULA?: number | string;
-  DESCRIPCION_DE_LA_MEDIDA?: number | string;
-  FECHA_RETIRO_DE_OFICIOS?: number | string;
-  FECHA_RADICACION?: number | string;
-  RESPUESTA_EMBARGO?: number | string;
-  FECHA_SOLICITUD_CAPTURA_O_SECUESTRO?: number | string;
+  __EMPTY?: string;
   BIENES_SECUESTRADOS?: number | string;
-  PARQUEADERO?: number | string;
-  FECHA_SOLICITUD_SENTENCIA?: string;
+  BIENES?: number | string;
+  category: Category;
   CAUSAL_DE_TERMINACION?: string;
-  FECHA_DEVOLUCION_GARANTIAS?: number | string;
+  CERTIMAIL?: Certimail;
+  CODEUDOR_DIRECCION?: number | string;
   CODEUDOR_IDENTIFICACION?: number | string;
   CODEUDOR_NOMBRE?: number | string;
   CODEUDOR_TELEFONOS?: number | string;
-  CODEUDOR_DIRECCION?: number | string;
-  FECHA_RECIBO_291?: number | string;
-  RESULTADO_291?: number | string;
-  FECHA_RECIBO_AVISO_292?: number | string;
-  RESULTADO_292?: number | string;
-  FECHA_PUBLICACION_EMPLAZAMIENTO?: number | string;
-  FECHA_APORTA_NOTIFICACION_291?: number | string;
-  TIPO_NOTIFICACION?: number | string;
-  FECHA_DECRETO_SECUESTRO_O_CAPTURA?: number | string;
-  FECHA_CAPTURA?: number | string;
-  FECHA_SECUESTRO?: number | string;
-  VALOR_COSTAS?: number | string;
-  FECHA_NOMBRAMIENTO_CURADOR?: number | string;
-  FECHA_AUTO_TERMINACION_PROCESO?: number | string;
-  NOMBRE_SECUESTRE?: number | string;
-  FECHA_SOLICITUD_LIQUIDACION?: number | string;
-  FECHA_APROBACION_LIQUIDACION_DEL_CREDITO?: number | string;
-  FECHA_APROBACION_COSTAS?: number | string;
-  VALOR_AVALUO?: number | string;
-  FECHA_REMATE?: number | string;
-  FECHA_ADJUDICACION?: number | string;
-  FECHA_RADICACION_MEMORIAL_TERMINACION?: number | string;
-  JUZGADO_EJECUCION?: string;
-  FECHA_MANDAMIENTO_PAGO?: number | string;
-  FECHA_APORTA_NOTIFICACION_292?: number | string;
-  FECHA_AUTO_NOTIFICADO?: number | string;
-  RESPESTA_EMBARGO?: number | string;
   CONTACTO?: number | string;
-  FECHA_ORDENA_MEDIDAS_CAUTELARES?: number | string;
-  CERTIMAIL?: Certimail;
-  FISICO?: Certimail;
-  VALOR_LIQUIDACION_DEL_CREDITO?: number | string;
-  FECHA_SENTENCIA?: string;
+  DEMANDADO_DIRECCION?: number | string;
+  DEMANDADO_EMAIL?: number | string;
+  DEMANDADO_IDENTIFICACION: number | string;
+  DEMANDADO_NOMBRE: string;
+  DEMANDADO_TELEFONOS?: number | string;
+  DEPARTAMENTO: Departamento;
+  DESCRIPCION_DE_LA_MEDIDA?: number | string;
+  ETAPA_PROCESAL?: number | string;
+  EXPEDIENTE?: number | string;
+  EXTRA?: string;
+  FECHA_ADJUDICACION?: number | string;
+  FECHA_APORTA_NOTIFICACION_291?: number | string;
+  FECHA_APORTA_NOTIFICACION_292?: number | string;
+  FECHA_APROBACION_COSTAS?: number | string;
+  FECHA_APROBACION_LIQUIDACION_DEL_CREDITO?: number | string;
+  FECHA_AUTO_NOTIFICADO?: number | string;
+  FECHA_AUTO_TERMINACION_PROCESO?: number | string;
+  FECHA_CAPTURA?: number | string;
+  FECHA_CIERRE?: string;
   FECHA_DE_PRESENTACION_LIQUIDACION?: string;
-  FECHA_PRESENTACION_LIQUIDACION?: number | string;
-  FECHA_NOTIFICACION?: Date | FechaNotificacionEnum | number;
-  ULTIMO_MOVIMIENTO_IMPEDIR_DESISTIMIENTO?: string;
   FECHA_DE_SUSPENSION_DEL_PROCESO?: string;
+  FECHA_DECRETO_SECUESTRO_O_CAPTURA?: number | string;
+  FECHA_DEL_OFICIO?: number | string;
+  FECHA_DEVOLUCION_GARANTIAS?: number | string;
+  FECHA_ENTREGA_GARANTIAS_ABOGADO?: number | string;
+  FECHA_MANDAMIENTO_DE_PAGO?: number | string;
+  FECHA_MANDAMIENTO_PAGO?: number | string;
+  FECHA_NOMBRAMIENTO_CURADOR?: number | string;
+  FECHA_NOTIFICACION?: Date | FechaNotificacionEnum | number;
+  FECHA_ORDENA_MEDIDAS_CAUTELARES?: number | string;
+  FECHA_PRESENTACION_DEMANDA?: number | string;
+  FECHA_PRESENTACION_LIQUIDACION?: number | string;
+  FECHA_PUBLICACION_EMPLAZAMIENTO?: number | string;
+  FECHA_RADICACION_MEMORIAL_TERMINACION?: number | string;
+  FECHA_RADICACION?: number | string;
+  FECHA_RECIBO_291?: number | string;
+  FECHA_RECIBO_AVISO_292?: number | string;
+  FECHA_REMATE?: number | string;
+  FECHA_RETIRO_DE_OFICIOS?: number | string;
+  FECHA_SECUESTRO?: number | string;
+  FECHA_SENTENCIA?: string;
+  FECHA_SOLICITUD_CAPTURA_O_SECUESTRO?: number | string;
+  FECHA_SOLICITUD_LIQUIDACION?: number | string;
+  FECHA_SOLICITUD_SENTENCIA?: string;
+  FECHA_VENCIMIENTO_PAGARE?: number | string;
+  FISICO?: Certimail;
+  JUZGADO_CIUDAD_1?: string;
+  JUZGADO_CIUDAD: number | string;
+  JUZGADO_EJECUCION?: string;
+  JUZGADO_ORIGEN?: string;
+  MEDIDA_SOLICITADA?: number | string;
+  NOMBRE_SECUESTRE?: number | string;
+  NUMERO_DE_OFICIO?: number | string;
+  NUMERO: number | string;
+  OBLIGACION_1?: number | string;
+  OBLIGACION_2?: number | string;
+  OBSERVACIONES?: string;
+  PARQUEADERO?: number | string;
+  PLACAS_O_NUMERO_DE_MATRICULA?: number | string;
+  RADICADO?: string;
+  RESPESTA_EMBARGO?: number | string;
+  RESPUESTA_EMBARGO?: number | string;
+  RESULTADO_291?: number | string;
+  RESULTADO_292?: number | string;
   TERMINO_DE_SUSPENSION?: string;
-  __EMPTY?: string;
+  TIPO_NOTIFICACION?: number | string;
+  TIPO_PROCESO?: TipoProceso;
+  ULTIMO_MOVIMIENTO_IMPEDIR_DESISTIMIENTO?: string;
+  VALOR_AVALUO?: number | string;
+  VALOR_CAPITAL_ADEUDADO?: number | string;
+  VALOR_COSTAS?: number | string;
+  VALOR_LIQUIDACION_DEL_CREDITO?: number | string;
 }
 
 export type Certimail = 'SI' | 'NO' | 'FALSE' | 'TRUE' | '04/10/2018';
@@ -150,18 +150,18 @@ export type TipoProceso =
 // Converts JSON strings to/from your types
 export class ConvertRawDb {
   public static toRawDb(
-    json: string 
+    json: string
   ): RawDb {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static rawDbToJson(
-    value: RawDb 
+    value: RawDb
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 }
@@ -574,113 +574,113 @@ export type TerminadoTipoProceso =
 // Converts JSON strings to/from your types
 export class Convert {
   public static toRawDb(
-    json: string 
+    json: string
   ): RawDb {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static rawDbToJson(
-    value: RawDb 
+    value: RawDb
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
   public static toRawWorkSheets(
-    json: string 
+    json: string
   ): RawWorkSheets {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static welcomeToJson(
-    value: RawWorkSheets 
+    value: RawWorkSheets
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toBancolombia(
-    json: string 
+    json: string
   ): Bancolombia {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static bancolombiaToJson(
-    value: Bancolombia 
+    value: Bancolombia
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toInsolvencia(
-    json: string 
+    json: string
   ): Insolvencia {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static insolvenciaToJson(
-    value: Insolvencia 
+    value: Insolvencia
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toLiosJuridico(
-    json: string 
+    json: string
   ): LiosJuridico {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static liosJuridicoToJson(
-    value: LiosJuridico 
+    value: LiosJuridico
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toReintegra(
-    json: string 
+    json: string
   ): Reintegra {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static reintegraToJson(
-    value: Reintegra 
+    value: Reintegra
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 
   public static toTerminado(
-    json: string 
+    json: string
   ): Terminado {
     return JSON.parse(
-      json 
+      json
     );
   }
 
   public static terminadoToJson(
-    value: Terminado 
+    value: Terminado
   ): string {
     return JSON.stringify(
-      value 
+      value
     );
   }
 }

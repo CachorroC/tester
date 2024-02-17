@@ -7,8 +7,9 @@ export class NotasBuilder implements IntNota {
   dueDate: Date | null;
   text: string;
   content: string[] = [];
+  id: string;
   constructor(
-    incomingNote: string
+    incomingNote: string, carpetaNumero?: number, index?:number
   ) {
     const dateExtract = datesExtractor(
       incomingNote
@@ -23,5 +24,10 @@ export class NotasBuilder implements IntNota {
     this.text = incomingNote;
     this.createdAt = new Date();
     this.pathname = null;
+    this.id = `${ carpetaNumero
+      ? carpetaNumero
+      : Date.now() }-${ index
+      ? index
+      : Math.random() }`;
   }
 }

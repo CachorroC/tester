@@ -20,6 +20,7 @@ model Carpeta {
   llaveProceso    String
   nombre          String
   notas           Nota[]
+  notasCount Int?
   numero          Int        @id
   procesos        Proceso[]
   revisado        Boolean    @default(false)
@@ -154,7 +155,7 @@ model Notifier {
 model Nota {
   carpetaNumero Int?
   createdAt     DateTime  @default(now())
-  id            Int       @default(autoincrement())
+  id            String @id
   pathname      String?
   updatedAt     DateTime  @updatedAt
   dueDate       DateTime? @db.Date
@@ -162,7 +163,6 @@ model Nota {
   content       String[]
   carpeta       Carpeta?  @relation(fields: [carpetaNumero], references: [numero])
 
-  @@id([id, text])
 }
 
 model Task {
@@ -178,10 +178,10 @@ model Task {
 }
 
 model Actuacion {
-  id             Int       @id @default(autoincrement())
   actuacion      String
   anotacion      String?
   cant           Int
+  Carpeta        Carpeta[]
   carpetaNumero  Int?
   codRegla       String
   conDocumentos  Boolean
@@ -191,13 +191,13 @@ model Actuacion {
   fechaFinal     DateTime? @db.Date
   fechaInicial   DateTime? @db.Date
   fechaRegistro  DateTime  @db.Date
+  id             Int       @id @default(autoincrement())
   idProceso      Int
   idRegActuacion Int       @unique
   isUltimaAct    Boolean
   llaveProceso   String
-  procesoId      Int?
   proceso        Proceso?  @relation(fields: [procesoId], references: [idProceso])
-  Carpeta        Carpeta[]
+  procesoId      Int?
 }
 
 model Juzgado {

@@ -8,24 +8,12 @@ import { Prisma } from '@prisma/client';
 import { outActuacion } from './actuaciones';
 import { outProceso } from './procesos';
 
-export interface TrulyCruda {
-  demanda: DemandaRaw;
-  codeudor?: rawCodeudor;
-  deudor: DeudorRaw;
-  numero: number;
-}
-
-export interface CarpetaRaw extends TrulyCruda {
-  category: Category;
-}
-
-export type keyOfCarpetaRaw = keyof CarpetaRaw;
-
 export type IntCarpeta = {
   category: Category;
   codeudor: Codeudor;
   demanda: IntDemanda;
   deudor: IntDeudor;
+  notasCount: number | null;
   fecha: Date | null;
   id: number;
   idProcesos: number[];
@@ -39,28 +27,6 @@ export type IntCarpeta = {
   tipoProceso: TipoProceso;
   ultimaActuacion: outActuacion | null;
 };
-
-export interface flatCarpeta {
-  llaveProceso?: string;
-  idProcesos?: number[];
-  category: Category;
-  categoryTag: number;
-  deudor: IntDeudor;
-  numero: number;
-  tipoProceso: TipoProcesoRaw;
-
-  capitalAdeudado: number;
-  departamento: string | null;
-  entregaGarantiasAbogado: Date;
-  mandamientoPago: Date;
-  etapaProcesal?: string;
-  fechaPresentacion?: Date;
-  municipio: string;
-  obligacion: Obligacion;
-  radicado: string;
-  vencimientoPagare: Date[];
-  juzgados: Juzgado[];
-}
 
 export type Obligacion = {
   A?: string | number;
@@ -82,45 +48,6 @@ export interface Codeudor {
   id: number;
   nombre: string | null;
   telefono: string | null;
-}
-
-export interface rawCodeudor {
-  cedula?: number | string;
-  nombre?: number | string;
-  direccion?: number | string;
-  telefono?: number | string;
-}
-
-export interface DemandaRaw {
-  llaveProceso: string;
-  capitalAdeudado?: number | string;
-  departamento?: DepartamentoRaw;
-  entregaGarantiasAbogado?: number | string;
-  tipoProceso?: TipoProcesoRaw;
-  mandamientoPago?: string;
-  medidasCautelares?: {
-    fechaOrdenaMedidas?: string;
-    medidaSolicitada?: string;
-  };
-  etapaProcesal?: number | string;
-  fechaPresentacion?: number | string;
-  municipio?: string;
-  obligacion?: {
-    A?: number | string;
-    B?: number | string;
-  };
-  notificacion?: rawNotificacion;
-  radicado?: number | string;
-  vencimientoPagare?: number | string;
-}
-
-export interface rawNotificacion {
-  '291'?: The291;
-  '292'?: The292;
-  certimail?: string;
-  fisico?: FisicoEnum | number;
-  tipo?: number | string;
-  autoNotificado?: number | string;
 }
 
 export type ResultadoEnum =
@@ -200,14 +127,6 @@ export type DepartamentoRaw =
   | 'CNDINAMARCA'
   | '';
 
-export interface DeudorRaw {
-  cedula: number | string;
-  direccion?: number | string;
-  email?: number | string;
-  nombre: string;
-  telefono?: number | string;
-}
-
 export interface IntDeudor {
   cedula: string;
   direccion: string | null;
@@ -245,8 +164,16 @@ export interface IntDemanda {
   radicado: string | null;
   tipoProceso: TipoProceso;
   vencimientoPagare: Date[];
-  liquidacion: Prisma.Decimal;
   avaluo: Prisma.Decimal;
+  liquidacion: Prisma.Decimal
+}
+
+export type intLiquidacion = {
+  valor: Prisma.Decimal;
+  fechaAprobacion: Date | null;
+  fechaPresentacion: Date | null;
+
+
 }
 
 export interface intMedidasCautelares {

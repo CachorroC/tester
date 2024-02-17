@@ -1,5 +1,8 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Carpetas } from '../data/carpetas';
+import * as fs from 'fs/promises';
 
+const rawValues = [];
 
 //SECTION Carpeta example
 for ( const carpeta of Carpetas ) {
@@ -30,6 +33,12 @@ for ( const carpeta of Carpetas ) {
         `${ value } ====> ${ dateValue }`
       );
       dateEntries.set(
+        `RAW_${ key }`, value
+      );
+      rawValues.push(
+        value
+      );
+      dateEntries.set(
         key, dateValue
       );
     }
@@ -39,11 +48,16 @@ for ( const carpeta of Carpetas ) {
     dateEntries
   );
   console.log(
-    JSON.stringify(
-      fechaCarpeta, null, 2
-    )
+    fechaCarpeta
   );
+
 }
+
+fs.writeFile(
+  'fechas.json', JSON.stringify(
+    rawValues, null, 2
+  )
+);
 
 //!SECTION
 //SECTION first step: extract the date
@@ -53,31 +67,43 @@ export function datesExtractor(
   const outputDates: Date[] = [];
 
   if ( !incomingDate ) {
-    return outputDates;
+    return dateArrayValidator(
+      outputDates
+    );
   }
 
   if ( typeof incomingDate === 'object' ) {
-    outputDates.push(
+    console.log(
       incomingDate
     );
-    return outputDates;
+
+    if ( incomingDate.toString() !== 'Invalid Date' ) {
+
+      outputDates.push(
+        incomingDate
+      );
+    }
+
+
+    return dateArrayValidator(
+      outputDates
+    );
   }
 
   if ( typeof incomingDate === 'number' ) {
-    if ( incomingDate > 55000 ) {
-      return outputDates;
+    const outgoingDate= xlsxNumberToDate(
+      incomingDate
+    );
+
+    if ( outgoingDate ) {
+      outputDates.push(
+        outgoingDate
+      );
     }
 
-    const outgoingDate = new Date(
-      ( incomingDate - ( 25567 + 1 ) ) * 86400 * 1000
+    return dateArrayValidator(
+      outputDates
     );
-    console.log(
-      `${ incomingDate } ===> ${ outgoingDate }`
-    );
-    outputDates.push(
-      outgoingDate
-    );
-    return outputDates;
   }
 
   const splitByDoubleSlash = incomingDate.split(
@@ -108,93 +134,56 @@ export function fixSingleFecha(
 ) {
   const datesOutput: Date[] = [];
 
-  const utcStyleMatch = rawFecha.matchAll(
-    /(\d{2,4})-(\d{1,2})-(\d{1,2})/gm
+  const matchedDate = rawFecha.matchAll(
+    /(\d+)(-|\/)(\d+)(-|\/)(\d+)/gm
   );
 
-  const melissaStyleFecha = rawFecha.matchAll(
-    /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/gm,
-  );
+  for ( const matchedValue of matchedDate ) {
 
-  for ( const utcStyleMatched of utcStyleMatch ) {
     const [
-      allmatched,
-      yearMatched,
-      monthMatched,
-      dayMatched
-    ] = utcStyleMatched;
-    let newYear;
-    console.log(
-      allmatched
-    );
+      total,
+      firstNumber,
+      firstDivider,
+      secondNumber,
+      secondDivider,
+      thirdNumber
+    ] = matchedValue;
+    let newYear, newDay;
 
-    if ( yearMatched.length === 2 ) {
-      newYear = yearMatched.padStart(
-        4, '20'
+    const newMonth = Number(
+      secondNumber
+    )- 1;
+
+    if ( firstDivider === '-' ) {
+      newYear = Number(
+        firstNumber.padStart(
+          4, '2015'
+        )
       );
+      newDay = Number(
+        thirdNumber.padStart(
+          2, '00'
+        )
+      );
+
     } else {
-      newYear = yearMatched;
+      newYear =  Number(
+        thirdNumber.padStart(
+          4, '2015'
+        )
+      );
+      newDay = Number(
+        firstNumber.padStart(
+          2, '00'
+        )
+      );
     }
 
-    const outputDate = new Date(
-      Number(
-        newYear
-      ),
-      Number(
-        monthMatched
-      ) - 1,
-      Number(
-        dayMatched.padStart(
-          2, '0'
-        )
-      ),
-    );
-
-    datesOutput.push(
-      outputDate
-    );
-  }
-
-  for ( const melissaStyleMatched of melissaStyleFecha ) {
-    const [
-      allmatched,
-      dayMatched,
-      monthMatched,
-      yearMatched
-    ]
-      = melissaStyleMatched;
-    let newYear;
-    console.log(
-      allmatched
-    );
-
-    if ( yearMatched.length === 2 ) {
-      newYear = yearMatched.padStart(
-        4, '20'
-      );
-    } else if ( yearMatched.length === 3 ) {
-      const postYear = yearMatched.substring(
-        1, 3
-      );
-      newYear = postYear.padStart(
-        4, '20'
-      );
-    } else {
-      newYear = yearMatched;
-    }
 
     const outputDate = new Date(
-      Number(
-        newYear
-      ),
-      Number(
-        monthMatched
-      ) - 1,
-      Number(
-        dayMatched.padStart(
-          2, '0'
-        )
-      ),
+      newYear,
+      newMonth,
+      newDay,
     );
 
     datesOutput.push(
@@ -260,4 +249,24 @@ export function dateArrayValidator(
   }
 
   return outPutDates;
+}
+
+
+
+export function xlsxNumberToDate (
+  incomingDate: number
+) {
+  const outgoingDate = new Date(
+    ( incomingDate - ( 25567 + 1 ) ) * 86400 * 1000
+  );
+
+
+  if ( incomingDate > 55000 || outgoingDate.toString() === 'Invalid Date' || outgoingDate.getFullYear() > 2200 ) {
+    console.log(
+      outgoingDate.toString()
+    );
+    return null;
+  }
+
+  return outgoingDate;
 }

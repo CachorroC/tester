@@ -13,6 +13,7 @@ export class ClassDemanda implements IntDemanda {
   ) {
     const {
       VALOR_CAPITAL_ADEUDADO: capitalAdeudado,
+      JUZGADO_EJECUCION, JUZGADO_ORIGEN,
       FECHA_ENTREGA_GARANTIAS_ABOGADO: entregaGarantiasAbogado,
       ETAPA_PROCESAL: etapaProcesal,
       DEPARTAMENTO: departamento,
@@ -118,7 +119,11 @@ export class ClassDemanda implements IntDemanda {
     this.departamento = departamento
       ? departamento
       : null;
-    this.despacho = null;
+    this.despacho = JUZGADO_EJECUCION
+      ? JUZGADO_EJECUCION
+      : JUZGADO_ORIGEN
+        ? JUZGADO_ORIGEN
+        : null;
     this.llaveProceso = llaveProceso
       ? String(
         llaveProceso
@@ -181,6 +186,7 @@ export class ClassDemanda implements IntDemanda {
       despacho               : demanda.despacho,
       entregaGarantiasAbogado: demanda.entregaGarantiasAbogado,
       fechaPresentacion      : demanda.fechaPresentacion,
+      vencimientoPagare      : demanda.vencimientoPagare,
       etapaProcesal          : demanda.etapaProcesal,
       liquidacion            : demanda.liquidacion,
       llaveProceso           : demanda.llaveProceso,

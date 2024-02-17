@@ -7,7 +7,7 @@ import { RawDb } from '../types/raw-db';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
 import { NewJuzgado } from './juzgado';
-import { NotasBuilder } from './nota';
+import {  NotasBuilder } from './nota';
 
 export class Carpeta implements IntCarpeta {
   //SECTION array objects
@@ -57,19 +57,29 @@ export class Carpeta implements IntCarpeta {
 
     let idBuilder;
 
+    let notasCounter = 0;
+
     if ( OBSERVACIONES ) {
       const extras = OBSERVACIONES.split(
         '//'
       );
+      extras.forEach(
+        (
+          nota
+        ) => {
+          notasCounter++;
 
-      for ( const extra of extras ) {
-        const newNoter = new NotasBuilder(
-          extra
-        );
-        this.notas.push(
-          newNoter
-        );
-      }
+          const newNoter = new NotasBuilder(
+            nota, Number(
+              NUMERO
+            ), notasCounter
+          );
+          this.notas.push(
+            newNoter
+          );
+        }
+      );
+
     }
 
     if ( EXTRA ) {
@@ -77,14 +87,22 @@ export class Carpeta implements IntCarpeta {
         '//'
       );
 
-      for ( const extra of extras ) {
-        const newNoter = new NotasBuilder(
-          extra
-        );
-        this.notas.push(
-          newNoter
-        );
-      }
+      extras.forEach(
+        (
+          nota
+        ) => {
+          notasCounter++;
+
+          const newNoter = new NotasBuilder(
+            nota, Number(
+              NUMERO
+            ), notasCounter
+          );
+          this.notas.push(
+            newNoter
+          );
+        }
+      );
     }
 
     const cedulaAsNumber = Number(
@@ -101,6 +119,7 @@ export class Carpeta implements IntCarpeta {
       idBuilder = cedulaAsNumber;
     }
 
+    this.notasCount = notasCounter;
     this.id = idBuilder;
     this.idRegUltimaAct = null;
     this.numero = Number(
@@ -165,6 +184,7 @@ export class Carpeta implements IntCarpeta {
       NUMERO
     );
   }
+  notasCount: number | null;
   async getProcesos() {
     try {
       const request = await fetch(
@@ -343,6 +363,7 @@ export class Carpeta implements IntCarpeta {
       category    : carpeta.category,
       fecha       : carpeta.fecha,
       idProcesos  : carpeta.idProcesos,
+      notasCount  : carpeta.notasCount,
       revisado    : carpeta.revisado,
       terminado   : carpeta.terminado,
       tipoProceso : carpeta.tipoProceso,
