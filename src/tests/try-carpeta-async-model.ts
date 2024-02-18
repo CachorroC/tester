@@ -2,6 +2,10 @@ import { Carpetas } from '../data/carpetas';
 import { Carpeta } from '../models/carpeta';
 import * as fs from 'fs/promises';
 import { PrismaCarpeta } from '../models/prisma-carpeta';
+process.env[ 'NODE_TLS_REJECT_UNAUTHORIZED' ] = '0';
+console.log(
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED
+);
 
 const carpetasMap = Carpetas.map(
   (
