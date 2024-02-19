@@ -40,6 +40,7 @@ async function tryAsyncCarpetas() {
     );
 
     await PrismaCarpeta.insertCarpeta(
+
       carpeta
     );
   }

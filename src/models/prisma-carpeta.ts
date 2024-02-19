@@ -6,7 +6,7 @@ import { ClassDemanda } from './demanda';
 
 export class PrismaCarpeta {
   static async insertCarpeta(
-    incomingCarpeta: Carpeta
+    incomingCarpeta: Carpeta 
   ) {
     const {
       idRegUltimaAct,
