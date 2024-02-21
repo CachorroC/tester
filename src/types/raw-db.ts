@@ -32,7 +32,7 @@ export interface RawDb {
   DEMANDADO_DIRECCION?: number | string;
   DEMANDADO_EMAIL?: number | string;
   DEMANDADO_IDENTIFICACION: number | string;
-  DEMANDADO_NOMBRE: string;
+  DEMANDADO_NOMBRE?: string;
   DEMANDADO_TELEFONOS?: number | string;
   DEPARTAMENTO: Departamento;
   DESCRIPCION_DE_LA_MEDIDA?: number | string;

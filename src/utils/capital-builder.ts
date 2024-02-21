@@ -1,6 +1,4 @@
-import { Carpetas } from '../data/carpetas';
-import * as fs from 'fs/promises';
-
+/*
 const outGoingValuesMap = new Map();
 
 const regexMap = [];
@@ -13,7 +11,7 @@ for ( const carpeta of Carpetas ) {
   const dateEntries = new Map();
 
   dateEntries.set(
-    'numero', carpeta.NUMERO
+    'numero', carpeta.numero
   );
   dateEntries.set(
     'index', indexOfCarpeta
@@ -65,9 +63,9 @@ for ( const carpeta of Carpetas ) {
     )
   );
   outGoingValuesMap.set(
-    carpeta.NUMERO, fechaCarpeta
+    carpeta.numero, fechaCarpeta
   );
-}
+} */
 
 export function capitalBuilder(
   capitalAdeudado?: string | number | null | Date,
@@ -134,22 +132,3 @@ export function capitalBuilder(
     valueReplacer
   );
 }
-
-fs.writeFile(
-  'valores.json',
-  JSON.stringify(
-    Array.from(
-      outGoingValuesMap.values()
-    ), null, 2
-  ),
-);
-
-fs.writeFile(
-  'regexValores.json',
-  JSON.stringify(
-    regexMap.toString()
-      .replaceAll(
-        /,/gm, '\n'
-      ), null, 2
-  ),
-);

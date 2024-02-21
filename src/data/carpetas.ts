@@ -6,38 +6,38 @@ import { RawDb } from '../types/raw-db';
 const workbook = xlsx.readFile(
   '/srv/new/nube/bases_de_datos/general.xlsx', {
     cellDates: true,
-  } 
+  }
 );
 
 const {
-  SheetNames, Sheets 
+  SheetNames, Sheets
 } = workbook;
 
 const mapperSheets = SheetNames.flatMap(
   (
-    sheetname 
+    sheetname
   ) => {
     const sheet = Sheets[ sheetname ];
 
     const tableSheet = xlsx.utils.sheet_to_json<RawDb>(
-      sheet 
+      sheet
     );
     return tableSheet.map(
       (
-        table 
+        table
       ) => {
         return {
           ...table,
           category: sheetname as Category,
         };
-      } 
+      }
     );
-  } 
+  }
 );
 
 export const Carpetas = [ ...mapperSheets ].sort(
   (
-    a, b 
+    a, b
   ) => {
     const x = a.NUMERO;
 
@@ -50,11 +50,11 @@ export const Carpetas = [ ...mapperSheets ].sort(
     }
 
     return 0;
-  } 
+  }
 );
 
 fs.writeFile(
   'carpetas.json', JSON.stringify(
-    Carpetas 
-  ) 
+    Carpetas, null, 2
+  )
 );

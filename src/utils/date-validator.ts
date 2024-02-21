@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { Carpetas } from '../data/carpetas';
 import * as fs from 'fs/promises';
-
+/*
 const rawValues = [];
 
 //SECTION Carpeta example
@@ -9,7 +9,7 @@ for ( const carpeta of Carpetas ) {
   const dateEntries = new Map();
 
   dateEntries.set(
-    'numero', carpeta.NUMERO
+    'numero', carpeta.numero
   );
 
   const carpetaEntries = Object.entries(
@@ -57,7 +57,7 @@ fs.writeFile(
   'fechas.json', JSON.stringify(
     rawValues, null, 2
   )
-);
+); */
 
 //!SECTION
 //SECTION first step: extract the date

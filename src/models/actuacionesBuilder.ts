@@ -1,158 +1,217 @@
-import { ConsultaActuacion } from '../types/actuaciones';
-import { Actuacion } from '../types/schema';
+import { client } from '../services/prisma';
+import { ConsultaActuacion, outActuacion } from '../types/actuaciones';
+import * as fs from 'fs/promises';
 
-export class ActuacionJudicial {
-  _fecha: Date | null;
-  _actuaciones: Actuacion[] | null;
-  _ultimaActuacion: Actuacion | null;
+
+export class ClassActuaciones {
   idProceso: number;
-  carpetaNumero: number;
-  constructor(
-    idProceso: number, carpetaNumero: number 
+  actuaciones: outActuacion[] = [];
+  ultimaActuacion: outActuacion | null;
+  fecha: Date | null;
+  numero: number;
+  constructor (
+    idProceso: number, actuaciones: outActuacion[], numero: number
   ) {
     this.idProceso = idProceso;
-    this.carpetaNumero = carpetaNumero;
-    this._fecha = null;
-    this._actuaciones = null;
-    this._ultimaActuacion = null;
+    this.actuaciones = actuaciones;
+    this.numero = numero;
+
+    const ultimaAct = actuaciones.find(
+      (
+        act
+      ) => {
+        return act.isUltimaAct;
+      }
+    );
+
+
+    if ( ultimaAct ) {
+      this.ultimaActuacion = ultimaAct;
+      this.fecha = ultimaAct.fechaActuacion;
+    } else {
+      this.fecha = null;
+      this.ultimaActuacion = null;
+    }
+
   }
 
-  async getActuaciones() {
+  async prismaUpdaterActuaciones() {
     try {
-      const request = await fetch(
-        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ this.idProceso }`,
+      const carpeta = await client.carpeta.findFirstOrThrow(
+        {
+          where: {
+            numero: this.numero
+          },
+        }
       );
 
-      if ( !request.ok ) {
-        const json = await request.json();
-        throw new Error(
-          JSON.stringify(
-            json 
-          ) 
-        );
-      }
-
-      const consultaActuaciones = ( await request.json() ) as ConsultaActuacion;
-
-      const {
-        actuaciones 
-      } = consultaActuaciones;
-
-      const [ ultimaActuacion ] = actuaciones;
-
-      const incomingDate = new Date(
-        ultimaActuacion.fechaActuacion 
-      );
-
-      const incomingYear = incomingDate.getFullYear();
-
-      const incomingMonth = incomingDate.getMonth();
-
-      const incomingDay = incomingDate.getDate();
-      console.log(
-        `${ this.carpetaNumero } => la nueva fecha de la actuacion es: ${ new Date(
-          incomingYear,
-          incomingMonth,
-          incomingDay,
-        ) } y el timezone offset es  ${ incomingDate.getTimezoneOffset() }
-          raw: ${ ultimaActuacion.fechaActuacion }`,
-      );
-
-      const savedYear = this._fecha
-        ? this._fecha.getFullYear()
-        : 2015;
-
-      const savedMonth = this._fecha
-        ? this._fecha.getMonth()
-        : 0;
-
-      const savedDay = this._fecha
-        ? this._fecha.getDate()
-        : 1;
-      console.log(
-        `${
-          this.carpetaNumero
-        } => la fecha guardada en el servidor de LINK -  actuacion es: ${ new Date(
-          savedYear ?? 0,
-          savedMonth ?? 0,
-          savedDay,
-        ) }`,
-      );
-
-      if (
-        !this._fecha
-        || this._fecha < incomingDate
-        || this._fecha.toString() === 'Invalid Date'
-      ) {
-        this._fecha = new Date(
-          ultimaActuacion.fechaActuacion 
-        );
-        this._ultimaActuacion = {
-          ...ultimaActuacion,
-          idProceso     : this.idProceso,
-          fechaActuacion: new Date(
-            ultimaActuacion.fechaActuacion 
-          ),
-          fechaRegistro: new Date(
-            ultimaActuacion.fechaRegistro 
-          ),
-          fechaFinal: ultimaActuacion.fechaFinal
-            ? new Date(
-              ultimaActuacion.fechaFinal 
-            )
-            : null,
-          fechaInicial: ultimaActuacion.fechaInicial
-            ? new Date(
-              ultimaActuacion.fechaInicial 
-            )
-            : null,
-          isUltimaAct:
-            ultimaActuacion.cant === ultimaActuacion.consActuacion
-              ? true
-              : false,
+      if ( !this.fecha || !this.ultimaActuacion ) {
+        return {
+          success: false,
+          data   : 'no se le asignó fecha o ultima actuacion en el constructor'
         };
       }
 
-      this._actuaciones = actuaciones.map(
+      const incomingDate = new Date(
+        this.fecha
+      )
+        .getTime();
+
+      const savedDate = carpeta.fecha
+        ? new Date(
+          carpeta.fecha
+        )
+          .getTime()
+        : null;
+
+      if ( !savedDate || savedDate < incomingDate ) {
+        console.log(
+          'no hay saved date o la saved date es menor qque incoming date',
+        );
+
+        const updater = await client.carpeta.update(
+          {
+            where: {
+              numero: carpeta.numero,
+            },
+            data: {
+              fecha: new Date(
+                this.fecha
+              ),
+              revisado       : false,
+              ultimaActuacion: {
+                connectOrCreate: {
+                  where: {
+                    idRegActuacion: this.ultimaActuacion?.idRegActuacion,
+                  },
+                  create: {
+                    ...this.ultimaActuacion,
+                  },
+                },
+              },
+            },
+          }
+        );
+        console.log(
+          updater
+        );
+        await fs.mkdir(
+          `./src/date/${ new Date()
+            .getFullYear() }/${ new Date()
+            .getMonth() }/${ new Date()
+            .getDate() }`,
+          {
+            recursive: true,
+          },
+        );
+
+        fs.writeFile(
+          `./src/date/${ new Date()
+            .getFullYear() }/${ new Date()
+            .getMonth() }/${ new Date()
+            .getDate() }/${
+            this.ultimaActuacion.idRegActuacion
+          }.json`,
+          JSON.stringify(
+            {
+              today    : new Date(),
+              savedDate: savedDate
+                ? new Date(
+                  savedDate
+                )
+                : 'no hay fecha en la base de datos',
+              ultimaActuacion: this.ultimaActuacion,
+            }
+          ),
+        );
+        return {
+          success: true,
+          data   : JSON.stringify(
+            updater, null, 2
+          )
+        };
+      }
+
+      return {
+        success: false,
+        data   : this.numero
+      };
+    } catch ( error ) {
+      console.log(
+        error
+      );
+      return {
+        success: false,
+        data   : JSON.stringify(
+          error, null, 2
+        )
+      };
+    }
+  }
+  static async getActuaciones (
+    idProceso: number, numero:number
+  ) {
+
+    try {
+      const request = await fetch(
+        `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`,
+      );
+
+      if ( !request.ok ) {
+        throw new Error(
+          `${ idProceso }: ${ request.status } ${ request.statusText }${ JSON.stringify(
+            request,
+            null,
+            2,
+          ) }`,
+        );
+      }
+
+      const json = ( await request.json() ) as ConsultaActuacion;
+
+      const {
+        actuaciones
+      } = json;
+
+      const actuacionesmapper = actuaciones.map(
         (
-          actuacion 
+          actuacion
         ) => {
           return {
             ...actuacion,
-            idProceso: this.idProceso,
-            isUltimaAct:
-            actuacion.cant === actuacion.consActuacion
-              ? true
-              : false,
-            carpetaNumero : this.carpetaNumero,
-            createdAt     : new Date(),
             fechaActuacion: new Date(
-              actuacion.fechaActuacion 
+              actuacion.fechaActuacion
             ),
             fechaRegistro: new Date(
-              actuacion.fechaRegistro 
+              actuacion.fechaRegistro
             ),
             fechaInicial: actuacion.fechaInicial
               ? new Date(
-                actuacion.fechaInicial 
+                actuacion.fechaInicial
               )
               : null,
             fechaFinal: actuacion.fechaFinal
               ? new Date(
-                actuacion.fechaFinal 
+                actuacion.fechaFinal
               )
               : null,
+            isUltimaAct: actuacion.cant === actuacion.consActuacion
+              ? true
+              : false,
+            idProceso: idProceso,
           };
-        } 
+        }
+      );
+      return new ClassActuaciones(
+        idProceso, actuacionesmapper, numero
       );
     } catch ( error ) {
       console.log(
-        `${ this.carpetaNumero } => Error CarpetaBuilder.getActuaciones.fetchError(${ this.carpetaNumero } : ${ this.idProceso }) => ${ error }`,
+        error
+      );
+      return new ClassActuaciones(
+        idProceso, [], numero
       );
     }
-  }
-
-  get actuaciones() {
-    return this._actuaciones;
   }
 }

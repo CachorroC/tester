@@ -10,21 +10,23 @@ import { NewJuzgado } from './juzgado';
 import {  NotasBuilder } from './nota';
 
 export class Carpeta implements IntCarpeta {
-  //SECTION array objects
+  //PROPERTIES -todas las propiedades  que existen en la class carpeta
+
+  //PROPERTIES array objects
   procesos: outProceso[] = [];
   idProcesos: number[] = [];
   actuaciones: outActuacion[] = [];
   notas: NotasBuilder[] = [];
-  //!SECTION
+  //!PROPERTIES
 
-  //SECTION reg objects
+  //PROPERTIES reg objects
   ultimaActuacion: outActuacion | null;
   codeudor: Codeudor;
   demanda: ClassDemanda;
   deudor: ClassDeudor;
-  //!SECTION
+  //!PROPERTIES
 
-  //SECTION primitive types
+  //PROPERTIES primitive types
   numero: number;
   llaveProceso: string;
 
@@ -36,7 +38,10 @@ export class Carpeta implements IntCarpeta {
   revisado: boolean;
   terminado: boolean;
   tipoProceso: TipoProceso;
-  //!SECTION
+  notasCount: number | null;
+  //!PROPERTIES
+  //!PROPERTIES
+  //CONSTRUCTOR - EL CONSTRUCTOR DE LA CARPETA
   constructor(
     rawCarpeta: RawDb
   ) {
@@ -184,7 +189,10 @@ export class Carpeta implements IntCarpeta {
       NUMERO
     );
   }
-  notasCount: number | null;
+  //!CONSTRUCTOR -
+  //METHODS
+
+
   async getProcesos() {
     try {
       const request = await fetch(
@@ -220,11 +228,12 @@ export class Carpeta implements IntCarpeta {
               rawProceso.fechaProceso
             )
             : null,
-          fechaUltimaActuacion: rawProceso.fechaUltimaActuacion
-            ? new Date(
-              rawProceso.fechaUltimaActuacion
-            )
-            : null,
+          fechaUltimaActuacion:
+            rawProceso.fechaUltimaActuacion
+              ? new Date(
+                rawProceso.fechaUltimaActuacion
+              )
+              : null,
           juzgado: new NewJuzgado(
             rawProceso
           ),
@@ -240,7 +249,7 @@ export class Carpeta implements IntCarpeta {
       return this.procesos;
     } catch ( error ) {
       console.log(
-        `${ this.numero } => error en CarpetaBuilder.getProcesos(${ this.llaveProceso }) => ${ error }`,
+        `${ this.numero } => error en CarpetaBuilder.getProcesos(${ this.llaveProceso }) => ${ error }`
       );
       return [];
     }
@@ -254,7 +263,7 @@ export class Carpeta implements IntCarpeta {
     for ( const idProceso of this.idProcesos ) {
       try {
         const request = await fetch(
-          `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`,
+          `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`
         );
 
         if ( !request.ok ) {
@@ -263,7 +272,8 @@ export class Carpeta implements IntCarpeta {
           );
         }
 
-        const consultaActuaciones = ( await request.json() ) as ConsultaActuacion;
+        const consultaActuaciones
+          = ( await request.json() ) as ConsultaActuacion;
 
         const {
           actuaciones
@@ -277,9 +287,9 @@ export class Carpeta implements IntCarpeta {
               ...actuacion,
               idProceso: idProceso,
               isUltimaAct:
-              actuacion.cant === actuacion.consActuacion
-                ? true
-                : false,
+                actuacion.cant === actuacion.consActuacion
+                  ? true
+                  : false,
               fechaActuacion: new Date(
                 actuacion.fechaActuacion
               ),
@@ -317,8 +327,8 @@ export class Carpeta implements IntCarpeta {
           } ERROR ==> getActuaciones ${ idProceso } => ${ JSON.stringify(
             error,
             null,
-            2,
-          ) }`,
+            2
+          ) }`
         );
         continue;
       }
@@ -351,6 +361,7 @@ export class Carpeta implements IntCarpeta {
 
     return this.actuaciones;
   }
+  //STATIC
 
   static prismaCarpeta(
     carpeta: IntCarpeta
@@ -370,4 +381,6 @@ export class Carpeta implements IntCarpeta {
     };
     return newCarpeta;
   }
+  //!STATIC
+  //!METHODS
 }

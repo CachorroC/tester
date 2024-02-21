@@ -7,6 +7,7 @@
 import { Prisma } from '@prisma/client';
 import { outActuacion } from './actuaciones';
 import { outProceso } from './procesos';
+import { NotasBuilder } from '../models/nota';
 
 export type IntCarpeta = {
   category: Category;
@@ -26,6 +27,7 @@ export type IntCarpeta = {
   terminado: boolean;
   tipoProceso: TipoProceso;
   ultimaActuacion: outActuacion | null;
+  notas: NotasBuilder[]
 };
 
 export type Obligacion = {

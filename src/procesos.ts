@@ -2,6 +2,7 @@ import { PrismaClient } from '@prisma/client';
 import * as fs from 'fs/promises';
 import { ConsultaNumeroRadicacion, outProceso } from './types/procesos';
 import { NewJuzgado } from './models/juzgado';
+import { ClassProcesos } from './models/procesos';
 
 
 const prisma = new PrismaClient();
@@ -85,19 +86,28 @@ async function* AsyncGenerateActuaciones(
       indexOf
     );
 
+    const newProceso = await ClassProcesos.getProcesos(
+      carpeta.llaveProceso
+      , carpeta.numero
+    );
+
     const fetcherIdProceso = await fetcher(
       carpeta.llaveProceso
     );
 
-    for ( const proceso of fetcherIdProceso ) {
+    console.log(
+      newProceso.prismaUpdateProcesos()
+    );
+
+    /*   for ( const proceso of fetcherIdProceso ) {
       if ( !proceso.esPrivado ) {
         await prismaUpdaterProcesos(
           proceso, carpeta.numero
         );
       }
-    }
+    } */
 
-    yield fetcherIdProceso;
+    yield newProceso;
   }
 }
 

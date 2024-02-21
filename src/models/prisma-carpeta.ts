@@ -1,12 +1,12 @@
 import { Prisma } from '@prisma/client';
 import { client } from '../services/prisma';
-import { Carpeta } from './carpeta';
+import { Carpeta } from './carpeta-old';
 import { ClassDeudor } from './deudor';
 import { ClassDemanda } from './demanda';
 
 export class PrismaCarpeta {
   static async insertCarpeta(
-    incomingCarpeta: Carpeta 
+    incomingCarpeta: Carpeta
   ) {
     const {
       idRegUltimaAct,
