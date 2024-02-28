@@ -5,6 +5,24 @@ import { ClassDeudor } from './deudor';
 import { ClassDemanda } from './demanda';
 
 export class PrismaCarpeta {
+  static async updateNotes (
+    incomingCarpeta: Carpeta
+  ) {
+    const {
+      notas
+    } = incomingCarpeta;
+
+    const updater = await client.nota.createMany(
+      {
+        data          : notas,
+        skipDuplicates: true
+      }
+    );
+    console.log(
+      updater
+    );
+    return updater.count;
+  }
   static async insertCarpeta(
     incomingCarpeta: Carpeta
   ) {
@@ -81,7 +99,8 @@ export class PrismaCarpeta {
           },
           notas: {
             createMany: {
-              data: notas
+              data          : notas,
+              skipDuplicates: true
             }
           },
           procesos: {
@@ -137,7 +156,23 @@ export class PrismaCarpeta {
           },
         },
         update: {
-          ...newCarpeta,
+          category       : newCarpeta.category,
+          terminado      : newCarpeta.terminado,
+          revisado       : newCarpeta.revisado,
+          nombre         : newCarpeta.nombre,
+          notasCount     : newCarpeta.notasCount,
+          ultimaActuacion: ultimaActuacion
+            ? {
+                connectOrCreate: {
+                  where: {
+                    idRegActuacion: ultimaActuacion.idRegActuacion,
+                  },
+                  create: {
+                    ...ultimaActuacion,
+                  },
+                },
+              }
+            : undefined,
           demanda: {
             connectOrCreate: {
               where: {
@@ -145,6 +180,63 @@ export class PrismaCarpeta {
               },
               create: newDemanda,
             },
+          },
+          notas: {
+            createMany: {
+              data          : notas,
+              skipDuplicates: true
+            }
+          },
+          procesos: {
+            connectOrCreate: procesos.map(
+              (
+                proceso
+              ) => {
+                const {
+                  juzgado, ...restProceso
+                } = proceso;
+
+                const procesoCreateorConnect: Prisma.ProcesoCreateOrConnectWithoutCarpetaInput
+              = {
+                where: {
+                  idProceso: proceso.idProceso,
+                },
+                create: {
+                  ...restProceso,
+                  juzgado: {
+                    connectOrCreate: {
+                      where: {
+                        tipo: juzgado.tipo,
+                      },
+                      create: {
+                        ...juzgado,
+                      },
+                    },
+                  },
+                  actuaciones: {
+                    connectOrCreate: actuaciones.map(
+                      (
+                        actuacion
+                      ) => {
+                        const actuacionCreateOrConnect: Prisma.ActuacionCreateOrConnectWithoutCarpetaInput
+                        = {
+                          where: {
+                            idRegActuacion: actuacion.idRegActuacion,
+                          },
+                          create: {
+                            ...actuacion,
+                          },
+                        };
+                        return actuacionCreateOrConnect;
+                      }
+                    ),
+                  },
+                },
+              };
+
+                return procesoCreateorConnect;
+              }
+            ),
           },
         },
       }
