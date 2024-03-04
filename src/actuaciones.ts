@@ -1,7 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import * as fs from 'fs/promises';
 import { ConsultaActuacion } from './types/actuaciones';
-import { ClassActuaciones } from './models/actuacionesBuilder';
 
 export interface intActuacion {
   idRegActuacion: number;
@@ -115,9 +114,9 @@ async function* AsyncGenerateActuaciones(
       idProceso
     );
 
-    const  {
-      ultimaActuacion
-    } = fetcherIdProceso;
+    const
+      [ ultimaActuacion ]
+   = fetcherIdProceso;
 
 
     await prismaUpdaterActuaciones(

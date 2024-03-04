@@ -81,10 +81,11 @@ export class ClassDeudor implements IntDeudor {
     this.telFijo = fijo;
 
     const nameStringArray = nombre
-      ? nombre.split(
-        ' '
-      )
-      : 'Nelson Nathaniel Naranjo Nuñez'.split(
+      ? nombre.trim()
+        .split(
+          ' '
+        )
+      : 'Nelson Nuñez'.split(
         ' '
       );
 

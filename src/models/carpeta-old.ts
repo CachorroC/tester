@@ -138,7 +138,14 @@ export class Carpeta implements IntCarpeta {
     );
     this.nombre = String(
       DEMANDADO_NOMBRE
-    );
+    )
+      .normalize(
+        'NFD'
+      )
+      .replace(
+        /[\u0300-\u036f]/g, ''
+      )
+      .trim();
     this.revisado = false;
     this.codeudor = {
       nombre: CODEUDOR_NOMBRE

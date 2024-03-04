@@ -88,9 +88,16 @@ export class Carpeta implements IntCarpeta {
     }
 
     if ( EXTRA ) {
-      const extras = EXTRA.split(
-        '//'
+      console.log(
+        `EXTRAS === ${ EXTRA }`
       );
+
+      const extras = String(
+        EXTRA 
+      )
+        .split(
+          '//'
+        );
 
       extras.forEach(
         (

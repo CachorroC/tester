@@ -23,6 +23,109 @@ export class PrismaCarpeta {
     );
     return updater.count;
   }
+  static async getCarpeta(
+    numero: number
+  ) {
+    return await client.carpeta.findFirstOrThrow(
+      {
+        where: {
+          numero: numero
+        },
+        include: {
+          ultimaActuacion: true,
+          deudor         : true,
+          codeudor       : true,
+          notas          : true,
+          tareas         : true,
+          demanda        : {
+            include: {
+              notificacion: {
+                include: {
+                  notifiers: true,
+                },
+              },
+              medidasCautelares: true,
+            },
+          },
+          procesos: {
+            include: {
+              juzgado: true,
+            },
+          },
+        }
+      }
+    );
+  }
+  static async updateCarpeta(
+    incomingCarpeta: Carpeta
+  ) {
+
+    const {
+      ultimaActuacion,
+      demanda,
+      deudor,
+      notas,
+    } = incomingCarpeta;
+
+    const newDemanda = ClassDemanda.prismaDemanda(
+      demanda
+    );
+
+    const newDeudor = ClassDeudor.prismaDeudor(
+      deudor
+    );
+
+    const newCarpeta = Carpeta.prismaCarpeta(
+      incomingCarpeta
+    );
+
+    const inserter = await client.carpeta.update(
+      {
+        where: {
+          numero: incomingCarpeta.numero,
+        },
+        data: {
+          category       : newCarpeta.category,
+          fecha          : newCarpeta.fecha,
+          terminado      : newCarpeta.terminado,
+          nombre         : newCarpeta.nombre,
+          notasCount     : newCarpeta.notasCount,
+          ultimaActuacion: ultimaActuacion
+            ? {
+                connectOrCreate: {
+                  where: {
+                    idRegActuacion: ultimaActuacion.idRegActuacion,
+                  },
+                  create: {
+                    ...ultimaActuacion,
+                  },
+                },
+              }
+            : undefined,
+          deudor: {
+            update: {
+              ...newDeudor
+            }
+          },
+          demanda: {
+            update: {
+              ...newDemanda
+            }
+          },
+          notas: {
+            createMany: {
+              data          : notas,
+              skipDuplicates: true
+            }
+          },
+
+        },
+      }
+    );
+    console.log(
+      inserter
+    );
+  }
   static async insertCarpeta(
     incomingCarpeta: Carpeta
   ) {
