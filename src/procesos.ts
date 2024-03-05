@@ -99,13 +99,13 @@ async function* AsyncGenerateActuaciones(
       newProceso.prismaUpdateProcesos()
     );
 
-    /*   for ( const proceso of fetcherIdProceso ) {
+    for ( const proceso of fetcherIdProceso ) {
       if ( !proceso.esPrivado ) {
         await prismaUpdaterProcesos(
           proceso, carpeta.numero
         );
       }
-    } */
+    }
 
     yield newProceso;
   }
@@ -173,30 +173,7 @@ async function prismaUpdaterProcesos(
     console.log(
       updater
     );
-    /*     await fs.mkdir(
-      `./src/date/${ new Date()
-        .getFullYear() }/${ new Date()
-        .getMonth() }/${ new Date()
-        .getDate() }`, {
-        recursive: true,
-      }
-    );
 
-    fs.writeFile(
-      `./src/date/${ new Date()
-        .getFullYear() }/${ new Date()
-        .getMonth() }/${ new Date()
-        .getDate() }/${
-        proceso.idProceso
-      }.json`,
-      JSON.stringify(
-        {
-          date   : new Date(),
-          proceso: proceso
-        }
-      ),
-    );
- */
   } catch ( error ) {
     console.log(
       error
