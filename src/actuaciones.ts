@@ -41,7 +41,8 @@ async function fetcher(
           request,
           null,
           2,
-        ) }`,
+        )
+        }`,
       );
     }
 
@@ -204,15 +205,7 @@ async function prismaUpdaterActuaciones(
           ultimaActuacion.idRegActuacion
         }.json`,
         JSON.stringify(
-          {
-            today    : new Date(),
-            savedDate: savedDate
-              ? new Date(
-                savedDate
-              )
-              : 'no hay fecha en la base de datos',
-            ultimaActuacion: ultimaActuacion,
-          }
+          ultimaActuacion
         ),
       );
     }
@@ -250,8 +243,6 @@ async function main() {
   return ActsMap;
 }
 
-const mainer = main();
 
-console.log(
-  mainer
-);
+
+main();

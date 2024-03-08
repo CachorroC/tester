@@ -68,7 +68,7 @@ async function getLLaves() {
       carpeta
     ) => {
       return {
-        llaveProceso: carpeta.llaveProceso,
+        llaveProceso: carpeta.llaveProceso.trim(),
         numero      : carpeta.numero
       };
     }
@@ -208,8 +208,4 @@ async function main() {
   return ActsMap;
 }
 
-const mainer = main();
-
-console.log(
-  mainer
-);
+main();
