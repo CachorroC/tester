@@ -24,7 +24,7 @@ async function getCurrent() {
           },
         },
       },
-    }
+    } 
   );
 }
 
@@ -32,36 +32,36 @@ console.log(
   getCurrent()
     .then(
       (
-        rr
+        rr 
       ) => {
         console.log(
-          rr
+          rr 
         );
 
         const newCarpetasMap = new Map();
 
         for ( const carpeta of rr ) {
           newCarpetasMap.set(
-            carpeta.numero, carpeta
+            carpeta.numero, carpeta 
           );
         }
 
         const newObjectCarpetas = Object.fromEntries(
-          newCarpetasMap
+          newCarpetasMap 
         );
         fs.writeFile(
           'carpetasObjectCurrent.json',
           JSON.stringify(
-            newObjectCarpetas, null, 2
+            newObjectCarpetas, null, 2 
           ),
         );
 
         fs.writeFile(
           'carpetasCurrent.json', JSON.stringify(
-            rr, null, 2
-          )
+            rr, null, 2 
+          ) 
         );
         return rr;
-      }
+      } 
     ),
 );

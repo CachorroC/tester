@@ -27,7 +27,7 @@ export type IntCarpeta = {
   terminado: boolean;
   tipoProceso: TipoProceso;
   ultimaActuacion: outActuacion | null;
-  notas: NotasBuilder[]
+  notas: NotasBuilder[];
 };
 
 export type Obligacion = {
@@ -167,16 +167,14 @@ export interface IntDemanda {
   tipoProceso: TipoProceso;
   vencimientoPagare: Date[];
   avaluo: Prisma.Decimal;
-  liquidacion: Prisma.Decimal
+  liquidacion: Prisma.Decimal;
 }
 
 export type intLiquidacion = {
   valor: Prisma.Decimal;
   fechaAprobacion: Date | null;
   fechaPresentacion: Date | null;
-
-
-}
+};
 
 export interface intMedidasCautelares {
   id: number;

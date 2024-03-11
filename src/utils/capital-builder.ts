@@ -79,10 +79,10 @@ export function capitalBuilder(
   }
 
   const copTaker = capitalAdeudado.matchAll(
-    /([\d.]+)([.,])(\d{2}|\d{2})$/gm
+    /([\d.]+)([.,])(\d{2}|\d{2})$/gm 
   );
   console.log(
-    copTaker
+    copTaker 
   );
 
   for ( const cap of copTaker ) {
@@ -91,33 +91,33 @@ export function capitalBuilder(
     ] = cap;
 
     const valueReplacer = value.replaceAll(
-      /([.,]+)/gm, ''
+      /([.,]+)/gm, '' 
     );
     return Number(
-      valueReplacer
+      valueReplacer 
     );
   }
 
   const newCapital = capitalAdeudado.search(
-    /([/A-Za-z@]+)/gm
+    /([/A-Za-z@]+)/gm 
   );
   console.log(
-    newCapital
+    newCapital 
   );
 
   if ( newCapital >= 0 ) {
     console.log(
-      `es mayor a 0 ${ newCapital }`
+      `es mayor a 0 ${ newCapital }` 
     );
     return 0;
   }
 
   console.log(
-    capitalAdeudado
+    capitalAdeudado 
   );
 
   const outGoingMatch = capitalAdeudado.match(
-    /(\d+)/gm
+    /(\d+)/gm 
   );
 
   if ( !outGoingMatch ) {
@@ -125,10 +125,10 @@ export function capitalBuilder(
   }
 
   const valueReplacer = capitalAdeudado.replaceAll(
-    /([.,]+)/gm, ''
+    /([.,]+)/gm, '' 
   );
 
   return Number(
-    valueReplacer
+    valueReplacer 
   );
 }

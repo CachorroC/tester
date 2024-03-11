@@ -2,15 +2,14 @@ import { client } from '../services/prisma';
 import { ConsultaActuacion, outActuacion } from '../types/actuaciones';
 import * as fs from 'fs/promises';
 
-
 export class ClassActuaciones {
   idProceso: number;
   actuaciones: outActuacion[] = [];
   ultimaActuacion: outActuacion | null;
   fecha: Date | null;
   numero: number;
-  constructor (
-    idProceso: number, actuaciones: outActuacion[], numero: number
+  constructor(
+    idProceso: number, actuaciones: outActuacion[], numero: number 
   ) {
     this.idProceso = idProceso;
     this.actuaciones = actuaciones;
@@ -18,12 +17,11 @@ export class ClassActuaciones {
 
     const ultimaAct = actuaciones.find(
       (
-        act
+        act 
       ) => {
         return act.isUltimaAct;
-      }
+      } 
     );
-
 
     if ( ultimaAct ) {
       this.ultimaActuacion = ultimaAct;
@@ -32,7 +30,6 @@ export class ClassActuaciones {
       this.fecha = null;
       this.ultimaActuacion = null;
     }
-
   }
 
   async prismaUpdaterActuaciones() {
@@ -40,26 +37,26 @@ export class ClassActuaciones {
       const carpeta = await client.carpeta.findFirstOrThrow(
         {
           where: {
-            numero: this.numero
+            numero: this.numero,
           },
-        }
+        } 
       );
 
       if ( !this.fecha || !this.ultimaActuacion ) {
         return {
           success: false,
-          data   : 'no se le asignó fecha o ultima actuacion en el constructor'
+          data   : 'no se le asignó fecha o ultima actuacion en el constructor',
         };
       }
 
       const incomingDate = new Date(
-        this.fecha
+        this.fecha 
       )
         .getTime();
 
       const savedDate = carpeta.fecha
         ? new Date(
-          carpeta.fecha
+          carpeta.fecha 
         )
           .getTime()
         : null;
@@ -76,7 +73,7 @@ export class ClassActuaciones {
             },
             data: {
               fecha: new Date(
-                this.fecha
+                this.fecha 
               ),
               revisado       : false,
               ultimaActuacion: {
@@ -90,10 +87,10 @@ export class ClassActuaciones {
                 },
               },
             },
-          }
+          } 
         );
         console.log(
-          updater
+          updater 
         );
         await fs.mkdir(
           `./src/date/${ new Date()
@@ -117,41 +114,40 @@ export class ClassActuaciones {
               today    : new Date(),
               savedDate: savedDate
                 ? new Date(
-                  savedDate
+                  savedDate 
                 )
                 : 'no hay fecha en la base de datos',
               ultimaActuacion: this.ultimaActuacion,
-            }
+            } 
           ),
         );
         return {
           success: true,
           data   : JSON.stringify(
-            updater, null, 2
-          )
+            updater, null, 2 
+          ),
         };
       }
 
       return {
         success: false,
-        data   : this.numero
+        data   : this.numero,
       };
     } catch ( error ) {
       console.log(
-        error
+        error 
       );
       return {
         success: false,
         data   : JSON.stringify(
-          error, null, 2
-        )
+          error, null, 2 
+        ),
       };
     }
   }
-  static async getActuaciones (
-    idProceso: number, numero:number
+  static async getActuaciones(
+    idProceso: number, numero: number 
   ) {
-
     try {
       const request = await fetch(
         `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`,
@@ -170,47 +166,48 @@ export class ClassActuaciones {
       const json = ( await request.json() ) as ConsultaActuacion;
 
       const {
-        actuaciones
+        actuaciones 
       } = json;
 
       const actuacionesmapper = actuaciones.map(
         (
-          actuacion
+          actuacion 
         ) => {
           return {
             ...actuacion,
             fechaActuacion: new Date(
-              actuacion.fechaActuacion
+              actuacion.fechaActuacion 
             ),
             fechaRegistro: new Date(
-              actuacion.fechaRegistro
+              actuacion.fechaRegistro 
             ),
             fechaInicial: actuacion.fechaInicial
               ? new Date(
-                actuacion.fechaInicial
+                actuacion.fechaInicial 
               )
               : null,
             fechaFinal: actuacion.fechaFinal
               ? new Date(
-                actuacion.fechaFinal
+                actuacion.fechaFinal 
               )
               : null,
-            isUltimaAct: actuacion.cant === actuacion.consActuacion
+            isUltimaAct:
+            actuacion.cant === actuacion.consActuacion
               ? true
               : false,
             idProceso: idProceso,
           };
-        }
+        } 
       );
       return new ClassActuaciones(
-        idProceso, actuacionesmapper, numero
+        idProceso, actuacionesmapper, numero 
       );
     } catch ( error ) {
       console.log(
-        error
+        error 
       );
       return new ClassActuaciones(
-        idProceso, [], numero
+        idProceso, [], numero 
       );
     }
   }

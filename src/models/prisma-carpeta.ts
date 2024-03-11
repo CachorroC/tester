@@ -5,31 +5,31 @@ import { ClassDeudor } from './deudor';
 import { ClassDemanda } from './demanda';
 
 export class PrismaCarpeta {
-  static async updateNotes (
-    incomingCarpeta: Carpeta
+  static async updateNotes(
+    incomingCarpeta: Carpeta 
   ) {
     const {
-      notas
+      notas 
     } = incomingCarpeta;
 
     const updater = await client.nota.createMany(
       {
         data          : notas,
-        skipDuplicates: true
-      }
+        skipDuplicates: true,
+      } 
     );
     console.log(
-      updater
+      updater 
     );
     return updater.count;
   }
   static async getCarpeta(
-    numero: number
+    numero: number 
   ) {
     return await client.carpeta.findFirstOrThrow(
       {
         where: {
-          numero: numero
+          numero: numero,
         },
         include: {
           ultimaActuacion: true,
@@ -52,31 +52,27 @@ export class PrismaCarpeta {
               juzgado: true,
             },
           },
-        }
-      }
+        },
+      } 
     );
   }
   static async updateCarpeta(
-    incomingCarpeta: Carpeta
+    incomingCarpeta: Carpeta 
   ) {
-
     const {
-      ultimaActuacion,
-      demanda,
-      deudor,
-      notas,
+      ultimaActuacion, demanda, deudor, notas 
     } = incomingCarpeta;
 
     const newDemanda = ClassDemanda.prismaDemanda(
-      demanda
+      demanda 
     );
 
     const newDeudor = ClassDeudor.prismaDeudor(
-      deudor
+      deudor 
     );
 
     const newCarpeta = Carpeta.prismaCarpeta(
-      incomingCarpeta
+      incomingCarpeta 
     );
 
     const inserter = await client.carpeta.update(
@@ -104,30 +100,29 @@ export class PrismaCarpeta {
             : undefined,
           deudor: {
             update: {
-              ...newDeudor
-            }
+              ...newDeudor,
+            },
           },
           demanda: {
             update: {
-              ...newDemanda
-            }
+              ...newDemanda,
+            },
           },
           notas: {
             createMany: {
               data          : notas,
-              skipDuplicates: true
-            }
+              skipDuplicates: true,
+            },
           },
-
         },
-      }
+      } 
     );
     console.log(
-      inserter
+      inserter 
     );
   }
   static async insertCarpeta(
-    incomingCarpeta: Carpeta
+    incomingCarpeta: Carpeta 
   ) {
     const {
       idRegUltimaAct,
@@ -140,19 +135,19 @@ export class PrismaCarpeta {
       notas,
     } = incomingCarpeta;
     console.log(
-      idRegUltimaAct
+      idRegUltimaAct 
     );
 
     const newDemanda = ClassDemanda.prismaDemanda(
-      demanda
+      demanda 
     );
 
     const newDeudor = ClassDeudor.prismaDeudor(
-      deudor
+      deudor 
     );
 
     const newCarpeta = Carpeta.prismaCarpeta(
-      incomingCarpeta
+      incomingCarpeta 
     );
 
     const inserter = await client.carpeta.upsert(
@@ -203,16 +198,16 @@ export class PrismaCarpeta {
           notas: {
             createMany: {
               data          : notas,
-              skipDuplicates: true
-            }
+              skipDuplicates: true,
+            },
           },
           procesos: {
             connectOrCreate: procesos.map(
               (
-                proceso
+                proceso 
               ) => {
                 const {
-                  juzgado, ...restProceso
+                  juzgado, ...restProceso 
                 } = proceso;
 
                 const procesoCreateorConnect: Prisma.ProcesoCreateOrConnectWithoutCarpetaInput
@@ -235,7 +230,7 @@ export class PrismaCarpeta {
                   actuaciones: {
                     connectOrCreate: actuaciones.map(
                       (
-                        actuacion
+                        actuacion 
                       ) => {
                         const actuacionCreateOrConnect: Prisma.ActuacionCreateOrConnectWithoutCarpetaInput
                         = {
@@ -247,14 +242,14 @@ export class PrismaCarpeta {
                           },
                         };
                         return actuacionCreateOrConnect;
-                      }
+                      } 
                     ),
                   },
                 },
               };
 
                 return procesoCreateorConnect;
-              }
+              } 
             ),
           },
         },
@@ -287,16 +282,16 @@ export class PrismaCarpeta {
           notas: {
             createMany: {
               data          : notas,
-              skipDuplicates: true
-            }
+              skipDuplicates: true,
+            },
           },
           procesos: {
             connectOrCreate: procesos.map(
               (
-                proceso
+                proceso 
               ) => {
                 const {
-                  juzgado, ...restProceso
+                  juzgado, ...restProceso 
                 } = proceso;
 
                 const procesoCreateorConnect: Prisma.ProcesoCreateOrConnectWithoutCarpetaInput
@@ -319,7 +314,7 @@ export class PrismaCarpeta {
                   actuaciones: {
                     connectOrCreate: actuaciones.map(
                       (
-                        actuacion
+                        actuacion 
                       ) => {
                         const actuacionCreateOrConnect: Prisma.ActuacionCreateOrConnectWithoutCarpetaInput
                         = {
@@ -331,21 +326,21 @@ export class PrismaCarpeta {
                           },
                         };
                         return actuacionCreateOrConnect;
-                      }
+                      } 
                     ),
                   },
                 },
               };
 
                 return procesoCreateorConnect;
-              }
+              } 
             ),
           },
         },
-      }
+      } 
     );
     console.log(
-      inserter
+      inserter 
     );
   }
 }

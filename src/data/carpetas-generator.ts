@@ -3,17 +3,17 @@ import { Carpetas } from './carpetas';
 
 process.env[ 'NODE_TLS_REJECT_UNAUTHORIZED' ] = '0';
 console.log(
-  process.env.NODE_TLS_REJECT_UNAUTHORIZED
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED 
 );
 
 const carpetasMap = Carpetas.map(
   (
-    carpeta
+    carpeta 
   ) => {
     return new Carpeta(
-      carpeta
+      carpeta 
     );
-  }
+  } 
 );
 
 export async function* generateCarpetas() {

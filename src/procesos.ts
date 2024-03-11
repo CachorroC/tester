@@ -4,11 +4,10 @@ import { ConsultaNumeroRadicacion, outProceso } from './types/procesos';
 import { NewJuzgado } from './models/juzgado';
 import { ClassProcesos } from './models/procesos';
 
-
 const prisma = new PrismaClient();
 
 async function fetcher(
-  llaveProceso: string
+  llaveProceso: string 
 ): Promise<outProceso[]> {
   try {
     const request = await fetch(
@@ -20,7 +19,7 @@ async function fetcher(
         `${ llaveProceso }: ${ request.status } ${
           request.statusText
         }${ JSON.stringify(
-          request, null, 2
+          request, null, 2 
         ) }`,
       );
     }
@@ -28,34 +27,34 @@ async function fetcher(
     const json = ( await request.json() ) as ConsultaNumeroRadicacion;
 
     const {
-      procesos
+      procesos 
     } = json;
 
     return procesos.map(
       (
-        proceso
+        proceso 
       ) => {
         return {
           ...proceso,
           fechaProceso: proceso.fechaProceso
             ? new Date(
-              proceso.fechaProceso
+              proceso.fechaProceso 
             )
             : null,
           fechaUltimaActuacion: proceso.fechaUltimaActuacion
             ? new Date(
-              proceso.fechaUltimaActuacion
+              proceso.fechaUltimaActuacion 
             )
             : null,
           juzgado: new NewJuzgado(
-            proceso
+            proceso 
           ),
         };
-      }
+      } 
     );
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
     return [];
   }
@@ -65,44 +64,44 @@ async function getLLaves() {
   const carpetas = await prisma.carpeta.findMany();
   return carpetas.flatMap(
     (
-      carpeta
+      carpeta 
     ) => {
       return {
         llaveProceso: carpeta.llaveProceso.trim(),
-        numero      : carpeta.numero
+        numero      : carpeta.numero,
       };
-    }
+    } 
   );
 }
 
 async function* AsyncGenerateActuaciones(
-  llaves: { llaveProceso: string;  numero: number}[]
+  llaves: { llaveProceso: string; numero: number }[],
 ) {
   for ( const carpeta of llaves ) {
     const indexOf = llaves.indexOf(
-      carpeta
+      carpeta 
     );
     console.log(
-      indexOf
+      indexOf 
     );
 
     const newProceso = await ClassProcesos.getProcesos(
-      carpeta.llaveProceso
-      , carpeta.numero
+      carpeta.llaveProceso,
+      carpeta.numero,
     );
 
     const fetcherIdProceso = await fetcher(
-      carpeta.llaveProceso
+      carpeta.llaveProceso 
     );
 
     console.log(
-      newProceso.prismaUpdateProcesos()
+      newProceso.prismaUpdateProcesos() 
     );
 
     for ( const proceso of fetcherIdProceso ) {
       if ( !proceso.esPrivado ) {
         await prismaUpdaterProcesos(
-          proceso, carpeta.numero
+          proceso, carpeta.numero 
         );
       }
     }
@@ -112,7 +111,7 @@ async function* AsyncGenerateActuaciones(
 }
 
 async function prismaUpdaterProcesos(
-  proceso: outProceso, numero: number
+  proceso: outProceso, numero: number 
 ) {
   const idProcesosSet = new Set<number>();
 
@@ -120,22 +119,22 @@ async function prismaUpdaterProcesos(
     const carpeta = await prisma.carpeta.findFirstOrThrow(
       {
         where: {
-          numero: numero
+          numero: numero,
         },
-      }
+      } 
     );
     carpeta.idProcesos.forEach(
       (
-        idProceso
+        idProceso 
       ) => {
         idProcesosSet.add(
-          idProceso
+          idProceso 
         );
-      }
+      } 
     );
 
     idProcesosSet.add(
-      proceso.idProceso
+      proceso.idProceso 
     );
 
     const updater = await prisma.carpeta.update(
@@ -146,7 +145,7 @@ async function prismaUpdaterProcesos(
         data: {
           idProcesos: {
             set: Array.from(
-              idProcesosSet
+              idProcesosSet 
             ),
           },
           procesos: {
@@ -168,15 +167,14 @@ async function prismaUpdaterProcesos(
             },
           },
         },
-      }
+      } 
     );
     console.log(
-      updater
+      updater 
     );
-
   } catch ( error ) {
     console.log(
-      error
+      error 
     );
   }
 }
@@ -186,24 +184,24 @@ async function main() {
 
   const idProcesos = await getLLaves();
   console.log(
-    idProcesos
+    idProcesos 
   );
 
   for await ( const actuacionesJson of AsyncGenerateActuaciones(
-    idProcesos
+    idProcesos 
   ) ) {
     console.log(
-      actuacionesJson
+      actuacionesJson 
     );
     ActsMap.push(
-      actuacionesJson
+      actuacionesJson 
     );
   }
 
   fs.writeFile(
     'actuacionesOutput.json', JSON.stringify(
-      ActsMap
-    )
+      ActsMap 
+    ) 
   );
   return ActsMap;
 }

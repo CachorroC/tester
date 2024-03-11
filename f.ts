@@ -5613,16 +5613,15 @@ const fechas = [
   '2023-11-27T05:00:16.000Z',
   '2023-11-27T05:00:16.000Z',
   '2023-11-27T05:00:16.000Z',
-  '2023-11-27T05:00:16.000Z'
+  '2023-11-27T05:00:16.000Z',
 ];
-
 
 for ( const fecha of fechas ) {
   const matcher = String(
-    fecha
+    fecha 
   )
     .matchAll(
-      /(\d+)(-|\/)(\d+)(-|\/)(\d+)/gm
+      /(\d+)(-|\/)(\d+)(-|\/)(\d+)/gm 
     );
 
   for ( const matched of matcher ) {
@@ -5632,44 +5631,40 @@ for ( const fecha of fechas ) {
       firstDivider,
       secondNumber,
       secondDivider,
-      thirdNumber
+      thirdNumber,
     ] = matched;
     let newYear, newDay;
 
     const newMonth = Number(
-      secondNumber
-    )- 1;
+      secondNumber 
+    ) - 1;
 
     if ( firstDivider === '-' ) {
       newYear = Number(
         firstNumber.padStart(
-          4, '2015'
-        )
+          4, '2015' 
+        ) 
       );
       newDay = Number(
         thirdNumber.padStart(
-          2, '00'
-        )
+          2, '00' 
+        ) 
       );
-
     } else {
-      newYear =  Number(
+      newYear = Number(
         thirdNumber.padStart(
-          4, '2015'
-        )
+          4, '2015' 
+        ) 
       );
       newDay = Number(
         firstNumber.padStart(
-          2, '00'
-        )
+          2, '00' 
+        ) 
       );
     }
 
-
-
-
     const outGoingDate = new Date(
-      newYear, newMonth, newDay
+      newYear, newMonth, newDay 
     );
     console.log(
       outGoingDate.toString() 

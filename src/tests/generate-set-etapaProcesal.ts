@@ -2,37 +2,35 @@ import { generateCarpetas } from '../data/carpetas-generator';
 import * as fs from 'fs/promises';
 
 async function tryAsyncCarpetas() {
-
-  const actuacionesSet= new Set();
-
-
+  const actuacionesSet = new Set();
 
   for await ( const carpeta of generateCarpetas() ) {
-    const  {
-      demanda
+    const {
+      demanda 
     } = carpeta;
 
     const {
-      etapaProcesal
+      etapaProcesal 
     } = demanda;
 
     actuacionesSet.add(
-      etapaProcesal
+      etapaProcesal 
     );
   }
 
   fs.writeFile(
-    'etapaProcesalSet.json', JSON.stringify(
+    'etapaProcesalSet.json',
+    JSON.stringify(
       Array.from(
-        actuacionesSet
-      )
-    )
+        actuacionesSet 
+      ) 
+    ),
   );
   return Array.from(
-    actuacionesSet
+    actuacionesSet 
   );
 }
 
 console.log(
-  tryAsyncCarpetas()
+  tryAsyncCarpetas() 
 );

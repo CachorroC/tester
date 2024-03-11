@@ -1,29 +1,27 @@
 import { client } from '../services/prisma';
 import * as fs from 'fs/promises';
 
-async function getIdProcesos () {
+async function getIdProcesos() {
   const carpetas = await client.carpeta.findMany();
   return carpetas.map(
     (
-      carpeta
+      carpeta 
     ) => {
       return carpeta.llaveProceso;
-    }
+    } 
   );
 }
 
-
-async function fetchActuaciones (
-  llaveProceso: string
+async function fetchActuaciones(
+  llaveProceso: string 
 ) {
   const request = await fetch(
     `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ llaveProceso }&SoloActivos=false&pagina=1`,
-
   );
 
   const copyOfRequest = request.clone();
   console.log(
-    request.statusText
+    request.statusText 
   );
 
   if ( !request.ok ) {
@@ -34,63 +32,62 @@ async function fetchActuaciones (
   return {
     ConsultaProcesos: consultaActuaciones,
     Message         : copyOfRequest.statusText,
-    StatusCode      : copyOfRequest.status
+    StatusCode      : copyOfRequest.status,
   };
 }
 
-
-async function executer () {
+async function executer() {
   const idProccesos = await getIdProcesos();
   console.log(
-    `idProcesos length = ${ idProccesos.length }`
+    `idProcesos length = ${ idProccesos.length }` 
   );
 
   const idsSet = new Set();
 
   const outputer = new Map();
   console.log(
-    `outputer length before = ${ outputer.size }`
+    `outputer length before = ${ outputer.size }` 
   );
 
   for await ( const idProceso of idProccesos ) {
-    const hasId =  idsSet.has(
-      idProceso
+    const hasId = idsSet.has(
+      idProceso 
     );
 
     if ( hasId ) {
       console.log(
-        `ya existe la id ${ idProceso }`
+        `ya existe la id ${ idProceso }` 
       );
     } else {
       idsSet.add(
-        idProceso
+        idProceso 
       );
     }
 
     const fetchActs = await fetchActuaciones(
-      idProceso
+      idProceso 
     );
     outputer.set(
-      idProceso, fetchActs
+      idProceso, fetchActs 
     );
   }
 
   console.log(
-    `outputer length after = ${ outputer.size }`
+    `outputer length after = ${ outputer.size }` 
   );
 
   const objectMap = Array.from(
-    outputer.entries()
+    outputer.entries() 
   );
 
   fs.writeFile(
     'outputProcedurer.json', JSON.stringify(
-      objectMap
-    )
+      objectMap 
+    ) 
   );
   return objectMap;
 }
 
 console.log(
-  executer()
+  executer() 
 );

@@ -1,4 +1,3 @@
-
 import { ConsultaActuacion, outActuacion } from '../types/actuaciones';
 import { ConsultaNumeroRadicacion, outProceso } from '../types/procesos';
 import { NewJuzgado } from './juzgado';
@@ -13,17 +12,14 @@ export class SimpleCarpeta {
   ultimaActuacion: outActuacion | null = null;
   fecha: Date | null = null;
   idRegUltimaAct: number | null = null;
-  constructor (
-    llaveProceso: string, numero: number, nombre: string
+  constructor(
+    llaveProceso: string, numero: number, nombre: string 
   ) {
     this.llaveProceso = llaveProceso;
     this.numero = numero;
     this.nombre = nombre;
-
   }
-  async getProcesos () {
-
-
+  async getProcesos() {
     const request = await fetch(
       `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Procesos/Consulta/NumeroRadicacion?numero=${ this.llaveProceso }&SoloActivos=false&pagina=1`,
     );
@@ -32,15 +28,14 @@ export class SimpleCarpeta {
       const json = await request.json();
 
       console.log(
-        json
+        json 
       );
     }
 
-    const consultaProcesos
-        = ( await request.json() ) as ConsultaNumeroRadicacion;
+    const consultaProcesos = ( await request.json() ) as ConsultaNumeroRadicacion;
 
     const {
-      procesos
+      procesos 
     } = consultaProcesos;
 
     for ( const rawProceso of procesos ) {
@@ -52,28 +47,27 @@ export class SimpleCarpeta {
         ...rawProceso,
         fechaProceso: rawProceso.fechaProceso
           ? new Date(
-            rawProceso.fechaProceso
+            rawProceso.fechaProceso 
           )
           : null,
         fechaUltimaActuacion: rawProceso.fechaUltimaActuacion
           ? new Date(
-            rawProceso.fechaUltimaActuacion
+            rawProceso.fechaUltimaActuacion 
           )
           : null,
         juzgado: new NewJuzgado(
-          rawProceso
+          rawProceso 
         ),
       };
       this.procesos.push(
-        proceso
+        proceso 
       );
       this.idProcesos.push(
-        proceso.idProceso
+        proceso.idProceso 
       );
     }
 
     return this.procesos;
-
   }
 
   async getActuaciones() {
@@ -89,19 +83,19 @@ export class SimpleCarpeta {
 
         if ( !request.ok ) {
           throw new Error(
-            request.statusText
+            request.statusText 
           );
         }
 
         const consultaActuaciones = ( await request.json() ) as ConsultaActuacion;
 
         const {
-          actuaciones
+          actuaciones 
         } = consultaActuaciones;
 
         const outActuaciones = actuaciones.map(
           (
-            actuacion
+            actuacion 
           ) => {
             return {
               ...actuacion,
@@ -111,33 +105,33 @@ export class SimpleCarpeta {
                 ? true
                 : false,
               fechaActuacion: new Date(
-                actuacion.fechaActuacion
+                actuacion.fechaActuacion 
               ),
               fechaRegistro: new Date(
-                actuacion.fechaRegistro
+                actuacion.fechaRegistro 
               ),
               fechaInicial: actuacion.fechaInicial
                 ? new Date(
-                  actuacion.fechaInicial
+                  actuacion.fechaInicial 
                 )
                 : null,
               fechaFinal: actuacion.fechaFinal
                 ? new Date(
-                  actuacion.fechaFinal
+                  actuacion.fechaFinal 
                 )
                 : null,
             };
-          }
+          } 
         );
 
         outActuaciones.forEach(
           (
-            actuacion
+            actuacion 
           ) => {
             this.actuaciones.push(
-              actuacion
+              actuacion 
             );
-          }
+          } 
         );
         continue;
       } catch ( error ) {
@@ -157,7 +151,7 @@ export class SimpleCarpeta {
     if ( this.actuaciones.length > 0 ) {
       const sorted = [ ...this.actuaciones ].sort(
         (
-          a, b
+          a, b 
         ) => {
           const fechaA = a.fechaActuacion;
 
@@ -170,20 +164,18 @@ export class SimpleCarpeta {
           }
 
           return 0;
-        }
+        } 
       );
-
 
       const ultimaActuacion = sorted.find(
         (
-          actuacion
+          actuacion 
         ) => {
           return actuacion.consActuacion === actuacion.cant;
-        }
+        } 
       );
 
       if ( ultimaActuacion ) {
-
         this.ultimaActuacion = ultimaActuacion;
         this.fecha = ultimaActuacion.fechaActuacion;
         this.idRegUltimaAct = ultimaActuacion.idRegActuacion;

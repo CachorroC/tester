@@ -6,34 +6,34 @@ export class Tel {
   fijo: string | null;
   celular: string | null;
   constructor(
-    telefono: string
+    telefono: string 
   ) {
     const celularStringArray = telefono.match(
-      /\d{10}/g
+      /\d{10}/g 
     );
 
     const fijoStringArray = telefono.match(
-      /\d{7}\s/g
+      /\d{7}\s/g 
     );
 
     const celularNumber = celularStringArray?.map(
       (
-        f
+        f 
       ) => {
         return String(
-          f
+          f 
         );
-      }
+      } 
     );
 
     const fijoNumber = fijoStringArray?.map(
       (
-        f
+        f 
       ) => {
         return String(
-          f
+          f 
         );
-      }
+      } 
     );
 
     this.fijo = fijoNumber
@@ -47,7 +47,7 @@ export class Tel {
 
 export class ClassDeudor implements IntDeudor {
   constructor(
-    rawCarpeta: RawDb
+    rawCarpeta: RawDb 
   ) {
     const {
       DEMANDADO_IDENTIFICACION: cedula,
@@ -58,10 +58,10 @@ export class ClassDeudor implements IntDeudor {
       NUMERO: id,
     } = rawCarpeta;
     this.id = Number(
-      id
+      id 
     );
     this.cedula = String(
-      cedula
+      cedula 
     );
     this.direccion = direccion
       ? direccion.toString()
@@ -71,11 +71,11 @@ export class ClassDeudor implements IntDeudor {
       : null;
 
     const {
-      fijo, celular
+      fijo, celular 
     } = new Tel(
       String(
-        telefono
-      )
+        telefono 
+      ) 
     );
     this.telCelular = celular;
     this.telFijo = fijo;
@@ -83,10 +83,10 @@ export class ClassDeudor implements IntDeudor {
     const nameStringArray = nombre
       ? nombre.trim()
         .split(
-          ' '
+          ' ' 
         )
       : 'Nelson Nuñez'.split(
-        ' '
+        ' ' 
       );
 
     const nameArrayLength = nameStringArray.length;
@@ -155,7 +155,7 @@ export class ClassDeudor implements IntDeudor {
   email: string | null;
 
   static prismaDeudor(
-    deudor: IntDeudor
+    deudor: IntDeudor 
   ) {
     const newDeudor: Prisma.DeudorCreateWithoutCarpetaInput = {
       id             : deudor.id,

@@ -14,27 +14,27 @@ export class ClassKey {
   ciudad: string = '001';
   entidad: string = '00';
   especialidad: string = '00';
-  despacho: string= '000';
+  despacho: string = '000';
   ano: string = '2017';
   codigoProceso: string = '00000';
   recurso: string = '00';
-  constructor (
-    llaveProceso: string
+  constructor(
+    llaveProceso: string 
   ) {
     const matchedNumbers = llaveProceso.matchAll(
-      /(\d+)/gm
+      /(\d+)/gm 
     );
 
-    for ( const matchedNumber  of matchedNumbers ) {
+    for ( const matchedNumber of matchedNumbers ) {
       console.log(
         matchedNumber.at(
-          1
-        )
+          1 
+        ) 
       );
     }
 
     const matcher = llaveProceso.matchAll(
-      /(\d{2})(\d{3})(\d{2})(\d{2})(\d{3})(\d{4})(\d{5})(\d+)/gm
+      /(\d{2})(\d{3})(\d{2})(\d{2})(\d{3})(\d{4})(\d{5})(\d+)/gm,
     );
 
     for ( const matched of matcher ) {
@@ -47,7 +47,7 @@ export class ClassKey {
         despacho,
         ano,
         codigoProceso,
-        recurso
+        recurso,
       ] = matched;
       this.departamento = deparamento;
       this.ciudad = ciudad;
@@ -57,80 +57,77 @@ export class ClassKey {
 
       this.despacho = despacho;
       despachosSet.add(
-        despacho
+        despacho 
       );
       this.ano = ano;
       this.codigoProceso = codigoProceso;
       this.recurso = recurso;
       console.log(
-        total
+        total 
       );
       console.log(
-        matched
+        matched 
       );
     }
 
     entitiesSet.add(
-      this.entidad
+      this.entidad 
     );
     especialidadSet.add(
-      this.especialidad
+      this.especialidad 
     );
     despachosSet.add(
-      this.despacho
+      this.despacho 
     );
     entitiesMap.add(
       {
         entidad     : this.entidad,
-        especialidad: this.especialidad
-      }
+        especialidad: this.especialidad,
+      } 
     );
-
-
   }
 }
-
 
 async function getLLaves() {
   const carpetas = await client.carpeta.findMany();
   return carpetas.map(
     (
-      carpeta
+      carpeta 
     ) => {
       return new ClassKey(
-        carpeta.llaveProceso
+        carpeta.llaveProceso 
       );
-    }
+    } 
   );
 }
 
 getLLaves()
   .then(
     (
-      rr
+      rr 
     ) => {
       const output = {
         classKeys: rr,
         entidades: Array.from(
-          entitiesSet
+          entitiesSet 
         ),
         especialidades: Array.from(
-          especialidadSet
+          especialidadSet 
         ),
         despachos: Array.from(
-          despachosSet
+          despachosSet 
         ),
         mapSet: Array.from(
-          entitiesMap
-        )
+          entitiesMap 
+        ),
       };
       console.log(
-        output
+        output 
       );
       fs.writeFile(
         'llavesProcesoParts.json', JSON.stringify(
-          output
-        )
+          output 
+        ) 
       );
-    }
+    } 
   );

@@ -9,10 +9,10 @@ export class NotasBuilder implements IntNota {
   content: string[] = [];
   id: string;
   constructor(
-    incomingNote: string, carpetaNumero?: number, index?:number
+    incomingNote: string, carpetaNumero?: number, index?: number 
   ) {
     const dateExtract = datesExtractor(
-      incomingNote
+      incomingNote 
     );
 
     if ( dateExtract.length === 0 ) {
@@ -26,8 +26,10 @@ export class NotasBuilder implements IntNota {
     this.pathname = null;
     this.id = `${ carpetaNumero
       ? carpetaNumero
-      : Date.now() }-${ index
-      ? index
-      : Math.random() }`;
+      : Date.now() }-${
+      index
+        ? index
+        : Math.random()
+    }`;
   }
 }

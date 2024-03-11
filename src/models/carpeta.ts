@@ -7,7 +7,7 @@ import { RawDb } from '../types/raw-db';
 import { ClassDemanda } from './demanda';
 import { ClassDeudor } from './deudor';
 import { NewJuzgado } from './juzgado';
-import {  NotasBuilder } from './nota';
+import { NotasBuilder } from './nota';
 
 export class Carpeta implements IntCarpeta {
   //PROPERTIES -todas las propiedades  que existen en la class carpeta
@@ -43,7 +43,7 @@ export class Carpeta implements IntCarpeta {
   //!PROPERTIES
   //CONSTRUCTOR - EL CONSTRUCTOR DE LA CARPETA
   constructor(
-    rawCarpeta: RawDb
+    rawCarpeta: RawDb 
   ) {
     const {
       NUMERO,
@@ -66,66 +66,65 @@ export class Carpeta implements IntCarpeta {
 
     if ( OBSERVACIONES ) {
       const extras = OBSERVACIONES.split(
-        '//'
+        '//' 
       );
       extras.forEach(
         (
-          nota
+          nota 
         ) => {
           notasCounter++;
 
           const newNoter = new NotasBuilder(
             nota, Number(
-              NUMERO
-            ), notasCounter
+              NUMERO 
+            ), notasCounter 
           );
           this.notas.push(
-            newNoter
+            newNoter 
           );
-        }
+        } 
       );
-
     }
 
     if ( EXTRA ) {
       console.log(
-        `EXTRAS === ${ EXTRA }`
+        `EXTRAS === ${ EXTRA }` 
       );
 
       const extras = String(
         EXTRA 
       )
         .split(
-          '//'
+          '//' 
         );
 
       extras.forEach(
         (
-          nota
+          nota 
         ) => {
           notasCounter++;
 
           const newNoter = new NotasBuilder(
             nota, Number(
-              NUMERO
-            ), notasCounter
+              NUMERO 
+            ), notasCounter 
           );
           this.notas.push(
-            newNoter
+            newNoter 
           );
-        }
+        } 
       );
     }
 
     const cedulaAsNumber = Number(
-      cedula
+      cedula 
     );
 
     if ( isNaN(
-      cedulaAsNumber
+      cedulaAsNumber 
     ) ) {
       idBuilder = Number(
-        NUMERO
+        NUMERO 
       );
     } else {
       idBuilder = cedulaAsNumber;
@@ -135,49 +134,49 @@ export class Carpeta implements IntCarpeta {
     this.id = idBuilder;
     this.idRegUltimaAct = null;
     this.numero = Number(
-      NUMERO
+      NUMERO 
     );
     this.category = category;
     this.deudor = new ClassDeudor(
-      rawCarpeta
+      rawCarpeta 
     );
 
     this.llaveProceso = String(
-      EXPEDIENTE
+      EXPEDIENTE 
     );
     this.demanda = new ClassDemanda(
-      rawCarpeta
+      rawCarpeta 
     );
     this.nombre = String(
-      DEMANDADO_NOMBRE
+      DEMANDADO_NOMBRE 
     );
     this.revisado = false;
     this.codeudor = {
       nombre: CODEUDOR_NOMBRE
         ? String(
-          CODEUDOR_NOMBRE
+          CODEUDOR_NOMBRE 
         )
         : null,
       cedula: CODEUDOR_IDENTIFICACION
         ? String(
-          CODEUDOR_IDENTIFICACION
+          CODEUDOR_IDENTIFICACION 
         )
         : null,
       direccion: CODEUDOR_DIRECCION
         ? String(
-          CODEUDOR_DIRECCION
+          CODEUDOR_DIRECCION 
         )
         : null,
       telefono: CODEUDOR_TELEFONOS
         ? String(
-          CODEUDOR_TELEFONOS
+          CODEUDOR_TELEFONOS 
         )
         : null,
       id: this.numero,
     };
     this.tipoProceso = TIPO_PROCESO
       ? tipoProcesoBuilder(
-        TIPO_PROCESO
+        TIPO_PROCESO 
       )
       : 'SINGULAR';
 
@@ -189,16 +188,15 @@ export class Carpeta implements IntCarpeta {
     this.ultimaActuacion = null;
     this.llaveProceso = EXPEDIENTE
       ? String(
-        EXPEDIENTE
+        EXPEDIENTE 
       )
       : 'SinEspecificar';
     this.numero = Number(
-      NUMERO
+      NUMERO 
     );
   }
   //!CONSTRUCTOR -
   //METHODS
-
 
   async getProcesos() {
     try {
@@ -211,8 +209,8 @@ export class Carpeta implements IntCarpeta {
 
         throw new Error(
           JSON.stringify(
-            json
-          )
+            json 
+          ) 
         );
       }
 
@@ -220,7 +218,7 @@ export class Carpeta implements IntCarpeta {
         = ( await request.json() ) as ConsultaNumeroRadicacion;
 
       const {
-        procesos
+        procesos 
       } = consultaProcesos;
 
       for ( const rawProceso of procesos ) {
@@ -232,31 +230,30 @@ export class Carpeta implements IntCarpeta {
           ...rawProceso,
           fechaProceso: rawProceso.fechaProceso
             ? new Date(
-              rawProceso.fechaProceso
+              rawProceso.fechaProceso 
             )
             : null,
-          fechaUltimaActuacion:
-            rawProceso.fechaUltimaActuacion
-              ? new Date(
-                rawProceso.fechaUltimaActuacion
-              )
-              : null,
+          fechaUltimaActuacion: rawProceso.fechaUltimaActuacion
+            ? new Date(
+              rawProceso.fechaUltimaActuacion 
+            )
+            : null,
           juzgado: new NewJuzgado(
-            rawProceso
+            rawProceso 
           ),
         };
         this.procesos.push(
-          proceso
+          proceso 
         );
         this.idProcesos.push(
-          proceso.idProceso
+          proceso.idProceso 
         );
       }
 
       return this.procesos;
     } catch ( error ) {
       console.log(
-        `${ this.numero } => error en CarpetaBuilder.getProcesos(${ this.llaveProceso }) => ${ error }`
+        `${ this.numero } => error en CarpetaBuilder.getProcesos(${ this.llaveProceso }) => ${ error }`,
       );
       return [];
     }
@@ -270,61 +267,60 @@ export class Carpeta implements IntCarpeta {
     for ( const idProceso of this.idProcesos ) {
       try {
         const request = await fetch(
-          `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`
+          `https://consultaprocesos.ramajudicial.gov.co:448/api/v2/Proceso/Actuaciones/${ idProceso }`,
         );
 
         if ( !request.ok ) {
           throw new Error(
-            request.statusText
+            request.statusText 
           );
         }
 
-        const consultaActuaciones
-          = ( await request.json() ) as ConsultaActuacion;
+        const consultaActuaciones = ( await request.json() ) as ConsultaActuacion;
 
         const {
-          actuaciones
+          actuaciones 
         } = consultaActuaciones;
 
         const outActuaciones = actuaciones.map(
           (
-            actuacion
+            actuacion 
           ) => {
             return {
               ...actuacion,
               idProceso: idProceso,
               isUltimaAct:
-                actuacion.cant === actuacion.consActuacion
-                  ? true
-                  : false,
+              actuacion.cant === actuacion.consActuacion
+                ? true
+                : false,
               fechaActuacion: new Date(
-                actuacion.fechaActuacion
+                actuacion.fechaActuacion 
               ),
               fechaRegistro: new Date(
-                actuacion.fechaRegistro
+                actuacion.fechaRegistro 
               ),
               fechaInicial: actuacion.fechaInicial
                 ? new Date(
-                  actuacion.fechaInicial
+                  actuacion.fechaInicial 
                 )
                 : null,
               fechaFinal: actuacion.fechaFinal
                 ? new Date(
-                  actuacion.fechaFinal
+                  actuacion.fechaFinal 
                 )
                 : null,
             };
-          }
+          } 
         );
 
         outActuaciones.forEach(
           (
-            actuacion
+            actuacion 
           ) => {
             this.actuaciones.push(
-              actuacion
+              actuacion 
             );
-          }
+          } 
         );
         continue;
       } catch ( error ) {
@@ -334,8 +330,8 @@ export class Carpeta implements IntCarpeta {
           } ERROR ==> getActuaciones ${ idProceso } => ${ JSON.stringify(
             error,
             null,
-            2
-          ) }`
+            2,
+          ) }`,
         );
         continue;
       }
@@ -344,7 +340,7 @@ export class Carpeta implements IntCarpeta {
     if ( this.actuaciones.length > 0 ) {
       const sorted = [ ...this.actuaciones ].sort(
         (
-          a, b
+          a, b 
         ) => {
           const fechaA = a.fechaActuacion;
 
@@ -357,7 +353,7 @@ export class Carpeta implements IntCarpeta {
           }
 
           return 0;
-        }
+        } 
       );
 
       const [ ultimaActuacion ] = sorted;
@@ -371,7 +367,7 @@ export class Carpeta implements IntCarpeta {
   //STATIC
 
   static prismaCarpeta(
-    carpeta: IntCarpeta
+    carpeta: IntCarpeta 
   ) {
     const newCarpeta: Prisma.CarpetaCreateInput = {
       id          : carpeta.id,
