@@ -1,11 +1,12 @@
 import { PrismaClient } from '@prisma/client';
 import * as fs from 'fs/promises';
-import { ConsultaActuacion, outActuacion } from './types/actuaciones';
+import { ConsultaActuacion,  outActuacion,  } from './types/actuaciones';
+import { actuacionHasAuto } from './utils/actuacion-has-important-pattern';
 
 export const prisma = new PrismaClient();
 
 async function fetcher(
-  idProceso: number 
+  idProceso: number
 ) {
   try {
     const request = await fetch(
@@ -25,29 +26,34 @@ async function fetcher(
     const json = ( await request.json() ) as ConsultaActuacion;
 
     const {
-      actuaciones 
+      actuaciones
     } = json;
 
     return actuaciones.map(
       (
-        actuacion 
+        actuacion
       ) => {
+
+        const withAuto = actuacionHasAuto(
+          actuacion
+        );
         return {
+          ...withAuto,
           ...actuacion,
           fechaActuacion: new Date(
-            actuacion.fechaActuacion 
+            actuacion.fechaActuacion
           ),
           fechaRegistro: new Date(
-            actuacion.fechaRegistro 
+            actuacion.fechaRegistro
           ),
           fechaInicial: actuacion.fechaInicial
             ? new Date(
-              actuacion.fechaInicial 
+              actuacion.fechaInicial
             )
             : null,
           fechaFinal: actuacion.fechaFinal
             ? new Date(
-              actuacion.fechaFinal 
+              actuacion.fechaFinal
             )
             : null,
           isUltimaAct: actuacion.cant === actuacion.consActuacion
@@ -55,11 +61,11 @@ async function fetcher(
             : false,
           idProceso: idProceso,
         };
-      } 
+      }
     );
   } catch ( error ) {
     console.log(
-      error 
+      error
     );
     return [];
   }
@@ -69,71 +75,71 @@ async function getIdProcesos() {
   const carpetas = await prisma.carpeta.findMany();
   return carpetas.flatMap(
     (
-      carpeta 
+      carpeta
     ) => {
       return carpeta.idProcesos;
-    } 
+    }
   );
 }
 
 async function* AsyncGenerateActuaciones(
-  idProcesos: number[] 
+  idProcesos: number[]
 ) {
   for ( const idProceso of idProcesos ) {
     const indexOf = idProcesos.indexOf(
-      idProceso 
+      idProceso
     );
     console.log(
-      indexOf 
+      indexOf
     );
 
     const fetcherIdProceso = await fetcher(
-      idProceso 
+      idProceso
     );
 
-    const [ ultimaActuacion ] = fetcherIdProceso;
-
     await prismaUpdaterActuaciones(
-      ultimaActuacion 
+      fetcherIdProceso
     );
 
     await prisma.actuacion.createMany(
       {
         data          : fetcherIdProceso,
         skipDuplicates: true,
-      } 
+      }
     );
     yield fetcherIdProceso;
   }
 }
 
 async function prismaUpdaterActuaciones(
-  ultimaActuacion: outActuacion 
+  actuacionesComplete: outActuacion[]
 ) {
+  const [ ultimaActuacion ] = actuacionesComplete;
+
   try {
     const carpeta = await prisma.carpeta.findFirstOrThrow(
       {
         where: {
           llaveProceso: ultimaActuacion.llaveProceso,
         },
-      } 
+      }
     );
 
     const incomingDate = new Date(
-      ultimaActuacion.fechaActuacion 
+      ultimaActuacion.fechaActuacion
     )
       .getTime();
 
     const savedDate = carpeta.fecha
       ? new Date(
-        carpeta.fecha 
+        carpeta.fecha
       )
         .getTime()
       : null;
 
     if ( !savedDate || savedDate < incomingDate ) {
       console.log(
-        'no hay saved date o la saved date es menor qque incoming date',
+        'no hay saved date o la saved date es menor que incoming date',
       );
       await prisma.carpeta.update(
         {
@@ -142,7 +148,7 @@ async function prismaUpdaterActuaciones(
           },
           data: {
             fecha: new Date(
-              ultimaActuacion.fechaActuacion 
+              ultimaActuacion.fechaActuacion
             ),
             revisado       : false,
             ultimaActuacion: {
@@ -156,7 +162,7 @@ async function prismaUpdaterActuaciones(
               },
             },
           },
-        } 
+        }
       );
 
       await fs.mkdir(
@@ -177,13 +183,13 @@ async function prismaUpdaterActuaciones(
           ultimaActuacion.idRegActuacion
         }.json`,
         JSON.stringify(
-          ultimaActuacion 
+          ultimaActuacion
         ),
       );
     }
   } catch ( error ) {
     console.log(
-      error 
+      error
     );
   }
 }
@@ -193,24 +199,24 @@ async function main() {
 
   const idProcesos = await getIdProcesos();
   console.log(
-    idProcesos 
+    idProcesos
   );
 
   for await ( const actuacionesJson of AsyncGenerateActuaciones(
-    idProcesos 
+    idProcesos
   ) ) {
     console.log(
-      actuacionesJson 
+      actuacionesJson
     );
     ActsMap.push(
-      actuacionesJson 
+      actuacionesJson
     );
   }
 
   fs.writeFile(
     'actuacionesOutput.json', JSON.stringify(
-      ActsMap 
-    ) 
+      ActsMap
+    )
   );
   return ActsMap;
 }
